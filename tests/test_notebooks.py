@@ -40,5 +40,24 @@ class NotebookTests(unittest.TestCase):
             if cell["cell_type"] == "code":
                 compile("".join(cell["source"]), "small", "exec")
 
+    def test_generated_instructions_progress_and_error_messages_are_english(self):
+        pin = "c"*40
+        documents = [builder.make_count(pin, stem, target) for stem, target in builder.TARGETS]
+        documents.append(builder.make_small(pin))
+        for document in documents:
+            source = "\n".join("".join(item["source"]) for item in document["cells"])
+            self.assertNotRegex(source, r"[\u0105\u0107\u0119\u0142\u0144\u00f3\u015b\u017a\u017c\u0104\u0106\u0118\u0141\u0143\u00d3\u015a\u0179\u017b]")
+            for message in ("Source commit mismatch", "Supervisor self-tests failed; computation will not start.",
+                            "Logs and checkpoints:", "Execution status:", "Results ZIP on Google Drive:",
+                            "The global proof remains unverified."):
+                self.assertIn(message, source)
+        count_intro = "".join(documents[0]["cells"][0]["source"])
+        self.assertIn("one conditional n25 count forest", count_intro)
+        self.assertIn("external wall-clock limit", count_intro)
+        self.assertIn("both checkpoint copies", count_intro)
+        small_intro = "".join(documents[-1]["cells"][0]["source"])
+        self.assertIn("complete supplied n2 and n3 finite certificates", small_intro)
+        self.assertIn("does not establish C4 or the all-index theorem", small_intro)
+
 if __name__ == "__main__":
     unittest.main()

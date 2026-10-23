@@ -213,5 +213,5 @@ def run_count(target, *, durable_root, work_root="/content/berry-esseen-runs",
         output = bundle(root, durable)
         event(root, "results_bundle_saved", path=str(output), state=status["state"],
               all_index_conclusion_verified=False)
-    print("\nWYNIK:", status["state"], "\nZIP:", output, flush=True)
+    print("\nRESULT:", status["state"], "\nZIP:", output, flush=True)
     return dict(status=status, bundle=str(output), work=str(root))

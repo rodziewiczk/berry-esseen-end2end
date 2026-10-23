@@ -433,7 +433,7 @@ def run_colab(*, durable_root, work_root="/content/berry-esseen-runs",
         output = bundle(root, durable)
         event(root, "small_indices_results_bundle_saved", path=str(output),
               state=status["state"], native_arithmetic_accepted=False)
-    print("\nWYNIK:", status["state"], "\nZIP:", output, flush=True)
+    print("\nRESULT:", status["state"], "\nZIP:", output, flush=True)
     return {"status": status, "bundle": str(output.resolve()), "work": str(root.resolve())}
 
 

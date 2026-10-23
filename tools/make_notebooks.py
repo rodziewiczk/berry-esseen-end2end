@@ -29,28 +29,28 @@ CODE_COMMIT = "{pin}"
 TASK = "{task}"
 REPOSITORY = "https://github.com/rodziewiczk/berry-esseen-end2end.git"
 CODE = Path("/content") / ("berry-esseen-code-" + CODE_COMMIT[:12])
-print("Pobieram przypięty kod:", CODE_COMMIT, flush=True)
+print("Fetching the pinned source commit:", CODE_COMMIT, flush=True)
 if not CODE.exists():
     subprocess.run(["git", "clone", "--quiet", "--no-checkout", REPOSITORY, str(CODE)], check=True)
     subprocess.run(["git", "-C", str(CODE), "checkout", "--quiet", "--detach", CODE_COMMIT], check=True)
 observed = subprocess.check_output(["git", "-C", str(CODE), "rev-parse", "HEAD"], text=True).strip()
 if observed != CODE_COMMIT:
-    raise RuntimeError("Niezgodny commit źródeł")
+    raise RuntimeError("Source commit mismatch")
 subprocess.run(["git", "-C", str(CODE), "diff", "--exit-code", "HEAD", "--"], check=True)
 sys.path.insert(0, str(CODE))
 from be_replay.environment import snapshot
 print(json.dumps(snapshot(), indent=2), flush=True)
-print("Kod i środowisko odczytane. To jeszcze nie akceptacja matematyczna.", flush=True)
+print("Source code and environment recorded. Mathematical acceptance has not yet been established.", flush=True)
 '''
     drive = '''from google.colab import drive
 drive.mount("/content/drive")
 DURABLE = Path("/content/drive/MyDrive/Berry-Esseen-end2end")
 DURABLE.mkdir(parents=True, exist_ok=True)
-print("Logi i checkpointy:", DURABLE, flush=True)
+print("Logs and checkpoints:", DURABLE, flush=True)
 '''
     tests = '''from datetime import datetime, timezone
 SELFTEST = DURABLE / ("selftest-" + TASK + "-" + datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ") + ".log")
-print("Sprawdzam nadzorcę na rzeczywistym Linuksie. To lekkie testy, bez dowodu.", flush=True)
+print("Testing the supervisor on the actual Linux runtime. These lightweight fixtures do not verify the mathematics.", flush=True)
 with SELFTEST.open("w", encoding="utf-8") as log:
     child = subprocess.Popen([sys.executable, "-B", "-S", "-m", "unittest", "discover",
                               "-s", "tests", "-p", "test_linux_supervisor.py", "-v"],
@@ -60,8 +60,8 @@ with SELFTEST.open("w", encoding="utf-8") as log:
         log.write(line); log.flush()
     code = child.wait()
 if code != 0:
-    raise RuntimeError("Test nadzorcy nie przeszedł; obliczenia nie wystartują. Log: " + str(SELFTEST))
-print("Test nadzorcy zakończony. Rozpoczynam właściwe zadanie.", flush=True)
+    raise RuntimeError("Supervisor self-tests failed; computation will not start. Log: " + str(SELFTEST))
+print("Supervisor self-tests passed. Starting the selected calculation.", flush=True)
 '''
     return [
         cell("code", code, "pinned-code"),
@@ -72,14 +72,14 @@ print("Test nadzorcy zakończony. Rozpoczynam właściwe zadanie.", flush=True)
 def finish():
     return cell("code", '''from IPython.display import display, FileLink
 from google.colab import files
-print("Stan:", RESULT["status"]["state"], flush=True)
-print("Globalny dowód nie jest oznaczony jako zamknięty.", flush=True)
-print("ZIP na Dysku:", RESULT["bundle"], flush=True)
+print("Execution status:", RESULT["status"]["state"], flush=True)
+print("The global proof remains unverified.", flush=True)
+print("Results ZIP on Google Drive:", RESULT["bundle"], flush=True)
 display(FileLink(RESULT["bundle"]))
 try:
     files.download(RESULT["bundle"])
 except Exception as error:
-    print("Pobierz ZIP z podanej ścieżki na Dysku:", error, flush=True)
+    print("Download the ZIP from the Google Drive path shown above:", error, flush=True)
 ''', "download-result")
 
 def notebook(cells, title):
@@ -90,16 +90,16 @@ def notebook(cells, title):
             "cells":cells}
 
 def make_count(pin, stem, target):
-    intro = f'''# Berry–Esseen: {target} — CPU, logi i checkpointy
+    intro = f'''# Berry–Esseen: {target} — CPU computation, logs and checkpoints
 
-Wybierz **Środowisko wykonawcze → Uruchom wszystko**. Zadanie jest już ustawione.
-Google może poprosić o zgodę na Dysk, aby zachować checkpointy po utracie sesji.
-Nie zmieniaj kodu i nie uruchamiaj dwóch kopii tego samego zadania równocześnie.
+Select **Runtime → Run all**. This notebook is preconfigured for the selected task.
+Google may request Drive authorization so that checkpoints survive a disconnected session.
+Keep the code unchanged and do not run concurrent copies of the same task.
 
-Najpierw krótki pomiar, potem do 3 godzin przydzielonego wyszukiwania w odcinkach.
-Każdy odcinek ma zewnętrzny limit czasu. Kompletne drzewo przechodzi osobny akceptor.
-Postęp jest widoczny w komórce oraz w plikach. Wynik częściowy zachowuje obie kopie checkpointu.
-Ten notebook dotyczy jednego warunkowego drzewa n25, nie całego twierdzenia.
+A short benchmark precedes up to 3 hours of allocated search, divided into bounded slices.
+Each slice has an external wall-clock limit. A complete candidate forest is submitted to a separate native checker.
+Progress is displayed in the cell and recorded in files. Partial results retain both checkpoint copies.
+This notebook concerns one conditional n25 count forest; it does not establish the all-index theorem.
 '''
     cells = [cell("markdown", intro, "instructions"), *common(pin, target)]
     cells.append(cell("code", f'''from be_replay.colab_batch import run_count
@@ -111,19 +111,19 @@ RESULT = run_count("{target}", durable_root=DURABLE,
 
 def make_small(pin):
     title = "08_n2_n3_cpu"
-    cells = [cell("markdown", """# Berry–Esseen: n2 i n3 — pełne obliczenia CPU
+    cells = [cell("markdown", """# Berry–Esseen: n2 and n3 — complete finite CPU calculations
 
-Wybierz **Uruchom wszystko**. Notebook sprawdza całe dostarczone certyfikaty n2 i n3,
-kompiluje jądro C++ ze źródeł i zapisuje postęp.
-Zgodność oryginalnej ochrony Windows i nowego wykonania Linux jest raportowana osobno.
-Sam ten wynik nie zamyka C4 ani całego twierdzenia.
+Select **Run all**. This notebook verifies the complete supplied n2 and n3 finite certificates,
+compiles the C++ kernel from source and records progress.
+The original Windows resource contract and the Linux execution contract are reported separately.
+This calculation does not establish C4 or the all-index theorem.
 """, "instructions"), *common(pin, "n2-n3")]
     cells.append(cell("code", '''import shutil
 if shutil.which("g++") is None or not Path("/usr/include/boost/multiprecision/cpp_int.hpp").exists():
-    print("Instaluję kompilator i nagłówki Boost z repozytorium systemowego Colaba.", flush=True)
+    print("Installing the compiler and Boost headers from Colab's system package repositories.", flush=True)
     subprocess.run(["apt-get", "update", "-qq"], check=True)
     subprocess.run(["apt-get", "install", "-y", "-qq", "g++", "libboost-dev"], check=True)
-print("Kompilator:", subprocess.check_output(["g++", "--version"], text=True).splitlines()[0], flush=True)
+print("Compiler:", subprocess.check_output(["g++", "--version"], text=True).splitlines()[0], flush=True)
 from be_replay.small_indices import run_colab
 RESULT = run_colab(durable_root=DURABLE)
 ''', "execute-small"))
