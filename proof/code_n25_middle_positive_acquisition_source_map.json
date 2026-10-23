@@ -1,0 +1,2334 @@
+{
+  "schema": "N25_MIDDLE_POSITIVE_B012_SOURCE_HAND_ALGEBRA_AUDIT_V1",
+  "review_kind": "fallible_internal_AI_source_and_hand_algebra_review",
+  "external_independent_verification": false,
+  "formal_verification": false,
+  "archived_math_modules_imported_or_executed": false,
+  "fresh_arithmetic_acceptance": false,
+  "all_index_conclusion_verified": false,
+  "archive": {
+    "filename": "cutoff25_20261011.zip",
+    "bytes": 514958998,
+    "sha256": "17fa140f63c5134ac48f1fd1040f4c5ae4bebdb2b92b2d7ce69f4048293d1fcb",
+    "transport_hash_reused_from_prior_inventory": true
+  },
+  "historical_final_selector": {
+    "archive": "cutoff25_20261013.zip",
+    "member": "cutoff25_20261013/root/global25_final_v2/GLOBAL_C25_COMPLETE_JOINED_V1.json",
+    "sha256": "abae7a25b9b82d8b0dd0fc691d33944038d2ffc6707c6f387561f8f17437563d",
+    "source_pin_count": 34269,
+    "selected_sources_are_not_arithmetic_acceptance": true
+  },
+  "reviewed_sources": [
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/initial_b0.py",
+      "sha256": "a9490484be5f4ec1c82be2cd1831f2cde51ddfbebfba873180fe448624a4ac12",
+      "bytes": 6996,
+      "lines": 83,
+      "scope": "full source: scalar/support profile and at-most8 unseeded complete covers to actual empty",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/initial_middle.py",
+      "sha256": "5237a1045623c849db3bdd75de9e7e5e512422477fab19fba5b11fac8f7dbce7",
+      "bytes": 6608,
+      "lines": 79,
+      "scope": "full source:12feedback+1deliberately relaxed export, full panel cover and acceptance",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/resources_middle.py",
+      "sha256": "5233c53ab9f992b4ee5f81ef2b4562cb85671aba4225e2ee4e536546f1afe1f6",
+      "bytes": 5608,
+      "lines": 58,
+      "scope": "full source: accepted INITIAL proof+timed receipt binding and all100 resource consequences",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/join_middle.py",
+      "sha256": "70af49a09085d085f1fa246b29884804301bd15e065e92c9c56c71301b4ed260",
+      "bytes": 4760,
+      "lines": 50,
+      "scope": "full source: complete all100 resource terminal join and parent interface",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/initial_middle.py",
+      "sha256": "5fa72fe41c08916288a4126702f18be5f217f06ff1c69b0e24c005e4b6d3b427",
+      "bytes": 6604,
+      "lines": 79,
+      "scope": "complete delta against B1: literal signed beta/support/export/profile changes and labels only",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/resources_middle.py",
+      "sha256": "a858448677aec89a3ccff1b46df024ff321f283835248944f0186bab1ce0be22",
+      "bytes": 5606,
+      "lines": 58,
+      "scope": "complete delta against B1: literal profile/accepted parent/export guards/schema only",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/local_middle.py",
+      "sha256": "fc381b52e057e21a05c16e5f789919bcc151cb4cd87d807d50fa9f1501432df8",
+      "bytes": 9290,
+      "lines": 97,
+      "scope": "full source: accepted parents, survivors23/24/25, same-law intersections/mean floor and finite4-cover exclusion",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/resource25_core.py",
+      "sha256": "98ce9652daeaa8535dadf236cac66876bb8072edd560f9b1d8765082e5dd5415",
+      "bytes": 10294,
+      "lines": 187,
+      "scope": "complete delta against high beta0: middle own/contact/support parameters and enforcedrho floor",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/resource25_core.py",
+      "sha256": "ef002a5b4eab676b9867dc7027c5031a738de4a20dd0c25fdef4c5715cb3bc82",
+      "bytes": 10292,
+      "lines": 187,
+      "scope": "complete delta against high beta0: middle own/contact/support parameters and enforcedrho floor",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/high25_transfers/reviews/compose_middle_positive_b0.py",
+      "sha256": "dd01521894041064b63b4b6a92ce6821f1a47c24df012da98b53190acf260335",
+      "bytes": 5835,
+      "lines": 57,
+      "scope": "full source: explicit finite feedback reconstruction, actual terminal empty and support/proof/receipt binding",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/high25_transfers/reviews/compose_middle_positive_b2.py",
+      "sha256": "4b9fb0c311da79355e963025c6b781e8eb3e8f40e2fda76763a29ddfbb6b2679",
+      "bytes": 12735,
+      "lines": 130,
+      "scope": "full source: accepted3stage inputs, complete local profile/mean floor reconstruction and terminal100p union",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    }
+  ],
+  "source_manifests": [
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/COPY_MANIFEST.json",
+      "sha256": "fe98b37f8ef31b3266357a8a8765bc26f15b5d4d75b46cd6ecb763b71d051078",
+      "declared_files": 31,
+      "files": [
+        {
+          "filename": "initial34.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/initial34.py",
+          "sha256": "a22630186fbb9a245b057e9328d579a87310605ae25c7926f112f4462064cf3e",
+          "bytes": 11700,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "initial34_indexed.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/initial34_indexed.py",
+          "sha256": "37c002305518111b600e461133947aed7e739530f60e316463cadad301a9a82b",
+          "bytes": 11852,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "kernel.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/kernel.py",
+          "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+          "bytes": 19042,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "cantelli_high.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/cantelli_high.py",
+          "sha256": "c95a6ce9d75fd2c5693de574f322859bcb29d25df4cada9facd96ed3edc02239",
+          "bytes": 1593,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "CANTELLI_HIGH_PROOF.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/CANTELLI_HIGH_PROOF.txt",
+          "sha256": "ac0d1c269e0a2f8511d504f85bb1e46f4272e82079c3835dd136ac9ca2900c8c",
+          "bytes": 2243,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "high_grid.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/high_grid.py",
+          "sha256": "a6b631ea8df0299e7bbd14f9d6afd21abd3f1693f66d24036cefda36f51c741a",
+          "bytes": 740,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_GRID_PROOF.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/HIGH_GRID_PROOF.txt",
+          "sha256": "950e4dc90d48bf1e88af138ccc15777bf36f0bad53040ca386d6c92b2c28f6d7",
+          "bytes": 756,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "integer_exphi.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/integer_exphi.py",
+          "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+          "bytes": 803,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "INTEGER_EXPHI_PROOF.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/INTEGER_EXPHI_PROOF.txt",
+          "sha256": "49378d83efbe4a44b0ac2c51fa9390fe798824ea85657f9ec05ece7376e9c59a",
+          "bytes": 1287,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "direct_gaussian_support.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/direct_gaussian_support.py",
+          "sha256": "5742afc0538fe3fb8473d087810ad391623d38a151f5b789e7520d256197c1d2",
+          "bytes": 5332,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "finite_binomial_core.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/finite_binomial_core.py",
+          "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+          "bytes": 3510,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "small_index_support.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/small_index_support.py",
+          "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+          "bytes": 2698,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "heat_support50.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/heat_support50.py",
+          "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+          "bytes": 4726,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "EXACT_OPTIMIZATION_PROOF.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/EXACT_OPTIMIZATION_PROOF.txt",
+          "sha256": "5f95c696ad1e22ed548abc41587277e66e38e0b7ab356f0e36353d2c9d65a943",
+          "bytes": 2457,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "FULL_CACHE_AND_PANEL_CHECKED.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/FULL_CACHE_AND_PANEL_CHECKED.json",
+          "sha256": "9cce433038af352abfdc94953305dcf3f1e4829c45bdaad1853151c15652efd0",
+          "bytes": 1541,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "INITIAL_CACHE_INDEPENDENT_REVIEW.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/INITIAL_CACHE_INDEPENDENT_REVIEW.json",
+          "sha256": "d7e528aa9ef6cf6f63ae6b7de8796753ce77ab97a31464f87d1eb3603870847f",
+          "bytes": 1545,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "high_window_core.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/high_window_core.py",
+          "sha256": "62ba022998f45e0e4f8628badfe5092ae0b8d2bc256d5c18614bfb44e63906a0",
+          "bytes": 2214,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "high_window_original.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/high_window_original.py",
+          "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+          "bytes": 1966,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_CONSTANTS_PROOF.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/HIGH_CONSTANTS_PROOF.txt",
+          "sha256": "f8d03be41c5c573b255ba03f8966ab8e038f833a83bd803d12b26e6ff887a16f",
+          "bytes": 566,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_CONSTANTS_CHECKED.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/HIGH_CONSTANTS_CHECKED.json",
+          "sha256": "937aea9fbc077fb04405ce5d2afbae5f20ce29dfb2a667f39d67ab3d7941b452",
+          "bytes": 748,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_EVALUATION_INDEPENDENT_REVIEW.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/HIGH_EVALUATION_INDEPENDENT_REVIEW.txt",
+          "sha256": "3654ad34b29cb06ea7120a44739302d0a1d641504bbb7191c649a1742657c08b",
+          "bytes": 2216,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_EVALUATION_INDEPENDENT_REVIEW.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/HIGH_EVALUATION_INDEPENDENT_REVIEW.json",
+          "sha256": "0ec060110028e77cd7d82277cf7774ec34e0c141b13ef5260efc0c7a433f7b42",
+          "bytes": 1071,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "P_LOCAL_MEAN_INITIAL_IMPLEMENTATION_REVIEW.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/P_LOCAL_MEAN_INITIAL_IMPLEMENTATION_REVIEW.json",
+          "sha256": "9d1a2b0c1195d724378dd08ac9a5fd046f441a9680a6f8a8f10377f6a4275652",
+          "bytes": 1263,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "P_LOCAL_MEAN_INITIAL_LEMMA.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/P_LOCAL_MEAN_INITIAL_LEMMA.txt",
+          "sha256": "b0507393929562530ea90ba8b03a61e9e0f4f64e6abc6fb8d7dea615be3b18cc",
+          "bytes": 1720,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "PRODUCT_GAP_DISTANCE_COROLLARY.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/PRODUCT_GAP_DISTANCE_COROLLARY.txt",
+          "sha256": "a0be5cb015735310e0993e9d6f3636b600b4d82e76a3f5239bef6d126d29b1cb",
+          "bytes": 2138,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_COMMON_INDEPENDENT_REVIEW.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/HIGH_COMMON_INDEPENDENT_REVIEW.json",
+          "sha256": "b3ab655e02aaecaa98299208aadd4efa892975a19f49d970302d3b97e08a0a48",
+          "bytes": 1369,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_COMMON_PROOF.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/HIGH_COMMON_PROOF.txt",
+          "sha256": "b4b1213afdae49d8815247b65ccd941eabcf03182aa167c746dc4d49faf16609",
+          "bytes": 2052,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "high_window_common.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/high_window_common.py",
+          "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+          "bytes": 2810,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "initial_b0.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/initial_b0.py",
+          "sha256": "a9490484be5f4ec1c82be2cd1831f2cde51ddfbebfba873180fe448624a4ac12",
+          "bytes": 6996,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "SOURCE_TRANSFORMS.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/SOURCE_TRANSFORMS.json",
+          "sha256": "9af113d188763bf75ca57170a4880e512b504c7dbc9835f8041cf0c919b6ae91",
+          "bytes": 7512,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "BRANCH_SCOPE.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/BRANCH_SCOPE.txt",
+          "sha256": "8297f0954b8df689e17e09ebdcf2363587989eb6647be49bab0647908a2e2279",
+          "bytes": 832,
+          "actual_bytes_match": true
+        }
+      ],
+      "all_declared_file_pins_match": true,
+      "historical_review_json_is_not_new_acceptance": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/COPY_MANIFEST.json",
+      "sha256": "06f6047224b1da8325b47671acdfe66d9d1fcce410f1c3846625928126da5cec",
+      "declared_files": 30,
+      "files": [
+        {
+          "filename": "initial34.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/initial34.py",
+          "sha256": "a22630186fbb9a245b057e9328d579a87310605ae25c7926f112f4462064cf3e",
+          "bytes": 11700,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "initial34_indexed.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/initial34_indexed.py",
+          "sha256": "37c002305518111b600e461133947aed7e739530f60e316463cadad301a9a82b",
+          "bytes": 11852,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "kernel.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/kernel.py",
+          "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+          "bytes": 19042,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "cantelli_high.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/cantelli_high.py",
+          "sha256": "c95a6ce9d75fd2c5693de574f322859bcb29d25df4cada9facd96ed3edc02239",
+          "bytes": 1593,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "CANTELLI_HIGH_PROOF.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/CANTELLI_HIGH_PROOF.txt",
+          "sha256": "ac0d1c269e0a2f8511d504f85bb1e46f4272e82079c3835dd136ac9ca2900c8c",
+          "bytes": 2243,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "high_grid.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/high_grid.py",
+          "sha256": "a6b631ea8df0299e7bbd14f9d6afd21abd3f1693f66d24036cefda36f51c741a",
+          "bytes": 740,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_GRID_PROOF.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/HIGH_GRID_PROOF.txt",
+          "sha256": "950e4dc90d48bf1e88af138ccc15777bf36f0bad53040ca386d6c92b2c28f6d7",
+          "bytes": 756,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "integer_exphi.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/integer_exphi.py",
+          "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+          "bytes": 803,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "INTEGER_EXPHI_PROOF.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/INTEGER_EXPHI_PROOF.txt",
+          "sha256": "49378d83efbe4a44b0ac2c51fa9390fe798824ea85657f9ec05ece7376e9c59a",
+          "bytes": 1287,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "direct_gaussian_support.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/direct_gaussian_support.py",
+          "sha256": "5742afc0538fe3fb8473d087810ad391623d38a151f5b789e7520d256197c1d2",
+          "bytes": 5332,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "finite_binomial_core.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/finite_binomial_core.py",
+          "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+          "bytes": 3510,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "small_index_support.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/small_index_support.py",
+          "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+          "bytes": 2698,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "heat_support50.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/heat_support50.py",
+          "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+          "bytes": 4726,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "EXACT_OPTIMIZATION_PROOF.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/EXACT_OPTIMIZATION_PROOF.txt",
+          "sha256": "5f95c696ad1e22ed548abc41587277e66e38e0b7ab356f0e36353d2c9d65a943",
+          "bytes": 2457,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "FULL_CACHE_AND_PANEL_CHECKED.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/FULL_CACHE_AND_PANEL_CHECKED.json",
+          "sha256": "9cce433038af352abfdc94953305dcf3f1e4829c45bdaad1853151c15652efd0",
+          "bytes": 1541,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "INITIAL_CACHE_INDEPENDENT_REVIEW.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/INITIAL_CACHE_INDEPENDENT_REVIEW.json",
+          "sha256": "d7e528aa9ef6cf6f63ae6b7de8796753ce77ab97a31464f87d1eb3603870847f",
+          "bytes": 1545,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "high_window_core.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/high_window_core.py",
+          "sha256": "62ba022998f45e0e4f8628badfe5092ae0b8d2bc256d5c18614bfb44e63906a0",
+          "bytes": 2214,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "high_window_original.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/high_window_original.py",
+          "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+          "bytes": 1966,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_CONSTANTS_PROOF.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/HIGH_CONSTANTS_PROOF.txt",
+          "sha256": "f8d03be41c5c573b255ba03f8966ab8e038f833a83bd803d12b26e6ff887a16f",
+          "bytes": 566,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_CONSTANTS_CHECKED.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/HIGH_CONSTANTS_CHECKED.json",
+          "sha256": "937aea9fbc077fb04405ce5d2afbae5f20ce29dfb2a667f39d67ab3d7941b452",
+          "bytes": 748,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_EVALUATION_INDEPENDENT_REVIEW.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/HIGH_EVALUATION_INDEPENDENT_REVIEW.txt",
+          "sha256": "3654ad34b29cb06ea7120a44739302d0a1d641504bbb7191c649a1742657c08b",
+          "bytes": 2216,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_EVALUATION_INDEPENDENT_REVIEW.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/HIGH_EVALUATION_INDEPENDENT_REVIEW.json",
+          "sha256": "0ec060110028e77cd7d82277cf7774ec34e0c141b13ef5260efc0c7a433f7b42",
+          "bytes": 1071,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "P_LOCAL_MEAN_INITIAL_IMPLEMENTATION_REVIEW.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/P_LOCAL_MEAN_INITIAL_IMPLEMENTATION_REVIEW.json",
+          "sha256": "9d1a2b0c1195d724378dd08ac9a5fd046f441a9680a6f8a8f10377f6a4275652",
+          "bytes": 1263,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "P_LOCAL_MEAN_INITIAL_LEMMA.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/P_LOCAL_MEAN_INITIAL_LEMMA.txt",
+          "sha256": "b0507393929562530ea90ba8b03a61e9e0f4f64e6abc6fb8d7dea615be3b18cc",
+          "bytes": 1720,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "PRODUCT_GAP_DISTANCE_COROLLARY.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/PRODUCT_GAP_DISTANCE_COROLLARY.txt",
+          "sha256": "a0be5cb015735310e0993e9d6f3636b600b4d82e76a3f5239bef6d126d29b1cb",
+          "bytes": 2138,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_COMMON_INDEPENDENT_REVIEW.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/HIGH_COMMON_INDEPENDENT_REVIEW.json",
+          "sha256": "b3ab655e02aaecaa98299208aadd4efa892975a19f49d970302d3b97e08a0a48",
+          "bytes": 1369,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_COMMON_PROOF.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/HIGH_COMMON_PROOF.txt",
+          "sha256": "b4b1213afdae49d8815247b65ccd941eabcf03182aa167c746dc4d49faf16609",
+          "bytes": 2052,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "high_window_common.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/high_window_common.py",
+          "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+          "bytes": 2810,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "initial_middle.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/initial_middle.py",
+          "sha256": "5237a1045623c849db3bdd75de9e7e5e512422477fab19fba5b11fac8f7dbce7",
+          "bytes": 6608,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "INITIAL_SOURCE_TRANSFORMS.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/INITIAL_SOURCE_TRANSFORMS.json",
+          "sha256": "9ba7adec9526850786979b24624cbc6a4232eae535652d36455c9cde79137f2e",
+          "bytes": 1214,
+          "actual_bytes_match": true
+        }
+      ],
+      "all_declared_file_pins_match": true,
+      "historical_review_json_is_not_new_acceptance": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/COPY_MANIFEST.json",
+      "sha256": "101acd6ba10c83b87619f5ae684018f5ede264130ea598e5f1531f1db0f4bbae",
+      "declared_files": 33,
+      "files": [
+        {
+          "filename": "high_window_common.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/high_window_common.py",
+          "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+          "bytes": 2810,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "signed_variance_resource.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/signed_variance_resource.py",
+          "sha256": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8",
+          "bytes": 1785,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "GENERAL_PAIRED_EXACT_REVIEW.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/GENERAL_PAIRED_EXACT_REVIEW.txt",
+          "sha256": "f2a36127f2c34ab03e2ff8e4c73f9afa46651e73c4b4cae0004975c6438ddeaa",
+          "bytes": 3297,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "paired_extended.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/paired_extended.py",
+          "sha256": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998",
+          "bytes": 2854,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "kernel.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/kernel.py",
+          "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+          "bytes": 19042,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_COMMON_INDEPENDENT_REVIEW.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/HIGH_COMMON_INDEPENDENT_REVIEW.json",
+          "sha256": "b3ab655e02aaecaa98299208aadd4efa892975a19f49d970302d3b97e08a0a48",
+          "bytes": 1369,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "make_charged35_resources.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/make_charged35_resources.py",
+          "sha256": "f07e4a9c4bf77584df8a2905cec0dabfe67973cddffd0698bba053d340491b66",
+          "bytes": 1901,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_CONSTANTS_PROOF.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/HIGH_CONSTANTS_PROOF.txt",
+          "sha256": "f8d03be41c5c573b255ba03f8966ab8e038f833a83bd803d12b26e6ff887a16f",
+          "bytes": 566,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "finite_gaussian.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/finite_gaussian.py",
+          "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+          "bytes": 3510,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "integer_exphi.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/integer_exphi.py",
+          "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+          "bytes": 803,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "geometric_moment_both.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/geometric_moment_both.py",
+          "sha256": "ea17218cdad6c409dacf8d4a37b437453fbf7aab3683867d16783cb696206616",
+          "bytes": 2100,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "GENERAL_PAIRED_PROOF.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/GENERAL_PAIRED_PROOF.txt",
+          "sha256": "ec58bb8c1c8df0ff3eb019ffd61988ee37c696149e934e7ca403a31c856f3bda",
+          "bytes": 4577,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_EVALUATION_INDEPENDENT_REVIEW.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/HIGH_EVALUATION_INDEPENDENT_REVIEW.txt",
+          "sha256": "3654ad34b29cb06ea7120a44739302d0a1d641504bbb7191c649a1742657c08b",
+          "bytes": 2216,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "heat_support50.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/heat_support50.py",
+          "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+          "bytes": 4726,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_CONSTANTS_CHECKED.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/HIGH_CONSTANTS_CHECKED.json",
+          "sha256": "937aea9fbc077fb04405ce5d2afbae5f20ce29dfb2a667f39d67ab3d7941b452",
+          "bytes": 748,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "general_paired_exact.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/general_paired_exact.py",
+          "sha256": "e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96",
+          "bytes": 4013,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "high_window_core.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/high_window_core.py",
+          "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+          "bytes": 1966,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "PRODUCT_GAP_DISTANCE_COROLLARY.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/PRODUCT_GAP_DISTANCE_COROLLARY.txt",
+          "sha256": "a0be5cb015735310e0993e9d6f3636b600b4d82e76a3f5239bef6d126d29b1cb",
+          "bytes": 2138,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "BETA0_HIGH25_RESOURCE_PORT_REVIEW.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/BETA0_HIGH25_RESOURCE_PORT_REVIEW.json",
+          "sha256": "ebcab8726857fb89c4eaa861a1a4feed02a9910b8e609f35f433ea1b6b573640",
+          "bytes": 4641,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "direct_gaussian_support.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/direct_gaussian_support.py",
+          "sha256": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57",
+          "bytes": 5306,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "small_index_support.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/small_index_support.py",
+          "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+          "bytes": 2698,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "resource25_core.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/resource25_core.py",
+          "sha256": "98ce9652daeaa8535dadf236cac66876bb8072edd560f9b1d8765082e5dd5415",
+          "bytes": 10294,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "candidate_charged_score_v2.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/candidate_charged_score_v2.py",
+          "sha256": "20f3c102f7b77b5ef49b0e6282cfacb3e24975f207296a5b74b27c0af6cdc6b4",
+          "bytes": 6662,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "contracted_kernel.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/contracted_kernel.py",
+          "sha256": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0",
+          "bytes": 20457,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "high_window_original.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/high_window_original.py",
+          "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+          "bytes": 1966,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "POSITIVE_GAP_RESOURCE_EXTENSION.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/POSITIVE_GAP_RESOURCE_EXTENSION.txt",
+          "sha256": "0bf6ae992f6b8c4b8c344b178f715c9717d1083c2fce317b7cdb0dc151e210f2",
+          "bytes": 5007,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "corrected_phase_callback_extended.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/corrected_phase_callback_extended.py",
+          "sha256": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63",
+          "bytes": 1164,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "PRODUCT_GAP_IMPLEMENTATION_REVIEW.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/PRODUCT_GAP_IMPLEMENTATION_REVIEW.txt",
+          "sha256": "274981799dd37ad2f11bc64334d38d416ab71f0b7f4635b44a53d8edaf24fc55",
+          "bytes": 2344,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_COMMON_PROOF.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/HIGH_COMMON_PROOF.txt",
+          "sha256": "b4b1213afdae49d8815247b65ccd941eabcf03182aa167c746dc4d49faf16609",
+          "bytes": 2052,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "finite_binomial_core.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/finite_binomial_core.py",
+          "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+          "bytes": 3510,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "MEMOIZATION_IDENTITY_PROOF.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/MEMOIZATION_IDENTITY_PROOF.txt",
+          "sha256": "5f95c696ad1e22ed548abc41587277e66e38e0b7ab356f0e36353d2c9d65a943",
+          "bytes": 2457,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "INTEGER_EXPHI_PROOF.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/INTEGER_EXPHI_PROOF.txt",
+          "sha256": "49378d83efbe4a44b0ac2c51fa9390fe798824ea85657f9ec05ece7376e9c59a",
+          "bytes": 1287,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "CORE_SOURCE_TRANSFORMS.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/CORE_SOURCE_TRANSFORMS.json",
+          "sha256": "afccd434845d48279c816f0212325573c27a64c99f1b70b9300172ec15a26869",
+          "bytes": 390,
+          "actual_bytes_match": true
+        }
+      ],
+      "all_declared_file_pins_match": true,
+      "historical_review_json_is_not_new_acceptance": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/PROTOCOL_MANIFEST.json",
+      "sha256": "081f6e919a903cc49b7297e84c8875112c1e800ab1919f694e1314f7974be447",
+      "declared_files": 7,
+      "files": [
+        {
+          "filename": "resources_middle.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/resources_middle.py",
+          "sha256": "5233c53ab9f992b4ee5f81ef2b4562cb85671aba4225e2ee4e536546f1afe1f6",
+          "bytes": 5608,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "COPY_MANIFEST.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/COPY_MANIFEST.json",
+          "sha256": "101acd6ba10c83b87619f5ae684018f5ede264130ea598e5f1531f1db0f4bbae",
+          "bytes": 3414,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "CORE_SOURCE_TRANSFORMS.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/CORE_SOURCE_TRANSFORMS.json",
+          "sha256": "afccd434845d48279c816f0212325573c27a64c99f1b70b9300172ec15a26869",
+          "bytes": 390,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "../COPY_MANIFEST.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/COPY_MANIFEST.json",
+          "sha256": "06f6047224b1da8325b47671acdfe66d9d1fcce410f1c3846625928126da5cec",
+          "bytes": 3090,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "../COPIED_SOURCES.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/COPIED_SOURCES.json",
+          "sha256": "6f31400670ece76782e532634e8feeab2b35bd45b6116e1343fbace7c4668e7d",
+          "bytes": 19321,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "../INITIAL_SOURCE_TRANSFORMS.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/INITIAL_SOURCE_TRANSFORMS.json",
+          "sha256": "9ba7adec9526850786979b24624cbc6a4232eae535652d36455c9cde79137f2e",
+          "bytes": 1214,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "../BRANCH_SCOPE.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/BRANCH_SCOPE.txt",
+          "sha256": "26ac1bfdcf093a5555bdbc41e6cbe5f1b3f2c66d490307cc7a887d040a8fc0bb",
+          "bytes": 1752,
+          "actual_bytes_match": true
+        }
+      ],
+      "all_declared_file_pins_match": true,
+      "historical_review_json_is_not_new_acceptance": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/COPY_MANIFEST.json",
+      "sha256": "0d98f85167773a361404967304b598d81ba6029d6041c3b493fec977d3b7dec5",
+      "declared_files": 30,
+      "files": [
+        {
+          "filename": "initial34.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/initial34.py",
+          "sha256": "a22630186fbb9a245b057e9328d579a87310605ae25c7926f112f4462064cf3e",
+          "bytes": 11700,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "initial34_indexed.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/initial34_indexed.py",
+          "sha256": "37c002305518111b600e461133947aed7e739530f60e316463cadad301a9a82b",
+          "bytes": 11852,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "kernel.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/kernel.py",
+          "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+          "bytes": 19042,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "cantelli_high.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/cantelli_high.py",
+          "sha256": "c95a6ce9d75fd2c5693de574f322859bcb29d25df4cada9facd96ed3edc02239",
+          "bytes": 1593,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "CANTELLI_HIGH_PROOF.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/CANTELLI_HIGH_PROOF.txt",
+          "sha256": "ac0d1c269e0a2f8511d504f85bb1e46f4272e82079c3835dd136ac9ca2900c8c",
+          "bytes": 2243,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "high_grid.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/high_grid.py",
+          "sha256": "a6b631ea8df0299e7bbd14f9d6afd21abd3f1693f66d24036cefda36f51c741a",
+          "bytes": 740,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_GRID_PROOF.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/HIGH_GRID_PROOF.txt",
+          "sha256": "950e4dc90d48bf1e88af138ccc15777bf36f0bad53040ca386d6c92b2c28f6d7",
+          "bytes": 756,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "integer_exphi.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/integer_exphi.py",
+          "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+          "bytes": 803,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "INTEGER_EXPHI_PROOF.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/INTEGER_EXPHI_PROOF.txt",
+          "sha256": "49378d83efbe4a44b0ac2c51fa9390fe798824ea85657f9ec05ece7376e9c59a",
+          "bytes": 1287,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "direct_gaussian_support.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/direct_gaussian_support.py",
+          "sha256": "5742afc0538fe3fb8473d087810ad391623d38a151f5b789e7520d256197c1d2",
+          "bytes": 5332,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "finite_binomial_core.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/finite_binomial_core.py",
+          "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+          "bytes": 3510,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "small_index_support.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/small_index_support.py",
+          "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+          "bytes": 2698,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "heat_support50.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/heat_support50.py",
+          "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+          "bytes": 4726,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "EXACT_OPTIMIZATION_PROOF.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/EXACT_OPTIMIZATION_PROOF.txt",
+          "sha256": "5f95c696ad1e22ed548abc41587277e66e38e0b7ab356f0e36353d2c9d65a943",
+          "bytes": 2457,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "FULL_CACHE_AND_PANEL_CHECKED.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/FULL_CACHE_AND_PANEL_CHECKED.json",
+          "sha256": "9cce433038af352abfdc94953305dcf3f1e4829c45bdaad1853151c15652efd0",
+          "bytes": 1541,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "INITIAL_CACHE_INDEPENDENT_REVIEW.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/INITIAL_CACHE_INDEPENDENT_REVIEW.json",
+          "sha256": "d7e528aa9ef6cf6f63ae6b7de8796753ce77ab97a31464f87d1eb3603870847f",
+          "bytes": 1545,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "high_window_core.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/high_window_core.py",
+          "sha256": "62ba022998f45e0e4f8628badfe5092ae0b8d2bc256d5c18614bfb44e63906a0",
+          "bytes": 2214,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "high_window_original.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/high_window_original.py",
+          "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+          "bytes": 1966,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_CONSTANTS_PROOF.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/HIGH_CONSTANTS_PROOF.txt",
+          "sha256": "f8d03be41c5c573b255ba03f8966ab8e038f833a83bd803d12b26e6ff887a16f",
+          "bytes": 566,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_CONSTANTS_CHECKED.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/HIGH_CONSTANTS_CHECKED.json",
+          "sha256": "937aea9fbc077fb04405ce5d2afbae5f20ce29dfb2a667f39d67ab3d7941b452",
+          "bytes": 748,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_EVALUATION_INDEPENDENT_REVIEW.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/HIGH_EVALUATION_INDEPENDENT_REVIEW.txt",
+          "sha256": "3654ad34b29cb06ea7120a44739302d0a1d641504bbb7191c649a1742657c08b",
+          "bytes": 2216,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_EVALUATION_INDEPENDENT_REVIEW.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/HIGH_EVALUATION_INDEPENDENT_REVIEW.json",
+          "sha256": "0ec060110028e77cd7d82277cf7774ec34e0c141b13ef5260efc0c7a433f7b42",
+          "bytes": 1071,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "P_LOCAL_MEAN_INITIAL_IMPLEMENTATION_REVIEW.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/P_LOCAL_MEAN_INITIAL_IMPLEMENTATION_REVIEW.json",
+          "sha256": "9d1a2b0c1195d724378dd08ac9a5fd046f441a9680a6f8a8f10377f6a4275652",
+          "bytes": 1263,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "P_LOCAL_MEAN_INITIAL_LEMMA.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/P_LOCAL_MEAN_INITIAL_LEMMA.txt",
+          "sha256": "b0507393929562530ea90ba8b03a61e9e0f4f64e6abc6fb8d7dea615be3b18cc",
+          "bytes": 1720,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "PRODUCT_GAP_DISTANCE_COROLLARY.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/PRODUCT_GAP_DISTANCE_COROLLARY.txt",
+          "sha256": "a0be5cb015735310e0993e9d6f3636b600b4d82e76a3f5239bef6d126d29b1cb",
+          "bytes": 2138,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_COMMON_INDEPENDENT_REVIEW.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/HIGH_COMMON_INDEPENDENT_REVIEW.json",
+          "sha256": "b3ab655e02aaecaa98299208aadd4efa892975a19f49d970302d3b97e08a0a48",
+          "bytes": 1369,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_COMMON_PROOF.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/HIGH_COMMON_PROOF.txt",
+          "sha256": "b4b1213afdae49d8815247b65ccd941eabcf03182aa167c746dc4d49faf16609",
+          "bytes": 2052,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "high_window_common.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/high_window_common.py",
+          "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+          "bytes": 2810,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "initial_middle.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/initial_middle.py",
+          "sha256": "5fa72fe41c08916288a4126702f18be5f217f06ff1c69b0e24c005e4b6d3b427",
+          "bytes": 6604,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "INITIAL_SOURCE_TRANSFORMS.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/INITIAL_SOURCE_TRANSFORMS.json",
+          "sha256": "4e5005616f0e73c9f8d9c4fb738786f79102957caa8e2eaac66472dd3a70f507",
+          "bytes": 833,
+          "actual_bytes_match": true
+        }
+      ],
+      "all_declared_file_pins_match": true,
+      "historical_review_json_is_not_new_acceptance": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/COPY_MANIFEST.json",
+      "sha256": "e2600b479bdb56db2fe9cb15265cc3f254ef876f2eedd4226458c23cca4eeb19",
+      "declared_files": 33,
+      "files": [
+        {
+          "filename": "high_window_common.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/high_window_common.py",
+          "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+          "bytes": 2810,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "signed_variance_resource.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/signed_variance_resource.py",
+          "sha256": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8",
+          "bytes": 1785,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "GENERAL_PAIRED_EXACT_REVIEW.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/GENERAL_PAIRED_EXACT_REVIEW.txt",
+          "sha256": "f2a36127f2c34ab03e2ff8e4c73f9afa46651e73c4b4cae0004975c6438ddeaa",
+          "bytes": 3297,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "paired_extended.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/paired_extended.py",
+          "sha256": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998",
+          "bytes": 2854,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "kernel.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/kernel.py",
+          "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+          "bytes": 19042,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_COMMON_INDEPENDENT_REVIEW.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/HIGH_COMMON_INDEPENDENT_REVIEW.json",
+          "sha256": "b3ab655e02aaecaa98299208aadd4efa892975a19f49d970302d3b97e08a0a48",
+          "bytes": 1369,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "make_charged35_resources.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/make_charged35_resources.py",
+          "sha256": "f07e4a9c4bf77584df8a2905cec0dabfe67973cddffd0698bba053d340491b66",
+          "bytes": 1901,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_CONSTANTS_PROOF.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/HIGH_CONSTANTS_PROOF.txt",
+          "sha256": "f8d03be41c5c573b255ba03f8966ab8e038f833a83bd803d12b26e6ff887a16f",
+          "bytes": 566,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "finite_gaussian.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/finite_gaussian.py",
+          "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+          "bytes": 3510,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "integer_exphi.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/integer_exphi.py",
+          "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+          "bytes": 803,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "geometric_moment_both.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/geometric_moment_both.py",
+          "sha256": "ea17218cdad6c409dacf8d4a37b437453fbf7aab3683867d16783cb696206616",
+          "bytes": 2100,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "GENERAL_PAIRED_PROOF.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/GENERAL_PAIRED_PROOF.txt",
+          "sha256": "ec58bb8c1c8df0ff3eb019ffd61988ee37c696149e934e7ca403a31c856f3bda",
+          "bytes": 4577,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_EVALUATION_INDEPENDENT_REVIEW.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/HIGH_EVALUATION_INDEPENDENT_REVIEW.txt",
+          "sha256": "3654ad34b29cb06ea7120a44739302d0a1d641504bbb7191c649a1742657c08b",
+          "bytes": 2216,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "heat_support50.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/heat_support50.py",
+          "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+          "bytes": 4726,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_CONSTANTS_CHECKED.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/HIGH_CONSTANTS_CHECKED.json",
+          "sha256": "937aea9fbc077fb04405ce5d2afbae5f20ce29dfb2a667f39d67ab3d7941b452",
+          "bytes": 748,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "general_paired_exact.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/general_paired_exact.py",
+          "sha256": "e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96",
+          "bytes": 4013,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "high_window_core.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/high_window_core.py",
+          "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+          "bytes": 1966,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "PRODUCT_GAP_DISTANCE_COROLLARY.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/PRODUCT_GAP_DISTANCE_COROLLARY.txt",
+          "sha256": "a0be5cb015735310e0993e9d6f3636b600b4d82e76a3f5239bef6d126d29b1cb",
+          "bytes": 2138,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "BETA0_HIGH25_RESOURCE_PORT_REVIEW.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/BETA0_HIGH25_RESOURCE_PORT_REVIEW.json",
+          "sha256": "ebcab8726857fb89c4eaa861a1a4feed02a9910b8e609f35f433ea1b6b573640",
+          "bytes": 4641,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "direct_gaussian_support.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/direct_gaussian_support.py",
+          "sha256": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57",
+          "bytes": 5306,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "small_index_support.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/small_index_support.py",
+          "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+          "bytes": 2698,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "resource25_core.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/resource25_core.py",
+          "sha256": "ef002a5b4eab676b9867dc7027c5031a738de4a20dd0c25fdef4c5715cb3bc82",
+          "bytes": 10292,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "candidate_charged_score_v2.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/candidate_charged_score_v2.py",
+          "sha256": "20f3c102f7b77b5ef49b0e6282cfacb3e24975f207296a5b74b27c0af6cdc6b4",
+          "bytes": 6662,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "contracted_kernel.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/contracted_kernel.py",
+          "sha256": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0",
+          "bytes": 20457,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "high_window_original.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/high_window_original.py",
+          "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+          "bytes": 1966,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "POSITIVE_GAP_RESOURCE_EXTENSION.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/POSITIVE_GAP_RESOURCE_EXTENSION.txt",
+          "sha256": "0bf6ae992f6b8c4b8c344b178f715c9717d1083c2fce317b7cdb0dc151e210f2",
+          "bytes": 5007,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "corrected_phase_callback_extended.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/corrected_phase_callback_extended.py",
+          "sha256": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63",
+          "bytes": 1164,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "PRODUCT_GAP_IMPLEMENTATION_REVIEW.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/PRODUCT_GAP_IMPLEMENTATION_REVIEW.txt",
+          "sha256": "274981799dd37ad2f11bc64334d38d416ab71f0b7f4635b44a53d8edaf24fc55",
+          "bytes": 2344,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_COMMON_PROOF.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/HIGH_COMMON_PROOF.txt",
+          "sha256": "b4b1213afdae49d8815247b65ccd941eabcf03182aa167c746dc4d49faf16609",
+          "bytes": 2052,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "finite_binomial_core.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/finite_binomial_core.py",
+          "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+          "bytes": 3510,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "MEMOIZATION_IDENTITY_PROOF.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/MEMOIZATION_IDENTITY_PROOF.txt",
+          "sha256": "5f95c696ad1e22ed548abc41587277e66e38e0b7ab356f0e36353d2c9d65a943",
+          "bytes": 2457,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "INTEGER_EXPHI_PROOF.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/INTEGER_EXPHI_PROOF.txt",
+          "sha256": "49378d83efbe4a44b0ac2c51fa9390fe798824ea85657f9ec05ece7376e9c59a",
+          "bytes": 1287,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "CORE_SOURCE_TRANSFORMS.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/CORE_SOURCE_TRANSFORMS.json",
+          "sha256": "313334ec98434a08a43ff1ac827c57fbf81b2d2ccbff8ce959d333535818a475",
+          "bytes": 315,
+          "actual_bytes_match": true
+        }
+      ],
+      "all_declared_file_pins_match": true,
+      "historical_review_json_is_not_new_acceptance": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/PROTOCOL_MANIFEST.json",
+      "sha256": "3ea191c8f29ee6fdf9b768fec43c15be2f630ce62c9d240fc9ca00e2756cfeac",
+      "declared_files": 8,
+      "files": [
+        {
+          "filename": "resources_middle.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/resources_middle.py",
+          "sha256": "a858448677aec89a3ccff1b46df024ff321f283835248944f0186bab1ce0be22",
+          "bytes": 5606,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "COPY_MANIFEST.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/COPY_MANIFEST.json",
+          "sha256": "e2600b479bdb56db2fe9cb15265cc3f254ef876f2eedd4226458c23cca4eeb19",
+          "bytes": 3427,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "CORE_SOURCE_TRANSFORMS.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/CORE_SOURCE_TRANSFORMS.json",
+          "sha256": "313334ec98434a08a43ff1ac827c57fbf81b2d2ccbff8ce959d333535818a475",
+          "bytes": 315,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "../COPY_MANIFEST.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/COPY_MANIFEST.json",
+          "sha256": "0d98f85167773a361404967304b598d81ba6029d6041c3b493fec977d3b7dec5",
+          "bytes": 3094,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "../COPIED_SOURCES.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/COPIED_SOURCES.json",
+          "sha256": "71f7d3e4393534fc614d49295846e2ff526360f9f50ae285302e8d9376932649",
+          "bytes": 14404,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "../INITIAL_SOURCE_TRANSFORMS.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/INITIAL_SOURCE_TRANSFORMS.json",
+          "sha256": "4e5005616f0e73c9f8d9c4fb738786f79102957caa8e2eaac66472dd3a70f507",
+          "bytes": 833,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "../BRANCH_SCOPE.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/BRANCH_SCOPE.txt",
+          "sha256": "cdd65e228489d7f68dc911ce147a30d92bb9154f387c330deba5dc871efb22e0",
+          "bytes": 938,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "../RESOURCE_PROTOCOL_TRANSFORMS.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/RESOURCE_PROTOCOL_TRANSFORMS.json",
+          "sha256": "e25d4729883402f30cc820a9cb524a6ac61c043bbaf25620595b9717e40863e0",
+          "bytes": 694,
+          "actual_bytes_match": true
+        }
+      ],
+      "all_declared_file_pins_match": true,
+      "historical_review_json_is_not_new_acceptance": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/LOCAL_SOURCE_MANIFEST.json",
+      "sha256": "704277601c08ff19beb7f226cc0a25627a0dd754d8f95394905afa08992cad00",
+      "declared_files": 11,
+      "files": [
+        {
+          "filename": "local_middle.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/local_middle.py",
+          "sha256": "fc381b52e057e21a05c16e5f789919bcc151cb4cd87d807d50fa9f1501432df8",
+          "bytes": 9290,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "mean_floor.py",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/mean_floor.py",
+          "sha256": "426a8a5b63a71df083f6e91943c4b9758f1ecad41664458049ecba2b97fce09b",
+          "bytes": 789,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "MEAN_FLOOR_PROOF.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/MEAN_FLOOR_PROOF.txt",
+          "sha256": "d5414c6e705bb32b27a556f43653b83ad191a2d65dc4dc6f981273c7e0cca1da",
+          "bytes": 2099,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "MEAN_FLOOR_CHECKED.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/MEAN_FLOOR_CHECKED.json",
+          "sha256": "30ea98f8322b3ca8fa45b560c235d2e6c87f496ab1dcdbb9c58f8c43c6d563db",
+          "bytes": 597,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "COPY_MANIFEST.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/COPY_MANIFEST.json",
+          "sha256": "0d98f85167773a361404967304b598d81ba6029d6041c3b493fec977d3b7dec5",
+          "bytes": 3094,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "resource_exact/COPY_MANIFEST.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/COPY_MANIFEST.json",
+          "sha256": "e2600b479bdb56db2fe9cb15265cc3f254ef876f2eedd4226458c23cca4eeb19",
+          "bytes": 3427,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "resource_exact/PROTOCOL_MANIFEST.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/PROTOCOL_MANIFEST.json",
+          "sha256": "3ea191c8f29ee6fdf9b768fec43c15be2f630ce62c9d240fc9ca00e2756cfeac",
+          "bytes": 886,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "BRANCH_SCOPE.txt",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/BRANCH_SCOPE.txt",
+          "sha256": "cdd65e228489d7f68dc911ce147a30d92bb9154f387c330deba5dc871efb22e0",
+          "bytes": 938,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "COPIED_SOURCES.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/COPIED_SOURCES.json",
+          "sha256": "71f7d3e4393534fc614d49295846e2ff526360f9f50ae285302e8d9376932649",
+          "bytes": 14404,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "INITIAL_SOURCE_TRANSFORMS.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/INITIAL_SOURCE_TRANSFORMS.json",
+          "sha256": "4e5005616f0e73c9f8d9c4fb738786f79102957caa8e2eaac66472dd3a70f507",
+          "bytes": 833,
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "RESOURCE_PROTOCOL_TRANSFORMS.json",
+          "actual_member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/RESOURCE_PROTOCOL_TRANSFORMS.json",
+          "sha256": "e25d4729883402f30cc820a9cb524a6ac61c043bbaf25620595b9717e40863e0",
+          "bytes": 694,
+          "actual_bytes_match": true
+        }
+      ],
+      "all_declared_file_pins_match": true,
+      "historical_review_json_is_not_new_acceptance": true
+    }
+  ],
+  "declared_file_comparisons": 183,
+  "exact_byte_identity_edges": [
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/initial34_indexed.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/initial34_indexed.py",
+      "sha256": "37c002305518111b600e461133947aed7e739530f60e316463cadad301a9a82b",
+      "bytes": 11852,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional INITIAL atlas/support/HIGH rule; actual profile reviewed separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/kernel.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/kernel.py",
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+      "bytes": 19042,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional INITIAL atlas/support/HIGH rule; actual profile reviewed separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/integer_exphi.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/integer_exphi.py",
+      "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+      "bytes": 803,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional INITIAL atlas/support/HIGH rule; actual profile reviewed separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/cantelli_high.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/cantelli_high.py",
+      "sha256": "c95a6ce9d75fd2c5693de574f322859bcb29d25df4cada9facd96ed3edc02239",
+      "bytes": 1593,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional INITIAL atlas/support/HIGH rule; actual profile reviewed separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/high_grid.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/high_grid.py",
+      "sha256": "a6b631ea8df0299e7bbd14f9d6afd21abd3f1693f66d24036cefda36f51c741a",
+      "bytes": 740,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional INITIAL atlas/support/HIGH rule; actual profile reviewed separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/high_window_common.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/high_window_common.py",
+      "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+      "bytes": 2810,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional INITIAL atlas/support/HIGH rule; actual profile reviewed separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/direct_gaussian_support.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/direct_gaussian_support.py",
+      "sha256": "5742afc0538fe3fb8473d087810ad391623d38a151f5b789e7520d256197c1d2",
+      "bytes": 5332,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional INITIAL atlas/support/HIGH rule; actual profile reviewed separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/finite_binomial_core.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/finite_binomial_core.py",
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+      "bytes": 3510,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional INITIAL atlas/support/HIGH rule; actual profile reviewed separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/small_index_support.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/small_index_support.py",
+      "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+      "bytes": 2698,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional INITIAL atlas/support/HIGH rule; actual profile reviewed separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/heat_support50.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/heat_support50.py",
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+      "bytes": 4726,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional INITIAL atlas/support/HIGH rule; actual profile reviewed separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/initial34_indexed.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/initial34_indexed.py",
+      "sha256": "37c002305518111b600e461133947aed7e739530f60e316463cadad301a9a82b",
+      "bytes": 11852,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional INITIAL atlas/support/HIGH rule; actual profile reviewed separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/kernel.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/kernel.py",
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+      "bytes": 19042,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional INITIAL atlas/support/HIGH rule; actual profile reviewed separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/integer_exphi.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/integer_exphi.py",
+      "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+      "bytes": 803,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional INITIAL atlas/support/HIGH rule; actual profile reviewed separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/cantelli_high.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/cantelli_high.py",
+      "sha256": "c95a6ce9d75fd2c5693de574f322859bcb29d25df4cada9facd96ed3edc02239",
+      "bytes": 1593,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional INITIAL atlas/support/HIGH rule; actual profile reviewed separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/high_grid.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/high_grid.py",
+      "sha256": "a6b631ea8df0299e7bbd14f9d6afd21abd3f1693f66d24036cefda36f51c741a",
+      "bytes": 740,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional INITIAL atlas/support/HIGH rule; actual profile reviewed separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/high_window_common.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/high_window_common.py",
+      "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+      "bytes": 2810,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional INITIAL atlas/support/HIGH rule; actual profile reviewed separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/direct_gaussian_support.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/direct_gaussian_support.py",
+      "sha256": "5742afc0538fe3fb8473d087810ad391623d38a151f5b789e7520d256197c1d2",
+      "bytes": 5332,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional INITIAL atlas/support/HIGH rule; actual profile reviewed separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/finite_binomial_core.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/finite_binomial_core.py",
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+      "bytes": 3510,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional INITIAL atlas/support/HIGH rule; actual profile reviewed separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/small_index_support.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/small_index_support.py",
+      "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+      "bytes": 2698,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional INITIAL atlas/support/HIGH rule; actual profile reviewed separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/heat_support50.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/heat_support50.py",
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+      "bytes": 4726,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional INITIAL atlas/support/HIGH rule; actual profile reviewed separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/initial34_indexed.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/initial34_indexed.py",
+      "sha256": "37c002305518111b600e461133947aed7e739530f60e316463cadad301a9a82b",
+      "bytes": 11852,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional INITIAL atlas/support/HIGH rule; actual profile reviewed separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/kernel.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/kernel.py",
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+      "bytes": 19042,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional INITIAL atlas/support/HIGH rule; actual profile reviewed separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/integer_exphi.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/integer_exphi.py",
+      "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+      "bytes": 803,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional INITIAL atlas/support/HIGH rule; actual profile reviewed separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/cantelli_high.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/cantelli_high.py",
+      "sha256": "c95a6ce9d75fd2c5693de574f322859bcb29d25df4cada9facd96ed3edc02239",
+      "bytes": 1593,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional INITIAL atlas/support/HIGH rule; actual profile reviewed separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/high_grid.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/high_grid.py",
+      "sha256": "a6b631ea8df0299e7bbd14f9d6afd21abd3f1693f66d24036cefda36f51c741a",
+      "bytes": 740,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional INITIAL atlas/support/HIGH rule; actual profile reviewed separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/high_window_common.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/high_window_common.py",
+      "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+      "bytes": 2810,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional INITIAL atlas/support/HIGH rule; actual profile reviewed separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/direct_gaussian_support.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/direct_gaussian_support.py",
+      "sha256": "5742afc0538fe3fb8473d087810ad391623d38a151f5b789e7520d256197c1d2",
+      "bytes": 5332,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional INITIAL atlas/support/HIGH rule; actual profile reviewed separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/finite_binomial_core.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/finite_binomial_core.py",
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+      "bytes": 3510,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional INITIAL atlas/support/HIGH rule; actual profile reviewed separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/small_index_support.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/small_index_support.py",
+      "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+      "bytes": 2698,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional INITIAL atlas/support/HIGH rule; actual profile reviewed separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/heat_support50.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/heat_support50.py",
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+      "bytes": 4726,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional INITIAL atlas/support/HIGH rule; actual profile reviewed separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/candidate_charged_score_v2.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/candidate_charged_score_v2.py",
+      "sha256": "20f3c102f7b77b5ef49b0e6282cfacb3e24975f207296a5b74b27c0af6cdc6b4",
+      "bytes": 6662,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional resource/phase/paired/HIGH rule; actual profile and acquired inputs checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/contracted_kernel.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/contracted_kernel.py",
+      "sha256": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0",
+      "bytes": 20457,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional resource/phase/paired/HIGH rule; actual profile and acquired inputs checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/high_window_core.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/high_window_core.py",
+      "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+      "bytes": 1966,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional resource/phase/paired/HIGH rule; actual profile and acquired inputs checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/high_window_common.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/high_window_common.py",
+      "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+      "bytes": 2810,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional resource/phase/paired/HIGH rule; actual profile and acquired inputs checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/general_paired_exact.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/general_paired_exact.py",
+      "sha256": "e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96",
+      "bytes": 4013,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional resource/phase/paired/HIGH rule; actual profile and acquired inputs checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/paired_extended.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/paired_extended.py",
+      "sha256": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998",
+      "bytes": 2854,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional resource/phase/paired/HIGH rule; actual profile and acquired inputs checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/corrected_phase_callback_extended.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/corrected_phase_callback_extended.py",
+      "sha256": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63",
+      "bytes": 1164,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional resource/phase/paired/HIGH rule; actual profile and acquired inputs checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/signed_variance_resource.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/signed_variance_resource.py",
+      "sha256": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8",
+      "bytes": 1785,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional resource/phase/paired/HIGH rule; actual profile and acquired inputs checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/geometric_moment_both.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/geometric_moment_both.py",
+      "sha256": "ea17218cdad6c409dacf8d4a37b437453fbf7aab3683867d16783cb696206616",
+      "bytes": 2100,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional resource/phase/paired/HIGH rule; actual profile and acquired inputs checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/direct_gaussian_support.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/direct_gaussian_support.py",
+      "sha256": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57",
+      "bytes": 5306,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional resource/phase/paired/HIGH rule; actual profile and acquired inputs checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/small_index_support.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/small_index_support.py",
+      "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+      "bytes": 2698,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional resource/phase/paired/HIGH rule; actual profile and acquired inputs checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/kernel.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/kernel.py",
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+      "bytes": 19042,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional resource/phase/paired/HIGH rule; actual profile and acquired inputs checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/integer_exphi.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/integer_exphi.py",
+      "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+      "bytes": 803,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional resource/phase/paired/HIGH rule; actual profile and acquired inputs checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/finite_gaussian.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/finite_gaussian.py",
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+      "bytes": 3510,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional resource/phase/paired/HIGH rule; actual profile and acquired inputs checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/finite_binomial_core.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/finite_binomial_core.py",
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+      "bytes": 3510,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional resource/phase/paired/HIGH rule; actual profile and acquired inputs checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/heat_support50.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/heat_support50.py",
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+      "bytes": 4726,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional resource/phase/paired/HIGH rule; actual profile and acquired inputs checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/candidate_charged_score_v2.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/candidate_charged_score_v2.py",
+      "sha256": "20f3c102f7b77b5ef49b0e6282cfacb3e24975f207296a5b74b27c0af6cdc6b4",
+      "bytes": 6662,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional resource/phase/paired/HIGH rule; actual profile and acquired inputs checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/contracted_kernel.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/contracted_kernel.py",
+      "sha256": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0",
+      "bytes": 20457,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional resource/phase/paired/HIGH rule; actual profile and acquired inputs checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/high_window_core.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/high_window_core.py",
+      "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+      "bytes": 1966,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional resource/phase/paired/HIGH rule; actual profile and acquired inputs checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/high_window_common.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/high_window_common.py",
+      "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+      "bytes": 2810,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional resource/phase/paired/HIGH rule; actual profile and acquired inputs checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/general_paired_exact.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/general_paired_exact.py",
+      "sha256": "e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96",
+      "bytes": 4013,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional resource/phase/paired/HIGH rule; actual profile and acquired inputs checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/paired_extended.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/paired_extended.py",
+      "sha256": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998",
+      "bytes": 2854,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional resource/phase/paired/HIGH rule; actual profile and acquired inputs checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/corrected_phase_callback_extended.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/corrected_phase_callback_extended.py",
+      "sha256": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63",
+      "bytes": 1164,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional resource/phase/paired/HIGH rule; actual profile and acquired inputs checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/signed_variance_resource.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/signed_variance_resource.py",
+      "sha256": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8",
+      "bytes": 1785,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional resource/phase/paired/HIGH rule; actual profile and acquired inputs checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/geometric_moment_both.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/geometric_moment_both.py",
+      "sha256": "ea17218cdad6c409dacf8d4a37b437453fbf7aab3683867d16783cb696206616",
+      "bytes": 2100,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional resource/phase/paired/HIGH rule; actual profile and acquired inputs checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/direct_gaussian_support.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/direct_gaussian_support.py",
+      "sha256": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57",
+      "bytes": 5306,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional resource/phase/paired/HIGH rule; actual profile and acquired inputs checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/small_index_support.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/small_index_support.py",
+      "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+      "bytes": 2698,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional resource/phase/paired/HIGH rule; actual profile and acquired inputs checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/kernel.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/kernel.py",
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+      "bytes": 19042,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional resource/phase/paired/HIGH rule; actual profile and acquired inputs checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/integer_exphi.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/integer_exphi.py",
+      "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+      "bytes": 803,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional resource/phase/paired/HIGH rule; actual profile and acquired inputs checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/finite_gaussian.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/finite_gaussian.py",
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+      "bytes": 3510,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional resource/phase/paired/HIGH rule; actual profile and acquired inputs checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/finite_binomial_core.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/finite_binomial_core.py",
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+      "bytes": 3510,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional resource/phase/paired/HIGH rule; actual profile and acquired inputs checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/heat_support50.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/heat_support50.py",
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+      "bytes": 4726,
+      "exact_bytes_equal": true,
+      "scope": "Earlier conditional resource/phase/paired/HIGH rule; actual profile and acquired inputs checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/mean_floor.py",
+      "reference_member": "cutoff25_20261011/continuation_20261010/toward25/beta1_high25_exact/mean_floor.py",
+      "sha256": "426a8a5b63a71df083f6e91943c4b9758f1ecad41664458049ecba2b97fce09b",
+      "bytes": 789,
+      "exact_bytes_equal": true,
+      "scope": "Physical theta mean-floor identity already hand-checked in high local-feedback audit"
+    }
+  ],
+  "function_ast_identity_edges": [
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/resource25_core.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/resource25_core.py",
+      "function": "source_round",
+      "function_ast_sha256": "574f0d2b6b354624afc0c46230dc031fe6641c18c3e75e0c77a2d510cfb561e0",
+      "member_lines": [
+        42,
+        52
+      ],
+      "reference_lines": [
+        42,
+        52
+      ],
+      "identical_function_ast": true,
+      "actual_module_profile_constants_reviewed_separately": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/resource25_core.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/resource25_core.py",
+      "function": "retained_cell",
+      "function_ast_sha256": "3fa9504a83964d2543732f57a6a42874825c305211a542df1e5a287c2f6aa46b",
+      "member_lines": [
+        54,
+        73
+      ],
+      "reference_lines": [
+        54,
+        73
+      ],
+      "identical_function_ast": true,
+      "actual_module_profile_constants_reviewed_separately": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/resource25_core.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/resource25_core.py",
+      "function": "amplitude",
+      "function_ast_sha256": "813aeff2c68250d3ffde051de1501189cdfcdb3760be3410bb44a23820470abd",
+      "member_lines": [
+        75,
+        80
+      ],
+      "reference_lines": [
+        75,
+        80
+      ],
+      "identical_function_ast": true,
+      "actual_module_profile_constants_reviewed_separately": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/resource25_core.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/resource25_core.py",
+      "function": "support",
+      "function_ast_sha256": "579c0329d9beee85ebdc04acec707852287b16f20b0758b6260dfa7ddcf9fd3f",
+      "member_lines": [
+        82,
+        99
+      ],
+      "reference_lines": [
+        82,
+        99
+      ],
+      "identical_function_ast": true,
+      "actual_module_profile_constants_reviewed_separately": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/resource25_core.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/resource25_core.py",
+      "function": "charged",
+      "function_ast_sha256": "f9bb714933575e8fe36d325fbe4cbdc80a4bd5ff41705970b9e027fbb1f88911",
+      "member_lines": [
+        101,
+        112
+      ],
+      "reference_lines": [
+        101,
+        112
+      ],
+      "identical_function_ast": true,
+      "actual_module_profile_constants_reviewed_separately": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/resource25_core.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/resource25_core.py",
+      "function": "export",
+      "function_ast_sha256": "02fcc8c206f59038aeb6de76cc26b82d1af482d162683c3b6433d5df4fac50ec",
+      "member_lines": [
+        114,
+        123
+      ],
+      "reference_lines": [
+        114,
+        123
+      ],
+      "identical_function_ast": true,
+      "actual_module_profile_constants_reviewed_separately": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/resource25_core.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/resource25_core.py",
+      "function": "polymin",
+      "function_ast_sha256": "d2859be97db29eb5e7649b09a24544fc904719f6a8a9793232947b569da6b63c",
+      "member_lines": [
+        164,
+        167
+      ],
+      "reference_lines": [
+        165,
+        168
+      ],
+      "identical_function_ast": true,
+      "actual_module_profile_constants_reviewed_separately": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/resource_exact/resource25_core.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/resource25_core.py",
+      "function": "acquire",
+      "function_ast_sha256": "addd76e5ebc6f918411311c8659a7e8128615d31dce72369568b23a72f3bf3b6",
+      "member_lines": [
+        185,
+        187
+      ],
+      "reference_lines": [
+        186,
+        188
+      ],
+      "identical_function_ast": true,
+      "actual_module_profile_constants_reviewed_separately": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/resource25_core.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/resource25_core.py",
+      "function": "source_round",
+      "function_ast_sha256": "574f0d2b6b354624afc0c46230dc031fe6641c18c3e75e0c77a2d510cfb561e0",
+      "member_lines": [
+        42,
+        52
+      ],
+      "reference_lines": [
+        42,
+        52
+      ],
+      "identical_function_ast": true,
+      "actual_module_profile_constants_reviewed_separately": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/resource25_core.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/resource25_core.py",
+      "function": "retained_cell",
+      "function_ast_sha256": "3fa9504a83964d2543732f57a6a42874825c305211a542df1e5a287c2f6aa46b",
+      "member_lines": [
+        54,
+        73
+      ],
+      "reference_lines": [
+        54,
+        73
+      ],
+      "identical_function_ast": true,
+      "actual_module_profile_constants_reviewed_separately": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/resource25_core.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/resource25_core.py",
+      "function": "amplitude",
+      "function_ast_sha256": "813aeff2c68250d3ffde051de1501189cdfcdb3760be3410bb44a23820470abd",
+      "member_lines": [
+        75,
+        80
+      ],
+      "reference_lines": [
+        75,
+        80
+      ],
+      "identical_function_ast": true,
+      "actual_module_profile_constants_reviewed_separately": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/resource25_core.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/resource25_core.py",
+      "function": "support",
+      "function_ast_sha256": "579c0329d9beee85ebdc04acec707852287b16f20b0758b6260dfa7ddcf9fd3f",
+      "member_lines": [
+        82,
+        99
+      ],
+      "reference_lines": [
+        82,
+        99
+      ],
+      "identical_function_ast": true,
+      "actual_module_profile_constants_reviewed_separately": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/resource25_core.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/resource25_core.py",
+      "function": "charged",
+      "function_ast_sha256": "f9bb714933575e8fe36d325fbe4cbdc80a4bd5ff41705970b9e027fbb1f88911",
+      "member_lines": [
+        101,
+        112
+      ],
+      "reference_lines": [
+        101,
+        112
+      ],
+      "identical_function_ast": true,
+      "actual_module_profile_constants_reviewed_separately": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/resource25_core.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/resource25_core.py",
+      "function": "export",
+      "function_ast_sha256": "02fcc8c206f59038aeb6de76cc26b82d1af482d162683c3b6433d5df4fac50ec",
+      "member_lines": [
+        114,
+        123
+      ],
+      "reference_lines": [
+        114,
+        123
+      ],
+      "identical_function_ast": true,
+      "actual_module_profile_constants_reviewed_separately": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/resource25_core.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/resource25_core.py",
+      "function": "polymin",
+      "function_ast_sha256": "d2859be97db29eb5e7649b09a24544fc904719f6a8a9793232947b569da6b63c",
+      "member_lines": [
+        164,
+        167
+      ],
+      "reference_lines": [
+        165,
+        168
+      ],
+      "identical_function_ast": true,
+      "actual_module_profile_constants_reviewed_separately": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/resource_exact/resource25_core.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/resource25_core.py",
+      "function": "acquire",
+      "function_ast_sha256": "addd76e5ebc6f918411311c8659a7e8128615d31dce72369568b23a72f3bf3b6",
+      "member_lines": [
+        185,
+        187
+      ],
+      "reference_lines": [
+        186,
+        188
+      ],
+      "identical_function_ast": true,
+      "actual_module_profile_constants_reviewed_separately": true
+    }
+  ],
+  "profiles": [
+    {
+      "name": "middle_positive_b0",
+      "n": 25,
+      "K": "0",
+      "rho": [
+        "33/20",
+        "7/4"
+      ],
+      "beta": [
+        "0",
+        "4/25"
+      ],
+      "radius_minus": "29/10",
+      "radius_plus": "33/10",
+      "own_cap": "104643/250000",
+      "contact_allowance": "441991/2000000",
+      "cells_per_cover": 9216,
+      "maximum_covers": 8,
+      "terminal_rule": "active=0,R=D=-1,all100 panel cells=0",
+      "conditional_count_used": false
+    },
+    {
+      "name": "middle_positive_b1",
+      "n": 25,
+      "K": "0",
+      "rho": [
+        "33/20",
+        "7/4"
+      ],
+      "beta": [
+        "4/25",
+        "321/1000"
+      ],
+      "radius_minus": "14/5",
+      "radius_plus": "7/2",
+      "own_cap": "104643/250000",
+      "contact_allowance": "441991/2000000",
+      "raw_export": "2903/1000",
+      "D_export": "212/125",
+      "cells_per_cover": 9216,
+      "feedback_covers": 12,
+      "export_covers": 1,
+      "resource_closed_p_panels": 100,
+      "terminal_rule": "every resource outcome excluded; no permitted survivor",
+      "conditional_count_used": false
+    },
+    {
+      "name": "middle_positive_b2",
+      "n": 25,
+      "K": "0",
+      "rho": [
+        "33/20",
+        "7/4"
+      ],
+      "beta": [
+        "321/1000",
+        "2/5"
+      ],
+      "radius_minus": "5/2",
+      "radius_plus": "7/2",
+      "own_cap": "104643/250000",
+      "contact_allowance": "441991/2000000",
+      "raw_export": "3077/1000",
+      "D_export": "1811/1000",
+      "cells_per_cover": 9216,
+      "feedback_covers": 12,
+      "export_covers": 1,
+      "resource_closed_p_panels": 100,
+      "permitted_local_survivors": [
+        23,
+        24,
+        25
+      ],
+      "local_cover_maximum": 4,
+      "terminal_rule": "every resource survivor has complete terminal empty local INITIAL",
+      "conditional_count_used": false
+    }
+  ],
+  "important_parent_binding": "Middle B1/B2 resource proof binds both INITIAL proof SHA and its timed acceptance SHA; fresh acceptance may require fresh resource construction; no silent historic-receipt rewrite",
+  "required_analytic_premises": [
+    "same unrestricted attained positive-closed contrary witness, C25>=CE",
+    "published universal same-law T(rho) and exact CE enclosure",
+    "actual signed support and ordered raw-before-defect INITIAL rule",
+    "previously reviewed complete INITIAL, resource/phase/HIGH and physical-theta mean-floor rules"
+  ],
+  "remaining_distinct_components": [
+    "high beta2 and middle B3/B4/B5 actual selected profile/count transfer rules",
+    "lower B3/B4/B5 mixed retained rules and their count/attainment semantics",
+    "fresh numerical/evidence acceptance and final global executable joins"
+  ]
+}

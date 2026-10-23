@@ -936,3 +936,38 @@ verification. `native_arithmetic_accepted`, `parent_acquisitions_verified`,
 in64's preserved scope. The isolated53protocol can add the exact same-candidate/
 same-contract selection edge and the other79full acceptors; no completed53run
 or unrestricted theorem is inferred from64alone.
+
+## Notebook50: all217native stages saved; old finalizer fails
+
+The supplied log SHA256 is
+`d4dd8169032fd7dc94e369fe8e3928b41ce835311f617a087891deb3462293a2`.
+At22:38:31UTC on23October2026 it records217/217completed stages, including
+the final native n14/BN/p44 receipt and complete-stage ZIP. The old batch then
+fails with `KeyError: 'remaining_obligations'` and saves an incomplete final
+bundle under `finite1039-counts-n10_14/20261023T214220Z-7ad13c26/`.
+This is the already repaired common finalization bug; no native stage failure
+is reported. The published corrected50uses runtime
+`13dfd07f1ef2bf66f54bc639dd8bfb2550e04ec4` and revalidates prior complete
+stages. Its successful final rerun is not yet observed.
+
+## Notebook28: complete retained B2 count log
+
+The supplied log SHA256 is
+`c8d7734700d2c178c944f18eeb846dafd86840adf02456dc7e5905cb61f3c7a6`.
+It records23/23forests and33357leaves, with24controls on the final forest,
+then `selected_retained_count_arithmetic_accepted`. The final ZIP is saved
+at22:42:23UTC on23October2026 under
+`n25-retained-b2/runs/20261023T201950Z-96a65eba/20261023T201950Z-96a65eba-results.zip`.
+This is supplied-log completion, separate from actual final export readback
+and unrestricted parent/regional theorem composition.
+
+## Notebook53: prepared and delivered, no arithmetic run inferred
+
+Runtime `b160488cfe47940acc32c72994baa4e7c43c4f5f` and notebook publication
+`59f844ecafc345cd00ae1fa2d131741b9b91e220` add the full selected80-forest
+protocol after exact recovery64. Root's23infrastructure fixtures pass, all79
+source capsules/2497inputs are checked, and the actual64identity gate passes.
+The private Drive notebook is9759bytes, SHA256
+`cc462597804ddb7c45996ee7a2263cd6181ee65b333a25ea11824f761f23e213`;
+metadata and full fetched bytes match the local pinned notebook. It is saved
+in the existing notebook folder. This preparation is not fresh53arithmetic.

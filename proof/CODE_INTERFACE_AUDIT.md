@@ -337,3 +337,14 @@ minimum and inward lower-corner identity. The old adopted-C4 citation marker
 cannot supply all-law C4, and neither326fresh n5 arithmetic jobs nor completed
 6--9 counts alone prove their parent/analytic implications. The conditional
 later tail in the old6--9composer also remains visibly conditional.
+
+The [24 October component checkpoint](code_audit_checkpoint_20261024.md)
+adds four actual ROOT4 inner-route derivations and five literal n25 upper/
+middle acquisition/interface units. Root read every note and checked the
+actual archive/selector/member/function bindings, including 45 ROOT4 source
+members and 196 distinct selected bodies. The enabled CF/Gamma/interval/
+radius/lens/Cantelli paths and actual n25 profiles now have bounded conditional
+source derivations. The ten upper selector questions are resolved separately
+from eleven missing lower-B5 directories. All-law C4 placement, lower mixed
+n25 implications, complete fresh execution and final semantic/theorem joins
+remain open. No original mathematical module was evaluated in these checks.

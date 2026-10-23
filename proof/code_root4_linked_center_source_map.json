@@ -1,0 +1,617 @@
+{
+  "actual_receipt_sha256": "571bc91b257ac53c640dd3bee91377565ff7c475091d39076295200209beeae1",
+  "actual_receipt_source_pins": 70,
+  "all_index_conclusion_verified": false,
+  "all_law_C4_verified": false,
+  "full_root4_portfolio_soundness_verified": false,
+  "members": [
+    {
+      "actual_receipt_source_sha256": "e29ec0c0140f48a79495881cc4cc8ffc6ad519817034d5c6ddd78c4662eaaf71",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 132,
+          "name": "generic_characteristic_correctly_scaled",
+          "start": 111
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 203,
+          "name": "fresh_center_table",
+          "start": 146
+        }
+      ],
+      "name": "n4_Q3_generic_low_eta_center_only_exact_box_leaf_2026_10_09.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "e29ec0c0140f48a79495881cc4cc8ffc6ad519817034d5c6ddd78c4662eaaf71"
+    },
+    {
+      "actual_receipt_source_sha256": "4bf4a90a3eae9ed88b8a9e02d27e02ef53d4bef7b836fe426bf3dcfa49c3bd9f",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 95,
+          "name": "fresh_cached_center_table",
+          "start": 44
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 142,
+          "name": "tighten_with_fresh_cached_taylor",
+          "start": 98
+        }
+      ],
+      "name": "n4_Q3_fresh_cached_low_eta_box_leaf_2026_10_09.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "4bf4a90a3eae9ed88b8a9e02d27e02ef53d4bef7b836fe426bf3dcfa49c3bd9f"
+    },
+    {
+      "actual_receipt_source_sha256": "e5ef0b28bf0c91966ac878fdc0ad4130f4571b9a9149736e734004f6bcee7b30",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 115,
+          "name": "normalized_row_upper",
+          "start": 87
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 187,
+          "name": "fresh_normalized_center_table",
+          "start": 118
+        }
+      ],
+      "name": "n4_Q3_fresh_normalized_contact_center_2026_10_09.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "e5ef0b28bf0c91966ac878fdc0ad4130f4571b9a9149736e734004f6bcee7b30"
+    },
+    {
+      "actual_receipt_source_sha256": "3f50db40de37b5220ee1ce011f62f4f9e5d3429af61be5c871c604c8d952c523",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 94,
+          "name": "linked_row_upper",
+          "start": 68
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 158,
+          "name": "fresh_normalized_center_table",
+          "start": 97
+        }
+      ],
+      "name": "n4_Q3_fresh_linked_w_beta_normalized_center_2026_10_09.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "3f50db40de37b5220ee1ce011f62f4f9e5d3429af61be5c871c604c8d952c523"
+    },
+    {
+      "actual_receipt_source_sha256": "ae6e5c4480e53d5c5384a994ecae303dc93d11ea9a2de47d40244a3b29d9a7b9",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 123,
+          "name": "multiply_intervals",
+          "start": 119
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 129,
+          "name": "add_intervals",
+          "start": 126
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 135,
+          "name": "subtract_intervals",
+          "start": 132
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 140,
+          "name": "scalar_interval",
+          "start": 138
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 150,
+          "name": "ceil_scaled",
+          "start": 147
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 159,
+          "name": "checked_rectangle",
+          "start": 153
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 168,
+          "name": "nominal_squares",
+          "start": 162
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 175,
+          "name": "check_positive_root_bracket",
+          "start": 171
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 201,
+          "name": "checked_contact_data",
+          "start": 178
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 219,
+          "name": "moment_derivative_shape",
+          "start": 204
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 234,
+          "name": "contact_differentials",
+          "start": 222
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 253,
+          "name": "chain_point_derivatives",
+          "start": 237
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 294,
+          "name": "linked_center_hessian_bounds",
+          "start": 256
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 342,
+          "name": "normalized_w_beta_center_taylor_upper",
+          "start": 297
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 368,
+          "name": "normalized_w_beta_center_taylor_upper_int",
+          "start": 345
+        }
+      ],
+      "name": "n4_Q3_normalized_w_beta_center_taylor_2026_10_09.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "ae6e5c4480e53d5c5384a994ecae303dc93d11ea9a2de47d40244a3b29d9a7b9"
+    },
+    {
+      "actual_receipt_source_sha256": "23d4ae257daabba3131e2644bfcd22bad752901d6ccbb66ae4ec0d1b11fbfb1b",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 114,
+          "name": "moment_value_gradient_hessian",
+          "start": 104
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 121,
+          "name": "supporting_plane_residual",
+          "start": 117
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 152,
+          "name": "expand_true_nominal_gradient",
+          "start": 132
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 215,
+          "name": "normalized_contact_taylor_upper",
+          "start": 155
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 239,
+          "name": "normalized_contact_taylor_upper_int",
+          "start": 218
+        }
+      ],
+      "name": "n4_Q3_normalized_contact_center_supporting_plane_2026_10_09.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "23d4ae257daabba3131e2644bfcd22bad752901d6ccbb66ae4ec0d1b11fbfb1b"
+    },
+    {
+      "actual_receipt_source_sha256": "6762fff96daa75969f0df9b7eada9174f041ed327f731cab83af924070774602",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 118,
+          "name": "direct_derivative_majorants",
+          "start": 88
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 129,
+          "name": "contact_derivative_majorants",
+          "start": 121
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 144,
+          "name": "center_hessian_majorants",
+          "start": 132
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 159,
+          "name": "expand_true_nominal_gradient",
+          "start": 147
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 170,
+          "name": "whole_box_taylor_upper_int",
+          "start": 162
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 187,
+          "name": "base_derivative_blocks",
+          "start": 173
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 204,
+          "name": "sum_signed_gradient_intervals",
+          "start": 190
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 246,
+          "name": "canonical_inputs",
+          "start": 207
+        }
+      ],
+      "name": "n4_Q3_signed_contact_center_taylor_resource_safe_2026_10_09.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "6762fff96daa75969f0df9b7eada9174f041ed327f731cab83af924070774602"
+    },
+    {
+      "actual_receipt_source_sha256": "7fa1a275a1e5cb89a15f2a35c3cb0a3ac0e775ba816c61b5b4c99c08a0fef31f",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 76,
+          "name": "nominal_squared_norm_upper",
+          "start": 66
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 88,
+          "name": "radial_gradient_intervals",
+          "start": 79
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 96,
+          "name": "modulus_squared_hessian_majorants",
+          "start": 91
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 114,
+          "name": "squared_modulus_taylor_upper",
+          "start": 99
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 133,
+          "name": "outward_modulus_from_squared_upper",
+          "start": 117
+        }
+      ],
+      "name": "n4_Q3_squared_modulus_contact_taylor_resource_safe_2026_10_09.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "7fa1a275a1e5cb89a15f2a35c3cb0a3ac0e775ba816c61b5b4c99c08a0fef31f"
+    },
+    {
+      "actual_receipt_source_sha256": "ecbeb4285194dc4c642258fdb4aa77fcff50f8b29f69daeba40b26a5f4d0a7c1",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 52,
+          "name": "coordinates",
+          "start": 46
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 56,
+          "name": "add",
+          "start": 55
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 66,
+          "name": "scale",
+          "start": 59
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 73,
+          "name": "constant",
+          "start": 69
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 79,
+          "name": "multiply_i",
+          "start": 76
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 93,
+          "name": "stable_F_derivatives",
+          "start": 82
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 111,
+          "name": "nominal_derivative_rectangles",
+          "start": 96
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 137,
+          "name": "derivative_majorants",
+          "start": 114
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 145,
+          "name": "rho_derivatives",
+          "start": 140
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 165,
+          "name": "joint_taylor_upper",
+          "start": 148
+        }
+      ],
+      "name": "n4_Q3_contact_coordinate_derivative_algebra_2026_10_08.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "ecbeb4285194dc4c642258fdb4aa77fcff50f8b29f69daeba40b26a5f4d0a7c1"
+    },
+    {
+      "actual_receipt_source_sha256": "722ebde13cc08d1e82b0b92e0faf7af2db8cc0ce191f277494937818d9e50aa0",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 178,
+          "name": "outward_exponential",
+          "start": 155
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 185,
+          "name": "weighted_rectangle",
+          "start": 181
+        }
+      ],
+      "name": "n4_Q3_first_critical_integer_response_radius_verifier_2026_10_08.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "722ebde13cc08d1e82b0b92e0faf7af2db8cc0ce191f277494937818d9e50aa0"
+    },
+    {
+      "actual_receipt_source_sha256": "ddbacd8c3c5511f7a5e2f8e831653c59659daa6af04edd1fd73db47697ff5e61",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 84,
+          "name": "canonical_geometry",
+          "start": 66
+        }
+      ],
+      "name": "n4_Q3_exact_box_common_signed_response_v2_2026_10_08.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "ddbacd8c3c5511f7a5e2f8e831653c59659daa6af04edd1fd73db47697ff5e61"
+    },
+    {
+      "actual_receipt_source_sha256": "30b00490580e1be43e511000e5f69214377defe362c893039919653c38609c68",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 68,
+          "name": "sqrt_interval",
+          "start": 66
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 99,
+          "name": "geometry",
+          "start": 71
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 138,
+          "name": "reference_error",
+          "start": 114
+        }
+      ],
+      "name": "n4_Q3_box_whole_eta_exact_CDF_gate_v2_2026_10_08.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "30b00490580e1be43e511000e5f69214377defe362c893039919653c38609c68"
+    },
+    {
+      "actual_receipt_source_sha256": "95f227e99cedd34d6734af888d83782d0e0006c3f21baf44bd10249d7ae2e23a",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 50,
+          "name": "sqrt_interval_between",
+          "start": 47
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 65,
+          "name": "nominal_root_data",
+          "start": 53
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 100,
+          "name": "box_root_data",
+          "start": 68
+        }
+      ],
+      "name": "n4_Q3_three_budget_exact_box_affine_radius_verifier_2026_10_08.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "95f227e99cedd34d6734af888d83782d0e0006c3f21baf44bd10249d7ae2e23a"
+    },
+    {
+      "actual_receipt_source_sha256": "6eca3207f22f510752a3939491fbfa1ba883db7e1a0dfad8608f3db4655b904e",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 231,
+          "name": "_checked_derivative_values",
+          "start": 226
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 247,
+          "name": "signed_center_gradient_blocks_from_values",
+          "start": 234
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 259,
+          "name": "radial_gradient_intervals_from_values",
+          "start": 250
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 270,
+          "name": "fresh_per_root_derivative_bundle",
+          "start": 262
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 289,
+          "name": "sum_signed_gradient_blocks_with_phases",
+          "start": 273
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 313,
+          "name": "sum_center_blocks_with_phases",
+          "start": 299
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 89,
+          "name": "complete_H_grid",
+          "start": 83
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 103,
+          "name": "fresh_phase_rectangles_for_H",
+          "start": 92
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 205,
+          "name": "build_fresh_quadrature_cache",
+          "start": 155
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 223,
+          "name": "validate_preverified_fresh_cache",
+          "start": 208
+        }
+      ],
+      "name": "n4_fresh_Prawitz_quadrature_cache_2026_10_09.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "6eca3207f22f510752a3939491fbfa1ba883db7e1a0dfad8608f3db4655b904e"
+    },
+    {
+      "actual_receipt_source_sha256": "1c6fd24479b030e9357b85467cc07c353eef199d471b43a9b05083fa5d30cddc",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 90,
+          "name": "complex_multiply",
+          "start": 80
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 97,
+          "name": "unit_phase_intersection",
+          "start": 93
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 122,
+          "name": "exponential_exact_argument",
+          "start": 100
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 130,
+          "name": "atan_inverse_bracket",
+          "start": 125
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 142,
+          "name": "pi_and_phi0",
+          "start": 133
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 158,
+          "name": "normal_cdf_interval",
+          "start": 145
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 174,
+          "name": "kernel_rectangle",
+          "start": 161
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 191,
+          "name": "quartic_absolute_upper",
+          "start": 186
+        }
+      ],
+      "name": "n4_Q3_first_critical_integer_abs_Prawitz_gate_strict_v2_2026_10_08.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "1c6fd24479b030e9357b85467cc07c353eef199d471b43a9b05083fa5d30cddc"
+    },
+    {
+      "actual_receipt_source_sha256": "558da2900d52aabae46fafc337212dfbff101fd35363734db3a60fd2c5017ad0",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 148,
+          "name": "build_fresh_quadrature_cache",
+          "start": 94
+        }
+      ],
+      "name": "n4_cpu_time_quadrature_cache_2026_10_09.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "90c85e756f9f5cc1e73ca849f11cba8dfdaaa05290e745232ca6c1fa9ac241d0"
+    }
+  ],
+  "original_mathematics_executed": false,
+  "schema": "ROOT4_LINKED_CENTER_SOURCE_REVIEW_MAP_V1",
+  "scope": "Fallible internal AI source and hand-algebra review; no original mathematical module imported or executed",
+  "selected_functions": 79,
+  "selected_members": 16,
+  "selected_quadrature_cache_interval_derivations_reviewed": true
+}

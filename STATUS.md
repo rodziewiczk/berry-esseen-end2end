@@ -60,6 +60,13 @@ explicitly not an acquired all-law theorem. Root checked all eight actual
 members, including the seven selected-source bindings and one provenance-only
 protocol text. Component soundness and fresh semantic composition stay open.
 
+The [24 October component checkpoint](proof/code_audit_checkpoint_20261024.md)
+adds four bounded ROOT4 inner-route derivations and five n25 upper/middle
+profile/interface reviews. Root read the notes and checked actual source,
+selector, manifest and function bindings. This narrows the previously open
+inner-portfolio boundary without declaring all-law C4, lower mixed n25 routes
+or a global theorem. No original mathematical module was evaluated locally.
+
 ## Execution snapshot
 
 Latest evidence supplied to this chat; this is not live monitoring.
@@ -81,7 +88,7 @@ Log completion is not independent bundle validation.
 |22|Complete26-stage stronger24 B5 BASIC log,2444leaves; actual final export remains to revalidate.|
 |23|Actual supplied run log reports all9exports revalidated and CONDITIONAL_FRESH_NUMERIC_CHAIN_VERIFIED,83forests/76088leaves; final collector ZIP saved. Analytic/universal/full-theorem flags remain false.|
 |24|Supplied completed log records all9exports revalidated and7/7interfaces, final CONDITIONAL_SEVEN_N25_COUNT_INTERFACES_VERIFIED and saved ZIP. This is not the full n25 union.|
-|26--28|26has a completed17/17-forest log,12985leaves;27now completes35/35forests,47946leaves and saves its final ZIP.28continues. Actual final export readbacks and mathematical parent/global joins remain separate.|
+|26--28|All three supplied logs complete17/35/23forests and12985/47946/33357leaves respectively.28saves its final ZIP at22:42:23UTC. Actual final export readbacks and mathematical parent/global joins remain separate.|
 |29--34|29now completes17/17forests,37128leaves and saves its final ZIP.31completes39/39forests,48947leaves.32/33/34have completed16/7/6-forest scoped native logs (25257/2446/4246leaves).30continues. Actual final export readbacks and full mathematical joins remain separate.|
 |35|V2actual saved notebook confirms27fixtures passed including Linux exec regression, then support and HIGH completed. Owncaps was ongoing at20:12UTC. No326-job batch completion inferred.|
 |36|Actual completed B0 export revalidated: both INITIAL/resource stages, unchanged source/capture/receipt bindings and all17exact resource-to-contract interfaces. BASIC conditional scope retained; count acceptance and full theorem remain separate.|

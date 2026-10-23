@@ -1,0 +1,1374 @@
+{
+  "schema": "N25_UPPER_INITIAL_RESOURCE_SOURCE_HAND_ALGEBRA_AUDIT_V1",
+  "review_kind": "fallible_internal_AI_source_and_hand_algebra_review",
+  "external_independent_verification": false,
+  "formal_verification": false,
+  "archived_math_modules_imported_or_executed": false,
+  "fresh_arithmetic_acceptance": false,
+  "all_index_conclusion_verified": false,
+  "archive": {
+    "filename": "cutoff25_20261011.zip",
+    "bytes": 514958998,
+    "sha256": "17fa140f63c5134ac48f1fd1040f4c5ae4bebdb2b92b2d7ce69f4048293d1fcb",
+    "archive_transport_hash_reused_from_prior_inventory": true
+  },
+  "historical_final_selector": {
+    "archive": "cutoff25_20261013.zip",
+    "member": "cutoff25_20261013/root/global25_final_v2/GLOBAL_C25_COMPLETE_JOINED_V1.json",
+    "sha256": "abae7a25b9b82d8b0dd0fc691d33944038d2ffc6707c6f387561f8f17437563d",
+    "source_pin_count": 34269,
+    "selected_pin_matching_is_not_fresh_acceptance": true
+  },
+  "reviewed_sources": [
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/negative25_exact/initial_negative.py",
+      "bytes": 6819,
+      "sha256": "6eda3d8ac25b1c3daa3fdf480f089bb761c4300736c8391b9fcde779e5c5fcef",
+      "lines": 81,
+      "review_mode": "full_source_read",
+      "scope": "Full literal high-negative profile, scalar/support inputs, finite ordered covers and typed full-object acceptance",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/negative25_exact/join_negative.py",
+      "bytes": 3324,
+      "sha256": "5a9b9c165b25c2aba8a0c5a859e5bcd0db465eca1f586efa62968eb0c33f1de4",
+      "lines": 36,
+      "review_mode": "full_source_read",
+      "scope": "Full conditional terminal-cover join; exact ten-stage historical profile and signed-support identities",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/negative25_exact/NEGATIVE_BRANCH_SCOPE.txt",
+      "bytes": 1957,
+      "sha256": "4bf11b8b3a57070dc1384b29cb547100efa47c8e2d7d63d7e62c4b161b4e2330",
+      "lines": 32,
+      "review_mode": "full_source_read",
+      "scope": "Full original branch scope and outward beta/contact derivation",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/middle6_negative25_exact/initial_negative.py",
+      "bytes": 6962,
+      "sha256": "43ca60af19f99f8eeee0fedfcc46e1d192e52914bf382d37569b7403112bbed9",
+      "lines": 83,
+      "review_mode": "full_source_read",
+      "scope": "Full literal middle-negative profile, scalar/support inputs, finite ordered covers and typed full-object acceptance",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/middle6_negative25_exact/join_negative.py",
+      "bytes": 4698,
+      "sha256": "73bd2465df5ab7ca955db6280c0fa8cdd98f55d6e68a24c61b8470da9f448121",
+      "lines": 52,
+      "review_mode": "full_source_read",
+      "scope": "Full conditional terminal-cover join; one-to-eight-stage finite rule and signed-support identities",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/middle6_negative25_exact/NEGATIVE_BRANCH_SCOPE.txt",
+      "bytes": 506,
+      "sha256": "5b78c146a4386f4c113dea9f310879ce9bdbe47e0a0900b64f8e48ce17dadf8e",
+      "lines": 1,
+      "review_mode": "full_source_read",
+      "scope": "Full original middle-negative scope",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/initial_q2.py",
+      "bytes": 6457,
+      "sha256": "0cb7d68e3aa52210cd81093fa9e53620e164879188a1cb182d1b02d2384b5121",
+      "lines": 77,
+      "review_mode": "full_source_read",
+      "scope": "Full four-stage INITIAL, relaxed fifth export and positive-gap gate",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/join_q2.py",
+      "bytes": 4208,
+      "sha256": "4cc211c5e7651dbabeec4e72ac1a3e9b9e0ff239fcbedf1b143834c175329846",
+      "lines": 41,
+      "review_mode": "full_source_read",
+      "scope": "Full INITIAL-to-resource proof binding and all100-panel exclusion join",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/resource/resources_q2.py",
+      "bytes": 4539,
+      "sha256": "a41cb40d78c35ab714672d50c81e71684abefb97b0be501fa5277f024a0c2ccd",
+      "lines": 51,
+      "review_mode": "full_source_read",
+      "scope": "Full resource caller; all100 ordered closed panels and typed full-object acceptance",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/resource/resource25_core.py",
+      "bytes": 10063,
+      "sha256": "1fda990885cc555bf4d640d51e43773cf097c8bd0492835756cd7d32d4648e2b",
+      "lines": 184,
+      "review_mode": "full_source_read",
+      "scope": "Full caller/rounding/support/phase/export route, with explicit comparison to B3 resource calculus",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/resource/POSITIVE_GAP_RESOURCE_EXTENSION.txt",
+      "bytes": 5007,
+      "sha256": "0bf6ae992f6b8c4b8c344b178f715c9717d1083c2fce317b7cdb0dc151e210f2",
+      "lines": 91,
+      "review_mode": "full_source_read",
+      "scope": "Full positive-gap extension proof including endpoint-product and phase gates",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/initial34_indexed.py",
+      "bytes": 11107,
+      "sha256": "b8ec3d1ab11d603bf95231e32eafc91949081f88f347662058aeb5f5b229fd2b",
+      "lines": 171,
+      "review_mode": "full_source_read",
+      "scope": "Full source read and delta comparison to the stronger reviewed B3 INITIAL atlas",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/middle6_negative25_exact/high_window_common.py",
+      "bytes": 2810,
+      "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+      "lines": 68,
+      "review_mode": "full_source_read",
+      "scope": "Full dependency-safe pure constant extraction; actual byte identity to reviewed B3 helper",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/resource/high_window_core.py",
+      "bytes": 2214,
+      "sha256": "62ba022998f45e0e4f8628badfe5092ae0b8d2bc256d5c18614bfb44e63906a0",
+      "lines": 52,
+      "review_mode": "full_source_read",
+      "scope": "Full six-piece helper and pure cached constants; comparison to reviewed B3 HIGH helper",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/resource/candidate_charged_score_v2.py",
+      "bytes": 5914,
+      "sha256": "2959239a0c40a7a5171fdf776eee473fea561d5a5c3ceafffc93fdae88e2ef4c",
+      "lines": 97,
+      "review_mode": "delta_read_against_existing_full_review",
+      "scope": "Delta read: later signed endpoint/moment strengthenings absent; all other source lines compared",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/resource/contracted_kernel.py",
+      "bytes": 20119,
+      "sha256": "f5a5e8a6c535f4c05df7323a88748f8978db39259c1437cb3537598b18d3e7f4",
+      "lines": 367,
+      "review_mode": "delta_read_against_existing_full_review",
+      "scope": "Delta read: later endpoint-product event strengthening absent, width9/100 in two enabled envelopes",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    }
+  ],
+  "source_manifests": [
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/negative25_exact/COPY_MANIFEST.json",
+      "sha256": "3834db7127faa2db679bc1b4edf79feb65897c3f985429051554bd7a7d9166dd",
+      "bytes": 2545,
+      "declared_files": 22,
+      "all_declared_file_pins_match": true,
+      "files": [
+        {
+          "filename": "initial34.py",
+          "bytes": 10886,
+          "sha256": "4fac5690455115ade7a70389f496f2f6c25f99627366eaf6253416c71aca79a6",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "initial34_indexed.py",
+          "bytes": 11107,
+          "sha256": "b8ec3d1ab11d603bf95231e32eafc91949081f88f347662058aeb5f5b229fd2b",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "kernel.py",
+          "bytes": 19042,
+          "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "cantelli_high.py",
+          "bytes": 1593,
+          "sha256": "c95a6ce9d75fd2c5693de574f322859bcb29d25df4cada9facd96ed3edc02239",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "CANTELLI_HIGH_PROOF.txt",
+          "bytes": 2243,
+          "sha256": "ac0d1c269e0a2f8511d504f85bb1e46f4272e82079c3835dd136ac9ca2900c8c",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "high_grid.py",
+          "bytes": 740,
+          "sha256": "a6b631ea8df0299e7bbd14f9d6afd21abd3f1693f66d24036cefda36f51c741a",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_GRID_PROOF.txt",
+          "bytes": 756,
+          "sha256": "950e4dc90d48bf1e88af138ccc15777bf36f0bad53040ca386d6c92b2c28f6d7",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "integer_exphi.py",
+          "bytes": 803,
+          "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "INTEGER_EXPHI_PROOF.txt",
+          "bytes": 1287,
+          "sha256": "49378d83efbe4a44b0ac2c51fa9390fe798824ea85657f9ec05ece7376e9c59a",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "direct_gaussian_support.py",
+          "bytes": 5332,
+          "sha256": "5742afc0538fe3fb8473d087810ad391623d38a151f5b789e7520d256197c1d2",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "finite_binomial_core.py",
+          "bytes": 3510,
+          "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "small_index_support.py",
+          "bytes": 2698,
+          "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "heat_support50.py",
+          "bytes": 4726,
+          "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "EXACT_OPTIMIZATION_PROOF.txt",
+          "bytes": 2457,
+          "sha256": "5f95c696ad1e22ed548abc41587277e66e38e0b7ab356f0e36353d2c9d65a943",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "FULL_CACHE_AND_PANEL_CHECKED.json",
+          "bytes": 1541,
+          "sha256": "9cce433038af352abfdc94953305dcf3f1e4829c45bdaad1853151c15652efd0",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "INITIAL_CACHE_INDEPENDENT_REVIEW.json",
+          "bytes": 1545,
+          "sha256": "d7e528aa9ef6cf6f63ae6b7de8796753ce77ab97a31464f87d1eb3603870847f",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "high_window_core.py",
+          "bytes": 2214,
+          "sha256": "62ba022998f45e0e4f8628badfe5092ae0b8d2bc256d5c18614bfb44e63906a0",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "high_window_original.py",
+          "bytes": 1966,
+          "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_CONSTANTS_PROOF.txt",
+          "bytes": 566,
+          "sha256": "f8d03be41c5c573b255ba03f8966ab8e038f833a83bd803d12b26e6ff887a16f",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_CONSTANTS_CHECKED.json",
+          "bytes": 748,
+          "sha256": "937aea9fbc077fb04405ce5d2afbae5f20ce29dfb2a667f39d67ab3d7941b452",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_EVALUATION_INDEPENDENT_REVIEW.txt",
+          "bytes": 2216,
+          "sha256": "3654ad34b29cb06ea7120a44739302d0a1d641504bbb7191c649a1742657c08b",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_EVALUATION_INDEPENDENT_REVIEW.json",
+          "bytes": 1071,
+          "sha256": "0ec060110028e77cd7d82277cf7774ec34e0c141b13ef5260efc0c7a433f7b42",
+          "actual_bytes_match": true
+        }
+      ],
+      "historical_review_or_checked_json_is_not_fresh_acceptance": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/middle6_negative25_exact/COPY_MANIFEST.json",
+      "sha256": "e1c85032a299aee585c3cab27f826f512fee2983f0e9fb2b79503977a12c050f",
+      "bytes": 3098,
+      "declared_files": 30,
+      "all_declared_file_pins_match": true,
+      "files": [
+        {
+          "filename": "initial34.py",
+          "bytes": 11700,
+          "sha256": "a22630186fbb9a245b057e9328d579a87310605ae25c7926f112f4462064cf3e",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "initial34_indexed.py",
+          "bytes": 11852,
+          "sha256": "37c002305518111b600e461133947aed7e739530f60e316463cadad301a9a82b",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "kernel.py",
+          "bytes": 19042,
+          "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "cantelli_high.py",
+          "bytes": 1593,
+          "sha256": "c95a6ce9d75fd2c5693de574f322859bcb29d25df4cada9facd96ed3edc02239",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "CANTELLI_HIGH_PROOF.txt",
+          "bytes": 2243,
+          "sha256": "ac0d1c269e0a2f8511d504f85bb1e46f4272e82079c3835dd136ac9ca2900c8c",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "high_grid.py",
+          "bytes": 740,
+          "sha256": "a6b631ea8df0299e7bbd14f9d6afd21abd3f1693f66d24036cefda36f51c741a",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_GRID_PROOF.txt",
+          "bytes": 756,
+          "sha256": "950e4dc90d48bf1e88af138ccc15777bf36f0bad53040ca386d6c92b2c28f6d7",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "integer_exphi.py",
+          "bytes": 803,
+          "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "INTEGER_EXPHI_PROOF.txt",
+          "bytes": 1287,
+          "sha256": "49378d83efbe4a44b0ac2c51fa9390fe798824ea85657f9ec05ece7376e9c59a",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "direct_gaussian_support.py",
+          "bytes": 5332,
+          "sha256": "5742afc0538fe3fb8473d087810ad391623d38a151f5b789e7520d256197c1d2",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "finite_binomial_core.py",
+          "bytes": 3510,
+          "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "small_index_support.py",
+          "bytes": 2698,
+          "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "heat_support50.py",
+          "bytes": 4726,
+          "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "EXACT_OPTIMIZATION_PROOF.txt",
+          "bytes": 2457,
+          "sha256": "5f95c696ad1e22ed548abc41587277e66e38e0b7ab356f0e36353d2c9d65a943",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "FULL_CACHE_AND_PANEL_CHECKED.json",
+          "bytes": 1541,
+          "sha256": "9cce433038af352abfdc94953305dcf3f1e4829c45bdaad1853151c15652efd0",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "INITIAL_CACHE_INDEPENDENT_REVIEW.json",
+          "bytes": 1545,
+          "sha256": "d7e528aa9ef6cf6f63ae6b7de8796753ce77ab97a31464f87d1eb3603870847f",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "high_window_core.py",
+          "bytes": 2214,
+          "sha256": "62ba022998f45e0e4f8628badfe5092ae0b8d2bc256d5c18614bfb44e63906a0",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "high_window_original.py",
+          "bytes": 1966,
+          "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_CONSTANTS_PROOF.txt",
+          "bytes": 566,
+          "sha256": "f8d03be41c5c573b255ba03f8966ab8e038f833a83bd803d12b26e6ff887a16f",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_CONSTANTS_CHECKED.json",
+          "bytes": 748,
+          "sha256": "937aea9fbc077fb04405ce5d2afbae5f20ce29dfb2a667f39d67ab3d7941b452",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_EVALUATION_INDEPENDENT_REVIEW.txt",
+          "bytes": 2216,
+          "sha256": "3654ad34b29cb06ea7120a44739302d0a1d641504bbb7191c649a1742657c08b",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_EVALUATION_INDEPENDENT_REVIEW.json",
+          "bytes": 1071,
+          "sha256": "0ec060110028e77cd7d82277cf7774ec34e0c141b13ef5260efc0c7a433f7b42",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "P_LOCAL_MEAN_INITIAL_IMPLEMENTATION_REVIEW.json",
+          "bytes": 1263,
+          "sha256": "9d1a2b0c1195d724378dd08ac9a5fd046f441a9680a6f8a8f10377f6a4275652",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "P_LOCAL_MEAN_INITIAL_LEMMA.txt",
+          "bytes": 1720,
+          "sha256": "b0507393929562530ea90ba8b03a61e9e0f4f64e6abc6fb8d7dea615be3b18cc",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "PRODUCT_GAP_DISTANCE_COROLLARY.txt",
+          "bytes": 2138,
+          "sha256": "a0be5cb015735310e0993e9d6f3636b600b4d82e76a3f5239bef6d126d29b1cb",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_COMMON_INDEPENDENT_REVIEW.json",
+          "bytes": 1369,
+          "sha256": "b3ab655e02aaecaa98299208aadd4efa892975a19f49d970302d3b97e08a0a48",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_COMMON_PROOF.txt",
+          "bytes": 2052,
+          "sha256": "b4b1213afdae49d8815247b65ccd941eabcf03182aa167c746dc4d49faf16609",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "high_window_common.py",
+          "bytes": 2810,
+          "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "initial_negative.py",
+          "bytes": 6962,
+          "sha256": "43ca60af19f99f8eeee0fedfcc46e1d192e52914bf382d37569b7403112bbed9",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "NEGATIVE_BRANCH_SCOPE.txt",
+          "bytes": 506,
+          "sha256": "5b78c146a4386f4c113dea9f310879ce9bdbe47e0a0900b64f8e48ce17dadf8e",
+          "actual_bytes_match": true
+        }
+      ],
+      "historical_review_or_checked_json_is_not_fresh_acceptance": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/COPY_MANIFEST.json",
+      "sha256": "f2fb80f2e39f05e1fab584b7555a8dbc89c2948201601deb60053adec0d7ae51",
+      "bytes": 2485,
+      "declared_files": 22,
+      "all_declared_file_pins_match": true,
+      "files": [
+        {
+          "filename": "initial34.py",
+          "bytes": 10886,
+          "sha256": "4fac5690455115ade7a70389f496f2f6c25f99627366eaf6253416c71aca79a6",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "initial34_indexed.py",
+          "bytes": 11107,
+          "sha256": "b8ec3d1ab11d603bf95231e32eafc91949081f88f347662058aeb5f5b229fd2b",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "kernel.py",
+          "bytes": 19042,
+          "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "cantelli_high.py",
+          "bytes": 1593,
+          "sha256": "c95a6ce9d75fd2c5693de574f322859bcb29d25df4cada9facd96ed3edc02239",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "CANTELLI_HIGH_PROOF.txt",
+          "bytes": 2243,
+          "sha256": "ac0d1c269e0a2f8511d504f85bb1e46f4272e82079c3835dd136ac9ca2900c8c",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "high_grid.py",
+          "bytes": 740,
+          "sha256": "a6b631ea8df0299e7bbd14f9d6afd21abd3f1693f66d24036cefda36f51c741a",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_GRID_PROOF.txt",
+          "bytes": 756,
+          "sha256": "950e4dc90d48bf1e88af138ccc15777bf36f0bad53040ca386d6c92b2c28f6d7",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "integer_exphi.py",
+          "bytes": 803,
+          "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "INTEGER_EXPHI_PROOF.txt",
+          "bytes": 1287,
+          "sha256": "49378d83efbe4a44b0ac2c51fa9390fe798824ea85657f9ec05ece7376e9c59a",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "direct_gaussian_support.py",
+          "bytes": 5332,
+          "sha256": "5742afc0538fe3fb8473d087810ad391623d38a151f5b789e7520d256197c1d2",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "finite_binomial_core.py",
+          "bytes": 3510,
+          "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "small_index_support.py",
+          "bytes": 2698,
+          "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "heat_support50.py",
+          "bytes": 4726,
+          "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "EXACT_OPTIMIZATION_PROOF.txt",
+          "bytes": 2457,
+          "sha256": "5f95c696ad1e22ed548abc41587277e66e38e0b7ab356f0e36353d2c9d65a943",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "FULL_CACHE_AND_PANEL_CHECKED.json",
+          "bytes": 1541,
+          "sha256": "9cce433038af352abfdc94953305dcf3f1e4829c45bdaad1853151c15652efd0",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "INITIAL_CACHE_INDEPENDENT_REVIEW.json",
+          "bytes": 1545,
+          "sha256": "d7e528aa9ef6cf6f63ae6b7de8796753ce77ab97a31464f87d1eb3603870847f",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "high_window_core.py",
+          "bytes": 2214,
+          "sha256": "62ba022998f45e0e4f8628badfe5092ae0b8d2bc256d5c18614bfb44e63906a0",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "high_window_original.py",
+          "bytes": 1966,
+          "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_CONSTANTS_PROOF.txt",
+          "bytes": 566,
+          "sha256": "f8d03be41c5c573b255ba03f8966ab8e038f833a83bd803d12b26e6ff887a16f",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_CONSTANTS_CHECKED.json",
+          "bytes": 748,
+          "sha256": "937aea9fbc077fb04405ce5d2afbae5f20ce29dfb2a667f39d67ab3d7941b452",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_EVALUATION_INDEPENDENT_REVIEW.txt",
+          "bytes": 2216,
+          "sha256": "3654ad34b29cb06ea7120a44739302d0a1d641504bbb7191c649a1742657c08b",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_EVALUATION_INDEPENDENT_REVIEW.json",
+          "bytes": 1071,
+          "sha256": "0ec060110028e77cd7d82277cf7774ec34e0c141b13ef5260efc0c7a433f7b42",
+          "actual_bytes_match": true
+        }
+      ],
+      "historical_review_or_checked_json_is_not_fresh_acceptance": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/resource/COPY_MANIFEST.json",
+      "sha256": "7f11d57a9f4476846c4deeb2a62e0e33af4a38a07fcd7cf80ee747e95a3a45e6",
+      "bytes": 2820,
+      "declared_files": 26,
+      "all_declared_file_pins_match": true,
+      "files": [
+        {
+          "filename": "GENERAL_PAIRED_EXACT_REVIEW.txt",
+          "bytes": 3297,
+          "sha256": "f2a36127f2c34ab03e2ff8e4c73f9afa46651e73c4b4cae0004975c6438ddeaa",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "GENERAL_PAIRED_PROOF.txt",
+          "bytes": 4577,
+          "sha256": "ec58bb8c1c8df0ff3eb019ffd61988ee37c696149e934e7ca403a31c856f3bda",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_CONSTANTS_CHECKED.json",
+          "bytes": 748,
+          "sha256": "937aea9fbc077fb04405ce5d2afbae5f20ce29dfb2a667f39d67ab3d7941b452",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_CONSTANTS_PROOF.txt",
+          "bytes": 566,
+          "sha256": "f8d03be41c5c573b255ba03f8966ab8e038f833a83bd803d12b26e6ff887a16f",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "HIGH_EVALUATION_INDEPENDENT_REVIEW.txt",
+          "bytes": 2216,
+          "sha256": "3654ad34b29cb06ea7120a44739302d0a1d641504bbb7191c649a1742657c08b",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "INTEGER_EXPHI_PROOF.txt",
+          "bytes": 1287,
+          "sha256": "49378d83efbe4a44b0ac2c51fa9390fe798824ea85657f9ec05ece7376e9c59a",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "MEMOIZATION_IDENTITY_PROOF.txt",
+          "bytes": 2457,
+          "sha256": "5f95c696ad1e22ed548abc41587277e66e38e0b7ab356f0e36353d2c9d65a943",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "POSITIVE_GAP_RESOURCE_EXTENSION.txt",
+          "bytes": 5007,
+          "sha256": "0bf6ae992f6b8c4b8c344b178f715c9717d1083c2fce317b7cdb0dc151e210f2",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "candidate_charged_score_v2.py",
+          "bytes": 5914,
+          "sha256": "2959239a0c40a7a5171fdf776eee473fea561d5a5c3ceafffc93fdae88e2ef4c",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "contracted_kernel.py",
+          "bytes": 20119,
+          "sha256": "f5a5e8a6c535f4c05df7323a88748f8978db39259c1437cb3537598b18d3e7f4",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "corrected_phase_callback_extended.py",
+          "bytes": 1164,
+          "sha256": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "direct_gaussian_support.py",
+          "bytes": 5306,
+          "sha256": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "finite_binomial_core.py",
+          "bytes": 3510,
+          "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "finite_gaussian.py",
+          "bytes": 3510,
+          "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "general_paired_exact.py",
+          "bytes": 4013,
+          "sha256": "e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "geometric_moment_both.py",
+          "bytes": 2100,
+          "sha256": "ea17218cdad6c409dacf8d4a37b437453fbf7aab3683867d16783cb696206616",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "heat_support50.py",
+          "bytes": 4726,
+          "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "high_window_core.py",
+          "bytes": 2214,
+          "sha256": "62ba022998f45e0e4f8628badfe5092ae0b8d2bc256d5c18614bfb44e63906a0",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "high_window_original.py",
+          "bytes": 1966,
+          "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "integer_exphi.py",
+          "bytes": 803,
+          "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "kernel.py",
+          "bytes": 19042,
+          "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "make_charged35_resources.py",
+          "bytes": 1901,
+          "sha256": "f07e4a9c4bf77584df8a2905cec0dabfe67973cddffd0698bba053d340491b66",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "paired_extended.py",
+          "bytes": 2854,
+          "sha256": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "resource25_core.py",
+          "bytes": 10063,
+          "sha256": "1fda990885cc555bf4d640d51e43773cf097c8bd0492835756cd7d32d4648e2b",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "signed_variance_resource.py",
+          "bytes": 1785,
+          "sha256": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8",
+          "actual_bytes_match": true
+        },
+        {
+          "filename": "small_index_support.py",
+          "bytes": 2698,
+          "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+          "actual_bytes_match": true
+        }
+      ],
+      "historical_review_or_checked_json_is_not_fresh_acceptance": true
+    }
+  ],
+  "exact_byte_identity_edges": [
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/negative25_exact/kernel.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/kernel.py",
+      "bytes": 19042,
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+      "exact_bytes_equal": true,
+      "implication": "Reuse only the existing reviewed mathematical rule, with this caller profile and hypotheses checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/negative25_exact/integer_exphi.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/integer_exphi.py",
+      "bytes": 803,
+      "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+      "exact_bytes_equal": true,
+      "implication": "Reuse only the existing reviewed mathematical rule, with this caller profile and hypotheses checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/negative25_exact/cantelli_high.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/cantelli_high.py",
+      "bytes": 1593,
+      "sha256": "c95a6ce9d75fd2c5693de574f322859bcb29d25df4cada9facd96ed3edc02239",
+      "exact_bytes_equal": true,
+      "implication": "Reuse only the existing reviewed mathematical rule, with this caller profile and hypotheses checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/negative25_exact/high_grid.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/high_grid.py",
+      "bytes": 740,
+      "sha256": "a6b631ea8df0299e7bbd14f9d6afd21abd3f1693f66d24036cefda36f51c741a",
+      "exact_bytes_equal": true,
+      "implication": "Reuse only the existing reviewed mathematical rule, with this caller profile and hypotheses checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/negative25_exact/direct_gaussian_support.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/direct_gaussian_support.py",
+      "bytes": 5332,
+      "sha256": "5742afc0538fe3fb8473d087810ad391623d38a151f5b789e7520d256197c1d2",
+      "exact_bytes_equal": true,
+      "implication": "Reuse only the existing reviewed mathematical rule, with this caller profile and hypotheses checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/negative25_exact/finite_binomial_core.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/finite_binomial_core.py",
+      "bytes": 3510,
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+      "exact_bytes_equal": true,
+      "implication": "Reuse only the existing reviewed mathematical rule, with this caller profile and hypotheses checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/negative25_exact/small_index_support.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/small_index_support.py",
+      "bytes": 2698,
+      "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+      "exact_bytes_equal": true,
+      "implication": "Reuse only the existing reviewed mathematical rule, with this caller profile and hypotheses checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/negative25_exact/heat_support50.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/heat_support50.py",
+      "bytes": 4726,
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+      "exact_bytes_equal": true,
+      "implication": "Reuse only the existing reviewed mathematical rule, with this caller profile and hypotheses checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/middle6_negative25_exact/kernel.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/kernel.py",
+      "bytes": 19042,
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+      "exact_bytes_equal": true,
+      "implication": "Reuse only the existing reviewed mathematical rule, with this caller profile and hypotheses checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/middle6_negative25_exact/integer_exphi.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/integer_exphi.py",
+      "bytes": 803,
+      "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+      "exact_bytes_equal": true,
+      "implication": "Reuse only the existing reviewed mathematical rule, with this caller profile and hypotheses checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/middle6_negative25_exact/cantelli_high.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/cantelli_high.py",
+      "bytes": 1593,
+      "sha256": "c95a6ce9d75fd2c5693de574f322859bcb29d25df4cada9facd96ed3edc02239",
+      "exact_bytes_equal": true,
+      "implication": "Reuse only the existing reviewed mathematical rule, with this caller profile and hypotheses checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/middle6_negative25_exact/high_grid.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/high_grid.py",
+      "bytes": 740,
+      "sha256": "a6b631ea8df0299e7bbd14f9d6afd21abd3f1693f66d24036cefda36f51c741a",
+      "exact_bytes_equal": true,
+      "implication": "Reuse only the existing reviewed mathematical rule, with this caller profile and hypotheses checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/middle6_negative25_exact/direct_gaussian_support.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/direct_gaussian_support.py",
+      "bytes": 5332,
+      "sha256": "5742afc0538fe3fb8473d087810ad391623d38a151f5b789e7520d256197c1d2",
+      "exact_bytes_equal": true,
+      "implication": "Reuse only the existing reviewed mathematical rule, with this caller profile and hypotheses checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/middle6_negative25_exact/finite_binomial_core.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/finite_binomial_core.py",
+      "bytes": 3510,
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+      "exact_bytes_equal": true,
+      "implication": "Reuse only the existing reviewed mathematical rule, with this caller profile and hypotheses checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/middle6_negative25_exact/small_index_support.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/small_index_support.py",
+      "bytes": 2698,
+      "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+      "exact_bytes_equal": true,
+      "implication": "Reuse only the existing reviewed mathematical rule, with this caller profile and hypotheses checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/middle6_negative25_exact/heat_support50.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/heat_support50.py",
+      "bytes": 4726,
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+      "exact_bytes_equal": true,
+      "implication": "Reuse only the existing reviewed mathematical rule, with this caller profile and hypotheses checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/middle6_negative25_exact/high_window_common.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/high_window_common.py",
+      "bytes": 2810,
+      "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+      "exact_bytes_equal": true,
+      "implication": "Reuse only the existing reviewed mathematical rule, with this caller profile and hypotheses checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/kernel.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/kernel.py",
+      "bytes": 19042,
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+      "exact_bytes_equal": true,
+      "implication": "Reuse only the existing reviewed mathematical rule, with this caller profile and hypotheses checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/integer_exphi.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/integer_exphi.py",
+      "bytes": 803,
+      "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+      "exact_bytes_equal": true,
+      "implication": "Reuse only the existing reviewed mathematical rule, with this caller profile and hypotheses checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/cantelli_high.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/cantelli_high.py",
+      "bytes": 1593,
+      "sha256": "c95a6ce9d75fd2c5693de574f322859bcb29d25df4cada9facd96ed3edc02239",
+      "exact_bytes_equal": true,
+      "implication": "Reuse only the existing reviewed mathematical rule, with this caller profile and hypotheses checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/high_grid.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/high_grid.py",
+      "bytes": 740,
+      "sha256": "a6b631ea8df0299e7bbd14f9d6afd21abd3f1693f66d24036cefda36f51c741a",
+      "exact_bytes_equal": true,
+      "implication": "Reuse only the existing reviewed mathematical rule, with this caller profile and hypotheses checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/direct_gaussian_support.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/direct_gaussian_support.py",
+      "bytes": 5332,
+      "sha256": "5742afc0538fe3fb8473d087810ad391623d38a151f5b789e7520d256197c1d2",
+      "exact_bytes_equal": true,
+      "implication": "Reuse only the existing reviewed mathematical rule, with this caller profile and hypotheses checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/finite_binomial_core.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/finite_binomial_core.py",
+      "bytes": 3510,
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+      "exact_bytes_equal": true,
+      "implication": "Reuse only the existing reviewed mathematical rule, with this caller profile and hypotheses checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/small_index_support.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/small_index_support.py",
+      "bytes": 2698,
+      "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+      "exact_bytes_equal": true,
+      "implication": "Reuse only the existing reviewed mathematical rule, with this caller profile and hypotheses checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/heat_support50.py",
+      "reference_member": "cutoff25_20261011/new_root/initial25_b3_exact_v1/heat_support50.py",
+      "bytes": 4726,
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+      "exact_bytes_equal": true,
+      "implication": "Reuse only the existing reviewed mathematical rule, with this caller profile and hypotheses checked separately"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/resource/general_paired_exact.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/general_paired_exact.py",
+      "bytes": 4013,
+      "sha256": "e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96",
+      "exact_bytes_equal": true,
+      "implication": "Reuse existing conditional primitive/paired/phase/support/moment rule; no new acquisition follows from byte identity"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/resource/paired_extended.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/paired_extended.py",
+      "bytes": 2854,
+      "sha256": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998",
+      "exact_bytes_equal": true,
+      "implication": "Reuse existing conditional primitive/paired/phase/support/moment rule; no new acquisition follows from byte identity"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/resource/corrected_phase_callback_extended.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/corrected_phase_callback_extended.py",
+      "bytes": 1164,
+      "sha256": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63",
+      "exact_bytes_equal": true,
+      "implication": "Reuse existing conditional primitive/paired/phase/support/moment rule; no new acquisition follows from byte identity"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/resource/geometric_moment_both.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/geometric_moment_both.py",
+      "bytes": 2100,
+      "sha256": "ea17218cdad6c409dacf8d4a37b437453fbf7aab3683867d16783cb696206616",
+      "exact_bytes_equal": true,
+      "implication": "Reuse existing conditional primitive/paired/phase/support/moment rule; no new acquisition follows from byte identity"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/resource/signed_variance_resource.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/signed_variance_resource.py",
+      "bytes": 1785,
+      "sha256": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8",
+      "exact_bytes_equal": true,
+      "implication": "Reuse existing conditional primitive/paired/phase/support/moment rule; no new acquisition follows from byte identity"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/resource/small_index_support.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/small_index_support.py",
+      "bytes": 2698,
+      "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+      "exact_bytes_equal": true,
+      "implication": "Reuse existing conditional primitive/paired/phase/support/moment rule; no new acquisition follows from byte identity"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/resource/direct_gaussian_support.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/direct_gaussian_support.py",
+      "bytes": 5306,
+      "sha256": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57",
+      "exact_bytes_equal": true,
+      "implication": "Reuse existing conditional primitive/paired/phase/support/moment rule; no new acquisition follows from byte identity"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/resource/finite_gaussian.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/finite_gaussian.py",
+      "bytes": 3510,
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+      "exact_bytes_equal": true,
+      "implication": "Reuse existing conditional primitive/paired/phase/support/moment rule; no new acquisition follows from byte identity"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/resource/finite_binomial_core.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/finite_binomial_core.py",
+      "bytes": 3510,
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+      "exact_bytes_equal": true,
+      "implication": "Reuse existing conditional primitive/paired/phase/support/moment rule; no new acquisition follows from byte identity"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/resource/integer_exphi.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/integer_exphi.py",
+      "bytes": 803,
+      "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+      "exact_bytes_equal": true,
+      "implication": "Reuse existing conditional primitive/paired/phase/support/moment rule; no new acquisition follows from byte identity"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/resource/kernel.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/kernel.py",
+      "bytes": 19042,
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+      "exact_bytes_equal": true,
+      "implication": "Reuse existing conditional primitive/paired/phase/support/moment rule; no new acquisition follows from byte identity"
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/resource/heat_support50.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/heat_support50.py",
+      "bytes": 4726,
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+      "exact_bytes_equal": true,
+      "implication": "Reuse existing conditional primitive/paired/phase/support/moment rule; no new acquisition follows from byte identity"
+    }
+  ],
+  "function_ast_identity_edges": [
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/resource/resource25_core.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/resource25_core.py",
+      "function": "source_round",
+      "member_sha256": "1fda990885cc555bf4d640d51e43773cf097c8bd0492835756cd7d32d4648e2b",
+      "reference_sha256": "2f521cd143998da83c260079d02ce2fb35e76a20815e4d51d846e4d6b82cf896",
+      "function_ast_sha256": "574f0d2b6b354624afc0c46230dc031fe6641c18c3e75e0c77a2d510cfb561e0",
+      "member_lines": [
+        39,
+        49
+      ],
+      "reference_lines": [
+        42,
+        52
+      ],
+      "identical_function_ast": true,
+      "changed_module_profile_constants_reviewed_separately": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/resource/resource25_core.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/resource25_core.py",
+      "function": "retained_cell",
+      "member_sha256": "1fda990885cc555bf4d640d51e43773cf097c8bd0492835756cd7d32d4648e2b",
+      "reference_sha256": "2f521cd143998da83c260079d02ce2fb35e76a20815e4d51d846e4d6b82cf896",
+      "function_ast_sha256": "3fa9504a83964d2543732f57a6a42874825c305211a542df1e5a287c2f6aa46b",
+      "member_lines": [
+        51,
+        70
+      ],
+      "reference_lines": [
+        54,
+        73
+      ],
+      "identical_function_ast": true,
+      "changed_module_profile_constants_reviewed_separately": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/resource/resource25_core.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/resource25_core.py",
+      "function": "amplitude",
+      "member_sha256": "1fda990885cc555bf4d640d51e43773cf097c8bd0492835756cd7d32d4648e2b",
+      "reference_sha256": "2f521cd143998da83c260079d02ce2fb35e76a20815e4d51d846e4d6b82cf896",
+      "function_ast_sha256": "813aeff2c68250d3ffde051de1501189cdfcdb3760be3410bb44a23820470abd",
+      "member_lines": [
+        72,
+        77
+      ],
+      "reference_lines": [
+        75,
+        80
+      ],
+      "identical_function_ast": true,
+      "changed_module_profile_constants_reviewed_separately": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/resource/resource25_core.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/resource25_core.py",
+      "function": "support",
+      "member_sha256": "1fda990885cc555bf4d640d51e43773cf097c8bd0492835756cd7d32d4648e2b",
+      "reference_sha256": "2f521cd143998da83c260079d02ce2fb35e76a20815e4d51d846e4d6b82cf896",
+      "function_ast_sha256": "579c0329d9beee85ebdc04acec707852287b16f20b0758b6260dfa7ddcf9fd3f",
+      "member_lines": [
+        79,
+        96
+      ],
+      "reference_lines": [
+        82,
+        99
+      ],
+      "identical_function_ast": true,
+      "changed_module_profile_constants_reviewed_separately": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/resource/resource25_core.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/resource25_core.py",
+      "function": "charged",
+      "member_sha256": "1fda990885cc555bf4d640d51e43773cf097c8bd0492835756cd7d32d4648e2b",
+      "reference_sha256": "2f521cd143998da83c260079d02ce2fb35e76a20815e4d51d846e4d6b82cf896",
+      "function_ast_sha256": "f9bb714933575e8fe36d325fbe4cbdc80a4bd5ff41705970b9e027fbb1f88911",
+      "member_lines": [
+        98,
+        109
+      ],
+      "reference_lines": [
+        101,
+        112
+      ],
+      "identical_function_ast": true,
+      "changed_module_profile_constants_reviewed_separately": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/resource/resource25_core.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/resource25_core.py",
+      "function": "export",
+      "member_sha256": "1fda990885cc555bf4d640d51e43773cf097c8bd0492835756cd7d32d4648e2b",
+      "reference_sha256": "2f521cd143998da83c260079d02ce2fb35e76a20815e4d51d846e4d6b82cf896",
+      "function_ast_sha256": "02fcc8c206f59038aeb6de76cc26b82d1af482d162683c3b6433d5df4fac50ec",
+      "member_lines": [
+        111,
+        120
+      ],
+      "reference_lines": [
+        114,
+        123
+      ],
+      "identical_function_ast": true,
+      "changed_module_profile_constants_reviewed_separately": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/resource/resource25_core.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/resource25_core.py",
+      "function": "polymin",
+      "member_sha256": "1fda990885cc555bf4d640d51e43773cf097c8bd0492835756cd7d32d4648e2b",
+      "reference_sha256": "2f521cd143998da83c260079d02ce2fb35e76a20815e4d51d846e4d6b82cf896",
+      "function_ast_sha256": "d2859be97db29eb5e7649b09a24544fc904719f6a8a9793232947b569da6b63c",
+      "member_lines": [
+        161,
+        164
+      ],
+      "reference_lines": [
+        165,
+        168
+      ],
+      "identical_function_ast": true,
+      "changed_module_profile_constants_reviewed_separately": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/resource/resource25_core.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/resource25_core.py",
+      "function": "interface",
+      "member_sha256": "1fda990885cc555bf4d640d51e43773cf097c8bd0492835756cd7d32d4648e2b",
+      "reference_sha256": "2f521cd143998da83c260079d02ce2fb35e76a20815e4d51d846e4d6b82cf896",
+      "function_ast_sha256": "d322ada1cfa823871d1d390271a8720e13707949a2da8b7df078478110f3785a",
+      "member_lines": [
+        165,
+        179
+      ],
+      "reference_lines": [
+        169,
+        183
+      ],
+      "identical_function_ast": true,
+      "changed_module_profile_constants_reviewed_separately": true
+    },
+    {
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/resource/resource25_core.py",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/resource25_core.py",
+      "function": "acquire",
+      "member_sha256": "1fda990885cc555bf4d640d51e43773cf097c8bd0492835756cd7d32d4648e2b",
+      "reference_sha256": "2f521cd143998da83c260079d02ce2fb35e76a20815e4d51d846e4d6b82cf896",
+      "function_ast_sha256": "addd76e5ebc6f918411311c8659a7e8128615d31dce72369568b23a72f3bf3b6",
+      "member_lines": [
+        182,
+        184
+      ],
+      "reference_lines": [
+        186,
+        188
+      ],
+      "identical_function_ast": true,
+      "changed_module_profile_constants_reviewed_separately": true
+    }
+  ],
+  "declared_file_comparisons": 100,
+  "branches": [
+    {
+      "name": "high_negative",
+      "rho": [
+        "7/4",
+        "459061/250000"
+      ],
+      "beta": [
+        "-640471/1000000",
+        "0"
+      ],
+      "n": 25,
+      "K": "0",
+      "radius_minus": "18/5",
+      "radius_plus": "16/5",
+      "own_cap": "3619319/8750000",
+      "contact_allowance": "1366497/14000000",
+      "moment_cells_per_cover": 18432,
+      "driver_maximum_covers": 10,
+      "historical_join_requires_covers": 10,
+      "terminal_rule": "active=0 and R=D=-1 and all100 panel cells=0",
+      "conditional_count_used": false
+    },
+    {
+      "name": "middle_negative",
+      "rho": [
+        "33/20",
+        "7/4"
+      ],
+      "beta": [
+        "-13/20",
+        "0"
+      ],
+      "n": 25,
+      "K": "0",
+      "radius_minus": "7/2",
+      "radius_plus": "31/10",
+      "own_cap": "104643/250000",
+      "contact_allowance": "441991/2000000",
+      "moment_cells_per_cover": 9216,
+      "driver_maximum_covers": 8,
+      "historical_join_requires_covers": "1..8",
+      "terminal_rule": "active=0 and R=D=-1 and all100 panel cells=0",
+      "conditional_count_used": false
+    },
+    {
+      "name": "high_quarter2",
+      "rho": [
+        "7/4",
+        "459061/250000"
+      ],
+      "beta": [
+        "0",
+        "321/1000"
+      ],
+      "n": 25,
+      "K": "0",
+      "radius_minus": "3",
+      "radius_plus": "7/2",
+      "own_cap": "3619319/8750000",
+      "contact_allowance": "1366497/14000000",
+      "moment_cells_per_cover": 73728,
+      "feedback_covers": 4,
+      "export_covers": 1,
+      "raw_export": "183/50",
+      "D_export": "531/250",
+      "resource_closed_probability_panels": 100,
+      "terminal_rule": "every core.acquire(row).excluded is True",
+      "conditional_count_used": false
+    }
+  ],
+  "required_analytic_premises": [
+    "unrestricted attainment and positive-closed contact for the same law",
+    "published universal same-law bound T(rho), exact CE enclosure and normalized moment inequalities",
+    "direct Gaussian signed support theorem and actual successful support acquisition",
+    "ordered raw-before-defect weight-removal rule and conserved/compensated identity",
+    "previously reviewed full INITIAL atlas, general signed-Pearson/phase, complete HIGH and moment primitives"
+  ],
+  "remaining_distinct_components": [
+    "high beta0 local-support feedback and full resource join",
+    "high beta1 mixed local acquisition and mean-floor rule",
+    "high beta2 and middle positive-beta acquisition routes not covered by this unit",
+    "lower B3/B4 remainder and B5 V14/E24/ABCDF selected mixed rules",
+    "fresh arithmetic/evidence for each selected component and final executable semantic joins"
+  ]
+}

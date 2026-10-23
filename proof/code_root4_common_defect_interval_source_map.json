@@ -1,0 +1,546 @@
+{
+  "actual_receipt_bytes": 36903389,
+  "actual_receipt_sha256": "571bc91b257ac53c640dd3bee91377565ff7c475091d39076295200209beeae1",
+  "actual_receipt_source_pins": 70,
+  "all_index_conclusion_verified": false,
+  "all_law_C4_verified": false,
+  "excluded_legacy_functions": [
+    "n4_Q3_exact_common_signed_response_table_2026_10_08.py::generic_characteristic",
+    "n4_Q3_first_critical_integer_response_radius_verifier_2026_10_08.py::phi_q_modulus_upper",
+    "legacy timed/high-level point/root/price producer functions"
+  ],
+  "full_root4_portfolio_soundness_verified": false,
+  "members": [
+    {
+      "actual_receipt_source_sha256": "17b4c2b7b90ef39a4d524f0ea388f035f2bcfe85e12127b802eade6632fab987",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 145,
+          "name": "gamma_affine_from_proven_sup",
+          "start": 139
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 164,
+          "name": "frozen_remainder",
+          "start": 148
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 181,
+          "name": "weighted_remainder_sum",
+          "start": 167
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 192,
+          "name": "degree2_bernstein",
+          "start": 184
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 229,
+          "name": "per_H_signed_normalized_row",
+          "start": 195
+        }
+      ],
+      "name": "n4_fresh_signed_common_nu_quartic_ledger_2026_10_09.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "17b4c2b7b90ef39a4d524f0ea388f035f2bcfe85e12127b802eade6632fab987"
+    },
+    {
+      "actual_receipt_source_sha256": "cde7549338e1e32f5398f68416b9b1428c3129f556d999b47cccb218e85a65ad",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 133,
+          "name": "fresh_HG_frequency_data",
+          "start": 111
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 146,
+          "name": "checked_homogeneous_table",
+          "start": 136
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 168,
+          "name": "fresh_nominal_modulus_cache",
+          "start": 149
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 220,
+          "name": "box_geometry_margins",
+          "start": 171
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 320,
+          "name": "fresh_generic_common_A1_response_table",
+          "start": 223
+        }
+      ],
+      "name": "n4_Q3_fresh_generic_common_A1_response_table_2026_10_09.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "cde7549338e1e32f5398f68416b9b1428c3129f556d999b47cccb218e85a65ad"
+    },
+    {
+      "actual_receipt_source_sha256": "0a5cf384dd991e8c9f30bc653dc3b180fe0fa8b23d14808890e64b1d7b173a7f",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 85,
+          "name": "add_RAW_cache_compatibility_alias",
+          "start": 46
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 107,
+          "name": "fresh_generic_common_A1_response_table",
+          "start": 88
+        }
+      ],
+      "name": "n4_Q3_fresh_generic_common_A1_response_table_v2_2026_10_09.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "0a5cf384dd991e8c9f30bc653dc3b180fe0fa8b23d14808890e64b1d7b173a7f"
+    },
+    {
+      "actual_receipt_source_sha256": "c574148b9b02603dfa83c947816f3293d04d11af27e44580703656fc558c23c6",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 74,
+          "name": "signed_positive_product",
+          "start": 67
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 91,
+          "name": "rotated_real_interval",
+          "start": 77
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 112,
+          "name": "homogeneous_table",
+          "start": 106
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 124,
+          "name": "common_coefficients",
+          "start": 115
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 136,
+          "name": "cell_uppers",
+          "start": 127
+        }
+      ],
+      "name": "n4_Q3_exact_common_signed_response_table_2026_10_08.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "c574148b9b02603dfa83c947816f3293d04d11af27e44580703656fc558c23c6"
+    },
+    {
+      "actual_receipt_source_sha256": "722ebde13cc08d1e82b0b92e0faf7af2db8cc0ce191f277494937818d9e50aa0",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 78,
+          "name": "ceil_div",
+          "start": 76
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 82,
+          "name": "floor_fraction_scaled",
+          "start": 81
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 86,
+          "name": "ceil_fraction_scaled",
+          "start": 85
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 90,
+          "name": "fraction_interval",
+          "start": 89
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 101,
+          "name": "sqrt_fraction_interval",
+          "start": 93
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 106,
+          "name": "positive_multiply",
+          "start": 104
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 116,
+          "name": "rectangle_modulus_upper",
+          "start": 109
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 120,
+          "name": "conjugate_rectangle",
+          "start": 119
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 142,
+          "name": "response_rectangle",
+          "start": 123
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 152,
+          "name": "homogeneous_at_node",
+          "start": 145
+        }
+      ],
+      "name": "n4_Q3_first_critical_integer_response_radius_verifier_2026_10_08.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "722ebde13cc08d1e82b0b92e0faf7af2db8cc0ce191f277494937818d9e50aa0"
+    },
+    {
+      "actual_receipt_source_sha256": "1c6fd24479b030e9357b85467cc07c353eef199d471b43a9b05083fa5d30cddc",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 90,
+          "name": "complex_multiply",
+          "start": 80
+        }
+      ],
+      "name": "n4_Q3_first_critical_integer_abs_Prawitz_gate_strict_v2_2026_10_08.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "1c6fd24479b030e9357b85467cc07c353eef199d471b43a9b05083fa5d30cddc"
+    },
+    {
+      "actual_receipt_source_sha256": "5caf7e838ecb68f24474f473b980e38649eaf24efefb9c38bf356eb9d28c16ce",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 80,
+          "name": "reciprocal_domains",
+          "start": 71
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 96,
+          "name": "penalty_maximum",
+          "start": 83
+        }
+      ],
+      "name": "n4_Q3_three_budget_exact_affine_radius_verifier_2026_10_08.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "5caf7e838ecb68f24474f473b980e38649eaf24efefb9c38bf356eb9d28c16ce"
+    },
+    {
+      "actual_receipt_source_sha256": "f5dc893e0674255cc68981bdb61a2b0ce5586b8a2afbea14f7634cd85c0a5ad4",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 116,
+          "name": "checked_prices",
+          "start": 112
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 166,
+          "name": "checked_preverified_A1_scope",
+          "start": 119
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 206,
+          "name": "whole_contact_price_offsets",
+          "start": 169
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 227,
+          "name": "best_complete_equality_supremum",
+          "start": 209
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 240,
+          "name": "tag_supremum_grid",
+          "start": 230
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 257,
+          "name": "exact_midpoint_choice",
+          "start": 243
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 329,
+          "name": "compute_verified_gamma_models",
+          "start": 260
+        }
+      ],
+      "name": "n4_Q3_fresh_generic_A1_five_price_cell_suprema_2026_10_09.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "f5dc893e0674255cc68981bdb61a2b0ce5586b8a2afbea14f7634cd85c0a5ad4"
+    },
+    {
+      "actual_receipt_source_sha256": "6ec11db2518d5dc7b07e06a6d44fc219c46acb4171b5dbc1b934e3c2df049f1f",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 112,
+          "name": "fixed_eta_cells",
+          "start": 106
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 117,
+          "name": "_ceil_scaled",
+          "start": 115
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 196,
+          "name": "_check_fresh_inputs",
+          "start": 120
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 203,
+          "name": "_choose_gamma",
+          "start": 199
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 234,
+          "name": "_fresh_weighted_R2",
+          "start": 206
+        }
+      ],
+      "name": "n4_fresh_signed_A1_CDF_cell_consumer_2026_10_09.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "6ec11db2518d5dc7b07e06a6d44fc219c46acb4171b5dbc1b934e3c2df049f1f"
+    },
+    {
+      "actual_receipt_source_sha256": "684568bb773216737fc0a9b158475e8d0e6ea11183d859ab22f56dae9dae138d",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 110,
+          "name": "_checked_modulus_identity",
+          "start": 89
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 151,
+          "name": "_augment_signed_frequencies",
+          "start": 113
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 164,
+          "name": "_choose_three_complete_routes",
+          "start": 154
+        }
+      ],
+      "name": "n4_fresh_signed_A1_CDF_cell_consumer_v4_2026_10_09.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "684568bb773216737fc0a9b158475e8d0e6ea11183d859ab22f56dae9dae138d"
+    },
+    {
+      "actual_receipt_source_sha256": "de2bd93c1c93520a9634d514ac6a0a36516ab28927e60756ed1bd3cc4a814ec7",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 221,
+          "name": "evaluate_fresh_signed_A1_CDF",
+          "start": 87
+        }
+      ],
+      "name": "n4_cpu_time_signed_CDF_consumer_2026_10_09.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "de2bd93c1c93520a9634d514ac6a0a36516ab28927e60756ed1bd3cc4a814ec7"
+    },
+    {
+      "actual_receipt_source_sha256": "0f91c5e768224f34aceb967fea60bebe3eb186d11285c13d21fe4fc7e1fe478d",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 208,
+          "name": "complete_geometry_join_from_pair",
+          "start": 117
+        }
+      ],
+      "name": "n4_cpu_time_geometry_join_2026_10_09.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "6a3a5bc584c85090cde7a188869b4ecedb0bb9d81e93396f2e757c1f1313e774"
+    },
+    {
+      "actual_receipt_source_sha256": "8bdda6a54978a9b55a894e4d692887c40e32c8a546fe57a7c7cb9dabd77e803b",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 69,
+          "name": "sqrt_upper",
+          "start": 62
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 80,
+          "name": "checked_rectangle_and_eta",
+          "start": 72
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 105,
+          "name": "whole_cell_moment_uppers",
+          "start": 83
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 134,
+          "name": "physical_quad_at_H",
+          "start": 108
+        }
+      ],
+      "name": "n4_local_physical_moment_quadrature_2026_10_09.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "8bdda6a54978a9b55a894e4d692887c40e32c8a546fe57a7c7cb9dabd77e803b"
+    },
+    {
+      "actual_receipt_source_sha256": "6d0c5f1142016721f261bb63715788c21c62b6cd152a1f2538db38cf0e86aa5b",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 118,
+          "name": "ceil_scaled",
+          "start": 115
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 126,
+          "name": "checked_eta_interval",
+          "start": 121
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 150,
+          "name": "whole_cell_radius_upper",
+          "start": 129
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 169,
+          "name": "frequency_cell_weights",
+          "start": 153
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 242,
+          "name": "physical_H_curvature_bound",
+          "start": 172
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 277,
+          "name": "from_preverified_box_frequency_data",
+          "start": 245
+        }
+      ],
+      "name": "n4_frequency_local_physical_H_curvature_2026_10_09.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "6d0c5f1142016721f261bb63715788c21c62b6cd152a1f2538db38cf0e86aa5b"
+    },
+    {
+      "actual_receipt_source_sha256": "3ee382c9b6de905da3d53034e65ae854ea13c9d877c60a59e98c8bc5de057c68",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 68,
+          "name": "compact_cell_curvature",
+          "start": 54
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 76,
+          "name": "transfer_frequencies",
+          "start": 71
+        }
+      ],
+      "name": "n4_Q3_H_curvature_low_eta_box_leaf_2026_10_09.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "3ee382c9b6de905da3d53034e65ae854ea13c9d877c60a59e98c8bc5de057c68"
+    },
+    {
+      "actual_receipt_source_sha256": "e29ec0c0140f48a79495881cc4cc8ffc6ad519817034d5c6ddd78c4662eaaf71",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 254,
+          "name": "affine_radius_models",
+          "start": 246
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 295,
+          "name": "frozen_complete_ABS_cell",
+          "start": 257
+        }
+      ],
+      "name": "n4_Q3_generic_low_eta_center_only_exact_box_leaf_2026_10_09.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "e29ec0c0140f48a79495881cc4cc8ffc6ad519817034d5c6ddd78c4662eaaf71"
+    },
+    {
+      "actual_receipt_source_sha256": "77c253d4d044be5a8ed0ac0994b2dc2a7cce052e7e9074757b2d23abcece3e0f",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 103,
+          "name": "checked_radius",
+          "start": 98
+        },
+        {
+          "actual_function_AST_identical": true,
+          "end": 112,
+          "name": "frozen_cap_linear_transfer",
+          "start": 106
+        }
+      ],
+      "name": "n4_eta_affine_transfer_bernstein_2026_10_08.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "77c253d4d044be5a8ed0ac0994b2dc2a7cce052e7e9074757b2d23abcece3e0f"
+    },
+    {
+      "actual_receipt_source_sha256": "82c98f8059f3ebe19168fe15f2b35123993a136e64d99d238bebd0fc63264b40",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 109,
+          "name": "complete_ABS_normalized_row",
+          "start": 81
+        }
+      ],
+      "name": "n4_fresh_signed_A1_CDF_cell_consumer_v3_2026_10_09.py",
+      "selected_function_ASTs_identical": true,
+      "vendor_sha256": "82c98f8059f3ebe19168fe15f2b35123993a136e64d99d238bebd0fc63264b40"
+    }
+  ],
+  "original_mathematical_modules_imported_or_executed": false,
+  "review_status": "Fallible internal AI source and hand-algebra review; not external or formal verification",
+  "schema": "ROOT4_COMMON_DEFECT_INTERVAL_INTERNAL_SOURCE_AUDIT_V1"
+}
