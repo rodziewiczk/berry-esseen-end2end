@@ -720,3 +720,68 @@ The41completed attachment's SHA256 is
 Thus supplied logs establish scoped completion of41/42/43, not40. BASIC
 native acceptance, resource acquisition and full finite69/global flags remain
 false; actual final export/parent-interface readback remains separate.
+
+## Twelve supplied running logs around21:16--21:17UTC
+
+The following observations are from supplied text only, not live monitoring
+or fresh final-ZIP validation. No final batch completion or explicit execution
+failure is recorded in these snapshots. All mathematical/global scopes remain
+as declared by the individual runners.
+
+| Notebook | Last observed completed scope | Current work | Attachment SHA256 |
+|---|---|---|---|
+|12|13/14top-level,29/41retained|Full tail suite ongoing; sampled group-RSS peak1821007872bytes against2147483648byte budget|d792d904579dff3dceb2bd9269fe8cd92546d4f8ab71e8fffcafbc87b136fd04|
+|27|23/35forests,31880leaves|b1-p38-q2|42961b9fc3b37d756acea8ed383c829d5d010a6904e7c286ca519682ae2461ff|
+|28|18/23forests,22084leaves|b2-p34|6ed5d37f07b28d574dd050a7218e5655a8e52038cee2e750c971a873f36db3a4|
+|29|8/17forests,12096leaves|b3-p30|7d57053e4dd3937556cc542985611d9d767a7a91875c4c232fa56dd7752674bd|
+|30|9/30forests,12351leaves|b4-p27-q1|299c14f64910cd44c84ef11bc913dc2f949e5219b6fee9c5cac74d490413d208|
+|31|13/39forests,18952leaves|lower-b5p23q3|4264e10adeaeb39c350aed8f0b1c301a0f0f7a3dfe3c4f4b66080a7286eb32a2|
+|35|Support and both HIGH protocols|owncaps; CPU4559.07seconds, RSS peak57122816bytes|ed77191868f898f9c0354ef8fcf81e9dec8574e75b40fcb0171d43809688cdda|
+|40|59/90forests|n6.B2.p35|fcefdb2b79732b8deba7d64c1e6dc9aaa2fa9a640d85b13a283d5ee2e2a53f4d|
+|44|3/41actions|n6.initial.outer.BN|30c51d5c2d31416f4eab9221f8e15b077cab2670d66d12f9e6a2abcad66dadf3|
+|45|0/9actions|n7.initial.B0; four printed feedback stages|4d575faf08a953f0226b8ab67169cf1b3aa306fff697def82871bc246e93b5ca|
+|47|9/14actions|local-24-accept|09b4e80dfceb682c93d37b3e1acc437d555740ec6c5030c7bf44442bedd87a17|
+|49|8/14actions|local-21-accept|eac184b6eae1a89e3af188cc00c2f0e2823bfa1a3ce911b94494f3b709e6a03f|
+
+Notebook35's pasted browser page also includes a disconnected/reconnecting
+footer. Its last actual computation heartbeat at21:16:36UTC still reports
+owncaps activity. The footer alone cannot establish kernel termination or
+successful reconnection. The twelve files contain no newly completed final
+bundle to close on their basis. Notebook12's raised sampled memory peak is
+a concrete resource concern, not a reported memory-limit failure.
+
+## Subsequent12and44logs establish actual incomplete runs
+
+The later12attachment SHA256 is
+`ab81a633295faaa0741349e332f9716aa5d564ce931e8e507d7ea74013a8487b`.
+At21:19:44UTC the full suite ends `INCOMPLETE_NO_ACCEPTANCE` after13/14
+top-level and29/41retained executions. Its last sampled RSS peak is
+2131537920bytes. The terminal reason is
+`owned_process_group_not_empty_after_kill:[35971]`; the pasted log alone does
+not expose the underlying first cause. The incomplete ZIP is
+`tail49/20261023T182534Z-628805c7/20261023T182534Z-628805c7-results.zip`.
+The user explicitly authorizes restarting from zero with a larger memory
+budget on a GPU host; no existing partial calculation is promoted or removed.
+
+The later44attachment SHA256 is
+`66ee5b5439e1c770a0555f253431d99094f0e6accbb134fbd968d944e3e68f5f`.
+At21:21:05UTC it saves the fourth complete full INITIAL result, then ends
+`incomplete_selected_parent_arithmetic` with `ValueError: Catalog job identifier`.
+The first four job IDs contain no underscore; the next literal catalog ID
+does. This is a wrapper-routing defect, not a reported mathematical rejection.
+Its original four completed-stage ZIPs and final incomplete bundle remain
+preserved for strict unchanged-evidence cache validation after the repair.
+
+The replacement12notebook pins runtime
+`aaf3e73c8398e9a3b473c8b6e031780c05449cf9` and explicitly forwards16GiB/18h.
+Root's19synthetic tail infrastructure fixtures pass in29.426seconds; two
+metadata-only high-memory notebook fixtures pass. The actual uploaded private
+Drive notebook bytes match the local8622-byte file, SHA256
+`0a6f4b4c5c462be53b65807d72458ce83fe1538cf127f3e629d0f8d3927ff928`.
+This is delivery/readback, not completion of the new full arithmetic.
+
+The replacement44notebook pins
+`317355346ffc6286915f71506995bdd74dc5ce4c`. Root's23synthetic parent/cache/
+notebook fixtures pass in21.079seconds. The entire ten-field compatibility
+table is checked against the original published Git blobs; source catalogs,
+mathematics,45and the four old completed-stage files remain unchanged.

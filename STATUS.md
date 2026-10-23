@@ -41,8 +41,10 @@ remain open; source review does not accept their calculations.
 Further LOCAL42 reviews trace42profile-transfer and21entry/exterior source
 members. They derive the weighted joint-resource simplex and full signed
 feedback/profile cover, and identify the actual .4247cap licensing the
-N42central exterior scale term. All source pins match. Distinct finite
-positive-barrier INITIAL bootstrap callers are now being reviewed; full
+N42central exterior scale term. A further27-member finite positive-barrier
+review derives the live29/5coarse bootstrap, positive-K charging and four
+literal finite profiles. Root read the derivations and checked every member
+against the original final selector. Distinct anchor45/prop46 instances,
 physical predecessor acquisition and all-law/global joins remain open.
 
 ## Execution snapshot
@@ -56,7 +58,7 @@ Log completion is not independent bundle validation.
 |08|Actual n2/n3 export inspected; scoped analytic/checker reviews recorded.|
 |09/10,13,14/15|Complete scoped arithmetic in inspected logs; exports have a separate revalidation boundary.|
 |11|Actual final export/Drive sidecar,70sourcepins, complete receipts/captures and both native guard chains revalidated. Both full ROOT4 passes close260/260classes, zero unresolved, bound4097/10000. Scoped native conditional physical ROOT4 accepted; all-law/global flags remain false.|
-|12 corrected|Earlier actual2GiB ZIP timed out at7800.436seconds. Current18-hour run supplied at20:35UTC reports13/14main and25/41retained executions, with ongoing progress. No completion inferred. This original full driver has no completed-stage resume.|
+|12 corrected|Latest supplied2GiB/18h run stops incomplete at21:19UTC with13/14main and29/41retained executions, sampled RSS near2GiB and failed process cleanup. A separate16GiB/18h fresh-full-restart notebook is published and delivered;19root runtime fixtures and2notebook fixtures pass. No actual new arithmetic completion inferred.|
 |16|Complete 25-stage auxiliary23 log, 18,377 leaves; full theorem conditional.|
 |17|Complete 16-stage stronger24 B0 BASIC log, 1,929 leaves; export to revalidate.|
 |18|Complete 13-stage stronger24 B1 BASIC log,9,803 leaves; conditional on unacquired resources, native acceptance false, export to revalidate.|
@@ -74,7 +76,7 @@ Log completion is not independent bundle validation.
 |38|Actual completed B2 export and Drive sidecar revalidated:4/4fresh actions, preserved source/capture/receipt bindings and all23exact interfaces. B012actualparent interfaces now cover17+35+23=75edges, still conditional.|
 |39|Actual completed lower-B5 export revalidated: both full INITIAL/resource acceptances, fresh receipt/source/capture bindings. BASIC conditional scope retained; local/mixed/count interfaces remain separate.|
 |40--43|Full conditional count lanes for literaln6--9:284forests/2362roots/257089leaves. Supplied41/42/43logs complete72/64/58forests and save final ZIPs.40is in the user's active queue. Actual final count exports/parent joins remain separate.|
-|44/45|Prepared complete conditional n6parents (41actions) and n7--9INITIAL (9actions),133/81covers and872/243controls. Allactualsource closures prepared;19root fixtures PASS5.749s and internal peer19fixtures PASS5.819s. No actual numerical completion assumed.|
+|44/45|Latest44log saves4complete actions then stops on a wrapper underscore-routing defect. Published replacement44retains exact prior completed-evidence compatibility;23root fixtures pass, including four-old-stage reuse.45continues its first full INITIAL under its unchanged pin. No full batch completion assumed.|
 |47/48|Prepared middle-n25 B4/B5 full selected acquisition lanes:14/12actions,169/89source inputs.19synthetic fixtures, actual source-only preparation and26historical JSON schema readbacks pass. No fresh Colab arithmetic assumed.|
 |49|Prepared upper high-beta3 full acquisition lane:14actions,94originalinputs/95epochinputs. Actual source-only preparation and13syntheticfixtures pass; internal peer source/transport review completed. No actual Colab arithmetic assumed.|
 

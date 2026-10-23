@@ -270,3 +270,17 @@ was executed. These remain bounded internal source arguments, not acceptance
 of all physical predecessors or the global theorem. A distinct positive-
 barrier INITIAL caller reaches the earlier29/5bootstrap and remains the next
 active source unit; it is not covered by merely renaming the K0 atlas.
+
+The subsequent [finite positive-barrier review](code_finite_positive_barrier_audit.md)
+now supplies that enabled29/5bootstrap: physical gap endpoints, conditional
+variance price, the full binary probability interval and finite endpoint
+iteration. It follows positive-K/raw/conserved charging and the negative
+terminal contradiction for four literal profiles, retaining each separate
+support/decrement/score-cap dependency. The UPPER42general right-half caller
+is traced through its exact existing geometry identity. Root read this note,
+checked all27actual source hashes against the9518-entry final selector,
+compared all three functions across the four profile cores by AST, and
+confirmed the readonly manuscript hash. These checks execute no original
+mathematics and do not acquire numerical gates or physical predecessors.
+Distinct anchor45/prop46and other enabled positive profiles remain the next
+bounded source/instance audit; global logical composition remains open.
