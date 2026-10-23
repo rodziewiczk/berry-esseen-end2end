@@ -1,0 +1,46 @@
+{
+  "all_index_conclusion_verified": false,
+  "arithmetic_computed": false,
+  "catalog_sha256": "2a0575f59f9d6c8e95c53f68767b1cbae28b1ed2f5cd72c27a240b50d1367232",
+  "lanes": [
+    {
+      "files": 2766,
+      "forests": 90,
+      "leaves": 165394,
+      "n": 6,
+      "nodes": 330158,
+      "roots": 630,
+      "source_bytes": 329266321
+    },
+    {
+      "files": 2232,
+      "forests": 72,
+      "leaves": 48039,
+      "n": 7,
+      "nodes": 95502,
+      "roots": 576,
+      "source_bytes": 90626737
+    },
+    {
+      "files": 1984,
+      "forests": 64,
+      "leaves": 29651,
+      "n": 8,
+      "nodes": 58726,
+      "roots": 576,
+      "source_bytes": 59976103
+    },
+    {
+      "files": 1798,
+      "forests": 58,
+      "leaves": 14005,
+      "n": 9,
+      "nodes": 27430,
+      "roots": 580,
+      "source_bytes": 30169666
+    }
+  ],
+  "mathematical_modules_imported": false,
+  "parent_acquisitions_verified": false,
+  "schema": "FINITE69_COUNT_SOURCE_PREPARATION_ONLY_V1"
+}

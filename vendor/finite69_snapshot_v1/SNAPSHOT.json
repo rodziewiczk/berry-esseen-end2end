@@ -1,0 +1,47 @@
+{
+  "arithmetic_computed": false,
+  "files": [
+    {
+      "bytes": 85,
+      "path": "reproduction/all_indices/__init__.py",
+      "sha256": "d31d5a7a7cdc0cad5ff2f258d2131570d7ac476423b28930e8a32e66cd1a1daa"
+    },
+    {
+      "bytes": 10346,
+      "path": "reproduction/all_indices/c5_counts.py",
+      "sha256": "35c8e70884e239db999d62b4c3d9acfc35d99595d1e4d8918dac2b07b9d48138"
+    },
+    {
+      "bytes": 6459,
+      "path": "reproduction/all_indices/c5_inputs.py",
+      "sha256": "f956a032c25c2cbfd08ea37e99d03a356779bccc3956c117e0b226d117f94d91"
+    },
+    {
+      "bytes": 77,
+      "path": "reproduction/continuations/__init__.py",
+      "sha256": "6fc599736d07eb218cc63e3b52fc18478bae470013bddf12bbfa05300b5e2064"
+    },
+    {
+      "bytes": 7145,
+      "path": "reproduction/continuations/catalog.py",
+      "sha256": "934a526f4699055b791d641c62dec9c3e6da62948aaef9a9ef26de2bc48e12df"
+    },
+    {
+      "bytes": 8991,
+      "path": "reproduction/continuations/count_catalog.py",
+      "sha256": "c9ff24b27f45c8397b57d3f923bbc0f8f250241618c47b21694410392588a8f0"
+    },
+    {
+      "bytes": 4088,
+      "path": "reproduction/continuations/support_port.py",
+      "sha256": "9a7c9812dbe81da306b84d925cbd6d3cf41d10b979ad0f1e52e7cc5d678ea04c"
+    },
+    {
+      "bytes": 1074,
+      "path": "LICENSE",
+      "sha256": "cd780a1d309ec3d7adf42b87b75430b8231e8c42161fc5cb3452188b2af4bd80"
+    }
+  ],
+  "mathematical_modules_imported": false,
+  "schema": "UNCHANGED_FINITE69_SOURCE_SELECTORS_V1"
+}
