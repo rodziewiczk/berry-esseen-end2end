@@ -444,9 +444,11 @@
         "source_leaves": 1027
       },
       "requirements": [
-        "Use the selected original exact acceptance protocol and all native negative controls.",
-        "Do not promote a conditional source contract into an acquired fact from fields, hashes or historical receipts."
-      ]
+        "Run unchanged selected compact and exterior arithmetic on all 60 roots and both infinite phase rays.",
+        "Use the documented new Linux whole-line protocol and all retained and additional corruption controls; do not imply that the old capture-checking main was run.",
+        "Bind actual execution, source bytes, complete census and captures; historical statuses are not mathematical premises."
+      ],
+      "planned_execution_notebook": "colab/13_n5_gapfree_whole_line.ipynb"
     },
     {
       "id": "c5.complement_native",
@@ -547,14 +549,44 @@
       ]
     },
     {
+      "id": "c5.gapfree_analytic_reduction",
+      "kind": "analytic_review",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "The specified full compact forest and both phase rays bound the positive closed-CDF discrepancy at every threshold for every standardized iid law in the exact rho/beta corner.",
+      "domain": {
+        "n": 5,
+        "rho": [
+          "477/400",
+          "6/5"
+        ],
+        "beta": [
+          "17/50",
+          "35139006743001/100000000000000"
+        ]
+      },
+      "requirements": [
+        "Derive conditional centering and variances with zero atoms assigned to the nonpositive class.",
+        "Retain Cantelli T(0,0)=1 and every closed event boundary.",
+        "Verify the moment-to-probability outer domain and both signed Gaussian lower-bound cases.",
+        "Use the positive part before replacing a normalization by an upper bound.",
+        "Cover all compact phases and both infinite rays; no predecessor, contact, bounded-support or physical-gap premise is used.",
+        "Retain the positive-discrepancy scope; reflection changes signed beta and belongs to the full n5 composition."
+      ],
+      "manuscript_lines": "6312-6505",
+      "evidence": "n5_analytic_review.md",
+      "review_status": "scoped_direct_reduction_read_completed_no_blocking_gap_found",
+      "formalization_claimed": false
+    },
+    {
       "id": "c5.gapfree_cover",
       "kind": "proof_composition",
       "status": "open",
       "depends_on": [
         "c5.gapfree_native",
-        "analytic.common"
+        "c5.gapfree_analytic_reduction"
       ],
-      "conclusion": "The gap-free branch covers its exact stated rho/beta/contact domain."
+      "conclusion": "The full exact gap-free rho/beta corner has the selected positive closed-CDF bound at every real threshold; this is not an absolute-discrepancy theorem on that isolated signed rectangle."
     },
     {
       "id": "c5.complement_acquired",
@@ -1451,12 +1483,6 @@
       "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
     },
     {
-      "from": "analytic.common",
-      "to": "c5.gapfree_cover",
-      "status": "open",
-      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
-    },
-    {
       "from": "c5.support_acquired",
       "to": "c5.complement_acquired",
       "status": "open",
@@ -2019,6 +2045,12 @@
       "to": "n3.all_law",
       "status": "open",
       "requirement": "Verify the stated implication in the standalone small-index reduction; preserve the exact finite-certificate and unrestricted-law scopes."
+    },
+    {
+      "from": "c5.gapfree_analytic_reduction",
+      "to": "c5.gapfree_cover",
+      "status": "open",
+      "requirement": "Join the complete compact and two-ray arithmetic with the exact direct positive-discrepancy implication on the whole rho/beta domain."
     }
   ]
 }

@@ -14,6 +14,7 @@ Google may first ask you to authorize backups to your Drive. Results are saved u
 | 10 | n25 B4: fresh INITIAL and all 100 resource panels, with both acceptors |
 | 11 | n4: full ROOT4 producer followed by a fresh complete replay |
 | 12 | Tail from n49: all 14 top-level jobs and all 41 retained component replays |
+| 13 | n5 gap-free corner: complete compact forest and both infinite phase rays |
 
 In notebooks 01–07, the first short run measures the resources actually allocated. Subsequent slices use up to three hours of the allocated search budget. A complete candidate tree triggers a separate native acceptor. An incomplete result preserves its checkpoints. Rerunning the same notebook finds the latest valid Drive backup and rechecks its compatibility with the pinned sources before resuming.
 
@@ -38,6 +39,16 @@ Notebook 11 is the longest task: one complete n4 production and one fresh full r
 Notebook 12 runs the unchanged full tail49 verifier with no quick mode. Its default wall ceiling is 130 minutes. This portable arithmetic run preserves the original exact sources and invocation census; the original Docker/cgroup execution contract and the uniform analytic implication remain separate. See [the tail49 execution scope](../proof/tail49_execution.md).
 
 These jobs do not complete n5, all remaining finite indices, the stronger24 acquisition, or the final analytic composition. Their results are concrete inputs for those next steps. Always retain the final ZIP, including when the run is interrupted or reports an unresolved case.
+
+## Queued task 13: an independent n5 component
+
+Notebook 13 can wait until a CPU session is available. It uses the same upload-and-run workflow and does not require interrupting any ongoing task.
+
+It checks all 60 compact roots, 1,994 nodes and 1,027 leaves, plus both infinite phase rays for the stated n5 gap-free corner. The selected arithmetic functions are unchanged. The new Linux protocol records its exact source pins and corruption controls; historical execution captures are not proof premises.
+
+This component bounds the **positive closed-CDF discrepancy at every real threshold**, on its specified rho/beta rectangle. Its analytic reduction requires no predecessor estimate, bounded support, contact or physical gap. It does not alone establish the absolute Kolmogorov bound on that signed rectangle or the unrestricted n5 theorem. Other orientations and branches require the final n5 composition.
+
+The default total CPU ceiling is two hours, with a 121-minute external wall ceiling. These are limits, not a measured runtime estimate. Logs, current-stage progress, one-minute Drive backups and a final results ZIP are automatic. An interrupted run has no internal numerical resume. See [the n5 gap-free execution scope](../proof/n5_gapfree_execution.md).
 
 ## Corrected notebooks 06 and 07
 

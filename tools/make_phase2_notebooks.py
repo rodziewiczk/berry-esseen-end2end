@@ -73,6 +73,26 @@ proof remains unverified. An interrupted or partial run is preserved as incomple
 """,
         "execute": "from be_replay.tail49 import run_colab\nRESULT = run_colab(durable_root=DURABLE)\n",
     },
+    "13_n5_gapfree_whole_line": {
+        "task": "n5-gapfree-whole-line", "tests": "test_n5_gapfree.py",
+        "title": "n5: complete gap-free corner, compact forest and both phase rays",
+        "scope": """This queued task is independent of the ongoing n25 and n4 calculations.
+Run it when a CPU session is available. It verifies the original 60-root forest,
+all 1,994 nodes and 1,027 leaves, and both infinite phase rays through the exact
+selected arithmetic functions. It does not use historical execution captures.
+
+The result concerns the positive closed-CDF discrepancy at every real threshold
+on the stated rho/beta rectangle. It is one component of n5, with no predecessor,
+bounded-support, contact or physical-gap premise. The absolute all-law n5 theorem
+still requires the other signed domains and the remaining n5 branches.
+
+The notebook uses a separately documented Linux execution protocol and corruption
+controls. Progress, logs and one-minute Drive backups are automatic. The whole
+run has a two-hour total CPU ceiling; this is a budget, not a runtime estimate.
+An interrupted computation is saved as incomplete and has no internal resume.
+""",
+        "execute": "from be_replay.n5_gapfree import run_colab\nRESULT = run_colab(durable_root=DURABLE)\n",
+    },
 }
 
 

@@ -197,6 +197,14 @@ The audited old cutoff6 final composer recorded 284 count forests, 2362 roots, 2
 
 The cutoff6 archive did not contain its referenced earlier cutoff6_20261018 / cutoff10 / cutoff15 / cutoff20 source closures. Its final graph contained many such hash references. Hash references are not supplied dependencies, nor a fresh replay of n10-30 or the tail.
 
+The subsequent [finite-range inventory](finite_range_replay_inventory.md) locates
+actual older source trees in the supplied combined and continuation archives,
+including the split closure31 and its downstream cutoff43 capsule. The earlier
+paragraph describes the single cutoff6 archive inspected in this initial audit;
+it is not a current assertion that those other supplied packages are absent.
+The [n5 review](n5_analytic_review.md) and [stronger24 audit](stronger24_replay_scope.md)
+separate the exact new replay work from historical receipt joins.
+
 The handoff's previous n2, n3, C5 and CI results remain provenance. Timeouts, memory stops and orchestration errors remain incomplete executions. The seven n25 jobs are five original V12 cases and two new conditional V14 source epochs; search hints and checkpoints are untrusted candidate state until complete native acceptance.
 
 ## Acceptance in the clean repository

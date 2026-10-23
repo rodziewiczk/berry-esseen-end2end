@@ -22,4 +22,10 @@ A successful four-stage result is a **conditional parent-chain acceptance**, not
 - Every required count forest and its exact interface to these fresh resources must still be joined.
 - The final all-index conclusion remains unverified.
 
+The [stronger24 source audit](stronger24_replay_scope.md) identifies the separate
+auxiliary 21–24 acquisition route and the required fresh receipt joins. It does
+not change this task's source epoch, numerical domains or conditional premise.
+Existing count searches and INITIAL/resource runs remain useful and do not need
+to be restarted for that audit.
+
 The local infrastructure tests use synthetic small fixtures and source inspection only. They do not constitute a run of the INITIAL or resource mathematics. Actual mathematical computation belongs in the user's Colab sessions.

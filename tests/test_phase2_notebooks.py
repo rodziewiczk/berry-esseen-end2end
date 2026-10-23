@@ -11,7 +11,7 @@ spec.loader.exec_module(builder)
 
 
 class Phase2NotebookTests(unittest.TestCase):
-    def test_four_distinct_jobs_are_pinned_and_executable_cells_compile(self):
+    def test_distinct_jobs_are_pinned_and_executable_cells_compile(self):
         pin = "d" * 40
         tasks = set()
         for name, job in builder.JOBS.items():
@@ -29,7 +29,7 @@ class Phase2NotebookTests(unittest.TestCase):
                 if cell["cell_type"] == "code":
                     compile("".join(cell["source"]), name, "exec")
             self.assertNotRegex(source, r"[ąćęłńóśźżĄĆĘŁŃÓŚŹŻ]")
-        self.assertEqual(len(tasks), 4)
+        self.assertEqual(len(tasks), 5)
 
     def test_notebooks_bind_exact_parent_branches_and_intended_runners(self):
         expected = {
@@ -37,6 +37,7 @@ class Phase2NotebookTests(unittest.TestCase):
             "10_n25_b4_initial_resources": ("be_replay.n25_parents", "b4"),
             "11_n4_complete_root": ("be_replay.root4", None),
             "12_tail49_complete_arithmetic": ("be_replay.tail49", None),
+            "13_n5_gapfree_whole_line": ("be_replay.n5_gapfree", None),
         }
         for name, (module, branch) in expected.items():
             doc = builder.build("e" * 40, name)
@@ -62,6 +63,12 @@ class Phase2NotebookTests(unittest.TestCase):
         self.assertIn("41", tail)
         self.assertIn("BASIC", tail)
         self.assertIn("cannot claim", tail)
+        n5 = builder.JOBS["13_n5_gapfree_whole_line"]["scope"]
+        self.assertIn("positive closed-CDF", n5)
+        self.assertIn("60-root", n5)
+        self.assertIn("1,027", n5)
+        self.assertIn("both infinite phase rays", n5)
+        self.assertIn("one component of n5", n5)
 
 
 if __name__ == "__main__":

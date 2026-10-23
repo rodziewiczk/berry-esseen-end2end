@@ -24,7 +24,7 @@ The initial executable task is the reconstruction of seven missing **n=25** coun
 
 ## Colab
 
-The first seven notebooks rebuild the missing n25 count forests. Notebook 08 checks n2/n3. The next independent batch, notebooks 09–12, rebuilds n25 INITIAL/resource premises, the complete n4 root and the retained tail49 arithmetic.
+The first seven notebooks rebuild the missing n25 count forests. Notebook 08 checks n2/n3. The next independent batch, notebooks 09–12, rebuilds n25 INITIAL/resource premises, the complete n4 root and the retained tail49 arithmetic. Queued notebook 13 checks the independent n5 gap-free corner, including both infinite phase rays.
 
 The numbered notebooks in `colab/` are preconfigured for separate CPU sessions. Notebooks 09–12 can run while 01–07 continue.
 See [the English upload-and-run instructions](colab/README.md).
@@ -44,3 +44,5 @@ Only necessary frozen code belongs under `vendor/`. Each imported byte is hash-b
 `proof/obligations.json` records the proof graph and unresolved edges. `proof/analytic_audit.md` records the initial analytic review; [the small-index review](proof/small_indices_analytic_review.md), [primary-source statement checks](proof/literature_inputs.md), and [the direct pointwise Prawitz proof](proof/prawitz_majorant_review.md) add the subsequent findings. A new concise English paper will follow the verified minimal graph, with explicit literature inputs and no unsupported all-index completion claim.
 
 ChatGPT and Codex assist with proofs, certificates and writing, using the user-identified GPT-5.6 Sol, GPT-6.1 Sol and GPT-6 Astra models. This is not a claim of full human review or whole-paper formal verification.
+
+The next work is specified in [the n5 interface review](proof/n5_analytic_review.md), [the finite-range source inventory](proof/finite_range_replay_inventory.md), and [the stronger24 premise audit](proof/stronger24_replay_scope.md). The auxiliary-premise audit does not invalidate or require restarting the running conditional n25 jobs. Their final all-law composition still needs a freshly acquired matching premise and the complete resource/count joins.
