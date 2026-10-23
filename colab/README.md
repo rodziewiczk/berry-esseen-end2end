@@ -1,18 +1,27 @@
 # CPU notebooks: upload and run all
 
-## Current count set: RESTART01–07
+## Current count set: PREFIX2 resume01–07
 
 Use the seven `01_RESTART_...` through `07_RESTART_...` files in this directory.
-They replace the earlier01–07 count notebooks and the separate q2-only notebook25.
+They restore the original PREFIX2 discovery improvements and replace the earlier
+midpoint-only01–07 notebooks and the separate q2-only notebook25.
 Their numbers and mathematical target assignments stay the same. Use the current
 notebook24 from the same delivery for the eventual evidence join.
 
-All seven original runs have ended and their actual exported ZIPs and source/cache
-bindings have been inspected. See [the cache handoff](../proof/count_cache_handoff.md).
-Keep the old results and live Drive backups, close the old01–07 tabs, then open
-the new numbered files. Select CPU / Run all and authorize the same Google Drive.
-The new runner restores a compatible saved candidate automatically; no command,
-path or parameter edits are required. Each job keeps its own cache directory.
+Keep the old results and live Drive backups. In each running old job, wait for a
+recent `backup_saved` message, then stop that numbered job before opening its new
+copy. Select CPU / Run all and authorize the same Google Drive. The new runner
+checks tree ancestry and restores the most advanced compatible saved descendant;
+missing or incomparable saved trees produce a diagnostic instead of an empty
+restart. No command, path or parameter edits are required. Each target keeps its
+existing cache directory. See [the cache handoff](../proof/count_cache_handoff.md).
+
+The restored discovery strategy uses original factor16 priorities, feasible
+non-midpoint cuts, physical-prefix lookahead, parent bypass and the selected
+original discovery accelerators. Existing splits and all saved leaf payloads
+are preserved. This is not a measured speedup claim; no numerical benchmark was
+run during preparation. The new migration was checked on actual saved exports
+for all seven targets, as a source/JSON/topology check rather than leaf replay.
 
 The current limits are100000 nodes,2GiB memory,12 hours of search allocation and
 an independent12-hour native CPU ceiling. Search checkpoints survive a new

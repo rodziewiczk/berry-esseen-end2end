@@ -1,6 +1,18 @@
-# Seven count caches: independent handoff inventory
+# Seven preserved count caches: handoff inventory
 
 Reviewed on 2026-10-23 after the last original session ended. This is a source, transport and JSON topology audit. No mathematical kernel was imported, no search or leaf acceptance was replayed, and no Drive file was changed. The seven original sessions ended naturally; this review did not stop them.
+
+This is a fallible internal AI inspection, not an external independent review.
+The word "independently" below describes a separate comparison of actual bytes
+or metadata; it does not mean an external reviewer checked the proof.
+
+The table records the first seven preserved exports. Subsequent compatible runs
+can contain more advanced descendants. The PREFIX2 resume notebooks keep the
+same Drive target folders and must select by validated tree ancestry, not force
+these older snapshots or use modification time as a substitute for lineage.
+See [the current transition instructions](count_restart_execution.md). Preserve
+old notebook outputs as well as the live backups and result ZIPs; the new copies
+are published separately rather than replacing an actively autosaving notebook.
 
 ## Preserved final candidates
 

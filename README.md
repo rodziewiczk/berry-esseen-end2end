@@ -31,9 +31,12 @@ The initial executable task is the reconstruction of seven missing **n=25** coun
 ## Colab
 
 The current n25 count set is `01_RESTART_...` through `07_RESTART_...` in
-`colab/`, with the current notebook24. It restores the seven inspected candidate
-caches and uses explicit larger finite-tree/time/memory policies while preserving
-all mathematical checks. The old01–07 and the separate q2-only25 are in
+`colab/`, with the matching notebook24. Its restored PREFIX2 discovery strategy
+preserves saved trees, uses original lookahead/cuts/accelerators, and records an
+explicit lossless checkpoint migration. Source/JSON migration was checked on
+actual saved exports for all seven targets; this is not fresh leaf acceptance
+or a measured speedup. All mathematical checks and the existing bounded resource
+policies remain in force. The old01–07 and the separate q2-only25 are in
 `colab/archive/`. See the [current execution instructions](colab/README.md) and
 [cache handoff inventory](proof/count_cache_handoff.md).
 

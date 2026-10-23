@@ -38,7 +38,7 @@ Log completion is not independent bundle validation.
 
 | Notebooks | Latest established scope |
 |---|---|
-|01--07 RESTART|Restored candidates advancing in latest logs; final native acceptance not established here.|
+|01--07 PREFIX2 resume|Original discovery improvements restored; lossless migration checked on actual saved exports for all7 targets. Saved candidates still require full native acceptance; no speed benchmark or new numerical completion is claimed.|
 |08|Actual n2/n3 export inspected; scoped analytic/checker reviews recorded.|
 |09/10,13,14/15|Complete scoped arithmetic in inspected logs; exports have a separate revalidation boundary.|
 |11|ROOT4 in progress at last supplied record; both full passes required.|
