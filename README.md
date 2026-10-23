@@ -26,10 +26,8 @@ The initial executable task is the reconstruction of seven missing **n=25** coun
 
 Use [the CPU notebook](colab/count_cpu.ipynb). Start with one bounded p33 benchmark. Record the actual CPU allocation, elapsed time and peak memory before choosing concurrency. Multiple browser tabs alone do not establish multiple independent machines.
 
-Selected notebooks supplied for execution:
-
-- [Session A](https://colab.research.google.com/drive/1mOOVQ60ATVF3S3BBuylJh34LJfleFWUG)
-- [Session B](https://colab.research.google.com/drive/1JACtCZ8FMy2l_XyJQlo8u6y0V1RB5FUu)
+The numbered notebooks in `colab/` are preconfigured for separate CPU sessions.
+See [the Polish upload-and-run instructions](colab/README_PL.md).
 
 Account authentication is performed by the user. VM-local work and durable checkpoint storage must use distinct paths. A timeout preserves an incomplete candidate; it never produces a certificate.
 

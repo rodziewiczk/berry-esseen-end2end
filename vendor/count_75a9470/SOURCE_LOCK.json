@@ -1,0 +1,21 @@
+{
+  "repository": "rodziewiczk/berry-esseen-045-certificate",
+  "commit": "75a94708872e2bc053f42a279559b23ed91e4402",
+  "files": {
+    "count_discovery.py": {
+      "source_path": "moment-defects/reproduction/all_indices/count_discovery.py",
+      "bytes": 11190,
+      "sha256": "3b239119082d0d5275446beb2d38878c9a7c7988c655da6e52fd34023e485eb4"
+    },
+    "prepare_missing_count.py": {
+      "source_path": "moment-defects/reproduction/all_indices/prepare_missing_count.py",
+      "bytes": 3263,
+      "sha256": "b22f807a41982f017af14e88451d82fcda129ab13a2b09210ab543420f4aa410"
+    },
+    "prepare_b3_v14_epoch_2026_10_22.py": {
+      "source_path": "moment-defects/reproduction/all_indices/prepare_b3_v14_epoch_2026_10_22.py",
+      "bytes": 26852,
+      "sha256": "4116a054c2f725794d82cc4bd7b954023c9b8525d8f943c6cea2a8096aceb647"
+    }
+  }
+}

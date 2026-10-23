@@ -1,0 +1,1914 @@
+{
+  "schema_version": "1.0",
+  "manifest_kind": "OPEN_PROOF_OBLIGATION_PLAN_NOT_ACCEPTANCE",
+  "epoch": {
+    "id": "clean-reproduction-2026-10-23",
+    "date": "2026-10-23",
+    "timezone": "Europe/Warsaw",
+    "status": "open",
+    "fresh_native_acceptances": 0
+  },
+  "target": {
+    "statement": "C* = C_E for iid standardized real laws with finite third absolute moment",
+    "C_n": "sup_P [sqrt(n)/E|X|^3] sup_H |P(S_n <= H)-Phi(H/sqrt(n))|",
+    "C_star": "sup_{n >= 1} C_n",
+    "C_E": "(3+sqrt(10))/(6 sqrt(2 pi))"
+  },
+  "policy": {
+    "all_nodes_initially_open": true,
+    "historical_PASS_is_provenance_only": true,
+    "source_integrity_is_not_arithmetic": true,
+    "topology_is_not_proof": true,
+    "execution_dependencies_are_not_logical_dependencies": "Conditional arithmetic may run in parallel before its parent mathematical facts are discharged. Only the final proof join may consume an acquired conclusion.",
+    "heavy_execution": "Colab sessions only; no heavy local mathematics is authorized by this file.",
+    "acceptance": "Record source pins, exact protocol, original domains and target, complete native controls, observed exit, artifacts and epoch identity. Incomplete execution cannot close a node.",
+    "literature": "Read original primary sources and identify precise theorems/normalizations; no literature input is marked verified here.",
+    "formalization_claimed": false,
+    "portable_execution": "A Colab launch requires a reviewed compatible runtime or an explicitly audited mathematics-preserving port, including process-tree resource supervision. Removing Windows guards or accepting a changed source hash is not a portability proof."
+  },
+  "source_context": {
+    "manuscript": "hexagon-2610.00147v4-source.zip / berry_esseen_manuscript.tex; current workspace draft manuscript/drafts/appendix_elementary_045.tex",
+    "handoff": "User handoff dated 2026-10-23",
+    "historical_publication_commit": "c5ee9284f815c70fe252647929035f951e89ece4",
+    "publication_repository": "https://github.com/rodziewiczk/berry-esseen-045-certificate",
+    "note": "Source context identifies material for audit. This manifest does not claim that the cited commit or all archives have been fetched or accepted in this new epoch."
+  },
+  "nodes": [
+    {
+      "id": "literature.n1",
+      "kind": "literature",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "C_1 <= 0.3704 in the manuscript normalization.",
+      "source": "Bentkus--Kirsa (1989)",
+      "verification": "Check the original theorem, normalization and unrestricted-law scope."
+    },
+    {
+      "id": "literature.esseen_lower",
+      "kind": "literature",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "C* >= C_E.",
+      "source": "Esseen (1956)",
+      "verification": "Check the lower-bound construction and normalization."
+    },
+    {
+      "id": "literature.prawitz",
+      "kind": "literature",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "The displayed Prawitz kernel gives the one-sided CLOSED-CDF majorant, including atoms.",
+      "source": "Prawitz (1972), as normalized in the manuscript",
+      "verification": "Verify the original theorem and exact sign, frequency scaling and endpoint convention; citations and source hashes alone do not discharge this node."
+    },
+    {
+      "id": "literature.shevtsova",
+      "kind": "literature",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "Every selected Shevtsova envelope, smoothing input and sharp third-moment inequality applies in its stated domain.",
+      "sources": [
+        "Shevtsova (2012)",
+        "Shevtsova (2013)",
+        "Shevtsova (2014)"
+      ],
+      "verification": "Record theorem numbers, exact constants, iid assumptions and normalization for each selected use."
+    },
+    {
+      "id": "literature.binomial",
+      "kind": "literature",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "The selected binomial comparison holds for every required n and 0 < p < 1.",
+      "source": "Schulz (2016)",
+      "verification": "Check both discrepancy orientations and deterministic limits used by the certificates."
+    },
+    {
+      "id": "literature.gaussian",
+      "kind": "literature",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "Only the specifically cited finite Gaussian estimate is available as an external input.",
+      "source": "He--Cheng (2026)",
+      "verification": "Verify the original estimate and domains; no eventual-exactness or all-index theorem may be inferred from this input."
+    },
+    {
+      "id": "analytic.common",
+      "kind": "analytic_review",
+      "status": "open",
+      "depends_on": [
+        "literature.prawitz",
+        "literature.shevtsova"
+      ],
+      "conclusion": "Fixed-index attainment, full closed-support contact, compensated inversion and the same-law resource/count interfaces are valid.",
+      "requirements": [
+        "Review attainment including the critical value, atoms and possible third-moment loss.",
+        "Review the contamination derivative and contact on accumulation points.",
+        "Verify every LOW/HIGH normalization and the full infinite-frequency remainder.",
+        "Preserve one physical defect budget, signed moments, threshold phase and conditional laws.",
+        "Prove support before invoking higher moments.",
+        "Keep weighted nD and unweighted D bounds distinct."
+      ]
+    },
+    {
+      "id": "n2.native",
+      "kind": "native_arithmetic",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "All two-summand rational certificate inequalities are freshly verified.",
+      "counts": {
+        "cells": 70,
+        "required_exact_checkers": 2
+      },
+      "requirements": [
+        "Run the native tensor checker and independent integer checker on all 70 cells.",
+        "Preserve exact domains, initial polynomial identities and strict target."
+      ]
+    },
+    {
+      "id": "n2.all_law",
+      "kind": "proof_composition",
+      "status": "open",
+      "depends_on": [
+        "n2.native",
+        "analytic.common"
+      ],
+      "conclusion": "The unrestricted two-summand bound required by the manuscript holds."
+    },
+    {
+      "id": "n3.native",
+      "kind": "native_arithmetic",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "All three-summand rational certificate inequalities and initial identities are freshly verified.",
+      "counts": {
+        "cells": 111
+      },
+      "requirements": [
+        "Check all 111 cells and the complete independence-null polynomial identities.",
+        "Record the selected backend; a C++ replay is not a replay of the independent Python translation."
+      ]
+    },
+    {
+      "id": "n3.all_law",
+      "kind": "proof_composition",
+      "status": "open",
+      "depends_on": [
+        "n3.native",
+        "analytic.common"
+      ],
+      "conclusion": "C_3 <= 59 sqrt(3) / 250 for unrestricted standardized real laws."
+    },
+    {
+      "id": "c4.owner_localization",
+      "kind": "analytic_review",
+      "status": "open",
+      "depends_on": [
+        "n3.all_law",
+        "literature.shevtsova",
+        "analytic.common"
+      ],
+      "conclusion": "If C_4 > 256/625, an unrestricted positive closed maximizer lies in the declared ROOT4 class.",
+      "domain": {
+        "support": "|X| < 101/25 < 17/4",
+        "rho": "rho < 46/25",
+        "w": "625/2116 < w <= 1",
+        "signed_second_moment": "|E[X|X|]| < 321/500 < 13/20"
+      },
+      "requirements": [
+        "Review the elementary H4 remainder and the negative whole-ray contact polynomial.",
+        "Do not assume a finite number of support points.",
+        "Treat Q3 as a canonical reference, not a restriction of admissible P."
+      ]
+    },
+    {
+      "id": "c4.physical_bridge",
+      "kind": "analytic_review",
+      "status": "open",
+      "depends_on": [
+        "literature.prawitz"
+      ],
+      "conclusion": "The original physical law is controlled by the finite ROOT4 polynomial plus one midpoint and one threshold-interpolation reserve.",
+      "requirements": [
+        "Verify the common physical defect measure and eta=0 case.",
+        "Verify |F_x''| <= 42 E|D| + 108 ED^2 + 24 E|D|^3.",
+        "Verify raw midpoint reserve M/(12 N^2), including its whole-cell moment bounds.",
+        "Verify raw H reserve h^2(B+1/4)/16 using continuous frequency cells.",
+        "Cover both actual reflected laws, zero atoms, contact points, threshold seams and both tails.",
+        "Independently audit the implementation-to-lemma correspondence for the selected whole-bound portfolios."
+      ]
+    },
+    {
+      "id": "c4.native_root4",
+      "kind": "native_arithmetic",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "The two original complete ROOT4 passes freshly verify every selected finite inequality.",
+      "counts": {
+        "geometry_classes": 260,
+        "high_request_slots": 1300,
+        "required_passes": 2,
+        "frequency_nodes": 256,
+        "central_thresholds": 58,
+        "threshold_joins": 57,
+        "eta_cells_per_nonempty_geometry": 16
+      },
+      "source_entry": "moment-defects/code/n4/research/all_n/n4_cpu_time_entire_root_2026_10_09.py",
+      "requirements": [
+        "Run --produce and then --replay-existing with the original acceptance path.",
+        "Require zero unresolved classes and all 1300 HIGH slots accounted for.",
+        "Retain all four children whenever a parent uses the child route.",
+        "Require an actual complete uniform upper bound U, not historical status, sampled values or a truncated checkpoint.",
+        "The selected original target is U <= 4097/10000; a different valid U < C_E needs an explicit reviewed composition."
+      ]
+    },
+    {
+      "id": "c4.complete_root",
+      "kind": "proof_composition",
+      "status": "open",
+      "depends_on": [
+        "c4.native_root4",
+        "c4.physical_bridge"
+      ],
+      "conclusion": "Every actual standardized P in the full bounded ROOT4 class satisfies the verified uniform bound.",
+      "domain": {
+        "support": "|X| <= 17/4",
+        "rho": "rho = rho_Q + eta < 46/25",
+        "eta": "eta >= 0",
+        "w": "625/2116 <= w <= 1",
+        "signed_second_moment": "|E[X|X|]| <= 13/20",
+        "thresholds": "all real H",
+        "orientations": "both actual reflected laws"
+      },
+      "requirements": [
+        "Prove closed continuous coverage; do not substitute a Q3-only theorem or a Boolean acceptance flag.",
+        "Bind arithmetic outputs to the exact physical bridge, sources, domains and normalization."
+      ]
+    },
+    {
+      "id": "c4.all_law",
+      "kind": "proof_composition",
+      "status": "open",
+      "depends_on": [
+        "c4.owner_localization",
+        "c4.complete_root"
+      ],
+      "conclusion": "C_4 <= max(256/625,U); the selected U <= 4097/10000 gives C_4 < C_E."
+    },
+    {
+      "id": "c5.support_native",
+      "kind": "native_arithmetic",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "Fresh C5 support-ray inequalities are verified.",
+      "counts": {
+        "support_rows_by_pass": [
+          9,
+          9,
+          1
+        ]
+      },
+      "requirements": [
+        "Use the selected original exact acceptance protocol and all native negative controls.",
+        "Do not promote a conditional source contract into an acquired fact from fields, hashes or historical receipts."
+      ]
+    },
+    {
+      "id": "c5.high_native",
+      "kind": "native_arithmetic",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "Both selected C5 HIGH protocols and their full tails are freshly verified.",
+      "counts": {
+        "protocols": 2
+      },
+      "requirements": [
+        "Use the selected original exact acceptance protocol and all native negative controls.",
+        "Do not promote a conditional source contract into an acquired fact from fields, hashes or historical receipts."
+      ]
+    },
+    {
+      "id": "c5.owncaps_native",
+      "kind": "native_arithmetic",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "All selected C5 owncap routes, including the extended B3 route and the coarse global precursor, are freshly verified.",
+      "counts": {
+        "coarse_strips": 87,
+        "selected_supported_bands": 3
+      },
+      "requirements": [
+        "Use the selected original exact acceptance protocol and all native negative controls.",
+        "Do not promote a conditional source contract into an acquired fact from fields, hashes or historical receipts."
+      ]
+    },
+    {
+      "id": "c5.initial_native",
+      "kind": "native_arithmetic",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "All selected C5 INITIAL arithmetic is freshly recomputed.",
+      "counts": {
+        "selected_jobs": 12
+      },
+      "requirements": [
+        "Use the selected original exact acceptance protocol and all native negative controls.",
+        "Do not promote a conditional source contract into an acquired fact from fields, hashes or historical receipts."
+      ]
+    },
+    {
+      "id": "c5.resource_native",
+      "kind": "native_arithmetic",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "All selected C5 RESOURCE arithmetic is freshly recomputed.",
+      "counts": {
+        "selected_jobs": 15,
+        "panel_obligations": 1200
+      },
+      "requirements": [
+        "Use the selected original exact acceptance protocol and all native negative controls.",
+        "Do not promote a conditional source contract into an acquired fact from fields, hashes or historical receipts."
+      ]
+    },
+    {
+      "id": "c5.counts_native",
+      "kind": "native_arithmetic",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "All original C5 closed count forests are freshly accepted.",
+      "counts": {
+        "forests": 295,
+        "leaf_evaluations_in_selected_source": 75178
+      },
+      "requirements": [
+        "Use the selected original exact acceptance protocol and all native negative controls.",
+        "Do not promote a conditional source contract into an acquired fact from fields, hashes or historical receipts."
+      ]
+    },
+    {
+      "id": "c5.gapfree_native",
+      "kind": "native_arithmetic",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "The full selected gap-free C5 corner is freshly accepted, including both phase rays.",
+      "counts": {
+        "roots": 60,
+        "source_nodes": 1994,
+        "source_leaves": 1027
+      },
+      "requirements": [
+        "Use the selected original exact acceptance protocol and all native negative controls.",
+        "Do not promote a conditional source contract into an acquired fact from fields, hashes or historical receipts."
+      ]
+    },
+    {
+      "id": "c5.complement_native",
+      "kind": "native_arithmetic",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "The complete selected C5 Fourier complement is freshly integrated and checked.",
+      "counts": {
+        "closed_strips": 41,
+        "attempted_meshes": 42,
+        "integration_passes": 2
+      },
+      "requirements": [
+        "Use the selected original exact acceptance protocol and all native negative controls.",
+        "Do not promote a conditional source contract into an acquired fact from fields, hashes or historical receipts."
+      ]
+    },
+    {
+      "id": "c5.support_acquired",
+      "kind": "proof_composition",
+      "status": "open",
+      "depends_on": [
+        "c4.all_law",
+        "analytic.common",
+        "c5.support_native"
+      ],
+      "conclusion": "The current C5 maximizing witness has every required support bound."
+    },
+    {
+      "id": "c5.high_acquired",
+      "kind": "proof_composition",
+      "status": "open",
+      "depends_on": [
+        "c5.support_acquired",
+        "c5.high_native",
+        "analytic.common"
+      ],
+      "conclusion": "Every required complete C5 HIGH bound applies to that same witness."
+    },
+    {
+      "id": "c5.owncaps_acquired",
+      "kind": "proof_composition",
+      "status": "open",
+      "depends_on": [
+        "c5.support_acquired",
+        "c5.high_acquired",
+        "c5.owncaps_native",
+        "literature.shevtsova"
+      ],
+      "conclusion": "The selected whole-domain C5 owncaps and global coarse precursor apply with their exact scopes.",
+      "requirements": [
+        "Do not replace the full extended B3 branch with three selected supported owncaps.",
+        "The historical CI failure at the uppercase B3 runner label was an orchestration failure, not an accepted or refuted inequality."
+      ]
+    },
+    {
+      "id": "c5.initial_acquired",
+      "kind": "proof_composition",
+      "status": "open",
+      "depends_on": [
+        "c5.support_acquired",
+        "c5.high_acquired",
+        "c5.owncaps_acquired",
+        "c5.initial_native"
+      ],
+      "conclusion": "All INITIAL outputs are acquired for the same witness by a finite ordered induction."
+    },
+    {
+      "id": "c5.resources_acquired",
+      "kind": "proof_composition",
+      "status": "open",
+      "depends_on": [
+        "c5.initial_acquired",
+        "c5.owncaps_acquired",
+        "c5.resource_native"
+      ],
+      "conclusion": "All selected C5 scalar, support, signed-phase and joint budgets are acquired.",
+      "requirements": [
+        "Join exact candidate/input identities and source-specific outward implications.",
+        "Preserve original coupled intercepts when intersecting independent caps.",
+        "A metadata-only source port must have a reviewed exact edit inventory."
+      ]
+    },
+    {
+      "id": "c5.count_cover",
+      "kind": "proof_composition",
+      "status": "open",
+      "depends_on": [
+        "c5.resources_acquired",
+        "c5.counts_native",
+        "analytic.common"
+      ],
+      "conclusion": "All selected C5 count domains are completely excluded for that same witness.",
+      "requirements": [
+        "Re-evaluate every leaf; preserve all n+1 count roots and original five-dimensional boxes.",
+        "Check nearest-count coverage or provide the omitted threshold tails.",
+        "Check all closed seams, zero noise, allocation endpoints, common cubic moments and signed phase."
+      ]
+    },
+    {
+      "id": "c5.gapfree_cover",
+      "kind": "proof_composition",
+      "status": "open",
+      "depends_on": [
+        "c5.gapfree_native",
+        "analytic.common"
+      ],
+      "conclusion": "The gap-free branch covers its exact stated rho/beta/contact domain."
+    },
+    {
+      "id": "c5.complement_acquired",
+      "kind": "proof_composition",
+      "status": "open",
+      "depends_on": [
+        "c5.support_acquired",
+        "c5.high_acquired",
+        "c5.complement_native",
+        "analytic.common"
+      ],
+      "conclusion": "The entire complementary C5 domain is covered by genuine same-law Fourier/support implications.",
+      "requirements": [
+        "Discharge support-corruption controls and fresh support/Fourier/contact parent joins that the arithmetic-only adapter leaves outside its scope.",
+        "Do not infer native full acceptance from the Fourier arithmetic readback alone."
+      ]
+    },
+    {
+      "id": "n5.all_law",
+      "kind": "proof_composition",
+      "status": "open",
+      "depends_on": [
+        "c4.all_law",
+        "c5.count_cover",
+        "c5.gapfree_cover",
+        "c5.complement_acquired"
+      ],
+      "conclusion": "The complete unrestricted fifth-index bound holds.",
+      "requirements": [
+        "Prove the union covers the original full moment, sign and threshold domains, including their shared boundaries."
+      ]
+    },
+    {
+      "id": "continuation.literal_interface",
+      "kind": "analytic_review",
+      "status": "open",
+      "depends_on": [
+        "analytic.common",
+        "literature.binomial",
+        "literature.gaussian"
+      ],
+      "conclusion": "Each literal-index support/Fourier/INITIAL/resource/count contract yields an unrestricted bound when all its own premises are acquired.",
+      "requirements": [
+        "Zero q_n removes predecessor-only acquisitions; it does not remove current own-score caps, support, HIGH, INITIAL, resource or count obligations.",
+        "Check literal n and every monotonicity gate; no unproved monotonicity of C_n.",
+        "Select one complete coherent LOW triple and complete HIGH alternative.",
+        "Retain actual law orientation and physical defect definitions."
+      ]
+    },
+    {
+      "id": "n25.pending.b4-q0",
+      "kind": "native_arithmetic",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "A complete newly accepted n25 forest is supplied for b4-q0.",
+      "source_kind": "original V12",
+      "counts": {
+        "original_count_roots": 26,
+        "native_negative_controls": 24
+      },
+      "requirements": [
+        "Search checkpoints and hints are untrusted candidate state, not certificates.",
+        "Reconstruct every original root and re-evaluate every terminal leaf.",
+        "Keep new V14 source epochs distinct from historical V12/V14 receipts.",
+        "Retain the declared q25 <= 5/16 and maximizing-contact/resource premises until a separate same-law join discharges them."
+      ]
+    },
+    {
+      "id": "n25.pending.b4-q1",
+      "kind": "native_arithmetic",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "A complete newly accepted n25 forest is supplied for b4-q1.",
+      "source_kind": "original V12",
+      "counts": {
+        "original_count_roots": 26,
+        "native_negative_controls": 24
+      },
+      "requirements": [
+        "Search checkpoints and hints are untrusted candidate state, not certificates.",
+        "Reconstruct every original root and re-evaluate every terminal leaf.",
+        "Keep new V14 source epochs distinct from historical V12/V14 receipts.",
+        "Retain the declared q25 <= 5/16 and maximizing-contact/resource premises until a separate same-law join discharges them."
+      ]
+    },
+    {
+      "id": "n25.pending.b4-q2",
+      "kind": "native_arithmetic",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "A complete newly accepted n25 forest is supplied for b4-q2.",
+      "source_kind": "original V12",
+      "counts": {
+        "original_count_roots": 26,
+        "native_negative_controls": 24
+      },
+      "requirements": [
+        "Search checkpoints and hints are untrusted candidate state, not certificates.",
+        "Reconstruct every original root and re-evaluate every terminal leaf.",
+        "Keep new V14 source epochs distinct from historical V12/V14 receipts.",
+        "Retain the declared q25 <= 5/16 and maximizing-contact/resource premises until a separate same-law join discharges them."
+      ]
+    },
+    {
+      "id": "n25.pending.b4-q3",
+      "kind": "native_arithmetic",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "A complete newly accepted n25 forest is supplied for b4-q3.",
+      "source_kind": "original V12",
+      "counts": {
+        "original_count_roots": 26,
+        "native_negative_controls": 24
+      },
+      "requirements": [
+        "Search checkpoints and hints are untrusted candidate state, not certificates.",
+        "Reconstruct every original root and re-evaluate every terminal leaf.",
+        "Keep new V14 source epochs distinct from historical V12/V14 receipts.",
+        "Retain the declared q25 <= 5/16 and maximizing-contact/resource premises until a separate same-law join discharges them."
+      ]
+    },
+    {
+      "id": "n25.pending.b3-p33",
+      "kind": "native_arithmetic",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "A complete newly accepted n25 forest is supplied for b3-p33.",
+      "source_kind": "original V12",
+      "counts": {
+        "original_count_roots": 26,
+        "native_negative_controls": 24
+      },
+      "requirements": [
+        "Search checkpoints and hints are untrusted candidate state, not certificates.",
+        "Reconstruct every original root and re-evaluate every terminal leaf.",
+        "Keep new V14 source epochs distinct from historical V12/V14 receipts.",
+        "Retain the declared q25 <= 5/16 and maximizing-contact/resource premises until a separate same-law join discharges them."
+      ]
+    },
+    {
+      "id": "n25.pending.b3-p31-v14-new",
+      "kind": "native_arithmetic",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "A complete newly accepted n25 forest is supplied for b3-p31-v14-new.",
+      "source_kind": "new conditional V14 source epoch",
+      "counts": {
+        "original_count_roots": 26,
+        "native_negative_controls": 24
+      },
+      "requirements": [
+        "Search checkpoints and hints are untrusted candidate state, not certificates.",
+        "Reconstruct every original root and re-evaluate every terminal leaf.",
+        "Keep new V14 source epochs distinct from historical V12/V14 receipts.",
+        "Retain the declared q25 <= 5/16 and maximizing-contact/resource premises until a separate same-law join discharges them."
+      ]
+    },
+    {
+      "id": "n25.pending.b3-p32-v14-new",
+      "kind": "native_arithmetic",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "A complete newly accepted n25 forest is supplied for b3-p32-v14-new.",
+      "source_kind": "new conditional V14 source epoch",
+      "counts": {
+        "original_count_roots": 26,
+        "native_negative_controls": 24
+      },
+      "requirements": [
+        "Search checkpoints and hints are untrusted candidate state, not certificates.",
+        "Reconstruct every original root and re-evaluate every terminal leaf.",
+        "Keep new V14 source epochs distinct from historical V12/V14 receipts.",
+        "Retain the declared q25 <= 5/16 and maximizing-contact/resource premises until a separate same-law join discharges them."
+      ]
+    },
+    {
+      "id": "n6.all_law",
+      "kind": "literal_index_proof",
+      "status": "open",
+      "depends_on": [
+        "n5.all_law",
+        "continuation.literal_interface"
+      ],
+      "conclusion": "All required arithmetic and same-law joins at the literal index 6 prove C_6 <= C_E.",
+      "literal_index": 6,
+      "requirements": [
+        "Freshly verify the actual-index support, complete LOW/HIGH, owncaps, INITIAL, ordered resources and full count cover used at this index.",
+        "Record every selected source, domain, target, native result and source-specific acquisition join.",
+        "Cover all original domains and reflected orientations; a final receipt/geometry join alone is insufficient."
+      ],
+      "provenance_note": "The older cutoff6 continuation contains 284 count jobs and a separate 36-target / 72-signed-ray support calculation for n=6..9. These are source inventory counts, not fresh results or a complete n6..30 replay."
+    },
+    {
+      "id": "n7.all_law",
+      "kind": "literal_index_proof",
+      "status": "open",
+      "depends_on": [
+        "n6.all_law",
+        "continuation.literal_interface"
+      ],
+      "conclusion": "All required arithmetic and same-law joins at the literal index 7 prove C_7 <= C_E.",
+      "literal_index": 7,
+      "requirements": [
+        "Freshly verify the actual-index support, complete LOW/HIGH, owncaps, INITIAL, ordered resources and full count cover used at this index.",
+        "Record every selected source, domain, target, native result and source-specific acquisition join.",
+        "Cover all original domains and reflected orientations; a final receipt/geometry join alone is insufficient."
+      ]
+    },
+    {
+      "id": "n8.all_law",
+      "kind": "literal_index_proof",
+      "status": "open",
+      "depends_on": [
+        "n7.all_law",
+        "continuation.literal_interface"
+      ],
+      "conclusion": "All required arithmetic and same-law joins at the literal index 8 prove C_8 <= C_E.",
+      "literal_index": 8,
+      "requirements": [
+        "Freshly verify the actual-index support, complete LOW/HIGH, owncaps, INITIAL, ordered resources and full count cover used at this index.",
+        "Record every selected source, domain, target, native result and source-specific acquisition join.",
+        "Cover all original domains and reflected orientations; a final receipt/geometry join alone is insufficient."
+      ]
+    },
+    {
+      "id": "n9.all_law",
+      "kind": "literal_index_proof",
+      "status": "open",
+      "depends_on": [
+        "n8.all_law",
+        "continuation.literal_interface"
+      ],
+      "conclusion": "All required arithmetic and same-law joins at the literal index 9 prove C_9 <= C_E.",
+      "literal_index": 9,
+      "requirements": [
+        "Freshly verify the actual-index support, complete LOW/HIGH, owncaps, INITIAL, ordered resources and full count cover used at this index.",
+        "Record every selected source, domain, target, native result and source-specific acquisition join.",
+        "Cover all original domains and reflected orientations; a final receipt/geometry join alone is insufficient."
+      ]
+    },
+    {
+      "id": "n10.all_law",
+      "kind": "literal_index_proof",
+      "status": "open",
+      "depends_on": [
+        "n9.all_law",
+        "continuation.literal_interface"
+      ],
+      "conclusion": "All required arithmetic and same-law joins at the literal index 10 prove C_10 <= C_E.",
+      "literal_index": 10,
+      "requirements": [
+        "Freshly verify the actual-index support, complete LOW/HIGH, owncaps, INITIAL, ordered resources and full count cover used at this index.",
+        "Record every selected source, domain, target, native result and source-specific acquisition join.",
+        "Cover all original domains and reflected orientations; a final receipt/geometry join alone is insufficient."
+      ]
+    },
+    {
+      "id": "n11.all_law",
+      "kind": "literal_index_proof",
+      "status": "open",
+      "depends_on": [
+        "n10.all_law",
+        "continuation.literal_interface"
+      ],
+      "conclusion": "All required arithmetic and same-law joins at the literal index 11 prove C_11 <= C_E.",
+      "literal_index": 11,
+      "requirements": [
+        "Freshly verify the actual-index support, complete LOW/HIGH, owncaps, INITIAL, ordered resources and full count cover used at this index.",
+        "Record every selected source, domain, target, native result and source-specific acquisition join.",
+        "Cover all original domains and reflected orientations; a final receipt/geometry join alone is insufficient."
+      ]
+    },
+    {
+      "id": "n12.all_law",
+      "kind": "literal_index_proof",
+      "status": "open",
+      "depends_on": [
+        "n11.all_law",
+        "continuation.literal_interface"
+      ],
+      "conclusion": "All required arithmetic and same-law joins at the literal index 12 prove C_12 <= C_E.",
+      "literal_index": 12,
+      "requirements": [
+        "Freshly verify the actual-index support, complete LOW/HIGH, owncaps, INITIAL, ordered resources and full count cover used at this index.",
+        "Record every selected source, domain, target, native result and source-specific acquisition join.",
+        "Cover all original domains and reflected orientations; a final receipt/geometry join alone is insufficient."
+      ]
+    },
+    {
+      "id": "n13.all_law",
+      "kind": "literal_index_proof",
+      "status": "open",
+      "depends_on": [
+        "n12.all_law",
+        "continuation.literal_interface"
+      ],
+      "conclusion": "All required arithmetic and same-law joins at the literal index 13 prove C_13 <= C_E.",
+      "literal_index": 13,
+      "requirements": [
+        "Freshly verify the actual-index support, complete LOW/HIGH, owncaps, INITIAL, ordered resources and full count cover used at this index.",
+        "Record every selected source, domain, target, native result and source-specific acquisition join.",
+        "Cover all original domains and reflected orientations; a final receipt/geometry join alone is insufficient."
+      ]
+    },
+    {
+      "id": "n14.all_law",
+      "kind": "literal_index_proof",
+      "status": "open",
+      "depends_on": [
+        "n13.all_law",
+        "continuation.literal_interface"
+      ],
+      "conclusion": "All required arithmetic and same-law joins at the literal index 14 prove C_14 <= C_E.",
+      "literal_index": 14,
+      "requirements": [
+        "Freshly verify the actual-index support, complete LOW/HIGH, owncaps, INITIAL, ordered resources and full count cover used at this index.",
+        "Record every selected source, domain, target, native result and source-specific acquisition join.",
+        "Cover all original domains and reflected orientations; a final receipt/geometry join alone is insufficient."
+      ]
+    },
+    {
+      "id": "n15.all_law",
+      "kind": "literal_index_proof",
+      "status": "open",
+      "depends_on": [
+        "n14.all_law",
+        "continuation.literal_interface"
+      ],
+      "conclusion": "All required arithmetic and same-law joins at the literal index 15 prove C_15 <= C_E.",
+      "literal_index": 15,
+      "requirements": [
+        "Freshly verify the actual-index support, complete LOW/HIGH, owncaps, INITIAL, ordered resources and full count cover used at this index.",
+        "Record every selected source, domain, target, native result and source-specific acquisition join.",
+        "Cover all original domains and reflected orientations; a final receipt/geometry join alone is insufficient."
+      ]
+    },
+    {
+      "id": "n16.all_law",
+      "kind": "literal_index_proof",
+      "status": "open",
+      "depends_on": [
+        "n15.all_law",
+        "continuation.literal_interface"
+      ],
+      "conclusion": "All required arithmetic and same-law joins at the literal index 16 prove C_16 <= C_E.",
+      "literal_index": 16,
+      "requirements": [
+        "Freshly verify the actual-index support, complete LOW/HIGH, owncaps, INITIAL, ordered resources and full count cover used at this index.",
+        "Record every selected source, domain, target, native result and source-specific acquisition join.",
+        "Cover all original domains and reflected orientations; a final receipt/geometry join alone is insufficient."
+      ]
+    },
+    {
+      "id": "n17.all_law",
+      "kind": "literal_index_proof",
+      "status": "open",
+      "depends_on": [
+        "n16.all_law",
+        "continuation.literal_interface"
+      ],
+      "conclusion": "All required arithmetic and same-law joins at the literal index 17 prove C_17 <= C_E.",
+      "literal_index": 17,
+      "requirements": [
+        "Freshly verify the actual-index support, complete LOW/HIGH, owncaps, INITIAL, ordered resources and full count cover used at this index.",
+        "Record every selected source, domain, target, native result and source-specific acquisition join.",
+        "Cover all original domains and reflected orientations; a final receipt/geometry join alone is insufficient."
+      ]
+    },
+    {
+      "id": "n18.all_law",
+      "kind": "literal_index_proof",
+      "status": "open",
+      "depends_on": [
+        "n17.all_law",
+        "continuation.literal_interface"
+      ],
+      "conclusion": "All required arithmetic and same-law joins at the literal index 18 prove C_18 <= C_E.",
+      "literal_index": 18,
+      "requirements": [
+        "Freshly verify the actual-index support, complete LOW/HIGH, owncaps, INITIAL, ordered resources and full count cover used at this index.",
+        "Record every selected source, domain, target, native result and source-specific acquisition join.",
+        "Cover all original domains and reflected orientations; a final receipt/geometry join alone is insufficient."
+      ]
+    },
+    {
+      "id": "n19.all_law",
+      "kind": "literal_index_proof",
+      "status": "open",
+      "depends_on": [
+        "n18.all_law",
+        "continuation.literal_interface"
+      ],
+      "conclusion": "All required arithmetic and same-law joins at the literal index 19 prove C_19 <= C_E.",
+      "literal_index": 19,
+      "requirements": [
+        "Freshly verify the actual-index support, complete LOW/HIGH, owncaps, INITIAL, ordered resources and full count cover used at this index.",
+        "Record every selected source, domain, target, native result and source-specific acquisition join.",
+        "Cover all original domains and reflected orientations; a final receipt/geometry join alone is insufficient."
+      ]
+    },
+    {
+      "id": "n20.all_law",
+      "kind": "literal_index_proof",
+      "status": "open",
+      "depends_on": [
+        "n19.all_law",
+        "continuation.literal_interface"
+      ],
+      "conclusion": "All required arithmetic and same-law joins at the literal index 20 prove C_20 <= C_E.",
+      "literal_index": 20,
+      "requirements": [
+        "Freshly verify the actual-index support, complete LOW/HIGH, owncaps, INITIAL, ordered resources and full count cover used at this index.",
+        "Record every selected source, domain, target, native result and source-specific acquisition join.",
+        "Cover all original domains and reflected orientations; a final receipt/geometry join alone is insufficient."
+      ]
+    },
+    {
+      "id": "n21.all_law",
+      "kind": "literal_index_proof",
+      "status": "open",
+      "depends_on": [
+        "n20.all_law",
+        "continuation.literal_interface"
+      ],
+      "conclusion": "All required arithmetic and same-law joins at the literal index 21 prove C_21 <= C_E.",
+      "literal_index": 21,
+      "requirements": [
+        "Freshly verify the actual-index support, complete LOW/HIGH, owncaps, INITIAL, ordered resources and full count cover used at this index.",
+        "Record every selected source, domain, target, native result and source-specific acquisition join.",
+        "Cover all original domains and reflected orientations; a final receipt/geometry join alone is insufficient."
+      ]
+    },
+    {
+      "id": "n22.all_law",
+      "kind": "literal_index_proof",
+      "status": "open",
+      "depends_on": [
+        "n21.all_law",
+        "continuation.literal_interface"
+      ],
+      "conclusion": "All required arithmetic and same-law joins at the literal index 22 prove C_22 <= C_E.",
+      "literal_index": 22,
+      "requirements": [
+        "Freshly verify the actual-index support, complete LOW/HIGH, owncaps, INITIAL, ordered resources and full count cover used at this index.",
+        "Record every selected source, domain, target, native result and source-specific acquisition join.",
+        "Cover all original domains and reflected orientations; a final receipt/geometry join alone is insufficient."
+      ]
+    },
+    {
+      "id": "n23.all_law",
+      "kind": "literal_index_proof",
+      "status": "open",
+      "depends_on": [
+        "n22.all_law",
+        "continuation.literal_interface"
+      ],
+      "conclusion": "All required arithmetic and same-law joins at the literal index 23 prove C_23 <= C_E.",
+      "literal_index": 23,
+      "requirements": [
+        "Freshly verify the actual-index support, complete LOW/HIGH, owncaps, INITIAL, ordered resources and full count cover used at this index.",
+        "Record every selected source, domain, target, native result and source-specific acquisition join.",
+        "Cover all original domains and reflected orientations; a final receipt/geometry join alone is insufficient."
+      ]
+    },
+    {
+      "id": "n24.all_law",
+      "kind": "literal_index_proof",
+      "status": "open",
+      "depends_on": [
+        "n23.all_law",
+        "continuation.literal_interface"
+      ],
+      "conclusion": "All required arithmetic and same-law joins at the literal index 24 prove C_24 <= C_E.",
+      "literal_index": 24,
+      "requirements": [
+        "Freshly verify the actual-index support, complete LOW/HIGH, owncaps, INITIAL, ordered resources and full count cover used at this index.",
+        "Record every selected source, domain, target, native result and source-specific acquisition join.",
+        "Cover all original domains and reflected orientations; a final receipt/geometry join alone is insufficient."
+      ]
+    },
+    {
+      "id": "n25.all_law",
+      "kind": "literal_index_proof",
+      "status": "open",
+      "depends_on": [
+        "n24.all_law",
+        "continuation.literal_interface",
+        "n25.pending.b4-q0",
+        "n25.pending.b4-q1",
+        "n25.pending.b4-q2",
+        "n25.pending.b4-q3",
+        "n25.pending.b3-p33",
+        "n25.pending.b3-p31-v14-new",
+        "n25.pending.b3-p32-v14-new"
+      ],
+      "conclusion": "All required arithmetic and same-law joins at the literal index 25 prove C_25 <= C_E.",
+      "literal_index": 25,
+      "requirements": [
+        "Freshly verify the actual-index support, complete LOW/HIGH, owncaps, INITIAL, ordered resources and full count cover used at this index.",
+        "Record every selected source, domain, target, native result and source-specific acquisition join.",
+        "Cover all original domains and reflected orientations; a final receipt/geometry join alone is insufficient."
+      ]
+    },
+    {
+      "id": "n26.all_law",
+      "kind": "literal_index_proof",
+      "status": "open",
+      "depends_on": [
+        "n25.all_law",
+        "continuation.literal_interface"
+      ],
+      "conclusion": "All required arithmetic and same-law joins at the literal index 26 prove C_26 <= C_E.",
+      "literal_index": 26,
+      "requirements": [
+        "Freshly verify the actual-index support, complete LOW/HIGH, owncaps, INITIAL, ordered resources and full count cover used at this index.",
+        "Record every selected source, domain, target, native result and source-specific acquisition join.",
+        "Cover all original domains and reflected orientations; a final receipt/geometry join alone is insufficient."
+      ]
+    },
+    {
+      "id": "n27.all_law",
+      "kind": "literal_index_proof",
+      "status": "open",
+      "depends_on": [
+        "n26.all_law",
+        "continuation.literal_interface"
+      ],
+      "conclusion": "All required arithmetic and same-law joins at the literal index 27 prove C_27 <= C_E.",
+      "literal_index": 27,
+      "requirements": [
+        "Freshly verify the actual-index support, complete LOW/HIGH, owncaps, INITIAL, ordered resources and full count cover used at this index.",
+        "Record every selected source, domain, target, native result and source-specific acquisition join.",
+        "Cover all original domains and reflected orientations; a final receipt/geometry join alone is insufficient."
+      ]
+    },
+    {
+      "id": "n28.all_law",
+      "kind": "literal_index_proof",
+      "status": "open",
+      "depends_on": [
+        "n27.all_law",
+        "continuation.literal_interface"
+      ],
+      "conclusion": "All required arithmetic and same-law joins at the literal index 28 prove C_28 <= C_E.",
+      "literal_index": 28,
+      "requirements": [
+        "Freshly verify the actual-index support, complete LOW/HIGH, owncaps, INITIAL, ordered resources and full count cover used at this index.",
+        "Record every selected source, domain, target, native result and source-specific acquisition join.",
+        "Cover all original domains and reflected orientations; a final receipt/geometry join alone is insufficient."
+      ]
+    },
+    {
+      "id": "n29.all_law",
+      "kind": "literal_index_proof",
+      "status": "open",
+      "depends_on": [
+        "n28.all_law",
+        "continuation.literal_interface"
+      ],
+      "conclusion": "All required arithmetic and same-law joins at the literal index 29 prove C_29 <= C_E.",
+      "literal_index": 29,
+      "requirements": [
+        "Freshly verify the actual-index support, complete LOW/HIGH, owncaps, INITIAL, ordered resources and full count cover used at this index.",
+        "Record every selected source, domain, target, native result and source-specific acquisition join.",
+        "Cover all original domains and reflected orientations; a final receipt/geometry join alone is insufficient."
+      ]
+    },
+    {
+      "id": "n30.all_law",
+      "kind": "literal_index_proof",
+      "status": "open",
+      "depends_on": [
+        "n29.all_law",
+        "continuation.literal_interface"
+      ],
+      "conclusion": "All required arithmetic and same-law joins at the literal index 30 prove C_30 <= C_E.",
+      "literal_index": 30,
+      "requirements": [
+        "Freshly verify the actual-index support, complete LOW/HIGH, owncaps, INITIAL, ordered resources and full count cover used at this index.",
+        "Record every selected source, domain, target, native result and source-specific acquisition join.",
+        "Cover all original domains and reflected orientations; a final receipt/geometry join alone is insufficient."
+      ]
+    },
+    {
+      "id": "tail31.base31_34",
+      "kind": "native_and_proof_join",
+      "status": "open",
+      "depends_on": [
+        "n30.all_law",
+        "continuation.literal_interface"
+      ],
+      "conclusion": "The complete sharp actual-index covers at n=31,32,33,34 are freshly verified and composed in order.",
+      "domain": "all required contrary maximizing witnesses at each literal index",
+      "requirements": [
+        "Include each index's actual support/resource acquisition and complete counts.",
+        "A selected n31..39 count batch does not establish this base."
+      ]
+    },
+    {
+      "id": "tail31.bridge35_48",
+      "kind": "native_and_proof_join",
+      "status": "open",
+      "depends_on": [
+        "tail31.base31_34",
+        "continuation.literal_interface"
+      ],
+      "conclusion": "All finite supported exclusions and predecessor implications for n=35..48 are freshly verified.",
+      "domain": "every integer 35 through 48",
+      "provenance_counts_only": {
+        "selected_count_jobs_n31_39": 402,
+        "selected_components_n40_42": 10
+      },
+      "requirements": [
+        "Inventory the missing n43..48 components explicitly.",
+        "Discharge all support, own-score, resource and local-comparison premises of every used exclusion.",
+        "Selected n31..39 counts and ten n40..42 components do not cover the entire bridge."
+      ]
+    },
+    {
+      "id": "tail49.uniform_analytic_interface",
+      "kind": "analytic_review",
+      "status": "open",
+      "depends_on": [
+        "analytic.common",
+        "literature.binomial",
+        "literature.gaussian"
+      ],
+      "conclusion": "The selected uniform local exclusion and least-failure argument imply the infinite tail from their exact finite prerequisites.",
+      "domain": "the actual all-index local domain, including n >= 47 and reciprocal-index endpoint zero",
+      "requirements": [
+        "Prove every formula's uniform-index gate and all physical contact/noise/confinement premises.",
+        "Cover all noise/phase seams, deterministic conditional laws and infinite threshold/index boundaries.",
+        "Verify the actual base and predecessor edges used by the least-failure argument."
+      ]
+    },
+    {
+      "id": "tail49.full_native_suite",
+      "kind": "native_arithmetic",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "The unmodified original BE49 full suite is freshly executed and accepted.",
+      "counts": {
+        "top_level_executions": 14,
+        "retained_suite_components": 41
+      },
+      "source_archive": {
+        "filename": "BE_cutoff49_20260930.zip",
+        "bytes": 16660566,
+        "sha256": "ecdb9acca0db29efc9fe2bf496c0bcc61b4881aecdcbc91a4eb6ad49b920c72e"
+      },
+      "requirements": [
+        "Use verify.py --output NEW_PATH with no quick mode.",
+        "Capture all original reports, stdout/stderr, source bindings and successful exits.",
+        "A path-separator, bind-mount, changing-log snapshot, timeout or OOM failure is incomplete, never mathematical PASS.",
+        "Require a fresh FRESH_BE49_FULL_SUITE_RESULT.json backed by observed native execution."
+      ]
+    },
+    {
+      "id": "tail49.all_law",
+      "kind": "proof_composition",
+      "status": "open",
+      "depends_on": [
+        "tail31.bridge35_48",
+        "tail49.uniform_analytic_interface",
+        "tail49.full_native_suite"
+      ],
+      "conclusion": "C_n <= C_E for every integer n >= 49.",
+      "requirements": [
+        "Check every original finite-base and least-failure predecessor edge, not only numerical suite success."
+      ]
+    },
+    {
+      "id": "proof.global",
+      "kind": "proof_composition",
+      "status": "open",
+      "depends_on": [
+        "literature.n1",
+        "n2.all_law",
+        "n3.all_law",
+        "c4.all_law",
+        "n5.all_law",
+        "n30.all_law",
+        "tail31.base31_34",
+        "tail31.bridge35_48",
+        "tail49.all_law",
+        "literature.esseen_lower"
+      ],
+      "conclusion": "For every positive integer n, C_n <= C_E; together with Esseen's lower bound, C* = C_E.",
+      "requirements": [
+        "One executing controller must observe or explicitly validate source-bound fresh native acceptances from this epoch and the exact proof implications.",
+        "Verify complete integer coverage and absence of cycles only after all component obligations and analytic edges are discharged.",
+        "A clean-checkout reproduction must use public pinned sources and no private historical PASS files.",
+        "No global success field is authorized by this plan, topology tests, source hashes or historical results."
+      ]
+    }
+  ],
+  "open_edges": [
+    {
+      "from": "literature.prawitz",
+      "to": "analytic.common",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "literature.shevtsova",
+      "to": "analytic.common",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n2.native",
+      "to": "n2.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "analytic.common",
+      "to": "n2.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n3.native",
+      "to": "n3.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "analytic.common",
+      "to": "n3.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n3.all_law",
+      "to": "c4.owner_localization",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "literature.shevtsova",
+      "to": "c4.owner_localization",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "analytic.common",
+      "to": "c4.owner_localization",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "literature.prawitz",
+      "to": "c4.physical_bridge",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "c4.native_root4",
+      "to": "c4.complete_root",
+      "status": "open",
+      "requirement": "Require full fresh all-260/all-1300 acceptance and code-to-lemma correspondence."
+    },
+    {
+      "from": "c4.physical_bridge",
+      "to": "c4.complete_root",
+      "status": "open",
+      "requirement": "Connect the exact finite inequalities to the original physical P and all real thresholds."
+    },
+    {
+      "from": "c4.owner_localization",
+      "to": "c4.all_law",
+      "status": "open",
+      "requirement": "Place the same unrestricted attaining law in the full ROOT4 domain; no finite-atom assumption."
+    },
+    {
+      "from": "c4.complete_root",
+      "to": "c4.all_law",
+      "status": "open",
+      "requirement": "Use C4 <= max(256/625,U), with a verified U < C_E."
+    },
+    {
+      "from": "c4.all_law",
+      "to": "c5.support_acquired",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "analytic.common",
+      "to": "c5.support_acquired",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "c5.support_native",
+      "to": "c5.support_acquired",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "c5.support_acquired",
+      "to": "c5.high_acquired",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "c5.high_native",
+      "to": "c5.high_acquired",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "analytic.common",
+      "to": "c5.high_acquired",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "c5.support_acquired",
+      "to": "c5.owncaps_acquired",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "c5.high_acquired",
+      "to": "c5.owncaps_acquired",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "c5.owncaps_native",
+      "to": "c5.owncaps_acquired",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "literature.shevtsova",
+      "to": "c5.owncaps_acquired",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "c5.support_acquired",
+      "to": "c5.initial_acquired",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "c5.high_acquired",
+      "to": "c5.initial_acquired",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "c5.owncaps_acquired",
+      "to": "c5.initial_acquired",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "c5.initial_native",
+      "to": "c5.initial_acquired",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "c5.initial_acquired",
+      "to": "c5.resources_acquired",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "c5.owncaps_acquired",
+      "to": "c5.resources_acquired",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "c5.resource_native",
+      "to": "c5.resources_acquired",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "c5.resources_acquired",
+      "to": "c5.count_cover",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "c5.counts_native",
+      "to": "c5.count_cover",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "analytic.common",
+      "to": "c5.count_cover",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "c5.gapfree_native",
+      "to": "c5.gapfree_cover",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "analytic.common",
+      "to": "c5.gapfree_cover",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "c5.support_acquired",
+      "to": "c5.complement_acquired",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "c5.high_acquired",
+      "to": "c5.complement_acquired",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "c5.complement_native",
+      "to": "c5.complement_acquired",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "analytic.common",
+      "to": "c5.complement_acquired",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "c4.all_law",
+      "to": "n5.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "c5.count_cover",
+      "to": "n5.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "c5.gapfree_cover",
+      "to": "n5.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "c5.complement_acquired",
+      "to": "n5.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "analytic.common",
+      "to": "continuation.literal_interface",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "literature.binomial",
+      "to": "continuation.literal_interface",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "literature.gaussian",
+      "to": "continuation.literal_interface",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n5.all_law",
+      "to": "n6.all_law",
+      "status": "open",
+      "requirement": "Only predecessor-only q6 premises become zero; retain every current-index acquisition."
+    },
+    {
+      "from": "continuation.literal_interface",
+      "to": "n6.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n6.all_law",
+      "to": "n7.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "continuation.literal_interface",
+      "to": "n7.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n7.all_law",
+      "to": "n8.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "continuation.literal_interface",
+      "to": "n8.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n8.all_law",
+      "to": "n9.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "continuation.literal_interface",
+      "to": "n9.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n9.all_law",
+      "to": "n10.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "continuation.literal_interface",
+      "to": "n10.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n10.all_law",
+      "to": "n11.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "continuation.literal_interface",
+      "to": "n11.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n11.all_law",
+      "to": "n12.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "continuation.literal_interface",
+      "to": "n12.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n12.all_law",
+      "to": "n13.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "continuation.literal_interface",
+      "to": "n13.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n13.all_law",
+      "to": "n14.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "continuation.literal_interface",
+      "to": "n14.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n14.all_law",
+      "to": "n15.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "continuation.literal_interface",
+      "to": "n15.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n15.all_law",
+      "to": "n16.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "continuation.literal_interface",
+      "to": "n16.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n16.all_law",
+      "to": "n17.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "continuation.literal_interface",
+      "to": "n17.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n17.all_law",
+      "to": "n18.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "continuation.literal_interface",
+      "to": "n18.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n18.all_law",
+      "to": "n19.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "continuation.literal_interface",
+      "to": "n19.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n19.all_law",
+      "to": "n20.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "continuation.literal_interface",
+      "to": "n20.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n20.all_law",
+      "to": "n21.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "continuation.literal_interface",
+      "to": "n21.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n21.all_law",
+      "to": "n22.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "continuation.literal_interface",
+      "to": "n22.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n22.all_law",
+      "to": "n23.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "continuation.literal_interface",
+      "to": "n23.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n23.all_law",
+      "to": "n24.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "continuation.literal_interface",
+      "to": "n24.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n24.all_law",
+      "to": "n25.all_law",
+      "status": "open",
+      "requirement": "Discharge the selected nonnegative predecessor allowance for the unchanged actual n25 witness."
+    },
+    {
+      "from": "continuation.literal_interface",
+      "to": "n25.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n25.pending.b4-q0",
+      "to": "n25.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n25.pending.b4-q1",
+      "to": "n25.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n25.pending.b4-q2",
+      "to": "n25.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n25.pending.b4-q3",
+      "to": "n25.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n25.pending.b3-p33",
+      "to": "n25.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n25.pending.b3-p31-v14-new",
+      "to": "n25.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n25.pending.b3-p32-v14-new",
+      "to": "n25.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n25.all_law",
+      "to": "n26.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "continuation.literal_interface",
+      "to": "n26.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n26.all_law",
+      "to": "n27.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "continuation.literal_interface",
+      "to": "n27.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n27.all_law",
+      "to": "n28.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "continuation.literal_interface",
+      "to": "n28.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n28.all_law",
+      "to": "n29.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "continuation.literal_interface",
+      "to": "n29.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n29.all_law",
+      "to": "n30.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "continuation.literal_interface",
+      "to": "n30.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n30.all_law",
+      "to": "tail31.base31_34",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "continuation.literal_interface",
+      "to": "tail31.base31_34",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "tail31.base31_34",
+      "to": "tail31.bridge35_48",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "continuation.literal_interface",
+      "to": "tail31.bridge35_48",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "analytic.common",
+      "to": "tail49.uniform_analytic_interface",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "literature.binomial",
+      "to": "tail49.uniform_analytic_interface",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "literature.gaussian",
+      "to": "tail49.uniform_analytic_interface",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "tail31.bridge35_48",
+      "to": "tail49.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "tail49.uniform_analytic_interface",
+      "to": "tail49.all_law",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "tail49.full_native_suite",
+      "to": "tail49.all_law",
+      "status": "open",
+      "requirement": "Numerical suite acceptance is not itself the uniform least-failure theorem."
+    },
+    {
+      "from": "literature.n1",
+      "to": "proof.global",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n2.all_law",
+      "to": "proof.global",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n3.all_law",
+      "to": "proof.global",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "c4.all_law",
+      "to": "proof.global",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n5.all_law",
+      "to": "proof.global",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "n30.all_law",
+      "to": "proof.global",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "tail31.base31_34",
+      "to": "proof.global",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "tail31.bridge35_48",
+      "to": "proof.global",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "tail49.all_law",
+      "to": "proof.global",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "literature.esseen_lower",
+      "to": "proof.global",
+      "status": "open",
+      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    }
+  ]
+}

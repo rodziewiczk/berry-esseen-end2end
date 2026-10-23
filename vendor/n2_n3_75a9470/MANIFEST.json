@@ -1,0 +1,1147 @@
+{
+  "schema": "FROZEN_N2_N3_SOURCE_INVENTORY_V1",
+  "status": "SOURCE_INVENTORY_NOT_ACCEPTANCE",
+  "repository": "https://github.com/rodziewiczk/berry-esseen-045-certificate",
+  "commit": "75a94708872e2bc053f42a279559b23ed91e4402",
+  "upstream_manifest_sha256": "0b37815d23b1f44897297b60238c24529231939cf035cb945cb5383312744244",
+  "certificate_counts": {
+    "n2": 70,
+    "n3": 111
+  },
+  "files": [
+    {
+      "path": "n2/tensor_certificate.py",
+      "bytes": 12931,
+      "sha256": "f94746d16bb004da27778a51343dfc8b72e6d505a1fb2f9150e0f6391b7dbfc8",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/tensor_certificate.py"
+    },
+    {
+      "path": "n2/independent_integer_check.py",
+      "bytes": 8900,
+      "sha256": "5f109259f9ade7ac18576bab7f15075ed367c004f1fad732dd4b43eb2ce7f7f0",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/independent_integer_check.py"
+    },
+    {
+      "path": "n2/README.md",
+      "bytes": 5830,
+      "sha256": "a68f98fda2ea93665508245320ea6d6c4d53df5038f6328129080073d82bd8e9",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/README.md"
+    },
+    {
+      "path": "n2/certificate/000.json",
+      "bytes": 623,
+      "sha256": "c2940da3c330f8048a1b2a86ea0c37706509893008c73490b514814c2934f83c",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/000.json"
+    },
+    {
+      "path": "n2/certificate/001.json",
+      "bytes": 621,
+      "sha256": "b7c9840ef7bac315639874ee490a5d33d851ac715b83e520659fb02c28b49c0d",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/001.json"
+    },
+    {
+      "path": "n2/certificate/002.json",
+      "bytes": 628,
+      "sha256": "52a1d53f4e04ddb80c4e126eb9b94c400d1c912ca2f389f890b438a2d72dfc99",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/002.json"
+    },
+    {
+      "path": "n2/certificate/003.json",
+      "bytes": 633,
+      "sha256": "55386250422238809b2721792ff6d84a223fa74c2ad43396153132dcfa1b20f7",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/003.json"
+    },
+    {
+      "path": "n2/certificate/004.json",
+      "bytes": 633,
+      "sha256": "493dba20e8634898fa3d97b20b32f02a977824e26b613c76d3618d6ec38951bf",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/004.json"
+    },
+    {
+      "path": "n2/certificate/005.json",
+      "bytes": 638,
+      "sha256": "12273cd67d2cf6ffeae9f9c5c8df233ca8219ac914ece875d0fe0650e5215a42",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/005.json"
+    },
+    {
+      "path": "n2/certificate/006.json",
+      "bytes": 630,
+      "sha256": "d6402ee873c744de3d791bef6478b648811284a608855b7a35b17210fd3cb5a9",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/006.json"
+    },
+    {
+      "path": "n2/certificate/007.json",
+      "bytes": 637,
+      "sha256": "fb18ee495fe2081d22c2f498ce5a2f55c7e9c7c935a2479c40fe1d398a88d388",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/007.json"
+    },
+    {
+      "path": "n2/certificate/008.json",
+      "bytes": 632,
+      "sha256": "c868476a62ad9300a1c4b7efbe35303be4292110c32b7a21a87983bdd2a6cd49",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/008.json"
+    },
+    {
+      "path": "n2/certificate/009.json",
+      "bytes": 627,
+      "sha256": "3e4861cc99d76a7bf6d94ac58eedcf30df7c2116cc7fc2021324295997d3e8aa",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/009.json"
+    },
+    {
+      "path": "n2/certificate/010.json",
+      "bytes": 633,
+      "sha256": "a36e8e223bf028fc4555cad1648f3d0f95f9c38ef9165aae5813c1d921c6d0cb",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/010.json"
+    },
+    {
+      "path": "n2/certificate/011.json",
+      "bytes": 637,
+      "sha256": "3666a0d7806eafe3e3b191273efbfd77ef4bef2e635c85b97c3cfd704a76c571",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/011.json"
+    },
+    {
+      "path": "n2/certificate/012.json",
+      "bytes": 636,
+      "sha256": "b2b10385fe534b78b2d2d55984f3e4a63d1b1ef66bd4f448510d7d2e433d5c12",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/012.json"
+    },
+    {
+      "path": "n2/certificate/013.json",
+      "bytes": 635,
+      "sha256": "f7885b17eb5ea1a462564328c6e3e0bb27b21e3a7d68d717ce54b0aee66d6791",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/013.json"
+    },
+    {
+      "path": "n2/certificate/014.json",
+      "bytes": 636,
+      "sha256": "7591e6f3c9a3a88508fbd708b4a4933a8919295c1b5abd59cae54f352f04fddd",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/014.json"
+    },
+    {
+      "path": "n2/certificate/015.json",
+      "bytes": 639,
+      "sha256": "b662432e7047c83775210f194961f12a0a7b4e38f6b6a4f2883269a2e9f67668",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/015.json"
+    },
+    {
+      "path": "n2/certificate/016.json",
+      "bytes": 635,
+      "sha256": "d494ceeda008aca4b939b879cd42d7c32b6bc79784e7ebd9927fa4a12ee56ac0",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/016.json"
+    },
+    {
+      "path": "n2/certificate/017.json",
+      "bytes": 641,
+      "sha256": "a830e4dceaff2fd2ac65d4c430d719e5f11006b0004c23f4afc3cfddc7f5ac08",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/017.json"
+    },
+    {
+      "path": "n2/certificate/018.json",
+      "bytes": 634,
+      "sha256": "71e6f590dd9502810a31dd485611f2a989011e271664b36d1d57b4b6b6fb5489",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/018.json"
+    },
+    {
+      "path": "n2/certificate/019.json",
+      "bytes": 626,
+      "sha256": "504fe96b9e52619447df9088ed3ebe75bdba603f779918dd5bd51255b42ef203",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/019.json"
+    },
+    {
+      "path": "n2/certificate/020.json",
+      "bytes": 634,
+      "sha256": "cab3eeef063c9c36337eba685925dbe20c9ea7e5a9fd15721dd86bf5c61443e1",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/020.json"
+    },
+    {
+      "path": "n2/certificate/021.json",
+      "bytes": 640,
+      "sha256": "a0b8ba2193c28ae474b7e03a1eb34b1debce93221dfde1649350116dad17caf4",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/021.json"
+    },
+    {
+      "path": "n2/certificate/022.json",
+      "bytes": 632,
+      "sha256": "1202bd878f6e759dc0e745706169511f221fe01832ee63d0e1689ba17e43c9ad",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/022.json"
+    },
+    {
+      "path": "n2/certificate/023.json",
+      "bytes": 636,
+      "sha256": "0301773ea87054ee0584b7dfbf8e982b3cdae8fa5e5a5f58492be015021cefe7",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/023.json"
+    },
+    {
+      "path": "n2/certificate/024.json",
+      "bytes": 633,
+      "sha256": "fb86b6cf52d06396ebdd66ee9f09066172e4924d4ebc12e5d7e1291d8ef790fd",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/024.json"
+    },
+    {
+      "path": "n2/certificate/025.json",
+      "bytes": 632,
+      "sha256": "f06698c41183021ed6ba9176b04d56eb35680baf4f8d5a70712636684cea3724",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/025.json"
+    },
+    {
+      "path": "n2/certificate/026.json",
+      "bytes": 562,
+      "sha256": "6881442da0f6da01e4bd49c3ca9e4efadec632a8d6addef9f1f3206c1a34a7b6",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/026.json"
+    },
+    {
+      "path": "n2/certificate/027.json",
+      "bytes": 561,
+      "sha256": "26fcbad71935933a1b5b01f0bfa9b8fd628562cd10a7360245168a8283c73ed3",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/027.json"
+    },
+    {
+      "path": "n2/certificate/028.json",
+      "bytes": 567,
+      "sha256": "e15bf3f78d4319b7b637427124726080fca7fb771d8ddb1d739f0fe8279106de",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/028.json"
+    },
+    {
+      "path": "n2/certificate/029.json",
+      "bytes": 555,
+      "sha256": "6a248467cf35bf4a4e27abc70033e42181d980a935f3a1306afeb5f437eaaf7f",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/029.json"
+    },
+    {
+      "path": "n2/certificate/030.json",
+      "bytes": 562,
+      "sha256": "d75d5c7cd19136f332c2d21f050594ea34817da7646c435ae9fd7a0dc606f8a9",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/030.json"
+    },
+    {
+      "path": "n2/certificate/031.json",
+      "bytes": 634,
+      "sha256": "959457d2e395593a61ab1a87d21af7ea18013e7b9b659c35b3fb686aff706b77",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/031.json"
+    },
+    {
+      "path": "n2/certificate/032.json",
+      "bytes": 560,
+      "sha256": "91c30e0f665eab94e2a027993b74874109b25e392590a95b0803c1099716804a",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/032.json"
+    },
+    {
+      "path": "n2/certificate/033.json",
+      "bytes": 562,
+      "sha256": "b3985dbfc6be9aa1cb9d490608d5271843f26ed3bf471d82ffde14fcdc590680",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/033.json"
+    },
+    {
+      "path": "n2/certificate/034.json",
+      "bytes": 600,
+      "sha256": "0549c0b2787d7591342d3f606c122af588782e29bffa4f64b501ef2186dde2fd",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/034.json"
+    },
+    {
+      "path": "n2/certificate/035.json",
+      "bytes": 607,
+      "sha256": "700631aa295043252fb368ee8c8cfc460f58572e21ab43a6cfd61d5a61327e22",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/035.json"
+    },
+    {
+      "path": "n2/certificate/036.json",
+      "bytes": 611,
+      "sha256": "a9e7e28581764bc734faf08b46635fb6edd833c584841e340948a752805947df",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/036.json"
+    },
+    {
+      "path": "n2/certificate/037.json",
+      "bytes": 609,
+      "sha256": "e1efe2b888cebfa4ed1f14c1842aec8dc6df39a0a58b5c74681c76d7d8db61f7",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/037.json"
+    },
+    {
+      "path": "n2/certificate/038.json",
+      "bytes": 609,
+      "sha256": "95028f9df67f8966d04af460df50f6ad4e76ef96745e8a0068c2c46e5cb4727c",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/038.json"
+    },
+    {
+      "path": "n2/certificate/039.json",
+      "bytes": 610,
+      "sha256": "bfc865dbfeeb00e0993a24b5351feb0f702ee0cb2c058a218b3abbdd444b48f0",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/039.json"
+    },
+    {
+      "path": "n2/certificate/040.json",
+      "bytes": 610,
+      "sha256": "f79b5e7497d809c3a5697021952e60f8646bf4cca2727e3098781b982969c558",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/040.json"
+    },
+    {
+      "path": "n2/certificate/041.json",
+      "bytes": 611,
+      "sha256": "ec91690abfaf2ef059dcd3ddd920d9f152fce023c2e8813d6690d6bf6863708a",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/041.json"
+    },
+    {
+      "path": "n2/certificate/042.json",
+      "bytes": 607,
+      "sha256": "ea38b0e282228e863812a8d08eb03217e081776c7573292f4db411da9799858b",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/042.json"
+    },
+    {
+      "path": "n2/certificate/043.json",
+      "bytes": 638,
+      "sha256": "7f6d579a7b4491260d9d158a7010fee42b8d2d23a6a70eb4269d7ba313fea5c7",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/043.json"
+    },
+    {
+      "path": "n2/certificate/044.json",
+      "bytes": 637,
+      "sha256": "268cbf2eabad649bbf394d8a791ee6124a16e56c21f534a1524739dd97bef42c",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/044.json"
+    },
+    {
+      "path": "n2/certificate/045.json",
+      "bytes": 634,
+      "sha256": "f5c41db7d55d75e6f928ac19f1c13ee83531bada71ef38224b155ec1ec216709",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/045.json"
+    },
+    {
+      "path": "n2/certificate/046.json",
+      "bytes": 634,
+      "sha256": "1cb68fdd1c97dd615076553707a0f37a5437ee3dafe7121abf4b08a098f0c6bc",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/046.json"
+    },
+    {
+      "path": "n2/certificate/047.json",
+      "bytes": 636,
+      "sha256": "7045bd3f5351df0423d3851a4e3b439eb9423f2892362ca9cfa03a21a529f343",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/047.json"
+    },
+    {
+      "path": "n2/certificate/048.json",
+      "bytes": 633,
+      "sha256": "e2db702f12510855da9c5465048d130ddc119464be6b360c42481687e47e792c",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/048.json"
+    },
+    {
+      "path": "n2/certificate/049.json",
+      "bytes": 637,
+      "sha256": "f9d208badf3f01063d7db06d8540ef4dfc5ae47f2a0e12b4a958a6e9e5179194",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/049.json"
+    },
+    {
+      "path": "n2/certificate/050.json",
+      "bytes": 623,
+      "sha256": "bdf6f7ced5879a010cb3449bcce90757e94a4244f76a032f8fdb26094236a4ac",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/050.json"
+    },
+    {
+      "path": "n2/certificate/051.json",
+      "bytes": 626,
+      "sha256": "056c8d333a410ae39e4f0df1d799c00beae15d135d22e1a67e3f075fe1493c12",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/051.json"
+    },
+    {
+      "path": "n2/certificate/052.json",
+      "bytes": 631,
+      "sha256": "b48a1b2d70bc3b45746ed38f4e0d422d17e32ede491af5419c1b662956975890",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/052.json"
+    },
+    {
+      "path": "n2/certificate/053.json",
+      "bytes": 622,
+      "sha256": "173bf1ebbad42ffccfb65af79deeb716e1206ab635ddfa39eb287f58eaf36da3",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/053.json"
+    },
+    {
+      "path": "n2/certificate/054.json",
+      "bytes": 623,
+      "sha256": "70ea78a0e79d43ef86d6249bb4f5d1d1741babd6ea1f24d9f31e4d3396d98e54",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/054.json"
+    },
+    {
+      "path": "n2/certificate/055.json",
+      "bytes": 634,
+      "sha256": "4853273bf8445fe64269c285c4e80e7e4ddb67f1468dbcf5cd0b9aa828647b3d",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/055.json"
+    },
+    {
+      "path": "n2/certificate/056.json",
+      "bytes": 632,
+      "sha256": "5af7f8b5d860ee6182cca5ea862d808caefa290a81da96b80c0d1dd89d1eb4c6",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/056.json"
+    },
+    {
+      "path": "n2/certificate/057.json",
+      "bytes": 631,
+      "sha256": "050541034b047023d73c2fff0e38d717dbfb6f990cd2c2e911cd92841c27cb40",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/057.json"
+    },
+    {
+      "path": "n2/certificate/058.json",
+      "bytes": 635,
+      "sha256": "8a04dd7522210e8b8fcbda3fa360715912bce221033e27b363094980ad1cc594",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/058.json"
+    },
+    {
+      "path": "n2/certificate/059.json",
+      "bytes": 623,
+      "sha256": "0ffd95a28120da4b2696e52b680b3d56d494292d4bab680aabc3c727ac8a5073",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/059.json"
+    },
+    {
+      "path": "n2/certificate/060.json",
+      "bytes": 623,
+      "sha256": "a2e9270a8b08aecd3b7b3f6bbde28360ac37bcf45bd4a03ddc0bc5ffab3956f4",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/060.json"
+    },
+    {
+      "path": "n2/certificate/061.json",
+      "bytes": 633,
+      "sha256": "cec1ef14c321b02b3d499a26c5cb63ac8a9c33d79fb89ab3df9a709c450b5a87",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/061.json"
+    },
+    {
+      "path": "n2/certificate/062.json",
+      "bytes": 600,
+      "sha256": "8eb41f3807adabe452026c16dad781ac5f645393a8af723e8b056d45aa78737e",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/062.json"
+    },
+    {
+      "path": "n2/certificate/063.json",
+      "bytes": 610,
+      "sha256": "bbf6cd80396c51ae32e928e6b102505ca691b6066d0963cb706ac8fb2119b539",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/063.json"
+    },
+    {
+      "path": "n2/certificate/064.json",
+      "bytes": 603,
+      "sha256": "28dc8fbbaff10fdf13d2da6cf2e988501824a403b9277bd20fd9a6e5d8ac5dd0",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/064.json"
+    },
+    {
+      "path": "n2/certificate/065.json",
+      "bytes": 599,
+      "sha256": "12fe27dd88cbb0e35ba31728ef796caef568a37d9c6dc1a8030dab72f004b492",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/065.json"
+    },
+    {
+      "path": "n2/certificate/066.json",
+      "bytes": 626,
+      "sha256": "71f775b98eb6b7472d733c7cd01dfe8547b600e5d01abaa47900163d83db0898",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/066.json"
+    },
+    {
+      "path": "n2/certificate/067.json",
+      "bytes": 623,
+      "sha256": "2c22072cc30eae2e68f0d283e3dd1944d18bfd4af3f06e94af356b8fb365ba82",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/067.json"
+    },
+    {
+      "path": "n2/certificate/068.json",
+      "bytes": 626,
+      "sha256": "2872175b1a018c9f33ba28eb26f6d1b127af3a7647df46a3a8004d658aa6c810",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/068.json"
+    },
+    {
+      "path": "n2/certificate/069.json",
+      "bytes": 601,
+      "sha256": "619b1adadfd8b1b519a6118360378a85af56a89e781db99db2d5f1e09d9bbadf",
+      "upstream_path": "moment-defects/code/n2/BE_two_summand_certificate/certificate/069.json"
+    },
+    {
+      "path": "n3/verify.py",
+      "bytes": 8668,
+      "sha256": "73002b7630faf496df86cfacb74c9c9b35a2db801dd40cbc8df8de0dd3725cef",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/verify.py"
+    },
+    {
+      "path": "n3/audit_initial_polynomials.py",
+      "bytes": 3221,
+      "sha256": "9d5e767f1522dd42d4f07e96b5b4e3879daae28cc3fc6e23cdcab3b6727c3c5b",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/audit_initial_polynomials.py"
+    },
+    {
+      "path": "n3/check_cube.cpp",
+      "bytes": 7857,
+      "sha256": "ce5e57927f97ae1142410e933c7f2133a30938a96496beaeb8e48c1b29b973cb",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/check_cube.cpp"
+    },
+    {
+      "path": "n3/README.md",
+      "bytes": 6583,
+      "sha256": "2877ff9b0a40c4f6253eb648f7bffa58cb3b38869e469b0aa89577ace6876909",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/README.md"
+    },
+    {
+      "path": "n3/certificate/000.json",
+      "bytes": 2090,
+      "sha256": "02759fe22f103017145460c3309f725e0e71d81750b50f46079b89d5486861f5",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/000.json"
+    },
+    {
+      "path": "n3/certificate/001.json",
+      "bytes": 2082,
+      "sha256": "72650cc67dd37d06fdc618cabdce442f9829a4fd4a415823f24edf9009d09e10",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/001.json"
+    },
+    {
+      "path": "n3/certificate/002.json",
+      "bytes": 2089,
+      "sha256": "aaaefff1c58e6054f5859ebcb60bbcd4155e9877f75d788f1c65f1230124d14b",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/002.json"
+    },
+    {
+      "path": "n3/certificate/003.json",
+      "bytes": 2093,
+      "sha256": "8a77c3d7ead700fe7a9bf6bac8ec9ea6e2cfbd1db3079c4250e1560fe0a53dd9",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/003.json"
+    },
+    {
+      "path": "n3/certificate/004.json",
+      "bytes": 2088,
+      "sha256": "13c157ac54e4b30db8e86c1c4eb44335df697254eecce9dea6ed24aa1b94c96c",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/004.json"
+    },
+    {
+      "path": "n3/certificate/005.json",
+      "bytes": 2084,
+      "sha256": "7e330944af4cfaab1a752abdcab410c5745aa738b6ec9d723f5592294ad6389d",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/005.json"
+    },
+    {
+      "path": "n3/certificate/006.json",
+      "bytes": 2087,
+      "sha256": "6d0ba0bd11d9e6e0592830d3e31e24612b28182c44f884fc55e06a1fbd432ce2",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/006.json"
+    },
+    {
+      "path": "n3/certificate/007.json",
+      "bytes": 2091,
+      "sha256": "f57d47c31920dd79901879a6775c143df6bc9f5c19449e1855979520a2b79d3e",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/007.json"
+    },
+    {
+      "path": "n3/certificate/008.json",
+      "bytes": 2092,
+      "sha256": "05b29b25f0e696cc2ece06824336b84a8914c40e4622e8556040b17d4ca4ee7f",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/008.json"
+    },
+    {
+      "path": "n3/certificate/009.json",
+      "bytes": 2086,
+      "sha256": "8182fe2c39eca8064f10dbbd53156db8508a2ab41dc67961c1d55c7395dc7a45",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/009.json"
+    },
+    {
+      "path": "n3/certificate/010.json",
+      "bytes": 2089,
+      "sha256": "348a14b5c6fa48738e5fa75a2f2af3f224bf39901cdbb8af5e328ff62496e95c",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/010.json"
+    },
+    {
+      "path": "n3/certificate/011.json",
+      "bytes": 2105,
+      "sha256": "56ed113643381f0fcc08d8b0b1b965dcb92a0f25507906e77b7feb479e97b43e",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/011.json"
+    },
+    {
+      "path": "n3/certificate/012.json",
+      "bytes": 2105,
+      "sha256": "d5dd910caed3581a07caef3381faa56c5e6512898dee240a7eea7c99f0ea72fe",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/012.json"
+    },
+    {
+      "path": "n3/certificate/013.json",
+      "bytes": 2105,
+      "sha256": "e3ab953622852c51da11192752d9905f4d74cfcfd21f7afc96540924d3f17182",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/013.json"
+    },
+    {
+      "path": "n3/certificate/014.json",
+      "bytes": 2102,
+      "sha256": "b3dd4f1f18f0a964656f1c1553bb69d35432ee55ebb7aeb8adae096bf04bb593",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/014.json"
+    },
+    {
+      "path": "n3/certificate/015.json",
+      "bytes": 2103,
+      "sha256": "a700ce19e4433eb01601a58b38b83f286fae43f26e8da8fee9854b2467e4be18",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/015.json"
+    },
+    {
+      "path": "n3/certificate/016.json",
+      "bytes": 2108,
+      "sha256": "bcaa698df42e1d58806e03bdaa966c1d993c8a1eb0aa75c278160e08d9c9acf7",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/016.json"
+    },
+    {
+      "path": "n3/certificate/017.json",
+      "bytes": 2097,
+      "sha256": "f7daa34f546967a3191e5aa69b4b78daa0f81738b8c581aae6eafcba837aa2a9",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/017.json"
+    },
+    {
+      "path": "n3/certificate/018.json",
+      "bytes": 2108,
+      "sha256": "3ef6dd952329d451ce9c0efa9a5a6ca12724a75c8c76a9498e26e70e6e51ced0",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/018.json"
+    },
+    {
+      "path": "n3/certificate/019.json",
+      "bytes": 2100,
+      "sha256": "0b1c33a489f87c90e0c02fc40538bbcbfff82bdf9f6d7f08b41a4683721d6937",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/019.json"
+    },
+    {
+      "path": "n3/certificate/020.json",
+      "bytes": 2117,
+      "sha256": "f2e47709eb666e9c7343107b998bad887992aa942697fe25059e41cc16f8c8a8",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/020.json"
+    },
+    {
+      "path": "n3/certificate/021.json",
+      "bytes": 2120,
+      "sha256": "0c14551e0b8dca3eb432884594d5476556c4c0b90fd9eb0f8c6db0fff00772a7",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/021.json"
+    },
+    {
+      "path": "n3/certificate/022.json",
+      "bytes": 2105,
+      "sha256": "c98c710e6eb0c8a44ce48e97932c65e0c41468ef291c5883cc88c7384abcdf24",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/022.json"
+    },
+    {
+      "path": "n3/certificate/023.json",
+      "bytes": 2123,
+      "sha256": "dc8af75d7e2026818d125273e87cb6fc8cab2cd61ec6ff8dcf184fb7bdd62717",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/023.json"
+    },
+    {
+      "path": "n3/certificate/024.json",
+      "bytes": 2121,
+      "sha256": "38ab415c2d3f7043395af8bab2fa3dfd4311a133c748e2986a00977ba9a5d25c",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/024.json"
+    },
+    {
+      "path": "n3/certificate/025.json",
+      "bytes": 2097,
+      "sha256": "d9c29744f300161ebc52f2d9bea645e654e1572bb0bccf1fabf850fa377c9e3d",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/025.json"
+    },
+    {
+      "path": "n3/certificate/026.json",
+      "bytes": 2104,
+      "sha256": "fc728bd4e97bbdb6f64a7e75c0830892b4f92ec36f70f89d72ae86f18a5cc600",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/026.json"
+    },
+    {
+      "path": "n3/certificate/027.json",
+      "bytes": 2110,
+      "sha256": "b14d5696513700506354504822e2817c0f5c44680e1cb8a816a09b2b453dbeff",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/027.json"
+    },
+    {
+      "path": "n3/certificate/028.json",
+      "bytes": 2117,
+      "sha256": "fb9cff4895feb344526b3b72d075f746f1c7b8e02f8f945e9a7f9cdf6524e381",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/028.json"
+    },
+    {
+      "path": "n3/certificate/029.json",
+      "bytes": 2108,
+      "sha256": "aaea8b80a176e37b954ab280279efcf2a0fad7e3fdbaaf5d75def0ac505c95d9",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/029.json"
+    },
+    {
+      "path": "n3/certificate/030.json",
+      "bytes": 2107,
+      "sha256": "9dfacc5c4a931620ac9a8f76002a888c1817ad5012e8a6b2c049e867d0aa676c",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/030.json"
+    },
+    {
+      "path": "n3/certificate/031.json",
+      "bytes": 2113,
+      "sha256": "8e4aa7c85d84368c367a4468f16892aafe611a165028b28a19b14f4bc83f400d",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/031.json"
+    },
+    {
+      "path": "n3/certificate/032.json",
+      "bytes": 2117,
+      "sha256": "39bbe13f33e2f008e1de329e4a0008626eb161d4388a1f1b61919d1f00cca07f",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/032.json"
+    },
+    {
+      "path": "n3/certificate/033.json",
+      "bytes": 2111,
+      "sha256": "4c2a16be382833467b87e4ca8ebb443bd2f962264607a5eb553e8cb7ae20e8d5",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/033.json"
+    },
+    {
+      "path": "n3/certificate/034.json",
+      "bytes": 2111,
+      "sha256": "c1a7fc23704798c6a4a7a348ec3b9298d19040b191b5bf715edb0196dbd7392e",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/034.json"
+    },
+    {
+      "path": "n3/certificate/035.json",
+      "bytes": 2110,
+      "sha256": "7772b6e544b3d47aa14833f7044d25bbcec61d309576a02e455d3f5cc20bae08",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/035.json"
+    },
+    {
+      "path": "n3/certificate/036.json",
+      "bytes": 2106,
+      "sha256": "a54ef0d0e98f805610015c04917b2f8f599864df2288839f268c6c286d4ef9f2",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/036.json"
+    },
+    {
+      "path": "n3/certificate/037.json",
+      "bytes": 2086,
+      "sha256": "f175c7e3fadd28e8e23bbc9def5a098bbdb534988f7686d2ec0a281c94b9860e",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/037.json"
+    },
+    {
+      "path": "n3/certificate/038.json",
+      "bytes": 2101,
+      "sha256": "94e05e967955e9a95ddd3e635856e948029131767099639ed71f0f31ba0bb974",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/038.json"
+    },
+    {
+      "path": "n3/certificate/039.json",
+      "bytes": 2076,
+      "sha256": "37505e51967fe42ec9db43671af1d9e7bcbb34caa646f942bfeaa5d650e5a4b7",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/039.json"
+    },
+    {
+      "path": "n3/certificate/040.json",
+      "bytes": 2089,
+      "sha256": "96a9a52d61cc3f39f077d3bf7d166392f2e7a56d53744b1f1b6d96a1d4391d36",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/040.json"
+    },
+    {
+      "path": "n3/certificate/041.json",
+      "bytes": 2096,
+      "sha256": "434bef96f1c5bba3432936bc5a68aa9fc728981804bd4931dba611a74582d49b",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/041.json"
+    },
+    {
+      "path": "n3/certificate/042.json",
+      "bytes": 2086,
+      "sha256": "f7abf6f43ea6ffd0e437b83699278be62c180bef203b04715452ab68afc7278c",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/042.json"
+    },
+    {
+      "path": "n3/certificate/043.json",
+      "bytes": 2092,
+      "sha256": "2396d937c758d77835ccbf7f55b3dcc0615dc216fe6a883e88b2d823446b37cb",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/043.json"
+    },
+    {
+      "path": "n3/certificate/044.json",
+      "bytes": 2079,
+      "sha256": "15bfdd0cbc8b5376fa93a5eca753600ae466957777c72868246bf34fe100850d",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/044.json"
+    },
+    {
+      "path": "n3/certificate/045.json",
+      "bytes": 2105,
+      "sha256": "1a8deedf6b9b6302f45aa23824b61824c82194c41d65753c8e2bf81251bf2d70",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/045.json"
+    },
+    {
+      "path": "n3/certificate/046.json",
+      "bytes": 2107,
+      "sha256": "11920b46bee1a8f66f29c83842e27baf2444fc4185fcc572547767d02e1d46c0",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/046.json"
+    },
+    {
+      "path": "n3/certificate/047.json",
+      "bytes": 2103,
+      "sha256": "d00473db5f22e3c047101bdae42d8fff4b0c56330c9a01c9cd4a944f90c3ff0c",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/047.json"
+    },
+    {
+      "path": "n3/certificate/048.json",
+      "bytes": 2110,
+      "sha256": "1a3a712c226dc68a5597a65a3436f10a3e3fa46c34bc2def0562b37219d5f1fd",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/048.json"
+    },
+    {
+      "path": "n3/certificate/049.json",
+      "bytes": 2104,
+      "sha256": "07131b1decfe345f1538be923aba7c15cda5cc0a187697e341ef008c973832f4",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/049.json"
+    },
+    {
+      "path": "n3/certificate/050.json",
+      "bytes": 2463,
+      "sha256": "15f0fdebbbed3ea47fabb6fa6b971b8220c7384cf319de0f4352164b8c3c6c82",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/050.json"
+    },
+    {
+      "path": "n3/certificate/051.json",
+      "bytes": 2107,
+      "sha256": "3743488ba988f4747735cea320c3ee49b0f146a39acbf6c79440e29183e838fb",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/051.json"
+    },
+    {
+      "path": "n3/certificate/052.json",
+      "bytes": 2105,
+      "sha256": "f1c6496a929478d7b670e6a4503f5c830564dc279d510edc730d37b7413b4a4f",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/052.json"
+    },
+    {
+      "path": "n3/certificate/053.json",
+      "bytes": 2112,
+      "sha256": "aeaafd31b64217ff2efd0b70c22b2fe43c9c6177be50bd9356a2e4f9154a374c",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/053.json"
+    },
+    {
+      "path": "n3/certificate/054.json",
+      "bytes": 2109,
+      "sha256": "5f4c8aeb372a900565a96676c0b138344f466775e91588dbf12f08c34e405c03",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/054.json"
+    },
+    {
+      "path": "n3/certificate/055.json",
+      "bytes": 2106,
+      "sha256": "d899a29fed509e910b860fad5a302bfd04cdfdfa21e2ae8cd866920d730c9089",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/055.json"
+    },
+    {
+      "path": "n3/certificate/056.json",
+      "bytes": 2108,
+      "sha256": "f41f022f845b0d935e91e9e250ac3cbb4957e06b91be1071896ddecb4a3b6c05",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/056.json"
+    },
+    {
+      "path": "n3/certificate/057.json",
+      "bytes": 2106,
+      "sha256": "ccfaccf2605b31c8d18c3e9ebedf3dc75212c251d6fc3c1536c5c77e41ac506e",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/057.json"
+    },
+    {
+      "path": "n3/certificate/058.json",
+      "bytes": 2105,
+      "sha256": "b4cf68ad9a6cc44ee1a2c1a2122741343f4391f2eaacc45b740382164df1d197",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/058.json"
+    },
+    {
+      "path": "n3/certificate/059.json",
+      "bytes": 2114,
+      "sha256": "3c21993c08e2f75de359a759a6f47b6192f3bbd54a3ebfc99bf1100aff3739d3",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/059.json"
+    },
+    {
+      "path": "n3/certificate/060.json",
+      "bytes": 2115,
+      "sha256": "2a5bb2356a0fc7efc22975fcf39fa790a448a637c856ddec40bfa9679a66f1ee",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/060.json"
+    },
+    {
+      "path": "n3/certificate/061.json",
+      "bytes": 2120,
+      "sha256": "f8442331cb85321460b44316ae2eff72eff99a5a15aa2dee29a089d7bef16431",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/061.json"
+    },
+    {
+      "path": "n3/certificate/062.json",
+      "bytes": 2101,
+      "sha256": "e497095577e5aa181384f15c300cb8594fcdf58249b0f4372251fdb704d0be33",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/062.json"
+    },
+    {
+      "path": "n3/certificate/063.json",
+      "bytes": 2108,
+      "sha256": "341173bd3b8d71c19b74c3942fb1d4fd54493f7082a94d0da79e8efd86ab10e7",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/063.json"
+    },
+    {
+      "path": "n3/certificate/064.json",
+      "bytes": 2115,
+      "sha256": "610447c5056784c0c58e640722759aa8c3f58be51ea395a5a61f2002034dbbd0",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/064.json"
+    },
+    {
+      "path": "n3/certificate/065.json",
+      "bytes": 2136,
+      "sha256": "a8e5afe9ac11d09475c1ef950827fd471851d750f18643822d44ce23ff027322",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/065.json"
+    },
+    {
+      "path": "n3/certificate/066.json",
+      "bytes": 2110,
+      "sha256": "64853b6a32a4573c75ccf4a0d50c0ba77376696c1ceb32a735175459ef17a0fa",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/066.json"
+    },
+    {
+      "path": "n3/certificate/067.json",
+      "bytes": 2104,
+      "sha256": "3efc54edf9c79733d7fa5b7d1d6c15320d0edf4d64228e47c277c49d69a929ff",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/067.json"
+    },
+    {
+      "path": "n3/certificate/068.json",
+      "bytes": 2120,
+      "sha256": "b03b480bbc88e3b537f1699512087baeddecfd8f694ffa30b4f292e848e1318c",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/068.json"
+    },
+    {
+      "path": "n3/certificate/069.json",
+      "bytes": 2101,
+      "sha256": "1e675464e01a5a9a197b3797d732433854dda153c6579bc9c3433ed5044f5aa3",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/069.json"
+    },
+    {
+      "path": "n3/certificate/070.json",
+      "bytes": 2111,
+      "sha256": "efb3ea9f51f6bc9ba0c2f1fde6827592c6cf33354ce2bddef6ce73db1a1563e6",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/070.json"
+    },
+    {
+      "path": "n3/certificate/071.json",
+      "bytes": 2113,
+      "sha256": "4f7bd4fe71fbe905443179a9cd0035b5c4d7eaedce22500f551f66ccc1de0851",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/071.json"
+    },
+    {
+      "path": "n3/certificate/072.json",
+      "bytes": 2103,
+      "sha256": "a0bae457b2b08e3110832f6125655f0b732272de876b90334cfaa38ad25e6734",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/072.json"
+    },
+    {
+      "path": "n3/certificate/073.json",
+      "bytes": 2099,
+      "sha256": "3c45bbff2fe82a18c593ab5967f8738211edf82c63332f8529ec30ac68385ea5",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/073.json"
+    },
+    {
+      "path": "n3/certificate/074.json",
+      "bytes": 2114,
+      "sha256": "664b48e0dacb66f900c6786200a23ee2dc2670fc24ee5fdad4c92bf4b4352e15",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/074.json"
+    },
+    {
+      "path": "n3/certificate/075.json",
+      "bytes": 2084,
+      "sha256": "f39ce07bbfec37929ae19d919838965689032b8a90ee173a2aa3fc3b5f1698e7",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/075.json"
+    },
+    {
+      "path": "n3/certificate/076.json",
+      "bytes": 2094,
+      "sha256": "c0ee17a98ab587311b89667ac6693a1b6446e89879363c3953c2051fd51df836",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/076.json"
+    },
+    {
+      "path": "n3/certificate/077.json",
+      "bytes": 2087,
+      "sha256": "c71ef3781fe4ab459fbaae71fc2df267a381c237d1236377f8c32f1e8fa95c2f",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/077.json"
+    },
+    {
+      "path": "n3/certificate/078.json",
+      "bytes": 2073,
+      "sha256": "443c13b381b935028d6d3ac611b31732b216eb13c238b9ed5581d4c1a137f2f3",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/078.json"
+    },
+    {
+      "path": "n3/certificate/079.json",
+      "bytes": 2090,
+      "sha256": "0a0914e3f203a26b484c3a2fdbddf33716a8ad985812d91d39e5793cbf05646a",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/079.json"
+    },
+    {
+      "path": "n3/certificate/080.json",
+      "bytes": 2087,
+      "sha256": "34beecc60cb179c0f395cced0071befe06ab71f24ab503437b616aca671b2ff3",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/080.json"
+    },
+    {
+      "path": "n3/certificate/081.json",
+      "bytes": 2106,
+      "sha256": "748568d338f1bb92b40137a1ddca61a314d0c5566d9d37dcc163e9c96ede622d",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/081.json"
+    },
+    {
+      "path": "n3/certificate/082.json",
+      "bytes": 2097,
+      "sha256": "9f5a6beddc6e26a18d7279c67ca1834f57e52eed6b226bba9344e86c2889837b",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/082.json"
+    },
+    {
+      "path": "n3/certificate/083.json",
+      "bytes": 2102,
+      "sha256": "b5c00ee23c9904ed616c26cc2dd9778529f3dd65ce2eda1d135706b2915eb14b",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/083.json"
+    },
+    {
+      "path": "n3/certificate/084.json",
+      "bytes": 2065,
+      "sha256": "274528494872200ff9c878552d42df7e86b274619c1f7b3020e0a9083f8dc7dc",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/084.json"
+    },
+    {
+      "path": "n3/certificate/085.json",
+      "bytes": 2064,
+      "sha256": "3e2862fc85bc9565256dedf8ddc79acf037592165d3dad37666748cd33e0c671",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/085.json"
+    },
+    {
+      "path": "n3/certificate/086.json",
+      "bytes": 2081,
+      "sha256": "bdb3ed1944db872b2f272815707ba607095d3c0d2c6f60e2a30d640bec356634",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/086.json"
+    },
+    {
+      "path": "n3/certificate/087.json",
+      "bytes": 2094,
+      "sha256": "868909ed84d7c92e05ffe68209e093bbebcd1440b51fb84c7bb7d5086b84477c",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/087.json"
+    },
+    {
+      "path": "n3/certificate/088.json",
+      "bytes": 2092,
+      "sha256": "8d40142c519ad6ad02a4d965e0b218ee0709a9596893a5ff78019b8835e3b36d",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/088.json"
+    },
+    {
+      "path": "n3/certificate/089.json",
+      "bytes": 2097,
+      "sha256": "7089272b218c68d635de34716a659522c0a98ac6bce5c4426c4c2098ffcaa46b",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/089.json"
+    },
+    {
+      "path": "n3/certificate/090.json",
+      "bytes": 2097,
+      "sha256": "a0ca6843b856e981f8070913f0b80f13202e10c796f29ea9cdedfc14213cdbbd",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/090.json"
+    },
+    {
+      "path": "n3/certificate/091.json",
+      "bytes": 2091,
+      "sha256": "49c8716f5cd5cab5965d0bfd0953c140beea339fdde390b65ec984c639aa4eae",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/091.json"
+    },
+    {
+      "path": "n3/certificate/092.json",
+      "bytes": 2084,
+      "sha256": "881b12d8999f37441ba613f1801f59dc38619d693e7c5862e6723b9228cc88a2",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/092.json"
+    },
+    {
+      "path": "n3/certificate/093.json",
+      "bytes": 2082,
+      "sha256": "0626f69134c6ea10cd2b60d44f83be3468defd064a14fa98835f6267be179227",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/093.json"
+    },
+    {
+      "path": "n3/certificate/094.json",
+      "bytes": 2081,
+      "sha256": "44784b3a475297c7145562d41bc7507e84903925ca0a8a376e478914a603da9b",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/094.json"
+    },
+    {
+      "path": "n3/certificate/095.json",
+      "bytes": 2076,
+      "sha256": "400e42fe99f99e692f6db702c2ce52fb3ccb836863c54312099ea04e048fa7a7",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/095.json"
+    },
+    {
+      "path": "n3/certificate/096.json",
+      "bytes": 2072,
+      "sha256": "312306e109554228345e2290e078a8d863601b887c585df42ef3010af0ff3bf7",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/096.json"
+    },
+    {
+      "path": "n3/certificate/097.json",
+      "bytes": 2082,
+      "sha256": "37d1c222cad755f3691366a11fc16049e74e1a8efdd375843c2a9c7efae54cf2",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/097.json"
+    },
+    {
+      "path": "n3/certificate/098.json",
+      "bytes": 2080,
+      "sha256": "8c0923405734e6f18fec8fdfecfea041170821b4b32df476a39acf32d4dce5f7",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/098.json"
+    },
+    {
+      "path": "n3/certificate/099.json",
+      "bytes": 2088,
+      "sha256": "c36c6d05483c4081c5dd92137de903c384833fb4649b144ecfa077e7cb43dac0",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/099.json"
+    },
+    {
+      "path": "n3/certificate/100.json",
+      "bytes": 2084,
+      "sha256": "8c6c79b118856aee2ae8f711a2277e3f87b26ec264081a84013683d7496bbbd8",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/100.json"
+    },
+    {
+      "path": "n3/certificate/101.json",
+      "bytes": 2087,
+      "sha256": "63f1e85967d729407245c22effdbd65d52b8e2b3f9036026ed2399856bad228d",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/101.json"
+    },
+    {
+      "path": "n3/certificate/102.json",
+      "bytes": 2093,
+      "sha256": "2a97baab61f0e55660ab481c68751e85092d5515a788beeddb9ba3edd9b1d044",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/102.json"
+    },
+    {
+      "path": "n3/certificate/103.json",
+      "bytes": 2086,
+      "sha256": "80736478c6457e56728721c2026cc7a3897f59ecdec3a2f9ad599b338917716c",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/103.json"
+    },
+    {
+      "path": "n3/certificate/104.json",
+      "bytes": 2094,
+      "sha256": "4c5cba6e6bee4db4462ae590c25dce0d27b76d10925944144a5bb5300915b58b",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/104.json"
+    },
+    {
+      "path": "n3/certificate/105.json",
+      "bytes": 2081,
+      "sha256": "6ba4d5002e8a0c5797ed7e6a1dd6e8857b18366e350c46bb2b5d6de1d730bec9",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/105.json"
+    },
+    {
+      "path": "n3/certificate/106.json",
+      "bytes": 2087,
+      "sha256": "5b3d867c09a458693a2c149591dc18ac1f5ef427c6a521d134735cdec6b76725",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/106.json"
+    },
+    {
+      "path": "n3/certificate/107.json",
+      "bytes": 2088,
+      "sha256": "4a532b10cb405aa572712ccd5ae1caf051084ac4999446351f5bf3ee4385aa52",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/107.json"
+    },
+    {
+      "path": "n3/certificate/108.json",
+      "bytes": 2085,
+      "sha256": "e8215c03ecba70c66d8ec670f308012a30b80d02ff260be207a23873a2bb2f0e",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/108.json"
+    },
+    {
+      "path": "n3/certificate/109.json",
+      "bytes": 2086,
+      "sha256": "be8ad1661b4151967d9172f6d5770dfd868c462ff4eca54160af1772cbcc8804",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/109.json"
+    },
+    {
+      "path": "n3/certificate/110.json",
+      "bytes": 2084,
+      "sha256": "762552469db1f4a0c176fb1e0df0c2a2853daed082bfc77a4cdc7eed49f45a03",
+      "upstream_path": "moment-defects/code/n3/BE_three_summand_certificate/certificate/110.json"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1074,
+      "sha256": "cd780a1d309ec3d7adf42b87b75430b8231e8c42161fc5cb3452188b2af4bd80",
+      "upstream_path": "LICENSE"
+    }
+  ]
+}
