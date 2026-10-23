@@ -706,3 +706,17 @@ with elapsed time about7794seconds. Retained records increase20to25in the
 last inspected interval. This is ongoing progress, not final arithmetic
 acceptance. The original full driver has no completed-stage resume; changing
 runtime starts its whole14/41invocation again. The18-hour ceiling is not an ETA.
+
+## Notebook42: all64selected n8forests completed in the supplied log
+
+The42attachment has SHA256
+`bcf0ec8c2e80c6d7fe57f639513533f1b11c9c9aad23393ca5a63806fb682110`.
+At20:46:43UTC it reports64/64completed forests, with the last complete-stage
+ZIP saved and final `complete_selected_conditional_count_arithmetic_basic`.
+The final bundle is
+`finite8-counts/20261023T202749Z-aa092c0f/20261023T202749Z-aa092c0f-results.zip`.
+The41completed attachment's SHA256 is
+`a6007e0d412be4a0ea29e8e9b572d1339e88aa0fbd6324ebc834093b0a23ee17`.
+Thus supplied logs establish scoped completion of41/42/43, not40. BASIC
+native acceptance, resource acquisition and full finite69/global flags remain
+false; actual final export/parent-interface readback remains separate.

@@ -248,3 +248,25 @@ they do not establish whole regional coverage or acquire analytical premises.
 Notebook11's actual export now passes both complete native ROOT4guard/receipt
 chains for the conditional physical root. Full all-law C4and the global theorem
 remain false; details are in [observed runs](observed_runs.md).
+
+The next [LOCAL42 profile-transfer review](code_local42_profile_transfer_audit.md)
+traces42actual manifest-matched members and derives the common weighted
+deficit simplex before either inward/noise intercept is exported. It follows
+both signed confinement branches before support feedback, actual noise-band
+profile ceilings and the complete closed p/phase/noise cover. The live older
+LEFT paired rectangle is specialized to the already reviewed broader signed
+LOW lemma; M>2 alone was not treated as a new gap. The physical signed moment
+and the reflected norm's absolute-moment floor remain distinct.
+
+The [entry/exterior review](code_local42_entry_exterior_audit.md) then traces
+21actual members and seven exact identity edges. INITIAL42uses the old
+parameterized signed atlas under its actual12+1passes, not an old transcript.
+It derives the direct Gaussian coefficient/remainder/Bernstein/contact and
+closed singleton-strip directions. The copied central scale term needs
+C<=.425: at N42this is supplied by the separate actual .4247cap, not by
+CE+.7/42. That changed premise is explicit. Root checked all42/21actual
+member pins and read the new derivations; no scalar gate or original kernel
+was executed. These remain bounded internal source arguments, not acceptance
+of all physical predecessors or the global theorem. A distinct positive-
+barrier INITIAL caller reaches the earlier29/5bootstrap and remains the next
+active source unit; it is not covered by merely renaming the K0 atlas.

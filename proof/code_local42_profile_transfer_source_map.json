@@ -1,0 +1,504 @@
+{
+  "schema": "LOCAL42_PROFILE_TRANSFER_INTERNAL_SOURCE_AUDIT_V1",
+  "review_status": "Fallible internal AI source and hand-algebra review; no external or formal verification",
+  "archive": {
+    "basename": "closure31.zip",
+    "bytes": 135288952,
+    "previous_transport_sha256": "68eb555e08ee7509f9d136df6fae5e354aff816ec4f77cc8426698c479b205a0",
+    "transport_hash_repeated_here": false
+  },
+  "selector": {
+    "member": "continuation_20261010/repair31/EVENTUAL_CUTOFF31_COMPOSED.json",
+    "sha256": "33c73b3bd4c8cb25cedb6c9c8ce3768608db18f1f65932a0fcd6bb468c2b51b9",
+    "mapped_files": 9518,
+    "fully_reproduced_historical_dependency_DAG": false
+  },
+  "manuscript": {
+    "basename": "berry_esseen_manuscript.tex",
+    "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+    "lines": [
+      [
+        "2477-2533",
+        "Simultaneous binary/inward/variance physical gap expansion"
+      ],
+      [
+        "2535-2629",
+        "Weighted floor and exact joint-intercept theorem"
+      ],
+      [
+        "8875-8885",
+        "External strict Bernoulli input boundary"
+      ]
+    ]
+  },
+  "members": [
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/coupled_panel_core.py",
+      "bytes": 4758,
+      "sha256": "f3ff3321f3b47486d58248c245ec83e376d517e88ff2508aa814a724870d78fc",
+      "selector_sha256": "f3ff3321f3b47486d58248c245ec83e376d517e88ff2508aa814a724870d78fc",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-78: weighted resource, actual installs, exports; primitive Fourier implementations remain separate"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/central42_acquisition_core.py",
+      "bytes": 4677,
+      "sha256": "edd75b67061e484ba62e0266101c9fe3f98af8d15ac26218a259c630261b37ce",
+      "selector_sha256": "edd75b67061e484ba62e0266101c9fe3f98af8d15ac26218a259c630261b37ce",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-78: ordered central support/resource acquisition"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/central42_confinement_core.py",
+      "bytes": 4385,
+      "sha256": "6c70e17dd81811d16f4bcc267db2a5a3aaac39f95552c065e93411ef79a79c8c",
+      "selector_sha256": "6c70e17dd81811d16f4bcc267db2a5a3aaac39f95552c065e93411ef79a79c8c",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-65: same-law confinement before radius feedback"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/central42_profile_core.py",
+      "bytes": 2928,
+      "sha256": "b015459decb4dc7d17423ee4361fe8f105706fafa9b08568bd3f3953dafeecb3",
+      "selector_sha256": "b015459decb4dc7d17423ee4361fe8f105706fafa9b08568bd3f3953dafeecb3",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-44: same-law band restriction and full grid obligation"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/check_central42_interface.py",
+      "bytes": 2855,
+      "sha256": "4c857185af4fcee6acab58f3c171f0dca7ec2448b73e22f90cd2148aa798faff",
+      "selector_sha256": "4c857185af4fcee6acab58f3c171f0dca7ec2448b73e22f90cd2148aa798faff",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-33: all scalar and signed quadratic domination directions"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/check_central42_profile_interface.py",
+      "bytes": 4091,
+      "sha256": "63ecd4c060db89a22d743c6ad395f4c1ab4f207d47f5ef88d841531f974d20cf",
+      "selector_sha256": "63ecd4c060db89a22d743c6ad395f4c1ab4f207d47f5ef88d841531f974d20cf",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-67: source binding, signed ordered actual-noise profile coverage"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/accept_central42_acquisition.py",
+      "bytes": 3040,
+      "sha256": "6cc2002323857da415418682ae218bdf3eda4e0e68bfdb16a93dc4442d49a976",
+      "selector_sha256": "6cc2002323857da415418682ae218bdf3eda4e0e68bfdb16a93dc4442d49a976",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-51: conditional full-rebuild acceptance route"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/accept_central42_confinement_profiles.py",
+      "bytes": 4059,
+      "sha256": "046891f9edd8add90ce81c7fd7308d8cc837328605ec57d6ccad2ef7bf29291b",
+      "selector_sha256": "046891f9edd8add90ce81c7fd7308d8cc837328605ec57d6ccad2ef7bf29291b",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-66: separate full-rebuild confinement/profile modes"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/sperner_kernel.py",
+      "bytes": 9142,
+      "sha256": "21249fe117c6756a7a84af481dea2c5a490f9c66013c331cc998ab6828e1bb08",
+      "selector_sha256": "21249fe117c6756a7a84af481dea2c5a490f9c66013c331cc998ab6828e1bb08",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-143: actual byte identity with previously hand-derived generic kernel and N42 instantiation"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/paired_conditional_gamma47.py",
+      "bytes": 2289,
+      "sha256": "2652ed1bfe72da2c802aceb06d280cb7f22abc70e8a608e866c53c9d30888e74",
+      "selector_sha256": "2652ed1bfe72da2c802aceb06d280cb7f22abc70e8a608e866c53c9d30888e74",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-44: actual narrower M<=2 installed scope; full selected-data gamma licenses not newly acquired"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/package_audit/left42_exact/accept_acquisition.py",
+      "bytes": 7743,
+      "sha256": "a565247f6587f3bb07dd67ef2100d08f70aebbe7543937f1ab98f8d09cf31eb6",
+      "selector_sha256": "a565247f6587f3bb07dd67ef2100d08f70aebbe7543937f1ab98f8d09cf31eb6",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-109: ordered support-first actual-law updates, complete finite scope and full replay obligations"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/package_audit/left42_confinement/coupled_panel_core.py",
+      "bytes": 4434,
+      "sha256": "adb21a5ee493fc9c257aa3ba67cdf1a162a841d40798d3e423bd2bc93a16aa3e",
+      "selector_sha256": "adb21a5ee493fc9c257aa3ba67cdf1a162a841d40798d3e423bd2bc93a16aa3e",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-73: actual extended install, weighted resource and signed exports"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/package_audit/left42_confinement/paired_extended.py",
+      "bytes": 2854,
+      "sha256": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998",
+      "selector_sha256": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-54: live M<3,g^2<2 coefficient specialization and relaxed-rho/absolute-gamma context; hand-derived specialization linked to existing broader LOW proof, no arithmetic replay"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/package_audit/left42_confinement/confinement_core.py",
+      "bytes": 2820,
+      "sha256": "c42762298dbb32dacf8c10e777c26c24dc38616f46c702679257aeb2a3d289af",
+      "selector_sha256": "c42762298dbb32dacf8c10e777c26c24dc38616f46c702679257aeb2a3d289af",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-46: both H signs before every radius feedback and actual source/gate mapping"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/package_audit/left42_confinement/accept_confinement.py",
+      "bytes": 4049,
+      "sha256": "228d26cfeef7360ad76819f0a1406ef0e15ee19a051f95bf983b678280a5df22",
+      "selector_sha256": "228d26cfeef7360ad76819f0a1406ef0e15ee19a051f95bf983b678280a5df22",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-48: source/acquisition binding, ordered 45-panel typed whole-object replay"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/package_audit/left42_confinement/profile_core.py",
+      "bytes": 1906,
+      "sha256": "6ade623c27a16a79640978e5739270d748c45b006e6e82dbe4d592f5336924e5",
+      "selector_sha256": "6ade623c27a16a79640978e5739270d748c45b006e6e82dbe4d592f5336924e5",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-34: same-law joint intercept band restriction and explicit empty/inherited/profile statuses"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/package_audit/left42_confinement/accept_profiles.py",
+      "bytes": 5208,
+      "sha256": "2ca74e873b36f305549f2bcaa46a0792c6fca1ee229343feceb209facd8ca9ef",
+      "selector_sha256": "2ca74e873b36f305549f2bcaa46a0792c6fca1ee229343feceb209facd8ca9ef",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-60: actual third=30 override, 64x32 grid, lower-buffer route and complete cover"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/package_audit/left42_confinement/sperner_kernel.py",
+      "bytes": 9142,
+      "sha256": "21249fe117c6756a7a84af481dea2c5a490f9c66013c331cc998ab6828e1bb08",
+      "selector_sha256": "21249fe117c6756a7a84af481dea2c5a490f9c66013c331cc998ab6828e1bb08",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-143: byte identity with reviewed generic kernel and actual N42 gates"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/local/left42_final/bind_source42.py",
+      "bytes": 3008,
+      "sha256": "1e2a50dca7e093065700ad064195f4acf0872f9c4e24f41642081e0fa1d6151b",
+      "selector_sha256": "1e2a50dca7e093065700ad064195f4acf0872f9c4e24f41642081e0fa1d6151b",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-35: actual finite source SHA and closed-p/signed-quadratic domination"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/entry/cutoff44/check_scalar_probability44.py",
+      "bytes": 7647,
+      "sha256": "3595ef94ff9cbcdf768fc78371fb4a537ff0e4cba4f8fbcdda72f13b8a8686e0",
+      "selector_sha256": "3595ef94ff9cbcdf768fc78371fb4a537ff0e4cba4f8fbcdda72f13b8a8686e0",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-101: literal full-p partition and conditional finite/least-failure scalar rules; not fresh arithmetic"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/entry/cutoff44/check_cutoff44_composition.py",
+      "bytes": 15463,
+      "sha256": "9ac3c0f9268e428080b00f983403761a531743537adb03ffb1e1e83b18a73fb9",
+      "selector_sha256": "9ac3c0f9268e428080b00f983403761a531743537adb03ffb1e1e83b18a73fb9",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-150: selected bindings, actual Lambda closed profile endpoint, phase/H covers, explicit retained analytic scope"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/entry/cutoff44/bind_ready_edges44.py",
+      "bytes": 9969,
+      "sha256": "71b8aae020a489ca9610dad0d73eb4607a5aedb51bfe5213836d11eba05e2389",
+      "selector_sha256": "71b8aae020a489ca9610dad0d73eb4607a5aedb51bfe5213836d11eba05e2389",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-136: actual dependency names, captures/source closure and recorded-mode binding; not contemporary fresh execution"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/initial42_candidate.json",
+      "bytes": 22068,
+      "sha256": "bd2a808005703ac1fbdb5fb17bc63637f48ebb568f65220f99c47692108a23e0",
+      "selector_sha256": "bd2a808005703ac1fbdb5fb17bc63637f48ebb568f65220f99c47692108a23e0",
+      "selector_match": true,
+      "kind": "historical_candidate_metadata",
+      "review": "JSON identity, fixed domain/census/source binding only; not arithmetic truth"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/central42_acquisition_candidate.json",
+      "bytes": 100375,
+      "sha256": "c4d7b8d4aec26ca396a86a2768214764cf01f427f23cba3be072735a67829049",
+      "selector_sha256": "c4d7b8d4aec26ca396a86a2768214764cf01f427f23cba3be072735a67829049",
+      "selector_match": true,
+      "kind": "historical_candidate_metadata",
+      "review": "JSON identity, fixed domain/census/source binding only; not arithmetic truth"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/central42_amplitudes.json",
+      "bytes": 5510,
+      "sha256": "6f1eff3e63157e21b423db7901c6a0d1701fd86d2ead2db426840d265b0e60cc",
+      "selector_sha256": "6f1eff3e63157e21b423db7901c6a0d1701fd86d2ead2db426840d265b0e60cc",
+      "selector_match": true,
+      "kind": "historical_candidate_metadata",
+      "review": "JSON identity, fixed domain/census/source binding only; not arithmetic truth"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/central42_confinement_candidate.json",
+      "bytes": 105316,
+      "sha256": "2f95d0271996eb9868c2fffcdfb0fa2646a99c2cf588e70d063178e27d07246d",
+      "selector_sha256": "2f95d0271996eb9868c2fffcdfb0fa2646a99c2cf588e70d063178e27d07246d",
+      "selector_match": true,
+      "kind": "historical_candidate_metadata",
+      "review": "JSON identity, fixed domain/census/source binding only; not arithmetic truth"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/central42_profiles_candidate.json",
+      "bytes": 121914,
+      "sha256": "5667786996a88f241225d53d99ec28a797c9f37a874a74d4f51e5c28f86a7336",
+      "selector_sha256": "5667786996a88f241225d53d99ec28a797c9f37a874a74d4f51e5c28f86a7336",
+      "selector_match": true,
+      "kind": "historical_candidate_metadata",
+      "review": "JSON identity, fixed domain/census/source binding only; not arithmetic truth"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/local/central42_v2/new_central42_targets.json",
+      "bytes": 47668,
+      "sha256": "c281ad46d97c0c5054609a88727c079e509fa1e07837bb856d470d7e2171f1c0",
+      "selector_sha256": "c281ad46d97c0c5054609a88727c079e509fa1e07837bb856d470d7e2171f1c0",
+      "selector_match": true,
+      "kind": "historical_candidate_metadata",
+      "review": "JSON identity, fixed domain/census/source binding only; not arithmetic truth"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/package_audit/left42_exact/acquisition42_proof.json",
+      "bytes": 4840333,
+      "sha256": "419ba79a8967665c998602dc421300ae8ee6f5c59901880175b9618f63c27393",
+      "selector_sha256": "419ba79a8967665c998602dc421300ae8ee6f5c59901880175b9618f63c27393",
+      "selector_match": true,
+      "kind": "historical_candidate_metadata",
+      "review": "JSON identity, fixed domain/census/source binding only; not arithmetic truth"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/package_audit/left42_exact/fixed_route.json",
+      "bytes": 8860,
+      "sha256": "df1631620cf1135a5bb6fb9cd28f6c514f6a0451f7c1699ad55054fa1b23dcd0",
+      "selector_sha256": "df1631620cf1135a5bb6fb9cd28f6c514f6a0451f7c1699ad55054fa1b23dcd0",
+      "selector_match": true,
+      "kind": "historical_candidate_metadata",
+      "review": "JSON identity, fixed domain/census/source binding only; not arithmetic truth"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/package_audit/left42_confinement/pre_sperner42_exact.json",
+      "bytes": 1125311,
+      "sha256": "f587af3aae1b5bea805dcf9869b73b9ebb1b0cd5e2821d40e363b5f9100b64aa",
+      "selector_sha256": "f587af3aae1b5bea805dcf9869b73b9ebb1b0cd5e2821d40e363b5f9100b64aa",
+      "selector_match": true,
+      "kind": "historical_candidate_metadata",
+      "review": "JSON identity, fixed domain/census/source binding only; not arithmetic truth"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/package_audit/left42_confinement/fixed_amplitudes.json",
+      "bytes": 6031,
+      "sha256": "f4547f7af8fc5a28980e361b0bb0e4f5c117859685cecad67a7c55e9a9503642",
+      "selector_sha256": "f4547f7af8fc5a28980e361b0bb0e4f5c117859685cecad67a7c55e9a9503642",
+      "selector_match": true,
+      "kind": "historical_candidate_metadata",
+      "review": "JSON identity, fixed domain/census/source binding only; not arithmetic truth"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/package_audit/left42_confinement/confinement42_proof.json",
+      "bytes": 3984298,
+      "sha256": "b75c5bf10dfcc47b33d4e273a8591f0332feb6351251fb65bc21928cb597bd40",
+      "selector_sha256": "b75c5bf10dfcc47b33d4e273a8591f0332feb6351251fb65bc21928cb597bd40",
+      "selector_match": true,
+      "kind": "historical_candidate_metadata",
+      "review": "JSON identity, fixed domain/census/source binding only; not arithmetic truth"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/package_audit/left42_confinement/post_sperner42_exact.json",
+      "bytes": 1128496,
+      "sha256": "d0a1f547aa4c181d4ad64e9db403ae566760137d1fe75caedc4f317c8aec2ace",
+      "selector_sha256": "d0a1f547aa4c181d4ad64e9db403ae566760137d1fe75caedc4f317c8aec2ace",
+      "selector_match": true,
+      "kind": "historical_candidate_metadata",
+      "review": "JSON identity, fixed domain/census/source binding only; not arithmetic truth"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/package_audit/left42_confinement/profile_targets.json",
+      "bytes": 7879,
+      "sha256": "ce6475225d247eab1123548ab7f66cac50ac3f9a5a681e42076231f209ec23ea",
+      "selector_sha256": "ce6475225d247eab1123548ab7f66cac50ac3f9a5a681e42076231f209ec23ea",
+      "selector_match": true,
+      "kind": "historical_candidate_metadata",
+      "review": "JSON identity, fixed domain/census/source binding only; not arithmetic truth"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/package_audit/left42_confinement/profiles42_proof.json",
+      "bytes": 539970,
+      "sha256": "2f275bf59e018bac8f53327e1649a71b1c13e30d7e70171a6c8664c4f7bddcdd",
+      "selector_sha256": "2f275bf59e018bac8f53327e1649a71b1c13e30d7e70171a6c8664c4f7bddcdd",
+      "selector_match": true,
+      "kind": "historical_candidate_metadata",
+      "review": "JSON identity, fixed domain/census/source binding only; not arithmetic truth"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/local/left42_final/actual_float_targets.json",
+      "bytes": 45573,
+      "sha256": "9244aee2e0eef320915fb41d1ac3fccaaf1300c25ca686f361602a251d8ec563",
+      "selector_sha256": "9244aee2e0eef320915fb41d1ac3fccaaf1300c25ca686f361602a251d8ec563",
+      "selector_match": true,
+      "kind": "historical_candidate_metadata",
+      "review": "JSON identity, fixed domain/census/source binding only; not arithmetic truth"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/local/left42_tiny_final/targets.json",
+      "bytes": 11239,
+      "sha256": "bf0801eeecbcfea259ffa8ad042404aab0dcc6d1459e917ff1cf7307d4cda84e",
+      "selector_sha256": "bf0801eeecbcfea259ffa8ad042404aab0dcc6d1459e917ff1cf7307d4cda84e",
+      "selector_match": true,
+      "kind": "historical_candidate_metadata",
+      "review": "JSON identity, fixed domain/census/source binding only; not arithmetic truth"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/corrected_phase_callback_v2.py",
+      "bytes": 1200,
+      "sha256": "65b91b83fd888aea1b01bfe6f16040fc1b51b9ced1520a866aa82778bfd4a2d6",
+      "selector_sha256": "65b91b83fd888aea1b01bfe6f16040fc1b51b9ced1520a866aa82778bfd4a2d6",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-28: actual signed curvature and narrow paired rmin identity"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/package_audit/left42_confinement/corrected_phase_callback_extended.py",
+      "bytes": 1164,
+      "sha256": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63",
+      "selector_sha256": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-28: actual signed curvature and installed paired rmin identity"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/contracted_kernel.py",
+      "bytes": 19197,
+      "sha256": "0367aae733dfe2d6467188d941d6fc8ccd7bb6f4bf3aa4c98dca3c4781534d22",
+      "selector_sha256": "0367aae733dfe2d6467188d941d6fc8ccd7bb6f4bf3aa4c98dca3c4781534d22",
+      "selector_match": true,
+      "kind": "source",
+      "review": "261-275,313-324 only: fallback/paired envelope and dynamic paired lookup; other definitions not rereviewed here"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/package_audit/left42_confinement/contracted_kernel.py",
+      "bytes": 19279,
+      "sha256": "b216161eec801c96a77df81fb77771e86e6ab55f0fc1b14cd2428508191a3dfc",
+      "selector_sha256": "b216161eec801c96a77df81fb77771e86e6ab55f0fc1b14cd2428508191a3dfc",
+      "selector_match": true,
+      "kind": "source",
+      "review": "261-275,313-324 only: byte-identical paired envelope body, dynamic installed paired lookup; other definitions not rereviewed here"
+    }
+  ],
+  "source_identity_comparisons": {
+    "central_confinement_source": true,
+    "central_profile_source": true,
+    "left_confinement_source": true,
+    "left_profile_source": true,
+    "left_post_exact_final_rows": true,
+    "left_seed_exact_acquired_final_rows": true
+  },
+  "historical_metadata_facts": {
+    "central": {
+      "probability_rows": 47,
+      "positive_joint_intercepts": true,
+      "closed_probability_endpoints": [
+        "19/50",
+        "237/500"
+      ],
+      "exact_Lambda_band_seam_equalities": {
+        "1/20": [],
+        "2/25": [],
+        "1/10": [],
+        "3/25": []
+      },
+      "signed_profile_rows": 248,
+      "inherited_signed_profiles": 102,
+      "new_signed_profiles": 146
+    },
+    "left": {
+      "probability_rows": 45,
+      "positive_joint_intercepts": true,
+      "closed_probability_endpoints": [
+        "29/100",
+        "19/50"
+      ],
+      "exact_Lambda_band_seam_equalities": {
+        "1/20": [],
+        "2/25": [],
+        "1/10": [],
+        "3/25": []
+      },
+      "amplitude_path_steps": 85,
+      "signed_confinement_configurations": 170,
+      "profile_status_counts": {
+        "empty_noise_band": 36,
+        "already_acquired_global_amplitude": 20,
+        "joint_resource_profile": 124
+      }
+    },
+    "left_acquisition_extended_paired_trace_occurrences": {
+      "note": "Nested repeated candidate occurrences, not distinct calls; source/data census only",
+      "paired": 7872,
+      "M_above_two": 573,
+      "g_above_one": 312,
+      "maximum_M": "268264297/100000000"
+    }
+  },
+  "reviewed_implications": [
+    "One physical deficit yields a joint inward/noise simplex under nD<=N*d",
+    "Independent outward enlargement of positive simplex intercepts is conservative",
+    "Positive lower-noise endpoint reduces inward allowance for same law",
+    "Both H signs precede support feedback; standardized radius encloses same-law support",
+    "Actual Lambda and adjacent closed signed-p/noise/phase covers retain their literal finite scopes",
+    "Live extended M<3,g^2<2 rectangle is an explicitly checked specialization of existing broader Pearson/Mills/L2 derivations, retaining b0=(45-M)(1-2/n)/96"
+  ],
+  "open": [
+    "Actual fresh full acquisition/confinement/profile/comparison arithmetic",
+    "N42-specific complete INITIAL/exterior and support-ray acquisition implementations",
+    "External Bernoulli theorem full literature proof",
+    "Other finite bridges and retained global ancestors not established by this subroute"
+  ],
+  "mathematical_modules_executed": false,
+  "numerical_acceptance": false,
+  "parent_acquisitions_verified": false,
+  "all_index_conclusion_verified": false,
+  "prior_internal_review_edges": [
+    {
+      "report": "code_signed_low_audit.md",
+      "sections": "1-3",
+      "use": "Broader Pearson coefficient identity, reflected cancellation norm, Mills parity, sixth remainder and general damping; older rectangle tightening separately checked here"
+    },
+    {
+      "report": "code_resource_phase_audit.md",
+      "sections": "Same-law rho/gamma context and signed curvature",
+      "use": "Relaxed rho bound, absolute-gamma floor versus physical signed curvature distinction"
+    },
+    {
+      "report": "code_uniform_confinement_audit.md",
+      "sections": "Full 143-line Sperner kernel",
+      "use": "Actual byte identity SHA21249fe... plus N42 fixed quantitative gate mapping; not name-only transfer"
+    }
+  ]
+}

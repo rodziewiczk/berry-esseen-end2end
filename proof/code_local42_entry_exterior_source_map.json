@@ -1,0 +1,342 @@
+{
+  "schema": "LOCAL42_ENTRY_EXTERIOR_INTERNAL_SOURCE_AUDIT_V1",
+  "review_status": "Fallible internal AI source and hand-algebra review; not external/formal verification",
+  "archive": {
+    "basename": "closure31.zip",
+    "previous_transport_sha256": "68eb555e08ee7509f9d136df6fae5e354aff816ec4f77cc8426698c479b205a0",
+    "transport_hash_repeated_here": false
+  },
+  "selector": {
+    "member": "continuation_20261010/repair31/EVENTUAL_CUTOFF31_COMPOSED.json",
+    "sha256": "33c73b3bd4c8cb25cedb6c9c8ce3768608db18f1f65932a0fcd6bb468c2b51b9",
+    "mapped_files": 9518
+  },
+  "manuscript": {
+    "basename": "berry_esseen_manuscript.tex",
+    "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+    "read_ranges": [
+      [
+        "818-865",
+        "Finite Gaussian series"
+      ],
+      [
+        "867-922",
+        "Original47 exterior statement and changed42 premise boundary"
+      ]
+    ]
+  },
+  "members": [
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/accept_initial42.py",
+      "bytes": 5436,
+      "sha256": "aa759c74fbd9ad39618264ef51b961f13c7833faa77a7f7b33309c27a7cee032",
+      "lines": 89,
+      "selector_sha256": "aa759c74fbd9ad39618264ef51b961f13c7833faa77a7f7b33309c27a7cee032",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-89 full fixed42 acceptance interface, 12+1 cover passes; no execution"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/local_signed_core.py",
+      "bytes": 8939,
+      "sha256": "f0c2df790b794413e7fd08c4f3fc20f79c15c27a6456c8eae5013b96eb093c11",
+      "lines": 153,
+      "selector_sha256": "f0c2df790b794413e7fd08c4f3fc20f79c15c27a6456c8eae5013b96eb093c11",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-153 full read, byte-identical to prior signed atlas; parameterized42 scope and weighted export"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/kernel.py",
+      "bytes": 19042,
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+      "lines": 345,
+      "selector_sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+      "selector_match": true,
+      "kind": "source",
+      "review": "Byte identity to previously reviewed module; no new claim of a full reread here"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/high_window_core.py",
+      "bytes": 1966,
+      "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+      "lines": 40,
+      "selector_sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+      "selector_match": true,
+      "kind": "source",
+      "review": "Byte identity to previously reviewed all-index HIGH module"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/check_local42_support.py",
+      "bytes": 1267,
+      "sha256": "343046eaf0a3e6b2e140644cee19b7764d76b4171b844eaac27fb1a288b12d2e",
+      "lines": 19,
+      "selector_sha256": "343046eaf0a3e6b2e140644cee19b7764d76b4171b844eaac27fb1a288b12d2e",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-19 actual finite42..48,K0,.19 support caller"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/check_support42_n42.py",
+      "bytes": 678,
+      "sha256": "5cbe98166ca0359b2d35544b7c97e6776a21cef13c7a2c6656f918dd5378316e",
+      "lines": 10,
+      "selector_sha256": "5cbe98166ca0359b2d35544b7c97e6776a21cef13c7a2c6656f918dd5378316e",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-10 distinct actual42,K399/2150,.31 caller; no relabeling"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/fifth_heat50.py",
+      "bytes": 3317,
+      "sha256": "09a6e27ef42847cef0ac258504546eaef3a3035e83171143f1c2fd848736ac6c",
+      "lines": 66,
+      "selector_sha256": "09a6e27ef42847cef0ac258504546eaef3a3035e83171143f1c2fd848736ac6c",
+      "selector_match": true,
+      "kind": "source",
+      "review": "Byte identity to previously reviewed parameterized heat module; specific gates not evaluated"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/heat_support50.py",
+      "bytes": 4726,
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+      "lines": 121,
+      "selector_sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+      "selector_match": true,
+      "kind": "source",
+      "review": "Byte identity to previously reviewed parameterized heat module; specific gates not evaluated"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/gaussian_core.py",
+      "bytes": 1414,
+      "sha256": "2d525417592046f615cf2b0ed9d72d80959609eba477f760cda192f9b535180d",
+      "lines": 38,
+      "selector_sha256": "2d525417592046f615cf2b0ed9d72d80959609eba477f760cda192f9b535180d",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-37 full coefficient/Tensor Bernstein derivation"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/panel_exterior.py",
+      "bytes": 4647,
+      "sha256": "98894be48c3523c6f2e8d9f25d45d008ef1bc361f6ca9c00355c16939c86f0b7",
+      "lines": 119,
+      "selector_sha256": "98894be48c3523c6f2e8d9f25d45d008ef1bc361f6ca9c00355c16939c86f0b7",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-94 complete mathematical test and closed-coordinate cover; 97-119 discovery entry not accepted as proof"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/central42_acquisition_core.py",
+      "bytes": 4677,
+      "sha256": "edd75b67061e484ba62e0266101c9fe3f98af8d15ac26218a259c630261b37ce",
+      "lines": 78,
+      "selector_sha256": "edd75b67061e484ba62e0266101c9fe3f98af8d15ac26218a259c630261b37ce",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-78 actual owncap.4247/radius/strip caller and ordering"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/package_audit/left42_exact/gaussian_core.py",
+      "bytes": 1414,
+      "sha256": "2d525417592046f615cf2b0ed9d72d80959609eba477f760cda192f9b535180d",
+      "lines": 38,
+      "selector_sha256": "2d525417592046f615cf2b0ed9d72d80959609eba477f760cda192f9b535180d",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-37 byte-identical coefficient/Tensor Bernstein derivation"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/package_audit/left42_exact/panel_exterior42.py",
+      "bytes": 4752,
+      "sha256": "98dbde39a9eb1464293eba2949d74f010313b7ea6abe5bdaef96174a988c6942",
+      "lines": 119,
+      "selector_sha256": "98dbde39a9eb1464293eba2949d74f010313b7ea6abe5bdaef96174a988c6942",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-94 complete finite42..48 contact test, owncap.4226/excess.54 and closed-coordinate cover"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/package_audit/left42_exact/accept_acquisition.py",
+      "bytes": 7743,
+      "sha256": "a565247f6587f3bb07dd67ef2100d08f70aebbe7543937f1ab98f8d09cf31eb6",
+      "lines": 109,
+      "selector_sha256": "a565247f6587f3bb07dd67ef2100d08f70aebbe7543937f1ab98f8d09cf31eb6",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-109 source/route/finite caps and prior-radius bindings; no acceptance execution"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/root/gaussian_exterior40.tex",
+      "bytes": 12740,
+      "sha256": "e53e585547e591af5b5730d69005261eb1af2e47af42cd9ce50239892bc40d8c",
+      "lines": 335,
+      "selector_sha256": "e53e585547e591af5b5730d69005261eb1af2e47af42cd9ce50239892bc40d8c",
+      "selector_match": true,
+      "kind": "source",
+      "review": "19-43 contact;91-138 general finite-series;140-177 original contact sign/scale argument; other theorems outside this unit"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/root/panel_exterior_proof.tex",
+      "bytes": 4394,
+      "sha256": "c836e9fbab9bb278aaf98b7e81037d2ddad4156ab34fc72955aa3a4f21d220a6",
+      "lines": 94,
+      "selector_sha256": "c836e9fbab9bb278aaf98b7e81037d2ddad4156ab34fc72955aa3a4f21d220a6",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-94 original47 direct contact proof and same-law strip boundary"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/root/left_strip47_proof.tex",
+      "bytes": 1977,
+      "sha256": "2cb8ebf46064daa6ef96da64fa5d45dfc6807bf079da5f8ab8c4ad0ca5029ea3",
+      "lines": 35,
+      "selector_sha256": "2cb8ebf46064daa6ef96da64fa5d45dfc6807bf079da5f8ab8c4ad0ca5029ea3",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-35 original LEFT strip atom/singleton conventions"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/initial42_candidate.json",
+      "bytes": 22068,
+      "sha256": "bd2a808005703ac1fbdb5fb17bc63637f48ebb568f65220f99c47692108a23e0",
+      "lines": 1180,
+      "selector_sha256": "bd2a808005703ac1fbdb5fb17bc63637f48ebb568f65220f99c47692108a23e0",
+      "selector_match": true,
+      "kind": "historical_candidate_metadata",
+      "review": "Typed metadata stage and panel structure only; inequalities not acquired"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/package_audit/left42_exact/strip_targets.json",
+      "bytes": 9252,
+      "sha256": "bb81995de0c6b2964bf113038ed643dc9e53d018d88a433fcc65b8170c251fb5",
+      "lines": 502,
+      "selector_sha256": "bb81995de0c6b2964bf113038ed643dc9e53d018d88a433fcc65b8170c251fb5",
+      "selector_match": true,
+      "kind": "historical_candidate_metadata",
+      "review": "Finite same-law hypotheses only; numerical truth not acquired"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/package_audit/left42_exact/strip42_proof.json",
+      "bytes": 1377471,
+      "sha256": "e6333489fd6da60e07351c01b2ad33a9db919a723570811a43cf8b8ec3f22efd",
+      "lines": 21648,
+      "selector_sha256": "e6333489fd6da60e07351c01b2ad33a9db919a723570811a43cf8b8ec3f22efd",
+      "selector_match": true,
+      "kind": "historical_candidate_metadata",
+      "review": "Recorded complete candidate cells; signs not accepted"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/package_audit/left42_exact/fixed_route.json",
+      "bytes": 8860,
+      "sha256": "df1631620cf1135a5bb6fb9cd28f6c514f6a0451f7c1699ad55054fa1b23dcd0",
+      "lines": 621,
+      "selector_sha256": "df1631620cf1135a5bb6fb9cd28f6c514f6a0451f7c1699ad55054fa1b23dcd0",
+      "selector_match": true,
+      "kind": "historical_candidate_metadata",
+      "review": "Selected radius route metadata, no gate evaluation"
+    }
+  ],
+  "byte_identity_argument_edges": [
+    {
+      "actual": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/local_signed_core.py",
+      "prior_member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/entry/local_signed_core.py",
+      "sha256": "f0c2df790b794413e7fd08c4f3fc20f79c15c27a6456c8eae5013b96eb093c11",
+      "byte_identical": true,
+      "argument_reference": "code_uniform_initial_atlas_audit.md"
+    },
+    {
+      "actual": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/kernel.py",
+      "prior_member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/entry/kernel.py",
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+      "byte_identical": true,
+      "argument_reference": "code_uniform_initial_atlas_audit.md"
+    },
+    {
+      "actual": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/high_window_core.py",
+      "prior_member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/entry/high_window_core.py",
+      "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+      "byte_identical": true,
+      "argument_reference": "code_uniform_tail_acquisition_audit.md"
+    },
+    {
+      "actual": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/fifth_heat50.py",
+      "prior_member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/structural/fifth_heat50.py",
+      "sha256": "09a6e27ef42847cef0ac258504546eaef3a3035e83171143f1c2fd848736ac6c",
+      "byte_identical": true,
+      "argument_reference": "code_uniform_tail_acquisition_audit.md"
+    },
+    {
+      "actual": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/heat_support50.py",
+      "prior_member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/structural/heat_support50.py",
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+      "byte_identical": true,
+      "argument_reference": "code_uniform_tail_acquisition_audit.md"
+    },
+    {
+      "actual": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/gaussian_core.py",
+      "prior_member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/root/gaussian_core.py",
+      "sha256": "2d525417592046f615cf2b0ed9d72d80959609eba477f760cda192f9b535180d",
+      "byte_identical": true,
+      "argument_reference": "Current hand derivation"
+    },
+    {
+      "actual": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/package_audit/left42_exact/gaussian_core.py",
+      "prior_member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/root/gaussian_core.py",
+      "sha256": "2d525417592046f615cf2b0ed9d72d80959609eba477f760cda192f9b535180d",
+      "byte_identical": true,
+      "argument_reference": "Current hand derivation"
+    }
+  ],
+  "fixed42profile": {
+    "N": 42,
+    "nmax": 98,
+    "barrier": "0",
+    "radius": "96/25",
+    "cap": "4247/10000",
+    "grid": [
+      24,
+      24,
+      8,
+      4
+    ],
+    "feedback_rows": 12,
+    "final_export_passes": 1,
+    "signed_cells_per_pass": 18432,
+    "declared_total_signed_incidences": 239616,
+    "probability_panels": 100,
+    "nmax_is_physical_upper_index": false
+  },
+  "scope_qualifications": [
+    {
+      "source": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/acquisition/panel_exterior.py",
+      "lines": "61-62",
+      "issue": "C<=.425 is not implied by CE+.7/42",
+      "actual_license": "CENTRAL caller supplies independently acquired C<=.4247<.425",
+      "classification": "Explicit changed premise; no selected counterexample found"
+    },
+    {
+      "source": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/package_audit/left42_exact/panel_exterior42.py",
+      "lines": "61-62",
+      "actual_license": "Finite42..48 owncap.4226 and excess.54/n, separately acquired"
+    }
+  ],
+  "reviewed_implications": [
+    "Formal coefficient extraction of S(z)/z and finite absolute-majorant remainder",
+    "Exact tensor Bernstein enclosure on closed and zero-width original cells",
+    "Both signed-beta contact polynomials under checked beta_lower>=0",
+    "Nonnegative adverse terms and literal floor42 domination",
+    "Forbidden transformed-strip thresholds use lower ell; equality is a checked singleton",
+    "Generic signed atlas reused by byte identity with explicit changed fixed profile and transcript"
+  ],
+  "open": [
+    "Fresh numerical INITIAL/exterior/support replay and execution readback",
+    "Primary published moment/far-ray Gaussian inputs",
+    "Unrestricted attainment/contact and actual caps/decrement acquisitions",
+    "Other distinct finite-positive-barrier profiles and remaining global ancestors"
+  ],
+  "mathematical_modules_executed": false,
+  "numerical_acceptance": false,
+  "parent_acquisitions_verified": false,
+  "all_index_conclusion_verified": false
+}
