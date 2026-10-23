@@ -285,8 +285,8 @@ then Run all; arithmetic still uses the CPU. There is no numerical resume.
 Existing2GiB notebooks and all incomplete exports remain preserved. See
 [the exact memory and acceptance scope](../proof/tail49_execution.md).
 
-Notebooks50/51/52/54/55select runtime
-`4d2020e36a2ffc521815d03f58284058d6dce3ef`:
+Corrected notebooks50/51/52/54/55select runtime
+`13dfd07f1ef2bf66f54bc639dd8bfb2550e04ec4`:
 
 | Notebook | Literal indices | Complete selected forests |
 |---|---|---:|
@@ -304,6 +304,14 @@ remaining separate.53is withheld while the mandatory n27/p41tree is missing:
 [source readiness](../proof/finite1039_count_sources.md),
 [execution scope](../proof/finite1039_count_execution.md) and
 [internal runtime review](../proof/finite1039_count_runtime_review.md).
+
+The corrected copies repair a final batch-summary field lookup after all
+native jobs. They revalidate and reuse exact complete stages from the earlier
+`4d2020e36a2ffc521815d03f58284058d6dce3ef` runtime without rewriting those
+receipts or rerunning their mathematics. Use the same Drive and Run all in
+the corrected notebook. Missing or invalid stages alone are computed freshly.
+The [fix and exact prior-epoch compatibility](../proof/finite1039_finish_fix.md)
+preserve native controls, mathematical sources, catalog and conditional flags.
 
 Notebook64, `64_n27_p41_new_candidate.ipynb`, selects runtime
 `b8631631e1772de83187701ddbdd9ef972870ea8`. Run all with the same Drive.
