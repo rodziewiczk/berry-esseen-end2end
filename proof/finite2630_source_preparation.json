@@ -1,0 +1,1050 @@
+{
+  "all_index_conclusion_verified": false,
+  "archives": {
+    "cutoff25_20261011.zip": {
+      "bytes": 514958998,
+      "sha256": "17fa140f63c5134ac48f1fd1040f4c5ae4bebdb2b92b2d7ce69f4048293d1fcb"
+    },
+    "cutoff25_continue_20261015.zip": {
+      "bytes": 37200633,
+      "sha256": "2b848227a5f5e2f54f210a347829c6b3f1c56bd656ef0cf01482a7898e11d63a"
+    }
+  },
+  "arithmetic_computed": false,
+  "jobs": [
+    {
+      "candidate_sha256": "6cb95dc5e5d11407a7029ca1579b8b9a3a4f543c1180be3e086bcbc02eef9e39",
+      "census": {
+        "leaves": 600,
+        "maximum_depth": 14,
+        "nodes": 1173,
+        "representation": "nested_binary_count_forest",
+        "roots": 27
+      },
+      "job_id": "n26.B0.p37.820f1b6a2629",
+      "source_files": 25,
+      "source_manifest_sha256": "9f6f2c3281dbbad4dcbe54fdfaf75d692169ef2cbaab83216ff96c01639624ad"
+    },
+    {
+      "candidate_sha256": "a4a19e27cab2b670098db70a796fb2040a571342def248727c63a8bc676aac92",
+      "census": {
+        "leaves": 1102,
+        "maximum_depth": 18,
+        "nodes": 2177,
+        "representation": "nested_binary_count_forest",
+        "roots": 27
+      },
+      "job_id": "n26.B0.p38.14235de273fc",
+      "source_files": 43,
+      "source_manifest_sha256": "e41b0f1f83f4f4a502b45617c2622d78bc300d6dc0512e881f33437195779608"
+    },
+    {
+      "candidate_sha256": "2502cf041a7db1e1d18d2037335c277853db0286a50b6fda8107ff6c85ef2747",
+      "census": {
+        "leaves": 2406,
+        "maximum_depth": 23,
+        "nodes": 4785,
+        "representation": "nested_binary_count_forest",
+        "roots": 27
+      },
+      "job_id": "n26.B0.p39.e46d58bf2d01",
+      "source_files": 43,
+      "source_manifest_sha256": "60333ff5d4faf090f520ad0ecff85c4d7fe1cc1d812fcb48a12536b54b9611aa"
+    },
+    {
+      "candidate_sha256": "0df474b887ad5c407bb414b7e4f3a382d6002d6c4187cf11699942c62c24fb8f",
+      "census": {
+        "leaves": 2208,
+        "maximum_depth": 23,
+        "nodes": 4389,
+        "representation": "nested_binary_count_forest",
+        "roots": 27
+      },
+      "job_id": "n26.B0.p40.59a2002f53ce",
+      "source_files": 43,
+      "source_manifest_sha256": "6d7a94b60f58e0143144c51525c7aeeff669265fd4cf48f32e84e558f224764d"
+    },
+    {
+      "candidate_sha256": "3f69e71231ab290a0897a9dc3c56d386c4e65116ed5b440f92edd285fd0d5a4b",
+      "census": {
+        "leaves": 1594,
+        "maximum_depth": 19,
+        "nodes": 3161,
+        "representation": "nested_binary_count_forest",
+        "roots": 27
+      },
+      "job_id": "n26.B0.p41.8ea3b717dd75",
+      "source_files": 43,
+      "source_manifest_sha256": "aae2b9bfc29d0419a3fc5a396908e978a3d46b1fa0e998e978325b1d276cd7c0"
+    },
+    {
+      "candidate_sha256": "e954d930738ea1a795e41288e7eccfbffd42f0c180bf8a9babd847a28fc7c46d",
+      "census": {
+        "leaves": 1997,
+        "maximum_depth": 21,
+        "nodes": 3967,
+        "representation": "nested_binary_count_forest",
+        "roots": 27
+      },
+      "job_id": "n26.B0.p42.ab293ac7418d",
+      "source_files": 43,
+      "source_manifest_sha256": "fa01a8fa6dbaa90ecdfe806c36ea5fffe5adb63ae80fe0e45aa35f68facf6d35"
+    },
+    {
+      "candidate_sha256": "d4c0f2c1d690c482899600c796a373eca7cf8a113dc969568c9365e86b7c31c6",
+      "census": {
+        "leaves": 1287,
+        "maximum_depth": 23,
+        "nodes": 2547,
+        "representation": "nested_binary_count_forest",
+        "roots": 27
+      },
+      "job_id": "n26.B0.p43.000cbe86448b",
+      "source_files": 25,
+      "source_manifest_sha256": "2bf27c050a5f2dcec492a61cecfb676f84ec871d52adf7b26af07b2eb4bad0a3"
+    },
+    {
+      "candidate_sha256": "79e3b2708822536bc594ad0df7c6007187bc6d3a9cd350552e698feacdaf337c",
+      "census": {
+        "leaves": 674,
+        "maximum_depth": 20,
+        "nodes": 1321,
+        "representation": "nested_binary_count_forest",
+        "roots": 27
+      },
+      "job_id": "n26.B0.p44.d33aef0b212e",
+      "source_files": 43,
+      "source_manifest_sha256": "28dbb4d6b466a047eeda348eebae66ad696d63d4b5d463f03e59eb30d9bb725a"
+    },
+    {
+      "candidate_sha256": "06d41dde48a2d4e603c64da3b714bf23cea36b7b93fd1f1277a5c1423c8e08a6",
+      "census": {
+        "leaves": 324,
+        "maximum_depth": 14,
+        "nodes": 621,
+        "representation": "nested_binary_count_forest",
+        "roots": 27
+      },
+      "job_id": "n26.B0.p45.af6b1df87bf7",
+      "source_files": 25,
+      "source_manifest_sha256": "f54128664ac3915e692671e915d52e1d729b44e3d6866e6c1995ece6d72b8c73"
+    },
+    {
+      "candidate_sha256": "a82040d22775ab80c8622b86c5ed140835bcb7265257b54ffaeb2d87770c33a8",
+      "census": {
+        "leaves": 301,
+        "maximum_depth": 16,
+        "nodes": 575,
+        "representation": "nested_binary_count_forest",
+        "roots": 27
+      },
+      "job_id": "n26.B0.p46.b880bebe6a44",
+      "source_files": 25,
+      "source_manifest_sha256": "c56896ae734bff88b05cf13e9293e5204f5f5921a7ed0c1d313eb2541a845eed"
+    },
+    {
+      "candidate_sha256": "aaaf9c67c1d460bda7ee7350b27d514aa967094f7a3c27a5120486a2a5428169",
+      "census": {
+        "leaves": 224,
+        "maximum_depth": 15,
+        "nodes": 421,
+        "representation": "nested_binary_count_forest",
+        "roots": 27
+      },
+      "job_id": "n26.B0.p47.c718ea921e9a",
+      "source_files": 25,
+      "source_manifest_sha256": "c3e43745a8268a4f6c268042c3b71ec2cc04818bc602f7f8685f74672c9d34ec"
+    },
+    {
+      "candidate_sha256": "3ab5abe6d7d047d949b1c129e986d433c26910e696a198ba0e3ca7fbf7bede23",
+      "census": {
+        "leaves": 99,
+        "maximum_depth": 10,
+        "nodes": 171,
+        "representation": "nested_binary_count_forest",
+        "roots": 27
+      },
+      "job_id": "n26.B0.p48.80bea1ae4fe9",
+      "source_files": 25,
+      "source_manifest_sha256": "41dfbab36c892c5ea15af700a8ce5f4172c16437414a7fb441eb97987883590e"
+    },
+    {
+      "candidate_sha256": "28c354b8b7e36609b0c0753e9635c9e092bdb866a4e3760f8e1ad1ea7fe780b9",
+      "census": {
+        "leaves": 86,
+        "maximum_depth": 10,
+        "nodes": 145,
+        "representation": "nested_binary_count_forest",
+        "roots": 27
+      },
+      "job_id": "n26.B0.p49.cb66df1c6128",
+      "source_files": 25,
+      "source_manifest_sha256": "2049b9d18958471d036efe214e6584601311322f2abc3cec05e479f4c8f4d654"
+    },
+    {
+      "candidate_sha256": "5b457fcd7c4df2f2396dbe6a3dfa70a22b622f2c44802674b159740639e14478",
+      "census": {
+        "leaves": 136,
+        "maximum_depth": 11,
+        "nodes": 245,
+        "representation": "nested_binary_count_forest",
+        "roots": 27
+      },
+      "job_id": "n26.B0.p50.ffb819248644",
+      "source_files": 25,
+      "source_manifest_sha256": "985fb3ca5034a9c53b49948b6a1fa9db2eb9c11b3d59f2d9f9fcb3afefdeba2b"
+    },
+    {
+      "candidate_sha256": "1f9642050161309ca85631f4b7d971006615947d30657576b6be372047d15756",
+      "census": {
+        "leaves": 105,
+        "maximum_depth": 10,
+        "nodes": 183,
+        "representation": "nested_binary_count_forest",
+        "roots": 27
+      },
+      "job_id": "n26.B0.p51.cbd0b1cf5fe2",
+      "source_files": 25,
+      "source_manifest_sha256": "fbedf11eb64ebbad68847f59bb9086254b294d70756b1d16f4fc91d5b18715bf"
+    },
+    {
+      "candidate_sha256": "2854ae799c0b1c8d4f0f8398957301abbff16e6c34133b47a97ced774f92002f",
+      "census": {
+        "leaves": 75,
+        "maximum_depth": 9,
+        "nodes": 123,
+        "representation": "nested_binary_count_forest",
+        "roots": 27
+      },
+      "job_id": "n26.B0.p52.64dae61c7575",
+      "source_files": 25,
+      "source_manifest_sha256": "7a795f75e920fbebade9343ca0198e3fab770895e4087ea09265e6d15b7ff0ba"
+    },
+    {
+      "candidate_sha256": "d211dd2d8b1c194340cebfed1a33e98892ff27669b2340e7e8575b3f519a2db6",
+      "census": {
+        "leaves": 27,
+        "maximum_depth": 0,
+        "nodes": 27,
+        "representation": "nested_binary_count_forest",
+        "roots": 27
+      },
+      "job_id": "n26.B0.p53.780935a7c873",
+      "source_files": 25,
+      "source_manifest_sha256": "87faa5e6435138e62b3244f47f3947c724ff5e9ab257ad85d61886aef99de551"
+    },
+    {
+      "candidate_sha256": "cf86a9f45309527f660cb2e75643f165033f6be617d89a5293d375131b1d63b7",
+      "census": {
+        "leaves": 791,
+        "maximum_depth": 18,
+        "nodes": 1554,
+        "representation": "nested_binary_count_forest",
+        "roots": 28
+      },
+      "job_id": "n27.B0.p37.512af88daa32",
+      "source_files": 25,
+      "source_manifest_sha256": "3bba3c9f51eb4da5b9d5a3cf5ef84d60f4644be71c46870f98bb5de4133982f6"
+    },
+    {
+      "candidate_sha256": "b4fa3292831bf87fc0effeb8fd78e08481dbb9b6a752206e33ec6bb4911e5f83",
+      "census": {
+        "leaves": 1546,
+        "maximum_depth": 20,
+        "nodes": 3064,
+        "representation": "nested_binary_count_forest",
+        "roots": 28
+      },
+      "job_id": "n27.B0.p38.bf6b10b3ddaa",
+      "source_files": 43,
+      "source_manifest_sha256": "c10f2eee33d398b753ec842799b90753842e6e5697c63321a9949cb243c74ae0"
+    },
+    {
+      "candidate_sha256": "d1590c2fe7ac592ea4a0925a4b9617931c94ef6a1e366ca61d2e35fd75d9d9bd",
+      "census": {
+        "leaves": 1593,
+        "maximum_depth": 18,
+        "nodes": 3158,
+        "representation": "nested_binary_count_forest",
+        "roots": 28
+      },
+      "job_id": "n27.B0.p39.9fc0997fbb15",
+      "source_files": 43,
+      "source_manifest_sha256": "228f2074e40a13216b5dc6d7e9528f4923c0880393a0b1110f48d378225e29db"
+    },
+    {
+      "candidate_sha256": "1bbb98394ef3935447deefbcda70dabe2f6a18e34df08ec990ae2a5dda1b0171",
+      "census": {
+        "leaves": 2544,
+        "maximum_depth": 21,
+        "nodes": 5060,
+        "representation": "nested_binary_count_forest",
+        "roots": 28
+      },
+      "job_id": "n27.B0.p40.841864a23be1",
+      "source_files": 43,
+      "source_manifest_sha256": "344be49311b1083ee3f81bd29d36671db23cf7d52772c547e5958baaf64f73cd"
+    },
+    {
+      "candidate_sha256": "1813d2aeeb5e9e95604af93656ec8349829527509bc85e557fc96c94b30d1632",
+      "census": {
+        "leaves": 1945,
+        "maximum_depth": 24,
+        "nodes": 3862,
+        "representation": "nested_binary_count_forest",
+        "roots": 28
+      },
+      "job_id": "n27.B0.p42.712b2d1b54c4",
+      "source_files": 43,
+      "source_manifest_sha256": "fa0d709516f57122cb0b295132f12056dfb8916d446998687a3a17b20437deff"
+    },
+    {
+      "candidate_sha256": "21acbd0f7673633b00594bdb3bd79fbdf7812635cfff5f178683490e0af6caf0",
+      "census": {
+        "leaves": 724,
+        "maximum_depth": 18,
+        "nodes": 1420,
+        "representation": "nested_binary_count_forest",
+        "roots": 28
+      },
+      "job_id": "n27.B0.p43.e7c301ee83d3",
+      "source_files": 25,
+      "source_manifest_sha256": "a3e57324ec96316475d1b086d1231ac11c31f615062666487cf7cd5ac2e58d5c"
+    },
+    {
+      "candidate_sha256": "6694fc7420b67101836e06424fdfdc31ebcfd031184b701ce19f3fbd13c9b305",
+      "census": {
+        "leaves": 763,
+        "maximum_depth": 19,
+        "nodes": 1498,
+        "representation": "nested_binary_count_forest",
+        "roots": 28
+      },
+      "job_id": "n27.B0.p44.690e3376a62c",
+      "source_files": 43,
+      "source_manifest_sha256": "778858092e115bba018b3ba31158a6dedc0cea2e6e7275a8a6d51e6fdd8463e7"
+    },
+    {
+      "candidate_sha256": "581e4ff6fbc8ebabeb5c65702dcc6c2a8c3b6cd81823a35c5e05a5c9eb77e59a",
+      "census": {
+        "leaves": 526,
+        "maximum_depth": 19,
+        "nodes": 1024,
+        "representation": "nested_binary_count_forest",
+        "roots": 28
+      },
+      "job_id": "n27.B0.p45.5e97c6e6bfc8",
+      "source_files": 25,
+      "source_manifest_sha256": "ba187268eb8067ba3450358b85f59f96c15998e47a2a870d0f2213f7210031d9"
+    },
+    {
+      "candidate_sha256": "bca7dbd32042f08a871f3d9e2e3b0133a2e97ee952184f3b59e8877b72baa4ca",
+      "census": {
+        "leaves": 251,
+        "maximum_depth": 17,
+        "nodes": 474,
+        "representation": "nested_binary_count_forest",
+        "roots": 28
+      },
+      "job_id": "n27.B0.p46.fa093930862e",
+      "source_files": 25,
+      "source_manifest_sha256": "811a4ed7426b76d1a278e63119f1879ffaa47db378a3131147f5b94e8d22722e"
+    },
+    {
+      "candidate_sha256": "aa1cb2e4a26128ab8a895668a75338ab6e37c89a02ebba3dc39bbb76ddc176a4",
+      "census": {
+        "leaves": 154,
+        "maximum_depth": 12,
+        "nodes": 280,
+        "representation": "nested_binary_count_forest",
+        "roots": 28
+      },
+      "job_id": "n27.B0.p47.aff7bf8d021f",
+      "source_files": 25,
+      "source_manifest_sha256": "f7c3598f648bbcb550be380c158241f17a69b1a37d8f7193f35492bb87234adb"
+    },
+    {
+      "candidate_sha256": "8e42bb7346891fb6b400f9ab48e32e1c53cd7c966828d0c8770f82d5394d69ca",
+      "census": {
+        "leaves": 153,
+        "maximum_depth": 13,
+        "nodes": 278,
+        "representation": "nested_binary_count_forest",
+        "roots": 28
+      },
+      "job_id": "n27.B0.p48.888032b23342",
+      "source_files": 25,
+      "source_manifest_sha256": "a908628e943a4b210112c87411454647c83dccae04432276cd352d918bef2286"
+    },
+    {
+      "candidate_sha256": "3e7aab4c06dfceda2b57d431fdd1fa4dc7ac010d601e73146552d47f49d96cdb",
+      "census": {
+        "leaves": 124,
+        "maximum_depth": 13,
+        "nodes": 220,
+        "representation": "nested_binary_count_forest",
+        "roots": 28
+      },
+      "job_id": "n27.B0.p49.49a50e594218",
+      "source_files": 25,
+      "source_manifest_sha256": "658146313e79c170fd86a9455ec5f6ce41eb227e57a3dd98660036df23fca09e"
+    },
+    {
+      "candidate_sha256": "649d2c3cc720081fb1341d9b8ed4685d053d7ec1f63ac073859581145ea1f816",
+      "census": {
+        "leaves": 163,
+        "maximum_depth": 11,
+        "nodes": 298,
+        "representation": "nested_binary_count_forest",
+        "roots": 28
+      },
+      "job_id": "n27.B0.p50.a13a01ffcefa",
+      "source_files": 25,
+      "source_manifest_sha256": "24fe4fca5accaae58320224b6ad67bed6d53a3754a4af05898e874c2f3f12bb0"
+    },
+    {
+      "candidate_sha256": "b571a1c28e6a0730c077254ff6fa5bd4aad13264b93da858eb314c183079a410",
+      "census": {
+        "leaves": 72,
+        "maximum_depth": 8,
+        "nodes": 116,
+        "representation": "nested_binary_count_forest",
+        "roots": 28
+      },
+      "job_id": "n27.B0.p51.19fc55ae0a12",
+      "source_files": 25,
+      "source_manifest_sha256": "bba2beb9485a271a8178712f754a0084418db1c8569d628dcf3826d44b65ea84"
+    },
+    {
+      "candidate_sha256": "5c74720d103e28b66537448831e979d525b410aebcfcef1a2d12ea694bd80373",
+      "census": {
+        "leaves": 71,
+        "maximum_depth": 8,
+        "nodes": 114,
+        "representation": "nested_binary_count_forest",
+        "roots": 28
+      },
+      "job_id": "n27.B0.p52.8ded0e670f82",
+      "source_files": 25,
+      "source_manifest_sha256": "73433c03d95078fdac9c6d4399ee5581af2daee4ec659511a062332b39a4be03"
+    },
+    {
+      "candidate_sha256": "eab45c3d588de28279301f20ac3aa03ca3f2e11d3704c0337091df3c27cd7c5a",
+      "census": {
+        "leaves": 891,
+        "maximum_depth": 17,
+        "nodes": 1753,
+        "representation": "nested_binary_count_forest",
+        "roots": 29
+      },
+      "job_id": "n28.B0.p37.c8b81e339f72",
+      "source_files": 25,
+      "source_manifest_sha256": "8694054c1f30ce29f08bfb206941beec1dd316f2ba01caa5a2a5af5fc6f67e3e"
+    },
+    {
+      "candidate_sha256": "06d83579c1de014ccc4153f0d243211c7e9fd7e44d409e9ef3d09164c924f294",
+      "census": {
+        "leaves": 1065,
+        "maximum_depth": 16,
+        "nodes": 2101,
+        "representation": "nested_binary_count_forest",
+        "roots": 29
+      },
+      "job_id": "n28.B0.p38.1ce7a15e27f4",
+      "source_files": 43,
+      "source_manifest_sha256": "4d87ccae962e4ceb76a236260bfd4a59d40c3ad84a140d993f48021f97e6191d"
+    },
+    {
+      "candidate_sha256": "1875f27198241253ac60ed815aede7b7753f3f4ce6879af221a5f2bdea83bc1e",
+      "census": {
+        "leaves": 2240,
+        "maximum_depth": 21,
+        "nodes": 4451,
+        "representation": "nested_binary_count_forest",
+        "roots": 29
+      },
+      "job_id": "n28.B0.p39.c24709f4cb85",
+      "source_files": 43,
+      "source_manifest_sha256": "b9317f4bca7d08776854da24caca175d2aca0da4ee9ab0cc2c89ece0eca04a98"
+    },
+    {
+      "candidate_sha256": "42dd52a76b7b073c87e5b49ba9639861ade6e7e2f24f9e0c7fc711a5c91ca89a",
+      "census": {
+        "leaves": 3966,
+        "maximum_depth": 24,
+        "nodes": 7903,
+        "representation": "nested_binary_count_forest",
+        "roots": 29
+      },
+      "job_id": "n28.B0.p40.875fc241a990",
+      "source_files": 43,
+      "source_manifest_sha256": "4ed85e3fab4a46eeba180f69e454542c1f99d5301dba1b4798a5128ee1274409"
+    },
+    {
+      "candidate_sha256": "e938059723c5d1927cda033b9f5c6cc823015b06959b193329d84ad912a59113",
+      "census": {
+        "leaves": 1818,
+        "maximum_depth": 21,
+        "nodes": 3607,
+        "representation": "nested_binary_count_forest",
+        "roots": 29
+      },
+      "job_id": "n28.B0.p41.3d10f4f70d0e",
+      "source_files": 43,
+      "source_manifest_sha256": "1af9ebfd44c05a5fa31c08d2d09d9c44df70f9e83dcf4ee9721f7b7c33344c48"
+    },
+    {
+      "candidate_sha256": "67d77e0f6057a7d7529b97c687449e91af5af0294c327cba86fc159959111b80",
+      "census": {
+        "leaves": 1769,
+        "maximum_depth": 19,
+        "nodes": 3509,
+        "representation": "nested_binary_count_forest",
+        "roots": 29
+      },
+      "job_id": "n28.B0.p42.1de01d5c4b44",
+      "source_files": 43,
+      "source_manifest_sha256": "633441c19cb3ae0ddc8a6cf43a3fc080bd88b03065941bd3a4c6c2ace3f787fb"
+    },
+    {
+      "candidate_sha256": "660416ac9d1486c704da01cb559b6847bccc76a66664d5051f90684cd67c3d7e",
+      "census": {
+        "leaves": 1287,
+        "maximum_depth": 22,
+        "nodes": 2545,
+        "representation": "nested_binary_count_forest",
+        "roots": 29
+      },
+      "job_id": "n28.B0.p43.ab2f0f8ff198",
+      "source_files": 25,
+      "source_manifest_sha256": "73ea1acdabed5fa4938271848be8a073e7f44c84d30413f10787eafba3db58b3"
+    },
+    {
+      "candidate_sha256": "61a4fc41c87175ede05e4b08f2698621ff4c73e3a1a4a1beec78c285ff5e9c40",
+      "census": {
+        "leaves": 892,
+        "maximum_depth": 22,
+        "nodes": 1755,
+        "representation": "nested_binary_count_forest",
+        "roots": 29
+      },
+      "job_id": "n28.B0.p44.9395ccdc3a0c",
+      "source_files": 43,
+      "source_manifest_sha256": "964b4691547a60c49dc27b323201ee8f4558ef6867968ab4e1a4c3ba4bfcaf2d"
+    },
+    {
+      "candidate_sha256": "7609ebae778ee8b9403ba46f2c8bbb143e3b3daa08faa5e5471d047e2dd1047f",
+      "census": {
+        "leaves": 324,
+        "maximum_depth": 16,
+        "nodes": 619,
+        "representation": "nested_binary_count_forest",
+        "roots": 29
+      },
+      "job_id": "n28.B0.p45.14bada1742b9",
+      "source_files": 25,
+      "source_manifest_sha256": "b74d976d8307ee709b08aa65b62fcc3a3e3aad2586e164bab2edf689ba280a91"
+    },
+    {
+      "candidate_sha256": "47ff9f339f6dde0ccb40fb560477cfe20907a60ee89c4e3644a11bd996d716ff",
+      "census": {
+        "leaves": 285,
+        "maximum_depth": 16,
+        "nodes": 541,
+        "representation": "nested_binary_count_forest",
+        "roots": 29
+      },
+      "job_id": "n28.B0.p46.c4c4e62fd01c",
+      "source_files": 25,
+      "source_manifest_sha256": "3e6354a67f7e1a63cfd9a38ea24050f5f75bcc4320ebebc994881c7fb39ad3e0"
+    },
+    {
+      "candidate_sha256": "9c1786904c6d8c8c79d28ea6ff1f99eee1add330c3cb9960d496ec47702ba499",
+      "census": {
+        "leaves": 241,
+        "maximum_depth": 15,
+        "nodes": 453,
+        "representation": "nested_binary_count_forest",
+        "roots": 29
+      },
+      "job_id": "n28.B0.p47.4a2f34ab2d3e",
+      "source_files": 25,
+      "source_manifest_sha256": "bb7171116be98fe0f573f1ab520d97887f7fef7d2b966b4dd6e519010e242c01"
+    },
+    {
+      "candidate_sha256": "57f4c4177fa337c2c7b44018a60dc42aaba8a490f6e114c71f5c8fcc3848d2b4",
+      "census": {
+        "leaves": 121,
+        "maximum_depth": 13,
+        "nodes": 213,
+        "representation": "nested_binary_count_forest",
+        "roots": 29
+      },
+      "job_id": "n28.B0.p48.0977c374dffe",
+      "source_files": 25,
+      "source_manifest_sha256": "a2bf23f64bf19b81196a94cfbea206d8687a26e2caaffab0d43391df605c58b6"
+    },
+    {
+      "candidate_sha256": "779af9d5e7477dcc9f95e0290ae6d544f3279d92c6ba19c5435420417b304f2f",
+      "census": {
+        "leaves": 87,
+        "maximum_depth": 10,
+        "nodes": 145,
+        "representation": "nested_binary_count_forest",
+        "roots": 29
+      },
+      "job_id": "n28.B0.p49.ececc09bc481",
+      "source_files": 25,
+      "source_manifest_sha256": "e8fd6ea893e5c38297af19559862da3606099ccec129b093b91298c7f7b9578c"
+    },
+    {
+      "candidate_sha256": "3ec7c7e461ad6f4303f5cc5141d7f7a536777cf842bbddec9afbdbb11504e9c3",
+      "census": {
+        "leaves": 137,
+        "maximum_depth": 11,
+        "nodes": 245,
+        "representation": "nested_binary_count_forest",
+        "roots": 29
+      },
+      "job_id": "n28.B0.p50.7cf61c7b8b6e",
+      "source_files": 25,
+      "source_manifest_sha256": "36c1717ee961ec59e88fe670d60c7797fc5d8445913cedfc4ad2ad1018e9daa3"
+    },
+    {
+      "candidate_sha256": "bf0fca99055856af24b9616d5af4d215f3c0449042bd3c6d4b32b5d7d92ede68",
+      "census": {
+        "leaves": 106,
+        "maximum_depth": 10,
+        "nodes": 183,
+        "representation": "nested_binary_count_forest",
+        "roots": 29
+      },
+      "job_id": "n28.B0.p51.923ce5dfc38c",
+      "source_files": 25,
+      "source_manifest_sha256": "1d470cac2050f2fad4121195d5614a30f07d32be8c8d7e5312fec2b5daf9c9c1"
+    },
+    {
+      "candidate_sha256": "0cd3e1ebbd4790145beb3382042fcd46ad5f2d227252ed375e80ceb98166865f",
+      "census": {
+        "leaves": 70,
+        "maximum_depth": 8,
+        "nodes": 111,
+        "representation": "nested_binary_count_forest",
+        "roots": 29
+      },
+      "job_id": "n28.B0.p52.c3cb1dee862e",
+      "source_files": 25,
+      "source_manifest_sha256": "3bdbac8c9aef407c2959f4c2e0ac24061019d3cb4d24dfd5fcdc105e77962fbb"
+    },
+    {
+      "candidate_sha256": "a793f41ebd084f5c3a3efa8c00d1db4d6b65b56df4cbeb704b80cc77eecd8958",
+      "census": {
+        "leaves": 656,
+        "maximum_depth": 15,
+        "nodes": 1282,
+        "representation": "nested_binary_count_forest",
+        "roots": 30
+      },
+      "job_id": "n29.B0.p37.b97d3f6a0f6a",
+      "source_files": 25,
+      "source_manifest_sha256": "6deb96118b56a739c3c56977dfaa616a1776b5dd26e6be7497f4bd2a000f6737"
+    },
+    {
+      "candidate_sha256": "6f9b8396a5353969373e9bed24346602cc94e65acbea2793ebc599cc6b18d6a3",
+      "census": {
+        "leaves": 1625,
+        "maximum_depth": 21,
+        "nodes": 3220,
+        "representation": "nested_binary_count_forest",
+        "roots": 30
+      },
+      "job_id": "n29.B0.p38.83ecc8d5c3e0",
+      "source_files": 43,
+      "source_manifest_sha256": "0a9907e7c090d7bd485e94fa385db32e2f442b55cedb5fcc8aa08767cf6f233b"
+    },
+    {
+      "candidate_sha256": "9467f31c8207ad8af02abafe670bbfceb9bb6fed0d0596811441a88c8f22d76b",
+      "census": {
+        "leaves": 2492,
+        "maximum_depth": 21,
+        "nodes": 4954,
+        "representation": "nested_binary_count_forest",
+        "roots": 30
+      },
+      "job_id": "n29.B0.p39.90a979d513e8",
+      "source_files": 43,
+      "source_manifest_sha256": "0bd41c17b7eda2514b0abc849e01d7564148272ac6568434a98306e99c8746f5"
+    },
+    {
+      "candidate_sha256": "3a0e7f675cf628a55d98b99b1dd912b007c473b58e30df2df473caabc76d6404",
+      "census": {
+        "leaves": 2087,
+        "maximum_depth": 19,
+        "nodes": 4144,
+        "representation": "nested_binary_count_forest",
+        "roots": 30
+      },
+      "job_id": "n29.B0.p40.65c2e12e7f90",
+      "source_files": 43,
+      "source_manifest_sha256": "72108492f9edb25719e661d0e8a8b583471cffe7d213cde9f9052fedd413cb0d"
+    },
+    {
+      "candidate_sha256": "cf29722a0bd6b787369b2bf5c716f9e95a04f0fad10920a2cdc0ba7e3602cea9",
+      "census": {
+        "leaves": 2961,
+        "maximum_depth": 23,
+        "nodes": 5892,
+        "representation": "nested_binary_count_forest",
+        "roots": 30
+      },
+      "job_id": "n29.B0.p41.8e60324074bc",
+      "source_files": 43,
+      "source_manifest_sha256": "fb5a0c1087e96ff736f73293b9e75abaae6bcc394a2842eebc43518208803d11"
+    },
+    {
+      "candidate_sha256": "828131ce67c5aa7c4ef3570e1600ae759fddf007f2f2602efbfbfc11948ed90d",
+      "census": {
+        "leaves": 2727,
+        "maximum_depth": 25,
+        "nodes": 5424,
+        "representation": "nested_binary_count_forest",
+        "roots": 30
+      },
+      "job_id": "n29.B0.p42.41198737923c",
+      "source_files": 43,
+      "source_manifest_sha256": "756842c898b2d490febee4053839259177808daff30cfd631bf5e2a9fe202d97"
+    },
+    {
+      "candidate_sha256": "e582fd763b51ea44ad13912a3c2cb073c5b0073d0023bdf2d5d11c54bcec0473",
+      "census": {
+        "leaves": 904,
+        "maximum_depth": 21,
+        "nodes": 1778,
+        "representation": "nested_binary_count_forest",
+        "roots": 30
+      },
+      "job_id": "n29.B0.p43.ad27f47a8435",
+      "source_files": 25,
+      "source_manifest_sha256": "3e1ccbe23fcb0ef0972f616ce5ddf8558e2110d87e9976269a1694bba30d9220"
+    },
+    {
+      "candidate_sha256": "3ce9528fa4d89c99234c057c7b48d7bc19aa404c21cf234801b695ec61aedf56",
+      "census": {
+        "leaves": 704,
+        "maximum_depth": 17,
+        "nodes": 1378,
+        "representation": "nested_binary_count_forest",
+        "roots": 30
+      },
+      "job_id": "n29.B0.p44.2999bfefc419",
+      "source_files": 43,
+      "source_manifest_sha256": "b88b933dd24868bfa23cc219dc29f10b7df7b53664801f7208bd474f3f95594b"
+    },
+    {
+      "candidate_sha256": "07b5318a2ddca65e1e9c04acca39abd223c125ab85ff421d1bfbd8a2710bc3de",
+      "census": {
+        "leaves": 527,
+        "maximum_depth": 19,
+        "nodes": 1024,
+        "representation": "nested_binary_count_forest",
+        "roots": 30
+      },
+      "job_id": "n29.B0.p45.cb8536e3e37e",
+      "source_files": 25,
+      "source_manifest_sha256": "deeb2107da670aeb0c7a04b3ccc7546291c47fcfe4524e547ee6db7d37e0f643"
+    },
+    {
+      "candidate_sha256": "cfb805785429b8fa5640ba0f73f8d52cd42f5629bf046ecaa9893c1897da6743",
+      "census": {
+        "leaves": 285,
+        "maximum_depth": 17,
+        "nodes": 540,
+        "representation": "nested_binary_count_forest",
+        "roots": 30
+      },
+      "job_id": "n29.B0.p46.1ee29e813b50",
+      "source_files": 25,
+      "source_manifest_sha256": "b409b1e942d7fefc8a6bcc6ef85d048b5bf6f0af2ee2fb888af4f0d5d3ccbf4d"
+    },
+    {
+      "candidate_sha256": "32f0bfed93f1651512b674f0049b50437a40b471d9b4ccdeca6ede738d6e874a",
+      "census": {
+        "leaves": 160,
+        "maximum_depth": 12,
+        "nodes": 290,
+        "representation": "nested_binary_count_forest",
+        "roots": 30
+      },
+      "job_id": "n29.B0.p47.9e8a58e064ca",
+      "source_files": 25,
+      "source_manifest_sha256": "3d625365960cae72a64c2390025955d7182aac5700007d05e0f8d01f786fcbd1"
+    },
+    {
+      "candidate_sha256": "d17f9ce91fd25bee88ea9f54f5de66149340509d524c026b39fd54c4f78916c4",
+      "census": {
+        "leaves": 156,
+        "maximum_depth": 13,
+        "nodes": 282,
+        "representation": "nested_binary_count_forest",
+        "roots": 30
+      },
+      "job_id": "n29.B0.p48.e5996d521a2e",
+      "source_files": 25,
+      "source_manifest_sha256": "86b6e2105e1e5cbf40978f2a2a9309f0847996f04a9dcb861c15f3fc1f375807"
+    },
+    {
+      "candidate_sha256": "73269120161caace46d5c483c7b6a8d030ab46e75bf16f5a45aa64ccfcf384b4",
+      "census": {
+        "leaves": 123,
+        "maximum_depth": 13,
+        "nodes": 216,
+        "representation": "nested_binary_count_forest",
+        "roots": 30
+      },
+      "job_id": "n29.B0.p49.28a5a9b00a17",
+      "source_files": 25,
+      "source_manifest_sha256": "7afb0fe17b83fb4c4ed025d09b2b9e74ab84e300b0af923bffd1fa98f4cab4d8"
+    },
+    {
+      "candidate_sha256": "be70c51b36d2d3db62a8ab7d41e0d8f643be46fb9054f101366042ee8c5a13d5",
+      "census": {
+        "leaves": 155,
+        "maximum_depth": 11,
+        "nodes": 280,
+        "representation": "nested_binary_count_forest",
+        "roots": 30
+      },
+      "job_id": "n29.B0.p50.2d7209493060",
+      "source_files": 25,
+      "source_manifest_sha256": "6c8afc8b795532ff7f35f974e52ce311bb6ffbeb48dee7e160933acbc3caf4e1"
+    },
+    {
+      "candidate_sha256": "3dac4a84d8be53d7c0ab3b560646b5745ba4d7a638c3d42afa5878a2d88c9a2a",
+      "census": {
+        "leaves": 81,
+        "maximum_depth": 9,
+        "nodes": 132,
+        "representation": "nested_binary_count_forest",
+        "roots": 30
+      },
+      "job_id": "n29.B0.p51.3c7e4491625e",
+      "source_files": 25,
+      "source_manifest_sha256": "939ec10a46ceb385a7f106d5dbce5a5190dc993248dc83f762e886391842018b"
+    },
+    {
+      "candidate_sha256": "fc067fa606edbefde0b55513629259faf0c8b5ef80ff5c23dbebd0d21e9ad8fe",
+      "census": {
+        "leaves": 46,
+        "maximum_depth": 6,
+        "nodes": 62,
+        "representation": "nested_binary_count_forest",
+        "roots": 30
+      },
+      "job_id": "n29.B0.p52.393d52115bed",
+      "source_files": 25,
+      "source_manifest_sha256": "bce75ddf638015c13d3557d20f7bcd182f9c12c9fd8eac7692fffce7d07277aa"
+    },
+    {
+      "candidate_sha256": "e5980d16aa1a90f3d028ceb6d7b7dafe07a41b88ad9f02db393834dede66b275",
+      "census": {
+        "leaves": 957,
+        "maximum_depth": 20,
+        "nodes": 1883,
+        "representation": "nested_binary_count_forest",
+        "roots": 31
+      },
+      "job_id": "n30.B0.p37.cf3f55e50a02",
+      "source_files": 25,
+      "source_manifest_sha256": "f5c1b8efb710f4bff46a3121b956c07fa37f6873364df1d895ee672800e03073"
+    },
+    {
+      "candidate_sha256": "6fd13a62ab09188fc81d5a2e28651bd7529828b8f5e5899e3cda444e8f969745",
+      "census": {
+        "leaves": 1542,
+        "maximum_depth": 20,
+        "nodes": 3053,
+        "representation": "nested_binary_count_forest",
+        "roots": 31
+      },
+      "job_id": "n30.B0.p38.ab93bdbc4315",
+      "source_files": 43,
+      "source_manifest_sha256": "cc0dbb32eb223cc27ecd15ad69ad43db9e795a6d4446ed89ad42c64b3896f1df"
+    },
+    {
+      "candidate_sha256": "476c0daa0f74de8b41f93cc9c247b95452b1f306496aff5bfb0692fd15659402",
+      "census": {
+        "leaves": 1993,
+        "maximum_depth": 19,
+        "nodes": 3955,
+        "representation": "nested_binary_count_forest",
+        "roots": 31
+      },
+      "job_id": "n30.B0.p39.f7c629d9a38a",
+      "source_files": 43,
+      "source_manifest_sha256": "6e094890625d72fccff70841b16be0832918b46e0610cf778b6baf83de9447bc"
+    },
+    {
+      "candidate_sha256": "837a476f51248cffac623228770c4bf4651d0d9d3dcb839357c7ccd902a9a7bb",
+      "census": {
+        "leaves": 4772,
+        "maximum_depth": 25,
+        "nodes": 9513,
+        "representation": "nested_binary_count_forest",
+        "roots": 31
+      },
+      "job_id": "n30.B0.p40.4d82d01ff9cb",
+      "source_files": 43,
+      "source_manifest_sha256": "45028af2b0435a4e39eb771f03f6a8bbe20663dde51f3e05eed8012d17537d57"
+    },
+    {
+      "candidate_sha256": "32187a132ef14d0c0a7ef0137e1336d3be1c1a22af5907266bc439497217fe25",
+      "census": {
+        "leaves": 3051,
+        "maximum_depth": 25,
+        "nodes": 6071,
+        "representation": "nested_binary_count_forest",
+        "roots": 31
+      },
+      "job_id": "n30.B0.p41.9d20b62513f8",
+      "source_files": 43,
+      "source_manifest_sha256": "2384dd359736983e89828f72516c8107210e31b19eb4bf90c38dcc9fb155d875"
+    },
+    {
+      "candidate_sha256": "c6d75631410860ce63853e5bce0973c864e97c9897947bbbe6c5d1711d51f337",
+      "census": {
+        "leaves": 1598,
+        "maximum_depth": 19,
+        "nodes": 3165,
+        "representation": "nested_binary_count_forest",
+        "roots": 31
+      },
+      "job_id": "n30.B0.p42.67146aad1df0",
+      "source_files": 43,
+      "source_manifest_sha256": "410b86c3fadc1bbcf9af1e6c74266dc300fad2424b44ac3bd217a439a8079430"
+    },
+    {
+      "candidate_sha256": "07891d888d098e48970f123efe0ef33fd30fc73b64f92729fc61c4a1c8498aa7",
+      "census": {
+        "leaves": 1186,
+        "maximum_depth": 21,
+        "nodes": 2341,
+        "representation": "nested_binary_count_forest",
+        "roots": 31
+      },
+      "job_id": "n30.B0.p43.a4985c34845b",
+      "source_files": 25,
+      "source_manifest_sha256": "ef1751155b320ef71d4b83a9a77f8508602f7e9ff27b9bb3b56e5bfde5f6b50e"
+    },
+    {
+      "candidate_sha256": "65dd90b015cb3df47e2961922277b21ce1c295b917c18f7b73c7ccf1996005b9",
+      "census": {
+        "leaves": 1051,
+        "maximum_depth": 22,
+        "nodes": 2071,
+        "representation": "nested_binary_count_forest",
+        "roots": 31
+      },
+      "job_id": "n30.B0.p44.13a14552ad3d",
+      "source_files": 43,
+      "source_manifest_sha256": "4dc9131f928a85b6d9bb118f22e79413ce5706e96dae6f76fad58f6ad4fc3ce1"
+    },
+    {
+      "candidate_sha256": "a726b1858decb03f16e0414b01012598e09130a3348cf9cb3ada7cc830598357",
+      "census": {
+        "leaves": 375,
+        "maximum_depth": 18,
+        "nodes": 719,
+        "representation": "nested_binary_count_forest",
+        "roots": 31
+      },
+      "job_id": "n30.B0.p45.b33dc12085d4",
+      "source_files": 25,
+      "source_manifest_sha256": "0090002ac17252cb463cb21f680173d7cb2881e51ed41bf16bf629c3d8a5cda0"
+    },
+    {
+      "candidate_sha256": "012a0a576f81c860641369b85d5d64f5e06703a1b8b4e29af2288674d5198e6c",
+      "census": {
+        "leaves": 266,
+        "maximum_depth": 16,
+        "nodes": 501,
+        "representation": "nested_binary_count_forest",
+        "roots": 31
+      },
+      "job_id": "n30.B0.p46.9ce6651d4fa2",
+      "source_files": 25,
+      "source_manifest_sha256": "38e4efad09a4ac3f339fe5c9681368d5b8561916d565e17af8eb3f38f97f9a27"
+    },
+    {
+      "candidate_sha256": "44eafdf810436618b98da561452be404e0c7ba34816dd890805f4e9eee0e5827",
+      "census": {
+        "leaves": 243,
+        "maximum_depth": 15,
+        "nodes": 455,
+        "representation": "nested_binary_count_forest",
+        "roots": 31
+      },
+      "job_id": "n30.B0.p47.e8ea8a4b3909",
+      "source_files": 25,
+      "source_manifest_sha256": "2587922da1339492f5bb282b0999750d910e3e7c601e2664eead8ce2f168f28e"
+    },
+    {
+      "candidate_sha256": "30acfeb9d205fd412a86250f0a3d605cf40d7f66f601c33fe917df11cfccd561",
+      "census": {
+        "leaves": 127,
+        "maximum_depth": 14,
+        "nodes": 223,
+        "representation": "nested_binary_count_forest",
+        "roots": 31
+      },
+      "job_id": "n30.B0.p48.3a8f7d4ab81c",
+      "source_files": 25,
+      "source_manifest_sha256": "bf1e82497ffe4ef76e3bdca77bb05cb11d999ca6df11b6559ab67498a5103144"
+    },
+    {
+      "candidate_sha256": "74933b1f5f6288f60a1f1ed9403c6b16d0ef5de90248c533a4d37431b3fc5d9a",
+      "census": {
+        "leaves": 89,
+        "maximum_depth": 10,
+        "nodes": 147,
+        "representation": "nested_binary_count_forest",
+        "roots": 31
+      },
+      "job_id": "n30.B0.p49.c95f4575de70",
+      "source_files": 25,
+      "source_manifest_sha256": "974db97676b67bfd3ce1ef933dfa829e316a2a9ff2ee76ca7e607cd45a0cc8c9"
+    },
+    {
+      "candidate_sha256": "b7395bf8e14af69a10f379497a03c64329cba879ce3aee218ba08d5e512d9e9d",
+      "census": {
+        "leaves": 135,
+        "maximum_depth": 11,
+        "nodes": 239,
+        "representation": "nested_binary_count_forest",
+        "roots": 31
+      },
+      "job_id": "n30.B0.p50.0f0108473b5c",
+      "source_files": 25,
+      "source_manifest_sha256": "4098511f9baf1a4b4e33dee04156d01ee66a49c510a5d1f8de3e760787ae4202"
+    },
+    {
+      "candidate_sha256": "5434793ea6839c6467ebcdf31902a2905d078082657c6cbd9b219b0078c2ca67",
+      "census": {
+        "leaves": 99,
+        "maximum_depth": 10,
+        "nodes": 167,
+        "representation": "nested_binary_count_forest",
+        "roots": 31
+      },
+      "job_id": "n30.B0.p51.ace3f5b3ae88",
+      "source_files": 25,
+      "source_manifest_sha256": "80c6f85ea517bf5593b0fbe440d63195e4f38b6b3fbc840a353cf51281adab68"
+    }
+  ],
+  "original_catalog_sha256": "67a647a00111fda930391bda90345ece419bbf54c44a70c0390969ad0fab3d6d",
+  "parent_acquisitions_verified": false,
+  "schema": "FINITE2630_ACTUAL_SOURCE_ONLY_PREPARATION_V1",
+  "selection_sha256": "aa74851fd2b2030274aada84cf3177cb3c46bce44dfafd63909e0ae524e0e98c",
+  "source_adapter_sha256": "5c97be17fa60703254385c4ea4971ad1349c9e45b35fe8ceb85f3d57ba57f28e",
+  "source_bytes": 151569026,
+  "source_files": 2497
+}

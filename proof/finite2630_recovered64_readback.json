@@ -1,0 +1,57 @@
+{
+  "all_index_conclusion_verified": false,
+  "arithmetic_recomputed_locally": false,
+  "implementation": {
+    "colab_batch.py": "136bc2bb9b25cb8cd36118041bf593821f3cbdea5debee82b27ccb7626c0d1e6",
+    "finite1039_count_evidence.py": "7dae50a7d2756faa30d229ae02fb15d678db4cbaa837be43518c10af5af85cfa",
+    "finite1039_sources.py": "6a34be3e362d2a9cfe34b52bf1c0f1872cd4fe45afa8cf2acf82a232b4da1c95",
+    "finite2630_counts.py": "ed42e5f0e16b090990d5e4ad0e299f4c1c305f4bed26659eeaafaa6eca05a27e",
+    "finite2630_evidence.py": "8acacfa4e181e55ccd411ebadc8d204e7b7f8a288653670808f7c04139b2b779",
+    "finite2630_sources.py": "5c97be17fa60703254385c4ea4971ad1349c9e45b35fe8ceb85f3d57ba57f28e",
+    "linux_supervisor.py": "61e71dd4a9653de2bbbee8c54928a1f5c5bffd0bf083dd324851716c3a1eaea2",
+    "n27_p41_recovery.py": "fe0aeeed15e9d432144f2ced96c3cf5130650fa0fa789ce27c1a4394ec983cfe",
+    "n27_p41_recovery_evidence.py": "7a624441ab9bc3578e8582bd6bc9715ec99253e6fa6771ee6d9309797de0e8a8",
+    "n27_p41_recovery_sources.py": "ddfb9869826c59bf9e0fec213462e54f39de8da3a2c4796587c20e20f11b0183",
+    "n5_remaining_bridge.py": "f0459a0570ca9a4fc11e507f25474e67bf5e3e958a60513bb7be364d707a069a",
+    "n5_remaining_sources.py": "17f8d9b3bcdce510574901be83684a630d54cc8d2f6251856b7737bbd85aaaab",
+    "original_catalog_sha256": "67a647a00111fda930391bda90345ece419bbf54c44a70c0390969ad0fab3d6d",
+    "recovery_plan_sha256": "94d5a0048c619a86666c94fc7ba93d7cb5bfee602c3e505e663d5ee2583fc814",
+    "selection_sha256": "aa74851fd2b2030274aada84cf3177cb3c46bce44dfafd63909e0ae524e0e98c"
+  },
+  "parent_acquisitions_verified": false,
+  "schema": "FINITE2630_ACTUAL_RECOVERED64_METADATA_READBACK_V1",
+  "selection_sha256": "aa74851fd2b2030274aada84cf3177cb3c46bce44dfafd63909e0ae524e0e98c",
+  "validated": {
+    "all_index_conclusion_verified": false,
+    "candidate_sha256": "61e45510ffabb2d6a06094fae8a26b46a773d2d1c88db5236ed8b2e167c71af4",
+    "census": {
+      "closed_statuses": {
+        "EMPTY_ACQUIRED_THETA_VARIANCE": 10,
+        "EMPTY_PHASE": 30,
+        "EMPTY_PHASE_RESOURCE": 4,
+        "EMPTY_SHARP_BOX": 129,
+        "EMPTY_SHARP_GAP": 178,
+        "EMPTY_SUPPORT_GAP_VARIANCE": 15,
+        "EMPTY_SUPPORT_VARIANCE": 11,
+        "EMPTY_VARIANCE_IDENTITY": 230,
+        "PASS_TARGET": 2562
+      },
+      "leaves": 3169,
+      "maximum_depth": 25,
+      "maximum_score": "409732147599/1000000000000",
+      "nodes": 6310,
+      "roots": 28,
+      "target": "76824784444199314310731654405729617052063596250011448874609/187500000000000000000000000000000000000000000000000000000000"
+    },
+    "checker_sha256": "334aaa08ea6744067f2234b5fa917f54d5432874e69d628a0dab9f6c55f7d173",
+    "completed_sha256": "3dd5875c0b331d5e6075d2152696337dfce6f6ce4536c1e8db9e0f16569b03b5",
+    "contract_sha256": "f7341272d102c4660fd037b96d64acfefdda7de04df5d068d81c67fd8a323cc6",
+    "fresh_acceptance_sha256": "56730a3ae24e57260702d3061ad6a9dfc3f699d619bf7d15ab2f516fca15fc9d",
+    "historical_acceptance_sha256": "a33de9d37f36223834a9d10cdc21767dc4e8dafacf6cfe7b1a497a13d23dfb10",
+    "parent_acquisitions_verified": false,
+    "same_candidate_and_contract_verified": true,
+    "schema": "VERIFIED_IDENTICAL_N27_P41_CANDIDATE_EDGE_V1",
+    "source_plan_sha256": "94d5a0048c619a86666c94fc7ba93d7cb5bfee602c3e505e663d5ee2583fc814",
+    "source_zip_sha256": "4f0e652d3959b65fac6ada396f8eee95503daf895c676d9ca01a14d00369779e"
+  }
+}
