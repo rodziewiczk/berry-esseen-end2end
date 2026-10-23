@@ -440,3 +440,73 @@ This completes the supplied-log acceptance observations for01--05. Actual
 export/guard/capture/source readback and collector24's parent/interface joins
 remain separate. The report preserves conditional-count-only scope and false
 parent/full-theorem flags. No06/07 acceptance is inferred.
+
+## Notebook06 accepted;07 entered complete native replay
+
+The new06 log has SHA256
+`853caa6649c7bfc0a255893502f653749e1e59ba39e9ab06d4c8a9d11e9b2bc8`.
+The2819-leaf/5612-node candidate is followed by full26-root native replay,
+`regional_count_arithmetic_accepted` at19:44:20UTC, and a saved bundle at
+19:45:39UTC: `b3-p31-v14-new/20261023T173705Z-95cdbaee/20261023T173705Z-95cdbaee-results.zip`.
+The scope remains `NEW_RESOURCE_LIMIT_EPOCH_CONDITIONAL_COUNT_ONLY`, with
+parent acquisitions and all-index conclusion explicitly false. This completes
+supplied-log acceptance observations for01--06; export readback remains separate.
+
+The later07 log has SHA256
+`a951557c67b9a8e4bab230d7b8f7326ab2d57f3a8079f8034e73b64dd04e9912`.
+Discovery completes3134leaves/6242nodes/pending0 at19:47:39UTC, immediately
+followed by native replay of all26roots. Its last observation is161.28seconds
+into `trusted_native`, still `proof_accepted=false`. This is an ongoing full
+replay, not final acceptance or an error. No07 result bundle is inferred.
+
+## Notebook22: stronger24 B5 completed scoped BASIC log
+
+The supplied log has SHA256
+`2a0e46bc3a43329e829895bc390f421b3db7472d28641ef439964ec2ca43690c`.
+All26stages complete; the final count join reports2444leaves, maximum score
+`52778505603/125000000000` and a positive exact comparison margin. The final
+state is `complete_conditional_arithmetic_basic`, with native acceptance false.
+The reported bundle is `stronger24-b5/20261023T181807Z-d1c20667/20261023T181807Z-d1c20667-results.zip`,
+saved at19:47:00UTC. All14--22 completion logs are now present. The actual
+nine-export conditional evidence join by collector23 remains separate.
+
+## Notebook36: actual completed B0 export and17interfaces read back
+
+The supplied log has SHA256
+`72bbd3dc587a2802c01629877472f67b54ccbd75bce21135dd27f4d9d10ae5bf`.
+Both actions complete, followed by the bundle at19:43:57UTC, with state
+`conditional_parent_acquisition_and_interfaces_complete`. The run begins
+at19:16:07UTC; its observed full elapsed time is about28minutes. This is
+an observation of this run, not a general Colab timing guarantee.
+
+The actual downloaded `20261023T191607Z-38dfc33f-results.zip` is3639389bytes,
+SHA256 `bbc929c336a1084c75d09433333d0eb93b640ddb9176913d53eaf2d84df15ce3`,
+matching its actual private Drive sidecar. All189task members were transported
+unchanged into a new bounded extraction and checked by the full current
+`validate_prefix(...,"b0",2)` metadata validator. The root-level uppercase
+and lowercase progress logs were kept in the original ZIP rather than
+collapsed on Windows; neither is a task evidence input.
+
+The actual INITIAL and global-resource receipts, source epoch, original
+commands/working directories, preceding ledger hashes, captured successful
+stdout/empty stderr and BASIC supervisor records pass. The exact resource
+interface join reconstructs all17edges, proves the literal complete survivor
+probability partition, and equals the saved `RESOURCE_INTERFACES.json`.
+No mathematical kernel was imported or executed during this local readback.
+This establishes preserved conditional computation evidence and exact
+interfaces, not independent arithmetic repetition, count acceptance,
+stronger24 acquisition or an unconditional all-law n25 result.
+
+## Notebook39: lower-B5 global parent pair completed in supplied log
+
+The supplied log has SHA256
+`b073c5f3ca7b9091b7701d51ecf295f535e1a7693689d43181f63519f29848ab`.
+The complete INITIAL/resource pair finishes2/2actions. Its resource terminal
+marker is `PASS_FRESH_EXACT_SHARP25_B5_GLOBAL_RESOURCES`, with reported
+resource-stage time1518.1538789272308seconds. The final state is
+`conditional_global_parent_arithmetic_complete`; the bundle is saved at
+19:55:14UTC as `n25-global-parents-b5/runs/20261023T191911Z-1f5e4d3b/20261023T191911Z-1f5e4d3b-results.zip`.
+
+This is supplied-log evidence. Actual final export/sidecar/source/capture
+readback and the separate local, mixed and count joins are still required.
+No full n25 or all-index conclusion is inferred from the two global parents.

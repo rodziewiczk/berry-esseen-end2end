@@ -194,3 +194,21 @@ arguments do not automatically cover the changed older arithmetic.
 The repaired collector23 and the new packages preserve14--22 and all running
 count tasks' original computation identities. The global theorem remains
 unverified.
+
+The subsequent [local-join review](code_uniform_local_join_audit.md) traces
+41original manifest-matched members: conditional signed gamma, joint signed
+variance prices, the84-to83row map, LEFT270/strip ordering and the full closed
+phase/noise rectangle union. Its selected gamma-zero license uses295exact
+declared-row sign comparisons plus the actual paired reserve; p<1/2 alone
+would not suffice. Its strict-budget trace explicitly licenses zero-cap
+exclusion. This remains a conditional source argument, not acquired tables.
+
+The [confinement review](code_uniform_confinement_audit.md) then reads the
+distinct original and central/left Sperner proofs and kernels, with18matched
+source members. It derives strict-gap antichain concentration including
+atoms, the correct n-2 centered deletion, signed contact intervals and one
+shared resource simplex/tangent budget. The original concentration route
+needs the separately acquired deleted-index barrier; the current witness's
+own score cap does not replace it. Finite Stirling is an explicit named
+analytical input. Later LOW/TINY/MID comparisons, physical predecessors,
+fresh arithmetic, the Bernoulli boundary and global joins remain separate.

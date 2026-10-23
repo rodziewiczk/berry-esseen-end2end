@@ -1,0 +1,880 @@
+{
+  "schema": "UNIFORM_LATER_LOCAL_JOIN_SOURCE_HAND_ALGEBRA_AUDIT_V1",
+  "review_kind": "fallible_internal_AI_source_and_hand_algebra_review",
+  "external_independent_verification": false,
+  "formal_verification": false,
+  "archived_math_modules_imported_or_executed": false,
+  "fresh_arithmetic_acceptance": false,
+  "all_index_conclusion_verified": false,
+  "archive": {
+    "filename": "BE_cutoff49_20260930.zip",
+    "bytes": 16660566,
+    "sha256": "ecdb9acca0db29efc9fe2bf496c0bcc61b4881aecdcbc91a4eb6ad49b920c72e"
+  },
+  "original_manifest": {
+    "member": "BE_cutoff49_20260930/MANIFEST.json",
+    "sha256": "58a770705c6e0bc500813ed37299753a16f6245ebea6ade238ad98078d7b4e26",
+    "file_count": 1400
+  },
+  "selector": {
+    "member": "BE_cutoff49_20260930/retained_jobs.json",
+    "sha256": "d92f0017fadc5c2f9601de599f2e1f97eb9c1042b02a17a695065c040f09d7ad",
+    "related_entries": [
+      {
+        "name": "certificate_central_strip47",
+        "cwd": "work/below50_20260929/root",
+        "argv": [
+          "accept_panel_exterior47.py"
+        ],
+        "source_run": "runs/below50_20260929/root_panel_exterior_accept01"
+      },
+      {
+        "name": "certificate_sperner_feedback47",
+        "cwd": "work/below50_20260929/entry",
+        "argv": [
+          "accept_sperner_feedback47.py"
+        ],
+        "source_run": "runs/below50_20260929/entry/sperner_feedback47_accept01"
+      },
+      {
+        "name": "certificate_signed_resource47",
+        "cwd": "work/below50_20260929/entry",
+        "argv": [
+          "accept_signed_resource47.py"
+        ],
+        "source_run": "runs/below50_20260929/entry/signed_resource47_accept01"
+      },
+      {
+        "name": "certificate_left_radius270",
+        "cwd": "work/below50_20260929/entry",
+        "argv": [
+          "accept_left_radius270_47.py"
+        ],
+        "source_run": "runs/below50_20260929/entry/left_radius270_47_accept01"
+      },
+      {
+        "name": "certificate_left270_input47",
+        "cwd": "work/below50_20260929/entry",
+        "argv": [
+          "accept_left270_input47.py"
+        ],
+        "source_run": "runs/below50_20260929/entry/left270_input47_accept01"
+      },
+      {
+        "name": "certificate_left_strip47",
+        "cwd": "work/below50_20260929/root",
+        "argv": [
+          "accept_left_strip47.py"
+        ],
+        "source_run": "runs/below50_20260929/root_left_strip47_accept01"
+      },
+      {
+        "name": "certificate_central_profile47",
+        "cwd": "work/below50_20260929/local",
+        "argv": [
+          "accept_sperner47_profile.py"
+        ],
+        "source_run": "runs/below50_20260929/local/sperner47_profile_accept02"
+      },
+      {
+        "name": "certificate_left_profile47",
+        "cwd": "work/below50_20260929/local",
+        "argv": [
+          "accept_left_sperner47_profile.py"
+        ],
+        "source_run": "runs/below50_20260929/local/left_sperner47_profile_accept01"
+      },
+      {
+        "name": "coverage_local47",
+        "cwd": "work/below50_20260929/local",
+        "argv": [
+          "final_review/accept_local47_coverage.py"
+        ],
+        "source_run": "runs/below50_20260929/local/local47_coverage_accept01"
+      },
+      {
+        "name": "control_signed_resource_actual",
+        "cwd": "work/below50_20260929/structural",
+        "argv": [
+          "check_signed_resource_actual.py"
+        ],
+        "source_run": "runs/below50_20260929/structural/signed_resource_actual01"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/coupled_panel_core.py",
+      "bytes": 4727,
+      "sha256": "b1f02ffce4aa40f443792f04cd0109568d2ff74090b2ef4fa456c8766ad0db8a",
+      "lines": 78,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 78,
+          "scope": "Complete installed-helper/caller route and ordered weighted/signed exports"
+        }
+      ],
+      "scope": "source/proof as ranged"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/sperner_panel_core.py",
+      "bytes": 4651,
+      "sha256": "c1f6e77145ab1d7772e6c8fbb254655aa58e7e15941455e568955e8ae57620f7",
+      "lines": 76,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 76,
+          "scope": "Complete conditional gamma installation and unchanged finite local driver"
+        }
+      ],
+      "scope": "source/proof as ranged"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/paired_conditional_gamma47.py",
+      "bytes": 2289,
+      "sha256": "2652ed1bfe72da2c802aceb06d280cb7f22abc70e8a608e866c53c9d30888e74",
+      "lines": 44,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 44,
+          "scope": "Complete signed conditional gamma improvement and rechecked paired domains"
+        }
+      ],
+      "scope": "source/proof as ranged"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/signed_variance_resource.py",
+      "bytes": 1785,
+      "sha256": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8",
+      "lines": 42,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 42,
+          "scope": "Complete sign-specific moment/outer pricing wrapper and zero-theta branch"
+        }
+      ],
+      "scope": "source/proof as ranged"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/conditional_gamma47_proof.tex",
+      "bytes": 1877,
+      "sha256": "ed823e4dc1d6c6ca170d81a286791d6aefade88ea254fb9aafa289de64ce2757",
+      "lines": 43,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 43,
+          "scope": "Complete conditional cubic identity and endpoint argument"
+        }
+      ],
+      "scope": "source/proof as ranged"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/signed_variance_resource47_proof.tex",
+      "bytes": 3558,
+      "sha256": "0e0c0f65ddc9800ec9ecc6d8c00bf4084177352b21ecc3a2e3b62b8476e52b6a",
+      "lines": 90,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 90,
+          "scope": "Complete chord/simplex and signed outer resource derivation"
+        }
+      ],
+      "scope": "source/proof as ranged"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/accept_sperner_feedback47.py",
+      "bytes": 6377,
+      "sha256": "e6e95ff4a329f4451967eb0d4f39d3f0d0884b8ebcc2177a6a7b28940eda3a3a",
+      "lines": 115,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 115,
+          "scope": "Complete acyclic weak-input/confinement/first-feedback mapping and output directions"
+        }
+      ],
+      "scope": "source/proof as ranged"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/accept_signed_resource47.py",
+      "bytes": 5333,
+      "sha256": "ac5e945593df4ab2685d23975870d19d0c482d0f00375c714c19bb3a16cc3593",
+      "lines": 78,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 78,
+          "scope": "Complete84incoming/83outgoing same-p/radius mapping and source/field checks"
+        }
+      ],
+      "scope": "source/proof as ranged"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/accept_left_radius270_47.py",
+      "bytes": 1754,
+      "sha256": "4c1b9cf09f1f13182f54fabae3cea9b1121c4c90a5dbd4f2c106e6697577a7ba",
+      "lines": 30,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 30,
+          "scope": "Complete fixed heat support premises/caps, restored parameter hook and scope"
+        }
+      ],
+      "scope": "source/proof as ranged"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/accept_left270_input47.py",
+      "bytes": 4478,
+      "sha256": "53c57e174c6881bd7c02664f17b77f06590b921efb77ccbed3b63113e8ead849",
+      "lines": 63,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 63,
+          "scope": "Complete38-row moment-support/parent mapping and resource directions"
+        }
+      ],
+      "scope": "source/proof as ranged"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/final_review/check_local47_coverage.py",
+      "bytes": 10272,
+      "sha256": "4e95ff6f5a14539edaf7d766eca13a70fb27db81d8e70d2d083d1fa25e8f3153",
+      "lines": 129,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 129,
+          "scope": "Complete exact rectangle cover, amplitude license, componentwise scalar bridge and conditional boundary"
+        }
+      ],
+      "scope": "source/proof as ranged"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/final_review/accept_local47_coverage.py",
+      "bytes": 908,
+      "sha256": "c12dcbeb47349266a178a465d8e6e6b6446d31086fcd3ce5c665c9176a73f996",
+      "lines": 10,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 10,
+          "scope": "Frozen exact coverage-object comparison wrapper only"
+        }
+      ],
+      "scope": "source/proof as ranged"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/accept_sperner47_profile.py",
+      "bytes": 5052,
+      "sha256": "f57b691d5237b30b996440e83e4e639baded70767a7d9754868e3f2ce18a61dc",
+      "lines": 62,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 62,
+          "scope": "Complete fixed profile scope/grid/census/source binding, not numeric gate evaluation"
+        }
+      ],
+      "scope": "source/proof as ranged"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/accept_left_sperner47_profile.py",
+      "bytes": 5088,
+      "sha256": "3438310ca3afff16c1bd30d5e470c050beee8f54993194e611a08fcf88ab1134",
+      "lines": 62,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 62,
+          "scope": "Complete left profile counterpart"
+        }
+      ],
+      "scope": "source/proof as ranged"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/confinement47_contract.py",
+      "bytes": 1908,
+      "sha256": "68977fb0cb98507f39ab1d55122efcecec5ad8d65c5c2e4f47cf260e66f813c7",
+      "lines": 34,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 34,
+          "scope": "Weak central acquired interface and both signed budget-quadratic mapping"
+        }
+      ],
+      "scope": "source/proof as ranged"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/sperner47_contract.py",
+      "bytes": 2225,
+      "sha256": "f815e4d0b0124709f4f5922726cd20ef224d115dbd6251de6a633c955c60b8a2",
+      "lines": 35,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 35,
+          "scope": "Weak central input scope/base amplitudes and signed configs"
+        }
+      ],
+      "scope": "source/proof as ranged"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/left_sperner47_contract.py",
+      "bytes": 2175,
+      "sha256": "4444fbd3c361ca76f21fe72f67059a9fbe44a045c45dc3b72d64b4c2813bf19e",
+      "lines": 35,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 35,
+          "scope": "LEFT270 input scope/base amplitudes and signed configs"
+        }
+      ],
+      "scope": "source/proof as ranged"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/sperner47_proof.tex",
+      "bytes": 17666,
+      "sha256": "517ed367bc961164cffccedb59d09f6cf5e3a339d387fb48bf6aa369dc521cb0",
+      "lines": 403,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 109,
+          "scope": "Statement and actual strip/contact/resource premises only; full antichain/deletion proof not reviewed in this unit"
+        }
+      ],
+      "scope": "source/proof as ranged"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/left_sperner47_proof.tex",
+      "bytes": 17640,
+      "sha256": "668b87ac145a471e65c19f78e305cb35c93e1b4d8eef5ba7cb27c02d04d4e235",
+      "lines": 403,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 106,
+          "scope": "Left statement and premises only; full confinement proof not reviewed in this unit"
+        }
+      ],
+      "scope": "source/proof as ranged"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/confinement47_proof.tex",
+      "bytes": 14843,
+      "sha256": "7bb6842aa7edd0c40bfa9740e5117810ec16d5d95bc2fa275ee344b444153839",
+      "lines": 357,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 109,
+          "scope": "Original weak-input strip/contact/resource statement; not full proof read"
+        }
+      ],
+      "scope": "source/proof as ranged"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/root/accept_panel_exterior47.py",
+      "bytes": 3516,
+      "sha256": "a220d93f845243d5e24c8bdbb7495f4293efb7b40527fed7898f59cef6bc186a",
+      "lines": 75,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 75,
+          "scope": "Complete named central strip hypothesis/cell/conditional scope driver"
+        }
+      ],
+      "scope": "source/proof as ranged"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/root/accept_left_strip47.py",
+      "bytes": 3632,
+      "sha256": "ddb8b52266901287c1e3ebbec90d1f2b3d1d9131c84976a04ccaa9602ea50a9a",
+      "lines": 68,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 68,
+          "scope": "Complete LEFT270 strip parent and signed domains/closed exterior mapping"
+        }
+      ],
+      "scope": "source/proof as ranged"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/root/panel_exterior.py",
+      "bytes": 4647,
+      "sha256": "4b2393ee11117a241eb035f2aa8d93b64128c79ab297305ccdc2677fa36b6092",
+      "lines": 119,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 119,
+          "scope": "Full fixed support_cell and from_hypotheses parameter directions; contact polynomial derivation remains separate"
+        }
+      ],
+      "scope": "source/proof as ranged"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/root/low47_contract.py",
+      "bytes": 2329,
+      "sha256": "3d7f378a975a9b46c54d1a32e90f80bf44ca8a2fb50a4fbe2c7195927fe0beb5",
+      "lines": 43,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 43,
+          "scope": "Complete central noise/phase/amplitude schedules and acquired table binding"
+        }
+      ],
+      "scope": "source/proof as ranged"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/root/phase_left_low47_contract.py",
+      "bytes": 2879,
+      "sha256": "6b4fe4e00eae85728c9dfe6d73689f314aa3fb67dba74884acb763f9e5541cf4",
+      "lines": 53,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 53,
+          "scope": "Complete left noise/phase/amplitude schedules and global normalized rectangle premises"
+        }
+      ],
+      "scope": "source/proof as ranged"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/root/positive_left_low47_contract.py",
+      "bytes": 2617,
+      "sha256": "a5a63ec48b0742f9ea910d8cc5be1e69575ff302035d9f671628b078d958770c",
+      "lines": 50,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 50,
+          "scope": "Complete extra-positive low domain and source binding"
+        }
+      ],
+      "scope": "source/proof as ranged"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/tiny47wide_normalization.py",
+      "bytes": 4221,
+      "sha256": "f1e2606359e321d17db11c7240467a597f00094d1747d40ed4f69ceae18d4b71",
+      "lines": 56,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 9,
+          "scope": "Literal wide TINY scope/config only; normalization kernels not evaluated"
+        }
+      ],
+      "scope": "source/proof as ranged"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/mid47a_kernel.py",
+      "bytes": 3646,
+      "sha256": "b2e514b3f9d7c3ac37cd04e670671d50d614df93e01e907c6aad04af91a9b1c4",
+      "lines": 63,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 10,
+          "scope": "Literal central MID regions only"
+        },
+        {
+          "start": 35,
+          "end": 59,
+          "scope": "Read phase/noise context selection, not a full MID algebra review"
+        }
+      ],
+      "scope": "source/proof as ranged"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/left_mid47b_kernel.py",
+      "bytes": 5505,
+      "sha256": "6decca42b8c90180dfc04759a57a8dc56217a6979086ed0db8669d7fffc96c40",
+      "lines": 77,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 14,
+          "scope": "Literal left MID regions"
+        },
+        {
+          "start": 40,
+          "end": 52,
+          "scope": "Complete left MID context domain/sign selection only"
+        }
+      ],
+      "scope": "source/proof as ranged"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/signed_resource47_table.json",
+      "bytes": 105229,
+      "sha256": "8ede412f88e5b0758dadf2590ca0f48f24b579cac22db6e4701cb6de532e6c39",
+      "lines": 4339,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [],
+      "scope": "historical JSON source/declared-hypothesis/census metadata only; no math gates evaluated"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/sperner_feedback47_table.json",
+      "bytes": 55373,
+      "sha256": "4a1ea8a439e85e9f481bb6c6eb7a197ec4d35e53ceecf0ec92c3d4c96b9f618a",
+      "lines": 2312,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [],
+      "scope": "historical JSON source/declared-hypothesis/census metadata only; no math gates evaluated"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/left270_input47_table.json",
+      "bytes": 44521,
+      "sha256": "4b7bb259e469ee57ca6a61d89fd0b3385443508129138899fe597fd82dc9521a",
+      "lines": 1878,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [],
+      "scope": "historical JSON source/declared-hypothesis/census metadata only; no math gates evaluated"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/left270_input47_table.json",
+      "bytes": 44521,
+      "sha256": "4b7bb259e469ee57ca6a61d89fd0b3385443508129138899fe597fd82dc9521a",
+      "lines": 1878,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [],
+      "scope": "historical JSON source/declared-hypothesis/census metadata only; no math gates evaluated"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/conditional_input47.json",
+      "bytes": 50654,
+      "sha256": "b9d2aa15ad96181f5a8eb846e76ae296d2c2c8ed1a5975c6f389c2f7d14ff2b7",
+      "lines": 2272,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [],
+      "scope": "historical JSON source/declared-hypothesis/census metadata only; no math gates evaluated"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/confined_feedback47_table.json",
+      "bytes": 55316,
+      "sha256": "360e13d125b5fb9cac6e7ee6ae0599dd796d19f8ac123794967c977c2bf4482c",
+      "lines": 2311,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [],
+      "scope": "historical JSON source/declared-hypothesis/census metadata only; no math gates evaluated"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/left_input47_table.json",
+      "bytes": 46849,
+      "sha256": "2270ab68dd18e13afb7382e046589346e4cab26721a4e48be77b66ec22aa4b9a",
+      "lines": 1966,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [],
+      "scope": "historical JSON source/declared-hypothesis/census metadata only; no math gates evaluated"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/root/panel_exterior47_hypotheses.json",
+      "bytes": 9667,
+      "sha256": "3b29577be1dca2fa39161fea524740850e51c40b01a1160879ca9715f10e8d4e",
+      "lines": 478,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [],
+      "scope": "historical JSON source/declared-hypothesis/census metadata only; no math gates evaluated"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/final_review/LOCAL47_COVERAGE.json",
+      "bytes": 21030,
+      "sha256": "50e865272ce953bb14e1207644874fc03fafc5dcb70b00e3d3069cb88efe76be",
+      "lines": 979,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [],
+      "scope": "historical JSON source/declared-hypothesis/census metadata only; no math gates evaluated"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/kernel.py",
+      "bytes": 19042,
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+      "lines": 345,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 16,
+          "end": 44,
+          "scope": "Strict pi/source constants"
+        },
+        {
+          "start": 259,
+          "end": 273,
+          "scope": "General16/25Fourier envelope strictness"
+        }
+      ],
+      "scope": "Additional strict-budget provenance inspection; full mathematical functions reviewed in preceding INITIAL/geometry/Fourier units"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/contracted_kernel.py",
+      "bytes": 19197,
+      "sha256": "0367aae733dfe2d6467188d941d6fc8ccd7bb6f4bf3aa4c98dca3c4781534d22",
+      "lines": 347,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 18,
+          "end": 47,
+          "scope": "Strict pi/source constants"
+        },
+        {
+          "start": 313,
+          "end": 324,
+          "scope": "Paired212/333Fourier envelope strictness"
+        }
+      ],
+      "scope": "Additional strict-budget provenance inspection; full mathematical functions reviewed in preceding INITIAL/geometry/Fourier units"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/high_window_core.py",
+      "bytes": 1966,
+      "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+      "lines": 40,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 9,
+          "end": 40,
+          "scope": "Six strictly positiveHIGHboundingpieces and finite min"
+        }
+      ],
+      "scope": "Additional strict-budget provenance inspection; full mathematical functions reviewed in preceding INITIAL/geometry/Fourier units"
+    }
+  ],
+  "manuscript": {
+    "filename": "berry_esseen_manuscript.tex",
+    "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+    "ranges": [
+      [
+        2431,
+        2674
+      ],
+      [
+        2735,
+        2743
+      ],
+      [
+        3942,
+        3955
+      ],
+      [
+        1596,
+        1605
+      ],
+      [
+        1670,
+        1675
+      ],
+      [
+        2710,
+        2726
+      ]
+    ]
+  },
+  "metadata_checks_only": {
+    "central_named_strip_input_comparisons": 315,
+    "central_all_satisfied": true,
+    "left270_support_moment_rows": 38,
+    "left_all_satisfied": true,
+    "entry_local_left270_copy_identical": true,
+    "signed83_nonnegative_beta_lower": true,
+    "exact_profile_threshold_ceiling_equalities": {
+      "local/conditional_input47.json": [],
+      "entry/left270_input47_table.json": [],
+      "entry/sperner_feedback47_table.json": []
+    },
+    "scope": "Only declared input/table domination, file identity and literal census; not any acquired theorem or kernel bound",
+    "signed_gamma_zero_license": {
+      "rule": "SL^2*rhoB(p_upper)^2>(3+D_row)^2",
+      "total_row_comparisons": 295,
+      "instances": [
+        {
+          "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/conditional_input47.json",
+          "rows": 45,
+          "minimum_squared_margin": "6628890901781369817602449/9682968750000000000000000",
+          "minimum_row": 36,
+          "all_strictly_positive": true
+        },
+        {
+          "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/confined_feedback47_table.json",
+          "rows": 45,
+          "minimum_squared_margin": "6807220933860882493469409/9696718750000000000000000",
+          "minimum_row": 38,
+          "all_strictly_positive": true
+        },
+        {
+          "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/left_input47_table.json",
+          "rows": 39,
+          "minimum_squared_margin": "1143511924524280415569/920312500000000000000",
+          "minimum_row": 38,
+          "all_strictly_positive": true
+        },
+        {
+          "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/sperner_feedback47_table.json",
+          "rows": 45,
+          "minimum_squared_margin": "6855063768435882493469409/9696718750000000000000000",
+          "minimum_row": 38,
+          "all_strictly_positive": true
+        },
+        {
+          "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/signed_resource47_table.json",
+          "rows": 83,
+          "minimum_squared_margin": "6903259859025176417343169/9709218750000000000000000",
+          "minimum_row": 78,
+          "all_strictly_positive": true
+        },
+        {
+          "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/left270_input47_table.json",
+          "rows": 38,
+          "minimum_squared_margin": "1267915203524280415569/920312500000000000000",
+          "minimum_row": 37,
+          "all_strictly_positive": true
+        }
+      ],
+      "required_non_metadata_premise": "Whenever paired is used, acquired reserve implies actualrho>=rhoB(p_upper); currentd<=rowD and physicalgamma>=sqrt10*rho-3-Dactual. Thus actualgamma>0; p<1/2 alone is insufficient."
+    }
+  },
+  "historical_coverage_census_not_rerun": {
+    "probability_panels": 83,
+    "central_scalar_monotonicity_checks": 585,
+    "exact_partition_checks": 84415,
+    "low_box_coverage": {
+      "central": {
+        "rows": 74,
+        "boxes": 37152,
+        "entirely_budget_excluded_rows": 0
+      },
+      "left": {
+        "rows": 66,
+        "boxes": 295424,
+        "entirely_budget_excluded_rows": 1
+      },
+      "positive_left": {
+        "rows": 54,
+        "boxes": 54016,
+        "entirely_budget_excluded_rows": 2
+      }
+    },
+    "negative_controls": [
+      "missing_positive",
+      "noise_gap",
+      "phase_gap",
+      "missing_upper_endpoint"
+    ]
+  },
+  "conditional_graph_edges": [
+    {
+      "from": "weak central INPUT47 and separate central strip",
+      "to": "original confinement and Sperner confinement",
+      "premise": "same acquired p/source/contact/resource state; strip not inferred from radius alone"
+    },
+    {
+      "from": "original confinement + weak input",
+      "to": "first confined feedback",
+      "premise": "both signs, acquired amplitude and outward actual radius"
+    },
+    {
+      "from": "Sperner confinement from weak input + first feedback",
+      "to": "Sperner feedback",
+      "premise": "no use of final feedback to prove its own confinement"
+    },
+    {
+      "from": "left INPUT47(39) + Sperner feedback(45)",
+      "to": "SIGNED_RESOURCE47(83)",
+      "premise": "84fullparentcells; firstleftcell strictly excluded; matching p/radius"
+    },
+    {
+      "from": "SIGNED_RESOURCE47 left38",
+      "to": "LEFT270 full actual support",
+      "premise": "rho<=1.2563,absbeta<=.3926,decrement<=.19,attained true contact"
+    },
+    {
+      "from": "LEFT270 support + signed left38 resources",
+      "to": "LEFT270 INPUT47",
+      "premise": "same38closedpdomains"
+    },
+    {
+      "from": "LEFT270 INPUT47 + barrier/decrement/contact + prior support2.7",
+      "to": "left actual Y strip(-.55,1.55)",
+      "premise": "both finite exterior signs; scalar hypothesis acquisition separate"
+    },
+    {
+      "from": "left Y strip + LEFT270 input",
+      "to": "left Sperner/base and noise-profile confinement",
+      "premise": "same-law joint moment and conserved budget; full theorem and arithmetic separate"
+    },
+    {
+      "from": "left38 + central45 resources/amplitudes + all local comparison theorems",
+      "to": "83panel exact local union",
+      "premise": "closed p/phase/noise seams, extra positive LOW, separate lambda0 Bernoulli theorem"
+    },
+    {
+      "from": "local union + slow-index/barrier/decrement/descent + prior99 tail",
+      "to": "global cutoff conclusion",
+      "premise": "not acquired by this source review"
+    }
+  ],
+  "remaining": [
+    "fresh arithmetic and strict execution/source/receipt acceptance",
+    "full antichain/deletion/concentration-to-confinement proof and numerical kernel",
+    "full TINY/MID/LOW primitive and comparator implications",
+    "actual support/strip and predecessor acquisitions",
+    "lambda0 Bernoulli theorem literature input",
+    "global all-index same-law/descent/final joins",
+    "older29/5coarsebootstrap"
+  ],
+  "strict_budget_trace": {
+    "exact_fourier_factor": "2/pi",
+    "general_source_factor": "16/25",
+    "paired_source_factor": "212/333",
+    "strict_pi_lower": "333/106",
+    "source_enclosing_fourier_expression_positive": true,
+    "reason": "SixHIGHpiecesstrictlypositive; strictlargerFourierfactor gives physicalraw<rationalenvelope, preservedby lowerphase subtraction, finitecornermax, outwardtargetrounding andminimumofstrictceilings.",
+    "fresh_arithmetic_evaluated": false,
+    "cap_zero_exclusion_requires_this_strictness": true
+  }
+}

@@ -1,0 +1,414 @@
+{
+  "schema": "UNIFORM_CONFINEMENT_SOURCE_HAND_ALGEBRA_AUDIT_V1",
+  "review_kind": "fallible_internal_AI_source_and_hand_algebra_review",
+  "external_independent_verification": false,
+  "formal_verification": false,
+  "archived_math_modules_imported_or_executed": false,
+  "fresh_arithmetic_acceptance": false,
+  "all_index_conclusion_verified": false,
+  "archive": {
+    "filename": "BE_cutoff49_20260930.zip",
+    "bytes": 16660566,
+    "sha256": "ecdb9acca0db29efc9fe2bf496c0bcc61b4881aecdcbc91a4eb6ad49b920c72e"
+  },
+  "original_manifest": {
+    "member": "BE_cutoff49_20260930/MANIFEST.json",
+    "sha256": "58a770705c6e0bc500813ed37299753a16f6245ebea6ade238ad98078d7b4e26",
+    "file_count": 1400
+  },
+  "selector": {
+    "member": "BE_cutoff49_20260930/retained_jobs.json",
+    "sha256": "d92f0017fadc5c2f9601de599f2e1f97eb9c1042b02a17a695065c040f09d7ad",
+    "entries": [
+      {
+        "name": "certificate_original_confinement47",
+        "cwd": "work/below50_20260929/local",
+        "argv": [
+          "accept_confinement47.py"
+        ],
+        "source_run": "runs/below50_20260929/local/confinement47_accept01"
+      },
+      {
+        "name": "certificate_sperner47",
+        "cwd": "work/below50_20260929/local",
+        "argv": [
+          "accept_sperner47.py"
+        ],
+        "source_run": "runs/below50_20260929/local/sperner47_accept01"
+      },
+      {
+        "name": "certificate_left_sperner47",
+        "cwd": "work/below50_20260929/local",
+        "argv": [
+          "accept_left_sperner47.py"
+        ],
+        "source_run": "runs/below50_20260929/local/left_sperner47_accept01"
+      },
+      {
+        "name": "certificate_central_profile47",
+        "cwd": "work/below50_20260929/local",
+        "argv": [
+          "accept_sperner47_profile.py"
+        ],
+        "source_run": "runs/below50_20260929/local/sperner47_profile_accept02"
+      },
+      {
+        "name": "certificate_left_profile47",
+        "cwd": "work/below50_20260929/local",
+        "argv": [
+          "accept_left_sperner47_profile.py"
+        ],
+        "source_run": "runs/below50_20260929/local/left_sperner47_profile_accept01"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/sperner47_proof.tex",
+      "bytes": 17666,
+      "sha256": "517ed367bc961164cffccedb59d09f6cf5e3a339d387fb48bf6aa369dc521cb0",
+      "lines": 403,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 403,
+          "scope": "Full central proof: strict-gap antichain/mode cap, signed deletion, slopes, two contact intervals, single resource/tangents and finite ray"
+        }
+      ],
+      "scope": "Full central proof: strict-gap antichain/mode cap, signed deletion, slopes, two contact intervals, single resource/tangents and finite ray"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/left_sperner47_proof.tex",
+      "bytes": 17640,
+      "sha256": "668b87ac145a471e65c19f78e305cb35c93e1b4d8eef5ba7cb27c02d04d4e235",
+      "lines": 403,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 403,
+          "scope": "Full left proof via common text plus all explicit differences:38rows,16noise cells,third28 and amplitudes"
+        }
+      ],
+      "scope": "Full left proof via common text plus all explicit differences:38rows,16noise cells,third28 and amplitudes"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/confinement47_proof.tex",
+      "bytes": 14843,
+      "sha256": "7bb6842aa7edd0c40bfa9740e5117810ec16d5d95bc2fa275ee344b444153839",
+      "lines": 357,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 357,
+          "scope": "Full original proof via common text plus all differences:deleted Berry concentration,hull noise cap and affine-in-width ray"
+        }
+      ],
+      "scope": "Full original proof via common text plus all differences:deleted Berry concentration,hull noise cap and affine-in-width ray"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/sperner47_kernel.py",
+      "bytes": 9142,
+      "sha256": "21249fe117c6756a7a84af481dea2c5a490f9c66013c331cc998ab6828e1bb08",
+      "lines": 143,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 143,
+          "scope": "Complete143line source-to-formula read; no evaluation"
+        }
+      ],
+      "scope": "Complete143line source-to-formula read; no evaluation"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/confinement47_kernel.py",
+      "bytes": 8597,
+      "sha256": "59a601bf5615922e7ab1c71b22bdc25903e2f37c803eeb24d91919f370b6bfe7",
+      "lines": 134,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 134,
+          "scope": "Complete134line original source and every change versus newkernel; no evaluation"
+        }
+      ],
+      "scope": "Complete134line original source and every change versus newkernel; no evaluation"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/sperner47_contract.py",
+      "bytes": 2225,
+      "sha256": "f815e4d0b0124709f4f5922726cd20ef224d115dbd6251de6a633c955c60b8a2",
+      "lines": 35,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 35,
+          "scope": "Fixed central weak-input/source/sign/amplitude domains and budgetquadratics"
+        }
+      ],
+      "scope": "Fixed central weak-input/source/sign/amplitude domains and budgetquadratics"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/left_sperner47_contract.py",
+      "bytes": 2175,
+      "sha256": "4444fbd3c361ca76f21fe72f67059a9fbe44a045c45dc3b72d64b4c2813bf19e",
+      "lines": 35,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 35,
+          "scope": "Fixed left acquired-input/source/sign/amplitude domains and budgetquadratics"
+        }
+      ],
+      "scope": "Fixed left acquired-input/source/sign/amplitude domains and budgetquadratics"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/confinement47_contract.py",
+      "bytes": 1908,
+      "sha256": "68977fb0cb98507f39ab1d55122efcecec5ad8d65c5c2e4f47cf260e66f813c7",
+      "lines": 34,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 34,
+          "scope": "Fixed original weak-input/source/sign/amplitude domains and budgetquadratics"
+        }
+      ],
+      "scope": "Fixed original weak-input/source/sign/amplitude domains and budgetquadratics"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/accept_sperner47.py",
+      "bytes": 5187,
+      "sha256": "6bc08b509d33ea93828528664a4786b361aeff11f3817bc67b21917b60e6e3ea",
+      "lines": 73,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 73,
+          "scope": "Complete typed reconstruction,strictgate and exactunique384cell grid+90rows requirements"
+        }
+      ],
+      "scope": "Complete typed reconstruction,strictgate and exactunique384cell grid+90rows requirements"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/accept_left_sperner47.py",
+      "bytes": 5227,
+      "sha256": "30fded1b18757cbad7973cb23963fe56965f81298abe088f52f510f6df5d1770",
+      "lines": 73,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 73,
+          "scope": "Complete typed reconstruction,strictgate and exactunique256cell grid+76rows requirements"
+        }
+      ],
+      "scope": "Complete typed reconstruction,strictgate and exactunique256cell grid+76rows requirements"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/accept_confinement47.py",
+      "bytes": 5183,
+      "sha256": "14e8dc080a4554e259e3973492dcc2d331845024e0948fcec9d0a719391618e7",
+      "lines": 73,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 73,
+          "scope": "Complete original typed reconstruction and full384cell grid+90rows requirements"
+        }
+      ],
+      "scope": "Complete original typed reconstruction and full384cell grid+90rows requirements"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/accept_sperner47_profile.py",
+      "bytes": 5052,
+      "sha256": "f57b691d5237b30b996440e83e4e639baded70767a7d9754868e3f2ce18a61dc",
+      "lines": 62,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 62,
+          "scope": "Samekernel fixed clippednoise bands and strict16x16grid/profile scope; previousunit source read"
+        }
+      ],
+      "scope": "Samekernel fixed clippednoise bands and strict16x16grid/profile scope; previousunit source read"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/accept_left_sperner47_profile.py",
+      "bytes": 5088,
+      "sha256": "3438310ca3afff16c1bd30d5e470c050beee8f54993194e611a08fcf88ab1134",
+      "lines": 62,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 62,
+          "scope": "Samekernel left profile counterpart; previousunit source read"
+        }
+      ],
+      "scope": "Samekernel left profile counterpart; previousunit source read"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/conditional_input47.json",
+      "bytes": 50654,
+      "sha256": "b9d2aa15ad96181f5a8eb846e76ae296d2c2c8ed1a5975c6f389c2f7d14ff2b7",
+      "lines": 2272,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [],
+      "scope": "Historical candidate input/schema/census metadata only; no gate evaluations"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/left270_input47_table.json",
+      "bytes": 44521,
+      "sha256": "4b7bb259e469ee57ca6a61d89fd0b3385443508129138899fe597fd82dc9521a",
+      "lines": 1878,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [],
+      "scope": "Historical candidate input/schema/census metadata only; no gate evaluations"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/sperner47_certificate.json",
+      "bytes": 30162,
+      "sha256": "d172e4a5029ac842b42b9432ac7f8e80a0181cd5ec4ad53409ec174a99e86d48",
+      "lines": 1254,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [],
+      "scope": "Historical candidate input/schema/census metadata only; no gate evaluations"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/left_sperner47_certificate.json",
+      "bytes": 26121,
+      "sha256": "e1237ea24a0609d6e2e6c0fee24d9586cdf5005d30fb5cb6b38ad430e13b31f8",
+      "lines": 1072,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [],
+      "scope": "Historical candidate input/schema/census metadata only; no gate evaluations"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/confinement47_certificate.json",
+      "bytes": 30032,
+      "sha256": "bea92cbe77172d6fc72138e41f8eb4084aacca4de5eea0b55c03f3ae7a52d57a",
+      "lines": 1249,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [],
+      "scope": "Historical candidate input/schema/census metadata only; no gate evaluations"
+    }
+  ],
+  "candidate_metadata_only": [
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/conditional_input47.json",
+      "schema": "CONDITIONAL_LOCAL47_COMPARATOR_INPUT_V1",
+      "panels": 45,
+      "recorded_rows": null,
+      "arithmetic_evaluated": false
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/left270_input47_table.json",
+      "schema": "LEFT270_INPUT47_V1",
+      "panels": 38,
+      "recorded_rows": null,
+      "arithmetic_evaluated": false
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/sperner47_certificate.json",
+      "schema": "CONDITIONAL_SPERNER47_A_V1",
+      "panels": null,
+      "recorded_rows": 90,
+      "arithmetic_evaluated": false
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/left_sperner47_certificate.json",
+      "schema": "CONDITIONAL_LEFT_SPERNER47_A_V1",
+      "panels": null,
+      "recorded_rows": 76,
+      "arithmetic_evaluated": false
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/confinement47_certificate.json",
+      "schema": "CONDITIONAL_CONFINEMENT47_A_V1",
+      "panels": null,
+      "recorded_rows": 90,
+      "arithmetic_evaluated": false
+    }
+  ],
+  "fullproof_text_diff": {
+    "central_to_left_diff_sha256": "620dba1c2644a27397e3dd5864874dee60105bdb1efe8584d6518a393c19b933",
+    "diff_lines": 88,
+    "differences_reviewed": [
+      "inputfilename and45/38p scope",
+      "amplitudes",
+      "24/16noise subdivisions",
+      "thirdprice24/28",
+      "acceptor name and corresponding census"
+    ],
+    "unexplained_math_changes_found": false
+  },
+  "code_to_argument_ranges": [
+    {
+      "source": "local/sperner47_kernel.py",
+      "start": 23,
+      "end": 61,
+      "argument": "strictdomains,simultaneous momentprices,positive roots and all-index binomial mode uppercap"
+    },
+    {
+      "source": "local/sperner47_kernel.py",
+      "start": 62,
+      "end": 78,
+      "argument": "closedphase/noise maxofconcavequadratics and strictlybudget-excluded cap<=0"
+    },
+    {
+      "source": "local/sperner47_kernel.py",
+      "start": 79,
+      "end": 112,
+      "argument": "conditionalmoments,signedHslopes,closedcontactintervals and finite exterior ray"
+    },
+    {
+      "source": "local/sperner47_kernel.py",
+      "start": 116,
+      "end": 142,
+      "argument": "correctn-2 deletionfactors,single resource simplex,exceptionalpair tangentmax and strictcontradictions"
+    },
+    {
+      "source": "local/confinement47_kernel.py",
+      "start": 101,
+      "end": 132,
+      "argument": "differentaffineconcentration/hullprice anduncoupled physicalresource rayincrement"
+    }
+  ],
+  "hand_checked_implications": [
+    "simultaneous cpMplus+cmMminus+btheta+P from exact gap decomposition",
+    "strictdiameter antichain biasedmeasure bound including colliding atoms and independent extra noise",
+    "j>=N-2 finiteStirling substitutions and all-index fd factors",
+    "centered exchangeable signed deletion identities and exceptional event mapping",
+    "Cantelli/Markov directions with Delta=tau goodendpoint",
+    "conditional rho/beta and signed/negative-ray slope vertex bounds",
+    "closedcontact interval atom conventions and actualfinite-strip ray",
+    "strictFourier primitive margin licensing zero-cap EMPTY boundary",
+    "one shared moment/leakage simplex and eleven individuallyvalid exceptional-event tangents",
+    "originalconcentration/hull andphysicalresource affineincrement differences",
+    "full fixed typed acceptor/census/source requirements read only"
+  ],
+  "standard_analytical_inputs_not_rederived": [
+    "finite two-sided Stirling inequalities",
+    "Cantelli and Markov in their stated standard forms",
+    "prior unrestricted attaining/contact/oriented identity and nonnegativeleakage",
+    "prior complete LOW/HIGH transfer and strictpi enclosure"
+  ],
+  "remaining": [
+    "actualsame-lawweakinput,strip,support,barrier/decrement and strictresource acquisitions",
+    "fresh allgate rational math underfull controls and exactexecution/receipt validation",
+    "laterTINY/MID/LOW comparison and lambda0Bernoulli theorem",
+    "global slow-index/descent and finite/tail joins",
+    "dormant29/5coarsegeometrybootstrap"
+  ]
+}
