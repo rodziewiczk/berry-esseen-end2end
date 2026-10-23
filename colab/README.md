@@ -159,3 +159,38 @@ See [the exact execution scope](../proof/n25_collect_execution.md).
 The original V14 preparations stopped before mathematical evaluation because a contract filename differed in letter case. The corrected notebooks use a newly sealed portable source epoch. Upload the replacement notebooks and select **Run all**. Existing archive downloads can be reused after their hashes are checked.
 
 The corrected V14 tasks start from all 26 original roots. Historical V14 hint/checkpoint bindings do not match the new closure; later checkpoints from the corrected epoch can be resumed. See [the portability derivation](../proof/v14_portability.md). Running notebooks 01–05 do not need to be interrupted for this repair. Notebook 08's observed six-stage completion is recorded [with its explicit trust limits](../proof/observed_runs.md).
+
+## Additional selected n25 batches29--34 and36--38
+
+These nine notebooks select immutable runtime commit
+`3045eb05895a274554c78b23b7a90ee9289919a5`. Choose CPU and Run all with the same
+Drive. They preserve previous notebooks and saved results.
+
+| Notebook | Work | Full original actions |
+|---|---|---:|
+|29|Established lower-B3 retained counts|17 forests|
+|30|Established lower-B4 retained counts|30 forests|
+|31|Available ordinary lower-B5 counts|39 forests|
+|32|Selected middle-B4 counts|16 forests|
+|33|Selected middle-B5 counts|7 forests|
+|34|Established upper high-beta3 collection|6 forests|
+|36|Lower B0 INITIAL/resources and17numeric interfaces|2 parent actions|
+|37|Lower B1 INITIAL/resources/local p35 and35numeric interfaces|4 parent actions|
+|38|Lower B2 INITIAL/resources/local p31 and23numeric interfaces|4 parent actions|
+
+The115 count forests contain178,294 saved leaves and run unchanged complete
+native acceptors. Each completed forest is saved and fully revalidated before
+reuse. Interrupted individual acceptors restart in full. The24 excluded
+provisional/missing/mixed/unresolved selections remain explicit in
+`NOT_READY.json`; these batches do not complete all n25 regions.
+
+Parent jobs36--38 serve count notebooks26--28 and may run independently of
+those forests. Each parent action uses an honest BASIC subprocess policy.
+A rerun fully revalidates completed cumulative prefixes, including original
+timed receipts, sources, commands, captures and controls. The new rational join
+checks the contracts; count acceptance, stronger24 and analytic implications
+remain separate. See [extra counts](../proof/retained_n25_extra_execution.md)
+and [B012 acquisition](../proof/n25_b012_acquisition_execution.md).
+
+Notebook35 for remaining n5 and the literal-index6--24/26--48 batches are being
+prepared separately; their absence from this delivery is not completion.

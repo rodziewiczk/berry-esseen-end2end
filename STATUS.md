@@ -3,8 +3,8 @@
 Updated: 23 October 2026, Europe/Warsaw. This is the project landing status.
 Details are linked, not treated as additional independent proof claims.
 
-**The global proof is not verified. Current priority: logical audit,
-not expansion of the compute queue.**
+**The global proof is not verified. Logical/source audit and preparation of
+the missing computational notebooks now proceed in parallel.**
 
 The linked audits are fallible AI-generated internal source reviews.
 Cross-reads by other model agents are internal checks; external independent
@@ -38,10 +38,10 @@ Log completion is not independent bundle validation.
 
 | Notebooks | Latest established scope |
 |---|---|
-|01--07 PREFIX2 resume|Original discovery improvements restored; lossless migration checked on actual saved exports for all7 targets. Saved candidates still require full native acceptance; no speed benchmark or new numerical completion is claimed.|
+|01--07 PREFIX2 resume|Lossless migration checked on all7 saved exports. New supplied logs confirm final scoped native acceptance for03 B4q1 (6304leaves) and05 B4q3 (7291leaves).04 had reached full replay.06/07 continue candidate search; other completions are not inferred.|
 |08|Actual n2/n3 export inspected; scoped analytic/checker reviews recorded.|
 |09/10,13,14/15|Complete scoped arithmetic in inspected logs; exports have a separate revalidation boundary.|
-|11|ROOT4 in progress at last supplied record; both full passes required.|
+|11|First full ROOT4 pass finished260/260classes with no unresolved case. Second full replay last reports228closed classes/currentgrid228; no final acceptance yet.|
 |12 corrected|Actual2GiB ZIP confirms `external_wall_timeout` at7800.436seconds;13/14 main and25/41 retained records. Replacement keeps full14/41 arithmetic with18-hour external wall/per-process CPU budgets and2GiB. No new run completed.|
 |16|Complete 25-stage auxiliary23 log, 18,377 leaves; full theorem conditional.|
 |17|Complete 16-stage stronger24 B0 BASIC log, 1,929 leaves; export to revalidate.|
@@ -53,7 +53,11 @@ Log completion is not independent bundle validation.
 |23|Waits for all nine 14--22 inputs and checks their conditional chain.|
 |24|Seven count targets plus 09/10 collector; not the full n25 union.|
 |26--28|Published on GitHub/Drive; 75 retained n25 forests, 94,288 leaves. No launch/completion assumed.|
+|29--34|Prepared/pinned extra115-forest package,178294leaves;38synthetic fixtures and actual source-only preparation pass. No mathematical replay assumed.|
+|35|Remaining n5 batch is under implementation/review; not delivered as complete.|
+|36--38|Prepared/pinned B012 ten-action parent package and75numeric interfaces;19synthetic fixtures and actual source-only preparation pass. No fresh acquisitions assumed.|
 
-No numerical notebooks were added during this audit. B0--B2 parent maps
-identify future work without launching it. Existing computations remain usable
-under their exact original conditions.
+The new packages preserve previous numerical drivers and notebook identities.
+Literal-index6--24/26--48 packaging, other n25 acquisitions and unresolved
+selections still require work. Preparation/tests are not numerical acceptance.
+Existing computations remain usable under their exact original conditions.

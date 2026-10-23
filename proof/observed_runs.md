@@ -327,3 +327,43 @@ The bundle `20261023T163842Z-8f5bb9d0-results.zip` is reported saved at
 is `complete_conditional_arithmetic_basic`. This is supplied-log evidence;
 actual ZIP/sidecar/capture/source readback remains separate. BASIC native
 acceptance stays false. The user is starting22; no B5 completion is inferred.
+
+## New PREFIX2 final logs:03 B4q1 and05 B4q3
+
+The supplied03 log has SHA-256
+`b0acba714f52190b3913f21aab3ee668118de91656d4ef00f84fcea937d2d222`.
+Search finishes with6304leaves,12582nodes and no pending field at
+18:08:35UTC. Separate trusted-native replay ends in
+`regional_count_arithmetic_accepted` at18:43:15UTC. The reported bundle is
+`b4-q1/20261023T173630Z-c08f3ca5/20261023T173630Z-c08f3ca5-results.zip`.
+
+The supplied05 log has SHA-256
+`51f6d50c9200a09a259447ad951762d40c6ad257d0d02ad465cd86989a84aa92`.
+Search finishes with7291leaves,14556nodes and no pending field at
+17:59:12UTC. Separate full replay ends in scoped arithmetic acceptance at
+18:45:38UTC. The reported bundle is
+`b4-q3/20261023T173915Z-989ca66d/20261023T173915Z-989ca66d-results.zip`.
+
+These are completed scoped native acceptance reports in supplied logs. Actual
+ZIP/guard/capture/source readback remains separate. Their final scope is
+`NEW_RESOURCE_LIMIT_EPOCH_CONDITIONAL_COUNT_ONLY`; parent acquisitions and
+the all-index conclusion remain false. Other target completions are not
+inferred from these two logs.
+
+## ROOT4 second full pass and06/07 continuing search
+
+The later ROOT4 log, SHA-256
+`6a2d339173e4e763033ba0244970a79d4971b899a0ad58f2c1f4fe05abdaac2a`,
+records production finishing at15:55:43UTC with all260classes, all1300HIGHslots
+accounted and zero unresolved geometry classes. The exact conditional root
+upper bound is4097/10000. A new complete replay starts at15:55:47UTC; the last
+supplied progress has228closed classes/currentgrid228. This is32remaining
+classes, not32fixed-duration jobs or a remaining-time percentage. No replay
+completion is present.
+
+The new06/07 logs preserve migration counts2208/2354 and progress to2652/2738
+closed leaves. Both advance from k7 to k8 with continuing split/leaf decisions,
+last pending16/14. Pending-frontier size does not bound future descendants.
+No error/guard stop or complete candidate/native acceptance appears in these
+supplied lines. Approximately400--450new closed leaves/hour describes those
+intervals only, not a completion estimate.

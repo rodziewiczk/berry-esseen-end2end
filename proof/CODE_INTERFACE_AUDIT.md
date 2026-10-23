@@ -85,6 +85,8 @@ preserved and pass the stricter check. A completion label alone is insufficient.
 - [Selected LEFT38 local-tail kernels and partition](code_left_tail_kernel_audit.md).
 - [Selected lower-region composition rules](code_regional_composition_audit.md).
 - [Selected finite-index31–48 bridges and enabled-source boundary](code_finite_index_bridge_audit.md).
+- [Further actual31--39 directed/weighted/complete engines](code_remaining_engine_audit.md)
+  and [their exact source map](code_remaining_engine_source_map.json).
 
 The selected source identities and line references in those notes are part of
 each scoped conclusion. A similarly named file in a different capsule is not
@@ -133,6 +135,24 @@ native/BASIC distinctions are recorded in the detailed auxiliary audit.
 
 ## Remaining review order
 
+Later parallel-audit update: the new remaining-engine note reads the actual
+directed interval/Taylor/Bernstein installs, common-cubic cells, older
+four-variable primitive, hybrid/fast/low/quartic35--39 cells, B0 weighted
+correction and closed p=1/2 face, special31 and shorter auxiliary exact34.
+Its source map has605actual file rows and53caller groups selecting402historical
+count incidences including auxiliary ancestors. The conditional score-rule
+arguments found no confirmed invalid enclosure in that bounded scope.
+Actual acquired resource hypotheses, scaled-phase and complete caller/coverage
+joins remain separate. Upstream uniform-tail acquisition is the next active
+source-audit unit; no count of historical sources is a fresh acceptance total.
+
+The new115-forest notebooks29--34 and B012 parent/interface notebooks36--38
+were added at the user's subsequent request. Their source-only preparation
+and57synthetic tests do not acquire a mathematical premise. B012 now has an
+implemented75-edge rational interface rather than only a future source map;
+its fresh parent calculations and the corresponding count exports still need
+to run and be joined. See [its precise scope](n25_b012_acquisition_execution.md).
+
 1. Preserve the now recorded conditional V12 engine/variant argument and
    its Gaussian-paired incoming semantics. Complete independent review of
    distinct outer/regional kernels; do not generalize by similar filenames.
@@ -154,6 +174,6 @@ Those are an audit/source census, not402 newly queued computations, a
 minimal future job list or proof of those engines. The n25 primitive/engine
 arguments do not automatically cover the changed older arithmetic.
 
-No new numerical job was added. Notebook23 is republished only to select
-the repaired final collector;14--22 and all running count tasks retain their
-original computation identities. The global theorem remains unverified.
+The repaired collector23 and the new packages preserve14--22 and all running
+count tasks' original computation identities. The global theorem remains
+unverified.

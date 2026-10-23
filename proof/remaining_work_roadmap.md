@@ -2,6 +2,17 @@
 
 Snapshot: 2026-10-23. This roadmap reads the current repository, scoped reviews, inventories and recorded Colab evidence. It performs no mathematical calculation and changes no runtime source or proof-graph status.
 
+Later implementation update: the user requested parallel audit and missing
+notebook preparation. New29--34 selects115 supplied forests/178294leaves;
+36--38 supplies the ten B012 parent actions plus75numeric interfaces. Both
+passed source preparation and synthetic checks; neither was mathematically
+run locally. See [extra counts](retained_n25_extra_execution.md) and
+[parent acquisition](n25_b012_acquisition_execution.md). Notebook35 for remaining
+n5 is under implementation. Literal-index6--24/26--48 controllers, other n25
+acquisitions and explicitly missing/unresolved selections remain open. Older
+planning paragraphs below retain the source-inventory snapshot; they do not
+override this newer implementation status.
+
 There is no justified fixed number of notebooks left to finish the theorem. The current numbered package contains 01–24; many are already running, completed scoped calculations or evidence collectors. The next concrete package is **three branch jobs for the 75 retained n25 B0–B2 forests**. Other required finite-range and acquisition work has not yet been reduced to a complete deduplicated executable queue. A notebook can contain many acceptors, and a completed notebook can leave mathematical premises open. Notebook count therefore cannot measure proof completion.
 
 ## 1. Finish and validate the current batch
