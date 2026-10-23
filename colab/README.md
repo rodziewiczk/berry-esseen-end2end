@@ -304,3 +304,16 @@ remaining separate.53is withheld while the mandatory n27/p41tree is missing:
 [source readiness](../proof/finite1039_count_sources.md),
 [execution scope](../proof/finite1039_count_execution.md) and
 [internal runtime review](../proof/finite1039_count_runtime_review.md).
+
+Notebook64, `64_n27_p41_new_candidate.ipynb`, selects runtime
+`b8631631e1772de83187701ddbdd9ef972870ea8`. Run all with the same Drive.
+It executes the unchanged original alpha4 constructor, then a full fresh
+acceptance of the complete new n27/p41forest with all24controls. The original
+600-second node-entry construction budget,10,000-node bound and depth128
+bound remain in place. Each external action has2GiB/7200CPU/7260wall limits.
+An incomplete construction saves diagnostics; it does not start acceptance.
+Only a revalidated complete two-action pair is reused. Success is a new
+conditional evidence epoch and does not make53ready until a separate
+same-contract semantic replacement join is reviewed and implemented. See
+[execution scope](../proof/n27_p41_recovery_execution.md) and
+[internal source/runtime review](../proof/n27_p41_recovery_runtime_review.md).
