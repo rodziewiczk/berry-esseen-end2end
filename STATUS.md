@@ -50,15 +50,16 @@ Log completion is not independent bundle validation.
 |20|Complete24-stage stronger24 B3 BASIC log,12,484 leaves; actual final export remains to revalidate.|
 |21|Complete28-stage stronger24 B4 BASIC log,4,168 leaves; actual final export remains to revalidate.|
 |22|Complete26-stage stronger24 B5 BASIC log,2444leaves; actual final export remains to revalidate.|
-|23|All nine14--22 completion logs are now observed. Corrected collector copy delivered; actual full export/source/capture/interface join has not yet completed.|
+|23|Actual supplied run log reports all9exports revalidated and CONDITIONAL_FRESH_NUMERIC_CHAIN_VERIFIED,83forests/76088leaves; final collector ZIP saved. Analytic/universal/full-theorem flags remain false.|
 |24|Seven count targets plus 09/10 collector; not the full n25 union.|
-|26--28|Published on GitHub/Drive; 75 retained n25 forests, 94,288 leaves. No launch/completion assumed.|
-|29--34|Prepared/pinned extra115-forest package,178294leaves.33and34have completed7/7and6/6-forest scoped native logs (2446and4246leaves), with export readback separate.29has ongoing native progress in saved notebook output. No other completion inferred.|
-|35|First launch failed before support arithmetic, exact export inspected. V2 preserves64MiB with current-exec VmHWM. Actual Colab log now confirms all27infrastructure fixtures passed, including the Linux pre/post-exec regression. No326-job batch completion inferred.|
+|26--28|26has a completed17/17-forest log,12985leaves, with export readback separate.27/28are in the user's active queue; no completion inferred.|
+|29--34|32/33/34have completed16/7/6-forest scoped native logs (25257/2446/4246leaves), with export readback separate.29--31are in the user's active queue. No other completion inferred.|
+|35|V2actual saved notebook confirms27fixtures passed including Linux exec regression, then support and HIGH completed. Owncaps was ongoing at20:12UTC. No326-job batch completion inferred.|
 |36|Actual completed B0 export revalidated: both INITIAL/resource stages, unchanged source/capture/receipt bindings and all17exact resource-to-contract interfaces. BASIC conditional scope retained; count acceptance and full theorem remain separate.|
 |37|Actual completed B1 export revalidated:4/4actions, source/capture/receipt bindings and all35exact resource-to-contract interfaces. BASIC conditional scope retained.|
-|38|Prepared/pinned B2 parent package; no fresh completion inferred from36/37.|
+|38|Complete4/4-action B2 parent/interface log and saved ZIP; actual export readback remains separate.|
 |39|Actual completed lower-B5 export revalidated: both full INITIAL/resource acceptances, fresh receipt/source/capture bindings. BASIC conditional scope retained; local/mixed/count interfaces remain separate.|
+|40--43|Prepared full conditional count lanes for literaln6--9:284forests/2362roots/257089leaves. Allactualsource capsules prepared without mathimports;28root infrastructure/metadata/generator fixtures pass, separate internal peer read19fixtures pass. No actualColab replay assumed.|
 |47/48|Prepared middle-n25 B4/B5 full selected acquisition lanes:14/12actions,169/89source inputs.19synthetic fixtures, actual source-only preparation and26historical JSON schema readbacks pass. No fresh Colab arithmetic assumed.|
 
 The new packages preserve previous numerical drivers and notebook identities.

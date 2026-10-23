@@ -1,4 +1,4 @@
-# Selected finite6â€“9 COUNT replay protocol
+# Selected finite6-9 COUNT replay protocol
 
 This is a fallible internal implementation/source review and a new bounded
 execution protocol. It is not independent external verification, a local
@@ -12,7 +12,7 @@ arithmetic replay, or an acquired finite-index theorem.
 | 41 | 7 | 72 | 576 | 95502 | 48039 |
 | 42 | 8 | 64 | 576 | 58726 | 29651 |
 | 43 | 9 | 58 | 580 | 27430 | 14005 |
-| Total | 6â€“9 | 284 | 2362 | 511816 | 257089 |
+| Total | 6-9 | 284 | 2362 | 511816 | 257089 |
 
 Each lane executes every selected original `count_protocol.py accept` against
 the complete archived forest, unchanged contract, unchanged kernel manifest
@@ -142,6 +142,6 @@ Fresh INITIAL/resource/support/Fourier/HIGH acquisitions, same physical witness
 and resource-to-count interfaces, sequential sharp predecessor/contact premises,
 analytic source-to-lemma soundness, regional p/rho covers and final theorem
 composition remain separate. In particular, the missing old owncaps plan/capture
-bytes and a fresh owncapsâ†’CAPS metadata epoch do not block these source-complete
-conditional COUNT jobs, but do block claiming this is the whole finite6â€“9 proof.
+bytes and a fresh owncaps->CAPS metadata epoch do not block these source-complete
+conditional COUNT jobs, but do block claiming this is the whole finite6-9 proof.
 See `proof/finite69_source_reconstruction_review.md` for that distinct boundary.

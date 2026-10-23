@@ -230,3 +230,20 @@ new global resource construction and acceptance, then all11/9local acceptors.
 Completed actions are exported and fully revalidated before reuse. They may
 run independently of their count notebooks32/33. See the
 [complete scope and fresh timed-parent handling](../proof/middle_n25_acquisition_execution.md).
+
+Notebooks40--43 select immutable runtime
+`02f522dadd54fff771d620de4e455b0e6eb12d76`:
+
+| Notebook | Literal n | Full selected forests | Candidate leaves |
+|---|---:|---:|---:|
+|40_n6_conditional_counts.ipynb|6|90|165394|
+|41_n7_conditional_counts.ipynb|7|72|48039|
+|42_n8_conditional_counts.ipynb|8|64|29651|
+|43_n9_conditional_counts.ipynb|9|58|14005|
+
+They may run independently. Choose Run all; the complete original acceptors
+and all24controls run for every forest, with actual capture/receipt readback
+and completed-stage-only reuse. These are conditional count lanes. Their
+INITIAL/resource/support/Fourier acquisitions and final all-law joins remain
+separate. See [the complete execution scope](../proof/finite69_count_execution.md)
+and [the internal peer review](../proof/finite69_counts_independent_review.md).
