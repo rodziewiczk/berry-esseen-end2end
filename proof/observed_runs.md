@@ -1,6 +1,6 @@
 # Observed Colab arithmetic runs
 
-This document records user-supplied Colab evidence inspected on 23 October 2026. Notebook 08 was inspected through its saved stage receipts and stdout/stderr captures; notebooks 09 and 10 are presently recorded from their displayed progress logs only. No mathematical calculations were rerun locally. Raw logs, account paths, and VM identifiers are not published here.
+This document records user-supplied Colab evidence inspected on 23 October 2026. Notebook 08 was inspected through its saved stage receipts and stdout/stderr captures; notebooks 09, 10 and 13 are presently recorded from their displayed progress logs only. No mathematical calculations were rerun locally. Raw logs, account paths, and VM identifiers are not published here.
 
 ## Notebook 08: all six n2/n3 stages completed in BASIC mode
 
@@ -67,3 +67,13 @@ This is useful evidence that the four-stage calculation finished. The ZIP, actua
 The later user-supplied progress log reports the B4 resource acceptor completed successfully at 12:20:29 UTC on 23 October 2026, following the selected INITIAL construction/acceptance and resource construction. Its terminal marker is `PASS_FRESH_EXACT_SHARP25_B4_GLOBAL_RESOURCES`. The final session state is `CONDITIONAL_FRESH_PARENT_CHAIN_ACCEPTED`, and the log reports a saved results ZIP without an error.
 
 As for notebook 09, this observation is currently based on the displayed log. It is not an independent inspection of the exported ZIP, actual acceptance objects and captures. The completed B3 and B4 parent calculations can be joined to later count evidence; they do not remove the selected stronger24 predecessor or complete the unrestricted n25 theorem by themselves.
+
+## Notebook 13: displayed log reports accepted complete n5 gap-free component
+
+The user-supplied log shows the full n5 gap-free worker launched at 12:33:33 UTC on 23 October 2026 and the guarded execution finished at 12:33:48 UTC. Its final state is `FRESH_LINUX_POSITIVE_CLOSED_N5_GAPFREE_RECTANGLE_ACCEPTED`, with `native_arithmetic_accepted=true`; the final ZIP was reported saved immediately afterward. The log contains both the original result and the new complete Linux protocol packet, without a reported error.
+
+The reported complete scope is 60 roots, 1,994 nodes, 1,027 leaves, the two infinite exterior rays and all 21 original/added controls. Its actual n5 domain is rho `[477/400,6/5]`, beta `[17/50,35139006743001/100000000000000]`, the positive closed-CDF orientation and every real threshold. The recorded target is `4097/10000`. These are the selected component's domains, not an unrestricted absolute C5 theorem.
+
+The logged source-manifest SHA-256 is `3f38d156e97f82132772b6c21aeffe4f6ad6ca254417882331fe8a9738617a40`; the driver SHA-256 is `b3efe30d0b67e0b172367e55a387515c3a2d2655ade1a44fd07749ca6d89a484`. The receipt explicitly retains `full_n5_verified=false` and `all_index_conclusion_verified=false`.
+
+This records the displayed full-run evidence. The final ZIP, actual supervisor result and saved capture files have not yet been separately inspected for this record; no archive digest or newly closed proof-graph node is asserted. No repeat computation is requested merely to change these bookkeeping details. See [the execution contract](n5_gapfree_execution.md) and [the n5 analytic review](n5_analytic_review.md) for the component's implication and the remaining n5 domains.
