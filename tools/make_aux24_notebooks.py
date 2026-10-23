@@ -91,7 +91,7 @@ automatically accepted. Source and execution evidence keep that boundary explici
         execute=f"from be_replay.strong24_branches import run_colab\nRESULT = run_colab('{branch}', durable_root=DURABLE)\n")
 
 JOBS["23_auxiliary24_final_join"] = dict(
-    task="auxiliary24-final-join", tests="test_aux24_join.py",
+    task="auxiliary24-final-join", tests="test_aux24*.py",
     title="auxiliary24: final join of the nine completed evidence bundles",
     scope="""Run this notebook LAST, after notebooks 14–22 have finished successfully and
 their results ZIPs have been saved on the same Google Drive. Those preceding
@@ -103,6 +103,11 @@ on Drive, then checks its precise source and receipt identities, complete stage
 censuses, captured outcomes and mathematical interfaces. A filename or historical
 PASS label does not establish a fresh computation. Missing, partial or incompatible
 evidence cannot become a successful join.
+
+This revision also checks the actual preserved launch, supervisor result,
+native worker/controller guard receipts and captures for every stage. It
+keeps BASIC stages explicitly conditional and does not rerun the numerical
+jobs. Existing valid14--22 exports can be used without restarting them.
 
 This notebook assembles recorded evidence rather than rerunning the heavy numerical
 jobs. The stated auxiliary fact is C24 < CE + 1/80, not the sharp C24 bound.

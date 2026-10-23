@@ -5,6 +5,8 @@ Authors: Kacper Rodziewicz and Bartosz Kołodziejek.
 Start with [the current status](STATUS.md) and [the mathematical audit and
 high-level proof graphs](proof/LOGICAL_AUDIT.md). The present priority is to
 verify the logical and source-specific implications before adding compute jobs.
+The follow-up [implementation and certificate-link audit](proof/CODE_INTERFACE_AUDIT.md)
+records exact component matches, remaining enabled paths and the collector23 repair.
 
 This repository rebuilds the computational proof obligations for the sharp iid Berry–Esseen constant from pinned public sources. It is a **work in progress**, not a completed proof of the conjecture.
 

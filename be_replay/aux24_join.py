@@ -184,6 +184,7 @@ def validate_scope(key, packet):
 
 def collect(durable_root, work, *, progress):
     """Choose the latest fully validated ZIP per job, skipping incomplete evidence."""
+    from . import aux24_evidence
     aux, branches = validators()
     imports, missing = {}, []
     for key in JOBS:
@@ -196,6 +197,11 @@ def collect(durable_root, work, *, progress):
                 task, zip_sha = extract(candidate, output, progress=progress)
                 packet = aux.validate_completed(task) if key.startswith("auxiliary") else branches.validate_completed(task)
                 validate_scope(key, packet)
+                transport = aux24_evidence.validate_task_transport(task, key)
+                need(transport["execution_transport_revalidated"] is True and transport["job"] == key,
+                     "Separate strict actual launch, supervisor and kernel-guard evidence")
+                transport_path = output / "TRANSPORT_REPORT.json"
+                transport_path.write_text(json.dumps(transport, sort_keys=True, indent=2)+"\n", encoding="utf-8")
                 report = output / "REVALIDATED_REPORT.json"
                 report.write_text(json.dumps(packet, sort_keys=True, indent=2)+"\n", encoding="utf-8")
                 original_result = task / ("JOB_RESULT.json" if key.startswith("auxiliary") else "RESULT.json")
@@ -204,7 +210,9 @@ def collect(durable_root, work, *, progress):
                 imports[key] = dict(zip_path=str(candidate.resolve()), zip_sha256=zip_sha,
                     task_relative=task.relative_to(work).as_posix(), validated_report_relative=report.relative_to(work).as_posix(),
                     validated_report_sha256=digest(report), actual_job_result_sha256=digest(original_result),
-                    source_manifest_sha256=packet["source_manifest_sha256"], driver_sha256=packet["driver_sha256"], report=packet)
+                    source_manifest_sha256=packet["source_manifest_sha256"], driver_sha256=packet["driver_sha256"], report=packet,
+                    transport_report_relative=transport_path.relative_to(work).as_posix(),
+                    transport_report_sha256=digest(transport_path), transport_validator_sha256=digest(aux24_evidence.__file__))
                 progress("join_completed_job_revalidated", job=key, zip_sha256=zip_sha)
                 break
             except Exception as error:

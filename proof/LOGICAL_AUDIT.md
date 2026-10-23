@@ -181,3 +181,8 @@ Next: apply explicit amendments in the revised paper and check selected kernel
 families and source-bound acquisition/coverage interfaces against this spine.
 Preserve existing queued computations. Do not expand the numerical queue to
 cover an unresolved logical arrow. No all-index proof node is closed here.
+
+The follow-up [selected implementation audit](CODE_INTERFACE_AUDIT.md) now
+records exact component-to-rule matches and the current7 semantic joins,
+plus a repaired final auxiliary execution-evidence readback. Its explicit
+remaining enabled paths retain the limits of this logical audit.

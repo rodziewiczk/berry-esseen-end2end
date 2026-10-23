@@ -216,3 +216,39 @@ suggests a wall-limit stop; the exact `execution.reason`, native stderr and
 actual final exported bundle have not been inspected for this record. The
 supplied log does not display a failed mathematical inequality or a memory-limit
 exception. No completion, native acceptance or uniform tail theorem is inferred.
+
+## Notebook18: complete stronger24 B1 arithmetic log
+
+The supplied log SHA256 is
+`63877cb1974056d2602ae7e902c8e309de38c5fdb62f10187c1b28d58b308a88`.
+All13 selected stages completed. The final join reports9,803 closed leaves,
+maximum score `10555781431/25000000000` and a strictly positive exact margin.
+The ZIP is reported saved at17:50:35 Europe/Warsaw on23 October2026 with state
+`complete_conditional_arithmetic_basic`. The complete branch's
+`native_arithmetic_accepted` remains false, as required by its BASIC policy.
+This is log evidence, not an independent readback of that B1 export. Other
+branches and the final conditional collector23 remain separate obligations.
+
+## Notebook07 RESTART: supplied progress through17:49 Europe/Warsaw
+
+The user supplied the recovery log directly in chat. It migrates an untrusted
+checkpoint with1,469 closed leaves, then advances to1,898 leaves/3,798 nodes
+in the last sampled line. The completed30-minute chunks report1,613,
+1,756 and1,894 leaves, preserving progress between search attempts. The
+active count is still k=7. Repeated`SEARCH_CHECKPOINTED_INCOMPLETE` is the
+chunk boundary, not a full proof acceptance or a demonstrated kernel failure.
+The pending frontier fluctuates as fields split and close; it gives no
+remaining-leaf total or percentage/ETA. The100,000-node ceiling is a guard,
+not a required final tree size. Every full candidate still needs all26 roots
+and the separate complete acceptance. No final run status is inferred here.
+
+## Additional actual execution-file readback during the code audit
+
+The [auxiliary implementation audit](code_aux_tail_join_audit.md) now records
+strict transport-only readback of54 preserved stages from actual auxiliary21,
+22,23 and stronger24 B0 ZIPs. All passed the newly added launch/supervisor/
+native-guard/capture checks. This supplements the earlier log-only records
+above; it does not re-evaluate omitted full candidate payloads or acquire
+the mathematical framework. The actual four ZIP hashes and native/BASIC
+stage distinctions are retained in that audit. B1's new log is not included
+in that four-export readback.

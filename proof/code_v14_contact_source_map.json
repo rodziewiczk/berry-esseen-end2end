@@ -1,0 +1,602 @@
+{
+  "schema": "SCOPED_V14_CONTACT_SOURCE_REVIEW_NOT_ACCEPTANCE_V1",
+  "numerical_modules_imported": false,
+  "numerical_kernels_executed": false,
+  "complete_v12_fallback_reviewed": false,
+  "arithmetic_accepted": false,
+  "all_index_conclusion_verified": false,
+  "capsules": [
+    {
+      "panel": "p31",
+      "design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff",
+      "source_files_sha_matched": 178,
+      "selected_source_locations": [
+        {
+          "file": "local_contact_v14.py",
+          "sha256": "78ee48726397e1a6185aa02584ffd21d4eb87ff69e9685807a13b5f9edf09a7c",
+          "functions": [
+            {
+              "name": "cell35",
+              "first_line": 10,
+              "last_line": 61
+            },
+            {
+              "name": "evidence",
+              "first_line": 16,
+              "last_line": 20
+            }
+          ]
+        },
+        {
+          "file": "local_contact_outer_v14.py",
+          "sha256": "a30217eb6cdc16a3bec77d1ddf6e3a492b22fc30a9eb4e893ebe649ad49779f7",
+          "functions": [
+            {
+              "name": "validate_original",
+              "first_line": 13,
+              "last_line": 28
+            },
+            {
+              "name": "positive_outer_caps",
+              "first_line": 30,
+              "last_line": 44
+            },
+            {
+              "name": "cell35",
+              "first_line": 46,
+              "last_line": 89
+            },
+            {
+              "name": "evidence",
+              "first_line": 60,
+              "last_line": 65
+            }
+          ]
+        },
+        {
+          "file": "local_contact_v13.py",
+          "sha256": "34a51131e94fd59623c278a9e753d70e45cde651c8d20ae1dddd604dba8e66ff",
+          "functions": [
+            {
+              "name": "cell35",
+              "first_line": 9,
+              "last_line": 38
+            }
+          ]
+        },
+        {
+          "file": "local_contact_support.py",
+          "sha256": "f0881cee379d3bd2ff293751f4c802eabd91b2c28c76a1c0984701ce9c4db680",
+          "functions": [
+            {
+              "name": "need",
+              "first_line": 17,
+              "last_line": 18
+            },
+            {
+              "name": "enc",
+              "first_line": 19,
+              "last_line": 23
+            },
+            {
+              "name": "same",
+              "first_line": 24,
+              "last_line": 28
+            },
+            {
+              "name": "constants",
+              "first_line": 30,
+              "last_line": 30
+            },
+            {
+              "name": "validate_premise",
+              "first_line": 31,
+              "last_line": 34
+            },
+            {
+              "name": "validate_contact_scope",
+              "first_line": 35,
+              "last_line": 41
+            },
+            {
+              "name": "mul",
+              "first_line": 42,
+              "last_line": 43
+            },
+            {
+              "name": "divide",
+              "first_line": 44,
+              "last_line": 46
+            },
+            {
+              "name": "original_box_state",
+              "first_line": 47,
+              "last_line": 67
+            },
+            {
+              "name": "restricted_line",
+              "first_line": 68,
+              "last_line": 86
+            },
+            {
+              "name": "ray",
+              "first_line": 87,
+              "last_line": 104
+            },
+            {
+              "name": "smaller_radii",
+              "first_line": 105,
+              "last_line": 125
+            }
+          ]
+        },
+        {
+          "file": "local_contact_gaussian.py",
+          "sha256": "c0ca6ae03a2aa4e635e41bd2a5ba8fb02a8b060b3c89313860208b2ac548a3be",
+          "functions": [
+            {
+              "name": "need",
+              "first_line": 14,
+              "last_line": 15
+            },
+            {
+              "name": "plus",
+              "first_line": 16,
+              "last_line": 16
+            },
+            {
+              "name": "scale",
+              "first_line": 17,
+              "last_line": 17
+            },
+            {
+              "name": "product",
+              "first_line": 18,
+              "last_line": 19
+            },
+            {
+              "name": "root",
+              "first_line": 20,
+              "last_line": 20
+            },
+            {
+              "name": "divroot",
+              "first_line": 21,
+              "last_line": 22
+            },
+            {
+              "name": "exponential",
+              "first_line": 24,
+              "last_line": 36
+            },
+            {
+              "name": "phi_at",
+              "first_line": 37,
+              "last_line": 37
+            },
+            {
+              "name": "phi_interval",
+              "first_line": 38,
+              "last_line": 40
+            },
+            {
+              "name": "cdf_grid",
+              "first_line": 42,
+              "last_line": 46
+            },
+            {
+              "name": "cdf_interval",
+              "first_line": 47,
+              "last_line": 49
+            },
+            {
+              "name": "gaussian_point",
+              "first_line": 51,
+              "last_line": 56
+            },
+            {
+              "name": "gaussian_line",
+              "first_line": 59,
+              "last_line": 74
+            },
+            {
+              "name": "target",
+              "first_line": 76,
+              "last_line": 94
+            }
+          ]
+        },
+        {
+          "file": "local_contact_binomial.py",
+          "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+          "functions": [
+            {
+              "name": "ceildiv",
+              "first_line": 9,
+              "last_line": 9
+            },
+            {
+              "name": "root",
+              "first_line": 10,
+              "last_line": 14
+            },
+            {
+              "name": "atan_interval",
+              "first_line": 15,
+              "last_line": 18
+            },
+            {
+              "name": "positive_cdf",
+              "first_line": 29,
+              "last_line": 46
+            },
+            {
+              "name": "cdf_at",
+              "first_line": 48,
+              "last_line": 59
+            },
+            {
+              "name": "endpoint",
+              "first_line": 61,
+              "last_line": 72
+            },
+            {
+              "name": "panel",
+              "first_line": 74,
+              "last_line": 93
+            }
+          ]
+        },
+        {
+          "file": "local_contact_scale.py",
+          "sha256": "a181f945263ef7919869f606618a92b6b12f806a24db977178f963680f2a7c41",
+          "functions": [
+            {
+              "name": "constants",
+              "first_line": 12,
+              "last_line": 20
+            },
+            {
+              "name": "data",
+              "first_line": 22,
+              "last_line": 29
+            },
+            {
+              "name": "target",
+              "first_line": 31,
+              "last_line": 46
+            }
+          ]
+        },
+        {
+          "file": "local_rho_upper_v14.py",
+          "sha256": "ffa7e725310f18122abfb5883e780328de0156ef4efe4f099ddb86609588f41e",
+          "functions": [
+            {
+              "name": "rounded_upper",
+              "first_line": 6,
+              "last_line": 9
+            },
+            {
+              "name": "upper_cap",
+              "first_line": 11,
+              "last_line": 38
+            }
+          ]
+        },
+        {
+          "file": "rho_variance_floor.py",
+          "sha256": "615acbcb948d2ba5767082f0dd2a2ab6f1d3999ae0a8afac3fd4c1d73b3aab6b",
+          "functions": [
+            {
+              "name": "root_lower",
+              "first_line": 6,
+              "last_line": 9
+            },
+            {
+              "name": "lower_lambda",
+              "first_line": 11,
+              "last_line": 28
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "panel": "p32",
+      "design_sha256": "cfe934b1385f9a26f36b6bf94cda9e5caeb6593700a54eeac7e7b1638df61627",
+      "source_files_sha_matched": 178,
+      "selected_source_locations": [
+        {
+          "file": "local_contact_v14.py",
+          "sha256": "78ee48726397e1a6185aa02584ffd21d4eb87ff69e9685807a13b5f9edf09a7c",
+          "functions": [
+            {
+              "name": "cell35",
+              "first_line": 10,
+              "last_line": 61
+            },
+            {
+              "name": "evidence",
+              "first_line": 16,
+              "last_line": 20
+            }
+          ]
+        },
+        {
+          "file": "local_contact_outer_v14.py",
+          "sha256": "a30217eb6cdc16a3bec77d1ddf6e3a492b22fc30a9eb4e893ebe649ad49779f7",
+          "functions": [
+            {
+              "name": "validate_original",
+              "first_line": 13,
+              "last_line": 28
+            },
+            {
+              "name": "positive_outer_caps",
+              "first_line": 30,
+              "last_line": 44
+            },
+            {
+              "name": "cell35",
+              "first_line": 46,
+              "last_line": 89
+            },
+            {
+              "name": "evidence",
+              "first_line": 60,
+              "last_line": 65
+            }
+          ]
+        },
+        {
+          "file": "local_contact_v13.py",
+          "sha256": "34a51131e94fd59623c278a9e753d70e45cde651c8d20ae1dddd604dba8e66ff",
+          "functions": [
+            {
+              "name": "cell35",
+              "first_line": 9,
+              "last_line": 38
+            }
+          ]
+        },
+        {
+          "file": "local_contact_support.py",
+          "sha256": "f0881cee379d3bd2ff293751f4c802eabd91b2c28c76a1c0984701ce9c4db680",
+          "functions": [
+            {
+              "name": "need",
+              "first_line": 17,
+              "last_line": 18
+            },
+            {
+              "name": "enc",
+              "first_line": 19,
+              "last_line": 23
+            },
+            {
+              "name": "same",
+              "first_line": 24,
+              "last_line": 28
+            },
+            {
+              "name": "constants",
+              "first_line": 30,
+              "last_line": 30
+            },
+            {
+              "name": "validate_premise",
+              "first_line": 31,
+              "last_line": 34
+            },
+            {
+              "name": "validate_contact_scope",
+              "first_line": 35,
+              "last_line": 41
+            },
+            {
+              "name": "mul",
+              "first_line": 42,
+              "last_line": 43
+            },
+            {
+              "name": "divide",
+              "first_line": 44,
+              "last_line": 46
+            },
+            {
+              "name": "original_box_state",
+              "first_line": 47,
+              "last_line": 67
+            },
+            {
+              "name": "restricted_line",
+              "first_line": 68,
+              "last_line": 86
+            },
+            {
+              "name": "ray",
+              "first_line": 87,
+              "last_line": 104
+            },
+            {
+              "name": "smaller_radii",
+              "first_line": 105,
+              "last_line": 125
+            }
+          ]
+        },
+        {
+          "file": "local_contact_gaussian.py",
+          "sha256": "c0ca6ae03a2aa4e635e41bd2a5ba8fb02a8b060b3c89313860208b2ac548a3be",
+          "functions": [
+            {
+              "name": "need",
+              "first_line": 14,
+              "last_line": 15
+            },
+            {
+              "name": "plus",
+              "first_line": 16,
+              "last_line": 16
+            },
+            {
+              "name": "scale",
+              "first_line": 17,
+              "last_line": 17
+            },
+            {
+              "name": "product",
+              "first_line": 18,
+              "last_line": 19
+            },
+            {
+              "name": "root",
+              "first_line": 20,
+              "last_line": 20
+            },
+            {
+              "name": "divroot",
+              "first_line": 21,
+              "last_line": 22
+            },
+            {
+              "name": "exponential",
+              "first_line": 24,
+              "last_line": 36
+            },
+            {
+              "name": "phi_at",
+              "first_line": 37,
+              "last_line": 37
+            },
+            {
+              "name": "phi_interval",
+              "first_line": 38,
+              "last_line": 40
+            },
+            {
+              "name": "cdf_grid",
+              "first_line": 42,
+              "last_line": 46
+            },
+            {
+              "name": "cdf_interval",
+              "first_line": 47,
+              "last_line": 49
+            },
+            {
+              "name": "gaussian_point",
+              "first_line": 51,
+              "last_line": 56
+            },
+            {
+              "name": "gaussian_line",
+              "first_line": 59,
+              "last_line": 74
+            },
+            {
+              "name": "target",
+              "first_line": 76,
+              "last_line": 94
+            }
+          ]
+        },
+        {
+          "file": "local_contact_binomial.py",
+          "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+          "functions": [
+            {
+              "name": "ceildiv",
+              "first_line": 9,
+              "last_line": 9
+            },
+            {
+              "name": "root",
+              "first_line": 10,
+              "last_line": 14
+            },
+            {
+              "name": "atan_interval",
+              "first_line": 15,
+              "last_line": 18
+            },
+            {
+              "name": "positive_cdf",
+              "first_line": 29,
+              "last_line": 46
+            },
+            {
+              "name": "cdf_at",
+              "first_line": 48,
+              "last_line": 59
+            },
+            {
+              "name": "endpoint",
+              "first_line": 61,
+              "last_line": 72
+            },
+            {
+              "name": "panel",
+              "first_line": 74,
+              "last_line": 93
+            }
+          ]
+        },
+        {
+          "file": "local_contact_scale.py",
+          "sha256": "a181f945263ef7919869f606618a92b6b12f806a24db977178f963680f2a7c41",
+          "functions": [
+            {
+              "name": "constants",
+              "first_line": 12,
+              "last_line": 20
+            },
+            {
+              "name": "data",
+              "first_line": 22,
+              "last_line": 29
+            },
+            {
+              "name": "target",
+              "first_line": 31,
+              "last_line": 46
+            }
+          ]
+        },
+        {
+          "file": "local_rho_upper_v14.py",
+          "sha256": "ffa7e725310f18122abfb5883e780328de0156ef4efe4f099ddb86609588f41e",
+          "functions": [
+            {
+              "name": "rounded_upper",
+              "first_line": 6,
+              "last_line": 9
+            },
+            {
+              "name": "upper_cap",
+              "first_line": 11,
+              "last_line": 38
+            }
+          ]
+        },
+        {
+          "file": "rho_variance_floor.py",
+          "sha256": "615acbcb948d2ba5767082f0dd2a2ab6f1d3999ae0a8afac3fd4c1d73b3aab6b",
+          "functions": [
+            {
+              "name": "root_lower",
+              "first_line": 6,
+              "last_line": 9
+            },
+            {
+              "name": "lower_lambda",
+              "first_line": 11,
+              "last_line": 28
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

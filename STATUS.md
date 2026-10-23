@@ -7,6 +7,7 @@ Details are linked, not treated as additional independent proof claims.
 not expansion of the compute queue.**
 
 - [Mathematical audit and high-level graphs](proof/LOGICAL_AUDIT.md).
+- [Code-to-lemma and certificate-link audit](proof/CODE_INTERFACE_AUDIT.md).
 - [Observed evidence and limitations](proof/observed_runs.md).
 - [Notebook instructions](colab/README.md).
 - [Open proof-obligation plan](proof/obligations.json).
@@ -18,6 +19,11 @@ theorem needs an explicit nonnegative mass bound; finite 31--48 coverage and
 confinement sign gates must be explicit. Selected-kernel soundness,
 implementation coverage, complete certificates and semantic joins remain open.
 Analytic review and numerical completion are different kinds of evidence.
+
+The implementation audit now records selected primitive/HIGH/LOW/count/V14
+matches and current7 semantic edges. A real auxiliary evidence-file readback
+gap is repaired in collector23, preserving active numerical driver/source pins.
+This does not close all enabled kernels or the missing regional joins.
 
 ## Execution snapshot
 
@@ -33,7 +39,8 @@ Log completion is not independent bundle validation.
 |12 corrected|2 GiB run ends incomplete near its 130-minute wall ceiling;13/14 main and25/41 retained execution records. Exact final supervisor reason not yet inspected.|
 |16|Complete 25-stage auxiliary23 log, 18,377 leaves; full theorem conditional.|
 |17|Complete 16-stage stronger24 B0 BASIC log, 1,929 leaves; export to revalidate.|
-|18--22|Available; user plans 18/19. No completion assumed without evidence.|
+|18|Complete 13-stage stronger24 B1 BASIC log,9,803 leaves; export to revalidate.|
+|19--22|Available; user reports launching19 and plans20. No completion assumed without evidence.|
 |23|Waits for all nine 14--22 inputs and checks their conditional chain.|
 |24|Seven count targets plus 09/10 collector; not the full n25 union.|
 |26--28|Published on GitHub/Drive; 75 retained n25 forests, 94,288 leaves. No launch/completion assumed.|

@@ -23,7 +23,7 @@ EXPECTED = {
     "16_auxiliary23": ("be_replay.aux21_23", "23", "test_aux21_23.py"),
     **{f"{17 + i:02d}_stronger24_b{i}": ("be_replay.strong24_branches", f"b{i}", "test_strong24_branches.py")
        for i in range(6)},
-    "23_auxiliary24_final_join": ("be_replay.aux24_join", None, "test_aux24_join.py"),
+    "23_auxiliary24_final_join": ("be_replay.aux24_join", None, "test_aux24*.py"),
 }
 
 

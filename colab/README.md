@@ -113,6 +113,12 @@ Notebooks 14–16 replay the coarse auxiliary chain at n21, n22 and n23. Noteboo
 
 Run **23 last**, after all nine jobs have completed and saved their final ZIPs. It discovers their bundles automatically, verifies the archive hashes and complete exported execution evidence, and checks the exact auxiliary allowances and high-rho tail. Missing or incompatible results produce `WAITING_FOR_COMPLETED_JOBS`; rerun 23 after the missing work finishes. It does not rerun the expensive leaf calculations.
 
+Use the current repository version of23: the implementation audit added strict
+readback of actual launch, supervisor, native-guard and capture files. Embedded
+success summaries alone are insufficient. Valid existing14--22 exports remain
+usable, with BASIC execution kept conditional. No numerical restart is needed
+for this collector repair. See [the implementation audit](../proof/CODE_INTERFACE_AUDIT.md).
+
 Each numerical action has a two-hour CPU ceiling and a 121-minute wall ceiling. A job contains several such actions and may outlive a session. In 14–16, compatible completed stage evidence is revalidated before reuse; an interrupted stage restarts in full. In this first version of 17–22, a new Run all starts a new branch epoch, preserving earlier evidence but **without automatic completed-stage reuse**. Their interrupted native actions have no internal checkpoint.
 
 The numerical target is the auxiliary statement **C24 < CE + 1/80**, supplying the selected n25 contact allowance 5/16. These notebooks do not claim sharp C24 or the global theorem. The final numerical chain still requires the stated external estimates and retained same-law analytic implications. See [the auxiliary execution scope](../proof/aux24_execution.md), [n21–23 details](../proof/aux21_23_execution.md), and [the six n24 branches](../proof/strong24_branches_execution.md).

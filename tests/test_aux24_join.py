@@ -8,7 +8,7 @@ import unittest
 from unittest.mock import patch
 import zipfile
 
-from be_replay import aux24_join as join, aux21_23, strong24_branches
+from be_replay import aux24_join as join, aux21_23, strong24_branches, aux24_evidence
 
 
 class AuxiliaryJoinTests(unittest.TestCase):
@@ -73,6 +73,8 @@ class AuxiliaryJoinTests(unittest.TestCase):
     def run_mocked(self):
         with patch.object(aux21_23, "validate_completed", side_effect=self.validator), \
              patch.object(strong24_branches, "validate_completed", side_effect=self.validator), \
+             patch.object(aux24_evidence, "validate_task_transport", side_effect=lambda task, key:
+                          dict(job=key, execution_transport_revalidated=True, fixture_only=True)), \
              patch.object(join, "scalar_certificate", return_value=self.scalar) as scalar, redirect_stdout(io.StringIO()):
             result = join.run(self.durable, self.work)
         return result, scalar.call_count
@@ -114,6 +116,18 @@ class AuxiliaryJoinTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "match sidecar"):
             join.extract(path, target)
         self.assertFalse(target.exists())
+
+    def test_arithmetic_packet_without_actual_transport_cannot_enter_chain(self):
+        self.archive("auxiliary21")
+        with patch.object(aux21_23, "validate_completed", side_effect=self.validator), \
+             patch.object(aux24_evidence, "validate_task_transport", side_effect=ValueError("Missing actual guard artifact")), \
+             patch.object(join, "scalar_certificate", side_effect=AssertionError("No scalar for rejected evidence")), redirect_stdout(io.StringIO()):
+            result = join.run(self.durable, self.work)
+        self.assertFalse(result["conditional_fresh_numeric_chain_verified"])
+        self.assertFalse(result["imports"])
+        self.assertEqual(len(result["missing_jobs"]), 9)
+        reasons = result["missing_jobs"][0]["reasons"]
+        self.assertIn("Missing actual guard artifact", reasons[0]["reason"])
 
     def test_missing_sidecar_and_wrong_basename_are_not_complete_evidence(self):
         path = self.archive("auxiliary21")

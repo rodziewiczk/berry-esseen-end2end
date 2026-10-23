@@ -1,0 +1,1667 @@
+{
+  "schema": "SCOPED_FOURIER_SOURCE_READBACK_NOT_ACCEPTANCE_V1",
+  "date": "2026-10-23",
+  "source_archive_sha256": "17fa140f63c5134ac48f1fd1040f4c5ae4bebdb2b92b2d7ce69f4048293d1fcb",
+  "manuscript_sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+  "source_only": true,
+  "numerical_kernels_executed": false,
+  "arithmetic_accepted": false,
+  "kernel_and_contracted_primitive_function_asts_identical": true,
+  "full_low_transfer_reviewed": false,
+  "full_support_callbacks_reviewed": false,
+  "selected_signed_low_coefficient_and_norm_rules_reviewed": true,
+  "signed_low_context_acquisition_reviewed": false,
+  "full_count_or_all_index_conclusion": false,
+  "capsules": [
+    {
+      "branch": "b3",
+      "kind": "initial",
+      "archive_directory": "cutoff25_20261011/new_root/initial25_b3_exact_v1",
+      "manifest_sha256": "924d0f64a8f7454ead9c36ff28d7026f1ba0fa56ecdc05ff4333b175cdc09b12",
+      "all_declared_source_files_sha_matched": true,
+      "source_file_count": 30,
+      "reviewed_file_locations": [
+        {
+          "file": "kernel.py",
+          "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+          "bytes": 19042,
+          "function_locations": [
+            {
+              "name": "need",
+              "first_line": 17,
+              "last_line": 18
+            },
+            {
+              "name": "down",
+              "first_line": 19,
+              "last_line": 19
+            },
+            {
+              "name": "up",
+              "first_line": 20,
+              "last_line": 20
+            },
+            {
+              "name": "roots",
+              "first_line": 21,
+              "last_line": 23
+            },
+            {
+              "name": "exphi",
+              "first_line": 25,
+              "last_line": 29
+            },
+            {
+              "name": "constants",
+              "first_line": 30,
+              "last_line": 45
+            },
+            {
+              "name": "high",
+              "first_line": 46,
+              "last_line": 59
+            },
+            {
+              "name": "universal_high",
+              "first_line": 60,
+              "last_line": 62
+            },
+            {
+              "name": "sixth",
+              "first_line": 63,
+              "last_line": 83
+            },
+            {
+              "name": "score_cap",
+              "first_line": 84,
+              "last_line": 86
+            },
+            {
+              "name": "negative_gap_coefficient",
+              "first_line": 88,
+              "last_line": 99
+            },
+            {
+              "name": "initial_cell",
+              "first_line": 100,
+              "last_line": 177
+            },
+            {
+              "name": "general_geometry",
+              "first_line": 179,
+              "last_line": 193
+            },
+            {
+              "name": "general_cell",
+              "first_line": 194,
+              "last_line": 243
+            },
+            {
+              "name": "central_bound",
+              "first_line": 244,
+              "last_line": 257
+            },
+            {
+              "name": "general_envelope",
+              "first_line": 259,
+              "last_line": 273
+            },
+            {
+              "name": "paired",
+              "first_line": 275,
+              "last_line": 306
+            },
+            {
+              "name": "late_geometry",
+              "first_line": 307,
+              "last_line": 310
+            },
+            {
+              "name": "late_envelope",
+              "first_line": 311,
+              "last_line": 322
+            },
+            {
+              "name": "quadratic_extrema",
+              "first_line": 325,
+              "last_line": 334
+            },
+            {
+              "name": "signed_k_error",
+              "first_line": 335,
+              "last_line": 345
+            },
+            {
+              "name": "binary_charge",
+              "first_line": 198,
+              "last_line": 198
+            },
+            {
+              "name": "J",
+              "first_line": 290,
+              "last_line": 301
+            },
+            {
+              "name": "q",
+              "first_line": 327,
+              "last_line": 327
+            },
+            {
+              "name": "clip",
+              "first_line": 328,
+              "last_line": 328
+            },
+            {
+              "name": "K",
+              "first_line": 221,
+              "last_line": 221
+            }
+          ]
+        },
+        {
+          "file": "integer_exphi.py",
+          "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+          "bytes": 803,
+          "function_locations": [
+            {
+              "name": "exphi",
+              "first_line": 12,
+              "last_line": 24
+            }
+          ]
+        },
+        {
+          "file": "finite_binomial_core.py",
+          "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+          "bytes": 3510,
+          "function_locations": [
+            {
+              "name": "ceildiv",
+              "first_line": 9,
+              "last_line": 9
+            },
+            {
+              "name": "root",
+              "first_line": 10,
+              "last_line": 14
+            },
+            {
+              "name": "atan_interval",
+              "first_line": 15,
+              "last_line": 18
+            },
+            {
+              "name": "positive_cdf",
+              "first_line": 29,
+              "last_line": 46
+            },
+            {
+              "name": "cdf_at",
+              "first_line": 48,
+              "last_line": 59
+            },
+            {
+              "name": "endpoint",
+              "first_line": 61,
+              "last_line": 72
+            },
+            {
+              "name": "panel",
+              "first_line": 74,
+              "last_line": 93
+            }
+          ]
+        },
+        {
+          "file": "high_window_common.py",
+          "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+          "bytes": 2810,
+          "function_locations": [
+            {
+              "name": "constants",
+              "first_line": 11,
+              "last_line": 14
+            },
+            {
+              "name": "window_constants",
+              "first_line": 17,
+              "last_line": 21
+            },
+            {
+              "name": "install",
+              "first_line": 23,
+              "last_line": 68
+            },
+            {
+              "name": "check_frozen",
+              "first_line": 25,
+              "last_line": 27
+            },
+            {
+              "name": "base",
+              "first_line": 29,
+              "last_line": 33
+            },
+            {
+              "name": "common",
+              "first_line": 35,
+              "last_line": 49
+            },
+            {
+              "name": "one",
+              "first_line": 50,
+              "last_line": 62
+            },
+            {
+              "name": "best",
+              "first_line": 63,
+              "last_line": 66
+            }
+          ]
+        },
+        {
+          "file": "high_window_core.py",
+          "sha256": "62ba022998f45e0e4f8628badfe5092ae0b8d2bc256d5c18614bfb44e63906a0",
+          "bytes": 2214,
+          "function_locations": [
+            {
+              "name": "constants",
+              "first_line": 11,
+              "last_line": 14
+            },
+            {
+              "name": "window_constants",
+              "first_line": 17,
+              "last_line": 21
+            },
+            {
+              "name": "install",
+              "first_line": 23,
+              "last_line": 52
+            },
+            {
+              "name": "one",
+              "first_line": 24,
+              "last_line": 46
+            },
+            {
+              "name": "best",
+              "first_line": 47,
+              "last_line": 50
+            }
+          ]
+        },
+        {
+          "file": "cantelli_high.py",
+          "sha256": "c95a6ce9d75fd2c5693de574f322859bcb29d25df4cada9facd96ed3edc02239",
+          "bytes": 1593,
+          "function_locations": [
+            {
+              "name": "install",
+              "first_line": 9,
+              "last_line": 44
+            },
+            {
+              "name": "parameters",
+              "first_line": 17,
+              "last_line": 19
+            },
+            {
+              "name": "admissible",
+              "first_line": 20,
+              "last_line": 30
+            },
+            {
+              "name": "candidates",
+              "first_line": 31,
+              "last_line": 38
+            },
+            {
+              "name": "universal",
+              "first_line": 40,
+              "last_line": 42
+            }
+          ]
+        },
+        {
+          "file": "high_grid.py",
+          "sha256": "a6b631ea8df0299e7bbd14f9d6afd21abd3f1693f66d24036cefda36f51c741a",
+          "bytes": 740,
+          "function_locations": [
+            {
+              "name": "install",
+              "first_line": 5,
+              "last_line": 20
+            },
+            {
+              "name": "coarsened",
+              "first_line": 8,
+              "last_line": 18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "branch": "b3",
+      "kind": "resource",
+      "archive_directory": "cutoff25_20261011/new_root/resource25_b3_v1",
+      "manifest_sha256": "109e5298997f69d0efaeb4831412d575915972e2916fe6a205f188a74fa011a7",
+      "all_declared_source_files_sha_matched": true,
+      "source_file_count": 32,
+      "reviewed_file_locations": [
+        {
+          "file": "kernel.py",
+          "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+          "bytes": 19042,
+          "function_locations": [
+            {
+              "name": "need",
+              "first_line": 17,
+              "last_line": 18
+            },
+            {
+              "name": "down",
+              "first_line": 19,
+              "last_line": 19
+            },
+            {
+              "name": "up",
+              "first_line": 20,
+              "last_line": 20
+            },
+            {
+              "name": "roots",
+              "first_line": 21,
+              "last_line": 23
+            },
+            {
+              "name": "exphi",
+              "first_line": 25,
+              "last_line": 29
+            },
+            {
+              "name": "constants",
+              "first_line": 30,
+              "last_line": 45
+            },
+            {
+              "name": "high",
+              "first_line": 46,
+              "last_line": 59
+            },
+            {
+              "name": "universal_high",
+              "first_line": 60,
+              "last_line": 62
+            },
+            {
+              "name": "sixth",
+              "first_line": 63,
+              "last_line": 83
+            },
+            {
+              "name": "score_cap",
+              "first_line": 84,
+              "last_line": 86
+            },
+            {
+              "name": "negative_gap_coefficient",
+              "first_line": 88,
+              "last_line": 99
+            },
+            {
+              "name": "initial_cell",
+              "first_line": 100,
+              "last_line": 177
+            },
+            {
+              "name": "general_geometry",
+              "first_line": 179,
+              "last_line": 193
+            },
+            {
+              "name": "general_cell",
+              "first_line": 194,
+              "last_line": 243
+            },
+            {
+              "name": "central_bound",
+              "first_line": 244,
+              "last_line": 257
+            },
+            {
+              "name": "general_envelope",
+              "first_line": 259,
+              "last_line": 273
+            },
+            {
+              "name": "paired",
+              "first_line": 275,
+              "last_line": 306
+            },
+            {
+              "name": "late_geometry",
+              "first_line": 307,
+              "last_line": 310
+            },
+            {
+              "name": "late_envelope",
+              "first_line": 311,
+              "last_line": 322
+            },
+            {
+              "name": "quadratic_extrema",
+              "first_line": 325,
+              "last_line": 334
+            },
+            {
+              "name": "signed_k_error",
+              "first_line": 335,
+              "last_line": 345
+            },
+            {
+              "name": "binary_charge",
+              "first_line": 198,
+              "last_line": 198
+            },
+            {
+              "name": "J",
+              "first_line": 290,
+              "last_line": 301
+            },
+            {
+              "name": "q",
+              "first_line": 327,
+              "last_line": 327
+            },
+            {
+              "name": "clip",
+              "first_line": 328,
+              "last_line": 328
+            },
+            {
+              "name": "K",
+              "first_line": 221,
+              "last_line": 221
+            }
+          ]
+        },
+        {
+          "file": "contracted_kernel.py",
+          "sha256": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0",
+          "bytes": 20457,
+          "function_locations": [
+            {
+              "name": "need",
+              "first_line": 19,
+              "last_line": 20
+            },
+            {
+              "name": "down",
+              "first_line": 21,
+              "last_line": 21
+            },
+            {
+              "name": "up",
+              "first_line": 22,
+              "last_line": 22
+            },
+            {
+              "name": "roots",
+              "first_line": 23,
+              "last_line": 25
+            },
+            {
+              "name": "exphi",
+              "first_line": 27,
+              "last_line": 31
+            },
+            {
+              "name": "constants",
+              "first_line": 32,
+              "last_line": 47
+            },
+            {
+              "name": "high",
+              "first_line": 48,
+              "last_line": 61
+            },
+            {
+              "name": "universal_high",
+              "first_line": 62,
+              "last_line": 64
+            },
+            {
+              "name": "sixth",
+              "first_line": 65,
+              "last_line": 85
+            },
+            {
+              "name": "score_cap",
+              "first_line": 86,
+              "last_line": 88
+            },
+            {
+              "name": "negative_gap_coefficient",
+              "first_line": 90,
+              "last_line": 101
+            },
+            {
+              "name": "initial_cell",
+              "first_line": 102,
+              "last_line": 179
+            },
+            {
+              "name": "general_geometry",
+              "first_line": 181,
+              "last_line": 195
+            },
+            {
+              "name": "general_cell",
+              "first_line": 196,
+              "last_line": 246
+            },
+            {
+              "name": "central_bound",
+              "first_line": 247,
+              "last_line": 260
+            },
+            {
+              "name": "positive_gap_event_lower",
+              "first_line": 262,
+              "last_line": 271
+            },
+            {
+              "name": "general_envelope",
+              "first_line": 273,
+              "last_line": 290
+            },
+            {
+              "name": "paired",
+              "first_line": 292,
+              "last_line": 323
+            },
+            {
+              "name": "late_geometry",
+              "first_line": 324,
+              "last_line": 327
+            },
+            {
+              "name": "late_envelope",
+              "first_line": 328,
+              "last_line": 339
+            },
+            {
+              "name": "quadratic_extrema",
+              "first_line": 342,
+              "last_line": 351
+            },
+            {
+              "name": "signed_k_error",
+              "first_line": 352,
+              "last_line": 364
+            },
+            {
+              "name": "binary_charge",
+              "first_line": 200,
+              "last_line": 200
+            },
+            {
+              "name": "J",
+              "first_line": 307,
+              "last_line": 318
+            },
+            {
+              "name": "q",
+              "first_line": 344,
+              "last_line": 344
+            },
+            {
+              "name": "clip",
+              "first_line": 345,
+              "last_line": 345
+            },
+            {
+              "name": "K",
+              "first_line": 224,
+              "last_line": 224
+            }
+          ]
+        },
+        {
+          "file": "integer_exphi.py",
+          "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+          "bytes": 803,
+          "function_locations": [
+            {
+              "name": "exphi",
+              "first_line": 12,
+              "last_line": 24
+            }
+          ]
+        },
+        {
+          "file": "finite_binomial_core.py",
+          "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+          "bytes": 3510,
+          "function_locations": [
+            {
+              "name": "ceildiv",
+              "first_line": 9,
+              "last_line": 9
+            },
+            {
+              "name": "root",
+              "first_line": 10,
+              "last_line": 14
+            },
+            {
+              "name": "atan_interval",
+              "first_line": 15,
+              "last_line": 18
+            },
+            {
+              "name": "positive_cdf",
+              "first_line": 29,
+              "last_line": 46
+            },
+            {
+              "name": "cdf_at",
+              "first_line": 48,
+              "last_line": 59
+            },
+            {
+              "name": "endpoint",
+              "first_line": 61,
+              "last_line": 72
+            },
+            {
+              "name": "panel",
+              "first_line": 74,
+              "last_line": 93
+            }
+          ]
+        },
+        {
+          "file": "finite_gaussian.py",
+          "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+          "bytes": 3510,
+          "function_locations": [
+            {
+              "name": "ceildiv",
+              "first_line": 9,
+              "last_line": 9
+            },
+            {
+              "name": "root",
+              "first_line": 10,
+              "last_line": 14
+            },
+            {
+              "name": "atan_interval",
+              "first_line": 15,
+              "last_line": 18
+            },
+            {
+              "name": "positive_cdf",
+              "first_line": 29,
+              "last_line": 46
+            },
+            {
+              "name": "cdf_at",
+              "first_line": 48,
+              "last_line": 59
+            },
+            {
+              "name": "endpoint",
+              "first_line": 61,
+              "last_line": 72
+            },
+            {
+              "name": "panel",
+              "first_line": 74,
+              "last_line": 93
+            }
+          ]
+        },
+        {
+          "file": "high_window_common.py",
+          "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+          "bytes": 2810,
+          "function_locations": [
+            {
+              "name": "constants",
+              "first_line": 11,
+              "last_line": 14
+            },
+            {
+              "name": "window_constants",
+              "first_line": 17,
+              "last_line": 21
+            },
+            {
+              "name": "install",
+              "first_line": 23,
+              "last_line": 68
+            },
+            {
+              "name": "check_frozen",
+              "first_line": 25,
+              "last_line": 27
+            },
+            {
+              "name": "base",
+              "first_line": 29,
+              "last_line": 33
+            },
+            {
+              "name": "common",
+              "first_line": 35,
+              "last_line": 49
+            },
+            {
+              "name": "one",
+              "first_line": 50,
+              "last_line": 62
+            },
+            {
+              "name": "best",
+              "first_line": 63,
+              "last_line": 66
+            }
+          ]
+        },
+        {
+          "file": "high_window_core.py",
+          "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+          "bytes": 1966,
+          "function_locations": [
+            {
+              "name": "install",
+              "first_line": 9,
+              "last_line": 40
+            },
+            {
+              "name": "one",
+              "first_line": 10,
+              "last_line": 34
+            },
+            {
+              "name": "best",
+              "first_line": 35,
+              "last_line": 38
+            }
+          ]
+        },
+        {
+          "file": "general_paired_exact.py",
+          "sha256": "e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96",
+          "bytes": 4013,
+          "function_locations": [
+            {
+              "name": "cubic_range",
+              "first_line": 10,
+              "last_line": 19
+            },
+            {
+              "name": "coefficients",
+              "first_line": 21,
+              "last_line": 35
+            },
+            {
+              "name": "install",
+              "first_line": 37,
+              "last_line": 77
+            },
+            {
+              "name": "context",
+              "first_line": 38,
+              "last_line": 45
+            },
+            {
+              "name": "eligible",
+              "first_line": 46,
+              "last_line": 51
+            },
+            {
+              "name": "paired",
+              "first_line": 52,
+              "last_line": 75
+            },
+            {
+              "name": "J",
+              "first_line": 58,
+              "last_line": 68
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "branch": "b4",
+      "kind": "initial",
+      "archive_directory": "cutoff25_20261011/new_root/initial25_b4_exact_v1",
+      "manifest_sha256": "f5c63d15fefd27090068c31ef080c4de4929c5ebefae62c27b7084baed50a0dc",
+      "all_declared_source_files_sha_matched": true,
+      "source_file_count": 30,
+      "reviewed_file_locations": [
+        {
+          "file": "kernel.py",
+          "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+          "bytes": 19042,
+          "function_locations": [
+            {
+              "name": "need",
+              "first_line": 17,
+              "last_line": 18
+            },
+            {
+              "name": "down",
+              "first_line": 19,
+              "last_line": 19
+            },
+            {
+              "name": "up",
+              "first_line": 20,
+              "last_line": 20
+            },
+            {
+              "name": "roots",
+              "first_line": 21,
+              "last_line": 23
+            },
+            {
+              "name": "exphi",
+              "first_line": 25,
+              "last_line": 29
+            },
+            {
+              "name": "constants",
+              "first_line": 30,
+              "last_line": 45
+            },
+            {
+              "name": "high",
+              "first_line": 46,
+              "last_line": 59
+            },
+            {
+              "name": "universal_high",
+              "first_line": 60,
+              "last_line": 62
+            },
+            {
+              "name": "sixth",
+              "first_line": 63,
+              "last_line": 83
+            },
+            {
+              "name": "score_cap",
+              "first_line": 84,
+              "last_line": 86
+            },
+            {
+              "name": "negative_gap_coefficient",
+              "first_line": 88,
+              "last_line": 99
+            },
+            {
+              "name": "initial_cell",
+              "first_line": 100,
+              "last_line": 177
+            },
+            {
+              "name": "general_geometry",
+              "first_line": 179,
+              "last_line": 193
+            },
+            {
+              "name": "general_cell",
+              "first_line": 194,
+              "last_line": 243
+            },
+            {
+              "name": "central_bound",
+              "first_line": 244,
+              "last_line": 257
+            },
+            {
+              "name": "general_envelope",
+              "first_line": 259,
+              "last_line": 273
+            },
+            {
+              "name": "paired",
+              "first_line": 275,
+              "last_line": 306
+            },
+            {
+              "name": "late_geometry",
+              "first_line": 307,
+              "last_line": 310
+            },
+            {
+              "name": "late_envelope",
+              "first_line": 311,
+              "last_line": 322
+            },
+            {
+              "name": "quadratic_extrema",
+              "first_line": 325,
+              "last_line": 334
+            },
+            {
+              "name": "signed_k_error",
+              "first_line": 335,
+              "last_line": 345
+            },
+            {
+              "name": "binary_charge",
+              "first_line": 198,
+              "last_line": 198
+            },
+            {
+              "name": "J",
+              "first_line": 290,
+              "last_line": 301
+            },
+            {
+              "name": "q",
+              "first_line": 327,
+              "last_line": 327
+            },
+            {
+              "name": "clip",
+              "first_line": 328,
+              "last_line": 328
+            },
+            {
+              "name": "K",
+              "first_line": 221,
+              "last_line": 221
+            }
+          ]
+        },
+        {
+          "file": "integer_exphi.py",
+          "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+          "bytes": 803,
+          "function_locations": [
+            {
+              "name": "exphi",
+              "first_line": 12,
+              "last_line": 24
+            }
+          ]
+        },
+        {
+          "file": "finite_binomial_core.py",
+          "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+          "bytes": 3510,
+          "function_locations": [
+            {
+              "name": "ceildiv",
+              "first_line": 9,
+              "last_line": 9
+            },
+            {
+              "name": "root",
+              "first_line": 10,
+              "last_line": 14
+            },
+            {
+              "name": "atan_interval",
+              "first_line": 15,
+              "last_line": 18
+            },
+            {
+              "name": "positive_cdf",
+              "first_line": 29,
+              "last_line": 46
+            },
+            {
+              "name": "cdf_at",
+              "first_line": 48,
+              "last_line": 59
+            },
+            {
+              "name": "endpoint",
+              "first_line": 61,
+              "last_line": 72
+            },
+            {
+              "name": "panel",
+              "first_line": 74,
+              "last_line": 93
+            }
+          ]
+        },
+        {
+          "file": "high_window_common.py",
+          "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+          "bytes": 2810,
+          "function_locations": [
+            {
+              "name": "constants",
+              "first_line": 11,
+              "last_line": 14
+            },
+            {
+              "name": "window_constants",
+              "first_line": 17,
+              "last_line": 21
+            },
+            {
+              "name": "install",
+              "first_line": 23,
+              "last_line": 68
+            },
+            {
+              "name": "check_frozen",
+              "first_line": 25,
+              "last_line": 27
+            },
+            {
+              "name": "base",
+              "first_line": 29,
+              "last_line": 33
+            },
+            {
+              "name": "common",
+              "first_line": 35,
+              "last_line": 49
+            },
+            {
+              "name": "one",
+              "first_line": 50,
+              "last_line": 62
+            },
+            {
+              "name": "best",
+              "first_line": 63,
+              "last_line": 66
+            }
+          ]
+        },
+        {
+          "file": "high_window_core.py",
+          "sha256": "62ba022998f45e0e4f8628badfe5092ae0b8d2bc256d5c18614bfb44e63906a0",
+          "bytes": 2214,
+          "function_locations": [
+            {
+              "name": "constants",
+              "first_line": 11,
+              "last_line": 14
+            },
+            {
+              "name": "window_constants",
+              "first_line": 17,
+              "last_line": 21
+            },
+            {
+              "name": "install",
+              "first_line": 23,
+              "last_line": 52
+            },
+            {
+              "name": "one",
+              "first_line": 24,
+              "last_line": 46
+            },
+            {
+              "name": "best",
+              "first_line": 47,
+              "last_line": 50
+            }
+          ]
+        },
+        {
+          "file": "cantelli_high.py",
+          "sha256": "c95a6ce9d75fd2c5693de574f322859bcb29d25df4cada9facd96ed3edc02239",
+          "bytes": 1593,
+          "function_locations": [
+            {
+              "name": "install",
+              "first_line": 9,
+              "last_line": 44
+            },
+            {
+              "name": "parameters",
+              "first_line": 17,
+              "last_line": 19
+            },
+            {
+              "name": "admissible",
+              "first_line": 20,
+              "last_line": 30
+            },
+            {
+              "name": "candidates",
+              "first_line": 31,
+              "last_line": 38
+            },
+            {
+              "name": "universal",
+              "first_line": 40,
+              "last_line": 42
+            }
+          ]
+        },
+        {
+          "file": "high_grid.py",
+          "sha256": "a6b631ea8df0299e7bbd14f9d6afd21abd3f1693f66d24036cefda36f51c741a",
+          "bytes": 740,
+          "function_locations": [
+            {
+              "name": "install",
+              "first_line": 5,
+              "last_line": 20
+            },
+            {
+              "name": "coarsened",
+              "first_line": 8,
+              "last_line": 18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "branch": "b4",
+      "kind": "resource",
+      "archive_directory": "cutoff25_20261011/new_root/resource25_b4_v1",
+      "manifest_sha256": "e5b5cba616eab39d73e3540f5950d2050b3f43ecd7fe386c4b203bf18b8b5fb3",
+      "all_declared_source_files_sha_matched": true,
+      "source_file_count": 32,
+      "reviewed_file_locations": [
+        {
+          "file": "kernel.py",
+          "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+          "bytes": 19042,
+          "function_locations": [
+            {
+              "name": "need",
+              "first_line": 17,
+              "last_line": 18
+            },
+            {
+              "name": "down",
+              "first_line": 19,
+              "last_line": 19
+            },
+            {
+              "name": "up",
+              "first_line": 20,
+              "last_line": 20
+            },
+            {
+              "name": "roots",
+              "first_line": 21,
+              "last_line": 23
+            },
+            {
+              "name": "exphi",
+              "first_line": 25,
+              "last_line": 29
+            },
+            {
+              "name": "constants",
+              "first_line": 30,
+              "last_line": 45
+            },
+            {
+              "name": "high",
+              "first_line": 46,
+              "last_line": 59
+            },
+            {
+              "name": "universal_high",
+              "first_line": 60,
+              "last_line": 62
+            },
+            {
+              "name": "sixth",
+              "first_line": 63,
+              "last_line": 83
+            },
+            {
+              "name": "score_cap",
+              "first_line": 84,
+              "last_line": 86
+            },
+            {
+              "name": "negative_gap_coefficient",
+              "first_line": 88,
+              "last_line": 99
+            },
+            {
+              "name": "initial_cell",
+              "first_line": 100,
+              "last_line": 177
+            },
+            {
+              "name": "general_geometry",
+              "first_line": 179,
+              "last_line": 193
+            },
+            {
+              "name": "general_cell",
+              "first_line": 194,
+              "last_line": 243
+            },
+            {
+              "name": "central_bound",
+              "first_line": 244,
+              "last_line": 257
+            },
+            {
+              "name": "general_envelope",
+              "first_line": 259,
+              "last_line": 273
+            },
+            {
+              "name": "paired",
+              "first_line": 275,
+              "last_line": 306
+            },
+            {
+              "name": "late_geometry",
+              "first_line": 307,
+              "last_line": 310
+            },
+            {
+              "name": "late_envelope",
+              "first_line": 311,
+              "last_line": 322
+            },
+            {
+              "name": "quadratic_extrema",
+              "first_line": 325,
+              "last_line": 334
+            },
+            {
+              "name": "signed_k_error",
+              "first_line": 335,
+              "last_line": 345
+            },
+            {
+              "name": "binary_charge",
+              "first_line": 198,
+              "last_line": 198
+            },
+            {
+              "name": "J",
+              "first_line": 290,
+              "last_line": 301
+            },
+            {
+              "name": "q",
+              "first_line": 327,
+              "last_line": 327
+            },
+            {
+              "name": "clip",
+              "first_line": 328,
+              "last_line": 328
+            },
+            {
+              "name": "K",
+              "first_line": 221,
+              "last_line": 221
+            }
+          ]
+        },
+        {
+          "file": "contracted_kernel.py",
+          "sha256": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0",
+          "bytes": 20457,
+          "function_locations": [
+            {
+              "name": "need",
+              "first_line": 19,
+              "last_line": 20
+            },
+            {
+              "name": "down",
+              "first_line": 21,
+              "last_line": 21
+            },
+            {
+              "name": "up",
+              "first_line": 22,
+              "last_line": 22
+            },
+            {
+              "name": "roots",
+              "first_line": 23,
+              "last_line": 25
+            },
+            {
+              "name": "exphi",
+              "first_line": 27,
+              "last_line": 31
+            },
+            {
+              "name": "constants",
+              "first_line": 32,
+              "last_line": 47
+            },
+            {
+              "name": "high",
+              "first_line": 48,
+              "last_line": 61
+            },
+            {
+              "name": "universal_high",
+              "first_line": 62,
+              "last_line": 64
+            },
+            {
+              "name": "sixth",
+              "first_line": 65,
+              "last_line": 85
+            },
+            {
+              "name": "score_cap",
+              "first_line": 86,
+              "last_line": 88
+            },
+            {
+              "name": "negative_gap_coefficient",
+              "first_line": 90,
+              "last_line": 101
+            },
+            {
+              "name": "initial_cell",
+              "first_line": 102,
+              "last_line": 179
+            },
+            {
+              "name": "general_geometry",
+              "first_line": 181,
+              "last_line": 195
+            },
+            {
+              "name": "general_cell",
+              "first_line": 196,
+              "last_line": 246
+            },
+            {
+              "name": "central_bound",
+              "first_line": 247,
+              "last_line": 260
+            },
+            {
+              "name": "positive_gap_event_lower",
+              "first_line": 262,
+              "last_line": 271
+            },
+            {
+              "name": "general_envelope",
+              "first_line": 273,
+              "last_line": 290
+            },
+            {
+              "name": "paired",
+              "first_line": 292,
+              "last_line": 323
+            },
+            {
+              "name": "late_geometry",
+              "first_line": 324,
+              "last_line": 327
+            },
+            {
+              "name": "late_envelope",
+              "first_line": 328,
+              "last_line": 339
+            },
+            {
+              "name": "quadratic_extrema",
+              "first_line": 342,
+              "last_line": 351
+            },
+            {
+              "name": "signed_k_error",
+              "first_line": 352,
+              "last_line": 364
+            },
+            {
+              "name": "binary_charge",
+              "first_line": 200,
+              "last_line": 200
+            },
+            {
+              "name": "J",
+              "first_line": 307,
+              "last_line": 318
+            },
+            {
+              "name": "q",
+              "first_line": 344,
+              "last_line": 344
+            },
+            {
+              "name": "clip",
+              "first_line": 345,
+              "last_line": 345
+            },
+            {
+              "name": "K",
+              "first_line": 224,
+              "last_line": 224
+            }
+          ]
+        },
+        {
+          "file": "integer_exphi.py",
+          "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+          "bytes": 803,
+          "function_locations": [
+            {
+              "name": "exphi",
+              "first_line": 12,
+              "last_line": 24
+            }
+          ]
+        },
+        {
+          "file": "finite_binomial_core.py",
+          "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+          "bytes": 3510,
+          "function_locations": [
+            {
+              "name": "ceildiv",
+              "first_line": 9,
+              "last_line": 9
+            },
+            {
+              "name": "root",
+              "first_line": 10,
+              "last_line": 14
+            },
+            {
+              "name": "atan_interval",
+              "first_line": 15,
+              "last_line": 18
+            },
+            {
+              "name": "positive_cdf",
+              "first_line": 29,
+              "last_line": 46
+            },
+            {
+              "name": "cdf_at",
+              "first_line": 48,
+              "last_line": 59
+            },
+            {
+              "name": "endpoint",
+              "first_line": 61,
+              "last_line": 72
+            },
+            {
+              "name": "panel",
+              "first_line": 74,
+              "last_line": 93
+            }
+          ]
+        },
+        {
+          "file": "finite_gaussian.py",
+          "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+          "bytes": 3510,
+          "function_locations": [
+            {
+              "name": "ceildiv",
+              "first_line": 9,
+              "last_line": 9
+            },
+            {
+              "name": "root",
+              "first_line": 10,
+              "last_line": 14
+            },
+            {
+              "name": "atan_interval",
+              "first_line": 15,
+              "last_line": 18
+            },
+            {
+              "name": "positive_cdf",
+              "first_line": 29,
+              "last_line": 46
+            },
+            {
+              "name": "cdf_at",
+              "first_line": 48,
+              "last_line": 59
+            },
+            {
+              "name": "endpoint",
+              "first_line": 61,
+              "last_line": 72
+            },
+            {
+              "name": "panel",
+              "first_line": 74,
+              "last_line": 93
+            }
+          ]
+        },
+        {
+          "file": "high_window_common.py",
+          "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+          "bytes": 2810,
+          "function_locations": [
+            {
+              "name": "constants",
+              "first_line": 11,
+              "last_line": 14
+            },
+            {
+              "name": "window_constants",
+              "first_line": 17,
+              "last_line": 21
+            },
+            {
+              "name": "install",
+              "first_line": 23,
+              "last_line": 68
+            },
+            {
+              "name": "check_frozen",
+              "first_line": 25,
+              "last_line": 27
+            },
+            {
+              "name": "base",
+              "first_line": 29,
+              "last_line": 33
+            },
+            {
+              "name": "common",
+              "first_line": 35,
+              "last_line": 49
+            },
+            {
+              "name": "one",
+              "first_line": 50,
+              "last_line": 62
+            },
+            {
+              "name": "best",
+              "first_line": 63,
+              "last_line": 66
+            }
+          ]
+        },
+        {
+          "file": "high_window_core.py",
+          "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+          "bytes": 1966,
+          "function_locations": [
+            {
+              "name": "install",
+              "first_line": 9,
+              "last_line": 40
+            },
+            {
+              "name": "one",
+              "first_line": 10,
+              "last_line": 34
+            },
+            {
+              "name": "best",
+              "first_line": 35,
+              "last_line": 38
+            }
+          ]
+        },
+        {
+          "file": "general_paired_exact.py",
+          "sha256": "e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96",
+          "bytes": 4013,
+          "function_locations": [
+            {
+              "name": "cubic_range",
+              "first_line": 10,
+              "last_line": 19
+            },
+            {
+              "name": "coefficients",
+              "first_line": 21,
+              "last_line": 35
+            },
+            {
+              "name": "install",
+              "first_line": 37,
+              "last_line": 77
+            },
+            {
+              "name": "context",
+              "first_line": 38,
+              "last_line": 45
+            },
+            {
+              "name": "eligible",
+              "first_line": 46,
+              "last_line": 51
+            },
+            {
+              "name": "paired",
+              "first_line": 52,
+              "last_line": 75
+            },
+            {
+              "name": "J",
+              "first_line": 58,
+              "last_line": 68
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
