@@ -1,0 +1,22 @@
+{
+  "all_index_conclusion_verified": false,
+  "arithmetic_computed": false,
+  "bytes": 561593,
+  "files": 85,
+  "full_notebook56_completed": false,
+  "import_check_limitation": "Static stdlib/sealed-basename inventory; not a proof of every dynamic import route. NumPy is untrusted planner-only.",
+  "original_manifest_rows": 82,
+  "original_manifest_sha256": "64b9a57b55376ada096f7c8239a2ad07464865829ca5e4f8cf52d661b2eb4872",
+  "original_mathematical_modules_imported_or_evaluated": false,
+  "parent_acquisitions_verified": false,
+  "python_source_files": 51,
+  "schema": "FINITE1014_HIGHRHO_ACTUAL_SOURCE_ONLY_PREPARATION_V1",
+  "source_adapter_sha256": "afefcec567b975d1492f2c6400f67ea1bdb3120fd93993d182720d0f61cf6469",
+  "source_manifest_sha256": "d4a155f2287f6f99aed4853613f4975bb3a314b24f60c01ed4d94ebeb38fd63e",
+  "source_manifests_modified": false,
+  "source_plan_sha256": "8aede238ca6a9fabe56270bd9c670951576959b344788a83d600d599f3db4159",
+  "source_programs_modified": false,
+  "static_import_occurrences": 300,
+  "syntax_warnings": [],
+  "unresolved_basename_imports": []
+}
