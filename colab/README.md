@@ -367,3 +367,16 @@ Only a fully revalidated complete four-action cache is reused; interrupted
 work restarts this transaction. The other parts of56, the217count interfaces
 and all-index theorem remain open. See [scope](../proof/finite1014_parent_auxiliary_execution.md)
 and [internal review](../proof/finite1014_parent_auxiliary_root_review.md).
+
+Notebook56B, `56B_n10_14_supported_fourier.ipynb`, selects immutable runtime
+`6804c6efacdbdd2adad8e610568fa3fcb2b34d28`. Run all with the usual Drive;
+CPU or GPU sessions work, with arithmetic on the CPU. It preserves all97
+original inputs and the94-row manifest, running plan, full construction,
+full replay and independent readback on both closed supported bands for
+literal n9--14. The explicit premise |X|<=3 is not acquired by this notebook.
+Each action retains2GiB/43200CPU/54000wall BASIC ceilings, full original
+controls and a complete-only four-action cache in its own namespace.
+All19infrastructure/notebook fixtures pass from a clean checkout without
+ignored `work/`. Support/HIGH, INITIAL/resources,217interfaces and full56
+remain separate. See [scope](../proof/finite1014_supported_execution.md)
+and [bounded internal review](../proof/finite1014_supported_root_review.md).

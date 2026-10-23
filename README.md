@@ -81,6 +81,12 @@ Support/HIGH, INITIAL/resources and the217count interfaces remain separate.
 See [its exact execution scope](proof/finite1014_parent_auxiliary_execution.md)
 and [the bounded infrastructure review](proof/finite1014_parent_auxiliary_root_review.md).
 
+The separate [56B_n10_14_supported_fourier.ipynb](colab/56B_n10_14_supported_fourier.ipynb)
+runs the unchanged supported two-band Fourier calculation. It preserves the
+explicit |X|<=3 premise; support acquisition and complete56remain separate.
+See [its scope](proof/finite1014_supported_execution.md) and
+[the bounded source/infrastructure review](proof/finite1014_supported_root_review.md).
+
 The current12-hour settings in RESTART01–07 are budgets, not completion estimates.
 A complete tree still requires a separate full acceptor run. An unfinished tree
 is checkpointed for a compatible rerun.
