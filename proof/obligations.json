@@ -60,7 +60,12 @@
       "depends_on": [],
       "conclusion": "The displayed Prawitz kernel gives the one-sided CLOSED-CDF majorant, including atoms.",
       "source": "Prawitz (1972), as normalized in the manuscript",
-      "verification": "Verify the original theorem and exact sign, frequency scaling and endpoint convention; citations and source hashes alone do not discharge this node."
+      "verification": "The selected pointwise majorant and compensated expectation identity now have a self-contained analytic proof; verify its exact use at every later interface separately. The original article as a whole has not been audited.",
+      "alternative_self_contained_proof": "prawitz_majorant_review.md",
+      "independent_analytic_crosscheck": "prawitz_majorant_crosscheck.md",
+      "review_status": "isolated_statement_direct_proof_reviewed_no_blocking_gap_found",
+      "all_later_kernel_uses_audited": false,
+      "formalization_claimed": false
     },
     {
       "id": "literature.shevtsova",
@@ -191,7 +196,9 @@
         "execution_mode": "BASIC",
         "native_arithmetic_accepted": false,
         "evidence": "observed_runs.md",
-        "checker_implementation_review_complete": false
+        "checker_implementation_review_complete": true,
+        "checker_review_scope": "Selected original full n2 acceptance paths, including the independent integer checker; no formal runtime verification.",
+        "source_review_evidence": "small_indices_checker_review.md"
       }
     },
     {
@@ -223,7 +230,9 @@
         "execution_mode": "BASIC",
         "native_arithmetic_accepted": false,
         "evidence": "observed_runs.md",
-        "checker_implementation_review_complete": false
+        "checker_implementation_review_complete": true,
+        "checker_review_scope": "Selected original n3 Python/C++ and polynomial-identity paths; no second full n3 implementation or formal compiler verification.",
+        "source_review_evidence": "small_indices_checker_review.md"
       }
     },
     {

@@ -49,3 +49,9 @@ all_index_conclusion_verified: false
 ```
 
 The observed checker outputs concern the supplied finite n2/n3 arithmetic, conditional on the stated analytic reductions. They do not independently prove those reductions or the literature inputs. The six-stage completion is useful new computational evidence; it is not trusted native acceptance, a certificate for C4 or later indices, or an all-index PASS. See [the small-index execution contract](small_indices_execution.md) for the distinction between BASIC execution and stronger native execution.
+
+## Subsequent mathematical and checker reviews
+
+The [standalone analytic reduction review](small_indices_analytic_review.md) checked attainment, reflection at atoms, full-support contact, support acquisition, moment domains and the finite-certificate implication. The [source-level checker review](small_indices_checker_review.md) checked both selected n2 acceptance paths and the n3 Python/C++ and identity-audit paths against the same source inventory. Neither review found a blocking gap within its stated scope.
+
+Together with the observed full calculation, these reviews supply the selected finite inequalities and their reduction to the stated n2/n3 bounds under the reviewed external structural theorem and ordinary faithful execution assumptions. The BASIC fields remain a record of the execution contract; they do not indicate a failed inequality. No rerun of notebook 08 is warranted merely to change those labels. Compiler/runtime formal verification, a second full n3 implementation, later indices and the global composition are outside these scoped conclusions.

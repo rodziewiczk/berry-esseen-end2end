@@ -17,7 +17,7 @@ Heavy mathematical calculations run in **Google Colab CPU sessions**. Local chec
 - Historical PASS records provide provenance and candidate certificates. They do not count as fresh acceptance in this repository.
 - Search is untrusted. Complete native leaf replay, negative controls, source binding, domain coverage and analytic implication checks remain separate obligations.
 - The global theorem remains open until every required node and edge passes a fresh complete run.
-- Notebook 08 completed all six supplied n2/n3 arithmetic stages. The [observed-run record](proof/observed_runs.md) preserves the exact scope and execution details; the [standalone analytic review](proof/small_indices_analytic_review.md) records the separate reduction to unrestricted laws.
+- Notebook 08 completed all six supplied n2/n3 arithmetic stages. The [observed-run record](proof/observed_runs.md) preserves the exact scope and execution details. The [standalone analytic review](proof/small_indices_analytic_review.md) and [checker source review](proof/small_indices_checker_review.md) found no blocking gap in the reviewed reductions and selected acceptance paths.
 - No source research archives are deleted or rewritten.
 
 The initial executable task is the reconstruction of seven missing **n=25** count forests. Five preserve original V12 designs; two are explicitly new conditional V14 epochs. They are not seven missing components of cutoff49.
@@ -41,6 +41,6 @@ Only necessary frozen code belongs under `vendor/`. Each imported byte is hash-b
 
 ## Proof and paper
 
-`proof/obligations.json` records the proof graph and unresolved edges. `proof/analytic_audit.md` records the initial analytic review; [the small-index review](proof/small_indices_analytic_review.md) and [primary-source statement checks](proof/literature_inputs.md) add the subsequent findings. A new concise English paper will follow the verified minimal graph, with explicit literature inputs and no unsupported all-index completion claim.
+`proof/obligations.json` records the proof graph and unresolved edges. `proof/analytic_audit.md` records the initial analytic review; [the small-index review](proof/small_indices_analytic_review.md), [primary-source statement checks](proof/literature_inputs.md), and [the direct pointwise Prawitz proof](proof/prawitz_majorant_review.md) add the subsequent findings. A new concise English paper will follow the verified minimal graph, with explicit literature inputs and no unsupported all-index completion claim.
 
 ChatGPT and Codex assist with proofs, certificates and writing, using the user-identified GPT-5.6 Sol, GPT-6.1 Sol and GPT-6 Astra models. This is not a claim of full human review or whole-paper formal verification.

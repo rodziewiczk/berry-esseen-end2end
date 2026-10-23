@@ -24,7 +24,9 @@ K(t)=\tfrac12(1-|t|)+\tfrac i2\bigl((1-|t|)\cot(\pi t)+\operatorname{sign}(t)/\p
 
 For \(0<t<1\), this is exactly the manuscript's displayed kernel, including the sign of its singular imaginary term. The lemma includes the Gaussian comparison and infinite-frequency remainder. [Primary paper](https://ami.uni-eszterhazy.hu/uploads/papers/finalpdf/AMI_39_from241to307.pdf#page=23).
 
-This statement does **not by itself** discharge the manuscript's stronger pointwise closed-half-line majorant, its atom convention or its compensated-expectation identity. The original Prawitz 1972 article's full text was not available to this review; its bibliographic record and abstract were located. The pointwise majorant remains an explicit literature/proof obligation. [Original article](https://doi.org/10.1080/03461238.1972.10404645).
+This statement does **not by itself** discharge the manuscript's stronger pointwise closed-half-line majorant, its atom convention or its compensated-expectation identity. The original Prawitz 1972 article's full text was not available to this review; its bibliographic record and abstract were located. [Original article](https://doi.org/10.1080/03461238.1972.10404645).
+
+A subsequent [self-contained derivation](prawitz_majorant_review.md) supplies the exact selected pointwise statement directly. It proves the Beurling sign error bound, derives the manuscript's Fourier kernel by an explicitly dominated Abel limit, checks the included atom at zero, and justifies the compensated expectation identity. The [separate analytic crosscheck](prawitz_majorant_crosscheck.md) found no blocking sign, scaling, endpoint or convergence gap. This avoids relying on an unread original statement for that isolated lemma. It does not audit every later use of the kernel, derivative estimate or numerical implementation.
 
 ## Binomial input
 
@@ -39,4 +41,4 @@ The standardized Bernoulli law has \(\rho_B=(p^2+q^2)/\sqrt{pq}\), so this is ex
 
 ## Inputs still requiring direct verification
 
-The original Bentkus–Kirsa one-summand theorem and Esseen's original lower-bound construction have not been checked from their full primary texts here. The pointwise Prawitz majorant and the exact He–Cheng estimate selected by the tail likewise remain open. No all-index theorem is imported from a title, abstract, historical PASS, or secondary summary.
+The original Bentkus–Kirsa one-summand theorem and Esseen's original lower-bound construction have not been checked from their full primary texts here. The exact He–Cheng estimate selected by the tail likewise remains open. The pointwise Prawitz statement now has the direct proof above; this is not a verification of Prawitz's whole original paper. No all-index theorem is imported from a title, abstract, historical PASS, or secondary summary.

@@ -2,6 +2,8 @@
 
 Review date: 23 October 2026. Status: **scoped read completed; no blocking gap found in the analytic chain described below**. This is an AI-assisted mathematical readback, not formal verification, an independent human verification, a complete checker implementation audit, or proof acceptance.
 
+The subsequent [checker source review](small_indices_checker_review.md) records the separate readback of the selected acceptance implementations and its connection to the completed notebook 08 run. The implementation limitations below describe this analytic note's own scope; they are not a claim that the companion review was omitted.
+
 ## Source and scope
 
 The reviewed source is the user-supplied `hexagon-2610.00147v4-source.zip`, file `berry_esseen_manuscript.tex`. The SHA-256 of the reviewed TeX file is:
