@@ -54,7 +54,7 @@ Log completion is not independent bundle validation.
 |24|Seven count targets plus 09/10 collector; not the full n25 union.|
 |26--28|Published on GitHub/Drive; 75 retained n25 forests, 94,288 leaves. No launch/completion assumed.|
 |29--34|Prepared/pinned extra115-forest package,178294leaves;38synthetic fixtures and actual source-only preparation pass. No mathematical replay assumed.|
-|35|Remaining n5 batch is under implementation/review; not delivered as complete.|
+|35|Prepared/pinned remaining selected n5 arithmetic:326jobs, including295forests/75178leaves.22synthetic/source/generator fixtures and seven-kind source-only preparation pass. No fresh arithmetic or full n5 acquisition assumed.|
 |36--38|Prepared/pinned B012 ten-action parent package and75numeric interfaces;19synthetic fixtures and actual source-only preparation pass. No fresh acquisitions assumed.|
 |39|Prepared/pinned lower-B5 INITIAL/resource pair;19synthetic fixtures and all66actual source inputs checked. Local/mixed/count interfaces remain separate; no fresh acquisition assumed.|
 

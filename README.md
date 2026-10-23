@@ -58,6 +58,13 @@ across sessions. These are additional conditional count components, with
 parent/local resources and analytic implications still separate. See the
 [retained execution scope](proof/retained_n25_execution.md).
 
+Notebook35 now packages the remaining selected n5 arithmetic:326jobs including
+295complete count forests, with validated completed-job reuse. Its
+[execution specification](proof/n5_remaining_execution.md) keeps support,
+parent/count semantic joins and the separate notebook13 gap-free result
+explicit. Infrastructure preparation does not establish fresh numerical
+acceptance or the unrestricted n5 theorem.
+
 The current12-hour settings in RESTART01–07 are budgets, not completion estimates.
 A complete tree still requires a separate full acceptor run. An unfinished tree
 is checkpointed for a compatible rerun.

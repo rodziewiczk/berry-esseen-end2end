@@ -192,7 +192,7 @@ checks the contracts; count acceptance, stronger24 and analytic implications
 remain separate. See [extra counts](../proof/retained_n25_extra_execution.md)
 and [B012 acquisition](../proof/n25_b012_acquisition_execution.md).
 
-Notebook35 for remaining n5 and the literal-index6--24/26--48 batches are being
+The literal-index6--24/26--48 batches are being
 prepared separately; their absence from this delivery is not completion.
 
 Notebook39, `39_n25_global_parents_b5.ipynb`, selects runtime
@@ -202,3 +202,15 @@ full100-panel resource replay. Completed stages have the same strict-prefix
 reuse workflow as36--38. It does not accept B5 count forests or supply their
 local/mixed interfaces; [the exact scope](../proof/n25_b5_global_execution.md)
 records the remaining obligations. It may run independently in a CPU session.
+
+Notebook35, `35_n5_complete_remaining.ipynb`, selects runtime
+`7655cd1602d1c8f45a18d98cf81d3f2b68c2b3d8`. It runs all326 selected remaining
+n5 arithmetic jobs: support, HIGH, owncaps,12 INITIAL jobs,15resource jobs,
+295complete count forests and both complement integrations. The separate
+notebook13 gap-free component remains separate. Each validated completed job
+is exported and fully revalidated before a later rerun can skip it; an
+interrupted numerical job starts again. Choose CPU and Run all. See the
+[full execution scope and remaining joins](../proof/n5_remaining_execution.md).
+
+The [historical parent-stage timings](../proof/n25_parent_historical_timings.md)
+for36--39 are component observations, not full Colab completion estimates.
