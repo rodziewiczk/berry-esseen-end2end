@@ -356,7 +356,8 @@ remain separate. See [execution scope](../proof/finite2630_execution.md) and
 [the bounded internal review](../proof/finite2630_root_review.md).
 
 Notebook56A, `56A_n10_14_auxiliary_fourier.ipynb`, selects immutable runtime
-`9b7af758385440d585dca6d873c157fa1838a911`. Choose Run all with the usual
+`19156cc605a961f52e17818bbae0a66551a9a2a0`. This corrects the clean-checkout
+temporary-directory fixture before arithmetic. Choose Run all with the usual
 Drive; CPU or GPU sessions work, with arithmetic on the CPU. It executes all
 four original auxiliary9--14 actions: plan, full construction, full replay,
 and full independent readback. All75inputs and the72-row native manifest
