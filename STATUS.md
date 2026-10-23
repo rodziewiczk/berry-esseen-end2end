@@ -60,6 +60,7 @@ Log completion is not independent bundle validation.
 |38|Actual completed B2 export and Drive sidecar revalidated:4/4fresh actions, preserved source/capture/receipt bindings and all23exact interfaces. B012actualparent interfaces now cover17+35+23=75edges, still conditional.|
 |39|Actual completed lower-B5 export revalidated: both full INITIAL/resource acceptances, fresh receipt/source/capture bindings. BASIC conditional scope retained; local/mixed/count interfaces remain separate.|
 |40--43|Full conditional count lanes for literaln6--9:284forests/2362roots/257089leaves. Supplied41and43logs complete72/72and58/58forests and save final ZIPs.40/42are in the user's active queue. Actual final count exports/parent joins remain separate.|
+|44/45|Prepared complete conditional n6parents (41actions) and n7--9INITIAL (9actions),133/81covers and872/243controls. Allactualsource closures prepared;19root fixtures PASS5.749s and internal peer19fixtures PASS5.819s. No actual numerical completion assumed.|
 |47/48|Prepared middle-n25 B4/B5 full selected acquisition lanes:14/12actions,169/89source inputs.19synthetic fixtures, actual source-only preparation and26historical JSON schema readbacks pass. No fresh Colab arithmetic assumed.|
 |49|Prepared upper high-beta3 full acquisition lane:14actions,94originalinputs/95epochinputs. Actual source-only preparation and13syntheticfixtures pass; internal peer source/transport review completed. No actual Colab arithmetic assumed.|
 

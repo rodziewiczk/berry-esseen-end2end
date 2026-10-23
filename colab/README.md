@@ -248,6 +248,23 @@ INITIAL/resource/support/Fourier acquisitions and final all-law joins remain
 separate. See [the complete execution scope](../proof/finite69_count_execution.md)
 and [the internal peer review](../proof/finite69_counts_independent_review.md).
 
+Notebooks44/45 select immutable runtime
+`a6f49554d4024df7cf4cc86e65cd63013a190873`:
+
+| Notebook | Full original actions | Scope |
+|---|---:|---|
+|44_n6_conditional_parents.ipynb|41|Four full and17local INITIAL, three full100-panel and17local resources|
+|45_n7_9_conditional_initial.ipynb|9|All three selected INITIAL bands for each of n7,8,9|
+
+Run all with the same Drive. They can run independently of40--43. Every
+complete original acceptor and all selected controls run. Actual full newly
+written receipts are captured after the subprocess stops; terminal PASS words
+alone cannot accept a stage. Completed stages are exported and fully rechecked
+before reuse. Only the top elapsed duration may differ in fresh-parent metadata
+joins. The separate n7--9 resource/CAPS jobs and full finite-index composition
+remain open. See [the execution scope](../proof/finite69_parent_execution.md)
+and [the internal review](../proof/finite69_parents_independent_review.md).
+
 Notebook49, `49_high_beta3_acquisition.ipynb`, selects immutable runtime
 `5521c5791b0d3de6a8e6492cee650884e0a675b9`. It acquires the selected parents
 of notebook34's six upper high-beta3 forests: full INITIAL acceptance, fresh
