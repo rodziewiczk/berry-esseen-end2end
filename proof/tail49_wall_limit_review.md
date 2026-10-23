@@ -65,8 +65,8 @@ conclusion remain false.
 
 ## Replacement execution policy
 
-The authorized replacement raises the wrapper's wall ceiling to 54,000
-seconds and its BASIC CPU ceiling to 43,200 seconds, retaining 2 GiB memory.
+The authorized replacement sets both the wrapper's wall ceiling and BASIC
+per-process CPU ceiling to64,800seconds (18hours), retaining2GiB memory.
 The CPU/address-space limits remain per process; group CPU/RSS checks remain
 sampled BASIC supervision. This is not a Docker/private-cgroup or trusted
 single-process native acceptance claim.

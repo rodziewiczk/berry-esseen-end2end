@@ -39,8 +39,8 @@ The actual corrected-run ZIP confirms `external_wall_timeout` after
 top-level rows and25 successful retained rows. See the
 [actual wall-limit review](tail49_wall_limit_review.md).
 
-The replacement defaults and notebook12 now explicitly use54,000seconds
-(15hours) of external wall time,43,200seconds (12hours) of per-process CPU
+The replacement defaults and notebook12 explicitly use64,800seconds
+(18hours) of external wall time and64,800seconds (18hours) of per-process CPU
 allowance, and2GiB of memory. BASIC group CPU/RSS observations cover sampled
 live processes, not cumulative CPU across exited sequential subprocesses.
 The outer wall watchdog is the actual whole-invocation elapsed-time ceiling.
@@ -76,7 +76,7 @@ The session displays original START/PASS lines, periodic counts read from the or
 The equivalent Linux CLI is:
 
 ```console
-python -B -S -m be_replay.tail49 --output work/new-tail49-epoch --archives archives --download --mode basic --wall-seconds 54000 --cpu-seconds 43200 --memory-mib 2048
+python -B -S -m be_replay.tail49 --output work/new-tail49-epoch --archives archives --download --mode basic --wall-seconds 64800 --cpu-seconds 64800 --memory-mib 2048
 ```
 
 The wall limit applies externally to the whole invocation. The CPU allowance and 2 GiB address-space cap are per-process limits under BASIC supervision, not the original adapter's aggregate cgroup budget. No mathematical kernel has been run locally while implementing this wrapper. Local tests use small schema, source-binding, negative-control, and failure-bundling fixtures only. The memory correction adds tests for actual budget forwarding, invalid-budget rejection before launch, unchanged full 14/41 requirements and preserved BASIC/global flags.

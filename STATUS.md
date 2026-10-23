@@ -42,7 +42,7 @@ Log completion is not independent bundle validation.
 |08|Actual n2/n3 export inspected; scoped analytic/checker reviews recorded.|
 |09/10,13,14/15|Complete scoped arithmetic in inspected logs; exports have a separate revalidation boundary.|
 |11|ROOT4 in progress at last supplied record; both full passes required.|
-|12 corrected|Actual2GiB ZIP confirms `external_wall_timeout` at7800.436seconds;13/14 main and25/41 retained records. Replacement keeps full14/41 arithmetic with15-hour external wall/12-hour per-process CPU budgets and2GiB. No new run completed.|
+|12 corrected|Actual2GiB ZIP confirms `external_wall_timeout` at7800.436seconds;13/14 main and25/41 retained records. Replacement keeps full14/41 arithmetic with18-hour external wall/per-process CPU budgets and2GiB. No new run completed.|
 |16|Complete 25-stage auxiliary23 log, 18,377 leaves; full theorem conditional.|
 |17|Complete 16-stage stronger24 B0 BASIC log, 1,929 leaves; export to revalidate.|
 |18|Complete 13-stage stronger24 B1 BASIC log,9,803 leaves; conditional on unacquired resources, native acceptance false, export to revalidate.|

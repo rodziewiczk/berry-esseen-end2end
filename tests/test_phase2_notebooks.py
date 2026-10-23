@@ -52,8 +52,8 @@ class Phase2NotebookTests(unittest.TestCase):
             if name == "12_tail49_complete_arithmetic":
                 self.assertEqual(set(keywords), {"durable_root", "memory_bytes", "cpu_seconds", "wall_seconds"})
                 self.assertEqual(ast.dump(keywords["memory_bytes"]), ast.dump(ast.parse("2048*1024**2", mode="eval").body))
-                self.assertEqual(ast.literal_eval(keywords["cpu_seconds"]), 43200)
-                self.assertEqual(ast.literal_eval(keywords["wall_seconds"]), 54000)
+                self.assertEqual(ast.literal_eval(keywords["cpu_seconds"]), 64800)
+                self.assertEqual(ast.literal_eval(keywords["wall_seconds"]), 64800)
             else:
                 self.assertEqual(set(keywords), {"durable_root"})
 
@@ -73,8 +73,8 @@ class Phase2NotebookTests(unittest.TestCase):
         self.assertIn("cannot claim", tail)
         self.assertIn("2 GiB", tail)
         self.assertIn("512 MiB", tail)
-        self.assertIn("54,000-second", tail)
-        self.assertIn("43,200-second", tail)
+        self.assertIn("64,800-second", tail)
+        self.assertIn("18-hour", tail)
         self.assertIn("not cumulative CPU accounting", tail)
         self.assertIn("no numerical resume", tail)
         n5 = builder.JOBS["13_n5_gapfree_whole_line"]["scope"]

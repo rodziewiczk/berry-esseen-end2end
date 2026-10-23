@@ -28,8 +28,8 @@ import zipfile
 
 MIB = 1024**2
 DEFAULT_MEMORY_BYTES = 2048*MIB
-DEFAULT_CPU_SECONDS = 43200
-DEFAULT_WALL_SECONDS = 54000
+DEFAULT_CPU_SECONDS = 64800
+DEFAULT_WALL_SECONDS = 64800
 RESOURCE_PROFILE = 'BASIC_FULL_SUITE_EXPLICIT_BUDGETS_V3'
 ARCHIVE_NAME = 'BE_cutoff49_20260930.zip'
 ARCHIVE_BYTES = 16660566
@@ -62,10 +62,10 @@ def validate_budgets(*, wall_seconds, cpu_seconds, memory_bytes):
     observations, not cumulative accounting of the complete sequential suite.
     """
     need(type(cpu_seconds) is int and 0 < cpu_seconds <= DEFAULT_CPU_SECONDS,
-         'Positive integer BASIC CPU budget at most43200 seconds')
+         'Positive integer BASIC CPU budget at most64800 seconds')
     need(type(wall_seconds) in (int, float) and 0 < wall_seconds <= DEFAULT_WALL_SECONDS
          and math.isfinite(wall_seconds),
-         'Finite positive BASIC wall budget at most54000 seconds')
+         'Finite positive BASIC wall budget at most64800 seconds')
     need(type(memory_bytes) is int and 512*MIB <= memory_bytes <= DEFAULT_MEMORY_BYTES,
          'Explicit BASIC full-suite memory budget between512 and2048MiB')
 

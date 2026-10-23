@@ -268,8 +268,8 @@ class Tail49Tests(unittest.TestCase):
             with patch.object(tail49,'run',return_value=dict(all_required_jobs_computed=False))as execute:
                 result=tail49.run_colab(durable_root=root/'durable',work_root=root/'work',archives=root/'cache')
             self.assertEqual(execute.call_args.kwargs['memory_bytes'],2048*tail49.MIB)
-            self.assertEqual(execute.call_args.kwargs['cpu_seconds'],43200)
-            self.assertEqual(execute.call_args.kwargs['wall_seconds'],54000)
+            self.assertEqual(execute.call_args.kwargs['cpu_seconds'],64800)
+            self.assertEqual(execute.call_args.kwargs['wall_seconds'],64800)
             self.assertEqual(execute.call_args.kwargs['mode'],'basic')
             self.assertFalse(result['status']['native_arithmetic_accepted'])
             self.assertFalse(result['status']['all_index_conclusion_verified'])
@@ -279,8 +279,8 @@ class Tail49Tests(unittest.TestCase):
         for budget in ({}, dict(cpu_seconds=12000, wall_seconds=15000.5)):
             with self.subTest(budget=budget), tempfile.TemporaryDirectory() as name:
                 root = Path(name)
-                expected_cpu = budget.get('cpu_seconds', 43200)
-                expected_wall = budget.get('wall_seconds', 54000)
+                expected_cpu = budget.get('cpu_seconds', 64800)
+                expected_wall = budget.get('wall_seconds', 64800)
                 with self.mocked_full_suite(root) as (validate, launched):
                     exported = tail49.run_colab(durable_root=root/'durable', work_root=root/'work',
                                                 archives=root/'cache', **budget)
@@ -308,9 +308,9 @@ class Tail49Tests(unittest.TestCase):
                 self.assertTrue(Path(exported['bundle']).is_file())
 
     def test_invalid_cpu_or_wall_rejected_before_platform_files_or_download(self):
-        bad = [dict(cpu_seconds=v) for v in (True, False, 0, -1, 1.0, 43201)]
+        bad = [dict(cpu_seconds=v) for v in (True, False, 0, -1, 1.0, 64801)]
         bad += [dict(wall_seconds=v) for v in
-                (True, False, 0, -1, float('nan'), float('inf'), 54001, 10**1000)]
+                (True, False, 0, -1, float('nan'), float('inf'), 64801, 10**1000)]
         for budget in bad:
             with self.subTest(budget=budget), tempfile.TemporaryDirectory() as name:
                 root = Path(name)
@@ -331,7 +331,7 @@ class Tail49Tests(unittest.TestCase):
                     environment.assert_not_called()
 
     def test_cli_defaults_match_run_and_custom_values_are_forwarded(self):
-        for arguments, expected in (([], (43200, 54000)),
+        for arguments, expected in (([], (64800, 64800)),
                                     (['--cpu-seconds', '12000', '--wall-seconds', '15000'], (12000, 15000))):
             with self.subTest(arguments=arguments), patch.object(sys, 'argv',
                     ['tail49', '--output', 'unused', '--archives', 'unused', *arguments]), \
