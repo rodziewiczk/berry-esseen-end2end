@@ -870,3 +870,69 @@ is reported saved at22:05:22UTC with
 Actual final archive readback, all same-witness parent/acquisition facts and
 full regional/theorem composition remain separate. This log does not promote
 the special B5 E24/ABCDF or V14 source epochs merely by matching their names.
+
+
+## Notebook29: complete retained B3 count log
+
+The supplied attachment SHA256 is
+`b32b5a315d4f6ca664031f02fa0159366d50df15ef68fd7defc261eab1517f51`.
+At22:07:44UTC on23October2026 it records17/17forests and37128leaves,
+with24controls on the final forest. At22:09:23UTC it saves the final bundle
+with `selected_retained_count_arithmetic_accepted`:
+`n25-retained-extra-b3/runs/20261023T195332Z-fb720309/20261023T195332Z-fb720309-results.zip`.
+This is supplied-log completion. Actual exported evidence readback,
+same-law parent acquisitions and the full B3/regional theorem remain separate.
+
+## Corrected44: all41selected n6parent actions complete in the supplied log
+
+The supplied attachment SHA256 is
+`f432659e8899949ae4e22017ad583f3529ec0f17d2da8a392770dd783818062b`.
+At22:21:57UTC on23October2026 it records41/41completed actions, including
+`n6.refined.BN42lower`, and final
+`complete_selected_conditional_parent_arithmetic_basic`. Its saved bundle is
+`finite69-parents-n6/20261023T213058Z-2949e657/20261023T213058Z-2949e657-results.zip`.
+This supersedes the earlier wrapper underscore-routing failure. It does not
+independently revalidate the final ZIP or acquire unqualified parent facts.
+Native/full-finite69/all-index flags remain false as declared by the runner.
+
+## Repaired51: complete147-job cache readback and finalization log
+
+The supplied attachment SHA256 is
+`41ba23807fa02fd738e6637577d953152941143cfa68d2c90847c023c8875aee`.
+The corrected invocation starts under run `20261023T222904Z-896527af` and
+reports147/147selected n15--19COUNT jobs by22:31:53UTC on23October2026.
+Every one is marked `reused_completed_stage=true`; the supplied log records
+full completed-stage evidence revalidation and skips numerical replay for all147.
+It ends `complete_selected_conditional_count_arithmetic_basic`, with bundle
+`finite1039-counts-n15_19/20261023T222904Z-896527af/20261023T222904Z-896527af-results.zip`.
+The prior valid completed numerical stages are retained. This is a supplied
+program-log observation, not an independent local readback of the final51ZIP.
+Acquired parent facts, full finite1039and all-index claims remain false.
+
+## Notebook64: actual complete constructor/acceptor export revalidated
+
+The actual final ZIP is876273bytes, SHA256
+`3ca0eeba4f6404f9ab2eb89a055e8107739f4b8baab2d6a0c7cd577bf8a0b5c5`,
+matching its actual private Drive SHA sidecar. Safe bounded extraction preserves
+68files and13852603unpacked bytes. The unchanged complete-pair validator
+revalidates the source closure, both original constructor/full-acceptor commands,
+resource policies, actual stopped stdout/stderr and output captures, terminal
+receipt equality, complete tree geometry and all24native corruption controls.
+No mathematical kernel was imported or rerun in this local evidence readback.
+
+The n27/p41candidate has28roots,6310nodes,3169leaves and maximum depth25.
+Its SHA256 is exactly the previously selected missing historical tree:
+`61e45510ffabb2d6a06094fae8a26b46a773d2d1c88db5236ed8b2e167c71af4`.
+The fresh acceptance SHA256 is
+`56730a3ae24e57260702d3061ad6a9dfc3f699d619bf7d15ab2f516fca15fc9d`;
+the old acceptance hash remains provenance only. The complete-pair ledger has
+SHA256 `3dd5875c0b331d5e6075d2152696337dfce6f6ce4536c1e8db9e0f16569b03b5`.
+The actual exported session agrees with this full readback.
+
+This is stronger evidence than a pasted completion log, while still a
+same-system internal evidence validation rather than external mathematical
+verification. `native_arithmetic_accepted`, `parent_acquisitions_verified`,
+`semantic_replacement_join_verified`, `lane53_ready` and all-index remain false
+in64's preserved scope. The isolated53protocol can add the exact same-candidate/
+same-contract selection edge and the other79full acceptors; no completed53run
+or unrestricted theorem is inferred from64alone.

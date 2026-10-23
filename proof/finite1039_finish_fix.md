@@ -57,3 +57,10 @@ checks. A corrected notebook must revalidate the saved complete stages and
 write the final complete census/summary in Colab. Missing or invalid stages
 alone require fresh full acceptance. No partial numerical work is accepted.
 All-law, parent-acquisition and global theorem flags remain false.
+
+Subsequent actual user log SHA256
+`41ba23807fa02fd738e6637577d953152941143cfa68d2c90847c023c8875aee`
+records the repaired 51 invocation revalidating and reusing all 147 stages,
+then finishing successfully and saving its final ZIP. This is a program-log
+observation; local readback of that entire final export remains separate.
+See [the observed-run register](observed_runs.md).

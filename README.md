@@ -65,6 +65,14 @@ parent/count semantic joins and the separate notebook13 gap-free result
 explicit. Infrastructure preparation does not establish fresh numerical
 acceptance or the unrestricted n5 theorem.
 
+Notebook 53 now packages the complete selected n26--30 COUNT lane. Run 64 to
+completion with the same Drive, then Run all in
+[53_n26_30_conditional_counts.ipynb](colab/53_n26_30_conditional_counts.ipynb).
+It revalidates the exact recovered historical tree and runs the other 79 full
+acceptors. All 80 forests and their original controls are required; parent
+acquisition and the all-law theorem remain separate. See
+[the execution scope](proof/finite2630_execution.md).
+
 The current12-hour settings in RESTART01–07 are budgets, not completion estimates.
 A complete tree still requires a separate full acceptor run. An unfinished tree
 is checkpointed for a compatible rerun.

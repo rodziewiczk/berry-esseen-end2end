@@ -299,8 +299,9 @@ Corrected notebooks50/51/52/54/55select runtime
 Each original acceptor replays its complete selected candidate and all controls;
 only fully revalidated completed-stage ZIPs are reused. These are conditional
 COUNT calculations, with INITIAL/resource/support/Fourier and theorem joins
-remaining separate.53is withheld while the mandatory n27/p41tree is missing:
-79available forests cannot complete the required80-forest lane. See
+remaining separate. The original catalog retains its blocked n26--30 epoch;
+the complete new notebook 53 protocol below adds the recovered exact tree
+through a separate checked source/identity edge. See
 [source readiness](../proof/finite1039_count_sources.md),
 [execution scope](../proof/finite1039_count_execution.md) and
 [internal runtime review](../proof/finite1039_count_runtime_review.md).
@@ -321,8 +322,9 @@ acceptance of the complete new n27/p41forest with all24controls. The original
 bound remain in place. Each external action has2GiB/7200CPU/7260wall limits.
 An incomplete construction saves diagnostics; it does not start acceptance.
 Only a revalidated complete two-action pair is reused. Success is a new
-conditional evidence epoch and does not make53ready until a separate
-same-contract semantic replacement join is reviewed and implemented. See
+conditional evidence epoch. The actual successful export reproduced the
+missing historical forest byte for byte; notebook 53 below checks that identity
+and preserves the fresh receipt separately. See
 [execution scope](../proof/n27_p41_recovery_execution.md) and
 [internal source/runtime review](../proof/n27_p41_recovery_runtime_review.md).
 
@@ -339,3 +341,16 @@ Only validated completed stages resume; partial owncaps work restarts fully.
 The remaining support/Fourier/physical/predecessor and theorem implications
 remain separate. See [execution scope](../proof/finite69_caps_execution.md)
 and [internal runtime review](../proof/finite69_caps_runtime_review.md).
+
+Notebook 53, `53_n26_30_conditional_counts.ipynb`, selects immutable runtime
+`b160488cfe47940acc32c72994baa4e7c43c4f5f`. Complete 64 with the same Drive,
+then choose Run all in 53. It fully revalidates the complete 64 pair and its
+exact historical candidate/contract/checker identity before downloading
+sources or launching numerical work. Missing or invalid 64 yields WAITING.
+The other 79 original full acceptors and all original controls run freshly,
+with validated completed-stage reuse. The final selection requires all
+80 forests, 2316 roots, 150296 nodes and 76306 leaves. Each full acceptor
+retains BASIC 2 GiB/43200 CPU/54000 wall limits; CPU or GPU sessions work and
+arithmetic uses the CPU. Parent acquisition and full-theorem conclusions
+remain separate. See [execution scope](../proof/finite2630_execution.md) and
+[the bounded internal review](../proof/finite2630_root_review.md).
