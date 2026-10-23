@@ -1,0 +1,282 @@
+{
+  "schema": "C5_FINITE69_FINAL_COMPOSITION_SOURCE_HAND_ALGEBRA_AUDIT_V1",
+  "review_kind": "fallible_internal_AI_source_and_hand_algebra_review",
+  "external_independent_verification": false,
+  "formal_verification": false,
+  "archived_math_modules_imported_or_executed": false,
+  "fresh_arithmetic_acceptance": false,
+  "all_index_conclusion_verified": false,
+  "archives": {
+    "cutoff6_20261020.zip": {
+      "name": "cutoff6_20261020.zip",
+      "bytes": 69459175,
+      "sha256": "d45b1f99ca01ea4d1cfad445fdab3c48a508adf9fdcda17b6cded5236d77b8d6"
+    },
+    "cutoff5_20261020.zip": {
+      "name": "cutoff5_20261020.zip",
+      "bytes": 141304365,
+      "sha256": "8428002462d4e650613ea6e2ff673cb1e69c2079572cc40546d125349d582419"
+    }
+  },
+  "archive_transport_hashes_reused_from_prior_verified_inventory": true,
+  "historical_final_selectors": [
+    {
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/root/final_composition_v2/C5_CHECKED.json",
+      "sha256": "923a0d0cf3c481ae60c5e2b69d886098a7501f916a52668b37b0198f26fde4a0",
+      "bytes": 2637554,
+      "source_pin_count": 16576,
+      "not_new_acceptance": true
+    },
+    {
+      "member": "cutoff6_20261020/root/final_composition_v2/CUTOFF6_COMPLETE.json",
+      "sha256": "c73ca47d7a4c8ccffd6c84be4d2805db4c43e86693989dd478b1ecc327517579",
+      "bytes": 5901202,
+      "source_pin_count": 38166,
+      "not_new_acceptance": true
+    }
+  ],
+  "sources": [
+    {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/root/final_composition_v2/check.py",
+      "bytes": 17064,
+      "sha256": "2b7bae80816928188057880d16d1261ccda25c935229af9aeeb6b291c62c6838",
+      "lines": 303,
+      "historical_selected_source_pin_present": true,
+      "historical_selected_source_pin_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 303,
+          "scope": "Complete actual final C5 conditional predecessor, literal domains/arrangement and source/count census; no kernels invoked"
+        }
+      ]
+    },
+    {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/root/final_composition_v2/PROOF.txt",
+      "bytes": 4093,
+      "sha256": "352e7a05b1dc2d024b20dc7fd79b73321423ac5fef532ffecd4ce57f31862a97",
+      "lines": 65,
+      "historical_selected_source_pin_present": true,
+      "historical_selected_source_pin_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 65,
+          "scope": "Full original final mathematical implication and arbitrary-law/closed-atom scope"
+        }
+      ]
+    },
+    {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/root/final_composition_v2/ANALYTIC_SOURCES.json",
+      "bytes": 3590,
+      "sha256": "453fcaa2b91f18271d30e38668e6b130e9d16846ce5ee49c0d4f43cccd111a44",
+      "lines": 56,
+      "historical_selected_source_pin_present": true,
+      "historical_selected_source_pin_matches": true,
+      "reviewed_ranges": []
+    },
+    {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/root/ADOPTED_C4_INPUT.json",
+      "bytes": 898,
+      "sha256": "bff65e743499103209a780f617fa10d3c05cd027206661ab213f72a7829d46db",
+      "lines": 14,
+      "historical_selected_source_pin_present": true,
+      "historical_selected_source_pin_matches": true,
+      "reviewed_ranges": []
+    },
+    {
+      "archive": "cutoff6_20261020.zip",
+      "member": "cutoff6_20261020/root/final_composition_v2/check.py",
+      "bytes": 17491,
+      "sha256": "23b5dd8f9f7fdfa7659862b4e4481f1ed6a2b882dd8beb8565ea9bd1052cc471",
+      "lines": 239,
+      "historical_selected_source_pin_present": true,
+      "historical_selected_source_pin_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 239,
+          "scope": "Full literal6..9 predecessor induction, support/HIGH/caps, native tree census and conditional later tail"
+        }
+      ]
+    },
+    {
+      "archive": "cutoff6_20261020.zip",
+      "member": "cutoff6_20261020/root/COMPOSITION_PROOF.txt",
+      "bytes": 10067,
+      "sha256": "6b13b9590978e727ea8e26598e0b0b032ad694e9218d9441ab3e345b86c27477",
+      "lines": 202,
+      "historical_selected_source_pin_present": true,
+      "historical_selected_source_pin_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 202,
+          "scope": "Full same-law continuation and elementary mean/noise/inward/sign-mass rules"
+        }
+      ]
+    },
+    {
+      "archive": "cutoff6_20261020.zip",
+      "member": "cutoff6_20261020/entry/sharp_predecessor_equality_v2/PROOF.txt",
+      "bytes": 2080,
+      "sha256": "2ec7da94340d435887e2d045eeeaca47f80016a4435c1e68b08b3f793f360795",
+      "lines": 33,
+      "historical_selected_source_pin_present": true,
+      "historical_selected_source_pin_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 33,
+          "scope": "Full equality-inclusive q0 argument without monotonicity"
+        }
+      ]
+    },
+    {
+      "archive": "cutoff6_20261020.zip",
+      "member": "cutoff6_20261020/root/final_composition_v2/PROTOCOL.txt",
+      "bytes": 721,
+      "sha256": "4491a438df5eb17a2cf1aedd149a67d4d4f912d5b5300e744ad3b6f7fb4f459b",
+      "lines": 1,
+      "historical_selected_source_pin_present": false,
+      "historical_selected_source_pin_matches": false,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 1,
+          "scope": "v2 retry selector provenance text only; not in final bound source map"
+        }
+      ]
+    }
+  ],
+  "current_runtime_false_flag_readback": [
+    {
+      "repository_relative_path": "be_replay/n5_remaining.py",
+      "bytes": 15966,
+      "sha256": "4c23c8f353f9a5301821089aec417087dc9972839c58953e7d02abad8e39d7ff",
+      "read_scope": [
+        {
+          "start": 228,
+          "end": 258,
+          "scope": "Run output remains conditional; no parent/full-n5/global acquisition"
+        }
+      ],
+      "not_full_runtime_audit": true
+    },
+    {
+      "repository_relative_path": "be_replay/n5_remaining_evidence.py",
+      "bytes": 38510,
+      "sha256": "c18d64bbd0691d90c7a89e359e659e2cbb6cc8d856149ce038cae37b5cf655b5",
+      "read_scope": [
+        {
+          "start": 511,
+          "end": 516,
+          "scope": "Completed evidence keeps all promotion flags false"
+        }
+      ],
+      "not_full_runtime_audit": true
+    }
+  ],
+  "adopted_C4_boundary": {
+    "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/root/ADOPTED_C4_INPUT.json",
+    "status": "USER_AUTHORIZED_CITED_INPUT",
+    "used_hypothesis": "C4<=CE",
+    "actual_mathematical_acquisition": false,
+    "needed_new_edge": "Actual unrestricted all-law C4 theorem, not a citation marker or bounded physical ROOT4 receipt alone"
+  },
+  "C5_actual_domains": {
+    "B0_rho": [
+      "1",
+      "11/10"
+    ],
+    "BN_rho": [
+      "11/10",
+      "23/20"
+    ],
+    "BN_not_beta_sign_branch": true,
+    "B2_rho_split": [
+      "23/20",
+      "467/400",
+      "237/200"
+    ],
+    "B2_beta_split": [
+      "-84729828287999/250000000000000",
+      "1/5",
+      "84729828287999/250000000000000"
+    ],
+    "B3_rho_split": [
+      "237/200",
+      "477/400",
+      "6/5"
+    ],
+    "B3_beta_outer": "35139006743001/100000000000000",
+    "B3_gapfree_corner": {
+      "rho": [
+        "477/400",
+        "6/5"
+      ],
+      "beta": [
+        "17/50",
+        "35139006743001/100000000000000"
+      ],
+      "closed_positive_orientation": true,
+      "whole_real_threshold_line": true
+    },
+    "count_cases": 12,
+    "probability_panel_instances": 1200,
+    "selected_count_forests": 295,
+    "resource_exclusions": 905,
+    "native_roots_per_count": 6,
+    "finite_complement_strips": 41,
+    "universal_tail_inclusive_from": "7361/4000"
+  },
+  "finite69_actual_predecessors": [
+    {
+      "n": 6,
+      "input": "GLOBAL C5<429/1000",
+      "allowance": "579/5000",
+      "sharp_C5_not_required": true
+    },
+    {
+      "n": 7,
+      "input": "GLOBAL C6<CE",
+      "allowance": "0",
+      "equality_inclusive": true
+    },
+    {
+      "n": 8,
+      "input": "GLOBAL C7<CE",
+      "allowance": "0",
+      "equality_inclusive": true
+    },
+    {
+      "n": 9,
+      "input": "GLOBAL C8<CE",
+      "allowance": "0",
+      "equality_inclusive": true
+    }
+  ],
+  "conditional_weaker_base_alternative": {
+    "if_actual_all_law_C5_le_CE_acquired": "Then C5<.429 and the retained conservative q6 cap are valid",
+    "new_semantic_parent_join_required": true,
+    "old_receipt_relabel_or_new_math_execution_claimed": false
+  },
+  "reviewed_implications": [
+    "Exact finite rectangle arrangement fills all beta/rho faces and corners",
+    "Same-law C4 gives q5=0; actual auxiliary5 gives q6; immediate sharp predecessors give equality-inclusive q7..9=0",
+    "Strict native score bounds and all original roots remain distinct from census",
+    "Elementary sign-mass and gated lower-corner inward minimum are valid",
+    "Conditional later tail not promoted by finite6..9 completion"
+  ],
+  "remaining_distinct_edges": [
+    "Actual all-law C4 localization/physical inner ROOT4 implication and imported inputs",
+    "Full selected n5 LOW/HIGH/owncap/acquisition profile/cell source-to-lemma links",
+    "All295 n5 count forests and separate gapfree engine under actual original contracts, plus fresh semantic joins",
+    "Full literal6..9 acquisition/cell source-instance mapping and complete actual arithmetic",
+    "Separate literal10..48 and uniform-tail theorem premises, preserving historical A/F/T15 limits"
+  ]
+}

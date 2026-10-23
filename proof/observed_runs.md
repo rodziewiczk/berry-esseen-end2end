@@ -857,3 +857,16 @@ members/160351bytes match the actual source ZIP and frozen source plan.
 No original mathematical module was imported or run locally. This is
 preparation/delivery only. Complete new construction, original full acceptance,
 same-contract semantic replacement for53and parent/global joins remain open.
+
+## Notebook31complete lower-B5 retained count log
+
+The supplied log SHA256 is
+`e04dd3c2c3eb8316ba71c1d2af0dff3943169713c5fa455ebede9949071be2c5`.
+The last full acceptance completes39/39forests and48947leaves at
+22:01:31UTC on23October2026, with24controls on the last forest. The final ZIP
+is reported saved at22:05:22UTC with
+`selected_retained_count_arithmetic_accepted`:
+`n25-retained-extra-lower-b5/runs/20261023T195811Z-b65a398e/20261023T195811Z-b65a398e-results.zip`.
+Actual final archive readback, all same-witness parent/acquisition facts and
+full regional/theorem composition remain separate. This log does not promote
+the special B5 E24/ABCDF or V14 source epochs merely by matching their names.

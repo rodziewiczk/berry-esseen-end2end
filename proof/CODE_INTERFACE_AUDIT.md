@@ -327,3 +327,13 @@ closed four-child cover, each LOW/HIGH cutoff and selection of whole valid
 bounds. A second internal agent cross-read found no mismatch; the standardized
 iid and |X|<=17/4support premises are explicit. This does not derive the inner
 A1/Gamma/V7/CF/quadrature/Cantelli portfolios or establish all-law C4.
+
+The [C5 and literal6--9 final-composition unit](code_c5_finite69_composition_audit.md)
+reads eight actual members, seven bound by the historical final selectors and
+one explicitly unbound provenance-only protocol text. Root rechecked all bytes,
+selector bindings and the whole hand argument. It derives the finite rectangle
+arrangement cover, correct beta envelope, q5/q6/q7--9 directions, sign-mass
+minimum and inward lower-corner identity. The old adopted-C4 citation marker
+cannot supply all-law C4, and neither326fresh n5 arithmetic jobs nor completed
+6--9 counts alone prove their parent/analytic implications. The conditional
+later tail in the old6--9composer also remains visibly conditional.

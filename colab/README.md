@@ -317,3 +317,17 @@ conditional evidence epoch and does not make53ready until a separate
 same-contract semantic replacement join is reviewed and implemented. See
 [execution scope](../proof/n27_p41_recovery_execution.md) and
 [internal source/runtime review](../proof/n27_p41_recovery_runtime_review.md).
+
+Notebook46, `46_n7_9_conditional_caps_resources.ipynb`, selects runtime
+`1ee248cbe764b0fe675ac395b73cd541e74aa8f5`. It revalidates/reuses the nine
+compatible completed INITIAL stages from45, or computes missing ones, then
+runs one atomic five-action CAPS pipeline and all nine100-panel resource
+acceptances. Its19complete stages represent23original native actions.
+Choose Run all with the same Drive; CPU or GPU sessions work and arithmetic
+uses the CPU. NumPy is checked for the unchanged untrusted discovery planner.
+Its86-strip census must pass before exact construction. All complete native
+controls, fresh graph bindings and the final19-stage cross-join are required.
+Only validated completed stages resume; partial owncaps work restarts fully.
+The remaining support/Fourier/physical/predecessor and theorem implications
+remain separate. See [execution scope](../proof/finite69_caps_execution.md)
+and [internal runtime review](../proof/finite69_caps_runtime_review.md).
