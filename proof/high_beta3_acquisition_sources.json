@@ -1,0 +1,977 @@
+{
+  "all_index_conclusion_verified": false,
+  "archive": {
+    "bytes": 514958998,
+    "name": "cutoff25_20261011.zip",
+    "sha256": "17fa140f63c5134ac48f1fd1040f4c5ae4bebdb2b92b2d7ce69f4048293d1fcb"
+  },
+  "beta_interval": [
+    "14/25",
+    "640471/1000000"
+  ],
+  "branch": "high-beta3",
+  "cache_directory": "cutoff25_20261011/continuation_20261011/high25_beta3_cached_exact_v1",
+  "cache_helper_directory": "cutoff25_20261011/continuation_20261011/high25_transfers/stage_cache_v2",
+  "canonical_directory": "cutoff25_20261011/continuation_20261011/high25_beta3_exact",
+  "contact_allowance": "1366497/14000000",
+  "date": "2026-10-23",
+  "full_n25_verified": false,
+  "global_resource": {
+    "expected_status": "PASS_FRESH_EXACT_BETA3_GLOBAL_RESOURCES",
+    "negative_controls": [
+      "wrong n",
+      "boolean n",
+      "wrong beta",
+      "changed parent",
+      "changed parent receipt",
+      "missing panel",
+      "reordered panels",
+      "wrong index",
+      "boolean index",
+      "false exclusion",
+      "wrong signed support",
+      "extra success claim"
+    ],
+    "survivors": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ]
+  },
+  "global_sharp24_required": false,
+  "global_signed_covers": 12,
+  "historical_acceptances_imported_as_inputs": 0,
+  "initial": {
+    "expected_status": "PASS_FRESH_EXACT_HIGH25_BETA3_INITIAL",
+    "negative_controls": [
+      "wrong n",
+      "boolean n",
+      "wrong rho floor",
+      "wrong beta branch",
+      "wrong q",
+      "missing stage",
+      "missing panel",
+      "wrong export guard",
+      "missing support ray",
+      "wrong HIGH grid",
+      "missing exact backend",
+      "unsupported predecessor"
+    ],
+    "proof_candidate": {
+      "bytes": 1240242,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/INITIAL_BETA3_PROOF.json",
+      "role": "untrusted_full_object_candidate",
+      "sha256": "8832acd4f934d0749811d010e16e629d3c110d6ad351d4239af8c2772edb3280"
+    }
+  },
+  "local_signed_covers": 241,
+  "locals": [
+    {
+      "cached": true,
+      "cycle_limit": 8,
+      "cycles": 2,
+      "directory": "cutoff25_20261011/continuation_20261011/high25_beta3_cached_exact_v1",
+      "excluded": true,
+      "expected_status": "PASS_FRESH_EXACT_HIGH25_BETA3_PANEL_ACQUISITION",
+      "index": 16,
+      "mathematical_cover_calls": 5,
+      "negative_controls": [
+        "wrong n",
+        "boolean n",
+        "changed parent",
+        "wrong index",
+        "boolean index",
+        "changed p interval",
+        "changed terminal status",
+        "missing global resource",
+        "wrong support",
+        "changed cycle budget",
+        "changed mean-floor grid",
+        "extra success field",
+        "missing cycle",
+        "missing local cover",
+        "false mean floor"
+      ],
+      "proof_candidate": {
+        "bytes": 2456862,
+        "member": "cutoff25_20261011/continuation_20261011/high25_beta3_cached_exact_v1/PANEL16_PROOF.json",
+        "role": "untrusted_full_object_candidate",
+        "sha256": "57b629b56a2612ee74b6575e2f7fe9230e153e56eb2c0c5e36342fda33eb0a59"
+      }
+    },
+    {
+      "cached": false,
+      "cycle_limit": 8,
+      "cycles": 8,
+      "directory": "cutoff25_20261011/continuation_20261011/high25_beta3_exact",
+      "excluded": false,
+      "expected_status": "PASS_FRESH_EXACT_HIGH25_BETA3_PANEL_ACQUISITION",
+      "index": 17,
+      "mathematical_cover_calls": 32,
+      "negative_controls": [
+        "wrong n",
+        "boolean n",
+        "changed parent",
+        "wrong index",
+        "boolean index",
+        "changed p interval",
+        "changed terminal status",
+        "missing global resource",
+        "wrong support",
+        "changed cycle budget",
+        "changed mean-floor grid",
+        "extra success field",
+        "missing cycle",
+        "missing local cover",
+        "false mean floor"
+      ],
+      "proof_candidate": {
+        "bytes": 6639329,
+        "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/PANEL17_PROOF.json",
+        "role": "untrusted_full_object_candidate",
+        "sha256": "053018766669ab3d3d256b76a428d19d57af860ead17b17e87f0d7a198fe9d79"
+      }
+    },
+    {
+      "cached": false,
+      "cycle_limit": 8,
+      "cycles": 8,
+      "directory": "cutoff25_20261011/continuation_20261011/high25_beta3_exact",
+      "excluded": false,
+      "expected_status": "PASS_FRESH_EXACT_HIGH25_BETA3_PANEL_ACQUISITION",
+      "index": 18,
+      "mathematical_cover_calls": 32,
+      "negative_controls": [
+        "wrong n",
+        "boolean n",
+        "changed parent",
+        "wrong index",
+        "boolean index",
+        "changed p interval",
+        "changed terminal status",
+        "missing global resource",
+        "wrong support",
+        "changed cycle budget",
+        "changed mean-floor grid",
+        "extra success field",
+        "missing cycle",
+        "missing local cover",
+        "false mean floor"
+      ],
+      "proof_candidate": {
+        "bytes": 6598267,
+        "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/PANEL18_PROOF.json",
+        "role": "untrusted_full_object_candidate",
+        "sha256": "4ae9e5c5fad0d114f5c40b2f2da52530d64a55e97efd5e82ee6b420ad2198d94"
+      }
+    },
+    {
+      "cached": false,
+      "cycle_limit": 8,
+      "cycles": 8,
+      "directory": "cutoff25_20261011/continuation_20261011/high25_beta3_exact",
+      "excluded": false,
+      "expected_status": "PASS_FRESH_EXACT_HIGH25_BETA3_PANEL_ACQUISITION",
+      "index": 19,
+      "mathematical_cover_calls": 32,
+      "negative_controls": [
+        "wrong n",
+        "boolean n",
+        "changed parent",
+        "wrong index",
+        "boolean index",
+        "changed p interval",
+        "changed terminal status",
+        "missing global resource",
+        "wrong support",
+        "changed cycle budget",
+        "changed mean-floor grid",
+        "extra success field",
+        "missing cycle",
+        "missing local cover",
+        "false mean floor"
+      ],
+      "proof_candidate": {
+        "bytes": 6180332,
+        "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/PANEL19_PROOF.json",
+        "role": "untrusted_full_object_candidate",
+        "sha256": "261961a3df889cbd8152ca30d139f8c6bbd3a4fea6019b8c5212a64720e4d9ed"
+      }
+    },
+    {
+      "cached": false,
+      "cycle_limit": 8,
+      "cycles": 8,
+      "directory": "cutoff25_20261011/continuation_20261011/high25_beta3_exact",
+      "excluded": false,
+      "expected_status": "PASS_FRESH_EXACT_HIGH25_BETA3_PANEL_ACQUISITION",
+      "index": 20,
+      "mathematical_cover_calls": 32,
+      "negative_controls": [
+        "wrong n",
+        "boolean n",
+        "changed parent",
+        "wrong index",
+        "boolean index",
+        "changed p interval",
+        "changed terminal status",
+        "missing global resource",
+        "wrong support",
+        "changed cycle budget",
+        "changed mean-floor grid",
+        "extra success field",
+        "missing cycle",
+        "missing local cover",
+        "false mean floor"
+      ],
+      "proof_candidate": {
+        "bytes": 7082816,
+        "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/PANEL20_PROOF.json",
+        "role": "untrusted_full_object_candidate",
+        "sha256": "19d3895aa80a9f5a78d71e5ff0682ad13c8d70c7ac633c814215e2b5eb865fe8"
+      }
+    },
+    {
+      "cached": false,
+      "cycle_limit": 8,
+      "cycles": 8,
+      "directory": "cutoff25_20261011/continuation_20261011/high25_beta3_exact",
+      "excluded": false,
+      "expected_status": "PASS_FRESH_EXACT_HIGH25_BETA3_PANEL_ACQUISITION",
+      "index": 21,
+      "mathematical_cover_calls": 32,
+      "negative_controls": [
+        "wrong n",
+        "boolean n",
+        "changed parent",
+        "wrong index",
+        "boolean index",
+        "changed p interval",
+        "changed terminal status",
+        "missing global resource",
+        "wrong support",
+        "changed cycle budget",
+        "changed mean-floor grid",
+        "extra success field",
+        "missing cycle",
+        "missing local cover",
+        "false mean floor"
+      ],
+      "proof_candidate": {
+        "bytes": 7091971,
+        "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/PANEL21_PROOF.json",
+        "role": "untrusted_full_object_candidate",
+        "sha256": "64c430400bd275edbf08fc92db4355eddfec1eb2a19f8d917011a00b79c215ce"
+      }
+    },
+    {
+      "cached": true,
+      "cycle_limit": 8,
+      "cycles": 8,
+      "directory": "cutoff25_20261011/continuation_20261011/high25_beta3_cached_exact_v1",
+      "excluded": false,
+      "expected_status": "PASS_FRESH_EXACT_HIGH25_BETA3_PANEL_ACQUISITION",
+      "index": 22,
+      "mathematical_cover_calls": 32,
+      "negative_controls": [
+        "wrong n",
+        "boolean n",
+        "changed parent",
+        "wrong index",
+        "boolean index",
+        "changed p interval",
+        "changed terminal status",
+        "missing global resource",
+        "wrong support",
+        "changed cycle budget",
+        "changed mean-floor grid",
+        "extra success field",
+        "missing cycle",
+        "missing local cover",
+        "false mean floor"
+      ],
+      "proof_candidate": {
+        "bytes": 7441025,
+        "member": "cutoff25_20261011/continuation_20261011/high25_beta3_cached_exact_v1/PANEL22_PROOF.json",
+        "role": "untrusted_full_object_candidate",
+        "sha256": "b1caab7b4fd9861c90e83d7de455f0e01c0ced498a2c51b05a0b4f87e7197355"
+      }
+    },
+    {
+      "cached": true,
+      "cycle_limit": 8,
+      "cycles": 7,
+      "directory": "cutoff25_20261011/continuation_20261011/high25_beta3_cached_exact_v1",
+      "excluded": true,
+      "expected_status": "PASS_FRESH_EXACT_HIGH25_BETA3_PANEL_ACQUISITION",
+      "index": 23,
+      "mathematical_cover_calls": 28,
+      "negative_controls": [
+        "wrong n",
+        "boolean n",
+        "changed parent",
+        "wrong index",
+        "boolean index",
+        "changed p interval",
+        "changed terminal status",
+        "missing global resource",
+        "wrong support",
+        "changed cycle budget",
+        "changed mean-floor grid",
+        "extra success field",
+        "missing cycle",
+        "missing local cover",
+        "false mean floor"
+      ],
+      "proof_candidate": {
+        "bytes": 6946173,
+        "member": "cutoff25_20261011/continuation_20261011/high25_beta3_cached_exact_v1/PANEL23_PROOF.json",
+        "role": "untrusted_full_object_candidate",
+        "sha256": "5bddf459607f9fbe7543dc603f4ff67782c9c682463e440571884769e980b3fc"
+      }
+    },
+    {
+      "cached": true,
+      "cycle_limit": 8,
+      "cycles": 2,
+      "directory": "cutoff25_20261011/continuation_20261011/high25_beta3_cached_exact_v1",
+      "excluded": true,
+      "expected_status": "PASS_FRESH_EXACT_HIGH25_BETA3_PANEL_ACQUISITION",
+      "index": 24,
+      "mathematical_cover_calls": 8,
+      "negative_controls": [
+        "wrong n",
+        "boolean n",
+        "changed parent",
+        "wrong index",
+        "boolean index",
+        "changed p interval",
+        "changed terminal status",
+        "missing global resource",
+        "wrong support",
+        "changed cycle budget",
+        "changed mean-floor grid",
+        "extra success field",
+        "missing cycle",
+        "missing local cover",
+        "false mean floor"
+      ],
+      "proof_candidate": {
+        "bytes": 2011146,
+        "member": "cutoff25_20261011/continuation_20261011/high25_beta3_cached_exact_v1/PANEL24_PROOF.json",
+        "role": "untrusted_full_object_candidate",
+        "sha256": "db79d437ff92d0fb9a218a12c6c4ff629233626cdff265b193d263cd705880c9"
+      }
+    },
+    {
+      "cached": true,
+      "cycle_limit": 8,
+      "cycles": 1,
+      "directory": "cutoff25_20261011/continuation_20261011/high25_beta3_cached_exact_v1",
+      "excluded": true,
+      "expected_status": "PASS_FRESH_EXACT_HIGH25_BETA3_PANEL_ACQUISITION",
+      "index": 25,
+      "mathematical_cover_calls": 4,
+      "negative_controls": [
+        "wrong n",
+        "boolean n",
+        "changed parent",
+        "wrong index",
+        "boolean index",
+        "changed p interval",
+        "changed terminal status",
+        "missing global resource",
+        "wrong support",
+        "changed cycle budget",
+        "changed mean-floor grid",
+        "extra success field",
+        "missing cycle",
+        "missing local cover",
+        "false mean floor"
+      ],
+      "proof_candidate": {
+        "bytes": 1028020,
+        "member": "cutoff25_20261011/continuation_20261011/high25_beta3_cached_exact_v1/PANEL25_PROOF.json",
+        "role": "untrusted_full_object_candidate",
+        "sha256": "ef15f17fea953b841267190581a8145b9017699804220a698dc860fa12f7d936"
+      }
+    },
+    {
+      "cached": true,
+      "cycle_limit": 8,
+      "cycles": 1,
+      "directory": "cutoff25_20261011/continuation_20261011/high25_beta3_cached_exact_v1",
+      "excluded": true,
+      "expected_status": "PASS_FRESH_EXACT_HIGH25_BETA3_PANEL_ACQUISITION",
+      "index": 26,
+      "mathematical_cover_calls": 4,
+      "negative_controls": [
+        "wrong n",
+        "boolean n",
+        "changed parent",
+        "wrong index",
+        "boolean index",
+        "changed p interval",
+        "changed terminal status",
+        "missing global resource",
+        "wrong support",
+        "changed cycle budget",
+        "changed mean-floor grid",
+        "extra success field",
+        "missing cycle",
+        "missing local cover",
+        "false mean floor"
+      ],
+      "proof_candidate": {
+        "bytes": 1041956,
+        "member": "cutoff25_20261011/continuation_20261011/high25_beta3_cached_exact_v1/PANEL26_PROOF.json",
+        "role": "untrusted_full_object_candidate",
+        "sha256": "9313385e9bbb4fabf499c3206130b9b176315fa8bb5079c437f8ea25f0f75dad"
+      }
+    }
+  ],
+  "mathematical_code_executed": false,
+  "profile": {
+    "barrier": "0",
+    "cap": "3619319/8750000",
+    "grid": [
+      24,
+      12,
+      8,
+      4
+    ],
+    "invariants": {
+      "beta_hi": "640471/1000000",
+      "beta_lo": "14/25",
+      "rho": "459061/250000",
+      "rho_lo": "7/4"
+    },
+    "n": 25,
+    "nmax": 25,
+    "radius": "19/5",
+    "radius_minus": "11/5",
+    "radius_plus": "19/5"
+  },
+  "resource_interfaces_verified": false,
+  "rho_interval": [
+    "7/4",
+    "459061/250000"
+  ],
+  "schema": "HIGH_BETA3_ACQUISITION_SOURCE_CATALOG_V1",
+  "selected_composition": {
+    "bytes": 307668,
+    "member": "cutoff25_20261011/continuation_20261011/high25_beta3_cached_exact_v1/HIGH25_BETA3_JOINED.json",
+    "role": "selected_regional_composition_provenance",
+    "sha256": "bb686e9094b2efe6508a6412f85f4461ac28922cfd536bdf82d4f21657f2436b"
+  },
+  "selected_full_actions": 14,
+  "selector": {
+    "bytes": 502605,
+    "member": "cutoff25_20261011/continuation_20261011/N25_REDUCTION_AFTER_HIGH_RHO_AND_MIDDLE_BETA048.json",
+    "role": "final_upper_selector_provenance",
+    "sha256": "7685a4834a1cb6577db38a37e3e296b76718257cfeee00bc6c7d0a5fe71bb990"
+  },
+  "source_epoch": "EXPLICIT_SOURCE_ONLY_CACHE_PROJECTION_WITH_FRESH_PARENT_SNAPSHOTS_V1",
+  "source_file_rows": [
+    {
+      "bytes": 226182,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_cached_exact_v1/FROZEN_SOURCES.json",
+      "role": "historical_cache_manifest_provenance_only",
+      "sha256": "0b76b7659a8c2fbac32ddc4497e70eeab2de096b6e58b1d0698a1c582781e74b"
+    },
+    {
+      "bytes": 4581,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_cached_exact_v1/acquire_panel_cached.py",
+      "role": "unchanged_original_cache_source",
+      "sha256": "86a968425892eefb94592b4d91d62a4ccbd2bafa2c00acc0ab23beba10637614"
+    },
+    {
+      "bytes": 3566,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_cached_exact_v1/cached_protocol.py",
+      "role": "unchanged_original_cache_source",
+      "sha256": "9221b3f7f3d5415db0ab930960fd8f908aae9327d2584f5c79f247e8c733c633"
+    },
+    {
+      "bytes": 2243,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/CANTELLI_HIGH_PROOF.txt",
+      "role": "unchanged_original_source",
+      "sha256": "ac0d1c269e0a2f8511d504f85bb1e46f4272e82079c3835dd136ac9ca2900c8c"
+    },
+    {
+      "bytes": 3393,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/COPY_MANIFEST.json",
+      "role": "conditional_static_review",
+      "sha256": "84f61a77c7302fb2ec2c0401efc132977e640e8bd2176f80099324abf12895a6"
+    },
+    {
+      "bytes": 2457,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/EXACT_OPTIMIZATION_PROOF.txt",
+      "role": "unchanged_original_source",
+      "sha256": "5f95c696ad1e22ed548abc41587277e66e38e0b7ab356f0e36353d2c9d65a943"
+    },
+    {
+      "bytes": 7835,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/FROZEN_ALL_PROTOCOLS.json",
+      "role": "original_source_manifest_provenance",
+      "sha256": "9aa80b7e090aafd8f851d97c20e8e05243ec4017381bab11bb198c95ef1df17d"
+    },
+    {
+      "bytes": 1541,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/FULL_CACHE_AND_PANEL_CHECKED.json",
+      "role": "conditional_static_review",
+      "sha256": "9cce433038af352abfdc94953305dcf3f1e4829c45bdaad1853151c15652efd0"
+    },
+    {
+      "bytes": 1369,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/HIGH_COMMON_INDEPENDENT_REVIEW.json",
+      "role": "conditional_static_review",
+      "sha256": "b3ab655e02aaecaa98299208aadd4efa892975a19f49d970302d3b97e08a0a48"
+    },
+    {
+      "bytes": 2052,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/HIGH_COMMON_PROOF.txt",
+      "role": "unchanged_original_source",
+      "sha256": "b4b1213afdae49d8815247b65ccd941eabcf03182aa167c746dc4d49faf16609"
+    },
+    {
+      "bytes": 748,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/HIGH_CONSTANTS_CHECKED.json",
+      "role": "conditional_static_review",
+      "sha256": "937aea9fbc077fb04405ce5d2afbae5f20ce29dfb2a667f39d67ab3d7941b452"
+    },
+    {
+      "bytes": 566,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/HIGH_CONSTANTS_PROOF.txt",
+      "role": "unchanged_original_source",
+      "sha256": "f8d03be41c5c573b255ba03f8966ab8e038f833a83bd803d12b26e6ff887a16f"
+    },
+    {
+      "bytes": 1071,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/HIGH_EVALUATION_INDEPENDENT_REVIEW.json",
+      "role": "conditional_static_review",
+      "sha256": "0ec060110028e77cd7d82277cf7774ec34e0c141b13ef5260efc0c7a433f7b42"
+    },
+    {
+      "bytes": 2216,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/HIGH_EVALUATION_INDEPENDENT_REVIEW.txt",
+      "role": "unchanged_original_source",
+      "sha256": "3654ad34b29cb06ea7120a44739302d0a1d641504bbb7191c649a1742657c08b"
+    },
+    {
+      "bytes": 756,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/HIGH_GRID_PROOF.txt",
+      "role": "unchanged_original_source",
+      "sha256": "950e4dc90d48bf1e88af138ccc15777bf36f0bad53040ca386d6c92b2c28f6d7"
+    },
+    {
+      "bytes": 1545,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/INITIAL_CACHE_INDEPENDENT_REVIEW.json",
+      "role": "conditional_static_review",
+      "sha256": "d7e528aa9ef6cf6f63ae6b7de8796753ce77ab97a31464f87d1eb3603870847f"
+    },
+    {
+      "bytes": 1287,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/INTEGER_EXPHI_PROOF.txt",
+      "role": "unchanged_original_source",
+      "sha256": "49378d83efbe4a44b0ac2c51fa9390fe798824ea85657f9ec05ece7376e9c59a"
+    },
+    {
+      "bytes": 597,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/MEAN_FLOOR_CHECKED.json",
+      "role": "conditional_static_review",
+      "sha256": "30ea98f8322b3ca8fa45b560c235d2e6c87f496ab1dcdbb9c58f8c43c6d563db"
+    },
+    {
+      "bytes": 2099,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/MEAN_FLOOR_PROOF.txt",
+      "role": "unchanged_original_source",
+      "sha256": "d5414c6e705bb32b27a556f43653b83ad191a2d65dc4dc6f981273c7e0cca1da"
+    },
+    {
+      "bytes": 7995,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/PANEL_COPY_MANIFEST.json",
+      "role": "conditional_static_review",
+      "sha256": "f211aba3a803e5c5e19402fb5ce000870b02b7836eade00694081f19313afa1d"
+    },
+    {
+      "bytes": 2138,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/PRODUCT_GAP_DISTANCE_COROLLARY.txt",
+      "role": "unchanged_original_source",
+      "sha256": "a0be5cb015735310e0993e9d6f3636b600b4d82e76a3f5239bef6d126d29b1cb"
+    },
+    {
+      "bytes": 1263,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/P_LOCAL_MEAN_INITIAL_IMPLEMENTATION_REVIEW.json",
+      "role": "conditional_static_review",
+      "sha256": "9d1a2b0c1195d724378dd08ac9a5fd046f441a9680a6f8a8f10377f6a4275652"
+    },
+    {
+      "bytes": 1720,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/P_LOCAL_MEAN_INITIAL_LEMMA.txt",
+      "role": "unchanged_original_source",
+      "sha256": "b0507393929562530ea90ba8b03a61e9e0f4f64e6abc6fb8d7dea615be3b18cc"
+    },
+    {
+      "bytes": 915,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/SCOPE.txt",
+      "role": "unchanged_original_source",
+      "sha256": "5d3be4a08a9661b59c4c1edec4f895f7468009ba30826ecf835d76001c3dfb36"
+    },
+    {
+      "bytes": 18150,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/SOURCE_COPIES.json",
+      "role": "conditional_static_review",
+      "sha256": "64d2d76988d5ac180e1799ccded535b84cd8eab48d70d2909a4e06bbb35c33b0"
+    },
+    {
+      "bytes": 4558,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/SOURCE_TRANSFORMS.json",
+      "role": "conditional_static_review",
+      "sha256": "9659280c97b0402b980745d9d98c00c93dfc106a5db1c51bb3db1af1de3727a2"
+    },
+    {
+      "bytes": 7018,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/acquire_panel.py",
+      "role": "unchanged_original_source",
+      "sha256": "c06b1c273cc113fef8dfa16945df6b6a2303cba69c994100c45b8f6ead44a118"
+    },
+    {
+      "bytes": 1593,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/cantelli_high.py",
+      "role": "unchanged_original_source",
+      "sha256": "c95a6ce9d75fd2c5693de574f322859bcb29d25df4cada9facd96ed3edc02239"
+    },
+    {
+      "bytes": 5332,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/direct_gaussian_support.py",
+      "role": "unchanged_original_source",
+      "sha256": "5742afc0538fe3fb8473d087810ad391623d38a151f5b789e7520d256197c1d2"
+    },
+    {
+      "bytes": 4166,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/feedback_common.py",
+      "role": "unchanged_original_source",
+      "sha256": "4df0ff05672dd3b428cff0bf2626c4425ba8afd7f48d3a1e867ff7c8f4d089d6"
+    },
+    {
+      "bytes": 3510,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/finite_binomial_core.py",
+      "role": "unchanged_original_source",
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f"
+    },
+    {
+      "bytes": 4692,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/global_resources.py",
+      "role": "unchanged_original_source",
+      "sha256": "dba2db25d9205bb3f768a8c67b3226998f4510d2cc67501d4c9a8c424e459c83"
+    },
+    {
+      "bytes": 4726,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/heat_support50.py",
+      "role": "unchanged_original_source",
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18"
+    },
+    {
+      "bytes": 740,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/high_grid.py",
+      "role": "unchanged_original_source",
+      "sha256": "a6b631ea8df0299e7bbd14f9d6afd21abd3f1693f66d24036cefda36f51c741a"
+    },
+    {
+      "bytes": 2810,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/high_window_common.py",
+      "role": "unchanged_original_source",
+      "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f"
+    },
+    {
+      "bytes": 2214,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/high_window_core.py",
+      "role": "unchanged_original_source",
+      "sha256": "62ba022998f45e0e4f8628badfe5092ae0b8d2bc256d5c18614bfb44e63906a0"
+    },
+    {
+      "bytes": 1966,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/high_window_original.py",
+      "role": "unchanged_original_source",
+      "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232"
+    },
+    {
+      "bytes": 11700,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/initial34.py",
+      "role": "unchanged_original_source",
+      "sha256": "a22630186fbb9a245b057e9328d579a87310605ae25c7926f112f4462064cf3e"
+    },
+    {
+      "bytes": 11852,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/initial34_indexed.py",
+      "role": "unchanged_original_source",
+      "sha256": "37c002305518111b600e461133947aed7e739530f60e316463cadad301a9a82b"
+    },
+    {
+      "bytes": 6637,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/initial_beta3.py",
+      "role": "unchanged_original_source",
+      "sha256": "29095c370f04d4a3218147c76d27c3313f42b429a42b96761b99433b36cf14f1"
+    },
+    {
+      "bytes": 803,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/integer_exphi.py",
+      "role": "unchanged_original_source",
+      "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03"
+    },
+    {
+      "bytes": 19042,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/kernel.py",
+      "role": "unchanged_original_source",
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12"
+    },
+    {
+      "bytes": 789,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/mean_floor.py",
+      "role": "unchanged_original_source",
+      "sha256": "426a8a5b63a71df083f6e91943c4b9758f1ecad41664458049ecba2b97fce09b"
+    },
+    {
+      "bytes": 4641,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/BETA0_HIGH25_RESOURCE_PORT_REVIEW.json",
+      "role": "conditional_static_review",
+      "sha256": "ebcab8726857fb89c4eaa861a1a4feed02a9910b8e609f35f433ea1b6b573640"
+    },
+    {
+      "bytes": 3536,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/COPY_MANIFEST.json",
+      "role": "conditional_static_review",
+      "sha256": "1c78fe0d4694ef805b6e15129d55c95f7a152dd90be9241b93a8addec8473345"
+    },
+    {
+      "bytes": 3297,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/GENERAL_PAIRED_EXACT_REVIEW.txt",
+      "role": "unchanged_original_source",
+      "sha256": "f2a36127f2c34ab03e2ff8e4c73f9afa46651e73c4b4cae0004975c6438ddeaa"
+    },
+    {
+      "bytes": 4577,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/GENERAL_PAIRED_PROOF.txt",
+      "role": "unchanged_original_source",
+      "sha256": "ec58bb8c1c8df0ff3eb019ffd61988ee37c696149e934e7ca403a31c856f3bda"
+    },
+    {
+      "bytes": 1369,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/HIGH_COMMON_INDEPENDENT_REVIEW.json",
+      "role": "conditional_static_review",
+      "sha256": "b3ab655e02aaecaa98299208aadd4efa892975a19f49d970302d3b97e08a0a48"
+    },
+    {
+      "bytes": 2052,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/HIGH_COMMON_PROOF.txt",
+      "role": "unchanged_original_source",
+      "sha256": "b4b1213afdae49d8815247b65ccd941eabcf03182aa167c746dc4d49faf16609"
+    },
+    {
+      "bytes": 748,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/HIGH_CONSTANTS_CHECKED.json",
+      "role": "conditional_static_review",
+      "sha256": "937aea9fbc077fb04405ce5d2afbae5f20ce29dfb2a667f39d67ab3d7941b452"
+    },
+    {
+      "bytes": 566,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/HIGH_CONSTANTS_PROOF.txt",
+      "role": "unchanged_original_source",
+      "sha256": "f8d03be41c5c573b255ba03f8966ab8e038f833a83bd803d12b26e6ff887a16f"
+    },
+    {
+      "bytes": 2216,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/HIGH_EVALUATION_INDEPENDENT_REVIEW.txt",
+      "role": "unchanged_original_source",
+      "sha256": "3654ad34b29cb06ea7120a44739302d0a1d641504bbb7191c649a1742657c08b"
+    },
+    {
+      "bytes": 1287,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/INTEGER_EXPHI_PROOF.txt",
+      "role": "unchanged_original_source",
+      "sha256": "49378d83efbe4a44b0ac2c51fa9390fe798824ea85657f9ec05ece7376e9c59a"
+    },
+    {
+      "bytes": 2457,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/MEMOIZATION_IDENTITY_PROOF.txt",
+      "role": "unchanged_original_source",
+      "sha256": "5f95c696ad1e22ed548abc41587277e66e38e0b7ab356f0e36353d2c9d65a943"
+    },
+    {
+      "bytes": 5007,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/POSITIVE_GAP_RESOURCE_EXTENSION.txt",
+      "role": "unchanged_original_source",
+      "sha256": "0bf6ae992f6b8c4b8c344b178f715c9717d1083c2fce317b7cdb0dc151e210f2"
+    },
+    {
+      "bytes": 2138,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/PRODUCT_GAP_DISTANCE_COROLLARY.txt",
+      "role": "unchanged_original_source",
+      "sha256": "a0be5cb015735310e0993e9d6f3636b600b4d82e76a3f5239bef6d126d29b1cb"
+    },
+    {
+      "bytes": 2344,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/PRODUCT_GAP_IMPLEMENTATION_REVIEW.txt",
+      "role": "unchanged_original_source",
+      "sha256": "274981799dd37ad2f11bc64334d38d416ab71f0b7f4635b44a53d8edaf24fc55"
+    },
+    {
+      "bytes": 6662,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/candidate_charged_score_v2.py",
+      "role": "unchanged_original_source",
+      "sha256": "20f3c102f7b77b5ef49b0e6282cfacb3e24975f207296a5b74b27c0af6cdc6b4"
+    },
+    {
+      "bytes": 20457,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/contracted_kernel.py",
+      "role": "unchanged_original_source",
+      "sha256": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0"
+    },
+    {
+      "bytes": 1164,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/corrected_phase_callback_extended.py",
+      "role": "unchanged_original_source",
+      "sha256": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63"
+    },
+    {
+      "bytes": 5306,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/direct_gaussian_support.py",
+      "role": "unchanged_original_source",
+      "sha256": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57"
+    },
+    {
+      "bytes": 3510,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/finite_binomial_core.py",
+      "role": "unchanged_original_source",
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f"
+    },
+    {
+      "bytes": 3510,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/finite_gaussian.py",
+      "role": "unchanged_original_source",
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f"
+    },
+    {
+      "bytes": 4013,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/general_paired_exact.py",
+      "role": "unchanged_original_source",
+      "sha256": "e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96"
+    },
+    {
+      "bytes": 2100,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/geometric_moment_both.py",
+      "role": "unchanged_original_source",
+      "sha256": "ea17218cdad6c409dacf8d4a37b437453fbf7aab3683867d16783cb696206616"
+    },
+    {
+      "bytes": 4726,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/heat_support50.py",
+      "role": "unchanged_original_source",
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18"
+    },
+    {
+      "bytes": 2810,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/high_window_common.py",
+      "role": "unchanged_original_source",
+      "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f"
+    },
+    {
+      "bytes": 1966,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/high_window_core.py",
+      "role": "unchanged_original_source",
+      "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232"
+    },
+    {
+      "bytes": 1966,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/high_window_original.py",
+      "role": "unchanged_original_source",
+      "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232"
+    },
+    {
+      "bytes": 803,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/integer_exphi.py",
+      "role": "unchanged_original_source",
+      "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03"
+    },
+    {
+      "bytes": 19042,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/kernel.py",
+      "role": "unchanged_original_source",
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12"
+    },
+    {
+      "bytes": 1901,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/make_charged35_resources.py",
+      "role": "unchanged_original_source",
+      "sha256": "f07e4a9c4bf77584df8a2905cec0dabfe67973cddffd0698bba053d340491b66"
+    },
+    {
+      "bytes": 2854,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/paired_extended.py",
+      "role": "unchanged_original_source",
+      "sha256": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998"
+    },
+    {
+      "bytes": 10238,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/resource25_core.py",
+      "role": "unchanged_original_source",
+      "sha256": "e1ff3134fa817d277cedcd95555ccabd02a7c1bea0650f0acd677bfc4f46f4d0"
+    },
+    {
+      "bytes": 1850,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/resource_worker.py",
+      "role": "unchanged_original_source",
+      "sha256": "a3c7ffb096ed5a31c5b4f8c3c6f6b4f1a2dd1e2a8135f4d803d610973712861e"
+    },
+    {
+      "bytes": 1785,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/signed_variance_resource.py",
+      "role": "unchanged_original_source",
+      "sha256": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8"
+    },
+    {
+      "bytes": 2698,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/resource_exact/small_index_support.py",
+      "role": "unchanged_original_source",
+      "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582"
+    },
+    {
+      "bytes": 2430,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/run_action.py",
+      "role": "unchanged_original_source",
+      "sha256": "490c353145ef9a96439ebc304695bf253371b3645ff7221b5715dfb878d6ec23"
+    },
+    {
+      "bytes": 2698,
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/small_index_support.py",
+      "role": "unchanged_original_source",
+      "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582"
+    },
+    {
+      "bytes": 4497,
+      "member": "cutoff25_20261011/continuation_20261011/high25_transfers/stage_cache_v2/EXACT_STAGE_CACHE_PROOF.txt",
+      "role": "unchanged_original_cache_source",
+      "sha256": "55535e6746e3f58c496ceea2cda7251dbc78808f00fc3ace998006e5711e8f07"
+    },
+    {
+      "bytes": 14630,
+      "member": "cutoff25_20261011/continuation_20261011/high25_transfers/stage_cache_v2/INDEPENDENT_REVIEW.json",
+      "role": "conditional_static_review",
+      "sha256": "cc66cd11bff5c66e5b37085be6bcb6dbaadb5ce9c5a9d02a9bb84e0bf7a6e076"
+    },
+    {
+      "bytes": 6967,
+      "member": "cutoff25_20261011/continuation_20261011/high25_transfers/stage_cache_v2/exact_stage_cache.py",
+      "role": "unchanged_original_cache_source",
+      "sha256": "95c9b510c8a40e3e73e782c67d98ce0f29ea09ce689f4f3e993ad3580ca5d15d"
+    }
+  ]
+}
