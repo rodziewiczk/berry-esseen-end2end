@@ -255,6 +255,33 @@ class Counts(unittest.TestCase):
         self.assertIsNotNone(restored);self.assertEqual(restored[1],checked)
         self.assertEqual(ev.validate_completed(restored[0]),checked)
 
+    def test_exact_pre_fix_complete_stage_restores_without_any_native_rerun(self):
+        task,_=self.complete()
+        observed=src.read(task/'STAGE_OBSERVED.json')
+        observed['implementation']=copy.deepcopy(ev.PRE_FINISH_FIX_IMPLEMENTATION)
+        observed_sha=put(task/'STAGE_OBSERVED.json',observed)
+        completed=src.read(task/'STAGE_COMPLETED.json')
+        completed['implementation']=copy.deepcopy(ev.PRE_FINISH_FIX_IMPLEMENTATION)
+        completed['observed_sha256']=observed_sha
+        put(task/'STAGE_COMPLETED.json',completed)
+        before={p.name:p.read_bytes()for p in (task/'STAGE_OBSERVED.json',task/'STAGE_COMPLETED.json')}
+        checked=ev.validate_completed(task)
+        cache=self.root/'old-completed';run.save_stage(task,cache)
+        with patch.object(run.linux_supervisor,'run',side_effect=AssertionError('No native replay for saved complete stage')):
+            restored=run.restore_stage(cache,self.root/'old-restored',self.row)
+        self.assertIsNotNone(restored);self.assertEqual(restored[1],checked)
+        for name,raw in before.items():self.assertEqual((restored[0]/name).read_bytes(),raw)
+
+    def test_compatibility_rejects_omitted_extra_unknown_and_mixed_epochs(self):
+        prior=copy.deepcopy(ev.PRE_FINISH_FIX_IMPLEMENTATION)
+        self.assertTrue(ev.known_implementation(prior))
+        bad=[]
+        missing=copy.deepcopy(prior);missing.pop('finite1039_counts.py');bad.append(missing)
+        extra=copy.deepcopy(prior);extra['extra']='a'*64;bad.append(extra)
+        mixed=copy.deepcopy(prior);mixed['finite1039_counts.py']=ev.implementation()['finite1039_counts.py'];bad.append(mixed)
+        unknown=copy.deepcopy(prior);unknown['linux_supervisor.py']='0'*64;bad.append(unknown)
+        for packet in bad:self.assertFalse(ev.known_implementation(packet))
+
     def test_corrupt_completed_zip_is_advisory_and_rejected(self):
         cache=self.root/"completed";cache.mkdir();p=cache/"zz-complete.zip";p.write_bytes(b"not-a-zip")
         p.with_suffix(".zip.sha256").write_text(src.digest(p)+"  "+p.name+"\n",encoding="ascii")
@@ -315,6 +342,26 @@ class Counts(unittest.TestCase):
         self.assertEqual(result["status"]["expected_census"],
                          {k:v for k,v in declaration["lanes"]["n10_14"].items()if k!="available_forests"})
         transport.assert_called_once()
+
+    def test_actual_catalog_without_optional_prose_field_finishes_all147_metadata_jobs(self):
+        declaration=src.read(src.CATALOG,limit=64*src.MIB)
+        self.assertNotIn('remaining_obligations',declaration)
+        actual_rows=[r for r in declaration['jobs']if r['lane']=='n15_19']
+        self.assertEqual(len(actual_rows),147)
+        def completed_metadata(root,completed_cache,source_cache,status,rows):
+            self.assertEqual(rows,actual_rows)
+            status['jobs']=[dict(job_id=r['job_id'],reused_completed_stage=True,
+                                validated=dict(summary=dict(census=r['census'])))for r in rows]
+        with patch.object(src,'catalog',return_value=declaration),patch.object(src,'obtain_assets',return_value={}),\
+                patch.object(src,'prepare_cache',return_value=self.cache),patch.object(run,'LogBackups'),\
+                patch.object(run,'batch_jobs',side_effect=completed_metadata),\
+                patch.object(run.linux_supervisor,'run',side_effect=AssertionError('No original mathematics')):
+            result=run.run_colab('n15_19',durable_root=self.root/'durable',work_root=self.root/'actual-finish')
+        self.assertEqual(result['status']['state'],'complete_selected_conditional_count_arithmetic_basic')
+        self.assertEqual(result['status']['actual_census'],{k:v for k,v in declaration['lanes']['n15_19'].items()if k!='available_forests'})
+        self.assertIs(result['status']['conditional_arithmetic_completed'],True)
+        self.assertTrue(result['status']['remaining_obligations'])
+        for flag in ev.FLAGS:self.assertIs(result['status'][flag],False)
 
     def test_ready_flag_cannot_override_an_incomplete_available_census(self):
         self.cat["lanes"]["n10_14"]["available_forests"]=2

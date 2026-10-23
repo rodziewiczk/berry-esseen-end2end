@@ -103,6 +103,31 @@ class Recovery(unittest.TestCase):
         self.assertEqual(src.read(task/'capsule/COUNT41_ACCEPTED.json')['negative_controls'],ev.CONTROLS)
         for f in ev.FLAGS:self.assertIs(result[f],False)
 
+    def test_exact_original64_pair_restores_byte_preserving_without_native_calls(self):
+        task,_=self.complete()
+        for name in('CONSTRUCT_OBSERVED.json','ACCEPT_OBSERVED.json'):
+            packet=src.read(task/name);packet['implementation']=copy.deepcopy(ev.ORIGINAL64_IMPLEMENTATION);put(task/name,packet)
+        packet=src.read(task/'COMPLETED.json');packet['implementation']=copy.deepcopy(ev.ORIGINAL64_IMPLEMENTATION)
+        packet['artifacts']=ev.inventory(task);put(task/'COMPLETED.json',packet)
+        checked=ev.validate_completed(task);before={n:(task/n).read_bytes()for n in('CONSTRUCT_OBSERVED.json','ACCEPT_OBSERVED.json','COMPLETED.json')}
+        cache=self.root/'old64cache';run.save_completed(task,cache)
+        with patch.object(run.linux_supervisor,'run',side_effect=AssertionError('No original numerical rerun')):
+            restored=run.restore_completed(cache,self.root/'old64restored')
+        self.assertIsNotNone(restored);self.assertEqual(restored[1],checked)
+        for name,content in before.items():self.assertEqual((restored[0]/name).read_bytes(),content)
+
+    def test_original64_whitelist_rejects_hash_mixing_and_pair_epoch_mismatch(self):
+        old=copy.deepcopy(ev.ORIGINAL64_IMPLEMENTATION)
+        self.assertTrue(ev.known_implementation(old))
+        for key in old:
+            missing=copy.deepcopy(old);missing.pop(key);self.assertFalse(ev.known_implementation(missing))
+        mixed=copy.deepcopy(old);mixed['n27_p41_recovery_evidence.py']=ev.implementation()['n27_p41_recovery_evidence.py']
+        self.assertFalse(ev.known_implementation(mixed))
+        extra=copy.deepcopy(old);extra['extra']='0'*64;self.assertFalse(ev.known_implementation(extra))
+        task,_=self.complete();record=src.read(task/'ACCEPT_OBSERVED.json')
+        record['implementation']=old;put(task/'ACCEPT_OBSERVED.json',record)
+        with self.assertRaisesRegex(ValueError,'same whole implementation epoch'):ev.validate_pair(task)
+
     def test_source_capsule_excludes_old_acceptance_and_seals_every_source(self):
         task=self.root/'prepared';src.prepare(self.archive,task)
         self.assertFalse((task/'capsule/COUNT41_ACCEPTED.json').exists())

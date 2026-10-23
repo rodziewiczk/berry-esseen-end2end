@@ -41,6 +41,27 @@ def implementation():
     return {n:src.digest(src.ROOT/'be_replay'/n)for n in names}|{'source_plan_sha256':src.PLAN_SHA256}
 
 
+# Complete published64 runtime b8631631e1772de83187701ddbdd9ef972870ea8.
+# Its pure metadata dependency later gained COUNT batch-finish compatibility;
+# the original whole pair and every source/capture/leaf binding remain checked.
+ORIGINAL64_IMPLEMENTATION={
+    'colab_batch.py':'136bc2bb9b25cb8cd36118041bf593821f3cbdea5debee82b27ccb7626c0d1e6',
+    'finite1039_count_evidence.py':'6e38c9c99ecebcfce7d1c09d8233da1b5905bbd9f46e60c4a73883fdcd8f03e9',
+    'finite1039_sources.py':'6a34be3e362d2a9cfe34b52bf1c0f1872cd4fe45afa8cf2acf82a232b4da1c95',
+    'linux_supervisor.py':'61e71dd4a9653de2bbbee8c54928a1f5c5bffd0bf083dd324851716c3a1eaea2',
+    'n27_p41_recovery.py':'fe0aeeed15e9d432144f2ced96c3cf5130650fa0fa789ce27c1a4394ec983cfe',
+    'n27_p41_recovery_evidence.py':'38a8729842f8f70cdb2e59e1c550e8783fbd59a88322c8fd26ae1f61682bef65',
+    'n27_p41_recovery_sources.py':'ddfb9869826c59bf9e0fec213462e54f39de8da3a2c4796587c20e20f11b0183',
+    'n5_remaining_bridge.py':'f0459a0570ca9a4fc11e507f25474e67bf5e3e958a60513bb7be364d707a069a',
+    'n5_remaining_sources.py':'17f8d9b3bcdce510574901be83684a630d54cc8d2f6251856b7737bbd85aaaab',
+    'source_plan_sha256':'94d5a0048c619a86666c94fc7ba93d7cb5bfee602c3e505e663d5ee2583fc814',
+}
+
+
+def known_implementation(packet):
+    return same(packet,implementation())or same(packet,ORIGINAL64_IMPLEMENTATION)
+
+
 def command(request,action,python):
     from pathlib import PureWindowsPath,PurePosixPath
     root=request['original_task_root'];cls=PureWindowsPath if len(root)>1 and root[1]==':'else PurePosixPath
@@ -90,8 +111,8 @@ def forest_census(capsule):
 def process(task,action,record):
     task=Path(task);request=src.verify_task(task);original=request['original_task_root'];directory=task/'execution'/action
     src.need(record['schema']=='OBSERVED_NEW_N27_P41_ACTION_V1'and record['scope']==SCOPE and record['action']==action
-             and same(record['implementation'],implementation())and all(record[f]is False for f in FLAGS),
-             'Current exact implementation and honest conditional action scope')
+             and known_implementation(record['implementation'])and all(record[f]is False for f in FLAGS),
+             'One complete exact implementation epoch and honest conditional action scope')
     o=record['observed'];src.need(same(src.read(directory/'supervisor-result.json'),o),'Actual stopped supervisor result')
     src.need(o['status']=='completed'and type(o['returncode'])is int and o['returncode']==0 and o['reason']is None
              and o['mode']=='untrusted_search'and o['proof_accepted']is False
@@ -160,6 +181,8 @@ def inventory(task):
 
 def validate_pair(task):
     task=Path(task);constructed=validate_constructor(task);record=src.read(task/'ACCEPT_OBSERVED.json')
+    src.need(same(record['implementation'],src.read(task/'CONSTRUCT_OBSERVED.json')['implementation']),
+             'Construction and acceptance belong to the same whole implementation epoch')
     packet=process(task,'accept',record);capsule=task/'capsule';receipt=src.read(capsule/'COUNT41_ACCEPTED.json')
     src.need(same(packet,receipt),'Whole actual acceptor stdout equals the fresh acceptance receipt')
     c=constructed['census'];expected=dict(status='PASS_FRESH_CONDITIONAL_ACTUAL27_EXACT_COUNT41',n=27,index=41,
@@ -185,7 +208,8 @@ def validate_completed(task, *,original_task_root=None):
     task=Path(task);request=src.verify_task(task)
     src.need(original_task_root is None or str(original_task_root)==request['original_task_root'],'One explicit originating task root')
     report=src.read(task/'COMPLETED.json');summary=validate_pair(task)
-    src.need(report['schema']=='COMPLETED_NEW_N27_P41_PAIR_V1'and same(report['implementation'],implementation())
+    src.need(report['schema']=='COMPLETED_NEW_N27_P41_PAIR_V1'
+             and same(report['implementation'],src.read(task/'CONSTRUCT_OBSERVED.json')['implementation'])
              and same(report['summary'],summary)and same(report['artifacts'],inventory(task))
              and report['conditional_arithmetic_completed']is True and all(report[f]is False for f in FLAGS),
              'Full completed new-candidate source/process/capture/output inventory')

@@ -227,6 +227,12 @@ def batch_jobs(root,completed_cache,source_cache,status,rows):
 
 
 FOREST_COUNTS={"n10_14":217,"n15_19":147,"n20_24":163,"n26_30":80,"n31_34":282,"n35_39":120}
+REMAINING_OBLIGATIONS=(
+    "Same-law INITIAL/resource/support and Fourier acquisitions under each literal contract",
+    "Unrestricted attained-witness and analytic source-to-lemma premises",
+    "Fresh source-bound parent-to-count and regional semantic joins",
+    "All-law finite-index conclusions and the all-index theorem",
+)
 
 
 def run_colab(lane, *,durable_root,work_root="/content/berry-esseen-runs",archives="/content/berry-esseen-archives",backup_interval=60):
@@ -270,9 +276,10 @@ def run_colab(lane, *,durable_root,work_root="/content/berry-esseen-runs",archiv
         src.need(evidence.same(actual,expected),"Exact complete selected COUNT replay census")
         status.update(state="complete_selected_conditional_count_arithmetic_basic",all_selected_arithmetic_completed=True,
                       conditional_arithmetic_completed=True,actual_census=actual,
-                      remaining_obligations=src.catalog()["remaining_obligations"])
+                      remaining_obligations=list(REMAINING_OBLIGATIONS))
     except BaseException as error:
-        status.update(state="incomplete_selected_count_arithmetic",error=type(error).__name__+": "+str(error))
+        status.update(state="incomplete_selected_count_arithmetic",all_selected_arithmetic_completed=False,
+                      conditional_arithmetic_completed=False,error=type(error).__name__+": "+str(error))
         (root/"ERROR.txt").write_text(traceback.format_exc(),encoding="utf-8")
         event(root,"finite1039_count_incomplete",error=status["error"],completed_jobs=len(status["jobs"]),full_finite1039_verified=False)
     finally:

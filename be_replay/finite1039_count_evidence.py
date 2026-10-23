@@ -39,6 +39,25 @@ def implementation():
     return {name: src.digest(src.ROOT/"be_replay"/name) for name in names} | {"catalog_sha256": src.CATALOG_SHA256}
 
 
+# Exact published runtime4d2020e36a2ffc521815d03f58284058d6dce3ef.
+# Its complete native stages are valid; only batch summary finalization read
+# an absent catalog field. Never mix hashes or rewrite old completed evidence.
+PRE_FINISH_FIX_IMPLEMENTATION = {
+    "catalog_sha256": "67a647a00111fda930391bda90345ece419bbf54c44a70c0390969ad0fab3d6d",
+    "colab_batch.py": "136bc2bb9b25cb8cd36118041bf593821f3cbdea5debee82b27ccb7626c0d1e6",
+    "finite1039_count_evidence.py": "6e38c9c99ecebcfce7d1c09d8233da1b5905bbd9f46e60c4a73883fdcd8f03e9",
+    "finite1039_counts.py": "5652bce423b4949c49c17e00ff95188390ab65efd41a5912ff110ec969dfac85",
+    "finite1039_sources.py": "6a34be3e362d2a9cfe34b52bf1c0f1872cd4fe45afa8cf2acf82a232b4da1c95",
+    "linux_supervisor.py": "61e71dd4a9653de2bbbee8c54928a1f5c5bffd0bf083dd324851716c3a1eaea2",
+    "n5_remaining_bridge.py": "f0459a0570ca9a4fc11e507f25474e67bf5e3e958a60513bb7be364d707a069a",
+    "n5_remaining_sources.py": "17f8d9b3bcdce510574901be83684a630d54cc8d2f6251856b7737bbd85aaaab",
+}
+
+
+def known_implementation(packet):
+    return same(packet, implementation()) or same(packet, PRE_FINISH_FIX_IMPLEMENTATION)
+
+
 def mapped(task, value, original):
     src.need(type(value) is str and type(original) is str and "\0" not in value and "\0" not in original,
              "Recorded original path strings")
@@ -223,9 +242,9 @@ def validate_run(task, row, report):
     request = src.verify_job(task, row)
     original = request["original_task_root"]
     src.need(report["schema"] == OBSERVED and report["scope"] == SCOPE and report["job_id"] == row["job_id"]
-             and same(report["implementation"], implementation()) and report["original_task_root"] == original
+             and known_implementation(report["implementation"]) and report["original_task_root"] == original
              and report["conditional_arithmetic_completed"] is False and all(report[f] is False for f in FLAGS),
-             "Exact current implementation and false observed-to-completed transition")
+             "Exact current or complete published prior implementation and false observed-to-completed transition")
     observed = report["observed"]
     src.need(observed.get("status") == "completed" and type(observed.get("returncode")) is int and observed["returncode"] == 0
              and observed.get("reason") is None and observed.get("proof_accepted") is False
@@ -282,7 +301,7 @@ def validate_completed(task, *, original_task_root=None):
     complete = src.read(task/"STAGE_COMPLETED.json", limit=64*src.MIB)
     summary = validate_run(task, row, observed)
     src.need(complete["schema"] == COMPLETED and complete["scope"] == SCOPE and complete["job_id"] == row["job_id"]
-             and same(complete["implementation"], implementation()) and complete["observed_sha256"] == src.digest(task/"STAGE_OBSERVED.json")
+             and same(complete["implementation"], observed["implementation"]) and complete["observed_sha256"] == src.digest(task/"STAGE_OBSERVED.json")
              and complete["conditional_arithmetic_completed"] is True and same(complete["summary"], summary)
              and same(complete["artifacts"], inventory(task)) and all(complete[f] is False for f in FLAGS),
              "Exact complete source/candidate/capture/receipt inventory and completed transition")
