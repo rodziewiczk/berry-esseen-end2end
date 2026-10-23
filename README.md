@@ -92,6 +92,12 @@ packages the original high-rho Fourier calculation for literal n10--14.
 Its finite integration, selected published tail and conditional analytic
 premises remain distinct from full56. See [scope](proof/finite1014_highrho_execution.md).
 
+The fourth original Fourier family is
+[56D_n10_14_corner_fourier.ipynb](colab/56D_n10_14_corner_fourier.ipynb).
+It covers the closed rho interval[23/20,71/50] with the explicit support3
+premise. It leaves support acquisition and the remaining56parents/interfaces
+separate; see [scope](proof/finite1014_corner_execution.md).
+
 The current12-hour settings in RESTART01–07 are budgets, not completion estimates.
 A complete tree still requires a separate full acceptor run. An unfinished tree
 is checkpointed for a compatible rerun.

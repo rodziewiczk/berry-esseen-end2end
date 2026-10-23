@@ -16,7 +16,9 @@ kernel was run locally. The next parent packages are grouped in
 with exact current-context source/capture requirements. The first independent
 auxiliary Fourier sublane56Ais now packaged under an immutable runtime; it
 does not complete all56. Supported56Band high-rho56Care also packaged under
-immutable runtimes; corner56Dis being prepared. The supplied53ending now records complete conditional80-forest
+immutable runtimes; corner56Dis also packaged. These four files cover the
+four selected Fourier integrations, leaving support/HIGH, INITIAL/resources,
+shared scalar-certificate inputs and217interfaces separate. The supplied53ending now records complete conditional80-forest
 arithmetic; no repeated53count run is queued from that observation.
 
 There is no justified fixed total of notebooks left to finish the theorem.

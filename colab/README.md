@@ -391,3 +391,16 @@ BASIC ceilings and full original controls. Only a complete validated four-action
 cache is reused in its own namespace. Full56and217interfaces remain separate.
 See [scope](../proof/finite1014_highrho_execution.md) and
 [bounded internal review](../proof/finite1014_highrho_root_review.md).
+
+Notebook56D, `56D_n10_14_corner_fourier.ipynb`, selects immutable runtime
+`8e091e0e628cd6c8422c084dd4461dfe438e400c`. Run all with the usual Drive;
+CPU or GPU sessions work, with arithmetic on the CPU. It preserves145original
+inputs/the142-row manifest and all four original actions. Each literal n10--14
+is checked throughout the closed rho interval[23/20,71/50], conditional on
+the same law having support |X|<=3. The native71named control instances and
+35independent controls plus endpoint probe remain required. Each action has
+2GiB/43200CPU/54000wall BASIC ceilings and complete-only validated cache reuse.
+All22infrastructure/source/generator fixtures pass, including a clean checkout.
+Support, full56,217interfaces and global conclusions remain separate. See
+[scope](../proof/finite1014_corner_execution.md) and
+[bounded internal review](../proof/finite1014_corner_root_review.md).

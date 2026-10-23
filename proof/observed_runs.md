@@ -1067,3 +1067,24 @@ This is the same repaired common finalizer described in
 `finite1039_finish_fix.md`. The corrected54notebook published in09b469freuses
 fully revalidated completed stages from this exact older runtime. It has been
 delivered to the user; its final corrected completion is not yet observed.
+
+## Notebook54: corrected completion observed
+
+The subsequent inline ending at23:34:28UTC on23October2026 records282/282
+revalidated/reused stages, `complete_selected_conditional_count_arithmetic_basic`
+and the final bundle
+`finite1039-counts-n31_34/20261023T232703Z-8efe9415/20261023T232703Z-8efe9415-results.zip`.
+This supersedes the old wrapper failure; no repeated native mathematics is
+reported in the supplied rerun. Actual final export readback and parent/theorem
+composition remain separate.
+
+## Notebook12: actual full export readback completed
+
+The actual final ZIP and its actual Drive sidecar now match
+SHA256`51640e38549bf8ebe05e09953622e1f8526063f7a03b2f2c48756b782d17fd63`.
+Both the internal reader and root's pure rerun pass1702source/context/capture
+checks with zero mismatches, confirming14/14and41/41full execution evidence.
+The [bounded actual-export note](tail49_completed_export_readback.md) and
+[sanitized summary](tail49_completed_export_readback.json) retain the exact
+source/worker/result hashes, resource scope and analytic/global limitations.
+No original mathematical program was rerun locally.
