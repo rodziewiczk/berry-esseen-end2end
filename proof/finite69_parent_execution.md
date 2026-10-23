@@ -173,3 +173,26 @@ they test whole stopped-output capture, strict receipt/control/source gates,
 timed-parent comparison, completed-cache relocation/reuse, missing dependencies,
 false-scope rejection and failure export. The real-source preparation and tests
 execute no original mathematical function.
+
+## Notebook44underscore routing repair
+
+The supplied21:21UTC log completes and saves the four full n6INITIAL actions,
+then fails before launching `n6.panel.b0_40`: the controller's safe identifier
+pattern omitted ASCII underscore. The literal catalog legitimately contains
+17such local INITIAL identifiers. Allowing underscore fixes routing; all50
+actual44/45job identifiers retain unique unchanged slugs. Path separators,
+drive names, whitespace and nonstring inputs remain rejected.
+
+The mathematical source/preparer/catalog and numerical/control requirements
+are unchanged. Completed-stage validation accepts either the exact new runtime
+or one complete ten-field implementation table from the original published
+runtime `a6f49554d4024df7cf4cc86e65cd63013a190873`. Every old table entry was
+independently checked against that Git commit's actual blob bytes. Individual
+mixed hashes, omitted/extra fields and mismatched observed/completed runtime
+tables fail. No cached receipt is rewritten and no validation rule is omitted.
+
+The replacement44notebook revalidates the four preserved old completed-stage
+ZIPs and can reuse them before starting the fifth action. This behavior passes
+a synthetic four-old-stage fixture; actual user exports are accepted only after
+their own complete readback in Colab. Existing45runs retain their immutable
+old source commit and do not require restarting for this44routing repair.

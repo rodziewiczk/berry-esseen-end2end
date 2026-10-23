@@ -29,7 +29,7 @@ CACHE_FILES=10000
 
 
 def slug(job_id):
-    src.need(re.fullmatch(r"[A-Za-z0-9.-]+",job_id)is not None,"Catalog job identifier")
+    src.need(type(job_id)is str and re.fullmatch(r"[A-Za-z0-9._-]+",job_id)is not None,"Catalog job identifier")
     return job_id.lower().replace(".","-")
 
 

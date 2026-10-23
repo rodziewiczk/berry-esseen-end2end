@@ -178,5 +178,65 @@ class Parents(unittest.TestCase):
             with self.subTest(lane=lane),self.assertRaises(ValueError):run.run_colab(lane,durable_root=self.root/"durable",work_root=self.root/"unused")
         self.assertFalse((self.root/"unused").exists())
 
+    def test_every_actual_catalog_identifier_routes_including_fifth_underscore(self):
+        # Read metadata only; the fixture does not prepare or run these sources.
+        rows=src.read(src.CATALOG,limit=32*src.MIB)["jobs"]
+        names=[run.slug(row["job_id"])for row in rows]
+        self.assertEqual(len(names),50);self.assertEqual(len(set(names)),50)
+        selected=[r for r in rows if r["lane"]=="n6"]
+        self.assertEqual(selected[4]["job_id"],"n6.panel.b0_40")
+        self.assertEqual(run.slug(selected[4]["job_id"]),"n6-panel-b0_40")
+        for identifier in("../escape","a/b","a\\b","C:drive","a b","a\n",True,None,"zażółć"):
+            with self.subTest(identifier=identifier),self.assertRaises(ValueError):run.slug(identifier)
+
+    def test_exact_historical_implementation_has_no_wildcard(self):
+        old=copy.deepcopy(ev.PRE_SLUG_FIX_IMPLEMENTATION)
+        self.assertTrue(ev.implementation_allowed(old));self.assertTrue(ev.implementation_allowed(ev.implementation()))
+        for key in old:
+            bad=dict(old);bad[key]="0"*64
+            with self.subTest(key=key):self.assertFalse(ev.implementation_allowed(bad))
+        for bad in(dict(old,unknown="0"*64),{k:v for k,v in old.items()if k!="linux_supervisor.py"}):
+            self.assertFalse(ev.implementation_allowed(bad))
+
+    def test_four_old_completed_caches_are_preserved_and_only_fifth_underscore_executes(self):
+        ids=("n6.initial.B0","n6.initial.B2","n6.initial.BN","n6.initial.outer.BN","n6.panel.b0_40")
+        rows=[]
+        for identifier in ids:
+            row=copy.deepcopy(self.row);row["job_id"]=identifier
+            row["kind"]="local_initial"if"panel"in identifier else"initial";rows.append(row)
+        self.cat["jobs"]=rows;cache=self.root/"legacy-cache";saved={}
+        old=copy.deepcopy(ev.PRE_SLUG_FIX_IMPLEMENTATION)
+        for i,row in enumerate(rows[:4]):
+            # Generate synthetic old-context evidence, not a historical proof.
+            with patch.object(ev,"implementation",return_value=old):
+                task,_=self.complete("old"+str(i),row)
+                result=run.save_stage(task,cache/run.slug(row["job_id"]))
+            saved[Path(result["path"])]=src.digest(result["path"])
+        root=self.root/"resumed-five";root.mkdir();status=dict(jobs=[])
+        with patch.object(run.linux_supervisor,"run",side_effect=self.fake_supervisor)as launch,patch.object(run,"Follow"):
+            run.batch_jobs(root,cache,self.cache,status,rows)
+        self.assertEqual(launch.call_count,1)
+        self.assertEqual([r["reused_completed_stage"]for r in status["jobs"]],[True,True,True,True,False])
+        self.assertEqual(status["jobs"][-1]["job_id"],"n6.panel.b0_40")
+        for path,pin in saved.items():self.assertEqual(src.digest(path),pin)
+        for row in status["jobs"]:
+            for flag in ev.FLAGS:self.assertIs(row["validated"][flag],False)
+        again=self.root/"all-five-cached";again.mkdir();second=dict(jobs=[])
+        with patch.object(run.linux_supervisor,"run",side_effect=AssertionError("No completed stage should rerun")):
+            run.batch_jobs(again,cache,self.cache,second,rows)
+        self.assertTrue(all(r["reused_completed_stage"]for r in second["jobs"]))
+
+    def test_historical_context_still_rejects_native_mutation_and_mixed_epoch(self):
+        old=copy.deepcopy(ev.PRE_SLUG_FIX_IMPLEMENTATION)
+        with patch.object(ev,"implementation",return_value=old):task,_=self.complete("historical")
+        ev.validate_completed(task)
+        complete=src.read(task/"STAGE_COMPLETED.json");complete["implementation"]=ev.implementation();put(task/"STAGE_COMPLETED.json",complete)
+        with self.assertRaisesRegex(ValueError,"completed transition"):ev.validate_completed(task)
+        with patch.object(ev,"implementation",return_value=old):task,_=self.complete("historical-native")
+        packet=src.read(task/"STAGE_OBSERVED.json");packet["observed"]["returncode"]=False
+        put(task/"execution/supervisor-result.json",packet["observed"]);put(task/"STAGE_OBSERVED.json",packet)
+        complete=src.read(task/"STAGE_COMPLETED.json");complete["observed_sha256"]=src.digest(task/"STAGE_OBSERVED.json");put(task/"STAGE_COMPLETED.json",complete)
+        with self.assertRaisesRegex(ValueError,"successful BASIC"):ev.validate_completed(task)
+
 
 if __name__=="__main__":unittest.main()

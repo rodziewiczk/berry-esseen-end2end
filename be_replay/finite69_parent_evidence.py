@@ -20,12 +20,32 @@ MEMORY_BYTES=2048*src.MIB
 FLAGS=("native_arithmetic_accepted","parent_acquisitions_verified",
        "fresh_parent_fact_joins_verified","full_finite69_verified","all_index_conclusion_verified")
 
+# Exact previously published runtime. Its completed receipts remain byte-for-byte
+# valid after the routing-only underscore repair. No mathematical source,
+# source-preparer, catalog, guard or validation rule is migrated or wildcarded.
+PRE_SLUG_FIX_IMPLEMENTATION={
+    "finite69_parents.py":"e6ad5f17b99b831a0e0d0ac52b794086da7dfcf36ff12c12ce6e0e542ffc7a57",
+    "finite69_parent_evidence.py":"380c5496a5868ef3a67687e29f0b15e8d8888a4c1b9097351999da549e5b40fd",
+    "finite69_parent_sources.py":"4328f3df13956dfd5727b18f11c87ad9522cf6c491482b7aa467ac7982875b91",
+    "finite69_metadata.py":"594536b187e2fa8d51bb06d47a56f9b165a8da4a197e2a8933d3aa8dd48e9a3c",
+    "finite69_sources.py":"67e9e2bb1009d8a2c03c3b4d42480c7b06254998d70dd3f8c6bfbb63df2d3791",
+    "n5_remaining_sources.py":"17f8d9b3bcdce510574901be83684a630d54cc8d2f6251856b7737bbd85aaaab",
+    "linux_supervisor.py":"61e71dd4a9653de2bbbee8c54928a1f5c5bffd0bf083dd324851716c3a1eaea2",
+    "colab_batch.py":"136bc2bb9b25cb8cd36118041bf593821f3cbdea5debee82b27ccb7626c0d1e6",
+    "catalog_sha256":"9eef9a7c11abaa6a239fbcd0890acc32e420ac56bca1a09043e4a87187c244bf",
+    "base_catalog_sha256":"2a0575f59f9d6c8e95c53f68767b1cbae28b1ed2f5cd72c27a240b50d1367232",
+}
+
 
 def implementation():
     names=("finite69_parents.py","finite69_parent_evidence.py","finite69_parent_sources.py","finite69_metadata.py","finite69_sources.py",
            "n5_remaining_sources.py","linux_supervisor.py","colab_batch.py")
     return {name:src.digest(src.ROOT/"be_replay"/name)for name in names}|{
         "catalog_sha256":src.CATALOG_SHA256,"base_catalog_sha256":src.catalog()["base_catalog_sha256"]}
+
+
+def implementation_allowed(recorded):
+    return same(recorded,implementation())or same(recorded,PRE_SLUG_FIX_IMPLEMENTATION)
 
 
 def mapped(task,value,original):
@@ -95,7 +115,7 @@ def summarize(task,row,stdout,observed,original):
 def validate_run(task,row,report):
     task=Path(task);request=src.verify_job(task,row);original=request["original_task_root"]
     src.need(report["schema"]==OBSERVED and report["scope"]==SCOPE and report["job_id"]==row["job_id"]
-             and report["implementation"]==implementation()and report["original_task_root"]==original
+             and implementation_allowed(report["implementation"])and report["original_task_root"]==original
              and report["conditional_arithmetic_completed"]is False and all(report[f]is False for f in FLAGS),
              "Exact implementation and observed false-to-completed transition")
     observed=report["observed"]
@@ -139,7 +159,8 @@ def validate_completed(task, *,original_task_root=None):
     observed=src.read(task/"STAGE_OBSERVED.json");complete=src.read(task/"STAGE_COMPLETED.json")
     summary=validate_run(task,row,observed)
     src.need(complete["schema"]==COMPLETED and complete["scope"]==SCOPE and complete["job_id"]==row["job_id"]
-             and complete["implementation"]==implementation()and complete["observed_sha256"]==src.digest(task/"STAGE_OBSERVED.json")
+             and implementation_allowed(complete["implementation"])and same(complete["implementation"],observed["implementation"])
+             and complete["observed_sha256"]==src.digest(task/"STAGE_OBSERVED.json")
              and complete["conditional_arithmetic_completed"]is True and complete["summary"]==summary
              and complete["artifacts"]==inventory(task)and all(complete[f]is False for f in FLAGS),
              "Full source/candidate/capture/receipt inventory, exact completed transition")
