@@ -1072,7 +1072,7 @@
       "kind": "literal_index_proof",
       "status": "open",
       "depends_on": [
-        "n24.all_law",
+        "stronger24.acquired",
         "continuation.literal_interface",
         "n25.pending.b4-q0",
         "n25.pending.b4-q1",
@@ -1080,14 +1080,17 @@
         "n25.pending.b4-q3",
         "n25.pending.b3-p33",
         "n25.pending.b3-p31-v14-new",
-        "n25.pending.b3-p32-v14-new"
+        "n25.pending.b3-p32-v14-new",
+        "n25.parents.b3",
+        "n25.parents.b4"
       ],
       "conclusion": "All required arithmetic and same-law joins at the literal index 25 prove C_25 <= C_E.",
       "literal_index": 25,
       "requirements": [
         "Freshly verify the actual-index support, complete LOW/HIGH, owncaps, INITIAL, ordered resources and full count cover used at this index.",
         "Record every selected source, domain, target, native result and source-specific acquisition join.",
-        "Cover all original domains and reflected orientations; a final receipt/geometry join alone is insufficient."
+        "Cover all original domains and reflected orientations; a final receipt/geometry join alone is insufficient.",
+        "The selected coarse predecessor route requires C24 < CE+1/80, not a duplicate sharp n24 proof. Connect every fresh B3/B4 parent to the selected full count contract and all remaining n25 domains."
       ]
     },
     {
@@ -1268,6 +1271,7 @@
         "n3.all_law",
         "c4.all_law",
         "n5.all_law",
+        "n24.all_law",
         "n30.all_law",
         "tail31.base31_34",
         "tail31.bridge35_48",
@@ -1281,9 +1285,257 @@
         "A clean-checkout reproduction must use public pinned sources and no private historical PASS files.",
         "No global success field is authorized by this plan, topology tests, source hashes or historical results."
       ]
+    },
+    {
+      "id": "literature.universal_0469",
+      "kind": "literature",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "The selected universal iid estimate gives C20 <= 469/1000 in the manuscript normalization.",
+      "requirements": [
+        "Check the original Shevtsova theorem, normalization and all-law scope. This is a coarse auxiliary input, independent of sharp n20."
+      ]
+    },
+    {
+      "id": "aux24.analytic_interface",
+      "kind": "analytic_review",
+      "status": "open",
+      "depends_on": [
+        "analytic.common",
+        "continuation.literal_interface"
+      ],
+      "conclusion": "The retained same-law attainment/contact/support, INITIAL, resource and count rules imply the auxiliary n21--24 conclusions from their complete conditional inequalities.",
+      "requirements": [
+        "Review the exact target K/n at each index, both discrepancy orientations, closed seams, all count roots, signed resource inequalities and external envelopes.",
+        "A statement-matching join may discharge an archived predecessor premise without reproducing a runtime-dependent historical receipt hash.",
+        "Source and conditional arithmetic completion alone do not close this analytic node."
+      ]
+    },
+    {
+      "id": "aux21.arithmetic",
+      "kind": "conditional_arithmetic",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "Full selected auxiliary n21 arithmetic at K=11/10, with 0 selected count leaves, is freshly replayed.",
+      "requirements": [
+        "Run queued notebook 14; validate full INITIAL covers and, where selected, all 100 resources, complete count acceptors and controls.",
+        "Bind actual source/candidate/contract identities, successful captures and unchanged predecessor statement fields. Historical PASS is provenance only.",
+        "Keep the independent execution-contract status and unacquired predecessor/analytic flags explicit."
+      ]
+    },
+    {
+      "id": "aux21.acquired",
+      "kind": "proof_composition",
+      "status": "open",
+      "depends_on": [
+        "literature.universal_0469",
+        "aux24.analytic_interface",
+        "aux21.arithmetic"
+      ],
+      "conclusion": "C21 < CE + 11/210.",
+      "requirements": [
+        "Compose the selected complete conditional arithmetic with the freshly discharged predecessor fact and the reviewed same-law analytic implication."
+      ]
+    },
+    {
+      "id": "aux22.arithmetic",
+      "kind": "conditional_arithmetic",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "Full selected auxiliary n22 arithmetic at K=9/10, with 258 selected count leaves, is freshly replayed.",
+      "requirements": [
+        "Run queued notebook 15; validate full INITIAL covers and, where selected, all 100 resources, complete count acceptors and controls.",
+        "Bind actual source/candidate/contract identities, successful captures and unchanged predecessor statement fields. Historical PASS is provenance only.",
+        "Keep the independent execution-contract status and unacquired predecessor/analytic flags explicit."
+      ]
+    },
+    {
+      "id": "aux22.acquired",
+      "kind": "proof_composition",
+      "status": "open",
+      "depends_on": [
+        "aux21.acquired",
+        "aux24.analytic_interface",
+        "aux22.arithmetic"
+      ],
+      "conclusion": "C22 < CE + 9/220.",
+      "requirements": [
+        "Compose the selected complete conditional arithmetic with the freshly discharged predecessor fact and the reviewed same-law analytic implication."
+      ]
+    },
+    {
+      "id": "aux23.arithmetic",
+      "kind": "conditional_arithmetic",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "Full selected auxiliary n23 arithmetic at K=3/5, with 18377 selected count leaves, is freshly replayed.",
+      "requirements": [
+        "Run queued notebook 16; validate full INITIAL covers and, where selected, all 100 resources, complete count acceptors and controls.",
+        "Bind actual source/candidate/contract identities, successful captures and unchanged predecessor statement fields. Historical PASS is provenance only.",
+        "Keep the independent execution-contract status and unacquired predecessor/analytic flags explicit."
+      ]
+    },
+    {
+      "id": "aux23.acquired",
+      "kind": "proof_composition",
+      "status": "open",
+      "depends_on": [
+        "aux22.acquired",
+        "aux24.analytic_interface",
+        "aux23.arithmetic"
+      ],
+      "conclusion": "C23 < CE + 3/115.",
+      "requirements": [
+        "Compose the selected complete conditional arithmetic with the freshly discharged predecessor fact and the reviewed same-law analytic implication."
+      ]
+    },
+    {
+      "id": "stronger24.b0.arithmetic",
+      "kind": "conditional_arithmetic",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "Full selected n24 B0 arithmetic at K=3/10, with 1929 count leaves, is freshly replayed.",
+      "requirements": [
+        "Run its dedicated queued notebook; account for all 100 closed probability panels, actual global/local cycles and every surviving count panel.",
+        "Verify actual fresh INITIAL/resource/count bindings and all scalar, moment and signed quadratic interfaces.",
+        "B2 uses five old-contract forests and four mean-floor patch forests; B3 uses selected-v2 composition.",
+        "BASIC supervision does not by itself acquire the all-law theorem; preserve actual mathematical and execution scopes separately."
+      ]
+    },
+    {
+      "id": "stronger24.b1.arithmetic",
+      "kind": "conditional_arithmetic",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "Full selected n24 B1 arithmetic at K=3/10, with 9803 count leaves, is freshly replayed.",
+      "requirements": [
+        "Run its dedicated queued notebook; account for all 100 closed probability panels, actual global/local cycles and every surviving count panel.",
+        "Verify actual fresh INITIAL/resource/count bindings and all scalar, moment and signed quadratic interfaces.",
+        "B2 uses five old-contract forests and four mean-floor patch forests; B3 uses selected-v2 composition.",
+        "BASIC supervision does not by itself acquire the all-law theorem; preserve actual mathematical and execution scopes separately."
+      ]
+    },
+    {
+      "id": "stronger24.b2.arithmetic",
+      "kind": "conditional_arithmetic",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "Full selected n24 B2 arithmetic at K=3/10, with 26625 count leaves, is freshly replayed.",
+      "requirements": [
+        "Run its dedicated queued notebook; account for all 100 closed probability panels, actual global/local cycles and every surviving count panel.",
+        "Verify actual fresh INITIAL/resource/count bindings and all scalar, moment and signed quadratic interfaces.",
+        "B2 uses five old-contract forests and four mean-floor patch forests; B3 uses selected-v2 composition.",
+        "BASIC supervision does not by itself acquire the all-law theorem; preserve actual mathematical and execution scopes separately."
+      ]
+    },
+    {
+      "id": "stronger24.b3.arithmetic",
+      "kind": "conditional_arithmetic",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "Full selected n24 B3 arithmetic at K=3/10, with 12484 count leaves, is freshly replayed.",
+      "requirements": [
+        "Run its dedicated queued notebook; account for all 100 closed probability panels, actual global/local cycles and every surviving count panel.",
+        "Verify actual fresh INITIAL/resource/count bindings and all scalar, moment and signed quadratic interfaces.",
+        "B2 uses five old-contract forests and four mean-floor patch forests; B3 uses selected-v2 composition.",
+        "BASIC supervision does not by itself acquire the all-law theorem; preserve actual mathematical and execution scopes separately."
+      ]
+    },
+    {
+      "id": "stronger24.b4.arithmetic",
+      "kind": "conditional_arithmetic",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "Full selected n24 B4 arithmetic at K=3/10, with 4168 count leaves, is freshly replayed.",
+      "requirements": [
+        "Run its dedicated queued notebook; account for all 100 closed probability panels, actual global/local cycles and every surviving count panel.",
+        "Verify actual fresh INITIAL/resource/count bindings and all scalar, moment and signed quadratic interfaces.",
+        "B2 uses five old-contract forests and four mean-floor patch forests; B3 uses selected-v2 composition.",
+        "BASIC supervision does not by itself acquire the all-law theorem; preserve actual mathematical and execution scopes separately."
+      ]
+    },
+    {
+      "id": "stronger24.b5.arithmetic",
+      "kind": "conditional_arithmetic",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "Full selected n24 B5 arithmetic at K=3/10, with 2444 count leaves, is freshly replayed.",
+      "requirements": [
+        "Run its dedicated queued notebook; account for all 100 closed probability panels, actual global/local cycles and every surviving count panel.",
+        "Verify actual fresh INITIAL/resource/count bindings and all scalar, moment and signed quadratic interfaces.",
+        "B2 uses five old-contract forests and four mean-floor patch forests; B3 uses selected-v2 composition.",
+        "BASIC supervision does not by itself acquire the all-law theorem; preserve actual mathematical and execution scopes separately."
+      ]
+    },
+    {
+      "id": "stronger24.numeric_join",
+      "kind": "conditional_arithmetic_composition",
+      "status": "open",
+      "depends_on": [
+        "aux21.arithmetic",
+        "aux22.arithmetic",
+        "aux23.arithmetic",
+        "stronger24.b0.arithmetic",
+        "stronger24.b1.arithmetic",
+        "stronger24.b2.arithmetic",
+        "stronger24.b3.arithmetic",
+        "stronger24.b4.arithmetic",
+        "stronger24.b5.arithmetic"
+      ],
+      "conclusion": "The nine fresh conditional numerical jobs, exact auxiliary allowances, closed rho union and monotone high-rho tail form the selected auxiliary n24 numerical chain.",
+      "requirements": [
+        "Run notebook 23 after all nine jobs finish. Revalidate their actual exported evidence and exact source/contract/control/census identities.",
+        "Verify the exact scalar tail comparison at rho=712569/449000 and the resulting n25 contact allowance 5/16.",
+        "The complete numerical chain remains conditional on the external estimate and retained analytic framework."
+      ]
+    },
+    {
+      "id": "stronger24.acquired",
+      "kind": "proof_composition",
+      "status": "open",
+      "depends_on": [
+        "aux23.acquired",
+        "aux24.analytic_interface",
+        "literature.shevtsova",
+        "stronger24.numeric_join"
+      ],
+      "conclusion": "C24 < CE + 1/80, supplying q25 <= 5/16 for the selected unchanged n25 witness.",
+      "requirements": [
+        "Discharge the exact external envelopes and same-law analytic implication for all six closed rho branches and the remaining tail.",
+        "Match this acquired mathematical statement to the frozen STRONGER24 input consumed by n25, without relabeling the historical receipt.",
+        "A separately acquired sharp C24 <= CE would imply this weaker statement and could replace this auxiliary route; it is not required in addition."
+      ]
+    },
+    {
+      "id": "n25.parents.b3",
+      "kind": "conditional_arithmetic",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "The selected n25 B3 INITIAL and all 100 resource panels have complete fresh producer/acceptor evidence.",
+      "requirements": [
+        "Run notebook 09 or 10, retain all four complete stages and corruption controls, then verify actual captures and source/parent bindings.",
+        "The stronger24 input and final resource-to-count implication remain separate mathematical obligations."
+      ]
+    },
+    {
+      "id": "n25.parents.b4",
+      "kind": "conditional_arithmetic",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "The selected n25 B4 INITIAL and all 100 resource panels have complete fresh producer/acceptor evidence.",
+      "requirements": [
+        "Run notebook 09 or 10, retain all four complete stages and corruption controls, then verify actual captures and source/parent bindings.",
+        "The stronger24 input and final resource-to-count implication remain separate mathematical obligations."
+      ]
     }
   ],
   "open_edges": [
+    {
+      "from": "n24.all_law",
+      "to": "proof.global",
+      "status": "open",
+      "requirement": "Retain the sharp literal n6--24 chain for global integer coverage. The independent coarse stronger24 predecessor route used by n25 does not prove these sharp bounds."
+    },
     {
       "from": "literature.prawitz",
       "to": "analytic.common",
@@ -1777,10 +2029,10 @@
       "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
     },
     {
-      "from": "n24.all_law",
+      "from": "stronger24.acquired",
       "to": "n25.all_law",
       "status": "open",
-      "requirement": "Discharge the selected nonnegative predecessor allowance for the unchanged actual n25 witness."
+      "requirement": "Match the freshly acquired auxiliary fact C24 < CE+1/80 to the frozen n25 predecessor input, yielding q25 <= 5/16 for the same actual-index witness."
     },
     {
       "from": "continuation.literal_interface",
@@ -2051,6 +2303,162 @@
       "to": "c5.gapfree_cover",
       "status": "open",
       "requirement": "Join the complete compact and two-ray arithmetic with the exact direct positive-discrepancy implication on the whole rho/beta domain."
+    },
+    {
+      "from": "analytic.common",
+      "to": "aux24.analytic_interface",
+      "status": "open",
+      "requirement": "Discharge this exact conditional mathematical premise with source-bound evidence; execution may precede acquisition."
+    },
+    {
+      "from": "continuation.literal_interface",
+      "to": "aux24.analytic_interface",
+      "status": "open",
+      "requirement": "Discharge this exact conditional mathematical premise with source-bound evidence; execution may precede acquisition."
+    },
+    {
+      "from": "literature.universal_0469",
+      "to": "aux21.acquired",
+      "status": "open",
+      "requirement": "Discharge this exact conditional mathematical premise with source-bound evidence; execution may precede acquisition."
+    },
+    {
+      "from": "aux24.analytic_interface",
+      "to": "aux21.acquired",
+      "status": "open",
+      "requirement": "Discharge this exact conditional mathematical premise with source-bound evidence; execution may precede acquisition."
+    },
+    {
+      "from": "aux21.arithmetic",
+      "to": "aux21.acquired",
+      "status": "open",
+      "requirement": "Discharge this exact conditional mathematical premise with source-bound evidence; execution may precede acquisition."
+    },
+    {
+      "from": "aux21.acquired",
+      "to": "aux22.acquired",
+      "status": "open",
+      "requirement": "Discharge this exact conditional mathematical premise with source-bound evidence; execution may precede acquisition."
+    },
+    {
+      "from": "aux24.analytic_interface",
+      "to": "aux22.acquired",
+      "status": "open",
+      "requirement": "Discharge this exact conditional mathematical premise with source-bound evidence; execution may precede acquisition."
+    },
+    {
+      "from": "aux22.arithmetic",
+      "to": "aux22.acquired",
+      "status": "open",
+      "requirement": "Discharge this exact conditional mathematical premise with source-bound evidence; execution may precede acquisition."
+    },
+    {
+      "from": "aux22.acquired",
+      "to": "aux23.acquired",
+      "status": "open",
+      "requirement": "Discharge this exact conditional mathematical premise with source-bound evidence; execution may precede acquisition."
+    },
+    {
+      "from": "aux24.analytic_interface",
+      "to": "aux23.acquired",
+      "status": "open",
+      "requirement": "Discharge this exact conditional mathematical premise with source-bound evidence; execution may precede acquisition."
+    },
+    {
+      "from": "aux23.arithmetic",
+      "to": "aux23.acquired",
+      "status": "open",
+      "requirement": "Discharge this exact conditional mathematical premise with source-bound evidence; execution may precede acquisition."
+    },
+    {
+      "from": "aux21.arithmetic",
+      "to": "stronger24.numeric_join",
+      "status": "open",
+      "requirement": "Discharge this exact conditional mathematical premise with source-bound evidence; execution may precede acquisition."
+    },
+    {
+      "from": "aux22.arithmetic",
+      "to": "stronger24.numeric_join",
+      "status": "open",
+      "requirement": "Discharge this exact conditional mathematical premise with source-bound evidence; execution may precede acquisition."
+    },
+    {
+      "from": "aux23.arithmetic",
+      "to": "stronger24.numeric_join",
+      "status": "open",
+      "requirement": "Discharge this exact conditional mathematical premise with source-bound evidence; execution may precede acquisition."
+    },
+    {
+      "from": "stronger24.b0.arithmetic",
+      "to": "stronger24.numeric_join",
+      "status": "open",
+      "requirement": "Discharge this exact conditional mathematical premise with source-bound evidence; execution may precede acquisition."
+    },
+    {
+      "from": "stronger24.b1.arithmetic",
+      "to": "stronger24.numeric_join",
+      "status": "open",
+      "requirement": "Discharge this exact conditional mathematical premise with source-bound evidence; execution may precede acquisition."
+    },
+    {
+      "from": "stronger24.b2.arithmetic",
+      "to": "stronger24.numeric_join",
+      "status": "open",
+      "requirement": "Discharge this exact conditional mathematical premise with source-bound evidence; execution may precede acquisition."
+    },
+    {
+      "from": "stronger24.b3.arithmetic",
+      "to": "stronger24.numeric_join",
+      "status": "open",
+      "requirement": "Discharge this exact conditional mathematical premise with source-bound evidence; execution may precede acquisition."
+    },
+    {
+      "from": "stronger24.b4.arithmetic",
+      "to": "stronger24.numeric_join",
+      "status": "open",
+      "requirement": "Discharge this exact conditional mathematical premise with source-bound evidence; execution may precede acquisition."
+    },
+    {
+      "from": "stronger24.b5.arithmetic",
+      "to": "stronger24.numeric_join",
+      "status": "open",
+      "requirement": "Discharge this exact conditional mathematical premise with source-bound evidence; execution may precede acquisition."
+    },
+    {
+      "from": "aux23.acquired",
+      "to": "stronger24.acquired",
+      "status": "open",
+      "requirement": "Discharge this exact conditional mathematical premise with source-bound evidence; execution may precede acquisition."
+    },
+    {
+      "from": "aux24.analytic_interface",
+      "to": "stronger24.acquired",
+      "status": "open",
+      "requirement": "Discharge this exact conditional mathematical premise with source-bound evidence; execution may precede acquisition."
+    },
+    {
+      "from": "literature.shevtsova",
+      "to": "stronger24.acquired",
+      "status": "open",
+      "requirement": "Discharge this exact conditional mathematical premise with source-bound evidence; execution may precede acquisition."
+    },
+    {
+      "from": "stronger24.numeric_join",
+      "to": "stronger24.acquired",
+      "status": "open",
+      "requirement": "Discharge this exact conditional mathematical premise with source-bound evidence; execution may precede acquisition."
+    },
+    {
+      "from": "n25.parents.b3",
+      "to": "n25.all_law",
+      "status": "open",
+      "requirement": "Verify every actual same-law parent/resource/count interface and the complete closed n25 cover."
+    },
+    {
+      "from": "n25.parents.b4",
+      "to": "n25.all_law",
+      "status": "open",
+      "requirement": "Verify every actual same-law parent/resource/count interface and the complete closed n25 cover."
     }
   ]
 }

@@ -1,6 +1,6 @@
 # Observed Colab arithmetic runs
 
-This document records a user-supplied notebook 08 result inspected on 23 October 2026. The inspection read the saved stage receipts and stdout/stderr captures; it did not rerun the mathematical calculations. Raw logs, account paths, and VM identifiers are not published here.
+This document records user-supplied Colab evidence inspected on 23 October 2026. Notebook 08 was inspected through its saved stage receipts and stdout/stderr captures; notebooks 09 and 10 are presently recorded from their displayed progress logs only. No mathematical calculations were rerun locally. Raw logs, account paths, and VM identifiers are not published here.
 
 ## Notebook 08: all six n2/n3 stages completed in BASIC mode
 
@@ -55,3 +55,15 @@ The observed checker outputs concern the supplied finite n2/n3 arithmetic, condi
 The [standalone analytic reduction review](small_indices_analytic_review.md) checked attainment, reflection at atoms, full-support contact, support acquisition, moment domains and the finite-certificate implication. The [source-level checker review](small_indices_checker_review.md) checked both selected n2 acceptance paths and the n3 Python/C++ and identity-audit paths against the same source inventory. Neither review found a blocking gap within its stated scope.
 
 Together with the observed full calculation, these reviews supply the selected finite inequalities and their reduction to the stated n2/n3 bounds under the reviewed external structural theorem and ordinary faithful execution assumptions. The BASIC fields remain a record of the execution contract; they do not indicate a failed inequality. No rerun of notebook 08 is warranted merely to change those labels. Compiler/runtime formal verification, a second full n3 implementation, later indices and the global composition are outside these scoped conclusions.
+
+## Notebook 09: displayed log reports the complete conditional n25 B3 parent chain
+
+The user-supplied progress log reports all four selected stages completed: INITIAL construction, INITIAL acceptance, resource construction and resource acceptance. The final stage completed at approximately 11:52:30 UTC on 23 October 2026. The displayed terminal marker is `PASS_FRESH_EXACT_SHARP25_B3_GLOBAL_RESOURCES`; the session state is `CONDITIONAL_FRESH_PARENT_CHAIN_ACCEPTED`. The log reports no errors and a saved final results ZIP.
+
+This is useful evidence that the four-stage calculation finished. The ZIP, actual output receipts, supervisor results and captures have **not yet been independently inspected** for this record, so its contents and archive hash are not asserted here. The proof graph remains open. Completing this job also does not by itself acquire the imported stronger24 mathematical premise, complete the B3 count forests, or prove the final same-law n25 composition.
+
+## Notebook 10: displayed log reports the complete conditional n25 B4 parent chain
+
+The later user-supplied progress log reports the B4 resource acceptor completed successfully at 12:20:29 UTC on 23 October 2026, following the selected INITIAL construction/acceptance and resource construction. Its terminal marker is `PASS_FRESH_EXACT_SHARP25_B4_GLOBAL_RESOURCES`. The final session state is `CONDITIONAL_FRESH_PARENT_CHAIN_ACCEPTED`, and the log reports a saved results ZIP without an error.
+
+As for notebook 09, this observation is currently based on the displayed log. It is not an independent inspection of the exported ZIP, actual acceptance objects and captures. The completed B3 and B4 parent calculations can be joined to later count evidence; they do not remove the selected stronger24 predecessor or complete the unrestricted n25 theorem by themselves.

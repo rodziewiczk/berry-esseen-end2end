@@ -15,8 +15,15 @@ Google may first ask you to authorize backups to your Drive. Results are saved u
 | 11 | n4: full ROOT4 producer followed by a fresh complete replay |
 | 12 | Tail from n49: all 14 top-level jobs and all 41 retained component replays |
 | 13 | n5 gap-free corner: complete compact forest and both infinite phase rays |
+| 14 | Auxiliary n21: all five INITIAL covers, 92,160 signed rectangles |
+| 15 | Auxiliary n22: full INITIAL/resources and nine count forests, 258 leaves |
+| 16 | Auxiliary n23: full INITIAL/resources and 21 count forests, 18,377 leaves |
+| 17–22 | Stronger24 branches B0–B5: full global/local resources and 53 forests, 57,453 leaves |
+| 23 | Import and revalidate all nine completed auxiliary jobs, then check the conditional numerical chain |
 
 In notebooks 01–07, the first short run measures the resources actually allocated. Subsequent slices use up to three hours of the allocated search budget. A complete candidate tree triggers a separate native acceptor. An incomplete result preserves its checkpoints. Rerunning the same notebook finds the latest valid Drive backup and rechecks its compatibility with the pinned sources before resuming.
+
+Three hours is a search limit, not a promise of completion. Final acceptance takes additional time after a complete candidate is found; an unfinished search can require further resumed runs.
 
 Each notebook displays progress: the current stage, elapsed time, resources, counters available in the checkpoints, and the result status. Full logs are also saved to files, with a Drive backup every minute. The final ZIP contains the task capsule's sources, primary and backup checkpoints when produced, reports, and logs. The notebook displays a ZIP link and attempts to download it.
 
@@ -49,6 +56,18 @@ It checks all 60 compact roots, 1,994 nodes and 1,027 leaves, plus both infinite
 This component bounds the **positive closed-CDF discrepancy at every real threshold**, on its specified rho/beta rectangle. Its analytic reduction requires no predecessor estimate, bounded support, contact or physical gap. It does not alone establish the absolute Kolmogorov bound on that signed rectangle or the unrestricted n5 theorem. Other orientations and branches require the final n5 composition.
 
 The default total CPU ceiling is two hours, with a 121-minute external wall ceiling. These are limits, not a measured runtime estimate. Logs, current-stage progress, one-minute Drive backups and a final results ZIP are automatic. An interrupted run has no internal numerical resume. See [the n5 gap-free execution scope](../proof/n5_gapfree_execution.md).
+
+## Queued auxiliary-bound batch 14–23
+
+Use the same workflow: upload one notebook, select a CPU runtime, and choose **Run all**. No parameter or command edits are required. Source downloads, selected infrastructure checks, progress output, one-minute Drive copies and final ZIP/SHA files are automatic. All sessions must save to the same Google Drive account so notebook 23 can find their results.
+
+Notebooks 14–16 replay the coarse auxiliary chain at n21, n22 and n23. Notebooks 17–22 cover the six closed rho branches at n24, B0 through B5. These **nine numerical jobs may run independently in parallel**: their predecessor statements are explicit conditional inputs. Start them as sessions become available; running 01–07, 11 and 12 need no changes. The selected full route contains 83 count forests and 76,088 leaves, plus its INITIAL/resource/local covers. These counts are not a runtime estimate.
+
+Run **23 last**, after all nine jobs have completed and saved their final ZIPs. It discovers their bundles automatically, verifies the archive hashes and complete exported execution evidence, and checks the exact auxiliary allowances and high-rho tail. Missing or incompatible results produce `WAITING_FOR_COMPLETED_JOBS`; rerun 23 after the missing work finishes. It does not rerun the expensive leaf calculations.
+
+Each numerical action has a two-hour CPU ceiling and a 121-minute wall ceiling. A job contains several such actions and may outlive a session. In 14–16, compatible completed stage evidence is revalidated before reuse; an interrupted stage restarts in full. In this first version of 17–22, a new Run all starts a new branch epoch, preserving earlier evidence but **without automatic completed-stage reuse**. Their interrupted native actions have no internal checkpoint.
+
+The numerical target is the auxiliary statement **C24 < CE + 1/80**, supplying the selected n25 contact allowance 5/16. These notebooks do not claim sharp C24 or the global theorem. The final numerical chain still requires the stated external estimates and retained same-law analytic implications. See [the auxiliary execution scope](../proof/aux24_execution.md), [n21–23 details](../proof/aux21_23_execution.md), and [the six n24 branches](../proof/strong24_branches_execution.md).
 
 ## Corrected notebooks 06 and 07
 
