@@ -70,8 +70,12 @@ or a global theorem. No original mathematical module was evaluated locally.
 The following [all-law C4 join](proof/code_root4_all_law_localization_audit.md)
 derives the required unrestricted-to-bounded implication under the explicit
 G3/E/B4 premises. The [mixed p24 E rule](proof/code_n25_p24_pointwise_audit.md)
-has a separate source derivation; its missing ordinary V14 capsule and the
-other mixed rules remain open. Root checked both notes' source bindings.
+has a separate source derivation; its ordinary V14 capsule remains missing.
+The subsequent [p25 chord/contact](proof/code_n25_p25_chord_audit.md) and
+[AB/C/D/F reference](proof/code_n25_p25_references_audit.md) units derive
+the selected mixed implications. Root read both notes and reran499source/
+selector/manifest/AST/metadata checks with zero mismatches. Missing original
+native capsules, fresh acquisitions and final regional joins remain open.
 
 ## Execution snapshot
 

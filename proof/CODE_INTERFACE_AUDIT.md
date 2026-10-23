@@ -358,3 +358,21 @@ checks its inward monotonicity, conserved cubic cancellation and strict rho
 exclusion. Root read both notes and checked their stated source bindings.
 Full acquisition of their stated premises and the remaining mixed/native
 instances remain separate obligations.
+
+The subsequent [p25 coupled-chord/contact review](code_n25_p25_chord_audit.md)
+and [AB/C/D/F reference review](code_n25_p25_references_audit.md) derive the
+actual selected mixed rules. They preserve the same physical law at24,
+full predecessor phase, raw halfline thresholds, acyclic old-q/new-q support
+updates, closed single-box containment and the exact original cfg. Root read
+both complete notes and reran499source/selector/manifest/AST/metadata checks:
+zero mismatches. In particular all73private n24manifest entries match actual
+bytes,70are exact reviewed p31bytes, and the scalar prefix copies62actual
+statements before its terminal state export. These are bounded internal source
+checks, not fresh arithmetic. The saved D composition makes no new scalar or
+native calls; C/Ffresh scalar calls are distinct from resource readback.
+
+The full original p25V14capsule, fresh acquisitions and final regional joins
+remain open. A further literal member-name lookup over44local research ZIP
+paths found no `full_lower_local_rho_feedback_v1` family in43valid archives;
+one known threshold31file is not a valid ZIP. This is a bounded source-supply
+finding, not global absence or a proof that no equivalent composition exists.

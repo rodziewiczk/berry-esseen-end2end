@@ -1,0 +1,1628 @@
+{
+  "schema": "INTERNAL_N25_P25_ACQUIRED_REFERENCES_SOURCE_AUDIT_V1",
+  "date": "2026-10-24",
+  "review_kind": "Fallible internal AI source/hand-algebra review, not external verification",
+  "original_math_imported_or_executed": false,
+  "fresh_arithmetic_accepted": false,
+  "archives": {
+    "old": {
+      "basename": "cutoff25_20261011.zip",
+      "bytes": 514958998,
+      "sha256": "17fa140f63c5134ac48f1fd1040f4c5ae4bebdb2b92b2d7ce69f4048293d1fcb"
+    },
+    "base13": {
+      "basename": "cutoff25_20261013.zip",
+      "bytes": 529557492,
+      "sha256": "a97f3e6e50e428df0893304bcd2f746851c9fccef2079b1ec66be9ab909d7f2c"
+    }
+  },
+  "selector": {
+    "member": "cutoff25_20261013/root/global25_final_v2/GLOBAL_C25_COMPLETE_JOINED_V1.json",
+    "sha256": "abae7a25b9b82d8b0dd0fc691d33944038d2ffc6707c6f387561f8f17437563d",
+    "historical_source_binding_only": true
+  },
+  "sources": [
+    {
+      "member": "cutoff25_20261013/root/sparse_local_acquisition_v1/acquire.py",
+      "bytes": 6746,
+      "sha256": "4519891d06fb67a1933d4c722f0554b96624d9a4f8323ba2a05153157853df43",
+      "lines": 90,
+      "read_scope": "Complete AB resource/evidence join and exact local-theorem interface",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/root/sparse_local_acquisition_v1/matching.py",
+      "bytes": 3457,
+      "sha256": "5ffd5aa4f52cb7772b59d9d77376e80747e04bb8eca0bf53c35d2865e5c7d278",
+      "lines": 58,
+      "read_scope": "Complete same-count, original-cfg, full-five-coordinate containment",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/archive_audit/b5_sparse_halfline_review_v1/PROOF.txt",
+      "bytes": 6355,
+      "sha256": "3249c9a73684c31ce347b924241481b17b40c064bd6ce6152315cf988436aef0",
+      "lines": 105,
+      "read_scope": "Complete sparse halfline and finite-induction proof, checked by hand",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/archive_audit/b5_sparse_halfline_review_v1/scalar_math.py",
+      "bytes": 3109,
+      "sha256": "3b00561e23f70bcb88e6e3bd4dde066788e546a5a82e9f3031675bc2399d6f4d",
+      "lines": 55,
+      "read_scope": "Full scalar formulas, with literal selected p strictly below one half",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/archive_audit/b5_sparse_halfline_review_v1/check_scalar_v2.py",
+      "bytes": 6587,
+      "sha256": "b48c21f1e988b2df51909818dfbf4a8d2bc130d07d37cc6cdb6eb8b42852e7bf",
+      "lines": 90,
+      "read_scope": "Full actual old-q then new-q induction and Gaussian/contact comparisons",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/archive_audit/b5_sparse_halfline_review_v1/check24.py",
+      "bytes": 11660,
+      "sha256": "2f69f53080e1a203eef30e4cc1f4b27cd497c3d210c416895af0cd94c620a8a5",
+      "lines": 170,
+      "read_scope": "Full same-law24 domain/transfer/exterior/closed-halfline geometry and exact replay route",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/archive_audit/b5_sparse_halfline_review_v1/check25.py",
+      "bytes": 12884,
+      "sha256": "f338a465ce1ca7b066278fa273bb8129373361633a71b73f2b2b32fa911d38ad",
+      "lines": 188,
+      "read_scope": "Full fifteen-cell descendant partition, all fresh-call and inherited-bound routes",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/archive_audit/b5_sparse_next_pending_review_v1/PROOF.txt",
+      "bytes": 9723,
+      "sha256": "102c37b7b2e96ba4f6455f9dc913a084dea053e726527f042d02d4773c78ce21",
+      "lines": 159,
+      "read_scope": "Complete new-box proof; no old-AB-box theorem transferred",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/archive_audit/b5_sparse_next_pending_review_v1/scalar_math.py",
+      "bytes": 3109,
+      "sha256": "3b00561e23f70bcb88e6e3bd4dde066788e546a5a82e9f3031675bc2399d6f4d",
+      "lines": 55,
+      "read_scope": "Full actual scalar formulas, byte-identical to the other AB implementation",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/archive_audit/b5_sparse_next_pending_review_v1/check_scalar.py",
+      "bytes": 8484,
+      "sha256": "0f04690cdbf12549435e41b2e513997a498cdfbe78fe10dfadc6efc165e0100a",
+      "lines": 104,
+      "read_scope": "Full same original H/beta, finite old/new allowance stages and ancestry",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/archive_audit/b5_sparse_next_pending_review_v1/check24_v2.py",
+      "bytes": 12089,
+      "sha256": "00a11411033030077cdea88204969562e31fe32d49466dbcbcfdd83aeb26567f",
+      "lines": 183,
+      "read_scope": "Full selected n24 certificate with all25 roots, chronology and broad-halfline cover",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/archive_audit/b5_sparse_next_pending_review_v1/check25.py",
+      "bytes": 7726,
+      "sha256": "3b7714299db3e1d444bc69fc6f478e4a4bd5afd69397f58991d0e0ee7bdaf83f",
+      "lines": 117,
+      "read_scope": "Full selected same-cfg 45-cell partition and typed direct replay",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/archive_audit/b5_sparse_next_pending_review_v1/bindings.py",
+      "bytes": 3268,
+      "sha256": "814365b93d4203db20ef85905241fa7e176a1ebaa236767518ee3d1999bbfe47",
+      "lines": 57,
+      "read_scope": "Complete native-source closure and forbidden earlier-box/optional-ratio dependencies",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/root/pointwise_local_acquisition_v1/acquire.py",
+      "bytes": 7563,
+      "sha256": "98139a6127e4df0461a2001639457b496d39481080c20a38466d781a5dd6db44",
+      "lines": 106,
+      "read_scope": "Complete C resource mapping and two fresh phase-free scalar calls; C unused by selected forest",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/archive_audit/p25_grid_pointwise_acquisition_v1/acquire.py",
+      "bytes": 10801,
+      "sha256": "23cf96eae171d2fe95bdfc9cbec6a70434f2a3429c0db7954315d4c0c9a3ffe4",
+      "lines": 146,
+      "read_scope": "Complete F resource mapping and32 fresh phase-free scalar calls",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/archive_audit/p25_grid_pointwise_acquisition_v1/interface.py",
+      "bytes": 6067,
+      "sha256": "941398a6fd6f3ccea690545e1c7d2bb510dc39497cf90d4a629a63ad3df24ac7",
+      "lines": 107,
+      "read_scope": "Complete F exact original cfg, closed regions and full scalar input/output equality",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/low/mixed4_grid_pointwise_v1/f_registry.py",
+      "bytes": 8878,
+      "sha256": "36c5613710bd0fb39ad345286571d684311a77690d20dc28c408efdcb72c35a3",
+      "lines": 103,
+      "read_scope": "Complete F acquired-object and single-rectangle restriction (same bytes as prior chord unit)",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/archive_audit/saved_scalar_rectangle_acquisition_v1/acquire.py",
+      "bytes": 6475,
+      "sha256": "fa2882038a52848bd5f8723d0fc55cf2c1eee7e2dc299619efa796a1ed8c4f7f",
+      "lines": 97,
+      "read_scope": "Complete D original-resource join; zero new scalar-chain/prefix/native calculations",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/archive_audit/saved_scalar_rectangle_acquisition_v1/interface.py",
+      "bytes": 9970,
+      "sha256": "e52d18af91883f712b74d70b0b32a1abf831071c2f7f30892161190a1a0508bf",
+      "lines": 156,
+      "read_scope": "Complete D saved-result/provenance/method interface and exact subset statements",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/archive_audit/mixed3_saved_scalar_v1/d_registry.py",
+      "bytes": 7031,
+      "sha256": "d3960a30bb6f46ff538f9b7c091e48e137031b68f809cb1cffa28c6e087b172f",
+      "lines": 89,
+      "read_scope": "Complete D literal count and full-box restriction (registry is a premise, not its proof)",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/archive_audit/normalized_defect_frontier_v1/prefix_project.py",
+      "bytes": 5028,
+      "sha256": "81d9fd91592c2ffd524bbef49a58153b832d4c242d8e52d7cf177d9f70225153",
+      "lines": 91,
+      "read_scope": "Full literal native scalar prefix through defect polygon, including final state export",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/archive_audit/normalized_defect_frontier_v1/prefix_worker.py",
+      "bytes": 2706,
+      "sha256": "c95f78a1cc999d7d6163547a842c4c8c1a22b4a1fca8a8e7fcc043cea6c89d0c",
+      "lines": 46,
+      "read_scope": "Full exact own-capsule import/source admission and normalized call",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/archive_audit/normalized_defect_frontier_v1/worker.py",
+      "bytes": 4714,
+      "sha256": "1b2943a9e840deeee3d894f32d84244eceb4f775220acecfc70a54e799a4a030",
+      "lines": 63,
+      "read_scope": "Full per-box finite chain and separate captured scalar-prefix invocation",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/archive_audit/normalized_defect_frontier_v1/protocol.py",
+      "bytes": 6089,
+      "sha256": "bc2653ab092205c297c9497125890a11dab43611aabd98297b8ca044e24ce3a9",
+      "lines": 103,
+      "read_scope": "Complete prefix AST gate, same-law normalized argument mapping and source checks",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/archive_audit/normalized_defect_frontier_v1/PROOF.txt",
+      "bytes": 5279,
+      "sha256": "1a725ee7551f358429529910a9fe10a9e8cb92708d317723516e18f207d56fa0",
+      "lines": 78,
+      "read_scope": "Complete conditional saved-prefix proof boundary",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/archive_audit/normalized_defect_rho_v1/normalized.py",
+      "bytes": 3857,
+      "sha256": "884be5be6a80072d15eaac1d5070493f2141f9b925e04fbcd557a8bc2e561577",
+      "lines": 76,
+      "read_scope": "Full normalized-defect scalar algorithm, hand-derived from physical before-cubic inequality",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/archive_audit/joint_contact_preflight_v1/preflight.py",
+      "bytes": 6238,
+      "sha256": "e7518978c1a930d6ae1cb924b99b03a34f995e43f471cfcd8487be5530a2368b",
+      "lines": 116,
+      "read_scope": "Full preceding joint-moment/contact finite chain",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/archive_audit/support_coupled_frontier_v1/feedback.py",
+      "bytes": 4676,
+      "sha256": "e99a78dec00afd1778c5b554d8010b86ed4d5148aff30ed8dee71c72597dcef0",
+      "lines": 71,
+      "read_scope": "Full support-dependent moment/contact continuation",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/archive_audit/support_coupled_frontier_v1/coupled_core.py",
+      "bytes": 3280,
+      "sha256": "aeb610b681466f6b2c729866462cb3a5767145614f5000509a992a5d0e5c41a5",
+      "lines": 74,
+      "read_scope": "Full continuous support-dependent normalized moment and derivative gates",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/archive_audit/affine_contact_cell_v1/joint_rho_core_v17.py",
+      "bytes": 2720,
+      "sha256": "d6595cfad5ab1734b754745e489447ab191c8d285e895a4538506dd385587cf1",
+      "lines": 63,
+      "read_scope": "Full alpha/p normalized endpoint gates and exact ratio delegation",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/archive_audit/affine_contact_cell_v1/joint_rho_adapter_v17.py",
+      "bytes": 1586,
+      "sha256": "452e8be021590f5ba1117624ff244d8e31757ef72fb1f1706b89d7013953377c",
+      "lines": 31,
+      "read_scope": "Full nested omission/empty/fallback and intersected upper caps",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/low/tighter_ratio_rho_v1/ratio.py",
+      "bytes": 2781,
+      "sha256": "00fd19c1343db6e6b5a33bbdbbf05b5467c817e4e439f61781135e25a62a92a1",
+      "lines": 71,
+      "read_scope": "Full normalized v/s maximizer enclosure, exact critical-point bracket and fallbacks",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/archive_audit/pointwise_finished_prefix_v1/interface.py",
+      "bytes": 3815,
+      "sha256": "4db0d6809f4f474a74003a57c43711dd206c311a784c08c8383c6dc6ccd5b0ad",
+      "lines": 74,
+      "read_scope": "Full saved-prefix to inward-scalar physical argument mapping",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/archive_audit/pointwise_finished_prefix_v1/diagnose.py",
+      "bytes": 3686,
+      "sha256": "a6c80de5190fae0ed307aa848babf925f0a6099c726bfe2ce8f4361a57a86b66",
+      "lines": 49,
+      "read_scope": "Full fresh pointwise call and saved-prefix evidence boundary",
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    }
+  ],
+  "native24_scope_sources": [
+    {
+      "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/generalized_scope.py",
+      "bytes": 2095,
+      "sha256": "ed4c5d72a7dca2b940660313e55e419f7d0c0d8d126cd916c53649a1daf6c795",
+      "scope": "Actual lawwise n24 nearest-count scope extension and proof text"
+    },
+    {
+      "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/FIXED_LAW24_B5_PROOF.txt",
+      "bytes": 2312,
+      "sha256": "1d5edda80ac6e639543fc418a31b77054de0921b8d9a58247ab86214fa1b327b",
+      "scope": "Actual lawwise n24 nearest-count scope extension and proof text"
+    }
+  ],
+  "native24_manifest": {
+    "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/KERNEL_COPY_MANIFEST.json",
+    "sha256": "f8d41bbbcd302e25a90ce8f00946b494556607cd4413ecd187c46045e23d8e3b",
+    "declared_entries": 73,
+    "actual_file_pins_match": true,
+    "exact_reviewed_p31_bytes": 70,
+    "files": [
+      {
+        "filename": "variance_geometry.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/variance_geometry.py",
+        "bytes": 1749,
+        "sha256": "55ba277cf30a0dc571cd98f38fd99deb4deff15c3be8df249c370ae8b10b3734",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "rho_signed_moment_tightener.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/rho_signed_moment_tightener.py",
+        "bytes": 4416,
+        "sha256": "f1650ff9ea811d66acf5f3529e0c0c462cc2d4747fbb42d147406714d0fc2be0",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "finite_gaussian.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/finite_gaussian.py",
+        "bytes": 3594,
+        "sha256": "4f5b1a829df4c3c8c0e5467adb79f112984ee8eab8ba5f25b20fd7173b78a4a0",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "joint_cubic_defect.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/joint_cubic_defect.py",
+        "bytes": 2021,
+        "sha256": "86874d28284f931b8907b573c118a9fb8191653a6569d903aed54c9f1974e970",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "signed_moment_prefilter.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/signed_moment_prefilter.py",
+        "bytes": 1931,
+        "sha256": "fd82440f07f4be759d74c2d7d44d1075d293e054580e9fa28cc021311b5f2173",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "joint_cubic_normalized.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/joint_cubic_normalized.py",
+        "bytes": 1835,
+        "sha256": "1403856612e213b9a14118a5a4098b7f470ce890499811dd1ad53c808904e2f6",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "interval_scalar_fast.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/interval_scalar_fast.py",
+        "bytes": 559,
+        "sha256": "3eaa0d78eec8b8d5c2044eb020a406ec352ac5a99b30f9d2773694a4f9601512",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "rho_variance_floor.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/rho_variance_floor.py",
+        "bytes": 1400,
+        "sha256": "615acbcb948d2ba5767082f0dd2a2ab6f1d3999ae0a8afac3fd4c1d73b3aab6b",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "exact35_core.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/exact35_core.py",
+        "bytes": 31866,
+        "sha256": "a618867ae34841b2e3e1745e35142694142e08ca2d790b762870f50651e16d71",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "signed_beta_variance_floor.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/signed_beta_variance_floor.py",
+        "bytes": 1028,
+        "sha256": "c4208b88510735d0e808b947ec624ce785de42ef4c9fe3217505ebbef2c823c6",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "generalized_scope.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/generalized_scope.py",
+        "bytes": 2095,
+        "sha256": "ed4c5d72a7dca2b940660313e55e419f7d0c0d8d126cd916c53649a1daf6c795",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": false,
+        "reviewed_p31_design_sha256": null
+      },
+      {
+        "filename": "optimized_arithmetic.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/optimized_arithmetic.py",
+        "bytes": 382,
+        "sha256": "ab9bc728fbb7901f94323a384caf367eee2b2064e919dac27a01cabae743b765",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "bernstein_fast.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/bernstein_fast.py",
+        "bytes": 1401,
+        "sha256": "4983c9af05673775c3fd5b521e898a9c7f7fe5c9523a5009646872bf75adc607",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "signed_moment_floor_tightener.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/signed_moment_floor_tightener.py",
+        "bytes": 2464,
+        "sha256": "6e7165bb4f16df296f58d511983696e10e56725fad28f1179002f31e232f5dbc",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "signed_moment_tightener.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/signed_moment_tightener.py",
+        "bytes": 2254,
+        "sha256": "f6ea60e4592a5055c1ace9340765076a95784f5c5d02232f2f02544321e75b9d",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "exact_count_core_v5.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/exact_count_core_v5.py",
+        "bytes": 7506,
+        "sha256": "0ffba7a5e1a91fc3c3c770f9d3bcb073a529fade3d622bc5615567153a4255a0",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "joint_cubic.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/joint_cubic.py",
+        "bytes": 2845,
+        "sha256": "d4adf6e9cfa430bbd7be7ffd90b994672d648d9886c42aa38e0a94b66eb55238",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "joint_cubic_normalized_fast.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/joint_cubic_normalized_fast.py",
+        "bytes": 2144,
+        "sha256": "7d72ff8ec7cfc2ad59e45d26fcccd6998ef01abe24cb54653ba18b05f2bbf347",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "probability_extrema.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/probability_extrema.py",
+        "bytes": 435,
+        "sha256": "f808c4e82ba40ce094e45139c6e09872c43ca7249ab7ae1d25aca24bbc5ee9ac",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "RIGHT_HALF_COUNT_PROOF.txt",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/RIGHT_HALF_COUNT_PROOF.txt",
+        "bytes": 7176,
+        "sha256": "a73a4f6abf8796e6e20ab161922f33a075c972953e1f6ee545709c51566a355b",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "SOURCE_TRANSFORM.json",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/SOURCE_TRANSFORM.json",
+        "bytes": 11401,
+        "sha256": "5da6ce26255dafad387d566a8620a3549659e834f8aea23f63c0c80d2d8df11c",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "mean_variance.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/mean_variance.py",
+        "bytes": 1425,
+        "sha256": "c2fe5362f74792879998e23dbb37090cbce6898dad94acbb01b646c1fc7ad50f",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "MEAN_VARIANCE_PROOF.txt",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/MEAN_VARIANCE_PROOF.txt",
+        "bytes": 2165,
+        "sha256": "83f95878db5e88154725f11c81514b8dee8553b8a1d8c19facc1c0d36f2c208a",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "MEAN_VARIANCE_CHECKED.json",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/MEAN_VARIANCE_CHECKED.json",
+        "bytes": 845,
+        "sha256": "671f4f865a869c48e971e6814f34c252633a4014641a88cf917426d379b56bbe",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "theta_variance.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/theta_variance.py",
+        "bytes": 791,
+        "sha256": "d33f4e4aced4a1a3887f16964b25a3d716df00702d5c12d3212403b4644831fd",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "THETA_VARIANCE_PROOF.txt",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/THETA_VARIANCE_PROOF.txt",
+        "bytes": 2084,
+        "sha256": "5092342a816ae4c92173e1112031e19fa450f8abc8eb9041a2b8ba3566e582e8",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "THETA_VARIANCE_CHECKED.json",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/THETA_VARIANCE_CHECKED.json",
+        "bytes": 745,
+        "sha256": "570f6095edf4cd504e01143507cbb0fe79e221f262494f684b19d3bde57a47c3",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "moment_corners.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/moment_corners.py",
+        "bytes": 963,
+        "sha256": "c95f84ade3b01ad498b46d33066257623f06c363ec3cb72764126a999fa44241",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "MOMENT_CORNERS_PROOF.txt",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/MOMENT_CORNERS_PROOF.txt",
+        "bytes": 1617,
+        "sha256": "09fe38bd9e67922ad3c34d250b9e99f38f423fc0509a8c87e57c69029a19074c",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "MOMENT_CORNERS_INDEPENDENT_REVIEW.json",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/MOMENT_CORNERS_INDEPENDENT_REVIEW.json",
+        "bytes": 1266,
+        "sha256": "4366d0706e061eda31672f749b0b4b3188117206e1f25ab106b93a0510e9bd13",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "MEAN_VARIANCE_INDEPENDENT_REVIEW.json",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/MEAN_VARIANCE_INDEPENDENT_REVIEW.json",
+        "bytes": 587,
+        "sha256": "dae8d2250b977c5884e175325405b6a394b5901579dfa52e5c97d947024ef3b4",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "THETA_LAMBDA_INDEPENDENT_DERIVATION.txt",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/THETA_LAMBDA_INDEPENDENT_DERIVATION.txt",
+        "bytes": 3940,
+        "sha256": "88bbf3fb664affe7d15d254c63266fe957f740511d840d98151dcc775c8619a7",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "THETA_LAMBDA_CHECKED.json",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/THETA_LAMBDA_CHECKED.json",
+        "bytes": 1322,
+        "sha256": "29071f4f2ce4bd749b69c12f68f831d3737d478f7c670381bab1e842a948c5af",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "allocation_variance.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/allocation_variance.py",
+        "bytes": 1187,
+        "sha256": "3d4d42bdc3cbaa1f578a83f1691c32cb33599a417989a274d21ec42e66671973",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "ALLOCATION_VARIANCE_PROOF_v2.txt",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/ALLOCATION_VARIANCE_PROOF_v2.txt",
+        "bytes": 2519,
+        "sha256": "75d1abced86acf5fd671f6eaa61fa990fa08f45691522052ff41fbcd11eced79",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "ALLOCATION_VARIANCE_CHECKED_v2.json",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/ALLOCATION_VARIANCE_CHECKED_v2.json",
+        "bytes": 753,
+        "sha256": "50e86986e16653be9fb7303899bc60263b8cffd8d19acf336c258438a5a426a2",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "ALLOCATION_VARIANCE_SOURCE_REVIEW.json",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/ALLOCATION_VARIANCE_SOURCE_REVIEW.json",
+        "bytes": 1868,
+        "sha256": "ee91be97fdba3f654b487a3b57b1ec4c715775dec99b992703bda77fb5b425bc",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "sharp_mgf.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/sharp_mgf.py",
+        "bytes": 608,
+        "sha256": "c2491627a57bbb7fbee3be27138a7accb8ad4c30f9e3a299372eddf428dc5cb2",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "SHARP_MGF_PROOF_V1.txt",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/SHARP_MGF_PROOF_V1.txt",
+        "bytes": 2399,
+        "sha256": "7d6add11e1e5a89ce883d83ce41984ce25a65ac7b26a4942203ddf46ce9fd500",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "tangent_mgf.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/tangent_mgf.py",
+        "bytes": 1471,
+        "sha256": "74caaf13691b59b12a9492d3cdcc32209bb74c76b41504f95f0851b02a94838b",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "TANGENT_MGF_PROOF_V1.txt",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/TANGENT_MGF_PROOF_V1.txt",
+        "bytes": 3675,
+        "sha256": "44c2889527872f9fa284103ba96b80c0dd800f413fa3d59edefef0aa65d37019",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "cubic_mgf.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/cubic_mgf.py",
+        "bytes": 1574,
+        "sha256": "d360be74b191529b2a7e76d03feb3db7c9e303fc5b05be4fb403eb342aa5168e",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "cubic_mgf_mixed.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/cubic_mgf_mixed.py",
+        "bytes": 470,
+        "sha256": "dc8f4d30e9f3473f65bec8f21ad86245ff9c8e5025f847f5ca0e62f6819e2595",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "CUBIC_HERMITE_PROOF_V1.txt",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/CUBIC_HERMITE_PROOF_V1.txt",
+        "bytes": 2228,
+        "sha256": "0345c6d71d659d39dd3fd181cb5ebc97b0780b52973f088eca4f8a71952534c8",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "common_cubic_bound.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/common_cubic_bound.py",
+        "bytes": 3681,
+        "sha256": "f62a02b6e081b377b584a100cf704ed0966589e1de80177b4a33002af665af1c",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "COMMON_CUBIC_CONVEX_REDUCTION_PROOF_V1.txt",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/COMMON_CUBIC_CONVEX_REDUCTION_PROOF_V1.txt",
+        "bytes": 8130,
+        "sha256": "45525aa9971239396cb4c630ecb2f0dd41ee38c26fbe6a20da512c2119ab0e52",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "COMMON_CUBIC_SOURCE_REVIEW_V1.txt",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/COMMON_CUBIC_SOURCE_REVIEW_V1.txt",
+        "bytes": 3242,
+        "sha256": "a8c4a22721ac2271a33603ff555a72041a58824da99d475ee544137238a761fa",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "centered_tail.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/centered_tail.py",
+        "bytes": 505,
+        "sha256": "40eb7500f391bd1b04cbb8e84e1aed5317f88a4cf1f48f1bd2e9fd1b524d1d1e",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "CENTERED_MGF_PROOF_V1.txt",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/CENTERED_MGF_PROOF_V1.txt",
+        "bytes": 1536,
+        "sha256": "4e51672b9f4ef340299913cd8e08ea9fe9d29b00b0c0c6756c735e7ea5dea5c7",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "shifted_centered_tail.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/shifted_centered_tail.py",
+        "bytes": 581,
+        "sha256": "771540cd476f79007b9ee0466f7ae030360efa84874e126082731e5932bc0e43",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "SHIFTED_CENTERED_PROOF.txt",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/SHIFTED_CENTERED_PROOF.txt",
+        "bytes": 2524,
+        "sha256": "70b7ac795bff10d6b9fc4f25db7e4e2a5df97532b6e12861720e1dd22ee04321",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "DOMINATING_AFFINE_ENVELOPES_PROOF_V1.txt",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/DOMINATING_AFFINE_ENVELOPES_PROOF_V1.txt",
+        "bytes": 2280,
+        "sha256": "a515965b1986ece87bb2f91040ad700ffe94705c7488a5b3c0389cd8a9161337",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "common_shifted.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/common_shifted.py",
+        "bytes": 3595,
+        "sha256": "947ef9b4b43e265fc3250d2c43b69976f11ed7229387d9e0ab51673e683e35b6",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "COMMON_SHIFTED_PROOF_V1.txt",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/COMMON_SHIFTED_PROOF_V1.txt",
+        "bytes": 2704,
+        "sha256": "979233cf44d93b9cb02f289b5dff1015e99d82924139c73feabab8f05061af7f",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "general_quartic_v2.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/general_quartic_v2.py",
+        "bytes": 1521,
+        "sha256": "0fd1e0fcadccd83a7bcabc9e0b47a8bc7157ca0ee49da506942d51d9f9f4047c",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "general_quartic_bounds_v2.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/general_quartic_bounds_v2.py",
+        "bytes": 7451,
+        "sha256": "1bd92b9f5c3663d19745cdc70b3826086133a7cf43190100145b3e16176faad1",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "GENERAL_QUARTIC_PROOF.txt",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/GENERAL_QUARTIC_PROOF.txt",
+        "bytes": 2635,
+        "sha256": "1e8b0fb93f35cba158306998dd9916af5a633ed610760e32f868b58f7c4a308f",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "GENERAL_QUARTIC_V2_ADDENDUM.txt",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/GENERAL_QUARTIC_V2_ADDENDUM.txt",
+        "bytes": 999,
+        "sha256": "845568d8d693f10ea8511f190903756cbd3faafc49123e4f05de4e256c05e254",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "general_quartic_sos.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/general_quartic_sos.py",
+        "bytes": 1258,
+        "sha256": "e8159858cafb60c2f469479367a73946688757ebb097be213fcf1ddb8a00ebec",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "general_quartic_sos_bounds.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/general_quartic_sos_bounds.py",
+        "bytes": 7452,
+        "sha256": "716eda950209111c78960e819e20d0e86b83cb51868a9eaa583b839dbe32c4b5",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "GENERAL_QUARTIC_SOS_PROOF.txt",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/GENERAL_QUARTIC_SOS_PROOF.txt",
+        "bytes": 1151,
+        "sha256": "9accd42dd4444db47ec5fe6d2bc11d698c0902a045688e5dcf98942fee071846",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "fixed_peak_quartic.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/fixed_peak_quartic.py",
+        "bytes": 1299,
+        "sha256": "58fb848383db6f5b9f5b28232b666e94472b22f9f10a83b21ce71f6de4d4e8f7",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "fixed_peak_quartic_bounds.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/fixed_peak_quartic_bounds.py",
+        "bytes": 7382,
+        "sha256": "26d5ec337ef7f0cab81f7c4ced7b4c208d810e5a2670c07d25041ff797e3e88e",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "FIXED_PEAK_QUARTIC_PROOF.txt",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/FIXED_PEAK_QUARTIC_PROOF.txt",
+        "bytes": 1959,
+        "sha256": "7c47df40f097d4380445b5132927ba26891cf735832009e94fa9ac54f1ee0c7f",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "stoploss3_fixed.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/stoploss3_fixed.py",
+        "bytes": 1231,
+        "sha256": "04ddcd5e351c0d6a01f7b1c7a39e41f6cec6d77052a8d3ca5393f7390c706366",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "STOPLOSS3_PROOF.txt",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/STOPLOSS3_PROOF.txt",
+        "bytes": 3366,
+        "sha256": "363cfa6007b191a3756161e143b2326d8b7351f138a75fbc957a0684320833f8",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "integer_stoploss.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/integer_stoploss.py",
+        "bytes": 2481,
+        "sha256": "e8178e82421b7b58de948abf94a65f9eb517e4a54f65e43bddbfd76f3ed9a9ab",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "quadratic_stoploss.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/quadratic_stoploss.py",
+        "bytes": 2601,
+        "sha256": "bbf1ae7a745ad5c0798ee4a009bc6e96b2ae12983198cebc35605745cef1cf88",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "QUADRATIC_STOPLOSS_PROOF.txt",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/QUADRATIC_STOPLOSS_PROOF.txt",
+        "bytes": 4090,
+        "sha256": "c8741d884dbdeb2ed40e6513d0e84631387737453708793b44475a66c46af0fa",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "coupled_alpha_stoploss.py",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/coupled_alpha_stoploss.py",
+        "bytes": 1647,
+        "sha256": "9b2808677ab3ec1f38973a82fd7a6df081314144548c05dbe86fd4b8204a0074",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "COUPLED_ALPHA_STOPLOSS_PROOF.txt",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/COUPLED_ALPHA_STOPLOSS_PROOF.txt",
+        "bytes": 2611,
+        "sha256": "a4ce219e8cdb1598db0adf7b6bea45802f1e862a9d206c8971fb008fcebd4040",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": true,
+        "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"
+      },
+      {
+        "filename": "FIXED_LAW24_B5_PROOF.txt",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/FIXED_LAW24_B5_PROOF.txt",
+        "bytes": 2312,
+        "sha256": "1d5edda80ac6e639543fc418a31b77054de0921b8d9a58247ab86214fa1b327b",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": false,
+        "reviewed_p31_design_sha256": null
+      },
+      {
+        "filename": "SOURCE_PORT.json",
+        "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/SOURCE_PORT.json",
+        "bytes": 13980,
+        "sha256": "4ae734a1165b4b9f58d1080387c6f065f1518cd47241d3b16492f94bbe6d8a0c",
+        "actual_native24_file_pin_matches": true,
+        "reviewed_p31_design_member_exact_bytes_equal": false,
+        "reviewed_p31_design_sha256": null
+      }
+    ]
+  },
+  "prefix_ast_projection": {
+    "member": "cutoff25_20261013/archive_audit/normalized_defect_frontier_v1/prefix_project.py",
+    "function": "project",
+    "reference_function": "_cell35_engine",
+    "reference_core_sha256": "a618867ae34841b2e3e1745e35142694142e08ca2d790b762870f50651e16d71",
+    "reference_core_pinned_by_original_p25_selector": true,
+    "copied_statements": 62,
+    "all_copied_statement_asts_equal": true,
+    "one_terminal_export_only": true
+  },
+  "normalized_function_identity": {
+    "member": "cutoff25_20261013/archive_audit/normalized_defect_rho_v1/normalized.py",
+    "reference_member": "cutoff25_20261013/low/pointwise_inward_defect_v2/pointwise_normalized_v2.py",
+    "functions": [
+      "variance",
+      "expressions",
+      "alpha_max",
+      "endpoint",
+      "upper"
+    ],
+    "all_function_asts_equal": true,
+    "import_module_name_differs": true
+  },
+  "selected_reference_census": {
+    "AB": {
+      "distinct": 2,
+      "references": 2
+    },
+    "C": {
+      "distinct": 0,
+      "references": 0
+    },
+    "D": {
+      "distinct": 18,
+      "references": 18,
+      "claims": [
+        {
+          "claim_id": "B5_P25_SAVED_SCALAR_p25_k5_LLRRRLRR_D1",
+          "k": 5,
+          "selected_method": "POINTWISE_EMPTY",
+          "box": [
+            [
+              "1/4",
+              "13/50"
+            ],
+            [
+              "10193953/32000000",
+              "1456279/4000000"
+            ],
+            [
+              "0",
+              "1/2"
+            ],
+            [
+              "1/4",
+              "1/2"
+            ],
+            [
+              "0",
+              "215757/1000000"
+            ]
+          ],
+          "source_result_member": "cutoff25_20261013/archive_audit/normalized_defect_frontier_v1/results/p25/p25_k5_LLRRRLRR/RESULT.json",
+          "source_result_sha256": "9d661ccf0949dcde8977c0f78615ec4955da0af1e3943a1e4ef74aff9e7def5a",
+          "prefix_status": "NONEMPTY_DEFECT_POLYGON",
+          "freshly_replayed_here": false
+        },
+        {
+          "claim_id": "B5_P25_SAVED_SCALAR_p25_k9_ROOT_D1",
+          "k": 9,
+          "selected_method": "PREFIX_EMPTY",
+          "box": [
+            [
+              "1/4",
+              "13/50"
+            ],
+            [
+              "0",
+              "1456279/1000000"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "-1/2",
+              "1/2"
+            ],
+            [
+              "0",
+              "215757/1000000"
+            ]
+          ],
+          "source_result_member": "cutoff25_20261013/archive_audit/normalized_defect_frontier_v1/results/p25/p25_k9_ROOT/RESULT.json",
+          "source_result_sha256": "46bc2cd824c02ec721a63696757bbfe97d1cc9b0350cfdd4189e4d19c7f3b969",
+          "prefix_status": "EMPTY_PHASE",
+          "freshly_replayed_here": false
+        },
+        {
+          "claim_id": "B5_P25_SAVED_SCALAR_p25_k10_ROOT_D1",
+          "k": 10,
+          "selected_method": "PREFIX_EMPTY",
+          "box": [
+            [
+              "1/4",
+              "13/50"
+            ],
+            [
+              "0",
+              "1456279/1000000"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "-1/2",
+              "1/2"
+            ],
+            [
+              "0",
+              "215757/1000000"
+            ]
+          ],
+          "source_result_member": "cutoff25_20261013/archive_audit/normalized_defect_frontier_v1/results/p25/p25_k10_ROOT/RESULT.json",
+          "source_result_sha256": "899bd490b34e94b29807feed42829e7e23f7fe363bcc3103ecee9242a4a00155",
+          "prefix_status": "EMPTY_PHASE",
+          "freshly_replayed_here": false
+        },
+        {
+          "claim_id": "B5_P25_SAVED_SCALAR_p25_k11_ROOT_D1",
+          "k": 11,
+          "selected_method": "PREFIX_EMPTY",
+          "box": [
+            [
+              "1/4",
+              "13/50"
+            ],
+            [
+              "0",
+              "1456279/1000000"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "-1/2",
+              "1/2"
+            ],
+            [
+              "0",
+              "215757/1000000"
+            ]
+          ],
+          "source_result_member": "cutoff25_20261013/archive_audit/normalized_defect_frontier_v1/results/p25/p25_k11_ROOT/RESULT.json",
+          "source_result_sha256": "26daac3c769e50cc65ed157f44296c468f1826987f9320e5099399823c380c61",
+          "prefix_status": "EMPTY_PHASE",
+          "freshly_replayed_here": false
+        },
+        {
+          "claim_id": "B5_P25_SAVED_SCALAR_p25_k12_ROOT_D1",
+          "k": 12,
+          "selected_method": "PREFIX_EMPTY",
+          "box": [
+            [
+              "1/4",
+              "13/50"
+            ],
+            [
+              "0",
+              "1456279/1000000"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "-1/2",
+              "1/2"
+            ],
+            [
+              "0",
+              "215757/1000000"
+            ]
+          ],
+          "source_result_member": "cutoff25_20261013/archive_audit/normalized_defect_frontier_v1/results/p25/p25_k12_ROOT/RESULT.json",
+          "source_result_sha256": "b2230db544d0b4b8d23df4d31aa65f073f6433144409d7dc0138407bcfc18d5c",
+          "prefix_status": "EMPTY_PHASE",
+          "freshly_replayed_here": false
+        },
+        {
+          "claim_id": "B5_P25_SAVED_SCALAR_p25_k13_ROOT_D1",
+          "k": 13,
+          "selected_method": "PREFIX_EMPTY",
+          "box": [
+            [
+              "1/4",
+              "13/50"
+            ],
+            [
+              "0",
+              "1456279/1000000"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "-1/2",
+              "1/2"
+            ],
+            [
+              "0",
+              "215757/1000000"
+            ]
+          ],
+          "source_result_member": "cutoff25_20261013/archive_audit/normalized_defect_frontier_v1/results/p25/p25_k13_ROOT/RESULT.json",
+          "source_result_sha256": "a4269a30c84013bae6707ed7d92c524ac39a23441f80c78ef9d9cf590beb853e",
+          "prefix_status": "EMPTY_PHASE",
+          "freshly_replayed_here": false
+        },
+        {
+          "claim_id": "B5_P25_SAVED_SCALAR_p25_k14_ROOT_D1",
+          "k": 14,
+          "selected_method": "PREFIX_EMPTY",
+          "box": [
+            [
+              "1/4",
+              "13/50"
+            ],
+            [
+              "0",
+              "1456279/1000000"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "-1/2",
+              "1/2"
+            ],
+            [
+              "0",
+              "215757/1000000"
+            ]
+          ],
+          "source_result_member": "cutoff25_20261013/archive_audit/normalized_defect_frontier_v1/results/p25/p25_k14_ROOT/RESULT.json",
+          "source_result_sha256": "c45a2b929bd5f5f6e838f9499b67fa2c9492421cfaacb8fec09f3a220388dbc1",
+          "prefix_status": "EMPTY_PHASE",
+          "freshly_replayed_here": false
+        },
+        {
+          "claim_id": "B5_P25_SAVED_SCALAR_p25_k15_ROOT_D1",
+          "k": 15,
+          "selected_method": "PREFIX_EMPTY",
+          "box": [
+            [
+              "1/4",
+              "13/50"
+            ],
+            [
+              "0",
+              "1456279/1000000"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "-1/2",
+              "1/2"
+            ],
+            [
+              "0",
+              "215757/1000000"
+            ]
+          ],
+          "source_result_member": "cutoff25_20261013/archive_audit/normalized_defect_frontier_v1/results/p25/p25_k15_ROOT/RESULT.json",
+          "source_result_sha256": "055ae961384bb8ccee54da0150268215c3272bb9a443f41742e512dcfdc05e40",
+          "prefix_status": "EMPTY_PHASE",
+          "freshly_replayed_here": false
+        },
+        {
+          "claim_id": "B5_P25_SAVED_SCALAR_p25_k16_ROOT_D1",
+          "k": 16,
+          "selected_method": "PREFIX_EMPTY",
+          "box": [
+            [
+              "1/4",
+              "13/50"
+            ],
+            [
+              "0",
+              "1456279/1000000"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "-1/2",
+              "1/2"
+            ],
+            [
+              "0",
+              "215757/1000000"
+            ]
+          ],
+          "source_result_member": "cutoff25_20261013/archive_audit/normalized_defect_frontier_v1/results/p25/p25_k16_ROOT/RESULT.json",
+          "source_result_sha256": "6f96c6419ecf90beeb022dc3d9f19e437f38813f0f9131bc60b9829f87da2663",
+          "prefix_status": "EMPTY_PHASE",
+          "freshly_replayed_here": false
+        },
+        {
+          "claim_id": "B5_P25_SAVED_SCALAR_p25_k17_ROOT_D1",
+          "k": 17,
+          "selected_method": "PREFIX_EMPTY",
+          "box": [
+            [
+              "1/4",
+              "13/50"
+            ],
+            [
+              "0",
+              "1456279/1000000"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "-1/2",
+              "1/2"
+            ],
+            [
+              "0",
+              "215757/1000000"
+            ]
+          ],
+          "source_result_member": "cutoff25_20261013/archive_audit/normalized_defect_frontier_v1/results/p25/p25_k17_ROOT/RESULT.json",
+          "source_result_sha256": "73477618d5b893c752d81a839c3c19b603b0734a28f4561e1cef039952a0be7b",
+          "prefix_status": "EMPTY_PHASE",
+          "freshly_replayed_here": false
+        },
+        {
+          "claim_id": "B5_P25_SAVED_SCALAR_p25_k18_ROOT_D1",
+          "k": 18,
+          "selected_method": "PREFIX_EMPTY",
+          "box": [
+            [
+              "1/4",
+              "13/50"
+            ],
+            [
+              "0",
+              "1456279/1000000"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "-1/2",
+              "1/2"
+            ],
+            [
+              "0",
+              "215757/1000000"
+            ]
+          ],
+          "source_result_member": "cutoff25_20261013/archive_audit/normalized_defect_frontier_v1/results/p25/p25_k18_ROOT/RESULT.json",
+          "source_result_sha256": "d8e4a9ccbdfb8cd790bc5ef8c23f4d33ed600dacfef542a8f633bbcb4796860f",
+          "prefix_status": "EMPTY_PHASE",
+          "freshly_replayed_here": false
+        },
+        {
+          "claim_id": "B5_P25_SAVED_SCALAR_p25_k19_ROOT_D1",
+          "k": 19,
+          "selected_method": "PREFIX_EMPTY",
+          "box": [
+            [
+              "1/4",
+              "13/50"
+            ],
+            [
+              "0",
+              "1456279/1000000"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "-1/2",
+              "1/2"
+            ],
+            [
+              "0",
+              "215757/1000000"
+            ]
+          ],
+          "source_result_member": "cutoff25_20261013/archive_audit/normalized_defect_frontier_v1/results/p25/p25_k19_ROOT/RESULT.json",
+          "source_result_sha256": "9695fb3fb9e56df20ddca8d4d5a59a3e56c4d7e41d12e364d7f866d3a720d959",
+          "prefix_status": "EMPTY_PHASE",
+          "freshly_replayed_here": false
+        },
+        {
+          "claim_id": "B5_P25_SAVED_SCALAR_p25_k20_ROOT_D1",
+          "k": 20,
+          "selected_method": "PREFIX_EMPTY",
+          "box": [
+            [
+              "1/4",
+              "13/50"
+            ],
+            [
+              "0",
+              "1456279/1000000"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "-1/2",
+              "1/2"
+            ],
+            [
+              "0",
+              "215757/1000000"
+            ]
+          ],
+          "source_result_member": "cutoff25_20261013/archive_audit/normalized_defect_frontier_v1/results/p25/p25_k20_ROOT/RESULT.json",
+          "source_result_sha256": "32cbc2cdb9d48ac1800c47c83eb6735d75197f87d510797c19ab4aeaaf2273cb",
+          "prefix_status": "EMPTY_PHASE",
+          "freshly_replayed_here": false
+        },
+        {
+          "claim_id": "B5_P25_SAVED_SCALAR_p25_k21_ROOT_D1",
+          "k": 21,
+          "selected_method": "PREFIX_EMPTY",
+          "box": [
+            [
+              "1/4",
+              "13/50"
+            ],
+            [
+              "0",
+              "1456279/1000000"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "-1/2",
+              "1/2"
+            ],
+            [
+              "0",
+              "215757/1000000"
+            ]
+          ],
+          "source_result_member": "cutoff25_20261013/archive_audit/normalized_defect_frontier_v1/results/p25/p25_k21_ROOT/RESULT.json",
+          "source_result_sha256": "9c009fb279fb2bce2dbca0fc8ec6454ac2383faa618c6d4985f3029e3006992c",
+          "prefix_status": "EMPTY_PHASE",
+          "freshly_replayed_here": false
+        },
+        {
+          "claim_id": "B5_P25_SAVED_SCALAR_p25_k22_ROOT_D1",
+          "k": 22,
+          "selected_method": "PREFIX_EMPTY",
+          "box": [
+            [
+              "1/4",
+              "13/50"
+            ],
+            [
+              "0",
+              "1456279/1000000"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "-1/2",
+              "1/2"
+            ],
+            [
+              "0",
+              "215757/1000000"
+            ]
+          ],
+          "source_result_member": "cutoff25_20261013/archive_audit/normalized_defect_frontier_v1/results/p25/p25_k22_ROOT/RESULT.json",
+          "source_result_sha256": "8cc9d3c07f88701beed2ae3e04817ec722f880c1e9bc96654ee4866f30f83f57",
+          "prefix_status": "EMPTY_PHASE",
+          "freshly_replayed_here": false
+        },
+        {
+          "claim_id": "B5_P25_SAVED_SCALAR_p25_k23_ROOT_D1",
+          "k": 23,
+          "selected_method": "PREFIX_EMPTY",
+          "box": [
+            [
+              "1/4",
+              "13/50"
+            ],
+            [
+              "0",
+              "1456279/1000000"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "-1/2",
+              "1/2"
+            ],
+            [
+              "0",
+              "215757/1000000"
+            ]
+          ],
+          "source_result_member": "cutoff25_20261013/archive_audit/normalized_defect_frontier_v1/results/p25/p25_k23_ROOT/RESULT.json",
+          "source_result_sha256": "bfdebb9d33082d5ed556bb608ee1165eb03a8c12fc44e427e152cfb7c40ae4d2",
+          "prefix_status": "EMPTY_PHASE",
+          "freshly_replayed_here": false
+        },
+        {
+          "claim_id": "B5_P25_SAVED_SCALAR_p25_k24_ROOT_D1",
+          "k": 24,
+          "selected_method": "PREFIX_EMPTY",
+          "box": [
+            [
+              "1/4",
+              "13/50"
+            ],
+            [
+              "0",
+              "1456279/1000000"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "-1/2",
+              "1/2"
+            ],
+            [
+              "0",
+              "215757/1000000"
+            ]
+          ],
+          "source_result_member": "cutoff25_20261013/archive_audit/normalized_defect_frontier_v1/results/p25/p25_k24_ROOT/RESULT.json",
+          "source_result_sha256": "c523cb7d44fb8a58e7a921aa6c3c0cb14f6b3ae7e0325179bc04daff23645aaa",
+          "prefix_status": "EMPTY_PHASE",
+          "freshly_replayed_here": false
+        },
+        {
+          "claim_id": "B5_P25_SAVED_SCALAR_p25_k25_ROOT_D1",
+          "k": 25,
+          "selected_method": "PREFIX_EMPTY",
+          "box": [
+            [
+              "1/4",
+              "13/50"
+            ],
+            [
+              "0",
+              "1456279/1000000"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "-1/2",
+              "1/2"
+            ],
+            [
+              "0",
+              "215757/1000000"
+            ]
+          ],
+          "source_result_member": "cutoff25_20261013/archive_audit/normalized_defect_frontier_v1/results/p25/p25_k25_ROOT/RESULT.json",
+          "source_result_sha256": "67fc223f2063cb096b7ea7ec76708146f1d8cb0c5a291e19b70ded3ea49c1f3f",
+          "prefix_status": "EMPTY_PHASE",
+          "freshly_replayed_here": false
+        }
+      ]
+    },
+    "F": {
+      "distinct": 7,
+      "references": 56,
+      "claim_ids": [
+        "B5_P25_CURRENT_DIRECT_QUERY_121_V1",
+        "B5_P25_CURRENT_DIRECT_QUERY_125_V1",
+        "B5_P25_CURRENT_DIRECT_QUERY_129_V1",
+        "B5_P25_CURRENT_DIRECT_QUERY_130_V1",
+        "B5_P25_CURRENT_DIRECT_QUERY_133_V1",
+        "B5_P25_CURRENT_DIRECT_QUERY_134_V1",
+        "B5_P25_CURRENT_DIRECT_QUERY_2_V1"
+      ]
+    },
+    "historical_metadata_not_current_acceptance": true
+  },
+  "remaining": [
+    "Full selected original p25 V14 native source capsule is missing at its canonical path.",
+    "Fresh original-resource, all required acquisition/replay and final regional executions remain open.",
+    "Source/hand algebra does not verify all saved numerical outputs or every finite helper instance."
+  ]
+}

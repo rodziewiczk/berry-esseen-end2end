@@ -1,0 +1,431 @@
+{
+  "schema": "INTERNAL_N25_P25_COUPLED_CHORD_SOURCE_AUDIT_V1",
+  "date": "2026-10-24",
+  "review_kind": "Fallible internal AI source and hand-algebra review, not external verification",
+  "original_math_imported_or_executed": false,
+  "fresh_arithmetic_accepted": false,
+  "all_native_count_proven": false,
+  "archive": {
+    "basename": "cutoff25_20261013.zip",
+    "bytes": 529557492,
+    "sha256": "a97f3e6e50e428df0893304bcd2f746851c9fccef2079b1ec66be9ab909d7f2c"
+  },
+  "selector": {
+    "member": "cutoff25_20261013/root/global25_final_v2/GLOBAL_C25_COMPLETE_JOINED_V1.json",
+    "sha256": "abae7a25b9b82d8b0dd0fc691d33944038d2ffc6707c6f387561f8f17437563d",
+    "purpose": "Historical exact source selector, not new acceptance"
+  },
+  "sources": [
+    {
+      "member": "cutoff25_20261013/root/coupled_chord_v1/kernel.py",
+      "sha256": "cf36b3fc56b072047811fa47850b985efcb6b46bc097f7a36ba23e7d8e3a8431",
+      "bytes": 1845,
+      "lines": 31,
+      "read_scope": "Complete active chord scalar algorithm and reciprocal maximum",
+      "line_ranges": [
+        [
+          7,
+          31
+        ]
+      ],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/root/coupled_chord_v1/PROOF.txt",
+      "sha256": "6575d4cc6fc36baa3e649f4de66711da2e47397b27b7f852c4b9645083169a7a",
+      "bytes": 2098,
+      "lines": 40,
+      "read_scope": "Chord and reciprocal-max argument, checked by hand",
+      "line_ranges": [
+        [
+          1,
+          40
+        ]
+      ],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/root/coupled_third_moment_boxes_v1/box_kernel.py",
+      "sha256": "81e3137085b2644da4eb5f0fcc04993a2b5935d24c75012082642a4068fad712",
+      "bytes": 2787,
+      "lines": 47,
+      "read_scope": "Complete active compatible-moment box calculation",
+      "line_ranges": [
+        [
+          11,
+          47
+        ]
+      ],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/root/coupled_third_moment_boxes_v1/PROOF.txt",
+      "sha256": "11820941faaead2cf75ba18b414d8f4b57b7502ef84059f8cad3116287ce7e62",
+      "bytes": 2819,
+      "lines": 47,
+      "read_scope": "Closed-box compatible-moment and inward partition argument",
+      "line_ranges": [
+        [
+          1,
+          47
+        ]
+      ],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/root/coupled_third_moment_v1/PROOF.txt",
+      "sha256": "d826f254086a894f6d9a66354429f463f9e0d96338b4a5fd3ae94f181f9a1ffb",
+      "bytes": 2937,
+      "lines": 54,
+      "read_scope": "Conserved third-moment elimination identity; point probe is not executed or used as acceptance",
+      "line_ranges": [
+        [
+          4,
+          40
+        ]
+      ],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/b5/actual26_pointwise_pilot_v1/application.py",
+      "sha256": "702e31171226e62b81c69fd61c0279afb8f908625ef46d2d8951e0c87e4bf79d",
+      "bytes": 3984,
+      "lines": 63,
+      "read_scope": "Generic premises() only; n26 extract() and probes not transferred to n25",
+      "line_ranges": [
+        [
+          30,
+          47
+        ]
+      ],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/low/coupled_chord_discovery_v1/candidate.py",
+      "sha256": "0259e7f9d5cb71daddc6501ada241b653dc0c59b3860c6b639c907ca224df8c5",
+      "bytes": 9207,
+      "lines": 114,
+      "read_scope": "Complete candidate interface, strict scalar statuses, source loading and conditional native call",
+      "line_ranges": [
+        [
+          25,
+          114
+        ]
+      ],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/low/coupled_chord_discovery_v1/feedback.py",
+      "sha256": "1858e9bf8ca590ea2e4e921b68324a4bbdff2c4b3eff352978a2d3b4a8d0c3af",
+      "bytes": 7456,
+      "lines": 75,
+      "read_scope": "Complete actual five-cap finite induction and stored evidence validation",
+      "line_ranges": [
+        [
+          3,
+          75
+        ]
+      ],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/low/coupled_chord_discovery_v1/PROOF.txt",
+      "sha256": "fdfefa04f631d82865de9b449f1a34b7ca1d0d61ffdc0ff6b5a85c9986308601",
+      "bytes": 5954,
+      "lines": 91,
+      "read_scope": "Conditional finite feedback and acceptance boundary",
+      "line_ranges": [
+        [
+          17,
+          87
+        ]
+      ],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/low/coupled_chord_acceptance_v1/protocol.py",
+      "sha256": "edd43aa4f08455544faa343757b610d3c0a6e925be166d3ff5b09a0eb50a5861",
+      "bytes": 14132,
+      "lines": 180,
+      "read_scope": "Full selected fresh acceptance, typed replay, complete closed forest and controls",
+      "line_ranges": [
+        [
+          25,
+          180
+        ]
+      ],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/low/coupled_chord_acceptance_v1/accept.py",
+      "sha256": "d3d8105677f01fa144e4a5dd8260c33be81ba2fa7364521f23f446ddb60ec48f",
+      "bytes": 2619,
+      "lines": 18,
+      "read_scope": "Complete acceptance writer",
+      "line_ranges": [],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/low/coupled_chord_acceptance_v1/PROOF.txt",
+      "sha256": "219be7a884cc7b918e9865b392c4f46f91d91b4d5afec3b7a75c64c2ead9fae4",
+      "bytes": 5740,
+      "lines": 86,
+      "read_scope": "Finite mixed proof rule and explicit conditional scope",
+      "line_ranges": [
+        [
+          1,
+          86
+        ]
+      ],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/b5/coupled_contact_feedback_review_v1/PROOF.txt",
+      "sha256": "ee85e36ec51158ec241a610c286a9ffbc1d2c29108c349417cc6e654bb8a3c78",
+      "bytes": 5227,
+      "lines": 79,
+      "read_scope": "General five-cap mathematical substitution proof, not historical review status as a premise",
+      "line_ranges": [
+        [
+          3,
+          61
+        ]
+      ],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/low/mixed4_grid_pointwise_v1/mixed4.py",
+      "sha256": "198e2350bfa9c681109aa9ac7b0f659da870bae9d1f6e31b51d57f931c81b2fa",
+      "bytes": 8416,
+      "lines": 113,
+      "read_scope": "Whole original cfg binding, theorem dispatch and source/registry immutability; acquisitions not reviewed in this unit",
+      "line_ranges": [
+        [
+          26,
+          78
+        ]
+      ],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/low/mixed4_grid_pointwise_v1/f_registry.py",
+      "sha256": "36c5613710bd0fb39ad345286571d684311a77690d20dc28c408efdcb72c35a3",
+      "bytes": 8878,
+      "lines": 103,
+      "read_scope": "Complete F registry consumer and containment, not its scalar acquisition",
+      "line_ranges": [
+        [
+          45,
+          103
+        ]
+      ],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    },
+    {
+      "member": "cutoff25_20261013/archive_audit/mixed3_saved_scalar_v1/mixed3.py",
+      "sha256": "53e544f0b8074d0bb28acf89492f0ce49b66450f4941afaf7cb1ee1029d46a3f",
+      "bytes": 8490,
+      "lines": 112,
+      "read_scope": "ABCD dispatch, entire original cfg and immutable-source chain; acquisitions not reviewed in this unit",
+      "line_ranges": [
+        [
+          25,
+          77
+        ]
+      ],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true
+    }
+  ],
+  "contact_identity_reuse_edges": [
+    {
+      "actual_supplied_member": "cutoff25_20261013/b5/local_contact_v14_combined/local_contact_support.py",
+      "sha256": "f0881cee379d3bd2ff293751f4c802eabd91b2c28c76a1c0984701ce9c4db680",
+      "bytes": 7209,
+      "review_reference": "proof/code_v14_contact_audit.md",
+      "review_source_map": "proof/code_v14_contact_source_map.json",
+      "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff",
+      "reviewed_p31_file_pin_matches": true,
+      "exact_reviewed_file_hash_match": true,
+      "selected_original_p25_reference_members": [
+        "cutoff25_20261011/new_root/global_local_contact_b5_p25_v14/local_contact_support.py"
+      ],
+      "original_p25_directory_not_supplied": true,
+      "identity_is_not_missing_capsule_reconstruction": true
+    },
+    {
+      "actual_supplied_member": "cutoff25_20261013/b5/local_contact_v14_combined/local_contact_outer_v14.py",
+      "sha256": "a30217eb6cdc16a3bec77d1ddf6e3a492b22fc30a9eb4e893ebe649ad49779f7",
+      "bytes": 5185,
+      "review_reference": "proof/code_v14_contact_audit.md",
+      "review_source_map": "proof/code_v14_contact_source_map.json",
+      "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff",
+      "reviewed_p31_file_pin_matches": true,
+      "exact_reviewed_file_hash_match": true,
+      "selected_original_p25_reference_members": [
+        "cutoff25_20261011/new_root/global_local_contact_b5_p25_v14/local_contact_outer_v14.py"
+      ],
+      "original_p25_directory_not_supplied": true,
+      "identity_is_not_missing_capsule_reconstruction": true
+    },
+    {
+      "actual_supplied_member": "cutoff25_20261013/b5/local_contact_v14_combined/local_contact_gaussian.py",
+      "sha256": "c0ca6ae03a2aa4e635e41bd2a5ba8fb02a8b060b3c89313860208b2ac548a3be",
+      "bytes": 5324,
+      "review_reference": "proof/code_v14_contact_audit.md",
+      "review_source_map": "proof/code_v14_contact_source_map.json",
+      "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff",
+      "reviewed_p31_file_pin_matches": true,
+      "exact_reviewed_file_hash_match": true,
+      "selected_original_p25_reference_members": [
+        "cutoff25_20261011/new_root/global_local_contact_b5_p25_v14/local_contact_gaussian.py"
+      ],
+      "original_p25_directory_not_supplied": true,
+      "identity_is_not_missing_capsule_reconstruction": true
+    },
+    {
+      "actual_supplied_member": "cutoff25_20261013/b5/local_contact_v14_combined/local_rho_upper_v14.py",
+      "sha256": "ffa7e725310f18122abfb5883e780328de0156ef4efe4f099ddb86609588f41e",
+      "bytes": 1952,
+      "review_reference": "proof/code_v14_contact_audit.md",
+      "review_source_map": "proof/code_v14_contact_source_map.json",
+      "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff",
+      "reviewed_p31_file_pin_matches": true,
+      "exact_reviewed_file_hash_match": true,
+      "selected_original_p25_reference_members": [
+        "cutoff25_20261011/new_root/global_local_contact_b5_p25_v14/local_rho_upper_v14.py"
+      ],
+      "original_p25_directory_not_supplied": true,
+      "identity_is_not_missing_capsule_reconstruction": true
+    },
+    {
+      "actual_supplied_member": "cutoff25_20261013/b5/local_contact_v14_combined/local_contact_scale.py",
+      "sha256": "a181f945263ef7919869f606618a92b6b12f806a24db977178f963680f2a7c41",
+      "bytes": 2702,
+      "review_reference": "proof/code_v14_contact_audit.md",
+      "review_source_map": "proof/code_v14_contact_source_map.json",
+      "reviewed_p31_design_sha256": "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff",
+      "reviewed_p31_file_pin_matches": true,
+      "exact_reviewed_file_hash_match": true,
+      "selected_original_p25_reference_members": [
+        "cutoff25_20261011/new_root/global_local_contact_b5_p25_v14/local_contact_scale.py"
+      ],
+      "original_p25_directory_not_supplied": true,
+      "identity_is_not_missing_capsule_reconstruction": true
+    }
+  ],
+  "historical_statistics": {
+    "member": "cutoff25_20261013/root/coupled_chord_p25_accepted_v1/COUPLED_CHORD_ABCDF_ACCEPTED_V1.json",
+    "sha256": "0b9a1a47f635aa701cca0bc83e17f24f7e69fef7ac6c84897699c88110f2e31c",
+    "statistics": {
+      "nodes": 2166,
+      "leaves": 1096,
+      "ordinary_leaves": 759,
+      "scalar_leaves": 112,
+      "derived_native_leaves": 149,
+      "theorem_references": 76,
+      "families": {
+        "AB": 2,
+        "D": 18,
+        "F": 56
+      },
+      "claims": {
+        "B5_P25_SPARSE_16X_EXCLUSION_V1": 1,
+        "B5_P25_SPARSE_NEXT_EXCLUSION_V1": 1,
+        "B5_P25_SAVED_SCALAR_p25_k5_LLRRRLRR_D1": 1,
+        "B5_P25_CURRENT_DIRECT_QUERY_121_V1": 22,
+        "B5_P25_CURRENT_DIRECT_QUERY_125_V1": 17,
+        "B5_P25_CURRENT_DIRECT_QUERY_2_V1": 11,
+        "B5_P25_CURRENT_DIRECT_QUERY_129_V1": 1,
+        "B5_P25_CURRENT_DIRECT_QUERY_130_V1": 1,
+        "B5_P25_CURRENT_DIRECT_QUERY_133_V1": 2,
+        "B5_P25_CURRENT_DIRECT_QUERY_134_V1": 2,
+        "B5_P25_SAVED_SCALAR_p25_k9_ROOT_D1": 1,
+        "B5_P25_SAVED_SCALAR_p25_k10_ROOT_D1": 1,
+        "B5_P25_SAVED_SCALAR_p25_k11_ROOT_D1": 1,
+        "B5_P25_SAVED_SCALAR_p25_k12_ROOT_D1": 1,
+        "B5_P25_SAVED_SCALAR_p25_k13_ROOT_D1": 1,
+        "B5_P25_SAVED_SCALAR_p25_k14_ROOT_D1": 1,
+        "B5_P25_SAVED_SCALAR_p25_k15_ROOT_D1": 1,
+        "B5_P25_SAVED_SCALAR_p25_k16_ROOT_D1": 1,
+        "B5_P25_SAVED_SCALAR_p25_k17_ROOT_D1": 1,
+        "B5_P25_SAVED_SCALAR_p25_k18_ROOT_D1": 1,
+        "B5_P25_SAVED_SCALAR_p25_k19_ROOT_D1": 1,
+        "B5_P25_SAVED_SCALAR_p25_k20_ROOT_D1": 1,
+        "B5_P25_SAVED_SCALAR_p25_k21_ROOT_D1": 1,
+        "B5_P25_SAVED_SCALAR_p25_k22_ROOT_D1": 1,
+        "B5_P25_SAVED_SCALAR_p25_k23_ROOT_D1": 1,
+        "B5_P25_SAVED_SCALAR_p25_k24_ROOT_D1": 1,
+        "B5_P25_SAVED_SCALAR_p25_k25_ROOT_D1": 1
+      },
+      "maximum_depth": 26,
+      "first": {
+        "ordinary": {
+          "k": 0,
+          "path": ""
+        },
+        "scalar": {
+          "k": 5,
+          "path": "LLRRRLLRL"
+        },
+        "theorem": {
+          "k": 5,
+          "path": "LLRRRLRLRLLRRLLRRR"
+        },
+        "theorem_AB": {
+          "k": 5,
+          "path": "LLRRRLRLRLLRRLLRRR"
+        },
+        "theorem_D": {
+          "k": 5,
+          "path": "LLRRRLRR"
+        },
+        "theorem_F": {
+          "k": 5,
+          "path": "LRLRLLLL"
+        },
+        "derived_native": {
+          "k": 6,
+          "path": "LLRRRLRLRLRLL"
+        }
+      },
+      "positive_fresh_native_evaluations": 908,
+      "positive_fresh_scalar_evaluations": 637,
+      "positive_fresh_contact_attempts": 6700,
+      "native_statuses": {
+        "EMPTY_PHASE": 28,
+        "PASS_TARGET": 737,
+        "EMPTY_SHARP_BOX": 72,
+        "EMPTY_JOINT_CUBICS": 54,
+        "EMPTY_ACQUIRED_RHO_VARIANCE": 6,
+        "EMPTY_RHO_UPPER": 2,
+        "EMPTY_VARIANCE_IDENTITY": 4,
+        "EMPTY_SUPPORT_GAP_VARIANCE": 4,
+        "EMPTY_RHO_BRANCH": 1
+      },
+      "maximum_native_score": "1638914217/4000000000",
+      "all_native_count_receipt": false
+    },
+    "accepted_in_current_epoch": false
+  },
+  "remaining_edges": [
+    "Actual AB/C/D/F acquisition implementations and continuous arguments are separate from their registry consumers.",
+    "Selected original p25 V14 native capsule and its full source closure are not supplied at their canonical archive path.",
+    "Fresh original-resource, scalar/contact and ordinary native executions and all final joins remain necessary."
+  ]
+}

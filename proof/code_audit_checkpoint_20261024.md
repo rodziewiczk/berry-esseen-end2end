@@ -86,3 +86,29 @@ induction. Root read the note and checked all 17 original source/final-selector
 bindings and the three explicitly absent canonical native members. Original
 INITIAL/resource readback is distinguished from fresh numerical reacquisition.
 The missing ordinary p24 V14 instance and separate p25 ABCDF rule remain open.
+
+## Subsequent p25 dynamic and acquired-reference units
+
+The [coupled-chord/contact unit](code_n25_p25_chord_audit.md) and
+[AB/C/D/F acquisition unit](code_n25_p25_references_audit.md) now separately
+derive the selected p25continuous implications. Root read both notes and
+reran their complete source-only checker:499checks, zero mismatches. This
+binds50source/proof rows, both original archives and the final selector,
+all178reviewed p31design files, five contact-helper identities, all73private
+n24manifest rows/70exact byte identities, the62-statement prefix projection,
+five normalized-helper function identities and the actual historical forest
+reference census. Historical accepted objects remain provenance.
+
+The same-law24argument retains a full new phase and count cover, the exact
+raw closed half-lines, directed exterior tails and a constant allowance on
+each ray. The later support/moment steps use only previously acquired caps.
+The chord/scalar/contact consumers preserve same-box cfg and closed cover.
+No concrete wrong-law, reflected-predecessor or circular-cap error was found
+in this bounded review. The original p25native capsule, full fresh resource/
+scalar/native acquisitions and final n25join remain open.
+
+The missing full-lower-B3compositor is also explicit: its literal selected
+family was not found by member name in the43valid local ZIPs inspected
+(one additional path was not a ZIP). Nearby one-panel sources do not silently
+replace that selected whole-branch implication. No original mathematics was
+imported or evaluated by these source/metadata checks.
