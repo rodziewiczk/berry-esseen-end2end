@@ -31,6 +31,13 @@ matches and current7 semantic edges. A real auxiliary evidence-file readback
 gap is repaired in collector23, preserving active numerical driver/source pins.
 This does not close all enabled kernels or the missing regional joins.
 
+The subsequent LOCAL42 unit now reads the actual N=42normalization and
+quartic/Poisson/Bennett/marked/common-background primitives, with30source pins
+and a focused signed-repair/background cross-read. No invalid selected
+implication was identified in that bounded conditional scope. Same-law
+acquisition/profile transfers, positive arithmetic gates and global composition
+remain open; source review does not accept their calculations.
+
 ## Execution snapshot
 
 Latest evidence supplied to this chat; this is not live monitoring.

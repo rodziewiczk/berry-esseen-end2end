@@ -223,3 +223,28 @@ strict rational interpolation checker. Its896coefficient positivity gate
 was source-read, not executed. The complete LOCAL42 normalizer and older
 marked/Poisson/quartic primitives, actual hypotheses and final branch union
 are still outside that bounded extension review.
+
+The subsequent [LOCAL42 probability-primitive unit](code_local42_count_primitives_audit.md)
+now supplies the previously separate actual-count identity, N=42normalization,
+shifted quartic, centered-Poisson/Bennett and marked/common-background/tail
+derivations. Its30actual source members match the9518-pin historical final
+selector. The distinct signed LEFT-TINY normalization requires the explicit
+finite42--48upper-score cap; a positive-bracket lemma alone does not cover it.
+The common-background division uses a positive upper-envelope endpoint,
+without asserting an actual deleted-variance lower bound. A focused internal
+[cross-read of sections3and6](code_local42_count_primitives_crosscheck.md)
+found no sign/source blocker. Root separately checked the30member/selector
+pins and unchanged manuscript. No probability calculator or scalar gate was
+run locally. Actual same-law acquisitions/profile transfers, fresh arithmetic
+and Bernoulli/global composition remain separate obligations. The next source
+unit follows the central/left acquisition/profile implementations into these
+actual callers.
+
+The supplied completed logs for23and24now record their scoped9-export joins,
+including all7current count/resource interfaces. Actual36/37/38exports were
+also read back at the metadata/contract level, giving all75
+B012parent/interface edges. These update the earlier execution boundary above;
+they do not establish whole regional coverage or acquire analytical premises.
+Notebook11's actual export now passes both complete native ROOT4guard/receipt
+chains for the conditional physical root. Full all-law C4and the global theorem
+remain false; details are in [observed runs](observed_runs.md).
