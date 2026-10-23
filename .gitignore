@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+work/
+artifacts/
+archives/
+reproduction_inputs/
+*.zip
+*.tar.gz
+*.log
