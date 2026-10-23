@@ -98,6 +98,13 @@ It covers the closed rho interval[23/20,71/50] with the explicit support3
 premise. It leaves support acquisition and the remaining56parents/interfaces
 separate; see [scope](proof/finite1014_corner_execution.md).
 
+The shared scalar certificate has its own full original execution in
+[56K_kappa_62_625.ipynb](colab/56K_kappa_62_625.ipynb). It checks all 81 cells,
+1134 positive coefficients and original controls without repeating any Fourier
+integration. Run all with the same Drive; see [scope](proof/finite1014_kappa_execution.md).
+The current [notebook completion queue](proof/notebook_completion_queue.md)
+separates delivered files, running jobs and packages still being implemented.
+
 The current12-hour settings in RESTART01–07 are budgets, not completion estimates.
 A complete tree still requires a separate full acceptor run. An unfinished tree
 is checkpointed for a compatible rerun.

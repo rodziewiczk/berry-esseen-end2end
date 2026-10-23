@@ -1088,3 +1088,22 @@ The [bounded actual-export note](tail49_completed_export_readback.md) and
 [sanitized summary](tail49_completed_export_readback.json) retain the exact
 source/worker/result hashes, resource scope and analytic/global limitations.
 No original mathematical program was rerun locally.
+
+## Notebook56C: supplied complete high-rho ending
+
+The inline ending at23:50:08UTC on23October2026 records all4original actions
+complete. Full replay reports80strips, with the independent readback confirming
+400exact rows for literal n10--14, finite rho[71/50,15/8], the selected published
+tail and24negative controls. Its uniform upper is strictly below4097/10000.
+The final status is `complete_conditional_highrho10_14_sublane_basic`; the saved
+bundle is `finite1014-highrho/20261023T232747Z-2444d528/20261023T232747Z-2444d528-results.zip`.
+This is supplied-log completion. Actual export validation and the complete56
+parent/count joins remain separate. No repeat of successful56Cmathematics is queued.
+
+## Notebook56A: supplied complete auxiliary ending
+
+The supplied final cell records `complete_conditional_auxiliary9_14_sublane_basic`
+and saved bundle `finite1014-auxiliary/20261023T231655Z-bf156069/20261023T231655Z-bf156069-results.zip`.
+This confirms scoped wrapper completion in the supplied output; actual export
+readback and the complete56 parent/count joins remain separate. No repeated
+56A Fourier run is queued from this observation.

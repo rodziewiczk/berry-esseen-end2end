@@ -404,3 +404,15 @@ All22infrastructure/source/generator fixtures pass, including a clean checkout.
 Support, full56,217interfaces and global conclusions remain separate. See
 [scope](../proof/finite1014_corner_execution.md) and
 [bounded internal review](../proof/finite1014_corner_root_review.md).
+
+Notebook56K, `56K_kappa_62_625.ipynb`, selects immutable runtime
+`2b5986145bb2415a87ee96343ab9d670fca13f9d`. Choose Run all with the usual
+Drive. This runs the one full unchanged original scalar certificate program:
+81 closed cells, 1134 positive Bernstein coefficients, 21 negative controls
+and 324 identity checks. The three small original sources and attribution
+are included in the pinned repository; no large source download is needed.
+Only a fully revalidated completed transaction is reused. Each execution has
+2GiB/43200CPU/54000wall BASIC ceilings, progress and durable exports. All 17
+infrastructure fixtures pass, including a clean code-only checkout. It does
+not rerun the Fourier integrations or complete package56. See
+[scope](../proof/finite1014_kappa_execution.md).

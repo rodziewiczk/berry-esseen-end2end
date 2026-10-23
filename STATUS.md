@@ -3,8 +3,14 @@
 Updated: 24 October 2026, Europe/Warsaw. This is the project landing status.
 Details are linked, not treated as additional independent proof claims.
 
-**The global proof is not verified. Logical/source audit and preparation of
-the missing computational notebooks now proceed in parallel.**
+**The global proof is not verified. Completing the missing computational
+notebooks is the current priority; standalone auditing is paused.**
+
+On 24 October the user paused standalone auditing and prioritized completing
+all required runnable notebooks. Only checks necessary for correct notebook
+execution, preserved evidence and explicit dependency joins continue during
+this phase. The [execution queue](proof/notebook_completion_queue.md) records
+the implementation boundary; it does not treat reserved packages as ready files.
 
 The linked audits are fallible AI-generated internal source reviews.
 Cross-reads by other model agents are internal checks; external independent
@@ -111,10 +117,11 @@ Log completion is not independent bundle validation.
 |47/48|Both supplied middle-n25 B4/B5 logs complete14/12full selected acquisition actions and save final ZIPs with conditional_middle_acquisition_arithmetic_complete. Actual final export readback, interfaces32/33and regional/global joins remain separate.|
 |49|Supplied completed log confirms14/14full high-beta3 acquisition actions and final saved bundle, conditional_high_beta3_acquisition_arithmetic_complete. Actual final export readback, count interfaces and regional theorem remain separate.|
 |50--55|Five COUNT lanes50/51/52/54/55are published and delivered:929forests total. Corrected50/51/52/54logs complete217/147/163/282stages respectively, reusing saved full numerical stages and saving final ZIPs. Corrected54finishes at23:34:28UTC after revalidating all282stages. The supplied53ending completes all80forests/2316roots/150296nodes/76306leaves and the64identity edge.55has no final observation here. Actual final export readbacks and parent/theorem joins remain separate.|
-|56A|Original auxiliary9--14 Fourier sublane only, corrected runtime19156cc605a961f52e17818bbae0a66551a9a2a0. The initial user run stopped before arithmetic on a notebook-fixture temporary-directory error; the replacement fixture passes all16tests from a clean checkout. Actual75inputs/72manifest rows checked, plus an internal source cross-read. All four original actions and controls remain required on Colab. No56Aarithmetic is inferred; full56and217interfaces remain false.|
+|56A|Supplied final cell now reports complete_conditional_auxiliary9_14_sublane_basic and a saved final ZIP for20261023T231655Z-bf156069. This supersedes the earlier pre-arithmetic fixture error. Actual export readback, support/HIGH, remaining56parents and217interfaces remain separate.|
 |56B|Prepared original supported9--14 two-band Fourier sublane, pinned runtime6804c6efacdbdd2adad8e610568fa3fcb2b34d28. Root19infrastructure/notebook fixtures pass in a clean checkout; all97actual inputs/94manifest rows checked. Support |X|<=3 is explicit and unacquired here. Original four-action arithmetic remains to run; full56and217interfaces remain false.|
-|56C|Prepared original high-rho10--14 Fourier sublane, pinned runtime259509d99cd8d4653ea9aa3f83d1b4aa13c3deb9. All85actual inputs/82manifest rows checked.20synthetic fixtures pass including a clean code-only checkout; root's four changed-domain/target/capture fixtures also pass. Original four-action arithmetic remains to run; full56and217interfaces remain false.|
+|56C|Supplied final log at23:50:08UTC on23October completes all4original actions and saves its final ZIP with complete_conditional_highrho10_14_sublane_basic. Full replay covers80strips/400exact rows; independent readback requires24negative controls and target4097/10000. Actual final export readback and the remaining56parents/interfaces remain separate.|
 |56D|Prepared original supported corner10--14 Fourier sublane, pinned runtime8e091e0e628cd6c8422c084dd4461dfe438e400c. All145actual inputs/142manifest rows checked.22synthetic fixtures pass including a clean checkout; root's six changed-domain/control/typed-census/capture fixtures pass. Support |X|<=3 remains unacquired here. Original four-action arithmetic remains to run; full56and217interfaces remain false.|
+|56K|Prepared full unchanged scalar kappa62/625 certificate, runtime2b5986145bb2415a87ee96343ab9d670fca13f9d. All3original source files match the exact archive bytes.17synthetic fixtures pass, also in a clean checkout; root repeats17with no original mathematics. Fresh Colab scalar execution, downstream joins and full56remain separate.|
 |64|Actual final ZIP/Drive sidecar and all68files/13852603unpacked bytes revalidated, including both unchanged construction/full-acceptance actions and their source/launch/capture bindings. All28roots/6310nodes/3169leaves close; the candidate hash exactly reproduces the historical missing tree. The fresh acceptance remains distinct.53selection composition and mathematical parent/global joins remain separate; no mathematical kernel was rerun locally.|
 
 The new packages preserve previous numerical drivers and notebook identities.
