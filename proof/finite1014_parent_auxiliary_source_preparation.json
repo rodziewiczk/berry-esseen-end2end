@@ -1,0 +1,15 @@
+{
+  "all_index_conclusion_verified": false,
+  "arithmetic_computed": false,
+  "bytes": 512371,
+  "files": 75,
+  "full_notebook56_completed": false,
+  "original_manifest_sha256": "4c9e65b33e3d2f9b15db5f4432ceb9b90754e51aa339d3e5f3b7d79b9edd28a0",
+  "original_mathematical_modules_imported_or_evaluated": false,
+  "schema": "FINITE1014_AUXILIARY_ACTUAL_SOURCE_ONLY_PREPARATION_V1",
+  "source_adapter_sha256": "8c2efed3d34a963599b05a0f7f3151d48a3aeadec9864dd197a30b896e8571f6",
+  "source_manifest_sha256": "1e95442a41ceaf1adeb22e273a177a4c2651afd859fb9ad5f7865015cc0f0084",
+  "source_manifests_modified": false,
+  "source_plan_sha256": "9cdddfff2debc9c69e7719a24cf68ba4f03f75da6bf074a6758bc8bb5962fea7",
+  "source_programs_modified": false
+}
