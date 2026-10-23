@@ -56,6 +56,26 @@ def validators():
     return n25_count_evidence, n25_parent_evidence, n25_contract_interfaces
 
 
+def recovery_validator():
+    from . import count_recovery_evidence
+    return count_recovery_evidence
+
+
+def validate_count_export(task, key, ordinary):
+    """Dispatch only the fixed q2 resource epoch; original validators stay intact."""
+    task_record = Path(task) / "TASK.json"
+    # The selected ordinary validator itself rejects a missing TASK. Keeping
+    # that dispatch fallback also preserves its existing injectable test seam.
+    record = common.read(task_record, 4 * common.MIB) if task_record.exists() else {}
+    if record.get("schema") == "COUNT_LIMIT_RECOVERY_TASK_V1":
+        need(key == "b4-q2" and record.get("target") == key,
+             "Only logical B4 q2 has the reviewed resource-limit recovery")
+        validator = recovery_validator()
+    else:
+        validator = ordinary
+    return validator.validate_completed(task, expected_target=key), validator
+
+
 def validate_scope(key, packet):
     need(key in JOBS and type(packet) is dict, "One exact selected fresh n25 export")
     need(packet["native_arithmetic_accepted"] is True
@@ -64,10 +84,18 @@ def validate_scope(key, packet):
          "Complete scoped n25 native arithmetic without a global claim")
     if key in COUNTS:
         branch = "b4" if key.startswith("b4-") else "b3"
+        expected_design = common.TARGETS[key][2]
+        if packet.get("resource_epoch") is not None:
+            recovery = recovery_validator()
+            need(key == "b4-q2" and recovery.same(packet["resource_epoch"], recovery.resource_epoch())
+                 and packet["original_design_sha256"] == common.TARGETS[key][2]
+                 and packet["new_design_sha256"] == recovery.limit.NEW_DESIGN_SHA256,
+                 "Exact fixed q2 resource-only epoch with unchanged original mathematical inputs")
+            expected_design = recovery.limit.NEW_DESIGN_SHA256
         need(packet["schema"] == "REVALIDATED_N25_COUNT_V1" and packet["target"] == key
              and packet["branch"] == branch and type(packet["index"]) is int
              and packet["index"] == common.TARGETS[key][1]
-             and packet["design_sha256"] == common.TARGETS[key][2]
+             and packet["design_sha256"] == expected_design
              and packet["parent_acquisitions_verified"] is False
              and type(packet["census"]["roots"]) is int and packet["census"]["roots"] == 26,
              "Exact complete selected count design, branch and original roots")
@@ -99,8 +127,7 @@ def collect(durable_root, work, *, progress):
                 destination = Path(work) / "imports" / key / uuid.uuid4().hex[:12]
                 task, zip_sha = transport.extract(candidate, destination, progress=progress)
                 if key in COUNTS:
-                    packet = counts.validate_completed(task, expected_target=key)
-                    validator = counts
+                    packet, validator = validate_count_export(task, key, counts)
                 else:
                     packet = parents.validate_completed(task, expected_branch=key[len("n25-parents-"):])
                     validator = parents

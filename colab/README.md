@@ -57,6 +57,25 @@ the sampled memory threshold stopped the next component.
 
 These jobs do not complete n5, all remaining finite indices, the stronger24 acquisition, or the final analytic composition. Their results are concrete inputs for those next steps. Always retain the final ZIP, including when the run is interrupted or reports an unresolved case.
 
+## Recovery after the notebook 04 node-limit stop
+
+Notebook `25_n25_b4_q2_checkpoint_recovery.ipynb` continues the compatible q2
+checkpoint from the same Drive. Upload it and choose CPU / Run all. It preserves
+the original 4996 untrusted saved leaves and pending boxes, and uses a separately
+sealed 100000-node resource epoch. Every mathematical source, contract, root and
+leaf criterion remains unchanged; fresh independent replay of all 26 roots and
+24 controls is still required. The old checker and original evidence are retained.
+
+Use the updated `24_n25_seven_count_interfaces.ipynb` for the eventual evidence
+join; the earlier pinned notebook 24 cannot recognize this new source identity.
+Other current notebooks need no changes. See the [recovery execution scope](../proof/b4_q2_recovery_execution.md)
+and [actual failed-run review](../proof/b4_q2_node_limit_review.md).
+
+For `candidate_incomplete_budget_exhausted`, the original count notebook can be
+run again: it automatically finds a compatible Drive checkpoint and allocates
+another search period. This is the observed q1/q3 time stop and differs from
+the fixed q2 node-limit stop. Do not interpret either partial status as acceptance.
+
 ## Queued task 13: an independent n5 component
 
 Notebook 13 can wait until a CPU session is available. It uses the same upload-and-run workflow and does not require interrupting any ongoing task.

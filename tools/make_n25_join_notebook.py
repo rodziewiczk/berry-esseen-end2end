@@ -16,6 +16,9 @@ phase2.JOBS = {NAME: dict(
     title='n25: fresh parent evidence and the seven selected count interfaces',
     scope='''This is a queued evidence join. Run it after notebooks 01–07 and 09/10
 have completed and saved their successful results ZIPs on the same Google Drive.
+For b4-q2, a successful notebook25 recovery export can replace notebook04 after
+its 10000-node stop. This updated collector explicitly verifies the new resource
+epoch and its unchanged mathematical contract; it does not relabel the old stop.
 Upload this notebook, choose a CPU runtime, and select Run all. No parameter edits
 are required. Existing calculations and their pinned source code need no changes.
 

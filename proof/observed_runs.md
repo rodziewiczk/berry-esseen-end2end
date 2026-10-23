@@ -116,3 +116,28 @@ explicit 2 GiB BASIC memory budget, with unchanged mathematical sources and full
 completion checks. No native/all-index acceptance or failed inequality is
 inferred from this resource stop, and no completed prefix is silently substituted
 for a full original run.
+
+## Notebook 04: actual q2 result ZIP and separate q1/q3 time stops
+
+The actual 1,913,858-byte q2 ZIP has SHA-256
+`84a5272daa9858e66c369f18365bf5f17568dd912e9901cfc0c5c1859a9972f0`.
+Its final stderr is `DISCOVERY_INCOMPLETE_NO_ACCEPTANCE: Original split depth/node budget exhausted`.
+The final checkpoint contains 10000 nodes, 4996 untrusted closed leaves and
+17 pending boxes at maximum depth20. All76 sealed source files and seven
+checkpoint transitions were inspected without numerical replay. No native count
+acceptance action occurred. See [the detailed review](b4_q2_node_limit_review.md).
+
+The separate pasted q1 and q3 logs end `candidate_incomplete_budget_exhausted`:
+q1 has 5858 nodes, 2920 leaves and22 pending boxes; q3 has 6828 nodes, 3404 leaves
+and23 pending boxes. Those logs establish exhaustion of the search-time allocation,
+not the q2 node-cap exception. Their actual result ZIPs were not inspected here.
+The existing driver can resume compatible saved candidates for another time
+allocation. All scoped/native/global acceptance flags remain false.
+
+Notebook25 is an explicitly new q2 resource epoch with a100000-node ceiling and
+preserved candidate topology. The unchanged numerical functions still require
+full fresh native replay of all26 roots and24controls. Local verification passed
+55 count/recovery infrastructure fixtures and65 n25 evidence/interface regression
+fixtures. A source-only preparation using the actual failed q2 ZIP preserved its
+exact checkpoint bytes and complete roots. None of these local checks evaluated
+an original mathematical kernel or completed the proof.
