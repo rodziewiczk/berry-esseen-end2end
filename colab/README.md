@@ -248,8 +248,10 @@ INITIAL/resource/support/Fourier acquisitions and final all-law joins remain
 separate. See [the complete execution scope](../proof/finite69_count_execution.md)
 and [the internal peer review](../proof/finite69_counts_independent_review.md).
 
-Notebooks44/45 select immutable runtime
-`a6f49554d4024df7cf4cc86e65cd63013a190873`:
+Notebook45 retains immutable runtime
+`a6f49554d4024df7cf4cc86e65cd63013a190873`. Replacement44 selects
+`317355346ffc6286915f71506995bdd74dc5ce4c`, fixing underscore job routing
+and revalidating/reusing the exact previously completed-stage exports:
 
 | Notebook | Full original actions | Scope |
 |---|---:|---|
@@ -275,3 +277,30 @@ revalidated before reuse. Choose Run all with the same Drive; no parameter
 edits are needed. The count/resource interfaces and final regional theorem
 remain separate. See [the execution scope](../proof/high_beta3_acquisition_execution.md)
 and [the internal source/transport review](../proof/high_beta3_acquisition_independent_review.md).
+
+The optional `12_tail49_HIGHMEM_16GB_18H.ipynb` selects runtime
+`aaf3e73c8398e9a3b473c8b6e031780c05449cf9`: a fresh full14/41restart with
+16GiB and18-hour CPU/wall ceilings. Choose a GPU runtime with sufficient RAM,
+then Run all; arithmetic still uses the CPU. There is no numerical resume.
+Existing2GiB notebooks and all incomplete exports remain preserved. See
+[the exact memory and acceptance scope](../proof/tail49_execution.md).
+
+Notebooks50/51/52/54/55select runtime
+`4d2020e36a2ffc521815d03f58284058d6dce3ef`:
+
+| Notebook | Literal indices | Complete selected forests |
+|---|---|---:|
+|50_n10_14_conditional_counts.ipynb|10--14|217|
+|51_n15_19_conditional_counts.ipynb|15--19|147|
+|52_n20_24_conditional_counts.ipynb|20--24|163|
+|54_n31_34_conditional_counts.ipynb|31--34|282|
+|55_n35_39_conditional_counts.ipynb|35--39|120|
+
+Each original acceptor replays its complete selected candidate and all controls;
+only fully revalidated completed-stage ZIPs are reused. These are conditional
+COUNT calculations, with INITIAL/resource/support/Fourier and theorem joins
+remaining separate.53is withheld while the mandatory n27/p41tree is missing:
+79available forests cannot complete the required80-forest lane. See
+[source readiness](../proof/finite1039_count_sources.md),
+[execution scope](../proof/finite1039_count_execution.md) and
+[internal runtime review](../proof/finite1039_count_runtime_review.md).
