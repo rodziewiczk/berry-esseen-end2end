@@ -24,7 +24,8 @@
     "acceptance": "Record source pins, exact protocol, original domains and target, complete native controls, observed exit, artifacts and epoch identity. Incomplete execution cannot close a node.",
     "literature": "Read original primary sources and identify precise theorems/normalizations; no literature input is marked verified here.",
     "formalization_claimed": false,
-    "portable_execution": "A Colab launch requires a reviewed compatible runtime or an explicitly audited mathematics-preserving port, including process-tree resource supervision. Removing Windows guards or accepting a changed source hash is not a portability proof."
+    "portable_execution": "A Colab launch requires a reviewed compatible runtime or an explicitly audited mathematics-preserving port, including process-tree resource supervision. Removing Windows guards or accepting a changed source hash is not a portability proof.",
+    "scoped_review_is_not_formal_acceptance": true
   },
   "source_context": {
     "manuscript": "hexagon-2610.00147v4-source.zip / berry_esseen_manuscript.tex; current workspace draft manuscript/drafts/appendix_elementary_045.tex",
@@ -111,6 +112,66 @@
       ]
     },
     {
+      "id": "literature.shevtsova_structural",
+      "kind": "literature",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "For iid centered unit-variance summands, sqrt(n) Delta_n/rho <= (1661/5000)(1+(429/1000)/rho).",
+      "source": "https://arxiv.org/pdf/1912.06482v3#page=54",
+      "theorem": "Shevtsova author monograph, Theorem 2.7, equation (2.13), printed page 55",
+      "statement_and_normalization_checked": true,
+      "proof_independently_reverified": false,
+      "evidence": "literature_inputs.md"
+    },
+    {
+      "id": "analytic.elementary_moment_domain",
+      "kind": "analytic_review",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "The elementary third-moment domain rho^2(gamma^2+4) >= (gamma^2+2)^2 applies to standardized real laws.",
+      "manuscript_lines": "168-192",
+      "review_status": "scoped_read_completed_no_blocking_gap_found",
+      "evidence": "small_indices_analytic_review.md"
+    },
+    {
+      "id": "n2.analytic_reduction",
+      "kind": "analytic_review",
+      "status": "open",
+      "depends_on": [
+        "literature.shevtsova_structural",
+        "analytic.elementary_moment_domain"
+      ],
+      "conclusion": "The complete finite n2 certificate implies its stated bound for unrestricted standardized real laws.",
+      "requirements": [
+        "Review attainment and reflection using the correct CDF left limits at atoms.",
+        "Review the fixed-raw-threshold contamination derivative and contact on the full closed support.",
+        "Acquire bounded support before using any higher moments.",
+        "Join complete finite certificate domains, all thresholds and tails to the contradiction."
+      ],
+      "review_status": "scoped_read_completed_no_blocking_gap_found",
+      "evidence": "small_indices_analytic_review.md",
+      "formalization_claimed": false
+    },
+    {
+      "id": "n3.analytic_reduction",
+      "kind": "analytic_review",
+      "status": "open",
+      "depends_on": [
+        "literature.shevtsova_structural",
+        "analytic.elementary_moment_domain"
+      ],
+      "conclusion": "The complete finite n3 certificate implies its stated bound for unrestricted standardized real laws.",
+      "requirements": [
+        "Review attainment and reflection using the correct CDF left limits at atoms.",
+        "Review the fixed-raw-threshold contamination derivative and contact on the full closed support.",
+        "Acquire bounded support before using any higher moments.",
+        "Join complete finite certificate domains, all thresholds and tails to the contradiction."
+      ],
+      "review_status": "scoped_read_completed_no_blocking_gap_found",
+      "evidence": "small_indices_analytic_review.md",
+      "formalization_claimed": false
+    },
+    {
       "id": "n2.native",
       "kind": "native_arithmetic",
       "status": "open",
@@ -123,7 +184,15 @@
       "requirements": [
         "Run the native tensor checker and independent integer checker on all 70 cells.",
         "Preserve exact domains, initial polynomial identities and strict target."
-      ]
+      ],
+      "observed_run": {
+        "all_required_arithmetic_stages_completed": true,
+        "result_zip_sha256": "77b7750b3e6cb124a0622f906034dca8dec500aed07c8a70596c747285736e2b",
+        "execution_mode": "BASIC",
+        "native_arithmetic_accepted": false,
+        "evidence": "observed_runs.md",
+        "checker_implementation_review_complete": false
+      }
     },
     {
       "id": "n2.all_law",
@@ -131,7 +200,7 @@
       "status": "open",
       "depends_on": [
         "n2.native",
-        "analytic.common"
+        "n2.analytic_reduction"
       ],
       "conclusion": "The unrestricted two-summand bound required by the manuscript holds."
     },
@@ -147,7 +216,15 @@
       "requirements": [
         "Check all 111 cells and the complete independence-null polynomial identities.",
         "Record the selected backend; a C++ replay is not a replay of the independent Python translation."
-      ]
+      ],
+      "observed_run": {
+        "all_required_arithmetic_stages_completed": true,
+        "result_zip_sha256": "77b7750b3e6cb124a0622f906034dca8dec500aed07c8a70596c747285736e2b",
+        "execution_mode": "BASIC",
+        "native_arithmetic_accepted": false,
+        "evidence": "observed_runs.md",
+        "checker_implementation_review_complete": false
+      }
     },
     {
       "id": "n3.all_law",
@@ -155,7 +232,7 @@
       "status": "open",
       "depends_on": [
         "n3.native",
-        "analytic.common"
+        "n3.analytic_reduction"
       ],
       "conclusion": "C_3 <= 59 sqrt(3) / 250 for unrestricted standardized real laws."
     },
@@ -1185,19 +1262,7 @@
       "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
     },
     {
-      "from": "analytic.common",
-      "to": "n2.all_law",
-      "status": "open",
-      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
-    },
-    {
       "from": "n3.native",
-      "to": "n3.all_law",
-      "status": "open",
-      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
-    },
-    {
-      "from": "analytic.common",
       "to": "n3.all_law",
       "status": "open",
       "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
@@ -1909,6 +1974,42 @@
       "to": "proof.global",
       "status": "open",
       "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
+    },
+    {
+      "from": "literature.shevtsova_structural",
+      "to": "n2.analytic_reduction",
+      "status": "open",
+      "requirement": "Verify the stated implication in the standalone small-index reduction; preserve the exact finite-certificate and unrestricted-law scopes."
+    },
+    {
+      "from": "analytic.elementary_moment_domain",
+      "to": "n2.analytic_reduction",
+      "status": "open",
+      "requirement": "Verify the stated implication in the standalone small-index reduction; preserve the exact finite-certificate and unrestricted-law scopes."
+    },
+    {
+      "from": "literature.shevtsova_structural",
+      "to": "n3.analytic_reduction",
+      "status": "open",
+      "requirement": "Verify the stated implication in the standalone small-index reduction; preserve the exact finite-certificate and unrestricted-law scopes."
+    },
+    {
+      "from": "analytic.elementary_moment_domain",
+      "to": "n3.analytic_reduction",
+      "status": "open",
+      "requirement": "Verify the stated implication in the standalone small-index reduction; preserve the exact finite-certificate and unrestricted-law scopes."
+    },
+    {
+      "from": "n2.analytic_reduction",
+      "to": "n2.all_law",
+      "status": "open",
+      "requirement": "Verify the stated implication in the standalone small-index reduction; preserve the exact finite-certificate and unrestricted-law scopes."
+    },
+    {
+      "from": "n3.analytic_reduction",
+      "to": "n3.all_law",
+      "status": "open",
+      "requirement": "Verify the stated implication in the standalone small-index reduction; preserve the exact finite-certificate and unrestricted-law scopes."
     }
   ]
 }

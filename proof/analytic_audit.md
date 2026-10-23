@@ -4,6 +4,8 @@ Audit date: 2026-10-23, Europe/Warsaw.
 
 This is a record of a limited read-only mathematical and source audit. It is not a native acceptance, a full referee review, a literature verification, or a proof of the sharp constant. No heavy mathematical job was run for this audit. Every obligation in `obligations.json` remains open in the clean reproduction epoch.
 
+Subsequent scoped findings are recorded separately in [the standalone n2/n3 reduction review](small_indices_analytic_review.md) and [the primary literature statement checks](literature_inputs.md). The initial audit below did not perform those later checks. The graph now separates the n2/n3 reductions from the broader Prawitz/resource framework, which they do not require.
+
 ## Target and normalization
 
 For a standardized real law P with E X = 0, E X² = 1 and rho = E|X|³ < infinity, the target uses
