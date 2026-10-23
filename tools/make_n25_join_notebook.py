@@ -16,7 +16,9 @@ phase2.JOBS = {NAME: dict(
     title='n25: fresh parent evidence and the seven selected count interfaces',
     scope='''This is a queued evidence join. Run it after notebooks 01–07 and 09/10
 have completed and saved their successful results ZIPs on the same Google Drive.
-Use the current RESTART01–07 set, which resumes the earlier saved candidates.
+Use the matching PREFIX2 resume01–07 set, which preserves earlier saved candidates.
+This collector validates the explicit lossless discovery migration and also keeps
+the exact published earlier midpoint implementation eligible for evidence readback.
 This collector also verifies completed ordinary-profile exports and the earlier
 q2-only notebook25 export. It explicitly records each selected resource epoch
 and its unchanged mathematical contract. No extra logical count job is required.

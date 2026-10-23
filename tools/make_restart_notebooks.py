@@ -1,4 +1,4 @@
-"""Build one coherent replacement set01–07 with automatic candidate restore."""
+"""Build the seven PREFIX2 resume notebooks against one immutable code commit."""
 from __future__ import annotations
 import argparse
 import importlib.util
@@ -19,43 +19,63 @@ TARGETS = {
     '06_RESTART_n25_b3_p31_v14': 'b3-p31-v14-new',
     '07_RESTART_n25_b3_p32_v14': 'b3-p32-v14-new',
 }
-SCOPE = '''This is the CURRENT replacement notebook for this numbered count job.
-Upload it to Colab, choose CPU and Run all, and authorize the SAME Google Drive
-used by the earlier01–07 runs. No path, command or parameter edits are required.
-Keep every earlier results ZIP and the live backups. Do not run the old and new
-version of the same numbered job simultaneously. Different numbered jobs may run
-in parallel in separate sessions. Each session uses one discovery worker.
+SCOPE = '''This version resumes the saved candidate with the restored PREFIX2
+discovery policy, **RESTORED_PREFIX2_V1: alpha 16, depth first**.
 
-The notebook automatically locates the target's original hash-pinned sources and
-most advanced compatible saved checkpoint. It preserves every existing tree,
-saved leaf payload and pending region as UNTRUSTED candidate data. It does not
-restart empty roots. An absent or incompatible cache produces an incomplete
-diagnostic export; it cannot silently discard the saved work. The progress line
-untrusted_checkpoint_migrated displays the restored leaf/node/pending counts.
+**Switch from an earlier session:** wait for its next `backup_saved` message,
+then stop that old numbered job before running this version. Keep its logs,
+results ZIPs and live Drive backups. Open the corresponding new number, choose
+CPU, select Run all, and authorize the SAME Google Drive. No ordinary path or
+parameter edits are required. Different numbered jobs may use separate sessions;
+each session runs one discovery worker.
 
-The explicit resource epoch allows100000 nodes instead of10000,2GiB memory and
-up to12 hours of search allocation in30-minute checkpointed slices. Fresh native
-verification has its own12-hour CPU ceiling. These are limits, not an ETA or a
-guarantee of convergence. New interruptions can be resumed with Run all.
+The existing backup directory remains
+`/content/drive/MyDrive/Berry-Esseen-end2end/<target>/`.
+Before search, the controller reports the selected saved checkpoint, its hash,
+and the restored node/leaf/pending counts. It compares validated tree ancestry;
+it does not choose a branch merely because its timestamp or leaf count is larger.
+Equivalent backup copies are harmless. Incomparable maximal candidates cause an
+explicit incomplete diagnostic instead of a guessed choice. A missing or
+incompatible cache also stops: this notebook never silently starts empty roots.
 
-The new sealed checker changes only the literal LIMIT assignment. All mathematical
-kernels, contracts, exact targets, root domains, depth128, leaf comparisons and
-24 corruption controls are unchanged. The original checker/design and candidate
-bytes remain available. A complete candidate triggers fresh independent replay
-of every leaf of all26 roots and all24controls under a strict Linux native guard.
-Old saved numerical results are never substituted for that independent replay.
+Every selected tree, saved leaf payload and pending region is retained as
+UNTRUSTED candidate data. Strategy/header migration is recorded separately from
+the original checkpoint bytes. No old leaf decision becomes an accepted proof.
+Rerun this same notebook after an interruption to select the compatible saved
+descendant. Already accepted results require full evidence revalidation before
+reuse; their labels alone cannot skip verification.
+
+The source epoch retains the 100000-node ceiling, depth 128, 2 GiB memory and
+up to 12 hours of search allocation in 30-minute checkpointed slices. Fresh
+native verification has a separate 12-hour CPU ceiling and a 12-hour-plus-five-
+minute wall ceiling. These are limits, not an ETA or a convergence guarantee.
+The existing 128 MiB checkpoint/input/backup-file cap and 256 MiB discovery disk
+quota also remain. A quota stop is incomplete; files above the backup cap may be
+omitted, and a later run selects the compatible checkpoint actually preserved.
+
+The PREFIX2 change concerns discovery strategy. The native checker retains the
+sealed resource-only LIMIT change from 10000 to 100000. Mathematical kernels,
+contracts, exact targets, all 26 closed root domains, strict leaf comparisons and
+all 24 corruption controls are unchanged. A complete candidate triggers a fresh
+full native replay under the strict Linux guard, unless an already completed
+native export has been revalidated. Saved search values cannot replace replay.
 
 Conditional parent/resource and same-law analytic premises remain open. For the
-portable V14 jobs06/07, the auxiliary C24 and attained positive-closed contact
-premises remain explicit as well. This job cannot establish the global theorem.
+portable V14 jobs 06/07, the auxiliary C24 and attained positive-closed contact
+premises remain explicit too. This job cannot establish the global theorem.
 
-Progress, one-minute Drive backups and a final evidence ZIP are automatic. Use
-the UPDATED notebook24 from this same package after all seven count jobs and
-both parent jobs09/10 have completed. Notebook25 is superseded by this set's04.
+Progress, one-minute Drive backups and a final evidence ZIP are automatic.
+Preserve the final ZIP and its SHA-256 sidecar. Use the matching updated notebook
+24 after all seven count jobs and both parent jobs 09/10 have completed. Notebook
+25 is superseded by this set's 04.
 '''
 phase2.JOBS = {name: dict(task='count-restart-'+target, tests='test_count_*.py',
-    title='RESTART '+name[:2]+': '+target+' — restore saved candidate', scope=SCOPE,
-    execute='from be_replay.count_recovery import run_colab\nRESULT = run_colab('+repr(target)+', durable_root=DURABLE)\n')
+    title='PREFIX2 resume '+name[:2]+': '+target, scope=SCOPE,
+    execute='from be_replay.count_recovery import DISCOVERY_STRATEGY, run_colab\n'
+            'if DISCOVERY_STRATEGY != "RESTORED_PREFIX2_V1":\n'
+            '    raise RuntimeError("The pinned driver does not provide the required PREFIX2 resume policy.")\n'
+            'print("Restoring the saved candidate before search: RESTORED_PREFIX2_V1, alpha 16, depth first.", flush=True)\n'
+            'RESULT = run_colab('+repr(target)+', durable_root=DURABLE)\n')
     for name, target in TARGETS.items()}
 
 

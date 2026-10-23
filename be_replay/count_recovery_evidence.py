@@ -12,6 +12,7 @@ from pathlib import Path
 import re
 
 from . import count_task as count, count_limit_epoch as limit
+from . import count_implementation_history as history
 from .n25_count_evidence import (same, path_class, original_context, relative,
     control_labels, full_statistics, guard_files, OBSERVED_FIELDS, ACCEPTED_FIELDS, PREMISES)
 
@@ -19,7 +20,8 @@ MIB = count.MIB
 TARGET = "b4-q2"
 SCOPE = "NEW_RESOURCE_LIMIT_EPOCH_CONDITIONAL_COUNT_ONLY"
 # The one previously published q2 pair (commit3c10084). No open-ended source
-# history is accepted; other targets require the current reviewed pair.
+# history is accepted. The complete pre-PREFIX2 tuple is also retained for all
+# seven targets, so discovery upgrades do not invalidate completed exports.
 LEGACY_Q2_IMPLEMENTATION = {
     "count_recovery_sha256": "d43057eb2f5fbf41466b74ac030491a93b72d1481cd22a3114332623b7ca64c0",
     "count_limit_epoch_sha256": "9dc980c2e23580feb9402f9f15c533cc76582808656cc7c23b1b3fc37b5082dc",
@@ -56,12 +58,11 @@ def implementation(record, target=TARGET):
                     count_limit_epoch_sha256=count.digest(limit.__file__))
     need(type(record) is dict and set(record) == set(expected)
          and type(record["python"]) is str and record["python"], "Complete recovery implementation context")
-    pair_keys = set(LEGACY_Q2_IMPLEMENTATION)
-    need(all(same(record[k], expected[k]) for k in expected if k not in pair_keys | {"python"}),
-         "Unchanged original count/vendor/supervisor source pins")
-    need(all(record[k] == expected[k] for k in pair_keys)
-         or (target == TARGET and all(record[k] == LEGACY_Q2_IMPLEMENTATION[k] for k in pair_keys)),
-         "Current reviewed implementation pair or the one explicitly published q2 pair")
+    current = all(same(record[k], expected[k]) for k in expected if k != "python")
+    midpoint = history.matches(record, history.recovery())
+    legacy_q2 = target == TARGET and history.matches(record, history.recovery(legacy_q2=True))
+    need(current or midpoint or legacy_q2,
+         "One complete current, published midpoint, or explicitly published q2 implementation")
 
 
 def memory_policy(record, target):
@@ -162,14 +163,43 @@ def source_and_migration(task, record, files):
     else:
         recovery.check_extended_checkpoint(before, task / "capsule", target=target)
         expected = before
-    need(same(expected, after), "Only the reviewed two source pins migrate in the untrusted checkpoint")
-    statistics = recovery.check_extended_checkpoint(after, task / "capsule", target=target)
+    restored = record.get("migration", {}).get("migration_type") == recovery.MIGRATION_TYPE
+    if restored:
+        need(record["implementation"]["count_recovery_sha256"] == count.digest(recovery_path())
+             and record["implementation"]["count_limit_epoch_sha256"] == count.digest(limit.__file__),
+             "The explicit PREFIX2 migration belongs to its current reviewed implementation")
+        expected = recovery.migrate_discovery_checkpoint(expected, task / "capsule", target)
+    need(same(expected, after), "Only reviewed resource and explicitly recorded discovery bindings migrate")
+    statistics = recovery.check_extended_checkpoint(after, task / "capsule", target=target,
+        **({"require_restored": True} if restored else {}))
     migration = dict(source_checkpoint_sha256=count.digest(task / "SOURCE_CHECKPOINT.json"),
         source_checkpoint_bytes=(task / "SOURCE_CHECKPOINT.json").stat().st_size,
         source_design_sha256=before["binding"]["design_sha256"], execution_design_sha256=profile["new_design_sha256"],
         roots_sha256=hashlib.sha256(json.dumps(before["roots"], sort_keys=True,
             separators=(",", ":")).encode()).hexdigest(), roots_preserved=same(before["roots"], after["roots"]),
         arithmetic_accepted=False, statistics=statistics)
+    if restored:
+        declared = record["migration"]
+        source = original if before["binding"]["design_sha256"] == profile["original_design_sha256"] else task / "capsule"
+        before_statistics = limit.checkpoint_geometry(before, source, target,
+            node_limit=10000 if source == original else 100000)
+        source_path = declared.get("source_checkpoint_path")
+        need(type(source_path) is str and source_path and path_class(source_path)(source_path).is_absolute(),
+             "Recorded absolute source checkpoint location")
+        rejected = declared.get("rejected_checkpoints")
+        need(type(rejected) is list and len(rejected) <= 100000
+             and all(type(row) is dict and set(row) == {"path", "error"}
+                     and type(row["path"]) is str and type(row["error"]) is str for row in rejected),
+             "Bounded cache diagnostics remain explicitly recorded provenance")
+        migration.update(migration_type=recovery.MIGRATION_TYPE, source_checkpoint_path=source_path,
+            source_strategy=recovery._strategy(before["binding"]), target_strategy=recovery.discovery_binding(),
+            source_binding_sha256=hashlib.sha256(limit.canonical(before["binding"])).hexdigest(),
+            execution_binding_sha256=hashlib.sha256(limit.canonical(after["binding"])).hexdigest(),
+            input_checkpoint_sha256=count.digest(task / "INPUT_CHECKPOINT.json"),
+            before_statistics=before_statistics, after_statistics=statistics,
+            resource_epoch_migrated=before["binding"]["design_sha256"] != after["binding"]["design_sha256"],
+            rejected_checkpoints=rejected)
+        need(before_statistics == statistics, "Lossless PREFIX2 migration preserves the complete saved census")
     need(migration["roots_preserved"] is True and same(record["migration"], migration),
          "Preserved original candidate bytes and complete explicitly untrusted migration ledger")
 

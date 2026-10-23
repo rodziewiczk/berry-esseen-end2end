@@ -75,10 +75,12 @@ class CountTaskTests(unittest.TestCase):
     def test_exact_frozen_vendor_sources_are_present(self):
         result = count.verify_vendor()
         self.assertEqual(result["commit"], "75a94708872e2bc053f42a279559b23ed91e4402")
-        self.assertEqual(len(result["files_sha256"]), 3)
+        self.assertEqual(result["files_sha256"], count.VENDOR_PINS)
+        self.assertGreaterEqual(len(result["files_sha256"]), 3)
         fake = self.root / "vendor"
         fake.mkdir()
         for name in count.VENDOR_PINS:
+            (fake / name).parent.mkdir(parents=True, exist_ok=True)
             (fake / name).write_text("corrupt", encoding="utf-8")
         with self.assertRaises(ValueError):
             count.verify_vendor(fake)

@@ -1,5 +1,6 @@
 * text=auto eol=lf
 vendor/** -text
+vendor/count_75a9470/prefix2_original/MANIFEST.json whitespace=cr-at-eol
 *.ipynb text eol=lf
 proof/n25_retained_*_catalog.json -text whitespace=cr-at-eol
 proof/n25_b012_*.json -text whitespace=cr-at-eol

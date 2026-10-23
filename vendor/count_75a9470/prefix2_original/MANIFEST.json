@@ -1,0 +1,49 @@
+{
+  "archive_name": "cutoff25_20261011.zip",
+  "archive_sha256": "17fa140f63c5134ac48f1fd1040f4c5ae4bebdb2b92b2d7ce69f4048293d1fcb",
+  "arithmetic_accepted": false,
+  "files": {
+    "common_bound_memo_discovery_v12.py": {
+      "archive_member": "cutoff25_20261011/new_root/common_bound_memo_discovery_v12.py",
+      "bytes": 4454,
+      "sha256": "2e69b968d5fa781db6c7728c1863a82b874dbc867b5e4852dcaa9187a09f128c"
+    },
+    "discovery_hoist_alpha_stoploss2.py": {
+      "archive_member": "cutoff25_20261011/new_root/alpha_stoploss2_discovery_v12/discovery_hoist_alpha_stoploss2.py",
+      "bytes": 2115,
+      "sha256": "cf198f062b8ac0fc98431a6e9954ef18c38f49a1a8e752af3e1504f74a71ad69"
+    },
+    "feasible_a0.py": {
+      "archive_member": "cutoff25_20261011/new_root/resumable_prefix_lookahead_v2/feasible_a0.py",
+      "bytes": 887,
+      "sha256": "bea087de1f6d18e4ddc034270b351ee81d43e76ab36a5827dc599dec16aeefbb"
+    },
+    "geometry_memo_discovery_v12.py": {
+      "archive_member": "cutoff25_20261011/new_root/geometry_memo_discovery_v12.py",
+      "bytes": 1000,
+      "sha256": "380e791e558713f33f668a0d7f999923f5d7b28959ac5b581bee99d3216d4170"
+    },
+    "integer_exponential_discovery_v1.py": {
+      "archive_member": "cutoff25_20261011/new_root/alpha_stoploss2_discovery_v12/integer_exponential_discovery_v1.py",
+      "bytes": 1561,
+      "sha256": "174b96fd8814402faa6ae881dfdbb3ebbc23118c7027c3f7b1148abb74f72515"
+    },
+    "parent_prefix_bypass.py": {
+      "archive_member": "cutoff25_20261011/new_root/resumable_prefix_lookahead_v2/parent_prefix_bypass.py",
+      "bytes": 2916,
+      "sha256": "b8f71b052b6580a4863d8782f7ce1ec8186f73e0dbe36b6b5e817ebec8837e52"
+    },
+    "physical_prefix_lookahead.py": {
+      "archive_member": "cutoff25_20261011/new_root/resumable_prefix_lookahead_v2/physical_prefix_lookahead.py",
+      "bytes": 3510,
+      "sha256": "50a4f6161eb589ecc6238804afbbd184e4bb458b9fe159f01a2ea94db07a7fa6"
+    },
+    "split_policy.py": {
+      "archive_member": "cutoff25_20261011/new_root/resumable_prefix_lookahead_v2/split_policy.py",
+      "bytes": 2924,
+      "sha256": "013086ffff8d265b54a79f14a23d0aedede7e0361ed450ac0eddfcd406081fbd"
+    }
+  },
+  "schema": "RESTORED_PREFIX2_ORIGINAL_HELPERS_V1",
+  "scope": "Byte-identical original discovery helpers. The new adapter changes transport and source admission only. No mathematical replay was executed during copying. Discovery candidates require separate full ordinary native acceptance."
+}

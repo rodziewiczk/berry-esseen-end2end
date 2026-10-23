@@ -11,11 +11,12 @@ from unittest.mock import patch
 
 from be_replay import (count_recovery as runner, count_recovery_evidence as evidence,
     count_limit_epoch as limit, count_task as count, linux_supervisor as supervisor,
-    n25_collect as collector)
+    n25_collect as collector, count_implementation_history as history)
 
 
 class RecoveryEvidenceTests(unittest.TestCase):
     TARGET = "b4-q2"
+    RESTORED = False
     def setUp(self):
         self.target = self.TARGET
         self.kind, self.index, _ = count.TARGETS[self.target]
@@ -39,6 +40,9 @@ class RecoveryEvidenceTests(unittest.TestCase):
         protocol += "def accept():\n mutations=[" + ",".join("("+repr(s)+",lambda x: None)" for s in self.labels) + "]\n"
         payload = {"count_protocol.py": protocol.encode(), "kernel.py": b"raise AssertionError('No kernel import')\n",
                    "contract.json": b'{"synthetic_only":true}\n'}
+        if self.RESTORED:
+            payload["contract.json"] = limit.encoded(dict(rows=[dict(n=25, index=self.index,
+                p=["1/4", "13/50"], Lambda="1", d0="1")]))
         if self.kind == "new-conditional-v14":
             payload["B3_V14_SOURCE_EPOCH.json"] = limit.encoded(dict(
                 schema="NEW_CONDITIONAL_B3_V14_SOURCE_EPOCH_20261022_V1", n=25, index=self.index,
@@ -77,9 +81,13 @@ class RecoveryEvidenceTests(unittest.TestCase):
             binding=dict(design_sha256=limit.profile(self.target)["original_design_sha256"], alpha_priority="4", traversal="root-first",
                          native_header=dict(count.native_header(source, self.target), target="synthetic strict target")),
             roots=[dict(k=k, tree=dict(kind="pending")) for k in range(26)])
+        if self.RESTORED:
+            checkpoint["binding"].update(search_sha256=runner.LEGACY_SEARCH_SHA256)
+            checkpoint["binding"]["native_header"]["target"] = runner.NATIVE_TARGET
         count.write(source.parent / "CHECKPOINT.json", checkpoint)
         self.task = self.root / "task"
-        runner.prepare(self.task, [source.parent], target=self.target)
+        runner.prepare(self.task, [source.parent], target=self.target,
+                       strategy=runner.DISCOVERY_STRATEGY if self.RESTORED else "LEGACY_MIDPOINT_V1")
         self.epoch = self.task / "accept-0123456789ab"
         self.capsule = self.epoch / "capsule"
         shutil.copytree(self.task / "capsule", self.capsule)
@@ -219,7 +227,8 @@ class RecoveryEvidenceTests(unittest.TestCase):
         self.assertEqual(result["native_wall_seconds"], 43500)
         record = count.read(self.task / "TASK.json")
         if self.target == evidence.TARGET:
-            record["implementation"].update(evidence.LEGACY_Q2_IMPLEMENTATION)
+            record["implementation"] = dict(history.recovery(legacy_q2=True),
+                                             python=record["implementation"]["python"])
             record["native_memory_bytes"] = 512*count.MIB
             record.pop("native_cpu_seconds", None); record.pop("native_wall_seconds", None)
             with self.assertRaises(ValueError):
@@ -251,7 +260,8 @@ class RecoveryEvidenceTests(unittest.TestCase):
         self.cpu, self.wall = 7200, 7260
         self.save_native(count.read(self.capsule / self.forest_name))
         def legacy(record):
-            record["implementation"].update(evidence.LEGACY_Q2_IMPLEMENTATION)
+            record["implementation"] = dict(history.recovery(legacy_q2=True),
+                                             python=record["implementation"]["python"])
         self.alter(self.task / "TASK.json", lambda x: (legacy(x), x.pop("native_memory_bytes"), x.pop("native_cpu_seconds", None), x.pop("native_wall_seconds", None),
             x["source_epoch"].update(source_adapter_sha256=evidence.LEGACY_Q2_IMPLEMENTATION["count_limit_epoch_sha256"])))
         for name in ("NATIVE_OBSERVED.json", "NATIVE_ACCEPTED.json"):

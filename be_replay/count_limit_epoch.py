@@ -275,6 +275,73 @@ def migrate_checkpoint(packet, original_capsule, extended_capsule, target=TARGET
     return result
 
 
+def checkpoint_geometry(packet, capsule, target=TARGET, *, node_limit=NODE_LIMIT):
+    """Reconstruct saved closed boxes without importing a numerical evaluator.
+
+    This validates only topology/geometry. Saved leaf decisions and result
+    dictionaries remain untrusted and must be replayed by the native acceptor.
+    """
+    from fractions import Fraction as F
+    need(type(node_limit) is int and 26 <= node_limit <= NODE_LIMIT,
+         "Explicit bounded checkpoint node policy")
+    contract = original.read(Path(capsule) / "contract.json")
+    rows = contract.get("rows")
+    need(type(rows) is list and len(rows) == 1 and type(rows[0]) is dict,
+         "One sealed native target row")
+    cfg = rows[0]
+    need(type(cfg.get("n")) is int and cfg["n"] == 25
+         and type(cfg.get("index")) is int and cfg["index"] == profile(target)["index"],
+         "Checkpoint literal native target row")
+    def rational(value):
+        need(type(value) is str and len(value) <= 10000, "Bounded exact rational text")
+        number = F(value)
+        need(str(number) == value, "Canonical checkpoint rational")
+        return number
+    p = cfg.get("p")
+    need(type(p) is list and len(p) == 2, "Complete native probability interval")
+    pl, pu = map(rational, p)
+    lam, d0 = rational(cfg["Lambda"]), rational(cfg["d0"])
+    need(0 < pl < pu < 1 and lam > 0 and d0 > 0, "Positive sealed root domain")
+    rootbox = [[pl, pu], [F(0), lam], [F(0), F(1)],
+               [-F(1, 2), F(1, 2)], [F(0), d0]]
+    roots = packet.get("roots")
+    need(type(roots) is list and len(roots) == 26, "Exactly26 complete checkpoint roots")
+    nodes = leaves = pending = depthmax = 0
+    for k, root in enumerate(roots):
+        need(type(root) is dict and set(root) == {"k", "tree"}
+             and type(root["k"]) is int and root["k"] == k, "Ordered literal count roots")
+        stack = [(root["tree"], rootbox, 0)]
+        while stack:
+            node, box, depth = stack.pop()
+            nodes += 1
+            depthmax = max(depthmax, depth)
+            need(nodes <= node_limit and depth <= 128 and type(node) is dict,
+                 "Bounded checkpoint topology")
+            kind = node.get("kind")
+            if kind == "pending":
+                need(set(node) == {"kind"}, "Pending carries no success payload")
+                pending += 1
+            elif kind == "leaf":
+                need(set(node) == {"kind", "box", "decision", "result"}
+                     and type(node["decision"]) is str and type(node["result"]) is dict,
+                     "Exact untrusted native leaf fields")
+                need(canonical(node["box"]) == canonical([[str(x) for x in row] for row in box]),
+                     "Every saved leaf has its reconstructed closed native box")
+                leaves += 1
+            else:
+                need(kind == "split" and set(node) == {"kind", "axis", "cut", "left", "right"}
+                     and type(node["axis"]) is int and 0 <= node["axis"] < 5,
+                     "Complete literal native binary split")
+                axis, cut = node["axis"], rational(node["cut"])
+                need(box[axis][0] < cut < box[axis][1], "Strict interior saved native cut")
+                left, right = deepcopy(box), deepcopy(box)
+                left[axis][1], right[axis][0] = cut, cut
+                stack.extend(((node["right"], right, depth + 1),
+                              (node["left"], left, depth + 1)))
+    need(nodes == 2 * (leaves + pending) - 26, "Full binary checkpoint census")
+    return dict(nodes=nodes, leaves=leaves, pending=pending, maximum_depth=depthmax)
+
+
 def forest_census(forest, target, capsule):
     """Complete source/header/topology census under the explicit new finite cap."""
     verify(target, capsule)

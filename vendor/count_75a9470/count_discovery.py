@@ -127,11 +127,16 @@ def main():
     p.add_argument('--output', type=Path, required=True, help='New private checkpoint directory')
     p.add_argument('--resume', type=Path, help='Candidate checkpoint only, never an accepted proof')
     p.add_argument('--seconds', type=int, default=600)
-    p.add_argument('--alpha-priority', choices=('1','4'), default='4')
+    p.add_argument('--strategy', choices=('LEGACY_MIDPOINT_V1','RESTORED_PREFIX2_V1'),
+                   default='LEGACY_MIDPOINT_V1')
+    p.add_argument('--alpha-priority', choices=('1','4','16'), default='4')
     p.add_argument('--order', choices=('depth','breadth','root-first'), default='root-first')
     args = p.parse_args()
     need(__debug__ and not sys.flags.optimize, 'Ordinary non-optimized Python')
     need(1 <= args.seconds <= 7200, 'Bounded discovery slice')
+    restored = args.strategy == 'RESTORED_PREFIX2_V1'
+    need((args.alpha_priority == '16' and args.order == 'depth') if restored
+         else args.alpha_priority in ('1','4'), 'Explicit named discovery strategy parameters')
     capsule, output = args.capsule.resolve(), args.output.resolve()
     design = capsule/'FROZEN_DESIGN.json'
     need(design.is_file() and not design.is_symlink() and
@@ -154,6 +159,9 @@ def main():
     binding = dict(design_sha256=args.design_sha256, native_header=c.header(bound),
                    search_sha256=digest(Path(__file__)), alpha_priority=args.alpha_priority,
                    traversal=args.order)
+    if restored:
+        import prefix2_strategy as strategy
+        binding.update(strategy.strategy_binding())
     if args.resume:
         source = args.resume.resolve()
         need(source.is_file() and not source.is_symlink() and source.stat().st_size <= 128*1024**2,
@@ -175,14 +183,24 @@ def main():
         # arithmetic/contract/strategy bindings must agree; native acceptance
         # still recomputes all saved leaves in a separate process.
         previous = old.get('binding',{})
-        need(all(previous.get(key) == binding[key] for key in
-                 ('design_sha256','native_header','alpha_priority')),
-             'Same frozen native source/contract and search strategy')
+        if restored:
+            strategy.validate_resume_binding(previous, binding)
+        else:
+            need('discovery_strategy' not in previous and
+                 all(previous.get(key) == binding[key] for key in
+                     ('design_sha256','native_header','alpha_priority')),
+                 'Same frozen native source/contract and legacy search strategy')
         roots = old['roots']
     else:
         roots = [dict(k=k,tree={'kind':'pending'}) for k in range(cfg['n']+1)]
     pending,nodes,leaves = census(c, cfg, roots)
     need(not output.exists(), 'New search output epoch only')
+    runtime = None
+    if restored:
+        import prefix2_runtime
+        runtime = prefix2_runtime.install(c, cfg, bound, capsule, args.design_sha256)
+        print(json.dumps(dict(event='discovery_accelerators_installed',
+                              **runtime.installation)), flush=True)
     output.mkdir(parents=True, exist_ok=False)
     began, last_save, evaluations = time.monotonic(), 0.0, 0
     def checkpoint():
@@ -197,7 +215,8 @@ def main():
             if time.monotonic()-began >= args.seconds:
                 break
             item = pending.pop(choose_pending(pending,args.order))
-            action, decision = advance(c, cfg, item, nodes, F(args.alpha_priority))
+            action, decision = (runtime.advance(c, cfg, item, nodes) if runtime is not None
+                                else advance(c, cfg, item, nodes, F(args.alpha_priority)))
             if action == 'split':
                 k,path,node,box = item
                 left,right = c.children(box,node['axis'],F(node['cut']))
@@ -207,11 +226,15 @@ def main():
             else:
                 leaves += 1
             evaluations += 1
+            diagnostics = (runtime.diagnostics() if runtime is not None
+                           else dict(discovery_strategy=args.strategy,
+                                     policy='legacy_midpoint' if action == 'split'
+                                     else 'full_native_evaluation'))
             print(json.dumps(dict(event='candidate_search_step',k=item[0],path=item[1],
                                   action=action,decision=decision,evaluations=evaluations,
                                   nodes=nodes,leaves=leaves,pending=len(pending),
                                   elapsed_seconds=round(time.monotonic()-began,3),
-                                  arithmetic_accepted=False)),flush=True)
+                                  arithmetic_accepted=False,**diagnostics)),flush=True)
             if evaluations % 10 == 0 or time.monotonic()-last_save >= 15:
                 checkpoint()
                 last_save = time.monotonic()
@@ -220,6 +243,10 @@ def main():
     need(c.load()[1] == bound, 'Original runtime unchanged after discovery')
     for name, pin in specdata['files'].items():
         need(digest(capsule/name) == pin, 'Frozen source unchanged after discovery')
+    if restored:
+        need(strategy.strategy_binding() == {key: binding[key] for key in
+             ('discovery_strategy','discovery_sources_sha256','search_sha256',
+              'alpha_priority','traversal')}, 'Unchanged restored discovery source epoch')
     pending, nodes, leaves = census(c, cfg, roots)
     if complete:
         candidate = dict(**c.header(bound),roots=roots)
@@ -228,7 +255,9 @@ def main():
             stream.write('\n')
     print(json.dumps(dict(status='CANDIDATE_COMPLETE_NOT_ACCEPTED' if complete else 'SEARCH_CHECKPOINTED_INCOMPLETE',
                           nodes=nodes,leaves=leaves,pending=len(pending),
-                          arithmetic_accepted=False,output=str(output))),flush=True)
+                          arithmetic_accepted=False,output=str(output),
+                          discovery_strategy=args.strategy,
+                          diagnostics=runtime.diagnostics() if runtime is not None else {})),flush=True)
 
 
 if __name__ == '__main__':

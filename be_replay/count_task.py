@@ -27,9 +27,20 @@ COMMIT = "75a94708872e2bc053f42a279559b23ed91e4402"
 REPOSITORY = "rodziewiczk/berry-esseen-045-certificate"
 MIB = 1024 ** 2
 VENDOR_PINS = {
-    "count_discovery.py": "3b239119082d0d5275446beb2d38878c9a7c7988c655da6e52fd34023e485eb4",
-    "prepare_missing_count.py": "b22f807a41982f017af14e88451d82fcda129ab13a2b09210ab543420f4aa410",
-    "prepare_b3_v14_epoch_2026_10_22.py": "4116a054c2f725794d82cc4bd7b954023c9b8525d8f943c6cea2a8096aceb647",
+    'count_discovery.py': '6bb3e8c68570653d8e2f91670f1e18fc8287ea2f6d314d59535c1533b4b6af32',
+    'prefix2_original/MANIFEST.json': '67d805875f1f3d4d0ae7e478882c1f9bc228fd81e1454435bb559b18a2784b48',
+    'prefix2_original/common_bound_memo_discovery_v12.py': '2e69b968d5fa781db6c7728c1863a82b874dbc867b5e4852dcaa9187a09f128c',
+    'prefix2_original/discovery_hoist_alpha_stoploss2.py': 'cf198f062b8ac0fc98431a6e9954ef18c38f49a1a8e752af3e1504f74a71ad69',
+    'prefix2_original/feasible_a0.py': 'bea087de1f6d18e4ddc034270b351ee81d43e76ab36a5827dc599dec16aeefbb',
+    'prefix2_original/geometry_memo_discovery_v12.py': '380e791e558713f33f668a0d7f999923f5d7b28959ac5b581bee99d3216d4170',
+    'prefix2_original/integer_exponential_discovery_v1.py': '174b96fd8814402faa6ae881dfdbb3ebbc23118c7027c3f7b1148abb74f72515',
+    'prefix2_original/parent_prefix_bypass.py': 'b8f71b052b6580a4863d8782f7ce1ec8186f73e0dbe36b6b5e817ebec8837e52',
+    'prefix2_original/physical_prefix_lookahead.py': '50a4f6161eb589ecc6238804afbbd184e4bb458b9fe159f01a2ea94db07a7fa6',
+    'prefix2_original/split_policy.py': '013086ffff8d265b54a79f14a23d0aedede7e0361ed450ac0eddfcd406081fbd',
+    'prefix2_runtime.py': '877e2c465fad271d6452b722ff7307e72704c504d0f5898fc906729d1198029c',
+    'prefix2_strategy.py': '2d7e6748b585bf65fc84ea63f392af6b268a061668dc41c001c7415333a60d93',
+    'prepare_b3_v14_epoch_2026_10_22.py': '4116a054c2f725794d82cc4bd7b954023c9b8525d8f943c6cea2a8096aceb647',
+    'prepare_missing_count.py': 'b22f807a41982f017af14e88451d82fcda129ab13a2b09210ab543420f4aa410',
 }
 PORTABLE_V14_PREPARER = Path(__file__).with_name("prepare_v14_portable.py")
 PORTABLE_V14_PREPARER_SHA256 = "b4896cae54058bb63f3c68a295131a83ceace34e71d180c0b228bd4a28ce44f6"

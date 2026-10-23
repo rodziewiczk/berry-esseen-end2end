@@ -62,11 +62,13 @@ def relative(path, original):
 
 
 def implementation(record):
+    from . import count_implementation_history as history
     expected = count.implementation()
     need(type(record) is dict and set(record) == set(expected)
          and type(record["python"]) is str and record["python"], "Complete recorded implementation context")
-    need(all(same(record[k], expected[k]) for k in expected if k != "python"),
-         "Current unchanged count driver, supervisor and frozen vendor implementation pins")
+    need(all(same(record[k], expected[k]) for k in expected if k != "python")
+         or history.matches(record, history.ordinary()),
+         "Current or exactly published pre-PREFIX2 implementation pins")
 
 
 def sealed(target, capsule, *, native=False):
