@@ -41,6 +41,15 @@ The standardized Bernoulli law has \(\rho_B=(p^2+q^2)/\sqrt{pq}\), so this is ex
 
 ## Inputs still requiring direct verification
 
+A later [full-primary lattice-theorem review and direct lower-bound derivation](literature_esseen_lower_bound_audit.md)
+now supplies the needed implication C*>=CE from Esseen's1945paper. The review
+reads the selected lattice theorem and displayed proof, then derives the
+Bernoulli lower bound with an explicit midpoint/closed-CDF argument. Root
+cross-read the short normalization, atom, rational-subsequence and optimization
+derivation. Earlier smoothing lemmas remain imported analytic theorems. This
+does not claim that the1956article was read or that the upper-bound proof is
+complete. Bentkus--Kirsa's original full one-summand proof remains unread.
+
 The original Bentkus–Kirsa one-summand theorem and Esseen's original lower-bound construction have not been checked from their full primary texts here. The exact He–Cheng estimate selected by the tail now has a [primary-source statement check and direct short derivation](logic_gaussian_input_audit.md); the review does not import their eventual sharpness theorem. The pointwise Prawitz statement has the direct proof above; this is not a verification of Prawitz's whole original paper. No all-index theorem is imported from a title, abstract, historical PASS, or secondary summary.
 
 A further retrieval attempt on23 October2026 reached only the

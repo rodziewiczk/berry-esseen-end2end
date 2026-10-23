@@ -1,19 +1,27 @@
 # Remaining end-to-end work
 
-Snapshot: 2026-10-23. This roadmap reads the current repository, scoped reviews, inventories and recorded Colab evidence. It performs no mathematical calculation and changes no runtime source or proof-graph status.
+Updated:24October2026. This roadmap reads source inventories and records the
+remaining kinds of work. [STATUS.md](../STATUS.md) and the
+[observed-run register](observed_runs.md) carry the latest individual notebook
+completion observations. This note performs no mathematical calculation and
+changes no numerical runtime or proof-acceptance flag.
 
-Later implementation update: the user requested parallel audit and missing
-notebook preparation. New29--34 selects115 supplied forests/178294leaves;
-36--38 supplies the ten B012 parent actions plus75numeric interfaces. Both
-passed source preparation and synthetic checks; neither was mathematically
-run locally. See [extra counts](retained_n25_extra_execution.md) and
-[parent acquisition](n25_b012_acquisition_execution.md). Notebook35 for remaining
-n5 is under implementation. Literal-index6--24/26--48 controllers, other n25
-acquisitions and explicitly missing/unresolved selections remain open. Older
-planning paragraphs below retain the source-inventory snapshot; they do not
-override this newer implementation status.
+The requested mathematical/source audit and missing-notebook preparation
+proceed in parallel. The published execution package now extends through the
+selected COUNT lanes50--55and recovery64, including the isolated full53route.
+Many earlier jobs are complete in the supplied logs; actual exports and
+semantic joins have separate validation boundaries. No original mathematical
+kernel was run locally. The next parent packages are grouped in
+[the bounded56--63construction inventory](finite1039_parent_construction_groups.md),
+with exact current-context source/capture requirements. The first independent
+auxiliary Fourier sublane56Ais being prepared; it does not complete all56.
 
-There is no justified fixed number of notebooks left to finish the theorem. The current numbered package contains 01–24; many are already running, completed scoped calculations or evidence collectors. The next concrete package is **three branch jobs for the 75 retained n25 B0–B2 forests**. Other required finite-range and acquisition work has not yet been reduced to a complete deduplicated executable queue. A notebook can contain many acceptors, and a completed notebook can leave mathematical premises open. Notebook count therefore cannot measure proof completion.
+There is no justified fixed total of notebooks left to finish the theorem.
+The three retained B0--B2 COUNT jobs are now complete in the supplied logs;
+they are not queued again. Remaining finite-range parents, Fourier/support
+families, lower mixed n25 cases and final joins still need a complete
+deduplicated execution graph. A notebook can contain many acceptors and leave
+analytic premises open, so notebook count is not proof-completion percentage.
 
 ## 1. Finish and validate the current batch
 
@@ -54,7 +62,7 @@ Those three jobs still leave the B0/B1/B2 INITIAL/global-resource acquisitions, 
 The other n25 regions have a concrete but incomplete source map:
 
 - [B3/B4 inventory](n25_retained_b34_catalog.md): 48 supplied retained candidates with 101,275 saved leaves, excluding the seven recovery targets. Forty-seven match available regional outcomes; B3 p34 has a provisional selection link. Four declared full regional selection/outcome hard links were not located in the two inspected principal archives. B3 p30 also needs its selected supplemental S1 resource, while p31/p32 retain their same-witness local-rho hierarchy.
-- [B5/middle/upper inventory](n25_retained_b5_upper_catalog.md): 68 supplied ordinary count inputs on explicitly selected routes. Ten other upper transitive references are available but their final selection remains unresolved; they must not be added to a claimed final census. Some supplied middle/upper source designs are stale or absent and require an explicit new sealed source epoch while preserving the actual numerical bytes.
+- [B5/middle/upper inventory](n25_retained_b5_upper_catalog.md):68supplied ordinary count inputs on explicitly selected routes. The later [upper/middle source review](code_n25_high_middle_profile_audit.md) resolves the ten formerly unresolved upper references into seven high-beta2 and three middle-B3 selections. This corrects source selection, not fresh arithmetic. Some supplied middle/upper source designs are stale or absent and require an explicit new sealed source epoch while preserving actual numerical bytes.
 - Eleven exact selected ordinary B5 capsules were not located: V14 p26–32 and the four V12 p33 quarters. This is a bounded availability finding, not proof that no alternative route exists. Their exact sources/forests must be recovered or replaced by a reviewed matching route; nearby candidates are not automatic substitutes.
 - B5 p24/p25 are two separate mixed acceptor jobs with supplied candidate objects. Their complete closures, acquisition/theorem registries, scalar certificates and original V14 parent bindings still need a replay specification. Two selected original V14 parent capsule references are also absent under their named paths.
 - Fifty-three noncount entrypoints have been located for lower B5 and middle/upper INITIAL/resource/local/mixed work. They are a source map, not a complete minimal runtime DAG. Some launch children and require a compatible process-tree execution contract rather than the single-process guard.
@@ -114,8 +122,8 @@ Then check every positive integer: the one-summand input, n2/n3, complete n4/n5,
 
 ## Immediate priority order
 
-1. Preserve the current running computations and validate their finished exports; finish collectors23/24 when their actual inputs are available.
-2. Package and run the three exact retained B0–B2 count jobs, retaining independently validated completed actions.
+1. Preserve the current running computations and revalidate their finished exports, including the completed collector23/24outputs and their conditional scope.
+2. Retain all three completed B0--B2count packages and the exact75resource interfaces already checked in36--38; finish their mathematical parent/regional composition without redundant count replay.
 3. In parallel, complete one **global selected-source/acquisition map**: resolve n25 regional hard links, missing B5/mixed payloads and full noncount selectors; select exact literal-index6–48 source closures and their shared parents; identify any genuine platform ports. This map determines the remaining notebook packaging count.
 4. Turn that map into separately reviewable support/Fourier/INITIAL/resource/count lanes, beginning with source-complete finite batches. Execute conditional arithmetic in parallel where useful, then discharge the exact same-witness joins in dependency order.
 5. Finish the analytic/kernel/literature reviews and the final source-bound all-index controller and paper.

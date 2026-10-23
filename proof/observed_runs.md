@@ -971,3 +971,39 @@ The private Drive notebook is9759bytes, SHA256
 `cc462597804ddb7c45996ee7a2263cd6181ee65b333a25ea11824f761f23e213`;
 metadata and full fetched bytes match the local pinned notebook. It is saved
 in the existing notebook folder. This preparation is not fresh53arithmetic.
+
+## Repaired50: completed217-stage cache readback and finalization
+
+The supplied log SHA256 is
+`a5cf0e7c9cbd404ccc52688a2cb2b4a4eee2add09cf4ebbfed797f3763d43a6f`.
+It ends with217/217revalidated/reused stages and
+`complete_selected_conditional_count_arithmetic_basic`. The final bundle is
+`finite1039-counts-n10_14/20261023T224423Z-a49c40aa/20261023T224423Z-a49c40aa-results.zip`.
+This supplied-log success supersedes the old wrapper failure. Actual final
+ZIP readback and parent/theorem composition remain separate.
+
+## Notebook52: original finalizer failure, then corrected success
+
+The old invocation's supplied attachment SHA256 is
+`41eeef1ab157b8b1dd53af4b98bfc6a380dcd6b9663627445360ce12dedfe3aa`.
+It saves all163native completed stages, then hits the same old
+`remaining_obligations` finalizer error at22:47:09UTC.
+
+Subsequently the user supplies an inline corrected-run ending:163/163reused
+stages at22:52:44UTC and
+`complete_selected_conditional_count_arithmetic_basic`. Its final bundle is
+`finite1039-counts-n20_24/20261023T224907Z-689e1d92/20261023T224907Z-689e1d92-results.zip`.
+An advisory log-backup stop times out at22:53:14UTC, followed by a backup-saved
+event and the successful final bundle print. This is a reported backup
+thread timeout, not a newly observed native-stage failure. The final ZIP
+has not yet been independently read back here. Parent, full finite1039 and
+all-index flags retain their conditional scope.
+
+## Notebook46 private copy delivered after earlier upload failures
+
+The exact already published notebook46is now saved in the existing private
+notebook folder. Its full fetched bytes and metadata match the local copy:
+10241bytes, SHA256
+`5af8815b4ce40f236e5407b82edc1df013de40c94de5e8beefeb09e71fc3b248`.
+This resolves the earlier Drive upload-rate boundary; no new46mathematical
+execution or completed result is inferred from copying the notebook.

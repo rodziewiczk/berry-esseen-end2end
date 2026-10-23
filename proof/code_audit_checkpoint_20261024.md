@@ -66,3 +66,23 @@ components merely from their names or historical PASS labels.
 The read-only manuscript SHA256 remains
 `2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1`.
 No all-law C4, whole n25 or global theorem acceptance is declared here.
+
+## Subsequent all-law and mixed-leaf joins
+
+The [all-law ROOT4 localization review](code_root4_all_law_localization_audit.md)
+derives the exact conditional implication from unrestricted attainment and
+the all-law C3 predecessor to the numerical class, using the manuscript's
+stronger owner lemma for C4>0.4096. The older first-critical note assumes
+C4>=CE and alone cannot imply the stronger C4<=0.4097. Root read the complete
+new derivation, checked the special Gaussian remainder and directed support
+polynomial, and rechecked manuscript, old note, wrapper and actual caller
+source/AST pins. The required G3, external E and full bounded-law B4 inputs
+remain explicit rather than promoted by a completion flag.
+
+The [p24 mixed E-rule review](code_n25_p24_pointwise_audit.md) derives its
+distinct inward-endpoint scalar inequality from the physical defect and
+checks whole-box derivatives, signed normalization and mixed closed-cover
+induction. Root read the note and checked all 17 original source/final-selector
+bindings and the three explicitly absent canonical native members. Original
+INITIAL/resource readback is distinguished from fresh numerical reacquisition.
+The missing ordinary p24 V14 instance and separate p25 ABCDF rule remain open.

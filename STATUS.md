@@ -67,6 +67,12 @@ selector, manifest and function bindings. This narrows the previously open
 inner-portfolio boundary without declaring all-law C4, lower mixed n25 routes
 or a global theorem. No original mathematical module was evaluated locally.
 
+The following [all-law C4 join](proof/code_root4_all_law_localization_audit.md)
+derives the required unrestricted-to-bounded implication under the explicit
+G3/E/B4 premises. The [mixed p24 E rule](proof/code_n25_p24_pointwise_audit.md)
+has a separate source derivation; its missing ordinary V14 capsule and the
+other mixed rules remain open. Root checked both notes' source bindings.
+
 ## Execution snapshot
 
 Latest evidence supplied to this chat; this is not live monitoring.
@@ -78,7 +84,7 @@ Log completion is not independent bundle validation.
 |08|Actual n2/n3 export inspected; scoped analytic/checker reviews recorded.|
 |09/10,13,14/15|Complete scoped arithmetic in inspected logs; exports have a separate revalidation boundary.|
 |11|Actual final export/Drive sidecar,70sourcepins, complete receipts/captures and both native guard chains revalidated. Both full ROOT4 passes close260/260classes, zero unresolved, bound4097/10000. Scoped native conditional physical ROOT4 accepted; all-law/global flags remain false.|
-|12 corrected|Latest supplied2GiB/18h run stops incomplete at21:19UTC with13/14main and29/41retained executions, sampled RSS near2GiB and failed process cleanup. A separate16GiB/18h fresh-full-restart notebook is published and delivered;19root runtime fixtures and2notebook fixtures pass. No actual new arithmetic completion inferred.|
+|12 corrected|The old2GiB/18h run stopped incomplete with13/14main and29/41retained. The separately delivered16GiB/18h fresh restart is progressing: latest inspected new log at22:16:50UTC has13/14main and7/41retained, no reported error and sampled RSS about102MiB. This is partial progress; no final arithmetic completion inferred.|
 |16|Complete 25-stage auxiliary23 log, 18,377 leaves; full theorem conditional.|
 |17|Complete 16-stage stronger24 B0 BASIC log, 1,929 leaves; export to revalidate.|
 |18|Complete 13-stage stronger24 B1 BASIC log,9,803 leaves; conditional on unacquired resources, native acceptance false, export to revalidate.|
@@ -100,7 +106,7 @@ Log completion is not independent bundle validation.
 |46|Fresh n7--9 CAPS/resources prepared with34root synthetic fixtures passing in16.598s. All770static inputs and all nine actual-input source/metadata preparations independently checked. It revalidates/reuses compatible45stages and requires full fresh native CAPS/resource execution; no local original mathematics was run.|
 |47/48|Both supplied middle-n25 B4/B5 logs complete14/12full selected acquisition actions and save final ZIPs with conditional_middle_acquisition_arithmetic_complete. Actual final export readback, interfaces32/33and regional/global joins remain separate.|
 |49|Supplied completed log confirms14/14full high-beta3 acquisition actions and final saved bundle, conditional_high_beta3_acquisition_arithmetic_complete. Actual final export readback, count interfaces and regional theorem remain separate.|
-|50--55|Five COUNT lanes50/51/52/54/55are published and delivered:929forests total. The repaired51log completes147/147by fully revalidating/reusing all147prior completed stages, then saves its final ZIP. Actual51final export readback remains separate.64reproduces the missing n27/p41tree exactly; the isolated full80-forest53notebook is ready with23passing source/fake/notebook fixtures, all79source capsules checked and the actual64identity gate passed. No53arithmetic run is inferred.|
+|50--55|Five COUNT lanes50/51/52/54/55are published and delivered:929forests total. Corrected50/51/52logs complete217/147/163stages respectively, reusing their saved full numerical stages and saving final ZIPs.52also reports an advisory backup-thread stop timeout. Actual final export readbacks remain separate.64reproduces the missing n27/p41tree exactly; the isolated full80-forest53notebook is ready with23passing source/fake/notebook fixtures, all79source capsules checked and the actual64identity gate passed. No53arithmetic run is inferred.|
 |64|Actual final ZIP/Drive sidecar and all68files/13852603unpacked bytes revalidated, including both unchanged construction/full-acceptance actions and their source/launch/capture bindings. All28roots/6310nodes/3169leaves close; the candidate hash exactly reproduces the historical missing tree. The fresh acceptance remains distinct.53selection composition and mathematical parent/global joins remain separate; no mathematical kernel was rerun locally.|
 
 The new packages preserve previous numerical drivers and notebook identities.

@@ -348,3 +348,13 @@ source derivations. The ten upper selector questions are resolved separately
 from eleven missing lower-B5 directories. All-law C4 placement, lower mixed
 n25 implications, complete fresh execution and final semantic/theorem joins
 remain open. No original mathematical module was evaluated in these checks.
+
+The subsequent [all-law C4 source join](code_root4_all_law_localization_audit.md)
+now traces unrestricted attainment, closed-support contact, exact same-law C3,
+the stronger C4>0.4096 owner lemma and the actual numerical class. This is an
+explicit conditional proof rather than an inference from the ROOT4 receipt.
+The separate [p24 E scalar/mixed-rule unit](code_n25_p24_pointwise_audit.md)
+checks its inward monotonicity, conserved cubic cancellation and strict rho
+exclusion. Root read both notes and checked their stated source bindings.
+Full acquisition of their stated premises and the remaining mixed/native
+instances remain separate obligations.

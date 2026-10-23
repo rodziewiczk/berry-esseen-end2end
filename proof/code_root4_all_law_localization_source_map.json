@@ -1,0 +1,94 @@
+{
+  "actual_receipt_sha256": "571bc91b257ac53c640dd3bee91377565ff7c475091d39076295200209beeae1",
+  "all_index_conclusion_verified": false,
+  "all_law_C4_verified": false,
+  "current_wrapper_context": {
+    "current_source_read_only_not_a_new_actual_export_validation": true,
+    "name": "be_replay/root4.py",
+    "ranges": [
+      {
+        "end": 480,
+        "role": "conditional physical-root result; all-law C4 flag remains false",
+        "start": 418
+      }
+    ],
+    "sha256": "c98366a00cd2f13d8f51ad150fa5a51b7d8b67776f4583686c636d53e6e8de39"
+  },
+  "earlier_actual_receipt_observation_used_as_metadata_only": true,
+  "manuscript": {
+    "bytes": 384847,
+    "name": "berry_esseen_manuscript.tex",
+    "selected_ranges": [
+      {
+        "end": 363,
+        "role": "external statement normalization",
+        "start": 331
+      },
+      {
+        "end": 457,
+        "role": "unrestricted attainment and all-support contamination contact",
+        "start": 368
+      },
+      {
+        "end": 5153,
+        "role": "exact certificate-conditional C3 predecessor statement",
+        "start": 5128
+      },
+      {
+        "end": 5668,
+        "role": "canonical reference and stronger C4>c0 owner localization",
+        "start": 5488
+      },
+      {
+        "end": 6174,
+        "role": "bounded-law certificate implication and all-law contradiction",
+        "start": 6087
+      }
+    ],
+    "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1"
+  },
+  "old_first_critical_note": {
+    "alone_proves_stronger_C4_le_T": false,
+    "bytes": 4407,
+    "name": "first_critical_support_17_4_2026_10_01.md",
+    "requires_C3_lt_CE_le_C4": true,
+    "sha256": "2beabc365118ae67c6263580ec8ae9cc300a071681d8a7587c627ce5dfc40ca6"
+  },
+  "original_mathematics_executed": false,
+  "review_kind": "Fallible internal AI source and hand-algebra review, not external independent or formal verification",
+  "schema": "ROOT4_ALL_LAW_LOCALIZATION_SOURCE_REVIEW_MAP_V1",
+  "selected_caller_contexts": [
+    {
+      "actual_receipt_source_sha256": "397a32a2def85c262f1f9ef534dfcc63d8e8b443ac1605a68c6bdf4f70780e5c",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 97,
+          "name": "fresh_root_requests",
+          "start": 75
+        }
+      ],
+      "name": "n4_Q3_corrected_global_root_SV_low_eta_controller_2026_10_09.py",
+      "vendor_sha256": "397a32a2def85c262f1f9ef534dfcc63d8e8b443ac1605a68c6bdf4f70780e5c"
+    },
+    {
+      "actual_receipt_source_sha256": "e16285e11f10c144d5278accab1bf8468260543e0243c1ab6ffd53caeded6dbd",
+      "functions_read": [
+        {
+          "actual_function_AST_identical": true,
+          "end": 123,
+          "name": "fresh_rectangle_request",
+          "start": 103
+        }
+      ],
+      "name": "n4_fresh_Cantelli_linked_normalization_full_root_2026_10_09.py",
+      "vendor_sha256": "e16285e11f10c144d5278accab1bf8468260543e0243c1ab6ffd53caeded6dbd"
+    }
+  ],
+  "unresolved_acquisition_dependencies": [
+    "full valid all-law C3 inequality",
+    "complete valid physical bounded-law ROOT4 inequalities",
+    "selected external iid structural bound",
+    "closed-CDF Prawitz majorant and physical numerical implications"
+  ]
+}

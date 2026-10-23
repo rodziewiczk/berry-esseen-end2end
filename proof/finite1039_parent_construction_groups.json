@@ -1,0 +1,1084 @@
+{
+  "actual32_34_compose_source": {
+    "bytes": 9991,
+    "member": "continuation_20261010/repair31/compose_actual32_34_v2.py",
+    "sha256": "1e0e3c008a583961462e2bee52a2e49afa957ce8d7fb1facb5fe4c650dca5de5"
+  },
+  "all_index_conclusion_verified": false,
+  "arithmetic_computed": false,
+  "core40_job_inventory": {
+    "initial_acceptors": 20,
+    "jobs": 40,
+    "path": "finite1039_parent_readiness.json",
+    "resource_acceptors": 20,
+    "sha256": "069a992e0fdd6b18b7d532f3e1cc3163b2fd82f63333a0201b91c774969cfbe6",
+    "unique_source_commitments": 3072,
+    "unlocated_commitments": 145
+  },
+  "initial_capture_boundaries": [
+    {
+      "capture_and_source_gates": [
+        {
+          "line": 82,
+          "text": "prep=read(HERE/'PREPARED.json');graph=dict(prep['files_sha256']);bind(graph,HERE/'PREPARED.json')"
+        },
+        {
+          "line": 83,
+          "text": "for path,digest in graph.items():need(sha(ROOT/path)==digest,'frozen graph')"
+        },
+        {
+          "line": 85,
+          "text": "expected=dict(prep['files_sha256']);expected[str((HERE/'PREPARED.json').relative_to(ROOT))]=sha(HERE/'PREPARED.json')"
+        },
+        {
+          "line": 86,
+          "text": "need(c['files_sha256']==expected,'complete candidate graph equality')"
+        },
+        {
+          "line": 87,
+          "text": "capture=ROOT/f'runs/cutoff10_20261018/analytic/initial{n}_{band}_construct01';meta=read(capture/'metadata.json')"
+        },
+        {
+          "line": 89,
+          "text": "need(meta['cwd']==str(HERE/f'n{n}')and meta['command'][1:]==['-B','../construct.py',str(n),band],'exact native invocation')"
+        },
+        {
+          "line": 124,
+          "text": "out=dict(status='PASS_FRESH_UNSEEDED_SIGNED_INITIAL10_14_REPLAY_CONDITIONAL',n=n,K='0',band=band,rho_interval=[str(lo),str(hi)],q=str(q),owncap=str(cap),predecessor_cap=str(pcap)if n==10 else'CE',high_cap=str(hcap),candidate_sha256=sha(candidate),profile=enc(profile),final_invariants=enc(dict(raw=raw,D=d)),fresh_complete_covers=9,signed_cells_per_cover=2592,original_probability_panels=100,malformed_controls=negative,parser_controls=2,predecessor_globally_sharp_assumed=n!=10,numerical_cap_join_complete=False,physical_defect_seed_imported=False,full_cutoff_proved=False,files_sha256=graph,execution_scope='Fresh complete exact semantic reproduction using an independently reconstructed driver and copied common kernels; not an independent arithmetic implementation.')"
+        }
+      ],
+      "source": {
+        "bytes": 11030,
+        "member": "cutoff10_20261018/analytic/initial10_14_v1/replay.py",
+        "sha256": "305870cbcd2a045d9843f266229030dadb825e467a8364df55f634d3065d2744"
+      }
+    },
+    {
+      "capture_and_source_gates": [
+        {
+          "line": 86,
+          "text": "prep=read(HERE/'PREPARED.json');graph=dict(prep['files_sha256']);bind(graph,HERE/'PREPARED.json')"
+        },
+        {
+          "line": 87,
+          "text": "for path,digest in graph.items():need(sha(ROOT/path)==digest,'frozen graph')"
+        },
+        {
+          "line": 89,
+          "text": "expected=dict(prep['files_sha256']);expected[str((HERE/'PREPARED.json').relative_to(ROOT))]=sha(HERE/'PREPARED.json')"
+        },
+        {
+          "line": 90,
+          "text": "need(c['files_sha256']==expected,'complete candidate graph equality')"
+        },
+        {
+          "line": 91,
+          "text": "capture=ROOT/'runs/cutoff10_20261018/analytic/initial10_BN_fine_construct01';meta=read(capture/'metadata.json')"
+        },
+        {
+          "line": 93,
+          "text": "need(meta['cwd']==str(HERE/f'n{n}')and meta['command'][1:]==['-B','../construct.py',str(n),band],'exact native invocation')"
+        },
+        {
+          "line": 128,
+          "text": "out=dict(status='PASS_FRESH_UNSEEDED_SIGNED_INITIAL10_BN_FINE_REPLAY_CONDITIONAL',n=n,K='0',band=band,rho_interval=[str(lo),str(hi)],q=str(q),owncap=str(cap),predecessor_cap=str(pcap)if n==10 else'CE',high_cap=str(hcap),candidate_sha256=sha(candidate),profile=enc(profile),final_invariants=enc(dict(raw=raw,D=d)),fresh_complete_covers=9,signed_cells_per_cover=10368,original_probability_panels=100,malformed_controls=negative,parser_controls=2,predecessor_globally_sharp_assumed=n!=10,numerical_cap_join_complete=False,physical_defect_seed_imported=False,full_cutoff_proved=False,files_sha256=graph,execution_scope='Fresh complete exact semantic reproduction using an independently reconstructed driver and copied common kernels; not an independent arithmetic implementation.')"
+        }
+      ],
+      "source": {
+        "bytes": 11365,
+        "member": "cutoff10_20261018/analytic/initial10_BN_fine_v1/replay.py",
+        "sha256": "7c33db01032cdd60542ca6d2fb8feef63f2c5cf4347c38799fe7a445f4b5abb7"
+      }
+    },
+    {
+      "capture_and_source_gates": [
+        {
+          "line": 74,
+          "text": "prep=load(HERE/'PREPARED.json');graph=dict(prep['files_sha256'])"
+        },
+        {
+          "line": 75,
+          "text": "for path,digest in graph.items():need(sha(ROOT/path)==digest,'frozen source graph')"
+        },
+        {
+          "line": 136,
+          "text": "out=dict(status='PASS_FRESH_UNSEEDED_ACTUAL15_COMPENSATED_INITIAL_REPLAY_CONDITIONAL',n=15,band=band,rho_interval=[str(lo),str(hi)],q=str(q),owncap=str(cap),candidate_sha256=sha(native),final_invariants=enc(dict(raw=raw,D=d)),profile=enc(profile),fresh_complete_covers=9,signed_cells_per_cover=2592,original_probability_panels=100,support_radii=len(RADII),malformed_controls=negative,parser_controls=2,predecessor_verified=False,owncap_verified=False,cutoff15_proved=False,physical_defect_seed_imported=False,execution_scope='Fresh complete exact semantic reproduction with independently reconstructed driver and byte-identical arithmetic kernels; not independent kernel implementation.',files_sha256=graph)"
+        }
+      ],
+      "source": {
+        "bytes": 10806,
+        "member": "cutoff15_20261017/analytic/initial15_compensated_replay_v1/replay.py",
+        "sha256": "e76ea19f5e7e0b430bbdf3554b791ff83f7ab86435633da2c0637633980ccdc5"
+      }
+    },
+    {
+      "capture_and_source_gates": [
+        {
+          "line": 78,
+          "text": "graph=dict(c['files_sha256'])"
+        },
+        {
+          "line": 79,
+          "text": "for path,digest in graph.items():need(sha(ROOT/path)==digest,'frozen source graph')"
+        },
+        {
+          "line": 80,
+          "text": "capture=ROOT/f'runs/cutoff15_20261017/root/initial{N}_{band}_construct01'"
+        },
+        {
+          "line": 81,
+          "text": "meta=load(capture/'metadata.json')"
+        },
+        {
+          "line": 82,
+          "text": "need(type(meta['returncode'])is int and meta['returncode']==0 and meta['cwd']==str(NATIVE) and meta['command'][1:]==['-B','pilot.py',band],'literal successful constructor capture')"
+        },
+        {
+          "line": 148,
+          "text": "out=dict(status=f'PASS_FRESH_UNSEEDED_ACTUAL{N}_COMPENSATED_INITIAL_REPLAY_CONDITIONAL',n=N,band=band,rho_interval=[str(lo),str(hi)],q=str(q),owncap=str(cap),candidate_sha256=sha(native),final_invariants=enc(dict(raw=raw,D=d)),profile=enc(profile),fresh_complete_covers=9,signed_cells_per_cover=2592,original_probability_panels=100,support_radii=len(RADII),malformed_controls=negative,parser_controls=2,predecessor_verified=False,owncap_verified=False,cutoff15_proved=False,physical_defect_seed_imported=False,execution_scope='Fresh complete exact semantic reproduction with independently reconstructed driver and byte-identical arithmetic kernels; not independent kernel implementation.',files_sha256=graph)"
+        }
+      ],
+      "source": {
+        "bytes": 11867,
+        "member": "cutoff15_20261017/root/initial16_19_v1/replay.py",
+        "sha256": "960f9e5490db2940d4ee0a1f639dab93fda78292f42bb984cfb52106cfed9c62"
+      }
+    }
+  ],
+  "original_math_imported_or_evaluated": false,
+  "parent_acquisitions_verified": false,
+  "proposed_next_implementation": "Seal56 Fourier/support/HIGH and INITIAL/resource metadata epoch; do not treat20 acceptors as a portable complete lane.",
+  "schema": "FINITE1039_PARENT_CONSTRUCTION_GROUPS_SOURCE_REVIEW_V1",
+  "scope": "PARTIAL_SOURCE_ONLY_NOT_RUNNABLE_CATALOG",
+  "seven_fourier_construction_groups": [
+    {
+      "actions": [
+        "run.py plan LABEL",
+        "run.py construct LABEL ABS_PLAN",
+        "run.py replay LABEL ABS_PLAN",
+        "readback.py ABS_FRESH_REQUEST"
+      ],
+      "family": "auxiliary9_14",
+      "historical_strip_count_required_by_inspected_readback": false,
+      "indices_per_strip": 6,
+      "lane": "56",
+      "readback_source_gates": [
+        {
+          "line": 138,
+          "text": "need(type(result['rows']) is list and len(result['rows']) == 6 * len(strips), 'all six indices in every strip')"
+        },
+        {
+          "line": 271,
+          "text": "def main():"
+        },
+        {
+          "line": 273,
+          "text": "need(len(sys.argv) == 2, 'one source-bound request')"
+        },
+        {
+          "line": 314,
+          "text": "n=NS, finite_rho=['1', '19/10'], target=str(TARGET), strips=len(plan['strips']), exact_rows=len(construction['rows']), attempts=len(construction['attempts']),"
+        }
+      ],
+      "requires_new_untrusted_plan": true,
+      "run_source_gates": [
+        {
+          "line": 10,
+          "text": "action,label=sys.argv[1:3];assert action in('plan','construct','replay')and label.isidentifier()"
+        },
+        {
+          "line": 15,
+          "text": "if action=='plan':command=[sys.executable,'-B','planner.py',str(out/'PLAN.json')]"
+        },
+        {
+          "line": 18,
+          "text": "command=[sys.executable,'-B','protocol.py',action,str(p),str(out/'RESULT.json')]"
+        },
+        {
+          "line": 20,
+          "text": "data=dict(command=command,cwd=str(H),input_sha256=files,python=sys.version,platform=platform.platform(),started_utc=datetime.now(timezone.utc).isoformat())"
+        },
+        {
+          "line": 21,
+          "text": "start=time.monotonic();p=subprocess.run(command,cwd=H,text=True,capture_output=True)"
+        }
+      ],
+      "source": [
+        {
+          "bytes": 2089,
+          "member": "cutoff10_20261018/fourier/auxiliary9_14_v1/run.py",
+          "sha256": "f259055b489b622899eafe2ddcd98a98ba6a94f8eddc39aabca9869d1a8fb30d"
+        },
+        {
+          "bytes": 6386,
+          "member": "cutoff10_20261018/fourier/auxiliary9_14_v1/protocol.py",
+          "sha256": "6c22f9ed340deb21a1cd4a1325f03a64f061b00e67c34c00c7b47218ab45d26e"
+        },
+        {
+          "bytes": 17438,
+          "member": "cutoff10_20261018/fourier/auxiliary9_14_readback_v1/readback.py",
+          "sha256": "37f836fe8384f53ecaf56217df4597914aba2f726a2ef2a36a5c232f36c0ffb3"
+        }
+      ],
+      "source_and_capture_epoch_not_sealed": true
+    },
+    {
+      "actions": [
+        "run.py plan LABEL",
+        "run.py construct LABEL ABS_PLAN",
+        "run.py replay LABEL ABS_PLAN",
+        "readback.py ABS_FRESH_REQUEST"
+      ],
+      "family": "supported9_14",
+      "historical_strip_count_required_by_inspected_readback": false,
+      "indices_per_strip": 6,
+      "lane": "56",
+      "readback_source_gates": [
+        {
+          "line": 18,
+          "text": "MANIFEST_SHA = '17ff964d7091b3fec2a463f46d9ccab6eb5dc85d916e8899ee39492cf58e72d7'"
+        },
+        {
+          "line": 182,
+          "text": "need(type(result['rows']) is list and len(result['rows']) == 6 * len(strips), 'all six-index rows')"
+        },
+        {
+          "line": 302,
+          "text": "def main():"
+        },
+        {
+          "line": 304,
+          "text": "need(len(sys.argv) == 2, 'one source-bound request')"
+        },
+        {
+          "line": 314,
+          "text": "need(digest(plan_path) == request['plan_sha256'] and digest(manifest_path) == request['manifest_sha256'] == MANIFEST_SHA, 'approved plan/manifest')"
+        },
+        {
+          "line": 317,
+          "text": "need(len(graph) == 94 and all(type(v) is str and len(v) == 64 for v in graph.values()), 'fixed complete source graph')"
+        },
+        {
+          "line": 325,
+          "text": "maxima = validate_result(construction, plan, request['plan_sha256'], MANIFEST_SHA)"
+        },
+        {
+          "line": 326,
+          "text": "need(validate_result(replay, plan, request['plan_sha256'], MANIFEST_SHA) == maxima, 'replay maxima')"
+        },
+        {
+          "line": 328,
+          "text": "negatives = controls(plan, construction, request['plan_sha256'], MANIFEST_SHA)"
+        },
+        {
+          "line": 334,
+          "text": "strips={b['name']: len(b['strips']) for b in plan['bands']}, exact_rows=len(construction['rows']), attempts=len(construction['attempts']),"
+        }
+      ],
+      "requires_new_untrusted_plan": true,
+      "run_source_gates": [
+        {
+          "line": 10,
+          "text": "action,label=sys.argv[1:3];assert action in('plan','construct','replay')and label.isidentifier()"
+        },
+        {
+          "line": 15,
+          "text": "if action=='plan':command=[sys.executable,'-B','planner.py',str(out/'PLAN.json')]"
+        },
+        {
+          "line": 18,
+          "text": "command=[sys.executable,'-B','protocol.py',action,str(p),str(out/'RESULT.json')]"
+        },
+        {
+          "line": 20,
+          "text": "data=dict(command=command,cwd=str(H),input_sha256=files,python=sys.version,platform=platform.platform(),started_utc=datetime.now(timezone.utc).isoformat())"
+        },
+        {
+          "line": 21,
+          "text": "start=time.monotonic();p=subprocess.run(command,cwd=H,text=True,capture_output=True)"
+        }
+      ],
+      "source": [
+        {
+          "bytes": 2105,
+          "member": "cutoff10_20261018/fourier/supported9_14_v1/run.py",
+          "sha256": "569b1d723a198fea7439b220fcbadd704d3eb64808138dff9bce0511a5542737"
+        },
+        {
+          "bytes": 6548,
+          "member": "cutoff10_20261018/fourier/supported9_14_v1/protocol.py",
+          "sha256": "338fcf3646eb115ac9d9ad1554fb8f460158e6779db067a503b482c2f6f47099"
+        },
+        {
+          "bytes": 18304,
+          "member": "cutoff10_20261018/fourier/supported9_14_readback_v1/readback.py",
+          "sha256": "ed24003e13ce2517691957e3457f56d4ecb3887c9b401a00045555f291310074"
+        }
+      ],
+      "source_and_capture_epoch_not_sealed": true
+    },
+    {
+      "actions": [
+        "run.py plan LABEL",
+        "run.py construct LABEL ABS_PLAN",
+        "run.py replay LABEL ABS_PLAN",
+        "readback.py ABS_FRESH_REQUEST"
+      ],
+      "family": "highrho10_14",
+      "historical_strip_count_required_by_inspected_readback": false,
+      "indices_per_strip": 5,
+      "lane": "56",
+      "readback_source_gates": [
+        {
+          "line": 138,
+          "text": "need(type(result['rows']) is list and len(result['rows']) == 5 * len(strips), 'all five indices in every strip')"
+        },
+        {
+          "line": 271,
+          "text": "def main():"
+        },
+        {
+          "line": 273,
+          "text": "need(len(sys.argv) == 2, 'one source-bound request')"
+        },
+        {
+          "line": 286,
+          "text": "need(len(graph) == 82 and all(type(v) is str and len(v) == 64 for v in graph.values()), 'fixed complete source graph')"
+        },
+        {
+          "line": 302,
+          "text": "n=NS, finite_rho=['71/50', '15/8'], target=str(TARGET), strips=len(plan['strips']), exact_rows=len(construction['rows']), attempts=len(construction['attempts']),"
+        }
+      ],
+      "requires_new_untrusted_plan": true,
+      "run_source_gates": [
+        {
+          "line": 10,
+          "text": "action,label=sys.argv[1:3];assert action in('plan','construct','replay')and label.isidentifier()"
+        },
+        {
+          "line": 15,
+          "text": "if action=='plan':command=[sys.executable,'-B','planner.py',str(out/'PLAN.json')]"
+        },
+        {
+          "line": 18,
+          "text": "command=[sys.executable,'-B','protocol.py',action,str(p),str(out/'RESULT.json')]"
+        },
+        {
+          "line": 20,
+          "text": "data=dict(command=command,cwd=str(H),input_sha256=files,python=sys.version,platform=platform.platform(),started_utc=datetime.now(timezone.utc).isoformat())"
+        },
+        {
+          "line": 21,
+          "text": "start=time.monotonic();p=subprocess.run(command,cwd=H,text=True,capture_output=True)"
+        }
+      ],
+      "source": [
+        {
+          "bytes": 2089,
+          "member": "cutoff10_20261018/fourier/highrho10_14_v1/run.py",
+          "sha256": "2976a63cbfbba554e8902317e7e4a8efbe47436d3ec498bb4cf832725d823939"
+        },
+        {
+          "bytes": 6409,
+          "member": "cutoff10_20261018/fourier/highrho10_14_v1/protocol.py",
+          "sha256": "5df7fe554a5854d5a88b4db9fc8b414d0f6909cb339304403b51d4f1ad2e80d7"
+        },
+        {
+          "bytes": 16498,
+          "member": "cutoff10_20261018/fourier/highrho10_14_readback_v1/readback.py",
+          "sha256": "a86135cf3e69c738e3bee205313b4313389b2307ea4d9859a862e595d3a7ca45"
+        }
+      ],
+      "source_and_capture_epoch_not_sealed": true
+    },
+    {
+      "actions": [
+        "run.py plan LABEL",
+        "run.py construct LABEL ABS_PLAN",
+        "run.py replay LABEL ABS_PLAN",
+        "readback.py ABS_FRESH_REQUEST"
+      ],
+      "family": "corner10_14",
+      "historical_strip_count_required_by_inspected_readback": false,
+      "indices_per_strip": 5,
+      "lane": "56",
+      "readback_source_gates": [
+        {
+          "line": 18,
+          "text": "MANIFEST_SHA = '2ce3db897d8f07ddec82e07f5077f9a0ee8dcc0efa77425f596b2382c3037852'"
+        },
+        {
+          "line": 177,
+          "text": "need(type(result['rows']) is list and len(result['rows']) == 5 * len(strips), 'five indices on every strip')"
+        },
+        {
+          "line": 296,
+          "text": "def main():"
+        },
+        {
+          "line": 298,
+          "text": "need(len(sys.argv) == 2, 'one source-bound request')"
+        },
+        {
+          "line": 307,
+          "text": "need(digest(plan_path) == request['plan_sha256'] and digest(manifest_path) == request['manifest_sha256'] == MANIFEST_SHA, 'fixed plan/manifest')"
+        },
+        {
+          "line": 309,
+          "text": "need(len(graph) == 142 and all(type(v) is str and len(v) == 64 for v in graph.values()), 'fixed complete source graph')"
+        },
+        {
+          "line": 316,
+          "text": "maxima = validate_result(construction,plan,request['plan_sha256'],MANIFEST_SHA)"
+        },
+        {
+          "line": 317,
+          "text": "need(validate_result(replay,plan,request['plan_sha256'],MANIFEST_SHA) == maxima, 'replay maxima')"
+        },
+        {
+          "line": 319,
+          "text": "negatives = controls(plan,construction,request['plan_sha256'],MANIFEST_SHA)"
+        },
+        {
+          "line": 325,
+          "text": "strips=len(plan['strips']),exact_rows=len(construction['rows']),attempts=len(construction['attempts']),"
+        }
+      ],
+      "requires_new_untrusted_plan": true,
+      "run_source_gates": [
+        {
+          "line": 10,
+          "text": "action,label=sys.argv[1:3];assert action in('plan','construct','replay')and label.isidentifier()"
+        },
+        {
+          "line": 15,
+          "text": "if action=='plan':command=[sys.executable,'-B','planner.py',str(out/'PLAN.json')]"
+        },
+        {
+          "line": 18,
+          "text": "command=[sys.executable,'-B','protocol.py',action,str(p),str(out/'RESULT.json')]"
+        },
+        {
+          "line": 20,
+          "text": "data=dict(command=command,cwd=str(H),input_sha256=files,python=sys.version,platform=platform.platform(),started_utc=datetime.now(timezone.utc).isoformat())"
+        },
+        {
+          "line": 21,
+          "text": "start=time.monotonic();p=subprocess.run(command,cwd=H,text=True,capture_output=True)"
+        }
+      ],
+      "source": [
+        {
+          "bytes": 2094,
+          "member": "cutoff10_20261018/fourier/corner10_14_cover_v1/run.py",
+          "sha256": "600229f690373a3c0c0cb067ca358c060b094d56a309197dc0f9bf0f3219c5ff"
+        },
+        {
+          "bytes": 5617,
+          "member": "cutoff10_20261018/fourier/corner10_14_cover_v1/protocol.py",
+          "sha256": "42035f785b3ff1af124ebead98f9df502fc7bf32dc32f3d000822ee771057d27"
+        },
+        {
+          "bytes": 17374,
+          "member": "cutoff10_20261018/fourier/corner10_14_readback_v1/readback.py",
+          "sha256": "a9f9968bd144f154c06fdd31abf0c67e4a3c1e6700378e9ce53509a3b05ba139"
+        }
+      ],
+      "source_and_capture_epoch_not_sealed": true
+    },
+    {
+      "actions": [
+        "run.py plan LABEL",
+        "run.py construct LABEL ABS_PLAN",
+        "run.py replay LABEL ABS_PLAN",
+        "readback.py ABS_FRESH_REQUEST"
+      ],
+      "family": "auxiliary14_19",
+      "historical_strip_count_required_by_inspected_readback": false,
+      "indices_per_strip": 6,
+      "lane": "57",
+      "readback_source_gates": [
+        {
+          "line": 138,
+          "text": "need(type(result['rows']) is list and len(result['rows']) == 6 * len(strips), 'all six indices in every strip')"
+        },
+        {
+          "line": 271,
+          "text": "def main():"
+        },
+        {
+          "line": 273,
+          "text": "need(len(sys.argv) == 2, 'one source-bound request')"
+        },
+        {
+          "line": 304,
+          "text": "n=NS, finite_rho=['1', '19/10'], target=str(TARGET), strips=len(plan['strips']), exact_rows=len(construction['rows']), attempts=len(construction['attempts']),"
+        }
+      ],
+      "requires_new_untrusted_plan": true,
+      "run_source_gates": [
+        {
+          "line": 10,
+          "text": "action,label=sys.argv[1:3];assert action in('plan','construct','replay')and label.isidentifier()"
+        },
+        {
+          "line": 15,
+          "text": "if action=='plan':command=[sys.executable,'-B','planner.py',str(out/'PLAN.json')]"
+        },
+        {
+          "line": 18,
+          "text": "command=[sys.executable,'-B','protocol.py',action,str(p),str(out/'RESULT.json')]"
+        },
+        {
+          "line": 20,
+          "text": "data=dict(command=command,cwd=str(H),input_sha256=files,python=sys.version,platform=platform.platform(),started_utc=datetime.now(timezone.utc).isoformat())"
+        },
+        {
+          "line": 21,
+          "text": "start=time.monotonic();p=subprocess.run(command,cwd=H,text=True,capture_output=True)"
+        }
+      ],
+      "source": [
+        {
+          "bytes": 2091,
+          "member": "cutoff15_20261017/fourier/auxiliary14_19_v1/run.py",
+          "sha256": "f7cf74c6d69dae9c49ceacf7bbd2c96d6b889d04795e55c4f54a99c5bf9db789"
+        },
+        {
+          "bytes": 6391,
+          "member": "cutoff15_20261017/fourier/auxiliary14_19_v1/protocol.py",
+          "sha256": "5eefff7a5dce1e7781f0e05a82e5e94b7c9ffbd841d5b0352dd9a81f5f8519ee"
+        },
+        {
+          "bytes": 16683,
+          "member": "cutoff15_20261017/fourier/auxiliary14_19_readback_v1/readback.py",
+          "sha256": "264aedd06c8ec0075bce788fa5622bf67c793a51f37fc33150c43e26d19f176d"
+        }
+      ],
+      "source_and_capture_epoch_not_sealed": true
+    },
+    {
+      "actions": [
+        "run.py plan LABEL",
+        "run.py construct LABEL ABS_PLAN",
+        "run.py replay LABEL ABS_PLAN",
+        "readback.py ABS_FRESH_REQUEST"
+      ],
+      "family": "supported14_19",
+      "historical_strip_count_required_by_inspected_readback": false,
+      "indices_per_strip": 6,
+      "lane": "57",
+      "readback_source_gates": [
+        {
+          "line": 18,
+          "text": "MANIFEST_SHA = '9711da0e2e3cb84bbd4d97f5f2bcdff2cf330f1d4596a8c9fa79cd7bb43c13d2'"
+        },
+        {
+          "line": 182,
+          "text": "need(type(result['rows']) is list and len(result['rows']) == 6 * len(strips), 'all six-index rows')"
+        },
+        {
+          "line": 302,
+          "text": "def main():"
+        },
+        {
+          "line": 304,
+          "text": "need(len(sys.argv) == 2, 'one source-bound request')"
+        },
+        {
+          "line": 314,
+          "text": "need(digest(plan_path) == request['plan_sha256'] and digest(manifest_path) == request['manifest_sha256'] == MANIFEST_SHA, 'approved plan/manifest')"
+        },
+        {
+          "line": 317,
+          "text": "need(len(graph) == 82 and all(type(v) is str and len(v) == 64 for v in graph.values()), 'fixed complete source graph')"
+        },
+        {
+          "line": 325,
+          "text": "maxima = validate_result(construction, plan, request['plan_sha256'], MANIFEST_SHA)"
+        },
+        {
+          "line": 326,
+          "text": "need(validate_result(replay, plan, request['plan_sha256'], MANIFEST_SHA) == maxima, 'replay maxima')"
+        },
+        {
+          "line": 328,
+          "text": "negatives = controls(plan, construction, request['plan_sha256'], MANIFEST_SHA)"
+        },
+        {
+          "line": 334,
+          "text": "strips={b['name']: len(b['strips']) for b in plan['bands']}, exact_rows=len(construction['rows']), attempts=len(construction['attempts']),"
+        }
+      ],
+      "requires_new_untrusted_plan": true,
+      "run_source_gates": [
+        {
+          "line": 10,
+          "text": "action,label=sys.argv[1:3];assert action in('plan','construct','replay')and label.isidentifier()"
+        },
+        {
+          "line": 15,
+          "text": "if action=='plan':command=[sys.executable,'-B','planner.py',str(out/'PLAN.json')]"
+        },
+        {
+          "line": 18,
+          "text": "command=[sys.executable,'-B','protocol.py',action,str(p),str(out/'RESULT.json')]"
+        },
+        {
+          "line": 20,
+          "text": "data=dict(command=command,cwd=str(H),input_sha256=files,python=sys.version,platform=platform.platform(),started_utc=datetime.now(timezone.utc).isoformat())"
+        },
+        {
+          "line": 21,
+          "text": "start=time.monotonic();p=subprocess.run(command,cwd=H,text=True,capture_output=True)"
+        }
+      ],
+      "source": [
+        {
+          "bytes": 2106,
+          "member": "cutoff15_20261017/fourier/supported14_19_v1/run.py",
+          "sha256": "a3ae2ae706ab7d3b9452c544b3e44c88c2482562ac7b9fe897528f52ce854fff"
+        },
+        {
+          "bytes": 6641,
+          "member": "cutoff15_20261017/fourier/supported14_19_v1/protocol.py",
+          "sha256": "c9540a3ecec850593fccf11a466f9b95c0efc64d0e9950adc5e2ae7c77ec7e3b"
+        },
+        {
+          "bytes": 18409,
+          "member": "cutoff15_20261017/fourier/supported14_19_readback_v1/readback.py",
+          "sha256": "a2cb043a33ca5f8cb99adddcd7fd446956b6105d463d5349f1b10ea8829c008f"
+        }
+      ],
+      "source_and_capture_epoch_not_sealed": true
+    },
+    {
+      "actions": [
+        "run.py plan LABEL",
+        "run.py construct LABEL ABS_PLAN",
+        "run.py replay LABEL ABS_PLAN",
+        "readback.py ABS_FRESH_REQUEST"
+      ],
+      "family": "highrho14_19",
+      "historical_strip_count_required_by_inspected_readback": false,
+      "indices_per_strip": 6,
+      "lane": "57",
+      "readback_source_gates": [
+        {
+          "line": 138,
+          "text": "need(type(result['rows']) is list and len(result['rows']) == 6 * len(strips), 'all six indices in every strip')"
+        },
+        {
+          "line": 271,
+          "text": "def main():"
+        },
+        {
+          "line": 273,
+          "text": "need(len(sys.argv) == 2, 'one source-bound request')"
+        },
+        {
+          "line": 302,
+          "text": "n=NS, finite_rho=['33/25', '19/10'], target=str(TARGET), strips=len(plan['strips']), exact_rows=len(construction['rows']), attempts=len(construction['attempts']),"
+        }
+      ],
+      "requires_new_untrusted_plan": true,
+      "run_source_gates": [
+        {
+          "line": 10,
+          "text": "action,label=sys.argv[1:3];assert action in('plan','construct','replay')and label.isidentifier()"
+        },
+        {
+          "line": 15,
+          "text": "if action=='plan':command=[sys.executable,'-B','planner.py',str(out/'PLAN.json')]"
+        },
+        {
+          "line": 18,
+          "text": "command=[sys.executable,'-B','protocol.py',action,str(p),str(out/'RESULT.json')]"
+        },
+        {
+          "line": 20,
+          "text": "data=dict(command=command,cwd=str(H),input_sha256=files,python=sys.version,platform=platform.platform(),started_utc=datetime.now(timezone.utc).isoformat())"
+        },
+        {
+          "line": 21,
+          "text": "start=time.monotonic();p=subprocess.run(command,cwd=H,text=True,capture_output=True)"
+        }
+      ],
+      "source": [
+        {
+          "bytes": 2089,
+          "member": "cutoff15_20261017/fourier/highrho14_19_v1/run.py",
+          "sha256": "940487d824b563342084b9b61b15b1e330326957ac1564fc47919cd618d8b9d1"
+        },
+        {
+          "bytes": 6415,
+          "member": "cutoff15_20261017/fourier/highrho14_19_v1/protocol.py",
+          "sha256": "b7f7925fee43160b98361af74aad8fcc02b9f79c2f4956a914793ec3f977234a"
+        },
+        {
+          "bytes": 16421,
+          "member": "cutoff15_20261017/fourier/highrho14_19_readback_v1/readback.py",
+          "sha256": "2600e7ab39a9b8b137ce6c6927b411bd92caf2d5a2fc3841bb4e6f2a1b15f1cd"
+        }
+      ],
+      "source_and_capture_epoch_not_sealed": true
+    }
+  ],
+  "sharp21_24_entry_families": [
+    {
+      "gates": [
+        {
+          "line": 79,
+          "text": "return enc(dict(status='CONDITIONAL_ACTUAL_INDEX_INITIAL_FULL_CANDIDATE',request=req,beta_upper=beta,support=sp,profile=profile,stages=stages,export=export,final_invariants=dict(raw=raw,D=d),predecessor_verified=False,owncap_source='Retained separate actual-index universal auxiliary Fourier ceiling419/1000.',sharp20_proved=False,cutoff20_proved=False,source_freeze_sha256=sha(HERE/'FROZEN_SOURCES.json')))"
+        },
+        {
+          "line": 91,
+          "text": "need(__debug__ and sys.flags.dont_write_bytecode and not sys.flags.optimize and len(sys.argv)==5,'ordinary -B action n band review')"
+        },
+        {
+          "line": 106,
+          "text": "result=dict(status='PASS_FRESH_FULL_CONDITIONAL_ACTUAL21_24_INITIAL_REPLAY',n=n,band=band,request=expected['request'],candidate_sha256=sha(candidate_path),source_freeze_sha256=sha(HERE/'FROZEN_SOURCES.json'),source_review_sha256=sha(review_path),negative_controls=negative,final_invariants=expected['final_invariants'],fresh_support_calls=1,fresh_complete_signed_covers=9,signed_cells_per_cover=2592,original_probability_panels=100,predecessor_verified=False,sharp20_proved=False,cutoff20_proved=False,elapsed_seconds=time.monotonic()-start)"
+        }
+      ],
+      "source": {
+        "bytes": 7937,
+        "member": "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/initial.py",
+        "sha256": "dfef3a7bff3139f217d875193a06cea628e71bf80beb1f3f781a40a0364ff06e"
+      }
+    },
+    {
+      "gates": [
+        {
+          "line": 40,
+          "text": "need(a['candidate_sha256']==sha(candidate) and a['source_freeze_sha256']==INITIAL_FREEZE and z['source_freeze_sha256']==INITIAL_FREEZE,'accepted actual candidate identity')"
+        },
+        {
+          "line": 44,
+          "text": "need(initial_review['status']=='PASS_INDEPENDENT_CONDITIONAL_21_24_INITIAL_SOURCE_REVIEW' and a['source_review_sha256']==sha(INITIAL_REVIEW),'actual INITIAL source-review edge')"
+        },
+        {
+          "line": 62,
+          "text": "cap=INITIAL/'captures'/f'n{n}_{band}_{action}';meta=read(cap/'EXECUTION.json')"
+        },
+        {
+          "line": 64,
+          "text": "need(meta['n']==n and meta['band']==band and meta['action']==action and meta['source_freeze_sha256']==INITIAL_FREEZE,'literal INITIAL captured action')"
+        },
+        {
+          "line": 65,
+          "text": "need(type(meta['n'])is int and meta['source_review_sha256']==sha(INITIAL_REVIEW),'typed captured n and source-review edge')"
+        },
+        {
+          "line": 67,
+          "text": "need(meta['result_sha256']==sha(output),'captured INITIAL output identity')"
+        },
+        {
+          "line": 81,
+          "text": "need(__debug__ and sys.flags.dont_write_bytecode and not sys.flags.optimize and len(sys.argv)==5,'ordinary-B action n band review')"
+        },
+        {
+          "line": 116,
+          "text": "receipt=dict(status='PASS_FRESH_FULL_CONDITIONAL_ACTUAL21_24_RESOURCE_REPLAY',n=n,band=band,candidate_sha256=sha(cp),rows=rows,status_counts=output['status_counts'],negative_controls=controls,timings_seconds=timings,files_sha256=graph,predecessor_verified=False,global_bound_proved=False,cutoff20_proved=False)"
+        }
+      ],
+      "source": {
+        "bytes": 11749,
+        "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/resources_v2.py",
+        "sha256": "27604e7db2e1cf6efce0fcdef6217f1126459d7f16cd6964919380d41b261114"
+      }
+    },
+    {
+      "gates": [
+        {
+          "line": 57,
+          "text": "source_freeze_sha256=sha(HERE/'FROZEN_SOURCES.json'),global_predecessors_verified=False,"
+        },
+        {
+          "line": 58,
+          "text": "historical_fourier_replayed=False,sharp20_proved=False,cutoff20_proved=False)"
+        },
+        {
+          "line": 74,
+          "text": "need(__debug__ and sys.flags.dont_write_bytecode and not sys.flags.optimize and len(sys.argv)==3,'ordinary -B action review')"
+        },
+        {
+          "line": 85,
+          "text": "source_freeze_sha256=sha(HERE/'FROZEN_SOURCES.json'),source_review_sha256=sha(rp),actual_n=[21,22,23,24],fresh_support_calls=4,"
+        },
+        {
+          "line": 86,
+          "text": "negative_controls=negative,excluded_rho=expected['excluded_rho'],remaining_rho=expected['remaining_rho'],remaining_upper_endpoint_open=True,"
+        },
+        {
+          "line": 87,
+          "text": "global_predecessors_verified=False,historical_fourier_replayed=False,sharp20_proved=False,cutoff20_proved=False,elapsed_seconds=time.monotonic()-tick)"
+        }
+      ],
+      "source": {
+        "bytes": 6846,
+        "member": "continuation_cutoff20_20261016/root/bridge21_24_high_rho_v1/check.py",
+        "sha256": "66e161ed48acb1b51d818a94d878d7c71d4ee521c51282d43e264afb2a8adaf4"
+      }
+    }
+  ],
+  "sharp31_compose_source": {
+    "bytes": 11647,
+    "member": "continuation_20261010/repair31/compose_sharp31_v2.py",
+    "sha256": "7a464e356589e0895514d08c8da555c884a3f4be567ec29994bcc6b48012d52d"
+  },
+  "sharp31_uniform_resource_compositions": [
+    {
+      "actual_indices": [
+        32,
+        33,
+        34
+      ],
+      "actual_support_proofs": 93,
+      "branch": 0,
+      "floor_n": 31,
+      "probability_panels": 100,
+      "resource_composition_is_not_fresh_floor31_arithmetic": true,
+      "rho_interval": [
+        "1",
+        "11/10"
+      ],
+      "source": {
+        "bytes": 213090,
+        "member": "continuation_20261010/shared/bridge_b0_resources/UNIFORM_B0_RESOURCES_CHECKED.json",
+        "sha256": "29b22ef936b9bfaf60bb82287c57a25d861f92cc4c5be496d16adebb57f0cf58"
+      },
+      "surviving_panels": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "actual_indices": [
+        32,
+        33,
+        34
+      ],
+      "actual_support_proofs": 102,
+      "branch": 1,
+      "floor_n": 31,
+      "probability_panels": 100,
+      "resource_composition_is_not_fresh_floor31_arithmetic": true,
+      "rho_interval": [
+        "11/10",
+        "6/5"
+      ],
+      "source": {
+        "bytes": 221863,
+        "member": "continuation_20261010/shared/bridge_b12_resources/UNIFORM_B1_RESOURCES_CHECKED.json",
+        "sha256": "c4a23b32b61b99faaceff8e53f95847ad52bc01c0898a4a5a6b671edc7f7536f"
+      },
+      "surviving_panels": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "actual_indices": [
+        32,
+        33,
+        34
+      ],
+      "actual_support_proofs": 162,
+      "branch": 2,
+      "floor_n": 31,
+      "probability_panels": 100,
+      "resource_composition_is_not_fresh_floor31_arithmetic": true,
+      "rho_interval": [
+        "6/5",
+        "13/10"
+      ],
+      "source": {
+        "bytes": 208420,
+        "member": "continuation_20261010/shared/bridge_b12_resources/UNIFORM_B2_RESOURCES_CHECKED.json",
+        "sha256": "6a66751903ef648da190e1301e3edabdfa8ceb305c50328aaee8534a51f94986"
+      },
+      "surviving_panels": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "actual_indices": [
+        32,
+        33,
+        34
+      ],
+      "actual_support_proofs": 126,
+      "branch": 3,
+      "floor_n": 31,
+      "probability_panels": 100,
+      "resource_composition_is_not_fresh_floor31_arithmetic": true,
+      "rho_interval": [
+        "13/10",
+        "7/5"
+      ],
+      "source": {
+        "bytes": 52600,
+        "member": "continuation_20261010/shared/bridge_b3_resources/UNIFORM_B3_RESOURCES_CHECKED.json",
+        "sha256": "da31153877a8299ce02a45a55fb6cfeff00d0cf3f5394c07b5c624296616b93d"
+      },
+      "surviving_panels": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "actual_indices": [
+        32,
+        33,
+        34
+      ],
+      "actual_support_proofs": 201,
+      "branch": 4,
+      "floor_n": 31,
+      "probability_panels": 100,
+      "resource_composition_is_not_fresh_floor31_arithmetic": true,
+      "rho_interval": [
+        "7/5",
+        "3/2"
+      ],
+      "source": {
+        "bytes": 48673,
+        "member": "continuation_20261010/shared/bridge_b4_resources/UNIFORM_B4_RESOURCES_CHECKED.json",
+        "sha256": "c3537cf1139f8ee0d41aec8eb9769f6a036d05cb8eab4a77909e389a878ec579"
+      },
+      "surviving_panels": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "actual_indices": [
+        32,
+        33,
+        34
+      ],
+      "actual_support_proofs": 408,
+      "branch": 5,
+      "floor_n": 31,
+      "probability_panels": 100,
+      "resource_composition_is_not_fresh_floor31_arithmetic": true,
+      "rho_interval": [
+        "3/2",
+        "33/20"
+      ],
+      "source": {
+        "bytes": 99265,
+        "member": "continuation_20261010/repair31/highrho_uniform_bridge/UNIFORM_B5_RESOURCES_CHECKED.json",
+        "sha256": "1a0fae53e06a05d85729bd91475f34ac7cc937c9cb46d715d6f6fd0fcc32b279"
+      },
+      "surviving_panels": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "actual_indices": [
+        32,
+        33,
+        34
+      ],
+      "actual_support_proofs": 315,
+      "branch": 6,
+      "floor_n": 31,
+      "probability_panels": 100,
+      "resource_composition_is_not_fresh_floor31_arithmetic": true,
+      "rho_interval": [
+        "33/20",
+        "7/4"
+      ],
+      "source": {
+        "bytes": 68934,
+        "member": "continuation_20261010/repair31/highrho_uniform_bridge/UNIFORM_B6_RESOURCES_CHECKED.json",
+        "sha256": "2e785993fd346bacf7ca69e9540616d3aca94dd6839d2b3de760d74537e99a23"
+      },
+      "surviving_panels": [
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "actual_indices": [
+        32,
+        33,
+        34
+      ],
+      "actual_support_proofs": 306,
+      "branch": 7,
+      "floor_n": 31,
+      "probability_panels": 100,
+      "resource_composition_is_not_fresh_floor31_arithmetic": true,
+      "rho_interval": [
+        "7/4",
+        "7361/4000"
+      ],
+      "source": {
+        "bytes": 109511,
+        "member": "continuation_20261010/repair31/highrho_uniform_bridge/UNIFORM_B7_RESOURCES_CHECKED.json",
+        "sha256": "ef92cfcbff1ecd48dfe97263ca7a4522a105d2f762e3b0721df7a0d3bbef52d0"
+      },
+      "surviving_panels": [
+        18,
+        19
+      ]
+    }
+  ],
+  "unsealed_lanes": [
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63"
+  ]
+}

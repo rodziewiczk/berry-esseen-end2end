@@ -1,0 +1,521 @@
+{
+  "schema": "INTERNAL_N25_P24_POINTWISE_SOURCE_AUDIT_V1",
+  "date": "2026-10-24",
+  "review_kind": "Fallible internal AI source and hand-algebra review, not external verification",
+  "fresh_arithmetic_accepted": false,
+  "original_math_imported_or_executed": false,
+  "archives": {
+    "old": {
+      "basename": "cutoff25_20261011.zip",
+      "bytes": 514958998,
+      "sha256": "17fa140f63c5134ac48f1fd1040f4c5ae4bebdb2b92b2d7ce69f4048293d1fcb"
+    },
+    "base13": {
+      "basename": "cutoff25_20261013.zip",
+      "bytes": 529557492,
+      "sha256": "a97f3e6e50e428df0893304bcd2f746851c9fccef2079b1ec66be9ab909d7f2c"
+    }
+  },
+  "selector": {
+    "member": "cutoff25_20261013/root/global25_final_v2/GLOBAL_C25_COMPLETE_JOINED_V1.json",
+    "sha256": "abae7a25b9b82d8b0dd0fc691d33944038d2ffc6707c6f387561f8f17437563d",
+    "purpose": "Historical exact source selector only; not a new theorem or computation receipt"
+  },
+  "sources": [
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/low/p24_mixed_acceptance_v1/accept.py",
+      "sha256": "2bb29687d4f8ca61bcd55edccf478379b840100dcc440a8c825fcd656ba92db7",
+      "bytes": 3159,
+      "lines": 40,
+      "read_scope": "Full acceptance writer, source gates, positive/negative replay accounting",
+      "line_ranges": [
+        [
+          8,
+          38
+        ]
+      ],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true,
+      "historical_status_is_not_fresh_acceptance": true
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/low/p24_mixed_acceptance_v1/protocol.py",
+      "sha256": "8106bd70ca3c588989153e56998946dff4043bf9c91c237949c10878af410555",
+      "bytes": 9543,
+      "lines": 132,
+      "read_scope": "Full preflight and controls; complete closed-cover structure",
+      "line_ranges": [
+        [
+          24,
+          90
+        ],
+        [
+          97,
+          132
+        ]
+      ],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true,
+      "historical_status_is_not_fresh_acceptance": true
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/low/p24_mixed_acceptance_v1/PROOF.txt",
+      "sha256": "ba988e2ce8a92c3ab4a20faad34e74bff524f7bbfeaf772a943ccb0ebc702aa9",
+      "bytes": 4805,
+      "lines": 79,
+      "read_scope": "Mixed finite proof rule, ordinary/theorem distinction",
+      "line_ranges": [
+        [
+          1,
+          79
+        ]
+      ],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true,
+      "historical_status_is_not_fresh_acceptance": true
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/low/p24_static_pointwise_v1/mixed.py",
+      "sha256": "365bb7f69610907c3778bc744b2d0f7f8e2be8601f5a89706a3b7e413b2556ed",
+      "bytes": 9411,
+      "lines": 139,
+      "read_scope": "Full ordinary/E replay and immutable source/contract admission",
+      "line_ranges": [
+        [
+          54,
+          139
+        ]
+      ],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true,
+      "historical_status_is_not_fresh_acceptance": true
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/low/p24_static_pointwise_v1/e_registry.py",
+      "sha256": "5e8fa6ae6bf5e1622ff6e1a911ba41dbbca7943a296e1520e885f43ee0f599fa",
+      "bytes": 6626,
+      "lines": 78,
+      "read_scope": "Full acquired E binding and single-rectangle closed containment",
+      "line_ranges": [
+        [
+          41,
+          78
+        ]
+      ],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true,
+      "historical_status_is_not_fresh_acceptance": true
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/low/p24_static_pointwise_v1/E_DOMAINS.json",
+      "sha256": "d7d28775c29789746382cb2db4024a55c90ff0f14b01e4a4bc158c1321c98dd5",
+      "bytes": 3404,
+      "lines": 162,
+      "read_scope": "Exact eight law boxes and labels; metadata only",
+      "line_ranges": [],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true,
+      "historical_status_is_not_fresh_acceptance": true
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/b5/p24_pointwise_acquisition_v1/acquire.py",
+      "sha256": "90b96b62edbc2a92c09af4144f1b9eb96b5ec5241725464bfee4045b85483ed7",
+      "bytes": 9921,
+      "lines": 111,
+      "read_scope": "Whole caller, resource evidence readback, physical interface and eight fresh scalar calls",
+      "line_ranges": [
+        [
+          36,
+          106
+        ]
+      ],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true,
+      "historical_status_is_not_fresh_acceptance": true
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/b5/p24_pointwise_acquisition_v1/PROOF.txt",
+      "sha256": "6950253364fdd47a798c6ace8ba04e021cb4a1d2846985bf7e6b4bf104efc380",
+      "bytes": 4774,
+      "lines": 78,
+      "read_scope": "Conditional same-law acquisition argument",
+      "line_ranges": [
+        [
+          1,
+          78
+        ]
+      ],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true,
+      "historical_status_is_not_fresh_acceptance": true
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/b5/coarse_pointwise_application_review_v1/application.py",
+      "sha256": "400de430897cb50c748c2972808141aef65f089f4043937cd97de08d027aed89",
+      "bytes": 5828,
+      "lines": 116,
+      "read_scope": "Full direct argument derivation; reconstruction utilities are source-read only",
+      "line_ranges": [
+        [
+          24,
+          56
+        ],
+        [
+          58,
+          116
+        ]
+      ],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true,
+      "historical_status_is_not_fresh_acceptance": true
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/low/pointwise_inward_defect_v2/pointwise_inward_v2.py",
+      "sha256": "9c8b78578dcdef7863dc933bc142eb2c9b1b4f5e29fd49cca7497a2f4a4fbde3",
+      "bytes": 4280,
+      "lines": 74,
+      "read_scope": "Full strict data gate, inward monotonicity, normalized endpoints, signed division and outward rho cap",
+      "line_ranges": [
+        [
+          7,
+          74
+        ]
+      ],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true,
+      "historical_status_is_not_fresh_acceptance": true
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/low/pointwise_inward_defect_v2/pointwise_interval_v2.py",
+      "sha256": "aeb610b681466f6b2c729866462cb3a5767145614f5000509a992a5d0e5c41a5",
+      "bytes": 3280,
+      "lines": 74,
+      "read_scope": "Exact interval primitives lines5-29 only; unrelated support-to-rho algorithm below29 is not claimed reviewed here",
+      "line_ranges": [
+        [
+          5,
+          29
+        ]
+      ],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true,
+      "historical_status_is_not_fresh_acceptance": true
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/low/pointwise_inward_defect_v2/pointwise_normalized_v2.py",
+      "sha256": "7be31c1149ca44f1a118adae32cc72713f21fa7020afacd1b6e86c7964481e35",
+      "bytes": 3865,
+      "lines": 76,
+      "read_scope": "variance lines5-8 only; other normalized algorithm is not used by selected pointwise caller",
+      "line_ranges": [
+        [
+          5,
+          8
+        ]
+      ],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true,
+      "historical_status_is_not_fresh_acceptance": true
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/low/pointwise_inward_defect_v2/PROOF.txt",
+      "sha256": "8a54f0d258a092e1ab8af2a48125852b5c0b2fa59d7aab41676bd47ec7749a81",
+      "bytes": 3667,
+      "lines": 58,
+      "read_scope": "Port and strict interface boundary",
+      "line_ranges": [
+        [
+          1,
+          58
+        ]
+      ],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true,
+      "historical_status_is_not_fresh_acceptance": true
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/low/pointwise_inward_defect_review_v1/PROOF.txt",
+      "sha256": "74cb0e45edcc505ada1c6d123aecd828a75130478a812bc7ca23e4867e0a4e62",
+      "bytes": 6503,
+      "lines": 120,
+      "read_scope": "Original inward-defect lemma and all its stated physical premises",
+      "line_ranges": [
+        [
+          1,
+          120
+        ]
+      ],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true,
+      "historical_status_is_not_fresh_acceptance": true
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/root/local_contact_rho_regional_v1/compose.py",
+      "sha256": "faae2cdd734e67a4827a5c271d664992fa5a4177aeedd5a4a330434c4c950bc8",
+      "bytes": 8451,
+      "lines": 113,
+      "read_scope": "Full selected-extension and acquisition/calculate caller boundary",
+      "line_ranges": [
+        [
+          18,
+          92
+        ]
+      ],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true,
+      "historical_status_is_not_fresh_acceptance": true
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/new_audit/compose_lower25_regional_v6.py",
+      "sha256": "028d507abcb35ae1b1fcd7a4cb8cbd2bab3416fee9a7d5624d1ac99b69fe2ca3",
+      "bytes": 10075,
+      "lines": 131,
+      "read_scope": "Selected whole p32/closed regional proof and source/log interfaces",
+      "line_ranges": [
+        [
+          23,
+          96
+        ]
+      ],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true,
+      "historical_status_is_not_fresh_acceptance": true
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/new_audit/compose_lower25_complete_v1.py",
+      "sha256": "483198e77dd3ce5fb0103e744dfe87448bab8788f11a13bdc0731d4f632f1347",
+      "bytes": 26292,
+      "lines": 263,
+      "read_scope": "Physical same-law resource map and actual readback-only calculate boundary",
+      "line_ranges": [
+        [
+          108,
+          236
+        ]
+      ],
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true,
+      "historical_status_is_not_fresh_acceptance": true
+    }
+  ],
+  "manuscript": {
+    "basename": "berry_esseen_manuscript.tex",
+    "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+    "line_ranges": [
+      [
+        4216,
+        4310
+      ]
+    ],
+    "purpose": "Physical before-cubic D half-plane and conserved third-moment identity"
+  },
+  "active_scalar_helpers": [
+    {
+      "function": "sqrt_interval",
+      "lines": [
+        24,
+        29
+      ],
+      "ast_sha256": "c5a973bd0396c3a44bf3aa84c8ad88efdb539e4e1fa74fdfe98c5b2bfc496781"
+    },
+    {
+      "function": "variance",
+      "lines": [
+        5,
+        8
+      ],
+      "ast_sha256": "96fdec9abaafac76015e6154585bbf4f6b04e72afa18486120c648a1ad0e88ce"
+    }
+  ],
+  "e_statements": [
+    {
+      "claim_id": "B5_P24_DIRECT_POINTWISE_RECORD_13_V1",
+      "law_box": [
+        [
+          "99/400",
+          "1/4"
+        ],
+        [
+          "130433/400000",
+          "2217361/6400000"
+        ],
+        [
+          "1/4",
+          "1/2"
+        ]
+      ],
+      "rho_upper": "1499665313/1000000000",
+      "source_scalar_record": 13
+    },
+    {
+      "claim_id": "B5_P24_DIRECT_POINTWISE_RECORD_22_V1",
+      "law_box": [
+        [
+          "6/25",
+          "49/200"
+        ],
+        [
+          "2217361/6400000",
+          "1173897/3200000"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "rho_upper": "1499795001/1000000000",
+      "source_scalar_record": 22
+    },
+    {
+      "claim_id": "B5_P24_DIRECT_POINTWISE_RECORD_27_V1",
+      "law_box": [
+        [
+          "49/200",
+          "1/4"
+        ],
+        [
+          "2217361/6400000",
+          "1173897/3200000"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "rho_upper": "373409907/250000000",
+      "source_scalar_record": 27
+    },
+    {
+      "claim_id": "B5_P24_DIRECT_POINTWISE_RECORD_28_V1",
+      "law_box": [
+        [
+          "6/25",
+          "1/4"
+        ],
+        [
+          "1173897/3200000",
+          "130433/320000"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "rho_upper": "1488047847/1000000000",
+      "source_scalar_record": 28
+    },
+    {
+      "claim_id": "B5_P24_DIRECT_POINTWISE_RECORD_31_V1",
+      "law_box": [
+        [
+          "6/25",
+          "49/200"
+        ],
+        [
+          "130433/320000",
+          "1434763/3200000"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "rho_upper": "1463478621/1000000000",
+      "source_scalar_record": 31
+    },
+    {
+      "claim_id": "B5_P24_DIRECT_POINTWISE_RECORD_32_V1",
+      "law_box": [
+        [
+          "49/200",
+          "1/4"
+        ],
+        [
+          "130433/320000",
+          "1434763/3200000"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "rho_upper": "182205377/125000000",
+      "source_scalar_record": 32
+    },
+    {
+      "claim_id": "B5_P24_DIRECT_POINTWISE_RECORD_34_V1",
+      "law_box": [
+        [
+          "6/25",
+          "49/200"
+        ],
+        [
+          "1434763/3200000",
+          "391299/800000"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "rho_upper": "180013881/125000000",
+      "source_scalar_record": 34
+    },
+    {
+      "claim_id": "B5_P24_DIRECT_POINTWISE_RECORD_35_V1",
+      "law_box": [
+        [
+          "49/200",
+          "1/4"
+        ],
+        [
+          "1434763/3200000",
+          "391299/800000"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "rho_upper": "1434473129/1000000000",
+      "source_scalar_record": 35
+    }
+  ],
+  "missing_original_native_members": [
+    {
+      "member": "cutoff25_20261011/new_root/global_local_contact_b5_p24_v14/count_protocol.py",
+      "absent_in_both_supplied_archives": true
+    },
+    {
+      "member": "cutoff25_20261011/new_root/global_local_contact_b5_p24_v14/contract.json",
+      "absent_in_both_supplied_archives": true
+    },
+    {
+      "member": "cutoff25_20261011/new_root/global_local_contact_b5_p24_v14/KERNEL_COPY_MANIFEST.json",
+      "absent_in_both_supplied_archives": true
+    }
+  ],
+  "scope_limits": [
+    "Full original p24 V14 native capsule not supplied at its selected canonical path; ordinary kernel instance cannot be concluded from this unit.",
+    "p25 ABCDF mixed proof rules are not reviewed in this unit.",
+    "Archived INITIAL/global receipt and log readback is not fresh execution of their numerical acceptors.",
+    "Eight E scalar calls exist in original acquisition code but were not executed in this audit."
+  ]
+}
