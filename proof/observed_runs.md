@@ -367,3 +367,22 @@ last pending16/14. Pending-frontier size does not bound future descendants.
 No error/guard stop or complete candidate/native acceptance appears in these
 supplied lines. Approximately400--450new closed leaves/hour describes those
 intervals only, not a completion estimate.
+
+## New PREFIX2 final logs:02 B4q0 and04 B4q2
+
+The later02 log has SHA-256
+`cf222324bac7602d7b1fd912398d29596549e9e6d76780750b51383d4757d6b2`.
+Search completes6966leaves/13906nodes/pending0 at18:17:48UTC; separate native
+replay reports `regional_count_arithmetic_accepted` at18:54:43UTC. The saved
+bundle is `b4-q0/20261023T173533Z-3c55a3cd/20261023T173533Z-3c55a3cd-results.zip`.
+
+The later04 log has SHA-256
+`5e40041a0fd9f789f33f70717a046da2e91c64f7f46c31f3aaf1a72d5c94d8f6`.
+Search completes8780leaves/17534nodes/pending0 at17:58:57UTC; separate native
+replay reports scoped arithmetic acceptance at18:59:12UTC. The bundle is
+`b4-q2/20261023T173624Z-bc1358b0/20261023T173624Z-bc1358b0-results.zip`.
+
+Together with the03/05 logs, this reports all four B4 quarters accepted,
+29341closed leaves in total. These remain supplied-log observations. The
+actual four exports must still be revalidated and joined to their fresh
+parent/resources by collector24. No B3, full n25 or all-index result is inferred.

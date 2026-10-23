@@ -38,7 +38,7 @@ Log completion is not independent bundle validation.
 
 | Notebooks | Latest established scope |
 |---|---|
-|01--07 PREFIX2 resume|Lossless migration checked on all7 saved exports. New supplied logs confirm final scoped native acceptance for03 B4q1 (6304leaves) and05 B4q3 (7291leaves).04 had reached full replay.06/07 continue candidate search; other completions are not inferred.|
+|01--07 PREFIX2 resume|Lossless migration checked on all7 saved exports. Supplied logs confirm scoped native acceptance for all four B4 quarters:02 q0 (6966leaves),03 q1 (6304),04 q2 (8780),05 q3 (7291).06/07 continue candidate search;01 completion is not inferred.|
 |08|Actual n2/n3 export inspected; scoped analytic/checker reviews recorded.|
 |09/10,13,14/15|Complete scoped arithmetic in inspected logs; exports have a separate revalidation boundary.|
 |11|First full ROOT4 pass finished260/260classes with no unresolved case. Second full replay last reports228closed classes/currentgrid228; no final acceptance yet.|
