@@ -386,3 +386,18 @@ Together with the03/05 logs, this reports all four B4 quarters accepted,
 29341closed leaves in total. These remain supplied-log observations. The
 actual four exports must still be revalidated and joined to their fresh
 parent/resources by collector24. No B3, full n25 or all-index result is inferred.
+
+## Notebook06: complete discovery, full native replay started
+
+The next supplied log has SHA256
+`30074e6f4a66cd2df11d2614f70b4e88cc83919e462a69e42fef81f3b71182e1`.
+Target `b3-p31-v14-new` finishes discovery at19:12:09UTC
+(21:12:09 Europe/Warsaw) with2819leaves,5612nodes and pending0. Its status is
+`CANDIDATE_COMPLETE_NOT_ACCEPTED`. A separate `new_epoch_native_replay_started`
+event selects all26roots immediately afterwards. The last supplied native
+progress reaches100.676seconds without an error or guard stop, with sampled
+RSS178847744bytes below the2GiB budget.
+
+This is a transition to full replay, not final acceptance. The observed
+`proof_accepted=false` is consistent with the ongoing stage. No completed
+native receipt, final result ZIP or full n25 conclusion is inferred.
