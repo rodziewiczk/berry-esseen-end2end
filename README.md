@@ -43,7 +43,15 @@ The [remaining n25 scope](proof/n25_completion_scope.md) and
 [selected regional input inventory](proof/n25_regional_selection.json) keep
 the other n25 domains explicit.
 
-The three-hour setting in notebooks 01–07 is a search budget, not a completion estimate. A complete tree still requires a separate full acceptor run. An unfinished tree is checkpointed for a compatible rerun.
+Queued notebooks26–28 freshly replay75 already complete retained B0--B2 count
+forests,94,288 leaves. Each batch saves and fully revalidates completed stages
+across sessions. These are additional conditional count components, with
+parent/local resources and analytic implications still separate. See the
+[retained execution scope](proof/retained_n25_execution.md).
+
+The current12-hour settings in RESTART01–07 are budgets, not completion estimates.
+A complete tree still requires a separate full acceptor run. An unfinished tree
+is checkpointed for a compatible rerun.
 
 Account authentication is performed by the user. VM-local work and durable checkpoint storage must use distinct paths. A timeout preserves an incomplete candidate; it never produces a certificate.
 
@@ -56,6 +64,11 @@ Earlier papers: [v1](https://hexagonmath.org/2610.00147v1), [v2](https://hexagon
 Only necessary frozen code belongs under `vendor/`. Each imported byte is hash-bound and retains its original attribution. Archives, generated trees and runtime logs are excluded from Git; accepted reproducibility assets will be published separately.
 
 ## Proof and paper
+
+The [remaining-work roadmap](proof/remaining_work_roadmap.md) distinguishes the
+current notebook queue from the complete theorem. The total number of remaining
+notebooks is not yet established; several finite-range and analytic obligations
+still need an executable source/acquisition map.
 
 `proof/obligations.json` records the proof graph and unresolved edges. `proof/analytic_audit.md` records the initial analytic review; [the small-index review](proof/small_indices_analytic_review.md), [primary-source statement checks](proof/literature_inputs.md), and [the direct pointwise Prawitz proof](proof/prawitz_majorant_review.md) add the subsequent findings. A new concise English paper will follow the verified minimal graph, with explicit literature inputs and no unsupported all-index completion claim.
 

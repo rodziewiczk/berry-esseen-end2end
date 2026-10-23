@@ -43,6 +43,13 @@ Google may first ask you to authorize backups to your Drive. Results are saved u
 | 17–22 | Stronger24 branches B0–B5: full global/local resources and 53 forests, 57,453 leaves |
 | 23 | Import and revalidate all nine completed auxiliary jobs, then check the conditional numerical chain |
 | 24 | Revalidate completed 01–07 and 09/10 exports and their seven conditional n25 resource-to-count interfaces |
+| 26–28 | Fresh native replay of75 complete retained B0/B1/B2 count forests,94,288 leaves; completed stages survive reruns |
+
+Queued26–28 run one branch batch per session when capacity is available. They
+automatically advance through17/35/23 forests and save each accepted stage on
+Drive. Reruns fully revalidate completed stage ZIPs before reusing them. They do
+not replace or interrupt01–07, and their count-only result does not acquire the
+parent resources or finish n25. See [the retained-count execution scope](../proof/retained_n25_execution.md).
 
 In the current RESTART01–07 set, the first short slice continues the restored candidate. Subsequent30-minute slices use up to12 hours of search allocation. A complete candidate triggers a separate fresh native acceptor. An incomplete result preserves its checkpoints. Rerunning the same current notebook finds the compatible saved candidate and rechecks its source bindings before resuming. A missing cache is an explicit incomplete error, never a silent fresh-root restart.
 
