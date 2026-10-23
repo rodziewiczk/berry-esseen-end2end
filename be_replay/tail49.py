@@ -28,9 +28,10 @@ import zipfile
 
 MIB = 1024**2
 DEFAULT_MEMORY_BYTES = 2048*MIB
+MAX_MEMORY_BYTES = 16384*MIB
 DEFAULT_CPU_SECONDS = 64800
 DEFAULT_WALL_SECONDS = 64800
-RESOURCE_PROFILE = 'BASIC_FULL_SUITE_EXPLICIT_BUDGETS_V3'
+RESOURCE_PROFILE = 'BASIC_FULL_SUITE_EXPLICIT_BUDGETS_V4'
 ARCHIVE_NAME = 'BE_cutoff49_20260930.zip'
 ARCHIVE_BYTES = 16660566
 ARCHIVE_SHA = 'ecdb9acca0db29efc9fe2bf496c0bcc61b4881aecdcbc91a4eb6ad49b920c72e'
@@ -66,8 +67,8 @@ def validate_budgets(*, wall_seconds, cpu_seconds, memory_bytes):
     need(type(wall_seconds) in (int, float) and 0 < wall_seconds <= DEFAULT_WALL_SECONDS
          and math.isfinite(wall_seconds),
          'Finite positive BASIC wall budget at most64800 seconds')
-    need(type(memory_bytes) is int and 512*MIB <= memory_bytes <= DEFAULT_MEMORY_BYTES,
-         'Explicit BASIC full-suite memory budget between512 and2048MiB')
+    need(type(memory_bytes) is int and 512*MIB <= memory_bytes <= MAX_MEMORY_BYTES,
+         'Explicit BASIC full-suite memory budget between512 and16384MiB')
 
 
 def sha(path):

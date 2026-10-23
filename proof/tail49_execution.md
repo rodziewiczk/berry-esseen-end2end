@@ -53,6 +53,32 @@ resume or hidden inner budget argument: the original driver and retained runner
 have no CPU/wall option. This replacement starts a fresh full run in a separate
 directory, preserving earlier ZIPs and live evidence.
 
+## Explicit16GiB restart after the supplied21:19UTC interruption
+
+The latest supplied2GiB log ends with `INCOMPLETE_NO_ACCEPTANCE`,13/14top-level
+and29/41retained executions. The last sampled RSS peak is2131537920bytes;
+the terminal supervisor reason is
+`owned_process_group_not_empty_after_kill:[35971]`. This text establishes an
+incomplete execution and failed cleanup, not a proved mathematical failure
+or the underlying first termination cause. Its saved ZIP is preserved.
+
+At the user's explicit request, `12_tail49_HIGHMEM_16GB_18H.ipynb` starts a
+fresh full run with17179869184bytes (16GiB),64,800seconds external wall and
+64,800seconds per-process CPU. GPU runtime metadata requests a GPU host;
+the arithmetic itself remains CPU code. No speed or session-duration guarantee
+follows from that request. The existing2GiB notebook and default are retained.
+The V4wrapper admits explicit512..16384MiB budgets before any source access
+or output mutation. The exact chosen value reaches the session/result metadata,
+supervisor launch and inherited `RLIMIT_AS`, without an inner2GiB clamp.
+The same limit supplies sampled live-group RSS checks; it is not a cgroup cap.
+
+An original-source-only scan of all265Python members found no internal
+`setrlimit`/`prlimit`/`memory.max` or literal2GiB cap in the selected capsule.
+The original full driver, job selection, math and complete14/41acceptance
+requirements are unchanged. BASIC/native/global limitations remain unchanged.
+The original driver still has no numerical resume. Earlier incomplete outputs
+are not modified or accepted as a completed full invocation.
+
 ## Actual execution and acceptance boundary
 
 This is an execution route, not a claim that the calculation has already completed. The wrapper actually invokes the complete unchanged original driver in a fresh output epoch. It then requires all 14 top-level names and invocations in order, all 41 retained component names and invocations, successful integer exit codes, matching stdout/stderr hashes, empty successful stderr, unchanged sources, and no bytecode-cache prefix. Preparation, a quick run, a partial retained list, or an old capture cannot qualify.

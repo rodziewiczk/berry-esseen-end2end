@@ -8,6 +8,7 @@ import sys
 import tempfile
 import unittest
 from unittest.mock import patch
+from types import SimpleNamespace
 import zipfile
 
 from be_replay import tail49
@@ -222,7 +223,7 @@ class Tail49Tests(unittest.TestCase):
 
     def test_full_suite_explicit_memory_budget_reaches_basic_supervisor(self):
         from be_replay import linux_supervisor
-        for memory in (512*tail49.MIB, 2048*tail49.MIB):
+        for memory in (512*tail49.MIB, 2048*tail49.MIB, 16384*tail49.MIB):
             with self.subTest(memory=memory), tempfile.TemporaryDirectory() as name:
                 directory=Path(name)
                 source, _, new, retained, _, _=self.fixture(directory)
@@ -254,13 +255,34 @@ class Tail49Tests(unittest.TestCase):
                 validate.assert_called_once();launched.assert_called_once()
 
     def test_invalid_memory_budget_fails_before_any_source_or_execution(self):
-        for memory in (True,0,512*tail49.MIB-1,2048*tail49.MIB+1):
+        for memory in (True,False,0,512*tail49.MIB-1,16384*tail49.MIB+1,float(16384*tail49.MIB)):
             with self.subTest(memory=memory),tempfile.TemporaryDirectory()as name,patch(
                     'be_replay.linux_supervisor.run')as execute,patch.object(tail49,'obtain_archive')as source:
                 output=Path(name)/'epoch'
                 with self.assertRaisesRegex(ValueError,'memory budget'):
                     tail49.run(output,archives=Path(name)/'cache',memory_bytes=memory)
-                self.assertFalse(output.exists());execute.assert_not_called();source.assert_not_called()
+                with self.assertRaisesRegex(ValueError,'memory budget'):
+                    tail49.run_colab(durable_root=Path(name)/'durable',work_root=Path(name)/'work',
+                                     archives=Path(name)/'cache',memory_bytes=memory)
+                self.assertFalse(output.exists());self.assertFalse((Path(name)/'work').exists())
+                self.assertFalse((Path(name)/'durable').exists())
+                execute.assert_not_called();source.assert_not_called()
+
+    def test_explicit_sixteen_gib_reaches_exec_resource_limits_without_clamping(self):
+        from be_replay import linux_supervisor
+        memory=16384*tail49.MIB;limits=[]
+        resource=SimpleNamespace(RLIMIT_CORE=0,RLIMIT_AS=1,RLIMIT_CPU=2,
+                                 setrlimit=lambda kind,value:limits.append((kind,value)))
+        with tempfile.TemporaryDirectory()as name:
+            root=Path(name);config=root/'launch.json'
+            argv=[sys.executable,'-B','-S','synthetic-only-worker']
+            config.write_text(json.dumps(dict(memory_bytes=memory,cpu_seconds=64800,argv=argv)))
+            with patch.dict(sys.modules,{'resource':resource}),patch.object(linux_supervisor.os,'execvpe')as execute:
+                linux_supervisor._exec_search(config)
+            self.assertEqual(limits,[(resource.RLIMIT_CORE,(0,0)),
+                                     (resource.RLIMIT_AS,(memory,memory)),
+                                     (resource.RLIMIT_CPU,(64800,64800))])
+            self.assertEqual(execute.call_args.args[:2],(sys.executable,argv))
 
     def test_colab_forwards_corrected_two_gib_budget_without_changing_scope(self):
         with tempfile.TemporaryDirectory()as name:
@@ -276,11 +298,13 @@ class Tail49Tests(unittest.TestCase):
             self.assertTrue(Path(result['bundle']).is_file())
 
     def test_default_and_custom_budgets_cross_all_layers_and_are_persisted(self):
-        for budget in ({}, dict(cpu_seconds=12000, wall_seconds=15000.5)):
+        for budget in ({}, dict(cpu_seconds=12000, wall_seconds=15000.5),
+                       dict(memory_bytes=16384*tail49.MIB)):
             with self.subTest(budget=budget), tempfile.TemporaryDirectory() as name:
                 root = Path(name)
                 expected_cpu = budget.get('cpu_seconds', 64800)
                 expected_wall = budget.get('wall_seconds', 64800)
+                expected_memory = budget.get('memory_bytes', 2048*tail49.MIB)
                 with self.mocked_full_suite(root) as (validate, launched):
                     exported = tail49.run_colab(durable_root=root/'durable', work_root=root/'work',
                                                 archives=root/'cache', **budget)
@@ -288,14 +312,15 @@ class Tail49Tests(unittest.TestCase):
                 self.assertEqual((actual['cpu_seconds'], actual['wall_seconds']),
                                  (expected_cpu, expected_wall))
                 self.assertEqual(actual['mode'], 'untrusted_search')
-                self.assertEqual(actual['memory_bytes'], 2048*tail49.MIB)
+                self.assertEqual(actual['memory_bytes'], expected_memory)
                 session = json.loads((Path(exported['work'])/'SESSION_RESULT.json').read_text())
                 result = json.loads((Path(exported['work'])/'arithmetic'/'TAIL49_RESULT.json').read_text())
                 for packet in (session, result):
                     self.assertEqual(packet['basic_cpu_seconds'], expected_cpu)
                     self.assertEqual(packet['basic_wall_seconds'], expected_wall)
+                    self.assertEqual(packet['basic_memory_bytes'], expected_memory)
                     self.assertEqual(packet['execution_resource_profile'],
-                                     'BASIC_FULL_SUITE_EXPLICIT_BUDGETS_V3')
+                                     'BASIC_FULL_SUITE_EXPLICIT_BUDGETS_V4')
                     self.assertFalse(packet['native_arithmetic_accepted'])
                     self.assertFalse(packet['all_index_conclusion_verified'])
                 self.assertTrue(result['all_required_jobs_computed'])
@@ -331,14 +356,15 @@ class Tail49Tests(unittest.TestCase):
                     environment.assert_not_called()
 
     def test_cli_defaults_match_run_and_custom_values_are_forwarded(self):
-        for arguments, expected in (([], (64800, 64800)),
-                                    (['--cpu-seconds', '12000', '--wall-seconds', '15000'], (12000, 15000))):
+        for arguments, expected, memory in (([], (64800, 64800),2048*tail49.MIB),
+                                    (['--cpu-seconds', '12000', '--wall-seconds', '15000'], (12000, 15000),2048*tail49.MIB),
+                                    (['--memory-mib','16384'],(64800,64800),16384*tail49.MIB)):
             with self.subTest(arguments=arguments), patch.object(sys, 'argv',
                     ['tail49', '--output', 'unused', '--archives', 'unused', *arguments]), \
                  patch.object(tail49, 'run', return_value=dict(all_required_jobs_computed=False)) as run:
                 self.assertEqual(tail49.main(), 2)
                 self.assertEqual((run.call_args.kwargs['cpu_seconds'], run.call_args.kwargs['wall_seconds']), expected)
-                self.assertEqual(run.call_args.kwargs['memory_bytes'], 2048*tail49.MIB)
+                self.assertEqual(run.call_args.kwargs['memory_bytes'], memory)
 
     def test_timeout_and_boolean_exit_never_qualify_even_with_full_markers(self):
         for status, returncode, reason in (('incomplete', -15, 'external_wall_timeout'),
