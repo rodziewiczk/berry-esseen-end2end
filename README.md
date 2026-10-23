@@ -87,6 +87,11 @@ explicit |X|<=3 premise; support acquisition and complete56remain separate.
 See [its scope](proof/finite1014_supported_execution.md) and
 [the bounded source/infrastructure review](proof/finite1014_supported_root_review.md).
 
+The separate [56C_n10_14_highrho_fourier.ipynb](colab/56C_n10_14_highrho_fourier.ipynb)
+packages the original high-rho Fourier calculation for literal n10--14.
+Its finite integration, selected published tail and conditional analytic
+premises remain distinct from full56. See [scope](proof/finite1014_highrho_execution.md).
+
 The current12-hour settings in RESTART01–07 are budgets, not completion estimates.
 A complete tree still requires a separate full acceptor run. An unfinished tree
 is checkpointed for a compatible rerun.

@@ -1030,3 +1030,40 @@ No original mathematical source, capture validator or completed-cache identity
 changes. The initial private Drive upload returned403and the folder readback
 contained no56Acopy; the exact initial notebook was instead verified on the
 published GitHub commit. Its replacement notebook pins the corrected fixture.
+
+## Notebook45: complete nine-job INITIAL7--9 log
+
+The supplied attachment SHA256 is
+`ae8e35246d652c164710b6c3d87992398139f7633b6f94eb1aa4981ba3511f96`.
+The final n9/BNfull INITIAL replay completes at23:21:08UTC on23October2026,
+followed by its completed-stage ZIP and9/9batch progress. The final status is
+`complete_selected_conditional_parent_arithmetic_basic` and the result ZIP is
+`finite69-parents-initial7_9/20261023T211013Z-8b9c0c02/20261023T211013Z-8b9c0c02-results.zip`.
+This is supplied-log completion, with actual final export readback and the
+complete parent/finite6--9theorem joins still separate. It does not imply
+notebook46has finished its distinct CAPS/resource work.
+
+## Notebook12: supplied complete16GiBfull-suite ending
+
+The inline ending at23:23:11UTC on23October2026 records
+`PASS_BE49_SELECTED_ARITHMETIC`, `all_required_jobs_computed: true`, completed
+execution, no progress error and
+`exact_selected_arithmetic_completed_untrusted_guard`. The final bundle is
+`tail49/20261023T212745Z-1825b68e/20261023T212745Z-1825b68e-results.zip`.
+Its last earlier heartbeat had13/14top-level and39/41retained executions;
+that partial heartbeat is superseded by the later full-suite terminal ending.
+The16GiB/64800-second policy is recorded, with sampled peak RSS5535342592bytes.
+Native-contract and all-index flags remain false. This is supplied-log
+completion; actual final bundle readback and the uniform analytic/theorem
+joins are distinct obligations. The old2GiB incomplete attempt is preserved.
+
+## Notebook54:282native stages saved, old summary error
+
+The inline ending at23:24:53UTC on23October2026 records the last n34strict
+native acceptance, its completed-stage ZIP and282/282progress. The old batch
+then fails with `KeyError: 'remaining_obligations'`. Its incomplete final ZIP
+is `finite1039-counts-n31_34/20261023T215123Z-03ab3877/20261023T215123Z-03ab3877-results.zip`.
+This is the same repaired common finalizer described in
+`finite1039_finish_fix.md`. The corrected54notebook published in09b469freuses
+fully revalidated completed stages from this exact older runtime. It has been
+delivered to the user; its final corrected completion is not yet observed.

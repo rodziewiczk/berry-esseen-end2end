@@ -15,8 +15,8 @@ kernel was run locally. The next parent packages are grouped in
 [the bounded56--63construction inventory](finite1039_parent_construction_groups.md),
 with exact current-context source/capture requirements. The first independent
 auxiliary Fourier sublane56Ais now packaged under an immutable runtime; it
-does not complete all56. Its separate supported-Fourier sibling56Bis also
-packaged under an immutable runtime. The supplied53ending now records complete conditional80-forest
+does not complete all56. Supported56Band high-rho56Care also packaged under
+immutable runtimes; corner56Dis being prepared. The supplied53ending now records complete conditional80-forest
 arithmetic; no repeated53count run is queued from that observation.
 
 There is no justified fixed total of notebooks left to finish the theorem.

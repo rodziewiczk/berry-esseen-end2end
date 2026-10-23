@@ -380,3 +380,14 @@ All19infrastructure/notebook fixtures pass from a clean checkout without
 ignored `work/`. Support/HIGH, INITIAL/resources,217interfaces and full56
 remain separate. See [scope](../proof/finite1014_supported_execution.md)
 and [bounded internal review](../proof/finite1014_supported_root_review.md).
+
+Notebook56C, `56C_n10_14_highrho_fourier.ipynb`, selects immutable runtime
+`259509d99cd8d4653ea9aa3f83d1b4aa13c3deb9`. Run all with the usual Drive;
+CPU or GPU sessions work, with arithmetic on the CPU. All85original inputs
+and the82-row manifest are unchanged. Its four actions cover literal n10--14
+on the closed finite rho interval[71/50,15/8], with the original published
+tail above15/8and target4097/10000. Each action retains2GiB/43200CPU/54000wall
+BASIC ceilings and full original controls. Only a complete validated four-action
+cache is reused in its own namespace. Full56and217interfaces remain separate.
+See [scope](../proof/finite1014_highrho_execution.md) and
+[bounded internal review](../proof/finite1014_highrho_root_review.md).
