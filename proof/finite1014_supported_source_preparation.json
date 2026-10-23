@@ -1,0 +1,17 @@
+{
+  "all_index_conclusion_verified": false,
+  "arithmetic_computed": false,
+  "bytes": 624361,
+  "files": 97,
+  "full_notebook56_completed": false,
+  "original_manifest_sha256": "17ff964d7091b3fec2a463f46d9ccab6eb5dc85d916e8899ee39492cf58e72d7",
+  "original_mathematical_modules_imported_or_evaluated": false,
+  "parent_acquisitions_verified": false,
+  "readback_sha256": "ed24003e13ce2517691957e3457f56d4ecb3887c9b401a00045555f291310074",
+  "schema": "FINITE1014_SUPPORTED_ACTUAL_SOURCE_ONLY_PREPARATION_V1",
+  "source_adapter_sha256": "5fff23d87ce90c394a236eacb7e09ac33b9704b2c94b94ecccd59f55e9747ecb",
+  "source_inventory_sha256": "6d2d7f26db3c34b85711cd95728d605b8a910df37381653a754c348424a51bad",
+  "source_manifests_modified": false,
+  "source_plan_sha256": "436f51a4e04f9a119bcdb9deb318a56cbe88a72c5eb59235c015235e21b94053",
+  "source_programs_modified": false
+}
