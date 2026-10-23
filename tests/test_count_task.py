@@ -92,7 +92,7 @@ class CountTaskTests(unittest.TestCase):
             command = count.preparation_command(target, Path("archives"), Path("new-capsule"))
             self.assertEqual(command[1:3], ["-B", "-S"])
             if target.endswith("-new"):
-                self.assertEqual(Path(command[3]).name, "prepare_b3_v14_epoch_2026_10_22.py")
+                self.assertEqual(Path(command[3]).name, "prepare_v14_portable.py")
                 self.assertIn("--base13-archive", command)
                 self.assertIn("NOT_HISTORICAL", count.scope(target))
             else:
@@ -108,6 +108,31 @@ class CountTaskTests(unittest.TestCase):
         path.write_bytes(b"abd")
         with self.assertRaises(ValueError):
             count.verify_asset(path, asset)
+
+    def test_child_failure_displays_actual_stderr_and_exit_reason_without_acceptance(self):
+        observed = self.observed(self.root / "failed-execution", status="incomplete", returncode=1)
+        observed["reason"] = "nonzero_subprocess_exit"
+        Path(observed["stderr_path"]).write_text("Missing case-sensitive input: ORIGINAL_V12_CONTRACT.json\n",
+                                                 encoding="utf-8")
+        with self.assertRaisesRegex(ValueError, "Missing case-sensitive input") as error:
+            count.final_packet(observed)
+        self.assertIn("nonzero_subprocess_exit", str(error.exception))
+        self.assertIn('"returncode": 1', str(error.exception))
+        self.assertIn("preserved output is not acceptance", str(error.exception))
+
+    def test_child_failure_diagnostics_use_only_bounded_stderr_tail(self):
+        observed = self.observed(self.root / "long-stderr", status="incomplete", returncode=-9)
+        Path(observed["stderr_path"]).write_bytes(b"do-not-repeat-entire-log\n" + b"x" * 10000 + b"\nactual final failure")
+        details = count.execution_diagnostics(observed)
+        self.assertLessEqual(len(details["stderr_tail"]), 8192)
+        self.assertTrue(details["stderr_tail"].endswith("actual final failure"))
+        self.assertNotIn("do-not-repeat-entire-log", details["stderr_tail"])
+
+    def test_child_failure_keeps_exit_reason_when_stderr_is_missing(self):
+        observed = dict(status="incomplete", reason="external_wall_timeout", returncode=-9,
+                        stderr_path=str(self.root / "missing-stderr.txt"))
+        with self.assertRaisesRegex(ValueError, "external_wall_timeout"):
+            count.final_packet(observed)
 
     def test_capsule_rehash_detects_native_or_contract_change(self):
         count.verify_capsule("b3-p33", self.capsule)
@@ -169,6 +194,25 @@ class CountTaskTests(unittest.TestCase):
             return self.observed(options["output_dir"], dict(status="NATIVE_COUNT_ACCEPTED", arithmetic_accepted=True))
         with patch.object(count, "supervise", side_effect=fake), self.assertRaises(ValueError):
             count.search(self.task, seconds=1, wall_seconds=2)
+
+    def test_portable_v14_starts_fresh_without_importing_incompatible_published_hints(self):
+        calls = []
+        def fake(argv, **options):
+            calls.append(argv)
+            return self.observed(options["output_dir"], dict(status="SEARCH_CHECKPOINTED_INCOMPLETE",
+                                 arithmetic_accepted=False, nodes=26, leaves=0, pending=26))
+        with patch.object(count, "load_task", return_value=(self.task, "b3-p31-v14-new")), \
+             patch.object(count, "verify_capsule"), \
+             patch.object(count, "supervise", side_effect=fake), \
+             patch.object(count, "obtain_asset") as download, \
+             patch.object(count, "extract_published_hint") as hints:
+            result = count.search(self.task, seconds=1, wall_seconds=2,
+                                  published_hints=True, archives=self.root / "unused-cache")
+        download.assert_not_called()
+        hints.assert_not_called()
+        self.assertNotIn("--resume", calls[0])
+        self.assertIn(count.TARGETS["b3-p31-v14-new"][2], calls[0])
+        self.assertFalse(result["arithmetic_accepted"])
 
     def test_native_success_requires_separate_guarded_original_accept_and_full_receipt(self):
         candidate = self.root / "candidate.json"

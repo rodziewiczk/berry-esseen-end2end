@@ -17,7 +17,7 @@ Heavy mathematical calculations run in **Google Colab CPU sessions**. Local chec
 - Historical PASS records provide provenance and candidate certificates. They do not count as fresh acceptance in this repository.
 - Search is untrusted. Complete native leaf replay, negative controls, source binding, domain coverage and analytic implication checks remain separate obligations.
 - The global theorem remains open until every required node and edge passes a fresh complete run.
-- No full mathematical replay or Colab benchmark has yet completed in this repository.
+- A user-supplied Colab notebook 08 result records completion of all six supplied n2/n3 arithmetic stages in BASIC mode. It remains explicitly untrusted at the resource-guard boundary, with no trusted native or global proof acceptance; see [the observed-run record](proof/observed_runs.md).
 - No source research archives are deleted or rewritten.
 
 The initial executable task is the reconstruction of seven missing **n=25** count forests. Five preserve original V12 designs; two are explicitly new conditional V14 epochs. They are not seven missing components of cutoff49.

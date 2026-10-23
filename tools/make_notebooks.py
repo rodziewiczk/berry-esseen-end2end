@@ -37,8 +37,14 @@ observed = subprocess.check_output(["git", "-C", str(CODE), "rev-parse", "HEAD"]
 if observed != CODE_COMMIT:
     raise RuntimeError("Source commit mismatch")
 subprocess.run(["git", "-C", str(CODE), "diff", "--exit-code", "HEAD", "--"], check=True)
+# A rerun in an existing Colab kernel must not reuse modules from an older pin.
+for module_name in tuple(sys.modules):
+    if module_name == "be_replay" or module_name.startswith("be_replay."):
+        del sys.modules[module_name]
 sys.path.insert(0, str(CODE))
 from be_replay.environment import snapshot
+if not Path(sys.modules["be_replay"].__file__).resolve().is_relative_to(CODE.resolve()):
+    raise RuntimeError("Imported execution code does not belong to the pinned checkout")
 print(json.dumps(snapshot(), indent=2), flush=True)
 print("Source code and environment recorded. Mathematical acceptance has not yet been established.", flush=True)
 '''
@@ -101,6 +107,10 @@ Each slice has an external wall-clock limit. A complete candidate forest is subm
 Progress is displayed in the cell and recorded in files. Partial results retain both checkpoint copies.
 This notebook concerns one conditional n25 count forest; it does not establish the all-index theorem.
 '''
+    if target.endswith("-v14-new"):
+        intro += "\nThis version fixes the Linux contract filename and pins a new sealed source epoch.\n"
+        intro += "Old published V14 checkpoints are incompatible; discovery starts from all 26 original roots.\n"
+        intro += "Later runs can resume checkpoints created with this corrected source epoch.\n"
     cells = [cell("markdown", intro, "instructions"), *common(pin, target)]
     cells.append(cell("code", f'''from be_replay.colab_batch import run_count
 RESULT = run_count("{target}", durable_root=DURABLE,

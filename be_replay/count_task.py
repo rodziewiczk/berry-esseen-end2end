@@ -31,14 +31,27 @@ VENDOR_PINS = {
     "prepare_missing_count.py": "b22f807a41982f017af14e88451d82fcda129ab13a2b09210ab543420f4aa410",
     "prepare_b3_v14_epoch_2026_10_22.py": "4116a054c2f725794d82cc4bd7b954023c9b8525d8f943c6cea2a8096aceb647",
 }
+PORTABLE_V14_PREPARER = Path(__file__).with_name("prepare_v14_portable.py")
+PORTABLE_V14_PREPARER_SHA256 = "b4896cae54058bb63f3c68a295131a83ceace34e71d180c0b228bd4a28ce44f6"
 TARGETS = {
     "b4-q0": ("original-v12", 29, "4d91657ddbab41e3324c00f9f28a9223526c0c1dc79bad5c5e77176240c231f7"),
     "b4-q1": ("original-v12", 29, "a3cbdb1852bc51054ecc8cd3c71bd1c7121b6b201385e481b73195ad729189c4"),
     "b4-q2": ("original-v12", 29, "2517c1b8c79949bad93eecdcaa43e389344411fd4c71d5d516dde1e40b732e2a"),
     "b4-q3": ("original-v12", 29, "c8555b500c3e7d1ca1240b5f229f7fff5ed307571012209e022431ecd195b7ac"),
     "b3-p33": ("original-v12", 33, "e55bb3eeac06923f897263a65f2cde9fe77006313dd86f47bbba3f6047f30f08"),
-    "b3-p31-v14-new": ("new-conditional-v14", 31, "6ca73188c5a6969c1f0ec69f41cb0fac660003cf0515fdcadeeda83afcf654f0"),
-    "b3-p32-v14-new": ("new-conditional-v14", 32, "230a6bb37696c1e79d62847d89090d4187d78d41aa6c98ccbe91c54e1f8f950b"),
+    "b3-p31-v14-new": ("new-conditional-v14", 31, "bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff"),
+    "b3-p32-v14-new": ("new-conditional-v14", 32, "cfe934b1385f9a26f36b6bf94cda9e5caeb6593700a54eeac7e7b1638df61627"),
+}
+# The published archive predates the portable V14 source epoch. Its complete
+# manifest remains pinned independently of the current executable designs.
+PUBLISHED_HINT_DESIGNS = {
+    "b4-q0": "4d91657ddbab41e3324c00f9f28a9223526c0c1dc79bad5c5e77176240c231f7",
+    "b4-q1": "a3cbdb1852bc51054ecc8cd3c71bd1c7121b6b201385e481b73195ad729189c4",
+    "b4-q2": "2517c1b8c79949bad93eecdcaa43e389344411fd4c71d5d516dde1e40b732e2a",
+    "b4-q3": "c8555b500c3e7d1ca1240b5f229f7fff5ed307571012209e022431ecd195b7ac",
+    "b3-p33": "e55bb3eeac06923f897263a65f2cde9fe77006313dd86f47bbba3f6047f30f08",
+    "b3-p31-v14-new": "6ca73188c5a6969c1f0ec69f41cb0fac660003cf0515fdcadeeda83afcf654f0",
+    "b3-p32-v14-new": "230a6bb37696c1e79d62847d89090d4187d78d41aa6c98ccbe91c54e1f8f950b",
 }
 ASSETS = {
     "old": dict(name="cutoff25_20261011.zip", tag="cutoff20-sources-2026-10-17",
@@ -167,7 +180,10 @@ def preparation_command(target, archives, capsule):
     if kind == "original-v12":
         return [sys.executable, "-B", "-S", str(VENDOR / "prepare_missing_count.py"),
                 "--archive", str(archives / ASSETS["old"]["name"]), "--target", target, "--output", str(capsule)]
-    return [sys.executable, "-B", "-S", str(VENDOR / "prepare_b3_v14_epoch_2026_10_22.py"),
+    need(PORTABLE_V14_PREPARER.is_file() and not PORTABLE_V14_PREPARER.is_symlink()
+         and digest(PORTABLE_V14_PREPARER) == PORTABLE_V14_PREPARER_SHA256,
+         "Exact reviewed portable V14 producer")
+    return [sys.executable, "-B", "-S", str(PORTABLE_V14_PREPARER),
             "--old-archive", str(archives / ASSETS["old"]["name"]),
             "--base13-archive", str(archives / ASSETS["base13"]["name"]),
             "--index", str(index), "--output", str(capsule)]
@@ -195,9 +211,12 @@ def verify_capsule(target, capsule):
         need(epoch["schema"] == "NEW_CONDITIONAL_B3_V14_SOURCE_EPOCH_20261022_V1"
              and type(epoch["n"]) is int and epoch["n"] == 25
              and type(epoch["index"]) is int and epoch["index"] == index
-             and epoch["preparer_sha256"] == VENDOR_PINS["prepare_b3_v14_epoch_2026_10_22.py"]
+             and epoch["preparer_sha256"] == PORTABLE_V14_PREPARER_SHA256
              and epoch["arithmetic_accepted"] is False and epoch["native_acceptance_run"] is False,
-             "Honest new conditional V14 source epoch")
+             "Honest new conditional portable V14 source epoch")
+        need("ORIGINAL_V12_CONTRACT.json" in files
+             and "ORIGINAL_V12_contract.json" not in files,
+             "The exact runtime contract filename belongs to the sealed portable source closure")
     return files
 
 
@@ -253,8 +272,11 @@ def extract_published_hint(archive, target, capsule, output):
              "All seven hints, never an acceptance record")
         for name, row in manifest["targets"].items():
             need(row["member"] == "checkpoints/" + name + "/CHECKPOINT.json"
-                 and row["design_sha256"] == TARGETS[name][2], "Every hint has its own exact source epoch")
+                 and row["design_sha256"] == PUBLISHED_HINT_DESIGNS[name],
+                 "Every published hint has its own exact historical source epoch")
         row = manifest["targets"][target]
+        need(row["design_sha256"] == TARGETS[target][2],
+             "Published hint cannot cross into a different executable source epoch")
         raw = zipped.read(row["member"])
         need(type(row["bytes"]) is int and len(raw) == row["bytes"]
              and hashlib.sha256(raw).hexdigest() == row["sha256"], "Exact selected hint payload")
@@ -270,9 +292,35 @@ def supervise(argv, **options):
     return run(argv, **options)
 
 
+def execution_diagnostics(observed):
+    """Expose bounded failure evidence without treating any output as acceptance."""
+    details = {key: observed.get(key) for key in
+               ("status", "reason", "returncode", "stdout_path", "stderr_path")}
+    details["stderr_tail"] = ""
+    name = observed.get("stderr_path")
+    if name:
+        path = Path(name)
+        try:
+            if path.is_file() and not path.is_symlink() and path.stat().st_size <= 16 * MIB:
+                with path.open("rb") as stream:
+                    stream.seek(max(0, path.stat().st_size - 8192))
+                    details["stderr_tail"] = stream.read(8192).decode("utf-8", errors="replace").strip()
+        except OSError as error:
+            details["stderr_read_error"] = type(error).__name__
+    return details
+
+
+def require_completed(observed):
+    if observed.get("status") != "completed" or observed.get("returncode") != 0:
+        details = execution_diagnostics(observed)
+        print(json.dumps(dict(event="guarded_child_failure", **details,
+                              arithmetic_accepted=False, all_index_conclusion_verified=False)), flush=True)
+        raise ValueError("Guarded child did not complete successfully; preserved output is not acceptance. "
+                         + json.dumps(details, ensure_ascii=True))
+
+
 def final_packet(observed):
-    need(observed.get("status") == "completed" and observed.get("returncode") == 0,
-         "Guarded child did not complete successfully; preserved output is not acceptance")
+    require_completed(observed)
     path = Path(observed["stdout_path"])
     need(path.is_file() and path.stat().st_size <= 16 * MIB, "Bounded actual child stdout")
     lines = [line for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
@@ -367,7 +415,11 @@ def search(task, seconds=60, wall_seconds=120, *, resume=None, published_hints=F
     event(task, "search_started", target=target, epoch=str(epoch), search_seconds=seconds,
           external_wall_seconds=wall_seconds, arithmetic_accepted=False)
     previous = None
-    if published_hints:
+    if published_hints and TARGETS[target][0] == "new-conditional-v14":
+        event(task, "historical_hint_skipped", target=target,
+              reason="Portable V14 source epoch requires fresh roots or a matching new checkpoint",
+              arithmetic_accepted=False)
+    elif published_hints:
         need(archives is not None, "Explicit source cache for the fixed published hints ZIP")
         archive = obtain_asset(archives, "hints", download, progress=task)
         previous = extract_published_hint(archive, target, capsule, epoch / "resume.json")
@@ -496,8 +548,7 @@ def accept(task, candidate, *, wall_seconds=7260, cpu_seconds=7200):
     write(epoch / "NATIVE_OBSERVED.json", report)
     # Resource protection may be unsupported in a given VM. Never rerun native
     # accept through search mode or reinterpret a partial/old receipt as success.
-    need(observed.get("status") == "completed" and observed.get("returncode") == 0,
-         "Native run unsupported/incomplete/failed; no arithmetic acceptance")
+    require_completed(observed)
     guard = observed.get("guard_scope")
     need(type(guard) is dict and guard.get("kind") == "LINUX_SECCOMP_SINGLE_PROCESS_PYTHON_V1"
          and guard.get("capability_established") is True and guard.get("native_python_execution") is True

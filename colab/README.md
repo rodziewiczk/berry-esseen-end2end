@@ -22,3 +22,9 @@ Run multiple notebooks in separate CPU sessions. Each uses its own directories. 
 Notebook 08 runs the full six-stage n2/n3 arithmetic sequence. Its default compile-and-spawn C++ run uses basic resource supervision and explicitly reports an untrusted guard; successful computation is not promoted to trusted native acceptance. See [the small-index execution scope](../proof/small_indices_execution.md).
 
 The notebook code is pinned to a specific commit of the new public repository. Mathematical sources and resume hints have separate SHA-256 pins. Hints assist discovery; every leaf of a complete tree still requires fresh verification.
+
+## Corrected notebooks 06 and 07
+
+The original V14 preparations stopped before mathematical evaluation because a contract filename differed in letter case. The corrected notebooks use a newly sealed portable source epoch. Upload the replacement notebooks and select **Run all**. Existing archive downloads can be reused after their hashes are checked.
+
+The corrected V14 tasks start from all 26 original roots. Historical V14 hint/checkpoint bindings do not match the new closure; later checkpoints from the corrected epoch can be resumed. See [the portability derivation](../proof/v14_portability.md). Running notebooks 01–05 do not need to be interrupted for this repair. Notebook 08's observed six-stage completion is recorded [with its explicit trust limits](../proof/observed_runs.md).
