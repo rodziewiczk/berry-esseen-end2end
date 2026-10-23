@@ -83,3 +83,28 @@ fixtures. These cover default/custom budget forwarding through the Colab and
 CLI layers, invalid budgets before source access, timeout/exit rejection,
 incomplete-result export, and the unchanged full14/41 requirements. They do
 not replay mathematical certificates.
+
+## Historical runtime context
+
+The pinned original archive also contains recorded macOS ARM/Python3.12
+component timings in `baseline/evidence/suite_group{0,1,2}_01/metadata.json`.
+All41 current retained names match those historical records. Their elapsed-time
+sum is1850.157731seconds (30minutes50seconds); the historical groups actually
+ran in parallel, so this sum is not a measured whole-suite wall time.
+No single completed historical run of the current full14/41 invocation was
+located in this bounded check.
+
+For the same first25 retained names, the historical sum is936.8949seconds,
+versus6438.4702seconds in the corrected Colab run. The current first13 top-level
+jobs took1256.7828seconds; `certificate_initial47` alone took3372.902seconds.
+The remaining16 historical components sum to about913seconds. If they had
+the same aggregate slowdown as the first25, a fresh whole run would take
+roughly4hours. That is a conditional extrapolation across different hardware
+and stage mixtures, not a benchmark guarantee or completion deadline.
+
+Source review found existing in-process exact caches and no duplicate complete
+invocation in the selected10new+41retained jobs. `optimized=false` denotes
+enabled Python assertions, not an absent algorithmic optimization switch.
+The replacement changes execution budgets and diagnostics, not numerical
+algorithms. Stage reuse or parallelism needs a separate explicitly reviewed
+execution/composition protocol; neither is silently enabled here.

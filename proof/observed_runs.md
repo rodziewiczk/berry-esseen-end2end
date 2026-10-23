@@ -313,3 +313,17 @@ revalidated for this record. The BASIC `native_arithmetic_accepted` flags remain
 false, and the resource/analytic premises and final auxiliary join remain
 separate. It does not establish sharp all-law n24, full n25 or the global
 theorem; no B4/B5 branch completion is inferred.
+
+## Notebook21: stronger24 B4 completed scoped BASIC log
+
+The next supplied B4 log records all28 stages completing. Its eight selected
+count acceptors cover panels23--30 with leaf counts164,256,433,693,791,724,598,
+509, summing to4168. The final join reports the same total and
+`PASS_CONDITIONAL_ON_UNACQUIRED_RESOURCES`, maximum score
+`84445826977/200000000000` and a positive exact margin.
+
+The bundle `20261023T163842Z-8f5bb9d0-results.zip` is reported saved at
+`2026-10-23T18:15:30.451697+00:00` (20:15:30 Europe/Warsaw). The terminal state
+is `complete_conditional_arithmetic_basic`. This is supplied-log evidence;
+actual ZIP/sidecar/capture/source readback remains separate. BASIC native
+acceptance stays false. The user is starting22; no B5 completion is inferred.
