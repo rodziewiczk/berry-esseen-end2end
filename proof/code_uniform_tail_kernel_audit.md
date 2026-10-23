@@ -405,12 +405,14 @@ the original 14-production/41-retained replay unchanged.
 
 ## 9. What this read does not close
 
-- The 38-row left acquisition and comparison path, including
-  `left_sperner47_kernel.py`, `left_mid47b_kernel.py`,
-  `phase_left_low47_kernel.py` and `positive_left_low47_kernel.py`, has not
-  received the detailed line-by-line derivation above. Wide TINY's shared
-  formula was read, and the geometric83-row composition was read; that
-  does not prove every left rectangle's inequality.
+- The 38-row left path has a separate subsequent
+  [internal source review](code_left_tail_kernel_audit.md), with its own
+  limitations. Its actual Sperner implementation is the shared
+  `sperner47_kernel.py` under `left_sperner47_contract.py`; the earlier
+  shorthand `left_sperner47_kernel.py` did not name an existing selected
+  module. That separate review covers the selected left MID/LOW formulas
+  and partition conditionally, and leaves their upstream acquisitions
+  and full arithmetic open.
 - The universal signed-entry cover, support3.84 acquisition, general and
   paired LOW/HIGH Fourier bounds, HIGH-window refinements, Pearson/Mills
   coefficient enclosures and every corner-convexity derivation are not

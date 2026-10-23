@@ -46,7 +46,8 @@ Log completion is not independent bundle validation.
 |16|Complete 25-stage auxiliary23 log, 18,377 leaves; full theorem conditional.|
 |17|Complete 16-stage stronger24 B0 BASIC log, 1,929 leaves; export to revalidate.|
 |18|Complete 13-stage stronger24 B1 BASIC log,9,803 leaves; conditional on unacquired resources, native acceptance false, export to revalidate.|
-|19--22|Available; user reports launching19 and plans20. No completion assumed without evidence.|
+|19|Complete15-stage stronger24 B2 BASIC log; nine selected forests total26,625 leaves. Final7,963-leaf printed join covers only the four patched panels. Conditional resources/native acceptance false; export to revalidate.|
+|20--22|Available; user is proceeding through the queue and asked to start21. No completion assumed without evidence.|
 |23|Waits for all nine 14--22 inputs and checks their conditional chain.|
 |24|Seven count targets plus 09/10 collector; not the full n25 union.|
 |26--28|Published on GitHub/Drive; 75 retained n25 forests, 94,288 leaves. No launch/completion assumed.|

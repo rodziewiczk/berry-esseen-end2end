@@ -96,3 +96,39 @@ six-piece computation must still pass the final target; no result can be
 inferred from the stronger unused description. Match the revised source
 description to the actual expression. See the [HIGH implementation
 audit](code_fourier_primitive_audit.md). No frozen source was changed.
+
+## R6: include the actual n>=2 direct-Gaussian support lemma
+
+The active B3/B4 n25 INITIAL/resource sources call
+`direct_gaussian_support.target`, using the exact scale from
+`small_index_support.constants`. They do not call the manuscript's
+displayed n>=36 polynomial support recipe at714–788.
+
+The revised paper should include the actual Gaussian support function,
+its derivative-in-radius bound from Taylor plus heat interpolation, the
+strict complete-ray gates, the closed threshold-cell curvature bound and
+both infinite threshold tails. The [general-cell/direct-support review](code_general_cell_atlas_audit.md)
+section7 records an internal derivation valid for n>=2 and the actual
+directed roots/exponential/CDF interfaces. Same-law contact, beta/rho
+bounds and predecessor allowance must remain explicit hypotheses.
+
+Classification: a substantive paper-to-selected-source explanation is
+required. No false selected inequality or completed proof acceptance is
+claimed. The reviewed source and original manuscript remain unchanged.
+
+## R7: preserve the already named scaled-phase bridge correction
+
+The selected bridge36–39 frozen contract prose omitted the multiplier
+`15000/(997*n)` in its phase bound on D. The original
+`check_cutoff35.py` explicitly requires `BRIDGE_SCALED_PHASE_SCOPE_V2`:
+
+`D <= (15000/(997*n))*max_j(A_j+Fsign_j*abs(H)-Qbudget_j*H^2)`.
+
+The inspected quartic36 leaf already uses this factor. The source join
+does not assert the literal unscaled wording. The revised exposition and
+any fresh semantic join must consume this corrected same-witness premise.
+See [the finite-index implementation review](code_finite_index_bridge_audit.md).
+
+Classification: preserve an existing explicit scope repair. This is not
+a newly observed arithmetic failure or a proof that every distinct older
+bridge engine has been checked.

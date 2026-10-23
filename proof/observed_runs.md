@@ -252,3 +252,41 @@ above; it does not re-evaluate omitted full candidate payloads or acquire
 the mathematical framework. The actual four ZIP hashes and native/BASIC
 stage distinctions are retained in that audit. B1's new log is not included
 in that four-export readback.
+
+## Notebook07 RESTART: later supplied progress through18:22 Europe/Warsaw
+
+The later supplied log has SHA-256
+`4fe501b217ee928bd64b3fe5c6bc4b18a756783d6acdc523aead5774ceb17b69`.
+The four full approximately30-minute chunks close138,143,138 and135 further
+candidate leaves. The last sample has2,039 closed candidate leaves,
+4,092 nodes and20 pending fields, still at k=7. Relative to the migrated
+checkpoint,1,144 new nodes correspond to572 binary splits;570 additional
+closed fields leave the pending count only two higher (18 to20).
+
+This demonstrates continuing candidate-search work at a similar observed
+chunk rate. It supplies neither a bound on descendants of the20 pending
+fields nor a guarantee that the12-hour allowance suffices. Search arithmetic
+and proof acceptance remain false in this log. No restart is indicated by
+the stable pending count alone.
+
+## Notebook19: stronger24 B2 completed scoped BASIC log
+
+The later supplied B2 log has SHA-256
+`87f28e02c14cfa9d3e899fa2f7d8ceb97daeb55f0524a6a37456c392dd470690`.
+All15 selected stages complete, followed by a saved results ZIP at18:36:54
+Europe/Warsaw on23 October2026. Its final state is
+`complete_conditional_arithmetic_basic`; native acceptance remains false.
+
+The nine original acceptors report closed-leaf totals
+`740,1442,3248,6130,7102,3174,3067,1455,267`, summing to26,625.
+The last printed count join reports7,963 because it covers only the four
+mean-floor-patched indices33–36. `strong24_branches.count_jobs` selects
+five original and four patched rows; its stage construction deliberately
+skips the old full B2 join, which would include superseded panels. The
+complete branch validator/final auxiliary collector must retain all nine
+selected rows. A partial join total is not the full branch census.
+
+The log reports a positive exact comparison margin for that last group.
+This is completed scoped execution evidence from a supplied log, not a
+fresh independent readback of the saved ZIP, acquisition of its resources
+or a new global mathematical acceptance. No B3/B4/B5 completion is inferred.
