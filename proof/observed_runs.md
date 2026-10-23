@@ -597,3 +597,112 @@ All01--07nowhave supplied-log scoped native acceptance. The seven actual
 exports and their09/10parent interfaces still require collector24. The
 reported `NEW_RESOURCE_LIMIT_EPOCH_CONDITIONAL_COUNT_ONLY` scope preserves
 false parent and global flags; it is not the complete n25 proof.
+
+## Collectors23and24: final scoped joins reported
+
+The user's inline23log records revalidation of all9selected exports14--22,
+then `CONDITIONAL_FRESH_NUMERIC_CHAIN_VERIFIED`,83forests/76088leaves.
+The final bundle was saved at20:17:29UTC as
+`auxiliary24-join/20261023T201315Z-c98176d8/20261023T201315Z-c98176d8-results.zip`.
+No attachment digest is assigned to that inline message. Universal C20,
+stronger24 acquisition, analytic framework, full auxiliary and all-index
+flags remain false. Actual final collector-bundle readback remains separate.
+
+The24attachment has SHA256
+`3a13065b286130f8fc92f3ca566b290c07487a7a515d9c0c8d273f43e1eab869`.
+It records all9actual input exports revalidated:09/10and all seven fresh
+01--07count exports. All7resource-to-count interfaces pass, followed by
+`CONDITIONAL_SEVEN_N25_COUNT_INTERFACES_VERIFIED`. The bundle was saved at
+20:23:04UTC as `n25-seven-interfaces/20261023T201326Z-b9ba9687/20261023T201326Z-b9ba9687-results.zip`.
+This establishes the collector's reported scoped join, not full n25 regional
+coverage, attained-contact/analytic premises, native promotion or all-index
+acceptance. Actual final collector ZIP readback is a separate check.
+
+## Notebooks26and32: completed retained count logs
+
+The26attachment has SHA256
+`7afd2608f7717d46c906b084baeee09d145029d35be1d513dcac3e307785ee44`.
+It records17/17forests and12985leaves, with24controls and no reuse in the
+last job. The final scoped native result is
+`selected_retained_count_arithmetic_accepted`; the bundle was saved at
+20:12:57UTC as `n25-retained-b0/runs/20261023T200813Z-281116a3/20261023T200813Z-281116a3-results.zip`.
+
+The32attachment has SHA256
+`f51638a55d952352130f60f5307d200e609d8694ec3169f8ba6bb2eed5a1634c`.
+It records16/16forests,25257leaves and the same scoped status; its bundle
+was saved at20:16:27UTC as
+`n25-retained-extra-middle-b4/runs/20261023T200121Z-b9243cbe/20261023T200121Z-b9243cbe-results.zip`.
+Both remain supplied-log observations with a separate actual final
+export/source/guard readback boundary; no full regional theorem is inferred.
+
+## Notebook38: actual B2 export and23interfaces read back
+
+The completed38log has SHA256
+`3a91df261a91baed04112e4ca812ae9a7abcbd52382421fe7c59f7467f92126b`.
+The actual downloaded `20261023T191804Z-4ec6934d-results.zip` is4227973bytes,
+SHA256 `7cc61bff1cf2a342f3ec104541fcddd241f9149edc9bca1e09f477296008c413`,
+matching the actual104-byte private Drive sidecar. A new bounded task-only
+extraction preserves238files/41318538bytes. All4fresh actions pass
+`validate_prefix(...,"b2",4)`. The exact rational interface join reconstructs
+all23edges with typed equality to saved `RESOURCE_INTERFACES.json`.
+Together with actual36/37this covers17+35+23=75B012parent/interface edges.
+These local checks read metadata/hashes/JSON and rational contracts only;
+no numerical module is imported. Native/all-law/all-index flags stay false.
+
+## Corrected35: support andHIGH completed, remaining batch ongoing
+
+The actual saved corrected notebook code cells match the published V2.
+Run `20261023T194522Z-6560588f` completes support at19:46:34UTC
+(3protocols/19rows), then both selected HIGH protocols at19:58:25UTC.
+Owncaps started at19:58:27UTC and was still running in the inspected
+20:12UTC output. This supersedes the earlier fixture-only observation, but
+does not establish completion of the326-job n5batch.
+
+## Notebook11: both complete native ROOT4 passes and export revalidated
+
+The final supplied log has SHA256
+`9caabdb379d7e78e00b18e59c8b61f4db41f1f3edf3b3286c883b6f6a67b8c66`.
+It records `conditional_physical_root_verified` and the final bundle at
+20:27:38UTC. The actual `20261023T112903Z-63d200d0-results.zip` is12745098bytes,
+SHA256 `5139f88952c3f989c6a5298a50293af70898658a075be3088347173590dffcb3`,
+matching its actual104-byte private Drive sidecar. Bounded extraction
+preserves363selected files/77645813bytes without modifying original captures.
+
+The unchanged ROOT4metadata validators and actual launch/context/capture,
+worker/controller filter, native guard and supervisor sidecars pass for both
+full invocations. All70actual source commitments match. Production takes
+15986.22723185seconds and independent full replay16295.686280629seconds;
+both report260closed geometry classes, zero unresolved and1300HIGH slots,
+with exact bound4097/10000. Both bind the same complete36903389-byte receipt,
+SHA256 `571bc91b257ac53c640dd3bee91377565ff7c475091d39076295200209beeae1`.
+Original absolute execution context is mapped in memory only, not rewritten.
+
+The actual final report marks scoped native conditional physical ROOT4
+arithmetic accepted. `all_law_C4_verified` and all-index remain false.
+This same-system evidence readback runs no mathematical kernel and is not
+an external independent mathematical proof.
+
+## Notebooks41and43: complete selected finite count logs
+
+The43attachment has SHA256
+`4fbe926a734570a59f688ddcfb23c1939c70306c0ca16ed517b0a9bb7ff7ff78`.
+It completes58/58forests with final status
+`complete_selected_conditional_count_arithmetic_basic` and bundle
+`finite9-counts/20261023T202945Z-e6e9d8aa/20261023T202945Z-e6e9d8aa-results.zip`.
+Its final completed-stage export is saved at20:33:57UTC, about4min12s after
+batch start. The supplied41log similarly completes72/72forests, with final
+stage export at20:36:58UTC and bundle
+`finite7-counts/20261023T202610Z-a536a0cc/20261023T202610Z-a536a0cc-results.zip`.
+These are full conditional selected count batches, preserving false native,
+parent acquisition, full finite69and all-index flags. Actual final ZIP
+readback and source-to-parent semantic joins remain separate.
+
+## Corrected12: current full tail replay still progresses
+
+The current18-hour-run attachment has SHA256
+`e34a69abe4b262e6ecfc7ca9675ac1016a6308d02c61f054b5b6bda2dab4c9e6`.
+At20:35UTC it reports13/14top-level executions and25/41retained executions,
+with elapsed time about7794seconds. Retained records increase20to25in the
+last inspected interval. This is ongoing progress, not final arithmetic
+acceptance. The original full driver has no completed-stage resume; changing
+runtime starts its whole14/41invocation again. The18-hour ceiling is not an ETA.

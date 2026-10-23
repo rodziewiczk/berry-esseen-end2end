@@ -247,3 +247,14 @@ and completed-stage-only reuse. These are conditional count lanes. Their
 INITIAL/resource/support/Fourier acquisitions and final all-law joins remain
 separate. See [the complete execution scope](../proof/finite69_count_execution.md)
 and [the internal peer review](../proof/finite69_counts_independent_review.md).
+
+Notebook49, `49_high_beta3_acquisition.ipynb`, selects immutable runtime
+`5521c5791b0d3de6a8e6492cee650884e0a675b9`. It acquires the selected parents
+of notebook34's six upper high-beta3 forests: full INITIAL acceptance, fresh
+global construction and acceptance, then all11local acceptances. The14full
+actions retain the original exact-stage cache only on its selected panels,
+starting empty each time. Completed action prefixes are saved and fully
+revalidated before reuse. Choose Run all with the same Drive; no parameter
+edits are needed. The count/resource interfaces and final regional theorem
+remain separate. See [the execution scope](../proof/high_beta3_acquisition_execution.md)
+and [the internal source/transport review](../proof/high_beta3_acquisition_independent_review.md).
