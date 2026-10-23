@@ -1,0 +1,305 @@
+{
+  "acceptor": {
+    "all_count_roots": 28,
+    "arguments": [
+      "accept"
+    ],
+    "complete_status": "PASS_FRESH_CONDITIONAL_ACTUAL27_EXACT_COUNT41",
+    "depth_limit": 128,
+    "global_node_limit": 10000,
+    "internal_wall_seconds": null,
+    "negative_controls": 24,
+    "script": "count_protocol.py",
+    "writes": [
+      "COUNT41_ACCEPTED.json"
+    ]
+  },
+  "all_index_conclusion_verified": false,
+  "archive": {
+    "bytes": 514958998,
+    "name": "cutoff25_20261011.zip",
+    "sha256": "17fa140f63c5134ac48f1fd1040f4c5ae4bebdb2b92b2d7ce69f4048293d1fcb"
+  },
+  "arithmetic_computed": false,
+  "constructor": {
+    "all_count_roots": 28,
+    "alpha_priority": "4",
+    "arguments": [],
+    "complete_status": "STORED_CONDITIONAL_FOREST_CONSTRUCTED_NOT_ACCEPTED",
+    "depth_limit": 128,
+    "incomplete_status": "BOUNDED_CONSTRUCTION_NOT_COMPLETE",
+    "internal_wall_seconds": 600,
+    "node_limit": 10000,
+    "partial_numerical_resume": false,
+    "returns_zero_on_caught_failure": true,
+    "script": "construct_alpha4.py",
+    "writes": [
+      "COUNT41_FOREST.json",
+      "CONSTRUCTION_RUN.json"
+    ]
+  },
+  "directory": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype",
+  "fixed_contract": {
+    "K": "0",
+    "conditional_predecessor": "C26<CE; not established globally by this certificate",
+    "contract_sha256": "f7341272d102c4660fd037b96d64acfefdda7de04df5d068d81c67fd8a323cc6",
+    "index": 41,
+    "n": 27,
+    "p": [
+      "41/100",
+      "21/50"
+    ],
+    "rho": [
+      "1",
+      "11/10"
+    ]
+  },
+  "historical_selected_acceptance": {
+    "available": false,
+    "filename": "COUNT41_ACCEPTED.json",
+    "sha256": "a33de9d37f36223834a9d10cdc21767dc4e8dafacf6cfe7b1a497a13d23dfb10"
+  },
+  "historical_selected_forest": {
+    "available": false,
+    "filename": "COUNT41_FOREST.json",
+    "leaves": 3169,
+    "maximum_depth": 25,
+    "nodes": 6310,
+    "sha256": "61e45510ffabb2d6a06094fae8a26b46a773d2d1c88db5236ed8b2e167c71af4"
+  },
+  "kernel_files_count": 39,
+  "new_candidate_epoch_required": true,
+  "parent_acquisitions_verified": false,
+  "proposal_only": true,
+  "schema": "N27_P41_FRESH_CANDIDATE_SOURCE_PLAN_V1",
+  "selection_join": {
+    "member": "cutoff25_20261013/b5/actual27_p41_join_v1/ACQUIRED_REGION.json",
+    "sha256": "978a1b98b9cd70edd53c1af88a2df0f7ee70a34c8d7b2f72dfd86e3fc423ad16"
+  },
+  "semantic_same_contract_join_required": true,
+  "source_bytes": 160351,
+  "source_files": {
+    "ALLOCATION_VARIANCE_CHECKED_v2.json": {
+      "bytes": 753,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/ALLOCATION_VARIANCE_CHECKED_v2.json",
+      "sha256": "50e86986e16653be9fb7303899bc60263b8cffd8d19acf336c258438a5a426a2"
+    },
+    "ALLOCATION_VARIANCE_PROOF_v2.txt": {
+      "bytes": 2519,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/ALLOCATION_VARIANCE_PROOF_v2.txt",
+      "sha256": "75d1abced86acf5fd671f6eaa61fa990fa08f45691522052ff41fbcd11eced79"
+    },
+    "ALLOCATION_VARIANCE_SOURCE_REVIEW.json": {
+      "bytes": 1868,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/ALLOCATION_VARIANCE_SOURCE_REVIEW.json",
+      "sha256": "ee91be97fdba3f654b487a3b57b1ec4c715775dec99b992703bda77fb5b425bc"
+    },
+    "KERNEL_COPY_MANIFEST.json": {
+      "bytes": 8769,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/KERNEL_COPY_MANIFEST.json",
+      "sha256": "1957891c6139eb957517ec6736c4eb6738896575f067b764940ed0c8e1e539aa"
+    },
+    "MEAN_VARIANCE_CHECKED.json": {
+      "bytes": 845,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/MEAN_VARIANCE_CHECKED.json",
+      "sha256": "671f4f865a869c48e971e6814f34c252633a4014641a88cf917426d379b56bbe"
+    },
+    "MEAN_VARIANCE_INDEPENDENT_REVIEW.json": {
+      "bytes": 587,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/MEAN_VARIANCE_INDEPENDENT_REVIEW.json",
+      "sha256": "dae8d2250b977c5884e175325405b6a394b5901579dfa52e5c97d947024ef3b4"
+    },
+    "MEAN_VARIANCE_PROOF.txt": {
+      "bytes": 2165,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/MEAN_VARIANCE_PROOF.txt",
+      "sha256": "83f95878db5e88154725f11c81514b8dee8553b8a1d8c19facc1c0d36f2c208a"
+    },
+    "MOMENT_CORNERS_INDEPENDENT_REVIEW.json": {
+      "bytes": 1266,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/MOMENT_CORNERS_INDEPENDENT_REVIEW.json",
+      "sha256": "4366d0706e061eda31672f749b0b4b3188117206e1f25ab106b93a0510e9bd13"
+    },
+    "MOMENT_CORNERS_PROOF.txt": {
+      "bytes": 1617,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/MOMENT_CORNERS_PROOF.txt",
+      "sha256": "09fe38bd9e67922ad3c34d250b9e99f38f423fc0509a8c87e57c69029a19074c"
+    },
+    "RIGHT_HALF_COUNT_PROOF.txt": {
+      "bytes": 7176,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/RIGHT_HALF_COUNT_PROOF.txt",
+      "sha256": "a73a4f6abf8796e6e20ab161922f33a075c972953e1f6ee545709c51566a355b"
+    },
+    "ROOT_THETA_COUNT_V3_SOURCE_REVIEW.json": {
+      "bytes": 36182,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/ROOT_THETA_COUNT_V3_SOURCE_REVIEW.json",
+      "sha256": "49794a49faccbea0c842c605270bad9e2e40429d9efc55a6b8bd22c07c8c953f"
+    },
+    "SOURCE_TRANSFORM.json": {
+      "bytes": 11401,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/SOURCE_TRANSFORM.json",
+      "sha256": "5da6ce26255dafad387d566a8620a3549659e834f8aea23f63c0c80d2d8df11c"
+    },
+    "THETA_LAMBDA_CHECKED.json": {
+      "bytes": 1322,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/THETA_LAMBDA_CHECKED.json",
+      "sha256": "29071f4f2ce4bd749b69c12f68f831d3737d478f7c670381bab1e842a948c5af"
+    },
+    "THETA_LAMBDA_INDEPENDENT_DERIVATION.txt": {
+      "bytes": 3940,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/THETA_LAMBDA_INDEPENDENT_DERIVATION.txt",
+      "sha256": "88bbf3fb664affe7d15d254c63266fe957f740511d840d98151dcc775c8619a7"
+    },
+    "THETA_VARIANCE_CHECKED.json": {
+      "bytes": 745,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/THETA_VARIANCE_CHECKED.json",
+      "sha256": "570f6095edf4cd504e01143507cbb0fe79e221f262494f684b19d3bde57a47c3"
+    },
+    "THETA_VARIANCE_PROOF.txt": {
+      "bytes": 2084,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/THETA_VARIANCE_PROOF.txt",
+      "sha256": "5092342a816ae4c92173e1112031e19fa450f8abc8eb9041a2b8ba3566e582e8"
+    },
+    "THETA_VARIANCE_SOURCE_REVIEW.json": {
+      "bytes": 1506,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/THETA_VARIANCE_SOURCE_REVIEW.json",
+      "sha256": "5a3c8459887218721ad0597725f7dc8abd5bc8ddeaa44749125b64a509e9e17a"
+    },
+    "allocation_variance.py": {
+      "bytes": 1187,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/allocation_variance.py",
+      "sha256": "3d4d42bdc3cbaa1f578a83f1691c32cb33599a417989a274d21ec42e66671973"
+    },
+    "bernstein_fast.py": {
+      "bytes": 1401,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/bernstein_fast.py",
+      "sha256": "4983c9af05673775c3fd5b521e898a9c7f7fe5c9523a5009646872bf75adc607"
+    },
+    "construct_alpha4.py": {
+      "bytes": 2050,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/construct_alpha4.py",
+      "sha256": "79d1ef5fdcac838adf156dcef4e7aed60e77dfc7f494c4c3670e51aca1aaef8c"
+    },
+    "contract.json": {
+      "bytes": 2667,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/contract.json",
+      "sha256": "f7341272d102c4660fd037b96d64acfefdda7de04df5d068d81c67fd8a323cc6"
+    },
+    "count_protocol.py": {
+      "bytes": 10141,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/count_protocol.py",
+      "sha256": "334aaa08ea6744067f2234b5fa917f54d5432874e69d628a0dab9f6c55f7d173"
+    },
+    "exact35_core.py": {
+      "bytes": 16640,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/exact35_core.py",
+      "sha256": "512c70ead43294a7f1d4e14922c9c3a55d3928c9555f4af1415cacf5ad6657bb"
+    },
+    "exact_count_core_v5.py": {
+      "bytes": 7506,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/exact_count_core_v5.py",
+      "sha256": "0ffba7a5e1a91fc3c3c770f9d3bcb073a529fade3d622bc5615567153a4255a0"
+    },
+    "finite_gaussian.py": {
+      "bytes": 3594,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/finite_gaussian.py",
+      "sha256": "4f5b1a829df4c3c8c0e5467adb79f112984ee8eab8ba5f25b20fd7173b78a4a0"
+    },
+    "generalized_scope.py": {
+      "bytes": 1778,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/generalized_scope.py",
+      "sha256": "0ca76c72ccf7f9243e1d9b7d68f814b84e160f7da11945a7842dff5b2abebc00"
+    },
+    "interval_scalar_fast.py": {
+      "bytes": 559,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/interval_scalar_fast.py",
+      "sha256": "3eaa0d78eec8b8d5c2044eb020a406ec352ac5a99b30f9d2773694a4f9601512"
+    },
+    "joint_cubic.py": {
+      "bytes": 2845,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/joint_cubic.py",
+      "sha256": "d4adf6e9cfa430bbd7be7ffd90b994672d648d9886c42aa38e0a94b66eb55238"
+    },
+    "joint_cubic_defect.py": {
+      "bytes": 2021,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/joint_cubic_defect.py",
+      "sha256": "86874d28284f931b8907b573c118a9fb8191653a6569d903aed54c9f1974e970"
+    },
+    "joint_cubic_normalized.py": {
+      "bytes": 1835,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/joint_cubic_normalized.py",
+      "sha256": "1403856612e213b9a14118a5a4098b7f470ce890499811dd1ad53c808904e2f6"
+    },
+    "joint_cubic_normalized_fast.py": {
+      "bytes": 2144,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/joint_cubic_normalized_fast.py",
+      "sha256": "7d72ff8ec7cfc2ad59e45d26fcccd6998ef01abe24cb54653ba18b05f2bbf347"
+    },
+    "mean_variance.py": {
+      "bytes": 1425,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/mean_variance.py",
+      "sha256": "c2fe5362f74792879998e23dbb37090cbce6898dad94acbb01b646c1fc7ad50f"
+    },
+    "moment_corners.py": {
+      "bytes": 963,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/moment_corners.py",
+      "sha256": "c95f84ade3b01ad498b46d33066257623f06c363ec3cb72764126a999fa44241"
+    },
+    "optimized_arithmetic.py": {
+      "bytes": 382,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/optimized_arithmetic.py",
+      "sha256": "ab9bc728fbb7901f94323a384caf367eee2b2064e919dac27a01cabae743b765"
+    },
+    "probability_extrema.py": {
+      "bytes": 435,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/probability_extrema.py",
+      "sha256": "f808c4e82ba40ce094e45139c6e09872c43ca7249ab7ae1d25aca24bbc5ee9ac"
+    },
+    "rho_signed_moment_tightener.py": {
+      "bytes": 4416,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/rho_signed_moment_tightener.py",
+      "sha256": "f1650ff9ea811d66acf5f3529e0c0c462cc2d4747fbb42d147406714d0fc2be0"
+    },
+    "rho_variance_floor.py": {
+      "bytes": 1400,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/rho_variance_floor.py",
+      "sha256": "615acbcb948d2ba5767082f0dd2a2ab6f1d3999ae0a8afac3fd4c1d73b3aab6b"
+    },
+    "signed_beta_variance_floor.py": {
+      "bytes": 1028,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/signed_beta_variance_floor.py",
+      "sha256": "c4208b88510735d0e808b947ec624ce785de42ef4c9fe3217505ebbef2c823c6"
+    },
+    "signed_moment_floor_tightener.py": {
+      "bytes": 2464,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/signed_moment_floor_tightener.py",
+      "sha256": "6e7165bb4f16df296f58d511983696e10e56725fad28f1179002f31e232f5dbc"
+    },
+    "signed_moment_prefilter.py": {
+      "bytes": 1931,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/signed_moment_prefilter.py",
+      "sha256": "fd82440f07f4be759d74c2d7d44d1075d293e054580e9fa28cc021311b5f2173"
+    },
+    "signed_moment_tightener.py": {
+      "bytes": 2254,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/signed_moment_tightener.py",
+      "sha256": "f6ea60e4592a5055c1ace9340765076a95784f5c5d02232f2f02544321e75b9d"
+    },
+    "theta_variance.py": {
+      "bytes": 791,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/theta_variance.py",
+      "sha256": "d33f4e4aced4a1a3887f16964b25a3d716df00702d5c12d3212403b4644831fd"
+    },
+    "variance_geometry.py": {
+      "bytes": 1749,
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/actual27_count41_prototype/variance_geometry.py",
+      "sha256": "55ba277cf30a0dc571cd98f38fd99deb4deff15c3be8df249c370ae8b10b3734"
+    }
+  },
+  "source_files_count": 43,
+  "source_only_import_closure": {
+    "issues": [],
+    "mathematical_modules_imported": false,
+    "reachable_python_files": 22,
+    "sealed_sibling_import_edges": 36
+  }
+}

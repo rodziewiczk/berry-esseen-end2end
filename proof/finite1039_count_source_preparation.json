@@ -1,0 +1,82 @@
+{
+  "all_candidate_topologies_checked": true,
+  "all_index_conclusion_verified": false,
+  "all_source_bytes_sha_matched": true,
+  "arithmetic_computed": false,
+  "available_forests": 1008,
+  "catalog_sha256": "67a647a00111fda930391bda90345ece419bbf54c44a70c0390969ad0fab3d6d",
+  "expected_forests": 1009,
+  "import_issues": [],
+  "lane_ready": {
+    "n10_14": true,
+    "n15_19": true,
+    "n20_24": true,
+    "n26_30": false,
+    "n31_34": true,
+    "n35_39": true
+  },
+  "lanes": {
+    "n10_14": {
+      "available_forests": 217,
+      "forests": 217,
+      "leaves": 157711,
+      "nodes": 312659,
+      "roots": 2763
+    },
+    "n15_19": {
+      "available_forests": 147,
+      "forests": 147,
+      "leaves": 56966,
+      "nodes": 111301,
+      "roots": 2631
+    },
+    "n20_24": {
+      "available_forests": 163,
+      "forests": 163,
+      "leaves": 144020,
+      "nodes": 284340,
+      "roots": 3700
+    },
+    "n26_30": {
+      "available_forests": 79,
+      "forests": 80,
+      "leaves": 73137,
+      "nodes": 143986,
+      "roots": 2288
+    },
+    "n31_34": {
+      "available_forests": 282,
+      "forests": 282,
+      "leaves": 375490,
+      "nodes": 741496,
+      "roots": 9484
+    },
+    "n35_39": {
+      "available_forests": 120,
+      "forests": 120,
+      "leaves": 298269,
+      "nodes": 591988,
+      "roots": 4550
+    }
+  },
+  "maximum_source_file_bytes": 10832086,
+  "original_mathematical_modules_imported": false,
+  "parent_acquisitions_verified": false,
+  "protocol_node_limits": {
+    "10000": 606
+  },
+  "reachable_python_paths": 12400,
+  "schema": "FINITE1039_ACTUAL_SOURCE_PREPARATION_V1",
+  "sealed_nonstdlib_import_edges": 26951,
+  "source_bytes": 1022756514,
+  "source_files": 18520,
+  "stdout_rule_checks": {
+    "count_protocol": 606,
+    "strict": 402
+  },
+  "strict_path_limits": {
+    "60": 28,
+    "75": 374
+  },
+  "unique_reachable_source_ASTs": 715
+}

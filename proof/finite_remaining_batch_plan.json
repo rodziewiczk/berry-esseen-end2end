@@ -1,0 +1,157 @@
+{
+  "count_catalog_sha256": "67a647a00111fda930391bda90345ece419bbf54c44a70c0390969ad0fab3d6d",
+  "description": "Fourteen proposed delivery units; not fourteen completed notebooks or a closed proof DAG",
+  "global_conclusion_verified": false,
+  "note_path": "proof/finite_remaining_batch_plan.md",
+  "note_sha256": "9d5310cd9eb89b4f4834e26f7bde55f32d2465172ea82cd0f9ec4897cbc63cb1",
+  "packages": [
+    {
+      "all_index_conclusion_verified": false,
+      "arithmetic_computed": false,
+      "available_candidate_forests": 217,
+      "lane": "n10_14",
+      "name": "COUNT10--14",
+      "parent_acquisitions_verified": false,
+      "proposed_number": 50,
+      "selected_count_forests": 217,
+      "source_catalog_sealed": true
+    },
+    {
+      "all_index_conclusion_verified": false,
+      "arithmetic_computed": false,
+      "available_candidate_forests": 147,
+      "lane": "n15_19",
+      "name": "COUNT15--19",
+      "parent_acquisitions_verified": false,
+      "proposed_number": 51,
+      "selected_count_forests": 147,
+      "source_catalog_sealed": true
+    },
+    {
+      "all_index_conclusion_verified": false,
+      "arithmetic_computed": false,
+      "available_candidate_forests": 163,
+      "lane": "n20_24",
+      "name": "COUNT20--24",
+      "parent_acquisitions_verified": false,
+      "proposed_number": 52,
+      "selected_count_forests": 163,
+      "source_catalog_sealed": true
+    },
+    {
+      "all_index_conclusion_verified": false,
+      "arithmetic_computed": false,
+      "available_candidate_forests": 79,
+      "lane": "n26_30",
+      "name": "COUNT26--30",
+      "parent_acquisitions_verified": false,
+      "proposed_number": 53,
+      "selected_count_forests": 80,
+      "source_catalog_sealed": false
+    },
+    {
+      "all_index_conclusion_verified": false,
+      "arithmetic_computed": false,
+      "available_candidate_forests": 282,
+      "lane": "n31_34",
+      "name": "COUNT31--34",
+      "parent_acquisitions_verified": false,
+      "proposed_number": 54,
+      "selected_count_forests": 282,
+      "source_catalog_sealed": true
+    },
+    {
+      "all_index_conclusion_verified": false,
+      "arithmetic_computed": false,
+      "available_candidate_forests": 120,
+      "lane": "n35_39",
+      "name": "COUNT35--39",
+      "parent_acquisitions_verified": false,
+      "proposed_number": 55,
+      "selected_count_forests": 120,
+      "source_catalog_sealed": true
+    },
+    {
+      "all_index_conclusion_verified": false,
+      "arithmetic_computed": false,
+      "lane": "parents10_14",
+      "name": "Parents10--14",
+      "parent_acquisitions_verified": false,
+      "proposed_number": 56,
+      "selected_count_forests": null,
+      "source_catalog_sealed": false
+    },
+    {
+      "all_index_conclusion_verified": false,
+      "arithmetic_computed": false,
+      "lane": "parents15_19",
+      "name": "Parents15--19",
+      "parent_acquisitions_verified": false,
+      "proposed_number": 57,
+      "selected_count_forests": null,
+      "source_catalog_sealed": false
+    },
+    {
+      "all_index_conclusion_verified": false,
+      "arithmetic_computed": false,
+      "lane": "parents20_24",
+      "name": "Parents20--24",
+      "parent_acquisitions_verified": false,
+      "proposed_number": 58,
+      "selected_count_forests": null,
+      "source_catalog_sealed": false
+    },
+    {
+      "all_index_conclusion_verified": false,
+      "arithmetic_computed": false,
+      "lane": "parents26_30",
+      "name": "Parents26--30",
+      "parent_acquisitions_verified": false,
+      "proposed_number": 59,
+      "selected_count_forests": null,
+      "source_catalog_sealed": false
+    },
+    {
+      "all_index_conclusion_verified": false,
+      "arithmetic_computed": false,
+      "lane": "parents31_39",
+      "name": "Parents31--39",
+      "parent_acquisitions_verified": false,
+      "proposed_number": 60,
+      "selected_count_forests": null,
+      "source_catalog_sealed": false
+    },
+    {
+      "all_index_conclusion_verified": false,
+      "arithmetic_computed": false,
+      "lane": "uniform43_48",
+      "name": "Uniform43--48",
+      "parent_acquisitions_verified": false,
+      "proposed_number": 61,
+      "selected_count_forests": null,
+      "source_catalog_sealed": false
+    },
+    {
+      "all_index_conclusion_verified": false,
+      "arithmetic_computed": false,
+      "lane": "uniform40_42",
+      "name": "Uniform40--42",
+      "parent_acquisitions_verified": false,
+      "proposed_number": 62,
+      "selected_count_forests": null,
+      "source_catalog_sealed": false
+    },
+    {
+      "all_index_conclusion_verified": false,
+      "arithmetic_computed": false,
+      "lane": "finite_join",
+      "name": "Finite semantic join",
+      "parent_acquisitions_verified": false,
+      "proposed_number": 63,
+      "selected_count_forests": null,
+      "source_catalog_sealed": false
+    }
+  ],
+  "reserved46_owncaps_metadata_blocker_separate": true,
+  "schema": "FINITE_REMAINING_OPERATIONAL_PACKAGES_V1"
+}

@@ -1,0 +1,57 @@
+{
+  "schema": "FINITE1039_PUBLIC_RELEASE_ASSET_METADATA_V1",
+  "checked_on": "2026-10-23",
+  "method": "Connected GitHub release metadata; uploaded size/digest/browser_download_url, no mathematical replay",
+  "releases": [
+    {
+      "release": "cutoff20-sources-2026-10-17",
+      "url": "https://github.com/rodziewiczk/berry-esseen-045-certificate/releases/tag/cutoff20-sources-2026-10-17",
+      "assets": [
+        {
+          "name": "continuation_cutoff20_20261016_final.zip",
+          "bytes": 45213423,
+          "sha256": "1e3de8f03c28816d36258ddd84ee7f29166622b2390d5c3457eb1b193ef608b7",
+          "url": "https://github.com/rodziewiczk/berry-esseen-045-certificate/releases/download/cutoff20-sources-2026-10-17/continuation_cutoff20_20261016_final.zip",
+          "state": "uploaded"
+        },
+        {
+          "name": "cutoff20_20261016.zip",
+          "bytes": 31681776,
+          "sha256": "b1dd7e730187f62142faa1e82eff5a9fd13a879e933a2fafbd22af8a4709ef83",
+          "url": "https://github.com/rodziewiczk/berry-esseen-045-certificate/releases/download/cutoff20-sources-2026-10-17/cutoff20_20261016.zip",
+          "state": "uploaded"
+        },
+        {
+          "name": "cutoff25_20261011.zip",
+          "bytes": 514958998,
+          "sha256": "17fa140f63c5134ac48f1fd1040f4c5ae4bebdb2b92b2d7ce69f4048293d1fcb",
+          "url": "https://github.com/rodziewiczk/berry-esseen-045-certificate/releases/download/cutoff20-sources-2026-10-17/cutoff25_20261011.zip",
+          "state": "uploaded"
+        },
+        {
+          "name": "cutoff25_continue_20261015.zip",
+          "bytes": 37200633,
+          "sha256": "2b848227a5f5e2f54f210a347829c6b3f1c56bd656ef0cf01482a7898e11d63a",
+          "url": "https://github.com/rodziewiczk/berry-esseen-045-certificate/releases/download/cutoff20-sources-2026-10-17/cutoff25_continue_20261015.zip",
+          "state": "uploaded"
+        }
+      ]
+    },
+    {
+      "release": "cutoff5-sources-2026-10-20",
+      "url": "https://github.com/rodziewiczk/berry-esseen-045-certificate/releases/tag/cutoff5-sources-2026-10-20",
+      "assets": [
+        {
+          "name": "cutoff5_10_15.zip",
+          "bytes": 224483065,
+          "sha256": "268f71662171764d7ebe116910b5df82dfd58cadb2de2a7ef82db7da98b66dae",
+          "url": "https://github.com/rodziewiczk/berry-esseen-045-certificate/releases/download/cutoff5-sources-2026-10-20/cutoff5_10_15.zip",
+          "state": "uploaded"
+        }
+      ]
+    }
+  ],
+  "arithmetic_computed": false,
+  "parent_acquisitions_verified": false,
+  "all_index_conclusion_verified": false
+}
