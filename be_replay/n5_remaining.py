@@ -68,6 +68,7 @@ def execute(task,row,cache, *, log_root=None):
     root=task if log_root is None else Path(log_root)
     event(root,"n5_full_job_started",job_id=row["job_id"],kind=row["kind"],
           cpu_seconds=CPU_SECONDS,wall_seconds=WALL_SECONDS,memory_bytes=MEMORY_BYTES,
+          resource_policy=src.RESOURCE_POLICY,
           partial_numerical_resume=False,native_arithmetic_accepted=False)
     with Follow(root,task,row):
         observed=linux_supervisor.run(evidence.command(request,row,sys.executable),cwd=task/"runtime",
@@ -81,7 +82,14 @@ def execute(task,row,cache, *, log_root=None):
         conditional_arithmetic_completed=False,native_arithmetic_accepted=False,
         fresh_parent_fact_joins_verified=False,full_n5_verified=False,all_index_conclusion_verified=False)
     atomic_json(task/"STAGE_OBSERVED.json",report)
-    summary=evidence.validate_run(task,row,report)
+    try:summary=evidence.validate_run(task,row,report)
+    except BaseException as error:
+        details=failure_details(task,observed)
+        details["validation_error"]=type(error).__name__+": "+str(error)[:2048]
+        event(root,"n5_original_job_incomplete",job_id=row["job_id"],**details)
+        raise ValueError("Original n5 job did not validate: "+details["validation_error"]+
+                         "; supervisor reason: "+str(observed.get("reason"))+
+                         "; stderr tail: "+details["stderr_tail"])
     complete=dict(schema=evidence.SCHEMA,scope=evidence.SCOPE,job_id=row["job_id"],
         implementation=evidence.implementation(),observed_sha256=src.digest(task/"STAGE_OBSERVED.json"),
         summary=summary,artifacts=evidence.inventory(task),conditional_arithmetic_completed=True,
@@ -92,6 +100,24 @@ def execute(task,row,cache, *, log_root=None):
     event(root,"n5_full_job_completed",job_id=row["job_id"],kind=row["kind"],summary=summary,
           native_arithmetic_accepted=False,full_n5_verified=False)
     return checked
+
+
+def failure_details(task,observed):
+    """Surface bounded actual diagnostics; these bytes never accept a stage."""
+    result=dict(status=observed.get("status"),reason=observed.get("reason"),returncode=observed.get("returncode"),
+                resource_policy=src.RESOURCE_POLICY,conditional_arithmetic_completed=False,full_n5_verified=False)
+    for kind in("stdout","stderr"):
+        path=Path(task)/"execution"/(kind+".txt")
+        try:
+            src.ordinary(path)
+            if not path.is_file()or path.stat().st_size>16*src.MIB:raise ValueError("No bounded ordinary capture")
+            with path.open("rb")as stream:
+                stream.seek(max(0,path.stat().st_size-4096));raw=stream.read(4096)
+            result[kind+"_tail"]=raw.decode("utf-8",errors="replace")
+            result[kind+"_actual_sha256"]=src.digest(path)
+            result[kind+"_supervisor_hash_matches"]=result[kind+"_actual_sha256"]==observed.get(kind+"_sha256")
+        except Exception as error:result[kind+"_tail"]="[capture unavailable: "+type(error).__name__+"]"
+    return result
 
 
 def cache_members(z):
@@ -214,6 +240,7 @@ def run_colab(*,durable_root,work_root="/content/berry-esseen-runs",archives="/c
     backups=LogBackups(root,durable,backup_interval);backups.start()
     try:
         event(root,"n5_remaining_batch_started",jobs=326,count_forests=295,count_roots=1770,count_leaves=75178,
+              resource_policy=src.RESOURCE_POLICY,
               support_protocols=3,HIGH_protocols=2,INITIAL_jobs=12,resource_jobs=15,resource_panels=1200,
               global_coarse_strips=87,complement_strips=41,complement_integrations=2,
               full_n5_verified=False,all_index_conclusion_verified=False)

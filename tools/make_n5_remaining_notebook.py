@@ -40,6 +40,10 @@ outer job has a43,200-second per-process CPU budget, a54,000-second external
 wall budget and2 GiB memory allowance. Group CPU/RSS observations are sampled
 over live processes; cumulative process-tree CPU and cgroup equivalence are
 not claimed. Original inner64/512 MiB and7,200-second gates remain in force.
+This resource epoch keeps the64 MiB self-cap but measures the current Linux
+exec image's approximate VmHWM, excluding the pre-exec notebook image retained
+by getrusage. A tiny Linux fixture verifies both the pre-exec distinction and
+rejection of real96 MiB growth after exec before any mathematical job starts.
 These are resource limits per job, not a completion-time estimate for the batch.
 
 Completion establishes selected conditional arithmetic only. The separate

@@ -14,6 +14,7 @@ import time
 import urllib.request
 import uuid
 import zipfile
+from .n5_remaining_bridge import RESOURCE_POLICY
 
 ROOT = Path(__file__).resolve().parents[1]
 VENDOR = ROOT / "vendor/n5_remaining_snapshot_v1"
@@ -202,6 +203,7 @@ def prepare_job(task, row, cache):
             shutil.copyfile(source,capsule/name)
     request=dict(schema="FRESH_N5_REMAINING_JOB_SOURCE_V1",job_id=row["job_id"],catalog_sha256=CATALOG_SHA256,
                  snapshot_sha256=SNAPSHOT_SHA256,original_task_root=str(task.resolve()),
+                 resource_policy=RESOURCE_POLICY,
                  source_cache=str(Path(cache).resolve()),inputs=expected_inputs(row),
                  full_n5_verified=False,all_index_conclusion_verified=False)
     (task/"JOB_SOURCE.json").write_text(json.dumps(request,sort_keys=True,indent=2)+"\n",encoding="utf-8")
@@ -214,6 +216,7 @@ def verify_job(task,row=None):
     need(row==job(row["job_id"])and request["job_id"]==row["job_id"]and
          request["schema"]=="FRESH_N5_REMAINING_JOB_SOURCE_V1"and request["catalog_sha256"]==CATALOG_SHA256
          and request["snapshot_sha256"]==SNAPSHOT_SHA256 and request["inputs"]==expected_inputs(row)
+         and request["resource_policy"]==RESOURCE_POLICY
          and request["full_n5_verified"]is False and request["all_index_conclusion_verified"]is False,
          "Exact source epoch, selected job and non-global scope")
     expected=request["inputs"]

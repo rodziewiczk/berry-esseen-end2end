@@ -1,5 +1,11 @@
 # Selected remaining n5 lane: bounded peer readback
 
+Historical V1 review. The first actual notebook35 launch later stopped in the
+controller's Linux memory guard before any support producer started. This note
+did not establish successful Colab startup. The failure and subsequent scoped
+resource-policy review are recorded in
+[n5_remaining_v2_resource_review.md](n5_remaining_v2_resource_review.md).
+
 Date: 23 October 2026. This is a fallible internal source/infrastructure review
 by the same AI system, not external independent mathematical verification.
 No original numerical kernel was imported, evaluated or searched locally.

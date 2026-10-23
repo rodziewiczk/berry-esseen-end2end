@@ -11,7 +11,7 @@ from . import n5_remaining_sources as src
 
 SCHEMA="COMPLETED_CONDITIONAL_N5_REMAINING_STAGE_V1"
 OBSERVED="OBSERVED_CONDITIONAL_N5_REMAINING_STAGE_V1"
-SCOPE="SELECTED_N5_ARITHMETIC_BASIC_NEW_LINUX_RESOURCE_EPOCH"
+SCOPE="SELECTED_N5_ARITHMETIC_BASIC_CURRENT_EXEC_PEAK64_RESOURCE_EPOCH_V2"
 CPU_SECONDS=43200
 WALL_SECONDS=54000
 MEMORY_BYTES=2048*src.MIB
@@ -22,6 +22,11 @@ def metadata_module(name):
     import importlib
     src.need(name in("c5_initial_one","c5_acquisition_plan","c5_resources_arithmetic"),"Fixed metadata-only adapter")
     directory=src.VENDOR/"reproduction/all_indices";before=sys.path[:]
+    closure=("c5_counts","c5_inputs","c5_high_one","c5_acquisition_plan","c5_initial_one",
+             "c5_resources_arithmetic","stable_guard","supervised")
+    if any(key in sys.modules and Path(getattr(sys.modules[key],"__file__","")).resolve()!=
+           (directory/(key+".py")).resolve()for key in closure):
+        for key in closure:sys.modules.pop(key,None)
     try:
         sys.path.insert(0,str(directory));module=importlib.import_module(name)
         src.need(Path(module.__file__).resolve()==(directory/(name+".py")).resolve(),"Actual pinned metadata adapter import")
@@ -48,7 +53,7 @@ def implementation():
     names=("n5_remaining.py","n5_remaining_sources.py","n5_remaining_evidence.py",
            "n5_remaining_bridge.py","linux_supervisor.py","colab_batch.py")
     return {name:src.digest(src.ROOT/"be_replay"/name)for name in names}|{
-        "catalog":src.CATALOG_SHA256,"supervisory_snapshot":src.SNAPSHOT_SHA256}
+        "catalog":src.CATALOG_SHA256,"supervisory_snapshot":src.SNAPSHOT_SHA256,"resource_policy":src.RESOURCE_POLICY}
 
 
 def mapped(task, value, original):

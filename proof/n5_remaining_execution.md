@@ -58,7 +58,7 @@ Original `run_reproduction.py` is separately sealed under
 `ORIGINAL_RUN_REPRODUCTION.py`, SHA256
 `795c673a5df57ac6619b66832957cbfa83f1f31e4e3a9a7e775c3c3c52307ed0`.
 The new imported `n5_remaining_bridge.py` verifies that hash and applies exactly
-three unique checked literal substitutions, all within `run_child`:
+four unique checked literal substitutions. The first three are within `run_child`:
 
 1. Ordinary inner children inherit the outer process group (`start_new_session=False`).
 2. An inner failure kills its owned child PID with `process.kill()`. The owning
@@ -66,10 +66,15 @@ three unique checked literal substitutions, all within `run_child`:
    primary process exits, on normal completion, failure or timeout.
 3. The old lowercase log-label rule additionally admits exactly the three
    original labels `owncap-B3-ext-{construct,replay,accept}`.
+4. Only the Linux branch of `own_peak` uses the current exec address space's
+   uniquely parsed positive `VmHWM`/`VmRSS` counters, requiring `VmRSS<=VmHWM`.
+   The Windows native peak query and the literal64 MiB self-cap remain unchanged.
+   Policy identity is `LINUX_CURRENT_EXEC_VM_HWM_64MIB_V2`.
 
 No mathematical function, assertion, invocation, target, original numerical
 limit or original negative control changes. An AST fixture checks that only
-`run_child` differs; literal byte fixtures bind every substitution. The old
+`run_child` and the Linux measurement in `own_peak` differ; literal byte fixtures
+bind every substitution. The old
 runner's inner64 MiB parent/512 MiB child and7,200-second gates remain in force.
 The source-only port already present in the frozen resource adapters permits
 only its exact whitelisted metadata/command-lookup AST changes. Both replay and
@@ -147,7 +152,52 @@ source/AST/JSON readback, mocked launch outcomes and cache/failure fixtures.
 Actual mathematical replay is reserved for Colab; publication requires a pinned
 runtime commit and an independently checked generated notebook35.
 
-The final22 infrastructure fixtures passed in the owner, peer and root runs;
+## Observed startup failure and V2 memory-measurement epoch
+
+The first public notebook35 runtime (`7655cd1602d1...`) stopped before support
+arithmetic. Actual export `20261023T192537Z-01dab922-results.zip`, SHA256
+`2162466f17ce25936c1487def793b283f9f9de6ae23aaac987fcff345bf26a82`,
+records exit1/nonzero_subprocess_exit after0.534 seconds and exact stderr
+`C5_SUPPORT_INCOMPLETE: Runner itself exceeds64MiB peak RSS`.
+Its maximum sampled group RSS was4 MiB; a short sampling interval is not a
+measurement of the target's own historic peak. The old export/commit are
+preserved and are not relabelled as successful arithmetic.
+
+Linux [`getrusage(2)`](https://man7.org/linux/man-pages/man2/getrusage.2.html)
+explicitly preserves resource metrics across `execve`. Linuxv6.12
+[`fs/exec.c`](https://github.com/torvalds/linux/blob/v6.12/fs/exec.c#L954)
+saves the old address space's high-water RSS in `signal->maxrss`, and
+[`kernel/sys.c`](https://github.com/torvalds/linux/blob/v6.12/kernel/sys.c#L1740)
+includes that historic value in `ru_maxrss`. In contrast,
+[`fs/proc/task_mmu.c`](https://github.com/torvalds/linux/blob/v6.12/fs/proc/task_mmu.c#L34)
+derives `VmHWM` from the current `mm_struct`. This explains how the old guard can
+reject a fresh small interpreter because of an earlier process image; the
+failed export does not itself contain the target's exact `ru_maxrss` value.
+
+The V2 adapter changes this resource measurement only. It neither raises the
+64 MiB threshold nor subtracts an arbitrary baseline. Malformed, missing,
+duplicate, zero, wrong-unit or inconsistent counters fail closed. Both
+[`VmHWM` and `VmRSS` are documented approximate observations](https://man7.org/linux/man-pages/man5/proc_pid_status.5.html),
+so no hard64 MiB kernel/cgroup memory-enforcement claim is introduced. The
+separate BASIC process-group/address-space/wall limits remain as recorded.
+
+The Linux-only synthetic fixture touches96 MiB before exec, then requires a
+small current-image high water despite a retained large `ru_maxrss`; another
+fixture touches96 MiB after exec and requires the actual original infrastructure
+guard with its V2 reader to reject it. No mathematical kernel participates.
+Windows local runs skip this actual Linux fixture, and the Colab notebook runs
+it before any mathematical job. Local fake/source test success must not be
+described as an observed Linux probe pass.
+
+V2 records its policy in the source request, implementation map, scoped result
+identity and progress events. Source archive, catalog and all original numerical
+bytes are unchanged. Actual bounded stdout/stderr tails and capture hashes are
+now surfaced when a job fails validation, while the observed ledger remains
+false and no completed-stage ledger is created. Stale bare metadata adapters
+from another pinned notebook checkout are discarded only within a fixed
+stdlib-only adapter allowlist; their current source origin is rechecked.
+
+The original V1 set of22 infrastructure fixtures passed in the owner, peer and root runs;
 the root run took42.788seconds. A separate root preparation/AST-only check
 prepared one real selected job from each of all seven kinds (support, HIGH,
 owncaps, INITIAL, resources, count and complement), checked its complete sealed
@@ -157,3 +207,9 @@ The staged catalog and four runtime-module bytes were also checked against
 their literal SHA256 commitments before publication. The bounded
 [peer readback](n5_remaining_independent_review.md) records the repaired evidence
 gates and its remaining scope limits.
+
+The V2 set has27 fixtures:26passed and the actual-Linux exec fixture was
+skipped on this Windows host. The root run took37.743seconds. The same Linux
+fixture is mandatory in Colab before a mathematical job can start. The
+[V2 resource review](n5_remaining_v2_resource_review.md) records the exact
+counter correction and the observed-integration boundary.

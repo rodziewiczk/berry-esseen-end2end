@@ -98,7 +98,7 @@ class N5Remaining(unittest.TestCase):
         before,after=ast.parse(raw),ast.parse(new)
         changed=[a.name for a,b in zip(before.body,after.body)if isinstance(a,(ast.FunctionDef,ast.AsyncFunctionDef))
                  and ast.dump(a)!=ast.dump(b)]
-        self.assertEqual(changed,["run_child"])
+        self.assertEqual(changed,["own_peak","run_child"])
         expected=raw
         for old,replacement in bridge.EDITS:
             self.assertEqual(raw.count(old),1);expected=expected.replace(old,replacement,1)
@@ -278,6 +278,25 @@ class N5Remaining(unittest.TestCase):
         self.assertEqual(result["status"]["state"],"incomplete_selected_arithmetic")
         self.assertFalse(result["status"]["full_n5_verified"]);self.assertTrue(Path(result["bundle"]).is_file())
         with zipfile.ZipFile(result["bundle"])as z:self.assertTrue(any(n.endswith("/ERROR.txt")for n in z.namelist()))
+    def test_failure_details_surface_bounded_actual_stderr(self):
+        task,row,request,report=fixture(self.root/"diagnostics")
+        path=task/"execution/stderr.txt";path.write_text("C5_SUPPORT_INCOMPLETE: Runner itself exceeds64MiB peak RSS\n")
+        report["observed"]["stderr_sha256"]=src.digest(path)
+        d=run.failure_details(task,report["observed"])
+        self.assertIn("exceeds64MiB",d["stderr_tail"]);self.assertTrue(d["stderr_supervisor_hash_matches"])
+        self.assertEqual(d["resource_policy"],bridge.RESOURCE_POLICY);self.assertFalse(d["conditional_arithmetic_completed"])
+        path.write_bytes(b"x"*20000);d=run.failure_details(task,report["observed"])
+        self.assertEqual(len(d["stderr_tail"]),4096);self.assertFalse(d["stderr_supervisor_hash_matches"])
+    def test_metadata_adapter_rejects_stale_other_checkout_origin(self):
+        import types
+        key="c5_acquisition_plan";old=sys.modules.get(key);fake=types.ModuleType(key);fake.__file__="/other/checkout/c5_acquisition_plan.py"
+        try:
+            sys.modules[key]=fake;module=ev.metadata_module(key)
+            self.assertEqual(Path(module.__file__).resolve(),(src.VENDOR/"reproduction/all_indices/c5_acquisition_plan.py").resolve())
+            self.assertIsNot(module,fake)
+        finally:
+            if old is None:sys.modules.pop(key,None)
+            else:sys.modules[key]=old
 
 
 if __name__=="__main__":unittest.main()
