@@ -948,7 +948,7 @@ bundle under `finite1039-counts-n10_14/20261023T214220Z-7ad13c26/`.
 This is the already repaired common finalization bug; no native stage failure
 is reported. The published corrected50uses runtime
 `13dfd07f1ef2bf66f54bc639dd8bfb2550e04ec4` and revalidates prior complete
-stages. Its successful final rerun is not yet observed.
+stages. Its later successful final rerun is recorded below.
 
 ## Notebook28: complete retained B2 count log
 
@@ -1007,3 +1007,14 @@ notebook folder. Its full fetched bytes and metadata match the local copy:
 `5af8815b4ce40f236e5407b82edc1df013de40c94de5e8beefeb09e71fc3b248`.
 This resolves the earlier Drive upload-rate boundary; no new46mathematical
 execution or completed result is inferred from copying the notebook.
+
+## Notebook53: supplied complete80-forest ending
+
+The inline user-supplied ending at23:03:37UTC on23October2026 records
+`finite2630_all80_full_replays_and_identity_edge_verified`, with80forests,
+2316roots,150296nodes and76306leaves. Its terminal status is
+`complete_selected_conditional_count_arithmetic_basic`, and the final ZIP is
+`finite2630-counts/20261023T224032Z-c2e02cfb/20261023T224032Z-c2e02cfb-results.zip`.
+The positive flag is conditional arithmetic completion; parent acquisitions
+and all-index conclusions remain false. This is supplied-log completion,
+separate from actual final export readback and the mathematical parent joins.

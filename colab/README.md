@@ -354,3 +354,15 @@ retains BASIC 2 GiB/43200 CPU/54000 wall limits; CPU or GPU sessions work and
 arithmetic uses the CPU. Parent acquisition and full-theorem conclusions
 remain separate. See [execution scope](../proof/finite2630_execution.md) and
 [the bounded internal review](../proof/finite2630_root_review.md).
+
+Notebook56A, `56A_n10_14_auxiliary_fourier.ipynb`, selects immutable runtime
+`9b7af758385440d585dca6d873c157fa1838a911`. Choose Run all with the usual
+Drive; CPU or GPU sessions work, with arithmetic on the CPU. It executes all
+four original auxiliary9--14 actions: plan, full construction, full replay,
+and full independent readback. All75inputs and the72-row native manifest
+remain unchanged. NumPy is needed only by untrusted planning and is checked
+automatically. Each action retains2GiB/43200CPU/54000wall BASIC limits.
+Only a fully revalidated complete four-action cache is reused; interrupted
+work restarts this transaction. The other parts of56, the217count interfaces
+and all-index theorem remain open. See [scope](../proof/finite1014_parent_auxiliary_execution.md)
+and [internal review](../proof/finite1014_parent_auxiliary_root_review.md).

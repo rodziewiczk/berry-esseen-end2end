@@ -73,6 +73,14 @@ acceptors. All 80 forests and their original controls are required; parent
 acquisition and the all-law theorem remain separate. See
 [the execution scope](proof/finite2630_execution.md).
 
+Notebook56A is the separately runnable original auxiliary9--14 Fourier part
+of the larger parent package56. It runs the full original plan, construction,
+replay and independent readback with unchanged sources and controls. Choose
+Run all in [56A_n10_14_auxiliary_fourier.ipynb](colab/56A_n10_14_auxiliary_fourier.ipynb).
+Support/HIGH, INITIAL/resources and the217count interfaces remain separate.
+See [its exact execution scope](proof/finite1014_parent_auxiliary_execution.md)
+and [the bounded infrastructure review](proof/finite1014_parent_auxiliary_root_review.md).
+
 The current12-hour settings in RESTART01–07 are budgets, not completion estimates.
 A complete tree still requires a separate full acceptor run. An unfinished tree
 is checkpointed for a compatible rerun.
