@@ -14,7 +14,7 @@ it binds
 `continuation_20261011/high25_beta3_cached_exact_v1/HIGH25_BETA3_JOINED.json`.
 The exact source/selector/candidate rows are recorded in
 [the source catalog](high_beta3_acquisition_sources.json), SHA256
-`3203d5de796e59e56d08320928fff25621606b3a87a6afd98752faa9ca683183`.
+`741d63a34acb1ccf141f3032316dc800f73080af21898f5bf1ecb1cf3dd07f56`.
 The catalog builder reads ZIP/JSON/source bytes only. Historical receipts are
 used to identify the selected schema, controls and census; none is selected as
 a fresh runtime input.
@@ -132,8 +132,13 @@ full INITIAL/global-construction/global-acceptance/raw-local/cached-local
 chain, relocated completed-prefix reuse, interrupted-prefix continuation and
 rejection of changed parents, captures, budgets, controls/cache counters,
 sources, ZIP traversal and incompatible runtime seals. Twelve infrastructure
-fixtures passed (19.327 seconds); the additional malformed-control assertion
-was then checked again in its selected fixture (one pass,2.425 seconds).
-Notebook cells are
+fixtures initially passed (19.327 seconds); the additional malformed-control
+assertion was checked again in its selected fixture (one pass,2.425 seconds).
+Before publication, the catalog was normalized to literal UTF-8/LF bytes and
+its transport-only SHA pin updated; the builder now writes those exact bytes.
+The original mathematical source, runner and evidence validator are unchanged.
+The full suite, including a new literal-LF/catalog-pin regression, then passed
+all13fixtures in17.981seconds. An internal peer confirmed that the JSON content
+and source selection are unchanged. Notebook cells are
 compiled as text before publication. No actual numerical success is claimed
 by any of these local checks.

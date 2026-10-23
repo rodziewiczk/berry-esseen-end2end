@@ -94,7 +94,7 @@ def build(archive,output):
             global_sharp24_required=False,resource_interfaces_verified=False,full_n25_verified=False,all_index_conclusion_verified=False)
     raw=json.dumps(result,sort_keys=True,indent=2)+'\n'
     need(not output.exists()or output.read_text()==raw,'Never overwrite a different frozen catalog')
-    output.parent.mkdir(parents=True,exist_ok=True);output.write_text(raw,encoding='utf-8')
+    output.parent.mkdir(parents=True,exist_ok=True);output.write_bytes(raw.encode('utf-8'))
     return result
 
 if __name__=='__main__':

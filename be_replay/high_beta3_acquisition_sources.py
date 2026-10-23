@@ -13,7 +13,7 @@ from . import aux24_sources as source, count_task as common
 
 ROOT=Path(__file__).resolve().parents[1]
 CATALOG='proof/high_beta3_acquisition_sources.json'
-CATALOG_SHA='3203d5de796e59e56d08320928fff25621606b3a87a6afd98752faa9ca683183'
+CATALOG_SHA='741d63a34acb1ccf141f3032316dc800f73080af21898f5bf1ecb1cf3dd07f56'
 BRANCH='high-beta3'
 MIB=1024**2
 

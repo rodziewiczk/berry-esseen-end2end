@@ -10,11 +10,11 @@ imported or executed locally. No actual fresh Colab completion is claimed.
 | File | SHA-256 |
 |---|---|
 | `be_replay/high_beta3_acquisition.py` | `e210fca5c2f16c7dcc97997d8ae27bd5d42b1d9bab131ffaf54f80ba47a40bd4` |
-| `be_replay/high_beta3_acquisition_sources.py` | `a765ff1a67ae8ec1110e9405c80cfcbc2cff60aadb4b9b47a0ec7201e6b1b06c` |
+| `be_replay/high_beta3_acquisition_sources.py` | `70b13c6755cc38fc80366fc1f8a0f1ebeb94be5b8eafa9d172ba8359e8077765` |
 | `be_replay/high_beta3_acquisition_evidence.py` | `88cf6f8f8615af120903651a818e81bcbacec38a9f176262f37bf73171e7ae25` |
 | `tests/test_high_beta3_acquisition.py` | `c0cbc80a08d4c8c52a8f51227185d534b7d861ce7c1ec4f5dc567cdc989f7507` |
 | `tools/make_high_beta3_acquisition_notebook.py` | `83de546b90496fe02cc38c95ab27a96bf8339f9a97b5353de568e9147ce3bb56` |
-| `proof/high_beta3_acquisition_sources.json` | `3203d5de796e59e56d08320928fff25621606b3a87a6afd98752faa9ca683183` |
+| `proof/high_beta3_acquisition_sources.json` | `741d63a34acb1ccf141f3032316dc800f73080af21898f5bf1ecb1cf3dd07f56` |
 
 The source package is the supplied `cutoff25_20261011.zip`, SHA-256
 `17fa140f63c5134ac48f1fd1040f4c5ae4bebdb2b92b2d7ce69f4048293d1fcb`.
@@ -128,6 +128,15 @@ counter changes, actual captures/launches/terminal markers, guard promotion,
 source mutation and unsafe ZIP members.
 
 ## Remaining boundary
+
+Before publication, the catalog was normalized to UTF-8/LF and its literal
+transport pin updated. An internal post-review read confirmed that replacing
+LF with CRLF reproduces the previous catalog digest, parsed JSON is unchanged,
+the source helper changes only that pin, and the builder changes only its
+byte-writing method. Runner, validator and original mathematical bytes are
+unchanged. The owner reran13synthetic fixtures, including the literal-LF/pin
+regression, with all passing in17.981seconds. This is a metadata correction,
+not numerical acceptance.
 
 Successful future execution acquires only the selected conditional acquisition
 arithmetic. The universal predecessor/support/HIGH/kernel premises, same-witness

@@ -2,6 +2,7 @@
 from copy import deepcopy
 from fractions import Fraction as F
 import importlib.util
+import hashlib
 import json
 from pathlib import Path
 import shutil
@@ -21,6 +22,13 @@ def temporary():
     return tempfile.TemporaryDirectory(dir=parent)
 
 class Catalog(unittest.TestCase):
+    def test_published_catalog_has_stable_lf_bytes(self):
+        path=Path(__file__).resolve().parents[1]/'proof/high_beta3_acquisition_sources.json'
+        raw=path.read_bytes()
+        self.assertNotIn(b'\r',raw)
+        self.assertTrue(raw.endswith(b'\n'))
+        self.assertEqual(hashlib.sha256(raw).hexdigest(),source.CATALOG_SHA)
+
     def test_exact_final_selection(self):
         p=source.definition();stages=source.stages();rows=source.selected()
         self.assertEqual(len(rows),94);self.assertEqual(len(stages),14)
