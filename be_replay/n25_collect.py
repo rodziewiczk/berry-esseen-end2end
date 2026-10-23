@@ -62,14 +62,14 @@ def recovery_validator():
 
 
 def validate_count_export(task, key, ordinary):
-    """Dispatch only the fixed q2 resource epoch; original validators stay intact."""
+    """Dispatch seven fixed resource profiles; original validators stay intact."""
     task_record = Path(task) / "TASK.json"
     # The selected ordinary validator itself rejects a missing TASK. Keeping
     # that dispatch fallback also preserves its existing injectable test seam.
     record = common.read(task_record, 4 * common.MIB) if task_record.exists() else {}
     if record.get("schema") == "COUNT_LIMIT_RECOVERY_TASK_V1":
-        need(key == "b4-q2" and record.get("target") == key,
-             "Only logical B4 q2 has the reviewed resource-limit recovery")
+        need(key in COUNTS and record.get("target") == key,
+             "Only the matching logical target's reviewed resource profile")
         validator = recovery_validator()
     else:
         validator = ordinary
@@ -87,11 +87,14 @@ def validate_scope(key, packet):
         expected_design = common.TARGETS[key][2]
         if packet.get("resource_epoch") is not None:
             recovery = recovery_validator()
-            need(key == "b4-q2" and recovery.same(packet["resource_epoch"], recovery.resource_epoch())
+            profile = recovery.limit.profile(key)
+            recovery.memory_policy(packet, key)
+            need(recovery.same(packet["resource_epoch"], recovery.resource_epoch(
+                    key, native_memory_bytes=packet["native_memory_bytes"]))
                  and packet["original_design_sha256"] == common.TARGETS[key][2]
-                 and packet["new_design_sha256"] == recovery.limit.NEW_DESIGN_SHA256,
-                 "Exact fixed q2 resource-only epoch with unchanged original mathematical inputs")
-            expected_design = recovery.limit.NEW_DESIGN_SHA256
+                 and packet["new_design_sha256"] == profile["new_design_sha256"],
+                 "Exact fixed resource-only profile with unchanged original mathematical inputs")
+            expected_design = profile["new_design_sha256"]
         need(packet["schema"] == "REVALIDATED_N25_COUNT_V1" and packet["target"] == key
              and packet["branch"] == branch and type(packet["index"]) is int
              and packet["index"] == common.TARGETS[key][1]

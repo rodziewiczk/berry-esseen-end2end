@@ -1,14 +1,36 @@
 # CPU notebooks: upload and run all
 
+## Current count set: RESTART01–07
+
+Use the seven `01_RESTART_...` through `07_RESTART_...` files in this directory.
+They replace the earlier01–07 count notebooks and the separate q2-only notebook25.
+Their numbers and mathematical target assignments stay the same. Use the current
+notebook24 from the same delivery for the eventual evidence join.
+
+All seven original runs have ended and their actual exported ZIPs and source/cache
+bindings have been inspected. See [the cache handoff](../proof/count_cache_handoff.md).
+Keep the old results and live Drive backups, close the old01–07 tabs, then open
+the new numbered files. Select CPU / Run all and authorize the same Google Drive.
+The new runner restores a compatible saved candidate automatically; no command,
+path or parameter edits are required. Each job keeps its own cache directory.
+
+The current limits are100000 nodes,2GiB memory,12 hours of search allocation and
+an independent12-hour native CPU ceiling. Search checkpoints survive a new
+interruption. These are budgets, not a promised completion time. The seven jobs
+may run in separate sessions in parallel; each session uses one discovery worker.
+All mathematical kernels, contracts, targets, roots and24controls remain intact;
+every completed candidate still needs full fresh independent native replay.
+See [the unified restart protocol](../proof/count_restart_execution.md).
+
 Each notebook is preconfigured for a separate task. In Colab, select **Runtime → Run all**. You do not need to enter commands or change parameters.
 
 Google may first ask you to authorize backups to your Drive. Results are saved under `MyDrive/Berry-Esseen-end2end/`, in separate directories named after the task and its start time.
 
 | Notebook | Task |
 |---|---|
-| 01 | n25, original B3 p33 |
-| 02–05 | n25, original B4 q0–q3 |
-| 06–07 | n25, new conditional B3 V14 p31 and p32 |
+| 01 | RESTART: n25 B3 p33, preserved original contract |
+| 02–05 | RESTART: n25 B4 q0–q3, preserved original contracts |
+| 06–07 | RESTART: n25 portable conditional B3 V14 p31 and p32 |
 | 08 | Full n2 and n3 arithmetic, with a separate platform and trust status |
 | 09 | n25 B3: fresh INITIAL and all 100 resource panels, with both acceptors |
 | 10 | n25 B4: fresh INITIAL and all 100 resource panels, with both acceptors |
@@ -22,9 +44,9 @@ Google may first ask you to authorize backups to your Drive. Results are saved u
 | 23 | Import and revalidate all nine completed auxiliary jobs, then check the conditional numerical chain |
 | 24 | Revalidate completed 01–07 and 09/10 exports and their seven conditional n25 resource-to-count interfaces |
 
-In notebooks 01–07, the first short run measures the resources actually allocated. Subsequent slices use up to three hours of the allocated search budget. A complete candidate tree triggers a separate native acceptor. An incomplete result preserves its checkpoints. Rerunning the same notebook finds the latest valid Drive backup and rechecks its compatibility with the pinned sources before resuming.
+In the current RESTART01–07 set, the first short slice continues the restored candidate. Subsequent30-minute slices use up to12 hours of search allocation. A complete candidate triggers a separate fresh native acceptor. An incomplete result preserves its checkpoints. Rerunning the same current notebook finds the compatible saved candidate and rechecks its source bindings before resuming. A missing cache is an explicit incomplete error, never a silent fresh-root restart.
 
-Three hours is a search limit, not a promise of completion. Final acceptance takes additional time after a complete candidate is found; an unfinished search can require further resumed runs.
+The earlier ordinary-profile notebooks used a three-hour search allocation and10000-node ceiling. Their preserved candidates are migrated explicitly to the new bounded source profiles. Source hashes and the new execution budgets remain visible in the result; no earlier interrupted run is relabeled as completed.
 
 Each notebook displays progress: the current stage, elapsed time, resources, counters available in the checkpoints, and the result status. Full logs are also saved to files, with a Drive backup every minute. The final ZIP contains the task capsule's sources, primary and backup checkpoints when produced, reports, and logs. The notebook displays a ZIP link and attempts to download it.
 
@@ -57,24 +79,14 @@ the sampled memory threshold stopped the next component.
 
 These jobs do not complete n5, all remaining finite indices, the stronger24 acquisition, or the final analytic composition. Their results are concrete inputs for those next steps. Always retain the final ZIP, including when the run is interrupted or reports an unresolved case.
 
-## Recovery after the notebook 04 node-limit stop
+## Historical q2-only recovery
 
-Notebook `25_n25_b4_q2_checkpoint_recovery.ipynb` continues the compatible q2
-checkpoint from the same Drive. Upload it and choose CPU / Run all. It preserves
-the original 4996 untrusted saved leaves and pending boxes, and uses a separately
-sealed 100000-node resource epoch. Every mathematical source, contract, root and
-leaf criterion remains unchanged; fresh independent replay of all 26 roots and
-24 controls is still required. The old checker and original evidence are retained.
-
-Use the updated `24_n25_seven_count_interfaces.ipynb` for the eventual evidence
-join; the earlier pinned notebook 24 cannot recognize this new source identity.
-Other current notebooks need no changes. See the [recovery execution scope](../proof/b4_q2_recovery_execution.md)
+The first recovery notebook25 is superseded by current `04_RESTART_n25_b4_q2.ipynb`.
+It is retained under `archive/` for reproducibility. Do not launch both versions
+of that logical job. The updated notebook24 also recognizes a completed export
+from the explicitly pinned first q2 profile, as well as original ordinary-profile
+exports. Historical details remain in the [q2 recovery scope](../proof/b4_q2_recovery_execution.md)
 and [actual failed-run review](../proof/b4_q2_node_limit_review.md).
-
-For `candidate_incomplete_budget_exhausted`, the original count notebook can be
-run again: it automatically finds a compatible Drive checkpoint and allocates
-another search period. This is the observed q1/q3 time stop and differs from
-the fixed q2 node-limit stop. Do not interpret either partial status as acceptance.
 
 ## Queued task 13: an independent n5 component
 

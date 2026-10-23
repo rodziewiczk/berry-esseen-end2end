@@ -141,3 +141,20 @@ full fresh native replay of all26 roots and24controls. Local verification passed
 fixtures. A source-only preparation using the actual failed q2 ZIP preserved its
 exact checkpoint bytes and complete roots. None of these local checks evaluated
 an original mathematical kernel or completed the proof.
+
+## Unified restart handoff and auxiliary22 completion
+
+All seven original count sessions have ended. The [cache handoff inventory](count_cache_handoff.md)
+checks every actual final ZIP, full frozen source inventory and checkpoint binding.
+The current RESTART01–07 set preserves those untrusted candidates and declares
+100000 nodes,2GiB memory and separate12-hour search/native CPU ceilings. It
+supersedes the old numbered count set and the q2-only notebook25. Fresh complete
+native leaf replay and analytic/parent acquisition remain separate requirements.
+
+The separate pasted notebook15 log ends
+`FRESH_CONDITIONAL_ARITHMETIC_REPLAY_COMPLETED` for target22. Its final count join
+reports all258 closed leaves, a strict positive margin and
+`PASS_CONDITIONAL_ON_UNACQUIRED_RESOURCES`; the stage records native arithmetic
+acceptance. The complete auxiliary-bound and all-index flags remain false.
+This records the inspected log, without claiming independent inspection of its
+actual exported ZIP or acquiring its conditional premises.

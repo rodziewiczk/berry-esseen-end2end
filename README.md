@@ -24,6 +24,13 @@ The initial executable task is the reconstruction of seven missing **n=25** coun
 
 ## Colab
 
+The current n25 count set is `01_RESTART_...` through `07_RESTART_...` in
+`colab/`, with the current notebook24. It restores the seven inspected candidate
+caches and uses explicit larger finite-tree/time/memory policies while preserving
+all mathematical checks. The old01–07 and the separate q2-only25 are in
+`colab/archive/`. See the [current execution instructions](colab/README.md) and
+[cache handoff inventory](proof/count_cache_handoff.md).
+
 The first seven notebooks rebuild the missing n25 count forests. Notebook 08 checks n2/n3. Notebooks 09–12 rebuild n25 INITIAL/resource premises, the complete n4 root and the retained tail49 arithmetic. Queued notebook 13 checks the independent n5 gap-free corner, including both infinite phase rays. Notebooks 14–22 replay the auxiliary n21–24 arithmetic supplying the selected n25 predecessor bound; notebook 23 joins their finished evidence.
 
 The numbered notebooks in `colab/` are preconfigured for separate CPU sessions. Notebooks 09–12 can run while 01–07 continue.

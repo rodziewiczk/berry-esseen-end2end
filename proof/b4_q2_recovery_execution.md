@@ -1,5 +1,9 @@
 # B4 q2 checkpoint recovery in a declared resource epoch
 
+This describes the first q2-only profile published with notebook25. The current
+operational set is [unified RESTART01–07](count_restart_execution.md), whose04
+supersedes25. The original profile and its records remain reproducible in Git.
+
 Notebook 25 continues the actual saved candidate from the interrupted notebook 04.
 The [inspected ZIP review](b4_q2_node_limit_review.md) establishes the failure:
 the original global 10000-node ceiling, 4996 untrusted saved leaves and 17 pending

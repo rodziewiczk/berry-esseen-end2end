@@ -119,7 +119,9 @@ def replay():
                     epoch.migrate_checkpoint(packet, self.source, self.extended)
 
     def test_wrong_target_rejected(self):
-        with self.assertRaisesRegex(ValueError, "fixed B4 q2"):
+        with self.assertRaisesRegex(ValueError, "seven fixed"):
+            epoch.verify("unknown", self.extended)
+        with self.assertRaisesRegex(ValueError, "Pinned original"):
             epoch.verify("b4-q1", self.extended)
 
     def test_tampered_sealed_files_rejected(self):
@@ -202,6 +204,67 @@ def replay():
         with patch.object(epoch, "verify", return_value={}), patch.object(epoch, "NODE_LIMIT", 26):
             with self.assertRaisesRegex(ValueError, "finite native tree limits"):
                 epoch.forest_census(forest, epoch.TARGET, self.extended)
+
+    def test_seven_profile_build_verify_migrate_without_kernel_import(self):
+        for target in original.TARGETS:
+            if target == epoch.TARGET:
+                continue
+            with self.subTest(target=target):
+                index = epoch.PROFILES[target]["index"]
+                source = self.root / target / "original"
+                source.mkdir(parents=True)
+                payload = {k: v for k, v in self.payload.items() if k != "FROZEN_DESIGN.json"}
+                payload["count_protocol.py"] = payload["count_protocol.py"].replace(
+                    b"index=29", ("index="+str(index)).encode())
+                payload["contract.json"] = payload["contract.json"].replace(
+                    b'"index": 29', ('"index": '+str(index)).encode())
+                design = epoch.encoded({"files": {k: epoch.sha(v) for k, v in payload.items()}})
+                payload["FROZEN_DESIGN.json"] = design
+                for name, raw in payload.items():
+                    (source / name).write_bytes(raw)
+                spec = dict(epoch.PROFILES[target], original_design_sha256=epoch.sha(design),
+                            original_checker_sha256=epoch.sha(payload["count_protocol.py"]),
+                            contract_sha256=epoch.sha(payload["contract.json"]))
+                profiles = dict(epoch.PROFILES, **{target: spec})
+                with patch.object(epoch, "PROFILES", profiles), patch.object(original, "TARGETS",
+                        dict(original.TARGETS, **{target: ("original-v12", index, epoch.sha(design))})):
+                    _, derived, checker, metadata = epoch._derive(design, payload["count_protocol.py"], target)
+                    spec.update(new_design_sha256=epoch.sha(derived), checker_sha256=epoch.sha(checker))
+                    destination = source.parent / "extended"
+                    report = epoch.build(source, destination, target=target)
+                    self.assertEqual(report["target"], target)
+                    self.assertEqual(report["resource_epoch"], epoch.metadata(target))
+                    self.assertEqual(report["design_sha256"], epoch.profile(target)["new_design_sha256"])
+                    self.assertEqual(len(epoch.verify(target, destination)), 7)
+                    packet = self.checkpoint()
+                    packet["binding"]["design_sha256"] = epoch.sha(design)
+                    packet["binding"]["native_header"] = original.native_header(source, target)
+                    before = epoch.canonical(packet)
+                    migrated = epoch.migrate_checkpoint(packet, source, destination, target=target)
+                    self.assertEqual(epoch.canonical(packet), before)
+                    self.assertEqual(migrated["roots"], packet["roots"])
+                    self.assertEqual(migrated["binding"]["design_sha256"], epoch.profile(target)["new_design_sha256"])
+                    forest = dict(**original.native_header(destination, target),
+                        roots=[dict(k=k, tree=dict(kind="leaf", box=[], decision="TRAP", result={})) for k in range(26)])
+                    self.assertEqual(epoch.forest_census(forest, target, destination),
+                                     dict(roots=26, nodes=26, leaves=26))
+
+    def test_q2_profile_keeps_legacy_metadata_shape(self):
+        metadata = epoch.metadata()
+        self.assertEqual(metadata["schema"], "N25_B4_Q2_RESOURCE_LIMIT_EPOCH_V1")
+        self.assertEqual(metadata["scope"], "RESOURCE_EXTENDED_V12_COUNT_ONLY")
+        self.assertEqual(set(metadata), set(json.loads((self.extended / epoch.EPOCH).read_bytes())))
+        self.assertEqual(epoch.profile()["new_design_sha256"], epoch.NEW_DESIGN_SHA256)
+
+    def test_profile_is_private_copy_with_literal_scope(self):
+        for target in epoch.PROFILES:
+            spec = epoch.profile(target)
+            spec["index"] = 99
+            self.assertNotEqual(epoch.profile(target)["index"], 99)
+            self.assertEqual(epoch.metadata(target)["target"], target)
+            self.assertEqual(epoch.metadata(target)["index"], epoch.profile(target)["index"])
+            self.assertEqual(epoch.metadata(target)["node_limit"], 100000)
+            self.assertEqual(epoch.metadata(target)["original_node_limit"], 10000)
 
 
 if __name__ == "__main__":

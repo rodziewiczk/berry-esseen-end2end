@@ -1,4 +1,4 @@
-"""Read-only relocated evidence for the fixed B4 q2 resource-limit epoch.
+"""Read-only relocated evidence for seven pinned resource-limit source epochs.
 
 Only LIMIT changes from10000 to100000 in a new sealed source epoch. Original
 contracts/kernels/closed roots/depth128/strict target/24 controls stay unchanged.
@@ -18,6 +18,12 @@ from .n25_count_evidence import (same, path_class, original_context, relative,
 MIB = count.MIB
 TARGET = "b4-q2"
 SCOPE = "NEW_RESOURCE_LIMIT_EPOCH_CONDITIONAL_COUNT_ONLY"
+# The one previously published q2 pair (commit3c10084). No open-ended source
+# history is accepted; other targets require the current reviewed pair.
+LEGACY_Q2_IMPLEMENTATION = {
+    "count_recovery_sha256": "d43057eb2f5fbf41466b74ac030491a93b72d1481cd22a3114332623b7ca64c0",
+    "count_limit_epoch_sha256": "9dc980c2e23580feb9402f9f15c533cc76582808656cc7c23b1b3fc37b5082dc",
+}
 
 
 def need(ok, message):
@@ -31,27 +37,93 @@ def recovery_path():
     return path
 
 
-def resource_epoch():
-    return dict(schema="FIXED_B4_Q2_RESOURCE_LIMIT_EPOCH_V1", node_limit=100000,
-                original_node_limit=10000, maximum_depth=128, original_design_sha256=limit.ORIGINAL_DESIGN_SHA256,
-                new_design_sha256=limit.NEW_DESIGN_SHA256, contract_and_mathematical_kernels_unchanged=True)
+def resource_epoch(target=TARGET, *, native_memory_bytes=2 * 1024**3):
+    profile = limit.profile(target)
+    need(type(native_memory_bytes) is int and native_memory_bytes in (512*MIB, 2*1024**3),
+         "One explicit reviewed native memory policy")
+    result = dict(schema="FIXED_B4_Q2_RESOURCE_LIMIT_EPOCH_V1" if target == TARGET else "N25_COUNT_RESOURCE_LIMIT_EPOCH_V1",
+        node_limit=100000, original_node_limit=10000, maximum_depth=128,
+        original_design_sha256=profile["original_design_sha256"],
+        new_design_sha256=profile["new_design_sha256"], contract_and_mathematical_kernels_unchanged=True,
+        native_memory_bytes=native_memory_bytes)
+    if target != TARGET:
+        result.update(target=target, index=profile["index"])
+    return result
 
 
-def implementation(record):
+def implementation(record, target=TARGET):
     expected = dict(count.implementation(), count_recovery_sha256=count.digest(recovery_path()),
                     count_limit_epoch_sha256=count.digest(limit.__file__))
     need(type(record) is dict and set(record) == set(expected)
          and type(record["python"]) is str and record["python"], "Complete recovery implementation context")
-    need(all(same(record[k], expected[k]) for k in expected if k != "python"),
-         "Unchanged original count/vendor/supervisor and exact recovery/limit-epoch source pins")
+    pair_keys = set(LEGACY_Q2_IMPLEMENTATION)
+    need(all(same(record[k], expected[k]) for k in expected if k not in pair_keys | {"python"}),
+         "Unchanged original count/vendor/supervisor source pins")
+    need(all(record[k] == expected[k] for k in pair_keys)
+         or (target == TARGET and all(record[k] == LEGACY_Q2_IMPLEMENTATION[k] for k in pair_keys)),
+         "Current reviewed implementation pair or the one explicitly published q2 pair")
+
+
+def memory_policy(record, target):
+    implementation(record["implementation"], target)
+    legacy = target == TARGET and all(record["implementation"][k] == v
+                                     for k, v in LEGACY_Q2_IMPLEMENTATION.items())
+    memory = record.get("native_memory_bytes", 512*MIB if legacy else None)
+    need(type(memory) is int and memory == (512*MIB if legacy else 2*1024**3),
+         "Explicit2GiB current native policy, or the sole published512MiB q2 policy")
+    return memory
+
+
+def budget_policy(record, target, cpu_seconds, wall_seconds):
+    """Current epochs permit12 CPU hours; the sole legacy profile stays fixed."""
+    memory = memory_policy(record, target)
+    cpu_max, wall_max = (7200, 7260) if memory == 512*MIB else (43200, 43500)
+    need(type(cpu_seconds) is int and 2 <= cpu_seconds <= cpu_max
+         and type(wall_seconds) in (int, float) and math.isfinite(wall_seconds)
+         and 0 < wall_seconds <= wall_max, "Native CPU/wall policy for this exact implementation epoch")
+    for field, actual in (("native_cpu_seconds", cpu_seconds), ("native_wall_seconds", wall_seconds)):
+        if field in record:
+            declared = record[field]
+            need(type(declared) in ((int,) if field == "native_cpu_seconds" else (int, float))
+                 and declared == actual, "Actual native launch matches the explicitly declared task budget")
+    return cpu_max, wall_max
+
+
+def trusted_guard(result, *, script_sha, supervisor_sha, memory_bytes, cpu_seconds):
+    """New exact resource policy; never weaken or patch an original helper.
+
+    The caller must separately establish the2GiB current/512MiB legacy identity
+    and verify actual guard sidecars/captures. The supervisor accepts no maths.
+    """
+    if (type(memory_bytes) is not int or memory_bytes not in (512*MIB, 2*1024**3)
+            or type(cpu_seconds) is not int or not 2 <= cpu_seconds <= (7200 if memory_bytes == 512*MIB else 43200)
+            or type(script_sha) is not str or type(supervisor_sha) is not str
+            or type(result) is not dict or result.get("status") != "completed"
+            or type(result.get("returncode")) is not int or result["returncode"] != 0
+            or result.get("mode") != "trusted_native" or result.get("proof_accepted") is not False):
+        return False
+    scope = result.get("guard_scope")
+    if type(scope) is not dict:
+        return False
+    controller_cpu = min(30, max(1, cpu_seconds // 10))
+    caps = dict(hard_sum_RLIMIT_AS_bytes=memory_bytes,
+        worker_RLIMIT_AS_bytes=memory_bytes-64*MIB, supervisor_RLIMIT_AS_bytes=64*MIB,
+        hard_sum_RLIMIT_CPU_seconds=cpu_seconds, supervisor_RLIMIT_CPU_seconds=controller_cpu,
+        worker_RLIMIT_CPU_seconds=cpu_seconds-controller_cpu)
+    return (scope.get("kind") == "LINUX_SECCOMP_SINGLE_PROCESS_PYTHON_V1"
+        and scope.get("capability_established") is True
+        and scope.get("native_python_execution") is True
+        and all(type(scope.get(k)) is int and scope[k] == v for k, v in caps.items())
+        and scope.get("script_sha256") == script_sha
+        and scope.get("supervisor_source_sha256") == supervisor_sha)
 
 
 def sealed(target, capsule, *, native=False):
-    need(target == TARGET, "Resource-limit recovery is fixed to B4 q2")
+    profile = limit.profile(target)
     files = limit.verify(target, capsule)
     allowed = set(files) | {"FROZEN_DESIGN.json"}
     if native:
-        allowed |= {"COUNT29_FOREST.json", "COUNT29_ACCEPTED.json"}
+        allowed |= {f"COUNT{profile['index']}_FOREST.json", f"COUNT{profile['index']}_ACCEPTED.json"}
     actual = set()
     for path in Path(capsule).iterdir():
         need(path.is_file() and not path.is_symlink(), "Flat sealed recovery capsule")
@@ -63,34 +135,38 @@ def sealed(target, capsule, *, native=False):
 def source_and_migration(task, record, files):
     """Verify the preserved source epoch and untrusted checkpoint migration."""
     from . import count_recovery as recovery
+    target = record["target"]
+    profile = limit.profile(target)
     original = task / "original-capsule"
     need(original.is_dir() and not original.is_symlink(), "Ordinary preserved original source capsule")
-    original_files = count.verify_capsule(TARGET, original)
+    original_files = count.verify_capsule(target, original)
     need({p.name for p in original.iterdir()} == set(original_files) | {"FROZEN_DESIGN.json"}
          and all(p.is_file() and not p.is_symlink() for p in original.iterdir()),
          "Only exact original source files in the preserved original capsule")
-    source_epoch = dict(schema="N25_COUNT_LIMIT_SOURCE_BUILD_V1", target=TARGET, scope=limit.SCOPE,
-        original_design_sha256=limit.ORIGINAL_DESIGN_SHA256, design_sha256=limit.NEW_DESIGN_SHA256,
-        checker_sha256=limit.CHECKER_SHA256, contract_sha256=limit.CONTRACT_SHA256, files=len(files),
-        source_adapter_sha256=count.digest(limit.__file__),
+    metadata = limit.metadata(target)
+    source_epoch = dict(schema="N25_COUNT_LIMIT_SOURCE_BUILD_V1", target=target, scope=metadata["scope"],
+        original_design_sha256=profile["original_design_sha256"], design_sha256=profile["new_design_sha256"],
+        checker_sha256=profile["checker_sha256"], contract_sha256=profile["contract_sha256"], files=len(files),
+        source_adapter_sha256=record["implementation"]["count_limit_epoch_sha256"],
         resource_epoch=count.read(task / "capsule" / limit.EPOCH, MIB), arithmetic_accepted=False,
         parent_acquisitions_verified=False, all_index_conclusion_verified=False)
     need(same(record["source_epoch"], source_epoch), "Exact source-only build report and sealed epoch")
-    need(same(record["source_provenance"], dict(source_design_sha256=limit.ORIGINAL_DESIGN_SHA256,
+    need(same(source_epoch["resource_epoch"], metadata), "Exact target-specific sealed resource metadata")
+    need(same(record["source_provenance"], dict(source_design_sha256=profile["original_design_sha256"],
         copied_source_files=len(original_files), historical_receipts_copied=False)),
         "Original source provenance without historical acceptance inputs")
     before = count.read(task / "SOURCE_CHECKPOINT.json")
     after = count.read(task / "INPUT_CHECKPOINT.json")
-    if before["binding"]["design_sha256"] == limit.ORIGINAL_DESIGN_SHA256:
-        expected = limit.migrate_checkpoint(before, original, task / "capsule")
+    if before["binding"]["design_sha256"] == profile["original_design_sha256"]:
+        expected = limit.migrate_checkpoint(before, original, task / "capsule", target=target)
     else:
-        recovery.check_extended_checkpoint(before, task / "capsule")
+        recovery.check_extended_checkpoint(before, task / "capsule", target=target)
         expected = before
     need(same(expected, after), "Only the reviewed two source pins migrate in the untrusted checkpoint")
-    statistics = recovery.check_extended_checkpoint(after, task / "capsule")
+    statistics = recovery.check_extended_checkpoint(after, task / "capsule", target=target)
     migration = dict(source_checkpoint_sha256=count.digest(task / "SOURCE_CHECKPOINT.json"),
         source_checkpoint_bytes=(task / "SOURCE_CHECKPOINT.json").stat().st_size,
-        source_design_sha256=before["binding"]["design_sha256"], execution_design_sha256=limit.NEW_DESIGN_SHA256,
+        source_design_sha256=before["binding"]["design_sha256"], execution_design_sha256=profile["new_design_sha256"],
         roots_sha256=hashlib.sha256(json.dumps(before["roots"], sort_keys=True,
             separators=(",", ":")).encode()).hexdigest(), roots_preserved=same(before["roots"], after["roots"]),
         arithmetic_accepted=False, statistics=statistics)
@@ -99,7 +175,9 @@ def source_and_migration(task, record, files):
 
 
 def validate_epoch(task, target, epoch, *, original_task_root=None):
-    from .small_indices import trusted_guard
+    profile = limit.profile(target)
+    task_record = count.read(task / "TASK.json", 4*MIB)
+    memory = memory_policy(task_record, target)
     accepted_path = epoch / "NATIVE_ACCEPTED.json"
     accepted = count.read(accepted_path, 4*MIB)
     observed_path = epoch / "NATIVE_OBSERVED.json"
@@ -112,7 +190,9 @@ def validate_epoch(task, target, epoch, *, original_task_root=None):
          and all(before[k] is False and accepted[k] is False for k in ("parent_acquisitions_verified", "all_index_conclusion_verified"))
          and all(same(before[k], accepted[k]) for k in before if k != "arithmetic_accepted"),
          "Preserved original unaccepted observation and sole validated acceptance transition")
-    implementation(accepted["implementation"])
+    implementation(accepted["implementation"], target)
+    need(same(accepted["implementation"], task_record["implementation"]),
+         "Native execution and source task have one exact implementation context")
     original = original_context(accepted["epoch"], epoch.name, original_task_root)
     need(relative(accepted["epoch"], original) == epoch.relative_to(task), "Recorded accept epoch is this restored epoch")
     capsule, execution = epoch / "capsule", epoch / "execution"
@@ -139,15 +219,14 @@ def validate_epoch(task, target, epoch, *, original_task_root=None):
          and observed["mode"] == "trusted_native" and observed["proof_accepted"] is False, "Successful exact native completion without a supervisor theorem claim")
     launch = count.read(execution / "native-launch.json", MIB)
     cpu = launch["cpu_seconds"]
-    need(type(cpu) is int and 2 <= cpu <= 7200 and type(launch["wall_seconds"]) in (int, float)
-         and math.isfinite(launch["wall_seconds"]) and 0 < launch["wall_seconds"] <= 7260
-         and launch["mode"] == "trusted_native" and type(launch["memory_bytes"]) is int and launch["memory_bytes"] == 512*MIB
+    budget_policy(task_record, target, cpu, launch["wall_seconds"])
+    need(launch["mode"] == "trusted_native" and type(launch["memory_bytes"]) is int and launch["memory_bytes"] == memory
          and launch["checkpoint_paths"] == [] and launch["disk_bytes"] == 256*MIB and launch["log_bytes"] == 16*MIB,
          "Actual original bounded native launch policy")
     controller_cpu = min(30, max(1, cpu//10))
-    need(launch["supervisor_memory_bytes"] == 64*MIB and launch["worker_memory_bytes"] == 448*MIB
+    need(launch["supervisor_memory_bytes"] == 64*MIB and launch["worker_memory_bytes"] == memory-64*MIB
          and launch["supervisor_cpu_seconds"] == controller_cpu and launch["worker_cpu_seconds"] == cpu-controller_cpu,
-         "Complete512MiB and CPU split in the actual launch")
+         "Complete declared memory and CPU split in the actual launch")
     argv = launch["argv"]
     need(type(argv) is list and len(argv) == 5 and argv[1:3] == ["-B", "-S"] and argv[-1] == "accept"
          and relative(argv[3], original) == (capsule / "count_protocol.py").relative_to(task)
@@ -161,7 +240,7 @@ def validate_epoch(task, target, epoch, *, original_task_root=None):
          and relative(command[5], original) == (execution / "native-launch.json").relative_to(task)
          and same(outer, dict(launch, argv=command)), "Actual original controller launch derives exactly from native launch")
     need(trusted_guard(observed, script_sha=count.digest(capsule / "count_protocol.py"),
-         supervisor_sha=accepted["implementation"]["supervisor_sha256"], memory_bytes=512*MIB, cpu_seconds=cpu), "Established unchanged native platform capability")
+         supervisor_sha=accepted["implementation"]["supervisor_sha256"], memory_bytes=memory, cpu_seconds=cpu), "Established unchanged native platform capability")
     guard_files(execution, observed, launch, count.digest(capsule / "count_protocol.py"))
     for key in ("stdout", "stderr"):
         path = execution / (key + ".txt")
@@ -172,15 +251,17 @@ def validate_epoch(task, target, epoch, *, original_task_root=None):
     stdout = (execution / "stdout.txt").read_text("utf-8")
     need(same(json.loads(stdout, object_pairs_hook=count.unique), receipt), "Actual complete native terminal JSON equals the accepted receipt")
     return dict(schema="REVALIDATED_N25_COUNT_V1", target=target, branch=target.split("-")[0], n=25, index=index,
-                design_sha256=limit.NEW_DESIGN_SHA256, new_design_sha256=limit.NEW_DESIGN_SHA256,
-                original_design_sha256=limit.ORIGINAL_DESIGN_SHA256, resource_epoch=resource_epoch(), source_manifest_sha256=count.digest(capsule / "KERNEL_COPY_MANIFEST.json"),
+                design_sha256=profile["new_design_sha256"], new_design_sha256=profile["new_design_sha256"],
+                original_design_sha256=profile["original_design_sha256"], native_memory_bytes=memory,
+                native_cpu_seconds=cpu, native_wall_seconds=launch["wall_seconds"],
+                resource_epoch=resource_epoch(target, native_memory_bytes=memory), source_manifest_sha256=count.digest(capsule / "KERNEL_COPY_MANIFEST.json"),
                 source_resource_epoch=count.read(capsule / limit.EPOCH, MIB),
                 contract_sha256=count.digest(capsule / "contract.json"), forest_sha256=count.digest(forest_path),
                 receipt_sha256=count.digest(receipt_path), census=census, statistics=statistics,
                 accepted_capsule_relative=capsule.relative_to(task).as_posix(),
                 accepted_report_relative=accepted_path.relative_to(task).as_posix(), accepted_report_sha256=count.digest(accepted_path),
                 native_receipt_relative=receipt_path.relative_to(task).as_posix(), execution_relative=execution.relative_to(task).as_posix(),
-                original_task_root=str(original), driver_sha256=count.digest(recovery_path()),
+                original_task_root=str(original), driver_sha256=accepted["implementation"]["count_recovery_sha256"],
                 evidence_verifier_sha256=count.digest(__file__), supervisor_sha256=accepted["implementation"]["supervisor_sha256"],
                 implementation=accepted["implementation"], conditional_premises=premises,
                 evidence_sha256={p.relative_to(task).as_posix(): count.digest(p) for p in
@@ -192,26 +273,33 @@ def validate_epoch(task, target, epoch, *, original_task_root=None):
 
 
 def validate_completed(task, *, original_task_root=None, expected_target=None):
-    """Accept only the fixed new epoch and its complete native execution chain."""
+    """Accept the matching pinned epoch and its complete native execution chain."""
     task = Path(task)
     need(task.is_dir() and not task.is_symlink(), "Ordinary restored recovery task")
     task = task.resolve()
     record = count.read(task / "TASK.json", 4*MIB)
-    need(record["schema"] == "COUNT_LIMIT_RECOVERY_TASK_V1" and record["target"] == TARGET
-         and (expected_target is None or expected_target == TARGET), "Fixed recovery task identity")
+    target = record["target"]
+    need(type(target) is str and target in count.TARGETS, "One reviewed logical count target")
+    profile = limit.profile(target)
+    need(record["schema"] == "COUNT_LIMIT_RECOVERY_TASK_V1"
+         and (expected_target is None or expected_target == target), "Exact recovery task identity")
     need(record["scope"] == SCOPE and record["source_commit"] == count.COMMIT
-         and record["original_design_sha256"] == limit.ORIGINAL_DESIGN_SHA256
-         and record["design_sha256"] == limit.NEW_DESIGN_SHA256
+         and record["original_design_sha256"] == profile["original_design_sha256"]
+         and record["design_sha256"] == profile["new_design_sha256"]
          and all(record[k] is False for k in ("arithmetic_accepted", "parent_acquisitions_verified", "all_index_conclusion_verified")),
          "Explicit new resource epoch, original design and false acquisition/global flags")
     need(type(record["node_limit"]) is int and record["node_limit"] == 100000
          and type(record["original_node_limit"]) is int and record["original_node_limit"] == 10000,
          "Fixed original and enlarged finite node limits")
-    implementation(record["implementation"])
-    files = sealed(TARGET, task / "capsule")
+    implementation(record["implementation"], target)
+    memory_policy(record, target)
+    files = sealed(target, task / "capsule")
     need(type(record["prepared_source_files"]) is int and record["prepared_source_files"] == len(files),
          "Complete recovery prepared source inventory")
-    need(same(record["source_archives"], {"old": count.ASSETS["old"]}), "Original pinned source archive")
+    archives = {"old": count.ASSETS["old"]}
+    if count.TARGETS[target][0] == "new-conditional-v14":
+        archives["base13"] = count.ASSETS["base13"]
+    need(same(record["source_archives"], archives), "Exact original pinned source archives")
     source_and_migration(task, record, files)
     candidates = []
     for path in task.glob("accept-*/NATIVE_ACCEPTED.json"):
@@ -222,7 +310,7 @@ def validate_completed(task, *, original_task_root=None, expected_target=None):
     failures = []
     for path in candidates:
         try:
-            return validate_epoch(task, TARGET, path.parent, original_task_root=original_task_root)
+            return validate_epoch(task, target, path.parent, original_task_root=original_task_root)
         except (ValueError, OSError, KeyError, TypeError, IndexError) as error:
             failures.append(path.parent.name + ": " + type(error).__name__ + ": " + str(error))
     raise ValueError("No fully revalidated completed recovery acceptance; " + "; ".join(failures[:8]))

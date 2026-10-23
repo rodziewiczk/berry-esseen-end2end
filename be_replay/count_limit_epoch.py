@@ -1,4 +1,4 @@
-"""Source-only B4 q2 resource epoch; no mathematical code is imported.
+"""Source-only resource epochs for seven count jobs; no kernels are imported.
 
 The only changed original source bytes are LIMIT=10000 -> LIMIT=100000.
 This is a new bounded certificate profile, never original-profile acceptance.
@@ -27,6 +27,63 @@ CONTRACT_SHA256 = "0576748a8e4deb2450fea8fc7b1b06898dd8bd3ae2d5fc3465163a123d942
 EPOCH = "COUNT_LIMIT_EPOCH.json"
 ORIGINAL_DESIGN = "ORIGINAL_FROZEN_DESIGN.json"
 ORIGINAL_CHECKER = "ORIGINAL_COUNT_PROTOCOL.py"
+PROFILES = {
+    "b4-q0": dict(index=29, source_scope="ORIGINAL_V12_CONDITIONAL_COUNT_ONLY",
+        original_design_sha256="4d91657ddbab41e3324c00f9f28a9223526c0c1dc79bad5c5e77176240c231f7",
+        original_checker_sha256="b50b337dcb99410a051b1958c247534b6287e4af16a0918b847cd9ccee9df034",
+        new_design_sha256="765f7ff74e4007ba13e7aff57856d375e2c1cd0b76a6ce35b224eac67bc441d8",
+        checker_sha256="582e9cf809b4b03d1e1c27ef11ba9eade1ee9083ad1054784e0b99b779136bc1",
+        contract_sha256="6da0412a35fa160d9eef1e88e1ace38eb3b8425ecfd5a4fce0f3eaf3ce5b2535"),
+    "b4-q1": dict(index=29, source_scope="ORIGINAL_V12_CONDITIONAL_COUNT_ONLY",
+        original_design_sha256="a3cbdb1852bc51054ecc8cd3c71bd1c7121b6b201385e481b73195ad729189c4",
+        original_checker_sha256="5475ebdc20b26da41364ac9d108249c29b77ead966066974113b662fbad50195",
+        new_design_sha256="25fd9e8675d2c6f0dc6805e0c5273d0e84c32f6d372befe0db35019d0a687197",
+        checker_sha256="4a73a17ff180f384f2159c9d552885d9082cb9a0eb3b75da66023f10253b669d",
+        contract_sha256="15e13d70c655faf449825b355c8b22dffcf5efef4fb704f9d65e1425aae00c35"),
+    "b4-q2": dict(index=29, source_scope="ORIGINAL_V12_CONDITIONAL_COUNT_ONLY"),
+    "b4-q3": dict(index=29, source_scope="ORIGINAL_V12_CONDITIONAL_COUNT_ONLY",
+        original_design_sha256="c8555b500c3e7d1ca1240b5f229f7fff5ed307571012209e022431ecd195b7ac",
+        original_checker_sha256="5063e87db2a388011558a7339331bf0ddf00a13bc173ddc3386234ae4f8310da",
+        new_design_sha256="c992f1d472966409357e1a4ae3eef365462947e2400b54f5f3a9befe66cde437",
+        checker_sha256="6ab191f5959f971bf000ed7340b70f3878ed4728f40fdd2333d5b9681929ec60",
+        contract_sha256="07cabb29930701f591d9822eac130afd1bdfc81cbb5e69b73f569b70f6151f75"),
+    "b3-p33": dict(index=33, source_scope="ORIGINAL_V12_CONDITIONAL_COUNT_ONLY",
+        original_design_sha256="e55bb3eeac06923f897263a65f2cde9fe77006313dd86f47bbba3f6047f30f08",
+        original_checker_sha256="459027ea0126978a2686f726022a50a6a7a635aca2f347991278697c00dfd39a",
+        new_design_sha256="b1a7b8c534cd8294b56c7285d44c0facaf6465fc6bf2294881e090ab1d116b5b",
+        checker_sha256="dffd740e6cca3d5921b18f18f7fc295e905b545e71ba26becb778dc9a9e0047a",
+        contract_sha256="fe106d1ffe295de3fa68ccf44a625323fe0e68ce1c4462730729b5b2e0e3963a"),
+    "b3-p31-v14-new": dict(index=31, source_scope="NEW_CONDITIONAL_V14_NOT_HISTORICAL_IDENTITY",
+        original_design_sha256="bc699a2d539b4aafc193049c8074b02e0b77a38fb01b594c1ba3e2fde6b7b3ff",
+        original_checker_sha256="185aa974fc0da02f64034bb56f8099a809c67a7424d7169c9d36c4ce46bd9355",
+        new_design_sha256="ba741cebd773a1b939b69729303e40a58b5fd80cbd0876310a8e5c3b5cba459d",
+        checker_sha256="d7ac0a8a083124249a2866e252c4be025eb960f2a36f69af5abede5591922ae4",
+        contract_sha256="9b71a135188234ba200ae145860659f4def488aec9feec278748f8e31eafd142"),
+    "b3-p32-v14-new": dict(index=32, source_scope="NEW_CONDITIONAL_V14_NOT_HISTORICAL_IDENTITY",
+        original_design_sha256="cfe934b1385f9a26f36b6bf94cda9e5caeb6593700a54eeac7e7b1638df61627",
+        original_checker_sha256="204eb43f145db0f4422be0e69b7ec5c06bca90b0200af1fe8512419f6ca7abce",
+        new_design_sha256="2f15572df398d0341cc174c7ab4a4e71c701890ed92718c8e40b1c4aa8447129",
+        checker_sha256="a4fff2e8c6ab047f008def8ddc2c22d3c49b91799f5262b3c8d95603bb64cf45",
+        contract_sha256="0019e13d3857849762eed1518ad63c3f6aa6133dde0fd84a9ea88674f6e34627"),
+}
+
+
+def profile(target=TARGET):
+    need(type(target) is str and target in PROFILES, "One of the seven fixed count resource epochs")
+    result = deepcopy(PROFILES[target])
+    if target == TARGET:
+        # These public aliases preserve the original standalone q2 API/profile.
+        result.update(original_design_sha256=ORIGINAL_DESIGN_SHA256,
+                      original_checker_sha256=ORIGINAL_CHECKER_SHA256,
+                      new_design_sha256=NEW_DESIGN_SHA256, checker_sha256=CHECKER_SHA256,
+                      contract_sha256=CONTRACT_SHA256)
+    result.update(target=target, node_limit=NODE_LIMIT, original_node_limit=ORIGINAL_NODE_LIMIT)
+    return result
+
+
+def resource_scope(target=TARGET):
+    return (SCOPE if profile(target)["source_scope"] == "ORIGINAL_V12_CONDITIONAL_COUNT_ONLY"
+            else "RESOURCE_EXTENDED_PORTABLE_V14_COUNT_ONLY")
 
 
 def need(ok, message):
@@ -87,10 +144,12 @@ def _patch(raw):
     return result
 
 
-def _metadata(patched):
-    return dict(schema="N25_B4_Q2_RESOURCE_LIMIT_EPOCH_V1", target=TARGET, n=25, index=29,
-                scope=SCOPE, original_design_sha256=ORIGINAL_DESIGN_SHA256,
-                original_checker_sha256=ORIGINAL_CHECKER_SHA256,
+def _metadata(patched, target=TARGET):
+    spec = profile(target)
+    return dict(schema=("N25_B4_Q2_RESOURCE_LIMIT_EPOCH_V1" if target == TARGET else
+                        "N25_COUNT_RESOURCE_LIMIT_EPOCH_V1"), target=target, n=25, index=spec["index"],
+                scope=resource_scope(target), original_design_sha256=spec["original_design_sha256"],
+                original_checker_sha256=spec["original_checker_sha256"],
                 checker_sha256=sha(patched), original_node_limit=ORIGINAL_NODE_LIMIT,
                 node_limit=NODE_LIMIT, maximum_depth=128,
                 transformation=dict(original="LIMIT=10000", replacement="LIMIT=100000",
@@ -102,16 +161,26 @@ def _metadata(patched):
                 all_index_conclusion_verified=False)
 
 
-def _derive(design_raw, checker_raw):
-    need(sha(design_raw) == ORIGINAL_DESIGN_SHA256, "Pinned original B4 q2 source design")
-    need(sha(checker_raw) == ORIGINAL_CHECKER_SHA256, "Pinned original B4 q2 checker")
+def metadata(target=TARGET):
+    """Return exact sealed resource-policy metadata without opening a capsule."""
+    spec = profile(target)
+    # _metadata only uses the patched source through its digest.
+    result = _metadata(b"", target)
+    result["checker_sha256"] = spec["checker_sha256"]
+    return result
+
+
+def _derive(design_raw, checker_raw, target=TARGET):
+    spec = profile(target)
+    need(sha(design_raw) == spec["original_design_sha256"], "Pinned original count source design")
+    need(sha(checker_raw) == spec["original_checker_sha256"], "Pinned original count checker")
     design = json.loads(design_raw, object_pairs_hook=original.unique)
     need(set(design) == {"files"} and type(design["files"]) is dict,
          "Original source design schema")
-    need(design["files"].get("count_protocol.py") == ORIGINAL_CHECKER_SHA256,
+    need(design["files"].get("count_protocol.py") == spec["original_checker_sha256"],
          "Original design binds the original checker")
     patched = _patch(checker_raw)
-    metadata = encoded(_metadata(patched))
+    metadata = encoded(_metadata(patched, target))
     files = dict(design["files"])
     need(not ({EPOCH, ORIGINAL_DESIGN, ORIGINAL_CHECKER} & set(files)), "New sealed epoch names")
     files.update({"count_protocol.py": sha(patched), ORIGINAL_DESIGN: sha(design_raw),
@@ -126,14 +195,15 @@ def _raw(path, maximum=16*1024**2):
     return path.read_bytes()
 
 
-def build(original_capsule, destination):
+def build(original_capsule, destination, target=TARGET):
     """Create a fresh private derived capsule, preserving all original evidence."""
     source, destination = Path(original_capsule), Path(destination)
-    original.verify_capsule(TARGET, source)
+    spec = profile(target)
+    original.verify_capsule(target, source)
     original_files = original.read(source / "FROZEN_DESIGN.json")["files"]
     files, design, patched, metadata = _derive(_raw(source / "FROZEN_DESIGN.json"),
-                                               _raw(source / "count_protocol.py"))
-    need(sha(design) == NEW_DESIGN_SHA256, "Externally pinned extended B4 q2 source design")
+                                               _raw(source / "count_protocol.py"), target)
+    need(sha(design) == spec["new_design_sha256"], "Externally pinned extended count source design")
     need(not destination.exists(), "Fresh extended source capsule only")
     payload = {name: _raw(source / name) for name in original_files}
     need(all(sha(payload[name]) == pin for name, pin in original_files.items()),
@@ -145,27 +215,28 @@ def build(original_capsule, destination):
     for name, raw in sorted(payload.items()):
         with (destination / name).open("xb") as stream:
             stream.write(raw)
-    verify(TARGET, destination)
-    return dict(schema="N25_COUNT_LIMIT_SOURCE_BUILD_V1", target=TARGET, scope=SCOPE,
-                original_design_sha256=ORIGINAL_DESIGN_SHA256, design_sha256=NEW_DESIGN_SHA256,
+    verify(target, destination)
+    return dict(schema="N25_COUNT_LIMIT_SOURCE_BUILD_V1", target=target, scope=resource_scope(target),
+                original_design_sha256=spec["original_design_sha256"], design_sha256=spec["new_design_sha256"],
                 checker_sha256=sha(patched), contract_sha256=files["contract.json"],
                 files=len(files), source_adapter_sha256=original.digest(__file__),
-                resource_epoch=_metadata(patched), arithmetic_accepted=False,
+                resource_epoch=_metadata(patched, target), arithmetic_accepted=False,
                 parent_acquisitions_verified=False, all_index_conclusion_verified=False)
 
 
 def verify(target, capsule):
     """Recreate the exact deterministic derived design without importing kernels."""
-    need(target == TARGET, "Only the fixed B4 q2 resource epoch")
+    spec = profile(target)
     capsule = Path(capsule)
     need(capsule.is_dir() and not capsule.is_symlink(), "Regular extended source capsule")
     files, design, patched, metadata = _derive(_raw(capsule / ORIGINAL_DESIGN),
-                                               _raw(capsule / ORIGINAL_CHECKER))
-    need(sha(design) == NEW_DESIGN_SHA256 and _raw(capsule / "FROZEN_DESIGN.json") == design,
+                                               _raw(capsule / ORIGINAL_CHECKER), target)
+    need(sha(design) == spec["new_design_sha256"] and _raw(capsule / "FROZEN_DESIGN.json") == design,
          "Exact externally pinned deterministic extended design")
     need(_raw(capsule / "count_protocol.py") == patched and _raw(capsule / EPOCH) == metadata,
          "Exact resource-only checker and explicit sealed epoch")
-    allowed = set(files) | {"FROZEN_DESIGN.json", "COUNT29_FOREST.json", "COUNT29_ACCEPTED.json"}
+    index = spec["index"]
+    allowed = set(files) | {"FROZEN_DESIGN.json", f"COUNT{index}_FOREST.json", f"COUNT{index}_ACCEPTED.json"}
     actual = set()
     for path in capsule.iterdir():
         need(path.is_file() and not path.is_symlink(), "Only flat regular sealed inputs/native outputs")
@@ -179,19 +250,20 @@ def verify(target, capsule):
     return files
 
 
-def verify_capsule(capsule):
-    return verify(TARGET, capsule)
+def verify_capsule(capsule, target=TARGET):
+    return verify(target, capsule)
 
 
-def migrate_checkpoint(packet, original_capsule, extended_capsule):
+def migrate_checkpoint(packet, original_capsule, extended_capsule, target=TARGET):
     """Return a new untrusted packet; only the two explicit source pins change."""
-    original.verify_capsule(TARGET, original_capsule)
-    original.check_checkpoint(packet, TARGET, original_capsule)
-    verify(TARGET, extended_capsule)
+    spec = profile(target)
+    original.verify_capsule(target, original_capsule)
+    original.check_checkpoint(packet, target, original_capsule)
+    verify(target, extended_capsule)
     result = deepcopy(packet)
-    result["binding"]["design_sha256"] = NEW_DESIGN_SHA256
+    result["binding"]["design_sha256"] = spec["new_design_sha256"]
     result["binding"]["native_header"]["checker_sha256"] = original.digest(Path(extended_capsule) / "count_protocol.py")
-    expected_header = original.native_header(extended_capsule, TARGET)
+    expected_header = original.native_header(extended_capsule, target)
     need(all(result["binding"]["native_header"].get(k) == v for k, v in expected_header.items()),
          "Migrated header retains the original contract, roots and kernels")
     restored = deepcopy(result)

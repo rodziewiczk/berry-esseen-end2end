@@ -45,7 +45,7 @@ class RecoveryTests(unittest.TestCase):
             b['binding']['design_sha256'] = a['binding']['design_sha256']
             recovery.atomic_json(first/'CHECKPOINT.json', a)
             recovery.atomic_json(second/'CHECKPOINT.backup.json', b)
-            with patch.object(recovery.epoch, 'migrate_checkpoint', side_effect=lambda value,*_:copy.deepcopy(value)), \
+            with patch.object(recovery.epoch, 'migrate_checkpoint', side_effect=lambda value,*_,**__:copy.deepcopy(value)), \
                  patch.object(recovery, 'check_extended_checkpoint', side_effect=lambda value,*_:recovery.checkpoint_statistics(value)):
                 source, before, after, stats = recovery.select_checkpoint([root], root/'original', root/'extended')
             self.assertEqual(source.parent.name, 'more')
@@ -74,24 +74,26 @@ class RecoveryTests(unittest.TestCase):
             self.assertEqual(argv[argv.index('--design-sha256')+1], recovery.count.digest(capsule/'FROZEN_DESIGN.json'))
             self.assertEqual(argv[argv.index('--alpha-priority')+1], '4')
             self.assertEqual(kwargs['mode'], 'untrusted_search')
-            self.assertEqual(kwargs['memory_bytes'], 512*1024**2)
+            self.assertEqual(kwargs['memory_bytes'], 2048*1024**2)
             self.assertFalse(result['arithmetic_accepted'])
             self.assertIsNone(result['search_result'])
 
-    def _run_fixture(self, base, observed=None, complete=False, accepted=None):
-        def prepare(task, roots):
+    def _run_fixture(self, base, observed=None, complete=False, accepted=None, target='b4-q2'):
+        def prepare(task, roots, selected):
+            self.assertEqual(selected, target)
             task.mkdir()
             recovery.atomic_json(task/'INPUT_CHECKPOINT.json', pending())
             return dict(design_sha256='a'*64, original_design_sha256='b'*64,
                         migration=dict(source_checkpoint_sha256='c'*64, statistics=dict(nodes=26, leaves=0, pending=26)))
-        def search(task, previous, seconds):
+        def search(task, previous, seconds, selected):
+            self.assertEqual(selected, target)
             run = task/'search-fixture';run.mkdir()
             return dict(epoch=str(run), observed=observed or dict(status='completed', returncode=0),
                         search_result=dict(status='CANDIDATE_COMPLETE_NOT_ACCEPTED' if complete else 'SEARCH_CHECKPOINTED_INCOMPLETE',
                                            nodes=26, leaves=26 if complete else 0, pending=0 if complete else 26))
         with patch.object(recovery, 'prepare', side_effect=prepare), patch.object(recovery, 'search', side_effect=search), \
              patch.object(recovery, 'accept', side_effect=accepted or ValueError('fixture native guard unavailable')) as accept:
-            result = recovery.run_colab(durable_root=base/'drive', work_root=base/'work', total_seconds=1)
+            result = recovery.run_colab(target, durable_root=base/'drive', work_root=base/'work', total_seconds=1)
         return result, accept
 
     def test_partial_search_does_not_invoke_acceptor(self):
@@ -118,6 +120,25 @@ class RecoveryTests(unittest.TestCase):
         accept.assert_not_called()
         self.assertEqual(result['status']['state'], 'incomplete_guarded_stop')
         self.assertFalse(result['status']['all_index_conclusion_verified'])
+
+    def test_every_target_routes_to_its_own_cache_and_result_directory(self):
+        with tempfile.TemporaryDirectory() as name:
+            base = Path(name)
+            for target in recovery.count.TARGETS:
+                with self.subTest(target=target):
+                    result, accept = self._run_fixture(base/target, target=target)
+                    self.assertEqual(result['status']['target'], target)
+                    self.assertEqual(Path(result['work']).parent.name, target)
+                    self.assertTrue(Path(result['bundle']).is_file())
+                    self.assertFalse(result['status']['native_arithmetic_accepted'])
+                    accept.assert_not_called()
+
+    def test_unknown_target_fails_before_creating_work(self):
+        with tempfile.TemporaryDirectory() as name:
+            base = Path(name)
+            with self.assertRaisesRegex(ValueError, 'seven reviewed'):
+                recovery.run_colab('another-region', durable_root=base/'drive', work_root=base/'work')
+            self.assertFalse((base/'work').exists())
 
 
 if __name__ == '__main__':
