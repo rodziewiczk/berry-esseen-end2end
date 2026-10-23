@@ -12,6 +12,7 @@ import argparse
 from datetime import datetime, timezone
 import hashlib
 import json
+import math
 import os
 from pathlib import Path
 import runpy
@@ -27,6 +28,9 @@ import zipfile
 
 MIB = 1024**2
 DEFAULT_MEMORY_BYTES = 2048*MIB
+DEFAULT_CPU_SECONDS = 43200
+DEFAULT_WALL_SECONDS = 54000
+RESOURCE_PROFILE = 'BASIC_FULL_SUITE_EXPLICIT_BUDGETS_V3'
 ARCHIVE_NAME = 'BE_cutoff49_20260930.zip'
 ARCHIVE_BYTES = 16660566
 ARCHIVE_SHA = 'ecdb9acca0db29efc9fe2bf496c0bcc61b4881aecdcbc91a4eb6ad49b920c72e'
@@ -49,6 +53,21 @@ TOP_NAMES = ['composition49', 'support46', 'independent_support46', 'independent
 def need(condition, message):
     if not condition:
         raise ValueError(message)
+
+
+def validate_budgets(*, wall_seconds, cpu_seconds, memory_bytes):
+    """Reject invalid budgets before source access or filesystem mutation.
+
+    BASIC CPU means per-process RLIMIT_CPU and sampled live process-group
+    observations, not cumulative accounting of the complete sequential suite.
+    """
+    need(type(cpu_seconds) is int and 0 < cpu_seconds <= DEFAULT_CPU_SECONDS,
+         'Positive integer BASIC CPU budget at most43200 seconds')
+    need(type(wall_seconds) in (int, float) and 0 < wall_seconds <= DEFAULT_WALL_SECONDS
+         and math.isfinite(wall_seconds),
+         'Finite positive BASIC wall budget at most54000 seconds')
+    need(type(memory_bytes) is int and 512*MIB <= memory_bytes <= DEFAULT_MEMORY_BYTES,
+         'Explicit BASIC full-suite memory budget between512 and2048MiB')
 
 
 def sha(path):
@@ -312,13 +331,12 @@ def worker(config_path):
     runpy.run_path(str(script), run_name='__main__')
 
 
-def run(output, *, archives, download=False, mode='basic', wall_seconds=7800,
-        cpu_seconds=7200, heartbeat_seconds=20, memory_bytes=DEFAULT_MEMORY_BYTES):
+def run(output, *, archives, download=False, mode='basic', wall_seconds=DEFAULT_WALL_SECONDS,
+        cpu_seconds=DEFAULT_CPU_SECONDS, heartbeat_seconds=20, memory_bytes=DEFAULT_MEMORY_BYTES):
     from . import linux_supervisor
     from .colab_batch import atomic_json
     need(mode == 'basic', 'The full subprocess suite requires its original Docker/cgroup contract for trusted acceptance; no native-mode fallback')
-    need(type(memory_bytes) is int and 512*MIB <= memory_bytes <= DEFAULT_MEMORY_BYTES,
-         'Explicit BASIC full-suite memory budget between512 and2048MiB')
+    validate_budgets(wall_seconds=wall_seconds, cpu_seconds=cpu_seconds, memory_bytes=memory_bytes)
     need(sys.platform == 'linux', 'Actual Linux/POSIX paths required by the original phase-scope audit')
     output = Path(output).absolute()
     need(not output.exists() and not output.is_symlink(), 'Fresh exclusive full-suite epoch')
@@ -329,7 +347,8 @@ def run(output, *, archives, download=False, mode='basic', wall_seconds=7800,
               'native_arithmetic_accepted': False, 'all_analytic_and_literature_inputs_verified': False,
               'all_index_conclusion_verified': False, 'scope': 'ORIGINAL_SELECTED_FULL_ARITHMETIC_BASIC_GUARD',
               'basic_memory_bytes': memory_bytes,
-              'execution_resource_profile': 'BASIC_FULL_SUITE_EXPLICIT_MEMORY_V2'}
+              'basic_cpu_seconds': cpu_seconds, 'basic_wall_seconds': wall_seconds,
+              'execution_resource_profile': RESOURCE_PROFILE}
     started = time.monotonic()
     progress.start()
     try:
@@ -358,6 +377,7 @@ def run(output, *, archives, download=False, mode='basic', wall_seconds=7800,
                     cpu_seconds=cpu_seconds, memory_bytes=memory_bytes, mode='untrusted_search',
                     disk_bytes=256*MIB, log_bytes=16*MIB, heartbeat_seconds=heartbeat_seconds)
         result['execution'] = execution
+        result.update(execution_status=execution.get('status'), execution_reason=execution.get('reason'))
         need(execution.get('status') == 'completed' and type(execution.get('returncode')) is int and
              execution['returncode'] == 0, 'Observed successful original FULL subprocess')
         text = wrapper_captures(execution)
@@ -375,17 +395,30 @@ def run(output, *, archives, download=False, mode='basic', wall_seconds=7800,
         result['error'] = type(error).__name__+': '+str(error)
         (output/'ERROR.txt').write_text(traceback.format_exc(), encoding='utf-8')
     finally:
-        progress.close()
+        try:
+            progress.close()
+        except Exception as error:
+            # A failed observer must not suppress the preserved result/error
+            # files or turn a handled timeout into an unexported result.
+            result.update(status='INCOMPLETE_NO_ACCEPTANCE', all_required_jobs_computed=False,
+                          progress_error=type(error).__name__+': '+str(error))
+            with (output/'ERROR.txt').open('a', encoding='utf-8') as stream:
+                stream.write('\nProgress observer shutdown failed:\n'+traceback.format_exc())
         result['elapsed_seconds'] = time.monotonic()-started
         atomic_json(output/'TAIL49_RESULT.json', result)
         progress.emit('tail49_finished', status=result['status'],
-                      all_required_jobs_computed=result['all_required_jobs_computed'])
+                      all_required_jobs_computed=result['all_required_jobs_computed'],
+                      memory_bytes=memory_bytes, cpu_seconds=cpu_seconds, wall_seconds=wall_seconds,
+                      execution_status=result.get('execution_status'),
+                      execution_reason=result.get('execution_reason'),
+                      progress_error=result.get('progress_error'))
     return result
 
 
 def run_colab(*, durable_root, work_root='/content/berry-esseen-runs',
-              archives='/content/berry-esseen-archives', wall_seconds=7800,
-              cpu_seconds=7200, backup_interval=60, mode='basic', memory_bytes=DEFAULT_MEMORY_BYTES):
+              archives='/content/berry-esseen-archives', wall_seconds=DEFAULT_WALL_SECONDS,
+              cpu_seconds=DEFAULT_CPU_SECONDS, backup_interval=60, mode='basic', memory_bytes=DEFAULT_MEMORY_BYTES):
+    validate_budgets(wall_seconds=wall_seconds, cpu_seconds=cpu_seconds, memory_bytes=memory_bytes)
     from .colab_batch import Backups, atomic_json, bundle, event, utc
     from .environment import snapshot
     stamp = datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')+'-'+uuid.uuid4().hex[:8]
@@ -394,14 +427,17 @@ def run_colab(*, durable_root, work_root='/content/berry-esseen-runs',
     durable = Path(durable_root)/'tail49'/stamp
     status = {'scope': 'COLAB_ORIGINAL_TAIL49_SELECTED_SUITE_NOT_GLOBAL_PROOF', 'state': 'started',
               'started_utc': utc(), 'required_top_level_executions': 14, 'required_retained_components': 41,
-              'native_arithmetic_accepted': False, 'all_index_conclusion_verified': False}
+              'native_arithmetic_accepted': False, 'all_index_conclusion_verified': False,
+              'basic_memory_bytes': memory_bytes, 'basic_cpu_seconds': cpu_seconds,
+              'basic_wall_seconds': wall_seconds, 'execution_resource_profile': RESOURCE_PROFILE}
     atomic_json(root/'ENVIRONMENT.json', snapshot())
     atomic_json(root/'SESSION_RESULT.json', status)
     monitor = Backups(root, durable, interval=backup_interval)
     monitor.start()
     try:
         event(root, 'tail49_actual_full_replay_started', mode=mode, quick_mode=False,
-              memory_bytes=memory_bytes)
+              memory_bytes=memory_bytes, cpu_seconds=cpu_seconds, wall_seconds=wall_seconds,
+              execution_resource_profile=RESOURCE_PROFILE)
         result = run(root/'arithmetic', archives=archives, download=True, mode=mode,
                      wall_seconds=wall_seconds, cpu_seconds=cpu_seconds, memory_bytes=memory_bytes)
         status.update(state='exact_selected_arithmetic_completed_untrusted_guard' if
@@ -427,8 +463,8 @@ def main():
     parser.add_argument('--archives', type=Path)
     parser.add_argument('--download', action='store_true')
     parser.add_argument('--mode', choices=('basic', 'native'), default='basic')
-    parser.add_argument('--wall-seconds', type=int, default=7800)
-    parser.add_argument('--cpu-seconds', type=int, default=7200)
+    parser.add_argument('--wall-seconds', type=int, default=DEFAULT_WALL_SECONDS)
+    parser.add_argument('--cpu-seconds', type=int, default=DEFAULT_CPU_SECONDS)
     parser.add_argument('--memory-mib', type=int, default=2048)
     parser.add_argument('--_worker', type=Path, help=argparse.SUPPRESS)
     args = parser.parse_args()

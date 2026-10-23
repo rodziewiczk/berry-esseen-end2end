@@ -1,5 +1,6 @@
 """Full-suite schema, source-binding and negative-control fixtures only."""
 from copy import deepcopy
+from contextlib import contextmanager
 import hashlib
 import json
 from pathlib import Path
@@ -48,6 +49,36 @@ class Tail49Tests(unittest.TestCase):
         (output/'result.json').write_text(json.dumps(top), encoding='utf-8')
         (components/'metadata.json').write_text(json.dumps(child), encoding='utf-8')
         return root, output, new, retained, top, child
+
+    @contextmanager
+    def mocked_full_suite(self, directory, *, status='completed', returncode=0, reason=None,
+                          close_error=None):
+        """Only synthetic JSON/captures: no original worker is imported/run."""
+        source, _, new, retained, _, _ = self.fixture(directory)
+        archive = directory/'fixture.zip'
+        archive.write_bytes(b'fixture archive, never a numerical source')
+        def execute(argv, **kwargs):
+            output = kwargs['output_dir']
+            output.mkdir(parents=True)
+            stdout, stderr = output/'stdout.txt', output/'stderr.txt'
+            stdout.write_text(''.join('START '+job+'\nPASS '+job+'\n' for job in tail49.TOP_NAMES)
+                              +'PASS_BE49_SELECTED_ARITHMETIC\n', encoding='utf-8')
+            stderr.write_bytes(b'')
+            return dict(status=status, returncode=returncode, reason=reason,
+                        stdout_path=str(stdout), stderr_path=str(stderr),
+                        stdout_sha256=tail49.sha(stdout), stderr_sha256=tail49.sha(stderr))
+        with patch.object(tail49.sys, 'platform', 'linux'), \
+             patch.object(tail49, 'obtain_archive', return_value=archive), \
+             patch.object(tail49, 'prepare', return_value=source), \
+             patch.object(tail49, 'source_jobs', return_value=(new, retained)), \
+             patch.object(tail49, 'verify_sources'), \
+             patch.object(tail49, 'ARCHIVE_SHA', tail49.sha(archive)), \
+             patch.object(tail49, 'validate_full_result', return_value=dict(
+                 top_level_executions=14, retained_component_executions=41)) as validate, \
+             patch('be_replay.linux_supervisor.run', side_effect=execute) as launched, \
+             patch.object(tail49.Progress, 'start'), \
+             patch.object(tail49.Progress, 'close', side_effect=close_error):
+            yield validate, launched
 
     def test_complete14_and41_captures_required(self):
         with tempfile.TemporaryDirectory() as name:
@@ -200,7 +231,8 @@ class Tail49Tests(unittest.TestCase):
                 def execute(argv, **kwargs):
                     self.assertEqual(kwargs['memory_bytes'], memory)
                     self.assertEqual(kwargs['mode'], 'untrusted_search')
-                    self.assertEqual((kwargs['cpu_seconds'],kwargs['wall_seconds']), (7200,7800))
+                    self.assertEqual((kwargs['cpu_seconds'],kwargs['wall_seconds']),
+                                     (tail49.DEFAULT_CPU_SECONDS,tail49.DEFAULT_WALL_SECONDS))
                     output=kwargs['output_dir'];output.mkdir(parents=True)
                     stdout=output/'stdout.txt';stderr=output/'stderr.txt'
                     stdout.write_text(''.join('START '+job+'\nPASS '+job+'\n'for job in tail49.TOP_NAMES)
@@ -236,10 +268,118 @@ class Tail49Tests(unittest.TestCase):
             with patch.object(tail49,'run',return_value=dict(all_required_jobs_computed=False))as execute:
                 result=tail49.run_colab(durable_root=root/'durable',work_root=root/'work',archives=root/'cache')
             self.assertEqual(execute.call_args.kwargs['memory_bytes'],2048*tail49.MIB)
+            self.assertEqual(execute.call_args.kwargs['cpu_seconds'],43200)
+            self.assertEqual(execute.call_args.kwargs['wall_seconds'],54000)
             self.assertEqual(execute.call_args.kwargs['mode'],'basic')
             self.assertFalse(result['status']['native_arithmetic_accepted'])
             self.assertFalse(result['status']['all_index_conclusion_verified'])
             self.assertTrue(Path(result['bundle']).is_file())
+
+    def test_default_and_custom_budgets_cross_all_layers_and_are_persisted(self):
+        for budget in ({}, dict(cpu_seconds=12000, wall_seconds=15000.5)):
+            with self.subTest(budget=budget), tempfile.TemporaryDirectory() as name:
+                root = Path(name)
+                expected_cpu = budget.get('cpu_seconds', 43200)
+                expected_wall = budget.get('wall_seconds', 54000)
+                with self.mocked_full_suite(root) as (validate, launched):
+                    exported = tail49.run_colab(durable_root=root/'durable', work_root=root/'work',
+                                                archives=root/'cache', **budget)
+                actual = launched.call_args.kwargs
+                self.assertEqual((actual['cpu_seconds'], actual['wall_seconds']),
+                                 (expected_cpu, expected_wall))
+                self.assertEqual(actual['mode'], 'untrusted_search')
+                self.assertEqual(actual['memory_bytes'], 2048*tail49.MIB)
+                session = json.loads((Path(exported['work'])/'SESSION_RESULT.json').read_text())
+                result = json.loads((Path(exported['work'])/'arithmetic'/'TAIL49_RESULT.json').read_text())
+                for packet in (session, result):
+                    self.assertEqual(packet['basic_cpu_seconds'], expected_cpu)
+                    self.assertEqual(packet['basic_wall_seconds'], expected_wall)
+                    self.assertEqual(packet['execution_resource_profile'],
+                                     'BASIC_FULL_SUITE_EXPLICIT_BUDGETS_V3')
+                    self.assertFalse(packet['native_arithmetic_accepted'])
+                    self.assertFalse(packet['all_index_conclusion_verified'])
+                self.assertTrue(result['all_required_jobs_computed'])
+                self.assertEqual((result['top_level_executions'], result['retained_component_executions']),
+                                 (14, 41))
+                self.assertEqual(result['original_driver_semantic_argv'][1:],
+                                 ['--output', str(Path(exported['work'])/'arithmetic'/'native-full')])
+                validate.assert_called_once()
+                launched.assert_called_once()
+                self.assertTrue(Path(exported['bundle']).is_file())
+
+    def test_invalid_cpu_or_wall_rejected_before_platform_files_or_download(self):
+        bad = [dict(cpu_seconds=v) for v in (True, False, 0, -1, 1.0, 43201)]
+        bad += [dict(wall_seconds=v) for v in
+                (True, False, 0, -1, float('nan'), float('inf'), 54001, 10**1000)]
+        for budget in bad:
+            with self.subTest(budget=budget), tempfile.TemporaryDirectory() as name:
+                root = Path(name)
+                with patch.object(tail49.sys, 'platform', 'not-linux'), \
+                     patch.object(tail49, 'obtain_archive') as obtain, \
+                     patch('be_replay.linux_supervisor.run') as execute, \
+                     patch('be_replay.environment.snapshot') as environment:
+                    with self.assertRaisesRegex(ValueError, 'BASIC (CPU|wall) budget'):
+                        tail49.run(root/'epoch', archives=root/'cache', **budget)
+                    with self.assertRaisesRegex(ValueError, 'BASIC (CPU|wall) budget'):
+                        tail49.run_colab(durable_root=root/'durable', work_root=root/'work',
+                                         archives=root/'cache', **budget)
+                    self.assertFalse((root/'epoch').exists())
+                    self.assertFalse((root/'work').exists())
+                    self.assertFalse((root/'durable').exists())
+                    obtain.assert_not_called()
+                    execute.assert_not_called()
+                    environment.assert_not_called()
+
+    def test_cli_defaults_match_run_and_custom_values_are_forwarded(self):
+        for arguments, expected in (([], (43200, 54000)),
+                                    (['--cpu-seconds', '12000', '--wall-seconds', '15000'], (12000, 15000))):
+            with self.subTest(arguments=arguments), patch.object(sys, 'argv',
+                    ['tail49', '--output', 'unused', '--archives', 'unused', *arguments]), \
+                 patch.object(tail49, 'run', return_value=dict(all_required_jobs_computed=False)) as run:
+                self.assertEqual(tail49.main(), 2)
+                self.assertEqual((run.call_args.kwargs['cpu_seconds'], run.call_args.kwargs['wall_seconds']), expected)
+                self.assertEqual(run.call_args.kwargs['memory_bytes'], 2048*tail49.MIB)
+
+    def test_timeout_and_boolean_exit_never_qualify_even_with_full_markers(self):
+        for status, returncode, reason in (('incomplete', -15, 'external_wall_timeout'),
+                                           ('completed', False, None)):
+            with self.subTest(status=status, returncode=returncode), tempfile.TemporaryDirectory() as name:
+                root = Path(name)
+                with self.mocked_full_suite(root, status=status, returncode=returncode,
+                                           reason=reason) as (validate, _):
+                    result = tail49.run(root/'epoch', archives=root/'cache')
+                validate.assert_not_called()
+                self.assertFalse(result['all_required_jobs_computed'])
+                self.assertFalse(result['native_arithmetic_accepted'])
+                self.assertFalse(result['all_index_conclusion_verified'])
+                self.assertEqual(result['execution_reason'], reason)
+                self.assertEqual(result['status'], 'INCOMPLETE_NO_ACCEPTANCE')
+                saved = json.loads((root/'epoch'/'TAIL49_RESULT.json').read_text())
+                self.assertEqual(saved, result)
+                self.assertTrue((root/'epoch'/'ERROR.txt').is_file())
+
+    def test_timeout_and_progress_close_failure_still_export_incomplete_evidence(self):
+        cases = (dict(status='incomplete', returncode=-15, reason='external_wall_timeout'),
+                 dict(close_error=RuntimeError('fixture progress shutdown failure')))
+        for case in cases:
+            with self.subTest(case=case), tempfile.TemporaryDirectory() as name:
+                root = Path(name)
+                with self.mocked_full_suite(root, **case):
+                    exported = tail49.run_colab(durable_root=root/'durable', work_root=root/'work',
+                                                archives=root/'cache')
+                self.assertEqual(exported['status']['state'], 'incomplete_full_suite')
+                result = exported['status']['arithmetic_result']
+                self.assertFalse(result['all_required_jobs_computed'])
+                self.assertFalse(result['native_arithmetic_accepted'])
+                self.assertFalse(result['all_index_conclusion_verified'])
+                work = Path(exported['work'])/'arithmetic'
+                self.assertEqual(json.loads((work/'TAIL49_RESULT.json').read_text()), result)
+                self.assertTrue((work/'ERROR.txt').is_file())
+                if 'close_error' in case:
+                    self.assertIn('fixture progress shutdown failure', result['progress_error'])
+                else:
+                    self.assertEqual(result['execution_reason'], 'external_wall_timeout')
+                self.assertTrue(Path(exported['bundle']).is_file())
 
 
 if __name__ == '__main__':

@@ -66,18 +66,22 @@ producer does not consume incomplete parent ledgers as an accepted resume input.
 top-level runs and all 41 retained component replays. It does not use a quick mode.
 The final result is checked against the complete required invocation census.
 
-This replacement uses an explicit 2 GiB BASIC memory budget for the full process
-group. The earlier 512 MiB wrapper stopped the observed run during the retained
-component stage. All mathematical source bytes, 14/41 jobs, exact targets and
-completion checks are unchanged. This is a fresh full run; preserve the earlier
-incomplete results ZIP for evidence. No earlier job is silently skipped.
+This replacement uses a 54,000-second (15-hour) external wall allowance and a
+43,200-second (12-hour) per-process CPU allowance, with 2 GiB BASIC memory.
+These are budgets, not a completion-time estimate. The earlier 512 MiB run
+stopped on memory; the corrected 2 GiB run stopped at the 7,800-second wall limit.
+All mathematical source bytes, 14/41 jobs, exact targets and completion checks
+are unchanged. This is a fresh full run; preserve both earlier incomplete ZIPs.
+The original driver has no numerical resume, so all required jobs run again.
 
 This portable route uses BASIC process-group supervision. It cannot claim the
 original Docker/private-cgroup contract or trusted native arithmetic acceptance.
+CPU/RSS group observations are sampled over live processes; the CPU allowance
+is not cumulative CPU accounting for the entire sequential subprocess suite.
 Completed arithmetic is reported with that explicit limitation, and the all-index
 proof remains unverified. An interrupted or partial run is preserved as incomplete.
 """,
-        "execute": "from be_replay.tail49 import run_colab\nRESULT = run_colab(durable_root=DURABLE, memory_bytes=2048*1024**2)\n",
+        "execute": "from be_replay.tail49 import run_colab\nRESULT = run_colab(durable_root=DURABLE, memory_bytes=2048*1024**2,\n                   cpu_seconds=43200, wall_seconds=54000)\n",
     },
     "13_n5_gapfree_whole_line": {
         "task": "n5-gapfree-whole-line", "tests": "test_n5_gapfree.py",

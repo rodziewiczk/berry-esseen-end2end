@@ -82,16 +82,17 @@ Start 09 and 10 in separate sessions to acquire the INITIAL and resource premise
 
 Notebook 11 is the longest task: one complete n4 production and one fresh full replay, each covering all 260 geometry classes and 1,300 HIGH request slots. Each pass has a 12-hour worker CPU ceiling and a 15-hour wall ceiling. These are limits, not measured runtime estimates. The original producer does not resume an interrupted full pass; backups preserve its evidence. The two passes may exceed one allocated Colab session. See [the ROOT4 execution scope](../proof/root4_execution.md).
 
-Notebook 12 runs the unchanged full tail49 verifier with no quick mode. Its default wall ceiling is 130 minutes. This portable arithmetic run preserves the original exact sources and invocation census; the original Docker/cgroup execution contract and the uniform analytic implication remain separate. See [the tail49 execution scope](../proof/tail49_execution.md).
+Notebook12 runs the unchanged full tail49 verifier with no quick mode. The current replacement allows15hours of external wall time and12hours of per-process CPU with2GiB memory; these are budgets, not a runtime estimate. BASIC live-process CPU sampling is not cumulative accounting for the complete sequential suite. The original Docker/cgroup execution contract and uniform analytic implication remain separate. See [the tail49 execution scope](../proof/tail49_execution.md).
 
-Use the corrected notebook 12 published after the inspected memory stop. It
-sets a 2 GiB BASIC memory budget, replacing the original
-512 MiB wrapper budget. Upload the replacement and choose Run all; no edits are
-needed. Preserve the earlier incomplete result ZIP. The unchanged original
-driver starts a fresh full run and has no internal stage resume. Other running
-notebooks need no changes. [The failed-run review](../proof/tail49_failed_run_review.md)
-records 13 completed top-level jobs and 28 completed retained components before
-the sampled memory threshold stopped the next component.
+Use the current notebook12 replacement after both inspected failures: the first
+512MiB run stopped on memory, and the corrected2GiB run stopped at the old
+130-minute external wall limit. Upload the replacement and choose Run all;
+no edits are needed. Preserve both earlier incomplete ZIPs. The unchanged
+original driver starts a fresh full run and has no internal stage resume.
+Other running notebooks need no changes. The
+[memory-stop review](../proof/tail49_failed_run_review.md) and
+[actual wall-stop review](../proof/tail49_wall_limit_review.md) keep the two
+failures and their evidence separate.
 
 These jobs do not complete n5, all remaining finite indices, the stronger24 acquisition, or the final analytic composition. Their results are concrete inputs for those next steps. Always retain the final ZIP, including when the run is interrupted or reports an unresolved case.
 

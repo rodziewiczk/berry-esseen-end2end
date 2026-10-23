@@ -21,14 +21,37 @@ The replacement notebook uses an explicit 2 GiB BASIC budget. `run` and
 `run_colab` accept `memory_bytes`, default 2,147,483,648, within 512–2048 MiB.
 The same selected value supplies the per-process address-space ceiling and the
 sampled group RSS threshold; it is not an aggregate kernel memory guarantee.
-CPU/wall/disk/log ceilings and every mathematical source byte, target, required
-14/41 invocation and completion check are unchanged. The result records
+At that memory-only correction, CPU/wall/disk/log ceilings and every
+mathematical source byte, target, required14/41 invocation and completion check
+were unchanged. That profile recorded
 `basic_memory_bytes` and `BASIC_FULL_SUITE_EXPLICIT_MEMORY_V2`.
 
 This is a fresh full run. The original driver has no completed-stage resume;
 the earlier ZIP is preserved as inspected incomplete evidence and its completed
 work is not silently relabeled as a complete original run. A separately reviewed
 composite continuation could retain suitable completed evidence in the future.
+
+## Corrected wall allowance after the actual2GiB interruption
+
+The actual corrected-run ZIP confirms `external_wall_timeout` after
+7800.436257839001seconds, with return code-15. Its maximum sampled RSS was
+101,392,384bytes, far below2GiB. The incomplete outputs contain13 successful
+top-level rows and25 successful retained rows. See the
+[actual wall-limit review](tail49_wall_limit_review.md).
+
+The replacement defaults and notebook12 now explicitly use54,000seconds
+(15hours) of external wall time,43,200seconds (12hours) of per-process CPU
+allowance, and2GiB of memory. BASIC group CPU/RSS observations cover sampled
+live processes, not cumulative CPU across exited sequential subprocesses.
+The outer wall watchdog is the actual whole-invocation elapsed-time ceiling.
+These budgets do not guarantee completion or a Colab session of that length.
+
+The result records all three selected budgets under a new explicit resource
+profile. Source bytes, original `verify.py` invocation, every14/41 required
+job, capture validation and disk/log caps are retained. There is no numerical
+resume or hidden inner budget argument: the original driver and retained runner
+have no CPU/wall option. This replacement starts a fresh full run in a separate
+directory, preserving earlier ZIPs and live evidence.
 
 ## Actual execution and acceptance boundary
 
@@ -53,7 +76,7 @@ The session displays original START/PASS lines, periodic counts read from the or
 The equivalent Linux CLI is:
 
 ```console
-python -B -S -m be_replay.tail49 --output work/new-tail49-epoch --archives archives --download --mode basic --wall-seconds 7800 --cpu-seconds 7200 --memory-mib 2048
+python -B -S -m be_replay.tail49 --output work/new-tail49-epoch --archives archives --download --mode basic --wall-seconds 54000 --cpu-seconds 43200 --memory-mib 2048
 ```
 
 The wall limit applies externally to the whole invocation. The CPU allowance and 2 GiB address-space cap are per-process limits under BASIC supervision, not the original adapter's aggregate cgroup budget. No mathematical kernel has been run locally while implementing this wrapper. Local tests use small schema, source-binding, negative-control, and failure-bundling fixtures only. The memory correction adds tests for actual budget forwarding, invalid-budget rejection before launch, unchanged full 14/41 requirements and preserved BASIC/global flags.

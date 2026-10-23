@@ -200,7 +200,7 @@ The other five stronger24 branches, full auxiliary join and analytic premises
 remain separate. This record inspects the full supplied log, not the actual
 ZIP or its complete preserved capture/source chain.
 
-## Notebook 12: corrected2GiB run stops incomplete near its wall ceiling
+## Notebook 12: corrected 2 GiB run confirmed to hit its wall ceiling
 
 The supplied log has SHA-256
 `176139033a7fc798c25b28b5bb7bd4dbb0111a96ac8ab6b0bcf199bf54c90143`.
@@ -210,12 +210,14 @@ The last heartbeat has13 main and25 retained execution records, against the
 required14/41. These are recorded executions, not independent proof of every
 record's successful completion.
 
-The last elapsed heartbeat is7791.5seconds and the stop is reported at about
-7802seconds, alongside a7800-second configured wall ceiling. This strongly
-suggests a wall-limit stop; the exact `execution.reason`, native stderr and
-actual final exported bundle have not been inspected for this record. The
-supplied log does not display a failed mathematical inequality or a memory-limit
-exception. No completion, native acceptance or uniform tail theorem is inferred.
+The actual corrected ZIP was subsequently inspected. Its SHA-256 is
+`98ebb6e9a77f2576d3eb5ff4b4127d298246567c417f0ef05c17c045310c7f9a`.
+The real supervisor record confirms `external_wall_timeout` at
+7800.436257839001 seconds, with return code `-15`; stderr is empty.
+All 13 + 25 completed rows have integer zero exit and their 76 actual captures
+match the recorded hashes. This is a wall-limit stop, distinct from the earlier
+512 MiB memory failure. It is not full-suite acceptance or evidence of a failed
+mathematical inequality. See [the actual corrected-ZIP review](tail49_wall_limit_review.md).
 
 ## Notebook18: complete stronger24 B1 arithmetic log
 
@@ -290,3 +292,24 @@ The log reports a positive exact comparison margin for that last group.
 This is completed scoped execution evidence from a supplied log, not a
 fresh independent readback of the saved ZIP, acquisition of its resources
 or a new global mathematical acceptance. No B3/B4/B5 completion is inferred.
+
+## Notebook 20: stronger24 B3 completed scoped BASIC log
+
+The supplied log has SHA-256
+`f230d5210cd625ef7a68490d001af030ab29acc6ae2dd1f357a28064158a174f`.
+It records all 24 selected stages completing. The final B3 count join reports
+12,484 closed leaves, maximum score `422231693773/1000000000000`, a positive
+exact comparison margin and `PASS_CONDITIONAL_ON_UNACQUIRED_RESOURCES`.
+The terminal batch state is `complete_conditional_arithmetic_basic`.
+
+The log reports `20261023T155406Z-eeee0789-results.zip` saved at
+`2026-10-23T18:08:15.764033+00:00`, which is 20:08:15.764033
+Europe/Warsaw on 23 October 2026 (UTC+2). This timestamp is the reported
+bundle save, not an additional mathematical acceptance event.
+
+This is supplied-log evidence only. The actual B3 ZIP, full original captures,
+source bindings, execution sidecars and semantic interfaces have not been
+revalidated for this record. The BASIC `native_arithmetic_accepted` flags remain
+false, and the resource/analytic premises and final auxiliary join remain
+separate. It does not establish sharp all-law n24, full n25 or the global
+theorem; no B4/B5 branch completion is inferred.
