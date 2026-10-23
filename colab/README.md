@@ -46,6 +46,15 @@ Notebook 11 is the longest task: one complete n4 production and one fresh full r
 
 Notebook 12 runs the unchanged full tail49 verifier with no quick mode. Its default wall ceiling is 130 minutes. This portable arithmetic run preserves the original exact sources and invocation census; the original Docker/cgroup execution contract and the uniform analytic implication remain separate. See [the tail49 execution scope](../proof/tail49_execution.md).
 
+Use the corrected notebook 12 published after the inspected memory stop. It
+sets a 2 GiB BASIC memory budget, replacing the original
+512 MiB wrapper budget. Upload the replacement and choose Run all; no edits are
+needed. Preserve the earlier incomplete result ZIP. The unchanged original
+driver starts a fresh full run and has no internal stage resume. Other running
+notebooks need no changes. [The failed-run review](../proof/tail49_failed_run_review.md)
+records 13 completed top-level jobs and 28 completed retained components before
+the sampled memory threshold stopped the next component.
+
 These jobs do not complete n5, all remaining finite indices, the stronger24 acquisition, or the final analytic composition. Their results are concrete inputs for those next steps. Always retain the final ZIP, including when the run is interrupted or reports an unresolved case.
 
 ## Queued task 13: an independent n5 component

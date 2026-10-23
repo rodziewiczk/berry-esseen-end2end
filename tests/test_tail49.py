@@ -189,6 +189,58 @@ class Tail49Tests(unittest.TestCase):
             self.assertFalse(result['status']['all_index_conclusion_verified'])
             self.assertTrue(Path(result['bundle']).is_file())
 
+    def test_full_suite_explicit_memory_budget_reaches_basic_supervisor(self):
+        from be_replay import linux_supervisor
+        for memory in (512*tail49.MIB, 2048*tail49.MIB):
+            with self.subTest(memory=memory), tempfile.TemporaryDirectory() as name:
+                directory=Path(name)
+                source, _, new, retained, _, _=self.fixture(directory)
+                archive=directory/'fixture.zip'
+                archive.write_bytes(b'fixture source archive; never executed')
+                def execute(argv, **kwargs):
+                    self.assertEqual(kwargs['memory_bytes'], memory)
+                    self.assertEqual(kwargs['mode'], 'untrusted_search')
+                    self.assertEqual((kwargs['cpu_seconds'],kwargs['wall_seconds']), (7200,7800))
+                    output=kwargs['output_dir'];output.mkdir(parents=True)
+                    stdout=output/'stdout.txt';stderr=output/'stderr.txt'
+                    stdout.write_text(''.join('START '+job+'\nPASS '+job+'\n'for job in tail49.TOP_NAMES)
+                                      +'PASS_BE49_SELECTED_ARITHMETIC\n',encoding='utf-8')
+                    stderr.write_bytes(b'')
+                    return dict(status='completed', returncode=0, stdout_path=str(stdout),stderr_path=str(stderr),
+                                stdout_sha256=tail49.sha(stdout),stderr_sha256=tail49.sha(stderr))
+                with patch.object(tail49.sys,'platform','linux'),patch.object(tail49,'obtain_archive',return_value=archive),\
+                     patch.object(tail49,'prepare',return_value=source),patch.object(tail49,'source_jobs',return_value=(new,retained)),\
+                     patch.object(tail49,'verify_sources'),patch.object(tail49,'ARCHIVE_SHA',tail49.sha(archive)),\
+                     patch.object(tail49,'validate_full_result',return_value=dict(top_level_executions=14,retained_component_executions=41))as validate,\
+                     patch.object(linux_supervisor,'run',side_effect=execute)as launched,\
+                     patch.object(tail49.Progress,'start'),patch.object(tail49.Progress,'close'):
+                    result=tail49.run(directory/'epoch',archives=directory/'cache',memory_bytes=memory)
+                self.assertTrue(result['all_required_jobs_computed'])
+                self.assertFalse(result['native_arithmetic_accepted'])
+                self.assertFalse(result['all_index_conclusion_verified'])
+                self.assertEqual(result['basic_memory_bytes'],memory)
+                validate.assert_called_once();launched.assert_called_once()
+
+    def test_invalid_memory_budget_fails_before_any_source_or_execution(self):
+        for memory in (True,0,512*tail49.MIB-1,2048*tail49.MIB+1):
+            with self.subTest(memory=memory),tempfile.TemporaryDirectory()as name,patch(
+                    'be_replay.linux_supervisor.run')as execute,patch.object(tail49,'obtain_archive')as source:
+                output=Path(name)/'epoch'
+                with self.assertRaisesRegex(ValueError,'memory budget'):
+                    tail49.run(output,archives=Path(name)/'cache',memory_bytes=memory)
+                self.assertFalse(output.exists());execute.assert_not_called();source.assert_not_called()
+
+    def test_colab_forwards_corrected_two_gib_budget_without_changing_scope(self):
+        with tempfile.TemporaryDirectory()as name:
+            root=Path(name)
+            with patch.object(tail49,'run',return_value=dict(all_required_jobs_computed=False))as execute:
+                result=tail49.run_colab(durable_root=root/'durable',work_root=root/'work',archives=root/'cache')
+            self.assertEqual(execute.call_args.kwargs['memory_bytes'],2048*tail49.MIB)
+            self.assertEqual(execute.call_args.kwargs['mode'],'basic')
+            self.assertFalse(result['status']['native_arithmetic_accepted'])
+            self.assertFalse(result['status']['all_index_conclusion_verified'])
+            self.assertTrue(Path(result['bundle']).is_file())
+
 
 if __name__ == '__main__':
     unittest.main()

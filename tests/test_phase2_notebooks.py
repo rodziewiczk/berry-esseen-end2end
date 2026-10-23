@@ -47,7 +47,13 @@ class Phase2NotebookTests(unittest.TestCase):
             call = tree.body[1].value
             self.assertEqual(call.func.id, "run_colab")
             self.assertEqual([ast.literal_eval(arg) for arg in call.args], [branch] if branch else [])
-            self.assertEqual([(k.arg, k.value.id) for k in call.keywords], [("durable_root", "DURABLE")])
+            keywords = {item.arg: item.value for item in call.keywords}
+            self.assertEqual(keywords["durable_root"].id, "DURABLE")
+            if name == "12_tail49_complete_arithmetic":
+                self.assertEqual(set(keywords), {"durable_root", "memory_bytes"})
+                self.assertEqual(ast.dump(keywords["memory_bytes"]), ast.dump(ast.parse("2048*1024**2", mode="eval").body))
+            else:
+                self.assertEqual(set(keywords), {"durable_root"})
 
     def test_scope_keeps_untested_premises_and_distinct_platform_contracts_visible(self):
         parents = builder.JOBS["09_n25_b3_initial_resources"]["scope"]
@@ -63,6 +69,8 @@ class Phase2NotebookTests(unittest.TestCase):
         self.assertIn("41", tail)
         self.assertIn("BASIC", tail)
         self.assertIn("cannot claim", tail)
+        self.assertIn("2 GiB", tail)
+        self.assertIn("512 MiB", tail)
         n5 = builder.JOBS["13_n5_gapfree_whole_line"]["scope"]
         self.assertIn("positive closed-CDF", n5)
         self.assertIn("60-root", n5)

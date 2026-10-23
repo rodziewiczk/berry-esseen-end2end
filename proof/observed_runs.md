@@ -95,3 +95,24 @@ in the displayed result. The log reports complete scoped arithmetic; the actual
 ZIP and saved native capture/guard artifacts have not yet been independently
 inspected for this record. No full auxiliary theorem or sharp C21 conclusion is
 promoted by this observation.
+
+## Notebook 12: actual exported ZIP inspected after a memory-limit stop
+
+The actual 16,883,307-byte result ZIP has SHA-256
+`86027e5f0e4d3670b3449116e9dfb2d5af9ee1cf67fcf9842cb5c4777c21db77`.
+Its saved result is `INCOMPLETE_NO_ACCEPTANCE`, with supervisor reason
+`Sampled group RSS limit exceeded`: 537,497,600 sampled bytes against the
+configured 536,870,912-byte ceiling after approximately 3908.972 seconds.
+
+The [detailed source/capture inspection](tail49_failed_run_review.md) verified
+all 1400 manifested source files, the manifest itself and 272 retained-input
+bindings. All 13 completed top-level jobs and 28 completed retained components
+have integer-zero recorded exits, matching actual stdout/stderr hashes and
+empty stderr. Component 29, `certificate_central_low47`, was in progress. Its
+partial signed-index messages are not a completed acceptance.
+
+The full 14/41 suite remains unfinished. The corrected notebook 12 uses an
+explicit 2 GiB BASIC memory budget, with unchanged mathematical sources and full
+completion checks. No native/all-index acceptance or failed inequality is
+inferred from this resource stop, and no completed prefix is silently substituted
+for a full original run.

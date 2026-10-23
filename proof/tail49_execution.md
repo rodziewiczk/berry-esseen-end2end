@@ -9,6 +9,27 @@ RESULT = run_colab(durable_root=DURABLE)
 
 The wrapper downloads the public `cutoff49-sources-2026-10-22` release asset `BE_cutoff49_20260930.zip`, checks its exact 16,660,566-byte size and SHA-256 `ecdb9acca0db29efc9fe2bf496c0bcc61b4881aecdcbc91a4eb6ad49b920c72e`, and extracts all 1,401 original files. The original manifest, mathematical sources, job lists, old provenance records, and `verify.py` remain unchanged. The `verify.py` SHA-256 is `766e9cee5d1cb8b173fd2db264cddbd227439e4e87fbcf3daec243ec2c9a1375`.
 
+## Corrected memory budget after the observed interrupted run
+
+The first notebook 12 run stopped at the wrapper's 512 MiB sampled process-group
+RSS ceiling, after 13 top-level jobs and 28 retained components had completed.
+The observed peak was 537,497,600 bytes, with reason
+`Sampled group RSS limit exceeded`. See [the inspected result ZIP review](tail49_failed_run_review.md).
+This was an incomplete resource-limited execution, not a reported failed inequality.
+
+The replacement notebook uses an explicit 2 GiB BASIC budget. `run` and
+`run_colab` accept `memory_bytes`, default 2,147,483,648, within 512–2048 MiB.
+The same selected value supplies the per-process address-space ceiling and the
+sampled group RSS threshold; it is not an aggregate kernel memory guarantee.
+CPU/wall/disk/log ceilings and every mathematical source byte, target, required
+14/41 invocation and completion check are unchanged. The result records
+`basic_memory_bytes` and `BASIC_FULL_SUITE_EXPLICIT_MEMORY_V2`.
+
+This is a fresh full run. The original driver has no completed-stage resume;
+the earlier ZIP is preserved as inspected incomplete evidence and its completed
+work is not silently relabeled as a complete original run. A separately reviewed
+composite continuation could retain suitable completed evidence in the future.
+
 ## Actual execution and acceptance boundary
 
 This is an execution route, not a claim that the calculation has already completed. The wrapper actually invokes the complete unchanged original driver in a fresh output epoch. It then requires all 14 top-level names and invocations in order, all 41 retained component names and invocations, successful integer exit codes, matching stdout/stderr hashes, empty successful stderr, unchanged sources, and no bytecode-cache prefix. Preparation, a quick run, a partial retained list, or an old capture cannot qualify.
@@ -32,7 +53,7 @@ The session displays original START/PASS lines, periodic counts read from the or
 The equivalent Linux CLI is:
 
 ```console
-python -B -S -m be_replay.tail49 --output work/new-tail49-epoch --archives archives --download --mode basic --wall-seconds 7800 --cpu-seconds 7200
+python -B -S -m be_replay.tail49 --output work/new-tail49-epoch --archives archives --download --mode basic --wall-seconds 7800 --cpu-seconds 7200 --memory-mib 2048
 ```
 
-The wall limit applies externally to the whole invocation. The CPU allowance and 512 MiB address-space cap are per-process limits under BASIC supervision, not the original adapter's aggregate cgroup budget. No mathematical kernel has been run locally while implementing this wrapper. Local tests use small schema, source-binding, negative-control, and failure-bundling fixtures only.
+The wall limit applies externally to the whole invocation. The CPU allowance and 2 GiB address-space cap are per-process limits under BASIC supervision, not the original adapter's aggregate cgroup budget. No mathematical kernel has been run locally while implementing this wrapper. Local tests use small schema, source-binding, negative-control, and failure-bundling fixtures only. The memory correction adds tests for actual budget forwarding, invalid-budget rejection before launch, unchanged full 14/41 requirements and preserved BASIC/global flags.

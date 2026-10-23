@@ -26,6 +26,7 @@ import uuid
 import zipfile
 
 MIB = 1024**2
+DEFAULT_MEMORY_BYTES = 2048*MIB
 ARCHIVE_NAME = 'BE_cutoff49_20260930.zip'
 ARCHIVE_BYTES = 16660566
 ARCHIVE_SHA = 'ecdb9acca0db29efc9fe2bf496c0bcc61b4881aecdcbc91a4eb6ad49b920c72e'
@@ -312,10 +313,12 @@ def worker(config_path):
 
 
 def run(output, *, archives, download=False, mode='basic', wall_seconds=7800,
-        cpu_seconds=7200, heartbeat_seconds=20):
+        cpu_seconds=7200, heartbeat_seconds=20, memory_bytes=DEFAULT_MEMORY_BYTES):
     from . import linux_supervisor
     from .colab_batch import atomic_json
     need(mode == 'basic', 'The full subprocess suite requires its original Docker/cgroup contract for trusted acceptance; no native-mode fallback')
+    need(type(memory_bytes) is int and 512*MIB <= memory_bytes <= DEFAULT_MEMORY_BYTES,
+         'Explicit BASIC full-suite memory budget between512 and2048MiB')
     need(sys.platform == 'linux', 'Actual Linux/POSIX paths required by the original phase-scope audit')
     output = Path(output).absolute()
     need(not output.exists() and not output.is_symlink(), 'Fresh exclusive full-suite epoch')
@@ -324,7 +327,9 @@ def run(output, *, archives, download=False, mode='basic', wall_seconds=7800,
     progress = Progress(output, output/'native-full', output/'supervision/stdout.txt', heartbeat_seconds)
     result = {'status': 'INCOMPLETE_NO_ACCEPTANCE', 'all_required_jobs_computed': False,
               'native_arithmetic_accepted': False, 'all_analytic_and_literature_inputs_verified': False,
-              'all_index_conclusion_verified': False, 'scope': 'ORIGINAL_SELECTED_FULL_ARITHMETIC_BASIC_GUARD'}
+              'all_index_conclusion_verified': False, 'scope': 'ORIGINAL_SELECTED_FULL_ARITHMETIC_BASIC_GUARD',
+              'basic_memory_bytes': memory_bytes,
+              'execution_resource_profile': 'BASIC_FULL_SUITE_EXPLICIT_MEMORY_V2'}
     started = time.monotonic()
     progress.start()
     try:
@@ -346,10 +351,11 @@ def run(output, *, archives, download=False, mode='basic', wall_seconds=7800,
                       supervisor_sha256=sha(linux_supervisor.__file__),
                       original_driver_semantic_argv=[str(source/'verify.py'), '--output', str(output/'native-full')])
         progress.emit('tail49_full_suite_started', top_level_executions=14, retained_components=41,
-                      quick_mode=False, guard='BASIC_UNTRUSTED_PROCESS_GROUP')
+                      quick_mode=False, guard='BASIC_UNTRUSTED_PROCESS_GROUP',
+                      memory_bytes=memory_bytes, cpu_seconds=cpu_seconds, wall_seconds=wall_seconds)
         execution = linux_supervisor.run([sys.executable, '-B', '-S', str(adapter), '--_worker', str(config)],
                     cwd=output, output_dir=output/'supervision', wall_seconds=wall_seconds,
-                    cpu_seconds=cpu_seconds, memory_bytes=512*MIB, mode='untrusted_search',
+                    cpu_seconds=cpu_seconds, memory_bytes=memory_bytes, mode='untrusted_search',
                     disk_bytes=256*MIB, log_bytes=16*MIB, heartbeat_seconds=heartbeat_seconds)
         result['execution'] = execution
         need(execution.get('status') == 'completed' and type(execution.get('returncode')) is int and
@@ -379,7 +385,7 @@ def run(output, *, archives, download=False, mode='basic', wall_seconds=7800,
 
 def run_colab(*, durable_root, work_root='/content/berry-esseen-runs',
               archives='/content/berry-esseen-archives', wall_seconds=7800,
-              cpu_seconds=7200, backup_interval=60, mode='basic'):
+              cpu_seconds=7200, backup_interval=60, mode='basic', memory_bytes=DEFAULT_MEMORY_BYTES):
     from .colab_batch import Backups, atomic_json, bundle, event, utc
     from .environment import snapshot
     stamp = datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')+'-'+uuid.uuid4().hex[:8]
@@ -394,9 +400,10 @@ def run_colab(*, durable_root, work_root='/content/berry-esseen-runs',
     monitor = Backups(root, durable, interval=backup_interval)
     monitor.start()
     try:
-        event(root, 'tail49_actual_full_replay_started', mode=mode, quick_mode=False)
+        event(root, 'tail49_actual_full_replay_started', mode=mode, quick_mode=False,
+              memory_bytes=memory_bytes)
         result = run(root/'arithmetic', archives=archives, download=True, mode=mode,
-                     wall_seconds=wall_seconds, cpu_seconds=cpu_seconds)
+                     wall_seconds=wall_seconds, cpu_seconds=cpu_seconds, memory_bytes=memory_bytes)
         status.update(state='exact_selected_arithmetic_completed_untrusted_guard' if
                       result['all_required_jobs_computed'] else 'incomplete_full_suite', arithmetic_result=result)
     except BaseException as error:
@@ -422,6 +429,7 @@ def main():
     parser.add_argument('--mode', choices=('basic', 'native'), default='basic')
     parser.add_argument('--wall-seconds', type=int, default=7800)
     parser.add_argument('--cpu-seconds', type=int, default=7200)
+    parser.add_argument('--memory-mib', type=int, default=2048)
     parser.add_argument('--_worker', type=Path, help=argparse.SUPPRESS)
     args = parser.parse_args()
     if args._worker:
@@ -430,7 +438,8 @@ def main():
     if args.output is None or args.archives is None:
         parser.error('--output and --archives are required')
     result = run(args.output, archives=args.archives, download=args.download, mode=args.mode,
-                 wall_seconds=args.wall_seconds, cpu_seconds=args.cpu_seconds)
+                 wall_seconds=args.wall_seconds, cpu_seconds=args.cpu_seconds,
+                 memory_bytes=args.memory_mib*MIB)
     return 0 if result['all_required_jobs_computed'] else 2
 
 
