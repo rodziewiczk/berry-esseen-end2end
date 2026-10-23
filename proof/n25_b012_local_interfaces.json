@@ -1,0 +1,2356 @@
+{
+  "schema": "N25_B012_SELECTED_LOCAL_INTERFACE_SOURCE_AUDIT_V1",
+  "date": "2026-10-23",
+  "scope": "Read-only source, JSON, hash and saved schedule inventory; no native mathematical module was imported or evaluated.",
+  "archive": {
+    "name": "cutoff25_20261011.zip",
+    "bytes": 514958998,
+    "sha256": "17fa140f63c5134ac48f1fd1040f4c5ae4bebdb2b92b2d7ce69f4048293d1fcb"
+  },
+  "sources": [
+    {
+      "member": "cutoff25_20261011/new_audit/compose_lower25_complete_v1.py",
+      "sha256": "483198e77dd3ce5fb0103e744dfe87448bab8788f11a13bdc0731d4f632f1347",
+      "bytes": 26292
+    },
+    {
+      "member": "cutoff25_20261011/new_audit/compose_middle_b5_exact_v2.py",
+      "sha256": "a4dcf781b400bce7fadfa93523bdd0db8a6fe1b3678fd1c19c2b94391b70dcbc",
+      "bytes": 29114
+    },
+    {
+      "member": "cutoff25_20261011/new_root/check_lower_local_interfaces_v1.py",
+      "sha256": "910a3fc4054dae33e2061683a0c9477cfdd5bcdf28a41df682b92d2873295a5d",
+      "bytes": 3867
+    },
+    {
+      "member": "cutoff25_20261011/new_root/prepare_lower_count.py",
+      "sha256": "808c7fadd6daad24b369d233ee30176f02a90ce28f6f70b89e7fef4f9bc1de75",
+      "bytes": 5192
+    },
+    {
+      "member": "cutoff25_20261011/new_root/prepare_theta_count_pilots.py",
+      "sha256": "65a4766679c97d22e1edc9fce98005d055dc997e6c7991c218752076865e30ba",
+      "bytes": 5189
+    },
+    {
+      "member": "cutoff25_20261011/new_root/prepare_local_theta_quarters.py",
+      "sha256": "5eb3a54f5655f8690c7d67e189804c7bda2d921ddad8f8e90284d978f13a330a",
+      "bytes": 4146
+    },
+    {
+      "member": "cutoff25_20261011/new_root/prepare_local_joint_b2_p31_q3_v5.py",
+      "sha256": "edbe343a659899fbcfeaeb3170050199426f55b4a040758d1036fca0bd7cb10f",
+      "bytes": 2900
+    },
+    {
+      "member": "cutoff25_20261011/new_root/theta_variance.py",
+      "sha256": "d33f4e4aced4a1a3887f16964b25a3d716df00702d5c12d3212403b4644831fd",
+      "bytes": 791
+    },
+    {
+      "member": "cutoff25_20261011/new_root/THETA_VARIANCE_PROOF.txt",
+      "sha256": "5092342a816ae4c92173e1112031e19fa450f8abc8eb9041a2b8ba3566e582e8",
+      "bytes": 2084
+    }
+  ],
+  "predecessor": {
+    "statement": "C24 < CE + 1/80 in the retained framework",
+    "source_statement_sha256": "f3c6a95c5fa814cc024872c0b4212d7d5272d8b7696306dfc0f5a3b74d12167f",
+    "contact_allowance": "5/16",
+    "owncap": "434477/1000000",
+    "fresh_acquisition_verified": false
+  },
+  "field_mapping": {
+    "upper": [
+      [
+        "D",
+        "D"
+      ],
+      [
+        "d0",
+        "d0"
+      ],
+      [
+        "lambda_max",
+        "Lambda"
+      ],
+      [
+        "H_minus",
+        "Hminus"
+      ],
+      [
+        "H_plus",
+        "Hplus"
+      ],
+      [
+        "radius_minus",
+        "radius_minus"
+      ],
+      [
+        "radius_plus",
+        "radius_plus"
+      ],
+      [
+        "outer0",
+        "outer0"
+      ],
+      [
+        "outer1",
+        "outer1"
+      ]
+    ],
+    "lower": [
+      [
+        "charge_b",
+        "binary_charge"
+      ],
+      [
+        "charge_g",
+        "gap_charge"
+      ],
+      [
+        "charge_h",
+        "noise_charge"
+      ]
+    ],
+    "additional": [
+      "rho containment",
+      "six signed phase quadratics on each of plus/minus domains",
+      "negative and positive endpoint lower bounds",
+      "signed beta interval",
+      "mean interval",
+      "raw physical theta bound",
+      "same closed probability subdomain",
+      "n25/K0 identity"
+    ]
+  },
+  "branches": [
+    {
+      "branch": "b1",
+      "panel": 35,
+      "source_manifests": [
+        {
+          "member": "cutoff25_20261011/new_root/local25_b1_v2/FROZEN_SOURCES.json",
+          "sha256": "b64fb9fc11febd10b6421af2d13281071345a62ff0c1fe8d80cdeb0889b649eb",
+          "bytes": 656,
+          "selected_rows": 7,
+          "all_declared_source_bytes_present_and_sha_matched": true,
+          "files": [
+            {
+              "filename": "EXACT_STAGE_CACHE_PROOF.txt",
+              "sha256": "55535e6746e3f58c496ceea2cda7251dbc78808f00fc3ace998006e5711e8f07",
+              "bytes": 4497
+            },
+            {
+              "filename": "INDEPENDENT_REVIEW.json",
+              "sha256": "cc66cd11bff5c66e5b37085be6bcb6dbaadb5ce9c5a9d02a9bb84e0bf7a6e076",
+              "bytes": 14630
+            },
+            {
+              "filename": "SOURCE_PORT.json",
+              "sha256": "cef4c0295349d714a876706b0261ca6a6b269b3ebba9091d087bcd89b44ace7c",
+              "bytes": 16187
+            },
+            {
+              "filename": "exact_stage_cache.py",
+              "sha256": "95c9b510c8a40e3e73e782c67d98ce0f29ea09ce689f4f3e993ad3580ca5d15d",
+              "bytes": 6967
+            },
+            {
+              "filename": "mixed_b1.py",
+              "sha256": "c46384fa8beb86f4ef170c764a0d8009262a230eb471072de005468e25fa0641",
+              "bytes": 12246
+            },
+            {
+              "filename": "mixed_b1_memoized.py",
+              "sha256": "9845b6c19122ef99331d5f3f53687a79868f3091fba9578cd6874bf8f2183d59",
+              "bytes": 2756
+            },
+            {
+              "filename": "resource_worker.py",
+              "sha256": "acb38a6d794eda226533931c81b9d9cf02d8e74314d3b7626c7481b269fa162f",
+              "bytes": 1451
+            }
+          ]
+        },
+        {
+          "member": "cutoff25_20261011/new_root/initial25_b1_exact_v1/FROZEN_SOURCES.json",
+          "sha256": "b8915e0a7b2e51df6db0218c6a23365040ce3303cb2b4d7ab49c9db7d302c8b8",
+          "bytes": 2863,
+          "selected_rows": 30,
+          "all_declared_source_bytes_present_and_sha_matched": true,
+          "files": [
+            {
+              "filename": "BRANCH_SCOPE.txt",
+              "sha256": "fd67e170bbf0c8f80cf91b3298f16f96e9ea7da0e38f8e5571bbb035998104cd",
+              "bytes": 881
+            },
+            {
+              "filename": "CANTELLI_HIGH_PROOF.txt",
+              "sha256": "ac0d1c269e0a2f8511d504f85bb1e46f4272e82079c3835dd136ac9ca2900c8c",
+              "bytes": 2243
+            },
+            {
+              "filename": "EXACT_OPTIMIZATION_PROOF.txt",
+              "sha256": "5f95c696ad1e22ed548abc41587277e66e38e0b7ab356f0e36353d2c9d65a943",
+              "bytes": 2457
+            },
+            {
+              "filename": "HIGH_COMMON_PROOF.txt",
+              "sha256": "b4b1213afdae49d8815247b65ccd941eabcf03182aa167c746dc4d49faf16609",
+              "bytes": 2052
+            },
+            {
+              "filename": "HIGH_CONSTANTS_PROOF.txt",
+              "sha256": "f8d03be41c5c573b255ba03f8966ab8e038f833a83bd803d12b26e6ff887a16f",
+              "bytes": 566
+            },
+            {
+              "filename": "HIGH_EVALUATION_INDEPENDENT_REVIEW.txt",
+              "sha256": "3654ad34b29cb06ea7120a44739302d0a1d641504bbb7191c649a1742657c08b",
+              "bytes": 2216
+            },
+            {
+              "filename": "HIGH_GRID_PROOF.txt",
+              "sha256": "950e4dc90d48bf1e88af138ccc15777bf36f0bad53040ca386d6c92b2c28f6d7",
+              "bytes": 756
+            },
+            {
+              "filename": "INITIAL24_B4_PROOF.txt",
+              "sha256": "74225190143d25d3aadb884f46634bceb11e71463ca782be788244b9fc766768",
+              "bytes": 1901
+            },
+            {
+              "filename": "INTEGER_EXPHI_PROOF.txt",
+              "sha256": "49378d83efbe4a44b0ac2c51fa9390fe798824ea85657f9ec05ece7376e9c59a",
+              "bytes": 1287
+            },
+            {
+              "filename": "MEAN_FLOOR_PROOF.txt",
+              "sha256": "d5414c6e705bb32b27a556f43653b83ad191a2d65dc4dc6f981273c7e0cca1da",
+              "bytes": 2099
+            },
+            {
+              "filename": "PRODUCT_GAP_DISTANCE_COROLLARY.txt",
+              "sha256": "a0be5cb015735310e0993e9d6f3636b600b4d82e76a3f5239bef6d126d29b1cb",
+              "bytes": 2138
+            },
+            {
+              "filename": "P_LOCAL_MEAN_INITIAL_LEMMA.txt",
+              "sha256": "b0507393929562530ea90ba8b03a61e9e0f4f64e6abc6fb8d7dea615be3b18cc",
+              "bytes": 1720
+            },
+            {
+              "filename": "RETAINED_ANALYTIC_FRAMEWORK.tex",
+              "sha256": "5d388ad736091d87d883abca8278733952f2b0a5f6ee72b1f913cb20c9636822",
+              "bytes": 220024
+            },
+            {
+              "filename": "SOURCE_PORT.json",
+              "sha256": "a74f535f6a793ab55b6ab3f646eadb34cf5b00bd95b52d1801c89f913e1645b6",
+              "bytes": 16577
+            },
+            {
+              "filename": "STRONGER24_COMPLETE_JOINED.json",
+              "sha256": "f3c6a95c5fa814cc024872c0b4212d7d5272d8b7696306dfc0f5a3b74d12167f",
+              "bytes": 2362725
+            },
+            {
+              "filename": "cantelli_high.py",
+              "sha256": "c95a6ce9d75fd2c5693de574f322859bcb29d25df4cada9facd96ed3edc02239",
+              "bytes": 1593
+            },
+            {
+              "filename": "direct_gaussian_support.py",
+              "sha256": "5742afc0538fe3fb8473d087810ad391623d38a151f5b789e7520d256197c1d2",
+              "bytes": 5332
+            },
+            {
+              "filename": "finite_binomial_core.py",
+              "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+              "bytes": 3510
+            },
+            {
+              "filename": "heat_support50.py",
+              "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+              "bytes": 4726
+            },
+            {
+              "filename": "high_grid.py",
+              "sha256": "a6b631ea8df0299e7bbd14f9d6afd21abd3f1693f66d24036cefda36f51c741a",
+              "bytes": 740
+            },
+            {
+              "filename": "high_window_common.py",
+              "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+              "bytes": 2810
+            },
+            {
+              "filename": "high_window_core.py",
+              "sha256": "62ba022998f45e0e4f8628badfe5092ae0b8d2bc256d5c18614bfb44e63906a0",
+              "bytes": 2214
+            },
+            {
+              "filename": "high_window_original.py",
+              "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+              "bytes": 1966
+            },
+            {
+              "filename": "initial25_b1.py",
+              "sha256": "0166295959cba3ac6e50d79c5563bd0be8c3942c0fbc4b05ed211c90b30b69a7",
+              "bytes": 7723
+            },
+            {
+              "filename": "initial34.py",
+              "sha256": "a22630186fbb9a245b057e9328d579a87310605ae25c7926f112f4462064cf3e",
+              "bytes": 11700
+            },
+            {
+              "filename": "initial34_indexed.py",
+              "sha256": "37c002305518111b600e461133947aed7e739530f60e316463cadad301a9a82b",
+              "bytes": 11852
+            },
+            {
+              "filename": "integer_exphi.py",
+              "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+              "bytes": 803
+            },
+            {
+              "filename": "kernel.py",
+              "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+              "bytes": 19042
+            },
+            {
+              "filename": "mean_floor.py",
+              "sha256": "426a8a5b63a71df083f6e91943c4b9758f1ecad41664458049ecba2b97fce09b",
+              "bytes": 789
+            },
+            {
+              "filename": "small_index_support.py",
+              "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+              "bytes": 2698
+            }
+          ]
+        },
+        {
+          "member": "cutoff25_20261011/new_root/resource25_b1_v1/FROZEN_SOURCES.json",
+          "sha256": "f352792aa7db4fd36bedc07773e090ae77668bf35e683b9773e36a85063cc2e5",
+          "bytes": 3129,
+          "selected_rows": 32,
+          "all_declared_source_bytes_present_and_sha_matched": true,
+          "files": [
+            {
+              "filename": "BRANCH_SCOPE.txt",
+              "sha256": "01790f94adddf08ae182b1602542275e4d6a6cad1e74e30e511419ca9ed03556",
+              "bytes": 446
+            },
+            {
+              "filename": "GENERAL_PAIRED_EXACT_REVIEW.txt",
+              "sha256": "f2a36127f2c34ab03e2ff8e4c73f9afa46651e73c4b4cae0004975c6438ddeaa",
+              "bytes": 3297
+            },
+            {
+              "filename": "GENERAL_PAIRED_PROOF.txt",
+              "sha256": "ec58bb8c1c8df0ff3eb019ffd61988ee37c696149e934e7ca403a31c856f3bda",
+              "bytes": 4577
+            },
+            {
+              "filename": "GLOBAL_RESOURCE_PROOF.txt",
+              "sha256": "4edceddf312a1d6b2a4a4a00c9376331586f3faee3353c3e9c882f5a7eb07eea",
+              "bytes": 1615
+            },
+            {
+              "filename": "HIGH_COMMON_PROOF.txt",
+              "sha256": "b4b1213afdae49d8815247b65ccd941eabcf03182aa167c746dc4d49faf16609",
+              "bytes": 2052
+            },
+            {
+              "filename": "HIGH_CONSTANTS_PROOF.txt",
+              "sha256": "f8d03be41c5c573b255ba03f8966ab8e038f833a83bd803d12b26e6ff887a16f",
+              "bytes": 566
+            },
+            {
+              "filename": "HIGH_EVALUATION_INDEPENDENT_REVIEW.txt",
+              "sha256": "3654ad34b29cb06ea7120a44739302d0a1d641504bbb7191c649a1742657c08b",
+              "bytes": 2216
+            },
+            {
+              "filename": "INTEGER_EXPHI_PROOF.txt",
+              "sha256": "49378d83efbe4a44b0ac2c51fa9390fe798824ea85657f9ec05ece7376e9c59a",
+              "bytes": 1287
+            },
+            {
+              "filename": "MEMOIZATION_IDENTITY_PROOF.txt",
+              "sha256": "5f95c696ad1e22ed548abc41587277e66e38e0b7ab356f0e36353d2c9d65a943",
+              "bytes": 2457
+            },
+            {
+              "filename": "POSITIVE_GAP_RESOURCE_EXTENSION.txt",
+              "sha256": "0bf6ae992f6b8c4b8c344b178f715c9717d1083c2fce317b7cdb0dc151e210f2",
+              "bytes": 5007
+            },
+            {
+              "filename": "PRODUCT_GAP_DISTANCE_COROLLARY.txt",
+              "sha256": "a0be5cb015735310e0993e9d6f3636b600b4d82e76a3f5239bef6d126d29b1cb",
+              "bytes": 2138
+            },
+            {
+              "filename": "PRODUCT_GAP_IMPLEMENTATION_REVIEW.txt",
+              "sha256": "274981799dd37ad2f11bc64334d38d416ab71f0b7f4635b44a53d8edaf24fc55",
+              "bytes": 2344
+            },
+            {
+              "filename": "SOURCE_PORT.json",
+              "sha256": "f0484436c24561d3e908a81d17722205088cbca06b3080594b46701b43125ca7",
+              "bytes": 19432
+            },
+            {
+              "filename": "candidate_charged_score_v2.py",
+              "sha256": "20f3c102f7b77b5ef49b0e6282cfacb3e24975f207296a5b74b27c0af6cdc6b4",
+              "bytes": 6662
+            },
+            {
+              "filename": "contracted_kernel.py",
+              "sha256": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0",
+              "bytes": 20457
+            },
+            {
+              "filename": "corrected_phase_callback_extended.py",
+              "sha256": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63",
+              "bytes": 1164
+            },
+            {
+              "filename": "direct_gaussian_support.py",
+              "sha256": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57",
+              "bytes": 5306
+            },
+            {
+              "filename": "finite_binomial_core.py",
+              "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+              "bytes": 3510
+            },
+            {
+              "filename": "finite_gaussian.py",
+              "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+              "bytes": 3510
+            },
+            {
+              "filename": "general_paired_exact.py",
+              "sha256": "e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96",
+              "bytes": 4013
+            },
+            {
+              "filename": "geometric_moment_both.py",
+              "sha256": "ea17218cdad6c409dacf8d4a37b437453fbf7aab3683867d16783cb696206616",
+              "bytes": 2100
+            },
+            {
+              "filename": "heat_support50.py",
+              "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+              "bytes": 4726
+            },
+            {
+              "filename": "high_window_common.py",
+              "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+              "bytes": 2810
+            },
+            {
+              "filename": "high_window_core.py",
+              "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+              "bytes": 1966
+            },
+            {
+              "filename": "high_window_original.py",
+              "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+              "bytes": 1966
+            },
+            {
+              "filename": "integer_exphi.py",
+              "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+              "bytes": 803
+            },
+            {
+              "filename": "kernel.py",
+              "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+              "bytes": 19042
+            },
+            {
+              "filename": "paired_extended.py",
+              "sha256": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998",
+              "bytes": 2854
+            },
+            {
+              "filename": "resource25_core.py",
+              "sha256": "e998c1f49aa21dc4b2558865a3698d9b65c401b2b8a47cb2ec41f4da7050340b",
+              "bytes": 10308
+            },
+            {
+              "filename": "resources_b1.py",
+              "sha256": "212ec4eb417b05032a206210bdc9bf40bfa7a4ad045859cb8f165992d467711c",
+              "bytes": 7586
+            },
+            {
+              "filename": "signed_variance_resource.py",
+              "sha256": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8",
+              "bytes": 1785
+            },
+            {
+              "filename": "small_index_support.py",
+              "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+              "bytes": 2698
+            }
+          ]
+        }
+      ],
+      "local_checker": {
+        "member": "cutoff25_20261011/new_root/local25_b1_v2/mixed_b1.py",
+        "sha256": "c46384fa8beb86f4ef170c764a0d8009262a230eb471072de005468e25fa0641",
+        "bytes": 12246
+      },
+      "local_memoized_checker": {
+        "member": "cutoff25_20261011/new_root/local25_b1_v2/mixed_b1_memoized.py",
+        "sha256": "9845b6c19122ef99331d5f3f53687a79868f3091fba9578cd6874bf8f2183d59",
+        "bytes": 2756
+      },
+      "resource_worker": {
+        "member": "cutoff25_20261011/new_root/local25_b1_v2/resource_worker.py",
+        "sha256": "acb38a6d794eda226533931c81b9d9cf02d8e74314d3b7626c7481b269fa162f",
+        "bytes": 1451
+      },
+      "candidate": {
+        "member": "cutoff25_20261011/new_root/local25_b1_v2/PANEL_35_PROOF.json",
+        "sha256": "0ceed8a69da609041e0e4cc6e10836d27f8e66ae0bdc711287064a5e50375586",
+        "bytes": 3530564
+      },
+      "historical_receipt": {
+        "member": "cutoff25_20261011/new_root/local25_b1_v2/PANEL_35_ACCEPTED.json",
+        "sha256": "7b9a68b953fc1768608684d86ce9a8f38d0d48ef1c53bc201dd882abbffeaeff",
+        "bytes": 10021
+      },
+      "historical_interface": {
+        "member": "cutoff25_20261011/new_root/LOWER_B1_P35_LOCAL_QUARTER_INTERFACES_V1.json",
+        "sha256": "d67a0ff94f83b25b7b4cc99a69168e3607e5581b7ad407d91e325359d6e5065c",
+        "bytes": 40898
+      },
+      "original_cli": [
+        "python",
+        "-B",
+        "mixed_b1_memoized.py",
+        "accept",
+        "35"
+      ],
+      "cwd_member_prefix": "cutoff25_20261011/new_root/local25_b1_v2/",
+      "full_local_cycles": 4,
+      "mathematical_signed_covers": 16,
+      "signed_rectangles": 294912,
+      "resource_worker_invocations": 4,
+      "selected_resource_plan_steps": [
+        11,
+        10,
+        9,
+        7
+      ],
+      "new_support_targets_in_selected_plan": 0,
+      "historical_acceptance_cache": {
+        "hits": 0,
+        "misses": 16,
+        "size": 16,
+        "maxsize": 128
+      },
+      "original_status": "PASS_FRESH_EXACT_SHARP25_B1_FOUR_COVER_PANEL",
+      "negative_controls": [
+        "wrong n",
+        "boolean n",
+        "wrong excess",
+        "wrong parent",
+        "missing panel",
+        "wrong p panel",
+        "missing cycle",
+        "false mean floor",
+        "missing cover",
+        "wrong support",
+        "changed schedule",
+        "extra success"
+      ],
+      "final_profile": {
+        "n": 25,
+        "nmax": 25,
+        "radius": "13/5",
+        "radius_minus": "9/5",
+        "radius_plus": "13/5",
+        "cap": "434477/1000000",
+        "barrier": "0",
+        "grid": [
+          24,
+          24,
+          8,
+          4
+        ],
+        "invariants": {
+          "rho_lo": "11/10",
+          "rho": "6/5",
+          "M": "174424227/100000000",
+          "eta": "16536379/5000000",
+          "gamma_hi": "36296013/50000000",
+          "mean_hi": "48000001/100000000",
+          "gamma_lo": "149651369/400000000",
+          "beta_lo": "5444958389/24414062500",
+          "mean_lo": "466233495227/1000000000000",
+          "beta_hi": "103486853777/312500000000"
+        },
+        "p_interval": [
+          "7/20",
+          "9/25"
+        ]
+      },
+      "recorded_final_resource_scalars": {
+        "rho_lo": "11/10",
+        "rho_hi": "6/5",
+        "index": 35,
+        "N": 25,
+        "K": "0",
+        "pl": "7/20",
+        "pu": "9/25",
+        "D": "3995329/5000000",
+        "lambda_max": "7855323050519600233136211693213856/19148315676224212053731103289515559",
+        "d0": "245478845328737507285506615412933/3395368606170262813531072254000000",
+        "radius_minus": "9/5",
+        "radius_plus": "13/5",
+        "outer0": "72483041/135762740",
+        "outer1": "324169424/509110275",
+        "H_minus": "159465291/100000000",
+        "H_plus": "159465291/100000000",
+        "charge_b": "28486577521732492714493384587067/342857150000000000000000000000000",
+        "charge_g": "247578955708686752889/25000000000000000000",
+        "charge_h": "2792462644606392495202608913/1600000000000000000000000000",
+        "envelope_kind": "paired signed envelope"
+      },
+      "final_resource_pointer": "/rows/0/survivor_resource/result",
+      "selected_contracts": [
+        {
+          "job_id": "b1-p35-q0",
+          "capsule_member_prefix": "cutoff25_20261011/new_root/local_theta_b1_p35_q0_v4/",
+          "contract_sha256": "5f3d75a7bdd2ee1fab3d14f98048daef9df84a53537c7b7aae3f28aed4b9fa62",
+          "row": {
+            "n": 25,
+            "K": "0",
+            "index": 35,
+            "p": [
+              "7/20",
+              "141/400"
+            ],
+            "rho_lower": "11/10",
+            "rho_upper": "6/5",
+            "D": "80007/100000",
+            "d0": "733/10000",
+            "Lambda": "10281/25000",
+            "Hminus": "79783/50000",
+            "Hplus": "79783/50000",
+            "radius_minus": "1801/1000",
+            "radius_plus": "2601/1000",
+            "outer0": "5349/10000",
+            "outer1": "31887/50000",
+            "binary_charge": "513/6250",
+            "gap_charge": "198043/20000",
+            "noise_charge": "43607/25000",
+            "quadratics": [
+              {
+                "A": "126169/100000",
+                "Fplus": "1407/6250",
+                "Fminus": "65167/100000",
+                "Qbudget": "5837/10000"
+              },
+              {
+                "A": "26903/20000",
+                "Fplus": "1407/6250",
+                "Fminus": "65167/100000",
+                "Qbudget": "67741/100000"
+              },
+              {
+                "A": "126213/100000",
+                "Fplus": "703/3125",
+                "Fminus": "16299/25000",
+                "Qbudget": "58397/100000"
+              },
+              {
+                "A": "134563/100000",
+                "Fplus": "703/3125",
+                "Fminus": "16299/25000",
+                "Qbudget": "67769/100000"
+              },
+              {
+                "A": "61281/100000",
+                "Fplus": "20843/100000",
+                "Fminus": "8533/12500",
+                "Qbudget": "2447/4000"
+              },
+              {
+                "A": "2043/3125",
+                "Fplus": "20843/100000",
+                "Fminus": "8533/12500",
+                "Qbudget": "35369/50000"
+              }
+            ],
+            "sign_premise": {
+              "schema": "ACTUAL_SIGN_CONDITIONED_MARGINAL_V1",
+              "resource_status": "ASSUMED_ACQUIRED_FOR_CONDITIONAL_TEST",
+              "conditional_means_zero": true,
+              "negative_endpoint_lower": "56811/100000",
+              "positive_endpoint_lower": "115729/100000"
+            },
+            "acquired_beta": [
+              "11101/50000",
+              "1038/3125"
+            ],
+            "acquired_mean": [
+              "46523/100000",
+              "48101/100000"
+            ],
+            "acquired_theta_upper": "446099/10000000"
+          },
+          "historical_interface_pointer": "/rows/0",
+          "historical_signed_quadratic_choices": [
+            {
+              "sign": "plus",
+              "acquired": 0,
+              "target": 2
+            },
+            {
+              "sign": "plus",
+              "acquired": 1,
+              "target": 3
+            },
+            {
+              "sign": "plus",
+              "acquired": 2,
+              "target": 2
+            },
+            {
+              "sign": "plus",
+              "acquired": 3,
+              "target": 3
+            },
+            {
+              "sign": "plus",
+              "acquired": 4,
+              "target": 2
+            },
+            {
+              "sign": "plus",
+              "acquired": 5,
+              "target": 3
+            },
+            {
+              "sign": "minus",
+              "acquired": 0,
+              "target": 2
+            },
+            {
+              "sign": "minus",
+              "acquired": 1,
+              "target": 3
+            },
+            {
+              "sign": "minus",
+              "acquired": 2,
+              "target": 2
+            },
+            {
+              "sign": "minus",
+              "acquired": 3,
+              "target": 3
+            },
+            {
+              "sign": "minus",
+              "acquired": 4,
+              "target": 2
+            },
+            {
+              "sign": "minus",
+              "acquired": 5,
+              "target": 3
+            }
+          ],
+          "historical_interface_control_count": 8,
+          "fresh_interface_verified": false
+        },
+        {
+          "job_id": "b1-p35-q1",
+          "capsule_member_prefix": "cutoff25_20261011/new_root/local_theta_b1_p35_q1_v4/",
+          "contract_sha256": "06fe0ae36062d024e71dcff5ad9d59d164434d0971710e285955c22f852c7df7",
+          "row": {
+            "n": 25,
+            "K": "0",
+            "index": 35,
+            "p": [
+              "141/400",
+              "71/200"
+            ],
+            "rho_lower": "11/10",
+            "rho_upper": "6/5",
+            "D": "80007/100000",
+            "d0": "733/10000",
+            "Lambda": "10281/25000",
+            "Hminus": "79783/50000",
+            "Hplus": "79783/50000",
+            "radius_minus": "1801/1000",
+            "radius_plus": "2601/1000",
+            "outer0": "5349/10000",
+            "outer1": "31887/50000",
+            "binary_charge": "513/6250",
+            "gap_charge": "198043/20000",
+            "noise_charge": "43607/25000",
+            "quadratics": [
+              {
+                "A": "126169/100000",
+                "Fplus": "1407/6250",
+                "Fminus": "65167/100000",
+                "Qbudget": "5837/10000"
+              },
+              {
+                "A": "26903/20000",
+                "Fplus": "1407/6250",
+                "Fminus": "65167/100000",
+                "Qbudget": "67741/100000"
+              },
+              {
+                "A": "126213/100000",
+                "Fplus": "703/3125",
+                "Fminus": "16299/25000",
+                "Qbudget": "58397/100000"
+              },
+              {
+                "A": "134563/100000",
+                "Fplus": "703/3125",
+                "Fminus": "16299/25000",
+                "Qbudget": "67769/100000"
+              },
+              {
+                "A": "61281/100000",
+                "Fplus": "20843/100000",
+                "Fminus": "8533/12500",
+                "Qbudget": "2447/4000"
+              },
+              {
+                "A": "2043/3125",
+                "Fplus": "20843/100000",
+                "Fminus": "8533/12500",
+                "Qbudget": "35369/50000"
+              }
+            ],
+            "sign_premise": {
+              "schema": "ACTUAL_SIGN_CONDITIONED_MARGINAL_V1",
+              "resource_status": "ASSUMED_ACQUIRED_FOR_CONDITIONAL_TEST",
+              "conditional_means_zero": true,
+              "negative_endpoint_lower": "56811/100000",
+              "positive_endpoint_lower": "115729/100000"
+            },
+            "acquired_beta": [
+              "11101/50000",
+              "1038/3125"
+            ],
+            "acquired_mean": [
+              "46523/100000",
+              "48101/100000"
+            ],
+            "acquired_theta_upper": "446099/10000000"
+          },
+          "historical_interface_pointer": "/rows/1",
+          "historical_signed_quadratic_choices": [
+            {
+              "sign": "plus",
+              "acquired": 0,
+              "target": 2
+            },
+            {
+              "sign": "plus",
+              "acquired": 1,
+              "target": 3
+            },
+            {
+              "sign": "plus",
+              "acquired": 2,
+              "target": 2
+            },
+            {
+              "sign": "plus",
+              "acquired": 3,
+              "target": 3
+            },
+            {
+              "sign": "plus",
+              "acquired": 4,
+              "target": 2
+            },
+            {
+              "sign": "plus",
+              "acquired": 5,
+              "target": 3
+            },
+            {
+              "sign": "minus",
+              "acquired": 0,
+              "target": 2
+            },
+            {
+              "sign": "minus",
+              "acquired": 1,
+              "target": 3
+            },
+            {
+              "sign": "minus",
+              "acquired": 2,
+              "target": 2
+            },
+            {
+              "sign": "minus",
+              "acquired": 3,
+              "target": 3
+            },
+            {
+              "sign": "minus",
+              "acquired": 4,
+              "target": 2
+            },
+            {
+              "sign": "minus",
+              "acquired": 5,
+              "target": 3
+            }
+          ],
+          "historical_interface_control_count": 8,
+          "fresh_interface_verified": false
+        },
+        {
+          "job_id": "b1-p35-q2",
+          "capsule_member_prefix": "cutoff25_20261011/new_root/local_theta_b1_p35_q2_v4/",
+          "contract_sha256": "fa132c5f3c182ad4772d3680cbaca9f964e939c1d063894d42bbdee198fdc735",
+          "row": {
+            "n": 25,
+            "K": "0",
+            "index": 35,
+            "p": [
+              "71/200",
+              "143/400"
+            ],
+            "rho_lower": "11/10",
+            "rho_upper": "6/5",
+            "D": "80007/100000",
+            "d0": "733/10000",
+            "Lambda": "10281/25000",
+            "Hminus": "79783/50000",
+            "Hplus": "79783/50000",
+            "radius_minus": "1801/1000",
+            "radius_plus": "2601/1000",
+            "outer0": "5349/10000",
+            "outer1": "31887/50000",
+            "binary_charge": "513/6250",
+            "gap_charge": "198043/20000",
+            "noise_charge": "43607/25000",
+            "quadratics": [
+              {
+                "A": "126169/100000",
+                "Fplus": "1407/6250",
+                "Fminus": "65167/100000",
+                "Qbudget": "5837/10000"
+              },
+              {
+                "A": "26903/20000",
+                "Fplus": "1407/6250",
+                "Fminus": "65167/100000",
+                "Qbudget": "67741/100000"
+              },
+              {
+                "A": "126213/100000",
+                "Fplus": "703/3125",
+                "Fminus": "16299/25000",
+                "Qbudget": "58397/100000"
+              },
+              {
+                "A": "134563/100000",
+                "Fplus": "703/3125",
+                "Fminus": "16299/25000",
+                "Qbudget": "67769/100000"
+              },
+              {
+                "A": "61281/100000",
+                "Fplus": "20843/100000",
+                "Fminus": "8533/12500",
+                "Qbudget": "2447/4000"
+              },
+              {
+                "A": "2043/3125",
+                "Fplus": "20843/100000",
+                "Fminus": "8533/12500",
+                "Qbudget": "35369/50000"
+              }
+            ],
+            "sign_premise": {
+              "schema": "ACTUAL_SIGN_CONDITIONED_MARGINAL_V1",
+              "resource_status": "ASSUMED_ACQUIRED_FOR_CONDITIONAL_TEST",
+              "conditional_means_zero": true,
+              "negative_endpoint_lower": "56811/100000",
+              "positive_endpoint_lower": "115729/100000"
+            },
+            "acquired_beta": [
+              "11101/50000",
+              "1038/3125"
+            ],
+            "acquired_mean": [
+              "46523/100000",
+              "48101/100000"
+            ],
+            "acquired_theta_upper": "446099/10000000"
+          },
+          "historical_interface_pointer": "/rows/2",
+          "historical_signed_quadratic_choices": [
+            {
+              "sign": "plus",
+              "acquired": 0,
+              "target": 2
+            },
+            {
+              "sign": "plus",
+              "acquired": 1,
+              "target": 3
+            },
+            {
+              "sign": "plus",
+              "acquired": 2,
+              "target": 2
+            },
+            {
+              "sign": "plus",
+              "acquired": 3,
+              "target": 3
+            },
+            {
+              "sign": "plus",
+              "acquired": 4,
+              "target": 2
+            },
+            {
+              "sign": "plus",
+              "acquired": 5,
+              "target": 3
+            },
+            {
+              "sign": "minus",
+              "acquired": 0,
+              "target": 2
+            },
+            {
+              "sign": "minus",
+              "acquired": 1,
+              "target": 3
+            },
+            {
+              "sign": "minus",
+              "acquired": 2,
+              "target": 2
+            },
+            {
+              "sign": "minus",
+              "acquired": 3,
+              "target": 3
+            },
+            {
+              "sign": "minus",
+              "acquired": 4,
+              "target": 2
+            },
+            {
+              "sign": "minus",
+              "acquired": 5,
+              "target": 3
+            }
+          ],
+          "historical_interface_control_count": 8,
+          "fresh_interface_verified": false
+        },
+        {
+          "job_id": "b1-p35-q3",
+          "capsule_member_prefix": "cutoff25_20261011/new_root/local_theta_b1_p35_q3_v4/",
+          "contract_sha256": "b303822bd85646ef93d4f9422ccc5921502f4e9faf7f423cbb1e15adab8da295",
+          "row": {
+            "n": 25,
+            "K": "0",
+            "index": 35,
+            "p": [
+              "143/400",
+              "9/25"
+            ],
+            "rho_lower": "11/10",
+            "rho_upper": "6/5",
+            "D": "80007/100000",
+            "d0": "733/10000",
+            "Lambda": "10281/25000",
+            "Hminus": "79783/50000",
+            "Hplus": "79783/50000",
+            "radius_minus": "1801/1000",
+            "radius_plus": "2601/1000",
+            "outer0": "5349/10000",
+            "outer1": "31887/50000",
+            "binary_charge": "513/6250",
+            "gap_charge": "198043/20000",
+            "noise_charge": "43607/25000",
+            "quadratics": [
+              {
+                "A": "126169/100000",
+                "Fplus": "1407/6250",
+                "Fminus": "65167/100000",
+                "Qbudget": "5837/10000"
+              },
+              {
+                "A": "26903/20000",
+                "Fplus": "1407/6250",
+                "Fminus": "65167/100000",
+                "Qbudget": "67741/100000"
+              },
+              {
+                "A": "126213/100000",
+                "Fplus": "703/3125",
+                "Fminus": "16299/25000",
+                "Qbudget": "58397/100000"
+              },
+              {
+                "A": "134563/100000",
+                "Fplus": "703/3125",
+                "Fminus": "16299/25000",
+                "Qbudget": "67769/100000"
+              },
+              {
+                "A": "61281/100000",
+                "Fplus": "20843/100000",
+                "Fminus": "8533/12500",
+                "Qbudget": "2447/4000"
+              },
+              {
+                "A": "2043/3125",
+                "Fplus": "20843/100000",
+                "Fminus": "8533/12500",
+                "Qbudget": "35369/50000"
+              }
+            ],
+            "sign_premise": {
+              "schema": "ACTUAL_SIGN_CONDITIONED_MARGINAL_V1",
+              "resource_status": "ASSUMED_ACQUIRED_FOR_CONDITIONAL_TEST",
+              "conditional_means_zero": true,
+              "negative_endpoint_lower": "56811/100000",
+              "positive_endpoint_lower": "115729/100000"
+            },
+            "acquired_beta": [
+              "11101/50000",
+              "1038/3125"
+            ],
+            "acquired_mean": [
+              "46523/100000",
+              "48101/100000"
+            ],
+            "acquired_theta_upper": "446099/10000000"
+          },
+          "historical_interface_pointer": "/rows/3",
+          "historical_signed_quadratic_choices": [
+            {
+              "sign": "plus",
+              "acquired": 0,
+              "target": 2
+            },
+            {
+              "sign": "plus",
+              "acquired": 1,
+              "target": 3
+            },
+            {
+              "sign": "plus",
+              "acquired": 2,
+              "target": 2
+            },
+            {
+              "sign": "plus",
+              "acquired": 3,
+              "target": 3
+            },
+            {
+              "sign": "plus",
+              "acquired": 4,
+              "target": 2
+            },
+            {
+              "sign": "plus",
+              "acquired": 5,
+              "target": 3
+            },
+            {
+              "sign": "minus",
+              "acquired": 0,
+              "target": 2
+            },
+            {
+              "sign": "minus",
+              "acquired": 1,
+              "target": 3
+            },
+            {
+              "sign": "minus",
+              "acquired": 2,
+              "target": 2
+            },
+            {
+              "sign": "minus",
+              "acquired": 3,
+              "target": 3
+            },
+            {
+              "sign": "minus",
+              "acquired": 4,
+              "target": 2
+            },
+            {
+              "sign": "minus",
+              "acquired": 5,
+              "target": 3
+            }
+          ],
+          "historical_interface_control_count": 8,
+          "fresh_interface_verified": false
+        }
+      ],
+      "historical_receipt_is_fresh_evidence": false,
+      "parent_acquisitions_verified": false,
+      "local_resource_acquisition_verified": false,
+      "all_count_interfaces_verified": false
+    },
+    {
+      "branch": "b2",
+      "panel": 31,
+      "source_manifests": [
+        {
+          "member": "cutoff25_20261011/new_root/local25_b2_v2/FROZEN_SOURCES.json",
+          "sha256": "448f299188f05fd9c41f9531298732612de97091f41693ea0ceb40dbe4e0c2a6",
+          "bytes": 656,
+          "selected_rows": 7,
+          "all_declared_source_bytes_present_and_sha_matched": true,
+          "files": [
+            {
+              "filename": "EXACT_STAGE_CACHE_PROOF.txt",
+              "sha256": "55535e6746e3f58c496ceea2cda7251dbc78808f00fc3ace998006e5711e8f07",
+              "bytes": 4497
+            },
+            {
+              "filename": "INDEPENDENT_REVIEW.json",
+              "sha256": "cc66cd11bff5c66e5b37085be6bcb6dbaadb5ce9c5a9d02a9bb84e0bf7a6e076",
+              "bytes": 14630
+            },
+            {
+              "filename": "SOURCE_PORT.json",
+              "sha256": "07fa750ccf9585494b29817d5be8e188f3d20906cbb67f1d991877f15a21deb3",
+              "bytes": 16188
+            },
+            {
+              "filename": "exact_stage_cache.py",
+              "sha256": "95c9b510c8a40e3e73e782c67d98ce0f29ea09ce689f4f3e993ad3580ca5d15d",
+              "bytes": 6967
+            },
+            {
+              "filename": "mixed_b2.py",
+              "sha256": "ea35b641d9b23775da67647f9ef9db8cfbf68de18e2451b6c56a34f064e25764",
+              "bytes": 12244
+            },
+            {
+              "filename": "mixed_b2_memoized.py",
+              "sha256": "00738994936d185d05125e46e7d2b2ede689a356628c35b0a8e0429ea874ffd7",
+              "bytes": 2756
+            },
+            {
+              "filename": "resource_worker.py",
+              "sha256": "9320df5dee80a448af0cc09e8da04db3d685cd867caf3e3cfc2c01dda46d8ec1",
+              "bytes": 1451
+            }
+          ]
+        },
+        {
+          "member": "cutoff25_20261011/new_root/initial25_b2_exact_v1/FROZEN_SOURCES.json",
+          "sha256": "b6c07b868dc99414b124175a9c5863a8dc701248231ef02ea175b294a2a4bcfa",
+          "bytes": 2863,
+          "selected_rows": 30,
+          "all_declared_source_bytes_present_and_sha_matched": true,
+          "files": [
+            {
+              "filename": "BRANCH_SCOPE.txt",
+              "sha256": "f3d13beee9cdc40be37a8f31776dc88d9afd3ab7723031997226d7e86097e613",
+              "bytes": 882
+            },
+            {
+              "filename": "CANTELLI_HIGH_PROOF.txt",
+              "sha256": "ac0d1c269e0a2f8511d504f85bb1e46f4272e82079c3835dd136ac9ca2900c8c",
+              "bytes": 2243
+            },
+            {
+              "filename": "EXACT_OPTIMIZATION_PROOF.txt",
+              "sha256": "5f95c696ad1e22ed548abc41587277e66e38e0b7ab356f0e36353d2c9d65a943",
+              "bytes": 2457
+            },
+            {
+              "filename": "HIGH_COMMON_PROOF.txt",
+              "sha256": "b4b1213afdae49d8815247b65ccd941eabcf03182aa167c746dc4d49faf16609",
+              "bytes": 2052
+            },
+            {
+              "filename": "HIGH_CONSTANTS_PROOF.txt",
+              "sha256": "f8d03be41c5c573b255ba03f8966ab8e038f833a83bd803d12b26e6ff887a16f",
+              "bytes": 566
+            },
+            {
+              "filename": "HIGH_EVALUATION_INDEPENDENT_REVIEW.txt",
+              "sha256": "3654ad34b29cb06ea7120a44739302d0a1d641504bbb7191c649a1742657c08b",
+              "bytes": 2216
+            },
+            {
+              "filename": "HIGH_GRID_PROOF.txt",
+              "sha256": "950e4dc90d48bf1e88af138ccc15777bf36f0bad53040ca386d6c92b2c28f6d7",
+              "bytes": 756
+            },
+            {
+              "filename": "INITIAL24_B4_PROOF.txt",
+              "sha256": "74225190143d25d3aadb884f46634bceb11e71463ca782be788244b9fc766768",
+              "bytes": 1901
+            },
+            {
+              "filename": "INTEGER_EXPHI_PROOF.txt",
+              "sha256": "49378d83efbe4a44b0ac2c51fa9390fe798824ea85657f9ec05ece7376e9c59a",
+              "bytes": 1287
+            },
+            {
+              "filename": "MEAN_FLOOR_PROOF.txt",
+              "sha256": "d5414c6e705bb32b27a556f43653b83ad191a2d65dc4dc6f981273c7e0cca1da",
+              "bytes": 2099
+            },
+            {
+              "filename": "PRODUCT_GAP_DISTANCE_COROLLARY.txt",
+              "sha256": "a0be5cb015735310e0993e9d6f3636b600b4d82e76a3f5239bef6d126d29b1cb",
+              "bytes": 2138
+            },
+            {
+              "filename": "P_LOCAL_MEAN_INITIAL_LEMMA.txt",
+              "sha256": "b0507393929562530ea90ba8b03a61e9e0f4f64e6abc6fb8d7dea615be3b18cc",
+              "bytes": 1720
+            },
+            {
+              "filename": "RETAINED_ANALYTIC_FRAMEWORK.tex",
+              "sha256": "5d388ad736091d87d883abca8278733952f2b0a5f6ee72b1f913cb20c9636822",
+              "bytes": 220024
+            },
+            {
+              "filename": "SOURCE_PORT.json",
+              "sha256": "abfc3e13878764f5477c7b856e436e7d6cab79653e0dfa5cfe212d61e439fcc3",
+              "bytes": 16580
+            },
+            {
+              "filename": "STRONGER24_COMPLETE_JOINED.json",
+              "sha256": "f3c6a95c5fa814cc024872c0b4212d7d5272d8b7696306dfc0f5a3b74d12167f",
+              "bytes": 2362725
+            },
+            {
+              "filename": "cantelli_high.py",
+              "sha256": "c95a6ce9d75fd2c5693de574f322859bcb29d25df4cada9facd96ed3edc02239",
+              "bytes": 1593
+            },
+            {
+              "filename": "direct_gaussian_support.py",
+              "sha256": "5742afc0538fe3fb8473d087810ad391623d38a151f5b789e7520d256197c1d2",
+              "bytes": 5332
+            },
+            {
+              "filename": "finite_binomial_core.py",
+              "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+              "bytes": 3510
+            },
+            {
+              "filename": "heat_support50.py",
+              "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+              "bytes": 4726
+            },
+            {
+              "filename": "high_grid.py",
+              "sha256": "a6b631ea8df0299e7bbd14f9d6afd21abd3f1693f66d24036cefda36f51c741a",
+              "bytes": 740
+            },
+            {
+              "filename": "high_window_common.py",
+              "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+              "bytes": 2810
+            },
+            {
+              "filename": "high_window_core.py",
+              "sha256": "62ba022998f45e0e4f8628badfe5092ae0b8d2bc256d5c18614bfb44e63906a0",
+              "bytes": 2214
+            },
+            {
+              "filename": "high_window_original.py",
+              "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+              "bytes": 1966
+            },
+            {
+              "filename": "initial25_b2.py",
+              "sha256": "c5b3e684c60686666958006d3681922f19ec6869ab4fbd54f61fd813bc0e61ed",
+              "bytes": 7726
+            },
+            {
+              "filename": "initial34.py",
+              "sha256": "a22630186fbb9a245b057e9328d579a87310605ae25c7926f112f4462064cf3e",
+              "bytes": 11700
+            },
+            {
+              "filename": "initial34_indexed.py",
+              "sha256": "37c002305518111b600e461133947aed7e739530f60e316463cadad301a9a82b",
+              "bytes": 11852
+            },
+            {
+              "filename": "integer_exphi.py",
+              "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+              "bytes": 803
+            },
+            {
+              "filename": "kernel.py",
+              "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+              "bytes": 19042
+            },
+            {
+              "filename": "mean_floor.py",
+              "sha256": "426a8a5b63a71df083f6e91943c4b9758f1ecad41664458049ecba2b97fce09b",
+              "bytes": 789
+            },
+            {
+              "filename": "small_index_support.py",
+              "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+              "bytes": 2698
+            }
+          ]
+        },
+        {
+          "member": "cutoff25_20261011/new_root/resource25_b2_v1/FROZEN_SOURCES.json",
+          "sha256": "96cf787e4db37a65d529d41d180737c2534dddbb7ac374be777d5b395f9abe7c",
+          "bytes": 3129,
+          "selected_rows": 32,
+          "all_declared_source_bytes_present_and_sha_matched": true,
+          "files": [
+            {
+              "filename": "BRANCH_SCOPE.txt",
+              "sha256": "f6769ea36f92745aefaa9aef4ecb97a0e545178b37495ba5b84e869c4db3a81e",
+              "bytes": 446
+            },
+            {
+              "filename": "GENERAL_PAIRED_EXACT_REVIEW.txt",
+              "sha256": "f2a36127f2c34ab03e2ff8e4c73f9afa46651e73c4b4cae0004975c6438ddeaa",
+              "bytes": 3297
+            },
+            {
+              "filename": "GENERAL_PAIRED_PROOF.txt",
+              "sha256": "ec58bb8c1c8df0ff3eb019ffd61988ee37c696149e934e7ca403a31c856f3bda",
+              "bytes": 4577
+            },
+            {
+              "filename": "GLOBAL_RESOURCE_PROOF.txt",
+              "sha256": "4edceddf312a1d6b2a4a4a00c9376331586f3faee3353c3e9c882f5a7eb07eea",
+              "bytes": 1615
+            },
+            {
+              "filename": "HIGH_COMMON_PROOF.txt",
+              "sha256": "b4b1213afdae49d8815247b65ccd941eabcf03182aa167c746dc4d49faf16609",
+              "bytes": 2052
+            },
+            {
+              "filename": "HIGH_CONSTANTS_PROOF.txt",
+              "sha256": "f8d03be41c5c573b255ba03f8966ab8e038f833a83bd803d12b26e6ff887a16f",
+              "bytes": 566
+            },
+            {
+              "filename": "HIGH_EVALUATION_INDEPENDENT_REVIEW.txt",
+              "sha256": "3654ad34b29cb06ea7120a44739302d0a1d641504bbb7191c649a1742657c08b",
+              "bytes": 2216
+            },
+            {
+              "filename": "INTEGER_EXPHI_PROOF.txt",
+              "sha256": "49378d83efbe4a44b0ac2c51fa9390fe798824ea85657f9ec05ece7376e9c59a",
+              "bytes": 1287
+            },
+            {
+              "filename": "MEMOIZATION_IDENTITY_PROOF.txt",
+              "sha256": "5f95c696ad1e22ed548abc41587277e66e38e0b7ab356f0e36353d2c9d65a943",
+              "bytes": 2457
+            },
+            {
+              "filename": "POSITIVE_GAP_RESOURCE_EXTENSION.txt",
+              "sha256": "0bf6ae992f6b8c4b8c344b178f715c9717d1083c2fce317b7cdb0dc151e210f2",
+              "bytes": 5007
+            },
+            {
+              "filename": "PRODUCT_GAP_DISTANCE_COROLLARY.txt",
+              "sha256": "a0be5cb015735310e0993e9d6f3636b600b4d82e76a3f5239bef6d126d29b1cb",
+              "bytes": 2138
+            },
+            {
+              "filename": "PRODUCT_GAP_IMPLEMENTATION_REVIEW.txt",
+              "sha256": "274981799dd37ad2f11bc64334d38d416ab71f0b7f4635b44a53d8edaf24fc55",
+              "bytes": 2344
+            },
+            {
+              "filename": "SOURCE_PORT.json",
+              "sha256": "6d9fb05c6150985dde3b3fb6dd060b4e35531934ded76a5a1ab3a76aaa084e2f",
+              "bytes": 19439
+            },
+            {
+              "filename": "candidate_charged_score_v2.py",
+              "sha256": "20f3c102f7b77b5ef49b0e6282cfacb3e24975f207296a5b74b27c0af6cdc6b4",
+              "bytes": 6662
+            },
+            {
+              "filename": "contracted_kernel.py",
+              "sha256": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0",
+              "bytes": 20457
+            },
+            {
+              "filename": "corrected_phase_callback_extended.py",
+              "sha256": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63",
+              "bytes": 1164
+            },
+            {
+              "filename": "direct_gaussian_support.py",
+              "sha256": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57",
+              "bytes": 5306
+            },
+            {
+              "filename": "finite_binomial_core.py",
+              "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+              "bytes": 3510
+            },
+            {
+              "filename": "finite_gaussian.py",
+              "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+              "bytes": 3510
+            },
+            {
+              "filename": "general_paired_exact.py",
+              "sha256": "e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96",
+              "bytes": 4013
+            },
+            {
+              "filename": "geometric_moment_both.py",
+              "sha256": "ea17218cdad6c409dacf8d4a37b437453fbf7aab3683867d16783cb696206616",
+              "bytes": 2100
+            },
+            {
+              "filename": "heat_support50.py",
+              "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+              "bytes": 4726
+            },
+            {
+              "filename": "high_window_common.py",
+              "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+              "bytes": 2810
+            },
+            {
+              "filename": "high_window_core.py",
+              "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+              "bytes": 1966
+            },
+            {
+              "filename": "high_window_original.py",
+              "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+              "bytes": 1966
+            },
+            {
+              "filename": "integer_exphi.py",
+              "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+              "bytes": 803
+            },
+            {
+              "filename": "kernel.py",
+              "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+              "bytes": 19042
+            },
+            {
+              "filename": "paired_extended.py",
+              "sha256": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998",
+              "bytes": 2854
+            },
+            {
+              "filename": "resource25_core.py",
+              "sha256": "f800f68bdb285bc8bd10642b51157825be553824461ebc48bf5c74b34165ed7b",
+              "bytes": 10307
+            },
+            {
+              "filename": "resources_b2.py",
+              "sha256": "211b96ca62c03c37db88f583b2eda17a83c59ab6c181078fd219b1f5301f9aec",
+              "bytes": 7591
+            },
+            {
+              "filename": "signed_variance_resource.py",
+              "sha256": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8",
+              "bytes": 1785
+            },
+            {
+              "filename": "small_index_support.py",
+              "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+              "bytes": 2698
+            }
+          ]
+        }
+      ],
+      "local_checker": {
+        "member": "cutoff25_20261011/new_root/local25_b2_v2/mixed_b2.py",
+        "sha256": "ea35b641d9b23775da67647f9ef9db8cfbf68de18e2451b6c56a34f064e25764",
+        "bytes": 12244
+      },
+      "local_memoized_checker": {
+        "member": "cutoff25_20261011/new_root/local25_b2_v2/mixed_b2_memoized.py",
+        "sha256": "00738994936d185d05125e46e7d2b2ede689a356628c35b0a8e0429ea874ffd7",
+        "bytes": 2756
+      },
+      "resource_worker": {
+        "member": "cutoff25_20261011/new_root/local25_b2_v2/resource_worker.py",
+        "sha256": "9320df5dee80a448af0cc09e8da04db3d685cd867caf3e3cfc2c01dda46d8ec1",
+        "bytes": 1451
+      },
+      "candidate": {
+        "member": "cutoff25_20261011/new_root/local25_b2_v2/PANEL_31_PROOF.json",
+        "sha256": "bdfb7c97cb05b3aa8539489b23b5b9461b866c26b0e1163fbf0c9f236de708d0",
+        "bytes": 3375554
+      },
+      "historical_receipt": {
+        "member": "cutoff25_20261011/new_root/local25_b2_v2/PANEL_31_ACCEPTED.json",
+        "sha256": "d89719bb558d632cb6f06ce9ddbecf56bf85be50b157a6667735bf6184613b15",
+        "bytes": 10024
+      },
+      "historical_interface": {
+        "member": "cutoff25_20261011/new_root/LOWER_B2_P31_LOCAL_QUARTER_INTERFACES_V1.json",
+        "sha256": "4e6ce4b5833e35a073a2bc3e52b82de8b59eae901af23ea3256f180b86e19fda",
+        "bytes": 41730
+      },
+      "original_cli": [
+        "python",
+        "-B",
+        "mixed_b2_memoized.py",
+        "accept",
+        "31"
+      ],
+      "cwd_member_prefix": "cutoff25_20261011/new_root/local25_b2_v2/",
+      "full_local_cycles": 4,
+      "mathematical_signed_covers": 16,
+      "signed_rectangles": 294912,
+      "resource_worker_invocations": 4,
+      "selected_resource_plan_steps": [
+        12,
+        9,
+        7,
+        6
+      ],
+      "new_support_targets_in_selected_plan": 0,
+      "historical_acceptance_cache": {
+        "hits": 2,
+        "misses": 14,
+        "size": 14,
+        "maxsize": 128
+      },
+      "original_status": "PASS_FRESH_EXACT_SHARP25_B2_FOUR_COVER_PANEL",
+      "negative_controls": [
+        "wrong n",
+        "boolean n",
+        "wrong excess",
+        "wrong parent",
+        "missing panel",
+        "wrong p panel",
+        "missing cycle",
+        "false mean floor",
+        "missing cover",
+        "wrong support",
+        "changed schedule",
+        "extra success"
+      ],
+      "final_profile": {
+        "n": 25,
+        "nmax": 25,
+        "radius": "29/10",
+        "radius_minus": "19/10",
+        "radius_plus": "29/10",
+        "cap": "434477/1000000",
+        "barrier": "0",
+        "grid": [
+          24,
+          24,
+          8,
+          4
+        ],
+        "invariants": {
+          "rho_lo": "6/5",
+          "rho": "13/10",
+          "M": "42870903/20000000",
+          "eta": "473956259/100000000",
+          "gamma_hi": "11555639/12500000",
+          "mean_hi": "728869/1562500",
+          "gamma_lo": "199672287/400000000",
+          "beta_lo": "1744732602647/6250000000000",
+          "mean_lo": "448536614507/1000000000000",
+          "beta_hi": "99730478594689/240000000000000"
+        },
+        "p_interval": [
+          "31/100",
+          "8/25"
+        ]
+      },
+      "recorded_final_resource_scalars": {
+        "rho_lo": "6/5",
+        "rho_hi": "13/10",
+        "index": 31,
+        "N": 25,
+        "K": "0",
+        "pl": "31/100",
+        "pu": "8/25",
+        "D": "25865641/25000000",
+        "lambda_max": "10561330611468811684176361798331509/20762131009818445923991575003708272",
+        "d0": "621254741851106569657433046960677/7607789144362254913441457408000000",
+        "radius_minus": "19/10",
+        "radius_plus": "29/10",
+        "outer0": "2510994549/4158082100",
+        "outer1": "743126043/1039520525",
+        "H_minus": "175469927/100000000",
+        "H_plus": "175469927/100000000",
+        "charge_b": "549376752370392291027700859117969/2332380800000000000000000000000000",
+        "charge_g": "122317973511694385091/12500000000000000000",
+        "charge_h": "5341014042771689577617404929/3400000000000000000000000000",
+        "envelope_kind": "paired signed envelope"
+      },
+      "final_resource_pointer": "/rows/0/survivor_resource/result",
+      "selected_contracts": [
+        {
+          "job_id": "b2-p31-q0",
+          "capsule_member_prefix": "cutoff25_20261011/new_root/local_theta_b2_p31_q0_v4/",
+          "contract_sha256": "95881642c0ca997a354fbec66fcdf7f08d20aa24acb81a4274e560c41a61eacb",
+          "row": {
+            "n": 25,
+            "K": "0",
+            "index": 31,
+            "p": [
+              "31/100",
+              "5/16"
+            ],
+            "rho_lower": "6/5",
+            "rho_upper": "13/10",
+            "D": "103563/100000",
+            "d0": "8267/100000",
+            "Lambda": "50969/100000",
+            "Hminus": "17557/10000",
+            "Hplus": "17557/10000",
+            "radius_minus": "1901/1000",
+            "radius_plus": "2901/1000",
+            "outer0": "60489/100000",
+            "outer1": "17897/25000",
+            "binary_charge": "11727/50000",
+            "gap_charge": "978443/100000",
+            "noise_charge": "39247/25000",
+            "quadratics": [
+              {
+                "A": "41619/25000",
+                "Fplus": "17981/50000",
+                "Fminus": "22341/25000",
+                "Qbudget": "1921/3125"
+              },
+              {
+                "A": "179639/100000",
+                "Fplus": "17981/50000",
+                "Fminus": "22341/25000",
+                "Qbudget": "18323/25000"
+              },
+              {
+                "A": "166539/100000",
+                "Fplus": "35943/100000",
+                "Fminus": "44703/50000",
+                "Qbudget": "61501/100000"
+              },
+              {
+                "A": "17971/10000",
+                "Fplus": "35943/100000",
+                "Fminus": "44703/50000",
+                "Qbudget": "18331/25000"
+              },
+              {
+                "A": "49421/50000",
+                "Fplus": "8493/25000",
+                "Fminus": "46893/50000",
+                "Qbudget": "64469/100000"
+              },
+              {
+                "A": "106623/100000",
+                "Fplus": "8493/25000",
+                "Fminus": "46893/50000",
+                "Qbudget": "76539/100000"
+              }
+            ],
+            "sign_premise": {
+              "schema": "ACTUAL_SIGN_CONDITIONED_MARGINAL_V1",
+              "resource_status": "ASSUMED_ACQUIRED_FOR_CONDITIONAL_TEST",
+              "conditional_means_zero": true,
+              "negative_endpoint_lower": "24523/50000",
+              "positive_endpoint_lower": "124151/100000"
+            },
+            "acquired_beta": [
+              "5563/20000",
+              "8331/20000"
+            ],
+            "acquired_mean": [
+              "44753/100000",
+              "11687/25000"
+            ],
+            "acquired_theta_upper": "5954321/100000000"
+          },
+          "historical_interface_pointer": "/rows/0",
+          "historical_signed_quadratic_choices": [
+            {
+              "sign": "plus",
+              "acquired": 0,
+              "target": 2
+            },
+            {
+              "sign": "plus",
+              "acquired": 1,
+              "target": 3
+            },
+            {
+              "sign": "plus",
+              "acquired": 2,
+              "target": 2
+            },
+            {
+              "sign": "plus",
+              "acquired": 3,
+              "target": 3
+            },
+            {
+              "sign": "plus",
+              "acquired": 4,
+              "target": 2
+            },
+            {
+              "sign": "plus",
+              "acquired": 5,
+              "target": 3
+            },
+            {
+              "sign": "minus",
+              "acquired": 0,
+              "target": 2
+            },
+            {
+              "sign": "minus",
+              "acquired": 1,
+              "target": 3
+            },
+            {
+              "sign": "minus",
+              "acquired": 2,
+              "target": 2
+            },
+            {
+              "sign": "minus",
+              "acquired": 3,
+              "target": 3
+            },
+            {
+              "sign": "minus",
+              "acquired": 4,
+              "target": 2
+            },
+            {
+              "sign": "minus",
+              "acquired": 5,
+              "target": 3
+            }
+          ],
+          "historical_interface_control_count": 8,
+          "fresh_interface_verified": false
+        },
+        {
+          "job_id": "b2-p31-q1",
+          "capsule_member_prefix": "cutoff25_20261011/new_root/local_theta_b2_p31_q1_v4/",
+          "contract_sha256": "c147ab32c21a3e93931af40b6848dec56599a78323227ee9dc8d7e0f0466dbb0",
+          "row": {
+            "n": 25,
+            "K": "0",
+            "index": 31,
+            "p": [
+              "5/16",
+              "63/200"
+            ],
+            "rho_lower": "6/5",
+            "rho_upper": "13/10",
+            "D": "103563/100000",
+            "d0": "8267/100000",
+            "Lambda": "50969/100000",
+            "Hminus": "17557/10000",
+            "Hplus": "17557/10000",
+            "radius_minus": "1901/1000",
+            "radius_plus": "2901/1000",
+            "outer0": "60489/100000",
+            "outer1": "17897/25000",
+            "binary_charge": "11727/50000",
+            "gap_charge": "978443/100000",
+            "noise_charge": "39247/25000",
+            "quadratics": [
+              {
+                "A": "41619/25000",
+                "Fplus": "17981/50000",
+                "Fminus": "22341/25000",
+                "Qbudget": "1921/3125"
+              },
+              {
+                "A": "179639/100000",
+                "Fplus": "17981/50000",
+                "Fminus": "22341/25000",
+                "Qbudget": "18323/25000"
+              },
+              {
+                "A": "166539/100000",
+                "Fplus": "35943/100000",
+                "Fminus": "44703/50000",
+                "Qbudget": "61501/100000"
+              },
+              {
+                "A": "17971/10000",
+                "Fplus": "35943/100000",
+                "Fminus": "44703/50000",
+                "Qbudget": "18331/25000"
+              },
+              {
+                "A": "49421/50000",
+                "Fplus": "8493/25000",
+                "Fminus": "46893/50000",
+                "Qbudget": "64469/100000"
+              },
+              {
+                "A": "106623/100000",
+                "Fplus": "8493/25000",
+                "Fminus": "46893/50000",
+                "Qbudget": "76539/100000"
+              }
+            ],
+            "sign_premise": {
+              "schema": "ACTUAL_SIGN_CONDITIONED_MARGINAL_V1",
+              "resource_status": "ASSUMED_ACQUIRED_FOR_CONDITIONAL_TEST",
+              "conditional_means_zero": true,
+              "negative_endpoint_lower": "24523/50000",
+              "positive_endpoint_lower": "124151/100000"
+            },
+            "acquired_beta": [
+              "5563/20000",
+              "8331/20000"
+            ],
+            "acquired_mean": [
+              "44753/100000",
+              "11687/25000"
+            ],
+            "acquired_theta_upper": "5954321/100000000"
+          },
+          "historical_interface_pointer": "/rows/1",
+          "historical_signed_quadratic_choices": [
+            {
+              "sign": "plus",
+              "acquired": 0,
+              "target": 2
+            },
+            {
+              "sign": "plus",
+              "acquired": 1,
+              "target": 3
+            },
+            {
+              "sign": "plus",
+              "acquired": 2,
+              "target": 2
+            },
+            {
+              "sign": "plus",
+              "acquired": 3,
+              "target": 3
+            },
+            {
+              "sign": "plus",
+              "acquired": 4,
+              "target": 2
+            },
+            {
+              "sign": "plus",
+              "acquired": 5,
+              "target": 3
+            },
+            {
+              "sign": "minus",
+              "acquired": 0,
+              "target": 2
+            },
+            {
+              "sign": "minus",
+              "acquired": 1,
+              "target": 3
+            },
+            {
+              "sign": "minus",
+              "acquired": 2,
+              "target": 2
+            },
+            {
+              "sign": "minus",
+              "acquired": 3,
+              "target": 3
+            },
+            {
+              "sign": "minus",
+              "acquired": 4,
+              "target": 2
+            },
+            {
+              "sign": "minus",
+              "acquired": 5,
+              "target": 3
+            }
+          ],
+          "historical_interface_control_count": 8,
+          "fresh_interface_verified": false
+        },
+        {
+          "job_id": "b2-p31-q2",
+          "capsule_member_prefix": "cutoff25_20261011/new_root/local_theta_b2_p31_q2_v4/",
+          "contract_sha256": "082ce1437e8663a81125d3215e4456317ecc949fb18bccd85e1b7d927da09d6d",
+          "row": {
+            "n": 25,
+            "K": "0",
+            "index": 31,
+            "p": [
+              "63/200",
+              "127/400"
+            ],
+            "rho_lower": "6/5",
+            "rho_upper": "13/10",
+            "D": "103563/100000",
+            "d0": "8267/100000",
+            "Lambda": "50969/100000",
+            "Hminus": "17557/10000",
+            "Hplus": "17557/10000",
+            "radius_minus": "1901/1000",
+            "radius_plus": "2901/1000",
+            "outer0": "60489/100000",
+            "outer1": "17897/25000",
+            "binary_charge": "11727/50000",
+            "gap_charge": "978443/100000",
+            "noise_charge": "39247/25000",
+            "quadratics": [
+              {
+                "A": "41619/25000",
+                "Fplus": "17981/50000",
+                "Fminus": "22341/25000",
+                "Qbudget": "1921/3125"
+              },
+              {
+                "A": "179639/100000",
+                "Fplus": "17981/50000",
+                "Fminus": "22341/25000",
+                "Qbudget": "18323/25000"
+              },
+              {
+                "A": "166539/100000",
+                "Fplus": "35943/100000",
+                "Fminus": "44703/50000",
+                "Qbudget": "61501/100000"
+              },
+              {
+                "A": "17971/10000",
+                "Fplus": "35943/100000",
+                "Fminus": "44703/50000",
+                "Qbudget": "18331/25000"
+              },
+              {
+                "A": "49421/50000",
+                "Fplus": "8493/25000",
+                "Fminus": "46893/50000",
+                "Qbudget": "64469/100000"
+              },
+              {
+                "A": "106623/100000",
+                "Fplus": "8493/25000",
+                "Fminus": "46893/50000",
+                "Qbudget": "76539/100000"
+              }
+            ],
+            "sign_premise": {
+              "schema": "ACTUAL_SIGN_CONDITIONED_MARGINAL_V1",
+              "resource_status": "ASSUMED_ACQUIRED_FOR_CONDITIONAL_TEST",
+              "conditional_means_zero": true,
+              "negative_endpoint_lower": "24523/50000",
+              "positive_endpoint_lower": "124151/100000"
+            },
+            "acquired_beta": [
+              "5563/20000",
+              "8331/20000"
+            ],
+            "acquired_mean": [
+              "44753/100000",
+              "11687/25000"
+            ],
+            "acquired_theta_upper": "5954321/100000000"
+          },
+          "historical_interface_pointer": "/rows/2",
+          "historical_signed_quadratic_choices": [
+            {
+              "sign": "plus",
+              "acquired": 0,
+              "target": 2
+            },
+            {
+              "sign": "plus",
+              "acquired": 1,
+              "target": 3
+            },
+            {
+              "sign": "plus",
+              "acquired": 2,
+              "target": 2
+            },
+            {
+              "sign": "plus",
+              "acquired": 3,
+              "target": 3
+            },
+            {
+              "sign": "plus",
+              "acquired": 4,
+              "target": 2
+            },
+            {
+              "sign": "plus",
+              "acquired": 5,
+              "target": 3
+            },
+            {
+              "sign": "minus",
+              "acquired": 0,
+              "target": 2
+            },
+            {
+              "sign": "minus",
+              "acquired": 1,
+              "target": 3
+            },
+            {
+              "sign": "minus",
+              "acquired": 2,
+              "target": 2
+            },
+            {
+              "sign": "minus",
+              "acquired": 3,
+              "target": 3
+            },
+            {
+              "sign": "minus",
+              "acquired": 4,
+              "target": 2
+            },
+            {
+              "sign": "minus",
+              "acquired": 5,
+              "target": 3
+            }
+          ],
+          "historical_interface_control_count": 8,
+          "fresh_interface_verified": false
+        },
+        {
+          "job_id": "b2-p31-q3",
+          "capsule_member_prefix": "cutoff25_20261011/new_root/local_joint_cubic_b2_p31_q3_v5/",
+          "contract_sha256": "bc48aab017e9d291efd9abd81ee80ee9d4d9685a592daf31dd814f966b32bb90",
+          "row": {
+            "n": 25,
+            "K": "0",
+            "index": 31,
+            "p": [
+              "127/400",
+              "8/25"
+            ],
+            "rho_lower": "6/5",
+            "rho_upper": "13/10",
+            "D": "103563/100000",
+            "d0": "8267/100000",
+            "Lambda": "50969/100000",
+            "Hminus": "17557/10000",
+            "Hplus": "17557/10000",
+            "radius_minus": "1901/1000",
+            "radius_plus": "2901/1000",
+            "outer0": "60489/100000",
+            "outer1": "17897/25000",
+            "binary_charge": "11727/50000",
+            "gap_charge": "978443/100000",
+            "noise_charge": "39247/25000",
+            "quadratics": [
+              {
+                "A": "41619/25000",
+                "Fplus": "17981/50000",
+                "Fminus": "22341/25000",
+                "Qbudget": "1921/3125"
+              },
+              {
+                "A": "179639/100000",
+                "Fplus": "17981/50000",
+                "Fminus": "22341/25000",
+                "Qbudget": "18323/25000"
+              },
+              {
+                "A": "166539/100000",
+                "Fplus": "35943/100000",
+                "Fminus": "44703/50000",
+                "Qbudget": "61501/100000"
+              },
+              {
+                "A": "17971/10000",
+                "Fplus": "35943/100000",
+                "Fminus": "44703/50000",
+                "Qbudget": "18331/25000"
+              },
+              {
+                "A": "49421/50000",
+                "Fplus": "8493/25000",
+                "Fminus": "46893/50000",
+                "Qbudget": "64469/100000"
+              },
+              {
+                "A": "106623/100000",
+                "Fplus": "8493/25000",
+                "Fminus": "46893/50000",
+                "Qbudget": "76539/100000"
+              }
+            ],
+            "sign_premise": {
+              "schema": "ACTUAL_SIGN_CONDITIONED_MARGINAL_V1",
+              "resource_status": "ASSUMED_ACQUIRED_FOR_CONDITIONAL_TEST",
+              "conditional_means_zero": true,
+              "negative_endpoint_lower": "24523/50000",
+              "positive_endpoint_lower": "124151/100000"
+            },
+            "acquired_beta": [
+              "5563/20000",
+              "8331/20000"
+            ],
+            "acquired_mean": [
+              "44753/100000",
+              "11687/25000"
+            ],
+            "acquired_theta_upper": "5954321/100000000"
+          },
+          "historical_interface_pointer": "/rows/3",
+          "historical_signed_quadratic_choices": [
+            {
+              "sign": "plus",
+              "acquired": 0,
+              "target": 2
+            },
+            {
+              "sign": "plus",
+              "acquired": 1,
+              "target": 3
+            },
+            {
+              "sign": "plus",
+              "acquired": 2,
+              "target": 2
+            },
+            {
+              "sign": "plus",
+              "acquired": 3,
+              "target": 3
+            },
+            {
+              "sign": "plus",
+              "acquired": 4,
+              "target": 2
+            },
+            {
+              "sign": "plus",
+              "acquired": 5,
+              "target": 3
+            },
+            {
+              "sign": "minus",
+              "acquired": 0,
+              "target": 2
+            },
+            {
+              "sign": "minus",
+              "acquired": 1,
+              "target": 3
+            },
+            {
+              "sign": "minus",
+              "acquired": 2,
+              "target": 2
+            },
+            {
+              "sign": "minus",
+              "acquired": 3,
+              "target": 3
+            },
+            {
+              "sign": "minus",
+              "acquired": 4,
+              "target": 2
+            },
+            {
+              "sign": "minus",
+              "acquired": 5,
+              "target": 3
+            }
+          ],
+          "historical_interface_control_count": 8,
+          "fresh_interface_verified": false
+        }
+      ],
+      "historical_receipt_is_fresh_evidence": false,
+      "parent_acquisitions_verified": false,
+      "local_resource_acquisition_verified": false,
+      "all_count_interfaces_verified": false,
+      "selected_joint_q3_contract_equals_old_theta_q3_bytes": true
+    }
+  ],
+  "numerical_kernel_executed": false,
+  "native_arithmetic_accepted": false,
+  "parent_acquisitions_verified": false,
+  "full_n25_verified": false,
+  "all_index_conclusion_verified": false,
+  "future_parent_lane": {
+    "global_full_native_acceptance_calls": 6,
+    "global_actions": [
+      "B0 INITIAL accept",
+      "B0 global resource accept",
+      "B1 INITIAL accept",
+      "B1 global resource accept",
+      "B2 INITIAL accept",
+      "B2 global resource accept"
+    ],
+    "initial_acceptance_serialization": "Deterministic untimed original bytes; separately source-audited to match all3 archived receipts",
+    "extra_global_construction_required": false,
+    "local_full_actions": 4,
+    "local_actions": [
+      "B1 panel35 construct",
+      "B1 panel35 accept",
+      "B2 panel31 construct",
+      "B2 panel31 accept"
+    ],
+    "total_full_actions": 10,
+    "resource_to_count_semantic_edges": {
+      "total": 75,
+      "global_edges": 67,
+      "local_edges": 8
+    },
+    "count_forests_are_already_selected_retained75": true,
+    "all_fresh_parent_results_still_required": true
+  }
+}

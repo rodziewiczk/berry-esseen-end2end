@@ -2,6 +2,10 @@
 
 Authors: Kacper Rodziewicz and Bartosz Kołodziejek.
 
+Start with [the current status](STATUS.md) and [the mathematical audit and
+high-level proof graphs](proof/LOGICAL_AUDIT.md). The present priority is to
+verify the logical and source-specific implications before adding compute jobs.
+
 This repository rebuilds the computational proof obligations for the sharp iid Berry–Esseen constant from pinned public sources. It is a **work in progress**, not a completed proof of the conjecture.
 
 For centered unit-variance iid laws with \(\rho(P)=E|X|^3\), the target is

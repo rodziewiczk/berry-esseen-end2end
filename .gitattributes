@@ -2,3 +2,4 @@
 vendor/** -text
 *.ipynb text eol=lf
 proof/n25_retained_*_catalog.json -text whitespace=cr-at-eol
+proof/n25_b012_*.json -text whitespace=cr-at-eol

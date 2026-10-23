@@ -41,4 +41,4 @@ The standardized Bernoulli law has \(\rho_B=(p^2+q^2)/\sqrt{pq}\), so this is ex
 
 ## Inputs still requiring direct verification
 
-The original Bentkus–Kirsa one-summand theorem and Esseen's original lower-bound construction have not been checked from their full primary texts here. The exact He–Cheng estimate selected by the tail likewise remains open. The pointwise Prawitz statement now has the direct proof above; this is not a verification of Prawitz's whole original paper. No all-index theorem is imported from a title, abstract, historical PASS, or secondary summary.
+The original Bentkus–Kirsa one-summand theorem and Esseen's original lower-bound construction have not been checked from their full primary texts here. The exact He–Cheng estimate selected by the tail now has a [primary-source statement check and direct short derivation](logic_gaussian_input_audit.md); the review does not import their eventual sharpness theorem. The pointwise Prawitz statement has the direct proof above; this is not a verification of Prawitz's whole original paper. No all-index theorem is imported from a title, abstract, historical PASS, or secondary summary.

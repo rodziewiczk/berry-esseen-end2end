@@ -158,3 +158,61 @@ reports all258 closed leaves, a strict positive margin and
 acceptance. The complete auxiliary-bound and all-index flags remain false.
 This records the inspected log, without claiming independent inspection of its
 actual exported ZIP or acquiring its conditional premises.
+
+## Notebook 16: auxiliary23 complete arithmetic log
+
+The supplied complete log has SHA-256
+`00909a45c8908e76da3069bb0bca5324a51ee207ab4ed5d47a2464975b5bdecb`.
+It records all 25 stages finishing: INITIAL, all 100 resource panels,
+optimization, the 21 count acceptors for panels 24--44, and the count join.
+INITIAL/resource/count/join stages report native arithmetic acceptance;
+optimization finishes under its explicitly separate BASIC execution contract.
+No stronger execution label is inferred for that stage.
+
+The count join reports 18,377 closed leaves, maximum score
+`435818419209/1000000000000`, and the strictly positive exact margin
+`3109377771729146828051331781192197462713750263324116007/4312500000000000000000000000000000000000000000000000000000000`.
+Its native conclusion remains `PASS_CONDITIONAL_ON_UNACQUIRED_RESOURCES`.
+The final batch state is `FRESH_CONDITIONAL_ARITHMETIC_REPLAY_COMPLETED`, with
+the completed results ZIP reported saved at 16:51:08 Europe/Warsaw on 23 October 2026.
+
+This is complete conditional auxiliary23 arithmetic as reported by the inspected
+log. The actual exported ZIP, full guard/capture chain and semantic resource
+interfaces have not yet been independently revalidated for this record.
+`full_auxiliary_bound_verified` and `all_index_conclusion_verified` remain false.
+The remaining auxiliary24 branches and final notebook23 join stay separate work;
+this result does not establish sharp all-law n23 or n24.
+
+## Notebook 17: complete stronger24 B0 arithmetic log
+
+The supplied log has SHA-256
+`08574b10b1aafbaf760261b282d34f5759868c4b860854b4c1ab2ab746f469aa`.
+It records all 16 selected stages finishing, with 1,929 closed count leaves,
+maximum score `422231556519/1000000000000` and a positive exact final margin.
+The completed results ZIP is reported saved at 17:15:59 Europe/Warsaw on
+23 October 2026; the final state is `complete_conditional_arithmetic_basic`.
+
+This task uses its explicit BASIC process-tree execution contract. Its
+`native_arithmetic_accepted` flags remain false; the completed arithmetic is not
+relabelled as the stronger single-process native contract. The original
+conditional count join reports `PASS_CONDITIONAL_ON_UNACQUIRED_RESOURCES`.
+The other five stronger24 branches, full auxiliary join and analytic premises
+remain separate. This record inspects the full supplied log, not the actual
+ZIP or its complete preserved capture/source chain.
+
+## Notebook 12: corrected2GiB run stops incomplete near its wall ceiling
+
+The supplied log has SHA-256
+`176139033a7fc798c25b28b5bb7bd4dbb0111a96ac8ab6b0bcf199bf54c90143`.
+It starts with2GiB, BASIC supervision and `quick_mode=false`. Its final state
+is `INCOMPLETE_NO_ACCEPTANCE`, with `all_required_jobs_computed=false`.
+The last heartbeat has13 main and25 retained execution records, against the
+required14/41. These are recorded executions, not independent proof of every
+record's successful completion.
+
+The last elapsed heartbeat is7791.5seconds and the stop is reported at about
+7802seconds, alongside a7800-second configured wall ceiling. This strongly
+suggests a wall-limit stop; the exact `execution.reason`, native stderr and
+actual final exported bundle have not been inspected for this record. The
+supplied log does not display a failed mathematical inequality or a memory-limit
+exception. No completion, native acceptance or uniform tail theorem is inferred.

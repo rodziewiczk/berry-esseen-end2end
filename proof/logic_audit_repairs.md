@@ -1,0 +1,69 @@
+# Explicit analytic repairs identified by the logic audit
+
+Source: `berry_esseen_manuscript.tex`, SHA-256
+`2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1`.
+The supplied source is preserved unchanged. The amendments below are proposed
+for the revised paper; an audit note does not edit or reissue that paper.
+
+## R1: nonnegative own-mass lower bound
+
+Location: `countcore:scoretheorem`, lines4653--4687.
+
+The theorem calls `b_k^-` a lower bound for the own binomial mass. Its proof uses
+
+\[
+ b_k\Pr(W_k>u)\ge b_k^-\Pr(W_k>u)\ge b_k^-L_k(u,\mu).
+\]
+
+The second inequality requires `b_k^- >= 0`, especially because the theorem
+explicitly allows its outgoing probability lower bound `L_k` to be negative.
+A generic lower bound for a probability need not be nonnegative. For example,
+`b_k^-=-1`, `Pr(W_k>u)=1/2`, and `L_k=-1` satisfy the lower-bound descriptions,
+but the second asserted inequality would read `-1/2 >= 1`.
+
+Amend the hypothesis to require, throughout the whole parameter box,
+
+\[
+ 0\le b_k^-\le b_k(p).
+\]
+
+With that explicit premise the displayed multiplication chain is valid. An
+implementation may replace any valid lower mass bound by its maximum with zero;
+the new bound remains a valid lower bound. This note does not authorize changing
+any frozen source, candidate or acceptance record.
+
+Classification: a repairable omitted explicit hypothesis in the theorem
+statement. It is not by itself a failed selected leaf or a counterexample to the
+sharp-constant conjecture. The source-specific nonnegativity gate must still be
+checked wherever this rule is instantiated. The companion resource/count audit
+records the implementation readback separately.
+
+## R2: enumerate the global integer-range premises
+
+Location: `verify:thm:global`, item(d), lines9141--9143.
+
+Replace the compressed description of the "remaining indices" by explicit
+premises for the sharp finite base31--34, the supported finite bridge35--48,
+and the uniform first-failure proof from49. The detailed refinement section
+already names these obligations. The final theorem should name them as well,
+so that a tail49 certificate cannot be read as a proof of the missing31--48
+range. The positive-budget27--30 route may be retained as an alternative
+predecessor acquisition; an already proved sharp result through30 is stronger.
+
+Classification: an explicit dependency/completeness clarification, not a newly
+found counterexample or a claim that the finite bridge has been verified.
+
+## R3: retain the confinement multiplier sign gate
+
+Location: confinement hypotheses/slopes, lines7651--7692 and7881--7897.
+The substitutions using3(.4)b_- and3C_0 b_+ require nonnegative beta
+endpoints, or sign-aware coefficient endpoints. State the sign condition
+explicitly in the applied interface. A positive closed-CDF orientation alone
+does not supply it.
+
+The inspected frozen confinement kernel has an explicit `beta_domain` gate and
+defines its improved lower beta bound by a maximum. All83 selected field rows
+inspected in the tail audit have positive beta_lo. The actual inspected route
+therefore supplies the premise; no failed selected certificate is demonstrated.
+The source-to-lemma map must retain that gate. See exact source pins and line
+references in [the global/tail audit](logic_global_tail_audit.md).
