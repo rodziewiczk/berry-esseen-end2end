@@ -1,0 +1,229 @@
+{
+  "schema": "UNIFORM_INITIAL_SOURCE_HAND_ALGEBRA_AUDIT_V1",
+  "review_kind": "fallible_internal_AI_source_and_hand_algebra_review",
+  "external_independent_verification": false,
+  "formal_verification": false,
+  "archived_math_modules_imported_or_executed": false,
+  "fresh_arithmetic_acceptance": false,
+  "all_index_conclusion_verified": false,
+  "archive": {
+    "filename": "BE_cutoff49_20260930.zip",
+    "bytes": 16660566,
+    "sha256": "ecdb9acca0db29efc9fe2bf496c0bcc61b4881aecdcbc91a4eb6ad49b920c72e"
+  },
+  "original_manifest": {
+    "member": "BE_cutoff49_20260930/MANIFEST.json",
+    "sha256": "58a770705c6e0bc500813ed37299753a16f6245ebea6ade238ad98078d7b4e26",
+    "file_count": 1400
+  },
+  "selector": {
+    "member": "BE_cutoff49_20260930/retained_jobs.json",
+    "sha256": "d92f0017fadc5c2f9601de599f2e1f97eb9c1042b02a17a695065c040f09d7ad",
+    "selected_INITIAL_entries": [
+      {
+        "name": "certificate_initial47",
+        "cwd": "work/below50_20260929/entry",
+        "argv": [
+          "accept_initial47.py",
+          "initial47_proof.json"
+        ],
+        "source_run": "runs/below50_20260929/entry/initial47_accept01"
+      }
+    ]
+  },
+  "manuscript": {
+    "filename": "berry_esseen_manuscript.tex",
+    "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+    "bytes": 384847,
+    "lines": 9252,
+    "ranges": [
+      {
+        "start": 2750,
+        "end": 3010,
+        "scope": "Signed moment/support PSD/constant deductions and gap-integral inequalities; read against actual source formulas"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/local_signed_core.py",
+      "bytes": 8939,
+      "sha256": "f0c2df790b794413e7fd08c4f3fc20f79c15c27a6456c8eae5013b96eb093c11",
+      "lines": 153,
+      "original_manifest_sha256": "f0c2df790b794413e7fd08c4f3fc20f79c15c27a6456c8eae5013b96eb093c11",
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 153,
+          "scope": "Complete selected INITIAL stage: all signed necessary predicates, Fourier caller, score/phase feedback and p export"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/accept_initial47.py",
+      "bytes": 5337,
+      "sha256": "cd0030c8ba3fbd9fdd357f191fe519c093ce69968c292e2eaf2b40cd7d6561bd",
+      "lines": 87,
+      "original_manifest_sha256": "cd0030c8ba3fbd9fdd357f191fe519c093ce69968c292e2eaf2b40cd7d6561bd",
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 87,
+          "scope": "Fixed N47 profile, ordered exact full acceptance, final gap/export, negative controls"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/initial47_proof.json",
+      "bytes": 21890,
+      "sha256": "95c5c1de0062b6a9e294a81ee8497eee8bdb2e0798299422d7ad39b885e4a951",
+      "lines": 1186,
+      "original_manifest_sha256": "95c5c1de0062b6a9e294a81ee8497eee8bdb2e0798299422d7ad39b885e4a951",
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 1,
+          "scope": "Historical candidate structure only: 13 stages and 100 panels; no inequalities evaluated"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/initial47_panel_proof.tex",
+      "bytes": 8007,
+      "sha256": "cff6a275ad9cdd3c6b347ea8fe34e548dc8deee0ce96299882cbe27b2f1cf142",
+      "lines": 190,
+      "original_manifest_sha256": "cff6a275ad9cdd3c6b347ea8fe34e548dc8deee0ce96299882cbe27b2f1cf142",
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 190,
+          "scope": "INITIAL statement, raw-before-defect licensing, p export and weighted-resource argument; later central chain is scope metadata"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/signed_entry50_proof.tex",
+      "bytes": 9687,
+      "sha256": "da7d6e06d2cb50241acaceb7875afb2d990a8c0e8cf14a05c0bed41c45c3b791",
+      "lines": 230,
+      "original_manifest_sha256": "da7d6e06d2cb50241acaceb7875afb2d990a8c0e8cf14a05c0bed41c45c3b791",
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 39,
+          "end": 230,
+          "scope": "Common-m signed/PSD/gap/constant/phase and ordered feedback arguments; anchor result claims not freshly accepted"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/kernel.py",
+      "bytes": 19042,
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+      "lines": 345,
+      "original_manifest_sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 13,
+          "end": 44,
+          "scope": "Exact directed rounding/root and selected constant domains"
+        },
+        {
+          "start": 86,
+          "end": 99,
+          "scope": "Published score caps and negative-gap coefficient"
+        },
+        {
+          "start": 196,
+          "end": 345,
+          "scope": "Source boundary only: later geometry is not fully reviewed in this unit"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/high_window_core.py",
+      "bytes": 1966,
+      "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+      "lines": 40,
+      "original_manifest_sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 40,
+          "scope": "Installed HIGH function identity; full heat/Fourier derivation covered by preceding audit"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/local_panel_core.py",
+      "bytes": 4491,
+      "sha256": "6e8c664e3870e1786ebd999f56c18e6319340602b0bcea7c5f18d0fc44f070ff",
+      "lines": 73,
+      "original_manifest_sha256": "6e8c664e3870e1786ebd999f56c18e6319340602b0bcea7c5f18d0fc44f070ff",
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 15,
+          "end": 23,
+          "scope": "Weighted variance resource directions"
+        },
+        {
+          "start": 24,
+          "end": 73,
+          "scope": "Later caller boundary and exported formula identity; complete geometry iteration reserved for next unit"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/contracted_kernel.py",
+      "bytes": 19197,
+      "sha256": "0367aae733dfe2d6467188d941d6fc8ccd7bb6f4bf3aa4c98dca3c4781534d22",
+      "lines": 347,
+      "original_manifest_sha256": "0367aae733dfe2d6467188d941d6fc8ccd7bb6f4bf3aa4c98dca3c4781534d22",
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 47,
+          "scope": "Distinct contracted source identity and scalar helpers; not substituted for INITIAL kernel"
+        },
+        {
+          "start": 181,
+          "end": 347,
+          "scope": "Later geometry/paired atlas boundary, not a completed claim in this note"
+        }
+      ]
+    }
+  ],
+  "candidate_census_only": {
+    "feedback_stages": 13,
+    "export_passes": 1,
+    "probability_panels": 100,
+    "signed_cells_per_pass": 18432,
+    "signed_cell_incidences": 258048,
+    "inequalities_evaluated": false
+  },
+  "reviewed_implications": [
+    "signed common-m moment and support-localizing PSD predicates",
+    "signed fourth/projection and genuine central-gap switch",
+    "opposite-sign event same marginal and conditional second moment",
+    "two alternative constant losses and one shared asymmetry/outer budget",
+    "continuous-score signed-phase convex endpoint rule",
+    "raw-before-defect feedback license and nD floor invariant",
+    "closed p export including singleton intersections",
+    "weighted theta/lambda interface algebra only"
+  ],
+  "remaining": [
+    "fresh INITIAL arithmetic and source/capture/receipt acceptance",
+    "actual support and score predecessor acquisitions",
+    "later general_geometry/general_cell/local_panel iteration full atlas",
+    "unrestricted attainment/contact/exact oriented identity and literature inputs",
+    "anchor45/prop46 and other index/profile variants"
+  ]
+}

@@ -61,6 +61,7 @@ preserved and pass the stricter check. A completion label alone is insufficient.
 | Notebook23 auxiliary collector | Nine required inputs, exact allowance units and repaired real execution-file readback | Full mathematical framework and all nine final inputs; BASIC remains BASIC |
 | Tail49 full replay | Exact14/41 job mapping, captures, original scope and honest counters checked | Independent soundness of every selected uniform kernel and completed full arithmetic |
 | Selected central uniform-tail path | Weighted nD resource, shared shifted-gap budget, signed gates, index endpoint and closed cover traced conditionally | Left38 kernels, full upstream acquisition, finite base and fresh arithmetic |
+| Selected uniform INITIAL47 signed atlas | Complete signed moment/gap/score stage, raw-before-D license, ordered nD feedback and closed singleton p export traced conditionally | Fresh support/score/INITIAL acquisition, later full resource geometry and other floor/barrier variants |
 | Selected left38 local-tail path | Shared Sperner kernel under left contract, signed LOW curvature, MID complement and exact closed phase partition traced conditionally | Upstream heat/Fourier/support, actual arithmetic and global joins |
 | Lower B0/B1/B2 regional composition | 100-panel survivor coverage, finite local cycles, closed count subdivisions and maximum-envelope implication read from original composers | Fresh portable75-edge/regional collector and complete physical acquisitions |
 | Selected finite31–48 bridges | Actual-index weighted transfer, scaled phase premise, exact40–42 decrement union and support46/signed-phase adapter traced conditionally | Distinct enabled count/directed-arithmetic families, full underlying LOW/MID/support and fresh acquisitions |
@@ -89,6 +90,8 @@ preserved and pass the stricter check. A completion label alone is insufficient.
   and [their exact source map](code_remaining_engine_source_map.json).
 - [Uniform-tail heat/support, LOW and HIGH acquisition rules](code_uniform_tail_acquisition_audit.md)
   and [their selected source map](code_uniform_tail_acquisition_source_map.json).
+- [Uniform INITIAL signed atlas, ordered raw/defect feedback and weighted interface](code_uniform_initial_atlas_audit.md)
+  and [its exact source map](code_uniform_initial_atlas_source_map.json).
 
 The selected source identities and line references in those notes are part of
 each scoped conclusion. A similarly named file in a different capsule is not
