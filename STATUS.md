@@ -38,7 +38,7 @@ Log completion is not independent bundle validation.
 
 | Notebooks | Latest established scope |
 |---|---|
-|01--07 PREFIX2 resume|Supplied logs confirm scoped native acceptance for01 B3p33 (10462leaves),02 q0 (6966),03 q1 (6304),04 q2 (8780),05 q3 (7291) and06 B3p31 (2819).07 completed discovery with3134leaves/pending0 and entered full26-root trusted-native replay; its final acceptance is not yet observed.|
+|01--07 PREFIX2 resume|All seven supplied logs confirm scoped full native acceptance:01 B3p33 (10462leaves),02 q0 (6966),03 q1 (6304),04 q2 (8780),05 q3 (7291),06 B3p31 (2819),07 B3p32 (3134). Actual full export/parent/interface joins by24remain separate.|
 |08|Actual n2/n3 export inspected; scoped analytic/checker reviews recorded.|
 |09/10,13,14/15|Complete scoped arithmetic in inspected logs; exports have a separate revalidation boundary.|
 |11|First full ROOT4 pass finished260/260classes with no unresolved case. Second full replay last reports228closed classes/currentgrid228; no final acceptance yet.|
@@ -53,11 +53,12 @@ Log completion is not independent bundle validation.
 |23|All nine14--22 completion logs are now observed. Corrected collector copy delivered; actual full export/source/capture/interface join has not yet completed.|
 |24|Seven count targets plus 09/10 collector; not the full n25 union.|
 |26--28|Published on GitHub/Drive; 75 retained n25 forests, 94,288 leaves. No launch/completion assumed.|
-|29--34|Prepared/pinned extra115-forest package,178294leaves;38synthetic fixtures and actual source-only preparation pass. No mathematical replay assumed.|
-|35|First actual launch failed the old64MiB runner peak-RSS gate before support arithmetic (0completed jobs), exact export inspected. V2 keeps64MiB and uses current-exec VmHWM;26fixtures pass locally,1Linux exec fixture runs in Colab before math. Corrected notebook prepared; new actual startup/completion is not yet observed.|
+|29--34|Prepared/pinned extra115-forest package,178294leaves.33and34have completed7/7and6/6-forest scoped native logs (2446and4246leaves), with export readback separate.29has ongoing native progress in saved notebook output. No other completion inferred.|
+|35|First launch failed before support arithmetic, exact export inspected. V2 preserves64MiB with current-exec VmHWM. Actual Colab log now confirms all27infrastructure fixtures passed, including the Linux pre/post-exec regression. No326-job batch completion inferred.|
 |36|Actual completed B0 export revalidated: both INITIAL/resource stages, unchanged source/capture/receipt bindings and all17exact resource-to-contract interfaces. BASIC conditional scope retained; count acceptance and full theorem remain separate.|
-|37/38|Prepared/pinned B1/B2 parent package; no fresh completion inferred from36.|
-|39|Complete2-action lower-B5 INITIAL/resource log and saved export observed. Actual export readback and local/mixed/count interfaces remain separate.|
+|37|Actual completed B1 export revalidated:4/4actions, source/capture/receipt bindings and all35exact resource-to-contract interfaces. BASIC conditional scope retained.|
+|38|Prepared/pinned B2 parent package; no fresh completion inferred from36/37.|
+|39|Actual completed lower-B5 export revalidated: both full INITIAL/resource acceptances, fresh receipt/source/capture bindings. BASIC conditional scope retained; local/mixed/count interfaces remain separate.|
 |47/48|Prepared middle-n25 B4/B5 full selected acquisition lanes:14/12actions,169/89source inputs.19synthetic fixtures, actual source-only preparation and26historical JSON schema readbacks pass. No fresh Colab arithmetic assumed.|
 
 The new packages preserve previous numerical drivers and notebook identities.

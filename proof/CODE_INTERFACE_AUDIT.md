@@ -212,3 +212,14 @@ needs the separately acquired deleted-index barrier; the current witness's
 own score cap does not replace it. Finite Stirling is an explicit named
 analytical input. Later LOW/TINY/MID comparisons, physical predecessors,
 fresh arithmetic, the Bernoulli boundary and global joins remain separate.
+
+The next [LOCAL42 extension review](code_local42_signed_extension_audit.md)
+records12actual members matching the9518-pin historical final map. It checks
+the distinct signed Gaussian correction and variance-cancellation gate,
+shared joint-noise intercepts, fixed-count phase derivatives, localized mass,
+closed noise endpoints and the different central/left curvature caches.
+The harmonic4.553 proof's absent filename is resolved to its actual supplied
+strict rational interpolation checker. Its896coefficient positivity gate
+was source-read, not executed. The complete LOCAL42 normalizer and older
+marked/Poisson/quartic primitives, actual hypotheses and final branch union
+are still outside that bounded extension review.

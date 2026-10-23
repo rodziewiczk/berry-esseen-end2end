@@ -1,0 +1,237 @@
+{
+  "schema": "LOCAL42_DISTINCT_SIGNED_EXTENSION_SOURCE_HAND_ALGEBRA_AUDIT_V1",
+  "review_kind": "fallible_internal_AI_source_and_hand_algebra_review",
+  "external_independent_verification": false,
+  "formal_verification": false,
+  "archived_math_modules_imported_or_executed": false,
+  "fresh_arithmetic_acceptance": false,
+  "all_index_conclusion_verified": false,
+  "archive": {
+    "filename": "closure31.zip",
+    "bytes": 135288952,
+    "sha256": "68eb555e08ee7509f9d136df6fae5e354aff816ec4f77cc8426698c479b205a0",
+    "wholearchive_hash_recomputed_in_this_unit": false,
+    "previous_actual_wholehash_report": "code_remaining_engine_source_map.json"
+  },
+  "selector": {
+    "member": "continuation_20261010/repair31/EVENTUAL_CUTOFF31_COMPOSED.json",
+    "sha256": "33c73b3bd4c8cb25cedb6c9c8ce3768608db18f1f65932a0fcd6bb468c2b51b9",
+    "filepins": 9518,
+    "fully_reproduced_historical_dependency_DAG": false
+  },
+  "sources": [
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/local/local42_improvements.tex",
+      "bytes": 9790,
+      "sha256": "1a634793af259cccd31cfb86cae8127be0af8bed15559b59d6baaf3f5f8215f6",
+      "lines": 222,
+      "historical_final_map_expected_sha256": "1a634793af259cccd31cfb86cae8127be0af8bed15559b59d6baaf3f5f8215f6",
+      "historical_final_map_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 222,
+          "scope": "Full analytical extension text: jointgap,localizedmass,harmonicconstant,positiveGaussian,MIDscope/cache"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/local/local42_signed_gaussian_v2.tex",
+      "bytes": 5238,
+      "sha256": "894495dd297f25ea9e68741dfefdbf7ba0fcaa217047db301f3bbdea6cdc4143",
+      "lines": 129,
+      "historical_final_map_expected_sha256": "894495dd297f25ea9e68741dfefdbf7ba0fcaa217047db301f3bbdea6cdc4143",
+      "historical_final_map_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 129,
+          "scope": "Full signednegative/positiveGaussian proof,allindex signs and fullphase MID belowLOWthreshold"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/local/central42_v2/central42_kernel.py",
+      "bytes": 12299,
+      "sha256": "9dc0754fe2dd4f2f7057247d3d62f3b71472c65a49d46f67d35fb0d66e3f8673",
+      "lines": 203,
+      "historical_final_map_expected_sha256": "9dc0754fe2dd4f2f7057247d3d62f3b71472c65a49d46f67d35fb0d66e3f8673",
+      "historical_final_map_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 203,
+          "scope": "Full source read compared againstLEFT42; bounded conclusion only for extensions/newrules,notfull primitive proof"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/local/left42_final/central42_kernel.py",
+      "bytes": 13199,
+      "sha256": "d025529aa2690c3cfc0f1c34a6af385d6fa69db8e069543057f29475cbb133c3",
+      "lines": 219,
+      "historical_final_map_expected_sha256": "d025529aa2690c3cfc0f1c34a6af385d6fa69db8e069543057f29475cbb133c3",
+      "historical_final_map_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 219,
+          "scope": "Full source read; signedGaussian/actualdelta/endpoint/cache/jointnoise extensions handchecked; original marked-event primitives separate"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/local/central42_v2/central42_contract.py",
+      "bytes": 2097,
+      "sha256": "de30acd375d9d53d6a7068cd4b5397da6c775c21be29aca2e5c6b5da5f65a39f",
+      "lines": 31,
+      "historical_final_map_expected_sha256": "de30acd375d9d53d6a7068cd4b5397da6c775c21be29aca2e5c6b5da5f65a39f",
+      "historical_final_map_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 31,
+          "scope": "Complete fixed47p domains/signed configs/joint intercepts and noise schedules"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/local/left42_final/central42_contract.py",
+      "bytes": 2092,
+      "sha256": "10868c085cf69e6a0b1db01b6bcf638e2a13863db088bc966754ae44c22e2167",
+      "lines": 31,
+      "historical_final_map_expected_sha256": "10868c085cf69e6a0b1db01b6bcf638e2a13863db088bc966754ae44c22e2167",
+      "historical_final_map_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 31,
+          "scope": "Complete fixed45p domains/signed configs/joint intercepts and noise schedules"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/local/central42_v2/mid42_contract.py",
+      "bytes": 1108,
+      "sha256": "032b6c479f33f4bfe5e4ba9ea991ea2ba75ac026ed4d2123c6f86022808c0b8d",
+      "lines": 20,
+      "historical_final_map_expected_sha256": "032b6c479f33f4bfe5e4ba9ea991ea2ba75ac026ed4d2123c6f86022808c0b8d",
+      "historical_final_map_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 20,
+          "scope": "Complete closedMID complement context selection"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/local/left42_final/mid42_contract.py",
+      "bytes": 1093,
+      "sha256": "e3ff07f66e35a24028a4d7136cb4b36149646da1046efbd48541da918cdd4956",
+      "lines": 20,
+      "historical_final_map_expected_sha256": "e3ff07f66e35a24028a4d7136cb4b36149646da1046efbd48541da918cdd4956",
+      "historical_final_map_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 20,
+          "scope": "Complete fullphase firsttwo noisebands and signed contexts"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/local/central42_v2/accept_mid42_phase_v2.py",
+      "bytes": 4922,
+      "sha256": "3940534b4b06d1ec4e7a9539097ec7da0486d3bc7232c01cdb45b1a70b49c0e1",
+      "lines": 79,
+      "historical_final_map_expected_sha256": "3940534b4b06d1ec4e7a9539097ec7da0486d3bc7232c01cdb45b1a70b49c0e1",
+      "historical_final_map_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 45,
+          "scope": "Typed exactwitness cover and positive signedGaussian derivative insertion"
+        },
+        {
+          "start": 45,
+          "end": 79,
+          "scope": "Only continuation source identity; no claim full MID primitive review"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/local/left42_final/accept_mid42.py",
+      "bytes": 5312,
+      "sha256": "8a0977e157c0756d3bf98972b0c27d887f7846031ca02b9b9e96338b8f1794ae",
+      "lines": 86,
+      "historical_final_map_expected_sha256": "8a0977e157c0756d3bf98972b0c27d887f7846031ca02b9b9e96338b8f1794ae",
+      "historical_final_map_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 86,
+          "scope": "Complete source:fixedphasecover,newnegative/positiveGaussian derivative,sign repair/clamps; ownPoissonprimitive remains separate"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/local/central42_v2/tiny42_normalization.py",
+      "bytes": 7986,
+      "sha256": "3650f39f618def7615d8be20ce8b9efd28e16202102fb8fa76dd8687deff4a6c",
+      "lines": 146,
+      "historical_final_map_expected_sha256": "3650f39f618def7615d8be20ce8b9efd28e16202102fb8fa76dd8687deff4a6c",
+      "historical_final_map_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 80,
+          "end": 146,
+          "scope": "Full actual normalization gate list/globalcount/strictsign prerequisites,notfirstprinciples derivation ofallscalarbounds"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/entry/local_audit/check_harmonic_interpolation.py",
+      "bytes": 2237,
+      "sha256": "efe03f77beaa6af7897d14c2d583b0b7c5def96f8ae649a29c44f697f29acebf",
+      "lines": 57,
+      "historical_final_map_expected_sha256": "efe03f77beaa6af7897d14c2d583b0b7c5def96f8ae649a29c44f697f29acebf",
+      "historical_final_map_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 57,
+          "scope": "Actual complete supplied896coefficient interpolation recipe,pi bounds/tail and false-slopecontrols; not executed"
+        }
+      ]
+    }
+  ],
+  "missing_final_source_map_keys": [],
+  "source_reference_correction": {
+    "prose_filename": "check_harmonic4553.py",
+    "exact_filename_present_in_archive": false,
+    "actual_equivalent_source": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/entry/local_audit/check_harmonic_interpolation.py",
+    "equivalence_review_scope": "same directeddegree13polynomial on64closedsubcells; 14nodeexactBernsteininterpolationinsteadpowertransform;896positivecoefficients required",
+    "actual_checker_executed": false
+  },
+  "hand_checked_rules": [
+    "jointnoise lowerendpointgap substitution assumesactualsame-lawsimplex",
+    "fixedcount/delta Gaussian differentiation",
+    "negativephase variance cancellation onlyunderD^2<=Nv andeta<N",
+    "signedpositive/negativephase uppernormalcorrectionwithnonnegativeA+B/lambda",
+    "actualdelta andpositivepart separated,localmasskeepsglobalStirlingsegment",
+    "negativeeventbracket beforemasslower substitution andpositiveinverseindexbeforeNfloor",
+    "convexnoiseendpoint reduction",
+    "harmonic4553fullpolynomial mechanism andmonotoneTaylorGainunder rate*high<3",
+    "centralcache monotonicc versusleftcache includesband",
+    "distinctleftfullphaseMID below.08 versuscentralLOWfrom.05"
+  ],
+  "remaining": [
+    "fullnormalizer/Stirling derivation andcurrentcountsegmentparents",
+    "actualsame-lawjointintercept/amplitude/resourceacquisitions",
+    "fullmarked-event/commonbackground/quartic/Poisson/TINY/MIDprimitive soundness",
+    "completefinite42scalar/index/decrementunion",
+    "freshallkernelgates andactualharmonic896coefficient acceptance",
+    "lambda0Bernoullitheorem/globaljoins"
+  ]
+}

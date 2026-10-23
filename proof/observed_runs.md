@@ -510,3 +510,90 @@ resource-stage time1518.1538789272308seconds. The final state is
 This is supplied-log evidence. Actual final export/sidecar/source/capture
 readback and the separate local, mixed and count joins are still required.
 No full n25 or all-index conclusion is inferred from the two global parents.
+
+## Notebook37: B1 four-action parent/interface log completed
+
+The supplied log has SHA256
+`64cb4aaa5bb64becc7fd700a178df687e807d6809096ef4658bd4d9b3b564f0e`.
+The last local accept completes4/4actions at20:02:10UTC and the final
+`conditional_parent_acquisition_and_interfaces_complete` export is saved
+at20:02:12UTC as `n25-parents-b1/runs/20261023T194405Z-8666b9c3/20261023T194405Z-8666b9c3-results.zip`.
+This log reports the full selected B1 parent lane and interface assembly.
+Actual export/sidecar/source/capture readback is a separate check; no B2,
+count, unconditional n25 or all-index acceptance is inferred.
+
+## Notebook33: seven middle-B5 count acceptors completed
+
+The supplied log has SHA256
+`3aeab2f141cdb25fc7bdbba8126224319eb3c9707133da33ba29243422ccf3db`.
+It records all7selected full count acceptors,2446leaves, with24negative
+controls for the final job and `reused=false`. The final state is
+`selected_retained_count_arithmetic_accepted`. The bundle is saved at
+20:03:30UTC as `n25-retained-extra-middle-b5/runs/20261023T200243Z-ea27e752/20261023T200243Z-ea27e752-results.zip`.
+The actual export/native guards/captures/source readback remains separate;
+parent acquisitions and the global conclusion are explicitly false.
+
+Saved Drive output for29also contains ongoing trusted-native progress,
+last sampled at20:02:36UTC in the inspected copy. Its code cells equal the
+published notebook's cells. No completion is inferred from that progress.
+
+## Corrected35: actual Linux startup regression fixture passed
+
+The actual saved Drive fixture log `selftest-n5-remaining-20261023T194510Z-n5-remaining.log`
+reports27tests, all passing in2.165seconds. In particular the previously
+Windows-skipped `test_linux_preexec_peak_is_separate_and_postexec_growth_rejected`
+ran and passed on Colab. This is an actual Linux infrastructure test result,
+not a completed support calculation or acceptance of any of the326n5jobs.
+No corrected35batch completion is inferred.
+
+## Notebooks37and39: actual exported evidence read back
+
+The actual37bundle `20261023T194405Z-8666b9c3-results.zip` is3366094bytes,
+SHA256 `7cb3fd59ec7858f237022f05beace33463227c4eaa95fb622f7acb51fc2364d7`.
+The actual39bundle `20261023T191911Z-1f5e4d3b-results.zip` is5498528bytes,
+SHA256 `40040efb622ad76305ae2ae940263ef943177291ef1524485b8a350929ed6f94`.
+Both match their actual downloaded private Drive sidecars. New bounded
+task-only extractions preserve251/155members and30918702/85785440bytes
+respectively; the original archives remain unchanged.
+
+For37, `validate_prefix(...,"b1",4)` accepts the complete stage chain and
+`n25_b012_interfaces.join` reconstructs35exact resource-to-contract edges
+with complete closed survivor coverage, identical to the saved interface
+object. The session reused three previously validated completed stages and
+then completed the fourth; this is valid complete-prefix reuse, not partial
+numerical resume. The prior completed-stage execution records are retained.
+
+For39, `n25_b5_global_evidence.validate_completed` accepts both global stages,
+their immutable source selection, full actual captures/commands/guards,
+the deterministic INITIAL receipt and fresh timed resource receipt. The
+INITIAL receipt retains SHA256
+`5868ad7714c986a56405e596eb9c75bbface5a9321d5e82b4d23aa5290c8bac5`.
+Its allowance is5/16; no stronger24 or local/mixed/count acquisition is inferred.
+
+These checks execute only metadata, hash/JSON and exact rational interface
+helpers. They do not import or run mathematical kernels. BASIC native flags,
+analytic same-witness/full-n25/all-index conclusions remain false. This is
+an internal same-system evidence readback, not external independent proof.
+
+## Notebook34: six upper-beta3 count acceptors completed
+
+The supplied log has SHA256
+`10ea4b29f66ad869fa610c82ec280a1a4a6d1b279047ecfc616c0cc286feea70`.
+All6selected acceptors finish4246leaves; the final job reports24negative
+controls and `reused=false`. The state is
+`selected_retained_count_arithmetic_accepted`; the export is saved at
+20:07:51UTC as `n25-retained-extra-upper-high-beta3/runs/20261023T200609Z-98f2ca63/20261023T200609Z-98f2ca63-results.zip`.
+This remains supplied-log evidence with separate export/source/guard readback,
+parent acquisition and regional composition requirements.
+
+## Notebook07: full scoped native acceptance reported
+
+The final07log has SHA256
+`c5b771de506940f5ad3064882de2ae05299dcd1aa50d5fca3c69b8a2933547b6`.
+Following3134closed candidate leaves, the full26-root replay reports
+`regional_count_arithmetic_accepted` at20:07:14UTC. The final export is saved
+at20:08:33UTC as `b3-p32-v14-new/20261023T173850Z-ca51d9e6/20261023T173850Z-ca51d9e6-results.zip`.
+All01--07nowhave supplied-log scoped native acceptance. The seven actual
+exports and their09/10parent interfaces still require collector24. The
+reported `NEW_RESOURCE_LIMIT_EPOCH_CONDITIONAL_COUNT_ONLY` scope preserves
+false parent and global flags; it is not the complete n25 proof.
