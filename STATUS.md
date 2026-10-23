@@ -54,9 +54,10 @@ Log completion is not independent bundle validation.
 |24|Seven count targets plus 09/10 collector; not the full n25 union.|
 |26--28|Published on GitHub/Drive; 75 retained n25 forests, 94,288 leaves. No launch/completion assumed.|
 |29--34|Prepared/pinned extra115-forest package,178294leaves;38synthetic fixtures and actual source-only preparation pass. No mathematical replay assumed.|
-|35|Prepared/pinned remaining selected n5 arithmetic:326jobs, including295forests/75178leaves.22synthetic/source/generator fixtures and seven-kind source-only preparation pass. No fresh arithmetic or full n5 acquisition assumed.|
+|35|First actual Colab launch failed the old64MiB runner peak-RSS gate before support arithmetic (0completed jobs). Exact export inspected; Linux peak-counter startup repair is in progress.22infrastructure fixtures/source-only preparation had passed; these did not test this actual startup.|
 |36--38|Prepared/pinned B012 ten-action parent package and75numeric interfaces;19synthetic fixtures and actual source-only preparation pass. No fresh acquisitions assumed.|
 |39|Prepared/pinned lower-B5 INITIAL/resource pair;19synthetic fixtures and all66actual source inputs checked. Local/mixed/count interfaces remain separate; no fresh acquisition assumed.|
+|47/48|Prepared middle-n25 B4/B5 full selected acquisition lanes:14/12actions,169/89source inputs.19synthetic fixtures, actual source-only preparation and26historical JSON schema readbacks pass. No fresh Colab arithmetic assumed.|
 
 The new packages preserve previous numerical drivers and notebook identities.
 Literal-index6--24/26--48 packaging, other n25 acquisitions and unresolved

@@ -401,3 +401,27 @@ RSS178847744bytes below the2GiB budget.
 This is a transition to full replay, not final acceptance. The observed
 `proof_accepted=false` is consistent with the ongoing stage. No completed
 native receipt, final result ZIP or full n25 conclusion is inferred.
+
+## Notebook35 first actual launch: runner memory gate, zero completed jobs
+
+The actual user-downloaded `20261023T192537Z-01dab922-results.zip` is950667bytes,
+SHA256 `2162466f17ce25936c1487def793b283f9f9de6ae23aaac987fcff345bf26a82`.
+Its launch uses runtime7655cd1 and the complete326-job selection. The141304365B
+source archive passes its pinned hash and source-cache preparation completes.
+The first `support` subprocess then exits1 after0.533955318seconds, with reason
+`nonzero_subprocess_exit` and actual stderr:
+
+```
+C5_SUPPORT_INCOMPLETE: Runner itself exceeds64MiB peak RSS
+```
+
+The native stdout is empty, `SESSION_RESULT.jobs=[]`, and no mathematical
+stage is accepted. All n5/native/theorem flags remain false. The sampled outer
+group peak4MiB reflects only its two samples; it is not the actual complete
+process peak and cannot disprove the inner gate's observation.
+
+The existing infrastructure/source-only fixtures did not exercise this real
+Colab memory-counter startup. A separately reviewed Linux resource epoch is
+being prepared; the original failed export, original supervisor and mathematical
+sources remain preserved. No numerical success is inferred from the download
+or from the earlier fixture passes.

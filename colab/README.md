@@ -212,5 +212,18 @@ is exported and fully revalidated before a later rerun can skip it; an
 interrupted numerical job starts again. Choose CPU and Run all. See the
 [full execution scope and remaining joins](../proof/n5_remaining_execution.md).
 
+The first actual Colab launch of that35 pin failed before support arithmetic
+at the original64MiB runner peak-RSS gate. A Linux startup-counter repair is
+in progress; do not relaunch the old35 pin while it is being replaced. The
+[observed failure](../proof/observed_runs.md) is separate from passing source
+and synthetic infrastructure fixtures.
+
 The [historical parent-stage timings](../proof/n25_parent_historical_timings.md)
 for36--39 are component observations, not full Colab completion estimates.
+
+Notebooks47/48 select runtime `accced611c2c88d56dd9a01eb5d58b6abe5df377`.
+They replay the selected middle-n25 B4/B5 acquisitions: full INITIAL acceptance,
+new global resource construction and acceptance, then all11/9local acceptors.
+Completed actions are exported and fully revalidated before reuse. They may
+run independently of their count notebooks32/33. See the
+[complete scope and fresh timed-parent handling](../proof/middle_n25_acquisition_execution.md).
