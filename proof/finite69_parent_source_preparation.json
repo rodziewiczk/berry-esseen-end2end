@@ -1,0 +1,27 @@
+{
+  "all_index_conclusion_verified": false,
+  "arithmetic_computed": false,
+  "catalog_sha256": "9eef9a7c11abaa6a239fbcd0890acc32e420ac56bca1a09043e4a87187c244bf",
+  "lanes": [
+    {
+      "bytes": 157195394,
+      "files": 1965,
+      "jobs": 41,
+      "lane": "n6"
+    },
+    {
+      "bytes": 31612444,
+      "files": 125,
+      "jobs": 9,
+      "lane": "initial7_9"
+    }
+  ],
+  "mathematical_modules_imported": false,
+  "original_prepared_reconstructed_exactly": 9,
+  "parent_acquisitions_verified": false,
+  "python_path_occurrences": 10412,
+  "schema": "FINITE69_PARENT_SOURCE_PREPARATION_ONLY_V1",
+  "source_graphs_with_nonportable_paths": 0,
+  "unique_python_source_hashes": 81,
+  "unresolved_nonstdlib_imports": []
+}
