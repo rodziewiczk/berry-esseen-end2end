@@ -1,0 +1,712 @@
+{
+  "schema": "UNIFORM_LOCAL_GEOMETRY_SOURCE_HAND_ALGEBRA_AUDIT_V1",
+  "review_kind": "fallible_internal_AI_source_and_hand_algebra_review",
+  "external_independent_verification": false,
+  "formal_verification": false,
+  "archived_math_modules_imported_or_executed": false,
+  "fresh_arithmetic_acceptance": false,
+  "all_index_conclusion_verified": false,
+  "archive": {
+    "filename": "BE_cutoff49_20260930.zip",
+    "bytes": 16660566,
+    "sha256": "ecdb9acca0db29efc9fe2bf496c0bcc61b4881aecdcbc91a4eb6ad49b920c72e"
+  },
+  "original_manifest": {
+    "member": "BE_cutoff49_20260930/MANIFEST.json",
+    "sha256": "58a770705c6e0bc500813ed37299753a16f6245ebea6ade238ad98078d7b4e26",
+    "file_count": 1400
+  },
+  "selector": {
+    "member": "BE_cutoff49_20260930/retained_jobs.json",
+    "sha256": "d92f0017fadc5c2f9601de599f2e1f97eb9c1042b02a17a695065c040f09d7ad",
+    "selected_jobs": 41,
+    "related_entries": [
+      {
+        "name": "certificate_initial47",
+        "cwd": "work/below50_20260929/entry",
+        "argv": [
+          "accept_initial47.py",
+          "initial47_proof.json"
+        ],
+        "source_run": "runs/below50_20260929/entry/initial47_accept01"
+      },
+      {
+        "name": "certificate_central_input47",
+        "cwd": "work/below50_20260929/entry",
+        "argv": [
+          "accept_central47.py",
+          "input"
+        ],
+        "source_run": "runs/below50_20260929/entry/central47_input_accept01"
+      },
+      {
+        "name": "certificate_confined_feedback47",
+        "cwd": "work/below50_20260929/entry",
+        "argv": [
+          "accept_confined_feedback47.py"
+        ],
+        "source_run": "runs/below50_20260929/entry/confined_feedback47_accept01"
+      },
+      {
+        "name": "certificate_left_input47",
+        "cwd": "work/below50_20260929/entry",
+        "argv": [
+          "accept_left_input47.py"
+        ],
+        "source_run": "runs/below50_20260929/entry/left_input47_accept01"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/kernel.py",
+      "bytes": 19042,
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+      "lines": 345,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 179,
+          "end": 193,
+          "scope": "Coarse bootstrap identified as distinct unreviewed rule, not part of completed live atlas"
+        },
+        {
+          "start": 194,
+          "end": 243,
+          "scope": "Complete live geometry/moment/K/U atlas"
+        },
+        {
+          "start": 244,
+          "end": 273,
+          "scope": "Complete central Bernstein and general envelope"
+        },
+        {
+          "start": 275,
+          "end": 306,
+          "scope": "Paired eligibility and source identity; full Fourier derivation in preceding review"
+        },
+        {
+          "start": 311,
+          "end": 345,
+          "scope": "Late envelope, signed extrema and signed K reserve"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/contracted_kernel.py",
+      "bytes": 19197,
+      "sha256": "0367aae733dfe2d6467188d941d6fc8ccd7bb6f4bf3aa4c98dca3c4781534d22",
+      "lines": 347,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 47,
+          "scope": "Separately named actual radius extension and exact scalar source identity"
+        },
+        {
+          "start": 196,
+          "end": 275,
+          "scope": "Complete contracted live general_cell/central_bound/general_envelope"
+        },
+        {
+          "start": 277,
+          "end": 347,
+          "scope": "Explicit R>2g and complete live late/signed helper routes"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/local_panel_core.py",
+      "bytes": 4491,
+      "sha256": "6e8c664e3870e1786ebd999f56c18e6319340602b0bcea7c5f18d0fc44f070ff",
+      "lines": 73,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 73,
+          "scope": "Complete live initialization, finite iteration, weighted resources and signed exports"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/contracted_panel_core.py",
+      "bytes": 4580,
+      "sha256": "1eeb3a57d8ba9d93ddcb59b03fca0acdef0e00448f5c0afdc94c7ed41e319d13",
+      "lines": 74,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 74,
+          "scope": "Complete contracted counterpart, including old/new source differences"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/high_window_core.py",
+      "bytes": 1966,
+      "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+      "lines": 40,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 40,
+          "scope": "Actual installed HIGH identity; analytical frequency work in preceding review"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/accept_central47.py",
+      "bytes": 7317,
+      "sha256": "2eb93809c38830579a464c93ff89a42fecd4ecfae0aaee4b3b6b96f35742810d",
+      "lines": 116,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 116,
+          "scope": "Complete fixed PREP/INPUT covers, parent mapping, coefficient directions and conditional boundary"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/accept_complement47.py",
+      "bytes": 3395,
+      "sha256": "2bee4514c8a97efeadb4e45aedfd1d25313fc1fc63d05fda009daaee2a064f5c",
+      "lines": 52,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 52,
+          "scope": "Complete complementary closed domains, literal survivor restrictions and conditional source binding"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/accept_left_input47.py",
+      "bytes": 4231,
+      "sha256": "bd10ceede53a8c4fd3a2f851e2361d090d2fab325ab32ee18ebd1bc4308ae3af",
+      "lines": 60,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 60,
+          "scope": "Complete old-survivor mapping, six edge exclusions and 39 output domains"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/accept_confined_feedback47.py",
+      "bytes": 6175,
+      "sha256": "0341dd3d29469c571f86862013902cbc1865fff2c24035d645bba302d8f63ddb",
+      "lines": 114,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 114,
+          "scope": "Both-sign confinement identity, outward support radius, 45-panel mapping and all coefficient directions"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/confined_feedback47_proof.tex",
+      "bytes": 3430,
+      "sha256": "7812309655177a37898f9e45d445dd26f90b1f3d4249d668ad327a3f478b3d08",
+      "lines": 82,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 82,
+          "scope": "Full hand-read argument for separate smaller-radius scope and acyclic route"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/initial47_panel_proof.tex",
+      "bytes": 8007,
+      "sha256": "cff6a275ad9cdd3c6b347ea8fe34e548dc8deee0ce96299882cbe27b2f1cf142",
+      "lines": 190,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 91,
+          "end": 190,
+          "scope": "Shared/weighted resource derivation and central closed-domain boundary"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/baseline/entry/entry95_proof.tex",
+      "bytes": 15276,
+      "sha256": "dc3e2a035be4d5e63e667a1e1f94357af5fdd39894eb9599b6feef0a7fa9fff3",
+      "lines": 365,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 21,
+          "end": 80,
+          "scope": "Raw/conserved separation and continuous-corner argument"
+        },
+        {
+          "start": 217,
+          "end": 299,
+          "scope": "Outer shared resource, widened paired gate, binary square and finite panel induction"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/chain_core.py",
+      "bytes": 3978,
+      "sha256": "69a7ef4077fdc68be7abd19db0a1a67bebc60e184acfa6ab0a78e5c2804fd810",
+      "lines": 72,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 43,
+          "end": 66,
+          "scope": "Coarse general_geometry call identity and distinct older-chain scope only"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/root/accept_predecessor_score_cap.py",
+      "bytes": 1796,
+      "sha256": "4e02b01c4863ce6c148ab9f305c7524db6ebd9a2d21fb9dd6428bc4b43ea6589",
+      "lines": 31,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 31,
+          "scope": "Source-only inspection showing actual selected scalar predecessor route does not import old chain_core"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/initial47_proof.json",
+      "bytes": 21890,
+      "sha256": "95c5c1de0062b6a9e294a81ee8497eee8bdb2e0798299422d7ad39b885e4a951",
+      "lines": 1186,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 1,
+          "scope": "Candidate-only p incidence domain and 13 stages; no mathematical values evaluated"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/central47_prep_proof.json",
+      "bytes": 2641,
+      "sha256": "00c017da097ad2604544c25a83c824feeb42776eb656565a309e4e6b50deb757",
+      "lines": 117,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 1,
+          "scope": "Candidate-only parent/source and ten-domain structure"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/conditional_input47.json",
+      "bytes": 50654,
+      "sha256": "b9d2aa15ad96181f5a8eb846e76ae296d2c2c8ed1a5975c6f389c2f7d14ff2b7",
+      "lines": 2272,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 1,
+          "scope": "Candidate-only 45 central domains/schema/source metadata"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/left_input47_table.json",
+      "bytes": 46849,
+      "sha256": "2270ab68dd18e13afb7382e046589346e4cab26721a4e48be77b66ec22aa4b9a",
+      "lines": 1966,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 1,
+          "scope": "Candidate-only 39 left domains/schema/source metadata"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/confined_feedback47_table.json",
+      "bytes": 55316,
+      "sha256": "360e13d125b5fb9cac6e7ee6ae0599dd796d19f8ac123794967c977c2bf4482c",
+      "lines": 2311,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 1,
+          "scope": "Candidate-only 45 central domains/source/confinement metadata"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/accept_left270_input47.py",
+      "bytes": 4478,
+      "sha256": "53c57e174c6881bd7c02664f17b77f06590b921efb77ccbed3b63113e8ead849",
+      "lines": 63,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [],
+      "scope": "Existing later refinement identified as outside completed atlas; pin is not an algebra review"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/accept_sperner_feedback47.py",
+      "bytes": 6377,
+      "sha256": "e6e95ff4a329f4451967eb0d4f39d3f0d0884b8ebcc2177a6a7b28940eda3a3a",
+      "lines": 115,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [],
+      "scope": "Existing later refinement identified as outside completed atlas; pin is not an algebra review"
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/accept_signed_resource47.py",
+      "bytes": 5333,
+      "sha256": "ac5e945593df4ab2685d23975870d19d0c482d0f00375c714c19bb3a16cc3593",
+      "lines": 78,
+      "original_manifest_matches": true,
+      "reviewed_ranges": [],
+      "scope": "Existing later refinement identified as outside completed atlas; pin is not an algebra review"
+    }
+  ],
+  "comparison_only_source": {
+    "label": "n25_resource/contracted_kernel.py",
+    "archive": "cutoff25_20261011.zip",
+    "archive_sha256": "17fa140f63c5134ac48f1fd1040f4c5ae4bebdb2b92b2d7ce69f4048293d1fcb",
+    "member_suffix": "resource25_b3_v1/contracted_kernel.py",
+    "sha256": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0",
+    "not_whole_file_identical_to_uniform_source": true
+  },
+  "function_ast_instances": [
+    {
+      "function": "general_geometry",
+      "instances": [
+        {
+          "source": "entry/kernel.py",
+          "start": 179,
+          "end": 193,
+          "normalized_ast_sha256": "740079f48ae3831096d8711c418be17747d519f553d8a34f52680e06295fc933"
+        },
+        {
+          "source": "entry/contracted_kernel.py",
+          "start": 181,
+          "end": 195,
+          "normalized_ast_sha256": "740079f48ae3831096d8711c418be17747d519f553d8a34f52680e06295fc933"
+        },
+        {
+          "source": "n25_resource/contracted_kernel.py",
+          "start": 181,
+          "end": 195,
+          "normalized_ast_sha256": "740079f48ae3831096d8711c418be17747d519f553d8a34f52680e06295fc933"
+        }
+      ]
+    },
+    {
+      "function": "general_cell",
+      "instances": [
+        {
+          "source": "entry/kernel.py",
+          "start": 194,
+          "end": 243,
+          "normalized_ast_sha256": "eb00f8e0954aa66bfc337304839a461634a1e3b1763994bdc9b631c47a09453a"
+        },
+        {
+          "source": "entry/contracted_kernel.py",
+          "start": 196,
+          "end": 245,
+          "normalized_ast_sha256": "eb00f8e0954aa66bfc337304839a461634a1e3b1763994bdc9b631c47a09453a"
+        },
+        {
+          "source": "n25_resource/contracted_kernel.py",
+          "start": 196,
+          "end": 246,
+          "normalized_ast_sha256": "acb1adb0ef86867c51c39db344d128dd9632bacfd7e0b473873beba780b7adb1"
+        }
+      ]
+    },
+    {
+      "function": "central_bound",
+      "instances": [
+        {
+          "source": "entry/kernel.py",
+          "start": 244,
+          "end": 257,
+          "normalized_ast_sha256": "9638806a78e8985b864b57480d5d46ef24eaa7120168bd9fc41d7aebc224d887"
+        },
+        {
+          "source": "entry/contracted_kernel.py",
+          "start": 246,
+          "end": 259,
+          "normalized_ast_sha256": "9638806a78e8985b864b57480d5d46ef24eaa7120168bd9fc41d7aebc224d887"
+        },
+        {
+          "source": "n25_resource/contracted_kernel.py",
+          "start": 247,
+          "end": 260,
+          "normalized_ast_sha256": "9638806a78e8985b864b57480d5d46ef24eaa7120168bd9fc41d7aebc224d887"
+        }
+      ]
+    },
+    {
+      "function": "general_envelope",
+      "instances": [
+        {
+          "source": "entry/kernel.py",
+          "start": 259,
+          "end": 273,
+          "normalized_ast_sha256": "eb0d2817f7d815f957a4940806e8832d27e9f89b6e09ad383bdc16a0e704002e"
+        },
+        {
+          "source": "entry/contracted_kernel.py",
+          "start": 261,
+          "end": 275,
+          "normalized_ast_sha256": "eb0d2817f7d815f957a4940806e8832d27e9f89b6e09ad383bdc16a0e704002e"
+        },
+        {
+          "source": "n25_resource/contracted_kernel.py",
+          "start": 273,
+          "end": 290,
+          "normalized_ast_sha256": "5d0d64a4da2ca832286d349a12de28032459b4feba8e75dddc0f17b0a39f598d"
+        }
+      ]
+    },
+    {
+      "function": "paired",
+      "instances": [
+        {
+          "source": "entry/kernel.py",
+          "start": 275,
+          "end": 306,
+          "normalized_ast_sha256": "b1317174dbe1d28716e93e9e51f2aabd1a6e219073ff5dc1d8f47d932d1cbac3"
+        },
+        {
+          "source": "entry/contracted_kernel.py",
+          "start": 277,
+          "end": 308,
+          "normalized_ast_sha256": "41e16fcd35eab096a5212491d19e7f0ac09c7ea2c6a51a24d811d63cf74a7d96"
+        },
+        {
+          "source": "n25_resource/contracted_kernel.py",
+          "start": 292,
+          "end": 323,
+          "normalized_ast_sha256": "41e16fcd35eab096a5212491d19e7f0ac09c7ea2c6a51a24d811d63cf74a7d96"
+        }
+      ]
+    },
+    {
+      "function": "late_envelope",
+      "instances": [
+        {
+          "source": "entry/kernel.py",
+          "start": 311,
+          "end": 322,
+          "normalized_ast_sha256": "e512461141a30124e225217804aa6e800fe71cd5b0311677709f4961ee49496c"
+        },
+        {
+          "source": "entry/contracted_kernel.py",
+          "start": 313,
+          "end": 324,
+          "normalized_ast_sha256": "e512461141a30124e225217804aa6e800fe71cd5b0311677709f4961ee49496c"
+        },
+        {
+          "source": "n25_resource/contracted_kernel.py",
+          "start": 328,
+          "end": 339,
+          "normalized_ast_sha256": "af0b51a1be4939314111c489aad0119b0a9563344688a288b3ed585db5a71b20"
+        }
+      ]
+    },
+    {
+      "function": "quadratic_extrema",
+      "instances": [
+        {
+          "source": "entry/kernel.py",
+          "start": 325,
+          "end": 334,
+          "normalized_ast_sha256": "234d4c75a0d16aec6dfc2f699840ad08b32ea8c2720d0b4636d452d4dd3cd672"
+        },
+        {
+          "source": "entry/contracted_kernel.py",
+          "start": 327,
+          "end": 336,
+          "normalized_ast_sha256": "234d4c75a0d16aec6dfc2f699840ad08b32ea8c2720d0b4636d452d4dd3cd672"
+        },
+        {
+          "source": "n25_resource/contracted_kernel.py",
+          "start": 342,
+          "end": 351,
+          "normalized_ast_sha256": "234d4c75a0d16aec6dfc2f699840ad08b32ea8c2720d0b4636d452d4dd3cd672"
+        }
+      ]
+    },
+    {
+      "function": "signed_k_error",
+      "instances": [
+        {
+          "source": "entry/kernel.py",
+          "start": 335,
+          "end": 345,
+          "normalized_ast_sha256": "c872ff20d07fbe4847311d34fe8abba9b17391a9a0d3cf3ed8ad31cabac3e11c"
+        },
+        {
+          "source": "entry/contracted_kernel.py",
+          "start": 337,
+          "end": 347,
+          "normalized_ast_sha256": "c872ff20d07fbe4847311d34fe8abba9b17391a9a0d3cf3ed8ad31cabac3e11c"
+        },
+        {
+          "source": "n25_resource/contracted_kernel.py",
+          "start": 352,
+          "end": 364,
+          "normalized_ast_sha256": "f0df49e9fc17c663319cc8355f90513fe393874db3d7b5313704e549970970c4"
+        }
+      ]
+    }
+  ],
+  "candidate_censuses_only": [
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/initial47_proof.json",
+      "schema": "INITIAL47_FULL_P_V1",
+      "arithmetic_evaluated": false,
+      "panels": 100,
+      "nonempty_panel_indices": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ]
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/central47_prep_proof.json",
+      "schema": "CENTRAL47_PREP_V1",
+      "arithmetic_evaluated": false,
+      "initial_sha256": "95c5c1de0062b6a9e294a81ee8497eee8bdb2e0798299422d7ad39b885e4a951",
+      "rows": 10
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/conditional_input47.json",
+      "schema": "CONDITIONAL_LOCAL47_COMPARATOR_INPUT_V1",
+      "arithmetic_evaluated": false,
+      "N": 47,
+      "support_radius": "2.5",
+      "probability_domain": [
+        ".38",
+        ".47"
+      ],
+      "panels": 45
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/left_input47_table.json",
+      "schema": "LEFT47_ACQUIRED_ENTRY_V1",
+      "arithmetic_evaluated": false,
+      "N": 47,
+      "support_radius": "3",
+      "probability_domain": [
+        "151/500",
+        "19/50"
+      ],
+      "source_sha256": "2208eaece18c12bce623b7270ce24c655e70e5da88ad5d0f60336e1b75245c87",
+      "panels": 39
+    },
+    {
+      "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/confined_feedback47_table.json",
+      "schema": "CONFINED_FEEDBACK47_INPUT_V1",
+      "arithmetic_evaluated": false,
+      "N": 47,
+      "probability_domain": [
+        "19/50",
+        "47/100"
+      ],
+      "source_sha256": "b9d2aa15ad96181f5a8eb846e76ae296d2c2c8ed1a5975c6f389c2f7d14ff2b7",
+      "confinement_sha256": "bea92cbe77172d6fc72138e41f8eb4084aacca4de5eea0b55c03f3ae7a52d57a",
+      "panels": 45
+    }
+  ],
+  "manuscript": {
+    "filename": "berry_esseen_manuscript.tex",
+    "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+    "reviewed_ranges": [
+      [
+        2431,
+        2674
+      ],
+      [
+        2981,
+        3037
+      ],
+      [
+        3052,
+        3155
+      ],
+      [
+        3196,
+        3226
+      ]
+    ]
+  },
+  "completed_scope": [
+    "live local_panel initialization and monotone general_cell induction",
+    "conditional positive-measure moments with quantitative monotonicity gates",
+    "signed K1 reserve and complete rectangle extrema",
+    "single residual outer-resource pricing and signed U",
+    "tensor Bernstein central bound and continuous C/rho corners",
+    "paired eligibility and signed phase/noise exports",
+    "central/complement/left/confined literal covers and outward support implication"
+  ],
+  "remaining": [
+    "fresh full arithmetic/receipt/execution acceptance and predecessor acquisitions",
+    "dormant general_geometry 29/5 coarse bootstrap and older chain profiles",
+    "full support-ray/confinement derivations and joins",
+    "later signed-resource LEFT270/Sperner refinements and comparator/final union",
+    "global same-law attainment/contact/identity and literature inputs"
+  ]
+}
