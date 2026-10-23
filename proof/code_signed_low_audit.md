@@ -1,5 +1,11 @@
 # Code-to-lemma audit: selected signed LOW coefficients and cancellation
 
+**Review status:** AI-generated internal source review. Cross-reads by
+other model agents are internal checks by the same AI system. External
+independent mathematical review and machine-checked formal verification
+are not established here. This review may contain mistakes or omissions.
+See the [evidence limits](CODE_INTERFACE_AUDIT.md#evidence-limits).
+
 Date: 23 October 2026. This note checks the actual
 `resource25_b3_v1/general_paired_exact.py` and B4 copy, SHA256
 `e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96`,
@@ -11,7 +17,7 @@ The signed transfer and finite Mills lemmas are in the supplied manuscript,
 lines1708--1874. The more general piecewise coefficient rectangle below is
 documented inside the archive's `GENERAL_PAIRED_PROOF.txt` and its older
 review; it is broader than the manuscript's displayed specialized rectangle
-with M<3, g^2<2, R>2g at lines1927--1957. We independently checked the
+with M<3, g^2<2, R>2g at lines1927--1957. We internally reviewed the
 extension's algebra below. A revised paper must include this extension if
 it uses these selected general resource implementations.
 

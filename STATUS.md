@@ -6,6 +6,12 @@ Details are linked, not treated as additional independent proof claims.
 **The global proof is not verified. Current priority: logical audit,
 not expansion of the compute queue.**
 
+The linked audits are fallible AI-generated internal source reviews.
+Cross-reads by other model agents are internal checks; external independent
+mathematical review and formal verification are not established. Open
+analytic premises and coverage obligations remain alongside unfinished
+computation. No reliable completion percentage or finish time is known.
+
 - [Mathematical audit and high-level graphs](proof/LOGICAL_AUDIT.md).
 - [Code-to-lemma and certificate-link audit](proof/CODE_INTERFACE_AUDIT.md).
 - [Observed evidence and limitations](proof/observed_runs.md).
@@ -39,7 +45,7 @@ Log completion is not independent bundle validation.
 |12 corrected|2 GiB run ends incomplete near its 130-minute wall ceiling;13/14 main and25/41 retained execution records. Exact final supervisor reason not yet inspected.|
 |16|Complete 25-stage auxiliary23 log, 18,377 leaves; full theorem conditional.|
 |17|Complete 16-stage stronger24 B0 BASIC log, 1,929 leaves; export to revalidate.|
-|18|Complete 13-stage stronger24 B1 BASIC log,9,803 leaves; export to revalidate.|
+|18|Complete 13-stage stronger24 B1 BASIC log,9,803 leaves; conditional on unacquired resources, native acceptance false, export to revalidate.|
 |19--22|Available; user reports launching19 and plans20. No completion assumed without evidence.|
 |23|Waits for all nine 14--22 inputs and checks their conditional chain.|
 |24|Seven count targets plus 09/10 collector; not the full n25 union.|

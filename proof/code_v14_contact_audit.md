@@ -1,5 +1,11 @@
 # Code-to-lemma audit: the selected V14 local contact/rho wrapper
 
+**Review status:** AI-generated internal source review. Cross-reads by
+other model agents are internal checks by the same AI system. External
+independent mathematical review and machine-checked formal verification
+are not established here. This review may contain mistakes or omissions.
+See the [evidence limits](CODE_INTERFACE_AUDIT.md#evidence-limits).
+
 Date:23 October2026. Scope: portable p31/p32 epochs used by notebooks06/07.
 The [source map](code_v14_contact_source_map.json) binds their exact178-file
 designs and the inspected functions. All declared hashes matched; no archived

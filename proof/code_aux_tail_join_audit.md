@@ -1,5 +1,11 @@
 # Executable auxiliary24 and tail49 join audit
 
+**Review status:** AI-generated internal source review. Cross-reads by
+other model agents are internal checks by the same AI system. External
+independent mathematical review and machine-checked formal verification
+are not established here. This review may contain mistakes or omissions.
+See the [evidence limits](CODE_INTERFACE_AUDIT.md#evidence-limits).
+
 Audit date: 23 October 2026. This audit reads the current executable wrappers,
 selected original source bodies and preserved execution JSON. It imports no
 archived numerical module, runs no mathematical constructor/acceptor, and does

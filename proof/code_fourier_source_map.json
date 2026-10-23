@@ -10,7 +10,8 @@
   "full_low_transfer_reviewed": false,
   "full_support_callbacks_reviewed": false,
   "selected_signed_low_coefficient_and_norm_rules_reviewed": true,
-  "signed_low_context_acquisition_reviewed": false,
+  "signed_low_context_source_review": "code_resource_phase_audit.md",
+  "signed_low_context_physical_premises_acquired": false,
   "full_count_or_all_index_conclusion": false,
   "capsules": [
     {
@@ -337,6 +338,140 @@
               "name": "coarsened",
               "first_line": 8,
               "last_line": 18
+            }
+          ]
+        },
+        {
+          "file": "initial34_indexed.py",
+          "sha256": "37c002305518111b600e461133947aed7e739530f60e316463cadad301a9a82b",
+          "bytes": 11852,
+          "function_locations": [
+            {
+              "name": "lo",
+              "first_line": 18,
+              "last_line": 18
+            },
+            {
+              "name": "hi",
+              "first_line": 19,
+              "last_line": 19
+            },
+            {
+              "name": "sl",
+              "first_line": 20,
+              "last_line": 20
+            },
+            {
+              "name": "su",
+              "first_line": 21,
+              "last_line": 21
+            },
+            {
+              "name": "pos",
+              "first_line": 22,
+              "last_line": 22
+            },
+            {
+              "name": "init",
+              "first_line": 23,
+              "last_line": 28
+            },
+            {
+              "name": "stage",
+              "first_line": 29,
+              "last_line": 178
+            },
+            {
+              "name": "drop",
+              "first_line": 41,
+              "last_line": 43
+            },
+            {
+              "name": "fmean",
+              "first_line": 73,
+              "last_line": 73
+            },
+            {
+              "name": "endpoint",
+              "first_line": 120,
+              "last_line": 123
+            },
+            {
+              "name": "G",
+              "first_line": 134,
+              "last_line": 134
+            },
+            {
+              "name": "P1",
+              "first_line": 138,
+              "last_line": 138
+            }
+          ]
+        },
+        {
+          "file": "initial25_b3.py",
+          "sha256": "69d360a93e98946e760089c4a309e4cf0d4553234822dde22a73e8aa2a27daed",
+          "bytes": 7726,
+          "function_locations": [
+            {
+              "name": "need",
+              "first_line": 25,
+              "last_line": 26
+            },
+            {
+              "name": "sha",
+              "first_line": 27,
+              "last_line": 27
+            },
+            {
+              "name": "enc",
+              "first_line": 28,
+              "last_line": 32
+            },
+            {
+              "name": "unique",
+              "first_line": 33,
+              "last_line": 36
+            },
+            {
+              "name": "read",
+              "first_line": 37,
+              "last_line": 37
+            },
+            {
+              "name": "same",
+              "first_line": 38,
+              "last_line": 42
+            },
+            {
+              "name": "guard",
+              "first_line": 43,
+              "last_line": 43
+            },
+            {
+              "name": "cover",
+              "first_line": 44,
+              "last_line": 47
+            },
+            {
+              "name": "sources",
+              "first_line": 48,
+              "last_line": 51
+            },
+            {
+              "name": "fixed_support",
+              "first_line": 52,
+              "last_line": 68
+            },
+            {
+              "name": "calculate",
+              "first_line": 69,
+              "last_line": 86
+            },
+            {
+              "name": "main",
+              "first_line": 87,
+              "last_line": 101
             }
           ]
         }
@@ -835,6 +970,88 @@
               "last_line": 68
             }
           ]
+        },
+        {
+          "file": "resource25_core.py",
+          "sha256": "2f521cd143998da83c260079d02ce2fb35e76a20815e4d51d846e4d6b82cf896",
+          "bytes": 10311,
+          "function_locations": [
+            {
+              "name": "need",
+              "first_line": 26,
+              "last_line": 27
+            },
+            {
+              "name": "enc",
+              "first_line": 28,
+              "last_line": 32
+            },
+            {
+              "name": "dec",
+              "first_line": 33,
+              "last_line": 39
+            },
+            {
+              "name": "up",
+              "first_line": 40,
+              "last_line": 40
+            },
+            {
+              "name": "down",
+              "first_line": 41,
+              "last_line": 41
+            },
+            {
+              "name": "source_round",
+              "first_line": 42,
+              "last_line": 52
+            },
+            {
+              "name": "retained_cell",
+              "first_line": 54,
+              "last_line": 73
+            },
+            {
+              "name": "amplitude",
+              "first_line": 75,
+              "last_line": 80
+            },
+            {
+              "name": "support",
+              "first_line": 82,
+              "last_line": 99
+            },
+            {
+              "name": "charged",
+              "first_line": 101,
+              "last_line": 112
+            },
+            {
+              "name": "export",
+              "first_line": 114,
+              "last_line": 123
+            },
+            {
+              "name": "resource",
+              "first_line": 125,
+              "last_line": 163
+            },
+            {
+              "name": "polymin",
+              "first_line": 165,
+              "last_line": 168
+            },
+            {
+              "name": "interface",
+              "first_line": 169,
+              "last_line": 183
+            },
+            {
+              "name": "acquire",
+              "first_line": 186,
+              "last_line": 188
+            }
+          ]
         }
       ]
     },
@@ -1162,6 +1379,140 @@
               "name": "coarsened",
               "first_line": 8,
               "last_line": 18
+            }
+          ]
+        },
+        {
+          "file": "initial34_indexed.py",
+          "sha256": "37c002305518111b600e461133947aed7e739530f60e316463cadad301a9a82b",
+          "bytes": 11852,
+          "function_locations": [
+            {
+              "name": "lo",
+              "first_line": 18,
+              "last_line": 18
+            },
+            {
+              "name": "hi",
+              "first_line": 19,
+              "last_line": 19
+            },
+            {
+              "name": "sl",
+              "first_line": 20,
+              "last_line": 20
+            },
+            {
+              "name": "su",
+              "first_line": 21,
+              "last_line": 21
+            },
+            {
+              "name": "pos",
+              "first_line": 22,
+              "last_line": 22
+            },
+            {
+              "name": "init",
+              "first_line": 23,
+              "last_line": 28
+            },
+            {
+              "name": "stage",
+              "first_line": 29,
+              "last_line": 178
+            },
+            {
+              "name": "drop",
+              "first_line": 41,
+              "last_line": 43
+            },
+            {
+              "name": "fmean",
+              "first_line": 73,
+              "last_line": 73
+            },
+            {
+              "name": "endpoint",
+              "first_line": 120,
+              "last_line": 123
+            },
+            {
+              "name": "G",
+              "first_line": 134,
+              "last_line": 134
+            },
+            {
+              "name": "P1",
+              "first_line": 138,
+              "last_line": 138
+            }
+          ]
+        },
+        {
+          "file": "initial25_b4.py",
+          "sha256": "9f3466c8a2899d24bc5787bbbd73efa0e2cb7a5a15eb1ce0a920664a06c609c1",
+          "bytes": 7723,
+          "function_locations": [
+            {
+              "name": "need",
+              "first_line": 25,
+              "last_line": 26
+            },
+            {
+              "name": "sha",
+              "first_line": 27,
+              "last_line": 27
+            },
+            {
+              "name": "enc",
+              "first_line": 28,
+              "last_line": 32
+            },
+            {
+              "name": "unique",
+              "first_line": 33,
+              "last_line": 36
+            },
+            {
+              "name": "read",
+              "first_line": 37,
+              "last_line": 37
+            },
+            {
+              "name": "same",
+              "first_line": 38,
+              "last_line": 42
+            },
+            {
+              "name": "guard",
+              "first_line": 43,
+              "last_line": 43
+            },
+            {
+              "name": "cover",
+              "first_line": 44,
+              "last_line": 47
+            },
+            {
+              "name": "sources",
+              "first_line": 48,
+              "last_line": 51
+            },
+            {
+              "name": "fixed_support",
+              "first_line": 52,
+              "last_line": 68
+            },
+            {
+              "name": "calculate",
+              "first_line": 69,
+              "last_line": 86
+            },
+            {
+              "name": "main",
+              "first_line": 87,
+              "last_line": 101
             }
           ]
         }
@@ -1658,6 +2009,88 @@
               "name": "J",
               "first_line": 58,
               "last_line": 68
+            }
+          ]
+        },
+        {
+          "file": "resource25_core.py",
+          "sha256": "ddad274ea2cb27398bac227eef69ce1c89bbbc845f8f5da17ebd15740a571566",
+          "bytes": 10306,
+          "function_locations": [
+            {
+              "name": "need",
+              "first_line": 26,
+              "last_line": 27
+            },
+            {
+              "name": "enc",
+              "first_line": 28,
+              "last_line": 32
+            },
+            {
+              "name": "dec",
+              "first_line": 33,
+              "last_line": 39
+            },
+            {
+              "name": "up",
+              "first_line": 40,
+              "last_line": 40
+            },
+            {
+              "name": "down",
+              "first_line": 41,
+              "last_line": 41
+            },
+            {
+              "name": "source_round",
+              "first_line": 42,
+              "last_line": 52
+            },
+            {
+              "name": "retained_cell",
+              "first_line": 54,
+              "last_line": 73
+            },
+            {
+              "name": "amplitude",
+              "first_line": 75,
+              "last_line": 80
+            },
+            {
+              "name": "support",
+              "first_line": 82,
+              "last_line": 99
+            },
+            {
+              "name": "charged",
+              "first_line": 101,
+              "last_line": 112
+            },
+            {
+              "name": "export",
+              "first_line": 114,
+              "last_line": 123
+            },
+            {
+              "name": "resource",
+              "first_line": 125,
+              "last_line": 163
+            },
+            {
+              "name": "polymin",
+              "first_line": 165,
+              "last_line": 168
+            },
+            {
+              "name": "interface",
+              "first_line": 169,
+              "last_line": 183
+            },
+            {
+              "name": "acquire",
+              "first_line": 186,
+              "last_line": 188
             }
           ]
         }

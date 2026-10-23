@@ -67,3 +67,32 @@ inspected in the tail audit have positive beta_lo. The actual inspected route
 therefore supplies the premise; no failed selected certificate is demonstrated.
 The source-to-lemma map must retain that gate. See exact source pins and line
 references in [the global/tail audit](logic_global_tail_audit.md).
+
+## R4: state the general signed LOW rectangle actually enabled
+
+The selected B3/B4 resource entry points install
+`general_paired_exact.py`, SHA256
+`e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96`.
+The manuscript's displayed paired coefficient specialization at1927--1957
+uses M<3,g^2<2,R>2g. The enabled source instead uses a piecewise Pearson
+rectangle valid for R>=1, including a switch at |gamma|=R/2. A revised paper
+must explicitly state and prove that broader rectangle before selecting it.
+
+The [signed LOW implementation audit](code_signed_low_audit.md) supplies
+the conditional coefficient formulas, their exact cubic Bernstein
+enclosures, signed c endpoints, corner norm and Mills parity readback.
+It found no invalid inequality in those operations. The same-law input
+acquisition and resource context remain separate. Classification: a precise
+paper-to-enabled-code documentation obligation with a reviewed derivation,
+not a license to discard the old radius gate from its old formula.
+
+## R5: describe the actual HIGH comparator upper bound
+
+The HIGH_WINDOW50 discussion at the end of its proof says the selected
+implementation uses min(1.85,sqrt(M-1)) in the comparator. The inspected
+selected `high_window_common.py` instead uses a directed upper sqrt(M-1)
+without that optional minimum. This is a weaker valid bound. Its complete
+six-piece computation must still pass the final target; no result can be
+inferred from the stronger unused description. Match the revised source
+description to the actual expression. See the [HIGH implementation
+audit](code_fourier_primitive_audit.md). No frozen source was changed.

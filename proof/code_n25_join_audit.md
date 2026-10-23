@@ -1,5 +1,11 @@
 # Current seven n25 targets: code-to-lemma and join audit
 
+**Review status:** AI-generated internal source review. Cross-reads by
+other model agents are internal checks by the same AI system. External
+independent mathematical review and machine-checked formal verification
+are not established here. This review may contain mistakes or omissions.
+See the [evidence limits](CODE_INTERFACE_AUDIT.md#evidence-limits).
+
 Audit date: 23 October 2026. Scope: the seven original/current resource-limit
 count targets, their B3/B4 notebook09/10 parent evidence, and collector24.
 This is **not** the retained75 B0–B2 lane, the complete n25 regional union,

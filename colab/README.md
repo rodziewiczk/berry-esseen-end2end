@@ -118,6 +118,8 @@ readback of actual launch, supervisor, native-guard and capture files. Embedded
 success summaries alone are insufficient. Valid existing14--22 exports remain
 usable, with BASIC execution kept conditional. No numerical restart is needed
 for this collector repair. See [the implementation audit](../proof/CODE_INTERFACE_AUDIT.md).
+The [audited23 copy on Drive](https://colab.research.google.com/drive/1GGRE-CrxEepFVwOovaa9pch9TlXKXpRZ)
+selects code commit `62593a0b0cf8fcf2c7b61666bf5e58cb9bb0a378`.
 
 Each numerical action has a two-hour CPU ceiling and a 121-minute wall ceiling. A job contains several such actions and may outlive a session. In 14–16, compatible completed stage evidence is revalidated before reuse; an interrupted stage restarts in full. In this first version of 17–22, a new Run all starts a new branch epoch, preserving earlier evidence but **without automatic completed-stage reuse**. Their interrupted native actions have no internal checkpoint.
 

@@ -1,7 +1,13 @@
 # Selected n25 count kernels: source-to-lemma audit
 
+**Review status:** AI-generated internal source review. Cross-reads by
+other model agents are internal checks by the same AI system. External
+independent mathematical review and machine-checked formal verification
+are not established here. This review may contain mistakes or omissions.
+See the [evidence limits](CODE_INTERFACE_AUDIT.md#evidence-limits).
+
 Date: 23 October 2026. Method: read source bytes, manifests, contracts,
-JSON and ASTs, and independently derive the formulas described below.
+JSON and ASTs, and derive the formulas within this internal review.
 No archived module was imported or executed. No leaf, producer, native
 acceptor, numerical integration or mathematical search was run locally.
 
@@ -76,7 +82,7 @@ tangent, joint-cubic, SOS-quartic, fixed-peak and alpha-stoploss2 variants.
 The 75 capsules contain six distinct `exact35_core.py` byte versions;
 reading one does not automatically review all six.
 
-## 1. Fully checked small family: domain contractions
+## 1. Reviewed domain-contraction family
 
 These four files occur byte-identically in 64 retained B0–B2 capsules
 and in the V12 base of the current seven targets:

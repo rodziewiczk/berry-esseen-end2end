@@ -1,7 +1,13 @@
 # Code-to-lemma audit: selected exact primitives and complete HIGH
 
+**Review status:** AI-generated internal source review. Cross-reads by
+other model agents are internal checks by the same AI system. External
+independent mathematical review and machine-checked formal verification
+are not established here. This review may contain mistakes or omissions.
+See the [evidence limits](CODE_INTERFACE_AUDIT.md#evidence-limits).
+
 Date: 23 October 2026. Scope: the pinned B3/B4 n25 INITIAL and global
-resource capsules used by notebooks09/10. This is an independent source and
+resource capsules used by notebooks09/10. This is an internal source and
 algebra readback, not a numerical replay or a claim that their mathematical
 inputs have been acquired. No archived mathematical module was imported.
 The supplied manuscript is unchanged, SHA256
@@ -27,7 +33,7 @@ review every LOW coefficient, phase callback, support ray or INITIAL rectangle.
 | Actual source | Reviewed operation | Mathematical reference |
 |---|---|---|
 | `kernel.py:19--28`, and the identical primitive functions in resource `contracted_kernel.py` | Directed rounding, square roots, positive-series exponential upper bound | Manuscript exact-arithmetic rules, lines8980--9016 |
-| `integer_exphi.py:12--24` | Integer Horner evaluation of the same finite exponential polynomial | Same rule; `INTEGER_EXPHI_PROOF.txt`, independently checked below |
+| `integer_exphi.py:12--24` | Integer Horner evaluation of the same finite exponential polynomial | Same rule; `INTEGER_EXPHI_PROOF.txt`, reviewed below |
 | `finite_binomial_core.py:9--59` and byte-identical `finite_gaussian.py` | Machin constants, integrated Gaussian Taylor enclosure and tails | Manuscript lines8999--9016 |
 | `finite_binomial_core.py:61--96` | Literal binomial probabilities, both jump sides, endpoint enclosure on the left half | Monotonicity argument below; not a proof of a selected complete table |
 | `high_window_common.py:11--69` | Every HIGH frequency piece, optional improvements, complete-window minimum | HIGH_WINDOW50 statement/proof, lines2102--2268 |
