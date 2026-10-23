@@ -194,3 +194,11 @@ and [B012 acquisition](../proof/n25_b012_acquisition_execution.md).
 
 Notebook35 for remaining n5 and the literal-index6--24/26--48 batches are being
 prepared separately; their absence from this delivery is not completion.
+
+Notebook39, `39_n25_global_parents_b5.ipynb`, selects runtime
+`2faca426e17dd27e2631d757a1d6bec5a6d83f90`. It performs the two complete
+unchanged lower-B5 global parent acceptances, with fresh INITIAL receipt and
+full100-panel resource replay. Completed stages have the same strict-prefix
+reuse workflow as36--38. It does not accept B5 count forests or supply their
+local/mixed interfaces; [the exact scope](../proof/n25_b5_global_execution.md)
+records the remaining obligations. It may run independently in a CPU session.

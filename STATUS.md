@@ -56,6 +56,7 @@ Log completion is not independent bundle validation.
 |29--34|Prepared/pinned extra115-forest package,178294leaves;38synthetic fixtures and actual source-only preparation pass. No mathematical replay assumed.|
 |35|Remaining n5 batch is under implementation/review; not delivered as complete.|
 |36--38|Prepared/pinned B012 ten-action parent package and75numeric interfaces;19synthetic fixtures and actual source-only preparation pass. No fresh acquisitions assumed.|
+|39|Prepared/pinned lower-B5 INITIAL/resource pair;19synthetic fixtures and all66actual source inputs checked. Local/mixed/count interfaces remain separate; no fresh acquisition assumed.|
 
 The new packages preserve previous numerical drivers and notebook identities.
 Literal-index6--24/26--48 packaging, other n25 acquisitions and unresolved
