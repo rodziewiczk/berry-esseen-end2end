@@ -1,0 +1,1037 @@
+{
+  "schema": "POSITIVE34_ACQUISITION_SOURCE_HAND_ALGEBRA_AUDIT_V1",
+  "review_kind": "fallible_internal_AI_source_and_hand_algebra_review",
+  "external_independent_verification": false,
+  "formal_verification": false,
+  "archived_math_modules_imported_or_executed": false,
+  "fresh_arithmetic_acceptance": false,
+  "all_index_conclusion_verified": false,
+  "archive": {
+    "filename": "closure31.zip",
+    "bytes": 135288952,
+    "sha256": "68eb555e08ee7509f9d136df6fae5e354aff816ec4f77cc8426698c479b205a0",
+    "archive_transport_hash_reused_from_prior_checks": true
+  },
+  "selector": {
+    "member": "continuation_20261010/repair31/EVENTUAL_CUTOFF31_COMPOSED.json",
+    "sha256": "33c73b3bd4c8cb25cedb6c9c8ce3768608db18f1f65932a0fcd6bb468c2b51b9",
+    "pins": 9518,
+    "fully_reproduced_historical_dependency_DAG": false
+  },
+  "manuscript": {
+    "filename": "berry_esseen_manuscript.tex",
+    "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+    "ranges": [
+      {
+        "start": 2379,
+        "end": 2674,
+        "scope": "Conserved identity, physical gap and simultaneous resource"
+      },
+      {
+        "start": 2745,
+        "end": 2979,
+        "scope": "Signed moment/INITIAL/gap and outer integral atlas"
+      },
+      {
+        "start": 2981,
+        "end": 3400,
+        "scope": "General-cell signed moment/phase and coherent convex corners"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/initial_global34.py",
+      "bytes": 9355,
+      "sha256": "ae4bfe43de517cb65468cdcc4e0931362dafc4c60fd5d8a827f3fb7a60355ed8",
+      "lines": 154,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/initial_global34.py",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 154,
+          "scope": "Full signed INITIAL stage, moment predicates, phase, finite feedback and closed panel export"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/accept_initial34.py",
+      "bytes": 5523,
+      "sha256": "1a11441a7357cdf26aca83975510ec79a7472bb716bf83c1754a581b63478a09",
+      "lines": 99,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/accept_initial34.py",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 99,
+          "scope": "Full selected INITIAL reconstruction, exact typed equality and fixed profile"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/initial34_profile.py",
+      "bytes": 463,
+      "sha256": "95812bfdd799f1bf719effb34b24780b97e025240739f6103fe21cd1abfdc5bd",
+      "lines": 10,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/initial34_profile.py",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 10,
+          "scope": "Literal selected n34 profile"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/accept_acquisition34_product_v2.py",
+      "bytes": 8007,
+      "sha256": "d070d3259c3bd4284668d82f3970e1504a070c1e6199ff4846b4c31788e7cfe1",
+      "lines": 104,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/accept_acquisition34_product_v2.py",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 104,
+          "scope": "Full selected product-seed acquisition and row/interface reconstruction"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/accept_acquisition34_product.py",
+      "bytes": 7892,
+      "sha256": "2ff5ef9c090d9cabbc9bc7275078a9e68baa1f2686f3ef37642ff29071b9a1ca",
+      "lines": 102,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/accept_acquisition34_product.py",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 102,
+          "scope": "Exact serialization-only v2 body projection; no execution"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/route34_core.py",
+      "bytes": 5245,
+      "sha256": "b4266bf5c7c89a19496a656e452cd9e262063aa4afc9bc7417142841be8a77ff",
+      "lines": 132,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/route34_core.py",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 132,
+          "scope": "Support-before-moment route, harmonic cap, signed quadratic mapping and guards"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/product_endpoint34.py",
+      "bytes": 787,
+      "sha256": "158bf7a2fbe50693880baef3bec50b2c0c362881648348b42b4984408916ff15",
+      "lines": 17,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/product_endpoint34.py",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 17,
+          "scope": "Complete endpoint-product seed"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/candidate_below40.py",
+      "bytes": 4720,
+      "sha256": "9880ea10c8dbafa220bb77fc4eb3fb2196a13a97fed80940d72c6627a75195ca",
+      "lines": 75,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/candidate_below40.py",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 75,
+          "scope": "Same-law finite raw/defect feedback, optional paired scope, simultaneous resource and phase export"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/geometric_moment_resource.py",
+      "bytes": 1786,
+      "sha256": "19003df46b64f0dcaa459bd0ca4dcb329548d71954d23c31b5305cf6dc5bba04",
+      "lines": 34,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/geometric_moment_resource.py",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 34,
+          "scope": "Complete sign-specific radius/variance moment-price wrapper"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/signed_variance_resource.py",
+      "bytes": 1785,
+      "sha256": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8",
+      "lines": 42,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/signed_variance_resource.py",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 42,
+          "scope": "Complete signed moment and outer-cost resource wrapper"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/corrected_phase_callback_extended.py",
+      "bytes": 1164,
+      "sha256": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63",
+      "lines": 28,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/corrected_phase_callback_extended.py",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 28,
+          "scope": "Complete adverse-density signed curvature callback"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/contracted_kernel.py",
+      "bytes": 19279,
+      "sha256": "b216161eec801c96a77df81fb77771e86e6ab55f0fc1b14cd2428508191a3dfc",
+      "lines": 349,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/contracted_kernel.py",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 196,
+          "end": 245,
+          "scope": "Active general-cell atlas read and comparison to previously reviewed n25 instance"
+        },
+        {
+          "start": 261,
+          "end": 275,
+          "scope": "Older general bound and constant positive K charge"
+        },
+        {
+          "start": 313,
+          "end": 349,
+          "scope": "Paired envelope and relaxed signed K1 helper; identity edges recorded"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/check_resources34_v2.py",
+      "bytes": 10592,
+      "sha256": "3e243da873703ae5c294917396e014f27a376ae389068f63b5025747ec2e907b",
+      "lines": 136,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/check_resources34_v2.py",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 136,
+          "scope": "Actual selection, source/receipt binding, scalar and every target field direction"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/root/positive34_join/check_positive34.py",
+      "bytes": 6922,
+      "sha256": "c311dd3c8b90754d846223b77455c32b93fd7d95fd434509506775f1666d65f7",
+      "lines": 81,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/root/positive34_join/check_positive34.py",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 81,
+          "scope": "Actual predecessor/owncap/resource/count selection and scalar composition"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/resource34_proof.tex",
+      "bytes": 6848,
+      "sha256": "6646202b5a2e14bceb301b6d17e2b8562911638281a53569edfd0f81a6de5414",
+      "lines": 142,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/resource34_proof.tex",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 142,
+          "scope": "Original resource derivations and stated dependency order"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/endpoint_product_bootstrap.tex",
+      "bytes": 4296,
+      "sha256": "30a0a374d56a1372cd8eabf06ec097193a48c88dcd4406731ccb376597383158",
+      "lines": 121,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/endpoint_product_bootstrap.tex",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 121,
+          "scope": "Full central-gap existence, product floor and variance derivation"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/root/proof/positive34_complete.tex",
+      "bytes": 7974,
+      "sha256": "2df575ad3d7a09ca7b0cb208d95e9ae792e6259331cbba0c8c47691c4b32edea",
+      "lines": 188,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/root/proof/positive34_complete.tex",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 188,
+          "scope": "Original descending excess composition and common-law count statement"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/initial_core33.py",
+      "bytes": 9355,
+      "sha256": "ae4bfe43de517cb65468cdcc4e0931362dafc4c60fd5d8a827f3fb7a60355ed8",
+      "lines": 154,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/initial_core33.py",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 154,
+          "scope": "Byte-identical selected INITIAL34 core"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/accept_initial33.py",
+      "bytes": 5580,
+      "sha256": "ef74dfd8e2b1c6c83511469ce733fff347dd373f24a215d7fd2dc5422c6bf638",
+      "lines": 99,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/accept_initial33.py",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 99,
+          "scope": "Read via full exact difference from selected INITIAL34 acceptor"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/route33_core.py",
+      "bytes": 4058,
+      "sha256": "066374ffca83588ff453cdc3520977e89ddc0ac74cb526b23d003a6beadf3f2b",
+      "lines": 104,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/route33_core.py",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 104,
+          "scope": "Full selected n33 route, scalar profile, harmonic cap and guarded contract"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/accept_acquisition33.py",
+      "bytes": 7970,
+      "sha256": "c130cb8d9ce740152bfd325be1c0fe84d5bf6e080a27c9f7f55ca7f5e698f6e2",
+      "lines": 119,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/accept_acquisition33.py",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 119,
+          "scope": "Full100-row reconstruction, selected survivor list and controls"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/check_resources33.py",
+      "bytes": 8763,
+      "sha256": "5dbf2db5f305ce543ac74da61d5e4860b05014ff9a8d431c43d89f9933a791c5",
+      "lines": 120,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/check_resources33.py",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 120,
+          "scope": "Full selected source/run/scalar/interface binder"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/resource33_proof.tex",
+      "bytes": 10080,
+      "sha256": "6701e3da10c19f9707cc7812bed6e34a7590ba1eb2e934c125d6d91b43ddf7b6",
+      "lines": 222,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/resource33_proof.tex",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 222,
+          "scope": "Original joint resource, geometric moment-price, signed support order and guarded count premise"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/initial_global35.py",
+      "bytes": 9592,
+      "sha256": "6f9ccc09c21f5052b2e42ea678e84305541f5d4dff7bff685e4249aca38e544d",
+      "lines": 157,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/initial_global35.py",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 157,
+          "scope": "Full stage compared against INITIAL34; only D<6 domain change"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/initial_local35.py",
+      "bytes": 10677,
+      "sha256": "d6c518f1ea53333d434f5e8311042571cc0f3a27d2fd09ecd3fb4e4255664931",
+      "lines": 167,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/initial_local35.py",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 167,
+          "scope": "Full signed asymmetric-support/local-probability atlas and inherited moments"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/initial35_profile.py",
+      "bytes": 463,
+      "sha256": "b513641e176e68983fe6c937981892a73b57ce08a9fac17740e2fbb319f20054",
+      "lines": 10,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/initial35_profile.py",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 10,
+          "scope": "Literal selected global35 profile"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/accept_initial35_parallel.py",
+      "bytes": 6237,
+      "sha256": "6a2ac73a0131bb7af230633906d86cb24adc8e92be97f21eabd0c3731d033b41",
+      "lines": 113,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/accept_initial35_parallel.py",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 113,
+          "scope": "Complete11-cover schedule and independent ordered exact equality"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/seeds35_core.py",
+      "bytes": 3004,
+      "sha256": "b628e7fb1128650567b75e767ec45adfde18e9b503ae04c298292047bd11ebd3",
+      "lines": 56,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/seeds35_core.py",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 56,
+          "scope": "Complete12-cover local seed/support schedule, interval extrema and outward rounding"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/accept_seeds35_parallel.py",
+      "bytes": 5114,
+      "sha256": "2a55b2eceda8409a32e64cf1bd9a87cdb66d5dce932b5c96a488e68f297c35da",
+      "lines": 74,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/accept_seeds35_parallel.py",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 74,
+          "scope": "Four whole recomputed bands, controls, source-object binding"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/accept_central35_v2.py",
+      "bytes": 7484,
+      "sha256": "4cf6c9325f292948227671dbb75d8c451d518621439410dabe86c3da88efffdd",
+      "lines": 96,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/accept_central35_v2.py",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 96,
+          "scope": "Full selected central18-row acquisition, seed selection and interfaces"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/candidate_charged_score35.py",
+      "bytes": 5448,
+      "sha256": "036f2d21afb579f357e6780434dfd68f461d1e8e9498205eb36c5610c1916b9c",
+      "lines": 90,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/candidate_charged_score35.py",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 90,
+          "scope": "Full exact difference from n34 candidate, including actual-score kink"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/route35_core.py",
+      "bytes": 7262,
+      "sha256": "5c906d44d9d7f49798955ff2fdecabce56888c3ebd165224ea7e7580ab621e8d",
+      "lines": 167,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/route35_core.py",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 167,
+          "scope": "Retained moments, six coherent score/rho quadratics, signed rays, joint/direct charges and interface"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/check_resources35_v2.py",
+      "bytes": 12272,
+      "sha256": "f3d74914cdce25bac34241d5ba9d69c490f3b24e942b2c0520bc37c9d150daaf",
+      "lines": 137,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/check_resources35_v2.py",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 137,
+          "scope": "Full selection of3acceptors, predecessor/smoothing and complete contract binding"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/resource35_proof.tex",
+      "bytes": 13642,
+      "sha256": "d12b42f7a036916f3914f8962b41b0721b60421d4e9a3e05b7db22285e381011",
+      "lines": 301,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/resource35_proof.tex",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 301,
+          "scope": "Original selected central35 resource and same-law charged envelope proof"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/root/sharp35_join/check_sharp35.py",
+      "bytes": 10713,
+      "sha256": "1404c28a59f728ad4fcee8716a8e2c7122180d6d81394ebe99e5381734a4d282",
+      "lines": 123,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/root/sharp35_join/check_sharp35.py",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 123,
+          "scope": "Conditional full probability union, scalar seams and source/report selection; distinct low/complement kernels not reread here"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/initial_asymmetric34.py",
+      "bytes": 10677,
+      "sha256": "d6c518f1ea53333d434f5e8311042571cc0f3a27d2fd09ecd3fb4e4255664931",
+      "lines": 167,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/initial_asymmetric34.py",
+      "selector_matches": true,
+      "kind": "source",
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 167,
+          "scope": "Comparison only: byte-identical to selected INITIAL35 local; not active in selected34 path"
+        }
+      ]
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/contract.json",
+      "bytes": 3817,
+      "sha256": "68f80b22612e5b6a1e0c34bcdc8646c135cfcdb2c98f93db67b75610527d63b1",
+      "lines": null,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/contract.json",
+      "selector_matches": true,
+      "kind": "contract_or_historical_selector_only_not_fresh_evidence",
+      "reviewed_ranges": []
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/contract.json",
+      "bytes": 21527,
+      "sha256": "04dff773539833e81ba49124889767529eaab02e374071ee5d9092e5fbc23829",
+      "lines": null,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/contract.json",
+      "selector_matches": true,
+      "kind": "contract_or_historical_selector_only_not_fresh_evidence",
+      "reviewed_ranges": []
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/contract.json",
+      "bytes": 24967,
+      "sha256": "1545ebcc548cf4f9a33eff6aa673fd105c11a392afafd99eb9989df30d8556e6",
+      "lines": null,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/contract.json",
+      "selector_matches": true,
+      "kind": "contract_or_historical_selector_only_not_fresh_evidence",
+      "reviewed_ranges": []
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/root/positive33_join/POSITIVE33_COMPLETE.json",
+      "bytes": 45868,
+      "sha256": "0137d7e7bf5525ab9df5158f20f1d4ffb6632a759afc11f6bea55ce120c3b6c9",
+      "lines": null,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/root/positive33_join/POSITIVE33_COMPLETE.json",
+      "selector_matches": true,
+      "kind": "contract_or_historical_selector_only_not_fresh_evidence",
+      "reviewed_ranges": []
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/root/positive34_join/POSITIVE34_COMPLETE.json",
+      "bytes": 70295,
+      "sha256": "e514ff05b8e99ef6fe543ac507a2f3d6236f9c5bf995f2be28e27eeed732ddc1",
+      "lines": null,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/root/positive34_join/POSITIVE34_COMPLETE.json",
+      "selector_matches": true,
+      "kind": "contract_or_historical_selector_only_not_fresh_evidence",
+      "reviewed_ranges": []
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/candidate_below40.py",
+      "bytes": 4720,
+      "sha256": "9880ea10c8dbafa220bb77fc4eb3fb2196a13a97fed80940d72c6627a75195ca",
+      "lines": null,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/candidate_below40.py",
+      "selector_matches": true,
+      "kind": "byte_identity_dependency",
+      "reviewed_ranges": []
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/contracted_kernel.py",
+      "bytes": 19279,
+      "sha256": "b216161eec801c96a77df81fb77771e86e6ab55f0fc1b14cd2428508191a3dfc",
+      "lines": null,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/contracted_kernel.py",
+      "selector_matches": true,
+      "kind": "byte_identity_dependency",
+      "reviewed_ranges": []
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/paired_extended.py",
+      "bytes": 2854,
+      "sha256": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998",
+      "lines": null,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/paired_extended.py",
+      "selector_matches": true,
+      "kind": "byte_identity_dependency",
+      "reviewed_ranges": []
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/paired_extended.py",
+      "bytes": 2854,
+      "sha256": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998",
+      "lines": null,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/paired_extended.py",
+      "selector_matches": true,
+      "kind": "byte_identity_previously_reviewed_dependency",
+      "reviewed_ranges": []
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/signed_variance_resource.py",
+      "bytes": 1785,
+      "sha256": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8",
+      "lines": null,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/signed_variance_resource.py",
+      "selector_matches": true,
+      "kind": "byte_identity_dependency",
+      "reviewed_ranges": []
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/geometric_moment_resource.py",
+      "bytes": 1786,
+      "sha256": "19003df46b64f0dcaa459bd0ca4dcb329548d71954d23c31b5305cf6dc5bba04",
+      "lines": null,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/geometric_moment_resource.py",
+      "selector_matches": true,
+      "kind": "byte_identity_dependency",
+      "reviewed_ranges": []
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/corrected_phase_callback_extended.py",
+      "bytes": 1164,
+      "sha256": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63",
+      "lines": null,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/corrected_phase_callback_extended.py",
+      "selector_matches": true,
+      "kind": "byte_identity_dependency",
+      "reviewed_ranges": []
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/kernel.py",
+      "bytes": 19042,
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+      "lines": null,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/kernel.py",
+      "selector_matches": true,
+      "kind": "byte_identity_dependency",
+      "reviewed_ranges": []
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/kernel.py",
+      "bytes": 19042,
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+      "lines": null,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/kernel.py",
+      "selector_matches": true,
+      "kind": "byte_identity_previously_reviewed_dependency",
+      "reviewed_ranges": []
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/high_window_core.py",
+      "bytes": 1966,
+      "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+      "lines": null,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/high_window_core.py",
+      "selector_matches": true,
+      "kind": "byte_identity_dependency",
+      "reviewed_ranges": []
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/high_window_core.py",
+      "bytes": 1966,
+      "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+      "lines": null,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/high_window_core.py",
+      "selector_matches": true,
+      "kind": "byte_identity_previously_reviewed_dependency",
+      "reviewed_ranges": []
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/direct_gaussian_support.py",
+      "bytes": 5306,
+      "sha256": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57",
+      "lines": null,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/direct_gaussian_support.py",
+      "selector_matches": true,
+      "kind": "byte_identity_dependency",
+      "reviewed_ranges": []
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/direct_gaussian_support.py",
+      "bytes": 5306,
+      "sha256": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57",
+      "lines": null,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/direct_gaussian_support.py",
+      "selector_matches": true,
+      "kind": "byte_identity_previously_reviewed_dependency",
+      "reviewed_ranges": []
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/finite_binomial_core.py",
+      "bytes": 3510,
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+      "lines": null,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/finite_binomial_core.py",
+      "selector_matches": true,
+      "kind": "byte_identity_dependency",
+      "reviewed_ranges": []
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/finite_binomial_core.py",
+      "bytes": 3510,
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+      "lines": null,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/finite_binomial_core.py",
+      "selector_matches": true,
+      "kind": "byte_identity_previously_reviewed_dependency",
+      "reviewed_ranges": []
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/small_index_support.py",
+      "bytes": 2698,
+      "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+      "lines": null,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/small_index_support.py",
+      "selector_matches": true,
+      "kind": "byte_identity_dependency",
+      "reviewed_ranges": []
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/small_index_support.py",
+      "bytes": 2698,
+      "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+      "lines": null,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/small_index_support.py",
+      "selector_matches": true,
+      "kind": "byte_identity_previously_reviewed_dependency",
+      "reviewed_ranges": []
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/heat_support50.py",
+      "bytes": 4726,
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+      "lines": null,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/heat_support50.py",
+      "selector_matches": true,
+      "kind": "byte_identity_dependency",
+      "reviewed_ranges": []
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/heat_support50.py",
+      "bytes": 4726,
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+      "lines": null,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/heat_support50.py",
+      "selector_matches": true,
+      "kind": "byte_identity_previously_reviewed_dependency",
+      "reviewed_ranges": []
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/product_endpoint34.py",
+      "bytes": 787,
+      "sha256": "158bf7a2fbe50693880baef3bec50b2c0c362881648348b42b4984408916ff15",
+      "lines": null,
+      "selector_key": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/product_endpoint34.py",
+      "selector_matches": true,
+      "kind": "byte_identity_dependency",
+      "reviewed_ranges": []
+    }
+  ],
+  "exact_byte_edges": [
+    {
+      "left": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/candidate_below40.py",
+      "right": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/candidate_below40.py",
+      "kind": "exact_bytes",
+      "sha256": "9880ea10c8dbafa220bb77fc4eb3fb2196a13a97fed80940d72c6627a75195ca",
+      "equal": true
+    },
+    {
+      "left": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/contracted_kernel.py",
+      "right": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/contracted_kernel.py",
+      "kind": "exact_bytes",
+      "sha256": "b216161eec801c96a77df81fb77771e86e6ab55f0fc1b14cd2428508191a3dfc",
+      "equal": true
+    },
+    {
+      "left": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/paired_extended.py",
+      "right": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/paired_extended.py",
+      "kind": "exact_bytes",
+      "sha256": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998",
+      "equal": true
+    },
+    {
+      "left": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/signed_variance_resource.py",
+      "right": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/signed_variance_resource.py",
+      "kind": "exact_bytes",
+      "sha256": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8",
+      "equal": true
+    },
+    {
+      "left": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/geometric_moment_resource.py",
+      "right": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/geometric_moment_resource.py",
+      "kind": "exact_bytes",
+      "sha256": "19003df46b64f0dcaa459bd0ca4dcb329548d71954d23c31b5305cf6dc5bba04",
+      "equal": true
+    },
+    {
+      "left": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/corrected_phase_callback_extended.py",
+      "right": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/corrected_phase_callback_extended.py",
+      "kind": "exact_bytes",
+      "sha256": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63",
+      "equal": true
+    },
+    {
+      "left": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/kernel.py",
+      "right": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/kernel.py",
+      "kind": "exact_bytes",
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+      "equal": true
+    },
+    {
+      "left": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/high_window_core.py",
+      "right": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/high_window_core.py",
+      "kind": "exact_bytes",
+      "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+      "equal": true
+    },
+    {
+      "left": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/direct_gaussian_support.py",
+      "right": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/direct_gaussian_support.py",
+      "kind": "exact_bytes",
+      "sha256": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57",
+      "equal": true
+    },
+    {
+      "left": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/finite_binomial_core.py",
+      "right": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/finite_binomial_core.py",
+      "kind": "exact_bytes",
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+      "equal": true
+    },
+    {
+      "left": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/small_index_support.py",
+      "right": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/small_index_support.py",
+      "kind": "exact_bytes",
+      "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+      "equal": true
+    },
+    {
+      "left": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/heat_support50.py",
+      "right": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/heat_support50.py",
+      "kind": "exact_bytes",
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+      "equal": true
+    },
+    {
+      "left": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/initial_core33.py",
+      "right": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/initial_global34.py",
+      "kind": "exact_bytes",
+      "sha256": "ae4bfe43de517cb65468cdcc4e0931362dafc4c60fd5d8a827f3fb7a60355ed8",
+      "equal": true
+    },
+    {
+      "left": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/initial_asymmetric34.py",
+      "right": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/initial_local35.py",
+      "kind": "exact_bytes",
+      "sha256": "d6c518f1ea53333d434f5e8311042571cc0f3a27d2fd09ecd3fb4e4255664931",
+      "equal": true
+    },
+    {
+      "left": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/product_endpoint34.py",
+      "right": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/product_endpoint34.py",
+      "kind": "exact_bytes",
+      "sha256": "158bf7a2fbe50693880baef3bec50b2c0c362881648348b42b4984408916ff15",
+      "equal": true
+    }
+  ],
+  "function_ast_edges": [
+    {
+      "function": "central_bound",
+      "selected_member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/contracted_kernel.py",
+      "reference_archive": "cutoff25_20261011.zip",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/contracted_kernel.py",
+      "reference_file_sha256": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0",
+      "function_ast_sha256": "9638806a78e8985b864b57480d5d46ef24eaa7120168bd9fc41d7aebc224d887",
+      "equal": true,
+      "existing_argument": "proof/code_general_cell_atlas_audit.md"
+    },
+    {
+      "function": "quadratic_extrema",
+      "selected_member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/contracted_kernel.py",
+      "reference_archive": "cutoff25_20261011.zip",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/contracted_kernel.py",
+      "reference_file_sha256": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0",
+      "function_ast_sha256": "234d4c75a0d16aec6dfc2f699840ad08b32ea8c2720d0b4636d452d4dd3cd672",
+      "equal": true,
+      "existing_argument": "proof/code_general_cell_atlas_audit.md"
+    },
+    {
+      "function": "signed_k_error",
+      "selected_member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/contracted_kernel.py",
+      "reference_archive": "cutoff25_20261011.zip",
+      "reference_member": "cutoff25_20261011/new_root/resource25_b3_v1/contracted_kernel.py",
+      "reference_file_sha256": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0",
+      "function_ast_sha256": "f0df49e9fc17c663319cc8355f90513fe393874db3d7b5313704e549970970c4",
+      "equal": true,
+      "existing_argument": "proof/code_general_cell_atlas_audit.md"
+    }
+  ],
+  "declared_projection": {
+    "selected_initial35_global_stage": "initial_global35.py",
+    "reference": "initial_global34.py",
+    "only_changed_stage_gate": "incoming D<4 changed to D<6 with explanatory message",
+    "normalized_stage_ast_equal_after_that_change": true,
+    "mathematical_license": "rho>=1 gives .4095*rho-D/15>.0095; all remaining positive gates retained"
+  },
+  "completed_scope": [
+    "selected33/34 full INITIAL and resource caller integration, product floor and full closed100-row acquisition implication",
+    "selected central35 global/asymmetric-local seeds, support-before-moment order, six charged corners and joint/direct contract transfer",
+    "conditional sharp35 final100-panel union rule; no low/complement kernel implication imported by status"
+  ],
+  "remaining": [
+    "Prior scalar/attainment/contact and imported numerical bounds retain separate obligations",
+    "Complete selected count source-instance integrations and fresh arithmetic are not acquired here",
+    "Distinct LOW35 and complement35 resource callback soundness not proved by this central35 unit",
+    "Whole n25 selected-input union (13 inventory records, not13 disjoint regions) and C4/C5/lower-index joins remain separate units"
+  ]
+}

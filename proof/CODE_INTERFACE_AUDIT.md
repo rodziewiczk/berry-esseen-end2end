@@ -284,3 +284,46 @@ confirmed the readonly manuscript hash. These checks execute no original
 mathematics and do not acquire numerical gates or physical predecessors.
 Distinct anchor45/prop46and other enabled positive profiles remain the next
 bounded source/instance audit; global logical composition remains open.
+
+The following [positive-ladder/global-composition unit](code_positive_ladder_composition_audit.md)
+reads32actual selector-matched members, including the distinct unsigned
+INITIALcell and the actual older HIGH installation. It derives the finite
+1.5and.7ladder prerequisites, corrected single-index A46 and the independent49
+base/least-failure route. The current mathematical route needs a finite.7
+prefix through50, rather than the historical stronger cutoff99/LOCAL95claim.
+No proof gate or selected arithmetic job is removed by that distinction.
+Root read the note and checked all32original member/final-selector hashes
+and the unchanged manuscript. The note's explicit remaining boundary includes
+indexed40--42instances, positive33--35/product-v2integration, the full selected
+n25union and the physical C4/C5/lower-index joins. Those are concrete remaining
+source/analytic integrations, not just unexecuted notebooks. No invalid selected
+implication was found in this bounded source review; global verification is
+still false.
+
+The next [selected positive33/34/central35 unit](code_positive34_acquisition_audit.md)
+reads61actual selector-matched sources,15exact byte identities and three
+function-AST identities. It derives the product endpoint seed including atomic
+laws, asymmetric signed support/moment updates, the harmonic theta cap and
+coherent actual-score charge at the .40974kink. Root read the whole unit and
+rechecked all source/selector/identity edges against the actual archives. Three
+metadata reference paths were corrected to their actual `new_root/` members
+before publication. Distinct LOW35/complement and other literal instances remain
+separate; no mathematical kernel was imported or executed.
+
+The [actual n25 global-union review](code_n25_global_union_audit.md) follows
+13source members against the34269-entry historical final source graph and
+reads ten additional historical metadata rows without accepting their results.
+The selection's13input records include scalar/review and overlapping-union
+records; they are not13disjoint regions. The unit derives the complete closed
+rho/beta cover, both same-witness predecessor mechanisms and mixed B5 accounting.
+No missing seam or circular sharp24premise was identified in this conditional
+union. The enabled component implications and actual fresh semantic joins
+remain concrete separate obligations.
+
+The [ROOT4 outer-cover review](code_root4_closed_cover_audit.md) compares eight
+actual11source members with the vendor function/class ASTs and reads complete
+receipt metadata. It checks canonical geometry, strict-cap emptiness, every
+closed four-child cover, each LOW/HIGH cutoff and selection of whole valid
+bounds. A second internal agent cross-read found no mismatch; the standardized
+iid and |X|<=17/4support premises are explicit. This does not derive the inner
+A1/Gamma/V7/CF/quadrature/Cantelli portfolios or establish all-law C4.

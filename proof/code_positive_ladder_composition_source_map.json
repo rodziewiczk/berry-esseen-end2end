@@ -1,0 +1,478 @@
+{
+  "schema": "POSITIVE_LADDER_GLOBAL_COMPOSITION_INTERNAL_AUDIT_V1",
+  "review_status": "Fallible internal AI source and hand-algebra review; not external/formal verification",
+  "archive": {
+    "basename": "closure31.zip",
+    "previous_transport_sha256": "68eb555e08ee7509f9d136df6fae5e354aff816ec4f77cc8426698c479b205a0",
+    "transport_hash_repeated_here": false
+  },
+  "selector": {
+    "member": "continuation_20261010/repair31/EVENTUAL_CUTOFF31_COMPOSED.json",
+    "sha256": "33c73b3bd4c8cb25cedb6c9c8ce3768608db18f1f65932a0fcd6bb468c2b51b9",
+    "mapped_files": 9518,
+    "fully_reproduced_historical_dependency_DAG": false
+  },
+  "manuscript": {
+    "basename": "berry_esseen_manuscript.tex",
+    "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+    "read_ranges": [
+      "2948-3107",
+      "3230-3276",
+      "3465-3608",
+      "7342-7448",
+      "7464-7644"
+    ]
+  },
+  "members": [
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/entry/accept_signed_entry.py",
+      "bytes": 3969,
+      "sha256": "bf95a88d58553e7fc939f0d94dac548a51055ed7168459adcd37dc7a43d647fc",
+      "selector_sha256": "bf95a88d58553e7fc939f0d94dac548a51055ed7168459adcd37dc7a43d647fc",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-67 actual two fixed profiles and ordered full replay semantics"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/entry/signed_core.py",
+      "bytes": 7764,
+      "sha256": "dd3fb3b4c89792a5cc4ffce5c211ecb585d196738e43f027eaa57393da48e380",
+      "selector_sha256": "dd3fb3b4c89792a5cc4ffce5c211ecb585d196738e43f027eaa57393da48e380",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-136 actual signed-stage identity and high_refinement install route; prior moment argument reused"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/entry/high_refinement.py",
+      "bytes": 946,
+      "sha256": "bfdfeb88b95a44a738f087410054b5740e8b9df9913c3f28174fc2bee370b37c",
+      "selector_sha256": "bfdfeb88b95a44a738f087410054b5740e8b9df9913c3f28174fc2bee370b37c",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-25 base HIGH captured before install, one zero-core replacement, derivative gate"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/entry/kernel.py",
+      "bytes": 19042,
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+      "selector_sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+      "selector_match": true,
+      "kind": "source",
+      "review": "46-62 base six-piece HIGH;63-83 prior triangle LOW;100-177 full unsigned initial_cell hand derivation; other functions use prior source arguments"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/entry/anchor40_proof.tex",
+      "bytes": 2796,
+      "sha256": "92c708f051d5d70b4a5f434dd1e8afabd045cf68f5baa6e5d392851a0d69fe37",
+      "selector_sha256": "92c708f051d5d70b4a5f434dd1e8afabd045cf68f5baa6e5d392851a0d69fe37",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-57 supported anchor assumptions and named exact contract; no old run acceptance"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/root/propagation/accept_ceiling40.py",
+      "bytes": 5940,
+      "sha256": "29db497ea2385115741bd9d669f475d7a0ddaf8dc1c47fc194ba0a181959da23",
+      "selector_sha256": "29db497ea2385115741bd9d669f475d7a0ddaf8dc1c47fc194ba0a181959da23",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-103 fixed anchor/three finite bands; restricted finite consequence and old99 boundary"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/root/propagation/accept_anchor40.py",
+      "bytes": 4611,
+      "sha256": "8e78b88ad5d416e4092fbc77bedec94eed014815e1a677607a8c6dfe8b5f5e2e",
+      "selector_sha256": "8e78b88ad5d416e4092fbc77bedec94eed014815e1a677607a8c6dfe8b5f5e2e",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-74 named actual40 contract, raw-first normalization and fixed five stages"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/root/propagation/chain_core.py",
+      "bytes": 3978,
+      "sha256": "69a7ef4077fdc68be7abd19db0a1a67bebc60e184acfa6ab0a78e5c2804fd810",
+      "selector_sha256": "69a7ef4077fdc68be7abd19db0a1a67bebc60e184acfa6ab0a78e5c2804fd810",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-66 actual positive-barrier universal/initial/general paths;68-72 ENTRY95 export identified outside minimal route"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/root/propagation/kernel.py",
+      "bytes": 19042,
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+      "selector_sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+      "selector_match": true,
+      "kind": "source",
+      "review": "30-45,46-83,100-177 selected constant/HIGH/LOW/unsigned initial routes; actual byte identity to prior kernel"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/root/propagation/high_refinement.py",
+      "bytes": 946,
+      "sha256": "bfdfeb88b95a44a738f087410054b5740e8b9df9913c3f28174fc2bee370b37c",
+      "selector_sha256": "bfdfeb88b95a44a738f087410054b5740e8b9df9913c3f28174fc2bee370b37c",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-25 same active rational zero-core replacement"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/root/propagation/fifth_heat50.py",
+      "bytes": 3317,
+      "sha256": "09a6e27ef42847cef0ac258504546eaef3a3035e83171143f1c2fd848736ac6c",
+      "selector_sha256": "09a6e27ef42847cef0ac258504546eaef3a3035e83171143f1c2fd848736ac6c",
+      "selector_match": true,
+      "kind": "source",
+      "review": "Actual identity to prior all-H fifth-heat proof; numeric signs not evaluated"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/root/propagation/heat_support50.py",
+      "bytes": 4726,
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+      "selector_sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+      "selector_match": true,
+      "kind": "source",
+      "review": "Actual identity to prior all-H support primitive; numeric signs not evaluated"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/root/propagation/ceiling40.tex",
+      "bytes": 3059,
+      "sha256": "0fcdd6c5e7c81dcfa25ebb6628c6b75b55586e00ac418079399cdecbcc18b8f0",
+      "selector_sha256": "0fcdd6c5e7c81dcfa25ebb6628c6b75b55586e00ac418079399cdecbcc18b8f0",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-68 unrestricted first-failure explanation and explicit imported99 boundary"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/root/predecessor_score_cap.tex",
+      "bytes": 2382,
+      "sha256": "143f726d49a21c4d21666627820d612c43a6f04c6aa69df8ed72e2e1cb460f50",
+      "selector_sha256": "143f726d49a21c4d21666627820d612c43a6f04c6aa69df8ed72e2e1cb460f50",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-59 complete all-law smoothing recurrence and first-failure cap"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/root/accept_predecessor_score_cap.py",
+      "bytes": 1796,
+      "sha256": "4e02b01c4863ce6c148ab9f305c7524db6ebd9a2d21fb9dd6428bc4b43ea6589",
+      "selector_sha256": "4e02b01c4863ce6c148ab9f305c7524db6ebd9a2d21fb9dd6428bc4b43ea6589",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-31 outward independent root directions and scalar interface; no scalar function execution"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/root/ceiling45_and_cutoff98.tex",
+      "bytes": 3418,
+      "sha256": "4490a682b509f1a546a5d9d8a5190afd266f83251faeaa58101f466a6555ba9b",
+      "selector_sha256": "4490a682b509f1a546a5d9d8a5190afd266f83251faeaa58101f466a6555ba9b",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-83 finite anchor/propagation route and separate old99/LOCAL95 ancestry"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/root/accept_ceiling45_composition.py",
+      "bytes": 4675,
+      "sha256": "e37089e10487a8d5fa594d758b8b6fc88132d16c68f413f78cf70991a638275d",
+      "selector_sha256": "e37089e10487a8d5fa594d758b8b6fc88132d16c68f413f78cf70991a638275d",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-105 finite scalar/interface bookkeeping; historical dependency checking is not current acceptance"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/entry/barrier46_corrected_core.py",
+      "bytes": 2820,
+      "sha256": "34b1aced8b057932259f3cebb860633542797b8f9ae2bc00065011c6a41b6d18",
+      "selector_sha256": "34b1aced8b057932259f3cebb860633542797b8f9ae2bc00065011c6a41b6d18",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-58 actual corrected single-index profile; all function bodies compared under exact N=L score-floor alias"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/entry/accept_barrier46_corrected.py",
+      "bytes": 5454,
+      "sha256": "8e6fc22e1c29ec64195ab7fafea159763e9596e01acd373248c2dff24277386b",
+      "selector_sha256": "8e6fc22e1c29ec64195ab7fafea159763e9596e01acd373248c2dff24277386b",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-87 complete typed7-stage full replay mechanism and stated physical scope"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/entry/barrier46_proof.tex",
+      "bytes": 7680,
+      "sha256": "0cd7c7d6f855984f209ac5b282292ceeb37d70d2b96f9600b5d231b08f88214f",
+      "selector_sha256": "0cd7c7d6f855984f209ac5b282292ceeb37d70d2b96f9600b5d231b08f88214f",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-164 actual one-law signed correction, cap/support sequence and source contract"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/root/accept_support46.py",
+      "bytes": 2142,
+      "sha256": "b4249384a60e54c2e52e7cfc4b27aefbccc130cbf1358d6e2f7c545a6750a730",
+      "selector_sha256": "b4249384a60e54c2e52e7cfc4b27aefbccc130cbf1358d6e2f7c545a6750a730",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-33 actual support prerequisite n46,K.54,R3.4,q79/450, closed22cell/ray scope"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/audit/check_support46_independent.py",
+      "bytes": 5581,
+      "sha256": "7e5531c15f9a277ca7eb0bad44582de99b95a1b66d1c2211824d69f8156f3531",
+      "selector_sha256": "7e5531c15f9a277ca7eb0bad44582de99b95a1b66d1c2211824d69f8156f3531",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-127 alternate interpolation path read; numerical evaluation not performed; prior finite bridge derivation referenced"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/entry/barrier42_48_core.py",
+      "bytes": 2832,
+      "sha256": "d214fb85b983245be4e5bf7ca3d7598e3c8e4007e6e9c5068e92aaaef386541f",
+      "selector_sha256": "d214fb85b983245be4e5bf7ca3d7598e3c8e4007e6e9c5068e92aaaef386541f",
+      "selector_match": true,
+      "kind": "source",
+      "review": "Previously fully read reference function ASTs; no new core proof claimed"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/root/positive34_join/check_positive34.py",
+      "bytes": 6922,
+      "sha256": "c311dd3c8b90754d846223b77455c32b93fd7d95fd434509506775f1666d65f7",
+      "selector_sha256": "c311dd3c8b90754d846223b77455c32b93fd7d95fd434509506775f1666d65f7",
+      "selector_match": true,
+      "kind": "source",
+      "review": "41-57 only: actual selected product-v2 resource binding and literal n34/K identity"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/accept_acquisition34_product_v2.py",
+      "bytes": 8007,
+      "sha256": "d070d3259c3bd4284668d82f3970e1504a070c1e6199ff4846b4c31788e7cfe1",
+      "selector_sha256": "d070d3259c3bd4284668d82f3970e1504a070c1e6199ff4846b4c31788e7cfe1",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-104 actual selected full replay/route dispatch; upstream INITIAL truth and full interface not acquired"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/route34_core.py",
+      "bytes": 5245,
+      "sha256": "b4266bf5c7c89a19496a656e452cd9e262063aa4afc9bc7417142841be8a77ff",
+      "selector_sha256": "b4266bf5c7c89a19496a656e452cd9e262063aa4afc9bc7417142841be8a77ff",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-132 source read;40-84 isolated support ordering/harmonic-noise implication hand-checked; complete parent/contract acquisition remains open"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/product_endpoint34.py",
+      "bytes": 787,
+      "sha256": "158bf7a2fbe50693880baef3bec50b2c0c362881648348b42b4984408916ff15",
+      "selector_sha256": "158bf7a2fbe50693880baef3bec50b2c0c362881648348b42b4984408916ff15",
+      "selector_match": true,
+      "kind": "source",
+      "review": "1-17 complete endpoint-product seed proof checked by hand"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/entry/anchor45_signed_proof.json",
+      "bytes": 1438,
+      "sha256": "cd9221c51e84e79bd4a69cff5f02baf74063d267efe3b743fcea26c299c0dac2",
+      "selector_sha256": "cd9221c51e84e79bd4a69cff5f02baf74063d267efe3b743fcea26c299c0dac2",
+      "selector_match": true,
+      "kind": "historical_candidate_metadata",
+      "review": "Fixed schedule/profile/census only; numerical truth not accepted"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/entry/prop46_signed_proof.json",
+      "bytes": 1550,
+      "sha256": "9f2597738a15873a35fe4e748a2b757c667947dd0302d0dde5038480cd92a96e",
+      "selector_sha256": "9f2597738a15873a35fe4e748a2b757c667947dd0302d0dde5038480cd92a96e",
+      "selector_match": true,
+      "kind": "historical_candidate_metadata",
+      "review": "Fixed schedule/profile/census only; numerical truth not accepted"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/root/propagation/anchor40_proof.json",
+      "bytes": 890,
+      "sha256": "b08166c62ef30fcf8f5fb96b546866666f6eda04d21c2c09d8b35ec31ed28ef4",
+      "selector_sha256": "b08166c62ef30fcf8f5fb96b546866666f6eda04d21c2c09d8b35ec31ed28ef4",
+      "selector_match": true,
+      "kind": "historical_candidate_metadata",
+      "review": "Fixed schedule/profile/census only; numerical truth not accepted"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/root/propagation/propagation40_proof.json",
+      "bytes": 2593,
+      "sha256": "f5de8842e91326b9fad9bb4fb0c341926d95e63d36f3ae8d784a976ae8ddb008",
+      "selector_sha256": "f5de8842e91326b9fad9bb4fb0c341926d95e63d36f3ae8d784a976ae8ddb008",
+      "selector_match": true,
+      "kind": "historical_candidate_metadata",
+      "review": "Fixed schedule/profile/census only; numerical truth not accepted"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/entry/barrier46_corrected_proof.json",
+      "bytes": 1236,
+      "sha256": "4ad8976fb06cb665e05f0c44df849774d978e2bd1dcaf47f84744f4ac53285d6",
+      "selector_sha256": "4ad8976fb06cb665e05f0c44df849774d978e2bd1dcaf47f84744f4ac53285d6",
+      "selector_match": true,
+      "kind": "historical_candidate_metadata",
+      "review": "Fixed schedule/profile/census only; numerical truth not accepted"
+    }
+  ],
+  "byte_identity_edges": [
+    {
+      "actual": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/entry/kernel.py",
+      "reference": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/root/propagation/kernel.py",
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+      "byte_identical": true
+    },
+    {
+      "actual": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/entry/signed_core.py",
+      "reference": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below49_20261006/entry/signed_core.py",
+      "sha256": "dd3fb3b4c89792a5cc4ffce5c211ecb585d196738e43f027eaa57393da48e380",
+      "byte_identical": true
+    },
+    {
+      "actual": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/entry/high_refinement.py",
+      "reference": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/root/propagation/high_refinement.py",
+      "sha256": "bfdfeb88b95a44a738f087410054b5740e8b9df9913c3f28174fc2bee370b37c",
+      "byte_identical": true
+    },
+    {
+      "actual": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/entry/kernel.py",
+      "reference": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/entry/kernel.py",
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+      "byte_identical": true
+    },
+    {
+      "actual": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/entry/signed_core.py",
+      "reference": "BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/entry/signed_core.py",
+      "sha256": "dd3fb3b4c89792a5cc4ffce5c211ecb585d196738e43f027eaa57393da48e380",
+      "byte_identical": true
+    }
+  ],
+  "A46_function_projection": {
+    "functions": [
+      "signed_stage",
+      "paired_allowed",
+      "probability_stage"
+    ],
+    "other_function_ASTs_equal": true,
+    "sole_probability_difference": {
+      "actual": "BinOp(left=Call(func=Name(id='F', ctx=Load()), args=[Constant(value='.4095')], keywords=[]), op=Add(), right=BinOp(left=Name(id='K', ctx=Load()), op=Div(), right=Name(id='n', ctx=Load())))",
+      "reference": "BinOp(left=Call(func=Name(id='F', ctx=Load()), args=[Constant(value='.4095')], keywords=[]), op=Add(), right=BinOp(left=Name(id='K', ctx=Load()), op=Div(), right=Subscript(value=Name(id='P', ctx=Load()), slice=Constant(value='nmax'), ctx=Load())))"
+    },
+    "license": "Fixed profile N=L=46; n and P[nmax] both equal46",
+    "equal_after_one_declared_projection": true
+  },
+  "historical_candidate_census_only": {
+    "anchor40_steps": 5,
+    "propagation_bands": [
+      {
+        "name": "PROPAGATE_41_49",
+        "steps": 6
+      },
+      {
+        "name": "PROPAGATE_50_69",
+        "steps": 5
+      },
+      {
+        "name": "PROPAGATE_70_98",
+        "steps": 4
+      }
+    ],
+    "anchor45_steps": 12,
+    "prop46_steps": 13,
+    "A46_steps": 7,
+    "A46_signed_stages": 4,
+    "A46_probability_stages": 3
+  },
+  "minimal_current_tail_route": [
+    {
+      "id": "A40",
+      "scope": "actual40,K1.5",
+      "predecessor": "universal C39<=.469",
+      "owncap": ".469"
+    },
+    {
+      "id": "P41",
+      "scope": "original41..49 restricted through45,K1.5",
+      "predecessor": "first failure after40",
+      "owncap": ".469"
+    },
+    {
+      "id": "A45",
+      "scope": "actual45,K.7",
+      "predecessor": "finite1.5 at44,45",
+      "owncap": ".4431"
+    },
+    {
+      "id": "P46",
+      "scope": "original46..98 restricted through50,K.7",
+      "predecessor": "first failure after45; smoothing",
+      "owncap": ".432"
+    },
+    {
+      "id": "A46",
+      "scope": "actual46,K.54",
+      "predecessor": "finite.7 at45,46",
+      "owncap": ".42496"
+    },
+    {
+      "id": "BASE49",
+      "scope": "local47 at47,48,49",
+      "predecessor": "finite.7 and A46",
+      "requires_uniform_complete_same_law_local_cover": true
+    },
+    {
+      "id": "TAIL50_PLUS",
+      "scope": "least failure after49",
+      "predecessor": "sharp49 plus finite48 for second-deleted boundary",
+      "requires_uniform_complete_same_law_local_cover": true
+    }
+  ],
+  "historical_ancestors_not_needed_for_restricted_current_tail": [
+    "cutoff99",
+    "ENTRY95",
+    "LOCAL95",
+    "finite1.5 propagation50..69 and70..98"
+  ],
+  "remaining_source_integrations": [
+    {
+      "edge": "indexed40/41/42 local acquisition/comparison",
+      "boundary": "Earlier exact domain/closed union read; complete actual kernel/normalization/parent interface instance mapping not closed by this unit"
+    },
+    {
+      "edge": "positive34 product-v2",
+      "selected_join": "BE_cutoff35_release_20261007/work/below40_20261007/root/positive34_join/check_positive34.py",
+      "selected_binding": "check_resources34_v2.py",
+      "isolated_arguments_checked": [
+        "endpoint-product seed",
+        "exact-n34 harmonic variance cap"
+      ],
+      "boundary": "Full asymmetric INITIAL34/product-v2 source-parent-contract integration still open"
+    },
+    {
+      "edge": "positive33/35 acquisition ancestors",
+      "boundary": "Actual distinct callbacks and instance domain joins need complete source mapping; engine identity alone is insufficient"
+    },
+    {
+      "edge": "n25 whole selected-input union (13 inventory records, not13 disjoint regions)",
+      "boundary": "Current7/retained75 conditional results do not cover all selected regional resource/count interfaces and union"
+    },
+    {
+      "edge": "C4/C5 and increasing6..30",
+      "boundary": "Outside this tail unit; physical all-law joins and exact instance coverage remain separately required"
+    },
+    {
+      "edge": "primary literature and global lower bound",
+      "boundary": "Statement/normalization and direct selected proofs do not imply full primary-text review of all imports"
+    }
+  ],
+  "reviewed_implications": [
+    "Actual unsigned initial-cell generic event, radial/signed K, constants, beta bisection and continuous score endpoint directions",
+    "Base six-piece HIGH plus one rational zero-core replacement kept distinct from HIGH_WINDOW installation",
+    "Positive-K/raw/conserved ordered normalization, including negative terminal sign use",
+    "Acyclic finite1.5 then.7 prefixes and corrected A46 owncap/decrement/support route",
+    "Current independent49/least-failure global tail needs no old99/LOCAL95 theorem",
+    "Remaining concrete finite acquisition/union boundaries are not silently arithmetic-only"
+  ],
+  "mathematical_modules_executed": false,
+  "numerical_acceptance": false,
+  "parent_acquisitions_verified": false,
+  "all_index_conclusion_verified": false
+}

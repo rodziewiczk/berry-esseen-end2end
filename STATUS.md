@@ -44,8 +44,16 @@ feedback/profile cover, and identify the actual .4247cap licensing the
 N42central exterior scale term. A further27-member finite positive-barrier
 review derives the live29/5coarse bootstrap, positive-K charging and four
 literal finite profiles. Root read the derivations and checked every member
-against the original final selector. Distinct anchor45/prop46 instances,
-physical predecessor acquisition and all-law/global joins remain open.
+against the original final selector. The following32-member positive-ladder
+unit reviews anchor45/prop46 and the current finite-prefix/independent49route.
+A61-member positive33/34/central35 unit follows selected INITIAL, product seeds
+and same-law resource transfer. The actual n25 final union is reviewed as a
+conditional implication, including closed seams and same-law predecessor
+allowances. Root checked the actual source/selector pins and manuscript.
+The eight-member ROOT4 outer-cover unit checks whole-parent/all-four-child
+composition against the actual11source capsule, with an internal cross-read.
+Distinct component acquisitions, inner ROOT4 portfolio soundness and the
+remaining all-law/global joins are still explicit open obligations.
 
 ## Execution snapshot
 
@@ -68,18 +76,19 @@ Log completion is not independent bundle validation.
 |22|Complete26-stage stronger24 B5 BASIC log,2444leaves; actual final export remains to revalidate.|
 |23|Actual supplied run log reports all9exports revalidated and CONDITIONAL_FRESH_NUMERIC_CHAIN_VERIFIED,83forests/76088leaves; final collector ZIP saved. Analytic/universal/full-theorem flags remain false.|
 |24|Supplied completed log records all9exports revalidated and7/7interfaces, final CONDITIONAL_SEVEN_N25_COUNT_INTERFACES_VERIFIED and saved ZIP. This is not the full n25 union.|
-|26--28|26has a completed17/17-forest log,12985leaves, with export readback separate.27/28are in the user's active queue; no completion inferred.|
+|26--28|26has a completed17/17-forest log,12985leaves;27now completes35/35forests,47946leaves and saves its final ZIP.28continues. Actual final export readbacks and mathematical parent/global joins remain separate.|
 |29--34|32/33/34have completed16/7/6-forest scoped native logs (25257/2446/4246leaves), with export readback separate.29--31are in the user's active queue. No other completion inferred.|
 |35|V2actual saved notebook confirms27fixtures passed including Linux exec regression, then support and HIGH completed. Owncaps was ongoing at20:12UTC. No326-job batch completion inferred.|
 |36|Actual completed B0 export revalidated: both INITIAL/resource stages, unchanged source/capture/receipt bindings and all17exact resource-to-contract interfaces. BASIC conditional scope retained; count acceptance and full theorem remain separate.|
 |37|Actual completed B1 export revalidated:4/4actions, source/capture/receipt bindings and all35exact resource-to-contract interfaces. BASIC conditional scope retained.|
 |38|Actual completed B2 export and Drive sidecar revalidated:4/4fresh actions, preserved source/capture/receipt bindings and all23exact interfaces. B012actualparent interfaces now cover17+35+23=75edges, still conditional.|
 |39|Actual completed lower-B5 export revalidated: both full INITIAL/resource acceptances, fresh receipt/source/capture bindings. BASIC conditional scope retained; local/mixed/count interfaces remain separate.|
-|40--43|Full conditional count lanes for literaln6--9:284forests/2362roots/257089leaves. Supplied41/42/43logs complete72/64/58forests and save final ZIPs.40is in the user's active queue. Actual final count exports/parent joins remain separate.|
+|40--43|All four supplied count logs now complete90/72/64/58forests and save final ZIPs:284forests/2362roots/257089leaves total for literaln6--9. Actual final count exports/parent joins remain separate.|
 |44/45|Latest44log saves4complete actions then stops on a wrapper underscore-routing defect. Published replacement44retains exact prior completed-evidence compatibility;23root fixtures pass, including four-old-stage reuse.45continues its first full INITIAL under its unchanged pin. No full batch completion assumed.|
-|47/48|Prepared middle-n25 B4/B5 full selected acquisition lanes:14/12actions,169/89source inputs.19synthetic fixtures, actual source-only preparation and26historical JSON schema readbacks pass. No fresh Colab arithmetic assumed.|
-|49|Prepared upper high-beta3 full acquisition lane:14actions,94originalinputs/95epochinputs. Actual source-only preparation and13syntheticfixtures pass; internal peer source/transport review completed. No actual Colab arithmetic assumed.|
-|50--55|Five source-complete COUNT lanes50/51/52/54/55are prepared:929forests total. All1008available candidates have source/topology metadata, with one required missing n27/p41tree keeping53blocked at79/80.41root infrastructure fixtures pass in22.514s; no fresh arithmetic assumed.|
+|47/48|Both supplied middle-n25 B4/B5 logs complete14/12full selected acquisition actions and save final ZIPs with conditional_middle_acquisition_arithmetic_complete. Actual final export readback, interfaces32/33and regional/global joins remain separate.|
+|49|Supplied completed log confirms14/14full high-beta3 acquisition actions and final saved bundle, conditional_high_beta3_acquisition_arithmetic_complete. Actual final export readback, count interfaces and regional theorem remain separate.|
+|50--55|Five source-complete COUNT lanes50/51/52/54/55are published and delivered:929forests total. All five private Drive files match local bytes. One required missing n27/p41tree keeps53blocked at79/80.41root infrastructure fixtures pass in22.514s; no fresh arithmetic assumed.|
+|64|Original n27/p41alpha4 construction plus full fresh acceptance is published and delivered;43original files/160351bytes and19root synthetic fixtures checked. Private Drive bytes match the pinned notebook. This new conditional candidate epoch alone cannot make53ready: its same-contract semantic replacement join remains separate. No original mathematics was run locally.|
 
 The new packages preserve previous numerical drivers and notebook identities.
 Literal-index6--24/26--48 packaging, other n25 acquisitions and unresolved

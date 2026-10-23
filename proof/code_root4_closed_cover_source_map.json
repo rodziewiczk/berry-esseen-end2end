@@ -1,0 +1,225 @@
+{
+  "actual_completed_receipt": {
+    "bytes": 36903389,
+    "closure_route_counts": {
+      "ALL_FOUR_COMPLETE_CHEAP_CLOSED_CHILDREN": 43,
+      "ALL_FOUR_COMPLETE_CHILD_PORTFOLIOS": 34,
+      "DIRECT_COMPLETE_CHEAP_PARENT": 183
+    },
+    "geometry_classes": 260,
+    "sha256": "571bc91b257ac53c640dd3bee91377565ff7c475091d39076295200209beeae1",
+    "source_pins": 70,
+    "unresolved_geometry_classes": 0
+  },
+  "all_index_conclusion_verified": false,
+  "all_law_C4_verified": false,
+  "full_portfolio_kernel_soundness_verified": false,
+  "manuscript_sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+  "mathematical_modules_imported_or_executed": false,
+  "members": [
+    {
+      "actual_receipt_source_sha256": "8d0d4298eaba9f6c9dfeecbb105ddf2e1164e1504f8403bb54b00decd97facfb",
+      "function_and_class_ASTs_identical": true,
+      "functions": 13,
+      "functions_read": [
+        {
+          "end": 93,
+          "name": "root_grid",
+          "start": 81
+        },
+        {
+          "end": 101,
+          "name": "rhoQ_min_square",
+          "start": 96
+        },
+        {
+          "end": 106,
+          "name": "strict_cap_empty",
+          "start": 104
+        },
+        {
+          "end": 117,
+          "name": "upward_strict_cut",
+          "start": 109
+        },
+        {
+          "end": 209,
+          "name": "_frontier_from_fresh_backend",
+          "start": 161
+        }
+      ],
+      "name": "n4_conditional_cantelli_exact_eta_frontier_2026_10_09.py",
+      "vendor_sha256": "8d0d4298eaba9f6c9dfeecbb105ddf2e1164e1504f8403bb54b00decd97facfb"
+    },
+    {
+      "actual_receipt_source_sha256": "397a32a2def85c262f1f9ef534dfcc63d8e8b443ac1605a68c6bdf4f70780e5c",
+      "function_and_class_ASTs_identical": true,
+      "functions": 7,
+      "functions_read": [
+        {
+          "end": 97,
+          "name": "fresh_root_requests",
+          "start": 75
+        }
+      ],
+      "name": "n4_Q3_corrected_global_root_SV_low_eta_controller_2026_10_09.py",
+      "vendor_sha256": "397a32a2def85c262f1f9ef534dfcc63d8e8b443ac1605a68c6bdf4f70780e5c"
+    },
+    {
+      "actual_receipt_source_sha256": "e16285e11f10c144d5278accab1bf8468260543e0243c1ab6ffd53caeded6dbd",
+      "function_and_class_ASTs_identical": true,
+      "functions": 13,
+      "functions_read": [
+        {
+          "end": 123,
+          "name": "fresh_rectangle_request",
+          "start": 103
+        },
+        {
+          "end": 137,
+          "name": "closed_four_children",
+          "start": 126
+        }
+      ],
+      "name": "n4_fresh_Cantelli_linked_normalization_full_root_2026_10_09.py",
+      "vendor_sha256": "e16285e11f10c144d5278accab1bf8468260543e0243c1ab6ffd53caeded6dbd"
+    },
+    {
+      "actual_receipt_source_sha256": "961b912466f793c72d6093e7183c57655f2bf92eb33aa925e17e1380aa537bb8",
+      "function_and_class_ASTs_identical": true,
+      "functions": 6,
+      "functions_read": [
+        {
+          "end": 70,
+          "name": "fresh_whole_request",
+          "start": 64
+        }
+      ],
+      "name": "n4_fresh_modulus_radius_whole_geometry_join_pilot_v4_2026_10_09.py",
+      "vendor_sha256": "961b912466f793c72d6093e7183c57655f2bf92eb33aa925e17e1380aa537bb8"
+    },
+    {
+      "actual_receipt_source_sha256": "6ad87c2f8dc3bca497b6ba8d81afc0932bc059175299c09410ee83d934556cdd",
+      "function_and_class_ASTs_identical": true,
+      "functions": 13,
+      "functions_read": [
+        {
+          "end": 106,
+          "name": "fresh_parent_and_child_requests",
+          "start": 100
+        },
+        {
+          "end": 128,
+          "name": "_checked_high_pair",
+          "start": 113
+        },
+        {
+          "end": 156,
+          "name": "prepare_fresh_high_requests",
+          "start": 131
+        },
+        {
+          "end": 169,
+          "name": "_checked_direct_pairs",
+          "start": 163
+        },
+        {
+          "end": 185,
+          "name": "compact_complete_low_result",
+          "start": 172
+        }
+      ],
+      "name": "n4_fresh_optimized_qnorm_parent_four_child_coordinator_2026_10_09.py",
+      "vendor_sha256": "6ad87c2f8dc3bca497b6ba8d81afc0932bc059175299c09410ee83d934556cdd"
+    },
+    {
+      "actual_receipt_source_sha256": "40f907b67ea7dcc95c7a76034ab92d3ee99aa33ed81b3c1318d5ce4d377a988b",
+      "function_and_class_ASTs_identical": true,
+      "functions": 8,
+      "functions_read": [
+        {
+          "end": 86,
+          "name": "_project_selected_row",
+          "start": 79
+        },
+        {
+          "end": 110,
+          "name": "_project_complete_low_result",
+          "start": 89
+        },
+        {
+          "end": 118,
+          "name": "_project_join_record",
+          "start": 113
+        },
+        {
+          "end": 150,
+          "name": "project_complete_parent_result",
+          "start": 121
+        }
+      ],
+      "name": "n4_fresh_optimized_qnorm_parent_math_projection_2026_10_09.py",
+      "vendor_sha256": "40f907b67ea7dcc95c7a76034ab92d3ee99aa33ed81b3c1318d5ce4d377a988b"
+    },
+    {
+      "actual_receipt_source_sha256": "6ec11db2518d5dc7b07e06a6d44fc219c46acb4171b5dbc1b934e3c2df049f1f",
+      "function_and_class_ASTs_identical": true,
+      "functions": 9,
+      "functions_read": [
+        {
+          "end": 112,
+          "name": "fixed_eta_cells",
+          "start": 106
+        }
+      ],
+      "name": "n4_fresh_signed_A1_CDF_cell_consumer_2026_10_09.py",
+      "vendor_sha256": "6ec11db2518d5dc7b07e06a6d44fc219c46acb4171b5dbc1b934e3c2df049f1f"
+    },
+    {
+      "actual_receipt_source_sha256": "5b4d23da8caa7f919c24ba4bba4f8b71735aead43f99fffc733186f6a04daa7e",
+      "function_and_class_ASTs_identical": true,
+      "functions": 30,
+      "functions_read": [
+        {
+          "end": 251,
+          "name": "_cheap_join_from_pair",
+          "start": 193
+        },
+        {
+          "end": 265,
+          "name": "_optimized_join_from_pair",
+          "start": 254
+        },
+        {
+          "end": 280,
+          "name": "_checked_complete_geometry",
+          "start": 268
+        },
+        {
+          "end": 298,
+          "name": "_select_complete_child",
+          "start": 283
+        },
+        {
+          "end": 347,
+          "name": "_portfolio_summary",
+          "start": 301
+        },
+        {
+          "end": 386,
+          "name": "compute_fresh_parent_portfolio",
+          "start": 350
+        },
+        {
+          "end": 511,
+          "name": "compute_verified_global_root",
+          "start": 389
+        }
+      ],
+      "name": "n4_cpu_time_entire_root_2026_10_09.py",
+      "vendor_sha256": "82b62e0088cd0055b1bc4b33bf3ca92087cafc62ff6396c679a7baf013672c0e"
+    }
+  ],
+  "review_status": "Fallible internal AI source review; not external or formal verification",
+  "schema": "ROOT4_CLOSED_COVER_INTERNAL_SOURCE_AUDIT_V1"
+}

@@ -785,3 +785,75 @@ The replacement44notebook pins
 notebook fixtures pass in21.079seconds. The entire ten-field compatibility
 table is checked against the original published Git blobs; source catalogs,
 mathematics,45and the four old completed-stage files remain unchanged.
+
+## Notebook49completed selected high-beta3acquisition log
+
+The supplied attachment SHA256 is
+`9457efd2b41c4d6603623ec8ba4f0f256311588d87b041900cec3b9510c7295b`.
+At21:35:08UTC it completes the last local26acceptor, recording14/14actions.
+At21:35:10UTC it saves the final bundle with
+`conditional_high_beta3_acquisition_arithmetic_complete`:
+`high-beta3-acquisition/runs/20261023T204257Z-5cbd2c15/20261023T204257Z-5cbd2c15-results.zip`.
+This is full selected conditional acquisition completion in the supplied log.
+Actual bundle readback, exact interfaces to notebook34's count contracts and
+the complete regional/all-index theorem remain separate.
+
+## Five new finite10--39COUNT notebooks delivered
+
+Runtime `4d2020e36a2ffc521815d03f58284058d6dce3ef` is published. The generator
+writes only50/51/52/54/55, not the blocked53. All five uploaded private Drive
+notebooks have the expected folder/MIME metadata and byte-exact raw readback:
+
+| Notebook | Bytes | SHA256 |
+|---|---:|---|
+|50|10737|223fc6db0ab46f0f0e02639f22d1cbfcd2a869dbd0fb47e7c453356e18fe2db9|
+|51|10737|0a3c01c54ee1f3abcbd0d33f9be5723f328080774e6d65da4742ac2934890851|
+|52|10737|360b8791a4585e5069ac1453aae4a1f73021cd324ed63251ee1098cbc50cac9d|
+|54|10977|61461c8daf21ec0cf4e1482704c018e6eba1f7199acea890520b25d60fddfc0d|
+|55|10977|2b26ec8b116fa37e2217d7cf467ceca5c49be930f497eb9187f3477e4413337b|
+
+They select929complete forests across the five ready lanes. This records
+preparation/delivery only, not fresh arithmetic acceptance. The mandatory
+n27/p41recovery and the unacquired parent/analytic/global joins remain open.
+
+## Later complete logs:27,40,47and48
+
+These are user-supplied log completions, not independent readbacks of the
+actual final result archives. Times below are23October2026UTC.
+
+| Notebook | Attachment SHA256 | Complete logged scope | Final bundle |
+|---|---|---|---|
+|27|03090b91bf6109fd54b24885d8c825b403d94ff60ca72c1d84abf45e57dd4b9d|35/35forests,47946leaves; selected_retained_count_arithmetic_accepted; saved21:48:37|n25-retained-b1/runs/20261023T201602Z-977d1abb/20261023T201602Z-977d1abb-results.zip|
+|40|423c457569d9e97e5ef33dcbebbfe2a97bc4b2f1cfc21a38d86f1b791ae3cb63|90/90forests; complete_selected_conditional_count_arithmetic_basic; last stage saved21:53:17|finite6-counts/20261023T202324Z-7d7d0e86/20261023T202324Z-7d7d0e86-results.zip|
+|47|9a7967e405a9095d32814979a01e4756ae6609a0679c40412e7622c90ccd5a78|14/14actions; conditional_middle_acquisition_arithmetic_complete; saved21:50:01|middle-n25-b4/runs/20261023T195051Z-0afbf933/20261023T195051Z-0afbf933-results.zip|
+|48|825a9d35e28fc5dc6f20833f0c060ccb3ba8392cb39bf9588481396893f333b6|12/12actions; conditional_middle_acquisition_arithmetic_complete; saved21:47:26|middle-n25-b5/runs/20261023T213809Z-8d1cde13/20261023T213809Z-8d1cde13-results.zip|
+
+All40--43selected conditional count logs are now complete. Their parent facts,
+support/Fourier, full exported evidence and finite-index semantic joins remain
+separate.47/48still need their actual export/interface readbacks to32/33.
+The log for27does not acquire a physical predecessor or an all-law theorem.
+
+## New16GiB tail49timing snapshot
+
+The supplied new-run attachment SHA256 is
+`056bc483360a9b153726f364d99be5956eb6895d2e65ec7f5d5d129b923488ef`.
+It records16GiB/18h and begins21:27:45.931275UTC. On the same named stages,
+`corrected_barrier46` takes586.958seconds instead of the prior run's
+1148.991seconds. Elapsed time from full start to the last top-level retained
+stage start is657.602seconds instead of1293.549seconds. These comparable
+prefixes are approximately twice as fast on the new allocation. They do not
+estimate the remaining retained work or identify GPU mathematical acceleration.
+The last supplied heartbeat,21:39:26.990678UTC, still has13/14top-level and
+2/41retained completions. No complete tail49acceptance is inferred.
+
+## Notebook64published and private copy verified
+
+The new runtime is`b8631631e1772de83187701ddbdd9ef972870ea8`; the notebook
+pin is published in`778f7e1`. Its10336bytes have SHA256
+`3633495ecc807a991726296dd80427e91c42a9a1e8c25dfcfc4e5d73f98dfd50`.
+The private Drive metadata and raw notebook bytes match the local file exactly.
+Root's19synthetic infrastructure fixtures pass, and all43original source
+members/160351bytes match the actual source ZIP and frozen source plan.
+No original mathematical module was imported or run locally. This is
+preparation/delivery only. Complete new construction, original full acceptance,
+same-contract semantic replacement for53and parent/global joins remain open.

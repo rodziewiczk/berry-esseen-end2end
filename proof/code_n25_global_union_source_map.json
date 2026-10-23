@@ -1,0 +1,532 @@
+{
+  "schema": "N25_GLOBAL_UNION_SOURCE_HAND_ALGEBRA_AUDIT_V1",
+  "review_kind": "fallible_internal_AI_source_and_hand_algebra_review",
+  "external_independent_verification": false,
+  "formal_verification": false,
+  "archived_math_modules_imported_or_executed": false,
+  "fresh_arithmetic_acceptance": false,
+  "all_index_conclusion_verified": false,
+  "archives": {
+    "old": {
+      "filename": "cutoff25_20261011.zip",
+      "bytes": 514958998,
+      "sha256": "17fa140f63c5134ac48f1fd1040f4c5ae4bebdb2b92b2d7ce69f4048293d1fcb"
+    },
+    "base13": {
+      "filename": "cutoff25_20261013.zip",
+      "bytes": 529557492,
+      "sha256": "a97f3e6e50e428df0893304bcd2f746851c9fccef2079b1ec66be9ab909d7f2c"
+    }
+  },
+  "archive_transport_hashes_reused_from_prior_inventory": true,
+  "historical_final_selector": {
+    "member": "cutoff25_20261013/root/global25_final_v2/GLOBAL_C25_COMPLETE_JOINED_V1.json",
+    "sha256": "abae7a25b9b82d8b0dd0fc691d33944038d2ffc6707c6f387561f8f17437563d",
+    "source_pin_count": 34269,
+    "new_native_calls": 0,
+    "new_resource_acquisitions": 0
+  },
+  "input_count_correction": {
+    "selected_input_records": 13,
+    "records_include_scalar_reviews_and_overlapping_unions": true,
+    "thirteen_disjoint_regions_claimed": false
+  },
+  "sources": [
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/root/global25_final_v2/compose.py",
+      "bytes": 9969,
+      "sha256": "2e7a891ed136fd5ec2e28c1695cf96f4bce8c4bf414fdbb86b2888339ff8ab82",
+      "lines": 118,
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 118,
+          "scope": "Full conditional global union, scalar/beta checks, exact input scopes and source bindings"
+        }
+      ]
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/root/global25_final_v2/PROOF.txt",
+      "bytes": 4156,
+      "sha256": "566e2b03ea8904c8c1f21d10cdfa7d2aa5a01e9667e6fcfc39616f3ceebffdd3",
+      "lines": 65,
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 65,
+          "scope": "Full original mathematical union and same-witness proof"
+        }
+      ]
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/archive_audit/full_b5_finite_coupled_union_v1/union.py",
+      "bytes": 21633,
+      "sha256": "e16c6222db956b52125625576a47beeb579855e2964bb621339f8e45077cee5c",
+      "lines": 260,
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 260,
+          "scope": "Full37-route conditional union, ordinary/V14/E24/ABCDF distinction and parent/capture binding"
+        }
+      ]
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/archive_audit/full_b5_finite_coupled_union_v1/PROOF.txt",
+      "bytes": 5320,
+      "sha256": "457a2e55cf018900fcebdd9101e403efd58caafa1329c3fa5ca25cfa148dd8ca",
+      "lines": 85,
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 85,
+          "scope": "Full original B5 finite union proof and distinct mixed rule scope"
+        }
+      ]
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261010/shared/compose_high25_reduction.py",
+      "bytes": 3137,
+      "sha256": "7c2f3b25ad605fb1a0228e9bcf365b8cfa7756b3b6141074ca5a819c58736e71",
+      "lines": 30,
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 30,
+          "scope": "Full selected high negative/quarter2/beta0 signed-beta union and inclusive T tail"
+        }
+      ]
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261010/shared/compose_n25_reduction_beta048.py",
+      "bytes": 4123,
+      "sha256": "316713d0ea365b8475b9987c694cf2b48721d6643db1529daa98a3f63381f3f1",
+      "lines": 43,
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 43,
+          "scope": "Full beta1/middle-negative extension and signed-beta endpoint"
+        }
+      ]
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/composition_protocol_reviews/compose_middle_union.py",
+      "bytes": 2977,
+      "sha256": "afe1b4467b7411e5e4919866cfacf6be6b9c7f07eef8b56684c62c1df600ecb8",
+      "lines": 28,
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 28,
+          "scope": "Full closed middle positive B0/B1/B2 beta union and inherited remainder"
+        }
+      ]
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/composition_protocol_reviews/compose_completed_high_beta2.py",
+      "bytes": 3989,
+      "sha256": "034077109e5cc21f53bbcb01b4bacf9949c17c2b876d49b9c58d7471956e5432",
+      "lines": 49,
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 49,
+          "scope": "Full selected remaining four closed probability panels in high beta2"
+        }
+      ]
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/composition_protocol_reviews/compose_n25_high_middle.py",
+      "bytes": 5292,
+      "sha256": "2fa61766fc4e6bff273757ba21ee1e98008655876a9b34a945e37405c51b2141",
+      "lines": 55,
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 55,
+          "scope": "Full final high beta3/middle B3 closed regional removal and exact remainder"
+        }
+      ]
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/high25_transfers/reviews/compose_beta3_cached_exact.py",
+      "bytes": 28054,
+      "sha256": "817541f1287db0f133f43991152598d20596ce8dd07b9e30adde972eb9d291e4",
+      "lines": 294,
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 95,
+          "scope": "Shared physical moment merge and sign-aware inherited intervals"
+        },
+        {
+          "start": 173,
+          "end": 284,
+          "scope": "Literal profile, same-law local/resource/count interface and full100-row conditional regional conclusion; runtime cache helper itself not proved in this unit"
+        }
+      ]
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/new_audit/baseline_composition_audit.py",
+      "bytes": 7120,
+      "sha256": "1e38ea8a3eecd5df3af61bc433e107b39961d9557ee4196cf3114f568568bc93",
+      "lines": 103,
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 1,
+          "end": 103,
+          "scope": "Full original scalar/CE/beta and predecessor coverage proof code, not executed"
+        }
+      ]
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/new_audit/compose_middle_b4_exact_v4.py",
+      "bytes": 33694,
+      "sha256": "399e80721c7e5269c8f40be8f07f858003c1f8b5fd9b08c9c984c3ec0708953a",
+      "lines": 380,
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 153,
+          "end": 205,
+          "scope": "Exact signed phase/resource, theta, forest and strict target interface"
+        },
+        {
+          "start": 254,
+          "end": 368,
+          "scope": "Selected profile/local protocols, same-law cycle and full p/count union"
+        }
+      ]
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/new_audit/compose_middle_b5_exact_v4.py",
+      "bytes": 33720,
+      "sha256": "1cb2df078122911e50f2d9080967bd561850fea712214a00c093014d1e65ffbf",
+      "lines": 380,
+      "selected_final_source_pin_count": 1,
+      "selected_final_source_pin_matches": true,
+      "reviewed_ranges": [
+        {
+          "start": 153,
+          "end": 205,
+          "scope": "Same selected interface family as middle B4"
+        },
+        {
+          "start": 254,
+          "end": 368,
+          "scope": "Literal middle B5 profile/local/count union and acquired beta/mean/endpoint implication"
+        }
+      ]
+    }
+  ],
+  "historical_data": [
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261010/toward25/negative25_exact/HIGH25_NEGATIVE_JOINED.json",
+      "sha256": "faaa85b6b62c8eef7ba4c8a21ca478a92b85ef015a42baa87318b7dbd5e3b6fb",
+      "bytes": 1374,
+      "scope": "historical selected statement/profile metadata only, not fresh arithmetic evidence",
+      "fields": {
+        "profile": {
+          "n": 25,
+          "nmax": 25,
+          "radius": "18/5",
+          "radius_minus": "18/5",
+          "radius_plus": "16/5",
+          "cap": "3619319/8750000",
+          "barrier": "0",
+          "grid": [
+            24,
+            24,
+            8,
+            4
+          ],
+          "invariants": {
+            "rho_lo": "7/4",
+            "rho": "459061/250000",
+            "beta_lo": "-640471/1000000",
+            "beta_hi": "0"
+          }
+        },
+        "contact_allowance": "1366497/14000000"
+      }
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/HIGH25_Q2_JOINED.json",
+      "sha256": "f472d926d083636688300efc9c9362b5f239355166494bd5420d944781e3d87a",
+      "bytes": 2168,
+      "scope": "historical selected statement/profile metadata only, not fresh arithmetic evidence",
+      "fields": {
+        "profile": {
+          "n": 25,
+          "nmax": 25,
+          "radius": "7/2",
+          "radius_minus": "3",
+          "radius_plus": "7/2",
+          "cap": "3619319/8750000",
+          "barrier": "0",
+          "grid": [
+            24,
+            24,
+            16,
+            8
+          ],
+          "invariants": {
+            "rho_lo": "7/4",
+            "rho": "459061/250000",
+            "beta_lo": "0",
+            "beta_hi": "321/1000"
+          }
+        },
+        "contact_allowance": "1366497/14000000"
+      }
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261010/toward25/beta0_high25_fresh/HIGH25_BETA0_JOINED.json",
+      "sha256": "ec57079dd1990acbdcf0d7ec080db02507225b068193911c7ac5580fba1458a1",
+      "bytes": 9959,
+      "scope": "historical selected statement/profile metadata only, not fresh arithmetic evidence",
+      "fields": {
+        "profile": {
+          "n": 25,
+          "nmax": 25,
+          "radius": "18/5",
+          "radius_minus": "13/5",
+          "radius_plus": "18/5",
+          "cap": "3619319/8750000",
+          "barrier": "0",
+          "grid": [
+            24,
+            12,
+            8,
+            4
+          ],
+          "invariants": {
+            "rho_lo": "7/4",
+            "rho": "459061/250000",
+            "beta_lo": "321/1000",
+            "beta_hi": "2/5"
+          }
+        },
+        "contact_allowance": "1366497/14000000"
+      }
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261010/toward25/beta1_high25_exact/HIGH25_BETA1_JOINED.json",
+      "sha256": "6ef68aeb08cb63fd55532e39d48577f4a3b9dac9ecb76f759b895957c26027ee",
+      "bytes": 19634,
+      "scope": "historical selected statement/profile metadata only, not fresh arithmetic evidence",
+      "fields": {
+        "profile": {
+          "n": 25,
+          "nmax": 25,
+          "radius": "37/10",
+          "radius_minus": "5/2",
+          "radius_plus": "37/10",
+          "cap": "3619319/8750000",
+          "barrier": "0",
+          "grid": [
+            24,
+            12,
+            8,
+            4
+          ],
+          "invariants": {
+            "rho_lo": "7/4",
+            "rho": "459061/250000",
+            "beta_lo": "2/5",
+            "beta_hi": "12/25"
+          }
+        },
+        "contact_allowance": "1366497/14000000"
+      }
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261010/toward25/middle6_negative25_exact/MIDDLE6_NEGATIVE25_JOINED.json",
+      "sha256": "0ef24efdcb82098f3f7bc2ea0887d9ce9d6253b6ec6a16e74420dfc999f818d4",
+      "bytes": 2487,
+      "scope": "historical selected statement/profile metadata only, not fresh arithmetic evidence",
+      "fields": {
+        "profile": {
+          "n": 25,
+          "nmax": 25,
+          "radius": "7/2",
+          "radius_minus": "7/2",
+          "radius_plus": "31/10",
+          "cap": "104643/250000",
+          "barrier": "0",
+          "grid": [
+            24,
+            12,
+            8,
+            4
+          ],
+          "invariants": {
+            "rho_lo": "33/20",
+            "rho": "7/4",
+            "beta_lo": "-13/20",
+            "beta_hi": "0"
+          }
+        },
+        "contact_allowance": "441991/2000000"
+      }
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/N25_REDUCTION_AFTER_HIGH_RHO_AND_MIDDLE_BETA048.json",
+      "sha256": "7685a4834a1cb6577db38a37e3e296b76718257cfeee00bc6c7d0a5fe71bb990",
+      "bytes": 502605,
+      "scope": "historical selected statement/profile metadata only, not fresh arithmetic evidence",
+      "fields": {
+        "remaining_contrary_witness_regions": [
+          {
+            "rho_lower": "1",
+            "rho_upper": "33/20",
+            "rho_upper_strict": true
+          },
+          {
+            "rho_lower": "33/20",
+            "rho_upper": "7/4",
+            "rho_upper_strict": true,
+            "beta_lower": "12/25",
+            "beta_lower_strict": true
+          }
+        ]
+      }
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/new_audit/BASELINE_COMPOSITION_AUDIT.json",
+      "sha256": "70a71bf8b397e5ae525574d77bf12153e3b3237be7dd032414007baf827ad8bf",
+      "bytes": 3656,
+      "scope": "historical selected statement/profile metadata only, not fresh arithmetic evidence",
+      "fields": {}
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/new_middle/BETA_CEILING_EXACT.json",
+      "sha256": "fcf95a9000d60055b7cc9f5a6dbacccc01663bffdd07994664488990b0f826c0",
+      "bytes": 286,
+      "scope": "historical selected statement/profile metadata only, not fresh arithmetic evidence",
+      "fields": {
+        "rho_upper": "7/4",
+        "beta_strict_upper": "307827/500000",
+        "polynomial_margin": "139345116509401041/62500000000000000000000"
+      }
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/root/full_b5_finite_coupled_union_v1/LOWER25_B5_COMPLETE_EXPLICIT_FINITE_COUPLED_EXACT_JOINED_V1.json",
+      "sha256": "c82596c2b1753f64b26acb83e239d6458fd0a41dc83dca66067a997014adc96b",
+      "bytes": 6661466,
+      "scope": "selected historical union/source graph only, not fresh arithmetic evidence"
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/root/global25_final_v2/GLOBAL_C25_COMPLETE_JOINED_V1.json",
+      "sha256": "abae7a25b9b82d8b0dd0fc691d33944038d2ffc6707c6f387561f8f17437563d",
+      "bytes": 7781950,
+      "scope": "selected historical union/source graph only, not fresh arithmetic evidence"
+    }
+  ],
+  "physical_cover": {
+    "lower_rho_endpoints": [
+      "1",
+      "11/10",
+      "6/5",
+      "13/10",
+      "7/5",
+      "3/2",
+      "33/20"
+    ],
+    "lower_each_all_p": [
+      "0",
+      "1"
+    ],
+    "middle_rho": [
+      "33/20",
+      "7/4"
+    ],
+    "middle_beta_endpoints": [
+      "-13/20",
+      "0",
+      "4/25",
+      "321/1000",
+      "2/5",
+      "12/25",
+      "14/25",
+      "307827/500000"
+    ],
+    "high_rho": [
+      "7/4",
+      "459061/250000"
+    ],
+    "high_beta_endpoints": [
+      "-640471/1000000",
+      "0",
+      "321/1000",
+      "2/5",
+      "12/25",
+      "14/25",
+      "640471/1000000"
+    ],
+    "universal_tail_rho_lower_included": "459061/250000",
+    "finite_intervals_closed": true,
+    "beta_outer_endpoints_licensed_by_signed_moment_inequality": true
+  },
+  "reviewed_implications": [
+    "One unrestricted attained positive-closed contrary witness is conditionally excluded by the complete literal physical cover",
+    "Same-law T(rho) and global auxiliary24 are distinct safe predecessor mechanisms with forward dependencies",
+    "Signed-beta ceiling follows from positive moment matrices and closes both negative/positive exterior beta domains",
+    "Full B5 ordinary/V14/E24/ABCDF union keeps nonordinary rules explicit; geometry/census is not their proof",
+    "No confirmed false inequality or missing physical seam in inspected global union rule"
+  ],
+  "remaining_distinct_source_units": [
+    "Full old high/middle negative,quarter2,beta0,beta1 acquisition/profile-to-count implications",
+    "High beta2 and middle B0/B1/B2/B3 selected acquisitions and caller licenses beyond shared core identity",
+    "Full middle B4/B5 installed acquisition source-instance soundness beyond inspected semantic interface/cover",
+    "Lower B3/B4 remainder and lower B5 V14/E24/finite ABCDF distinct acquired leaf implications",
+    "Actual fresh semantic collectors and original foundational/imported proof premises"
+  ]
+}
