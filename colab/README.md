@@ -20,6 +20,7 @@ Google may first ask you to authorize backups to your Drive. Results are saved u
 | 16 | Auxiliary n23: full INITIAL/resources and 21 count forests, 18,377 leaves |
 | 17–22 | Stronger24 branches B0–B5: full global/local resources and 53 forests, 57,453 leaves |
 | 23 | Import and revalidate all nine completed auxiliary jobs, then check the conditional numerical chain |
+| 24 | Revalidate completed 01–07 and 09/10 exports and their seven conditional n25 resource-to-count interfaces |
 
 In notebooks 01–07, the first short run measures the resources actually allocated. Subsequent slices use up to three hours of the allocated search budget. A complete candidate tree triggers a separate native acceptor. An incomplete result preserves its checkpoints. Rerunning the same notebook finds the latest valid Drive backup and rechecks its compatibility with the pinned sources before resuming.
 
@@ -68,6 +69,25 @@ Run **23 last**, after all nine jobs have completed and saved their final ZIPs. 
 Each numerical action has a two-hour CPU ceiling and a 121-minute wall ceiling. A job contains several such actions and may outlive a session. In 14–16, compatible completed stage evidence is revalidated before reuse; an interrupted stage restarts in full. In this first version of 17–22, a new Run all starts a new branch epoch, preserving earlier evidence but **without automatic completed-stage reuse**. Their interrupted native actions have no internal checkpoint.
 
 The numerical target is the auxiliary statement **C24 < CE + 1/80**, supplying the selected n25 contact allowance 5/16. These notebooks do not claim sharp C24 or the global theorem. The final numerical chain still requires the stated external estimates and retained same-law analytic implications. See [the auxiliary execution scope](../proof/aux24_execution.md), [n21–23 details](../proof/aux21_23_execution.md), and [the six n24 branches](../proof/strong24_branches_execution.md).
+
+## Queued evidence join24
+
+Run24 after notebooks01–07 and09/10 have saved their successful final ZIPs on
+the same Google Drive. Upload and choose Run all; it discovers those results
+automatically. It does not require23 to have finished to check the conditional
+numeric interfaces. The auxiliary24 acquisition and analytic premises remain
+separate requirements of the eventual theorem.
+
+Missing or incompatible inputs produce `WAITING_FOR_N25_EVIDENCE`; rerun after
+they finish. Available individual interfaces can be checked while others remain
+pending. No search, native leaf replay, INITIAL cover or resource computation
+is repeated merely to validate the preserved exports at their new paths.
+
+The successful selected-interface state concerns exactly seven count targets,
+including all four closed B4 p29 quarters and the two new conditional V14
+contracts. It does not complete the other n25 branches or the all-index proof.
+Keep the final evidence ZIP. Progress and one-minute Drive copies are automatic.
+See [the exact execution scope](../proof/n25_collect_execution.md).
 
 ## Corrected notebooks 06 and 07
 

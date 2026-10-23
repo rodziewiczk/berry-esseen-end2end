@@ -29,6 +29,13 @@ The first seven notebooks rebuild the missing n25 count forests. Notebook 08 che
 The numbered notebooks in `colab/` are preconfigured for separate CPU sessions. Notebooks 09–12 can run while 01–07 continue.
 See [the English upload-and-run instructions](colab/README.md).
 
+Queued notebook24 imports the finished 01–07 and 09/10 bundles and verifies
+their [seven conditional resource-to-count interfaces](proof/n25_collect_execution.md).
+It preserves original evidence and does not repeat their heavy mathematics.
+The [remaining n25 scope](proof/n25_completion_scope.md) and
+[selected regional input inventory](proof/n25_regional_selection.json) keep
+the other n25 domains explicit.
+
 The three-hour setting in notebooks 01–07 is a search budget, not a completion estimate. A complete tree still requires a separate full acceptor run. An unfinished tree is checkpointed for a compatible rerun.
 
 Account authentication is performed by the user. VM-local work and durable checkpoint storage must use distinct paths. A timeout preserves an incomplete candidate; it never produces a certificate.

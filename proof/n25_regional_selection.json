@@ -1,0 +1,322 @@
+{
+  "schema": "N25_REGIONAL_SELECTION_SOURCE_INVENTORY_V1",
+  "date": "2026-10-23",
+  "scope": "Exact regional inputs selected by the historical final composer. Source/JSON inventory only; not a full native-job catalog or fresh proof.",
+  "historical_final_union": {
+    "member": "cutoff25_20261013/root/global25_final_v2/GLOBAL_C25_COMPLETE_JOINED_V1.json",
+    "sha256": "abae7a25b9b82d8b0dd0fc691d33944038d2ffc6707c6f387561f8f17437563d"
+  },
+  "historical_dependency_inventory": {
+    "member": "cutoff25_20261013/low/global25_composition_audit_v1/DEPENDENCY_INVENTORY_V2.json",
+    "sha256": "fd14cffeff6f3ab44e7f10556a4b123cc50e05b1258e3414962ee05bb5fe89e6",
+    "declared_nodes": 60
+  },
+  "final_B5_selection": {
+    "member": "cutoff25_20261013/root/global25_final_v2/SELECTION.json",
+    "sha256": "c451285b690a5b2483d0d04f0f170d86225cb097b5ec4844528fdaabe4b6aba7"
+  },
+  "selected_regional_inputs": [
+    {
+      "id": "auxiliary24",
+      "role": "predecessor",
+      "member": "cutoff25_20261011/continuation_20261011/STRONGER24_COMPLETE_JOINED.json",
+      "expected_sha256": "f3c6a95c5fa814cc024872c0b4212d7d5272d8b7696306dfc0f5a3b74d12167f",
+      "fresh_arithmetic_replayed": false,
+      "availability": "MEMBER_FOUND_AND_SHA_MATCHED",
+      "bytes": 2362725,
+      "actual_sha256": "f3c6a95c5fa814cc024872c0b4212d7d5272d8b7696306dfc0f5a3b74d12167f",
+      "historical_summary": {
+        "status": "PASS_FULL_STRONGER24_AUXILIARY_BOUND_IN_RETAINED_FRAMEWORK",
+        "n": 24,
+        "K": "3/10",
+        "count_leaves": 57453
+      },
+      "historical_source_graph_reference_count": 12590
+    },
+    {
+      "id": "lowerB0",
+      "role": "lower_rho_branch",
+      "member": "cutoff25_20261011/new_audit/LOW_B0_COMPLETE_EXACT_JOINED_V3.json",
+      "expected_sha256": "a2354cd639d8849b141a35e8a062c8685df2b7d1c645e951bf241ad04df7245e",
+      "fresh_arithmetic_replayed": false,
+      "availability": "MEMBER_FOUND_AND_SHA_MATCHED",
+      "bytes": 430827,
+      "actual_sha256": "a2354cd639d8849b141a35e8a062c8685df2b7d1c645e951bf241ad04df7245e",
+      "historical_summary": {
+        "status": "PASS_EXACT_LOW25_B0_COMPLETE_RHO_REGION_COMPOSITION",
+        "n": 25,
+        "K": "0",
+        "rho_interval": [
+          "1",
+          "11/10"
+        ],
+        "p_interval": [
+          "0",
+          "1"
+        ],
+        "selected_count_leaves": 12985,
+        "global_signed_covers": 13,
+        "contact_allowance": "5/16"
+      },
+      "historical_outcome_rows": 100,
+      "historical_method_census": {
+        "accepted_global_resource_exclusion": 83,
+        "accepted_global_resource_count": 17
+      },
+      "historical_source_graph_reference_count": 780
+    },
+    {
+      "id": "lowerB1",
+      "role": "lower_rho_branch",
+      "member": "cutoff25_20261011/new_audit/LOWER25_B1_COMPLETE_EXACT_JOINED_V1.json",
+      "expected_sha256": "f658db3daca4cefa5c905bfebbad61f393dcdb06d9fecf5c7649e089930cb242",
+      "fresh_arithmetic_replayed": false,
+      "availability": "MEMBER_FOUND_AND_SHA_MATCHED",
+      "bytes": 894257,
+      "actual_sha256": "f658db3daca4cefa5c905bfebbad61f393dcdb06d9fecf5c7649e089930cb242",
+      "historical_summary": {
+        "status": "PASS_EXACT_LOWER25_COMPLETE_RHO_REGION_COMPOSITION",
+        "n": 25,
+        "K": "0",
+        "rho_interval": [
+          "11/10",
+          "6/5"
+        ],
+        "p_interval": [
+          "0",
+          "1"
+        ],
+        "selected_count_leaves": 47946,
+        "global_signed_covers": 13,
+        "contact_allowance": "5/16"
+      },
+      "historical_outcome_rows": 100,
+      "historical_method_census": {
+        "accepted_global_resource_exclusion": 89,
+        "accepted_global_resource_counts": 10,
+        "accepted_local_resource_counts": 1
+      },
+      "historical_source_graph_reference_count": 2795
+    },
+    {
+      "id": "lowerB2",
+      "role": "lower_rho_branch",
+      "member": "cutoff25_20261011/new_audit/LOWER25_B2_COMPLETE_EXACT_JOINED_V1.json",
+      "expected_sha256": "f83ea6cf35bc3bc6fa5ad73bec33a343a9857ede4fc7d25fa36689461ffbd725",
+      "fresh_arithmetic_replayed": false,
+      "availability": "MEMBER_FOUND_AND_SHA_MATCHED",
+      "bytes": 975107,
+      "actual_sha256": "f83ea6cf35bc3bc6fa5ad73bec33a343a9857ede4fc7d25fa36689461ffbd725",
+      "historical_summary": {
+        "status": "PASS_EXACT_LOWER25_COMPLETE_RHO_REGION_COMPOSITION",
+        "n": 25,
+        "K": "0",
+        "rho_interval": [
+          "6/5",
+          "13/10"
+        ],
+        "p_interval": [
+          "0",
+          "1"
+        ],
+        "selected_count_leaves": 33357,
+        "global_signed_covers": 13,
+        "contact_allowance": "5/16"
+      },
+      "historical_outcome_rows": 100,
+      "historical_method_census": {
+        "accepted_global_resource_exclusion": 89,
+        "accepted_global_resource_counts": 10,
+        "accepted_local_resource_counts": 1
+      },
+      "historical_source_graph_reference_count": 3648
+    },
+    {
+      "id": "lowerB3",
+      "role": "lower_rho_branch",
+      "member": "cutoff25_20261011/new_low/full_lower_local_rho_feedback_v1/LOWER25_B3_COMPLETE_LOCAL_RHO_CONTACT_EXACT_JOINED_V1.json",
+      "expected_sha256": "5edd8648018470ab45decf1e5fceca5c68a2ce8e197c34746675b2fb9dc31726",
+      "fresh_arithmetic_replayed": false,
+      "availability": "EXACT_MEMBER_NOT_LOCATED_IN_TWO_PRINCIPAL_ARCHIVES"
+    },
+    {
+      "id": "lowerB4",
+      "role": "lower_rho_branch",
+      "member": "cutoff25_20261011/new_audit/LOWER25_B4_COMPLETE_EXACT_JOINED_V1.json",
+      "expected_sha256": "481d7bea55c373058134111c4bcd895a36f4c11fbde731829cbbe106bc918716",
+      "fresh_arithmetic_replayed": false,
+      "availability": "EXACT_MEMBER_NOT_LOCATED_IN_TWO_PRINCIPAL_ARCHIVES"
+    },
+    {
+      "id": "retained_high_middle_union",
+      "role": "upper_region_union",
+      "member": "cutoff25_20261011/continuation_20261011/N25_REDUCTION_AFTER_HIGH_RHO_AND_MIDDLE_BETA048.json",
+      "expected_sha256": "7685a4834a1cb6577db38a37e3e296b76718257cfeee00bc6c7d0a5fe71bb990",
+      "fresh_arithmetic_replayed": false,
+      "availability": "MEMBER_FOUND_AND_SHA_MATCHED",
+      "bytes": 502605,
+      "actual_sha256": "7685a4834a1cb6577db38a37e3e296b76718257cfeee00bc6c7d0a5fe71bb990",
+      "historical_summary": {
+        "status": "PASS_EXACT_N25_REDUCTION_AFTER_HIGH_RHO_AND_MIDDLE_BETA048",
+        "n": 25
+      },
+      "historical_source_graph_reference_count": 3342
+    },
+    {
+      "id": "retained_high_middle_review",
+      "role": "source_scope_review",
+      "member": "cutoff25_20261011/continuation_20261011/high25_transfers/reviews/N25_FINAL_MIDDLE_UNION_INDEPENDENT_REVIEW.json",
+      "expected_sha256": "3ab04d0d0c2913836e88278486a60a7417aa00408ea30a0ffec97c89d91b47c4",
+      "fresh_arithmetic_replayed": false,
+      "availability": "MEMBER_FOUND_AND_SHA_MATCHED",
+      "bytes": 503611,
+      "actual_sha256": "3ab04d0d0c2913836e88278486a60a7417aa00408ea30a0ffec97c89d91b47c4",
+      "historical_summary": {
+        "status": "PASS_INDEPENDENT_ACTUAL_FINAL_N25_HIGH_MIDDLE_UNION",
+        "n": 25
+      },
+      "historical_source_graph_reference_count": 3347
+    },
+    {
+      "id": "middleB4",
+      "role": "middle_beta_branch",
+      "member": "cutoff25_20261011/new_audit/MIDDLE_B4_EXACT_JOINED_V4.json",
+      "expected_sha256": "09033c48c5e849409838292e612675a31722ab193e0ad40831693af1273a5910",
+      "fresh_arithmetic_replayed": false,
+      "availability": "MEMBER_FOUND_AND_SHA_MATCHED",
+      "bytes": 265088,
+      "actual_sha256": "09033c48c5e849409838292e612675a31722ab193e0ad40831693af1273a5910",
+      "historical_summary": {
+        "status": "PASS_EXACT_MIDDLE25_B4_REGIONAL_COMPOSITION",
+        "n": 25,
+        "K": "0",
+        "rho_interval": [
+          "33/20",
+          "7/4"
+        ],
+        "beta_interval": [
+          "12/25",
+          "14/25"
+        ],
+        "selected_count_leaves": 25257,
+        "global_signed_covers": 13,
+        "probability_panels": 100,
+        "contact_allowance": "441991/2000000"
+      },
+      "historical_outcome_rows": 100,
+      "historical_method_census": {
+        "accepted_global_resource": 89,
+        "accepted_counts_with_acquired_interfaces": 7,
+        "accepted_local_exclusion": 4
+      },
+      "historical_source_graph_reference_count": 854
+    },
+    {
+      "id": "middleB5",
+      "role": "middle_beta_branch",
+      "member": "cutoff25_20261011/new_audit/MIDDLE_B5_EXACT_JOINED_V4.json",
+      "expected_sha256": "5a9fbce114bc2c1d5ec45f965c8702e12b24a9aeb065f7aa1b49c16c3011820b",
+      "fresh_arithmetic_replayed": false,
+      "availability": "MEMBER_FOUND_AND_SHA_MATCHED",
+      "bytes": 150846,
+      "actual_sha256": "5a9fbce114bc2c1d5ec45f965c8702e12b24a9aeb065f7aa1b49c16c3011820b",
+      "historical_summary": {
+        "status": "PASS_EXACT_MIDDLE25_B5_REGIONAL_COMPOSITION",
+        "n": 25,
+        "K": "0",
+        "rho_interval": [
+          "33/20",
+          "7/4"
+        ],
+        "beta_interval": [
+          "14/25",
+          "307827/500000"
+        ],
+        "selected_count_leaves": 2446,
+        "global_signed_covers": 13,
+        "probability_panels": 100,
+        "contact_allowance": "441991/2000000"
+      },
+      "historical_outcome_rows": 100,
+      "historical_method_census": {
+        "accepted_global_resource": 91,
+        "accepted_counts_with_acquired_interfaces": 7,
+        "accepted_local_exclusion": 2
+      },
+      "historical_source_graph_reference_count": 480
+    },
+    {
+      "id": "middle_signed_beta_ceiling",
+      "role": "signed_moment_ceiling",
+      "member": "cutoff25_20261011/new_middle/BETA_CEILING_EXACT.json",
+      "expected_sha256": "fcf95a9000d60055b7cc9f5a6dbacccc01663bffdd07994664488990b0f826c0",
+      "fresh_arithmetic_replayed": false,
+      "availability": "MEMBER_FOUND_AND_SHA_MATCHED",
+      "bytes": 286,
+      "actual_sha256": "fcf95a9000d60055b7cc9f5a6dbacccc01663bffdd07994664488990b0f826c0",
+      "historical_summary": {
+        "status": "PASS_EXACT_BETA_CEILING_SCALAR"
+      }
+    },
+    {
+      "id": "retained_scalar_scope_audit",
+      "role": "scalar_scope",
+      "member": "cutoff25_20261011/new_audit/BASELINE_COMPOSITION_AUDIT.json",
+      "expected_sha256": "70a71bf8b397e5ae525574d77bf12153e3b3237be7dd032414007baf827ad8bf",
+      "fresh_arithmetic_replayed": false,
+      "availability": "MEMBER_FOUND_AND_SHA_MATCHED",
+      "bytes": 3656,
+      "actual_sha256": "70a71bf8b397e5ae525574d77bf12153e3b3237be7dd032414007baf827ad8bf",
+      "historical_summary": {
+        "status": "PASS_INDEPENDENT_BASELINE_COMPOSITION_SCOPE_AND_SCALARS"
+      },
+      "historical_source_graph_reference_count": 13
+    },
+    {
+      "id": "lowerB5_final",
+      "role": "lower_rho_branch",
+      "member": "cutoff25_20261013/root/full_b5_finite_coupled_union_v1/LOWER25_B5_COMPLETE_EXPLICIT_FINITE_COUPLED_EXACT_JOINED_V1.json",
+      "expected_sha256": "c82596c2b1753f64b26acb83e239d6458fd0a41dc83dca66067a997014adc96b",
+      "fresh_arithmetic_replayed": false,
+      "availability": "MEMBER_FOUND_AND_SHA_MATCHED",
+      "bytes": 6661466,
+      "actual_sha256": "c82596c2b1753f64b26acb83e239d6458fd0a41dc83dca66067a997014adc96b",
+      "historical_summary": {
+        "status": "PASS_EXACT_LOWER25_B5_COMPLETE_EXPLICIT_FINITE_COUPLED_REGIONAL_UNION_V1",
+        "n": 25,
+        "K": "0",
+        "band": 5,
+        "rho_interval": [
+          "3/2",
+          "33/20"
+        ],
+        "p_interval": [
+          "0",
+          "1"
+        ],
+        "global_exclusions": 63,
+        "selected_count_panels": 37,
+        "selected_count_leaves": 86572,
+        "global_signed_covers": 13,
+        "contact_allowance": "5/16"
+      },
+      "historical_outcome_rows": 100,
+      "historical_method_census": {
+        "accepted_original_global_resource_exclusion": 63,
+        "accepted_global_resource_counts": 28,
+        "accepted_original_v14_mixed_e24_and_acquired_pointwise_counts_v1": 1,
+        "COUPLED_CHORD_ABCDF_FINITE_NODE_CAPS": 1,
+        "accepted_same_witness_local_rho_contact_counts_v14": 7
+      },
+      "historical_source_graph_reference_count": 22747
+    }
+  ],
+  "selected_input_count": 13,
+  "paths_are_archive_relative": true,
+  "personal_paths_published": false,
+  "all_leaf_jobs_enumerated": false,
+  "source_kernels_imported": false,
+  "fresh_mathematical_execution": false,
+  "full_n25_verified": false,
+  "all_index_conclusion_verified": false
+}

@@ -1074,15 +1074,8 @@
       "depends_on": [
         "stronger24.acquired",
         "continuation.literal_interface",
-        "n25.pending.b4-q0",
-        "n25.pending.b4-q1",
-        "n25.pending.b4-q2",
-        "n25.pending.b4-q3",
-        "n25.pending.b3-p33",
-        "n25.pending.b3-p31-v14-new",
-        "n25.pending.b3-p32-v14-new",
-        "n25.parents.b3",
-        "n25.parents.b4"
+        "n25.selected_interfaces",
+        "n25.remaining_native_and_acquisitions"
       ],
       "conclusion": "All required arithmetic and same-law joins at the literal index 25 prove C_25 <= C_E.",
       "literal_index": 25,
@@ -1526,6 +1519,40 @@
       "requirements": [
         "Run notebook 09 or 10, retain all four complete stages and corruption controls, then verify actual captures and source/parent bindings.",
         "The stronger24 input and final resource-to-count implication remain separate mathematical obligations."
+      ]
+    },
+    {
+      "id": "n25.selected_interfaces",
+      "kind": "conditional_arithmetic_composition",
+      "status": "open",
+      "depends_on": [
+        "n25.pending.b4-q0",
+        "n25.pending.b4-q1",
+        "n25.pending.b4-q2",
+        "n25.pending.b4-q3",
+        "n25.pending.b3-p33",
+        "n25.pending.b3-p31-v14-new",
+        "n25.pending.b3-p32-v14-new",
+        "n25.parents.b3",
+        "n25.parents.b4"
+      ],
+      "conclusion": "All seven selected n25 count contracts follow simultaneously from their fresh B3/B4 whole-parent resource proofs, with complete exported native evidence and exact closed seams.",
+      "requirements": [
+        "Run notebook24 after01--07 and09/10 complete; preserve actual source/forest/receipt/capture/guard bytes and validate relocated context.",
+        "Check all original resource-to-count rounded quantities, twelve signed quadratic implications, B4 closed probability quarters and V14 whole-dictionary/contact fields.",
+        "The auxiliary24 and same-witness analytic premises remain separate; this selected seven-interface result does not establish the complete n25 union."
+      ]
+    },
+    {
+      "id": "n25.remaining_native_and_acquisitions",
+      "kind": "conditional_arithmetic",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "The remaining selected n25 lower branches/panels, middle/high regions, support/Fourier/INITIAL/resource/count jobs and full closed covers have fresh complete arithmetic and explicit acquisition evidence.",
+      "requirements": [
+        "Descend through the13 selected regional inputs in proof/n25_regional_selection.json to build the complete source-bound native-job catalog; that catalog is not yet complete.",
+        "Replay every retained selected candidate and acquisition with complete original domains/controls and actual captures. Historical regional PASS and broad source graphs do not supply fresh arithmetic.",
+        "Rebuild any missing historical regional report by mathematical statement/contract identity and actual fresh evidence, without requiring runtime-dependent historical bytes."
       ]
     }
   ],
@@ -2041,48 +2068,6 @@
       "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
     },
     {
-      "from": "n25.pending.b4-q0",
-      "to": "n25.all_law",
-      "status": "open",
-      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
-    },
-    {
-      "from": "n25.pending.b4-q1",
-      "to": "n25.all_law",
-      "status": "open",
-      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
-    },
-    {
-      "from": "n25.pending.b4-q2",
-      "to": "n25.all_law",
-      "status": "open",
-      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
-    },
-    {
-      "from": "n25.pending.b4-q3",
-      "to": "n25.all_law",
-      "status": "open",
-      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
-    },
-    {
-      "from": "n25.pending.b3-p33",
-      "to": "n25.all_law",
-      "status": "open",
-      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
-    },
-    {
-      "from": "n25.pending.b3-p31-v14-new",
-      "to": "n25.all_law",
-      "status": "open",
-      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
-    },
-    {
-      "from": "n25.pending.b3-p32-v14-new",
-      "to": "n25.all_law",
-      "status": "open",
-      "requirement": "Verify the stated mathematical implication with exact domains, source-bound evidence and unchanged witness where applicable."
-    },
-    {
       "from": "n25.all_law",
       "to": "n26.all_law",
       "status": "open",
@@ -2449,16 +2434,70 @@
       "requirement": "Discharge this exact conditional mathematical premise with source-bound evidence; execution may precede acquisition."
     },
     {
-      "from": "n25.parents.b3",
-      "to": "n25.all_law",
+      "from": "n25.pending.b4-q0",
+      "to": "n25.selected_interfaces",
       "status": "open",
-      "requirement": "Verify every actual same-law parent/resource/count interface and the complete closed n25 cover."
+      "requirement": "Validate actual completed exported arithmetic and its exact same-law resource-to-count contract implication."
+    },
+    {
+      "from": "n25.pending.b4-q1",
+      "to": "n25.selected_interfaces",
+      "status": "open",
+      "requirement": "Validate actual completed exported arithmetic and its exact same-law resource-to-count contract implication."
+    },
+    {
+      "from": "n25.pending.b4-q2",
+      "to": "n25.selected_interfaces",
+      "status": "open",
+      "requirement": "Validate actual completed exported arithmetic and its exact same-law resource-to-count contract implication."
+    },
+    {
+      "from": "n25.pending.b4-q3",
+      "to": "n25.selected_interfaces",
+      "status": "open",
+      "requirement": "Validate actual completed exported arithmetic and its exact same-law resource-to-count contract implication."
+    },
+    {
+      "from": "n25.pending.b3-p33",
+      "to": "n25.selected_interfaces",
+      "status": "open",
+      "requirement": "Validate actual completed exported arithmetic and its exact same-law resource-to-count contract implication."
+    },
+    {
+      "from": "n25.pending.b3-p31-v14-new",
+      "to": "n25.selected_interfaces",
+      "status": "open",
+      "requirement": "Validate actual completed exported arithmetic and its exact same-law resource-to-count contract implication."
+    },
+    {
+      "from": "n25.pending.b3-p32-v14-new",
+      "to": "n25.selected_interfaces",
+      "status": "open",
+      "requirement": "Validate actual completed exported arithmetic and its exact same-law resource-to-count contract implication."
+    },
+    {
+      "from": "n25.parents.b3",
+      "to": "n25.selected_interfaces",
+      "status": "open",
+      "requirement": "Validate actual completed exported arithmetic and its exact same-law resource-to-count contract implication."
     },
     {
       "from": "n25.parents.b4",
+      "to": "n25.selected_interfaces",
+      "status": "open",
+      "requirement": "Validate actual completed exported arithmetic and its exact same-law resource-to-count contract implication."
+    },
+    {
+      "from": "n25.selected_interfaces",
       "to": "n25.all_law",
       "status": "open",
-      "requirement": "Verify every actual same-law parent/resource/count interface and the complete closed n25 cover."
+      "requirement": "Compose every selected conditional region with acquired predecessor and reviewed unrestricted same-witness analytic implications; cover all original n25 domains."
+    },
+    {
+      "from": "n25.remaining_native_and_acquisitions",
+      "to": "n25.all_law",
+      "status": "open",
+      "requirement": "Compose every selected conditional region with acquired predecessor and reviewed unrestricted same-witness analytic implications; cover all original n25 domains."
     }
   ]
 }

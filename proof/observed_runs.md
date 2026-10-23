@@ -1,6 +1,6 @@
 # Observed Colab arithmetic runs
 
-This document records user-supplied Colab evidence inspected on 23 October 2026. Notebook 08 was inspected through its saved stage receipts and stdout/stderr captures; notebooks 09, 10 and 13 are presently recorded from their displayed progress logs only. No mathematical calculations were rerun locally. Raw logs, account paths, and VM identifiers are not published here.
+This document records user-supplied Colab evidence inspected on 23 October 2026. Notebook 08 was inspected through its saved stage receipts and stdout/stderr captures; notebooks 09, 10, 13 and 14 are presently recorded from their displayed progress logs only. No mathematical calculations were rerun locally. Raw logs, account paths, and VM identifiers are not published here.
 
 ## Notebook 08: all six n2/n3 stages completed in BASIC mode
 
@@ -77,3 +77,21 @@ The reported complete scope is 60 roots, 1,994 nodes, 1,027 leaves, the two infi
 The logged source-manifest SHA-256 is `3f38d156e97f82132772b6c21aeffe4f6ad6ca254417882331fe8a9738617a40`; the driver SHA-256 is `b3efe30d0b67e0b172367e55a387515c3a2d2655ade1a44fd07749ca6d89a484`. The receipt explicitly retains `full_n5_verified=false` and `all_index_conclusion_verified=false`.
 
 This records the displayed full-run evidence. The final ZIP, actual supervisor result and saved capture files have not yet been separately inspected for this record; no archive digest or newly closed proof-graph node is asserted. No repeat computation is requested merely to change these bookkeeping details. See [the execution contract](n5_gapfree_execution.md) and [the n5 analytic review](n5_analytic_review.md) for the component's implication and the remaining n5 domains.
+
+## Notebook14: displayed log reports all five auxiliary21 covers completed
+
+The user-supplied log reports `EXACT21_STAGE`1 through5, followed by the actual
+`EXACT21_PASS` marker and guarded stage status `completed`, with
+`native_arithmetic_accepted=true`. Stage5 reports a negative final defect. The
+native output reports approximately632.779 seconds elapsed. The final saved
+session state is `FRESH_CONDITIONAL_ARITHMETIC_REPLAY_COMPLETED`; the results ZIP
+was reported saved on23 October2026 at12:50:42 UTC.
+
+This is the selected five-cover,92,160-rectangle auxiliary21 calculation. The
+source/transport contract and retained predecessor/analytic premises are
+documented in [the auxiliary21–23 execution scope](aux21_23_execution.md).
+`full_auxiliary_bound_verified` and `all_index_conclusion_verified` remain false
+in the displayed result. The log reports complete scoped arithmetic; the actual
+ZIP and saved native capture/guard artifacts have not yet been independently
+inspected for this record. No full auxiliary theorem or sharp C21 conclusion is
+promoted by this observation.
