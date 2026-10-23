@@ -1,0 +1,18 @@
+{
+  "all_actual_members_match": true,
+  "all_index_conclusion_verified": false,
+  "arithmetic_computed": false,
+  "full_notebook56_completed": false,
+  "infrastructure_validation": {
+    "clean_copy_files": 17,
+    "clean_publication_dependency_copy_fixtures": 17,
+    "ignored_work_inputs": 0,
+    "original_math_imported_or_executed": false,
+    "synthetic_fixtures": 17
+  },
+  "original_source_imported_or_executed": false,
+  "schema": "FINITE1014_KAPPA_SOURCE_PREPARATION_V1",
+  "source_bytes": 12771,
+  "source_files": 3,
+  "source_plan_sha256": "3cfa73a7278e06b71c65cbb8726a500f2b6b3b6bd1524de852749f76544489bb"
+}

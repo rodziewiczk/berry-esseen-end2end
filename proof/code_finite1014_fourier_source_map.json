@@ -1,0 +1,2268 @@
+{
+  "schema": "INTERNAL_FINITE1014_FOURIER_SOURCE_AUDIT_V1",
+  "date": "2026-10-24",
+  "review_kind": "Fallible internal AI source/hand-algebra review; not external independent verification",
+  "original_math_imported_or_executed": false,
+  "fresh_arithmetic_accepted": false,
+  "source_plans": [
+    {
+      "filename": "proof/finite1014_parent_auxiliary_source_plan.json",
+      "sha256": "9cdddfff2debc9c69e7719a24cf68ba4f03f75da6bf074a6758bc8bb5962fea7",
+      "entries": 75,
+      "files": [
+        {
+          "relative_source_path": "runs/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_01/metadata.json",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/runs/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_01/metadata.json",
+          "bytes": 938,
+          "sha256": "9bc09745362c8caa1e24de97e3a442c1fcca8406c118852b7295976adcc7c93e",
+          "kind": "provenance",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "runs/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_01/stderr.txt",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/runs/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_01/stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "kind": "provenance",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "runs/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_01/stdout.txt",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/runs/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_01/stdout.txt",
+          "bytes": 1179,
+          "sha256": "163bf7eff250f62806ee308eab31d71fc1f35da49fdf625675071387b08b0031",
+          "kind": "provenance",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff10_20261018/fourier/auxiliary9_14_readback_v1/REVIEW.txt",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff10_20261018/fourier/auxiliary9_14_readback_v1/REVIEW.txt",
+          "bytes": 1013,
+          "sha256": "baf96cccdc755f90b400e91ec73bb5d408db1fdcf9821f52bc9fe2d2dceef7a2",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff10_20261018/fourier/auxiliary9_14_readback_v1/readback.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff10_20261018/fourier/auxiliary9_14_readback_v1/readback.py",
+          "bytes": 17438,
+          "sha256": "37f836fe8384f53ecaf56217df4597914aba2f726a2ef2a36a5c232f36c0ffb3",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff10_20261018/fourier/auxiliary9_14_v1/MANIFEST.json",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff10_20261018/fourier/auxiliary9_14_v1/MANIFEST.json",
+          "bytes": 9798,
+          "sha256": "4c9e65b33e3d2f9b15db5f4432ceb9b90754e51aa339d3e5f3b7d79b9edd28a0",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff10_20261018/fourier/auxiliary9_14_v1/PORT.diff",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff10_20261018/fourier/auxiliary9_14_v1/PORT.diff",
+          "bytes": 8108,
+          "sha256": "a146b958301c2adfc8a7bbcc366eeef58e4d9c136cc6e897c3b16d2e8435332b",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff10_20261018/fourier/auxiliary9_14_v1/PROOF.txt",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff10_20261018/fourier/auxiliary9_14_v1/PROOF.txt",
+          "bytes": 1480,
+          "sha256": "c440370e772611ad1dccefb5c7cbb4965f20a3438a2ca09b9dd97c0457bf849b",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff10_20261018/fourier/auxiliary9_14_v1/batch.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff10_20261018/fourier/auxiliary9_14_v1/batch.py",
+          "bytes": 5302,
+          "sha256": "7fb48e7dd00dbc7cb6a1d024694b38850fdea7742e7403dd26e3280c464a1b23",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff10_20261018/fourier/auxiliary9_14_v1/integrate.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff10_20261018/fourier/auxiliary9_14_v1/integrate.py",
+          "bytes": 7135,
+          "sha256": "e4bda2d00d905bf0963ca6f48d62c7d52a831e14cc695a2bae18183239bb64fc",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff10_20261018/fourier/auxiliary9_14_v1/jet.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff10_20261018/fourier/auxiliary9_14_v1/jet.py",
+          "bytes": 1989,
+          "sha256": "8decccac51b92cf58b3275e291b83e775da85cd9032f81501e9592d11d591329",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff10_20261018/fourier/auxiliary9_14_v1/kernel.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff10_20261018/fourier/auxiliary9_14_v1/kernel.py",
+          "bytes": 6017,
+          "sha256": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff10_20261018/fourier/auxiliary9_14_v1/planner.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff10_20261018/fourier/auxiliary9_14_v1/planner.py",
+          "bytes": 1590,
+          "sha256": "f5ecb8fbfcf37bb225dca12c3a71e3168d92bbbdd44882492c2bf599703ec83c",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff10_20261018/fourier/auxiliary9_14_v1/protocol.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff10_20261018/fourier/auxiliary9_14_v1/protocol.py",
+          "bytes": 6386,
+          "sha256": "6c22f9ed340deb21a1cd4a1325f03a64f061b00e67c34c00c7b47218ab45d26e",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff10_20261018/fourier/auxiliary9_14_v1/run.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff10_20261018/fourier/auxiliary9_14_v1/run.py",
+          "bytes": 2089,
+          "sha256": "f259055b489b622899eafe2ddcd98a98ba6a94f8eddc39aabca9869d1a8fb30d",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff10_20261018/fourier/discovery_v1/floating.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff10_20261018/fourier/discovery_v1/floating.py",
+          "bytes": 4178,
+          "sha256": "bdb2ee4af2804d57317e42c5c887fbe5b2536460780ff9109c118e5a3f42cbb9",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff10_20261018/fourier/prepare_auxiliary.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff10_20261018/fourier/prepare_auxiliary.py",
+          "bytes": 3790,
+          "sha256": "e494d48693fe0cb2111f4cc54bb7846596d297101b011bf61ff0cbd9b5d54144",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff15_20261017/fourier/auxiliary14_19_v1/MANIFEST.json",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff15_20261017/fourier/auxiliary14_19_v1/MANIFEST.json",
+          "bytes": 8193,
+          "sha256": "6e9ae39864b88c8f4f77a53a13dc65b5873d0ff3cab5fb075224fb1f01eec927",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff15_20261017/fourier/auxiliary14_19_v1/PORT.diff",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff15_20261017/fourier/auxiliary14_19_v1/PORT.diff",
+          "bytes": 7569,
+          "sha256": "714d68bd26d0807174505157e8df91305c046b223d523281c28c5d8f0ac603ed",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff15_20261017/fourier/auxiliary14_19_v1/PROOF.txt",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff15_20261017/fourier/auxiliary14_19_v1/PROOF.txt",
+          "bytes": 1899,
+          "sha256": "d51db0ee391d2162517bc2dfd33408f8db47b5eed6e6735226afee2762bf3981",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff15_20261017/fourier/auxiliary14_19_v1/batch.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff15_20261017/fourier/auxiliary14_19_v1/batch.py",
+          "bytes": 5304,
+          "sha256": "e034b411f8df172e10d94da8e9c0bb8e96d8f9abf20eb9b2f949006698efb670",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff15_20261017/fourier/auxiliary14_19_v1/integrate.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff15_20261017/fourier/auxiliary14_19_v1/integrate.py",
+          "bytes": 7135,
+          "sha256": "e4bda2d00d905bf0963ca6f48d62c7d52a831e14cc695a2bae18183239bb64fc",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff15_20261017/fourier/auxiliary14_19_v1/jet.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff15_20261017/fourier/auxiliary14_19_v1/jet.py",
+          "bytes": 1989,
+          "sha256": "8decccac51b92cf58b3275e291b83e775da85cd9032f81501e9592d11d591329",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff15_20261017/fourier/auxiliary14_19_v1/kernel.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff15_20261017/fourier/auxiliary14_19_v1/kernel.py",
+          "bytes": 6017,
+          "sha256": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff15_20261017/fourier/auxiliary14_19_v1/planner.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff15_20261017/fourier/auxiliary14_19_v1/planner.py",
+          "bytes": 1590,
+          "sha256": "63a6d7d4d3e1baeb0108079d8bcc5e3435c8dee796da9d0b1044789fb8a32f20",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff15_20261017/fourier/auxiliary14_19_v1/protocol.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff15_20261017/fourier/auxiliary14_19_v1/protocol.py",
+          "bytes": 6391,
+          "sha256": "5eefff7a5dce1e7781f0e05a82e5e94b7c9ffbd841d5b0352dd9a81f5f8519ee",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff15_20261017/fourier/auxiliary14_19_v1/run.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff15_20261017/fourier/auxiliary14_19_v1/run.py",
+          "bytes": 2091,
+          "sha256": "f7cf74c6d69dae9c49ceacf7bbd2c96d6b889d04795e55c4f54a99c5bf9db789",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff15_20261017/fourier/discovery_v1/discover.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff15_20261017/fourier/discovery_v1/discover.py",
+          "bytes": 1090,
+          "sha256": "ffcbd9b9291a56415b50a30759455fd8d0c573f4f6221bb3f7508c18c8e15a46",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff15_20261017/fourier/discovery_v1/floating.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff15_20261017/fourier/discovery_v1/floating.py",
+          "bytes": 4178,
+          "sha256": "bdb2ee4af2804d57317e42c5c887fbe5b2536460780ff9109c118e5a3f42cbb9",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/MANIFEST.json",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/MANIFEST.json",
+          "bytes": 4484,
+          "sha256": "1e4f2d719b84fb065b8184b8b924b57e2ce40608ce436da60c002dd09daf49da",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/PORT.diff",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/PORT.diff",
+          "bytes": 2010,
+          "sha256": "bcb067893a80fa5d294db02600b6bb7a139201e897abb9adff56304ce33772da",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/PROOF.txt",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/PROOF.txt",
+          "bytes": 8527,
+          "sha256": "e31638ee8444ef66e6b752a392823e34781a602894799393c1f4047ecf0c71e9",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/auxiliary19_24_v1/MANIFEST.json",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/auxiliary19_24_v1/MANIFEST.json",
+          "bytes": 6591,
+          "sha256": "a4eb496264a920652fedec4c63474a2cceb23adb4a212b844c5a036369697e0c",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/auxiliary19_24_v1/PORT.diff",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/auxiliary19_24_v1/PORT.diff",
+          "bytes": 544,
+          "sha256": "a502a7d9df6dddbf921f2e1715dca53c6bb38d5f7c4606b5e9ee58b7751e05e6",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/auxiliary19_24_v1/PROOF.txt",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/auxiliary19_24_v1/PROOF.txt",
+          "bytes": 4513,
+          "sha256": "0f44deb2f5484c52b2f6b8dac790d57dc53c27f7500892a365a7bc0615baef97",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/auxiliary19_24_v1/batch.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/auxiliary19_24_v1/batch.py",
+          "bytes": 5304,
+          "sha256": "461cd479f042e85e2b181002910e8414205bce1590908d04abcea2f5769b30bb",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/auxiliary19_24_v1/integrate.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/auxiliary19_24_v1/integrate.py",
+          "bytes": 7135,
+          "sha256": "e4bda2d00d905bf0963ca6f48d62c7d52a831e14cc695a2bae18183239bb64fc",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/auxiliary19_24_v1/jet.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/auxiliary19_24_v1/jet.py",
+          "bytes": 1989,
+          "sha256": "8decccac51b92cf58b3275e291b83e775da85cd9032f81501e9592d11d591329",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/auxiliary19_24_v1/kernel.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/auxiliary19_24_v1/kernel.py",
+          "bytes": 6017,
+          "sha256": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/auxiliary19_24_v1/planner.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/auxiliary19_24_v1/planner.py",
+          "bytes": 1586,
+          "sha256": "d924912c85f41b32e1eb8aeccfc8da082039ee43e59a20f68ad56f0c701fff9d",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/auxiliary19_24_v1/protocol.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/auxiliary19_24_v1/protocol.py",
+          "bytes": 6391,
+          "sha256": "744723d19f14061c6f69b52890f15109277e978d9fc1e6dbb3500bf72612120e",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/auxiliary19_24_v1/run.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/auxiliary19_24_v1/run.py",
+          "bytes": 2091,
+          "sha256": "4b4b4c277882d838a9c2ae127f05c28c377d78fd60689e9c5766cca43b6b8028",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/batch.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/batch.py",
+          "bytes": 5301,
+          "sha256": "6afbd94977681730b63a406087c948622155c50720a18a36f3868d4f87f2f164",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/controls.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/controls.py",
+          "bytes": 2690,
+          "sha256": "9f298e23550e9366048c64570a996000912d47004a1ff5cb1575e5fe20d35a63",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/coupled_v1/FLOATING.diff",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/coupled_v1/FLOATING.diff",
+          "bytes": 712,
+          "sha256": "d66c81004069e15f18233eaa63601d64e906e93a1b7f8adfb13fe930ad83bdc2",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/coupled_v1/PROOF.txt",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/coupled_v1/PROOF.txt",
+          "bytes": 2532,
+          "sha256": "946a84b93fd337cb2a7d7a4e40f58919f5baf3658fe6a726f5f974e1430c193f",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/coupled_v1/discovery.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/coupled_v1/discovery.py",
+          "bytes": 1625,
+          "sha256": "ade826727fcf4c28b324ef35f8da316cd5b81c4830246164eb41dfd7590c02db",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/coupled_v1/floating.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/coupled_v1/floating.py",
+          "bytes": 3680,
+          "sha256": "81b9ab30b41be9068631a4d2e08a93a17bdb3d11f0278345f267802d2d8e8197",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/coupled_v1/run.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/coupled_v1/run.py",
+          "bytes": 2172,
+          "sha256": "7e4e12c8dcb0d4e1ad9bb2ca6cd48dc7bca77c8041cfe6b36fdc2eedd7089dce",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/discovery.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/discovery.py",
+          "bytes": 3639,
+          "sha256": "0f484fc8d7ef8eeca811cb0678af32be937180a3241e35cbd938e8e517862bc7",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/integrate.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/integrate.py",
+          "bytes": 7135,
+          "sha256": "e4bda2d00d905bf0963ca6f48d62c7d52a831e14cc695a2bae18183239bb64fc",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/jet.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/jet.py",
+          "bytes": 1989,
+          "sha256": "8decccac51b92cf58b3275e291b83e775da85cd9032f81501e9592d11d591329",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/kernel.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/kernel.py",
+          "bytes": 6017,
+          "sha256": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/pilot.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/pilot.py",
+          "bytes": 2875,
+          "sha256": "107c6d85a6ba8b530ededa8868276433418b68298098ad39c4b5a52f10f7e301",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/run.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/run.py",
+          "bytes": 2161,
+          "sha256": "df6d99c397ddf1b5eed0e589dc849755f76ed5e25891e568ac5acc1e2e7ab3fb",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_continue_20261015/analytic/universal_zeta_v1/CHECKED.json",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_continue_20261015/analytic/universal_zeta_v1/CHECKED.json",
+          "bytes": 6540,
+          "sha256": "04a8c2110951e551a7e46711e57ef8384a1b9b47e31cba75a01702db260a6400",
+          "kind": "conditional_input",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_continue_20261015/analytic/universal_zeta_v1/PROOF.txt",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_continue_20261015/analytic/universal_zeta_v1/PROOF.txt",
+          "bytes": 3774,
+          "sha256": "6f68c67bab4f198b20388e108a0d5564593bcb1f36f047fa6aff1454ebc4c66c",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_continue_20261015/analytic/universal_zeta_v1/check.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_continue_20261015/analytic/universal_zeta_v1/check.py",
+          "bytes": 3766,
+          "sha256": "60816afdefba8b65c673a22f7edf39f8a594d5dae53ff9a8577ebed0635fecc3",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_continue_20261015/root/taylor_circle_v1/PROOF.txt",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_continue_20261015/root/taylor_circle_v1/PROOF.txt",
+          "bytes": 8355,
+          "sha256": "cc0545ed99ff8c247bcf64f05753e42c883432cfc4276c0a34e6c6d8b52f973c",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_continue_20261015/root/taylor_circle_v1/integrate.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_continue_20261015/root/taylor_circle_v1/integrate.py",
+          "bytes": 7195,
+          "sha256": "cfac1967b1ff7a0dfb5e77f9bd1ee96edac7f9ba8a185df7aae64d09bc0f86d0",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_continue_20261015/root/taylor_circle_v1/jet.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_continue_20261015/root/taylor_circle_v1/jet.py",
+          "bytes": 2053,
+          "sha256": "8d4ecba05181cb71c9d122bc355e5a124d356662f5b30c0be82dc30c4fda5dc1",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_rethink_20261015/repo_iid/source/paper/upper-0423.tex",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/repo_iid/source/paper/upper-0423.tex",
+          "bytes": 102424,
+          "sha256": "a80bc131732539fd4d9a1a125501b7a6e122ce65381e6b26f2fde764c36f9220",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_rethink_20261015/repo_iid_low_v1/ZETA_CIRCLE_PROOF.txt",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/repo_iid_low_v1/ZETA_CIRCLE_PROOF.txt",
+          "bytes": 3487,
+          "sha256": "79ccb6400d557744e015ffa90a00ee9262b92a558b361e2dfcc6fcd03b2de3dd",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_rethink_20261015/repo_independent/FINAL_RHO130_REVIEW.txt",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/repo_independent/FINAL_RHO130_REVIEW.txt",
+          "bytes": 10689,
+          "sha256": "1082d42b360d65ba2b27ad4f7cf4913bc8e6d40e60517e36c578870d14f9695b",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_rethink_20261015/repo_independent/FOURIER_AUDIT.txt",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/repo_independent/FOURIER_AUDIT.txt",
+          "bytes": 10492,
+          "sha256": "40acdf27ea60aa7a792927009e39e7f33c6609c90461e65134818247f619227b",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_rethink_20261015/root/FOURIER_REDUCTION_V2.txt",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/root/FOURIER_REDUCTION_V2.txt",
+          "bytes": 6050,
+          "sha256": "7389d85b02adbef18d598d57d97bdf93b9fe76502b826ed405fd54b95d5d40c6",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/PROOF.txt",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/PROOF.txt",
+          "bytes": 4882,
+          "sha256": "df92603993c8b3ef4bab8767d3db7c21e694fc7d78661845b306dfd0e68dc0fc",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/batch.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/batch.py",
+          "bytes": 5331,
+          "sha256": "04045148b9e86dc4d92357d09642c04218ed2ea6f8ed27b5e7796a159f85b39e",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/PROOF.txt",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/PROOF.txt",
+          "bytes": 4502,
+          "sha256": "e88f28253b08150ea49443c25888cfabe0e432492534b4f354a27b4d84fdbb9b",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/kernel.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/kernel.py",
+          "bytes": 6017,
+          "sha256": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CERTIFICATE.json",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CERTIFICATE.json",
+          "bytes": 81278,
+          "sha256": "02dc46c334ec9c9cbf0e7bb4c982869c6e3e0649a915169d3542b8820b51aac7",
+          "kind": "conditional_input",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CHECKED.json",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CHECKED.json",
+          "bytes": 1179,
+          "sha256": "163bf7eff250f62806ee308eab31d71fc1f35da49fdf625675071387b08b0031",
+          "kind": "conditional_input",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/PROOF.txt",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/PROOF.txt",
+          "bytes": 5668,
+          "sha256": "6645891bc75553f1a35faba00dd2a09e6b47c5fd374e637d83d62ec82069c162",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/controls.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/controls.py",
+          "bytes": 2951,
+          "sha256": "331ee713e7950c9013d969b70de5809d4eb7e37ac34cd22a6184e0f8872fe4b5",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/kernel.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/kernel.py",
+          "bytes": 4152,
+          "sha256": "16170505dece7571725e4e601f1546989d546ed64685616f9d13283c59702b0a",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        }
+      ],
+      "all_source_entries_match": true,
+      "arithmetic_acceptance": false
+    },
+    {
+      "filename": "proof/finite1014_supported_source_plan.json",
+      "sha256": "436f51a4e04f9a119bcdb9deb318a56cbe88a72c5eb59235c015235e21b94053",
+      "entries": 97,
+      "files": [
+        {
+          "relative_source_path": "runs/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_01/metadata.json",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/runs/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_01/metadata.json",
+          "bytes": 938,
+          "sha256": "9bc09745362c8caa1e24de97e3a442c1fcca8406c118852b7295976adcc7c93e",
+          "kind": "conditional_provenance",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "runs/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_01/stderr.txt",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/runs/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_01/stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "kind": "conditional_provenance",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "runs/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_01/stdout.txt",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/runs/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_01/stdout.txt",
+          "bytes": 1179,
+          "sha256": "163bf7eff250f62806ee308eab31d71fc1f35da49fdf625675071387b08b0031",
+          "kind": "conditional_provenance",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff10_20261018/fourier/discovery_v1/floating.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff10_20261018/fourier/discovery_v1/floating.py",
+          "bytes": 4178,
+          "sha256": "bdb2ee4af2804d57317e42c5c887fbe5b2536460780ff9109c118e5a3f42cbb9",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff10_20261018/fourier/prepare_supported.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff10_20261018/fourier/prepare_supported.py",
+          "bytes": 3962,
+          "sha256": "62012d8fe4fb173e602bba1e6560150d850a92c5760c5390c9a7db0bf0253492",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff10_20261018/fourier/supported9_14_readback_v1/REVIEW.txt",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff10_20261018/fourier/supported9_14_readback_v1/REVIEW.txt",
+          "bytes": 792,
+          "sha256": "320f3f2e33534e83e3dbff1d57a901cc575a14396bf45f11ba5dedb12ff0b527",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff10_20261018/fourier/supported9_14_readback_v1/readback.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff10_20261018/fourier/supported9_14_readback_v1/readback.py",
+          "bytes": 18304,
+          "sha256": "ed24003e13ce2517691957e3457f56d4ecb3887c9b401a00045555f291310074",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff10_20261018/fourier/supported9_14_v1/MANIFEST.json",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff10_20261018/fourier/supported9_14_v1/MANIFEST.json",
+          "bytes": 12868,
+          "sha256": "17ff964d7091b3fec2a463f46d9ccab6eb5dc85d916e8899ee39492cf58e72d7",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff10_20261018/fourier/supported9_14_v1/PORT.diff",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff10_20261018/fourier/supported9_14_v1/PORT.diff",
+          "bytes": 8743,
+          "sha256": "2f2d475269e2d6c80f97bd9449210e0bf1c22c9edb7cc3791035505a0083dee4",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff10_20261018/fourier/supported9_14_v1/PROOF.txt",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff10_20261018/fourier/supported9_14_v1/PROOF.txt",
+          "bytes": 1551,
+          "sha256": "13d6d2d4fda606d7867a5451b1bded69ccae25c46e22c7084f79e94dbdb85c97",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff10_20261018/fourier/supported9_14_v1/batch.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff10_20261018/fourier/supported9_14_v1/batch.py",
+          "bytes": 5302,
+          "sha256": "7fb48e7dd00dbc7cb6a1d024694b38850fdea7742e7403dd26e3280c464a1b23",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff10_20261018/fourier/supported9_14_v1/integrate.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff10_20261018/fourier/supported9_14_v1/integrate.py",
+          "bytes": 7135,
+          "sha256": "e4bda2d00d905bf0963ca6f48d62c7d52a831e14cc695a2bae18183239bb64fc",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff10_20261018/fourier/supported9_14_v1/jet.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff10_20261018/fourier/supported9_14_v1/jet.py",
+          "bytes": 1989,
+          "sha256": "8decccac51b92cf58b3275e291b83e775da85cd9032f81501e9592d11d591329",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff10_20261018/fourier/supported9_14_v1/kernel.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff10_20261018/fourier/supported9_14_v1/kernel.py",
+          "bytes": 6017,
+          "sha256": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff10_20261018/fourier/supported9_14_v1/planner.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff10_20261018/fourier/supported9_14_v1/planner.py",
+          "bytes": 2062,
+          "sha256": "496c3788b172235e18bfa618f19a7fb405512136b185a8e31955b873bf179627",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff10_20261018/fourier/supported9_14_v1/protocol.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff10_20261018/fourier/supported9_14_v1/protocol.py",
+          "bytes": 6548,
+          "sha256": "338fcf3646eb115ac9d9ad1554fb8f460158e6779db067a503b482c2f6f47099",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff10_20261018/fourier/supported9_14_v1/run.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff10_20261018/fourier/supported9_14_v1/run.py",
+          "bytes": 2105,
+          "sha256": "569b1d723a198fea7439b220fcbadd704d3eb64808138dff9bce0511a5542737",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff15_20261017/fourier/discovery_v1/floating.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff15_20261017/fourier/discovery_v1/floating.py",
+          "bytes": 4178,
+          "sha256": "bdb2ee4af2804d57317e42c5c887fbe5b2536460780ff9109c118e5a3f42cbb9",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff15_20261017/fourier/supported14_19_v1/MANIFEST.json",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff15_20261017/fourier/supported14_19_v1/MANIFEST.json",
+          "bytes": 11265,
+          "sha256": "9711da0e2e3cb84bbd4d97f5f2bcdff2cf330f1d4596a8c9fa79cd7bb43c13d2",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff15_20261017/fourier/supported14_19_v1/PORT.diff",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff15_20261017/fourier/supported14_19_v1/PORT.diff",
+          "bytes": 8001,
+          "sha256": "f20b14546c531ee2a20f9120cbbb3a7ab9741041a4af47a144fe9690679efed7",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff15_20261017/fourier/supported14_19_v1/PROOF.txt",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff15_20261017/fourier/supported14_19_v1/PROOF.txt",
+          "bytes": 1663,
+          "sha256": "11397eac328ade67b473679162470ca126155ce0bc5e0291a2413f2ea8aa6a43",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff15_20261017/fourier/supported14_19_v1/batch.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff15_20261017/fourier/supported14_19_v1/batch.py",
+          "bytes": 5304,
+          "sha256": "e034b411f8df172e10d94da8e9c0bb8e96d8f9abf20eb9b2f949006698efb670",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff15_20261017/fourier/supported14_19_v1/integrate.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff15_20261017/fourier/supported14_19_v1/integrate.py",
+          "bytes": 7135,
+          "sha256": "e4bda2d00d905bf0963ca6f48d62c7d52a831e14cc695a2bae18183239bb64fc",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff15_20261017/fourier/supported14_19_v1/jet.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff15_20261017/fourier/supported14_19_v1/jet.py",
+          "bytes": 1989,
+          "sha256": "8decccac51b92cf58b3275e291b83e775da85cd9032f81501e9592d11d591329",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff15_20261017/fourier/supported14_19_v1/kernel.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff15_20261017/fourier/supported14_19_v1/kernel.py",
+          "bytes": 6017,
+          "sha256": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff15_20261017/fourier/supported14_19_v1/planner.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff15_20261017/fourier/supported14_19_v1/planner.py",
+          "bytes": 2110,
+          "sha256": "830c0960beb70f98eea48f5dacdc4c779c8af8bc7da0dc39f4162598f04b888b",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff15_20261017/fourier/supported14_19_v1/protocol.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff15_20261017/fourier/supported14_19_v1/protocol.py",
+          "bytes": 6641,
+          "sha256": "c9540a3ecec850593fccf11a466f9b95c0efc64d0e9950adc5e2ae7c77ec7e3b",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff15_20261017/fourier/supported14_19_v1/run.py",
+          "archive": "cutoff5_10_15.zip",
+          "member": "cutoff15_20261017/fourier/supported14_19_v1/run.py",
+          "bytes": 2106,
+          "sha256": "a3ae2ae706ab7d3b9452c544b3e44c88c2482562ac7b9fe897528f52ce854fff",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/analytic/BOUNDED_SUPPORT_ETA.txt",
+          "archive": "cutoff20_20261016.zip",
+          "member": "cutoff20_20261016/analytic/BOUNDED_SUPPORT_ETA.txt",
+          "bytes": 3802,
+          "sha256": "766a38a999f86285e695591a7f414c24b0492304d81fecc402e3cac4f980d084",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/analytic/same_law_predecessor_v1/OWN_CAP_COROLLARY.txt",
+          "archive": "cutoff20_20261016.zip",
+          "member": "cutoff20_20261016/analytic/same_law_predecessor_v1/OWN_CAP_COROLLARY.txt",
+          "bytes": 2270,
+          "sha256": "1b25c34d40fc18151256843ca556b95a2bb0cb68a6efbed85aff5aa909624de9",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/analytic/same_law_predecessor_v1/PILOT_SOURCE_REVIEW.txt",
+          "archive": "cutoff20_20261016.zip",
+          "member": "cutoff20_20261016/analytic/same_law_predecessor_v1/PILOT_SOURCE_REVIEW.txt",
+          "bytes": 4563,
+          "sha256": "8631a36fa0719815cc42502eb2c742950947eda7232223267dd3dd2c517d5cd7",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/analytic/same_law_predecessor_v1/PROOF.txt",
+          "archive": "cutoff20_20261016.zip",
+          "member": "cutoff20_20261016/analytic/same_law_predecessor_v1/PROOF.txt",
+          "bytes": 9411,
+          "sha256": "194b0d4c1003be333874a250e5cb2a589e84bc3b2f8d22e20199f7f5ac1d1642",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/BOUNDED_ETA_SECOND_REVIEW.txt",
+          "archive": "cutoff20_20261016.zip",
+          "member": "cutoff20_20261016/fourier/BOUNDED_ETA_SECOND_REVIEW.txt",
+          "bytes": 2914,
+          "sha256": "0b882d823e3fe2288a73054c995af5c188cefa20a3a9f6eb54d5736b9703245d",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/MANIFEST.json",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/MANIFEST.json",
+          "bytes": 4484,
+          "sha256": "1e4f2d719b84fb065b8184b8b924b57e2ce40608ce436da60c002dd09daf49da",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/PORT.diff",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/PORT.diff",
+          "bytes": 2010,
+          "sha256": "bcb067893a80fa5d294db02600b6bb7a139201e897abb9adff56304ce33772da",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/PROOF.txt",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/PROOF.txt",
+          "bytes": 8527,
+          "sha256": "e31638ee8444ef66e6b752a392823e34781a602894799393c1f4047ecf0c71e9",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/auxiliary19_24_v1/MANIFEST.json",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/auxiliary19_24_v1/MANIFEST.json",
+          "bytes": 6591,
+          "sha256": "a4eb496264a920652fedec4c63474a2cceb23adb4a212b844c5a036369697e0c",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/auxiliary19_24_v1/PORT.diff",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/auxiliary19_24_v1/PORT.diff",
+          "bytes": 544,
+          "sha256": "a502a7d9df6dddbf921f2e1715dca53c6bb38d5f7c4606b5e9ee58b7751e05e6",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/auxiliary19_24_v1/PROOF.txt",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/auxiliary19_24_v1/PROOF.txt",
+          "bytes": 4513,
+          "sha256": "0f44deb2f5484c52b2f6b8dac790d57dc53c27f7500892a365a7bc0615baef97",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/auxiliary19_24_v1/batch.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/auxiliary19_24_v1/batch.py",
+          "bytes": 5304,
+          "sha256": "461cd479f042e85e2b181002910e8414205bce1590908d04abcea2f5769b30bb",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/auxiliary19_24_v1/integrate.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/auxiliary19_24_v1/integrate.py",
+          "bytes": 7135,
+          "sha256": "e4bda2d00d905bf0963ca6f48d62c7d52a831e14cc695a2bae18183239bb64fc",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/auxiliary19_24_v1/jet.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/auxiliary19_24_v1/jet.py",
+          "bytes": 1989,
+          "sha256": "8decccac51b92cf58b3275e291b83e775da85cd9032f81501e9592d11d591329",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/auxiliary19_24_v1/kernel.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/auxiliary19_24_v1/kernel.py",
+          "bytes": 6017,
+          "sha256": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/auxiliary19_24_v1/planner.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/auxiliary19_24_v1/planner.py",
+          "bytes": 1586,
+          "sha256": "d924912c85f41b32e1eb8aeccfc8da082039ee43e59a20f68ad56f0c701fff9d",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/auxiliary19_24_v1/protocol.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/auxiliary19_24_v1/protocol.py",
+          "bytes": 6391,
+          "sha256": "744723d19f14061c6f69b52890f15109277e978d9fc1e6dbb3500bf72612120e",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/auxiliary19_24_v1/run.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/auxiliary19_24_v1/run.py",
+          "bytes": 2091,
+          "sha256": "4b4b4c277882d838a9c2ae127f05c28c377d78fd60689e9c5766cca43b6b8028",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/batch.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/batch.py",
+          "bytes": 5301,
+          "sha256": "6afbd94977681730b63a406087c948622155c50720a18a36f3868d4f87f2f164",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/controls.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/controls.py",
+          "bytes": 2690,
+          "sha256": "9f298e23550e9366048c64570a996000912d47004a1ff5cb1575e5fe20d35a63",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/coupled_v1/FLOATING.diff",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/coupled_v1/FLOATING.diff",
+          "bytes": 712,
+          "sha256": "d66c81004069e15f18233eaa63601d64e906e93a1b7f8adfb13fe930ad83bdc2",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/coupled_v1/PROOF.txt",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/coupled_v1/PROOF.txt",
+          "bytes": 2532,
+          "sha256": "946a84b93fd337cb2a7d7a4e40f58919f5baf3658fe6a726f5f974e1430c193f",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/coupled_v1/discovery.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/coupled_v1/discovery.py",
+          "bytes": 1625,
+          "sha256": "ade826727fcf4c28b324ef35f8da316cd5b81c4830246164eb41dfd7590c02db",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/coupled_v1/floating.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/coupled_v1/floating.py",
+          "bytes": 3680,
+          "sha256": "81b9ab30b41be9068631a4d2e08a93a17bdb3d11f0278345f267802d2d8e8197",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/coupled_v1/run.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/coupled_v1/run.py",
+          "bytes": 2172,
+          "sha256": "7e4e12c8dcb0d4e1ad9bb2ca6cd48dc7bca77c8041cfe6b36fdc2eedd7089dce",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/discovery.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/discovery.py",
+          "bytes": 3639,
+          "sha256": "0f484fc8d7ef8eeca811cb0678af32be937180a3241e35cbd938e8e517862bc7",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/integrate.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/integrate.py",
+          "bytes": 7135,
+          "sha256": "e4bda2d00d905bf0963ca6f48d62c7d52a831e14cc695a2bae18183239bb64fc",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/jet.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/jet.py",
+          "bytes": 1989,
+          "sha256": "8decccac51b92cf58b3275e291b83e775da85cd9032f81501e9592d11d591329",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/kernel.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/kernel.py",
+          "bytes": 6017,
+          "sha256": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/pilot.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/pilot.py",
+          "bytes": 2875,
+          "sha256": "107c6d85a6ba8b530ededa8868276433418b68298098ad39c4b5a52f10f7e301",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/run.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/run.py",
+          "bytes": 2161,
+          "sha256": "df6d99c397ddf1b5eed0e589dc849755f76ed5e25891e568ac5acc1e2e7ab3fb",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/same_law1920_cover_v1/MANIFEST.json",
+          "archive": "cutoff20_20261016.zip",
+          "member": "cutoff20_20261016/fourier/same_law1920_cover_v1/MANIFEST.json",
+          "bytes": 9766,
+          "sha256": "aace6821f2a265fbddc6e3764e3bc1e22e5895a9ce23d78fd276cbdf5d4f4939",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/same_law1920_cover_v1/PROOF.txt",
+          "archive": "cutoff20_20261016.zip",
+          "member": "cutoff20_20261016/fourier/same_law1920_cover_v1/PROOF.txt",
+          "bytes": 4232,
+          "sha256": "1b03a14a940f6b73997a7ab674bac75f6813c5a1b8ba6e459c4650a29c755c7d",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/same_law1920_cover_v1/planner.py",
+          "archive": "cutoff20_20261016.zip",
+          "member": "cutoff20_20261016/fourier/same_law1920_cover_v1/planner.py",
+          "bytes": 2057,
+          "sha256": "c3483477761d4e8602e156a82c9191b57423aa25c643c389fe023e546444dd9c",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/same_law1920_cover_v1/protocol.py",
+          "archive": "cutoff20_20261016.zip",
+          "member": "cutoff20_20261016/fourier/same_law1920_cover_v1/protocol.py",
+          "bytes": 6519,
+          "sha256": "71f132a3de7278183b2fdb886a1100390abf90642616ae9d8838bb2c378e48a7",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/same_law1920_cover_v1/run.py",
+          "archive": "cutoff20_20261016.zip",
+          "member": "cutoff20_20261016/fourier/same_law1920_cover_v1/run.py",
+          "bytes": 2110,
+          "sha256": "d819a81c842eea8a6590d5da211ee3d6d8bc8843ccb3178b3968f8f31857c7d1",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/same_law1920_pilot_v1/MANIFEST.json",
+          "archive": "cutoff20_20261016.zip",
+          "member": "cutoff20_20261016/fourier/same_law1920_pilot_v1/MANIFEST.json",
+          "bytes": 8613,
+          "sha256": "40265a9409deda2aaa5cf2eb595c7dfe762142d9ab3b7278b4578bad2b921277",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/same_law1920_pilot_v1/PORT.diff",
+          "archive": "cutoff20_20261016.zip",
+          "member": "cutoff20_20261016/fourier/same_law1920_pilot_v1/PORT.diff",
+          "bytes": 571,
+          "sha256": "0db1e8fe99a2e065bd9dd38ef8c147ca75c5efeeee5982c8b1693591a8cc0c13",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/same_law1920_pilot_v1/PROOF.txt",
+          "archive": "cutoff20_20261016.zip",
+          "member": "cutoff20_20261016/fourier/same_law1920_pilot_v1/PROOF.txt",
+          "bytes": 2567,
+          "sha256": "1185382810b244941d0d4ed17b11e23208a25eb47fed5a143335ec17fca584fa",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/same_law1920_pilot_v1/batch.py",
+          "archive": "cutoff20_20261016.zip",
+          "member": "cutoff20_20261016/fourier/same_law1920_pilot_v1/batch.py",
+          "bytes": 5291,
+          "sha256": "b9af09e148a329d29a1210db2b6a746eaa4c8db7ab9eb40075404914a30f919c",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/same_law1920_pilot_v1/integrate.py",
+          "archive": "cutoff20_20261016.zip",
+          "member": "cutoff20_20261016/fourier/same_law1920_pilot_v1/integrate.py",
+          "bytes": 7135,
+          "sha256": "e4bda2d00d905bf0963ca6f48d62c7d52a831e14cc695a2bae18183239bb64fc",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/same_law1920_pilot_v1/jet.py",
+          "archive": "cutoff20_20261016.zip",
+          "member": "cutoff20_20261016/fourier/same_law1920_pilot_v1/jet.py",
+          "bytes": 1989,
+          "sha256": "8decccac51b92cf58b3275e291b83e775da85cd9032f81501e9592d11d591329",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/same_law1920_pilot_v1/kernel.py",
+          "archive": "cutoff20_20261016.zip",
+          "member": "cutoff20_20261016/fourier/same_law1920_pilot_v1/kernel.py",
+          "bytes": 6017,
+          "sha256": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/same_law1920_pilot_v1/pilot.py",
+          "archive": "cutoff20_20261016.zip",
+          "member": "cutoff20_20261016/fourier/same_law1920_pilot_v1/pilot.py",
+          "bytes": 3117,
+          "sha256": "e55efc08e08879c6908c89c2bcef56339bfcdccb67e17c82779a05772ed407d4",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/same_law1920_pilot_v1/run.py",
+          "archive": "cutoff20_20261016.zip",
+          "member": "cutoff20_20261016/fourier/same_law1920_pilot_v1/run.py",
+          "bytes": 1528,
+          "sha256": "e8b21d62b42063fc1b581acaaab69b967745622e33a4b3cdbaf23c8a56263fe8",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/same_law19_discovery_v1/DISCOVERY.json",
+          "archive": "cutoff20_20261016.zip",
+          "member": "cutoff20_20261016/fourier/same_law19_discovery_v1/DISCOVERY.json",
+          "bytes": 9914,
+          "sha256": "a8430643485533f4dc3890906514c094e0024d5b97282beca4e63d10e744ef36",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/same_law19_discovery_v1/MANIFEST.json",
+          "archive": "cutoff20_20261016.zip",
+          "member": "cutoff20_20261016/fourier/same_law19_discovery_v1/MANIFEST.json",
+          "bytes": 1037,
+          "sha256": "391a33392383520d971870a8055b0f14097ac3616321351e5d06967fe0de4b85",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/same_law19_discovery_v1/floating.py",
+          "archive": "cutoff20_20261016.zip",
+          "member": "cutoff20_20261016/fourier/same_law19_discovery_v1/floating.py",
+          "bytes": 4178,
+          "sha256": "bdb2ee4af2804d57317e42c5c887fbe5b2536460780ff9109c118e5a3f42cbb9",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff20_20261016/fourier/supported1125_v1/PROOF.txt",
+          "archive": "cutoff20_20261016.zip",
+          "member": "cutoff20_20261016/fourier/supported1125_v1/PROOF.txt",
+          "bytes": 4183,
+          "sha256": "e27ace1ff17f50ff996bfeb0cf05c7fce67b657eacb1da0ffabd1485516354f2",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_continue_20261015/analytic/universal_zeta_v1/CHECKED.json",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_continue_20261015/analytic/universal_zeta_v1/CHECKED.json",
+          "bytes": 6540,
+          "sha256": "04a8c2110951e551a7e46711e57ef8384a1b9b47e31cba75a01702db260a6400",
+          "kind": "conditional_provenance",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_continue_20261015/analytic/universal_zeta_v1/PROOF.txt",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_continue_20261015/analytic/universal_zeta_v1/PROOF.txt",
+          "bytes": 3774,
+          "sha256": "6f68c67bab4f198b20388e108a0d5564593bcb1f36f047fa6aff1454ebc4c66c",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_continue_20261015/analytic/universal_zeta_v1/check.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_continue_20261015/analytic/universal_zeta_v1/check.py",
+          "bytes": 3766,
+          "sha256": "60816afdefba8b65c673a22f7edf39f8a594d5dae53ff9a8577ebed0635fecc3",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_continue_20261015/root/taylor_circle_v1/PROOF.txt",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_continue_20261015/root/taylor_circle_v1/PROOF.txt",
+          "bytes": 8355,
+          "sha256": "cc0545ed99ff8c247bcf64f05753e42c883432cfc4276c0a34e6c6d8b52f973c",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_continue_20261015/root/taylor_circle_v1/integrate.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_continue_20261015/root/taylor_circle_v1/integrate.py",
+          "bytes": 7195,
+          "sha256": "cfac1967b1ff7a0dfb5e77f9bd1ee96edac7f9ba8a185df7aae64d09bc0f86d0",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_continue_20261015/root/taylor_circle_v1/jet.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_continue_20261015/root/taylor_circle_v1/jet.py",
+          "bytes": 2053,
+          "sha256": "8d4ecba05181cb71c9d122bc355e5a124d356662f5b30c0be82dc30c4fda5dc1",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_rethink_20261015/repo_iid/source/paper/upper-0423.tex",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/repo_iid/source/paper/upper-0423.tex",
+          "bytes": 102424,
+          "sha256": "a80bc131732539fd4d9a1a125501b7a6e122ce65381e6b26f2fde764c36f9220",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_rethink_20261015/repo_iid_low_v1/ZETA_CIRCLE_PROOF.txt",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/repo_iid_low_v1/ZETA_CIRCLE_PROOF.txt",
+          "bytes": 3487,
+          "sha256": "79ccb6400d557744e015ffa90a00ee9262b92a558b361e2dfcc6fcd03b2de3dd",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_rethink_20261015/repo_independent/FINAL_RHO130_REVIEW.txt",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/repo_independent/FINAL_RHO130_REVIEW.txt",
+          "bytes": 10689,
+          "sha256": "1082d42b360d65ba2b27ad4f7cf4913bc8e6d40e60517e36c578870d14f9695b",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_rethink_20261015/repo_independent/FOURIER_AUDIT.txt",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/repo_independent/FOURIER_AUDIT.txt",
+          "bytes": 10492,
+          "sha256": "40acdf27ea60aa7a792927009e39e7f33c6609c90461e65134818247f619227b",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_rethink_20261015/root/FOURIER_REDUCTION_V2.txt",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/root/FOURIER_REDUCTION_V2.txt",
+          "bytes": 6050,
+          "sha256": "7389d85b02adbef18d598d57d97bdf93b9fe76502b826ed405fd54b95d5d40c6",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/PROOF.txt",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/PROOF.txt",
+          "bytes": 4882,
+          "sha256": "df92603993c8b3ef4bab8767d3db7c21e694fc7d78661845b306dfd0e68dc0fc",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/batch.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/batch.py",
+          "bytes": 5331,
+          "sha256": "04045148b9e86dc4d92357d09642c04218ed2ea6f8ed27b5e7796a159f85b39e",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/PROOF.txt",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/PROOF.txt",
+          "bytes": 4502,
+          "sha256": "e88f28253b08150ea49443c25888cfabe0e432492534b4f354a27b4d84fdbb9b",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/kernel.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/kernel.py",
+          "bytes": 6017,
+          "sha256": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CERTIFICATE.json",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CERTIFICATE.json",
+          "bytes": 81278,
+          "sha256": "02dc46c334ec9c9cbf0e7bb4c982869c6e3e0649a915169d3542b8820b51aac7",
+          "kind": "conditional_provenance",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CHECKED.json",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CHECKED.json",
+          "bytes": 1179,
+          "sha256": "163bf7eff250f62806ee308eab31d71fc1f35da49fdf625675071387b08b0031",
+          "kind": "conditional_provenance",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/PROOF.txt",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/PROOF.txt",
+          "bytes": 5668,
+          "sha256": "6645891bc75553f1a35faba00dd2a09e6b47c5fd374e637d83d62ec82069c162",
+          "kind": "source_document",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/controls.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/controls.py",
+          "bytes": 2951,
+          "sha256": "331ee713e7950c9013d969b70de5809d4eb7e37ac34cd22a6184e0f8872fe4b5",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        },
+        {
+          "relative_source_path": "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/kernel.py",
+          "archive": "cutoff5_20261020.zip",
+          "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/kernel.py",
+          "bytes": 4152,
+          "sha256": "16170505dece7571725e4e601f1546989d546ed64685616f9d13283c59702b0a",
+          "kind": "source",
+          "actual_source_bytes_match": true
+        }
+      ],
+      "all_source_entries_match": true,
+      "arithmetic_acceptance": false
+    }
+  ],
+  "read_sources": [
+    {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff10_20261018/fourier/auxiliary9_14_v1/kernel.py",
+      "bytes": 6017,
+      "sha256": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+      "lines": 140,
+      "read_scope": "Entire interval/trig/exp/pi and scalar cosine arithmetic; hand derivation",
+      "bound_by_source_plans": [
+        "finite1014_parent_auxiliary_source_plan.json"
+      ]
+    },
+    {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff10_20261018/fourier/auxiliary9_14_v1/jet.py",
+      "bytes": 1989,
+      "sha256": "8decccac51b92cf58b3275e291b83e775da85cd9032f81501e9592d11d591329",
+      "lines": 48,
+      "read_scope": "Entire directed value/first/second derivative algebra",
+      "bound_by_source_plans": [
+        "finite1014_parent_auxiliary_source_plan.json"
+      ]
+    },
+    {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff10_20261018/fourier/auxiliary9_14_v1/batch.py",
+      "bytes": 5302,
+      "sha256": "7fb48e7dd00dbc7cb6a1d024694b38850fdea7742e7403dd26e3280c464a1b23",
+      "lines": 131,
+      "read_scope": "Entire original Darboux fallback, anchors, modulus, recurrences and endpoint reserves",
+      "bound_by_source_plans": [
+        "finite1014_parent_auxiliary_source_plan.json"
+      ]
+    },
+    {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff10_20261018/fourier/auxiliary9_14_v1/integrate.py",
+      "bytes": 7135,
+      "sha256": "e4bda2d00d905bf0963ca6f48d62c7d52a831e14cc695a2bae18183239bb64fc",
+      "lines": 151,
+      "read_scope": "Entire active midpoint/stable-series/fixed-branch implementation and index normalization",
+      "bound_by_source_plans": [
+        "finite1014_parent_auxiliary_source_plan.json"
+      ]
+    },
+    {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff10_20261018/fourier/auxiliary9_14_v1/protocol.py",
+      "bytes": 6386,
+      "sha256": "6c22f9ed340deb21a1cd4a1325f03a64f061b00e67c34c00c7b47218ab45d26e",
+      "lines": 99,
+      "read_scope": "Entire unconditional closed-rho/index protocol and retained external tail boundary",
+      "bound_by_source_plans": [
+        "finite1014_parent_auxiliary_source_plan.json"
+      ]
+    },
+    {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff10_20261018/fourier/auxiliary9_14_v1/PROOF.txt",
+      "bytes": 1480,
+      "sha256": "c440370e772611ad1dccefb5c7cbb4965f20a3438a2ca09b9dd97c0457bf849b",
+      "lines": 23,
+      "read_scope": "Actual stated unconditional scope and inherited interfaces",
+      "bound_by_source_plans": [
+        "finite1014_parent_auxiliary_source_plan.json"
+      ]
+    },
+    {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff10_20261018/fourier/supported9_14_v1/protocol.py",
+      "bytes": 6548,
+      "sha256": "338fcf3646eb115ac9d9ad1554fb8f460158e6779db067a503b482c2f6f47099",
+      "lines": 100,
+      "read_scope": "Entire supported two-band closed cover, beta root directions and separate support premise",
+      "bound_by_source_plans": [
+        "finite1014_supported_source_plan.json"
+      ]
+    },
+    {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff10_20261018/fourier/supported9_14_v1/PROOF.txt",
+      "bytes": 1551,
+      "sha256": "13d6d2d4fda606d7867a5451b1bded69ccae25c46e22c7084f79e94dbdb85c97",
+      "lines": 24,
+      "read_scope": "Actual support3 conditional scope and named targets",
+      "bound_by_source_plans": [
+        "finite1014_supported_source_plan.json"
+      ]
+    },
+    {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/PROOF.txt",
+      "bytes": 8527,
+      "sha256": "e31638ee8444ef66e6b752a392823e34781a602894799393c1f4047ecf0c71e9",
+      "lines": 146,
+      "read_scope": "Entire n-generic physical Fourier derivation and elementary endpoints",
+      "bound_by_source_plans": [
+        "finite1014_parent_auxiliary_source_plan.json",
+        "finite1014_supported_source_plan.json"
+      ]
+    },
+    {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/root/FOURIER_REDUCTION_V2.txt",
+      "bytes": 6050,
+      "sha256": "7389d85b02adbef18d598d57d97bdf93b9fe76502b826ed405fd54b95d5d40c6",
+      "lines": 117,
+      "read_scope": "Entire real/imaginary anchored and stable-Darboux analytic derivation",
+      "bound_by_source_plans": [
+        "finite1014_parent_auxiliary_source_plan.json",
+        "finite1014_supported_source_plan.json"
+      ]
+    },
+    {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/repo_iid_low_v1/ZETA_CIRCLE_PROOF.txt",
+      "bytes": 3487,
+      "sha256": "79ccb6400d557744e015ffa90a00ee9262b92a558b361e2dfcc6fcd03b2de3dd",
+      "lines": 72,
+      "read_scope": "Two-point mixture and sine-circle proof lines1-44; sign-coordinate/application lines46-70 are not used by these unconditional/supported protocols",
+      "bound_by_source_plans": [
+        "finite1014_parent_auxiliary_source_plan.json",
+        "finite1014_supported_source_plan.json"
+      ]
+    },
+    {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_continue_20261015/analytic/universal_zeta_v1/PROOF.txt",
+      "bytes": 3774,
+      "sha256": "6f68c67bab4f198b20388e108a0d5564593bcb1f36f047fa6aff1454ebc4c66c",
+      "lines": 75,
+      "read_scope": "Universal zeta lower proof lines3-36; counterexample section source-read, not numerical controls",
+      "bound_by_source_plans": [
+        "finite1014_parent_auxiliary_source_plan.json",
+        "finite1014_supported_source_plan.json"
+      ]
+    },
+    {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/PROOF.txt",
+      "bytes": 4882,
+      "sha256": "df92603993c8b3ef4bab8767d3db7c21e694fc7d78661845b306dfd0e68dc0fc",
+      "lines": 84,
+      "read_scope": "Physical symmetrization/Jensen scope and eta-versus-absolute-mean distinction",
+      "bound_by_source_plans": [
+        "finite1014_parent_auxiliary_source_plan.json",
+        "finite1014_supported_source_plan.json"
+      ]
+    },
+    {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/PROOF.txt",
+      "bytes": 4502,
+      "sha256": "e88f28253b08150ea49443c25888cfabe0e432492534b4f354a27b4d84fdbb9b",
+      "lines": 72,
+      "read_scope": "Entire elementary interval and scalar-certificate argument",
+      "bound_by_source_plans": [
+        "finite1014_parent_auxiliary_source_plan.json",
+        "finite1014_supported_source_plan.json"
+      ]
+    },
+    {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/PROOF.txt",
+      "bytes": 5668,
+      "sha256": "6645891bc75553f1a35faba00dd2a09e6b47c5fd374e637d83d62ec82069c162",
+      "lines": 110,
+      "read_scope": "Entire global scalar inequality and convex-splice hand derivation",
+      "bound_by_source_plans": [
+        "finite1014_parent_auxiliary_source_plan.json",
+        "finite1014_supported_source_plan.json"
+      ]
+    },
+    {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/kernel.py",
+      "bytes": 4152,
+      "sha256": "16170505dece7571725e4e601f1546989d546ed64685616f9d13283c59702b0a",
+      "lines": 96,
+      "read_scope": "Entire fixed81-cell certificate and inverse-Bernstein/splice checker; not executed",
+      "bound_by_source_plans": [
+        "finite1014_parent_auxiliary_source_plan.json",
+        "finite1014_supported_source_plan.json"
+      ]
+    },
+    {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/controls.py",
+      "bytes": 2951,
+      "sha256": "331ee713e7950c9013d969b70de5809d4eb7e37ac34cd22a6184e0f8872fe4b5",
+      "lines": 58,
+      "read_scope": "Entire old standalone construct/validate entrypoint, distinguishing it from56 integrations",
+      "bound_by_source_plans": [
+        "finite1014_parent_auxiliary_source_plan.json",
+        "finite1014_supported_source_plan.json"
+      ]
+    },
+    {
+      "archive": "cutoff20_20261016.zip",
+      "member": "cutoff20_20261016/analytic/BOUNDED_SUPPORT_ETA.txt",
+      "bytes": 3802,
+      "sha256": "766a38a999f86285e695591a7f414c24b0492304d81fecc402e3cac4f980d084",
+      "lines": 78,
+      "read_scope": "Continuous bounded-support eta proof lines5-59; raw-law numerical controls are not executed",
+      "bound_by_source_plans": [
+        "finite1014_supported_source_plan.json"
+      ]
+    },
+    {
+      "archive": "cutoff20_20261016.zip",
+      "member": "cutoff20_20261016/fourier/BOUNDED_ETA_SECOND_REVIEW.txt",
+      "bytes": 2914,
+      "sha256": "0b882d823e3fe2288a73054c995af5c188cefa20a3a9f6eb54d5736b9703245d",
+      "lines": 53,
+      "read_scope": "Independent-copy eta definition and same-sign-deficit proof lines8-17; larger-radius perturbation not endorsed here",
+      "bound_by_source_plans": [
+        "finite1014_supported_source_plan.json"
+      ]
+    }
+  ],
+  "shared_math_exact_byte_edges": [
+    {
+      "member": "cutoff10_20261018/fourier/auxiliary9_14_v1/kernel.py",
+      "reference_member": "cutoff10_20261018/fourier/supported9_14_v1/kernel.py",
+      "bytes": 6017,
+      "sha256": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+      "exact_bytes_equal": true
+    },
+    {
+      "member": "cutoff10_20261018/fourier/auxiliary9_14_v1/jet.py",
+      "reference_member": "cutoff10_20261018/fourier/supported9_14_v1/jet.py",
+      "bytes": 1989,
+      "sha256": "8decccac51b92cf58b3275e291b83e775da85cd9032f81501e9592d11d591329",
+      "exact_bytes_equal": true
+    },
+    {
+      "member": "cutoff10_20261018/fourier/auxiliary9_14_v1/batch.py",
+      "reference_member": "cutoff10_20261018/fourier/supported9_14_v1/batch.py",
+      "bytes": 5302,
+      "sha256": "7fb48e7dd00dbc7cb6a1d024694b38850fdea7742e7403dd26e3280c464a1b23",
+      "exact_bytes_equal": true
+    },
+    {
+      "member": "cutoff10_20261018/fourier/auxiliary9_14_v1/integrate.py",
+      "reference_member": "cutoff10_20261018/fourier/supported9_14_v1/integrate.py",
+      "bytes": 7135,
+      "sha256": "e4bda2d00d905bf0963ca6f48d62c7d52a831e14cc695a2bae18183239bb64fc",
+      "exact_bytes_equal": true
+    }
+  ],
+  "read_core_bodies": {
+    "kernel.py": [
+      {
+        "name": "rational",
+        "lines": [
+          12,
+          14
+        ],
+        "ast_sha256": "d9cd7d80b9d74549374ccba1e42d901f147db3e329df6dca24339819bee18782"
+      },
+      {
+        "name": "down",
+        "lines": [
+          16,
+          16
+        ],
+        "ast_sha256": "f8494f5e68d56eec24c5c934e7a339259c570819ae07f8b5c9fa58c50439e20f"
+      },
+      {
+        "name": "up",
+        "lines": [
+          17,
+          17
+        ],
+        "ast_sha256": "fefdebcc8acc8d675fa99894d8e9835afe38cd7f9f86cc975da3d61c17063f29"
+      },
+      {
+        "name": "I",
+        "lines": [
+          19,
+          65
+        ],
+        "ast_sha256": "36666184fa7bb5166774227842ba02d2db4cb2d5406b14c7d551075885fa6634"
+      },
+      {
+        "name": "polynomial",
+        "lines": [
+          69,
+          73
+        ],
+        "ast_sha256": "75a16a117ffa79688d151741f5b0f06916d8c846ec5c8d095060522088dae74a"
+      },
+      {
+        "name": "_trig",
+        "lines": [
+          75,
+          88
+        ],
+        "ast_sha256": "d6d5214f5be0fe0be4f93bee679c7fac96cb63907dc8e0514844020c08ab4732"
+      },
+      {
+        "name": "sin",
+        "lines": [
+          90,
+          90
+        ],
+        "ast_sha256": "acf3a9cbcb824c151149475b3710d403c39b29fc4c25d7d42b9cd402d991a9d7"
+      },
+      {
+        "name": "cos",
+        "lines": [
+          91,
+          91
+        ],
+        "ast_sha256": "445a4200880051ae1ee6247095f0ea77a67bcc2ca7e6027a1de4eaea3e46a174"
+      },
+      {
+        "name": "_exp_minus_point",
+        "lines": [
+          93,
+          101
+        ],
+        "ast_sha256": "18024b871ca44b21a10a64a6286268f60b30b9ab4c9d00379eeb8d9df6099ad7"
+      },
+      {
+        "name": "exp_minus",
+        "lines": [
+          103,
+          107
+        ],
+        "ast_sha256": "0dc53cc87b3a0f1454eb71b16a38933e07792c870d0a494921be0c991d72c1ae"
+      },
+      {
+        "name": "_atan_inverse_bounds",
+        "lines": [
+          111,
+          115
+        ],
+        "ast_sha256": "7607feb5397f27b7f96f43172edbabe740c224f785f1d88e64e83ba135440e8a"
+      },
+      {
+        "name": "certify_pi",
+        "lines": [
+          117,
+          121
+        ],
+        "ast_sha256": "c1eae3c6fcc3f8b1a2f7b6501b371e437db8477d591e8b514dfac1459cff9ea0"
+      },
+      {
+        "name": "bernstein_on_interval",
+        "lines": [
+          123,
+          129
+        ],
+        "ast_sha256": "cef86fa4dac4c064a6131e66b983904b0f4d02b60267b2534215acccef25e2f9"
+      },
+      {
+        "name": "certify_cosine_kappa",
+        "lines": [
+          131,
+          140
+        ],
+        "ast_sha256": "cc8946472b4b99470be5602da2168ce4fdeb0842e5ce39b0cece0f84ba5800f1"
+      }
+    ],
+    "jet.py": [
+      {
+        "name": "J",
+        "lines": [
+          8,
+          38
+        ],
+        "ast_sha256": "cb5b6de060030c4b0a92ef1687d201a15de47bcf06ce8619fb93ed783faa7c61"
+      },
+      {
+        "name": "sin",
+        "lines": [
+          40,
+          42
+        ],
+        "ast_sha256": "df499ed189b8a3436b467b2d9a415bd38080b500a5626f40698a4cdadcac41bb"
+      },
+      {
+        "name": "cos",
+        "lines": [
+          43,
+          45
+        ],
+        "ast_sha256": "8b5d3038fc72e4330e6ba468b35e83d5eb539f620d00dcd68d6980c259bc38f9"
+      },
+      {
+        "name": "expminus",
+        "lines": [
+          46,
+          48
+        ],
+        "ast_sha256": "588a811f134ad322c7373489613e6d4612d08616af9b68808ac25d3854414446"
+      }
+    ],
+    "batch.py": [
+      {
+        "name": "need",
+        "lines": [
+          13,
+          14
+        ],
+        "ast_sha256": "e773ce937e1a8548d54edd09652f6c17d095cc32fd39f6a21d754844e9f26726"
+      },
+      {
+        "name": "validate_ns",
+        "lines": [
+          16,
+          17
+        ],
+        "ast_sha256": "25373cd2ceb18f85d46fb55ecff5ef1ad01c69ce3896959c542cf195e4843a28"
+      },
+      {
+        "name": "powers",
+        "lines": [
+          19,
+          24
+        ],
+        "ast_sha256": "81ca168f15eb06e36a7d266de91ad41cb6c6463ce0bfd2ff39dd5bce1dd9255d"
+      },
+      {
+        "name": "geometrics",
+        "lines": [
+          26,
+          31
+        ],
+        "ast_sha256": "ddcd4e9b0f6ade1565a156bcf5544c29c65964697e14938083454ba609b40a65"
+      },
+      {
+        "name": "power6",
+        "lines": [
+          33,
+          36
+        ],
+        "ast_sha256": "d3db28d2ddf75498fd360a7de57757a57168ce93f2ee361eb3ba491edaab1f1e"
+      },
+      {
+        "name": "cot_defect_upper",
+        "lines": [
+          38,
+          40
+        ],
+        "ast_sha256": "5f53430a8430bea3cad666c36c7d78a3a5aecacb75629c286b1ea577daff1c6f"
+      },
+      {
+        "name": "kernel_norm",
+        "lines": [
+          42,
+          50
+        ],
+        "ast_sha256": "0f89d6f2deea77530c5c3e52c18e58ad79de14afd8f7ec9046aa5c23d1cd57fc"
+      },
+      {
+        "name": "shared_cell",
+        "lines": [
+          52,
+          85
+        ],
+        "ast_sha256": "1c2520514c4290a7eb7b2cd99c3571e9365e4f2e03ba4cdfe5792ca1a6f40c7c"
+      },
+      {
+        "name": "integrands",
+        "lines": [
+          87,
+          97
+        ],
+        "ast_sha256": "419b7d171504b2c86f81ed5002dc2250e52c8781bcbcc3d95c2bb0c67253f956"
+      },
+      {
+        "name": "validate_parameters",
+        "lines": [
+          99,
+          104
+        ],
+        "ast_sha256": "e3de01d083afd2c5cedd922db1b8ee0f5427030000ae1523bdeae204981a0dc0"
+      },
+      {
+        "name": "calculate",
+        "lines": [
+          106,
+          131
+        ],
+        "ast_sha256": "5441b5ae4c54008908e3115af9bc8af43c7058d9b27aa0f9b3cf474e3fceb23d"
+      }
+    ],
+    "integrate.py": [
+      {
+        "name": "squared_choice",
+        "lines": [
+          16,
+          25
+        ],
+        "ast_sha256": "37d88fc3c3996e690167723a1cc0e6fd9dae1a1bc7722315b598c22fce720fe0"
+      },
+      {
+        "name": "squared",
+        "lines": [
+          26,
+          31
+        ],
+        "ast_sha256": "84e6276ffe2db2814d7eb4b0915abb122d578b06267b698461d56fa7bbe7b92b"
+      },
+      {
+        "name": "cotdef",
+        "lines": [
+          32,
+          34
+        ],
+        "ast_sha256": "e8b41dc9fda3c99b8312ef61142b9beebb17c74b77a2a00c3a0532e78935baa8"
+      },
+      {
+        "name": "K",
+        "lines": [
+          35,
+          42
+        ],
+        "ast_sha256": "94cf3ada4cb89613bece84d651e2ff187e77d75b4dc04df54e7da6c9e2ea15a7"
+      },
+      {
+        "name": "stable_difference",
+        "lines": [
+          43,
+          57
+        ],
+        "ast_sha256": "45af92e70b01f351969d53de1e25595668124429e171fa3198da678585af147e"
+      },
+      {
+        "name": "base",
+        "lines": [
+          59,
+          70
+        ],
+        "ast_sha256": "a7cecde319a2c71b797481d786d4f7771a2ce02b1b95cd7c00a4be053c473931"
+      },
+      {
+        "name": "choose",
+        "lines": [
+          72,
+          82
+        ],
+        "ast_sha256": "456de168c2a64a8ae4f4360edf81b6ff2d9b5a25efe569807c939823f8bba179"
+      },
+      {
+        "name": "functions",
+        "lines": [
+          84,
+          99
+        ],
+        "ast_sha256": "1023631aaf8aa1c98e0ae244610590f509b42a49756b39498f31102a5cc1503d"
+      },
+      {
+        "name": "upper",
+        "lines": [
+          101,
+          104
+        ],
+        "ast_sha256": "e3c4d2d4318812d1488890cbc54d8364a3a2411d5f5327ff77e0a6fa855c9c52"
+      },
+      {
+        "name": "cell",
+        "lines": [
+          106,
+          117
+        ],
+        "ast_sha256": "935517f670957a045fb8c2e00bd2e05ccb3c38e0ba9d62b1af06f7614632c856"
+      },
+      {
+        "name": "calculate",
+        "lines": [
+          119,
+          151
+        ],
+        "ast_sha256": "b8a12e8c3e39b2d88e63b31b1eced8f141055cbcde953ff034a785018ae135f2"
+      }
+    ]
+  },
+  "scope": {
+    "indices": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "auxiliary": {
+      "rho": [
+        "1",
+        "19/10"
+      ],
+      "target": "423/1000",
+      "support_or_attainment_needed": false,
+      "large_rho_tail": "Retained published Shevtsova input, not newly independently verified here"
+    },
+    "supported": {
+      "support_absolute_upper": "3",
+      "bands": [
+        {
+          "rho": [
+            "1",
+            "11/10"
+          ],
+          "target": "1049/2500"
+        },
+        {
+          "rho": [
+            "11/10",
+            "23/20"
+          ],
+          "target": "52/125"
+        }
+      ],
+      "support_acquired_here": false
+    },
+    "kappa": {
+      "value": "62/625",
+      "certificate_cells": 81,
+      "checker_source_read": true,
+      "checker_executed_here": false,
+      "original56_protocol_reruns_standalone_kappa_controls": false
+    }
+  },
+  "remaining": [
+    "Fresh complete literal integrations and their readback evidence are separate from this analytic audit.",
+    "The fixed scalar kappa certificate is a retained finite arithmetic input; no scalar certificate was numerically replayed here.",
+    "The supported theorem needs an actual acquired support3 statement for the same marginal.",
+    "Prawitz normalization and the published auxiliary large-rho theorem remain explicitly named upstream inputs.",
+    "Original floating planners and process wrappers are not mathematical verification."
+  ],
+  "standalone_kappa_replay": {
+    "command": [
+      "python",
+      "-B",
+      "controls.py"
+    ],
+    "working_directory": "Fresh directory containing unchanged kernel.py, controls.py and PROOF.txt",
+    "ordinary_nonoptimized_python_required": true,
+    "external_dependencies": [],
+    "source_operating_system_guard": false,
+    "outputs_exclusive_create": [
+      "CERTIFICATE.json",
+      "CHECKED.json"
+    ],
+    "fixed_domain": [
+      "0",
+      "625/124"
+    ],
+    "cells": 81,
+    "positive_bernstein_coefficients": 1134,
+    "negative_controls": 21,
+    "additional_exact_identity_checks": 324,
+    "receipt_status": "PASS_GLOBAL_COSINE_KAPPA_62_625_AND_CONVEX_SPLICE_V1",
+    "original_source_math_executed_here": false,
+    "fresh_replay_required_for_new_epoch_acceptance": true,
+    "retained_captures_are_provenance_only": true,
+    "files": [
+      {
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/kernel.py",
+        "bytes": 4152,
+        "sha256": "16170505dece7571725e4e601f1546989d546ed64685616f9d13283c59702b0a",
+        "role": "source"
+      },
+      {
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/controls.py",
+        "bytes": 2951,
+        "sha256": "331ee713e7950c9013d969b70de5809d4eb7e37ac34cd22a6184e0f8872fe4b5",
+        "role": "source"
+      },
+      {
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/PROOF.txt",
+        "bytes": 5668,
+        "sha256": "6645891bc75553f1a35faba00dd2a09e6b47c5fd374e637d83d62ec82069c162",
+        "role": "source"
+      },
+      {
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CERTIFICATE.json",
+        "bytes": 81278,
+        "sha256": "02dc46c334ec9c9cbf0e7bb4c982869c6e3e0649a915169d3542b8820b51aac7",
+        "role": "historical_provenance"
+      },
+      {
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CHECKED.json",
+        "bytes": 1179,
+        "sha256": "163bf7eff250f62806ee308eab31d71fc1f35da49fdf625675071387b08b0031",
+        "role": "historical_provenance"
+      }
+    ],
+    "transport_note": "Fresh CHECKED.json records actual local source paths and newly constructed certificate; do not require the historical receipt hash or replace its source path map."
+  }
+}

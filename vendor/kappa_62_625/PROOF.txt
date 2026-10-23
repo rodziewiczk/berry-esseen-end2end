@@ -1,0 +1,110 @@
+Sharper scalar cosine bound and its convex splice
+=================================================
+Proposed exact coefficient kappa=62/625=0.0992.
+Mathematical status before controls: an elementary reduction to the displayed
+finite polynomial certificate. Execution status is stated in CHECKED.json
+only after a successful fresh run. This does not change the frozen 1/10 core.
+
+1. Global scalar inequality
+---------------------------
+The target is
+ cos x <=1-x^2/2+(62/625)|x|^3 for every real x.       (1)
+Evenness reduces to x>=0. Put T=1/(2 kappa)=625/124. For x>=T the right
+side is 1+x^2(kappa x-1/2)>=1, so (1) is immediate there.
+
+Let P16(x)=sum_{j=0}^8 (-1)^j x^(2j)/(2j)!. Globally on x>=0,
+cos x<=P16(x): the sixteenth derivative of cos-P16 is cos-1<=0 and
+all sixteen initial derivatives vanish. Integrate sixteen times.
+Define the degree-13 polynomial
+ Q(x)=[1-x^2/2+kappa x^3-P16(x)]/x^3,
+with Q(0)=kappa. Its coefficient at degree 2j-3 is
+(-1)^(j+1)/(2j)! for j=2,...,8, and all other nonconstant coefficients
+are zero. The finite certificate proves Q>0 on [0,T].
+
+The fixed closed cells are [i/16,(i+1)/16], i=0,...,79, followed by
+[5,625/124]. They cover [0,T] with no gap. On each cell [a,b], put
+x=a+(b-a)t. The constructor computes power coefficients
+ c_j=sum_{k>=j} q_k binom(k,j)a^(k-j)(b-a)^j,
+then Bernstein coefficients of degree n=13 by
+ b_i=sum_{j<=i} c_j binom(i,j)/binom(n,j).
+The verifier does not accept this forward transform on faith: it expands
+the claimed Bernstein polynomial back into powers, with coefficient
+ sum_{i<=j} b_i binom(n,i)binom(n-i,j-i)(-1)^(j-i),
+and compares every coefficient to the independently shifted Q polynomial.
+Every claimed b_i must be strictly positive. The Bernstein basis is
+nonnegative and sums to one on [0,1]; hence its minimum coefficient is a
+rigorous lower bound for Q on the whole cell. No point sampling establishes
+positivity. The fixed coefficient, degree, complete ordered cover and exact
+schema are also checked. Thus a successful certificate proves (1), including
+x=0, both domain seams and all negative x by evenness.
+
+2. Changed splice constant and derivative at the join
+----------------------------------------------------
+Put C=1-cos4, a=1/2-4kappa=129/1250, A=16a/C=(1032/625)/C. Define
+ q(z)=1/2-kappa z,             0<=z<=4;
+ q(z)=A(1-cos z)/z^2,         4<=z<=2pi;
+ q(z)=0,                     z>=2pi.                 (2)
+The scalar inequality at 4 implies C>=16a>0, so 0<A<=1. The pieces
+agree at both joins; q is nonnegative. The exact control also independently
+verifies C>=16a using the cosine Taylor upper at 4.
+
+On the curved piece,
+ q'(z)=A[z sin z-2(1-cos z)]/z^3<=0,
+because pi<=4<=z<=2pi. At 2pi the derivative is zero. At 4 the necessary
+convexity comparison with the linear slope -kappa is equivalent to
+ 2a sin4+(2kappa-a)C >=0,
+or, after multiplication by 1250,
+ 258 sin4+119C >=0.                                  (3)
+This is the changed join test; the old 1/10 join comparison must not be
+substituted for it.
+
+All arithmetic in (3) is certified without a numerical trig library.
+At every x>=0, P16(x)>=cos x>=P18(x) and S15(x)<=sin x, where P18
+is the degree-18 cosine Taylor polynomial and S15 the degree-15 sine
+Taylor polynomial. For the lower cosine assertion the eighteenth derivative
+of cos-P18 is 1-cos>=0; for the sine assertion the fifteenth derivative
+of sin-S15 is 1-cos>=0. Their initial derivatives vanish. Thus it suffices
+to check the rational inequality
+ 258 S15(4)+119[1-P16(4)]>0.
+The certificate records this positive rational lower bound, the rational
+bracket for C, and the consequent rational bracket for A.
+
+3. Convexity of the curved part
+-------------------------------
+The second derivative has sign equal to
+ B(z)=6+(z^2-6)cos z-4z sin z,
+because q''(z)=A B(z)/z^4 and A>0.
+For z in [4,3pi/2],
+ B'(z)=-2z cos z+(2-z^2)sin z>=0.
+Also 4>=7pi/6 and 4<=3pi/2, so sin4<=-1/2 and cos4>=-1, whence
+B(4)=6+10cos4-16sin4>=4. On [3pi/2,2pi], cos z>=0, sin z<=0 and
+z^2>6, so B(z)>=6. Hence the curved branch is strictly convex.
+Its derivative joins the constant branch with value zero; (3) gives an
+upward derivative jump from the linear branch. Consequently (2) is convex
+and nonincreasing on [0,infinity). No convexity on the whole real line is
+asserted for its even extension.
+
+For completeness the only pi estimates used here are 25/8<pi<22/7.
+The control derives these rationally from Machin's identity
+ pi=16 atan(1/5)-4 atan(1/239), using 32 and 10 alternating-series terms
+and the signed next terms. The identity follows by tangent addition:
+4 atan(1/5)-atan(1/239) is in (0,pi/2) and has tangent 1. Positivity
+follows from atan(1/5)>=1/5-1/(3*125)>1/239>=atan(1/239);
+the upper assertion follows from 4 atan(1/5)<4/5<1<pi/2, using
+atan(1)=integral_0^1 (1+t^2)^(-1)dt>1/2. The rational tangent addition
+then identifies the angle as pi/4.
+
+4. Envelope and scope
+---------------------
+The profile satisfies cos z<=1-z^2 q(z) for z>=0: use (1) up to 4,
+use A<=1 on [4,2pi], and cos z<=1 after 2pi. It is continuous, convex,
+nonnegative and nonincreasing on the nonnegative half-line. These are the
+properties needed for the usual nonnegative Jensen argument. Any resulting
+characteristic-function bound, smoothing formula or cutoff still needs
+its own derivation, parameter coverage and integration certificate.
+
+The trusted stack is Python integer arithmetic, fractions.Fraction, exact
+binomial/factorial integers and the displayed algebra. The controls include
+missing, duplicated, reordered, altered and malformed certificate objects.
+All existing interval utilities and previously accepted Fourier results
+remain byte-for-byte unchanged.

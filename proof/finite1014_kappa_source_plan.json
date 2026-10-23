@@ -1,0 +1,35 @@
+{
+  "all_index_conclusion_verified": false,
+  "archive": {
+    "bytes": 141304365,
+    "name": "cutoff5_20261020.zip",
+    "sha256": "8428002462d4e650613ea6e2ff673cb1e69c2079572cc40546d125349d582419",
+    "url": "https://github.com/rodziewiczk/berry-esseen-045-certificate/releases/download/cutoff5-sources-2026-10-20/cutoff5_20261020.zip"
+  },
+  "arithmetic_computed": false,
+  "full_notebook56_completed": false,
+  "historical_outputs_supplied": false,
+  "license_sha256": "a34b9cee3859b8bc6a6ced1bedb56771244d8b6cfc38f2749dc2e776ca19ee95",
+  "provenance_sha256": "37a65950507f05e990c33df7f9ed293bc7db25c49e11cdedefcc31c8f15fb932",
+  "schema": "FINITE1014_KAPPA_SOURCE_PLAN_V1",
+  "scope": "UNCHANGED_GLOBAL_SCALAR_KAPPA_62_625_ONLY",
+  "source_files": {
+    "PROOF.txt": {
+      "bytes": 5668,
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/PROOF.txt",
+      "sha256": "6645891bc75553f1a35faba00dd2a09e6b47c5fd374e637d83d62ec82069c162"
+    },
+    "controls.py": {
+      "bytes": 2951,
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/controls.py",
+      "sha256": "331ee713e7950c9013d969b70de5809d4eb7e37ac34cd22a6184e0f8872fe4b5"
+    },
+    "kernel.py": {
+      "bytes": 4152,
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/kernel.py",
+      "sha256": "16170505dece7571725e4e601f1546989d546ed64685616f9d13283c59702b0a"
+    }
+  },
+  "source_programs_unchanged": true,
+  "vendor_directory": "vendor/kappa_62_625"
+}
