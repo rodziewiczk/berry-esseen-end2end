@@ -1,0 +1,29 @@
+{
+  "all_index_conclusion_verified": false,
+  "arithmetic_computed": false,
+  "bytes": 898240,
+  "files": 145,
+  "full_notebook56_completed": false,
+  "import_check_limitation": "Static stdlib/sealed-basename inventory only; dynamic import routing is not fully proved. NumPy belongs to untrusted planning.",
+  "input_kinds": {
+    "conditional_numeric_input": 3,
+    "historical_capture_input": 3,
+    "python_source": 83,
+    "source_document_or_manifest": 56
+  },
+  "original_manifest_rows": 142,
+  "original_manifest_sha256": "2ce3db897d8f07ddec82e07f5077f9a0ee8dcc0efa77425f596b2382c3037852",
+  "original_mathematical_modules_imported_or_evaluated": false,
+  "parent_acquisitions_verified": false,
+  "python_source_files": 83,
+  "schema": "FINITE1014_CORNER_ACTUAL_SOURCE_ONLY_PREPARATION_V1",
+  "source_adapter_sha256": "078170d72176f4779120d4ccf52455afa7efc784add17b6242b2a074c9c459b0",
+  "source_manifest_sha256": "821ef1588e47977e48dc48f97476fc82f4767a2631045385981a993e4ccf2fb6",
+  "source_manifests_modified": false,
+  "source_plan_sha256": "8ced31a70343bcf4b3f6a925b1c79bbe29729f3d7a2bebc807e4d09cb0b11e91",
+  "source_programs_modified": false,
+  "static_import_occurrences": 480,
+  "support_acquisition_verified": false,
+  "syntax_warnings": [],
+  "unresolved_basename_imports": []
+}
