@@ -87,6 +87,8 @@ preserved and pass the stricter check. A completion label alone is insufficient.
 - [Selected finite-index31–48 bridges and enabled-source boundary](code_finite_index_bridge_audit.md).
 - [Further actual31--39 directed/weighted/complete engines](code_remaining_engine_audit.md)
   and [their exact source map](code_remaining_engine_source_map.json).
+- [Uniform-tail heat/support, LOW and HIGH acquisition rules](code_uniform_tail_acquisition_audit.md)
+  and [their selected source map](code_uniform_tail_acquisition_source_map.json).
 
 The selected source identities and line references in those notes are part of
 each scoped conclusion. A similarly named file in a different capsule is not
@@ -145,6 +147,15 @@ arguments found no confirmed invalid enclosure in that bounded scope.
 Actual acquired resource hypotheses, scaled-phase and complete caller/coverage
 joins remain separate. Upstream uniform-tail acquisition is the next active
 source-audit unit; no count of historical sources is a fresh acceptance total.
+
+The subsequent uniform-tail unit reads24actual source/proof files and derives
+the heat/spatial cancellation and finite remainder, all-H signed support
+envelope, favorable/adverse and infinite bands, actual-event six-piece HIGH
+and positive Laguerre bound, complete triangle LOW remainder/comparator,
+piecewise Pearson rule and narrow paired LOW/Mills/reflection rules. No
+invalid inequality was found in that selected conditional scope. Entire
+INITIAL/geometry atlas soundness, exact same-witness acquisition/evidence
+joins and the explicitly named external far-ray literature are still open.
 
 The new115-forest notebooks29--34 and B012 parent/interface notebooks36--38
 were added at the user's subsequent request. Their source-only preparation
