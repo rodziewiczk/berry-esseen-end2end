@@ -61,3 +61,18 @@ A further internal agent read the full new modules and original wrapper/
 readback boundary, independently rehashed all75prepared inputs and parsed the
 44original Python sources without evaluation. It reported no material blocker
 in this bounded scope. This additional AI cross-read is not external review.
+
+## Clean-checkout notebook fixture correction
+
+The user's first actual Colab run found a packaging error in root's notebook
+fixture: `TemporaryDirectory(dir=ROOT/'work')` assumed an ignored directory
+already existed. A fresh checkout has no such directory. The other15fixtures
+passed, and the failure gate correctly stopped before original arithmetic.
+
+The fixture now uses the normal system temporary directory. Root reran all
+16fixtures from a fresh tracked Git archive with no `work` directory: PASS in
+58.267seconds, with that ignored directory absent both before and after the
+suite. Only the notebook fixture changes; original mathematical inputs,
+source plan, source adapter, execution driver and evidence validator retain
+their exact existing bytes and completed-cache identity. This fixes notebook
+preflight; it does not weaken or skip a fixture or a mathematical gate.

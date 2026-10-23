@@ -38,7 +38,7 @@ class Notebook56A(unittest.TestCase):
         self.assertIs(ns['RESULT']['status']['all_index_conclusion_verified'],False)
 
     def test_bad_pin_has_no_output_and_writer_creates_only56a_lf(self):
-        with tempfile.TemporaryDirectory(dir=ROOT/'work')as tmp:
+        with tempfile.TemporaryDirectory()as tmp:
             dest=Path(tmp)/'out'
             for pin in(None,True,'main','0'*40,'A'*40,'a'*39):
                 with self.assertRaises(ValueError):builder.write(pin,dest)
