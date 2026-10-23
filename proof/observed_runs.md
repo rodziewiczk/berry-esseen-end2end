@@ -425,3 +425,18 @@ Colab memory-counter startup. A separately reviewed Linux resource epoch is
 being prepared; the original failed export, original supervisor and mathematical
 sources remain preserved. No numerical success is inferred from the download
 or from the earlier fixture passes.
+
+## Notebook01: full scoped native acceptance reported
+
+The next supplied log has SHA256
+`0c404efc6b5b1b301f70f7ed90601fd32ceed1d09f6299bb289e134d9931e12d`.
+Target `b3-p33` completes discovery at18:40:02UTC with10462leaves,
+20898nodes and pending0. Separate full26-root native replay reports
+`regional_count_arithmetic_accepted` at19:36:29UTC (21:36:29 Europe/Warsaw).
+The reported bundle is
+`b3-p33/20261023T173523Z-dd027bd6/20261023T173523Z-dd027bd6-results.zip`.
+
+This completes the supplied-log acceptance observations for01--05. Actual
+export/guard/capture/source readback and collector24's parent/interface joins
+remain separate. The report preserves conditional-count-only scope and false
+parent/full-theorem flags. No06/07 acceptance is inferred.

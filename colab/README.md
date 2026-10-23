@@ -204,7 +204,7 @@ local/mixed interfaces; [the exact scope](../proof/n25_b5_global_execution.md)
 records the remaining obligations. It may run independently in a CPU session.
 
 Notebook35, `35_n5_complete_remaining.ipynb`, selects runtime
-`7655cd1602d1c8f45a18d98cf81d3f2b68c2b3d8`. It runs all326 selected remaining
+`d1f8cb7fec10f4c39835b95571e055bcbd3287fc`. It runs all326 selected remaining
 n5 arithmetic jobs: support, HIGH, owncaps,12 INITIAL jobs,15resource jobs,
 295complete count forests and both complement integrations. The separate
 notebook13 gap-free component remains separate. Each validated completed job
@@ -212,11 +212,14 @@ is exported and fully revalidated before a later rerun can skip it; an
 interrupted numerical job starts again. Choose CPU and Run all. See the
 [full execution scope and remaining joins](../proof/n5_remaining_execution.md).
 
-The first actual Colab launch of that35 pin failed before support arithmetic
-at the original64MiB runner peak-RSS gate. A Linux startup-counter repair is
-in progress; do not relaunch the old35 pin while it is being replaced. The
-[observed failure](../proof/observed_runs.md) is separate from passing source
-and synthetic infrastructure fixtures.
+The first7655cd1 version failed before support arithmetic at the original64MiB
+runner peak-RSS gate. The current V2 keeps that64MiB threshold but reads the
+current exec image's approximate Linux peak instead of a historic pre-exec
+peak. It includes a tiny actual-Linux before/after-exec regression test before
+any mathematical job starts. Reopen the corrected notebook and Run all;
+source downloads/cache are reused after verification. The
+[observed failure](../proof/observed_runs.md) remains preserved separately from
+the corrected epoch and passing local infrastructure fixtures.
 
 The [historical parent-stage timings](../proof/n25_parent_historical_timings.md)
 for36--39 are component observations, not full Colab completion estimates.
