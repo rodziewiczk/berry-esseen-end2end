@@ -158,5 +158,3 @@ source inventories are maintained separately in the
 [machine-readable companion](remaining_notebooks_closed_plan.json).
 The specification checker verifies accounting, exact endpoints and graph
 consistency; it does not evaluate the original mathematics or certify this proof.
-
-A [follow-up check of the original shared folder and old archives](n25_shared_folder_lookup_20261024.md) did not locate the exact historical packages. Subsequent [ordinary B5 reconstruction](n25_b5_reconstruction_feasibility.md) and [mixed-parent reconstruction](n25_mixed_parent_reconstruction_feasibility.md) identify the supplied ingredients and exact recovered payloads. Missing original directories are not evidence that a new mathematical algorithm is needed.
