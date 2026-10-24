@@ -1,0 +1,27 @@
+{
+  "actual20_sharp_verified": false,
+  "all_index_conclusion_verified": false,
+  "all_original_inputs_sha256_matched": true,
+  "arithmetic_executed": false,
+  "ast_import_occurrences": 217,
+  "distinct_python_sha256": 29,
+  "full_notebook58_completed": false,
+  "import_inventory_limit": "Basename source-closure inventory only; this does not prove arbitrary dynamic import routing.",
+  "native_actions": [
+    "plan",
+    "construct",
+    "replay",
+    "readback"
+  ],
+  "numpy_only_for_untrusted_planner": true,
+  "original_manifest_rows": 71,
+  "original_manifest_sha256": "aace6821f2a265fbddc6e3764e3bc1e22e5895a9ce23d78fd276cbdf5d4f4939",
+  "original_manifest_unchanged": true,
+  "original_mathematical_modules_imported": false,
+  "schema": "FINITE1920_FEEDBACK_SOURCE_PREPARATION_V1",
+  "sealed_bytes": 508267,
+  "sealed_inputs": 74,
+  "selected_python_paths": 36,
+  "source_plan_sha256": "70cd42f3398a1133613ff4290737dfaf975e850b395ce93d21d6ac96134f9ba5",
+  "unresolved_nonstdlib_import_basenames": []
+}
