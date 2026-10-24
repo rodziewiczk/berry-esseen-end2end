@@ -1,0 +1,1651 @@
+{
+  "actions": [
+    "initial_construct",
+    "initial_accept",
+    "resource_construct",
+    "resource_accept"
+  ],
+  "actual_n": [
+    21,
+    22,
+    23,
+    24
+  ],
+  "all_index_conclusion_verified": false,
+  "arithmetic_computed": false,
+  "assets": [
+    {
+      "bytes": 31681776,
+      "name": "cutoff20_20261016.zip",
+      "sha256": "b1dd7e730187f62142faa1e82eff5a9fd13a879e933a2fafbd22af8a4709ef83",
+      "url": "https://github.com/rodziewiczk/berry-esseen-045-certificate/releases/download/cutoff20-sources-2026-10-17/cutoff20_20261016.zip"
+    },
+    {
+      "bytes": 45213423,
+      "name": "continuation_cutoff20_20261016_final.zip",
+      "sha256": "1e3de8f03c28816d36258ddd84ee7f29166622b2390d5c3457eb1b193ef608b7",
+      "url": "https://github.com/rodziewiczk/berry-esseen-045-certificate/releases/download/cutoff20-sources-2026-10-17/continuation_cutoff20_20261016_final.zip"
+    }
+  ],
+  "bands": {
+    "B0": {
+      "radius": "23/10",
+      "rho_interval": [
+        "1",
+        "11/10"
+      ]
+    },
+    "BN": {
+      "radius": "12/5",
+      "rho_interval": [
+        "11/10",
+        "9/8"
+      ]
+    }
+  },
+  "fresh_resource_review_is_data_only_epoch": true,
+  "full_notebook58_completed": false,
+  "historical_fourier_replayed": false,
+  "initial": "continuation_cutoff20_20261016/root/bridge21_24_initial_v1",
+  "initial_covers_per_action": 9,
+  "initial_freeze_sha256": "ae9b7e58bdaf467b8a4b7f024f7b9f903a460ade2308e0bf90d0a45a6ba9db3d",
+  "initial_negative_controls": [
+    "wrong actual index",
+    "boolean index",
+    "wrong nmax",
+    "wrong owncap",
+    "wrong q",
+    "wrong rho seam",
+    "missing stage",
+    "altered staged invariant",
+    "missing original p panel",
+    "lost endpoint",
+    "wrong global claim",
+    "missing support ray"
+  ],
+  "initial_review": "continuation_cutoff20_20261016/analytic/BRIDGE_INITIAL_SOURCE_REVIEW.json",
+  "initial_review_sha256": "56e4b0d5f042eae2371b7804ae6bf686db3a14cb32c45a5aa7ce0f7ce11fb6f0",
+  "original_frozen_manifests_unchanged": true,
+  "original_mathematical_programs_unchanged": true,
+  "original_review_preserved": true,
+  "predecessor_verified": false,
+  "probability_panels": 100,
+  "removed_historical_example_graph": {
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/captures/n21_B0_accept/EXECUTION.json": "82b683bae7acb1bc70380066d182b8f96155e246b9f3397de8d7016ef0d65761",
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/captures/n21_B0_accept/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/captures/n21_B0_accept/stdout.txt": "079b3f638d50729d19fa3054f18ac78c1b2a896770ab36daed0eca789dc8278e",
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/captures/n21_B0_construct/EXECUTION.json": "39c4b38c43f195c8e53d38ef244b59bc8d6d5fbbb2073bdb02bff2de54ca255c",
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/captures/n21_B0_construct/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/captures/n21_B0_construct/stdout.txt": "cf10484755a2664116b97e914b94aebca20bad7032aed26d8bbe0b3975bf2d5f",
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/n21_B0/ACCEPTED.json": "74a01b95bba565f15eaa8da8bc89dc5f6cbf9d12439529f5f088eefc482b6bca",
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/n21_B0/CANDIDATE.json": "79bc3ee8e294bcc5548a79e5aec2881fe3b81bfa8b086d78b396bc5f73306b00"
+  },
+  "resource": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1",
+  "resource_count_join_verified": false,
+  "resource_freeze_sha256": "ac31cc14bbbb179363306c740d3b109d0f3ba0e4d499481fb59923d5c0dd13e9",
+  "resource_negative_controls": [
+    "wrong actual n",
+    "boolean actual n",
+    "wrong K",
+    "wrong q",
+    "borrowed owncap",
+    "missing row",
+    "reordered rows",
+    "duplicate row",
+    "wrong probability endpoint",
+    "false global conclusion",
+    "false predecessor",
+    "missing support ray"
+  ],
+  "resource_review": "continuation_cutoff20_20261016/analytic/BRIDGE_RESOURCE_SOURCE_REVIEW.json",
+  "resource_review_sha256": "d4b46f34bbf034ddea31d9a3c9961d4d579e57ce832348dc565b7e0bf720b355",
+  "resource_rows_per_action": 100,
+  "schema": "FINITE2124_CORE_SOURCE_PLAN_V1",
+  "scope": "CONDITIONAL_ACTUAL21_24_INITIAL_AND_RESOURCES_ONLY",
+  "signed_cells_per_cover": 2592,
+  "source_files": {
+    "continuation_cutoff20_20261016/analytic/BRIDGE_INITIAL_SOURCE_REVIEW.json": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 9740,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/analytic/BRIDGE_INITIAL_SOURCE_REVIEW.json",
+      "sha256": "56e4b0d5f042eae2371b7804ae6bf686db3a14cb32c45a5aa7ce0f7ce11fb6f0"
+    },
+    "continuation_cutoff20_20261016/analytic/BRIDGE_INITIAL_SOURCE_REVIEW.txt": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2788,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/analytic/BRIDGE_INITIAL_SOURCE_REVIEW.txt",
+      "sha256": "441be61fc4449604d3783d53c0dba56af94db90a82013e01be35b2a8106867ab"
+    },
+    "continuation_cutoff20_20261016/analytic/BRIDGE_RESOURCE_SOURCE_REVIEW.json": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 34110,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/analytic/BRIDGE_RESOURCE_SOURCE_REVIEW.json",
+      "sha256": "d4b46f34bbf034ddea31d9a3c9961d4d579e57ce832348dc565b7e0bf720b355"
+    },
+    "continuation_cutoff20_20261016/analytic/BRIDGE_RESOURCE_SOURCE_REVIEW.txt": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2689,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/analytic/BRIDGE_RESOURCE_SOURCE_REVIEW.txt",
+      "sha256": "b8af3e2a912be7d7ebf8ae2e6fc7e5156e9dd113ba16584c3419d3cd2382a756"
+    },
+    "continuation_cutoff20_20261016/analytic/review_bridge_initial.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 4728,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/analytic/review_bridge_initial.py",
+      "sha256": "14b77bd504a753ec5bb140c8c36321046ed0474d426037dcf440eb9aac363687"
+    },
+    "continuation_cutoff20_20261016/analytic/review_bridge_resources.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 7522,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/analytic/review_bridge_resources.py",
+      "sha256": "93ebd1ba4c13cb2507f554474fa731c9b430fe97fdd5400f3544bd8daec70d97"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/COPIED_SOURCES.json": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 3139,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/COPIED_SOURCES.json",
+      "sha256": "4013e805e38b7245a2cda7bc7972d40e998b1d03c47f41f7f2507517a8950d14"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/FROZEN_SOURCES.json": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 4272,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/FROZEN_SOURCES.json",
+      "sha256": "ae9b7e58bdaf467b8a4b7f024f7b9f903a460ade2308e0bf90d0a45a6ba9db3d"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/PROOF.txt": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2507,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/PROOF.txt",
+      "sha256": "0e7470ad13ebc658aa4b0ed34a6150efba36575c66280d2168573634f33c4976"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/cantelli_high.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 1593,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/cantelli_high.py",
+      "sha256": "c95a6ce9d75fd2c5693de574f322859bcb29d25df4cada9facd96ed3edc02239"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/direct_gaussian_support.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 5332,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/direct_gaussian_support.py",
+      "sha256": "5742afc0538fe3fb8473d087810ad391623d38a151f5b789e7520d256197c1d2"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/finite_binomial_core.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 3510,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/finite_binomial_core.py",
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/heat_support50.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 4726,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/heat_support50.py",
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/high_grid.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 740,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/high_grid.py",
+      "sha256": "a6b631ea8df0299e7bbd14f9d6afd21abd3f1693f66d24036cefda36f51c741a"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/high_window_common.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2810,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/high_window_common.py",
+      "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/high_window_core.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2214,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/high_window_core.py",
+      "sha256": "62ba022998f45e0e4f8628badfe5092ae0b8d2bc256d5c18614bfb44e63906a0"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/initial34_indexed.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 11852,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/initial34_indexed.py",
+      "sha256": "37c002305518111b600e461133947aed7e739530f60e316463cadad301a9a82b"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/integer_exphi.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 803,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/integer_exphi.py",
+      "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/kernel.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 19042,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/kernel.py",
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/small_index_support.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2698,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/small_index_support.py",
+      "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/initial.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 7937,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/initial.py",
+      "sha256": "dfef3a7bff3139f217d875193a06cea628e71bf80beb1f3f781a40a0364ff06e"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/COPIED_SOURCES.json": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 56653,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/COPIED_SOURCES.json",
+      "sha256": "e1a8a3812f4475f84d12ba13781c0984fa80e785a27a6346a05cfd66daead9ef"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/FROZEN_SOURCES.json": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 26999,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/FROZEN_SOURCES.json",
+      "sha256": "d50347e47d941aab67e1b2e725a7138faaf599646f540b9c2580eaf4cdf0124d"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/FROZEN_SOURCES_V2.json": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 27806,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/FROZEN_SOURCES_V2.json",
+      "sha256": "ac31cc14bbbb179363306c740d3b109d0f3ba0e4d499481fb59923d5c0dd13e9"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/PROOF.txt": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2570,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/PROOF.txt",
+      "sha256": "01eca001236104b026bcf395e33273d1c243b24cd8df37e1505e585a54b5a80a"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/SOURCE_REVIEW_GUARD_V2.diff": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 5679,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/SOURCE_REVIEW_GUARD_V2.diff",
+      "sha256": "43e75972546e8d28caaf2ca1a1a686218cf21f62223941cb35393467637ade6f"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/V2_PROVENANCE_NOTE.txt": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 264,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/V2_PROVENANCE_NOTE.txt",
+      "sha256": "bdb3f07960cb8a8460feb68cc583543804e740fff92d2099abb009d571f6f2ec"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/RESOURCE_LITERAL_PORT.diff": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 437,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/RESOURCE_LITERAL_PORT.diff",
+      "sha256": "fda60c59ca73e84db8aa9f525464a9a95afd1836e318a1408736643c9b19e214"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/candidate_charged_score_v2.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 6662,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/candidate_charged_score_v2.py",
+      "sha256": "20f3c102f7b77b5ef49b0e6282cfacb3e24975f207296a5b74b27c0af6cdc6b4"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/contracted_kernel.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 20457,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/contracted_kernel.py",
+      "sha256": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/corrected_phase_callback_extended.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 1164,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/corrected_phase_callback_extended.py",
+      "sha256": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/direct_gaussian_support.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 5306,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/direct_gaussian_support.py",
+      "sha256": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/finite_binomial_core.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 3510,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/finite_binomial_core.py",
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/general_paired_exact.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 4013,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/general_paired_exact.py",
+      "sha256": "e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/geometric_moment_both.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2100,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/geometric_moment_both.py",
+      "sha256": "ea17218cdad6c409dacf8d4a37b437453fbf7aab3683867d16783cb696206616"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/heat_support50.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 4726,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/heat_support50.py",
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/high_window_common.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2810,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/high_window_common.py",
+      "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/high_window_core.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 1966,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/high_window_core.py",
+      "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/integer_exphi.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 803,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/integer_exphi.py",
+      "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/kernel.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 19042,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/kernel.py",
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/paired_extended.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2854,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/paired_extended.py",
+      "sha256": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/resource25_core.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 10279,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/resource25_core.py",
+      "sha256": "49588958962741cad11031047a7b60142478191c62b214abd84620d18ee109e1"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/signed_variance_resource.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 1785,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/signed_variance_resource.py",
+      "sha256": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/small_index_support.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2698,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/small_index_support.py",
+      "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/RESOURCE_LITERAL_PORT.diff": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 436,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/RESOURCE_LITERAL_PORT.diff",
+      "sha256": "03f4be335d442c8c6e3d3f89d99365710eb6f997819a1dec4a1584e6e2cac689"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/candidate_charged_score_v2.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 6662,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/candidate_charged_score_v2.py",
+      "sha256": "20f3c102f7b77b5ef49b0e6282cfacb3e24975f207296a5b74b27c0af6cdc6b4"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/contracted_kernel.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 20457,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/contracted_kernel.py",
+      "sha256": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/corrected_phase_callback_extended.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 1164,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/corrected_phase_callback_extended.py",
+      "sha256": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/direct_gaussian_support.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 5306,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/direct_gaussian_support.py",
+      "sha256": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/finite_binomial_core.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 3510,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/finite_binomial_core.py",
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/general_paired_exact.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 4013,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/general_paired_exact.py",
+      "sha256": "e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/geometric_moment_both.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2100,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/geometric_moment_both.py",
+      "sha256": "ea17218cdad6c409dacf8d4a37b437453fbf7aab3683867d16783cb696206616"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/heat_support50.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 4726,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/heat_support50.py",
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/high_window_common.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2810,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/high_window_common.py",
+      "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/high_window_core.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 1966,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/high_window_core.py",
+      "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/integer_exphi.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 803,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/integer_exphi.py",
+      "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/kernel.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 19042,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/kernel.py",
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/paired_extended.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2854,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/paired_extended.py",
+      "sha256": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/resource25_core.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 10278,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/resource25_core.py",
+      "sha256": "6f6143e32a14ec936c921fdede306dd1a6d2df42630fb28f20bb343001a0fbfa"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/signed_variance_resource.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 1785,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/signed_variance_resource.py",
+      "sha256": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/small_index_support.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2698,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/small_index_support.py",
+      "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/RESOURCE_LITERAL_PORT.diff": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 437,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/RESOURCE_LITERAL_PORT.diff",
+      "sha256": "f58c4f8351473146c0684ec1d12ba140f236595c50a8cc15eccbda4d3c9b253e"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/candidate_charged_score_v2.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 6662,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/candidate_charged_score_v2.py",
+      "sha256": "20f3c102f7b77b5ef49b0e6282cfacb3e24975f207296a5b74b27c0af6cdc6b4"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/contracted_kernel.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 20457,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/contracted_kernel.py",
+      "sha256": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/corrected_phase_callback_extended.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 1164,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/corrected_phase_callback_extended.py",
+      "sha256": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/direct_gaussian_support.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 5306,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/direct_gaussian_support.py",
+      "sha256": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/finite_binomial_core.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 3510,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/finite_binomial_core.py",
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/general_paired_exact.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 4013,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/general_paired_exact.py",
+      "sha256": "e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/geometric_moment_both.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2100,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/geometric_moment_both.py",
+      "sha256": "ea17218cdad6c409dacf8d4a37b437453fbf7aab3683867d16783cb696206616"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/heat_support50.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 4726,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/heat_support50.py",
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/high_window_common.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2810,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/high_window_common.py",
+      "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/high_window_core.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 1966,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/high_window_core.py",
+      "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/integer_exphi.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 803,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/integer_exphi.py",
+      "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/kernel.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 19042,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/kernel.py",
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/paired_extended.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2854,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/paired_extended.py",
+      "sha256": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/resource25_core.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 10279,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/resource25_core.py",
+      "sha256": "ad0dbadc73b1ed57d343630b1645342ee5bbf5197d2badf7b66447facfea2154"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/signed_variance_resource.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 1785,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/signed_variance_resource.py",
+      "sha256": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/small_index_support.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2698,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/small_index_support.py",
+      "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/RESOURCE_LITERAL_PORT.diff": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 436,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/RESOURCE_LITERAL_PORT.diff",
+      "sha256": "238df4e27efcbfb23df9a457cdae53c98491b54a5a717aba404c92f7060672a2"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/candidate_charged_score_v2.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 6662,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/candidate_charged_score_v2.py",
+      "sha256": "20f3c102f7b77b5ef49b0e6282cfacb3e24975f207296a5b74b27c0af6cdc6b4"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/contracted_kernel.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 20457,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/contracted_kernel.py",
+      "sha256": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/corrected_phase_callback_extended.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 1164,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/corrected_phase_callback_extended.py",
+      "sha256": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/direct_gaussian_support.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 5306,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/direct_gaussian_support.py",
+      "sha256": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/finite_binomial_core.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 3510,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/finite_binomial_core.py",
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/general_paired_exact.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 4013,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/general_paired_exact.py",
+      "sha256": "e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/geometric_moment_both.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2100,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/geometric_moment_both.py",
+      "sha256": "ea17218cdad6c409dacf8d4a37b437453fbf7aab3683867d16783cb696206616"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/heat_support50.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 4726,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/heat_support50.py",
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/high_window_common.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2810,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/high_window_common.py",
+      "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/high_window_core.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 1966,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/high_window_core.py",
+      "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/integer_exphi.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 803,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/integer_exphi.py",
+      "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/kernel.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 19042,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/kernel.py",
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/paired_extended.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2854,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/paired_extended.py",
+      "sha256": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/resource25_core.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 10278,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/resource25_core.py",
+      "sha256": "1640d8757194fd60e001cd5d1f0e4b9d32720e0fa710128cf3106d12410199b1"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/signed_variance_resource.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 1785,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/signed_variance_resource.py",
+      "sha256": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/small_index_support.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2698,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/small_index_support.py",
+      "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/RESOURCE_LITERAL_PORT.diff": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 437,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/RESOURCE_LITERAL_PORT.diff",
+      "sha256": "b70d140dd67d6e3dfe996e2b2878697d15ef9c2dbff4b537445c92316eeaeb3c"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/candidate_charged_score_v2.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 6662,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/candidate_charged_score_v2.py",
+      "sha256": "20f3c102f7b77b5ef49b0e6282cfacb3e24975f207296a5b74b27c0af6cdc6b4"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/contracted_kernel.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 20457,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/contracted_kernel.py",
+      "sha256": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/corrected_phase_callback_extended.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 1164,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/corrected_phase_callback_extended.py",
+      "sha256": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/direct_gaussian_support.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 5306,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/direct_gaussian_support.py",
+      "sha256": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/finite_binomial_core.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 3510,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/finite_binomial_core.py",
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/general_paired_exact.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 4013,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/general_paired_exact.py",
+      "sha256": "e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/geometric_moment_both.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2100,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/geometric_moment_both.py",
+      "sha256": "ea17218cdad6c409dacf8d4a37b437453fbf7aab3683867d16783cb696206616"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/heat_support50.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 4726,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/heat_support50.py",
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/high_window_common.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2810,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/high_window_common.py",
+      "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/high_window_core.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 1966,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/high_window_core.py",
+      "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/integer_exphi.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 803,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/integer_exphi.py",
+      "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/kernel.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 19042,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/kernel.py",
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/paired_extended.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2854,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/paired_extended.py",
+      "sha256": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/resource25_core.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 10279,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/resource25_core.py",
+      "sha256": "80f5db52394b754e3f055cfa3e08bcb0141c11403e34b1dca32a01eb5fa291ac"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/signed_variance_resource.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 1785,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/signed_variance_resource.py",
+      "sha256": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/small_index_support.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2698,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/small_index_support.py",
+      "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/RESOURCE_LITERAL_PORT.diff": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 436,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/RESOURCE_LITERAL_PORT.diff",
+      "sha256": "82df566d65fe1c4d6e3e4281a4ae4e99ffa5eff63a5a4950e4919492ef050014"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/candidate_charged_score_v2.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 6662,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/candidate_charged_score_v2.py",
+      "sha256": "20f3c102f7b77b5ef49b0e6282cfacb3e24975f207296a5b74b27c0af6cdc6b4"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/contracted_kernel.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 20457,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/contracted_kernel.py",
+      "sha256": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/corrected_phase_callback_extended.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 1164,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/corrected_phase_callback_extended.py",
+      "sha256": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/direct_gaussian_support.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 5306,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/direct_gaussian_support.py",
+      "sha256": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/finite_binomial_core.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 3510,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/finite_binomial_core.py",
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/general_paired_exact.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 4013,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/general_paired_exact.py",
+      "sha256": "e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/geometric_moment_both.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2100,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/geometric_moment_both.py",
+      "sha256": "ea17218cdad6c409dacf8d4a37b437453fbf7aab3683867d16783cb696206616"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/heat_support50.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 4726,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/heat_support50.py",
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/high_window_common.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2810,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/high_window_common.py",
+      "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/high_window_core.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 1966,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/high_window_core.py",
+      "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/integer_exphi.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 803,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/integer_exphi.py",
+      "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/kernel.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 19042,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/kernel.py",
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/paired_extended.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2854,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/paired_extended.py",
+      "sha256": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/resource25_core.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 10278,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/resource25_core.py",
+      "sha256": "58ccf6031f69e3c5978b38ca56467ba0299a9d426efb87b7c31bc4aac14242a9"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/signed_variance_resource.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 1785,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/signed_variance_resource.py",
+      "sha256": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/small_index_support.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2698,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/small_index_support.py",
+      "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/RESOURCE_LITERAL_PORT.diff": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 437,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/RESOURCE_LITERAL_PORT.diff",
+      "sha256": "1e5fa8a4eb21a1eeff45d0b151cb00b19e1098599f4f1bcfebb2d6bdaac0912a"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/candidate_charged_score_v2.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 6662,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/candidate_charged_score_v2.py",
+      "sha256": "20f3c102f7b77b5ef49b0e6282cfacb3e24975f207296a5b74b27c0af6cdc6b4"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/contracted_kernel.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 20457,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/contracted_kernel.py",
+      "sha256": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/corrected_phase_callback_extended.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 1164,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/corrected_phase_callback_extended.py",
+      "sha256": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/direct_gaussian_support.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 5306,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/direct_gaussian_support.py",
+      "sha256": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/finite_binomial_core.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 3510,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/finite_binomial_core.py",
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/general_paired_exact.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 4013,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/general_paired_exact.py",
+      "sha256": "e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/geometric_moment_both.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2100,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/geometric_moment_both.py",
+      "sha256": "ea17218cdad6c409dacf8d4a37b437453fbf7aab3683867d16783cb696206616"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/heat_support50.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 4726,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/heat_support50.py",
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/high_window_common.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2810,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/high_window_common.py",
+      "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/high_window_core.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 1966,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/high_window_core.py",
+      "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/integer_exphi.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 803,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/integer_exphi.py",
+      "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/kernel.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 19042,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/kernel.py",
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/paired_extended.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2854,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/paired_extended.py",
+      "sha256": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/resource25_core.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 10279,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/resource25_core.py",
+      "sha256": "23779f74412848b4e7163d3628a467b460110c074bd332a8d69c3dd2af5d5881"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/signed_variance_resource.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 1785,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/signed_variance_resource.py",
+      "sha256": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/small_index_support.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2698,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/small_index_support.py",
+      "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/RESOURCE_LITERAL_PORT.diff": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 436,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/RESOURCE_LITERAL_PORT.diff",
+      "sha256": "39715b2aedcd194bca274d15ca1a2c9c3c72a54b798e59f4538b8c5bbc4aff20"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/candidate_charged_score_v2.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 6662,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/candidate_charged_score_v2.py",
+      "sha256": "20f3c102f7b77b5ef49b0e6282cfacb3e24975f207296a5b74b27c0af6cdc6b4"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/contracted_kernel.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 20457,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/contracted_kernel.py",
+      "sha256": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/corrected_phase_callback_extended.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 1164,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/corrected_phase_callback_extended.py",
+      "sha256": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/direct_gaussian_support.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 5306,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/direct_gaussian_support.py",
+      "sha256": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/finite_binomial_core.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 3510,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/finite_binomial_core.py",
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/general_paired_exact.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 4013,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/general_paired_exact.py",
+      "sha256": "e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/geometric_moment_both.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2100,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/geometric_moment_both.py",
+      "sha256": "ea17218cdad6c409dacf8d4a37b437453fbf7aab3683867d16783cb696206616"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/heat_support50.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 4726,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/heat_support50.py",
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/high_window_common.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2810,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/high_window_common.py",
+      "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/high_window_core.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 1966,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/high_window_core.py",
+      "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/integer_exphi.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 803,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/integer_exphi.py",
+      "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/kernel.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 19042,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/kernel.py",
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/paired_extended.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2854,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/paired_extended.py",
+      "sha256": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/resource25_core.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 10278,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/resource25_core.py",
+      "sha256": "faf01e4668a3705a8bc80d5d97f1f8d1c495ce94c198e87fe59c3839c1821a88"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/signed_variance_resource.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 1785,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/signed_variance_resource.py",
+      "sha256": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/small_index_support.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 2698,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/small_index_support.py",
+      "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/resources.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 10900,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/resources.py",
+      "sha256": "c016fdbe4aa23b0e84068c24b280d23bf664c5aaa950ec5087b8798df25e8a4a"
+    },
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/resources_v2.py": {
+      "archive": "continuation_cutoff20_20261016_final.zip",
+      "bytes": 11749,
+      "kind": "unchanged_static_conditional_input",
+      "member": "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/resources_v2.py",
+      "sha256": "27604e7db2e1cf6efce0fcdef6217f1126459d7f16cd6964919380d41b261114"
+    },
+    "cutoff20_20261016/analytic/auxiliary19_24_review_v1/READBACK.json": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 11580,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff20_20261016/analytic/auxiliary19_24_review_v1/READBACK.json",
+      "sha256": "0314a8e0c1acd5de9c1229d8f9af2dfcdad0e7c50e612956a320e8bbc008280a"
+    },
+    "cutoff20_20261016/finite/feedback20_b0_resources_v1/candidate_charged_score_v2.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 6662,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff20_20261016/finite/feedback20_b0_resources_v1/candidate_charged_score_v2.py",
+      "sha256": "20f3c102f7b77b5ef49b0e6282cfacb3e24975f207296a5b74b27c0af6cdc6b4"
+    },
+    "cutoff20_20261016/finite/feedback20_b0_resources_v1/contracted_kernel.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 20457,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff20_20261016/finite/feedback20_b0_resources_v1/contracted_kernel.py",
+      "sha256": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0"
+    },
+    "cutoff20_20261016/finite/feedback20_b0_resources_v1/corrected_phase_callback_extended.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 1164,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff20_20261016/finite/feedback20_b0_resources_v1/corrected_phase_callback_extended.py",
+      "sha256": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63"
+    },
+    "cutoff20_20261016/finite/feedback20_b0_resources_v1/direct_gaussian_support.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 5306,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff20_20261016/finite/feedback20_b0_resources_v1/direct_gaussian_support.py",
+      "sha256": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57"
+    },
+    "cutoff20_20261016/finite/feedback20_b0_resources_v1/finite_binomial_core.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 3510,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff20_20261016/finite/feedback20_b0_resources_v1/finite_binomial_core.py",
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f"
+    },
+    "cutoff20_20261016/finite/feedback20_b0_resources_v1/general_paired_exact.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 4013,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff20_20261016/finite/feedback20_b0_resources_v1/general_paired_exact.py",
+      "sha256": "e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96"
+    },
+    "cutoff20_20261016/finite/feedback20_b0_resources_v1/geometric_moment_both.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 2100,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff20_20261016/finite/feedback20_b0_resources_v1/geometric_moment_both.py",
+      "sha256": "ea17218cdad6c409dacf8d4a37b437453fbf7aab3683867d16783cb696206616"
+    },
+    "cutoff20_20261016/finite/feedback20_b0_resources_v1/heat_support50.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 4726,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff20_20261016/finite/feedback20_b0_resources_v1/heat_support50.py",
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18"
+    },
+    "cutoff20_20261016/finite/feedback20_b0_resources_v1/high_window_common.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 2810,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff20_20261016/finite/feedback20_b0_resources_v1/high_window_common.py",
+      "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f"
+    },
+    "cutoff20_20261016/finite/feedback20_b0_resources_v1/high_window_core.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 1966,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff20_20261016/finite/feedback20_b0_resources_v1/high_window_core.py",
+      "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232"
+    },
+    "cutoff20_20261016/finite/feedback20_b0_resources_v1/integer_exphi.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 803,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff20_20261016/finite/feedback20_b0_resources_v1/integer_exphi.py",
+      "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03"
+    },
+    "cutoff20_20261016/finite/feedback20_b0_resources_v1/kernel.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 19042,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff20_20261016/finite/feedback20_b0_resources_v1/kernel.py",
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12"
+    },
+    "cutoff20_20261016/finite/feedback20_b0_resources_v1/paired_extended.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 2854,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff20_20261016/finite/feedback20_b0_resources_v1/paired_extended.py",
+      "sha256": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998"
+    },
+    "cutoff20_20261016/finite/feedback20_b0_resources_v1/resource25_core.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 10284,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff20_20261016/finite/feedback20_b0_resources_v1/resource25_core.py",
+      "sha256": "47c0718e9cd063cd9fefcf58c219a92851d496b58d8fd3a85772fd1f9fe16087"
+    },
+    "cutoff20_20261016/finite/feedback20_b0_resources_v1/signed_variance_resource.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 1785,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff20_20261016/finite/feedback20_b0_resources_v1/signed_variance_resource.py",
+      "sha256": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8"
+    },
+    "cutoff20_20261016/finite/feedback20_b0_resources_v1/small_index_support.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 2698,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff20_20261016/finite/feedback20_b0_resources_v1/small_index_support.py",
+      "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582"
+    },
+    "cutoff20_20261016/finite/feedback20_initial_v1/cantelli_high.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 1593,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff20_20261016/finite/feedback20_initial_v1/cantelli_high.py",
+      "sha256": "c95a6ce9d75fd2c5693de574f322859bcb29d25df4cada9facd96ed3edc02239"
+    },
+    "cutoff20_20261016/finite/feedback20_initial_v1/direct_gaussian_support.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 5332,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff20_20261016/finite/feedback20_initial_v1/direct_gaussian_support.py",
+      "sha256": "5742afc0538fe3fb8473d087810ad391623d38a151f5b789e7520d256197c1d2"
+    },
+    "cutoff20_20261016/finite/feedback20_initial_v1/finite_binomial_core.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 3510,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff20_20261016/finite/feedback20_initial_v1/finite_binomial_core.py",
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f"
+    },
+    "cutoff20_20261016/finite/feedback20_initial_v1/heat_support50.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 4726,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff20_20261016/finite/feedback20_initial_v1/heat_support50.py",
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18"
+    },
+    "cutoff20_20261016/finite/feedback20_initial_v1/high_grid.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 740,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff20_20261016/finite/feedback20_initial_v1/high_grid.py",
+      "sha256": "a6b631ea8df0299e7bbd14f9d6afd21abd3f1693f66d24036cefda36f51c741a"
+    },
+    "cutoff20_20261016/finite/feedback20_initial_v1/high_window_common.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 2810,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff20_20261016/finite/feedback20_initial_v1/high_window_common.py",
+      "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f"
+    },
+    "cutoff20_20261016/finite/feedback20_initial_v1/high_window_core.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 2214,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff20_20261016/finite/feedback20_initial_v1/high_window_core.py",
+      "sha256": "62ba022998f45e0e4f8628badfe5092ae0b8d2bc256d5c18614bfb44e63906a0"
+    },
+    "cutoff20_20261016/finite/feedback20_initial_v1/initial34_indexed.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 11852,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff20_20261016/finite/feedback20_initial_v1/initial34_indexed.py",
+      "sha256": "37c002305518111b600e461133947aed7e739530f60e316463cadad301a9a82b"
+    },
+    "cutoff20_20261016/finite/feedback20_initial_v1/integer_exphi.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 803,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff20_20261016/finite/feedback20_initial_v1/integer_exphi.py",
+      "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03"
+    },
+    "cutoff20_20261016/finite/feedback20_initial_v1/kernel.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 19042,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff20_20261016/finite/feedback20_initial_v1/kernel.py",
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12"
+    },
+    "cutoff20_20261016/finite/feedback20_initial_v1/small_index_support.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 2698,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff20_20261016/finite/feedback20_initial_v1/small_index_support.py",
+      "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582"
+    }
+  },
+  "static_resource_review_graph": {
+    "continuation_cutoff20_20261016/analytic/BRIDGE_INITIAL_SOURCE_REVIEW.json": "56e4b0d5f042eae2371b7804ae6bf686db3a14cb32c45a5aa7ce0f7ce11fb6f0",
+    "continuation_cutoff20_20261016/analytic/BRIDGE_RESOURCE_SOURCE_REVIEW.txt": "b8af3e2a912be7d7ebf8ae2e6fc7e5156e9dd113ba16584c3419d3cd2382a756",
+    "continuation_cutoff20_20261016/analytic/review_bridge_resources.py": "93ebd1ba4c13cb2507f554474fa731c9b430fe97fdd5400f3544bd8daec70d97",
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/COPIED_SOURCES.json": "4013e805e38b7245a2cda7bc7972d40e998b1d03c47f41f7f2507517a8950d14",
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/FROZEN_SOURCES.json": "ae9b7e58bdaf467b8a4b7f024f7b9f903a460ade2308e0bf90d0a45a6ba9db3d",
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/PROOF.txt": "0e7470ad13ebc658aa4b0ed34a6150efba36575c66280d2168573634f33c4976",
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/cantelli_high.py": "c95a6ce9d75fd2c5693de574f322859bcb29d25df4cada9facd96ed3edc02239",
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/direct_gaussian_support.py": "5742afc0538fe3fb8473d087810ad391623d38a151f5b789e7520d256197c1d2",
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/finite_binomial_core.py": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/heat_support50.py": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/high_grid.py": "a6b631ea8df0299e7bbd14f9d6afd21abd3f1693f66d24036cefda36f51c741a",
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/high_window_common.py": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/high_window_core.py": "62ba022998f45e0e4f8628badfe5092ae0b8d2bc256d5c18614bfb44e63906a0",
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/initial34_indexed.py": "37c002305518111b600e461133947aed7e739530f60e316463cadad301a9a82b",
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/integer_exphi.py": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/kernel.py": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/small_index_support.py": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+    "continuation_cutoff20_20261016/root/bridge21_24_initial_v1/initial.py": "dfef3a7bff3139f217d875193a06cea628e71bf80beb1f3f781a40a0364ff06e",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/COPIED_SOURCES.json": "e1a8a3812f4475f84d12ba13781c0984fa80e785a27a6346a05cfd66daead9ef",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/FROZEN_SOURCES.json": "d50347e47d941aab67e1b2e725a7138faaf599646f540b9c2580eaf4cdf0124d",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/FROZEN_SOURCES_V2.json": "ac31cc14bbbb179363306c740d3b109d0f3ba0e4d499481fb59923d5c0dd13e9",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/PROOF.txt": "01eca001236104b026bcf395e33273d1c243b24cd8df37e1505e585a54b5a80a",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/SOURCE_REVIEW_GUARD_V2.diff": "43e75972546e8d28caaf2ca1a1a686218cf21f62223941cb35393467637ade6f",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/V2_PROVENANCE_NOTE.txt": "bdb3f07960cb8a8460feb68cc583543804e740fff92d2099abb009d571f6f2ec",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/RESOURCE_LITERAL_PORT.diff": "fda60c59ca73e84db8aa9f525464a9a95afd1836e318a1408736643c9b19e214",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/candidate_charged_score_v2.py": "20f3c102f7b77b5ef49b0e6282cfacb3e24975f207296a5b74b27c0af6cdc6b4",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/contracted_kernel.py": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/corrected_phase_callback_extended.py": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/direct_gaussian_support.py": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/finite_binomial_core.py": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/general_paired_exact.py": "e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/geometric_moment_both.py": "ea17218cdad6c409dacf8d4a37b437453fbf7aab3683867d16783cb696206616",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/heat_support50.py": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/high_window_common.py": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/high_window_core.py": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/integer_exphi.py": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/kernel.py": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/paired_extended.py": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/resource25_core.py": "49588958962741cad11031047a7b60142478191c62b214abd84620d18ee109e1",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/signed_variance_resource.py": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/small_index_support.py": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/RESOURCE_LITERAL_PORT.diff": "03f4be335d442c8c6e3d3f89d99365710eb6f997819a1dec4a1584e6e2cac689",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/candidate_charged_score_v2.py": "20f3c102f7b77b5ef49b0e6282cfacb3e24975f207296a5b74b27c0af6cdc6b4",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/contracted_kernel.py": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/corrected_phase_callback_extended.py": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/direct_gaussian_support.py": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/finite_binomial_core.py": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/general_paired_exact.py": "e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/geometric_moment_both.py": "ea17218cdad6c409dacf8d4a37b437453fbf7aab3683867d16783cb696206616",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/heat_support50.py": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/high_window_common.py": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/high_window_core.py": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/integer_exphi.py": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/kernel.py": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/paired_extended.py": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/resource25_core.py": "6f6143e32a14ec936c921fdede306dd1a6d2df42630fb28f20bb343001a0fbfa",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/signed_variance_resource.py": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_BN/engine/small_index_support.py": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/RESOURCE_LITERAL_PORT.diff": "f58c4f8351473146c0684ec1d12ba140f236595c50a8cc15eccbda4d3c9b253e",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/candidate_charged_score_v2.py": "20f3c102f7b77b5ef49b0e6282cfacb3e24975f207296a5b74b27c0af6cdc6b4",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/contracted_kernel.py": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/corrected_phase_callback_extended.py": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/direct_gaussian_support.py": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/finite_binomial_core.py": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/general_paired_exact.py": "e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/geometric_moment_both.py": "ea17218cdad6c409dacf8d4a37b437453fbf7aab3683867d16783cb696206616",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/heat_support50.py": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/high_window_common.py": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/high_window_core.py": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/integer_exphi.py": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/kernel.py": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/paired_extended.py": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/resource25_core.py": "ad0dbadc73b1ed57d343630b1645342ee5bbf5197d2badf7b66447facfea2154",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/signed_variance_resource.py": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_B0/engine/small_index_support.py": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/RESOURCE_LITERAL_PORT.diff": "238df4e27efcbfb23df9a457cdae53c98491b54a5a717aba404c92f7060672a2",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/candidate_charged_score_v2.py": "20f3c102f7b77b5ef49b0e6282cfacb3e24975f207296a5b74b27c0af6cdc6b4",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/contracted_kernel.py": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/corrected_phase_callback_extended.py": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/direct_gaussian_support.py": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/finite_binomial_core.py": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/general_paired_exact.py": "e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/geometric_moment_both.py": "ea17218cdad6c409dacf8d4a37b437453fbf7aab3683867d16783cb696206616",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/heat_support50.py": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/high_window_common.py": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/high_window_core.py": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/integer_exphi.py": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/kernel.py": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/paired_extended.py": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/resource25_core.py": "1640d8757194fd60e001cd5d1f0e4b9d32720e0fa710128cf3106d12410199b1",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/signed_variance_resource.py": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n22_BN/engine/small_index_support.py": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/RESOURCE_LITERAL_PORT.diff": "b70d140dd67d6e3dfe996e2b2878697d15ef9c2dbff4b537445c92316eeaeb3c",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/candidate_charged_score_v2.py": "20f3c102f7b77b5ef49b0e6282cfacb3e24975f207296a5b74b27c0af6cdc6b4",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/contracted_kernel.py": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/corrected_phase_callback_extended.py": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/direct_gaussian_support.py": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/finite_binomial_core.py": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/general_paired_exact.py": "e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/geometric_moment_both.py": "ea17218cdad6c409dacf8d4a37b437453fbf7aab3683867d16783cb696206616",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/heat_support50.py": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/high_window_common.py": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/high_window_core.py": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/integer_exphi.py": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/kernel.py": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/paired_extended.py": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/resource25_core.py": "80f5db52394b754e3f055cfa3e08bcb0141c11403e34b1dca32a01eb5fa291ac",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/signed_variance_resource.py": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_B0/engine/small_index_support.py": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/RESOURCE_LITERAL_PORT.diff": "82df566d65fe1c4d6e3e4281a4ae4e99ffa5eff63a5a4950e4919492ef050014",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/candidate_charged_score_v2.py": "20f3c102f7b77b5ef49b0e6282cfacb3e24975f207296a5b74b27c0af6cdc6b4",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/contracted_kernel.py": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/corrected_phase_callback_extended.py": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/direct_gaussian_support.py": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/finite_binomial_core.py": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/general_paired_exact.py": "e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/geometric_moment_both.py": "ea17218cdad6c409dacf8d4a37b437453fbf7aab3683867d16783cb696206616",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/heat_support50.py": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/high_window_common.py": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/high_window_core.py": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/integer_exphi.py": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/kernel.py": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/paired_extended.py": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/resource25_core.py": "58ccf6031f69e3c5978b38ca56467ba0299a9d426efb87b7c31bc4aac14242a9",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/signed_variance_resource.py": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n23_BN/engine/small_index_support.py": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/RESOURCE_LITERAL_PORT.diff": "1e5fa8a4eb21a1eeff45d0b151cb00b19e1098599f4f1bcfebb2d6bdaac0912a",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/candidate_charged_score_v2.py": "20f3c102f7b77b5ef49b0e6282cfacb3e24975f207296a5b74b27c0af6cdc6b4",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/contracted_kernel.py": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/corrected_phase_callback_extended.py": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/direct_gaussian_support.py": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/finite_binomial_core.py": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/general_paired_exact.py": "e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/geometric_moment_both.py": "ea17218cdad6c409dacf8d4a37b437453fbf7aab3683867d16783cb696206616",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/heat_support50.py": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/high_window_common.py": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/high_window_core.py": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/integer_exphi.py": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/kernel.py": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/paired_extended.py": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/resource25_core.py": "23779f74412848b4e7163d3628a467b460110c074bd332a8d69c3dd2af5d5881",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/signed_variance_resource.py": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_B0/engine/small_index_support.py": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/RESOURCE_LITERAL_PORT.diff": "39715b2aedcd194bca274d15ca1a2c9c3c72a54b798e59f4538b8c5bbc4aff20",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/candidate_charged_score_v2.py": "20f3c102f7b77b5ef49b0e6282cfacb3e24975f207296a5b74b27c0af6cdc6b4",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/contracted_kernel.py": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/corrected_phase_callback_extended.py": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/direct_gaussian_support.py": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/finite_binomial_core.py": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/general_paired_exact.py": "e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/geometric_moment_both.py": "ea17218cdad6c409dacf8d4a37b437453fbf7aab3683867d16783cb696206616",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/heat_support50.py": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/high_window_common.py": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/high_window_core.py": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/integer_exphi.py": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/kernel.py": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/paired_extended.py": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/resource25_core.py": "faf01e4668a3705a8bc80d5d97f1f8d1c495ce94c198e87fe59c3839c1821a88",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/signed_variance_resource.py": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n24_BN/engine/small_index_support.py": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/resources.py": "c016fdbe4aa23b0e84068c24b280d23bf664c5aaa950ec5087b8798df25e8a4a",
+    "continuation_cutoff20_20261016/root/bridge21_24_resources_v1/resources_v2.py": "27604e7db2e1cf6efce0fcdef6217f1126459d7f16cd6964919380d41b261114",
+    "cutoff20_20261016/analytic/auxiliary19_24_review_v1/READBACK.json": "0314a8e0c1acd5de9c1229d8f9af2dfcdad0e7c50e612956a320e8bbc008280a",
+    "cutoff20_20261016/finite/feedback20_b0_resources_v1/candidate_charged_score_v2.py": "20f3c102f7b77b5ef49b0e6282cfacb3e24975f207296a5b74b27c0af6cdc6b4",
+    "cutoff20_20261016/finite/feedback20_b0_resources_v1/contracted_kernel.py": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0",
+    "cutoff20_20261016/finite/feedback20_b0_resources_v1/corrected_phase_callback_extended.py": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63",
+    "cutoff20_20261016/finite/feedback20_b0_resources_v1/direct_gaussian_support.py": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57",
+    "cutoff20_20261016/finite/feedback20_b0_resources_v1/finite_binomial_core.py": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+    "cutoff20_20261016/finite/feedback20_b0_resources_v1/general_paired_exact.py": "e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96",
+    "cutoff20_20261016/finite/feedback20_b0_resources_v1/geometric_moment_both.py": "ea17218cdad6c409dacf8d4a37b437453fbf7aab3683867d16783cb696206616",
+    "cutoff20_20261016/finite/feedback20_b0_resources_v1/heat_support50.py": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+    "cutoff20_20261016/finite/feedback20_b0_resources_v1/high_window_common.py": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+    "cutoff20_20261016/finite/feedback20_b0_resources_v1/high_window_core.py": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+    "cutoff20_20261016/finite/feedback20_b0_resources_v1/integer_exphi.py": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+    "cutoff20_20261016/finite/feedback20_b0_resources_v1/kernel.py": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+    "cutoff20_20261016/finite/feedback20_b0_resources_v1/paired_extended.py": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998",
+    "cutoff20_20261016/finite/feedback20_b0_resources_v1/resource25_core.py": "47c0718e9cd063cd9fefcf58c219a92851d496b58d8fd3a85772fd1f9fe16087",
+    "cutoff20_20261016/finite/feedback20_b0_resources_v1/signed_variance_resource.py": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8",
+    "cutoff20_20261016/finite/feedback20_b0_resources_v1/small_index_support.py": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+    "cutoff20_20261016/finite/feedback20_initial_v1/cantelli_high.py": "c95a6ce9d75fd2c5693de574f322859bcb29d25df4cada9facd96ed3edc02239",
+    "cutoff20_20261016/finite/feedback20_initial_v1/direct_gaussian_support.py": "5742afc0538fe3fb8473d087810ad391623d38a151f5b789e7520d256197c1d2",
+    "cutoff20_20261016/finite/feedback20_initial_v1/finite_binomial_core.py": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+    "cutoff20_20261016/finite/feedback20_initial_v1/heat_support50.py": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+    "cutoff20_20261016/finite/feedback20_initial_v1/high_grid.py": "a6b631ea8df0299e7bbd14f9d6afd21abd3f1693f66d24036cefda36f51c741a",
+    "cutoff20_20261016/finite/feedback20_initial_v1/high_window_common.py": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+    "cutoff20_20261016/finite/feedback20_initial_v1/high_window_core.py": "62ba022998f45e0e4f8628badfe5092ae0b8d2bc256d5c18614bfb44e63906a0",
+    "cutoff20_20261016/finite/feedback20_initial_v1/initial34_indexed.py": "37c002305518111b600e461133947aed7e739530f60e316463cadad301a9a82b",
+    "cutoff20_20261016/finite/feedback20_initial_v1/integer_exphi.py": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+    "cutoff20_20261016/finite/feedback20_initial_v1/kernel.py": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+    "cutoff20_20261016/finite/feedback20_initial_v1/small_index_support.py": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582"
+  }
+}

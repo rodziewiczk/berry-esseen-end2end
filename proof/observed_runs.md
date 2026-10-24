@@ -1174,3 +1174,10 @@ This records scoped completion of the original two native passes and derived
 current-capture independent readback. Actual full export validation and the
 support/INITIAL/resource/147COUNT/global joins remain separate. No repeated
 successful57Emathematics is queued.
+
+## Notebook57C: supplied complete high-rho14--19 ending
+
+The supplied final cell records `complete_conditional_highrho14_19_sublane_basic`
+and saves `finite1519-highrho/20261024T002009Z-456583eb/20261024T002009Z-456583eb-results.zip`.
+This is scoped output completion, not full actual export validation or the
+complete57/COUNT/global theorem. No repeated successful57Carithmetic is queued.
