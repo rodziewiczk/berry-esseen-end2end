@@ -1,5 +1,12 @@
 # Remaining end-to-end work
 
+**Historical source-inventory roadmap.** The current completion status,
+finite delivery partition and exact open implementation/execution list are
+in the [24 October ZIP checkpoint](completion_and_remaining_20261024.md).
+Statements below about queued arithmetic, missing source capsules or an
+unresolved notebook count describe earlier planning stages; they do not
+override the current checkpoint or the later reconstructed source plans.
+
 Updated:24October2026. This roadmap reads source inventories and records the
 remaining kinds of work. [STATUS.md](../STATUS.md) and the
 [observed-run register](observed_runs.md) carry the latest individual notebook

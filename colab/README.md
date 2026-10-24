@@ -1,5 +1,14 @@
 # CPU notebooks: upload and run all
 
+## Current execution checkpoint
+
+Before starting another run, consult the [24 October completed-export and
+remaining-work register](../proof/completion_and_remaining_20261024.md).
+It records 74 completed arithmetic scopes, incomplete 35/46/59C, the 59B
+reader compatibility issue, four missing local final exports and the exact
+remaining whole units. The instructions below describe how to execute the
+published notebooks; their presence is not a request to rerun completed work.
+
 ## Current count set: PREFIX2 resume01–07
 
 Use the seven `01_RESTART_...` through `07_RESTART_...` files in this directory.

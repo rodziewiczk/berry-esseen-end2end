@@ -9,9 +9,15 @@ assigned scope is implemented and checked.
 **13 new files are assigned: 12 containing numerical work or bounded original
 mathematical controls, and 1 final evidence/proof collector.** The grouping is an
 engineering choice, not a theorem about the minimum possible number of files.
-Two numerical wrappers (57F/G) are now delivered with immutable runtime
-`99d4a016bbfe7399639b49cf131ccbae2f103f0f`; the other eleven delivery units
-still need implementation. Existing repairs are separate from
+Two numerical wrappers (57F/G) are publicly delivered with immutable runtime
+`99d4a016bbfe7399639b49cf131ccbae2f103f0f`. A third unit, 56I, now has a
+ready local implementation/notebook handoff with 29 passing infrastructure
+fixtures and a checked bootstrap, but no completed numerical execution or
+public runtime delivery. The other ten whole units need implementation
+completion. See the [current export and remaining-work register](completion_and_remaining_20261024.md)
+for the authoritative execution checkpoint; the machine plan's earlier
+delivery flags describe public delivery, not the newer local handoff.
+Existing repairs are separate from
 this new-file count. An individual notebook may contain many complete cached
 stages and require several sessions.
 

@@ -2,6 +2,15 @@
 
 Authors: Kacper Rodziewicz and Bartosz Kołodziejek.
 
+**24 October 2026 execution checkpoint:** 74 existing tasks have completed
+their declared arithmetic scope; 35, 46 and 59C are incomplete. Final local
+exports were not found for 56H, 57F, 57G and 58G. Completed 59B additionally
+needs a compatible full reader. See the [complete per-notebook register and
+exact remaining implementation/execution list](proof/completion_and_remaining_20261024.md)
+and its [machine-readable evidence ledger](proof/completion_and_remaining_20261024.json).
+56I is ready in a local code handoff and awaits execution; ten further whole
+units need implementation completion. The global proof remains unverified.
+
 The [proof graph](proof/proof_graph.md) shows the mathematical statements and
 their dependencies, including open analytic premises and missing n25 inputs.
 The accompanying [conditional sufficiency argument](proof/remaining_notebooks_sufficiency.md)
@@ -10,7 +19,8 @@ tracked separately in the [selected implementation plan](proof/remaining_noteboo
 
 Start with [the current status](STATUS.md) and [the mathematical audit and
 high-level proof graphs](proof/LOGICAL_AUDIT.md). The present priority is to
-verify the logical and source-specific implications before adding compute jobs.
+finish the listed implementations and executions, with the checks needed to
+preserve their exact evidence and mathematical implications.
 The follow-up [implementation and certificate-link audit](proof/CODE_INTERFACE_AUDIT.md)
 records exact component matches, remaining enabled paths and the collector23 repair.
 

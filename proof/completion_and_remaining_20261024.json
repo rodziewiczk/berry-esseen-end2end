@@ -1,0 +1,1158 @@
+{
+  "schema": "PUBLIC_COMPLETION_AND_REMAINING_CHECKPOINT_V1",
+  "date": "2026-10-24",
+  "scope": "Actual locally available result ZIP review; no live Colab monitoring and no new original mathematical execution.",
+  "selection_policy": "Latest successful scoped arithmetic export if found; otherwise latest failed export; exact duplicate ZIPs counted once.",
+  "inventory": {
+    "physical_files": 105,
+    "unique_archives": 97,
+    "exact_duplicate_files": 8,
+    "existing_notebook_jobs": 81,
+    "completed_scoped_arithmetic": 74,
+    "incomplete_jobs": [
+      "35",
+      "46",
+      "59C"
+    ],
+    "missing_local_final_exports": [
+      "56H",
+      "57F",
+      "57G",
+      "58G"
+    ],
+    "completed_but_current_reader_compatibility_open": [
+      "59B"
+    ]
+  },
+  "verification": {
+    "all_unique_archive_members_streamed_to_EOF": true,
+    "CRC_failures": 0,
+    "internal_size_SHA256_bindings_checked": 108546,
+    "internal_binding_failures": 0,
+    "full_family_readers_run_in_this_review": [
+      "57E",
+      "58D",
+      "58E",
+      "58F",
+      "59A",
+      "59B"
+    ],
+    "full_family_reader_PASS": [
+      "57E",
+      "58D",
+      "58E",
+      "58F",
+      "59A"
+    ],
+    "full_family_reader_rejected": [
+      "59B"
+    ],
+    "all_family_readers_run": false,
+    "adjacent_external_SHA256_sidecars_found": 0,
+    "original_mathematical_kernels_rerun": false
+  },
+  "notebooks": [
+    {
+      "notebook": "01",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Pełny regionalny COUNT; rodzice i pełna unia n25 pozostają osobne.",
+      "final_state": "regional_count_arithmetic_accepted",
+      "export_filename": "20261023T173523Z-dd027bd6-results.zip",
+      "export_bytes": 5388237,
+      "export_sha256": "54ab94705d1d095602ffc9e8dd87d1e9a8dfa17d10b884fb82d731386c4bf5b2",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "02",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Pełny regionalny COUNT; rodzice i pełna unia n25 pozostają osobne.",
+      "final_state": "regional_count_arithmetic_accepted",
+      "export_filename": "20261023T173533Z-3c55a3cd-results.zip",
+      "export_bytes": 3224332,
+      "export_sha256": "717ca1bed75656d957927be15f8f9c74aa289ee680118d64e538cd87c361ded2",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "03",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Pełny regionalny COUNT; rodzice i pełna unia n25 pozostają osobne.",
+      "final_state": "regional_count_arithmetic_accepted",
+      "export_filename": "20261023T173630Z-c08f3ca5-results.zip",
+      "export_bytes": 2370909,
+      "export_sha256": "27f7d5b00466d2c921bc434c48accd420fac3cdfcf3764e4cebfc58955acfa96",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "04",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Pełny regionalny COUNT; rodzice i pełna unia n25 pozostają osobne.",
+      "final_state": "regional_count_arithmetic_accepted",
+      "export_filename": "20261023T173624Z-bc1358b0-results.zip",
+      "export_bytes": 3172314,
+      "export_sha256": "2e8cf702054c7e2ab5a66897608f610ffb1c6fa5247504d183afe26199c0d8f2",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "05",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Pełny regionalny COUNT; rodzice i pełna unia n25 pozostają osobne.",
+      "final_state": "regional_count_arithmetic_accepted",
+      "export_filename": "20261023T173915Z-989ca66d-results.zip",
+      "export_bytes": 2798530,
+      "export_sha256": "06f114d4773bf1c4314e62f66e68dfcd3c196d9951cf117406acd671f25c645f",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "06",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Pełny regionalny COUNT; rodzice i pełna unia n25 pozostają osobne.",
+      "final_state": "regional_count_arithmetic_accepted",
+      "export_filename": "20261023T173705Z-95cdbaee-results.zip",
+      "export_bytes": 119204060,
+      "export_sha256": "14090d8f2e105b177371c7d0dd1cac456a5b6813b601a0d6fb17800f2516fc8b",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "07",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Pełny regionalny COUNT; rodzice i pełna unia n25 pozostają osobne.",
+      "final_state": "regional_count_arithmetic_accepted",
+      "export_filename": "20261023T173850Z-ca51d9e6-results.zip",
+      "export_bytes": 155669880,
+      "export_sha256": "f8a2718d0c784813ead13498605dc12728f646e7fad708ef95cb3938d405690b",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "08",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Obliczenia n2/n3; all-law redukcje i silna teza n3 wymagają osobnego połączenia.",
+      "final_state": "exact_arithmetic_completed_untrusted_guard",
+      "export_filename": "20261023T102541Z-29f65b56-results.zip",
+      "export_bytes": 235486,
+      "export_sha256": "77b7750b3e6cb124a0622f906034dca8dec500aed07c8a70596c747285736e2b",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "09",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "B3/B4 INITIAL/resources; warunkowy łańcuch rodziców.",
+      "final_state": "CONDITIONAL_FRESH_PARENT_CHAIN_ACCEPTED",
+      "export_filename": "20261023T111838Z-c4d5fadf-results.zip",
+      "export_bytes": 7398677,
+      "export_sha256": "b012ad11c64e0e9d9e8aaf4095cbb7ab125c05f8f583729d3dce6a9c958d370a",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "10",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "B3/B4 INITIAL/resources; warunkowy łańcuch rodziców.",
+      "final_state": "CONDITIONAL_FRESH_PARENT_CHAIN_ACCEPTED",
+      "export_filename": "20261023T111953Z-594c65da-results.zip",
+      "export_bytes": 7932895,
+      "export_sha256": "d5c4769a1eb96b12b4ea31d341525ca52b05df4228ef16ca2d7dd10729fee823",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "11",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Dwa pełne przebiegi fizycznego ROOT4; all-law C4 pozostaje osobne.",
+      "final_state": "conditional_physical_root_verified",
+      "export_filename": "20261023T112903Z-63d200d0-results.zip",
+      "export_bytes": 12745098,
+      "export_sha256": "5139f88952c3f989c6a5298a50293af70898658a075be3088347173590dffcb3",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "12",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "14/14 top-level i41/41 retained; BASIC16GiB/18h. Pozostała jednolita implikacja ogona49+ i przesłanki.",
+      "final_state": "exact_selected_arithmetic_completed_untrusted_guard",
+      "export_filename": "20261023T212745Z-1825b68e-results.zip",
+      "export_bytes": 16921310,
+      "export_sha256": "51640e38549bf8ebe05e09953622e1f8526063f7a03b2f2c48756b782d17fd63",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "13",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Cała faza dla wybranego dodatniego closed-CDF gap-free corner; nie całe C5.",
+      "final_state": "FRESH_LINUX_POSITIVE_CLOSED_N5_GAPFREE_RECTANGLE_ACCEPTED",
+      "export_filename": "20261023T123333Z-c3b7ecde-results.zip",
+      "export_bytes": 48128,
+      "export_sha256": "a95becb594528c6197aeb975027bd67470ba99954272f4e98bb81a09930b7be6",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "14",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Wybrany pełny auxiliary21; szersze połączenia analityczne osobne.",
+      "final_state": "FRESH_CONDITIONAL_ARITHMETIC_REPLAY_COMPLETED",
+      "export_filename": "20261023T123947Z-243fb15a-results.zip",
+      "export_bytes": 53178,
+      "export_sha256": "53d63f262ce6ac3232bc4351fbfad7a7e3338a2d7419300df8db17a7f0206d27",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "15",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Wybrany pełny auxiliary22; szersze połączenia analityczne osobne.",
+      "final_state": "FRESH_CONDITIONAL_ARITHMETIC_REPLAY_COMPLETED",
+      "export_filename": "20261023T125227Z-08695959-results.zip",
+      "export_bytes": 871087,
+      "export_sha256": "24879e6407066e2035525cd3f2641e0784b0f933f7df71c8c1541917208a79d0",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "16",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Wybrany pełny auxiliary23; szersze połączenia analityczne osobne.",
+      "final_state": "FRESH_CONDITIONAL_ARITHMETIC_REPLAY_COMPLETED",
+      "export_filename": "20261023T134824Z-c9a1a91e-results.zip",
+      "export_bytes": 2152639,
+      "export_sha256": "5e927b01d4986f30fa7fa8ab6f614d582fd8e351ad19aa787e8dce485a1fb2e3",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "17",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Pełna gałąź stronger24 b0; 12 lasów.",
+      "final_state": "complete_conditional_arithmetic_basic",
+      "export_filename": "20261023T145430Z-1fe57fef-results.zip",
+      "export_bytes": 2534702,
+      "export_sha256": "1e048c45151ea0d94acf386d2e3dc0b1220642452e9e501c36929453ecaafa48",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "18",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Pełna gałąź stronger24 b1; 9 lasów.",
+      "final_state": "complete_conditional_arithmetic_basic",
+      "export_filename": "20261023T151748Z-7393522e-results.zip",
+      "export_bytes": 2835345,
+      "export_sha256": "adc7097968d787f210ace82fc472e7f1a67917f2b7c00e16750c99ada1d5fad1",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "19",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Pełna gałąź stronger24 b2; 9 lasów.",
+      "final_state": "complete_conditional_arithmetic_basic",
+      "export_filename": "20261023T153241Z-da044bd4-results.zip",
+      "export_bytes": 4346741,
+      "export_sha256": "f36009e4e5a4c6279c7c88227d89423f658830b1d3aabf807e9f9b08ab5a7ca1",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "20",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Pełna gałąź stronger24 b3; 8 lasów.",
+      "final_state": "complete_conditional_arithmetic_basic",
+      "export_filename": "20261023T155406Z-eeee0789-results.zip",
+      "export_bytes": 8630746,
+      "export_sha256": "52212caffe0083f8c92d6ad5b5ef76923afa9abb515bd6ecf45b1d78d4d83878",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "21",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Pełna gałąź stronger24 b4; 8 lasów.",
+      "final_state": "complete_conditional_arithmetic_basic",
+      "export_filename": "20261023T163842Z-8f5bb9d0-results.zip",
+      "export_bytes": 7391193,
+      "export_sha256": "a958da2da8cfaaed730458b2515cc49494c5c74806f4f6d0510cab7f96e9e2f8",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "22",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Pełna gałąź stronger24 b5; 7 lasów.",
+      "final_state": "complete_conditional_arithmetic_basic",
+      "export_filename": "20261023T181807Z-d1c20667-results.zip",
+      "export_bytes": 6486379,
+      "export_sha256": "264d64f36106667f5ae0479ab501347570c9f397647d8d5a8961ab94ff2b29fd",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "23",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "9 eksportów;83 lasy/76088 liści; CONDITIONAL_FRESH_NUMERIC_CHAIN_VERIFIED.",
+      "final_state": "CONDITIONAL_FRESH_NUMERIC_CHAIN_VERIFIED",
+      "export_filename": "20261023T201315Z-c98176d8-results.zip",
+      "export_bytes": 35868206,
+      "export_sha256": "0bd4420ec9bc59472c74b087aa14d3ab947cc3d5c2421a5cdfe6eda490802377",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "24",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "7/7 wybranych interfejsów n25; nie pełna unia n25.",
+      "final_state": "CONDITIONAL_SEVEN_N25_COUNT_INTERFACES_VERIFIED",
+      "export_filename": "20261023T201326Z-b9ba9687-results.zip",
+      "export_bytes": 307665867,
+      "export_sha256": "7f9086a12d38f053fb21baba1e54d84fdd4f4ab79e413cccee322ef5749296f4",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "26",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "17/17 wybranych lasów; zasoby/globalna unia osobne.",
+      "final_state": "selected_retained_count_arithmetic_accepted",
+      "export_filename": "20261023T200813Z-281116a3-results.zip",
+      "export_bytes": 5357919,
+      "export_sha256": "dab4268a6c7aacca68cf8ad5b089ba0f38b9c17bc2ad4fa74b101f7e5313ecad",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "27",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "35/35 wybranych lasów; zasoby/globalna unia osobne.",
+      "final_state": "selected_retained_count_arithmetic_accepted",
+      "export_filename": "20261023T201602Z-977d1abb-results.zip",
+      "export_bytes": 15023758,
+      "export_sha256": "f42be47ab8816c687e59dea22459784214a6997dabad5e234ae547fa691c050c",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "28",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "23/23 wybranych lasów; zasoby/globalna unia osobne.",
+      "final_state": "selected_retained_count_arithmetic_accepted",
+      "export_filename": "20261023T201950Z-96a65eba-results.zip",
+      "export_bytes": 10339481,
+      "export_sha256": "5725663ee7783fc53f23f3e89d2f8014b0448dd642eb41f96d40c203c4259088",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "29",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "17/17 wybranych lasów; zasoby/globalna unia osobne.",
+      "final_state": "selected_retained_count_arithmetic_accepted",
+      "export_filename": "20261023T195332Z-fb720309-results.zip",
+      "export_bytes": 7997621,
+      "export_sha256": "206c8ce8dffc539ecab18a5b4f1b0f38cc17032002401ab71aa0fe2a7720ebbf",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "30",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "30/30 wybranych lasów; zasoby/globalna unia osobne.",
+      "final_state": "selected_retained_count_arithmetic_accepted",
+      "export_filename": "20261023T195800Z-41e40d58-results.zip",
+      "export_bytes": 13828654,
+      "export_sha256": "70a717bf0c1ce1c3517654d5f37ccd76f4b0ca93cbb2de228c97b57675197229",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "31",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "39/39 wybranych lasów; zasoby/globalna unia osobne.",
+      "final_state": "selected_retained_count_arithmetic_accepted",
+      "export_filename": "20261023T195811Z-b65a398e-results.zip",
+      "export_bytes": 14974391,
+      "export_sha256": "ccf996b86844985bfde2a90035cf806cc9b2960d1222ac2cfeb3535f995c88bd",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "32",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "16/16 wybranych lasów; zasoby/globalna unia osobne.",
+      "final_state": "selected_retained_count_arithmetic_accepted",
+      "export_filename": "20261023T200121Z-b9243cbe-results.zip",
+      "export_bytes": 4471431,
+      "export_sha256": "0eb20aa2eef76b2b56814190dd4d811de9e12e17c996686b4210d2ec301e6526",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "33",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "7/7 wybranych lasów; zasoby/globalna unia osobne.",
+      "final_state": "selected_retained_count_arithmetic_accepted",
+      "export_filename": "20261023T200243Z-ea27e752-results.zip",
+      "export_bytes": 979351,
+      "export_sha256": "bd8679b288bcf538dfad2f98127043a44b8dbf69c88f155a37b1a790f44bc1db",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "34",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "6/6 wybranych lasów; zasoby/globalna unia osobne.",
+      "final_state": "selected_retained_count_arithmetic_accepted",
+      "export_filename": "20261023T200609Z-98f2ca63-results.zip",
+      "export_bytes": 1075967,
+      "export_sha256": "f3d61fb6245a09e4ac4b87a844821ea2ce79a2b24090ec5ec9a1a8840fc6ad1c",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "35",
+      "status": "INCOMPLETE",
+      "scope": "15/326 zaliczonych: support/HIGH/owncaps i12 INITIAL. Przerwane przy pierwszych resources B0.",
+      "final_state": "incomplete_selected_arithmetic",
+      "export_filename": "20261024T010521Z-63dedc4c-results.zip",
+      "export_bytes": 23470617,
+      "export_sha256": "189acb58330b7292003235cf9db1080796d342688ab07bb32902b56cdb8b5fa8",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "36",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Pełne rodzice i odpowiednio17/35/23 bieżące interfejsy B0/B1/B2.",
+      "final_state": "conditional_parent_acquisition_and_interfaces_complete",
+      "export_filename": "20261023T191607Z-38dfc33f-results.zip",
+      "export_bytes": 3639389,
+      "export_sha256": "bbc929c336a1084c75d09433333d0eb93b640ddb9176913d53eaf2d84df15ce3",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "37",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Pełne rodzice i odpowiednio17/35/23 bieżące interfejsy B0/B1/B2.",
+      "final_state": "conditional_parent_acquisition_and_interfaces_complete",
+      "export_filename": "20261023T194405Z-8666b9c3-results.zip",
+      "export_bytes": 3366094,
+      "export_sha256": "7cb3fd59ec7858f237022f05beace33463227c4eaa95fb622f7acb51fc2364d7",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "38",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Pełne rodzice i odpowiednio17/35/23 bieżące interfejsy B0/B1/B2.",
+      "final_state": "conditional_parent_acquisition_and_interfaces_complete",
+      "export_filename": "20261023T191804Z-4ec6934d-results.zip",
+      "export_bytes": 4227973,
+      "export_sha256": "7cc61bff1cf2a342f3ec104541fcddd241f9149edc9bca1e09f477296008c413",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "39",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Pełne dolne global INITIAL/resources B5; mixed/local/unia osobne.",
+      "final_state": "conditional_global_parent_arithmetic_complete",
+      "export_filename": "20261023T191911Z-1f5e4d3b-results.zip",
+      "export_bytes": 5498528,
+      "export_sha256": "40040efb622ad76305ae2ae940263ef943177291ef1524485b8a350929ed6f94",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "40",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "90/90 pełnych lasów COUNT dla n6.",
+      "final_state": "complete_selected_conditional_count_arithmetic_basic",
+      "export_filename": "20261023T202324Z-7d7d0e86-results.zip",
+      "export_bytes": 17204628,
+      "export_sha256": "91e83603d6096fd15cb78adae9dba03866889a73d18ad5796314948dfad49176",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "41",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "72/72 pełnych lasów COUNT dla n7.",
+      "final_state": "complete_selected_conditional_count_arithmetic_basic",
+      "export_filename": "20261023T202610Z-a536a0cc-results.zip",
+      "export_bytes": 8106822,
+      "export_sha256": "e2ca9ff78398fdb12afb625b8596bde7f2b610e631b619b066bd72f996b84a4a",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "42",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "64/64 pełnych lasów COUNT dla n8.",
+      "final_state": "complete_selected_conditional_count_arithmetic_basic",
+      "export_filename": "20261023T202749Z-aa092c0f-results.zip",
+      "export_bytes": 6797780,
+      "export_sha256": "9eef1d205969ff72a163dc0a631f69cb74344131fa44067284da0093626808f9",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "43",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "58/58 pełnych lasów COUNT dla n9.",
+      "final_state": "complete_selected_conditional_count_arithmetic_basic",
+      "export_filename": "20261023T202945Z-e6e9d8aa-results.zip",
+      "export_bytes": 5369051,
+      "export_sha256": "f8fb179e0f12d3ab36a1a6dedf5455eff669e35c2915a66f08311fc8010fc635",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "44",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "41/41 wybranych działań rodziców n6.",
+      "final_state": "complete_selected_conditional_parent_arithmetic_basic",
+      "export_filename": "20261023T213058Z-2949e657-results.zip",
+      "export_bytes": 128600448,
+      "export_sha256": "081078129c7674e59e1bf85112a6e72d459e7edee08116186bebcf0a3083b0f8",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "45",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "9/9 pełnych INITIAL dla n7–9.",
+      "final_state": "complete_selected_conditional_parent_arithmetic_basic",
+      "export_filename": "20261023T211013Z-8b9c0c02-results.zip",
+      "export_bytes": 7285728,
+      "export_sha256": "064ac8d2b089c5ba2f7e6e691b3da39a2ea8fae6738f2601ab2c984964cd78cf",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "46",
+      "status": "INCOMPLETE",
+      "scope": "9 zapisanych INITIAL;19 wymaganych etapów. owncaps readback błąd17 controls; zasoby niedokończone.",
+      "final_state": "incomplete_selected_conditional_caps_resource_arithmetic",
+      "export_filename": "20261023T221209Z-33953096-results.zip",
+      "export_bytes": 7839135,
+      "export_sha256": "4f356469cf741ebeb054fbcbb8b93f4264b5064ffa872e33a2b196240265c2a7",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "47",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Pełne middle n25 B4/B5 acquisition; odpowiednio14/12 działań.",
+      "final_state": "conditional_middle_acquisition_arithmetic_complete",
+      "export_filename": "20261023T195051Z-0afbf933-results.zip",
+      "export_bytes": 8038183,
+      "export_sha256": "b319504e8a57dceb13886a1a07af5953051f25f59ca48d9154e31868dd3f3b5f",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "48",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Pełne middle n25 B4/B5 acquisition; odpowiednio14/12 działań.",
+      "final_state": "conditional_middle_acquisition_arithmetic_complete",
+      "export_filename": "20261023T213809Z-8d1cde13-results.zip",
+      "export_bytes": 6705671,
+      "export_sha256": "2e5b5a537a7f34d5e605c20e91dec8566cb323b3ee90b91c6fe26b5879433c2b",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "49",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "14/14 high-beta3 acquisition; połączenia regionalne i globalne osobne.",
+      "final_state": "conditional_high_beta3_acquisition_arithmetic_complete",
+      "export_filename": "20261023T204257Z-5cbd2c15-results.zip",
+      "export_bytes": 9853379,
+      "export_sha256": "09c158e4a0ae59e4e1010a47c4507673299829ba12439412ca7fe7c13e5c10bb",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "50",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "217/217 pełnych wybranych COUNT; finalizacja po naprawie ukończona.",
+      "final_state": "complete_selected_conditional_count_arithmetic_basic",
+      "export_filename": "20261023T224423Z-a49c40aa-results.zip",
+      "export_bytes": 29226924,
+      "export_sha256": "7edb6dedc5791968aeaac0d7f32dcba08331538aedb07a1f538f8301b5a1ce19",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "51",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "147/147 pełnych wybranych COUNT; finalizacja po naprawie ukończona.",
+      "final_state": "complete_selected_conditional_count_arithmetic_basic",
+      "export_filename": "20261023T222904Z-896527af-results.zip",
+      "export_bytes": 16107498,
+      "export_sha256": "4bac2d68ac0e9906c940461fb6837172926c08374524232a7b258d778360e536",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "52",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "163/163 pełnych wybranych COUNT; finalizacja po naprawie ukończona.",
+      "final_state": "complete_selected_conditional_count_arithmetic_basic",
+      "export_filename": "20261023T224907Z-689e1d92-results.zip",
+      "export_bytes": 25885156,
+      "export_sha256": "daa412a2b16ba0d03a1be3c5e54bcf7bc8e4268dc6eb863c9e62ab7d24cd34d9",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "53",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "80/80 pełnych COUNT;76306 liści; uwzględniony naprawiony64 identity edge.",
+      "final_state": "complete_selected_conditional_count_arithmetic_basic",
+      "export_filename": "20261023T224032Z-c2e02cfb-results.zip",
+      "export_bytes": 16448849,
+      "export_sha256": "b04cfb682c7efb78ba723e60cb0f85985ec1dee5737b57a32b9f5c4054174792",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "54",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "282/282 pełnych wybranych COUNT; finalizacja po naprawie ukończona.",
+      "final_state": "complete_selected_conditional_count_arithmetic_basic",
+      "export_filename": "20261023T232703Z-8efe9415-results.zip",
+      "export_bytes": 22405088,
+      "export_sha256": "2cee62d6c96313b754dac280238f6a9d2cedf383d36ea0a8d29e05eb5fbf7f9a",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "55",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "120/120 pełnych wybranych COUNT; finalizacja po naprawie ukończona.",
+      "final_state": "complete_selected_conditional_count_arithmetic_basic",
+      "export_filename": "20261024T014047Z-516cc64f-results.zip",
+      "export_bytes": 8495638,
+      "export_sha256": "16f35ee268def66b0da98eae10b89d68db4252e0870b668e0b78747eb3cb4e0f",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "56A",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Auxiliary Fourier, literal n9–14.",
+      "final_state": "complete_conditional_auxiliary9_14_sublane_basic",
+      "export_filename": "20261023T231655Z-bf156069-results.zip",
+      "export_bytes": 1238591,
+      "export_sha256": "ebd675641c6f3ef9dbeb05033edbc78e68e76ef2d8f30128b43b7a2e64e8bc34",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "56B",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Supported Fourier, literal n9–14; support and whole-range joins remain separate.",
+      "final_state": "complete_conditional_supported9_14_sublane_basic",
+      "export_filename": "20261023T232402Z-d516197a-results.zip",
+      "export_bytes": 2008596,
+      "export_sha256": "6e19a96d4f76e89522e7227eb5079cf5f56c5af349f0425be9a5163e1ca337ca",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "56C",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "High-rho Fourier n10–14: 80 strips / 400 exact rows.",
+      "final_state": "complete_conditional_highrho10_14_sublane_basic",
+      "export_filename": "20261023T232747Z-2444d528-results.zip",
+      "export_bytes": 848285,
+      "export_sha256": "581ebc7af83d441dd363a0fa74cb970e77aaa2c08e79cc35bdccdb9f2b6b16c2",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "56D",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Corner Fourier n10–14.",
+      "final_state": "complete_conditional_corner10_14_sublane_basic",
+      "export_filename": "20261023T234556Z-6920e6b6-results.zip",
+      "export_bytes": 910399,
+      "export_sha256": "7c7e74244d86bab1cef63dc139912a6255f8f74c2357209149405814bc10cc20",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "56E",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Supported HIGH n10–14.",
+      "final_state": "complete_conditional_supported_high10_14_sublane_basic",
+      "export_filename": "20261024T002515Z-6469403c-results.zip",
+      "export_bytes": 370141,
+      "export_sha256": "73782e9aa7e311de01eecb71a087bbbc9deec9a7bb4841fbb078d5712e3e6410",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "56F",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Coarse support Fourier n10–14.",
+      "final_state": "complete_conditional_supported_coarse_support10_14_sublane_basic",
+      "export_filename": "20261024T002644Z-760fc753-results.zip",
+      "export_bytes": 262565,
+      "export_sha256": "61d686147cd1d63f109e3fadd7781f084a83d6456703959151df55ba97a12b12",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "56G",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "5/5 przypadków n10–14 B0;20/20 wywołań;500 paneli resources.",
+      "final_state": "complete_conditional_initial_resource10_14_b0_basic",
+      "export_filename": "20261024T010956Z-9539c53a-results.zip",
+      "export_bytes": 17699863,
+      "export_sha256": "64c03aaa36cda43eed2cc1bef5cf56d69bb100df0757e261bb4ef7fce9d40cb1",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "56H",
+      "status": "NO_LOCAL_FINAL_EXPORT",
+      "scope": "Niepotwierdzone lokalnym eksportem",
+      "final_state": null,
+      "export_filename": null,
+      "export_bytes": null,
+      "export_sha256": null,
+      "CRC_all_members": null,
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "56K",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Scalar kappa 62/625 certificate; 324 identities / 21 controls.",
+      "final_state": "complete_scalar_kappa_62_625_basic",
+      "export_filename": "20261024T000318Z-44ff164d-results.zip",
+      "export_bytes": 68392,
+      "export_sha256": "de7f487f19c2602113c3493ac6bce393328c748c811c1f4f318d44f1a344d6ab",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "57A",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Auxiliary Fourier n14–19.",
+      "final_state": "complete_conditional_auxiliary14_19_sublane_basic",
+      "export_filename": "20261024T001640Z-ccad23fa-results.zip",
+      "export_bytes": 1448947,
+      "export_sha256": "d6f9fc3ced5e3d927d926b545a7ea80cf54d86bce3f67a42e6aea9769c462329",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "57B",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Supported Fourier n14–19.",
+      "final_state": "complete_conditional_supported14_19_sublane_basic",
+      "export_filename": "20261024T002020Z-51367635-results.zip",
+      "export_bytes": 1769802,
+      "export_sha256": "2d84e0af3877ce46f8a7cff05a266f29423cc1ad27b06e85d2634ba9ef974b5c",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "57C",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "High-rho Fourier n14–19.",
+      "final_state": "complete_conditional_highrho14_19_sublane_basic",
+      "export_filename": "20261024T002009Z-456583eb-results.zip",
+      "export_bytes": 678983,
+      "export_sha256": "ccc5ff800671f74a838ee2055455aadbb8759d04b6d320770fa70a29dcdb95f8",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "57D",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Support n15–19.",
+      "final_state": "complete_conditional_support15_19_sublane_basic",
+      "export_filename": "20261024T002654Z-bded53b2-results.zip",
+      "export_bytes": 111801,
+      "export_sha256": "c18487bb22c9fa848b72f82bc23e893d87dbe88d12173f481b3ce75a6b7f3678",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "57E",
+      "status": "COMPLETED_ARITHMETIC_PURE_READER_PASS",
+      "scope": "Compensated HIGH n15–19.",
+      "final_state": "complete_conditional_compensated_high15_19_sublane_basic",
+      "export_filename": "20261024T003827Z-7b64d6a9-results.zip",
+      "export_bytes": 301916,
+      "export_sha256": "8cd302f54fa0c45bb4e62adf157e284fda36d3576de40939e367d81a4d434872",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "PASS"
+    },
+    {
+      "notebook": "57F",
+      "status": "NO_LOCAL_FINAL_EXPORT",
+      "scope": "Niepotwierdzone lokalnym eksportem",
+      "final_state": null,
+      "export_filename": null,
+      "export_bytes": null,
+      "export_sha256": null,
+      "CRC_all_members": null,
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "57G",
+      "status": "NO_LOCAL_FINAL_EXPORT",
+      "scope": "Niepotwierdzone lokalnym eksportem",
+      "final_state": null,
+      "export_filename": null,
+      "export_bytes": null,
+      "export_sha256": null,
+      "CRC_all_members": null,
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "58A",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Actual n21–24 high-rho support.",
+      "final_state": "complete_conditional_actual21_24_highrho_support_basic",
+      "export_filename": "20261024T001924Z-8164bb3e-results.zip",
+      "export_bytes": 70806037,
+      "export_sha256": "cf99fcf3a169b8418255b309720cc7368ebf87b43b613ad0606e11383e462bda",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "58B",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "4/4 przypadki n21–24 B0; pełne INITIAL/resources.",
+      "final_state": "complete_conditional_actual21_24_B0_initial_resources_basic",
+      "export_filename": "20261024T010828Z-ba372f5d-results.zip",
+      "export_bytes": 9246355,
+      "export_sha256": "9d872807404b722aca9b7ab19980f395d4d2e99316f1992ece35383cd7066665",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "58C",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "4/4 przypadki n21–24 BN; pełne INITIAL/resources.",
+      "final_state": "complete_conditional_actual21_24_BN_initial_resources_basic",
+      "export_filename": "20261024T010927Z-de4fe729-results.zip",
+      "export_bytes": 7632205,
+      "export_sha256": "248b20836904d80cd7b8ed6b4a2050c41e115d8c4b9bd9353a3cd538c67c332a",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "58D",
+      "status": "COMPLETED_ARITHMETIC_PURE_READER_PASS",
+      "scope": "Auxiliary n20–24 Fourier transaction.",
+      "final_state": "complete_conditional_actual20_fourier_auxiliary_basic",
+      "export_filename": "20261024T012443Z-004a4d9c-results.zip",
+      "export_bytes": 867035,
+      "export_sha256": "50f97867397450d480510c047f44a194077535181ba2cf165a7323b9bc0ab5d1",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "PASS"
+    },
+    {
+      "notebook": "58E",
+      "status": "COMPLETED_ARITHMETIC_PURE_READER_PASS",
+      "scope": "Universal n20–24 Fourier transaction.",
+      "final_state": "complete_conditional_actual20_fourier_universal_basic",
+      "export_filename": "20261024T012644Z-505d232a-results.zip",
+      "export_bytes": 892427,
+      "export_sha256": "786a0e18959bed137667b71e141173c9bcd5a5fedf6582eac19df3b445ee614d",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "PASS"
+    },
+    {
+      "notebook": "58F",
+      "status": "COMPLETED_ARITHMETIC_PURE_READER_PASS",
+      "scope": "Supported n20–24 Fourier transaction.",
+      "final_state": "complete_conditional_actual20_fourier_supported_basic",
+      "export_filename": "20261024T012707Z-b4208f3a-results.zip",
+      "export_bytes": 446981,
+      "export_sha256": "54969b32af186ef2404ace4c9d90363f4a96f878349af7df90ccd14e29ca84c1",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "PASS"
+    },
+    {
+      "notebook": "58G",
+      "status": "NO_LOCAL_FINAL_EXPORT",
+      "scope": "Niepotwierdzone lokalnym eksportem",
+      "final_state": null,
+      "export_filename": null,
+      "export_bytes": null,
+      "export_sha256": null,
+      "CRC_all_members": null,
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "59A",
+      "status": "COMPLETED_ARITHMETIC_PURE_READER_PASS",
+      "scope": "2 pełne przebiegi;23 stripy,115 wierszy/przebieg,18 native controls.",
+      "final_state": "complete_conditional_B1_fourier26_30_sublane_basic",
+      "export_filename": "20261024T012758Z-91e52e1f-results.zip",
+      "export_bytes": 4098219,
+      "export_sha256": "f007f1ae01b8a95f2faaad18e4618d9ef0fb42bb9b3ca0d49bd05d611c662eee",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "PASS"
+    },
+    {
+      "notebook": "59B",
+      "status": "COMPLETED_ARITHMETIC_READER_COMPATIBILITY_OPEN",
+      "scope": "2 pełne przebiegi;115 wierszy/przebieg,14 działań. Bieżący czytnik wymaga zgodności ze starszym adapterem.",
+      "final_state": "complete_conditional_original_fourier_covers_basic",
+      "export_filename": "20261024T023936Z-e903a551-results.zip",
+      "export_bytes": 751701,
+      "export_sha256": "b42cb262d1c8289e2fae214626c143e7bc83aee3550d71263e33991ac6173bb1",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "REJECTED_OLD_ADAPTER_HASH"
+    },
+    {
+      "notebook": "59C",
+      "status": "INCOMPLETE",
+      "scope": "Przerwane po2/16 działaniach; błąd formatu AST/source-hash przed dalszym liczeniem.",
+      "final_state": "incomplete_fourier_cover_sublane_no_acceptance",
+      "export_filename": "20261024T013614Z-7fc5851f-results.zip",
+      "export_bytes": 379214,
+      "export_sha256": "22a7d3d6a362cd1df961d42ee3d1a0abdb714e917571cbc0c014648c09a8bfcd",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    },
+    {
+      "notebook": "64",
+      "status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "scope": "Pełne odzyskanie n27/p41:28 korzeni,6310 węzłów,3169 liści; to składnik53.",
+      "final_state": "new_candidate_full_conditional_count_computed_basic",
+      "export_filename": "20261023T220120Z-244a55cc-results.zip",
+      "export_bytes": 876273,
+      "export_sha256": "3ca0eeba4f6404f9ab2eb89a055e8107739f4b8baab2d6a0c7cd577bf8a0b5c5",
+      "CRC_all_members": "PASS",
+      "current_pure_reader": "NOT_RUN_IN_THIS_REVIEW"
+    }
+  ],
+  "remaining_full_units": [
+    {
+      "id": "56I",
+      "implementation_status": "Gotowa lokalna implementacja, notebook i testy; brak publicznego dostarczenia tej implementacji oraz końcowego wykonania.",
+      "scope": "Wykonać pełny n10–14 join: 1000 dyspozycji, 202 interfejsy, 20 ograniczeń podpaneli, 217 lasów i skończona indukcja.",
+      "source_inventory": "finite1014_join_source_plan.json",
+      "depends_on_new_units": [],
+      "reuse": [
+        "50",
+        "56A--H",
+        "56K"
+      ],
+      "final_execution_observed": false,
+      "publicly_delivered": false,
+      "local_implementation_ready": true
+    },
+    {
+      "id": "57H",
+      "implementation_status": "Dokończyć implementację; istnieją przygotowane komponenty i źródła.",
+      "scope": "Sześć oryginalnych kontroli, import 56I/57A–G/56K oraz 147 COUNT; wszystkie 1000 dyspozycji i 147 interfejsów, indukcja 14→19.",
+      "source_inventory": "finite1519_join_control_source_plan.json",
+      "depends_on_new_units": [
+        "56I",
+        "57F",
+        "57G"
+      ],
+      "reuse": [
+        "51",
+        "57A--E"
+      ],
+      "final_execution_observed": false,
+      "publicly_delivered": false,
+      "local_implementation_ready": false
+    },
+    {
+      "id": "58H",
+      "implementation_status": "Dokończyć implementację; prymitywy przygotowane lokalnie.",
+      "scope": "25 oryginalnych wywołań, pełne n20, 300 wierszy zasobów, osiem połączeń pasm n21–24 i indukcja 20→24.",
+      "source_inventory": "remaining_58_69_execution_partition.json",
+      "depends_on_new_units": [
+        "57H"
+      ],
+      "reuse": [
+        "52",
+        "58A--G"
+      ],
+      "final_execution_observed": false,
+      "publicly_delivered": false,
+      "local_implementation_ready": false
+    },
+    {
+      "id": "59D",
+      "implementation_status": "Zaimplementować pełne wykonanie i połączenie.",
+      "scope": "Obie rodziny support n26–30, floor25 INITIAL/resources, transfery; ponownie użyć 80 COUNT 53/64 i 445 wierszy Fourier 59A–C.",
+      "source_inventory": "remaining57_59_delivery_partition.json",
+      "depends_on_new_units": [
+        "66"
+      ],
+      "reuse": [
+        "53",
+        "64",
+        "59A--C",
+        "36--39",
+        "09",
+        "10",
+        "56K"
+      ],
+      "final_execution_observed": false,
+      "publicly_delivered": false,
+      "local_implementation_ready": false
+    },
+    {
+      "id": "60",
+      "implementation_status": "Zaimplementować pełne wykonanie i połączenie.",
+      "scope": "Osiem floor31 families, 1713 ewaluacji support n32–34 i pozostali rodzice/interfejsy n35–39; zachować COUNT 54/55.",
+      "source_inventory": "remaining31_39_delivery_partition.json",
+      "depends_on_new_units": [
+        "59D"
+      ],
+      "reuse": [
+        "54",
+        "55"
+      ],
+      "final_execution_observed": false,
+      "publicly_delivered": false,
+      "local_implementation_ready": false
+    },
+    {
+      "id": "61",
+      "implementation_status": "Zaimplementować pełne wykonanie i połączenie.",
+      "scope": "Skończone n43–48: 33 top-level scopes; pełne signed LOW 78 i 74 wiersze, właściwe retained inputs z 12.",
+      "source_inventory": "finite_remaining_batch_plan.json",
+      "depends_on_new_units": [],
+      "reuse": [
+        "12"
+      ],
+      "final_execution_observed": false,
+      "publicly_delivered": false,
+      "local_implementation_ready": false
+    },
+    {
+      "id": "62",
+      "implementation_status": "Zaimplementować pełne wykonanie i połączenie.",
+      "scope": "Skończone n40–42: sześć sekcji, 48 top-level / 59 fizycznych wywołań; capture potomków; późniejsze bindery odłożyć do 63.",
+      "source_inventory": "finite_remaining_batch_plan.json",
+      "depends_on_new_units": [],
+      "reuse": [
+        "12"
+      ],
+      "final_execution_observed": false,
+      "publicly_delivered": false,
+      "local_implementation_ready": false
+    },
+    {
+      "id": "65",
+      "implementation_status": "Zaimplementować pełne wykonanie i połączenie.",
+      "scope": "Bridge/radius Fourier, 12 HIGH, 36 celów support / 72 signed rays, 284 interfejsy COUNT i indukcja n6–9; wymaga pełnego 46.",
+      "source_inventory": "remaining_58_69_execution_partition.json",
+      "depends_on_new_units": [
+        "67"
+      ],
+      "reuse": [
+        "40--46",
+        "35"
+      ],
+      "final_execution_observed": false,
+      "publicly_delivered": false,
+      "local_implementation_ready": false
+    },
+    {
+      "id": "66",
+      "implementation_status": "Dokończyć implementację dziewięciu sekcji; samo odtworzenie źródeł nie jest wykonaniem.",
+      "scope": "11 ordinary B5, dwie mixed p24/p25, dziesięć supplied ordinary, supplements i regionalne INITIAL/resources/local loops; pełna unia 20 obszarów n25.",
+      "source_inventory": "remaining_n25_execution_partition.json",
+      "depends_on_new_units": [
+        "58H"
+      ],
+      "reuse": [
+        "01--07",
+        "09",
+        "10",
+        "14--24",
+        "26--34",
+        "36--39",
+        "47--49"
+      ],
+      "final_execution_observed": false,
+      "publicly_delivered": false,
+      "local_implementation_ready": false
+    },
+    {
+      "id": "67",
+      "implementation_status": "Zaimplementować pełne wykonanie i połączenie.",
+      "scope": "All-law n2/n3/C4 oraz pełny n5: 22 oryginalne wywołania, support/complement i semantyczne resource/count joins; wykorzystać 08/11/13/35.",
+      "source_inventory": "remaining_n5_delivery_partition.json",
+      "depends_on_new_units": [],
+      "reuse": [
+        "08",
+        "11",
+        "13",
+        "35"
+      ],
+      "final_execution_observed": false,
+      "publicly_delivered": false,
+      "local_implementation_ready": false
+    },
+    {
+      "id": "63",
+      "implementation_status": "Zaimplementować końcowy collector po uzyskaniu wszystkich wymaganych przesłanek.",
+      "scope": "Każde n1–48, jednolity ogon n≥49, analityka/literatura/kernel/code-to-lemma, pełne domeny i Esseen lower bound.",
+      "source_inventory": "remaining_notebooks_closed_plan.json",
+      "depends_on_new_units": [
+        "67",
+        "65",
+        "56I",
+        "57H",
+        "58H",
+        "66",
+        "59D",
+        "60",
+        "62",
+        "61"
+      ],
+      "reuse": [
+        "08",
+        "11",
+        "12",
+        "13",
+        "14--24"
+      ],
+      "final_execution_observed": false,
+      "publicly_delivered": false,
+      "local_implementation_ready": false
+    }
+  ],
+  "local_implementation_ready_execution_pending": [
+    "56I"
+  ],
+  "full_units_needing_implementation_completion": [
+    "57H",
+    "58H",
+    "59D",
+    "60",
+    "61",
+    "62",
+    "63",
+    "65",
+    "66",
+    "67"
+  ],
+  "all_index_conclusion_verified": false
+}
