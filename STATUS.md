@@ -133,3 +133,5 @@ The new packages preserve previous numerical drivers and notebook identities.
 Literal-index6--24/26--48 packaging, other n25 acquisitions and unresolved
 selections still require work. Preparation/tests are not numerical acceptance.
 Existing computations remain usable under their exact original conditions.
+
+Notebook57E is now published with immutable runtime7bf5f84c4b0c79549097a7fbed46e04eba5a9f75. It runs two complete unchanged original compensated-HIGH15--19 calculations and the original independent readback with only its explicit current CAPTURE_SHA configuration changed. All74actual source files/71manifest rows and the byte/AST-only derivation were checked;19clean synthetic/source/generator fixtures pass. Actual mathematics remains to run in Colab. Support, parent acquisitions,147COUNT interfaces and full57/global conclusions remain separate. See [execution scope](proof/finite1519_high_execution.md).

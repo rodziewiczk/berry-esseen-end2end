@@ -470,3 +470,16 @@ validated pairs are reused. Predecessor/framework/support acquisition and
 full parent/theorem joins remain separate. See
 [56F scope](../proof/finite1014_coarse_execution.md) and
 [57D scope](../proof/finite1519_support_execution.md).
+
+## Notebook57E: compensated HIGH15--19
+
+Open `57E_n15_19_compensated_high.ipynb` and use Run all with the same Drive.
+It runs both complete original finite/tail calculations for all five indices
+and all three original rho caps, followed by the complete independent
+readback. Every original result and mathematical source commitment stays
+intact; only the readback's explicit current-capture configuration changes.
+Completed whole transactions are revalidated and reused. Partial runs restart
+the complete three-action transaction. The source/runtime pin is
+`7bf5f84c4b0c79549097a7fbed46e04eba5a9f75`. Support and predecessor premises,
+the INITIAL/resource family and full57/count joins remain separate. See the
+[exact execution scope](../proof/finite1519_high_execution.md).
