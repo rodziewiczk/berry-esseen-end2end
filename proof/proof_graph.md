@@ -155,3 +155,5 @@ source inventories are maintained separately in the
 [machine-readable companion](remaining_notebooks_closed_plan.json).
 The specification checker verifies accounting, exact endpoints and graph
 consistency; it does not evaluate the original mathematics or certify this proof.
+
+A [follow-up check of the original shared folder and old archives](n25_shared_folder_lookup_20261024.md) did not recover the missing selected n25 packages; its unreadable/archive and filename-search boundaries are explicit.
