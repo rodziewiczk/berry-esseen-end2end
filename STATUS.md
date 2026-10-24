@@ -142,3 +142,13 @@ The subsequent supplied57E final cell reports complete_conditional_compensated_h
 The supplied57C final cell reports complete_conditional_highrho14_19_sublane_basic and saves finite1519-highrho/20261024T002009Z-456583eb/20261024T002009Z-456583eb-results.zip. Preserve the successful sublane; actual export validation and full57/count/global joins remain separate.
 
 The corrected35 and new56G/H plus58B/C notebooks are now published with immutable runtimee7c9d974264776a0b0fb16bafd8b60bae7276e4b. Corrected35 recovers/revalidates the actual complete INITIAL.B0 and reuses the three earlier component caches.56G/H run40full original calls across10cases;58B/C run32across8cases. Clean source/synthetic packaging gates pass14and18fixtures respectively. Their mathematical computations remain pending in Colab; all full package/interface/global conclusions remain separate.
+
+Notebooks58D/E/F and59A/B/C are published with immutable runtimeffa28f377f9745bea1fde57c5632f3f408af270b.
+58D/E/F preserve all four original plan/construct/replay/readback actions for
+their distinct literal-index and rho domains; the auxiliary handoff additionally
+requires the actual419/1000 and20 allowance bounds.59A runs both full115-row
+B1 construction and acceptance;59B/C run two genuine original115/215-row
+pipelines, including all fresh pilots and controls. Their clean source and
+synthetic packaging suites pass13,13and17fixtures respectively; this is not
+a local numerical replay. Full packages58/59, acquired upstream premises and
+COUNT/global joins remain separate. Completed52/53/64counts are preserved.

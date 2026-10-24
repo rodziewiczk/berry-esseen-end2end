@@ -506,3 +506,24 @@ These notebooks may run independently. The immutable runtime for all five
 files is `e7c9d974264776a0b0fb16bafd8b60bae7276e4b`.
 See [56G/H](../proof/finite1014_core_execution.md) and
 [58B/C](../proof/finite2124_core_execution.md) for exact scopes and cache rules.
+
+## Full original Fourier lanes58D/E/F and59A/B/C
+
+All six may run independently with the same Drive. Use Run all and preserve
+the final ZIP. The immutable runtime is `ffa28f377f9745bea1fde57c5632f3f408af270b`.
+
+| Notebook | Complete original work |
+| --- | --- |
+|58D|Auxiliary n19--24; four actions and additional exact419/1000/actual20 allowance gates|
+|58E|Universal n20--24 high-rho; four actions|
+|58F|Supported n20--24 middle-rho; four actions|
+|59A|B1 n26--30; all23closed strips/115rows in construction and full acceptance|
+|59B|B2 n26--30; two complete115-row passes, including fresh pilots/controls|
+|59C|Higher n26--30; two complete215-row passes over B3/B5/extensions|
+
+Only complete source/capture/result-validated transactions are reused. Each
+explicit support, scalar, predecessor and resource premise remains conditional
+until its separate semantic join. These files preserve completed COUNT work.
+See the exact scopes for [58D/E/F](../proof/finite2024_fourier_execution.md),
+[59A](../proof/finite2630_b1_execution.md) and
+[59B/C](../proof/finite2630_covers_execution.md).
