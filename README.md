@@ -105,6 +105,11 @@ integration. Run all with the same Drive; see [scope](proof/finite1014_kappa_exe
 The current [notebook completion queue](proof/notebook_completion_queue.md)
 separates delivered files, running jobs and packages still being implemented.
 
+[58A_n21_24_highrho_support.ipynb](colab/58A_n21_24_highrho_support.ipynb)
+runs both original actual21--24 high-rho support passes with all original
+controls. Its retained Fourier and sharp-predecessor premises remain explicit;
+see [the execution scope](proof/finite2124_high_execution.md).
+
 The current12-hour settings in RESTART01–07 are budgets, not completion estimates.
 A complete tree still requires a separate full acceptor run. An unfinished tree
 is checkpointed for a compatible rerun.

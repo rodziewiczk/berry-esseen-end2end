@@ -416,3 +416,13 @@ Only a fully revalidated completed transaction is reused. Each execution has
 infrastructure fixtures pass, including a clean code-only checkout. It does
 not rerun the Fourier integrations or complete package56. See
 [scope](../proof/finite1014_kappa_execution.md).
+
+Notebook58A, `58A_n21_24_highrho_support.ipynb`, selects immutable runtime
+`5189f5fd16d626eb01b33457a8d8b030ee895d12`. Run all with the same Drive.
+Both complete original construction/acceptance passes recompute support
+for literal21--24 and both infinite signed rays, retaining all10controls.
+All40source inputs and original manifests/reviews remain unchanged.
+This is conditional support arithmetic; the retained Fourier integrations
+and sharp predecessors are not freshly acquired here. Only a complete
+revalidated pair is cached. Eleven fixtures pass from a clean checkout.
+See [scope](../proof/finite2124_high_execution.md).

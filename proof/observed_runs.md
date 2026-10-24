@@ -1107,3 +1107,16 @@ and saved bundle `finite1014-auxiliary/20261023T231655Z-bf156069/20261023T231655
 This confirms scoped wrapper completion in the supplied output; actual export
 readback and the complete56 parent/count joins remain separate. No repeated
 56A Fourier run is queued from this observation.
+
+## Notebook56K: supplied complete scalar certificate ending
+
+The inline ending at00:03:19UTC on24October2026 records a full stopped
+original scalar success,21negative controls,324identity checks and
+`scalar_certificate_arithmetic_completed:true`. Its final status is
+`complete_scalar_kappa_62_625_basic`; the saved ZIP is
+`finite1014-kappa/20261024T000318Z-44ff164d/20261024T000318Z-44ff164d-results.zip`.
+The displayed certificate SHA256 is
+`02dc46c334ec9c9cbf0e7bb4c982869c6e3e0649a915169d3542b8820b51aac7`.
+This is supplied-output completion. Actual export validation, downstream
+scalar joins and full package56remain distinct. No repeated scalar arithmetic
+is queued from this successful ending.
