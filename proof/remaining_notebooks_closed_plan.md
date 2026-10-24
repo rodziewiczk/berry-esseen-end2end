@@ -75,6 +75,9 @@ selected records are not thirteen disjoint regions. New source epochs and
 complete runtime closures remain open. The reconstruction basis is detailed in
 the [ordinary B5 report](n25_b5_reconstruction_feasibility.md) and
 [mixed-parent report](n25_mixed_parent_reconstruction_feasibility.md).
+The [source preparer](n25_b5_reconstruction_execution.md) now actually assembles
+and verifies all13 corresponding source capsules. No accepted forest or mixed
+exclusion follows from this source preparation.
 Merely choosing one file66 does not
 solve these problems or bound the runtime of replacement searches.
 

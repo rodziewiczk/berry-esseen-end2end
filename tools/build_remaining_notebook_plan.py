@@ -32,10 +32,10 @@ def n25_plan():
          "Reuse09/10,01--07,24,29/30. Two declared regional records/companion selectors are absent under their declared names; reconstruct an honest current semantic union from actual components."),
         ("b5_missing", "Eleven unavailable lower B5 ordinary capsules",
          "Seven V14 p26--32 and four V12 p33 closed quarters; recover exact sources/candidates or construct and fully accept a separately justified matching design.",
-         "Original selected directories are unavailable, but complete eight-panel V12 bases and V14 additions are supplied. All four p33 contracts/checkers are exactly reconstructed; seven honest new V14 source epochs and fresh complete forests/acceptance are required."),
+         "Original selected directories are unavailable, but complete eight-panel V12 bases and V14 additions are supplied. All four p33 contracts/checkers and seven honest new V14 source epochs are assembled and source-revalidated; fresh complete forests/acceptance remain required."),
         ("b5_mixed", "Both lower B5 mixed p24/p25 routes",
          "Full original mixed acceptors, ordinary/scalar/derived/theorem leaves, all theorem IDs and same-law acquisition registries, plus complete37-panel B5 union.",
-         "Both mixed forests/acceptors located; all93 native files, both original checkers and full mathematical rows are recoverable. New honest parent/header/registry metadata epochs and complete mixed replay are required; ordinary COUNT is not a substitute."),
+         "Both mixed forests/acceptors located; all93 native files, both original checkers and full mathematical rows are recovered into honest new parent source capsules. Current parent/header/registry adapters and complete mixed replay remain required; ordinary COUNT is not a substitute."),
         ("upper_counts", "Ten supplied additional ordinary forests",
          "High beta2 p17--23 and middle positive B3 p21--23; each full original count protocol and controls under exact selected contract.",
          "Supplied inputs, wrapper/source admission and fresh executions still required."),
@@ -60,7 +60,8 @@ def n25_plan():
             "code_n25_high_middle_profile_source_map.json", "code_n25_upper_initial_acquisition_source_map.json",
             "code_n25_middle_positive_acquisition_source_map.json", "code_n25_high_local_feedback_source_map.json",
             "n25_b5_reconstruction_feasibility.json", "n25_b5_reconstruction_feasibility.md",
-            "n25_mixed_parent_reconstruction_feasibility.json", "n25_mixed_parent_reconstruction_feasibility.md"]
+            "n25_mixed_parent_reconstruction_feasibility.json", "n25_mixed_parent_reconstruction_feasibility.md",
+            "n25_b5_reconstruction_source_plan.json", "n25_b5_reconstruction_source_preparation.json"]
     thin = ["branch", "target_id", "archive_key", "capsule_member_prefix", "index", "selection_status",
             "capsule_member_supplied", "contract_sha256", "forest_sha256", "checker_sha256"]
     remaining = [{k: r.get(k) for k in thin} for r in cat["count_jobs"]
@@ -131,7 +132,7 @@ def main():
         ("65", "n6_9_remaining_acquisition_and_join", "numerical", [6,9], ["67"], ["40--46", "35"],
          "Both bridge/radius Fourier transactions, full12-row HIGH,36 support targets/72 signed rays, all284 COUNT edges and finite6--9 induction. Explicit4-call auxiliary5 fallback if exact35 export unavailable.", "Current source/capture and parent bridges; conditional support/Fourier order must not become a mathematical cycle."),
         ("66", "n25_remaining_acquisition_and_join", "numerical", [25,25], ["58H"], n25["reused_notebooks"],
-         "All nine n25 sections in separately pinned manifest:21 ordinary remaining forests (11 missing),2 mixed routes, supplementary/resources/upper families and all20 physical regions.", "Concrete source reconstruction basis is recorded for all11 ordinary cases and both mixed parents. Honest current source/registry epochs, fresh complete searches/replays and full action closures remain to implement."),
+         "All nine n25 sections in separately pinned manifest:21 ordinary remaining forests (11 missing),2 mixed routes, supplementary/resources/upper families and all20 physical regions.", "All11 ordinary source cases and both mixed parent capsules are now assembled and source-revalidated. Current mixed registries, search/resource policy, fresh complete searches/replays and remaining full action closures are not yet implemented."),
         ("67", "n5_full_evidence_and_proof_join", "numerical", [5,5], [], ["08", "11", "13", "35"],
          "First acquire all-law n2/n3 andC4 from08/11 plus precise analytic premises, keeping strongG3. Reuse35/13 core arithmetic except exact current complement context:14 finite algebra/source-control programs,2 full support constructor/replay pairs,2 full complement integrations/accept/fullreadback;12resource+12count regional joins and finalC5 composition.",
          "Full current captures and scalar/readback gates were not supplied by35 arithmetic-prefix acceptance. Preserve strong n3 G3<=59*sqrt(3)/250 through all-law C4, not merely sharpCE.")]

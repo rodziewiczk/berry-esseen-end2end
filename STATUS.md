@@ -15,6 +15,13 @@ The same immutable runtime99d4a016bbfe7399639b49cf131ccbae2f103f0f also repairs
 59C's Python3.13 AST display comparison. No original mathematical kernel was
 changed or evaluated locally. Existing successful calculations remain reusable.
 
+The B5 source reconstruction inside66 is implemented:11ordinary cases and
+two mixed-parent capsules were actually assembled and source-revalidated against
+724 selected archive-member pins. All original mathematical code remains
+unexecuted locally. Current discovery/acceptance, mixed metadata adapters and
+parent/physical-union joins remain part of66; these are not additional notebook
+numbers. See [implemented source step](proof/n25_b5_reconstruction_execution.md).
+
 On 24 October the user paused standalone auditing and prioritized completing
 all required runnable notebooks. Only checks necessary for correct notebook
 execution, preserved evidence and explicit dependency joins continue during

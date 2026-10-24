@@ -324,7 +324,7 @@
         "47--49"
       ],
       "scope": "All nine n25 sections in separately pinned manifest:21 ordinary remaining forests (11 missing),2 mixed routes, supplementary/resources/upper families and all20 physical regions.",
-      "implementation_gate": "Concrete source reconstruction basis is recorded for all11 ordinary cases and both mixed parents. Honest current source/registry epochs, fresh complete searches/replays and full action closures remain to implement.",
+      "implementation_gate": "All11 ordinary source cases and both mixed parent capsules are now assembled and source-revalidated. Current mixed registries, search/resource policy, fresh complete searches/replays and remaining full action closures are not yet implemented.",
       "maximum_original_action_wall_seconds": 82800,
       "completed_atomic_stage_cache_only": true,
       "implemented": false,
@@ -366,8 +366,8 @@
     },
     {
       "path": "proof/remaining_n25_execution_partition.json",
-      "bytes": 86722,
-      "sha256": "b9fc953fa94f1eb29e12bb830f1de1d6be6659f90999c43390d57cd8d8e852d5"
+      "bytes": 87134,
+      "sha256": "bbae09acccff32e311051bbc45bf4dba40e97f87ba02daeccb04aa42691ef25b"
     },
     {
       "path": "proof/remaining57_59_delivery_partition.json",

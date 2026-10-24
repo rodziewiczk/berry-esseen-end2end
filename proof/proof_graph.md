@@ -136,6 +136,9 @@ interfaces are explicit proof steps.
   native files and both checkers are recoverable. Current source/registry
   adapters, fresh complete searches/replays and same-law acquisition remain
   necessary. Naming the complete20-piece cover does not close its pieces.
+  The [source reconstruction is now implemented](n25_b5_reconstruction_execution.md)
+  and its thirteen source capsules were actually assembled and revalidated;
+  they remain inputs of the single66 delivery unit.
 - Current source/capture epochs and several finite-only semantic joins remain
   to be implemented. Historical global composers sometimes import later tails;
   those full joins belong after their finite components, not as assumptions

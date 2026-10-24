@@ -13,13 +13,13 @@
       "id": "b5_missing",
       "title": "Eleven unavailable lower B5 ordinary capsules",
       "full_scope": "Seven V14 p26--32 and four V12 p33 closed quarters; recover exact sources/candidates or construct and fully accept a separately justified matching design.",
-      "blocker": "Original selected directories are unavailable, but complete eight-panel V12 bases and V14 additions are supplied. All four p33 contracts/checkers are exactly reconstructed; seven honest new V14 source epochs and fresh complete forests/acceptance are required."
+      "blocker": "Original selected directories are unavailable, but complete eight-panel V12 bases and V14 additions are supplied. All four p33 contracts/checkers and seven honest new V14 source epochs are assembled and source-revalidated; fresh complete forests/acceptance remain required."
     },
     {
       "id": "b5_mixed",
       "title": "Both lower B5 mixed p24/p25 routes",
       "full_scope": "Full original mixed acceptors, ordinary/scalar/derived/theorem leaves, all theorem IDs and same-law acquisition registries, plus complete37-panel B5 union.",
-      "blocker": "Both mixed forests/acceptors located; all93 native files, both original checkers and full mathematical rows are recoverable. New honest parent/header/registry metadata epochs and complete mixed replay are required; ordinary COUNT is not a substitute."
+      "blocker": "Both mixed forests/acceptors located; all93 native files, both original checkers and full mathematical rows are recovered into honest new parent source capsules. Current parent/header/registry adapters and complete mixed replay remain required; ordinary COUNT is not a substitute."
     },
     {
       "id": "upper_counts",
@@ -138,6 +138,16 @@
       "path": "proof/n25_mixed_parent_reconstruction_feasibility.md",
       "bytes": 12218,
       "sha256": "4d37af238a66edec1bd0b96250a4403756622fc7dbce77aa4ad84db022dff20f"
+    },
+    {
+      "path": "proof/n25_b5_reconstruction_source_plan.json",
+      "bytes": 730741,
+      "sha256": "6163a6692afd34403f848100cc647cbbee846f3a51f312847393a7c40338cbc0"
+    },
+    {
+      "path": "proof/n25_b5_reconstruction_source_preparation.json",
+      "bytes": 12656,
+      "sha256": "0725466392c728c7a6bb68014ac209acdcad17fe82cc50e850b3cccf5e1ec769"
     }
   ],
   "physical_cover": {
