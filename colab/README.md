@@ -483,3 +483,26 @@ the complete three-action transaction. The source/runtime pin is
 `7bf5f84c4b0c79549097a7fbed46e04eba5a9f75`. Support and predecessor premises,
 the INITIAL/resource family and full57/count joins remain separate. See the
 [exact execution scope](../proof/finite1519_high_execution.md).
+
+## Corrected35 and full core56G/H,58B/C
+
+Use Run all with the same Drive. Corrected35 automatically checks the known
+saved wrapper-failed final ZIP, recovers its fully completed INITIAL.B0 only
+after complete evidence readback, and reuses compatible earlier component
+caches. No partial job is accepted. See [the recovery protocol](../proof/n5_remaining_notebook_recovery.md).
+
+| Notebook | Full original work |
+| --- | --- |
+|56G|n10--14/B0:five INITIAL/resource cases,20calls|
+|56H|n10--14/BN:five cases,20calls,including mandatory fine n10/BN|
+|58B|actual n21--24/B0:four INITIAL/resource cases,16calls|
+|58C|actual n21--24/BN:four INITIAL/resource cases,16calls|
+
+Each case is one fully validated four-action cache transaction. Complete
+cases survive reruns; an interrupted case restarts its full four actions.
+Original source/control code and full covers/panels are preserved. Explicit
+current source/capture metadata does not acquire missing upstream premises.
+These notebooks may run independently. The immutable runtime for all five
+files is `e7c9d974264776a0b0fb16bafd8b60bae7276e4b`.
+See [56G/H](../proof/finite1014_core_execution.md) and
+[58B/C](../proof/finite2124_core_execution.md) for exact scopes and cache rules.
