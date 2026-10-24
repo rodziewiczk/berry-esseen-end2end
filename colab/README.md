@@ -548,3 +548,23 @@ immutable runtime is `191a55e2a803d42989f94a557e6cd503f4097fba`.
 The support-radius3premise and subsequent actual20 feedback/INITIAL/resource
 joins remain separate. Only a fully revalidated whole transaction is reused.
 See [exact execution scope](../proof/finite1920_feedback_execution.md).
+
+##57F/G and corrected59C
+
+Two files from the fixed remaining delivery package are ready:
+
+- [57F: complete INITIAL/resources15--19 B0](57F_n15_19_initial_resource_B0.ipynb).
+- [57G: complete INITIAL/resources15--19 BN](57G_n15_19_initial_resource_BN.ipynb).
+
+Use Run all with the same Drive. Each needs and revalidates the genuine complete
+57E HIGH cache; it does not repeat HIGH. Each band contains five complete
+four-call cases,20 original calls. A compatible completed case is reused;
+an interrupted case restarts its four calls. Long actions have23-hour CPU/wall
+ceilings; these do not promise completion of a whole band within one session.
+See [full scope and cache behavior](../proof/finite1519_core_execution.md).
+
+The corrected [59C](59C_n26_30_higher_fourier.ipynb) handles the Python3.13 AST
+display difference in its source check, preserving original numerical bytes,
+source-plan commitments and execution budgets.59B is not repinned by this repair.
+These three files pin immutable runtime
+`99d4a016bbfe7399639b49cf131ccbae2f103f0f`.

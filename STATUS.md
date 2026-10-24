@@ -6,6 +6,15 @@ Details are linked, not treated as additional independent proof claims.
 **The global proof is not verified. Completing the missing computational
 notebooks is the current priority; standalone auditing is paused.**
 
+The fixed remaining delivery package has13 assigned new files:12 numerical or
+control notebooks and final collector63. Its complete list and statement-level
+dependency graph are in the [delivery plan](proof/remaining_notebooks_closed_plan.md).
+57F/G are now delivered, leaving11 of that package to implement. They cover the
+two full n15--19 INITIAL/resource bands and reuse the completed57E HIGH cache.
+The same immutable runtime99d4a016bbfe7399639b49cf131ccbae2f103f0f also repairs
+59C's Python3.13 AST display comparison. No original mathematical kernel was
+changed or evaluated locally. Existing successful calculations remain reusable.
+
 On 24 October the user paused standalone auditing and prioritized completing
 all required runnable notebooks. Only checks necessary for correct notebook
 execution, preserved evidence and explicit dependency joins continue during

@@ -25,14 +25,17 @@
       ],
       "scope": "Seven retained original review/control outputs (including bounded mathematical controls), all1000 p dispositions,202 acquired resource/contract implications and20 restricted subpanel edges for217 forests; support/HIGH/Fourier applicability and actual10--14 induction.",
       "implementation_gate": "Exact bounded control execution, current receipt/contract bridges and finite-only replacement of old eventual15/tail join. Global n9 sharp bound is not the selected n10 base;56A/B actual same-law ceilings are required.",
-      "session_wall_ceiling_seconds": 82800,
+      "maximum_original_action_wall_seconds": 82800,
       "completed_atomic_stage_cache_only": true,
       "implemented": false,
-      "mathematically_acquired": false
+      "mathematically_acquired": false,
+      "delivered": false,
+      "delivered_runtime_commit": null,
+      "delivered_notebook_sha256": null
     },
     {
       "id": "57F",
-      "file": "57F_n15_19_initial_resources_B0.ipynb",
+      "file": "57F_n15_19_initial_resource_B0.ipynb",
       "kind": "numerical",
       "finite_indices": [],
       "depends_on": [],
@@ -41,14 +44,17 @@
       ],
       "scope": "Five B0 cases,20 unchanged original INITIAL construct/replay/resource construct/accept calls, full100 p rows each.",
       "implementation_gate": "Implemented; reviewed fixtures passed; upstream mathematical assumptions remain conditional.",
-      "session_wall_ceiling_seconds": 82800,
+      "maximum_original_action_wall_seconds": 82800,
       "completed_atomic_stage_cache_only": true,
       "implemented": true,
-      "mathematically_acquired": false
+      "mathematically_acquired": false,
+      "delivered": true,
+      "delivered_runtime_commit": "99d4a016bbfe7399639b49cf131ccbae2f103f0f",
+      "delivered_notebook_sha256": "e56e93e28cea2c4cabf55c3daa022ae819a2cce1bfd0b2af4c20eeac46f4d158"
     },
     {
       "id": "57G",
-      "file": "57G_n15_19_initial_resources_BN.ipynb",
+      "file": "57G_n15_19_initial_resource_BN.ipynb",
       "kind": "numerical",
       "finite_indices": [],
       "depends_on": [],
@@ -57,10 +63,13 @@
       ],
       "scope": "Five BN cases,20 unchanged original INITIAL construct/replay/resource construct/accept calls, full100 p rows each.",
       "implementation_gate": "Implemented; reviewed fixtures passed; upstream mathematical assumptions remain conditional.",
-      "session_wall_ceiling_seconds": 82800,
+      "maximum_original_action_wall_seconds": 82800,
       "completed_atomic_stage_cache_only": true,
       "implemented": true,
-      "mathematically_acquired": false
+      "mathematically_acquired": false,
+      "delivered": true,
+      "delivered_runtime_commit": "99d4a016bbfe7399639b49cf131ccbae2f103f0f",
+      "delivered_notebook_sha256": "49440e97dbdd9f22dbede38b9f156851eac1be6552a92396d7bec0c837a4164c"
     },
     {
       "id": "57H",
@@ -84,10 +93,13 @@
       ],
       "scope": "Retained finite/contact/cancellation HIGH, resource/count range and actual15 mutation/control programs; all1000 p outcomes,147 resource/count edges, actual15 base then16--19 induction; no incoming eventual20.",
       "implementation_gate": "Bounded mathematical controls, current evidence bridges, predecessor acquisition and full finite-only join unimplemented.",
-      "session_wall_ceiling_seconds": 82800,
+      "maximum_original_action_wall_seconds": 82800,
       "completed_atomic_stage_cache_only": true,
       "implemented": false,
-      "mathematically_acquired": false
+      "mathematically_acquired": false,
+      "delivered": false,
+      "delivered_runtime_commit": null,
+      "delivered_notebook_sha256": null
     },
     {
       "id": "58H",
@@ -109,10 +121,13 @@
       ],
       "scope": "All six grouped components: coarse/narrow/feedback INITIAL, all resources, actual20 interfaces and eight21--24 band joins; three closed actual20 rho regions.",
       "implementation_gate": "Truthful current source/capture epochs; same-law support/owncap/contact order; final semantic joins.",
-      "session_wall_ceiling_seconds": 82800,
+      "maximum_original_action_wall_seconds": 82800,
       "completed_atomic_stage_cache_only": true,
       "implemented": false,
-      "mathematically_acquired": false
+      "mathematically_acquired": false,
+      "delivered": false,
+      "delivered_runtime_commit": null,
+      "delivered_notebook_sha256": null
     },
     {
       "id": "59D",
@@ -139,10 +154,13 @@
       ],
       "scope": "Two complete actual26--30 support families,13 fixed scalar/control/adapter calls, all floor25 resource transfers and final80-count/445-Fourier/closed-cover join.",
       "implementation_gate": "Portable full source epochs and typed fresh parent bridges; no incoming tail31.",
-      "session_wall_ceiling_seconds": 82800,
+      "maximum_original_action_wall_seconds": 82800,
       "completed_atomic_stage_cache_only": true,
       "implemented": false,
-      "mathematically_acquired": false
+      "mathematically_acquired": false,
+      "delivered": false,
+      "delivered_runtime_commit": null,
+      "delivered_notebook_sha256": null
     },
     {
       "id": "60",
@@ -168,10 +186,13 @@
       ],
       "scope": "Eight complete floor31 families, actual32--34 support/transfer and joins,45 selected finite35--39 nonCOUNT parent/interface records. Full selected counts reused.",
       "implementation_gate": "Current capture/constructor admission; four old metadata omit cwd. Frozen40 binder outgoing63 only.",
-      "session_wall_ceiling_seconds": 82800,
+      "maximum_original_action_wall_seconds": 82800,
       "completed_atomic_stage_cache_only": true,
       "implemented": false,
-      "mathematically_acquired": false
+      "mathematically_acquired": false,
+      "delivered": false,
+      "delivered_runtime_commit": null,
+      "delivered_notebook_sha256": null
     },
     {
       "id": "61",
@@ -191,10 +212,13 @@
       ],
       "scope": "Cutoff44:25 calls; cutoff43:6 scopes;2 current final joins. Full LOW78+74 signed rows and all retained inputs; finite43--48 only.",
       "implementation_gate": "Current source/capture epochs and relocated pure12 reader; no incoming all-index conclusion.",
-      "session_wall_ceiling_seconds": 82800,
+      "maximum_original_action_wall_seconds": 82800,
       "completed_atomic_stage_cache_only": true,
       "implemented": false,
-      "mathematically_acquired": false
+      "mathematically_acquired": false,
+      "delivered": false,
+      "delivered_runtime_commit": null,
+      "delivered_notebook_sha256": null
     },
     {
       "id": "62",
@@ -211,10 +235,13 @@
       ],
       "scope": "Six grouped sections,48 top-level/59 physical calls including9 global40 child binders and2 SINGLE39 children; full retained/LOW/LEFT/MID/CENTRAL routes.",
       "implementation_gate": "Current constructor/capture epochs, complete nested source/output closure and finite40--42 projection. Original global40 all-tail call waits for61; defer that full join to63.",
-      "session_wall_ceiling_seconds": 82800,
+      "maximum_original_action_wall_seconds": 82800,
       "completed_atomic_stage_cache_only": true,
       "implemented": false,
-      "mathematically_acquired": false
+      "mathematically_acquired": false,
+      "delivered": false,
+      "delivered_runtime_commit": null,
+      "delivered_notebook_sha256": null
     },
     {
       "id": "63",
@@ -242,10 +269,13 @@
       ],
       "scope": "Explicit finite1--48 plus uniform49+ implication and external Esseen lower bound; full tail evidence/least-failure/scalar/interfaces and all analytic/literature obligations.",
       "implementation_gate": "No theorem acceptance until every arithmetic, analytic, literature and code-to-lemma premise is acquired.",
-      "session_wall_ceiling_seconds": null,
+      "maximum_original_action_wall_seconds": null,
       "completed_atomic_stage_cache_only": true,
       "implemented": false,
-      "mathematically_acquired": false
+      "mathematically_acquired": false,
+      "delivered": false,
+      "delivered_runtime_commit": null,
+      "delivered_notebook_sha256": null
     },
     {
       "id": "65",
@@ -266,10 +296,13 @@
       ],
       "scope": "Both bridge/radius Fourier transactions, full12-row HIGH,36 support targets/72 signed rays, all284 COUNT edges and finite6--9 induction. Explicit4-call auxiliary5 fallback if exact35 export unavailable.",
       "implementation_gate": "Current source/capture and parent bridges; conditional support/Fourier order must not become a mathematical cycle.",
-      "session_wall_ceiling_seconds": 82800,
+      "maximum_original_action_wall_seconds": 82800,
       "completed_atomic_stage_cache_only": true,
       "implemented": false,
-      "mathematically_acquired": false
+      "mathematically_acquired": false,
+      "delivered": false,
+      "delivered_runtime_commit": null,
+      "delivered_notebook_sha256": null
     },
     {
       "id": "66",
@@ -291,11 +324,14 @@
         "47--49"
       ],
       "scope": "All nine n25 sections in separately pinned manifest:21 ordinary remaining forests (11 missing),2 mixed routes, supplementary/resources/upper families and all20 physical regions.",
-      "implementation_gate": "Eleven unavailable ordinary capsules,2 missing mixed parent capsules; reconstruction/alternative design and all full source/action closures remain open.",
-      "session_wall_ceiling_seconds": 82800,
+      "implementation_gate": "Concrete source reconstruction basis is recorded for all11 ordinary cases and both mixed parents. Honest current source/registry epochs, fresh complete searches/replays and full action closures remain to implement.",
+      "maximum_original_action_wall_seconds": 82800,
       "completed_atomic_stage_cache_only": true,
       "implemented": false,
-      "mathematically_acquired": false
+      "mathematically_acquired": false,
+      "delivered": false,
+      "delivered_runtime_commit": null,
+      "delivered_notebook_sha256": null
     },
     {
       "id": "67",
@@ -313,10 +349,13 @@
       ],
       "scope": "First acquire all-law n2/n3 andC4 from08/11 plus precise analytic premises, keeping strongG3. Reuse35/13 core arithmetic except exact current complement context:14 finite algebra/source-control programs,2 full support constructor/replay pairs,2 full complement integrations/accept/fullreadback;12resource+12count regional joins and finalC5 composition.",
       "implementation_gate": "Full current captures and scalar/readback gates were not supplied by35 arithmetic-prefix acceptance. Preserve strong n3 G3<=59*sqrt(3)/250 through all-law C4, not merely sharpCE.",
-      "session_wall_ceiling_seconds": 82800,
+      "maximum_original_action_wall_seconds": 82800,
       "completed_atomic_stage_cache_only": true,
       "implemented": false,
-      "mathematically_acquired": false
+      "mathematically_acquired": false,
+      "delivered": false,
+      "delivered_runtime_commit": null,
+      "delivered_notebook_sha256": null
     }
   ],
   "anchors": [
@@ -327,8 +366,8 @@
     },
     {
       "path": "proof/remaining_n25_execution_partition.json",
-      "bytes": 85738,
-      "sha256": "63d095399ec533ec455370453a205d2397f4c1bccbc56b0e9feafaa080cc57d1"
+      "bytes": 86722,
+      "sha256": "b9fc953fa94f1eb29e12bb830f1de1d6be6659f90999c43390d57cd8d8e852d5"
     },
     {
       "path": "proof/remaining57_59_delivery_partition.json",

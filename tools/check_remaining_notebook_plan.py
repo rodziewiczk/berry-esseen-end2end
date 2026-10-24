@@ -23,11 +23,20 @@ def validate(plan, n25, obligations, root=ROOT):
     require(len({u["file"] for u in units}) == 13, "Duplicate delivery filename")
     require(sum(u["kind"] == "numerical" for u in units) == plan["new_numerical_files"] == 12, "Numerical/control file census")
     require(sum(u["kind"] == "collector" for u in units) == plan["new_collector_files"] == 1, "Collector census")
+    require({u["id"] for u in units if u["delivered"]} == {"57F", "57G"}, "Delivered notebook census")
     for u in units:
         require(u["completed_atomic_stage_cache_only"] is True, "Partial stage reuse")
         require(u["mathematically_acquired"] is False, "Plan cannot acquire mathematics")
         if u["kind"] == "numerical":
-            require(u["session_wall_ceiling_seconds"] == 82800, "23h numerical session ceiling")
+            require(u["maximum_original_action_wall_seconds"] == 82800, "23h numerical action ceiling")
+        if u["delivered"]:
+            notebook = root / "colab" / u["file"]
+            require(notebook.is_file(), "Delivered notebook missing")
+            raw = notebook.read_bytes()
+            require(hashlib.sha256(raw).hexdigest() == u["delivered_notebook_sha256"], "Delivered notebook bytes")
+            cells = json.loads(raw)["cells"]
+            text = "\n".join("".join(c["source"]) for c in cells)
+            require('CODE_COMMIT = "'+u["delivered_runtime_commit"]+'"' in text, "Delivered immutable runtime")
         require(all(dep in byid for dep in u["depends_on"]), "Unassigned predecessor")
     visiting, done = set(), set()
     def visit(id):
@@ -96,7 +105,7 @@ def validate(plan, n25, obligations, root=ROOT):
         data = p.read_bytes()
         require(len(data) == a["bytes"] and hashlib.sha256(data).hexdigest() == a["sha256"], "Stale source specification: "+a["path"])
     return {"scope":"SPECIFICATION_ACCOUNTING_ONLY", "delivery_files":13, "numerical_or_control_files":12,
-            "collector_files":1,"literal_indices":48,"n25_physical_pieces":20,
+            "collector_files":1,"delivered_files":2,"still_to_implement":11,"literal_indices":48,"n25_physical_pieces":20,
             "original_obligations_assigned":len(ids), "dependency_graph_acyclic":True,
             "source_runtime_closure_complete":False, "all_index_conclusion_verified":False}
 

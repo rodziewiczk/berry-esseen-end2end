@@ -13,13 +13,13 @@
       "id": "b5_missing",
       "title": "Eleven unavailable lower B5 ordinary capsules",
       "full_scope": "Seven V14 p26--32 and four V12 p33 closed quarters; recover exact sources/candidates or construct and fully accept a separately justified matching design.",
-      "blocker": "Eleven selected capsule payloads unavailable in inspected source archives. No successful computation or replacement design is asserted."
+      "blocker": "Original selected directories are unavailable, but complete eight-panel V12 bases and V14 additions are supplied. All four p33 contracts/checkers are exactly reconstructed; seven honest new V14 source epochs and fresh complete forests/acceptance are required."
     },
     {
       "id": "b5_mixed",
       "title": "Both lower B5 mixed p24/p25 routes",
       "full_scope": "Full original mixed acceptors, ordinary/scalar/derived/theorem leaves, all theorem IDs and same-law acquisition registries, plus complete37-panel B5 union.",
-      "blocker": "Both mixed forests/acceptors located; original V14 p24/p25 parent capsules absent. Ordinary count_protocol is not a substitute."
+      "blocker": "Both mixed forests/acceptors located; all93 native files, both original checkers and full mathematical rows are recoverable. New honest parent/header/registry metadata epochs and complete mixed replay are required; ordinary COUNT is not a substitute."
     },
     {
       "id": "upper_counts",
@@ -118,6 +118,26 @@
       "path": "proof/code_n25_high_local_feedback_source_map.json",
       "bytes": 93452,
       "sha256": "a662df50685db6fe029d86b1f487f04a956ec52a44a84989f4eb3053e6458566"
+    },
+    {
+      "path": "proof/n25_b5_reconstruction_feasibility.json",
+      "bytes": 73657,
+      "sha256": "1a52d30519a54cdb259ae1edc011dfe3f48bd3d2dfeeca5e41eb9bed7dc56619"
+    },
+    {
+      "path": "proof/n25_b5_reconstruction_feasibility.md",
+      "bytes": 12337,
+      "sha256": "a52c4f99dc98edd915590e630ce04e5c5694dd15b7fe0768a6c40a3fef073b5a"
+    },
+    {
+      "path": "proof/n25_mixed_parent_reconstruction_feasibility.json",
+      "bytes": 105483,
+      "sha256": "47714ca3d22ede7463d632bdceeefed6d62205b876b453d7383c0c455ed1ef8b"
+    },
+    {
+      "path": "proof/n25_mixed_parent_reconstruction_feasibility.md",
+      "bytes": 12218,
+      "sha256": "4d37af238a66edec1bd0b96250a4403756622fc7dbce77aa4ad84db022dff20f"
     }
   ],
   "physical_cover": {

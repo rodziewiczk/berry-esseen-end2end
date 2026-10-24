@@ -40,6 +40,11 @@ external inputs to be checked; writing the paper is not the only later step.
 |57C|Final complete_conditional_highrho14_19_sublane_basic and saved ZIP supplied.|Preserve export; no repeated high-rho calculation queued.|
 |57D|Actual downloaded ZIP session ledger reports complete_conditional_support15_19_sublane_basic.|Preserve export; no repeated support calculation queued.|
 |57E|Final complete_conditional_compensated_high15_19_sublane_basic and saved ZIP supplied.|Preserve export; no repeated supported-HIGH calculation queued.|
+|57F/G|Delivered full n15--19 B0/BN INITIAL/resources, five complete four-call cases per band, pinned runtime99d4a016bbfe7399639b49cf131ccbae2f103f0f.|Run with the same Drive; the compatible completed57E cache is required and reused. Only complete cases skip their four original calls.|
+
+The corrected59C now pins the same runtime. Its source-only comparison handles
+the Python3.13 AST display change; the original mathematical programs, selected
+input plan and budgets are unchanged. Existing valid59B work is preserved.
 
 Earlier successful jobs, including12,53 and corrected54, are recorded in
 [STATUS](../STATUS.md) and [observed runs](observed_runs.md). Absence of their

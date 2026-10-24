@@ -9,8 +9,9 @@ assigned scope is implemented and checked.
 **13 new files are assigned: 12 containing numerical work or bounded original
 mathematical controls, and 1 final evidence/proof collector.** The grouping is an
 engineering choice, not a theorem about the minimum possible number of files.
-Two numerical wrappers (57F/G) are implemented but unpublished; the other eleven
-delivery units still need implementation. Existing repairs are separate from
+Two numerical wrappers (57F/G) are now delivered with immutable runtime
+`99d4a016bbfe7399639b49cf131ccbae2f103f0f`; the other eleven delivery units
+still need implementation. Existing repairs are separate from
 this new-file count. An individual notebook may contain many complete cached
 stages and require several sessions.
 
@@ -30,13 +31,14 @@ stages and require several sessions.
 | **66** | All remaining n25 sources/calculations and full20-piece physical union; detailed nine-stage inventory below | 01--07, 09/10, 14--24, 26--34, 36--39, 47--49 |
 | **67** | Early all-law n2/n3/C4 acquisition; full C5 acquisition with 14 original bounded-control programs, four support calls, two full current-context complement integrations/accept/full readback, 25 regional/final semantic reference calls | 08/11/13/35; preserve every compatible completed stage |
 
-All larger new numerical batches have a **82,800-second (23-hour) session wall
-ceiling** and complete-stage caches. This is a stopping budget, not a runtime
-estimate. Partly completed numerical stages are not silently accepted. Valid
+Long original actions in the new numerical batches use an **82,800-second
+(23-hour) external wall ceiling**, with complete-stage caches. This is an
+action budget, not an aggregate batch deadline or a runtime estimate. Partly
+completed numerical stages are not silently accepted. Valid
 completed stages are revalidated and reused. Existing running notebooks keep
 their original source/budget identities unless a specific repair is necessary.
 
-## n25 is an explicit blocked work package, not a blank collector
+## n25 is a complete remaining execution package
 
 The companion [n25 machine specification](remaining_n25_execution_partition.json)
 assigns every one of the 53 previously enumerated nonCOUNT source entries to a
@@ -47,10 +49,15 @@ they are not 53 independent mathematical calculations. Its nine stages are:
    rounding, p34 selection and complete regional/current count interfaces.
 2. **Eleven missing ordinary lower-B5 capsules:** V14 p26--32 and four V12
    p33 quarters. Recover exact inputs or build and fully justify a matching
-   replacement route. No successful replacement is asserted.
+   replacement route. Complete source ingredients are now identified for all11;
+   all four p33 contracts and checkers reproduce their historical hashes.
+   Fresh accepted forests remain required.
 3. **Both mixed p24/p25 routes:** supplied mixed forests/acceptors, missing
    original parent capsules, all scalar/theorem/derived-leaf acquisitions.
-   An ordinary COUNT acceptor cannot replace either mixed protocol.
+   All93 native files, both checkers and complete mathematical rows are now
+   recoverable. Current parent/header/registry metadata still needs an explicit
+   migration, followed by fresh complete mixed replay. An ordinary COUNT
+   acceptor cannot replace either mixed protocol.
 4. **Ten supplied additional ordinary forests:** seven high-beta2 p17--23 and
    three middle-positive-B3 p21--23, with full original acceptance/controls.
 5. Complete high-beta2 INITIAL/global resources and seven selected local
@@ -64,8 +71,11 @@ they are not 53 independent mathematical calculations. Its nine stages are:
 
 The physical cover is **6 lower-rho pieces + 7 middle signed-beta pieces +
 6 high signed-beta pieces + 1 universal rho tail = 20 pieces**. Thirteen old
-selected records are not thirteen disjoint regions. Source recoverability and
-complete runtime closures remain open. Merely choosing one file66 does not
+selected records are not thirteen disjoint regions. New source epochs and
+complete runtime closures remain open. The reconstruction basis is detailed in
+the [ordinary B5 report](n25_b5_reconstruction_feasibility.md) and
+[mixed-parent report](n25_mixed_parent_reconstruction_feasibility.md).
+Merely choosing one file66 does not
 solve these problems or bound the runtime of replacement searches.
 
 ## Acquisition graph

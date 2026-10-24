@@ -57,7 +57,7 @@ class RemainingPlan(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,"acceptance flag"):
             self.check()
         self.plan["all_index_conclusion_verified"]=False
-        next(u for u in self.plan["units"] if u["kind"]=="numerical")["session_wall_ceiling_seconds"]=64800
+        next(u for u in self.plan["units"] if u["kind"]=="numerical")["maximum_original_action_wall_seconds"]=64800
         with self.assertRaisesRegex(ValueError,"23h"):
             self.check()
 
@@ -69,6 +69,12 @@ class RemainingPlan(unittest.TestCase):
     def test_changed_anchor_rejected(self):
         self.plan["anchors"][0]["sha256"]="0"*64
         with self.assertRaisesRegex(ValueError,"Stale source"):
+            self.check()
+
+    def test_delivered_file_and_pin_are_actual_not_reservations(self):
+        delivered=next(u for u in self.plan["units"] if u["id"]=="57F")
+        delivered["delivered_runtime_commit"]="0"*40
+        with self.assertRaisesRegex(ValueError,"immutable runtime"):
             self.check()
 
     def test_foundation_hidden_global_cycle_or_weakened_n3_rejected(self):

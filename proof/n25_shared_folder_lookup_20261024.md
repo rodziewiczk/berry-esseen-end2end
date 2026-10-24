@@ -30,6 +30,18 @@ local bytes match. Its contents are therefore **not claimed checked** by this
 pass. Non-ZIP nested `__MACOSX/._*.zip` entries are explicitly recorded as Mac
 metadata sidecars, not mistaken for proof archives.
 
+## Subsequent reconstruction supersedes any inference of lost algorithms
+
+The directory lookup above remains an historical availability observation.
+It is not a source-feasibility failure. Subsequent byte/JSON/AST work found a
+complete reconstruction basis for all11 ordinary cases and both mixed parents:
+all eight full V12 bases, all combined-V14 additions, all93 mixed-parent native
+files, exact historical p33 contracts/checkers, and both exact mixed-parent
+checkers. The [ordinary report](n25_b5_reconstruction_feasibility.md) and
+[mixed report](n25_mixed_parent_reconstruction_feasibility.md) state precisely
+which bytes are recovered and which current metadata/source epochs must be
+new. Fresh complete mathematical execution and same-law joins are still required.
+
 This supports the bounded finding that the specified missing n25 packages
 have not been located in the readable selected archive inventories/candidates.
 It does not prove absence of renamed payloads of other filenames, exclude

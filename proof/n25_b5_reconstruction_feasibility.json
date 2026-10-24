@@ -1,0 +1,1686 @@
+{
+  "schema": "N25_B5_RECONSTRUCTION_FEASIBILITY_V1",
+  "date": "2026-10-24",
+  "scope": "Only11 selected ordinary missing lower-B5 cases:7local-contact V14 panels26--32 and4V12 closed p33 quarters. Mixedp24/p25 and other n25 lanes are outside this source-feasibility scope.",
+  "method": "Read-only ZIP/JSON/AST/byte hashing; no original module imports, original scripts, kernel evaluations, discovery, acceptance or tests.",
+  "feasibility": "COMPLETE_PINNED_SOURCE_BASIS_FOR7_NEW_CONDITIONAL_V14_DESIGNS_AND_EXACT8_P33_CONTRACT_CHECKER_PAYLOADS",
+  "source_derivation_implemented": false,
+  "arithmetic_accepted": false,
+  "all_index_conclusion_verified": false,
+  "archives": {
+    "old": {
+      "name": "cutoff25_20261011.zip",
+      "bytes": 514958998,
+      "sha256": "17fa140f63c5134ac48f1fd1040f4c5ae4bebdb2b92b2d7ce69f4048293d1fcb"
+    },
+    "base13": {
+      "name": "cutoff25_20261013.zip",
+      "bytes": 529557492,
+      "sha256": "a97f3e6e50e428df0893304bcd2f746851c9fccef2079b1ec66be9ab909d7f2c"
+    }
+  },
+  "whole_archive_sha256_rehashed_in_this_step": false,
+  "byte_checks": {
+    "v12_frozen_designs": 8,
+    "v12_frozen_file_rows_checked": 608,
+    "v12_missing_rows": 0,
+    "v12_mismatched_rows": 0,
+    "v14_manifest_rows_checked": 21,
+    "v14_missing_rows": 0,
+    "v14_mismatched_rows": 0,
+    "v14_python_helpers": 9
+  },
+  "v12_bases": [
+    {
+      "index": 26,
+      "capsule_member_prefix": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p26_v12/",
+      "original_contract": {
+        "archive_key": "old",
+        "member": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p26_v12/contract.json",
+        "bytes": 3063,
+        "sha256": "22f9279f8cfd323bd286dbf373bf038428b1605af87813979ef63d68953c88cf"
+      },
+      "original_frozen_design": {
+        "archive_key": "old",
+        "member": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p26_v12/FROZEN_DESIGN.json",
+        "bytes": 7630,
+        "sha256": "5bc70a526c61aad1777d8da7713c237df35cb1c43d747434823c0f640c569b19"
+      },
+      "source_check": {
+        "index": 26,
+        "design_sha256": "5bc70a526c61aad1777d8da7713c237df35cb1c43d747434823c0f640c569b19",
+        "contract_sha256": "22f9279f8cfd323bd286dbf373bf038428b1605af87813979ef63d68953c88cf",
+        "checker_sha256": "b809023a0723ec9dc8b3a502fcb6dde1504903558b09b2c43d47b165eb5bf612",
+        "kernel_manifest_sha256": "484db2a4e1d90c96fb483da15122dd49a19cc12bbc29c0533f53e529e506b151",
+        "frozen_files": 76,
+        "kernel_files": 71,
+        "missing_frozen_files": [],
+        "mismatched_frozen_files": [],
+        "native_control_count": 24,
+        "core_sha256": "a618867ae34841b2e3e1745e35142694142e08ca2d790b762870f50651e16d71",
+        "stored_json_candidates": []
+      },
+      "original_contract_dictionary": {
+        "status": "EXACT_GLOBAL_GUARDS_CONDITIONAL_UNTIL_FULL_COMPOSITION",
+        "branch": 5,
+        "index": 26,
+        "rows": [
+          {
+            "n": 25,
+            "K": "0",
+            "index": 26,
+            "p": [
+              "13/50",
+              "27/100"
+            ],
+            "rho_lower": "3/2",
+            "rho_upper": "33/20",
+            "D": "248633/125000",
+            "d0": "31691/125000",
+            "Lambda": "801601/500000",
+            "Hminus": "523463/200000",
+            "Hplus": "523463/200000",
+            "radius_minus": "2600001/1000000",
+            "radius_plus": "3600001/1000000",
+            "outer0": "51577/50000",
+            "outer1": "211657/200000",
+            "binary_charge": "87831/200000",
+            "gap_charge": "1528347/250000",
+            "noise_charge": "241689/250000",
+            "quadratics": [
+              {
+                "A": "3433957/1000000",
+                "Fplus": "1920063/1000000",
+                "Fminus": "78009/31250",
+                "Qbudget": "11294/15625"
+              },
+              {
+                "A": "379079/100000",
+                "Fplus": "1920063/1000000",
+                "Fminus": "78009/31250",
+                "Qbudget": "707/800"
+              },
+              {
+                "A": "42943/12500",
+                "Fplus": "1920359/1000000",
+                "Fminus": "1248717/500000",
+                "Qbudget": "90397/125000"
+              },
+              {
+                "A": "1896241/500000",
+                "Fplus": "1920359/1000000",
+                "Fminus": "1248717/500000",
+                "Qbudget": "442073/500000"
+              },
+              {
+                "A": "2888249/1000000",
+                "Fplus": "970931/500000",
+                "Fminus": "2580861/1000000",
+                "Qbudget": "37469/50000"
+              },
+              {
+                "A": "798751/250000",
+                "Fplus": "970931/500000",
+                "Fminus": "2580861/1000000",
+                "Qbudget": "91297/100000"
+              }
+            ],
+            "sign_premise": {
+              "schema": "ACTUAL_SIGN_CONDITIONED_MARGINAL_V1",
+              "resource_status": "ASSUMED_ACQUIRED_FOR_CONDITIONAL_TEST",
+              "conditional_means_zero": true,
+              "negative_endpoint_lower": "322597/1000000",
+              "positive_endpoint_lower": "952993/1000000"
+            },
+            "acquired_beta": [
+              "83097/500000",
+              "116659/200000"
+            ],
+            "acquired_mean": [
+              "196011/500000",
+              "453719/1000000"
+            ],
+            "acquired_theta_upper": "201237/1000000"
+          }
+        ],
+        "source_inputs_sha256": {
+          "work/cutoff25_20261011/new_root/resource25_b5_v1/RESOURCE_B5_GLOBAL_PROOF.json": "5cf67ea3323d55afea048464fc69c5aa26707d6c0a93e8794c5f63e369985507",
+          "work/cutoff25_20261011/new_root/resource25_b5_v1/RESOURCE_B5_GLOBAL_ACCEPTED.json": "040f6d976d89226b33d314620ff4baa45afd0940a99fb29b19de1fd58b9a7031",
+          "work/cutoff25_20261011/new_root/resource25_b5_v1/FROZEN_SOURCES.json": "94e6e0f10ca300a51c691fecf0ac93a4c0e4d887c9276fc9c800ad49a27cb911",
+          "work/cutoff25_20261011/new_root/prepare_global_theta_count_v2.py": "57977808d95691aec623ccde4c209a8e0e15c711c70281a72d0419f2b1b7dcd0"
+        },
+        "scope": "Exact global resource values with outward rational rounding; all physical premises are checked below. Count acceptance and independent final analytic/source/log composition remain separate."
+      }
+    },
+    {
+      "index": 27,
+      "capsule_member_prefix": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p27_v12/",
+      "original_contract": {
+        "archive_key": "old",
+        "member": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p27_v12/contract.json",
+        "bytes": 3077,
+        "sha256": "8f6096df318f04487e0aea31ad9e7043c96cafa0f95e839e19a3c0b30edb50e8"
+      },
+      "original_frozen_design": {
+        "archive_key": "old",
+        "member": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p27_v12/FROZEN_DESIGN.json",
+        "bytes": 7630,
+        "sha256": "7d157bbcce7816df9a9f99389adf9f95bd177f737176190c4bf150ee9aa09826"
+      },
+      "source_check": {
+        "index": 27,
+        "design_sha256": "7d157bbcce7816df9a9f99389adf9f95bd177f737176190c4bf150ee9aa09826",
+        "contract_sha256": "8f6096df318f04487e0aea31ad9e7043c96cafa0f95e839e19a3c0b30edb50e8",
+        "checker_sha256": "242cc0bbb9a862328aa4f6ecf97130e28c37d8a0b6138e67d2e8ed4c97274ea6",
+        "kernel_manifest_sha256": "484db2a4e1d90c96fb483da15122dd49a19cc12bbc29c0533f53e529e506b151",
+        "frozen_files": 76,
+        "kernel_files": 71,
+        "missing_frozen_files": [],
+        "mismatched_frozen_files": [],
+        "native_control_count": 24,
+        "core_sha256": "a618867ae34841b2e3e1745e35142694142e08ca2d790b762870f50651e16d71",
+        "stored_json_candidates": []
+      },
+      "original_contract_dictionary": {
+        "status": "EXACT_GLOBAL_GUARDS_CONDITIONAL_UNTIL_FULL_COMPOSITION",
+        "branch": 5,
+        "index": 27,
+        "rows": [
+          {
+            "n": 25,
+            "K": "0",
+            "index": 27,
+            "p": [
+              "27/100",
+              "7/25"
+            ],
+            "rho_lower": "3/2",
+            "rho_upper": "33/20",
+            "D": "248633/125000",
+            "d0": "303247/1000000",
+            "Lambda": "1749027/1000000",
+            "Hminus": "2619761/1000000",
+            "Hplus": "2619761/1000000",
+            "radius_minus": "2700001/1000000",
+            "radius_plus": "3600001/1000000",
+            "outer0": "137431/125000",
+            "outer1": "110593/100000",
+            "binary_charge": "367179/1000000",
+            "gap_charge": "2674209/500000",
+            "noise_charge": "115913/125000",
+            "quadratics": [
+              {
+                "A": "1711459/500000",
+                "Fplus": "1039521/500000",
+                "Fminus": "322879/125000",
+                "Qbudget": "11294/15625"
+              },
+              {
+                "A": "1883461/500000",
+                "Fplus": "1039521/500000",
+                "Fminus": "322879/125000",
+                "Qbudget": "707/800"
+              },
+              {
+                "A": "3424403/1000000",
+                "Fplus": "1039713/500000",
+                "Fminus": "2584211/1000000",
+                "Qbudget": "90397/125000"
+              },
+              {
+                "A": "3768609/1000000",
+                "Fplus": "1039713/500000",
+                "Fminus": "2584211/1000000",
+                "Qbudget": "442073/500000"
+              },
+              {
+                "A": "719339/250000",
+                "Fplus": "526831/250000",
+                "Fminus": "2670013/1000000",
+                "Qbudget": "37469/50000"
+              },
+              {
+                "A": "3170727/1000000",
+                "Fplus": "526831/250000",
+                "Fminus": "2670013/1000000",
+                "Qbudget": "91297/100000"
+              }
+            ],
+            "sign_premise": {
+              "schema": "ACTUAL_SIGN_CONDITIONED_MARGINAL_V1",
+              "resource_status": "ASSUMED_ACQUIRED_FOR_CONDITIONAL_TEST",
+              "conditional_means_zero": true,
+              "negative_endpoint_lower": "322597/1000000",
+              "positive_endpoint_lower": "407443/500000"
+            },
+            "acquired_beta": [
+              "12847/100000",
+              "23073/40000"
+            ],
+            "acquired_mean": [
+              "98253/250000",
+              "458063/1000000"
+            ],
+            "acquired_theta_upper": "216341/1000000"
+          }
+        ],
+        "source_inputs_sha256": {
+          "work/cutoff25_20261011/new_root/resource25_b5_v1/RESOURCE_B5_GLOBAL_PROOF.json": "5cf67ea3323d55afea048464fc69c5aa26707d6c0a93e8794c5f63e369985507",
+          "work/cutoff25_20261011/new_root/resource25_b5_v1/RESOURCE_B5_GLOBAL_ACCEPTED.json": "040f6d976d89226b33d314620ff4baa45afd0940a99fb29b19de1fd58b9a7031",
+          "work/cutoff25_20261011/new_root/resource25_b5_v1/FROZEN_SOURCES.json": "94e6e0f10ca300a51c691fecf0ac93a4c0e4d887c9276fc9c800ad49a27cb911",
+          "work/cutoff25_20261011/new_root/prepare_global_theta_count_v2.py": "57977808d95691aec623ccde4c209a8e0e15c711c70281a72d0419f2b1b7dcd0"
+        },
+        "scope": "Exact global resource values with outward rational rounding; all physical premises are checked below. Count acceptance and independent final analytic/source/log composition remain separate."
+      }
+    },
+    {
+      "index": 28,
+      "capsule_member_prefix": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p28_v12/",
+      "original_contract": {
+        "archive_key": "old",
+        "member": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p28_v12/contract.json",
+        "bytes": 3092,
+        "sha256": "54b72f3922234afa79ed714851d59df81be465b36b00226cc2e7ef071827eb8e"
+      },
+      "original_frozen_design": {
+        "archive_key": "old",
+        "member": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p28_v12/FROZEN_DESIGN.json",
+        "bytes": 7630,
+        "sha256": "e109ca59116ff5d5e0f5ab8f4c1e973cfa5881c69413abfdc1a1b895e1d163b9"
+      },
+      "source_check": {
+        "index": 28,
+        "design_sha256": "e109ca59116ff5d5e0f5ab8f4c1e973cfa5881c69413abfdc1a1b895e1d163b9",
+        "contract_sha256": "54b72f3922234afa79ed714851d59df81be465b36b00226cc2e7ef071827eb8e",
+        "checker_sha256": "3689f4ec876d46d75e57ec9707a55f1133e896684373c0643111859558a60f7c",
+        "kernel_manifest_sha256": "484db2a4e1d90c96fb483da15122dd49a19cc12bbc29c0533f53e529e506b151",
+        "frozen_files": 76,
+        "kernel_files": 71,
+        "missing_frozen_files": [],
+        "mismatched_frozen_files": [],
+        "native_control_count": 24,
+        "core_sha256": "a618867ae34841b2e3e1745e35142694142e08ca2d790b762870f50651e16d71",
+        "stored_json_candidates": []
+      },
+      "original_contract_dictionary": {
+        "status": "EXACT_GLOBAL_GUARDS_CONDITIONAL_UNTIL_FULL_COMPOSITION",
+        "branch": 5,
+        "index": 28,
+        "rows": [
+          {
+            "n": 25,
+            "K": "0",
+            "index": 28,
+            "p": [
+              "7/25",
+              "29/100"
+            ],
+            "rho_lower": "3/2",
+            "rho_upper": "33/20",
+            "D": "248633/125000",
+            "d0": "167387/500000",
+            "Lambda": "1872641/1000000",
+            "Hminus": "2619761/1000000",
+            "Hplus": "2619761/1000000",
+            "radius_minus": "2700001/1000000",
+            "radius_plus": "3500001/1000000",
+            "outer0": "27793/25000",
+            "outer1": "3419/3125",
+            "binary_charge": "153843/500000",
+            "gap_charge": "1004489/200000",
+            "noise_charge": "448931/500000",
+            "quadratics": [
+              {
+                "A": "3363653/1000000",
+                "Fplus": "2065061/1000000",
+                "Fminus": "2523453/1000000",
+                "Qbudget": "361441/500000"
+              },
+              {
+                "A": "3719701/1000000",
+                "Fplus": "2065061/1000000",
+                "Fminus": "2523453/1000000",
+                "Qbudget": "883837/1000000"
+              },
+              {
+                "A": "3365117/1000000",
+                "Fplus": "2065459/1000000",
+                "Fminus": "1262297/500000",
+                "Qbudget": "361621/500000"
+              },
+              {
+                "A": "3721373/1000000",
+                "Fplus": "2065459/1000000",
+                "Fminus": "1262297/500000",
+                "Qbudget": "884233/1000000"
+              },
+              {
+                "A": "704143/250000",
+                "Fplus": "2094469/1000000",
+                "Fminus": "521541/200000",
+                "Qbudget": "374723/500000"
+              },
+              {
+                "A": "780627/250000",
+                "Fplus": "2094469/1000000",
+                "Fminus": "521541/200000",
+                "Qbudget": "913057/1000000"
+              }
+            ],
+            "sign_premise": {
+              "schema": "ACTUAL_SIGN_CONDITIONED_MARGINAL_V1",
+              "resource_status": "ASSUMED_ACQUIRED_FOR_CONDITIONAL_TEST",
+              "conditional_means_zero": true,
+              "negative_endpoint_lower": "322597/1000000",
+              "positive_endpoint_lower": "378773/500000"
+            },
+            "acquired_beta": [
+              "100447/1000000",
+              "283011/500000"
+            ],
+            "acquired_mean": [
+              "395261/1000000",
+              "11551/25000"
+            ],
+            "acquired_theta_upper": "112519/500000"
+          }
+        ],
+        "source_inputs_sha256": {
+          "work/cutoff25_20261011/new_root/resource25_b5_v1/RESOURCE_B5_GLOBAL_PROOF.json": "5cf67ea3323d55afea048464fc69c5aa26707d6c0a93e8794c5f63e369985507",
+          "work/cutoff25_20261011/new_root/resource25_b5_v1/RESOURCE_B5_GLOBAL_ACCEPTED.json": "040f6d976d89226b33d314620ff4baa45afd0940a99fb29b19de1fd58b9a7031",
+          "work/cutoff25_20261011/new_root/resource25_b5_v1/FROZEN_SOURCES.json": "94e6e0f10ca300a51c691fecf0ac93a4c0e4d887c9276fc9c800ad49a27cb911",
+          "work/cutoff25_20261011/new_root/prepare_global_theta_count_v2.py": "57977808d95691aec623ccde4c209a8e0e15c711c70281a72d0419f2b1b7dcd0"
+        },
+        "scope": "Exact global resource values with outward rational rounding; all physical premises are checked below. Count acceptance and independent final analytic/source/log composition remain separate."
+      }
+    },
+    {
+      "index": 29,
+      "capsule_member_prefix": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p29_v12/",
+      "original_contract": {
+        "archive_key": "old",
+        "member": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p29_v12/contract.json",
+        "bytes": 3084,
+        "sha256": "2b62ad8499d9dc180d4d74a5a144133f0c5c3431fa56c7781e54be3ff5e2aec8"
+      },
+      "original_frozen_design": {
+        "archive_key": "old",
+        "member": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p29_v12/FROZEN_DESIGN.json",
+        "bytes": 7630,
+        "sha256": "074c2ce22b714a80738a155e145bfa254f61f5d2218051267ae07adce336df50"
+      },
+      "source_check": {
+        "index": 29,
+        "design_sha256": "074c2ce22b714a80738a155e145bfa254f61f5d2218051267ae07adce336df50",
+        "contract_sha256": "2b62ad8499d9dc180d4d74a5a144133f0c5c3431fa56c7781e54be3ff5e2aec8",
+        "checker_sha256": "bdbdbc801458bb8f2b19045cbbcc5ce21acb5793780a11a03252a5d87e964424",
+        "kernel_manifest_sha256": "484db2a4e1d90c96fb483da15122dd49a19cc12bbc29c0533f53e529e506b151",
+        "frozen_files": 76,
+        "kernel_files": 71,
+        "missing_frozen_files": [],
+        "mismatched_frozen_files": [],
+        "native_control_count": 24,
+        "core_sha256": "a618867ae34841b2e3e1745e35142694142e08ca2d790b762870f50651e16d71",
+        "stored_json_candidates": []
+      },
+      "original_contract_dictionary": {
+        "status": "EXACT_GLOBAL_GUARDS_CONDITIONAL_UNTIL_FULL_COMPOSITION",
+        "branch": 5,
+        "index": 29,
+        "rows": [
+          {
+            "n": 25,
+            "K": "0",
+            "index": 29,
+            "p": [
+              "29/100",
+              "3/10"
+            ],
+            "rho_lower": "3/2",
+            "rho_upper": "33/20",
+            "D": "248633/125000",
+            "d0": "17829/50000",
+            "Lambda": "993389/500000",
+            "Hminus": "2619761/1000000",
+            "Hplus": "2619761/1000000",
+            "radius_minus": "2700001/1000000",
+            "radius_plus": "3500001/1000000",
+            "outer0": "560929/500000",
+            "outer1": "565093/500000",
+            "binary_charge": "255733/1000000",
+            "gap_charge": "2430501/500000",
+            "noise_charge": "872431/1000000",
+            "quadratics": [
+              {
+                "A": "1660661/500000",
+                "Fplus": "2126389/1000000",
+                "Fminus": "1265687/500000",
+                "Qbudget": "361441/500000"
+              },
+              {
+                "A": "1842731/500000",
+                "Fplus": "2126389/1000000",
+                "Fminus": "1265687/500000",
+                "Qbudget": "883837/1000000"
+              },
+              {
+                "A": "332277/100000",
+                "Fplus": "1063417/500000",
+                "Fminus": "506503/200000",
+                "Qbudget": "361621/500000"
+              },
+              {
+                "A": "3687123/1000000",
+                "Fplus": "1063417/500000",
+                "Fminus": "506503/200000",
+                "Qbudget": "884233/1000000"
+              },
+              {
+                "A": "138651/50000",
+                "Fplus": "134951/62500",
+                "Fminus": "2615621/1000000",
+                "Qbudget": "374723/500000"
+              },
+              {
+                "A": "1543699/500000",
+                "Fplus": "134951/62500",
+                "Fminus": "2615621/1000000",
+                "Qbudget": "913057/1000000"
+              }
+            ],
+            "sign_premise": {
+              "schema": "ACTUAL_SIGN_CONDITIONED_MARGINAL_V1",
+              "resource_status": "ASSUMED_ACQUIRED_FOR_CONDITIONAL_TEST",
+              "conditional_means_zero": true,
+              "negative_endpoint_lower": "322597/1000000",
+              "positive_endpoint_lower": "146459/200000"
+            },
+            "acquired_beta": [
+              "75209/1000000",
+              "554557/1000000"
+            ],
+            "acquired_mean": [
+              "198829/500000",
+              "46521/100000"
+            ],
+            "acquired_theta_upper": "115997/500000"
+          }
+        ],
+        "source_inputs_sha256": {
+          "work/cutoff25_20261011/new_root/resource25_b5_v1/RESOURCE_B5_GLOBAL_PROOF.json": "5cf67ea3323d55afea048464fc69c5aa26707d6c0a93e8794c5f63e369985507",
+          "work/cutoff25_20261011/new_root/resource25_b5_v1/RESOURCE_B5_GLOBAL_ACCEPTED.json": "040f6d976d89226b33d314620ff4baa45afd0940a99fb29b19de1fd58b9a7031",
+          "work/cutoff25_20261011/new_root/resource25_b5_v1/FROZEN_SOURCES.json": "94e6e0f10ca300a51c691fecf0ac93a4c0e4d887c9276fc9c800ad49a27cb911",
+          "work/cutoff25_20261011/new_root/prepare_global_theta_count_v2.py": "57977808d95691aec623ccde4c209a8e0e15c711c70281a72d0419f2b1b7dcd0"
+        },
+        "scope": "Exact global resource values with outward rational rounding; all physical premises are checked below. Count acceptance and independent final analytic/source/log composition remain separate."
+      }
+    },
+    {
+      "index": 30,
+      "capsule_member_prefix": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p30_v12/",
+      "original_contract": {
+        "archive_key": "old",
+        "member": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p30_v12/contract.json",
+        "bytes": 3092,
+        "sha256": "06b7de18bd37b4a88b449bf3d2b267d1a8c31801d33f3315888b4ca061e33080"
+      },
+      "original_frozen_design": {
+        "archive_key": "old",
+        "member": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p30_v12/FROZEN_DESIGN.json",
+        "bytes": 7630,
+        "sha256": "c3631ad9eaa0f931b3f1692eb855d2965c96464f8d867bdb3314e0991c1b280a"
+      },
+      "source_check": {
+        "index": 30,
+        "design_sha256": "c3631ad9eaa0f931b3f1692eb855d2965c96464f8d867bdb3314e0991c1b280a",
+        "contract_sha256": "06b7de18bd37b4a88b449bf3d2b267d1a8c31801d33f3315888b4ca061e33080",
+        "checker_sha256": "bf27831184154d5e0221dbc625af7111bf842780e1ed58275356f1a5065332e7",
+        "kernel_manifest_sha256": "484db2a4e1d90c96fb483da15122dd49a19cc12bbc29c0533f53e529e506b151",
+        "frozen_files": 76,
+        "kernel_files": 71,
+        "missing_frozen_files": [],
+        "mismatched_frozen_files": [],
+        "native_control_count": 24,
+        "core_sha256": "a618867ae34841b2e3e1745e35142694142e08ca2d790b762870f50651e16d71",
+        "stored_json_candidates": []
+      },
+      "original_contract_dictionary": {
+        "status": "EXACT_GLOBAL_GUARDS_CONDITIONAL_UNTIL_FULL_COMPOSITION",
+        "branch": 5,
+        "index": 30,
+        "rows": [
+          {
+            "n": 25,
+            "K": "0",
+            "index": 30,
+            "p": [
+              "3/10",
+              "31/100"
+            ],
+            "rho_lower": "3/2",
+            "rho_upper": "33/20",
+            "D": "248633/125000",
+            "d0": "378373/1000000",
+            "Lambda": "262409/125000",
+            "Hminus": "2619761/1000000",
+            "Hplus": "2619761/1000000",
+            "radius_minus": "2800001/1000000",
+            "radius_plus": "3500001/1000000",
+            "outer0": "118527/100000",
+            "outer1": "1166587/1000000",
+            "binary_charge": "209307/1000000",
+            "gap_charge": "117593/25000",
+            "noise_charge": "169559/200000",
+            "quadratics": [
+              {
+                "A": "1640323/500000",
+                "Fplus": "2192889/1000000",
+                "Fminus": "2543267/1000000",
+                "Qbudget": "361441/500000"
+              },
+              {
+                "A": "3651443/1000000",
+                "Fplus": "2192889/1000000",
+                "Fminus": "2543267/1000000",
+                "Qbudget": "883837/1000000"
+              },
+              {
+                "A": "3282077/1000000",
+                "Fplus": "1096691/500000",
+                "Fminus": "2544413/1000000",
+                "Qbudget": "361621/500000"
+              },
+              {
+                "A": "913273/250000",
+                "Fplus": "1096691/500000",
+                "Fminus": "2544413/1000000",
+                "Qbudget": "884233/1000000"
+              },
+              {
+                "A": "546227/200000",
+                "Fplus": "34833/15625",
+                "Fminus": "2627801/1000000",
+                "Qbudget": "374723/500000"
+              },
+              {
+                "A": "3052459/1000000",
+                "Fplus": "34833/15625",
+                "Fminus": "2627801/1000000",
+                "Qbudget": "913057/1000000"
+              }
+            ],
+            "sign_premise": {
+              "schema": "ACTUAL_SIGN_CONDITIONED_MARGINAL_V1",
+              "resource_status": "ASSUMED_ACQUIRED_FOR_CONDITIONAL_TEST",
+              "conditional_means_zero": true,
+              "negative_endpoint_lower": "322597/1000000",
+              "positive_endpoint_lower": "11073/15625"
+            },
+            "acquired_beta": [
+              "6131/125000",
+              "543893/1000000"
+            ],
+            "acquired_mean": [
+              "199773/500000",
+              "467491/1000000"
+            ],
+            "acquired_theta_upper": "239821/1000000"
+          }
+        ],
+        "source_inputs_sha256": {
+          "work/cutoff25_20261011/new_root/resource25_b5_v1/RESOURCE_B5_GLOBAL_PROOF.json": "5cf67ea3323d55afea048464fc69c5aa26707d6c0a93e8794c5f63e369985507",
+          "work/cutoff25_20261011/new_root/resource25_b5_v1/RESOURCE_B5_GLOBAL_ACCEPTED.json": "040f6d976d89226b33d314620ff4baa45afd0940a99fb29b19de1fd58b9a7031",
+          "work/cutoff25_20261011/new_root/resource25_b5_v1/FROZEN_SOURCES.json": "94e6e0f10ca300a51c691fecf0ac93a4c0e4d887c9276fc9c800ad49a27cb911",
+          "work/cutoff25_20261011/new_root/prepare_global_theta_count_v2.py": "57977808d95691aec623ccde4c209a8e0e15c711c70281a72d0419f2b1b7dcd0"
+        },
+        "scope": "Exact global resource values with outward rational rounding; all physical premises are checked below. Count acceptance and independent final analytic/source/log composition remain separate."
+      }
+    },
+    {
+      "index": 31,
+      "capsule_member_prefix": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p31_v12/",
+      "original_contract": {
+        "archive_key": "old",
+        "member": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p31_v12/contract.json",
+        "bytes": 3083,
+        "sha256": "2e9505d7ee2a0e069b19bb4d9e8852d6c57f73451be48d29e04b98c9da376c26"
+      },
+      "original_frozen_design": {
+        "archive_key": "old",
+        "member": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p31_v12/FROZEN_DESIGN.json",
+        "bytes": 7630,
+        "sha256": "e83add5f001124661c2cb635a167df8de376f45d7833e0f8b0e82c1ac97069c0"
+      },
+      "source_check": {
+        "index": 31,
+        "design_sha256": "e83add5f001124661c2cb635a167df8de376f45d7833e0f8b0e82c1ac97069c0",
+        "contract_sha256": "2e9505d7ee2a0e069b19bb4d9e8852d6c57f73451be48d29e04b98c9da376c26",
+        "checker_sha256": "bcb5e001c55892444d46695396cd156c27ee91ac419ea716d9963fc727321560",
+        "kernel_manifest_sha256": "484db2a4e1d90c96fb483da15122dd49a19cc12bbc29c0533f53e529e506b151",
+        "frozen_files": 76,
+        "kernel_files": 71,
+        "missing_frozen_files": [],
+        "mismatched_frozen_files": [],
+        "native_control_count": 24,
+        "core_sha256": "a618867ae34841b2e3e1745e35142694142e08ca2d790b762870f50651e16d71",
+        "stored_json_candidates": []
+      },
+      "original_contract_dictionary": {
+        "status": "EXACT_GLOBAL_GUARDS_CONDITIONAL_UNTIL_FULL_COMPOSITION",
+        "branch": 5,
+        "index": 31,
+        "rows": [
+          {
+            "n": 25,
+            "K": "0",
+            "index": 31,
+            "p": [
+              "31/100",
+              "8/25"
+            ],
+            "rho_lower": "3/2",
+            "rho_upper": "33/20",
+            "D": "248633/125000",
+            "d0": "79609/200000",
+            "Lambda": "219837/100000",
+            "Hminus": "2619761/1000000",
+            "Hplus": "2619761/1000000",
+            "radius_minus": "2800001/1000000",
+            "radius_plus": "3500001/1000000",
+            "outer0": "596583/500000",
+            "outer1": "599479/500000",
+            "binary_charge": "169407/1000000",
+            "gap_charge": "4571497/1000000",
+            "noise_charge": "51733/62500",
+            "quadratics": [
+              {
+                "A": "1619839/500000",
+                "Fplus": "446387/200000",
+                "Fminus": "2530777/1000000",
+                "Qbudget": "144587/200000"
+              },
+              {
+                "A": "903161/250000",
+                "Fplus": "446387/200000",
+                "Fminus": "2530777/1000000",
+                "Qbudget": "441953/500000"
+              },
+              {
+                "A": "810273/250000",
+                "Fplus": "2232461/1000000",
+                "Fminus": "1265957/500000",
+                "Qbudget": "144659/200000"
+              },
+              {
+                "A": "903569/250000",
+                "Fplus": "2232461/1000000",
+                "Fminus": "1265957/500000",
+                "Qbudget": "442151/500000"
+              },
+              {
+                "A": "1344447/500000",
+                "Fplus": "2270727/1000000",
+                "Fminus": "653667/250000",
+                "Qbudget": "749499/1000000"
+              },
+              {
+                "A": "3012479/1000000",
+                "Fplus": "2270727/1000000",
+                "Fminus": "653667/250000",
+                "Qbudget": "456563/500000"
+              }
+            ],
+            "sign_premise": {
+              "schema": "ACTUAL_SIGN_CONDITIONED_MARGINAL_V1",
+              "resource_status": "ASSUMED_ACQUIRED_FOR_CONDITIONAL_TEST",
+              "conditional_means_zero": true,
+              "negative_endpoint_lower": "322597/1000000",
+              "positive_endpoint_lower": "343263/500000"
+            },
+            "acquired_beta": [
+              "8803/200000",
+              "265943/500000"
+            ],
+            "acquired_mean": [
+              "401869/1000000",
+              "467491/1000000"
+            ],
+            "acquired_theta_upper": "15311/62500"
+          }
+        ],
+        "source_inputs_sha256": {
+          "work/cutoff25_20261011/new_root/resource25_b5_v1/RESOURCE_B5_GLOBAL_PROOF.json": "5cf67ea3323d55afea048464fc69c5aa26707d6c0a93e8794c5f63e369985507",
+          "work/cutoff25_20261011/new_root/resource25_b5_v1/RESOURCE_B5_GLOBAL_ACCEPTED.json": "040f6d976d89226b33d314620ff4baa45afd0940a99fb29b19de1fd58b9a7031",
+          "work/cutoff25_20261011/new_root/resource25_b5_v1/FROZEN_SOURCES.json": "94e6e0f10ca300a51c691fecf0ac93a4c0e4d887c9276fc9c800ad49a27cb911",
+          "work/cutoff25_20261011/new_root/prepare_global_theta_count_v2.py": "57977808d95691aec623ccde4c209a8e0e15c711c70281a72d0419f2b1b7dcd0"
+        },
+        "scope": "Exact global resource values with outward rational rounding; all physical premises are checked below. Count acceptance and independent final analytic/source/log composition remain separate."
+      }
+    },
+    {
+      "index": 32,
+      "capsule_member_prefix": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p32_v12/",
+      "original_contract": {
+        "archive_key": "old",
+        "member": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p32_v12/contract.json",
+        "bytes": 3081,
+        "sha256": "87bab38aead36e3aedbe284edcf34d0685e3b6488c443ebbc3008ecd7d42e953"
+      },
+      "original_frozen_design": {
+        "archive_key": "old",
+        "member": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p32_v12/FROZEN_DESIGN.json",
+        "bytes": 7630,
+        "sha256": "2fb7170df93391474cdf8a440087422134e9aebbe02758b73540f1ba7fa007bc"
+      },
+      "source_check": {
+        "index": 32,
+        "design_sha256": "2fb7170df93391474cdf8a440087422134e9aebbe02758b73540f1ba7fa007bc",
+        "contract_sha256": "87bab38aead36e3aedbe284edcf34d0685e3b6488c443ebbc3008ecd7d42e953",
+        "checker_sha256": "597309fb7c07fcfd6d8cc85be2a9deedf6490b8accf2d35deaa055cef76927e2",
+        "kernel_manifest_sha256": "484db2a4e1d90c96fb483da15122dd49a19cc12bbc29c0533f53e529e506b151",
+        "frozen_files": 76,
+        "kernel_files": 71,
+        "missing_frozen_files": [],
+        "mismatched_frozen_files": [],
+        "native_control_count": 24,
+        "core_sha256": "a618867ae34841b2e3e1745e35142694142e08ca2d790b762870f50651e16d71",
+        "stored_json_candidates": []
+      },
+      "original_contract_dictionary": {
+        "status": "EXACT_GLOBAL_GUARDS_CONDITIONAL_UNTIL_FULL_COMPOSITION",
+        "branch": 5,
+        "index": 32,
+        "rows": [
+          {
+            "n": 25,
+            "K": "0",
+            "index": 32,
+            "p": [
+              "8/25",
+              "33/100"
+            ],
+            "rho_lower": "3/2",
+            "rho_upper": "33/20",
+            "D": "248633/125000",
+            "d0": "208377/500000",
+            "Lambda": "2288251/1000000",
+            "Hminus": "2619761/1000000",
+            "Hplus": "2619761/1000000",
+            "radius_minus": "2800001/1000000",
+            "radius_plus": "3500001/1000000",
+            "outer0": "1200179/1000000",
+            "outer1": "76889/62500",
+            "binary_charge": "134453/1000000",
+            "gap_charge": "4450139/1000000",
+            "noise_charge": "810491/1000000",
+            "quadratics": [
+              {
+                "A": "1603867/500000",
+                "Fplus": "451243/200000",
+                "Fminus": "2507931/1000000",
+                "Qbudget": "144587/200000"
+              },
+              {
+                "A": "3572539/1000000",
+                "Fplus": "451243/200000",
+                "Fminus": "2507931/1000000",
+                "Qbudget": "441953/500000"
+              },
+              {
+                "A": "200571/62500",
+                "Fplus": "2256763/1000000",
+                "Fminus": "2509053/1000000",
+                "Qbudget": "144659/200000"
+              },
+              {
+                "A": "1787077/500000",
+                "Fplus": "2256763/1000000",
+                "Fminus": "2509053/1000000",
+                "Qbudget": "442151/500000"
+              },
+              {
+                "A": "664007/250000",
+                "Fplus": "22967/10000",
+                "Fminus": "2590743/1000000",
+                "Qbudget": "749499/1000000"
+              },
+              {
+                "A": "29711/10000",
+                "Fplus": "22967/10000",
+                "Fminus": "2590743/1000000",
+                "Qbudget": "456563/500000"
+              }
+            ],
+            "sign_premise": {
+              "schema": "ACTUAL_SIGN_CONDITIONED_MARGINAL_V1",
+              "resource_status": "ASSUMED_ACQUIRED_FOR_CONDITIONAL_TEST",
+              "conditional_means_zero": true,
+              "negative_endpoint_lower": "32307/100000",
+              "positive_endpoint_lower": "332861/500000"
+            },
+            "acquired_beta": [
+              "41/8000",
+              "519941/1000000"
+            ],
+            "acquired_mean": [
+              "101001/250000",
+              "467491/1000000"
+            ],
+            "acquired_theta_upper": "249907/1000000"
+          }
+        ],
+        "source_inputs_sha256": {
+          "work/cutoff25_20261011/new_root/resource25_b5_v1/RESOURCE_B5_GLOBAL_PROOF.json": "5cf67ea3323d55afea048464fc69c5aa26707d6c0a93e8794c5f63e369985507",
+          "work/cutoff25_20261011/new_root/resource25_b5_v1/RESOURCE_B5_GLOBAL_ACCEPTED.json": "040f6d976d89226b33d314620ff4baa45afd0940a99fb29b19de1fd58b9a7031",
+          "work/cutoff25_20261011/new_root/resource25_b5_v1/FROZEN_SOURCES.json": "94e6e0f10ca300a51c691fecf0ac93a4c0e4d887c9276fc9c800ad49a27cb911",
+          "work/cutoff25_20261011/new_root/prepare_global_theta_count_v2.py": "57977808d95691aec623ccde4c209a8e0e15c711c70281a72d0419f2b1b7dcd0"
+        },
+        "scope": "Exact global resource values with outward rational rounding; all physical premises are checked below. Count acceptance and independent final analytic/source/log composition remain separate."
+      }
+    },
+    {
+      "index": 33,
+      "capsule_member_prefix": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p33_v12/",
+      "original_contract": {
+        "archive_key": "old",
+        "member": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p33_v12/contract.json",
+        "bytes": 3067,
+        "sha256": "6e9f884799bf90e7cabc65b3aab890352b328733a2d2c133c9795caf763f1e71"
+      },
+      "original_frozen_design": {
+        "archive_key": "old",
+        "member": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p33_v12/FROZEN_DESIGN.json",
+        "bytes": 7630,
+        "sha256": "3a65d98ef11177fe134fc2228cfd3128b20e600b0671048b12d40c0695f450d5"
+      },
+      "source_check": {
+        "index": 33,
+        "design_sha256": "3a65d98ef11177fe134fc2228cfd3128b20e600b0671048b12d40c0695f450d5",
+        "contract_sha256": "6e9f884799bf90e7cabc65b3aab890352b328733a2d2c133c9795caf763f1e71",
+        "checker_sha256": "11423a9fffef3cf7bfdf85170c7e6d9aa5e5c9d294bb579553d38b6127265a71",
+        "kernel_manifest_sha256": "484db2a4e1d90c96fb483da15122dd49a19cc12bbc29c0533f53e529e506b151",
+        "frozen_files": 76,
+        "kernel_files": 71,
+        "missing_frozen_files": [],
+        "mismatched_frozen_files": [],
+        "native_control_count": 24,
+        "core_sha256": "a618867ae34841b2e3e1745e35142694142e08ca2d790b762870f50651e16d71",
+        "stored_json_candidates": [
+          "A0_SPLIT_CHECKPOINT_001.json",
+          "A0_SPLIT_CHECKPOINT_004.json",
+          "A0_SPLIT_CHECKPOINT_002.json",
+          "A0_SPLIT_CHECKPOINT_003.json"
+        ]
+      },
+      "original_contract_dictionary": {
+        "status": "EXACT_GLOBAL_GUARDS_CONDITIONAL_UNTIL_FULL_COMPOSITION",
+        "branch": 5,
+        "index": 33,
+        "rows": [
+          {
+            "n": 25,
+            "K": "0",
+            "index": 33,
+            "p": [
+              "33/100",
+              "17/50"
+            ],
+            "rho_lower": "3/2",
+            "rho_upper": "33/20",
+            "D": "248633/125000",
+            "d0": "107601/250000",
+            "Lambda": "581981/250000",
+            "Hminus": "2619761/1000000",
+            "Hplus": "2619761/1000000",
+            "radius_minus": "2800001/1000000",
+            "radius_plus": "3500001/1000000",
+            "outer0": "1202537/1000000",
+            "outer1": "1255671/1000000",
+            "binary_charge": "20979/200000",
+            "gap_charge": "1094421/250000",
+            "noise_charge": "259/320",
+            "quadratics": [
+              {
+                "A": "158433/50000",
+                "Fplus": "141043/62500",
+                "Fminus": "1231889/500000",
+                "Qbudget": "144587/200000"
+              },
+              {
+                "A": "3525457/1000000",
+                "Fplus": "141043/62500",
+                "Fminus": "1231889/500000",
+                "Qbudget": "441953/500000"
+              },
+              {
+                "A": "792511/250000",
+                "Fplus": "1128623/500000",
+                "Fminus": "2464873/1000000",
+                "Qbudget": "144659/200000"
+              },
+              {
+                "A": "70541/20000",
+                "Fplus": "1128623/500000",
+                "Fminus": "2464873/1000000",
+                "Qbudget": "442151/500000"
+              },
+              {
+                "A": "2615683/1000000",
+                "Fplus": "2297803/1000000",
+                "Fminus": "1272303/500000",
+                "Qbudget": "749499/1000000"
+              },
+              {
+                "A": "3653/1250",
+                "Fplus": "2297803/1000000",
+                "Fminus": "1272303/500000",
+                "Qbudget": "456563/500000"
+              }
+            ],
+            "sign_premise": {
+              "schema": "ACTUAL_SIGN_CONDITIONED_MARGINAL_V1",
+              "resource_status": "ASSUMED_ACQUIRED_FOR_CONDITIONAL_TEST",
+              "conditional_means_zero": true,
+              "negative_endpoint_lower": "81973/250000",
+              "positive_endpoint_lower": "323071/500000"
+            },
+            "acquired_beta": [
+              "-1/1000000",
+              "505621/1000000"
+            ],
+            "acquired_mean": [
+              "5087/12500",
+              "467491/1000000"
+            ],
+            "acquired_theta_upper": "12547/50000"
+          }
+        ],
+        "source_inputs_sha256": {
+          "work/cutoff25_20261011/new_root/resource25_b5_v1/RESOURCE_B5_GLOBAL_PROOF.json": "5cf67ea3323d55afea048464fc69c5aa26707d6c0a93e8794c5f63e369985507",
+          "work/cutoff25_20261011/new_root/resource25_b5_v1/RESOURCE_B5_GLOBAL_ACCEPTED.json": "040f6d976d89226b33d314620ff4baa45afd0940a99fb29b19de1fd58b9a7031",
+          "work/cutoff25_20261011/new_root/resource25_b5_v1/FROZEN_SOURCES.json": "94e6e0f10ca300a51c691fecf0ac93a4c0e4d887c9276fc9c800ad49a27cb911",
+          "work/cutoff25_20261011/new_root/prepare_global_theta_count_v2.py": "57977808d95691aec623ccde4c209a8e0e15c711c70281a72d0419f2b1b7dcd0"
+        },
+        "scope": "Exact global resource values with outward rational rounding; all physical premises are checked below. Count acceptance and independent final analytic/source/log composition remain separate."
+      }
+    }
+  ],
+  "replacement_targets": [
+    {
+      "target": "b5-p26-v14-new",
+      "historical_missing_capsule": "cutoff25_20261011/new_root/global_local_contact_b5_p26_v14/",
+      "reconstruction": "NEW_COMBINED_V14_FROM_PINNED_WHOLE_V12",
+      "base_index": 26,
+      "base_contract_sha256": "22f9279f8cfd323bd286dbf373bf038428b1605af87813979ef63d68953c88cf",
+      "base_design_sha256": "5bc70a526c61aad1777d8da7713c237df35cb1c43d747434823c0f640c569b19",
+      "closed_p": [
+        "13/50",
+        "27/100"
+      ],
+      "rho": [
+        "3/2",
+        "33/20"
+      ],
+      "contract_change": "Exactly two extra row fields: local_contact_allowance and local_contact_premise; every other field and top-level dictionary retained.",
+      "all26_original_roots": true,
+      "original24_acceptance_controls": true,
+      "arithmetic_accepted": false
+    },
+    {
+      "target": "b5-p27-v14-new",
+      "historical_missing_capsule": "cutoff25_20261011/new_root/global_local_contact_b5_p27_v14/",
+      "reconstruction": "NEW_COMBINED_V14_FROM_PINNED_WHOLE_V12",
+      "base_index": 27,
+      "base_contract_sha256": "8f6096df318f04487e0aea31ad9e7043c96cafa0f95e839e19a3c0b30edb50e8",
+      "base_design_sha256": "7d157bbcce7816df9a9f99389adf9f95bd177f737176190c4bf150ee9aa09826",
+      "closed_p": [
+        "27/100",
+        "7/25"
+      ],
+      "rho": [
+        "3/2",
+        "33/20"
+      ],
+      "contract_change": "Exactly two extra row fields: local_contact_allowance and local_contact_premise; every other field and top-level dictionary retained.",
+      "all26_original_roots": true,
+      "original24_acceptance_controls": true,
+      "arithmetic_accepted": false
+    },
+    {
+      "target": "b5-p28-v14-new",
+      "historical_missing_capsule": "cutoff25_20261011/new_root/global_local_contact_b5_p28_v14/",
+      "reconstruction": "NEW_COMBINED_V14_FROM_PINNED_WHOLE_V12",
+      "base_index": 28,
+      "base_contract_sha256": "54b72f3922234afa79ed714851d59df81be465b36b00226cc2e7ef071827eb8e",
+      "base_design_sha256": "e109ca59116ff5d5e0f5ab8f4c1e973cfa5881c69413abfdc1a1b895e1d163b9",
+      "closed_p": [
+        "7/25",
+        "29/100"
+      ],
+      "rho": [
+        "3/2",
+        "33/20"
+      ],
+      "contract_change": "Exactly two extra row fields: local_contact_allowance and local_contact_premise; every other field and top-level dictionary retained.",
+      "all26_original_roots": true,
+      "original24_acceptance_controls": true,
+      "arithmetic_accepted": false
+    },
+    {
+      "target": "b5-p29-v14-new",
+      "historical_missing_capsule": "cutoff25_20261011/new_root/global_local_contact_b5_p29_v14/",
+      "reconstruction": "NEW_COMBINED_V14_FROM_PINNED_WHOLE_V12",
+      "base_index": 29,
+      "base_contract_sha256": "2b62ad8499d9dc180d4d74a5a144133f0c5c3431fa56c7781e54be3ff5e2aec8",
+      "base_design_sha256": "074c2ce22b714a80738a155e145bfa254f61f5d2218051267ae07adce336df50",
+      "closed_p": [
+        "29/100",
+        "3/10"
+      ],
+      "rho": [
+        "3/2",
+        "33/20"
+      ],
+      "contract_change": "Exactly two extra row fields: local_contact_allowance and local_contact_premise; every other field and top-level dictionary retained.",
+      "all26_original_roots": true,
+      "original24_acceptance_controls": true,
+      "arithmetic_accepted": false
+    },
+    {
+      "target": "b5-p30-v14-new",
+      "historical_missing_capsule": "cutoff25_20261011/new_root/global_local_contact_b5_p30_v14/",
+      "reconstruction": "NEW_COMBINED_V14_FROM_PINNED_WHOLE_V12",
+      "base_index": 30,
+      "base_contract_sha256": "06b7de18bd37b4a88b449bf3d2b267d1a8c31801d33f3315888b4ca061e33080",
+      "base_design_sha256": "c3631ad9eaa0f931b3f1692eb855d2965c96464f8d867bdb3314e0991c1b280a",
+      "closed_p": [
+        "3/10",
+        "31/100"
+      ],
+      "rho": [
+        "3/2",
+        "33/20"
+      ],
+      "contract_change": "Exactly two extra row fields: local_contact_allowance and local_contact_premise; every other field and top-level dictionary retained.",
+      "all26_original_roots": true,
+      "original24_acceptance_controls": true,
+      "arithmetic_accepted": false
+    },
+    {
+      "target": "b5-p31-v14-new",
+      "historical_missing_capsule": "cutoff25_20261011/new_root/global_local_contact_b5_p31_v14/",
+      "reconstruction": "NEW_COMBINED_V14_FROM_PINNED_WHOLE_V12",
+      "base_index": 31,
+      "base_contract_sha256": "2e9505d7ee2a0e069b19bb4d9e8852d6c57f73451be48d29e04b98c9da376c26",
+      "base_design_sha256": "e83add5f001124661c2cb635a167df8de376f45d7833e0f8b0e82c1ac97069c0",
+      "closed_p": [
+        "31/100",
+        "8/25"
+      ],
+      "rho": [
+        "3/2",
+        "33/20"
+      ],
+      "contract_change": "Exactly two extra row fields: local_contact_allowance and local_contact_premise; every other field and top-level dictionary retained.",
+      "all26_original_roots": true,
+      "original24_acceptance_controls": true,
+      "arithmetic_accepted": false
+    },
+    {
+      "target": "b5-p32-v14-new",
+      "historical_missing_capsule": "cutoff25_20261011/new_root/global_local_contact_b5_p32_v14/",
+      "reconstruction": "NEW_COMBINED_V14_FROM_PINNED_WHOLE_V12",
+      "base_index": 32,
+      "base_contract_sha256": "87bab38aead36e3aedbe284edcf34d0685e3b6488c443ebbc3008ecd7d42e953",
+      "base_design_sha256": "2fb7170df93391474cdf8a440087422134e9aebbe02758b73540f1ba7fa007bc",
+      "closed_p": [
+        "8/25",
+        "33/100"
+      ],
+      "rho": [
+        "3/2",
+        "33/20"
+      ],
+      "contract_change": "Exactly two extra row fields: local_contact_allowance and local_contact_premise; every other field and top-level dictionary retained.",
+      "all26_original_roots": true,
+      "original24_acceptance_controls": true,
+      "arithmetic_accepted": false
+    },
+    {
+      "target": "b5-p33-q0-v12-new",
+      "historical_missing_capsule": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p33_q0_v12/",
+      "reconstruction": "EXACT_HISTORICAL_CONTRACT_AND_CHECKER_PAYLOADS_FROM_PINNED_WHOLE_V12_NEW_HONEST_PROVENANCE",
+      "base_index": 33,
+      "base_contract_sha256": "6e9f884799bf90e7cabc65b3aab890352b328733a2d2c133c9795caf763f1e71",
+      "base_design_sha256": "3a65d98ef11177fe134fc2228cfd3128b20e600b0671048b12d40c0695f450d5",
+      "quarter": 0,
+      "closed_p": [
+        "33/100",
+        "133/400"
+      ],
+      "rho": [
+        "3/2",
+        "33/20"
+      ],
+      "contract_change": "Row p only; explicit quarter_partition/source_contract provenance and scope metadata. All other row fields unchanged.",
+      "all26_original_roots": true,
+      "original24_acceptance_controls": true,
+      "arithmetic_accepted": false,
+      "exact_metadata_payloads": {
+        "quarter": 0,
+        "closed_p": [
+          "33/100",
+          "133/400"
+        ],
+        "derived_contract_sha256": "6f5028b3446c219036213ae2dc71ae4abc2736f6cec2cd97f628af0bf7a53899",
+        "expected_historical_contract_sha256": "6f5028b3446c219036213ae2dc71ae4abc2736f6cec2cd97f628af0bf7a53899",
+        "derived_checker_sha256": "6dae8c9c458f5f0c50d18068127f16817a5031dc57cc9f255a349b90de426813",
+        "expected_historical_checker_sha256": "6dae8c9c458f5f0c50d18068127f16817a5031dc57cc9f255a349b90de426813",
+        "exact_both_payloads_recovered": true
+      }
+    },
+    {
+      "target": "b5-p33-q1-v12-new",
+      "historical_missing_capsule": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p33_q1_v12/",
+      "reconstruction": "EXACT_HISTORICAL_CONTRACT_AND_CHECKER_PAYLOADS_FROM_PINNED_WHOLE_V12_NEW_HONEST_PROVENANCE",
+      "base_index": 33,
+      "base_contract_sha256": "6e9f884799bf90e7cabc65b3aab890352b328733a2d2c133c9795caf763f1e71",
+      "base_design_sha256": "3a65d98ef11177fe134fc2228cfd3128b20e600b0671048b12d40c0695f450d5",
+      "quarter": 1,
+      "closed_p": [
+        "133/400",
+        "67/200"
+      ],
+      "rho": [
+        "3/2",
+        "33/20"
+      ],
+      "contract_change": "Row p only; explicit quarter_partition/source_contract provenance and scope metadata. All other row fields unchanged.",
+      "all26_original_roots": true,
+      "original24_acceptance_controls": true,
+      "arithmetic_accepted": false,
+      "exact_metadata_payloads": {
+        "quarter": 1,
+        "closed_p": [
+          "133/400",
+          "67/200"
+        ],
+        "derived_contract_sha256": "21c223abc6d499e4f3b098746ea32d2f1b3a204e1bc220aed68d1d4d9e175307",
+        "expected_historical_contract_sha256": "21c223abc6d499e4f3b098746ea32d2f1b3a204e1bc220aed68d1d4d9e175307",
+        "derived_checker_sha256": "98d854d103bbd36d8661f31cd098647eac0200d83204cc09f2316f24b9eeb6c7",
+        "expected_historical_checker_sha256": "98d854d103bbd36d8661f31cd098647eac0200d83204cc09f2316f24b9eeb6c7",
+        "exact_both_payloads_recovered": true
+      }
+    },
+    {
+      "target": "b5-p33-q2-v12-new",
+      "historical_missing_capsule": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p33_q2_v12/",
+      "reconstruction": "EXACT_HISTORICAL_CONTRACT_AND_CHECKER_PAYLOADS_FROM_PINNED_WHOLE_V12_NEW_HONEST_PROVENANCE",
+      "base_index": 33,
+      "base_contract_sha256": "6e9f884799bf90e7cabc65b3aab890352b328733a2d2c133c9795caf763f1e71",
+      "base_design_sha256": "3a65d98ef11177fe134fc2228cfd3128b20e600b0671048b12d40c0695f450d5",
+      "quarter": 2,
+      "closed_p": [
+        "67/200",
+        "27/80"
+      ],
+      "rho": [
+        "3/2",
+        "33/20"
+      ],
+      "contract_change": "Row p only; explicit quarter_partition/source_contract provenance and scope metadata. All other row fields unchanged.",
+      "all26_original_roots": true,
+      "original24_acceptance_controls": true,
+      "arithmetic_accepted": false,
+      "exact_metadata_payloads": {
+        "quarter": 2,
+        "closed_p": [
+          "67/200",
+          "27/80"
+        ],
+        "derived_contract_sha256": "e812f6eb46a503a65c17d3b5f71f8193e0b05e260c29705bfec62720bfc89008",
+        "expected_historical_contract_sha256": "e812f6eb46a503a65c17d3b5f71f8193e0b05e260c29705bfec62720bfc89008",
+        "derived_checker_sha256": "8d04720be1d8bb97d266811761b5eff5c8fe2a40aacc555c306a6823ecd0a2a6",
+        "expected_historical_checker_sha256": "8d04720be1d8bb97d266811761b5eff5c8fe2a40aacc555c306a6823ecd0a2a6",
+        "exact_both_payloads_recovered": true
+      }
+    },
+    {
+      "target": "b5-p33-q3-v12-new",
+      "historical_missing_capsule": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p33_q3_v12/",
+      "reconstruction": "EXACT_HISTORICAL_CONTRACT_AND_CHECKER_PAYLOADS_FROM_PINNED_WHOLE_V12_NEW_HONEST_PROVENANCE",
+      "base_index": 33,
+      "base_contract_sha256": "6e9f884799bf90e7cabc65b3aab890352b328733a2d2c133c9795caf763f1e71",
+      "base_design_sha256": "3a65d98ef11177fe134fc2228cfd3128b20e600b0671048b12d40c0695f450d5",
+      "quarter": 3,
+      "closed_p": [
+        "27/80",
+        "17/50"
+      ],
+      "rho": [
+        "3/2",
+        "33/20"
+      ],
+      "contract_change": "Row p only; explicit quarter_partition/source_contract provenance and scope metadata. All other row fields unchanged.",
+      "all26_original_roots": true,
+      "original24_acceptance_controls": true,
+      "arithmetic_accepted": false,
+      "exact_metadata_payloads": {
+        "quarter": 3,
+        "closed_p": [
+          "27/80",
+          "17/50"
+        ],
+        "derived_contract_sha256": "1d446aac04cb3eae979b0f74254e66cb7bea0a4f663e68b7ae4d7dcc6d5799f7",
+        "expected_historical_contract_sha256": "1d446aac04cb3eae979b0f74254e66cb7bea0a4f663e68b7ae4d7dcc6d5799f7",
+        "derived_checker_sha256": "6025c3cd3620e355bfc7c1a998f4e05196674f72ce3dfaa544f0db933a7fa626",
+        "expected_historical_checker_sha256": "6025c3cd3620e355bfc7c1a998f4e05196674f72ce3dfaa544f0db933a7fa626",
+        "exact_both_payloads_recovered": true
+      }
+    }
+  ],
+  "v14_addition_manifest": {
+    "archive_key": "base13",
+    "member": "cutoff25_20261013/b5/local_contact_v14_combined/LOCAL_CONTACT_V14_ADDITIONS.json",
+    "bytes": 2309,
+    "sha256": "ba80569735e7042a588eba6c8219fbd68c4deae354c3983ea518dbbb2d9a8336"
+  },
+  "v14_additions": [
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/b5/local_contact_v14_combined/local_contact_v13.py",
+      "bytes": 2023,
+      "sha256": "34a51131e94fd59623c278a9e753d70e45cde651c8d20ae1dddd604dba8e66ff"
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/b5/local_contact_v14_combined/local_contact_support.py",
+      "bytes": 7209,
+      "sha256": "f0881cee379d3bd2ff293751f4c802eabd91b2c28c76a1c0984701ce9c4db680"
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/b5/local_contact_v14_combined/local_contact_gaussian.py",
+      "bytes": 5324,
+      "sha256": "c0ca6ae03a2aa4e635e41bd2a5ba8fb02a8b060b3c89313860208b2ac548a3be"
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/b5/local_contact_v14_combined/local_contact_scale.py",
+      "bytes": 2702,
+      "sha256": "a181f945263ef7919869f606618a92b6b12f806a24db977178f963680f2a7c41"
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/b5/local_contact_v14_combined/local_contact_binomial.py",
+      "bytes": 3510,
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f"
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/b5/local_contact_v14_combined/local_contact_heat.py",
+      "bytes": 4726,
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18"
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/b5/local_contact_v14_combined/LOCAL_CONTACT_PROOF.txt",
+      "bytes": 16367,
+      "sha256": "2e53cb675849b9b246cfe5dbf5a68adf2379557233c70b238ac056704c1b9748"
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/b5/local_contact_v14_combined/LOCAL_CONTACT_SOURCE_PORT.json",
+      "bytes": 2627,
+      "sha256": "d49850e80d84007759a0b7b88c1430c4fe7d3dfa2f495d1b8cc8c5614994ba75"
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/b5/local_contact_v14_combined/LOCAL_CONTACT_SOURCE_PORT.diff",
+      "bytes": 1666,
+      "sha256": "856c59c1336b184fcc3dcb9395ad91356cabac21005569ecef31b324b9543158"
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/b5/local_contact_v14_combined/LOCAL_CONTACT_ADDITIONS.json",
+      "bytes": 1040,
+      "sha256": "033ab95076112343ec07b6f8a085f7b6c392c91ba7f804b120be8e54f690704b"
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/b5/local_contact_v14_combined/local_contact_outer_v14.py",
+      "bytes": 5185,
+      "sha256": "a30217eb6cdc16a3bec77d1ddf6e3a492b22fc30a9eb4e893ebe649ad49779f7"
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/b5/local_contact_v14_combined/LOCAL_CONTACT_OUTER_V14_PROOF.txt",
+      "bytes": 4792,
+      "sha256": "c706c242333a77559900cfc3c0c998d41ff381bc6591c722b6ebd4f51f787442"
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/b5/local_contact_v14_combined/LOCAL_CONTACT_OUTER_V14_SOURCE_PORT.json",
+      "bytes": 3132,
+      "sha256": "cf386f4b9fd876b6df16c3b0f00e98f6c5f6a660c273529742e8bb41abdbdc23"
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/b5/local_contact_v14_combined/LOCAL_CONTACT_OUTER_V14_ADDITIONS.json",
+      "bytes": 1453,
+      "sha256": "0e1b9615f60e0e697f6fa9da3dccb29bc5fa57e25c54f3895f04461bec911b71"
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/b5/local_contact_v14_combined/SHARP_CUBIC_PROOF.txt",
+      "bytes": 6704,
+      "sha256": "95ea6143626f07cabf8ac4eed045fe09a275a4a2bf8bc497579cea312019b85e"
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/b5/local_contact_v14_combined/LOCAL_RHO_UPPER_PROOF.txt",
+      "bytes": 5989,
+      "sha256": "d4152299c06b283b2ca1ace84a1bf914d12657e9d388bfe946c85e3ca14e330c"
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/b5/local_contact_v14_combined/LOCAL_RHO_MATHEMATICAL_REVIEW.json",
+      "bytes": 26527,
+      "sha256": "f444356eb243c2ad3caeb2f2ecb89506e56af25cf36e9b3f0e70dd56f05eb709"
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/b5/local_contact_v14_combined/local_contact_v14.py",
+      "bytes": 4013,
+      "sha256": "78ee48726397e1a6185aa02584ffd21d4eb87ff69e9685807a13b5f9edf09a7c"
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/b5/local_contact_v14_combined/local_rho_upper_v14.py",
+      "bytes": 1952,
+      "sha256": "ffa7e725310f18122abfb5883e780328de0156ef4efe4f099ddb86609588f41e"
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/b5/local_contact_v14_combined/LOCAL_CONTACT_V14_PROOF.txt",
+      "bytes": 5122,
+      "sha256": "d259dd963d033b88a20a3e1eab53ed38811b7a533ddb75eab245101bfede58bb"
+    },
+    {
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/b5/local_contact_v14_combined/LOCAL_CONTACT_V14_SOURCE_PORT.json",
+      "bytes": 5280,
+      "sha256": "012c6f8d4251f9c57c66711e793690ba002f2511805aa8c4824e3376a4040aa1"
+    }
+  ],
+  "v14_analytic_inputs": [
+    {
+      "destination": "ATTAINMENT_AND_GLOBAL25_DAG_PROOF.txt",
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/low/global25_composition_audit_v1/PROOF.txt",
+      "bytes": 13703,
+      "sha256": "a62cc3571e216d7d812de4fd64637d960494bad20686260af6109f7630d9f76d"
+    },
+    {
+      "destination": "POSITIVE_CLOSED_DELETION_DERIVATION.txt",
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/archive_audit/independent_contact_positive_v1/DERIVATION.txt",
+      "bytes": 5786,
+      "sha256": "3076cfe6dfe5dab63144bdef054db30c4c2f911a69e2aef3b20aa78fd2fb5de7"
+    },
+    {
+      "destination": "INDEPENDENT_LOCAL_CONTACT_PROOF.txt",
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/archive_audit/local_contact_independent_v1/PROOF.txt",
+      "bytes": 12084,
+      "sha256": "d8aa091f0756848145dde55aa64406f6a830f7c048cf5e6a43f09453a00adb39"
+    },
+    {
+      "destination": "INDEPENDENT_FINITE_FEEDBACK_PROOF.txt",
+      "archive_key": "base13",
+      "member": "cutoff25_20261013/b5/coupled_contact_feedback_review_v1/PROOF.txt",
+      "bytes": 5227,
+      "sha256": "ee85e36ec51158ec241a610c286a9ffbc1d2c29108c349417cc6e654bb8a3c78"
+    }
+  ],
+  "attained_premise": {
+    "schema": "ATTAINED_POSITIVE_CLOSED_CONTACT_V1",
+    "sample_size": 25,
+    "same_unrestricted_attained_witness": true,
+    "positive_closed_threshold": true,
+    "score_at_least_CE": true
+  },
+  "contact_allowance": "5/16",
+  "source_entrypoints_and_parents": [
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/new_root/prepare_global_theta_count_v2.py",
+      "bytes": 7726,
+      "sha256": "57977808d95691aec623ccde4c209a8e0e15c711c70281a72d0419f2b1b7dcd0"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/new_root/prepare_alpha_stoploss2_count_v12.py",
+      "bytes": 4198,
+      "sha256": "02e5e77c595f01479188f5b63f6dd0f420277bf7e6f1144c6c0dbbe73e6cf682"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/new_root/prepare_alpha_stoploss2_quarters_v12.py",
+      "bytes": 2749,
+      "sha256": "e2fe1b2b1072abd7a6545e462878e50aaec4ea69ffde48937fda6e6de2fb786f"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/new_root/resource25_b5_v1/RESOURCE_B5_GLOBAL_PROOF.json",
+      "bytes": 24901434,
+      "sha256": "5cf67ea3323d55afea048464fc69c5aa26707d6c0a93e8794c5f63e369985507"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/new_root/resource25_b5_v1/FROZEN_SOURCES.json",
+      "bytes": 3129,
+      "sha256": "94e6e0f10ca300a51c691fecf0ac93a4c0e4d887c9276fc9c800ad49a27cb911"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/new_root/resource25_b5_v1/resource25_core.py",
+      "bytes": 10305,
+      "sha256": "3635910abb81ad0a127097908c0c0bae3ccc6aa5f397e195dcfc935043b398eb"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/new_root/resource25_b5_v1/resources_b5.py",
+      "bytes": 7587,
+      "sha256": "fd424b8ec316a910ef51bb15cf5b75283cd03a73cc46336bcba6ef68cf8dc150"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/new_root/initial25_b5_exact_v1/BRANCH_SCOPE.txt",
+      "bytes": 882,
+      "sha256": "fe785f9fe07c5110874008a0bc00f60747c07d7112eaf8c3f0c3a4ffcd7146a2"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/new_root/initial25_b5_exact_v1/initial25_b5.py",
+      "bytes": 7724,
+      "sha256": "51ff13d2dc2b430b26070b37e49318712853c5109b7df6a308218f87422a65af"
+    }
+  ],
+  "optional_untrusted_whole33_hints": [
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p33_v12/A0_SPLIT_CHECKPOINT_001.json",
+      "bytes": 2326004,
+      "sha256": "c4db45380a1043da0c0d41bc80d504b5b0d50fe966bc2f75d72ddae7d16f119d",
+      "schema": "UNTRUSTED_FEASIBLE_A0_DISCOVERY_CHECKPOINT_V1",
+      "header_contract_sha256": "6e9f884799bf90e7cabc65b3aab890352b328733a2d2c133c9795caf763f1e71",
+      "scope": "Untrusted topology/payload hint for whole p33 V12, not for any new quarter/V14 identity; no acceptance or completeness asserted."
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p33_v12/A0_SPLIT_CHECKPOINT_002.json",
+      "bytes": 5158645,
+      "sha256": "30421953418b1598bf55cc7e455ea6f700a85de4bb2117a71728093725bfaf2e",
+      "schema": "UNTRUSTED_FEASIBLE_A0_DISCOVERY_CHECKPOINT_V1",
+      "header_contract_sha256": "6e9f884799bf90e7cabc65b3aab890352b328733a2d2c133c9795caf763f1e71",
+      "scope": "Untrusted topology/payload hint for whole p33 V12, not for any new quarter/V14 identity; no acceptance or completeness asserted."
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p33_v12/A0_SPLIT_CHECKPOINT_003.json",
+      "bytes": 7653573,
+      "sha256": "66afb5cbaa3d87159a9fa6142f9f7ea8c6cbcb432840c2bad1056bfebd49c47b",
+      "schema": "UNTRUSTED_FEASIBLE_A0_DISCOVERY_CHECKPOINT_V1",
+      "header_contract_sha256": "6e9f884799bf90e7cabc65b3aab890352b328733a2d2c133c9795caf763f1e71",
+      "scope": "Untrusted topology/payload hint for whole p33 V12, not for any new quarter/V14 identity; no acceptance or completeness asserted."
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p33_v12/A0_SPLIT_CHECKPOINT_004.json",
+      "bytes": 9579189,
+      "sha256": "b2285c09a86b4be8143431a40e6730c627dda0876598299fd0863db5530c53de",
+      "schema": "UNTRUSTED_FEASIBLE_A0_DISCOVERY_CHECKPOINT_V1",
+      "header_contract_sha256": "6e9f884799bf90e7cabc65b3aab890352b328733a2d2c133c9795caf763f1e71",
+      "scope": "Untrusted topology/payload hint for whole p33 V12, not for any new quarter/V14 identity; no acceptance or completeness asserted."
+    }
+  ],
+  "resource_mapping": {
+    "source": "cutoff25_20261011/new_root/prepare_global_theta_count_v2.py",
+    "source_lines": "17--49",
+    "parent_proof": "cutoff25_20261011/new_root/resource25_b5_v1/RESOURCE_B5_GLOBAL_PROOF.json",
+    "parent_proof_sha256": "5cf67ea3323d55afea048464fc69c5aa26707d6c0a93e8794c5f63e369985507",
+    "profile": {
+      "n": 25,
+      "K": "0",
+      "rho": [
+        "3/2",
+        "33/20"
+      ],
+      "initial_radius": "18/5",
+      "owncap": "1068023/2500000"
+    },
+    "all100_parent_rows_required": true,
+    "selected_rows_survive_resource_exclusion": true,
+    "rounding_upper": "(ceil(10^6*x)+1)/10^6",
+    "rounding_lower": "(floor(10^6*x)-1)/10^6",
+    "upper_fields": [
+      "D",
+      "d0",
+      "Lambda",
+      "Hminus",
+      "Hplus",
+      "radius_minus",
+      "radius_plus",
+      "outer0",
+      "outer1"
+    ],
+    "lower_price_fields": [
+      "binary_charge",
+      "gap_charge",
+      "noise_charge"
+    ],
+    "binary_price_clip": "max(0,lower(charge_b)) only",
+    "quadratics": "All6 signed planes, upper A/Fplus/Fminus and lower Qbudget; exact closed-interval envelope dominance.",
+    "endpoint_floors": "lower(max(raw_endpoint,initial_endpoint)), strictly positive",
+    "beta": "Outward intersection of raw signed beta and INITIAL beta, clipped[-1,1]",
+    "mean": "Outward intersection of raw/INITIAL mean with original isqrt lower mean floor; clipped[0,1/2]",
+    "theta": "Upper(raw theta)<1; retain exact original Lambda and all other simultaneous fields.",
+    "quarter_rule": "p33 whole parent implication followed by closed p-domain restriction; do not regenerate tighter unrelated fields and call them identical.",
+    "fresh_binding": "Validate completed39 whole INITIAL/resource evidence and actual proof rows; copied historical source_inputs_sha256 remain provenance, not fresh acquisition. Revalidate all physical field mappings and same witness."
+  },
+  "new_epoch_recipe": [
+    "Select complete pinned76-file V12 base and preserve original design/contract/checker as immutable provenance.",
+    "For p26--32 copy all71 V12 kernel/proof files unchanged, all21 combinedV14 additions unchanged,4written analytic inputs, and complete whole B5 parent commitments. Add only exact allowance/premise row fields.",
+    "For p33 use the original closed-quarter derivation: change row p only and honest new schema/provenance; retain all original non-p physical guards.",
+    "Give every derived checker/contract/kernel manifest/source epoch/design externally fixed new hashes. Native load checks full dictionary equality to its pinned original plus the exact authorized change.",
+    "Bind exact protocol AST projection: rootbox/children/evaluate/replay/first/construct and24 mutation controls unchanged except honest output identity; only V14 evaluator import and explicit complete contract/premise gate are mathematical-interface additions.",
+    "Use explicit uppercase ORIGINAL_V12_CONTRACT.json everywhere; avoid the known B3 preparer case-collision bug. Do not modify or alias the frozen original.",
+    "Build pure byte/AST preparer rather than running the old resource-importing generator locally; no original numerical smoke load is needed for this feasibility result.",
+    "Seal and review a separate resource-only100000-node source epoch if adopted, as in01--07. Depth128/full roots/strict target/full24controls and all evaluator bytes stay unchanged.",
+    "Run actual untrusted discovery/canonical leaf construction only onColab, then separate fresh complete native acceptance under a reviewed Linux guard and declared policy; no saved leaf payload is accepted as arithmetic.",
+    "Implement a new typed B5 semantic join covering exact all11 domains and original whole B5 parent implications. Current seven-target drivers do not admit these targets."
+  ],
+  "essential_remaining_steps": [
+    "Implement and independently internally review exact deterministic B5 source derivation and external pins; this note did not produce runnable capsules.",
+    "Fresh forest discovery may succeed, exhaust its budget, or require another justified search policy/resource epoch; source availability does not predict completion or leaf counts.",
+    "Full native acceptance:26ordered roots, original5closed coordinates, both children at every strict interior split, every leaf freshly evaluated, namedEMPTY or strict score<CE_LO, all24controls.",
+    "Acquire whole B5 support/INITIAL/resource and same-law predecessor/contact/attainment premises through genuine current evidence and analytic theorem interfaces; metadata fields alone do not prove these.",
+    "Discharge same unrestricted attained positive-closed witness and q<=5/16; a restricted regional optimizer is insufficient.",
+    "All other n25 branches, mixed protocols and full physical union remain separate."
+  ],
+  "implementation_boundaries": {
+    "existing_count_recovery_fixed_targets": 7,
+    "existing_count_recovery_rejects_B5": true,
+    "existing_n25_contract_interfaces_fixed_targets": 7,
+    "need_new_B5_profile_and_parent_mapper": true,
+    "preserved_B3_runtime_files_must_not_change": true
+  },
+  "not_a_feasibility_claim_for": [
+    "lost historical exact design/forest byte identity",
+    "historical expected/final leaf count",
+    "guaranteed full closure in any fixed runtime or100000nodes",
+    "mixedp24/p25parent reconstruction",
+    "unconditional n25 or all-index theorem"
+  ],
+  "p33_exact_metadata_reconstruction": {
+    "method": "First-party stdlib dictionary/string implementation of the literal original quarter producer, never importing or executing that original script or any evaluator.",
+    "contracts_checked": 4,
+    "checkers_checked": 4,
+    "historical_selected_hash_matches": 8,
+    "rows": [
+      {
+        "quarter": 0,
+        "closed_p": [
+          "33/100",
+          "133/400"
+        ],
+        "derived_contract_sha256": "6f5028b3446c219036213ae2dc71ae4abc2736f6cec2cd97f628af0bf7a53899",
+        "expected_historical_contract_sha256": "6f5028b3446c219036213ae2dc71ae4abc2736f6cec2cd97f628af0bf7a53899",
+        "derived_checker_sha256": "6dae8c9c458f5f0c50d18068127f16817a5031dc57cc9f255a349b90de426813",
+        "expected_historical_checker_sha256": "6dae8c9c458f5f0c50d18068127f16817a5031dc57cc9f255a349b90de426813",
+        "exact_both_payloads_recovered": true
+      },
+      {
+        "quarter": 1,
+        "closed_p": [
+          "133/400",
+          "67/200"
+        ],
+        "derived_contract_sha256": "21c223abc6d499e4f3b098746ea32d2f1b3a204e1bc220aed68d1d4d9e175307",
+        "expected_historical_contract_sha256": "21c223abc6d499e4f3b098746ea32d2f1b3a204e1bc220aed68d1d4d9e175307",
+        "derived_checker_sha256": "98d854d103bbd36d8661f31cd098647eac0200d83204cc09f2316f24b9eeb6c7",
+        "expected_historical_checker_sha256": "98d854d103bbd36d8661f31cd098647eac0200d83204cc09f2316f24b9eeb6c7",
+        "exact_both_payloads_recovered": true
+      },
+      {
+        "quarter": 2,
+        "closed_p": [
+          "67/200",
+          "27/80"
+        ],
+        "derived_contract_sha256": "e812f6eb46a503a65c17d3b5f71f8193e0b05e260c29705bfec62720bfc89008",
+        "expected_historical_contract_sha256": "e812f6eb46a503a65c17d3b5f71f8193e0b05e260c29705bfec62720bfc89008",
+        "derived_checker_sha256": "8d04720be1d8bb97d266811761b5eff5c8fe2a40aacc555c306a6823ecd0a2a6",
+        "expected_historical_checker_sha256": "8d04720be1d8bb97d266811761b5eff5c8fe2a40aacc555c306a6823ecd0a2a6",
+        "exact_both_payloads_recovered": true
+      },
+      {
+        "quarter": 3,
+        "closed_p": [
+          "27/80",
+          "17/50"
+        ],
+        "derived_contract_sha256": "1d446aac04cb3eae979b0f74254e66cb7bea0a4f663e68b7ae4d7dcc6d5799f7",
+        "expected_historical_contract_sha256": "1d446aac04cb3eae979b0f74254e66cb7bea0a4f663e68b7ae4d7dcc6d5799f7",
+        "derived_checker_sha256": "6025c3cd3620e355bfc7c1a998f4e05196674f72ce3dfaa544f0db933a7fa626",
+        "expected_historical_checker_sha256": "6025c3cd3620e355bfc7c1a998f4e05196674f72ce3dfaa544f0db933a7fa626",
+        "exact_both_payloads_recovered": true
+      }
+    ],
+    "original_search_forests_or_accepted_receipts_recovered": false,
+    "original_frozen_design_identity_claimed": false
+  },
+  "complete_historical_capsule_or_forest_recovery": false,
+  "partial_exact_metadata_payload_recovery": true
+}

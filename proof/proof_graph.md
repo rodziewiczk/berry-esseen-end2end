@@ -129,10 +129,13 @@ interfaces are explicit proof steps.
 
 ## Open edges that the diagram does not hide
 
-- The n25 union still lacks eleven selected ordinary capsule payloads and two
-  original mixed parent capsules in the bounded lookup. Their exclusion must
-  be recovered or replaced by an explicitly proved new design. Naming the
-  complete20-piece cover does not prove those pieces are closed.
+- The n25 union needs fresh accepted replacements for eleven ordinary cases
+  and current parent epochs for two mixed routes. The reconstruction basis is
+  now concrete: all eight V12 bases and combined-V14 ingredients are supplied;
+  four p33 contracts/checkers match their historical hashes; all93 mixed-parent
+  native files and both checkers are recoverable. Current source/registry
+  adapters, fresh complete searches/replays and same-law acquisition remain
+  necessary. Naming the complete20-piece cover does not close its pieces.
 - Current source/capture epochs and several finite-only semantic joins remain
   to be implemented. Historical global composers sometimes import later tails;
   those full joins belong after their finite components, not as assumptions
@@ -156,4 +159,4 @@ source inventories are maintained separately in the
 The specification checker verifies accounting, exact endpoints and graph
 consistency; it does not evaluate the original mathematics or certify this proof.
 
-A [follow-up check of the original shared folder and old archives](n25_shared_folder_lookup_20261024.md) did not recover the missing selected n25 packages; its unreadable/archive and filename-search boundaries are explicit.
+A [follow-up check of the original shared folder and old archives](n25_shared_folder_lookup_20261024.md) did not locate the exact historical packages. Subsequent [ordinary B5 reconstruction](n25_b5_reconstruction_feasibility.md) and [mixed-parent reconstruction](n25_mixed_parent_reconstruction_feasibility.md) identify the supplied ingredients and exact recovered payloads. Missing original directories are not evidence that a new mathematical algorithm is needed.
