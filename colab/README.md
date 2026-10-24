@@ -527,3 +527,15 @@ until its separate semantic join. These files preserve completed COUNT work.
 See the exact scopes for [58D/E/F](../proof/finite2024_fourier_execution.md),
 [59A](../proof/finite2630_b1_execution.md) and
 [59B/C](../proof/finite2630_covers_execution.md).
+
+## Corrected46: preserve the completed owncaps calculation
+
+Use the newly pinned46 with Run all and the same Drive. Before the ordinary
+runner it validates the exact saved20261023T221209Z-33953096 final ZIP,
+preserves all235original files, and recovers the full five-action owncaps
+transaction only after complete current-reader validation. The original CAPS
+contains a list of17control names; the corrected reader requires that exact
+list. Nine completed INITIAL stages remain reusable. The nine resource jobs
+still require full execution; recovery alone does not complete the notebook.
+The immutable runtime is `0fca8c5cc99a9fb4f283315ec8a843bebe455770`.
+See [recovery and actual readback](../proof/finite69_caps_recovery.md).
