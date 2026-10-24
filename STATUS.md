@@ -152,3 +152,12 @@ pipelines, including all fresh pilots and controls. Their clean source and
 synthetic packaging suites pass13,13and17fixtures respectively; this is not
 a local numerical replay. Full packages58/59, acquired upstream premises and
 COUNT/global joins remain separate. Completed52/53/64counts are preserved.
+
+Notebook58G is published with immutable runtime191a55e2a803d42989f94a557e6cd503f4097fba. It executes the
+full unchanged four-action supported19/20 B0/BN Fourier pipeline, both literal
+indices,17native controls/eight identities and33independent readback controls.
+All74actual sources/71manifest rows and21clean synthetic fixtures pass.
+This is conditional Fourier execution only; support, actual20 feedback/INITIAL/
+resource acquisitions and complete58 remain separate. The remaining notebook
+count is unresolved until the complete selected native-action/dependency
+inventory is closed; a reserved grouping is not a completed census.

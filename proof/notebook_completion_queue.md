@@ -32,6 +32,7 @@ external inputs to be checked; writing the paper is not the only later step.
 |56G/H|Ready full INITIAL/resources10--14,20original calls per band.|Run independently with the same Drive; fine n10/BN and complete case caches are preserved.|
 |58B/C|Ready full INITIAL/resources21--24,16original calls per band.|Run independently with the same Drive; complete case caches are preserved.|
 |58D/E/F|Ready three full original actual20 Fourier pipelines, four actions each.|Run independently; auxiliary also requires its exact419/1000 and actual20 allowance gates.|
+|58G|Ready supported same-law19/20 B0/BN Fourier, all four original actions.|Run independently; support, feedback implications and actual20 acquisitions remain separate.|
 |59A/B/C|Ready full B1, B2 and higher n26--30 Fourier covers.|Run independently; each full construction/replay transaction is cached. Parent/support/resource premises remain separate.|
 |57A|Final complete_conditional_auxiliary14_19_sublane_basic and saved ZIP supplied.|Preserve export; no repeated auxiliary calculation queued.|
 |57B|Delivered original supported14--19Fourier notebook; no final completion supplied.|Keep its valid running job; wait for the actual final result.|
@@ -55,7 +56,7 @@ again merely because its parent acquisitions remain open.
 |57A/B/C: Fourier14--19|Three complete original four-action pipelines: auxiliary, three-band supported and high-rho.|Original literal index14 overlap is retained; support-dependent lanes stay conditional.|Delivered under immutable runtimee70a4abb4003b9a8642d4994bbad5f9a6f104c91.|
 |57 remaining parents15--19|Ten INITIAL and ten100-panel resource scopes, with original controls; support is57D and compensated HIGH is57E.|Current source/capture epoch, actual n15 allowance and literal16--19 predecessor conditions.|57D/E delivered; core runner in preparation.|
 |57 final interfaces|Join the acquired parents to147 COUNT forests.|Full same-law/profile/closed-cover comparison.|Collector still to implement.|
-|58: parents20--24|Full actual20 ancestry, actual21--24 support and32full INITIAL/resource calls, plus three distinct full Fourier families.|Actual20 has its own same-index witness route; successful auxiliary21--24 jobs do not supply this sharp chain.|58A complete;58B/C and58D/E/F delivered;58G same-law feedback and actual20 ancestry in preparation.|
+|58: parents20--24|Full actual20 ancestry, actual21--24 support and32full INITIAL/resource calls, plus three distinct full Fourier families.|Actual20 has its own same-index witness route; successful auxiliary21--24 jobs do not supply this sharp chain.|58A complete;58B/C and58D/E/F delivered;58G same-law feedback delivered; actual20 INITIAL/resource ancestry and full action inventory still in preparation.|
 |59: parents26--30|Selected floor25 INITIAL/resources and actual-index acquisitions, plus three Fourier covers.|Reuse exact compatible n25 evidence;115+115+215 historical Fourier rows are selection metadata, not new evidence.|59A/B/C full Fourier lanes delivered; INITIAL/resources and actual-index joins remain in preparation.|
 |60: parents31--39|Eight floor31 resource families and retained35--39 acquisitions, including enabled patches and optimized routes.|Preserve actual-index signed profiles and phase scaling; avoid repeating finished54/55 counts.|Closure not sealed; runner required.|
 |61: uniform43--48|25 selected cutoff44 actions and six cutoff43 entry scopes, including full LOW replays.|Share the actual completed12 retained49 suite; retain every remaining nested native action.|Closure not sealed; runner required.|
@@ -74,3 +75,15 @@ The source and action anchors are
 [the end-to-end roadmap](remaining_work_roadmap.md).
 These are dependencies of implementation, not a request for new standalone
 audit documents. No final notebook total or global completion is asserted.
+
+## Inventory boundary before giving a final notebook count
+
+The remaining implementation list above is not a complete native-action DAG.
+It cannot support a final notebook count. Required closure work must enumerate
+all selected numerical entry calls and their full nested calls, distinguish
+exact reusable completed evidence from retained premises, identify metadata
+ports and missing bytes, and record all semantic joins. Grouping these calls
+into files comes afterwards. A newly located ancestor is required work already
+implicit in the chosen proof route, not evidence of completed prior coverage.
+Earlier suggestions that only a few final notebooks remained were premature.
+No final total is asserted while any selected source/dependency scope is open.

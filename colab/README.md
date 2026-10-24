@@ -539,3 +539,12 @@ list. Nine completed INITIAL stages remain reusable. The nine resource jobs
 still require full execution; recovery alone does not complete the notebook.
 The immutable runtime is `0fca8c5cc99a9fb4f283315ec8a843bebe455770`.
 See [recovery and actual readback](../proof/finite69_caps_recovery.md).
+
+##58G: supported same-law19/20 B0/BN Fourier
+
+Use Run all with the same Drive. Four original calls plan, construct, replay
+and independent readback cover literal19and20 on both closed bands. The
+immutable runtime is `191a55e2a803d42989f94a557e6cd503f4097fba`.
+The support-radius3premise and subsequent actual20 feedback/INITIAL/resource
+joins remain separate. Only a fully revalidated whole transaction is reused.
+See [exact execution scope](../proof/finite1920_feedback_execution.md).
