@@ -211,8 +211,12 @@ class CompleteNativeLayers(Fixture):
         for name in(src.AUDIT+"OWN_RESULT.json",src.epoch.OWN+"construct01/RESULT.json",src.epoch.OWN+"replay01/RESULT.json",
             "work/cutoff6_20261020/entry/resource7_9_v2/check_caps.py"):
             graph[name]=src.digest(capsule/name)
-        caps=dict(status="PASS_EXACT_TIGHTER_LITERAL7_9_OWNCAPS",negative_controls=17,files_sha256=graph,accepted_upper={})
-        write(capsule/src.CAPS,caps);write(task/"provenance/ORIGINAL_CAPS.json",b"SYNTHETIC PIN ONLY\n")
+        control_names=["missing row","duplicate row","reordered row","wrong actual n","boolean n",
+            "wrong normalization","wrong radius","wrong seam","too-small cap B07","too-small cap B08",
+            "too-small cap B09","too-small cap BN7","too-small cap BN8","too-small cap BN9",
+            "too-small cap B27","too-small cap B28","too-small cap B29"]
+        caps=dict(status="PASS_EXACT_TIGHTER_LITERAL7_9_OWNCAPS",negative_controls=control_names,files_sha256=graph,accepted_upper={})
+        write(capsule/src.CAPS,caps);write(task/"provenance/ORIGINAL_CAPS.json",dict(negative_controls=control_names))
         stdout["caps"]=caps["status"]+" 17\n"
         request=dict(original_task_root=original);report=dict(python_executable=python,python_version=version)
         return task,request,stdout,report

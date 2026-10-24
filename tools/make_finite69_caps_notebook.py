@@ -15,24 +15,24 @@ NAME='46_n7_9_conditional_caps_resources'
 def build(pin):
     if type(pin)is not str or re.fullmatch('[0-9a-f]{40}',pin)is None or pin=='0'*40:
         raise ValueError('A nonplaceholder immutable full runtime commit is required')
-    intro='''# Berry–Esseen: n7–9 — fresh CAPS and conditional resources
+    intro='''# Berry--Esseen: n7--9 - fresh CAPS and conditional resources
 
-Select **Runtime → Run all** and authorize the same Google Drive used by the
+Select **Runtime -> Run all** and authorize the same Google Drive used by the
 other proof jobs. CPU or GPU sessions can be used; the mathematical work uses
 the CPU. Source archives are downloaded and SHA-checked automatically. Keep
 only one running copy of this numbered job. No source or parameter edits are
 required.
 
-This batch has19complete cache stages: nine selected INITIAL acceptances for
-n7–9, one complete five-process CAPS pipeline, then nine full100-panel resource
-acceptances. Exact compatible completed45INITIAL exports are revalidated and
-reused; missing ones are computed freshly. This does not replace counts40–43.
+This batch has 19 complete cache stages: nine selected INITIAL acceptances for
+n7--9, one complete five-process CAPS pipeline, then nine full 100-panel resource
+acceptances. Exact compatible completed 45 INITIAL exports are revalidated and
+reused; missing ones are computed freshly. This does not replace counts 40--43.
 
 The CAPS pipeline plans, constructs, replays, reads back and checks the fresh
 86-strip certificate as one atomic stage. NumPy is required by the unchanged
 discovery planner; the exact acceptance stages validate its candidate. Its
 installed version is recorded before numerical work. If the new planner does
-not produce the original required86strips, the stage fails and saves diagnostics.
+not produce the original required 86 strips, the stage fails and saves diagnostics.
 No successful completion or whole-batch runtime is promised.
 
 Fresh INITIAL and CAPS outputs form an explicit new evidence epoch. Historical
@@ -41,17 +41,26 @@ The nine resource jobs consume the fresh checked graph, with their original
 exact mathematical checks and controls preserved. Only the documented path
 rebinding sends preparation/source-result outputs to new explicit filenames.
 
-Only complete stages with a validated ZIP and SHA sidecar are reused. Run all
-again with this same pinned notebook to restore them. Interrupted CAPS work
-restarts its whole five-process stage; partial numerical work is not accepted.
-Progress is printed every20seconds, logs are backed up every60seconds, and a
+Only complete stages with a validated ZIP and SHA sidecar are reused. Before
+execution, this notebook also checks the one known saved bundle whose five CAPS
+actions finished but whose older wrapper rejected the final control-list type.
+The original observed ledger, all sources, commands, streams, stopped outputs
+and all native controls must pass the current full reader before a truthful new
+completion ledger and normal cache are created. No arithmetic is rerun for that
+recovery, and no original execution receipt is rewritten. A mismatched saved
+bundle stops recovery. If that bundle is absent, normal full execution proceeds.
+
+Run all again with this pinned notebook to restore complete stages. Other
+interrupted CAPS work restarts its whole five-process stage; partial numerical
+work is not accepted. Progress is printed every 20 seconds, logs back up every
+60 seconds, and a
 final results ZIP is saved on success or handled failure.
 
-Each stage has a BASIC2GiB memory policy,43,200-second per-process CPU ceiling
-and54,000-second external wall ceiling. Sampled live-group CPU/RSS and per-process
+Each stage has a BASIC 2 GiB memory policy, 43,200-second per-process CPU ceiling
+and 54,000-second external wall ceiling. Sampled live-group CPU/RSS and per-process
 hard limits do not provide cumulative reaped-child CPU, aggregate kernel memory
 enforcement or cgroup/Windows-Job equivalence. These budgets are not timing
-estimates. Native-platform acceptance, full finite6–9 conclusions and the
+estimates. Native-platform acceptance, full finite 6--9 conclusions and the
 all-index theorem remain false. Support/Fourier, predecessor, physical and
 final semantic joins remain separate mathematical obligations.
 '''
@@ -72,8 +81,13 @@ print("Finite6–9 CAPS infrastructure fixtures: PASS.", flush=True)
     preflight='''import numpy
 print("Discovery planner NumPy version:", numpy.__version__, flush=True)
 '''
+    recovery='''from be_replay.finite69_caps_recovery import recover_saved_owncaps
+OWNCAPS_RECOVERY = recover_saved_owncaps(durable_root=DURABLE)
+print("Saved owncaps recovery:", OWNCAPS_RECOVERY["state"], flush=True)
+'''
     cells=[base.cell('markdown',intro,'instructions'),*base.common(pin,'finite69-caps'),
            base.cell('code',fixtures,'finite69-caps-fixtures'),
+           base.cell('code',recovery,'saved-owncaps-recovery'),
            base.cell('code',preflight,'numpy-discovery-preflight'),
            base.cell('code','from be_replay.finite69_caps import run_colab\n'
                      'RESULT = run_colab(durable_root=DURABLE, backup_interval=60)\n','execute-task'),base.finish()]

@@ -1210,3 +1210,23 @@ and saves `finite1014-supported/20261023T232402Z-d516197a/20261023T232402Z-d5161
 This confirms the reported scoped execution ending. It does not replace actual
 full export validation, support acquisition or the final56/COUNT/global joins.
 No repeated successful56B arithmetic is queued.
+
+## Notebook46: saved full owncaps execution recovered after reader schema bug
+
+The supplied final cell reports incomplete_selected_conditional_caps_resource_arithmetic,
+not completion. The actual7839135-byte final ZIP20261023T221209Z-33953096 has
+SHA2564f356469cf741ebeb054fbcbb8b93f4264b5064ffa872e33a2b196240265c2a7.
+It retains all five full owncaps actions and344Fourier rows. The wrapper had
+misread the original CAPS list of17control names as an integer17. The corrected
+reader requires the exact complete original list and the corresponding terminal.
+
+Actual source, launch, stopped capture, whole result, independent readback and
+CAPS validation now pass. Pure recovery creates an explicit current-reader
+admission and completed ledger while preserving all235original files and the
+old observed ledger byte-for-byte. Saving, relocating and fully restoring the
+normal completed cache also pass, without original numerical execution.
+All45clean source/synthetic recovery fixtures pass. See
+[the recovery protocol](finite69_caps_recovery.md) and
+[sanitized actual readback](finite69_caps_recovery_validation.json).
+The corrected46reuses the nine INITIAL jobs and the recovered owncaps stage,
+then continues the nine resources. Its full19-stage batch remains unobserved.

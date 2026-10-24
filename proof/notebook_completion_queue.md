@@ -18,7 +18,7 @@ external inputs to be checked; writing the paper is not the only later step.
 | Unit | Last supplied execution observation | Next action |
 | --- | --- | --- |
 |35|Wrapper failed after support/HIGH/owncaps and full INITIAL.B0; actual INITIAL recovered/revalidated without mathematical replay.|Use corrected pinned35 with the same Drive; preserve and revalidate all four completed jobs.|
-|46|Saved run failed after all five owncaps actions because the wrapper expected an integer where the original CAPS stores the exact list of17 controls.|Corrected reader and pure saved-execution recovery in validation; preserve nine INITIAL stages and the completed owncaps calculation.|
+|46|Saved run failed after all five owncaps actions because the wrapper expected an integer where the original CAPS stores the exact list of17 controls.|Actual pure full readback and cache recovery/restore PASS; corrected pinned46reuses nine INITIAL stages and owncaps, then runs the remaining resources.|
 |55|No final completion supplied.|Let the valid running job finish; preserve completed stages.|
 |30|30/30forests,60270leaves; final selected_retained_count_arithmetic_accepted and ZIP saved.|Preserve export; no repeated count run queued.|
 |56A|Final `complete_conditional_auxiliary9_14_sublane_basic`, ZIP saved.|Preserve export; no repeated Fourier calculation queued.|

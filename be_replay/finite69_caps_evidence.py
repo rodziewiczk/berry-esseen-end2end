@@ -33,6 +33,34 @@ def implementation():
     return {n:src.digest(src.ROOT/"be_replay"/n)for n in names}|{"catalog_sha256":src.CATALOG_SHA256}
 
 
+LEGACY_CAPS_READER_SHA256="3951a1f31e8eb8b4655e5220f939784eab72b18cac4f40b3792a3bb914ce7743"
+RECOVERY_BUNDLE_SHA256="4f356469cf741ebeb054fbcbb8b93f4264b5064ffa872e33a2b196240265c2a7"
+
+
+def compatible_observed_implementation(value):
+    current=implementation()
+    return same(value,current)or same(value,dict(current,**{"finite69_caps_evidence.py":LEGACY_CAPS_READER_SHA256}))
+
+
+def saved_observed_admission(task):
+    """Explicit current-reader recovery of preserved original execution bytes."""
+    report=src.read(Path(task)/"STAGE_OBSERVED.json")
+    src.need(compatible_observed_implementation(report["implementation"])
+             and report["implementation"]["finite69_caps_evidence.py"]==LEGACY_CAPS_READER_SHA256,
+             "One exact previous execution reader, all other implementation/source pins unchanged")
+    return dict(schema="FINITE69_CAPS_CURRENT_READER_RECOVERY_ADMISSION_V1",source_bundle_sha256=RECOVERY_BUNDLE_SHA256,
+        original_observed_sha256=src.digest(Path(task)/"STAGE_OBSERVED.json"),
+        original_execution_implementation=report["implementation"],current_reader_implementation=implementation(),
+        original_execution_bytes_unchanged=True,mathematical_replay=False,**{f:False for f in FLAGS})
+
+
+def validate_caps_controls(caps,stdout,expected):
+    src.need(type(expected)is list and len(expected)==17 and all(type(name)is str for name in expected)
+        and len(set(expected))==17 and type(caps["negative_controls"])is list
+        and same(caps["negative_controls"],expected)and stdout.strip()==caps["status"]+" 17",
+        "Fresh tighter CAPS receipt with the exact original list of17 controls")
+
+
 def inventory(task):
     result={}
     for p in sorted(Path(task).rglob("*")):
@@ -182,8 +210,7 @@ def own_summary(task,request,stdout,report):
         src.catalog()["original_source_pins"],actual)
     for packet in(result,caps):
         src.need(all(src.digest(capsule/p)==pin for p,pin in packet["files_sha256"].items()),"Whole actual native readback ancestor graph")
-    src.need(stdout["caps"].strip()==caps["status"]+" 17"and caps["negative_controls"]==17
-        and type(caps["negative_controls"])is int,"Fresh tighter CAPS receipt and17 controls")
+    validate_caps_controls(caps,stdout["caps"],src.read(Path(task)/"provenance/ORIGINAL_CAPS.json")["negative_controls"])
     return dict(kind="owncaps",job_id="owncaps6_9",receipt_relative="capsule/"+src.CAPS,receipt_sha256=src.digest(capsule/src.CAPS),
         strips=86,whole_rows=344,selected_n_rows=258,native_controls=native_controls,readback_controls=28,caps_controls=17,
         accepted_upper=caps["accepted_upper"],fresh_initial_binding_verified=False,conditional_arithmetic_completed=True)
@@ -231,7 +258,7 @@ def resource_summary(task,request,stdout):
 def validate_run(task,report):
     task=Path(task);request=src.verify_job(task)
     src.need(report["schema"]==OBSERVED and report["scope"]==SCOPE and report["job_id"]==request["job_id"]
-        and same(report["implementation"],implementation())and report["original_task_root"]==request["original_task_root"]
+        and compatible_observed_implementation(report["implementation"])and report["original_task_root"]==request["original_task_root"]
         and report["conditional_arithmetic_completed"]is False and all(report[f]is False for f in FLAGS),"Exact observed source epoch and false-to-complete transition")
     src.need(type(report["python_executable"])is str and PurePosixPath(report["python_executable"]).is_absolute()
         and PurePosixPath(report["python_executable"]).name.startswith("python")
@@ -246,6 +273,9 @@ def validate_completed(task, *,original_task_root=None):
     task=Path(task);request=src.verify_job(task)
     src.need(original_task_root is None or str(original_task_root)==request["original_task_root"],"One explicit original execution root")
     observed=src.read(task/"STAGE_OBSERVED.json");complete=src.read(task/"STAGE_COMPLETED.json");summary=validate_run(task,observed)
+    if not same(observed["implementation"],implementation()):
+        src.need((task/"RECOVERY_ADMISSION.json").read_bytes()==src.dump(saved_observed_admission(task)),
+                 "Explicit current-reader admission for the exact original saved execution")
     src.need(complete["schema"]==COMPLETED and complete["scope"]==SCOPE and complete["job_id"]==request["job_id"]
         and same(complete["implementation"],observed["implementation"])and complete["observed_sha256"]==src.digest(task/"STAGE_OBSERVED.json")
         and complete["conditional_arithmetic_completed"]is True and same(complete["summary"],summary)
