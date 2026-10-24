@@ -99,3 +99,17 @@ complete pipelines, current-receipt source ports, strict output projections,
 stopped copies, failure exports, relocated complete-cache reuse and generator
 failure gates. This validates the execution plumbing; it is not an arithmetic
 replay or external mathematical verification.
+
+The corrected 59C reader preserves the source plan's Python 3.12 AST spelling
+explicitly, including empty list fields. Python 3.13 changed the default
+`ast.dump` display and can omit `keywords=[]` from the sealed inline-call
+descriptor. The deterministic field formatter avoids that display dependency;
+the exact assignment/key/inline positions, original literals, byte inverse and
+whole-module structural equality remain required. No plan, original source,
+mathematical gate, target, domain or execution budget changes in this repair.
+
+The corrected-reader clean checkout run passed all 18 fixtures (zero skips),
+including the simulated Python 3.13 empty-field display regression. Source-only
+admission also checked all 13 original port descriptors, all 14 output
+projections and both 48-input / 34-active-input preparations. This does not
+constitute a native mathematical replay.

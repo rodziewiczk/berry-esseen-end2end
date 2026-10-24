@@ -1,0 +1,179 @@
+\section{A wider window and two finite Gaussian integrals}
+\label{high50:window}
+This section refines the complete six-piece high-frequency estimate.
+It is a conditional analytic component; it does not assert cutoff $50$.
+Let $EX=0$, $EX^2=1$, $EX^4\le M$, and write
+$\gamma=EX^3$, $f(t)=Ee^{itX}$. For independent copies suppose an
+actual event $E$ satisfies
+\[
+ P(E)\ge a>0,\qquad |X-X'|\ge d_0>0\text{ on }E,\qquad
+ E[(X-X')^2\mid E]\le M_E.
+\]
+The event is measured under the product of the same marginal law.
+Define the Taylor comparator
+$e_n(t)=e^{-nt^2/2}(1-in\gamma t^3/6)$ and
+\[
+ I_\infty=\int_{1/2}^{\infty}|f(t)^n-e_n(t)|t^{-3}\,dt,
+ \qquad L(x)=\frac{x+2}{x^2+4x+2}.
+\]
+The sign of the imaginary term is immaterial for its absolute-value bound.
+Use $b=9/10$, $0<r\le1/4$,
+\begin{gather*}
+ h=\frac{333}{106}-\frac{(22/7)^3r^2}{6}>0,\quad
+ \kappa=a(23/48)^2d_0^2,\\
+ S_3=\sum_{j=1}^{20}j^{-3}+\frac1{800},\qquad
+ S_5=\sum_{j=1}^{20}(j-r)^{-5}+\frac1{4(20-r)^4}.
+\end{gather*}
+Set
+\[
+ c=\frac{1-\max_{u\in\{1/4,81/100\}}
+              [1-u+(M+3)u^2/12]}2,\qquad
+ c_0=\frac18-\frac{M+3}{384},\quad
+ s=\frac{1-(M+3)53/600}{2}.
+\]
+The usual damping domain requires $c>0$.
+
+\begin{lemma}[HIGH\_WINDOW50]
+For every integer $n\ge5$, the complete upper bound is
+\begin{align*}
+ \sqrt n I_\infty\le{}& A_n
+ +\frac{M_E}{4\pi^{3/2}h\sqrt a}
+       \left(S_3+\frac{3S_5}{nah^2}\right)
+ +\frac{M_E\sqrt n}{2\pi^2}e^{-nah^2r^2}\\
+ &+Z_n+\frac{\sqrt n}{2b^2}e^{-na(23/48)^2}
+ +\sqrt n e^{-n/8}\left(2L(n/8)+\frac{\sqrt{M-1}}3\right),
+\end{align*}
+where always $A_n=2\sqrt n e^{-nc}$ is permitted, and, if $s>0$,
+it can be replaced by the smaller of itself and
+\[
+ 2\sqrt n e^{-nc_0}L(ns/4).
+\]
+The zero-cell term $Z_n$ may be taken as the smaller of
+\[
+ \frac{e^{-n\kappa b^2}}{2b^4\kappa\sqrt n},\qquad
+ \frac{\sqrt n e^{-n\kappa b^2}}{2b^2}L(n\kappa b^2).
+\]
+Each term may be evaluated at a common floor $N$ for all $n\ge N$
+provided
+\[
+ 2Nc'>1\quad(c'\in\{c,ah^2r^2,a(23/48)^2,1/8\}).
+\]
+For the new first term also require $2Nc_0>1$;
+for the second zero-cell option require $N\kappa b^2\ge1/4$.
+If either extra condition is unavailable, retain the corresponding old term.
+Any fixed collection of permitted windows may be evaluated, and the minimum
+of its complete six-term bounds remains valid.
+\end{lemma}
+
+\begin{proof}
+We give the entire frequency partition to make clear what changes.
+On $[1/2,b]$, symmetrization and
+$\cos u\le1-u^2/2+u^4/24$ yield
+\[
+ |f(t)|^2\le1-t^2+(M+3)t^4/12,
+ \qquad |f(t)|^n\le e^{-n c(t^2)},
+ \quad c(u)=u/2-(M+3)u^2/24.
+\]
+Bounding $c(t^2)$ below by $c$ and using
+$\int_{1/2}^{b}t^{-3}dt<2$ gives the old first term.
+Concavity supplies the more precise chord bound
+\[
+ c(u)\ge c_0+s(u-1/4),\qquad 1/4\le u\le81/100,
+\]
+because the difference is exactly
+$(M+3)(u-1/4)(81/100-u)/24$. If $s>0$, extend only the resulting
+positive exponential majorant to the half-line. The preceding rational
+Gaussian-tail lemma, with lower endpoint $1/2$, gives
+\[
+ \sqrt n\int_{1/2}^{b}e^{-nc(t^2)}t^{-3}dt
+ \le e^{-n(c_0-s/4)}\sqrt n
+       \int_{1/2}^{\infty}e^{-ns t^2}t^{-3}dt
+ \le2\sqrt n e^{-nc_0}L(ns/4).
+\]
+
+For $t\ge b$, conditioning on the actual event and convex Jensen give
+\[
+ |f(t)|^n\le e^{-nE\sin^2(t(X-X')/2)}
+ \le E[e^{-na\sin^2(td/2)}\mid E],\qquad d=|X-X'|.
+\]
+Positive Tonelli allows a separate partition for every $d>0$.
+Put $\ell=2\pi/d$. The zero cell is $[0,\ell/2]$; the other cells are
+$\ell[j-1/2,j+1/2]$, $j\ge1$. In each nonzero cell take the core
+$t=\ell(j+v)$, $|v|\le r$. These cores are disjoint even for $r\le1/2$.
+For our smaller range $r\le1/4$, the elementary sine bound gives
+$|\sin(\pi v)|\ge h|v|$ throughout a core, and
+$|\sin(\pi v)|\ge hr$ throughout its wings. The latter uses that
+$\sin(\pi|v|)$ increases on $[0,1/2]$.
+
+Since $j-r>0$, Taylor's formula on the two sides gives
+\[
+ \frac{(j-v)^{-3}+(j+v)^{-3}}2
+ \le j^{-3}+6(j-r)^{-5}v^2.
+\]
+Integrate this majorant against $e^{-nah^2v^2}$ on the full real line.
+The result is
+$\sqrt\pi[j^{-3}/\sqrt{nah^2}
+  +3(j-r)^{-5}/(nah^2)^{3/2}]$.
+The Jacobian is
+$t^{-3}dt=d^2(4\pi^2)^{-1}(j+v)^{-3}dv$.
+Summing and averaging $d^2$ gives the second term. The two series tails
+are bounded by their decreasing integrals after $20$, producing exactly
+$S_3,S_5$. The total wing weight is at most
+$\int_{\ell/2}^{\infty}t^{-3}dt=d^2/(2\pi^2)$, giving the third term.
+Extending cores or wings below $b$ only adds a positive integral.
+
+In the zero cell write $u=td/2\le\pi/2$.
+For $u\le1/2$, use $\sin u\ge(23/24)u$ and the rational
+Gaussian-tail lemma with rate $\kappa$; its two choices give $Z_n$.
+For $u\ge1/2$, use $\sin u\ge23/48$ and total weight
+$1/(2b^2)$, giving the fifth term. Shared endpoints have zero integration
+measure, including when the conditional distance distribution has atoms.
+
+Finally keep the comparator on the entire interval $[1/2,\infty)$.
+Its absolute-value bound splits its integral into
+\[
+ \sqrt n\int_{1/2}^{\infty}e^{-nt^2/2}t^{-3}dt
+ +\frac{n^{3/2}|\gamma|}{6}
+                 \int_{1/2}^{\infty}e^{-nt^2/2}dt.
+\]
+The first part is at most $2\sqrt n e^{-n/8}L(n/8)$.
+For the second, $t\ge1/2$ implies
+\[
+ \int_{1/2}^{\infty}e^{-nt^2/2}dt
+ \le2\int_{1/2}^{\infty}t e^{-nt^2/2}dt
+ =2e^{-n/8}/n.
+\]
+Pearson's elementary identity
+$E[(X^2-1-\gamma X)^2]=EX^4-1-\gamma^2\ge0$
+gives $|\gamma|\le\sqrt{M-1}$ and proves the sixth term.
+
+For uniformity, $\sqrt n e^{-nc'}$ decreases when $2nc'>1$,
+whereas $n^{-1}$ and $n^{-1/2}e^{-nc'}$ always decrease.
+The derivative of $L(x)$ is
+$-(x^2+4x+6)/(x^2+4x+2)^2<0$.
+The new first term is thus decreasing under its stated gate, and the
+comparator decreases for every $n\ge5$. The earlier tail lemma proves
+the separate $N\kappa b^2\ge1/4$ gate for its new zero-cell option.
+These comparisons concern the bounding expressions, so they are uniform
+even when the marginal law varies with $n$.
+\end{proof}
+
+\paragraph{Fixed implementation and scope.}
+\texttt{high\_window\_core.py} preserves all six terms, uses outward rational
+roots and exponential bounds from the accepted arithmetic kernel, and checks
+every positive damping gate before substitution of $N$. Its fixed window
+pool is the supplied old window together with
+$1/8,.16,.18,.20,.22,.25$. The proof does not claim that this finite pool
+contains an optimal window; each member is an independent valid upper bound.
+The checker \texttt{accept\_high\_window50.py} reconstructs the chord,
+Laguerre derivative, scaling and Pearson identities and rejects malformed
+formulas and invalid numerical domains. It also checks three named example
+tuples $(N,a,M_E,d_0,M)$, whose complete bounds are respectively
+less than $.174,.162,.171$:
+\[
+ (45,.48,25/6,1.8,1.5),\quad
+ (47,.48,25/6,1.9,1.5),\quad
+ (50,.45,40/9,1.8,2).
+\]
+These examples are conditional arithmetic claims, not assertions that an
+unrestricted optimizing law satisfies their moment and event premises.

@@ -1,0 +1,39 @@
+Stronger opposite-sign event distance from the endpoint product price
+===================================================================
+
+Retain the hypotheses and notation of SIGNED_ENDPOINT_PRICE.txt. In
+particular A,B are actual nonnegative physical support endpoints, m>0,
+m<=mu, and 6*m*A*B>=P>0 for the same law. Then
+
+ (A+B)^2 >= 4*A*B >= 2*P/(3*m) >= 2*P/(3*mu).
+
+The first inequality is the identity (A+B)^2-4AB=(A-B)^2>=0; the two later
+inequalities use only the proved product price and positive mu. Thus a
+directed square-root lower bound on 2*P/(3*mu) is an acquired lower bound
+for the actual distance between the negative and positive support classes.
+Every pair in the existing opposite-sign HIGH event has at least this
+distance. The same event probability and conditional squared-distance upper
+bound may be retained; all HIGH parameter and monotonicity gates must be
+checked for the selected candidate as usual.
+
+In INITIAL one may replace its old gap2 by
+ max(old_gap2, 2*P/(3*mu)),
+where P=max((SL-1)*rho_lower,SL*rho_lower-gamma_upper)-D_upper.
+If separately acquired endpoint floors are available, their squared sum is
+another valid lower bound to include in that maximum. No independent law
+or separately spent defect budget is introduced.
+
+Even the unsigned P0=(SL-1)*rho_lower-D_upper improves on the old expression
+gap2=P0/((SL-1)*mu), because SL>5/2 gives2/3>1/(SL-1). This comparison
+assumes P0>0, which is precisely the retained old positive-gap gate.
+Using the stronger signed P can improve the distance further.
+
+For a resource initialization which only uses m<=1/2, the valid new distance
+is sqrt_lower(4*P/3). It may replace or be maximized with the former lower
+gap bound in the positive-gap joint displacement estimate. Later updates
+can use their acquired tighter mu and endpoints. The old positive-gap gate,
+same-law inputs and all divisions/phase/moment checks are retained.
+
+This is an analytic corollary, not a numerical INITIAL/resource certificate.
+It never uses the rejected beta-based price. Exact accepted applications
+must bind this note and the valid signed-price note with their sources.

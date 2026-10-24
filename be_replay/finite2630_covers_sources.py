@@ -72,6 +72,28 @@ def node_at(tree,path):
  for field in path:node=node[field]if type(field)is int else getattr(node,field)
  return node
 
+def frozen_ast_dump(node):
+ """Preserve the sealed Python3.12 AST spelling, including empty list fields.
+
+ Python3.13 ast.dump omits empty optional lists by default. These frozen
+ descriptors intentionally bind the full3.12 field spelling. Format actual
+ AST fields directly; never evaluate or parse a descriptor as Python code.
+ Optional None fields follow the original3.12 ast.dump rule.
+ """
+ need(isinstance(node,ast.AST),'An actual parsed AST node is required')
+ def format_value(value):
+  if isinstance(value,ast.AST):
+   fields=[]
+   for name in value._fields:
+    if not hasattr(value,name):continue
+    child=getattr(value,name)
+    if child is None and getattr(type(value),name,...)is None:continue
+    fields.append(name+'='+format_value(child))
+   return type(value).__name__+'('+', '.join(fields)+')'
+  if isinstance(value,list):return'['+', '.join(format_value(v)for v in value)+']'
+  return repr(value)
+ return format_value(node)
+
 def derive_source(original,row,dependencies):
  need(type(original)is bytes and hashlib.sha256(original).hexdigest()==row['script_sha256'],'Exact original native control/wrapper source')
  ports=row['receipt_ports'];need(type(dependencies)is dict and set(dependencies)=={p['dependency']for p in ports},'Exactly the preceding genuine receipt inputs')
@@ -86,10 +108,10 @@ def derive_source(original,row,dependencies):
    need(len(assignments)==1 and len(assignments[0].targets)==1 and any(n is node for n in ast.walk(assignments[0])),'Unique exact top-level configuration assignment')
    if spec['key_ast']is not None:
     value=assignments[0].value;need(isinstance(value,ast.Dict),'Literal source-pin dictionary')
-    keys=[k for k,v in zip(value.keys,value.values)if v is node];need(len(keys)==1 and ast.dump(keys[0],include_attributes=False)==spec['key_ast'],'Exact original dictionary key position')
+    keys=[k for k,v in zip(value.keys,value.values)if v is node];need(len(keys)==1 and frozen_ast_dump(keys[0])==spec['key_ast'],'Exact original dictionary key position')
   else:
    comparisons=[n for n in ast.walk(tree)if isinstance(n,ast.Compare)and any(v is node for v in n.comparators)]
-   need(len(comparisons)==1 and ast.dump(comparisons[0].left,include_attributes=False)==spec['inline_comparison_left_ast'],'Exact original inline source-hash comparison')
+   need(len(comparisons)==1 and frozen_ast_dump(comparisons[0].left)==spec['inline_comparison_left_ast'],'Exact original inline source-hash comparison')
   a=sum(map(len,lines[:node.lineno-1]))+node.col_offset;b=sum(map(len,lines[:node.end_lineno-1]))+node.end_col_offset
   token=original[a:b];need(token in[(q+old+q).encode()for q in("'",'"')],'One ordinary literal SHA token only')
   edits.append((a,b,token,token[:1]+new.encode()+token[-1:]));paths.append(spec['constant_ast_path']);evidence.append(dict(original_sha256=old,current_sha256=new,dependency=spec['dependency'],constant_ast_path=spec['constant_ast_path']))
@@ -101,7 +123,7 @@ def derive_source(original,row,dependencies):
  after=ast.parse(derived.decode('utf-8'))
  for module in(tree,after):
   for path in paths:node_at(module,path).value='APPROVED_RECEIPT_SHA_ONLY'
- need(ast.dump(tree,include_attributes=False)==ast.dump(after,include_attributes=False),'Whole module AST identity except exact receipt checksum constants')
+ need(frozen_ast_dump(tree)==frozen_ast_dump(after),'Whole module AST identity except exact receipt checksum constants')
  return derived,dict(original_source_sha256=hashlib.sha256(original).hexdigest(),derived_source_sha256=hashlib.sha256(derived).hexdigest(),
   receipt_bindings=evidence,all_other_bytes_unchanged=True,all_other_module_ast_nodes_unchanged=True)
 

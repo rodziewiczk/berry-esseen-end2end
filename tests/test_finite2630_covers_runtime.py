@@ -1,5 +1,5 @@
 """59B/C fake-supervisor infrastructure; all mathematical source files are traps."""
-import ast,copy,hashlib,io,json,shutil,tempfile,unittest,zipfile
+import ast,copy,hashlib,inspect,io,json,shutil,tempfile,unittest,zipfile
 from pathlib import Path
 from unittest.mock import patch,Mock
 from be_replay import finite2630_covers_sources as s,finite2630_covers_evidence as e,finite2630_covers as r
@@ -124,6 +124,28 @@ class Covers(unittest.TestCase):
   wrong=copy.deepcopy(row);wrong['receipt_ports'][0]['key_ast']=ast.dump(ast.Constant(value='wrong'),include_attributes=False)
   with self.assertRaises(ValueError):s.derive_source(raw,wrong,deps)
   with self.assertRaises(ValueError):s.derive_source(raw,row,{})
+
+ def test_python313_empty_field_dump_does_not_weaken_inline_or_key_guards(self):
+  pin='a'*64;raw=("def main():\n need(sha(B / 'CHECKED.json') == '"+pin+"', 'exact source')\n").encode()
+  tree=ast.parse(raw);route,node=next((p,n)for p,n in ast_paths(tree)if isinstance(n,ast.Constant)and n.value==pin)
+  left="Call(func=Name(id='sha', ctx=Load()), args=[BinOp(left=Name(id='B', ctx=Load()), op=Div(), right=Constant(value='CHECKED.json'))], keywords=[])"
+  comparison=next(n for n in ast.walk(tree)if isinstance(n,ast.Compare));self.assertEqual(s.frozen_ast_dump(comparison.left),left)
+  row=dict(script_sha256=hashlib.sha256(raw).hexdigest(),receipt_ports=[dict(original_sha256=pin,dependency='CHECKED.json',constant_ast_path=list(route),assignment=None,key_ast=None,inline_comparison_left_ast=left)])
+  original_dump=ast.dump
+  def python313_default(node,**kw):return original_dump(node,**kw).replace(', keywords=[]','').replace(', type_ignores=[]','')
+  self.assertNotEqual(python313_default(comparison.left,include_attributes=False),left)
+  with patch.object(ast,'dump',side_effect=python313_default):
+   derived,report=s.derive_source(raw,row,{'CHECKED.json':'b'*64});self.assertEqual(derived,raw.replace(pin.encode(),b'b'*64))
+   self.assertTrue(report['all_other_bytes_unchanged']);self.assertTrue(report['all_other_module_ast_nodes_unchanged'])
+   bad=copy.deepcopy(row);bad['receipt_ports'][0]['inline_comparison_left_ast']=left.replace("id='sha'","id='wrong'")
+   with self.assertRaises(ValueError):s.derive_source(raw,bad,{'CHECKED.json':'b'*64})
+   configured=self.plan['stages']['absmean_controls'];source=(self.cache/configured['directory']/configured['script']).read_bytes()
+   deps={v['dependency']:'1'*64 for v in configured['receipt_ports']};s.derive_source(source,configured,deps)
+   bad=copy.deepcopy(configured);bad['receipt_ports'][0]['key_ast']="Constant(value='not-the-key')"
+   with self.assertRaises(ValueError):s.derive_source(source,bad,deps)
+  full_fields={'include_attributes':False}
+  if 'show_empty'in inspect.signature(original_dump).parameters:full_fields['show_empty']=True
+  for node in ast.walk(tree):self.assertEqual(s.frozen_ast_dump(node),original_dump(node,**full_fields))
 
  def test_unenumerated_nested_seconds_is_not_discarded_from_mathematical_projection(self):
   self.mutate=lambda name,d:d.update(unknown={'seconds':123})if name=='utility'else None

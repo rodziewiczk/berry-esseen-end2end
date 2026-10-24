@@ -1,0 +1,38 @@
+{
+  "archive": {
+    "bytes": 514958998,
+    "name": "cutoff25_20261011.zip",
+    "sha256": "17fa140f63c5134ac48f1fd1040f4c5ae4bebdb2b92b2d7ce69f4048293d1fcb",
+    "url": "https://github.com/rodziewiczk/berry-esseen-045-certificate/releases/download/cutoff20-sources-2026-10-17/cutoff25_20261011.zip"
+  },
+  "arithmetic_computed": false,
+  "license_sha256": "a34b9cee3859b8bc6a6ced1bedb56771244d8b6cfc38f2749dc2e776ca19ee95",
+  "members": [
+    {
+      "bytes": 566,
+      "logical_path": "work/cutoff25_20261011/new_middle/b5_exact2_v1/resource_exact/HIGH_CONSTANTS_PROOF.txt",
+      "member": "cutoff25_20261011/new_middle/b5_exact2_v1/resource_exact/HIGH_CONSTANTS_PROOF.txt",
+      "sha256": "f8d03be41c5c573b255ba03f8966ab8e038f833a83bd803d12b26e6ff887a16f"
+    },
+    {
+      "bytes": 5007,
+      "logical_path": "work/cutoff25_20261011/new_middle/b5_exact2_v1/resource_exact/POSITIVE_GAP_RESOURCE_EXTENSION.txt",
+      "member": "cutoff25_20261011/new_middle/b5_exact2_v1/resource_exact/POSITIVE_GAP_RESOURCE_EXTENSION.txt",
+      "sha256": "0bf6ae992f6b8c4b8c344b178f715c9717d1083c2fce317b7cdb0dc151e210f2"
+    },
+    {
+      "bytes": 2138,
+      "logical_path": "work/cutoff25_20261011/new_middle/b5_exact2_v1/resource_exact/PRODUCT_GAP_DISTANCE_COROLLARY.txt",
+      "member": "cutoff25_20261011/new_middle/b5_exact2_v1/resource_exact/PRODUCT_GAP_DISTANCE_COROLLARY.txt",
+      "sha256": "a0be5cb015735310e0993e9d6f3636b600b4d82e76a3f5239bef6d126d29b1cb"
+    },
+    {
+      "bytes": 6882,
+      "logical_path": "work/short50_20260930/certificates/work/below50_20260929/entry/high_window50_proof.tex",
+      "member": "cutoff25_20261011/BE_cutoff35_release_20261007/work/cutoff40_release_20261007/work/toward40_20261007/audit43/capsule/work/below50_push_20260930/release/baseline/certificates/work/below50_20260929/entry/high_window50_proof.tex",
+      "sha256": "1e34cc0ef0c11288d642b1655153dc743c465f7173e0dfdf03f6ef6849ae8828"
+    }
+  ],
+  "original_bytes_unchanged": true,
+  "schema": "ORIGINAL_FINITE1519_CORE_DOCUMENTS_V1"
+}

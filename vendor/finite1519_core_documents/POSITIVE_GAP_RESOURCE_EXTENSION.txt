@@ -1,0 +1,91 @@
+Resource initialization and Fourier event with D allowed above 2
+
+Scope: conditional analytic extension of two specific generic-gap shortcuts.
+This does not acquire support, moments, gap endpoints, INITIAL covers, count
+resources, or any cutoff. Every retained positivity/damping/phase gate stays.
+
+Assume one attained unrestricted contrary witness has been proved to satisfy
+rho>=rho_l>=1, physical defect0<=D<=d with0<d<(sqrt(10)-1)rho_l, an actual central gap
+(-A,B), A,B>0, and p in[l,u] strictly inside(0,1). A previous valid INITIAL
+also provides theta<=Theta<1, and optional nonnegative floors A>=A_l,B>=B_l.
+The strict defect inequality licenses the actual gap by the supplied gap
+identity, before using any sign-conditional decomposition.
+
+1. A positive lower bound for the sum of gap endpoints, without D<2.
+Write sigma=sqrt(10), m=E X_+=E X_-<=1/2. The retained gap decomposition
+implies T_++T_-<=D/(sigma-1) and m(A^2+B^2)=rho-T_+-T_-.
+Consequently
+ (A+B)^2 >= A^2+B^2 >=2rho-2D/(sigma-1).
+If s is a rational lower bound1<s<sigma and d<(s-1)rho_l, then
+ G=sqrt_lower(2rho_l-2d/(s-1))>0
+is valid. It may be replaced by max(G,A_l+B_l) when those floors are valid.
+
+2. Initialize or retain positive endpoints using the existing joint budget.
+The retained simultaneous inequality gives
+ 6m(A+B)(Delta_A+Delta_B)<=D<=d,
+where conditional means have magnitudes Abar=m/(1-p), Bbar=m/p and
+Delta_A=Abar-A, Delta_B=Bbar-B are nonnegative.
+Since m^2=(1-theta)p(1-p), put
+ m_l=sqrt_lower((1-Theta)*min(l(1-l),u(1-u)))>0.
+Then Delta_A+Delta_B<=d/(6m_l G). Therefore
+ A>=max(A_l,sqrt_lower((1-Theta)l/(1-l))-d/(6m_l G)),
+ B>=max(B_l,sqrt_lower((1-Theta)(1-u)/u)-d/(6m_l G)).
+These are exactly the retained initialization formulas with a different,
+proved lower bound G for A+B. If both pre-existing A_l,B_l are positive,
+using them directly is also valid. A nonpositive computed floor is an
+unresolved domain failure, never a law exclusion.
+
+2a. Additional endpoint floors using the literal third-moment lower bound.
+The stronger retained gap-mass estimate is J<=rho+2mAB. Since gamma<=rho,
+ D=(3+sigma)rho-gamma-3J >=(sigma-1)rho-6mAB.
+Put price=(s-1)rho_l-d>0. Since B<=m/p and A<=m/(1-p),
+ mB<=m^2/p=(1-theta)(1-p)<=1-p,
+ mA<=m^2/(1-p)=(1-theta)p<=p.
+Thus the same-law endpoints satisfy
+ A>=price/(6(1-p))>=price/(6(1-l)),
+ B>=price/(6p)>=price/(6u).
+These can be intersected with the previous floors before initialization or
+on each subsequent step with an already proved d andrho_l. This strengthens
+the old price=s-1-d using the actual literalrho_l; no new budget is spent.
+The inequality J<=rho+2mAB follows directly from J=m(A+B)^2+J_outer,
+J_outer<=T_++T_-, andrho=m(A^2+B^2)+T_++T_-.
+
+3. Subsequent generic resource steps.
+The exact same joint budget, binary-square subtraction, residual pricing,
+conditional variance update and endpoint updates apply to any actual positive
+central gap. They have no assumption D<2. The general_cell code must retain
+all its positive coefficient, variance, endpoint, moment and ordering gates.
+Generic initialization via general_geometry(d) is not invoked by this route.
+No estimate containing sqrt(2-d) may be evaluated when d>=2.
+
+4. Complete HIGH event in subsequent general or signed-paired envelopes.
+For E={XX'<0}, P(E)=2p(1-p)>=2min(l(1-l),u(1-u)) and
+|X-X'|>=A+B>=A_l+B_l>0. Its second distance moment is <=2/P(E),
+so the retained HIGH_WINDOW50 theorem applies with
+ d0=A_l+B_l
+or max(A_l+B_l,G), and with all six pieces and damping gates unchanged.
+This replaces only the former max(A_l+B_l,sqrt_lower(2-d)) shortcut.
+The generic and signed-paired formulas must both use the revised event input
+if both are enabled. Their other moment, sign, denominator, actual-C and
+phase-curvature requirements are unchanged; eligibility is not widened by
+this note. The earlier M<3 paired formula is not sufficient for rho_l>=1.75;
+a separately justified general signed-Pearson coefficient theorem is needed.
+
+5. Conserved phase prices.
+The retained phase derivation requires a positive density floor and
+.4095*rho-d/15>0. Those gates must still be checked. The logical scope is the
+actual fixed index; a floor-index nD<=Nd record must first be interpreted as
+an upper bound for the physical D at the actual index. This note does not
+justify copying a noise price between different indices.
+
+References in supplied local material:
+BE_cutoff35_release_20261007/work/complete44_20261006/BE_cutoff44_complete.tex:
+- Removing the Gaussian weight and phase resource, around lines1545–1596;
+- simultaneous gap budget and state update, around lines1640–1740;
+- actual central gap without D<2, around lines1987–2022.
+The independent general signed-Pearson extension is in
+threshold31_20261008/audit/paired_general31/GENERAL_PAIRED_PROOF.txt.
+
+Implementation status: this note is the conditional derivation only. A new,
+separately named implementation must identify every replaced sqrt(2-d), bind
+these premises, and recompute all resources before any count implication.
