@@ -117,6 +117,11 @@ The n15--19 Fourier parts are now separately runnable:
 Each retains all six original literal indices14--19 and all four original
 actions; see [the shared execution scope](proof/finite1519_fourier_execution.md).
 
+[56E_n10_14_supported_high.ipynb](colab/56E_n10_14_supported_high.ipynb)
+executes both full original supported-HIGH passes and the original independent
+readback. Its two specific support radii remain explicit premises; see
+[scope](proof/finite1014_high_execution.md).
+
 The current12-hour settings in RESTART01–07 are budgets, not completion estimates.
 A complete tree still requires a separate full acceptor run. An unfinished tree
 is checkpointed for a compatible rerun.

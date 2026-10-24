@@ -17,11 +17,13 @@ external inputs to be checked; writing the paper is not the only later step.
 
 | Unit | Last supplied execution observation | Next action |
 | --- | --- | --- |
-|30,35,46,55|No final completion supplied for these jobs.|Let valid running jobs finish; reuse complete stages on a corrected rerun if needed.|
+|35,46,55|No final completion supplied for these jobs.|Let valid running jobs finish; reuse complete stages on a corrected rerun if needed.|
+|30|30/30forests,60270leaves; final selected_retained_count_arithmetic_accepted and ZIP saved.|Preserve export; no repeated count run queued.|
 |56A|Final `complete_conditional_auxiliary9_14_sublane_basic`, ZIP saved.|Preserve export; no repeated Fourier calculation queued.|
 |56B|Delivered supported Fourier calculation; no final completion supplied.|Wait for its actual final result.|
 |56C|4/4 actions complete, 80 strips/400 rows, readback24 controls, ZIP saved.|Preserve export; no repeated Fourier calculation queued.|
 |56D|Delivered corner Fourier calculation; no final completion supplied.|Wait for its actual final result.|
+|56E|Ready full original supported-HIGH10--14 three-action notebook.|Run with the same Drive; its support premises remain explicit.|
 |56K|Final complete_scalar_kappa_62_625_basic,21negative and324identity checks; ZIP saved.|Preserve export; no scalar replay queued.|
 |58A|Ready full original actual21--24 conditional high-rho support pair.|Run with the same Drive; retained Fourier/predecessor inputs stay explicit.|
 |57A/B/C|Ready original auxiliary/supported/high-rho14--19Fourier notebooks.|Run independently with the same Drive; complete-only caches are separate.|
@@ -35,7 +37,7 @@ again merely because its parent acquisitions remain open.
 
 | Family | Required work and output | Dependency / closure condition | Delivery state |
 | --- | --- | --- | --- |
-|56E: compensated HIGH10--14|Full original construction, replay and independent readback.|Keep the original narrower support premises and exact profiles; export genuine current captures.|Implementation in progress.|
+|56E: compensated HIGH10--14|Full original construction, replay and independent readback.|Keep the original narrower support premises and exact profiles; export genuine current captures.|Delivered under immutable runtime536a04045624d26a7608a14c92fbc5197946edc0.|
 |56F: coarse support10--14|Both full original support passes and complete controls.|Consume the auxiliary regional bound at the actual required indices/rho; the global auxiliary ceiling alone does not substitute.|Implementation in progress.|
 |56G/H: INITIAL/resources10--14|Ten scopes, each with complete original INITIAL construction/replay and100-panel resource construction/acceptance:40 actions total, split B0/BN.|Preserve fine n10/BN; use explicit new metadata epochs and genuine current captures. Historical upstream HIGH data remain conditional until joined to fresh evidence.|Implementation in progress.|
 |56 final interfaces|Join fresh support/HIGH/Fourier/scalar/INITIAL/resources to all217 COUNT contracts.|Exact same-law domains, profiles and closed seams; no old receipt hash is relabeled as a fresh result.|Collector still to implement.|

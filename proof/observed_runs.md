@@ -1120,3 +1120,12 @@ The displayed certificate SHA256 is
 This is supplied-output completion. Actual export validation, downstream
 scalar joins and full package56remain distinct. No repeated scalar arithmetic
 is queued from this successful ending.
+
+## Notebook30: supplied complete retained B4 ending
+
+The inline ending at00:17:28UTC on24October2026 records30/30accepted forests,
+60270leaves and `selected_retained_count_arithmetic_accepted`. Each displayed
+final full native stage retains24negative controls. The final bundle is
+`n25-retained-extra-b4/runs/20261023T195800Z-41e40d58/20261023T195800Z-41e40d58-results.zip`.
+This is supplied-log completion of the selected count arithmetic; actual
+export readback and full parent/regional/global joins remain separate.

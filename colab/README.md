@@ -441,3 +441,14 @@ Only complete validated four-action transactions are reused; caches are
 separate. All46synthetic/source/generator fixtures pass from a clean checkout.
 Support/HIGH, INITIAL/resources,147interfaces and full57remain separate.
 See [scope](../proof/finite1519_fourier_execution.md).
+
+Notebook56E, `56E_n10_14_supported_high.ipynb`, selects immutable runtime
+`536a04045624d26a7608a14c92fbc5197946edc0`. Run all with the same Drive.
+It runs complete original HIGH construction/replay for both bands and all
+literal10--14indices, then the complete original independent readback.
+All98inputs and the95-row manifest remain unchanged. The new capture bridge
+binds genuine stopped current executions and does not impersonate historical
+captures. All17fixtures pass from a clean checkout, including actual
+cwd-relative supervisor checkpoint copies. Support23/10and12/5remain explicit
+premises. Only the complete three-action transaction is reused. See
+[scope](../proof/finite1014_high_execution.md).
