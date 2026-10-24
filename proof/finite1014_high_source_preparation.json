@@ -1,0 +1,20 @@
+{
+  "all_index_conclusion_verified": false,
+  "all_manifest_rows_verified": true,
+  "all_selected_bytes_verified": true,
+  "arithmetic_computed": false,
+  "full_notebook56_completed": false,
+  "original_manifest_rows": 95,
+  "original_manifest_sha256": "93f6a628a1c78cd6e23c2daaf5197808bda40787f2ee2141e6b94089a2241be0",
+  "original_source_programs_and_manifest_unchanged": true,
+  "parent_acquisitions_verified": false,
+  "python_source_paths": 52,
+  "schema": "FINITE1014_SUPPORTED_HIGH_SOURCE_PREPARATION_V1",
+  "source_bytes": 670997,
+  "source_files": 98,
+  "source_helper_sha256": "05be5e8681a73a4f211542929a7fcef94b1e0d58d5f66b47b0bb5eaa49d3c086",
+  "source_plan_sha256": "01c804d759e5f9509409bb31d78e7ae71c9922309275060f8f77458be716501b",
+  "static_import_statements": 203,
+  "support_acquisition_verified": false,
+  "unique_python_sources": 34
+}
