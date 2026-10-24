@@ -452,3 +452,21 @@ captures. All17fixtures pass from a clean checkout, including actual
 cwd-relative supervisor checkpoint copies. Support23/10and12/5remain explicit
 premises. Only the complete three-action transaction is reused. See
 [scope](../proof/finite1014_high_execution.md).
+
+Notebooks56F and57D select immutable runtime
+`564c930fd59af0e952cde3352b9156a0be8edc31`. Run all with the same Drive:
+
+* `56F_n10_14_coarse_support.ipynb`: full original ten-row/two-ray support
+  construction and replay, retaining20malformed and2parser controls.
+* `57D_n15_19_full_ray_support.ipynb`: full original five-index/ten-ray
+  constructor and replay, retaining the deterministic candidate-hash gate
+  and14malformed+2parser controls.
+
+All81/26original inputs were actually prepared unchanged. Both protocols
+derive truthful current constructor captures and use the actual supervisor
+cwd-relative stopped-copy contract. Clean-checkout fixtures pass:16for56F;
+32for the57Dpattern (16new and16existing supported fixtures). Only complete
+validated pairs are reused. Predecessor/framework/support acquisition and
+full parent/theorem joins remain separate. See
+[56F scope](../proof/finite1014_coarse_execution.md) and
+[57D scope](../proof/finite1519_support_execution.md).

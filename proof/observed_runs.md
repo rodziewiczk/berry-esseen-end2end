@@ -1129,3 +1129,12 @@ final full native stage retains24negative controls. The final bundle is
 `n25-retained-extra-b4/runs/20261023T195800Z-41e40d58/20261023T195800Z-41e40d58-results.zip`.
 This is supplied-log completion of the selected count arithmetic; actual
 export readback and full parent/regional/global joins remain separate.
+
+## Notebook58A: supplied complete actual21--24 support ending
+
+The supplied final cell records
+`complete_conditional_actual21_24_highrho_support_basic` and a saved final
+bundle `finite2124-highrho/20261024T001924Z-8164bb3e/20261024T001924Z-8164bb3e-results.zip`.
+This is supplied-output completion of both original support passes. Actual
+export readback, retained Fourier/predecessor acquisitions and full actual20--24
+composition remain separate. No repeated successful58Asupport run is queued.

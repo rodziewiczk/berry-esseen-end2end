@@ -24,9 +24,11 @@ external inputs to be checked; writing the paper is not the only later step.
 |56C|4/4 actions complete, 80 strips/400 rows, readback24 controls, ZIP saved.|Preserve export; no repeated Fourier calculation queued.|
 |56D|Delivered corner Fourier calculation; no final completion supplied.|Wait for its actual final result.|
 |56E|Ready full original supported-HIGH10--14 three-action notebook.|Run with the same Drive; its support premises remain explicit.|
+|56F|Ready full original coarse-support10--14 pair.|Run with the same Drive; global and regional predecessor premises remain explicit.|
 |56K|Final complete_scalar_kappa_62_625_basic,21negative and324identity checks; ZIP saved.|Preserve export; no scalar replay queued.|
-|58A|Ready full original actual21--24 conditional high-rho support pair.|Run with the same Drive; retained Fourier/predecessor inputs stay explicit.|
+|58A|Final complete_conditional_actual21_24_highrho_support_basic; ZIP saved.|Preserve export; no repeated support calculation queued.|
 |57A/B/C|Ready original auxiliary/supported/high-rho14--19Fourier notebooks.|Run independently with the same Drive; complete-only caches are separate.|
+|57D|Ready original full-ray15--19support pair.|Run with the same Drive; retain the stated predecessor/contact premises.|
 
 Earlier successful jobs, including12,53 and corrected54, are recorded in
 [STATUS](../STATUS.md) and [observed runs](observed_runs.md). Absence of their
@@ -38,11 +40,11 @@ again merely because its parent acquisitions remain open.
 | Family | Required work and output | Dependency / closure condition | Delivery state |
 | --- | --- | --- | --- |
 |56E: compensated HIGH10--14|Full original construction, replay and independent readback.|Keep the original narrower support premises and exact profiles; export genuine current captures.|Delivered under immutable runtime536a04045624d26a7608a14c92fbc5197946edc0.|
-|56F: coarse support10--14|Both full original support passes and complete controls.|Consume the auxiliary regional bound at the actual required indices/rho; the global auxiliary ceiling alone does not substitute.|Implementation in progress.|
+|56F: coarse support10--14|Both full original support passes and complete controls.|Consume the auxiliary regional bound at the actual required indices/rho; the global auxiliary ceiling alone does not substitute.|Delivered under immutable runtime564c930fd59af0e952cde3352b9156a0be8edc31.|
 |56G/H: INITIAL/resources10--14|Ten scopes, each with complete original INITIAL construction/replay and100-panel resource construction/acceptance:40 actions total, split B0/BN.|Preserve fine n10/BN; use explicit new metadata epochs and genuine current captures. Historical upstream HIGH data remain conditional until joined to fresh evidence.|Implementation in progress.|
 |56 final interfaces|Join fresh support/HIGH/Fourier/scalar/INITIAL/resources to all217 COUNT contracts.|Exact same-law domains, profiles and closed seams; no old receipt hash is relabeled as a fresh result.|Collector still to implement.|
 |57A/B/C: Fourier14--19|Three complete original four-action pipelines: auxiliary, three-band supported and high-rho.|Original literal index14 overlap is retained; support-dependent lanes stay conditional.|Delivered under immutable runtimee70a4abb4003b9a8642d4994bbad5f9a6f104c91.|
-|57 remaining parents15--19|Shared support, cancellation HIGH, ten INITIAL and ten100-panel resource scopes, with original controls.|Current source/capture epoch, actual n15 allowance and literal16--19 predecessor conditions.|Closure and runner still to finish.|
+|57 remaining parents15--19|Cancellation HIGH, ten INITIAL and ten100-panel resource scopes, with original controls; support is now57D.|Current source/capture epoch, actual n15 allowance and literal16--19 predecessor conditions.|57D delivered; cancellation HIGH and core runner in preparation.|
 |57 final interfaces|Join the acquired parents to147 COUNT forests.|Full same-law/profile/closed-cover comparison.|Collector still to implement.|
 |58: parents20--24|Full actual20 ancestry plus17selected INITIAL/resource/high-rho acceptors for21--24and their full original construction calls.|Actual20 has its own same-index witness route; successful auxiliary21--24 jobs do not supply this sharp chain.|58A support pair ready; INITIAL/resources and actual20 ancestry still to package.|
 |59: parents26--30|Selected floor25 INITIAL/resources and actual-index acquisitions, plus three Fourier covers.|Reuse exact compatible n25 evidence;115+115+215 historical Fourier rows are selection metadata, not new evidence.|Closure not sealed; runner required.|

@@ -122,6 +122,13 @@ executes both full original supported-HIGH passes and the original independent
 readback. Its two specific support radii remain explicit premises; see
 [scope](proof/finite1014_high_execution.md).
 
+Full original support passes are available in
+[56F for10--14](colab/56F_n10_14_coarse_support.ipynb) and
+[57D for15--19](colab/57D_n15_19_full_ray_support.ipynb).
+They preserve their distinct predecessor/domain assumptions; see
+[56F scope](proof/finite1014_coarse_execution.md) and
+[57D scope](proof/finite1519_support_execution.md).
+
 The current12-hour settings in RESTART01–07 are budgets, not completion estimates.
 A complete tree still requires a separate full acceptor run. An unfinished tree
 is checkpointed for a compatible rerun.
