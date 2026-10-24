@@ -426,3 +426,18 @@ This is conditional support arithmetic; the retained Fourier integrations
 and sharp predecessors are not freshly acquired here. Only a complete
 revalidated pair is cached. Eleven fixtures pass from a clean checkout.
 See [scope](../proof/finite2124_high_execution.md).
+
+Notebooks57A/57B/57C select immutable runtime
+`e70a4abb4003b9a8642d4994bbad5f9a6f104c91`. Run all with the same Drive:
+
+* `57A_n15_19_auxiliary_fourier.ipynb`: original auxiliary ceiling21/50.
+* `57B_n15_19_supported_fourier.ipynb`: original three-band calculation,
+  conditional on |X|<=3.
+* `57C_n15_19_highrho_fourier.ipynb`: original target4097/10000 for rho>=33/25.
+
+All three retain the original literal14--19 overlap, full plan/construction/
+replay/independent readback, unchanged63/85/73inputs and60/82/70manifest rows.
+Only complete validated four-action transactions are reused; caches are
+separate. All46synthetic/source/generator fixtures pass from a clean checkout.
+Support/HIGH, INITIAL/resources,147interfaces and full57remain separate.
+See [scope](../proof/finite1519_fourier_execution.md).

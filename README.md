@@ -110,6 +110,13 @@ runs both original actual21--24 high-rho support passes with all original
 controls. Its retained Fourier and sharp-predecessor premises remain explicit;
 see [the execution scope](proof/finite2124_high_execution.md).
 
+The n15--19 Fourier parts are now separately runnable:
+[57A auxiliary](colab/57A_n15_19_auxiliary_fourier.ipynb),
+[57B supported](colab/57B_n15_19_supported_fourier.ipynb), and
+[57C high-rho](colab/57C_n15_19_highrho_fourier.ipynb).
+Each retains all six original literal indices14--19 and all four original
+actions; see [the shared execution scope](proof/finite1519_fourier_execution.md).
+
 The current12-hour settings in RESTART01–07 are budgets, not completion estimates.
 A complete tree still requires a separate full acceptor run. An unfinished tree
 is checkpointed for a compatible rerun.
