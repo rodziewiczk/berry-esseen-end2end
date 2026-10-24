@@ -30,7 +30,8 @@ external inputs to be checked; writing the paper is not the only later step.
 |58A|Final complete_conditional_actual21_24_highrho_support_basic; ZIP saved.|Preserve export; no repeated support calculation queued.|
 |56G/H|Ready full INITIAL/resources10--14,20original calls per band.|Run independently with the same Drive; fine n10/BN and complete case caches are preserved.|
 |58B/C|Ready full INITIAL/resources21--24,16original calls per band.|Run independently with the same Drive; complete case caches are preserved.|
-|57A/B|Ready original auxiliary/supported14--19Fourier notebooks; no final completion supplied.|Keep valid running jobs; wait for actual final results.|
+|57A|Final complete_conditional_auxiliary14_19_sublane_basic and saved ZIP supplied.|Preserve export; no repeated auxiliary calculation queued.|
+|57B|Delivered original supported14--19Fourier notebook; no final completion supplied.|Keep its valid running job; wait for the actual final result.|
 |57C|Final complete_conditional_highrho14_19_sublane_basic and saved ZIP supplied.|Preserve export; no repeated high-rho calculation queued.|
 |57D|Actual downloaded ZIP session ledger reports complete_conditional_support15_19_sublane_basic.|Preserve export; no repeated support calculation queued.|
 |57E|Final complete_conditional_compensated_high15_19_sublane_basic and saved ZIP supplied.|Preserve export; no repeated supported-HIGH calculation queued.|

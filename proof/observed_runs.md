@@ -1195,3 +1195,10 @@ and complete cache recovery/restore pass9covers/100panels/27controls, with no
 local original numerical execution. See [recovery](n5_remaining_notebook_recovery.md).
 The corrected notebook reuses compatible support/HIGH/owncaps caches and this
 recovered INITIAL; the remaining326-job selection is not declared complete.
+
+## Notebook57A: supplied complete auxiliary14--19 ending
+
+The supplied final cell records `complete_conditional_auxiliary14_19_sublane_basic`
+and saves `finite1519-auxiliary/20261024T001640Z-ccad23fa/20261024T001640Z-ccad23fa-results.zip`.
+This is scoped output completion. Actual full export validation and complete
+57/COUNT/global joins remain separate. No repeated successful57Aarithmetic is queued.
