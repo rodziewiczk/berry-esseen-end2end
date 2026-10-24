@@ -1,0 +1,15 @@
+{
+  "all_index_conclusion_verified": false,
+  "full_notebook59_completed": false,
+  "only_two_json_location_metadata_changed": true,
+  "original_absolute_bindings": 12,
+  "original_manifest_rows": 82,
+  "original_mathematical_modules_evaluated": false,
+  "original_python_bytes_unchanged": true,
+  "schema": "FINITE2630_B1_ACTUAL_SOURCE_PREPARATION_V1",
+  "source_adapter_sha256": "744118d3658994ee062a29436dbd1dd817f8dc7f8fd3bdcf872f78a6f2b5868b",
+  "source_bytes": 17776047,
+  "source_files": 83,
+  "source_plan_sha256": "1a326d71a3fd63c183259d4db49460c94196eb4b7ac0b11c534b67ff1dc79031",
+  "syntax_parsed_original_programs": 27
+}

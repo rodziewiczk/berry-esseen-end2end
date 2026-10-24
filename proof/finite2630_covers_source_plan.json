@@ -1,0 +1,2758 @@
+{
+  "active_source_files": {
+    "work/cutoff25_rethink_20261015/repo_independent/FOURIER_AUDIT.txt": {
+      "bytes": 10492,
+      "member": "cutoff25_rethink_20261015/repo_independent/FOURIER_AUDIT.txt",
+      "sha256": "40acdf27ea60aa7a792927009e39e7f33c6609c90461e65134818247f619227b"
+    },
+    "work/cutoff25_rethink_20261015/root/FOURIER_REDUCTION_V2.txt": {
+      "bytes": 6050,
+      "member": "cutoff25_rethink_20261015/root/FOURIER_REDUCTION_V2.txt",
+      "sha256": "7389d85b02adbef18d598d57d97bdf93b9fe76502b826ed405fd54b95d5d40c6"
+    },
+    "work/cutoff25_rethink_20261015/root/fourier_acceptor_v2.py": {
+      "bytes": 6453,
+      "member": "cutoff25_rethink_20261015/root/fourier_acceptor_v2.py",
+      "sha256": "67793ef00c861be9532ee3b713c42a444dea47338fbcee88e614a0631289c58d"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1/PROOF.txt": {
+      "bytes": 2122,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1/PROOF.txt",
+      "sha256": "98b4da742eb033fbb4f1bd2e184571cf1237df19ab83200a00dd7399e00797ca"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1/controls.py": {
+      "bytes": 3409,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1/controls.py",
+      "sha256": "89c17f26d8df81ab2249c6ffcac35873b411d88f308f0ec34300b5d0c8dbb6c1"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1/run.py": {
+      "bytes": 2453,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1/run.py",
+      "sha256": "31f9981b6f0b5bd5a39b2fc40a3337dd944e2b81600a2207eafdbc1bc9e917d5"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1/schedule.py": {
+      "bytes": 1357,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1/schedule.py",
+      "sha256": "1a98c60737399be72cd0dfadaae8b9ce8dae53b131d6a0b803e1b67a6a1858f2"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/PROOF.txt": {
+      "bytes": 2768,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/PROOF.txt",
+      "sha256": "08d8fb01c4bc4431fad4ab32ed13f74d494871b2f48e44a088ce472dd0d1c020"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/controls.py": {
+      "bytes": 3618,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/controls.py",
+      "sha256": "76afe92e3322bc74785d3d25a7240c54b3b24430f3756caf78c9317dc1fe1e8d"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/run.py": {
+      "bytes": 2514,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/run.py",
+      "sha256": "19e271f121c43b0e6246ba00e4550efaf9cd7e7e82b9d68d00b07230bfcf7141"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/schedule.py": {
+      "bytes": 1405,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/schedule.py",
+      "sha256": "b83e4b8ed012e3c4d02b979c126bb33fb3c18b5dca4fa641ac34c7856bcc12ec"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_pilot_v1/PROOF.txt": {
+      "bytes": 1188,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_pilot_v1/PROOF.txt",
+      "sha256": "ccbfbb577656b982546405564bb584204714e846ed7411a720cfae5e998242a1"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_pilot_v1/run.py": {
+      "bytes": 2129,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_pilot_v1/run.py",
+      "sha256": "487957b1306b6f5e73d225e6fb98a055243024ac919f8c29ffc5ed7aab70ebf7"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/PROOF.txt": {
+      "bytes": 4882,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/PROOF.txt",
+      "sha256": "df92603993c8b3ef4bab8767d3db7c21e694fc7d78661845b306dfd0e68dc0fc"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/batch.py": {
+      "bytes": 5331,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/batch.py",
+      "sha256": "04045148b9e86dc4d92357d09642c04218ed2ea6f8ed27b5e7796a159f85b39e"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/controls.py": {
+      "bytes": 5176,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/controls.py",
+      "sha256": "5de16875b787b50d4b7dc7ac1f1f80798790e69c5b89b566be9fdb3d0453ff69"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/run.py": {
+      "bytes": 1843,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/run.py",
+      "sha256": "f3b54a6406e30413810c1535fd55c2f0162557acdb07a1d24cde6712aeda6be8"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/PROOF.txt": {
+      "bytes": 3459,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/PROOF.txt",
+      "sha256": "7bc9f6e9c5e7049a7389ef7fe53abd073fdace2d788eaeac19ada01879eec67a"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/batch.py": {
+      "bytes": 5216,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/batch.py",
+      "sha256": "9ce4505488b32876514c14a4813bdd3eac0e91d3cdca72f2f716097d3e328960"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/controls.py": {
+      "bytes": 4555,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/controls.py",
+      "sha256": "8aaecc2458eb64cf96b0e4a55445ae339da608c355f206fbc5344cdff6130cec"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/run.py": {
+      "bytes": 2295,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/run.py",
+      "sha256": "4a75d63437dd9aaa78c377c3e3b93cc36c44ccb434f9fea3959121f3e58d8206"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/schedule.py": {
+      "bytes": 862,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/schedule.py",
+      "sha256": "773471641148456b939456a811b882448fbff4303d3f878c7f1a3330d4190360"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1/PROOF.txt": {
+      "bytes": 2443,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1/PROOF.txt",
+      "sha256": "149b2adfdd6535f8435e1d673a7eef675d454d024a966f7dfa0a2240fc30b481"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1/controls.py": {
+      "bytes": 4437,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1/controls.py",
+      "sha256": "6e39ea6234ff3fef98cdc15401236a586653de166291aa14bb334b6c97219de0"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1/run.py": {
+      "bytes": 2273,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1/run.py",
+      "sha256": "8f41a993963215d74fac442a17e395a87bb93684195c158949aae7fe1fff98aa"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1/schedule.py": {
+      "bytes": 2039,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1/schedule.py",
+      "sha256": "e427e56e1cac0e6bec3fddba64ae35cec0bf82145aec20daf9d907d26199fb6f"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/PROOF.txt": {
+      "bytes": 4502,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_interval/PROOF.txt",
+      "sha256": "e88f28253b08150ea49443c25888cfabe0e432492534b4f354a27b4d84fdbb9b"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/controls.py": {
+      "bytes": 4786,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_interval/controls.py",
+      "sha256": "b96437c80f9abcbe46719a3b56e31a8c39f8b6c82b415e6b088d9c33f82402e4"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/kernel.py": {
+      "bytes": 6017,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_interval/kernel.py",
+      "sha256": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_rho130_pilot_v1/PROOF.txt": {
+      "bytes": 1436,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_rho130_pilot_v1/PROOF.txt",
+      "sha256": "3fcdd6b10e5b668c25282f93eb215ccf692178bca22dc11d41ffa935a450933d"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_rho130_pilot_v1/run.py": {
+      "bytes": 2164,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_rho130_pilot_v1/run.py",
+      "sha256": "2fafdf44212a7cd4825a7604d8938d5c81dae835aebdec64cc717f3229037874"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/PROOF.txt": {
+      "bytes": 5668,
+      "member": "cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/PROOF.txt",
+      "sha256": "6645891bc75553f1a35faba00dd2a09e6b47c5fd374e637d83d62ec82069c162"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/controls.py": {
+      "bytes": 2951,
+      "member": "cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/controls.py",
+      "sha256": "331ee713e7950c9013d969b70de5809d4eb7e37ac34cd22a6184e0f8872fe4b5"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/kernel.py": {
+      "bytes": 4152,
+      "member": "cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/kernel.py",
+      "sha256": "16170505dece7571725e4e601f1546989d546ed64685616f9d13283c59702b0a"
+    }
+  },
+  "all_index_conclusion_verified": false,
+  "arithmetic_computed": false,
+  "asset": {
+    "bytes": 6398244,
+    "name": "cutoff25_rethink_20261015.zip",
+    "sha256": "47503aa52408b24243e554a080730f3d546c7ad425a5480af16e40678310f43b",
+    "url": "https://github.com/rodziewiczk/berry-esseen-045-certificate/releases/download/cutoff20-sources-2026-10-17/cutoff25_rethink_20261015.zip"
+  },
+  "full_notebook59_completed": false,
+  "lanes": {
+    "b2": {
+      "absmean_upper": "122/125",
+      "closed_strips": 23,
+      "notebook": "59B",
+      "rho_intervals": [
+        [
+          "6/5",
+          "13/10"
+        ]
+      ],
+      "rows": 115,
+      "stages": [
+        "utility",
+        "kappa",
+        "batch_controls",
+        "absmean_controls",
+        "b2_pilot",
+        "b2_controls",
+        "b2_cover"
+      ],
+      "target": "4097/10000"
+    },
+    "higher": {
+      "absmean_upper": null,
+      "closed_strips": 43,
+      "notebook": "59C",
+      "rho_intervals": [
+        [
+          "13/10",
+          "19/10"
+        ]
+      ],
+      "rows": 215,
+      "stages": [
+        "utility",
+        "batch_controls",
+        "rho130_pilot",
+        "b3_controls",
+        "b3_cover",
+        "b5_cover",
+        "extension_controls",
+        "extension_cover"
+      ],
+      "target": "4097/10000"
+    }
+  },
+  "only_approved_receipt_hash_literals_may_change": true,
+  "original_kernels_and_schedules_unchanged": true,
+  "parent_acquisitions_verified": false,
+  "schema": "FINITE2630_ORIGINAL_FOURIER_COVERS_SOURCE_PLAN_V1",
+  "source_files": {
+    "work/cutoff25_rethink_20261015/repo_independent/FOURIER_AUDIT.txt": {
+      "bytes": 10492,
+      "member": "cutoff25_rethink_20261015/repo_independent/FOURIER_AUDIT.txt",
+      "sha256": "40acdf27ea60aa7a792927009e39e7f33c6609c90461e65134818247f619227b"
+    },
+    "work/cutoff25_rethink_20261015/root/FOURIER_REDUCTION_V2.txt": {
+      "bytes": 6050,
+      "member": "cutoff25_rethink_20261015/root/FOURIER_REDUCTION_V2.txt",
+      "sha256": "7389d85b02adbef18d598d57d97bdf93b9fe76502b826ed405fd54b95d5d40c6"
+    },
+    "work/cutoff25_rethink_20261015/root/fourier_acceptor_v2.py": {
+      "bytes": 6453,
+      "member": "cutoff25_rethink_20261015/root/fourier_acceptor_v2.py",
+      "sha256": "67793ef00c861be9532ee3b713c42a444dea47338fbcee88e614a0631289c58d"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1/B3.json": {
+      "bytes": 156074,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1/B3.json",
+      "sha256": "0da3baf6d2000b0c85c6fa703496523dbe2a4f0fb759b84e8d7f72186a43cce6"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1/CHECKED.json": {
+      "bytes": 3563,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1/CHECKED.json",
+      "sha256": "6f54b877be3af42832b26fcd6735da5dc1d11d58b6d36a820e3c68c9389b0734"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1/PROOF.txt": {
+      "bytes": 2122,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1/PROOF.txt",
+      "sha256": "98b4da742eb033fbb4f1bd2e184571cf1237df19ab83200a00dd7399e00797ca"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1/controls.py": {
+      "bytes": 3409,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1/controls.py",
+      "sha256": "89c17f26d8df81ab2249c6ffcac35873b411d88f308f0ec34300b5d0c8dbb6c1"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1/run.py": {
+      "bytes": 2453,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1/run.py",
+      "sha256": "31f9981b6f0b5bd5a39b2fc40a3337dd944e2b81600a2207eafdbc1bc9e917d5"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1/schedule.py": {
+      "bytes": 1357,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1/schedule.py",
+      "sha256": "1a98c60737399be72cd0dfadaae8b9ce8dae53b131d6a0b803e1b67a6a1858f2"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/CHECKED.json": {
+      "bytes": 5979,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/CHECKED.json",
+      "sha256": "5606fac70e4177bcb98c31f9a8d68162391c80c7f99878c1c4fd0e03fbabc517"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/COVER.json": {
+      "bytes": 176060,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/COVER.json",
+      "sha256": "ec6269f8be38a4b78cea30012492232c82507a05c5bd7d7356961df1e31acd89"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/PROOF.txt": {
+      "bytes": 2768,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/PROOF.txt",
+      "sha256": "08d8fb01c4bc4431fad4ab32ed13f74d494871b2f48e44a088ce472dd0d1c020"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/controls.py": {
+      "bytes": 3618,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/controls.py",
+      "sha256": "76afe92e3322bc74785d3d25a7240c54b3b24430f3756caf78c9317dc1fe1e8d"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/run.py": {
+      "bytes": 2514,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/run.py",
+      "sha256": "19e271f121c43b0e6246ba00e4550efaf9cd7e7e82b9d68d00b07230bfcf7141"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/schedule.py": {
+      "bytes": 1405,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/schedule.py",
+      "sha256": "b83e4b8ed012e3c4d02b979c126bb33fb3c18b5dca4fa641ac34c7856bcc12ec"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_pilot_v1/PILOT.json": {
+      "bytes": 11615,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_pilot_v1/PILOT.json",
+      "sha256": "d8c43c7ed0e22a5ed0ef1c1061bb8258971a239800cd68ab721c7c4d7f243731"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_pilot_v1/PROOF.txt": {
+      "bytes": 1188,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_pilot_v1/PROOF.txt",
+      "sha256": "ccbfbb577656b982546405564bb584204714e846ed7411a720cfae5e998242a1"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_pilot_v1/run.py": {
+      "bytes": 2129,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_pilot_v1/run.py",
+      "sha256": "487957b1306b6f5e73d225e6fb98a055243024ac919f8c29ffc5ed7aab70ebf7"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/CHECKED.json": {
+      "bytes": 4301,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/CHECKED.json",
+      "sha256": "685efa0abf7aa1542c6fbcaba88c5f458be1d9cfcf28b56c2c319b029eccf45a"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/PROOF.txt": {
+      "bytes": 4882,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/PROOF.txt",
+      "sha256": "df92603993c8b3ef4bab8767d3db7c21e694fc7d78661845b306dfd0e68dc0fc"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/batch.py": {
+      "bytes": 5331,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/batch.py",
+      "sha256": "04045148b9e86dc4d92357d09642c04218ed2ea6f8ed27b5e7796a159f85b39e"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/controls.py": {
+      "bytes": 5176,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/controls.py",
+      "sha256": "5de16875b787b50d4b7dc7ac1f1f80798790e69c5b89b566be9fdb3d0453ff69"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/run.py": {
+      "bytes": 1843,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/run.py",
+      "sha256": "f3b54a6406e30413810c1535fd55c2f0162557acdb07a1d24cde6712aeda6be8"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/BATCH.json": {
+      "bytes": 42249,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/BATCH.json",
+      "sha256": "ac3f0a50ab058cf48d3e53285ac641c902a9f0444c4e13fe67537014fa6c3dfe"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/CHECKED.json": {
+      "bytes": 13123,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/CHECKED.json",
+      "sha256": "29f92ed8415613a59f8ddd186c52b774969c03f7ba030f0cdda14f748c075746"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/PROOF.txt": {
+      "bytes": 3459,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/PROOF.txt",
+      "sha256": "7bc9f6e9c5e7049a7389ef7fe53abd073fdace2d788eaeac19ada01879eec67a"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/batch.py": {
+      "bytes": 5216,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/batch.py",
+      "sha256": "9ce4505488b32876514c14a4813bdd3eac0e91d3cdca72f2f716097d3e328960"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/controls.py": {
+      "bytes": 4555,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/controls.py",
+      "sha256": "8aaecc2458eb64cf96b0e4a55445ae339da608c355f206fbc5344cdff6130cec"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/run.py": {
+      "bytes": 2295,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/run.py",
+      "sha256": "4a75d63437dd9aaa78c377c3e3b93cc36c44ccb434f9fea3959121f3e58d8206"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/schedule.py": {
+      "bytes": 862,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/schedule.py",
+      "sha256": "773471641148456b939456a811b882448fbff4303d3f878c7f1a3330d4190360"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1/CHECKED.json": {
+      "bytes": 4541,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1/CHECKED.json",
+      "sha256": "b16709c073eea6dc84f85c897572982e4da57831dbf93b22c31c9306ed923ecf"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1/EXTENSION.json": {
+      "bytes": 103555,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1/EXTENSION.json",
+      "sha256": "2280b59a0cd5eb6500ccab3833984c4051fb13c188022cb996d57539844eeae0"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1/PROOF.txt": {
+      "bytes": 2443,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1/PROOF.txt",
+      "sha256": "149b2adfdd6535f8435e1d673a7eef675d454d024a966f7dfa0a2240fc30b481"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1/controls.py": {
+      "bytes": 4437,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1/controls.py",
+      "sha256": "6e39ea6234ff3fef98cdc15401236a586653de166291aa14bb334b6c97219de0"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1/run.py": {
+      "bytes": 2273,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1/run.py",
+      "sha256": "8f41a993963215d74fac442a17e395a87bb93684195c158949aae7fe1fff98aa"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1/schedule.py": {
+      "bytes": 2039,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1/schedule.py",
+      "sha256": "e427e56e1cac0e6bec3fddba64ae35cec0bf82145aec20daf9d907d26199fb6f"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/CHECKED.json": {
+      "bytes": 14395,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_interval/CHECKED.json",
+      "sha256": "47c4cab5cad8af828e65cc4cbca91e3a01b3f7699a0d429e7f6240d87bfea55d"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/PROOF.txt": {
+      "bytes": 4502,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_interval/PROOF.txt",
+      "sha256": "e88f28253b08150ea49443c25888cfabe0e432492534b4f354a27b4d84fdbb9b"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/controls.py": {
+      "bytes": 4786,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_interval/controls.py",
+      "sha256": "b96437c80f9abcbe46719a3b56e31a8c39f8b6c82b415e6b088d9c33f82402e4"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/kernel.py": {
+      "bytes": 6017,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_interval/kernel.py",
+      "sha256": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_rho130_pilot_v1/PILOT.json": {
+      "bytes": 9127,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_rho130_pilot_v1/PILOT.json",
+      "sha256": "66cdfd218244f6d55cfd893e1fa9fb826791944c5ac74755c42bb1cd7cd0278a"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_rho130_pilot_v1/PROOF.txt": {
+      "bytes": 1436,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_rho130_pilot_v1/PROOF.txt",
+      "sha256": "3fcdd6b10e5b668c25282f93eb215ccf692178bca22dc11d41ffa935a450933d"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_rho130_pilot_v1/run.py": {
+      "bytes": 2164,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_rho130_pilot_v1/run.py",
+      "sha256": "2fafdf44212a7cd4825a7604d8938d5c81dae835aebdec64cc717f3229037874"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CERTIFICATE.json": {
+      "bytes": 81278,
+      "member": "cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CERTIFICATE.json",
+      "sha256": "02dc46c334ec9c9cbf0e7bb4c982869c6e3e0649a915169d3542b8820b51aac7"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CHECKED.json": {
+      "bytes": 1179,
+      "member": "cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CHECKED.json",
+      "sha256": "163bf7eff250f62806ee308eab31d71fc1f35da49fdf625675071387b08b0031"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/PROOF.txt": {
+      "bytes": 5668,
+      "member": "cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/PROOF.txt",
+      "sha256": "6645891bc75553f1a35faba00dd2a09e6b47c5fd374e637d83d62ec82069c162"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/controls.py": {
+      "bytes": 2951,
+      "member": "cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/controls.py",
+      "sha256": "331ee713e7950c9013d969b70de5809d4eb7e37ac34cd22a6184e0f8872fe4b5"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/kernel.py": {
+      "bytes": 4152,
+      "member": "cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/kernel.py",
+      "sha256": "16170505dece7571725e4e601f1546989d546ed64685616f9d13283c59702b0a"
+    }
+  },
+  "stage_outputs": [
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1/B3.json",
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1/CHECKED.json",
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/CHECKED.json",
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/COVER.json",
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_pilot_v1/PILOT.json",
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/CHECKED.json",
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/BATCH.json",
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/CHECKED.json",
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1/CHECKED.json",
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1/EXTENSION.json",
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/CHECKED.json",
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_rho130_pilot_v1/PILOT.json",
+    "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CERTIFICATE.json",
+    "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CHECKED.json"
+  ],
+  "stages": {
+    "absmean_controls": {
+      "directory": "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1",
+      "expected": {
+        "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/CHECKED.json": {
+          "mathematical_body_sha256": "bebc1de4f84c8453baf5690fe57a64137e3f9f7bd035199aba6c78d89a088495",
+          "original_sha256": "685efa0abf7aa1542c6fbcaba88c5f458be1d9cfcf28b56c2c319b029eccf45a",
+          "row_profiles": [],
+          "scalar_census": {
+            "complete_integration_calls": 0,
+            "negative_controls": 13,
+            "new_eta_cells": 10,
+            "old_reference_cell_comparisons": 50
+          },
+          "source_graph_paths": [
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/batch.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/CHECKED.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/kernel.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/CHECKED.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CHECKED.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/schedule.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/controls.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/PROOF.txt",
+            "work/cutoff25_rethink_20261015/root/fourier_acceptor_v2.py",
+            "work/cutoff25_rethink_20261015/root/FOURIER_REDUCTION_V2.txt",
+            "work/cutoff25_rethink_20261015/repo_independent/FOURIER_AUDIT.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/PROOF.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/controls.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/kernel.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/controls.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/PROOF.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CERTIFICATE.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/batch.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/controls.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/PROOF.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/run.py"
+          ],
+          "status": "PASS_EXACT_ABSOLUTE_MEAN_FOURIER_REGRESSION_V1",
+          "timing_pointers": []
+        }
+      },
+      "outputs": [
+        "CHECKED.json"
+      ],
+      "receipt_ports": [
+        {
+          "assignment": "PINS",
+          "constant_ast_path": [
+            "body",
+            9,
+            "value",
+            "values",
+            1
+          ],
+          "dependency": "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/CHECKED.json",
+          "key_ast": "BinOp(left=Name(id='OLD', ctx=Load()), op=Div(), right=Constant(value='CHECKED.json'))",
+          "original_sha256": "29f92ed8415613a59f8ddd186c52b774969c03f7ba030f0cdda14f748c075746"
+        },
+        {
+          "assignment": "PINS",
+          "constant_ast_path": [
+            "body",
+            9,
+            "value",
+            "values",
+            3
+          ],
+          "dependency": "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/CHECKED.json",
+          "key_ast": "BinOp(left=Attribute(value=Name(id='b', ctx=Load()), attr='U', ctx=Load()), op=Div(), right=Constant(value='CHECKED.json'))",
+          "original_sha256": "47c4cab5cad8af828e65cc4cbca91e3a01b3f7699a0d429e7f6240d87bfea55d"
+        },
+        {
+          "assignment": "PINS",
+          "constant_ast_path": [
+            "body",
+            9,
+            "value",
+            "values",
+            4
+          ],
+          "dependency": "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CHECKED.json",
+          "key_ast": "BinOp(left=Name(id='K', ctx=Load()), op=Div(), right=Constant(value='CHECKED.json'))",
+          "original_sha256": "163bf7eff250f62806ee308eab31d71fc1f35da49fdf625675071387b08b0031"
+        }
+      ],
+      "script": "controls.py",
+      "script_sha256": "5de16875b787b50d4b7dc7ac1f1f80798790e69c5b89b566be9fdb3d0453ff69",
+      "stdout_rule": {
+        "kind": "json"
+      }
+    },
+    "b2_controls": {
+      "directory": "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1",
+      "expected": {
+        "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/CHECKED.json": {
+          "mathematical_body_sha256": "7303fad9d780f59ead835f954b4f9ff2e12442cfed5e46be923049beaf4a7340",
+          "original_sha256": "5606fac70e4177bcb98c31f9a8d68162391c80c7f99878c1c4fd0e03fbabc517",
+          "row_profiles": [],
+          "scalar_census": {
+            "joined_closed_intervals": 23,
+            "negative_controls": 21,
+            "new_bounds": 110,
+            "new_mathematical_evaluations": 0,
+            "new_strips": 22,
+            "reused_bounds": 5
+          },
+          "source_graph_paths": [
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/batch.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/CHECKED.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/kernel.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/CHECKED.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CHECKED.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/schedule.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/controls.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/PROOF.txt",
+            "work/cutoff25_rethink_20261015/root/fourier_acceptor_v2.py",
+            "work/cutoff25_rethink_20261015/root/FOURIER_REDUCTION_V2.txt",
+            "work/cutoff25_rethink_20261015/repo_independent/FOURIER_AUDIT.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/PROOF.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/controls.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/kernel.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/controls.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/PROOF.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CERTIFICATE.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/batch.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/controls.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/PROOF.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/run.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/CHECKED.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_pilot_v1/run.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_pilot_v1/PROOF.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_pilot_v1/PILOT.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/schedule.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/controls.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/run.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/PROOF.txt"
+          ],
+          "status": "PASS_PURE_ABSOLUTE_MEAN_976_WHOLE_B2_SCHEDULE_V1",
+          "timing_pointers": []
+        }
+      },
+      "outputs": [
+        "CHECKED.json"
+      ],
+      "receipt_ports": [
+        {
+          "assignment": "PILOT_PIN",
+          "constant_ast_path": [
+            "body",
+            8,
+            "value"
+          ],
+          "dependency": "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_pilot_v1/PILOT.json",
+          "key_ast": null,
+          "original_sha256": "d8c43c7ed0e22a5ed0ef1c1061bb8258971a239800cd68ab721c7c4d7f243731"
+        }
+      ],
+      "script": "controls.py",
+      "script_sha256": "76afe92e3322bc74785d3d25a7240c54b3b24430f3756caf78c9317dc1fe1e8d",
+      "stdout_rule": {
+        "kind": "b2_controls"
+      }
+    },
+    "b2_cover": {
+      "directory": "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1",
+      "expected": {
+        "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/COVER.json": {
+          "mathematical_body_sha256": "01a211c3efcf9178b1008fcf4427cf4604c3c8afe487b9530ba1fa62ab5e8cc6",
+          "original_sha256": "ec6269f8be38a4b78cea30012492232c82507a05c5bd7d7356961df1e31acd89",
+          "row_profiles": [
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "6/5",
+                "1201/1000",
+                "122/125",
+                "6280/2177",
+                "6/25",
+                "4096"
+              ],
+              "rho": [
+                "6/5",
+                "1201/1000"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "1201/1000",
+                "301/250",
+                "122/125",
+                "314/109",
+                "6/25",
+                "4096"
+              ],
+              "rho": [
+                "1201/1000",
+                "301/250"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "301/250",
+                "1207/1000",
+                "122/125",
+                "6280/2183",
+                "6/25",
+                "4096"
+              ],
+              "rho": [
+                "301/250",
+                "1207/1000"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "1207/1000",
+                "1211/1000",
+                "122/125",
+                "6280/2187",
+                "6/25",
+                "4096"
+              ],
+              "rho": [
+                "1207/1000",
+                "1211/1000"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "1211/1000",
+                "243/200",
+                "122/125",
+                "6280/2191",
+                "6/25",
+                "4096"
+              ],
+              "rho": [
+                "1211/1000",
+                "243/200"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "243/200",
+                "1219/1000",
+                "122/125",
+                "1256/439",
+                "6/25",
+                "4096"
+              ],
+              "rho": [
+                "243/200",
+                "1219/1000"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "1219/1000",
+                "61/50",
+                "122/125",
+                "1570/549",
+                "6/25",
+                "2048"
+              ],
+              "rho": [
+                "1219/1000",
+                "61/50"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "61/50",
+                "49/40",
+                "122/125",
+                "6280/2201",
+                "6/25",
+                "3072"
+              ],
+              "rho": [
+                "61/50",
+                "49/40"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "49/40",
+                "123/100",
+                "122/125",
+                "3140/1103",
+                "6/25",
+                "2048"
+              ],
+              "rho": [
+                "49/40",
+                "123/100"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "123/100",
+                "247/200",
+                "122/125",
+                "6280/2211",
+                "6/25",
+                "2048"
+              ],
+              "rho": [
+                "123/100",
+                "247/200"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "247/200",
+                "31/25",
+                "122/125",
+                "785/277",
+                "6/25",
+                "2048"
+              ],
+              "rho": [
+                "247/200",
+                "31/25"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "31/25",
+                "249/200",
+                "122/125",
+                "6280/2221",
+                "6/25",
+                "2048"
+              ],
+              "rho": [
+                "31/25",
+                "249/200"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "249/200",
+                "5/4",
+                "122/125",
+                "3140/1113",
+                "6/25",
+                "2048"
+              ],
+              "rho": [
+                "249/200",
+                "5/4"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "5/4",
+                "251/200",
+                "122/125",
+                "6280/2231",
+                "6/25",
+                "2048"
+              ],
+              "rho": [
+                "5/4",
+                "251/200"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "251/200",
+                "63/50",
+                "122/125",
+                "1570/559",
+                "6/25",
+                "2048"
+              ],
+              "rho": [
+                "251/200",
+                "63/50"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "63/50",
+                "253/200",
+                "122/125",
+                "6280/2241",
+                "6/25",
+                "2048"
+              ],
+              "rho": [
+                "63/50",
+                "253/200"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "253/200",
+                "127/100",
+                "122/125",
+                "3140/1123",
+                "6/25",
+                "2048"
+              ],
+              "rho": [
+                "253/200",
+                "127/100"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "127/100",
+                "51/40",
+                "122/125",
+                "6280/2251",
+                "6/25",
+                "2048"
+              ],
+              "rho": [
+                "127/100",
+                "51/40"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "51/40",
+                "32/25",
+                "122/125",
+                "785/282",
+                "6/25",
+                "2048"
+              ],
+              "rho": [
+                "51/40",
+                "32/25"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "32/25",
+                "257/200",
+                "122/125",
+                "6280/2261",
+                "6/25",
+                "2048"
+              ],
+              "rho": [
+                "32/25",
+                "257/200"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "257/200",
+                "129/100",
+                "122/125",
+                "3140/1133",
+                "6/25",
+                "2048"
+              ],
+              "rho": [
+                "257/200",
+                "129/100"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "129/100",
+                "259/200",
+                "122/125",
+                "6280/2271",
+                "6/25",
+                "2048"
+              ],
+              "rho": [
+                "129/100",
+                "259/200"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "259/200",
+                "13/10",
+                "122/125",
+                "1570/569",
+                "6/25",
+                "2048"
+              ],
+              "rho": [
+                "259/200",
+                "13/10"
+              ],
+              "rows": 5
+            }
+          ],
+          "scalar_census": {
+            "cutoff25_proved": false,
+            "new_rows": 110,
+            "passing_rows": 115,
+            "reused_rows": 5,
+            "total_rows": 115
+          },
+          "source_graph_paths": [
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/batch.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/CHECKED.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/kernel.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/CHECKED.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CHECKED.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/schedule.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/controls.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/PROOF.txt",
+            "work/cutoff25_rethink_20261015/root/fourier_acceptor_v2.py",
+            "work/cutoff25_rethink_20261015/root/FOURIER_REDUCTION_V2.txt",
+            "work/cutoff25_rethink_20261015/repo_independent/FOURIER_AUDIT.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/PROOF.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/controls.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/kernel.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/controls.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/PROOF.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CERTIFICATE.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/batch.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/controls.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/PROOF.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/run.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/CHECKED.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_pilot_v1/run.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_pilot_v1/PROOF.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_pilot_v1/PILOT.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/schedule.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/controls.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/run.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/PROOF.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_cover_v1/CHECKED.json"
+          ],
+          "status": "EXACT_ABSOLUTE_MEAN_976_WHOLE_B2_PASS",
+          "timing_pointers": [
+            "/bands/0/result/seconds",
+            "/bands/1/result/seconds",
+            "/bands/2/result/seconds",
+            "/bands/3/result/seconds",
+            "/bands/4/result/seconds",
+            "/bands/5/result/seconds",
+            "/bands/6/result/seconds",
+            "/bands/7/result/seconds",
+            "/bands/8/result/seconds",
+            "/bands/9/result/seconds",
+            "/bands/10/result/seconds",
+            "/bands/11/result/seconds",
+            "/bands/12/result/seconds",
+            "/bands/13/result/seconds",
+            "/bands/14/result/seconds",
+            "/bands/15/result/seconds",
+            "/bands/16/result/seconds",
+            "/bands/17/result/seconds",
+            "/bands/18/result/seconds",
+            "/bands/19/result/seconds",
+            "/bands/20/result/seconds",
+            "/bands/21/result/seconds",
+            "/bands/22/result/seconds"
+          ]
+        }
+      },
+      "outputs": [
+        "COVER.json"
+      ],
+      "receipt_ports": [],
+      "script": "run.py",
+      "script_sha256": "19e271f121c43b0e6246ba00e4550efaf9cd7e7e82b9d68d00b07230bfcf7141",
+      "stdout_rule": {
+        "kind": "b2_cover"
+      }
+    },
+    "b2_pilot": {
+      "directory": "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_pilot_v1",
+      "expected": {
+        "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_pilot_v1/PILOT.json": {
+          "mathematical_body_sha256": "afa469432ebc8a9a151fbc9b77d3aa78b8f8264d231854d10f0727b356ef8c1b",
+          "original_sha256": "d8c43c7ed0e22a5ed0ef1c1061bb8258971a239800cd68ab721c7c4d7f243731",
+          "row_profiles": [
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": null,
+              "rho": [
+                "6/5",
+                "1201/1000"
+              ],
+              "rows": 5
+            }
+          ],
+          "scalar_census": {
+            "passing_rows": 5,
+            "total_rows": 5
+          },
+          "source_graph_paths": [
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/batch.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/CHECKED.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/kernel.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/CHECKED.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CHECKED.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/schedule.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/controls.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/PROOF.txt",
+            "work/cutoff25_rethink_20261015/root/fourier_acceptor_v2.py",
+            "work/cutoff25_rethink_20261015/root/FOURIER_REDUCTION_V2.txt",
+            "work/cutoff25_rethink_20261015/repo_independent/FOURIER_AUDIT.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/PROOF.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/controls.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/kernel.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/controls.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/PROOF.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CERTIFICATE.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/batch.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/controls.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/PROOF.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/run.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/CHECKED.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_pilot_v1/run.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean976_pilot_v1/PROOF.txt"
+          ],
+          "status": "EXACT_ABSOLUTE_MEAN_976_PILOT_PASS",
+          "timing_pointers": [
+            "/result/seconds"
+          ]
+        }
+      },
+      "outputs": [
+        "PILOT.json"
+      ],
+      "receipt_ports": [
+        {
+          "assignment": "CHECK_PIN",
+          "constant_ast_path": [
+            "body",
+            9,
+            "value"
+          ],
+          "dependency": "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/CHECKED.json",
+          "key_ast": null,
+          "original_sha256": "685efa0abf7aa1542c6fbcaba88c5f458be1d9cfcf28b56c2c319b029eccf45a"
+        }
+      ],
+      "script": "run.py",
+      "script_sha256": "487957b1306b6f5e73d225e6fb98a055243024ac919f8c29ffc5ed7aab70ebf7",
+      "stdout_rule": {
+        "kind": "b2_pilot"
+      }
+    },
+    "b3_controls": {
+      "directory": "work/cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1",
+      "expected": {
+        "work/cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1/CHECKED.json": {
+          "mathematical_body_sha256": "fe058b13489b339a681849652e3847c905b8d4f584a4954298de46d90e6ab56d",
+          "original_sha256": "6f54b877be3af42832b26fcd6735da5dc1d11d58b6d36a820e3c68c9389b0734",
+          "row_profiles": [],
+          "scalar_census": {
+            "joined_closed_intervals": 22,
+            "negative_controls": 16,
+            "new_bounds": 105,
+            "new_mathematical_evaluations": 0,
+            "new_strips": 21,
+            "reused_bounds": 5
+          },
+          "source_graph_paths": [
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/batch.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/schedule.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/controls.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/PROOF.txt",
+            "work/cutoff25_rethink_20261015/root/fourier_acceptor_v2.py",
+            "work/cutoff25_rethink_20261015/root/FOURIER_REDUCTION_V2.txt",
+            "work/cutoff25_rethink_20261015/repo_independent/FOURIER_AUDIT.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/kernel.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/CHECKED.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/PROOF.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/CHECKED.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_rho130_pilot_v1/run.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_rho130_pilot_v1/PROOF.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_rho130_pilot_v1/PILOT.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1/schedule.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1/controls.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1/PROOF.txt"
+          ],
+          "status": "PASS_PURE_WHOLE_B3_FOURIER_SCHEDULE_AND_PILOT_REUSE_V1",
+          "timing_pointers": []
+        }
+      },
+      "outputs": [
+        "CHECKED.json"
+      ],
+      "receipt_ports": [
+        {
+          "assignment": "PILOT_PIN",
+          "constant_ast_path": [
+            "body",
+            8,
+            "value"
+          ],
+          "dependency": "work/cutoff25_rethink_20261015/scale_analytic/fourier_rho130_pilot_v1/PILOT.json",
+          "key_ast": null,
+          "original_sha256": "66cdfd218244f6d55cfd893e1fa9fb826791944c5ac74755c42bb1cd7cd0278a"
+        }
+      ],
+      "script": "controls.py",
+      "script_sha256": "89c17f26d8df81ab2249c6ffcac35873b411d88f308f0ec34300b5d0c8dbb6c1",
+      "stdout_rule": {
+        "kind": "b3_controls"
+      }
+    },
+    "b3_cover": {
+      "directory": "work/cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1",
+      "expected": {
+        "work/cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1/B3.json": {
+          "mathematical_body_sha256": "fe28dab28a2ac1bcca5781f6ed511a90095021e75027d13f465a0049bec5e4b2",
+          "original_sha256": "0da3baf6d2000b0c85c6fa703496523dbe2a4f0fb759b84e8d7f72186a43cce6",
+          "row_profiles": [
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "13/10",
+                "521/400",
+                "2512/921",
+                "6/25",
+                "2048"
+              ],
+              "rho": [
+                "13/10",
+                "521/400"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "521/400",
+                "261/200",
+                "1256/461",
+                "6/25",
+                "2048"
+              ],
+              "rho": [
+                "521/400",
+                "261/200"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "261/200",
+                "523/400",
+                "2512/923",
+                "6/25",
+                "2048"
+              ],
+              "rho": [
+                "261/200",
+                "523/400"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "523/400",
+                "131/100",
+                "628/231",
+                "6/25",
+                "2048"
+              ],
+              "rho": [
+                "523/400",
+                "131/100"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "131/100",
+                "263/200",
+                "1256/463",
+                "6/25",
+                "2048"
+              ],
+              "rho": [
+                "131/100",
+                "263/200"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "263/200",
+                "33/25",
+                "157/58",
+                "6/25",
+                "2048"
+              ],
+              "rho": [
+                "263/200",
+                "33/25"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "33/25",
+                "53/40",
+                "1256/465",
+                "6/25",
+                "2048"
+              ],
+              "rho": [
+                "33/25",
+                "53/40"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "53/40",
+                "133/100",
+                "628/233",
+                "6/25",
+                "2048"
+              ],
+              "rho": [
+                "53/40",
+                "133/100"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "133/100",
+                "267/200",
+                "1256/467",
+                "6/25",
+                "2048"
+              ],
+              "rho": [
+                "133/100",
+                "267/200"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "267/200",
+                "67/50",
+                "314/117",
+                "6/25",
+                "2048"
+              ],
+              "rho": [
+                "267/200",
+                "67/50"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "67/50",
+                "269/200",
+                "1256/469",
+                "6/25",
+                "2048"
+              ],
+              "rho": [
+                "67/50",
+                "269/200"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "269/200",
+                "27/20",
+                "628/235",
+                "6/25",
+                "2048"
+              ],
+              "rho": [
+                "269/200",
+                "27/20"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "27/20",
+                "271/200",
+                "8/3",
+                "6/25",
+                "1024"
+              ],
+              "rho": [
+                "27/20",
+                "271/200"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "271/200",
+                "34/25",
+                "157/59",
+                "6/25",
+                "1024"
+              ],
+              "rho": [
+                "271/200",
+                "34/25"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "34/25",
+                "273/200",
+                "1256/473",
+                "6/25",
+                "1024"
+              ],
+              "rho": [
+                "34/25",
+                "273/200"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "273/200",
+                "137/100",
+                "628/237",
+                "6/25",
+                "1024"
+              ],
+              "rho": [
+                "273/200",
+                "137/100"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "137/100",
+                "11/8",
+                "1256/475",
+                "6/25",
+                "1024"
+              ],
+              "rho": [
+                "137/100",
+                "11/8"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "11/8",
+                "69/50",
+                "314/119",
+                "6/25",
+                "1024"
+              ],
+              "rho": [
+                "11/8",
+                "69/50"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "69/50",
+                "277/200",
+                "1256/477",
+                "6/25",
+                "1024"
+              ],
+              "rho": [
+                "69/50",
+                "277/200"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "277/200",
+                "139/100",
+                "628/239",
+                "6/25",
+                "1024"
+              ],
+              "rho": [
+                "277/200",
+                "139/100"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "139/100",
+                "279/200",
+                "1256/479",
+                "6/25",
+                "1024"
+              ],
+              "rho": [
+                "139/100",
+                "279/200"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "279/200",
+                "7/5",
+                "157/60",
+                "6/25",
+                "1024"
+              ],
+              "rho": [
+                "279/200",
+                "7/5"
+              ],
+              "rows": 5
+            }
+          ],
+          "scalar_census": {
+            "cutoff25_proved": false,
+            "new_rows": 105,
+            "passing_rows": 110,
+            "reused_rows": 5,
+            "total_rows": 110
+          },
+          "source_graph_paths": [
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/batch.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/schedule.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/controls.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/PROOF.txt",
+            "work/cutoff25_rethink_20261015/root/fourier_acceptor_v2.py",
+            "work/cutoff25_rethink_20261015/root/FOURIER_REDUCTION_V2.txt",
+            "work/cutoff25_rethink_20261015/repo_independent/FOURIER_AUDIT.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/kernel.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/CHECKED.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/PROOF.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/CHECKED.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_rho130_pilot_v1/run.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_rho130_pilot_v1/PROOF.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_rho130_pilot_v1/PILOT.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1/schedule.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1/controls.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1/PROOF.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1/CHECKED.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_B3_v1/run.py"
+          ],
+          "status": "EXACT_FOURIER_WHOLE_B3_PASS",
+          "timing_pointers": [
+            "/bands/0/result/seconds",
+            "/bands/1/result/seconds",
+            "/bands/2/result/seconds",
+            "/bands/3/result/seconds",
+            "/bands/4/result/seconds",
+            "/bands/5/result/seconds",
+            "/bands/6/result/seconds",
+            "/bands/7/result/seconds",
+            "/bands/8/result/seconds",
+            "/bands/9/result/seconds",
+            "/bands/10/result/seconds",
+            "/bands/11/result/seconds",
+            "/bands/12/result/seconds",
+            "/bands/13/result/seconds",
+            "/bands/14/result/seconds",
+            "/bands/15/result/seconds",
+            "/bands/16/result/seconds",
+            "/bands/17/result/seconds",
+            "/bands/18/result/seconds",
+            "/bands/19/result/seconds",
+            "/bands/20/result/seconds",
+            "/bands/21/result/seconds"
+          ]
+        }
+      },
+      "outputs": [
+        "B3.json"
+      ],
+      "receipt_ports": [],
+      "script": "run.py",
+      "script_sha256": "31f9981b6f0b5bd5a39b2fc40a3337dd944e2b81600a2207eafdbc1bc9e917d5",
+      "stdout_rule": {
+        "kind": "b3_cover"
+      }
+    },
+    "b5_cover": {
+      "directory": "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2",
+      "expected": {
+        "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/BATCH.json": {
+          "mathematical_body_sha256": "85bf7b31a26861118c059be498c24fe89e3a431f10221133b99ce2487404d4b7",
+          "original_sha256": "ac3f0a50ab058cf48d3e53285ac641c902a9f0444c4e13fe67537014fa6c3dfe",
+          "row_profiles": [
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "3/2",
+                "61/40",
+                "62/25",
+                "1/4",
+                "1024"
+              ],
+              "rho": [
+                "3/2",
+                "61/40"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "61/40",
+                "31/20",
+                "123/50",
+                "1/4",
+                "1024"
+              ],
+              "rho": [
+                "61/40",
+                "31/20"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "31/20",
+                "63/40",
+                "61/25",
+                "1/4",
+                "1024"
+              ],
+              "rho": [
+                "31/20",
+                "63/40"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "63/40",
+                "8/5",
+                "121/50",
+                "1/4",
+                "1024"
+              ],
+              "rho": [
+                "63/40",
+                "8/5"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "8/5",
+                "13/8",
+                "12/5",
+                "1/4",
+                "1024"
+              ],
+              "rho": [
+                "8/5",
+                "13/8"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "13/8",
+                "33/20",
+                "119/50",
+                "1/4",
+                "1024"
+              ],
+              "rho": [
+                "13/8",
+                "33/20"
+              ],
+              "rows": 5
+            }
+          ],
+          "scalar_census": {
+            "cutoff25_proved": false,
+            "global_C26_through_C30_proved": false,
+            "passing_rows": 30,
+            "total_rows": 30
+          },
+          "source_graph_paths": [
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/batch.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/schedule.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/controls.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/PROOF.txt",
+            "work/cutoff25_rethink_20261015/root/fourier_acceptor_v2.py",
+            "work/cutoff25_rethink_20261015/root/FOURIER_REDUCTION_V2.txt",
+            "work/cutoff25_rethink_20261015/repo_independent/FOURIER_AUDIT.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/kernel.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/CHECKED.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/PROOF.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/CHECKED.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/run.py"
+          ],
+          "status": "EXACT_FOURIER_FIVE_N_SIX_BAND_CANDIDATE_PASS",
+          "timing_pointers": [
+            "/bands/0/result/seconds",
+            "/bands/1/result/seconds",
+            "/bands/2/result/seconds",
+            "/bands/3/result/seconds",
+            "/bands/4/result/seconds",
+            "/bands/5/result/seconds"
+          ]
+        }
+      },
+      "outputs": [
+        "BATCH.json"
+      ],
+      "receipt_ports": [],
+      "script": "run.py",
+      "script_sha256": "4a75d63437dd9aaa78c377c3e3b93cc36c44ccb434f9fea3959121f3e58d8206",
+      "stdout_rule": {
+        "kind": "b5_cover"
+      }
+    },
+    "batch_controls": {
+      "directory": "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2",
+      "expected": {
+        "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/CHECKED.json": {
+          "mathematical_body_sha256": "26691aec2edbba602938c6b54298fea90d37e38e30a96daae581472d4a9eb4da",
+          "original_sha256": "29f92ed8415613a59f8ddd186c52b774969c03f7ba030f0cdda14f748c075746",
+          "row_profiles": [],
+          "scalar_census": {
+            "complete_integration_calls": 0,
+            "exact_per_n_cell_comparisons": 110,
+            "negative_controls": 18,
+            "power_or_geometric_prefix_comparisons": 60,
+            "schedule_test_cells": 12,
+            "shared_test_cells": 10
+          },
+          "source_graph_paths": [
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/batch.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/schedule.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/controls.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/PROOF.txt",
+            "work/cutoff25_rethink_20261015/root/fourier_acceptor_v2.py",
+            "work/cutoff25_rethink_20261015/root/FOURIER_REDUCTION_V2.txt",
+            "work/cutoff25_rethink_20261015/repo_independent/FOURIER_AUDIT.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/kernel.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/CHECKED.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/PROOF.txt"
+          ],
+          "status": "PASS_EXACT_FIVE_N_SHARED_FOURIER_V2_REGRESSION",
+          "timing_pointers": []
+        }
+      },
+      "outputs": [
+        "CHECKED.json"
+      ],
+      "receipt_ports": [
+        {
+          "assignment": "CHECK_PIN",
+          "constant_ast_path": [
+            "body",
+            12,
+            "value"
+          ],
+          "dependency": "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/CHECKED.json",
+          "key_ast": null,
+          "original_sha256": "47c4cab5cad8af828e65cc4cbca91e3a01b3f7699a0d429e7f6240d87bfea55d"
+        }
+      ],
+      "script": "controls.py",
+      "script_sha256": "8aaecc2458eb64cf96b0e4a55445ae339da608c355f206fbc5344cdff6130cec",
+      "stdout_rule": {
+        "kind": "batch_controls"
+      }
+    },
+    "extension_controls": {
+      "directory": "work/cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1",
+      "expected": {
+        "work/cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1/CHECKED.json": {
+          "mathematical_body_sha256": "04d64257a227a146c0f4d4bbd1528f6172e8dc3d585220cb6750276a848f9d80",
+          "original_sha256": "b16709c073eea6dc84f85c897572982e4da57831dbf93b22c31c9306ed923ecf",
+          "row_profiles": [],
+          "scalar_census": {
+            "extension_strips": 15,
+            "joined_closed_intervals": 21,
+            "negative_controls": 16,
+            "new_mathematical_evaluations": 0,
+            "planned_new_bounds": 75
+          },
+          "source_graph_paths": [
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/batch.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/schedule.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/controls.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/PROOF.txt",
+            "work/cutoff25_rethink_20261015/root/fourier_acceptor_v2.py",
+            "work/cutoff25_rethink_20261015/root/FOURIER_REDUCTION_V2.txt",
+            "work/cutoff25_rethink_20261015/repo_independent/FOURIER_AUDIT.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/kernel.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/CHECKED.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/PROOF.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/CHECKED.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/run.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1/schedule.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1/controls.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1/PROOF.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/BATCH.json"
+          ],
+          "status": "PASS_PURE_FOURIER_B4_UPPER_EXTENSION_SCHEDULE_CONTROLS_V1",
+          "timing_pointers": []
+        }
+      },
+      "outputs": [
+        "CHECKED.json"
+      ],
+      "receipt_ports": [
+        {
+          "assignment": "PINS",
+          "constant_ast_path": [
+            "body",
+            9,
+            "value",
+            "values",
+            1
+          ],
+          "dependency": "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/BATCH.json",
+          "key_ast": "Constant(value='BATCH.json')",
+          "original_sha256": "ac3f0a50ab058cf48d3e53285ac641c902a9f0444c4e13fe67537014fa6c3dfe"
+        },
+        {
+          "assignment": "PINS",
+          "constant_ast_path": [
+            "body",
+            9,
+            "value",
+            "values",
+            2
+          ],
+          "dependency": "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/CHECKED.json",
+          "key_ast": "Constant(value='CHECKED.json')",
+          "original_sha256": "29f92ed8415613a59f8ddd186c52b774969c03f7ba030f0cdda14f748c075746"
+        }
+      ],
+      "script": "controls.py",
+      "script_sha256": "6e39ea6234ff3fef98cdc15401236a586653de166291aa14bb334b6c97219de0",
+      "stdout_rule": {
+        "kind": "extension_controls"
+      }
+    },
+    "extension_cover": {
+      "directory": "work/cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1",
+      "expected": {
+        "work/cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1/EXTENSION.json": {
+          "mathematical_body_sha256": "ddb3ee1851abca9f61c22e370dad3794fbfcd80699a96bac4d09a18eadc7367a",
+          "original_sha256": "2280b59a0cd5eb6500ccab3833984c4051fb13c188022cb996d57539844eeae0",
+          "row_profiles": [
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "7/5",
+                "141/100",
+                "13/5",
+                "1/4",
+                "1024"
+              ],
+              "rho": [
+                "7/5",
+                "141/100"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "141/100",
+                "71/50",
+                "259/100",
+                "1/4",
+                "1024"
+              ],
+              "rho": [
+                "141/100",
+                "71/50"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "71/50",
+                "143/100",
+                "129/50",
+                "1/4",
+                "1024"
+              ],
+              "rho": [
+                "71/50",
+                "143/100"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "143/100",
+                "36/25",
+                "257/100",
+                "1/4",
+                "1024"
+              ],
+              "rho": [
+                "143/100",
+                "36/25"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "36/25",
+                "29/20",
+                "64/25",
+                "1/4",
+                "1024"
+              ],
+              "rho": [
+                "36/25",
+                "29/20"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "29/20",
+                "73/50",
+                "51/20",
+                "1/4",
+                "1024"
+              ],
+              "rho": [
+                "29/20",
+                "73/50"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "73/50",
+                "147/100",
+                "127/50",
+                "1/4",
+                "1024"
+              ],
+              "rho": [
+                "73/50",
+                "147/100"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "147/100",
+                "37/25",
+                "253/100",
+                "1/4",
+                "1024"
+              ],
+              "rho": [
+                "147/100",
+                "37/25"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "37/25",
+                "149/100",
+                "63/25",
+                "1/4",
+                "1024"
+              ],
+              "rho": [
+                "37/25",
+                "149/100"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "149/100",
+                "3/2",
+                "251/100",
+                "1/4",
+                "1024"
+              ],
+              "rho": [
+                "149/100",
+                "3/2"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "33/20",
+                "17/10",
+                "314/135",
+                "1/4",
+                "1024"
+              ],
+              "rho": [
+                "33/20",
+                "17/10"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "17/10",
+                "7/4",
+                "628/275",
+                "1/4",
+                "1024"
+              ],
+              "rho": [
+                "17/10",
+                "7/4"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "7/4",
+                "9/5",
+                "157/70",
+                "1/4",
+                "1024"
+              ],
+              "rho": [
+                "7/4",
+                "9/5"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "9/5",
+                "37/20",
+                "628/285",
+                "1/4",
+                "1024"
+              ],
+              "rho": [
+                "9/5",
+                "37/20"
+              ],
+              "rows": 5
+            },
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": [
+                "37/20",
+                "19/10",
+                "314/145",
+                "1/4",
+                "1024"
+              ],
+              "rho": [
+                "37/20",
+                "19/10"
+              ],
+              "rows": 5
+            }
+          ],
+          "scalar_census": {
+            "cutoff25_proved": false,
+            "global_C26_through_C30_proved": false,
+            "passing_rows": 75,
+            "total_rows": 75
+          },
+          "source_graph_paths": [
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/batch.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/schedule.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/controls.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/PROOF.txt",
+            "work/cutoff25_rethink_20261015/root/fourier_acceptor_v2.py",
+            "work/cutoff25_rethink_20261015/root/FOURIER_REDUCTION_V2.txt",
+            "work/cutoff25_rethink_20261015/repo_independent/FOURIER_AUDIT.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/kernel.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/CHECKED.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/PROOF.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/CHECKED.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/run.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1/schedule.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1/controls.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1/PROOF.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/BATCH.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1/CHECKED.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_extension_v1/run.py"
+          ],
+          "status": "EXACT_FOURIER_B4_UPPER_EXTENSION_PASS",
+          "timing_pointers": [
+            "/bands/0/result/seconds",
+            "/bands/1/result/seconds",
+            "/bands/2/result/seconds",
+            "/bands/3/result/seconds",
+            "/bands/4/result/seconds",
+            "/bands/5/result/seconds",
+            "/bands/6/result/seconds",
+            "/bands/7/result/seconds",
+            "/bands/8/result/seconds",
+            "/bands/9/result/seconds",
+            "/bands/10/result/seconds",
+            "/bands/11/result/seconds",
+            "/bands/12/result/seconds",
+            "/bands/13/result/seconds",
+            "/bands/14/result/seconds"
+          ]
+        }
+      },
+      "outputs": [
+        "EXTENSION.json"
+      ],
+      "receipt_ports": [],
+      "script": "run.py",
+      "script_sha256": "8f41a993963215d74fac442a17e395a87bb93684195c158949aae7fe1fff98aa",
+      "stdout_rule": {
+        "kind": "extension_cover"
+      }
+    },
+    "kappa": {
+      "directory": "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1",
+      "expected": {
+        "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CERTIFICATE.json": {
+          "mathematical_body_sha256": "7b6cab8d51b79f4ce76e285df601162679767e4ad308a38ce57b4c2a47b377c2",
+          "original_sha256": "02dc46c334ec9c9cbf0e7bb4c982869c6e3e0649a915169d3542b8820b51aac7",
+          "row_profiles": [],
+          "scalar_census": {
+            "degree": 13
+          },
+          "source_graph_paths": [],
+          "status": null,
+          "timing_pointers": []
+        },
+        "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CHECKED.json": {
+          "mathematical_body_sha256": "1b389f166041f40d7dda80119090abb000f52a945961b50d44a6256136cb6a47",
+          "original_sha256": "163bf7eff250f62806ee308eab31d71fc1f35da49fdf625675071387b08b0031",
+          "row_profiles": [],
+          "scalar_census": {
+            "additional_identity_checks": 324,
+            "negative_controls": 21
+          },
+          "source_graph_paths": [
+            "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/kernel.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/controls.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/PROOF.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CERTIFICATE.json"
+          ],
+          "status": "PASS_GLOBAL_COSINE_KAPPA_62_625_AND_CONVEX_SPLICE_V1",
+          "timing_pointers": []
+        }
+      },
+      "outputs": [
+        "CERTIFICATE.json",
+        "CHECKED.json"
+      ],
+      "receipt_ports": [],
+      "script": "controls.py",
+      "script_sha256": "331ee713e7950c9013d969b70de5809d4eb7e37ac34cd22a6184e0f8872fe4b5",
+      "stdout_rule": {
+        "kind": "json"
+      }
+    },
+    "rho130_pilot": {
+      "directory": "work/cutoff25_rethink_20261015/scale_analytic/fourier_rho130_pilot_v1",
+      "expected": {
+        "work/cutoff25_rethink_20261015/scale_analytic/fourier_rho130_pilot_v1/PILOT.json": {
+          "mathematical_body_sha256": "be473ad63240b65d9d986c46f405916a3f94c7a389cdeb8033c3de78bcbd9b03",
+          "original_sha256": "66cdfd218244f6d55cfd893e1fa9fb826791944c5ac74755c42bb1cd7cd0278a",
+          "row_profiles": [
+            {
+              "n": [
+                26,
+                27,
+                28,
+                29,
+                30
+              ],
+              "parameters": null,
+              "rho": [
+                "13/10",
+                "521/400"
+              ],
+              "rows": 5
+            }
+          ],
+          "scalar_census": {
+            "cutoff25_proved": false,
+            "passing_rows": 5,
+            "whole_B3_proved": false
+          },
+          "source_graph_paths": [
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/batch.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/schedule.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/controls.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/PROOF.txt",
+            "work/cutoff25_rethink_20261015/root/fourier_acceptor_v2.py",
+            "work/cutoff25_rethink_20261015/root/FOURIER_REDUCTION_V2.txt",
+            "work/cutoff25_rethink_20261015/repo_independent/FOURIER_AUDIT.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/kernel.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/CHECKED.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/PROOF.txt",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/CHECKED.json",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_rho130_pilot_v1/run.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_rho130_pilot_v1/PROOF.txt"
+          ],
+          "status": "EXACT_FOURIER_RHO130_NARROW_PILOT_PASS",
+          "timing_pointers": [
+            "/result/seconds"
+          ]
+        }
+      },
+      "outputs": [
+        "PILOT.json"
+      ],
+      "receipt_ports": [
+        {
+          "assignment": null,
+          "constant_ast_path": [
+            "body",
+            10,
+            "body",
+            2,
+            "value",
+            "args",
+            0,
+            "comparators",
+            0
+          ],
+          "dependency": "work/cutoff25_rethink_20261015/scale_analytic/fourier_batch_v2/CHECKED.json",
+          "inline_comparison_left_ast": "Call(func=Name(id='sha', ctx=Load()), args=[BinOp(left=Name(id='B', ctx=Load()), op=Div(), right=Constant(value='CHECKED.json'))], keywords=[])",
+          "key_ast": null,
+          "original_sha256": "29f92ed8415613a59f8ddd186c52b774969c03f7ba030f0cdda14f748c075746"
+        }
+      ],
+      "script": "run.py",
+      "script_sha256": "2fafdf44212a7cd4825a7604d8938d5c81dae835aebdec64cc717f3229037874",
+      "stdout_rule": {
+        "kind": "rho130_pilot"
+      }
+    },
+    "utility": {
+      "directory": "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval",
+      "expected": {
+        "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/CHECKED.json": {
+          "mathematical_body_sha256": "004b8e28e871c9310f39f34adeeedd9abb8b80ab9cf778943f51acb52558e7d6",
+          "original_sha256": "47c4cab5cad8af828e65cc4cbca91e3a01b3f7699a0d429e7f6240d87bfea55d",
+          "row_profiles": [],
+          "scalar_census": {
+            "arithmetic_controls": 294,
+            "berry_esseen_or_contact_calls": 0,
+            "elementary_controls": 48,
+            "exact_bernstein_transform_identities": 400,
+            "negative_controls": 20
+          },
+          "source_graph_paths": [
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/kernel.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/controls.py",
+            "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/PROOF.txt"
+          ],
+          "status": "PASS_STANDALONE_RATIONAL_FOURIER_INTERVAL_CONTROLS_V1",
+          "timing_pointers": []
+        }
+      },
+      "outputs": [
+        "CHECKED.json"
+      ],
+      "receipt_ports": [],
+      "script": "controls.py",
+      "script_sha256": "b96437c80f9abcbe46719a3b56e31a8c39f8b6c82b415e6b088d9c33f82402e4",
+      "stdout_rule": {
+        "kind": "utility"
+      }
+    }
+  },
+  "two_genuine_passes_required": true
+}

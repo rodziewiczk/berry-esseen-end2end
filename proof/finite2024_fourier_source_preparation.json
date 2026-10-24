@@ -1,0 +1,54 @@
+{
+  "all_index_conclusion_verified": false,
+  "arithmetic_computed": false,
+  "families": {
+    "auxiliary": {
+      "all_original_manifest_rows_verified": true,
+      "all_source_bytes_verified": true,
+      "arithmetic_computed": false,
+      "numpy_discovery_dependency": true,
+      "original_manifest_rows": 48,
+      "original_manifest_sha256": "a4eb496264a920652fedec4c63474a2cceb23adb4a212b844c5a036369697e0c",
+      "python_source_paths": 26,
+      "source_bytes": 405220,
+      "source_files": 51,
+      "static_import_occurrences": 153,
+      "unique_python_sources": 22,
+      "unresolved_import_basenames": []
+    },
+    "supported": {
+      "all_original_manifest_rows_verified": true,
+      "all_source_bytes_verified": true,
+      "arithmetic_computed": false,
+      "numpy_discovery_dependency": true,
+      "original_manifest_rows": 48,
+      "original_manifest_sha256": "865247f8f3c4928668168b780a9e6261139fcafb420326eb178780737a920480",
+      "python_source_paths": 23,
+      "source_bytes": 463636,
+      "source_files": 51,
+      "static_import_occurrences": 143,
+      "unique_python_sources": 22,
+      "unresolved_import_basenames": []
+    },
+    "universal": {
+      "all_original_manifest_rows_verified": true,
+      "all_source_bytes_verified": true,
+      "arithmetic_computed": false,
+      "numpy_discovery_dependency": true,
+      "original_manifest_rows": 43,
+      "original_manifest_sha256": "556cf07f823777ba225fbe50d495f5c3cf277020a05677570f48128341bcc2e6",
+      "python_source_paths": 22,
+      "source_bytes": 377460,
+      "source_files": 46,
+      "static_import_occurrences": 137,
+      "unique_python_sources": 21,
+      "unresolved_import_basenames": []
+    }
+  },
+  "full_notebook58_completed": false,
+  "original_sources_and_manifests_unchanged": true,
+  "predecessor_verified": false,
+  "schema": "FINITE2024_FOURIER_SOURCE_PREPARATION_V1",
+  "source_helper_sha256": "6a180a55ea8ff1066fc37d5c46e6fc1d0fba66dbc6758ccac8b25c99cd842d7e",
+  "source_plan_sha256": "4dc95b4cc208f96df9d579e2f43e06774162251c452198f01d4b626972ba034c"
+}

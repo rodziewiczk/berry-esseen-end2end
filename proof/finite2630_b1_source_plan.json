@@ -1,0 +1,572 @@
+{
+  "acquired_scopes": 55,
+  "actions": [
+    "construct",
+    "accept"
+  ],
+  "actual_n": [
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "all_index_conclusion_verified": false,
+  "arithmetic_computed": false,
+  "assets": [
+    {
+      "bytes": 514958998,
+      "name": "cutoff25_20261011.zip",
+      "sha256": "17fa140f63c5134ac48f1fd1040f4c5ae4bebdb2b92b2d7ce69f4048293d1fcb",
+      "url": "https://github.com/rodziewiczk/berry-esseen-045-certificate/releases/download/cutoff20-sources-2026-10-17/cutoff25_20261011.zip"
+    },
+    {
+      "bytes": 37200633,
+      "name": "cutoff25_continue_20261015.zip",
+      "sha256": "2b848227a5f5e2f54f210a347829c6b3f1c56bd656ef0cf01482a7898e11d63a",
+      "url": "https://github.com/rodziewiczk/berry-esseen-045-certificate/releases/download/cutoff20-sources-2026-10-17/cutoff25_continue_20261015.zip"
+    },
+    {
+      "bytes": 6398244,
+      "name": "cutoff25_rethink_20261015.zip",
+      "sha256": "47503aa52408b24243e554a080730f3d546c7ad425a5480af16e40678310f43b",
+      "url": "https://github.com/rodziewiczk/berry-esseen-045-certificate/releases/download/cutoff20-sources-2026-10-17/cutoff25_rethink_20261015.zip"
+    }
+  ],
+  "exact_rows": 115,
+  "full_notebook59_completed": false,
+  "native": "work/cutoff25_continue_20261015/root/sine_b1_cover_v1",
+  "only_two_json_source_location_metadata_changed": true,
+  "original_absolute_input_map": {
+    "/Users/bkolodziejek/Downloads/BE_Codex_Handoff/work/cutoff25_20261011/new_audit/LOWER_ACTUAL26_30_B1_B5_ACQUISITION_V1.json": "work/cutoff25_20261011/new_audit/LOWER_ACTUAL26_30_B1_B5_ACQUISITION_V1.json",
+    "/Users/bkolodziejek/Downloads/BE_Codex_Handoff/work/cutoff25_continue_20261015/analytic/bernoulli_eta_zeta_v1/CHECKED.json": "work/cutoff25_continue_20261015/analytic/bernoulli_eta_zeta_v1/CHECKED.json",
+    "/Users/bkolodziejek/Downloads/BE_Codex_Handoff/work/cutoff25_continue_20261015/analytic/universal_zeta_v1/PROOF.txt": "work/cutoff25_continue_20261015/analytic/universal_zeta_v1/PROOF.txt",
+    "/Users/bkolodziejek/Downloads/BE_Codex_Handoff/work/cutoff25_continue_20261015/b1_discovery/exact_schedule_adapter.py": "work/cutoff25_continue_20261015/b1_discovery/exact_schedule_adapter.py",
+    "/Users/bkolodziejek/Downloads/BE_Codex_Handoff/work/cutoff25_continue_20261015/phase_rectangle_v1/EXACT_SINE_ADAPTER_PROOF.txt": "work/cutoff25_continue_20261015/phase_rectangle_v1/EXACT_SINE_ADAPTER_PROOF.txt",
+    "/Users/bkolodziejek/Downloads/BE_Codex_Handoff/work/cutoff25_continue_20261015/phase_rectangle_v1/FOURTH_MOMENT_REAL_LOWER.txt": "work/cutoff25_continue_20261015/phase_rectangle_v1/FOURTH_MOMENT_REAL_LOWER.txt",
+    "/Users/bkolodziejek/Downloads/BE_Codex_Handoff/work/cutoff25_continue_20261015/phase_rectangle_v1/GREEDY_SINE_SCHEDULE.json": "work/cutoff25_continue_20261015/phase_rectangle_v1/GREEDY_SINE_SCHEDULE.json",
+    "/Users/bkolodziejek/Downloads/BE_Codex_Handoff/work/cutoff25_continue_20261015/phase_rectangle_v1/PROOF.txt": "work/cutoff25_continue_20261015/phase_rectangle_v1/PROOF.txt",
+    "/Users/bkolodziejek/Downloads/BE_Codex_Handoff/work/cutoff25_continue_20261015/phase_rectangle_v1/exact_sine_adapter.py": "work/cutoff25_continue_20261015/phase_rectangle_v1/exact_sine_adapter.py",
+    "/Users/bkolodziejek/Downloads/BE_Codex_Handoff/work/cutoff25_continue_20261015/root/finite_u_circle_v1/CHECKED.json": "work/cutoff25_continue_20261015/root/finite_u_circle_v1/CHECKED.json",
+    "/Users/bkolodziejek/Downloads/BE_Codex_Handoff/work/cutoff25_continue_20261015/root/finite_u_circle_v1/PROOF.txt": "work/cutoff25_continue_20261015/root/finite_u_circle_v1/PROOF.txt",
+    "/Users/bkolodziejek/Downloads/BE_Codex_Handoff/work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CHECKED.json": "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CHECKED.json"
+  },
+  "original_manifest_rows": 82,
+  "original_manifest_sha256": "4a218e285885b24c070c61fe82eddf7d641fd1f6bd412f946a5c02222b9ae6a4",
+  "original_numerical_programs_unchanged": true,
+  "original_record_fields": [
+    "status",
+    "intended_integration_target",
+    "rows",
+    "acquired_scopes",
+    "support_constants",
+    "kappa",
+    "controls",
+    "input_sha256"
+  ],
+  "parent_acquisitions_verified": false,
+  "relocated_record": "work/cutoff25_continue_20261015/phase_rectangle_v1/EXACT_23STRIP_SINE_INPUTS.json",
+  "rho_strips": 23,
+  "schema": "FINITE2630_B1_CURRENT_LOCATION_SOURCE_PLAN_V1",
+  "source_bytes": 17776047,
+  "source_files": {
+    "work/cutoff25_20261011/new_audit/LOWER_ACTUAL26_30_B1_B5_ACQUISITION_V1.json": {
+      "archive": "cutoff25_20261011.zip",
+      "bytes": 14538401,
+      "member": "cutoff25_20261011/new_audit/LOWER_ACTUAL26_30_B1_B5_ACQUISITION_V1.json",
+      "sha256": "39d1102e19d284c58e19feaf584bba0687f5a019a0de99ee8f2a36e954f2a149"
+    },
+    "work/cutoff25_continue_20261015/analytic/PHASE_AND_REAL_LOWER_REVIEW.txt": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 2493,
+      "member": "cutoff25_continue_20261015/analytic/PHASE_AND_REAL_LOWER_REVIEW.txt",
+      "sha256": "fa2e29ff578d580927fbfb6b6370639e09aec251990d0a4a6f51a7785ef58d1c"
+    },
+    "work/cutoff25_continue_20261015/analytic/bernoulli_eta_zeta_v1/CHECKED.json": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 33679,
+      "member": "cutoff25_continue_20261015/analytic/bernoulli_eta_zeta_v1/CHECKED.json",
+      "sha256": "e72fbbd3f18d950656424a9488abb3c5f47b72654651f99798ed2e528caf8643"
+    },
+    "work/cutoff25_continue_20261015/analytic/bernoulli_eta_zeta_v1/PROOF.txt": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 6056,
+      "member": "cutoff25_continue_20261015/analytic/bernoulli_eta_zeta_v1/PROOF.txt",
+      "sha256": "7a33980ac84c010ccb326dfff318f7bb152a8132930ee3024caa112411f506b4"
+    },
+    "work/cutoff25_continue_20261015/analytic/bernoulli_eta_zeta_v1/check.py": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 6479,
+      "member": "cutoff25_continue_20261015/analytic/bernoulli_eta_zeta_v1/check.py",
+      "sha256": "7b318b2c5a1e090d337fc541171a0dc2d1ce73fe67ff2831ae4805ddbe82b52d"
+    },
+    "work/cutoff25_continue_20261015/analytic/firstmean_envelope_v2/CHECKED.json": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 51524,
+      "member": "cutoff25_continue_20261015/analytic/firstmean_envelope_v2/CHECKED.json",
+      "sha256": "7f3815266df6392702e0b44f81ddeb96806a6cc3dcbf6f96c752d99f4722774d"
+    },
+    "work/cutoff25_continue_20261015/analytic/firstmean_envelope_v2/PROOF.txt": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 5888,
+      "member": "cutoff25_continue_20261015/analytic/firstmean_envelope_v2/PROOF.txt",
+      "sha256": "a5f84e9a3c39a8031d53ce55a809889659ce82b5704f1514b88e7e1d21f11eaa"
+    },
+    "work/cutoff25_continue_20261015/analytic/firstmean_envelope_v2/check.py": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 8216,
+      "member": "cutoff25_continue_20261015/analytic/firstmean_envelope_v2/check.py",
+      "sha256": "f3e48a6dd66114e98ee9fa5945268e4f69e74998e73995874e590567439817c9"
+    },
+    "work/cutoff25_continue_20261015/analytic/fixed_h_eta_zeta_v1/CHECKED.json": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 282458,
+      "member": "cutoff25_continue_20261015/analytic/fixed_h_eta_zeta_v1/CHECKED.json",
+      "sha256": "cb6460634ea27c064bc9127bcfd4d477aa48609f3756d2a05eef5146b62681c7"
+    },
+    "work/cutoff25_continue_20261015/analytic/fixed_h_eta_zeta_v1/PROOF.txt": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 5074,
+      "member": "cutoff25_continue_20261015/analytic/fixed_h_eta_zeta_v1/PROOF.txt",
+      "sha256": "fa38792634420e7d19e361ae0fac1fce83aad6e4539bae4bb38a0cd72b84d6bc"
+    },
+    "work/cutoff25_continue_20261015/analytic/fixed_h_eta_zeta_v1/check.py": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 7479,
+      "member": "cutoff25_continue_20261015/analytic/fixed_h_eta_zeta_v1/check.py",
+      "sha256": "1bdd5c0eb5bb4f6b9c0b6970b30ea38bf25a9147d509d6d681d285292167bd6b"
+    },
+    "work/cutoff25_continue_20261015/analytic/fixed_h_outward_v1/CHECKED.json": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 414991,
+      "member": "cutoff25_continue_20261015/analytic/fixed_h_outward_v1/CHECKED.json",
+      "sha256": "4a46213d878b827b182e6ac32243032508ffb32b5e2e651d535cee5bf3350b90"
+    },
+    "work/cutoff25_continue_20261015/analytic/fixed_h_outward_v1/PROOF.txt": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 4692,
+      "member": "cutoff25_continue_20261015/analytic/fixed_h_outward_v1/PROOF.txt",
+      "sha256": "0b2d93c1c245775f30d847d274d2d613fb26967bd39b35ea5eb529657138a8d7"
+    },
+    "work/cutoff25_continue_20261015/analytic/fixed_h_outward_v1/check.py": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 8332,
+      "member": "cutoff25_continue_20261015/analytic/fixed_h_outward_v1/check.py",
+      "sha256": "38567de515cd491d194df96bec75d4bdff5462587e980371d0beb8089aaf04cc"
+    },
+    "work/cutoff25_continue_20261015/analytic/universal_zeta_v1/CHECKED.json": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 6540,
+      "member": "cutoff25_continue_20261015/analytic/universal_zeta_v1/CHECKED.json",
+      "sha256": "04a8c2110951e551a7e46711e57ef8384a1b9b47e31cba75a01702db260a6400"
+    },
+    "work/cutoff25_continue_20261015/analytic/universal_zeta_v1/PROOF.txt": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 3774,
+      "member": "cutoff25_continue_20261015/analytic/universal_zeta_v1/PROOF.txt",
+      "sha256": "6f68c67bab4f198b20388e108a0d5564593bcb1f36f047fa6aff1454ebc4c66c"
+    },
+    "work/cutoff25_continue_20261015/analytic/universal_zeta_v1/check.py": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 3766,
+      "member": "cutoff25_continue_20261015/analytic/universal_zeta_v1/check.py",
+      "sha256": "60816afdefba8b65c673a22f7edf39f8a594d5dae53ff9a8577ebed0635fecc3"
+    },
+    "work/cutoff25_continue_20261015/b0_family/FINITE_U_AND_SINE_REVIEW.txt": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 7598,
+      "member": "cutoff25_continue_20261015/b0_family/FINITE_U_AND_SINE_REVIEW.txt",
+      "sha256": "c031274ef5455699fe0078bfd159b76b44fbae24cefbbef7328a670f4973dc8f"
+    },
+    "work/cutoff25_continue_20261015/b0_family/FINITE_U_AND_SINE_REVIEW_SOURCES.json": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 2244,
+      "member": "cutoff25_continue_20261015/b0_family/FINITE_U_AND_SINE_REVIEW_SOURCES.json",
+      "sha256": "d43198ba5ded92a1d4080919b3dbf0ef9b377996db9a65b40c0bc0811affd1a2"
+    },
+    "work/cutoff25_continue_20261015/b0_family/SINE_V2_CONTROLS.json": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 1791,
+      "member": "cutoff25_continue_20261015/b0_family/SINE_V2_CONTROLS.json",
+      "sha256": "f32e2081fa016ac686b7a74206543a2d25ff1051d3d92807c0e139d2a5830d63"
+    },
+    "work/cutoff25_continue_20261015/b0_family/SINE_V2_V3_REVIEW.txt": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 6146,
+      "member": "cutoff25_continue_20261015/b0_family/SINE_V2_V3_REVIEW.txt",
+      "sha256": "9f72bc8b69dbc67e11300552802a449989a83ed51fe0684104654a426fb0314f"
+    },
+    "work/cutoff25_continue_20261015/b0_family/SINE_V3_CONTROLS.json": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 2382,
+      "member": "cutoff25_continue_20261015/b0_family/SINE_V3_CONTROLS.json",
+      "sha256": "775837997c6f3ef5a48375bf1aa2ae0368707a6c601e5763c0761d9c4f80f6bd"
+    },
+    "work/cutoff25_continue_20261015/b0_family/TAYLOR_FOURIER_V2_REVIEW.txt": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 7753,
+      "member": "cutoff25_continue_20261015/b0_family/TAYLOR_FOURIER_V2_REVIEW.txt",
+      "sha256": "e652f090b8f7427f0839ad81cb929bc4ea981b65688dbacbec9a97f4d22f91fe"
+    },
+    "work/cutoff25_continue_20261015/b0_family/TAYLOR_FOURIER_V3_REVIEW.txt": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 4676,
+      "member": "cutoff25_continue_20261015/b0_family/TAYLOR_FOURIER_V3_REVIEW.txt",
+      "sha256": "d5030f20f3250e19ecc48f5edb4b14908fd9f818b33eca67b8ef70a5776ef64b"
+    },
+    "work/cutoff25_continue_20261015/b0_family/TAYLOR_V3_CONTROLS.json": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 1431,
+      "member": "cutoff25_continue_20261015/b0_family/TAYLOR_V3_CONTROLS.json",
+      "sha256": "a52d778743d07501205161390fde64cbced69960ad6b37ce865666d7e2042bc7"
+    },
+    "work/cutoff25_continue_20261015/b0_family/check_sine_v2.py": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 5597,
+      "member": "cutoff25_continue_20261015/b0_family/check_sine_v2.py",
+      "sha256": "9ce1d797c3aaa1844cd1358e2e5966ea3f6148fdab8c62eb2a17be3d1358fa2b"
+    },
+    "work/cutoff25_continue_20261015/b0_family/check_sine_v3.py": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 4423,
+      "member": "cutoff25_continue_20261015/b0_family/check_sine_v3.py",
+      "sha256": "01fcd8d171ccc556ea616827da9f273ae025a806dd5fa506b386aae56d5d23bc"
+    },
+    "work/cutoff25_continue_20261015/b0_family/check_taylor_v3.py": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 3925,
+      "member": "cutoff25_continue_20261015/b0_family/check_taylor_v3.py",
+      "sha256": "f3a270c78e841c7994de98829a83527eec5c77e240c6bca014c57d51b40683cf"
+    },
+    "work/cutoff25_continue_20261015/b1_discovery/EXACT_26STRIP_INPUTS.json": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 22670,
+      "member": "cutoff25_continue_20261015/b1_discovery/EXACT_26STRIP_INPUTS.json",
+      "sha256": "a3233e917cbf71eb31b182de702aac01516e7e6578897450efb844108d4e676e"
+    },
+    "work/cutoff25_continue_20261015/b1_discovery/EXACT_37STRIP_ETA_ZETA_INPUTS.json": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 62973,
+      "member": "cutoff25_continue_20261015/b1_discovery/EXACT_37STRIP_ETA_ZETA_INPUTS.json",
+      "sha256": "f126a578c1b8ff73684356a3eb49a02cf8880ef5057772d7c9348abc524bd375"
+    },
+    "work/cutoff25_continue_20261015/b1_discovery/EXACT_ETA_ZETA_ADAPTER_PROOF.txt": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 2949,
+      "member": "cutoff25_continue_20261015/b1_discovery/EXACT_ETA_ZETA_ADAPTER_PROOF.txt",
+      "sha256": "bbb8299824b20732cb90e2287ef6f9c9b6c64c9df74631370e44f73025ead9b1"
+    },
+    "work/cutoff25_continue_20261015/b1_discovery/EXACT_SCHEDULE_ADAPTER_PROOF.txt": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 4187,
+      "member": "cutoff25_continue_20261015/b1_discovery/EXACT_SCHEDULE_ADAPTER_PROOF.txt",
+      "sha256": "d4be852e562830565daf6d33e69168d6d50436a223792564eacc79df3a546400"
+    },
+    "work/cutoff25_continue_20261015/b1_discovery/GREEDY_H_SCHEDULE.json": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 119385,
+      "member": "cutoff25_continue_20261015/b1_discovery/GREEDY_H_SCHEDULE.json",
+      "sha256": "dad89d12c7346e788782f701371ef21b96e83600ef6d21de9a8ab18f859d0fee"
+    },
+    "work/cutoff25_continue_20261015/b1_discovery/SCALAR_PANEL_REFINE.json": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 1545450,
+      "member": "cutoff25_continue_20261015/b1_discovery/SCALAR_PANEL_REFINE.json",
+      "sha256": "ef45db2c23985842faa6cc37418f064e594abc63dbe691b51582d483405a58f4"
+    },
+    "work/cutoff25_continue_20261015/b1_discovery/exact_eta_zeta_adapter.py": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 8779,
+      "member": "cutoff25_continue_20261015/b1_discovery/exact_eta_zeta_adapter.py",
+      "sha256": "42e45063f372a20e1a25a0bc3e762823b06f9ff858e04c0ebccb1d76b35fd9c3"
+    },
+    "work/cutoff25_continue_20261015/b1_discovery/exact_schedule_adapter.py": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 9720,
+      "member": "cutoff25_continue_20261015/b1_discovery/exact_schedule_adapter.py",
+      "sha256": "37623f68df41e62c6522db347d509a92de4feccb614151da035fa00e5f89b6e6"
+    },
+    "work/cutoff25_continue_20261015/phase_rectangle_v1/EXACT_23STRIP_SINE_INPUTS.json": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 57737,
+      "member": "cutoff25_continue_20261015/phase_rectangle_v1/EXACT_23STRIP_SINE_INPUTS.json",
+      "sha256": "6cce240a5ebadf0214343e90e687ba8e38637cd9aed2582edd90a62ec3039ead"
+    },
+    "work/cutoff25_continue_20261015/phase_rectangle_v1/EXACT_SINE_ADAPTER_PROOF.txt": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 3184,
+      "member": "cutoff25_continue_20261015/phase_rectangle_v1/EXACT_SINE_ADAPTER_PROOF.txt",
+      "sha256": "0a194f0dd1ee44dc34864e100e765794e36662bfac17d0c91a6d21923041db6a"
+    },
+    "work/cutoff25_continue_20261015/phase_rectangle_v1/FOURTH_MOMENT_REAL_LOWER.txt": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 866,
+      "member": "cutoff25_continue_20261015/phase_rectangle_v1/FOURTH_MOMENT_REAL_LOWER.txt",
+      "sha256": "816383a67ad71c89678d34c97169cc17fe7423e90bfb7e4fa8b0ecf404032cae"
+    },
+    "work/cutoff25_continue_20261015/phase_rectangle_v1/GREEDY_SINE_SCHEDULE.json": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 141804,
+      "member": "cutoff25_continue_20261015/phase_rectangle_v1/GREEDY_SINE_SCHEDULE.json",
+      "sha256": "bc6ef4480692a69efb9648cb0257e981f030a50107c5abd7d96a7c25f8f0a46c"
+    },
+    "work/cutoff25_continue_20261015/phase_rectangle_v1/PROOF.txt": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 1963,
+      "member": "cutoff25_continue_20261015/phase_rectangle_v1/PROOF.txt",
+      "sha256": "39b1b674a806e1267fe5b008713e3b41c4b67c15bf8ae9765aa4518069753d77"
+    },
+    "work/cutoff25_continue_20261015/phase_rectangle_v1/exact_sine_adapter.py": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 7922,
+      "member": "cutoff25_continue_20261015/phase_rectangle_v1/exact_sine_adapter.py",
+      "sha256": "844ebab29ec571b01a38c1e67543626ca229889004549d397a051c2452377def"
+    },
+    "work/cutoff25_continue_20261015/root/eta_zeta_b1_cover_v1/PROOF.txt": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 4299,
+      "member": "cutoff25_continue_20261015/root/eta_zeta_b1_cover_v1/PROOF.txt",
+      "sha256": "b6613e631bbab39d26382775fc8feeb4f37968f90340a759e782a27a8d7daa09"
+    },
+    "work/cutoff25_continue_20261015/root/eta_zeta_b1_cover_v1/protocol.py": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 7248,
+      "member": "cutoff25_continue_20261015/root/eta_zeta_b1_cover_v1/protocol.py",
+      "sha256": "6ee67a361aa7fd4a8c8982def669bc31887ed6af9df7dd5b0fbe919b0e07ea8f"
+    },
+    "work/cutoff25_continue_20261015/root/finite_u_circle_v1/CHECKED.json": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 44129,
+      "member": "cutoff25_continue_20261015/root/finite_u_circle_v1/CHECKED.json",
+      "sha256": "51da5b15411ee42a317435b1ebdf982b837ad2c0e0f70cdac854f9cd58a564c5"
+    },
+    "work/cutoff25_continue_20261015/root/finite_u_circle_v1/PROOF.txt": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 4793,
+      "member": "cutoff25_continue_20261015/root/finite_u_circle_v1/PROOF.txt",
+      "sha256": "ab2bfe560732dc9c5dc5602f295f8903fb17266b0c6bfb511b593c580919b78d"
+    },
+    "work/cutoff25_continue_20261015/root/finite_u_circle_v1/check.py": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 5665,
+      "member": "cutoff25_continue_20261015/root/finite_u_circle_v1/check.py",
+      "sha256": "6de4826d5e5360084f5c19d020ffbf973225433ad701de166b286ebf69c6c786"
+    },
+    "work/cutoff25_continue_20261015/root/firstmean_b1_cover_v1/PROOF.txt": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 4677,
+      "member": "cutoff25_continue_20261015/root/firstmean_b1_cover_v1/PROOF.txt",
+      "sha256": "d3662739cb88e106738e03e59c532cdef9616cb743c5fe7f6100a2bc96f5b557"
+    },
+    "work/cutoff25_continue_20261015/root/firstmean_b1_cover_v1/protocol.py": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 6992,
+      "member": "cutoff25_continue_20261015/root/firstmean_b1_cover_v1/protocol.py",
+      "sha256": "fd686bbc2cb09d8d3b4da8eb987c4bece95598f2c1bfeafc105dc757552dd127"
+    },
+    "work/cutoff25_continue_20261015/root/sine_b1_cover_v1/MANIFEST.json": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 12110,
+      "member": "cutoff25_continue_20261015/root/sine_b1_cover_v1/MANIFEST.json",
+      "sha256": "4a218e285885b24c070c61fe82eddf7d641fd1f6bd412f946a5c02222b9ae6a4"
+    },
+    "work/cutoff25_continue_20261015/root/sine_b1_cover_v1/PROOF.txt": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 2234,
+      "member": "cutoff25_continue_20261015/root/sine_b1_cover_v1/PROOF.txt",
+      "sha256": "e212eef1ae3d7691bce10da79d9e6ee0e97b6734d10c6c72752307b8d2d0f79e"
+    },
+    "work/cutoff25_continue_20261015/root/sine_b1_cover_v1/protocol.py": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 7440,
+      "member": "cutoff25_continue_20261015/root/sine_b1_cover_v1/protocol.py",
+      "sha256": "e3933cb292f9acf5510c121db4077d98d2b7779916857dbe5007b7646d098af2"
+    },
+    "work/cutoff25_continue_20261015/root/taylor_circle_v1/PROOF.txt": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 8355,
+      "member": "cutoff25_continue_20261015/root/taylor_circle_v1/PROOF.txt",
+      "sha256": "cc0545ed99ff8c247bcf64f05753e42c883432cfc4276c0a34e6c6d8b52f973c"
+    },
+    "work/cutoff25_continue_20261015/root/taylor_circle_v1/integrate.py": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 7195,
+      "member": "cutoff25_continue_20261015/root/taylor_circle_v1/integrate.py",
+      "sha256": "cfac1967b1ff7a0dfb5e77f9bd1ee96edac7f9ba8a185df7aae64d09bc0f86d0"
+    },
+    "work/cutoff25_continue_20261015/root/taylor_circle_v1/jet.py": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 2053,
+      "member": "cutoff25_continue_20261015/root/taylor_circle_v1/jet.py",
+      "sha256": "8d4ecba05181cb71c9d122bc355e5a124d356662f5b30c0be82dc30c4fda5dc1"
+    },
+    "work/cutoff25_continue_20261015/root/taylor_fourier_v3/CONTROLS.json": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 1615,
+      "member": "cutoff25_continue_20261015/root/taylor_fourier_v3/CONTROLS.json",
+      "sha256": "f987b03b5335bb42d626e5dd6d61f54f98bbee4d509031387e02cf306044fe19"
+    },
+    "work/cutoff25_continue_20261015/root/taylor_fourier_v3/PROOF.txt": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 6860,
+      "member": "cutoff25_continue_20261015/root/taylor_fourier_v3/PROOF.txt",
+      "sha256": "83303d84e41d0cdd4965ad88f81f4e2408cabbdfe2ab4c1c818416984863a702"
+    },
+    "work/cutoff25_continue_20261015/root/taylor_fourier_v3/controls.py": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 2575,
+      "member": "cutoff25_continue_20261015/root/taylor_fourier_v3/controls.py",
+      "sha256": "4f1694ed7c0704dc41cac19d2a424f3a281d3a1b4ecf9869f1cc96545e687a05"
+    },
+    "work/cutoff25_continue_20261015/root/taylor_fourier_v3/integrate.py": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 6874,
+      "member": "cutoff25_continue_20261015/root/taylor_fourier_v3/integrate.py",
+      "sha256": "3903b50967984ee50a2cb3997deef7e017f7bf29d2483ce456889de16be20f68"
+    },
+    "work/cutoff25_continue_20261015/root/taylor_fourier_v3/jet.py": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 2053,
+      "member": "cutoff25_continue_20261015/root/taylor_fourier_v3/jet.py",
+      "sha256": "8d4ecba05181cb71c9d122bc355e5a124d356662f5b30c0be82dc30c4fda5dc1"
+    },
+    "work/cutoff25_continue_20261015/root/taylor_sine_v1/PROOF.txt": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 5066,
+      "member": "cutoff25_continue_20261015/root/taylor_sine_v1/PROOF.txt",
+      "sha256": "3cc16ea60f17e439d9899d25f48e7c847d73f95beb7024a2d389fb2746920a73"
+    },
+    "work/cutoff25_continue_20261015/root/taylor_sine_v2/PROOF.txt": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 1433,
+      "member": "cutoff25_continue_20261015/root/taylor_sine_v2/PROOF.txt",
+      "sha256": "c023de89056305a8097f0cec7c19692130f6cd47c5998b36a0591c25e6a189d0"
+    },
+    "work/cutoff25_continue_20261015/root/taylor_sine_v2/scalar.py": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 8759,
+      "member": "cutoff25_continue_20261015/root/taylor_sine_v2/scalar.py",
+      "sha256": "fa36e043f8ddf0c9b9f8228cc7287840cfb5b200f36cc3e419b8b9dfdcfa6a41"
+    },
+    "work/cutoff25_continue_20261015/root/taylor_sine_v3/PROOF.txt": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 1435,
+      "member": "cutoff25_continue_20261015/root/taylor_sine_v3/PROOF.txt",
+      "sha256": "5929cc4d1f91ee1e27e85ba0fc7b9685bd5f5f07d9fa9a953615295173b7d959"
+    },
+    "work/cutoff25_continue_20261015/root/taylor_sine_v3/scalar.py": {
+      "archive": "cutoff25_continue_20261015.zip",
+      "bytes": 9800,
+      "member": "cutoff25_continue_20261015/root/taylor_sine_v3/scalar.py",
+      "sha256": "94981b3eaab98cad5131a9d2af147601e45bcc9f1c1e7b656b45baa745244385"
+    },
+    "work/cutoff25_rethink_20261015/repo_iid_low_v1/ZETA_CIRCLE_PROOF.txt": {
+      "archive": "cutoff25_rethink_20261015.zip",
+      "bytes": 3487,
+      "member": "cutoff25_rethink_20261015/repo_iid_low_v1/ZETA_CIRCLE_PROOF.txt",
+      "sha256": "79ccb6400d557744e015ffa90a00ee9262b92a558b361e2dfcc6fcd03b2de3dd"
+    },
+    "work/cutoff25_rethink_20261015/repo_independent/ABSMEAN_PRELIMINARY_CHECK.json": {
+      "archive": "cutoff25_rethink_20261015.zip",
+      "bytes": 6637,
+      "member": "cutoff25_rethink_20261015/repo_independent/ABSMEAN_PRELIMINARY_CHECK.json",
+      "sha256": "1436104d7119108759d7538de1f63677f90380647308f572fe8f112ebdd20d94"
+    },
+    "work/cutoff25_rethink_20261015/repo_independent/ABSMEAN_PRELIMINARY_REVIEW.txt": {
+      "archive": "cutoff25_rethink_20261015.zip",
+      "bytes": 9226,
+      "member": "cutoff25_rethink_20261015/repo_independent/ABSMEAN_PRELIMINARY_REVIEW.txt",
+      "sha256": "6362fcf208b6eef8862ed0bf0ab3ae4c66fe1f80b4d9f822ce360837a07def32"
+    },
+    "work/cutoff25_rethink_20261015/repo_independent/FINAL_ABSMEAN_B2_REVIEW.txt": {
+      "archive": "cutoff25_rethink_20261015.zip",
+      "bytes": 10390,
+      "member": "cutoff25_rethink_20261015/repo_independent/FINAL_ABSMEAN_B2_REVIEW.txt",
+      "sha256": "3d88455c4d36cd2c10f4dfe36504fca0fc35d2911610ef475dfa8b2e8ccb64c1"
+    },
+    "work/cutoff25_rethink_20261015/repo_independent/FOURIER_AUDIT.txt": {
+      "archive": "cutoff25_rethink_20261015.zip",
+      "bytes": 10492,
+      "member": "cutoff25_rethink_20261015/repo_independent/FOURIER_AUDIT.txt",
+      "sha256": "40acdf27ea60aa7a792927009e39e7f33c6609c90461e65134818247f619227b"
+    },
+    "work/cutoff25_rethink_20261015/root/ETA_VARIANCE_LOSS.txt": {
+      "archive": "cutoff25_rethink_20261015.zip",
+      "bytes": 3567,
+      "member": "cutoff25_rethink_20261015/root/ETA_VARIANCE_LOSS.txt",
+      "sha256": "80d6ba61b1ec743937dd29e8bf2361765c8366e70a568d13e79310fd8f1af4a6"
+    },
+    "work/cutoff25_rethink_20261015/root/FOURIER_REDUCTION_V2.txt": {
+      "archive": "cutoff25_rethink_20261015.zip",
+      "bytes": 6050,
+      "member": "cutoff25_rethink_20261015/root/FOURIER_REDUCTION_V2.txt",
+      "sha256": "7389d85b02adbef18d598d57d97bdf93b9fe76502b826ed405fd54b95d5d40c6"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/PROOF.txt": {
+      "archive": "cutoff25_rethink_20261015.zip",
+      "bytes": 4882,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/PROOF.txt",
+      "sha256": "df92603993c8b3ef4bab8767d3db7c21e694fc7d78661845b306dfd0e68dc0fc"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/batch.py": {
+      "archive": "cutoff25_rethink_20261015.zip",
+      "bytes": 5331,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/batch.py",
+      "sha256": "04045148b9e86dc4d92357d09642c04218ed2ea6f8ed27b5e7796a159f85b39e"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/CHECKED.json": {
+      "archive": "cutoff25_rethink_20261015.zip",
+      "bytes": 14395,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_interval/CHECKED.json",
+      "sha256": "47c4cab5cad8af828e65cc4cbca91e3a01b3f7699a0d429e7f6240d87bfea55d"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/PROOF.txt": {
+      "archive": "cutoff25_rethink_20261015.zip",
+      "bytes": 4502,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_interval/PROOF.txt",
+      "sha256": "e88f28253b08150ea49443c25888cfabe0e432492534b4f354a27b4d84fdbb9b"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/controls.py": {
+      "archive": "cutoff25_rethink_20261015.zip",
+      "bytes": 4786,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_interval/controls.py",
+      "sha256": "b96437c80f9abcbe46719a3b56e31a8c39f8b6c82b415e6b088d9c33f82402e4"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/kernel.py": {
+      "archive": "cutoff25_rethink_20261015.zip",
+      "bytes": 6017,
+      "member": "cutoff25_rethink_20261015/scale_analytic/fourier_interval/kernel.py",
+      "sha256": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CERTIFICATE.json": {
+      "archive": "cutoff25_rethink_20261015.zip",
+      "bytes": 81278,
+      "member": "cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CERTIFICATE.json",
+      "sha256": "02dc46c334ec9c9cbf0e7bb4c982869c6e3e0649a915169d3542b8820b51aac7"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CHECKED.json": {
+      "archive": "cutoff25_rethink_20261015.zip",
+      "bytes": 1179,
+      "member": "cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CHECKED.json",
+      "sha256": "163bf7eff250f62806ee308eab31d71fc1f35da49fdf625675071387b08b0031"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/PROOF.txt": {
+      "archive": "cutoff25_rethink_20261015.zip",
+      "bytes": 5668,
+      "member": "cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/PROOF.txt",
+      "sha256": "6645891bc75553f1a35faba00dd2a09e6b47c5fd374e637d83d62ec82069c162"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/controls.py": {
+      "archive": "cutoff25_rethink_20261015.zip",
+      "bytes": 2951,
+      "member": "cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/controls.py",
+      "sha256": "331ee713e7950c9013d969b70de5809d4eb7e37ac34cd22a6184e0f8872fe4b5"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/kernel.py": {
+      "archive": "cutoff25_rethink_20261015.zip",
+      "bytes": 4152,
+      "member": "cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/kernel.py",
+      "sha256": "16170505dece7571725e4e601f1546989d546ed64685616f9d13283c59702b0a"
+    }
+  }
+}
