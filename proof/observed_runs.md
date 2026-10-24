@@ -1138,3 +1138,29 @@ bundle `finite2124-highrho/20261024T001924Z-8164bb3e/20261024T001924Z-8164bb3e-r
 This is supplied-output completion of both original support passes. Actual
 export readback, retained Fourier/predecessor acquisitions and full actual20--24
 composition remain separate. No repeated successful58Asupport run is queued.
+
+## Notebooks56D/E/F and57D: completed sublanes observed
+
+The supplied final cells report completed corner, supported-HIGH and
+coarse-support10--14 sublanes. A read-only inspection of the two actual
+downloaded ZIP session ledgers also resolves the previously unidentified57D
+download. No original mathematical calculation was run in this inspection.
+
+| Notebook | Final state | Final saved bundle |
+| --- | --- | --- |
+|56D|`complete_conditional_corner10_14_sublane_basic`|`finite1014-corner/20261023T234556Z-6920e6b6/20261023T234556Z-6920e6b6-results.zip`|
+|56E|`complete_conditional_supported_high10_14_sublane_basic`|`finite1014-supported-high/20261024T002515Z-6469403c/20261024T002515Z-6469403c-results.zip`|
+|56F|`complete_conditional_supported_coarse_support10_14_sublane_basic`|`finite1014-coarse-support/20261024T002644Z-760fc753/20261024T002644Z-760fc753-results.zip`|
+|57D|`complete_conditional_support15_19_sublane_basic`|`finite1519-support/20261024T002654Z-bded53b2/20261024T002654Z-bded53b2-results.zip`|
+
+The actual56D ZIP has910399bytes and SHA256
+`7c7e74244d86bab1cef63dc139912a6255f8f74c2357209149405814bc10cc20`;
+its session ends at00:30:56UTC on24October. The actual57D ZIP has111801bytes
+and SHA256`c18487bb22c9fa848b72f82bc23e893d87dbe88d12173f481b3ce75a6b7f3678`;
+its session ends at00:27:00UTC and records
+`conditional_support_arithmetic_completed:true`, with full57false.
+This inspection identifies the result files and their recorded completion;
+it does not replace full source/capture/result validation of those exports.
+No repeat of these four successful computations is queued. The exact
+support/predecessor hypotheses, remaining parent calculations and semantic
+COUNT/global joins remain separate.

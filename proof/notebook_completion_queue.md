@@ -22,13 +22,13 @@ external inputs to be checked; writing the paper is not the only later step.
 |56A|Final `complete_conditional_auxiliary9_14_sublane_basic`, ZIP saved.|Preserve export; no repeated Fourier calculation queued.|
 |56B|Delivered supported Fourier calculation; no final completion supplied.|Wait for its actual final result.|
 |56C|4/4 actions complete, 80 strips/400 rows, readback24 controls, ZIP saved.|Preserve export; no repeated Fourier calculation queued.|
-|56D|Delivered corner Fourier calculation; no final completion supplied.|Wait for its actual final result.|
-|56E|Ready full original supported-HIGH10--14 three-action notebook.|Run with the same Drive; its support premises remain explicit.|
-|56F|Ready full original coarse-support10--14 pair.|Run with the same Drive; global and regional predecessor premises remain explicit.|
+|56D|Final complete_conditional_corner10_14_sublane_basic; saved ZIP and its actual session ledger observed.|Preserve export; no repeated corner Fourier calculation queued.|
+|56E|Final complete_conditional_supported_high10_14_sublane_basic and saved ZIP supplied.|Preserve export; no repeated supported-HIGH calculation queued.|
+|56F|Final complete_conditional_supported_coarse_support10_14_sublane_basic and saved ZIP supplied.|Preserve export; no repeated coarse-support calculation queued.|
 |56K|Final complete_scalar_kappa_62_625_basic,21negative and324identity checks; ZIP saved.|Preserve export; no scalar replay queued.|
 |58A|Final complete_conditional_actual21_24_highrho_support_basic; ZIP saved.|Preserve export; no repeated support calculation queued.|
 |57A/B/C|Ready original auxiliary/supported/high-rho14--19Fourier notebooks.|Run independently with the same Drive; complete-only caches are separate.|
-|57D|Ready original full-ray15--19support pair.|Run with the same Drive; retain the stated predecessor/contact premises.|
+|57D|Actual downloaded ZIP session ledger reports complete_conditional_support15_19_sublane_basic.|Preserve export; no repeated support calculation queued.|
 
 Earlier successful jobs, including12,53 and corrected54, are recorded in
 [STATUS](../STATUS.md) and [observed runs](observed_runs.md). Absence of their
