@@ -1,0 +1,19 @@
+{
+  "all_index_conclusion_verified": false,
+  "all_selected_bytes_verified": true,
+  "arithmetic_computed": false,
+  "full_notebook56_completed": false,
+  "original_source_graph_rows": 81,
+  "original_source_programs_and_source_graph_unchanged": true,
+  "parent_acquisitions_verified": false,
+  "predecessor_caps_verified": false,
+  "python_source_paths": 65,
+  "schema": "FINITE1014_COARSE_SUPPORT_SOURCE_PREPARATION_V1",
+  "source_bytes": 471452,
+  "source_files": 81,
+  "source_helper_sha256": "2c27c2b5f89a768f2c54620306555015983350c85db70dff85f2faadff18d43e",
+  "source_plan_sha256": "ac0b60624200511a10935e78b2abc5d867fe6d10e7b322fe13270bcd40247be2",
+  "static_import_statements": 237,
+  "support_acquisition_verified": false,
+  "unique_python_sources": 35
+}

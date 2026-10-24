@@ -1,0 +1,226 @@
+{
+  "all_index_conclusion_verified": false,
+  "arithmetic_computed": false,
+  "assets": [
+    {
+      "bytes": 224483065,
+      "name": "cutoff5_10_15.zip",
+      "sha256": "268f71662171764d7ebe116910b5df82dfd58cadb2de2a7ef82db7da98b66dae",
+      "url": "https://github.com/rodziewiczk/berry-esseen-045-certificate/releases/download/cutoff5-sources-2026-10-20/cutoff5_10_15.zip"
+    },
+    {
+      "bytes": 31681776,
+      "name": "cutoff20_20261016.zip",
+      "sha256": "b1dd7e730187f62142faa1e82eff5a9fd13a879e933a2fafbd22af8a4709ef83",
+      "url": "https://github.com/rodziewiczk/berry-esseen-045-certificate/releases/download/cutoff20-sources-2026-10-17/cutoff20_20261016.zip"
+    }
+  ],
+  "full_notebook57_completed": false,
+  "full_ray_rows": 10,
+  "malformed_controls": 14,
+  "n": [
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "original_candidate_is_not_an_execution_input": true,
+  "original_candidate_sha256": "e34d47801d087252f179c2ba033a7289fc3cf03213f3dd92ce69db0b42388e5d",
+  "original_candidate_source_graph": {
+    "work/cutoff15_20261017/analytic/initial15_v1/cantelli_high.py": "c95a6ce9d75fd2c5693de574f322859bcb29d25df4cada9facd96ed3edc02239",
+    "work/cutoff15_20261017/analytic/initial15_v1/direct_gaussian_support.py": "5742afc0538fe3fb8473d087810ad391623d38a151f5b789e7520d256197c1d2",
+    "work/cutoff15_20261017/analytic/initial15_v1/finite_binomial_core.py": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+    "work/cutoff15_20261017/analytic/initial15_v1/heat_support50.py": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+    "work/cutoff15_20261017/analytic/initial15_v1/high_grid.py": "a6b631ea8df0299e7bbd14f9d6afd21abd3f1693f66d24036cefda36f51c741a",
+    "work/cutoff15_20261017/analytic/initial15_v1/high_window_common.py": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+    "work/cutoff15_20261017/analytic/initial15_v1/high_window_core.py": "62ba022998f45e0e4f8628badfe5092ae0b8d2bc256d5c18614bfb44e63906a0",
+    "work/cutoff15_20261017/analytic/initial15_v1/initial34_indexed.py": "37c002305518111b600e461133947aed7e739530f60e316463cadad301a9a82b",
+    "work/cutoff15_20261017/analytic/initial15_v1/integer_exphi.py": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+    "work/cutoff15_20261017/analytic/initial15_v1/kernel.py": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+    "work/cutoff15_20261017/analytic/initial15_v1/small_index_support.py": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+    "work/cutoff15_20261017/analytic/initial15_v1/support_bridge.py": "e43aeb978edd61f66111c60220d8323ccd00802f09309666ead53fb1419186c2",
+    "work/cutoff20_20261016/finite/feedback20_initial_v1/cantelli_high.py": "c95a6ce9d75fd2c5693de574f322859bcb29d25df4cada9facd96ed3edc02239",
+    "work/cutoff20_20261016/finite/feedback20_initial_v1/direct_gaussian_support.py": "5742afc0538fe3fb8473d087810ad391623d38a151f5b789e7520d256197c1d2",
+    "work/cutoff20_20261016/finite/feedback20_initial_v1/finite_binomial_core.py": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+    "work/cutoff20_20261016/finite/feedback20_initial_v1/heat_support50.py": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+    "work/cutoff20_20261016/finite/feedback20_initial_v1/high_grid.py": "a6b631ea8df0299e7bbd14f9d6afd21abd3f1693f66d24036cefda36f51c741a",
+    "work/cutoff20_20261016/finite/feedback20_initial_v1/high_window_common.py": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+    "work/cutoff20_20261016/finite/feedback20_initial_v1/high_window_core.py": "62ba022998f45e0e4f8628badfe5092ae0b8d2bc256d5c18614bfb44e63906a0",
+    "work/cutoff20_20261016/finite/feedback20_initial_v1/initial34_indexed.py": "37c002305518111b600e461133947aed7e739530f60e316463cadad301a9a82b",
+    "work/cutoff20_20261016/finite/feedback20_initial_v1/integer_exphi.py": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+    "work/cutoff20_20261016/finite/feedback20_initial_v1/kernel.py": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+    "work/cutoff20_20261016/finite/feedback20_initial_v1/small_index_support.py": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582"
+  },
+  "original_constructor_sha256": "e43aeb978edd61f66111c60220d8323ccd00802f09309666ead53fb1419186c2",
+  "original_mathematical_programs_unchanged": true,
+  "original_replay_sha256": "3b7e80ebc4b210b486e4f581f2bf645234edfeb036723539520c385210ac93e7",
+  "parent_acquisitions_verified": false,
+  "parser_controls": 2,
+  "radius": "3",
+  "rho_interval": [
+    "1",
+    "33/25"
+  ],
+  "schema": "FINITE1519_FULL_RAY_SUPPORT_SOURCE_PLAN_V1",
+  "scope": "UNCHANGED_CONDITIONAL_FULL_RAY_SUPPORT15_19_ONLY",
+  "source_files": {
+    "work/cutoff15_20261017/analytic/initial15_v1/COPIED_SOURCES.json": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 2209,
+      "member": "cutoff15_20261017/analytic/initial15_v1/COPIED_SOURCES.json",
+      "sha256": "60beb998a4d19ea6949e9707e778f79b7a1866d5f58d24cb10fdaa73ebdc62a3"
+    },
+    "work/cutoff15_20261017/analytic/initial15_v1/cantelli_high.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 1593,
+      "member": "cutoff15_20261017/analytic/initial15_v1/cantelli_high.py",
+      "sha256": "c95a6ce9d75fd2c5693de574f322859bcb29d25df4cada9facd96ed3edc02239"
+    },
+    "work/cutoff15_20261017/analytic/initial15_v1/direct_gaussian_support.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 5332,
+      "member": "cutoff15_20261017/analytic/initial15_v1/direct_gaussian_support.py",
+      "sha256": "5742afc0538fe3fb8473d087810ad391623d38a151f5b789e7520d256197c1d2"
+    },
+    "work/cutoff15_20261017/analytic/initial15_v1/finite_binomial_core.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 3510,
+      "member": "cutoff15_20261017/analytic/initial15_v1/finite_binomial_core.py",
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f"
+    },
+    "work/cutoff15_20261017/analytic/initial15_v1/heat_support50.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 4726,
+      "member": "cutoff15_20261017/analytic/initial15_v1/heat_support50.py",
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18"
+    },
+    "work/cutoff15_20261017/analytic/initial15_v1/high_grid.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 740,
+      "member": "cutoff15_20261017/analytic/initial15_v1/high_grid.py",
+      "sha256": "a6b631ea8df0299e7bbd14f9d6afd21abd3f1693f66d24036cefda36f51c741a"
+    },
+    "work/cutoff15_20261017/analytic/initial15_v1/high_window_common.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 2810,
+      "member": "cutoff15_20261017/analytic/initial15_v1/high_window_common.py",
+      "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f"
+    },
+    "work/cutoff15_20261017/analytic/initial15_v1/high_window_core.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 2214,
+      "member": "cutoff15_20261017/analytic/initial15_v1/high_window_core.py",
+      "sha256": "62ba022998f45e0e4f8628badfe5092ae0b8d2bc256d5c18614bfb44e63906a0"
+    },
+    "work/cutoff15_20261017/analytic/initial15_v1/initial34_indexed.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 11852,
+      "member": "cutoff15_20261017/analytic/initial15_v1/initial34_indexed.py",
+      "sha256": "37c002305518111b600e461133947aed7e739530f60e316463cadad301a9a82b"
+    },
+    "work/cutoff15_20261017/analytic/initial15_v1/integer_exphi.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 803,
+      "member": "cutoff15_20261017/analytic/initial15_v1/integer_exphi.py",
+      "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03"
+    },
+    "work/cutoff15_20261017/analytic/initial15_v1/kernel.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 19042,
+      "member": "cutoff15_20261017/analytic/initial15_v1/kernel.py",
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12"
+    },
+    "work/cutoff15_20261017/analytic/initial15_v1/small_index_support.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 2698,
+      "member": "cutoff15_20261017/analytic/initial15_v1/small_index_support.py",
+      "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582"
+    },
+    "work/cutoff15_20261017/analytic/initial15_v1/support_bridge.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 2373,
+      "member": "cutoff15_20261017/analytic/initial15_v1/support_bridge.py",
+      "sha256": "e43aeb978edd61f66111c60220d8323ccd00802f09309666ead53fb1419186c2"
+    },
+    "work/cutoff15_20261017/analytic/support15_19_replay_v1/PROOF.txt": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 2146,
+      "member": "cutoff15_20261017/analytic/support15_19_replay_v1/PROOF.txt",
+      "sha256": "24df6b0c3f9fd01f38389ced9ce14913e9797b0f3f7c2104b0ce18501d4797da"
+    },
+    "work/cutoff15_20261017/analytic/support15_19_replay_v1/check.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 6328,
+      "member": "cutoff15_20261017/analytic/support15_19_replay_v1/check.py",
+      "sha256": "3b7e80ebc4b210b486e4f581f2bf645234edfeb036723539520c385210ac93e7"
+    },
+    "work/cutoff20_20261016/finite/feedback20_initial_v1/cantelli_high.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 1593,
+      "member": "cutoff20_20261016/finite/feedback20_initial_v1/cantelli_high.py",
+      "sha256": "c95a6ce9d75fd2c5693de574f322859bcb29d25df4cada9facd96ed3edc02239"
+    },
+    "work/cutoff20_20261016/finite/feedback20_initial_v1/direct_gaussian_support.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 5332,
+      "member": "cutoff20_20261016/finite/feedback20_initial_v1/direct_gaussian_support.py",
+      "sha256": "5742afc0538fe3fb8473d087810ad391623d38a151f5b789e7520d256197c1d2"
+    },
+    "work/cutoff20_20261016/finite/feedback20_initial_v1/finite_binomial_core.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 3510,
+      "member": "cutoff20_20261016/finite/feedback20_initial_v1/finite_binomial_core.py",
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f"
+    },
+    "work/cutoff20_20261016/finite/feedback20_initial_v1/heat_support50.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 4726,
+      "member": "cutoff20_20261016/finite/feedback20_initial_v1/heat_support50.py",
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18"
+    },
+    "work/cutoff20_20261016/finite/feedback20_initial_v1/high_grid.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 740,
+      "member": "cutoff20_20261016/finite/feedback20_initial_v1/high_grid.py",
+      "sha256": "a6b631ea8df0299e7bbd14f9d6afd21abd3f1693f66d24036cefda36f51c741a"
+    },
+    "work/cutoff20_20261016/finite/feedback20_initial_v1/high_window_common.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 2810,
+      "member": "cutoff20_20261016/finite/feedback20_initial_v1/high_window_common.py",
+      "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f"
+    },
+    "work/cutoff20_20261016/finite/feedback20_initial_v1/high_window_core.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 2214,
+      "member": "cutoff20_20261016/finite/feedback20_initial_v1/high_window_core.py",
+      "sha256": "62ba022998f45e0e4f8628badfe5092ae0b8d2bc256d5c18614bfb44e63906a0"
+    },
+    "work/cutoff20_20261016/finite/feedback20_initial_v1/initial34_indexed.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 11852,
+      "member": "cutoff20_20261016/finite/feedback20_initial_v1/initial34_indexed.py",
+      "sha256": "37c002305518111b600e461133947aed7e739530f60e316463cadad301a9a82b"
+    },
+    "work/cutoff20_20261016/finite/feedback20_initial_v1/integer_exphi.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 803,
+      "member": "cutoff20_20261016/finite/feedback20_initial_v1/integer_exphi.py",
+      "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03"
+    },
+    "work/cutoff20_20261016/finite/feedback20_initial_v1/kernel.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 19042,
+      "member": "cutoff20_20261016/finite/feedback20_initial_v1/kernel.py",
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12"
+    },
+    "work/cutoff20_20261016/finite/feedback20_initial_v1/small_index_support.py": {
+      "archive": "cutoff20_20261016.zip",
+      "bytes": 2698,
+      "member": "cutoff20_20261016/finite/feedback20_initial_v1/small_index_support.py",
+      "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582"
+    }
+  },
+  "support_acquisition_verified": false
+}

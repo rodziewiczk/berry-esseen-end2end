@@ -1,0 +1,636 @@
+{
+  "actions": [
+    "construct",
+    "replay"
+  ],
+  "all_index_conclusion_verified": false,
+  "all_n": [
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "arithmetic_computed": false,
+  "assets": [
+    {
+      "bytes": 224483065,
+      "name": "cutoff5_10_15.zip",
+      "sha256": "268f71662171764d7ebe116910b5df82dfd58cadb2de2a7ef82db7da98b66dae",
+      "url": "https://github.com/rodziewiczk/berry-esseen-045-certificate/releases/download/cutoff5-sources-2026-10-20/cutoff5_10_15.zip"
+    },
+    {
+      "bytes": 141304365,
+      "name": "cutoff5_20261020.zip",
+      "sha256": "8428002462d4e650613ea6e2ff673cb1e69c2079572cc40546d125349d582419",
+      "url": "https://github.com/rodziewiczk/berry-esseen-045-certificate/releases/download/cutoff5-sources-2026-10-20/cutoff5_20261020.zip"
+    }
+  ],
+  "bands": [
+    {
+      "beta_upper": "95741889960107/200000000000000",
+      "name": "global",
+      "predecessor_cap": "423/1000",
+      "rho_interval": [
+        "1",
+        "7/5"
+      ]
+    },
+    {
+      "beta_upper": "244365230009117/500000000000000",
+      "name": "localized",
+      "predecessor_cap": "209/500",
+      "rho_interval": [
+        "7/5",
+        "71/50"
+      ]
+    }
+  ],
+  "conditional_premises": [
+    "Same-marginal all-threshold predecessor caps at indices9..13:423/1000 globally and209/500 on closed rho[7/5,71/50]",
+    "Attained positive witness score above4097/10000, exact contact and support analytic framework; no predecessor monotonicity"
+  ],
+  "full_notebook56_completed": false,
+  "original_source_graph_rows": 81,
+  "original_source_graph_sha256": "89926244a904d18de09f4003452b3534eaaa94ac3d7d3513c5e1cf279538c65b",
+  "parent_acquisitions_verified": false,
+  "predecessor_caps_verified": false,
+  "radius": "3",
+  "recovered_exact_prose_aliases": [
+    "work/short35_20261007/root/foundation.tex"
+  ],
+  "schema": "FINITE1014_COARSE_SUPPORT_SOURCE_PLAN_V1",
+  "scope": "CONDITIONAL_COARSE_SUPPORT10_14_ONLY",
+  "source_files": {
+    "work/cutoff10_20261018/analytic/coarse_support10_14_v1/COPIES.json": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 823,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/analytic/coarse_support10_14_v1/COPIES.json",
+      "sha256": "fa439e51bf54364044c5051782afe544bf5a7b12557f4d59590cf4dcc5df8002"
+    },
+    "work/cutoff10_20261018/analytic/coarse_support10_14_v1/PROOF.txt": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 2099,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/analytic/coarse_support10_14_v1/PROOF.txt",
+      "sha256": "02d3588e33f082ac8927f4f856d588cb45eea6238ff2c82c3332734f9bb72dad"
+    },
+    "work/cutoff10_20261018/analytic/coarse_support10_14_v1/construct.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 2516,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/analytic/coarse_support10_14_v1/construct.py",
+      "sha256": "6aa8a6e608e2ef422bcd9bcbf9572e36eff3c828a0914e037d852be9a76a22d4"
+    },
+    "work/cutoff10_20261018/analytic/coarse_support10_14_v1/direct_gaussian_support.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 5332,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/analytic/coarse_support10_14_v1/direct_gaussian_support.py",
+      "sha256": "5742afc0538fe3fb8473d087810ad391623d38a151f5b789e7520d256197c1d2"
+    },
+    "work/cutoff10_20261018/analytic/coarse_support10_14_v1/finite_binomial_core.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 3510,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/analytic/coarse_support10_14_v1/finite_binomial_core.py",
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f"
+    },
+    "work/cutoff10_20261018/analytic/coarse_support10_14_v1/heat_support50.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 4726,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/analytic/coarse_support10_14_v1/heat_support50.py",
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18"
+    },
+    "work/cutoff10_20261018/analytic/coarse_support10_14_v1/replay.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 6162,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/analytic/coarse_support10_14_v1/replay.py",
+      "sha256": "4d3d690b30c16a08e9b7e00659d81b9fb19270b69636ee39b5786a9bd8cdcea1"
+    },
+    "work/cutoff10_20261018/analytic/coarse_support10_14_v1/small_index_support.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 2698,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/analytic/coarse_support10_14_v1/small_index_support.py",
+      "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582"
+    },
+    "work/cutoff10_20261018/analytic/support_probe_v1/direct_gaussian_support.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 5332,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/analytic/support_probe_v1/direct_gaussian_support.py",
+      "sha256": "5742afc0538fe3fb8473d087810ad391623d38a151f5b789e7520d256197c1d2"
+    },
+    "work/cutoff10_20261018/analytic/support_probe_v1/finite_binomial_core.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 3510,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/analytic/support_probe_v1/finite_binomial_core.py",
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f"
+    },
+    "work/cutoff10_20261018/analytic/support_probe_v1/heat_support50.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 4726,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/analytic/support_probe_v1/heat_support50.py",
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18"
+    },
+    "work/cutoff10_20261018/analytic/support_probe_v1/small_index_support.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 2698,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/analytic/support_probe_v1/small_index_support.py",
+      "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/CHECKED.json": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 12839,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/CHECKED.json",
+      "sha256": "0b1d3b8d8124e7ef96825479f0859cc4067072d70548b14cb5ceabefde4cfe8b"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/COPIES.json": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 7782,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/COPIES.json",
+      "sha256": "2a5eac1b2d8f4f646898697339f655364ac6490f72456c9c9b0b8266ea58993a"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/PROOF.txt": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 10232,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/PROOF.txt",
+      "sha256": "cadcfc444dbe4f28b29cf0df02ecc766ffc8ab835f7a3eb09a146b7f5d931d6d"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/check.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 9105,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/check.py",
+      "sha256": "7800aff87279c8cd6930a623a59cedf64fc74e63cd9a208025e60c43552e57b1"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/engine/KERNEL_COPY_MANIFEST.json": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 7581,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/engine/KERNEL_COPY_MANIFEST.json",
+      "sha256": "76648b66e6630ead12aab824209407821600eac0edc3425f856b28641bc2e560"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/engine/RIGHT_HALF_COUNT_PROOF.txt": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 7176,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/engine/RIGHT_HALF_COUNT_PROOF.txt",
+      "sha256": "a73a4f6abf8796e6e20ab161922f33a075c972953e1f6ee545709c51566a355b"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/engine/SOURCE_TRANSFORM.json": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 11401,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/engine/SOURCE_TRANSFORM.json",
+      "sha256": "5da6ce26255dafad387d566a8620a3549659e834f8aea23f63c0c80d2d8df11c"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/engine/bernstein_fast.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 1401,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/engine/bernstein_fast.py",
+      "sha256": "4983c9af05673775c3fd5b521e898a9c7f7fe5c9523a5009646872bf75adc607"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/engine/contract.json": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 3016,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/engine/contract.json",
+      "sha256": "0a9b6e64fafa8128e4d6cedf4b08963dc44e5eeafe93542611f92fb90a878141"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/engine/exact35_core.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 16640,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/engine/exact35_core.py",
+      "sha256": "512c70ead43294a7f1d4e14922c9c3a55d3928c9555f4af1415cacf5ad6657bb"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/engine/exact_count_core_v5.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 7506,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/engine/exact_count_core_v5.py",
+      "sha256": "0ffba7a5e1a91fc3c3c770f9d3bcb073a529fade3d622bc5615567153a4255a0"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/engine/finite_gaussian.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 3594,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/engine/finite_gaussian.py",
+      "sha256": "4f5b1a829df4c3c8c0e5467adb79f112984ee8eab8ba5f25b20fd7173b78a4a0"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/engine/generalized_scope.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 1778,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/engine/generalized_scope.py",
+      "sha256": "0ca76c72ccf7f9243e1d9b7d68f814b84e160f7da11945a7842dff5b2abebc00"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/engine/interval_scalar_fast.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 559,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/engine/interval_scalar_fast.py",
+      "sha256": "3eaa0d78eec8b8d5c2044eb020a406ec352ac5a99b30f9d2773694a4f9601512"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/engine/inward_filter.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 1144,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/engine/inward_filter.py",
+      "sha256": "11922c9ab0f8faa6334756535755e1ee5df6eab8c9e6a80511fff02687b8ec7a"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/engine/joint.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 1698,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/engine/joint.py",
+      "sha256": "5d6e3fecf6627d9cc1e00869e41077ddd6cd714952a60bd8fab00069269e20be"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/engine/joint_cubic.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 2845,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/engine/joint_cubic.py",
+      "sha256": "d4adf6e9cfa430bbd7be7ffd90b994672d648d9886c42aa38e0a94b66eb55238"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/engine/joint_cubic_defect.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 2021,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/engine/joint_cubic_defect.py",
+      "sha256": "86874d28284f931b8907b573c118a9fb8191653a6569d903aed54c9f1974e970"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/engine/joint_cubic_normalized.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 1835,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/engine/joint_cubic_normalized.py",
+      "sha256": "1403856612e213b9a14118a5a4098b7f470ce890499811dd1ad53c808904e2f6"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/engine/joint_cubic_normalized_fast.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 2144,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/engine/joint_cubic_normalized_fast.py",
+      "sha256": "7d72ff8ec7cfc2ad59e45d26fcccd6998ef01abe24cb54653ba18b05f2bbf347"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/engine/joint_filter.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 1446,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/engine/joint_filter.py",
+      "sha256": "ffd2bcca7eada563c5c3fa83828a534a1229ef1f1b231b9af148d4f1f637e276"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/engine/optimized_arithmetic.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 382,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/engine/optimized_arithmetic.py",
+      "sha256": "ab9bc728fbb7901f94323a384caf367eee2b2064e919dac27a01cabae743b765"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/engine/probability_extrema.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 435,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/engine/probability_extrema.py",
+      "sha256": "f808c4e82ba40ce094e45139c6e09872c43ca7249ab7ae1d25aca24bbc5ee9ac"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/engine/rho_signed_moment_tightener.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 2884,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/engine/rho_signed_moment_tightener.py",
+      "sha256": "1fe8fefd93269e478be47077b3bf1c8d0cff9259de94824d55a66824b8052cdc"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/engine/rho_variance_floor.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 1400,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/engine/rho_variance_floor.py",
+      "sha256": "615acbcb948d2ba5767082f0dd2a2ab6f1d3999ae0a8afac3fd4c1d73b3aab6b"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/engine/signed_beta_variance_floor.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 1028,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/engine/signed_beta_variance_floor.py",
+      "sha256": "c4208b88510735d0e808b947ec624ce785de42ef4c9fe3217505ebbef2c823c6"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/engine/signed_moment_floor_tightener.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 2464,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/engine/signed_moment_floor_tightener.py",
+      "sha256": "6e7165bb4f16df296f58d511983696e10e56725fad28f1179002f31e232f5dbc"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/engine/signed_moment_prefilter.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 1931,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/engine/signed_moment_prefilter.py",
+      "sha256": "fd82440f07f4be759d74c2d7d44d1075d293e054580e9fa28cc021311b5f2173"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/engine/signed_moment_tightener.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 2254,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/engine/signed_moment_tightener.py",
+      "sha256": "f6ea60e4592a5055c1ace9340765076a95784f5c5d02232f2f02544321e75b9d"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/engine/variance_geometry.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 1749,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/engine/variance_geometry.py",
+      "sha256": "55ba277cf30a0dc571cd98f38fd99deb4deff15c3be8df249c370ae8b10b3734"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/high/bound.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 4517,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/high/bound.py",
+      "sha256": "2ce39dd9c691d81cfe089b8c945c47ce2fa98611cdfbc815607406762000330f"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/high/kernel.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 6017,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/high/kernel.py",
+      "sha256": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/high/universal.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 4625,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/high/universal.py",
+      "sha256": "38b5bd3a598bbe16af46693f1c48535a0e34533a3c73cb3b508a03c36665714b"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/prepare.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 2234,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/prepare.py",
+      "sha256": "51f3e018b411acd5861eb17f9369979099b4213fd3d3386d0abfea831da1850b"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/range_controls.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 7705,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/range_controls.py",
+      "sha256": "1f4b2ccc94d355128918fbe839460555045d389fa39d0e8726a7d4becb3459ae"
+    },
+    "work/cutoff10_20261018/audit/range10_v1/spectral/contracted_kernel.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 20457,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/audit/range10_v1/spectral/contracted_kernel.py",
+      "sha256": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0"
+    },
+    "work/cutoff10_20261018/root/high10_probe_v1/bound.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 4517,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/root/high10_probe_v1/bound.py",
+      "sha256": "2ce39dd9c691d81cfe089b8c945c47ce2fa98611cdfbc815607406762000330f"
+    },
+    "work/cutoff10_20261018/root/high10_probe_v1/kernel.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 6017,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/root/high10_probe_v1/kernel.py",
+      "sha256": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e"
+    },
+    "work/cutoff10_20261018/root/high10_probe_v1/universal.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 4625,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff10_20261018/root/high10_probe_v1/universal.py",
+      "sha256": "38b5bd3a598bbe16af46693f1c48535a0e34533a3c73cb3b508a03c36665714b"
+    },
+    "work/cutoff15_20261017/analytic/resource15_refreshed_v1/B0/engine/contracted_kernel.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 20457,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff15_20261017/analytic/resource15_refreshed_v1/B0/engine/contracted_kernel.py",
+      "sha256": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0"
+    },
+    "work/cutoff15_20261017/audit/count15_range_v1/REVIEW.txt": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 16926,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff15_20261017/audit/count15_range_v1/REVIEW.txt",
+      "sha256": "50ca1b44c046cba5412004889e6920546d5a4488367547fd6237672a2b6170a2"
+    },
+    "work/cutoff15_20261017/audit/resource15_range_v1/PROOF.txt": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 11648,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff15_20261017/audit/resource15_range_v1/PROOF.txt",
+      "sha256": "e7c91e5148555c5181245a98d759187309b07deadfbb233f2b6bcd5cc888471e"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/KERNEL_COPY_MANIFEST.json": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 7581,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/KERNEL_COPY_MANIFEST.json",
+      "sha256": "76648b66e6630ead12aab824209407821600eac0edc3425f856b28641bc2e560"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/RIGHT_HALF_COUNT_PROOF.txt": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 7176,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/RIGHT_HALF_COUNT_PROOF.txt",
+      "sha256": "a73a4f6abf8796e6e20ab161922f33a075c972953e1f6ee545709c51566a355b"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/SOURCE_TRANSFORM.json": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 11401,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/SOURCE_TRANSFORM.json",
+      "sha256": "5da6ce26255dafad387d566a8620a3549659e834f8aea23f63c0c80d2d8df11c"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/bernstein_fast.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 1401,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/bernstein_fast.py",
+      "sha256": "4983c9af05673775c3fd5b521e898a9c7f7fe5c9523a5009646872bf75adc607"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/contract.json": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 3016,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/contract.json",
+      "sha256": "0a9b6e64fafa8128e4d6cedf4b08963dc44e5eeafe93542611f92fb90a878141"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/exact35_core.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 16640,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/exact35_core.py",
+      "sha256": "512c70ead43294a7f1d4e14922c9c3a55d3928c9555f4af1415cacf5ad6657bb"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/exact_count_core_v5.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 7506,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/exact_count_core_v5.py",
+      "sha256": "0ffba7a5e1a91fc3c3c770f9d3bcb073a529fade3d622bc5615567153a4255a0"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/finite_gaussian.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 3594,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/finite_gaussian.py",
+      "sha256": "4f5b1a829df4c3c8c0e5467adb79f112984ee8eab8ba5f25b20fd7173b78a4a0"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/generalized_scope.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 1778,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/generalized_scope.py",
+      "sha256": "0ca76c72ccf7f9243e1d9b7d68f814b84e160f7da11945a7842dff5b2abebc00"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/interval_scalar_fast.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 559,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/interval_scalar_fast.py",
+      "sha256": "3eaa0d78eec8b8d5c2044eb020a406ec352ac5a99b30f9d2773694a4f9601512"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/inward_filter.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 1144,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/inward_filter.py",
+      "sha256": "11922c9ab0f8faa6334756535755e1ee5df6eab8c9e6a80511fff02687b8ec7a"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/joint.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 1698,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/joint.py",
+      "sha256": "5d6e3fecf6627d9cc1e00869e41077ddd6cd714952a60bd8fab00069269e20be"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/joint_cubic.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 2845,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/joint_cubic.py",
+      "sha256": "d4adf6e9cfa430bbd7be7ffd90b994672d648d9886c42aa38e0a94b66eb55238"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/joint_cubic_defect.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 2021,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/joint_cubic_defect.py",
+      "sha256": "86874d28284f931b8907b573c118a9fb8191653a6569d903aed54c9f1974e970"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/joint_cubic_normalized.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 1835,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/joint_cubic_normalized.py",
+      "sha256": "1403856612e213b9a14118a5a4098b7f470ce890499811dd1ad53c808904e2f6"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/joint_cubic_normalized_fast.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 2144,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/joint_cubic_normalized_fast.py",
+      "sha256": "7d72ff8ec7cfc2ad59e45d26fcccd6998ef01abe24cb54653ba18b05f2bbf347"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/joint_filter.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 1446,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/joint_filter.py",
+      "sha256": "ffd2bcca7eada563c5c3fa83828a534a1229ef1f1b231b9af148d4f1f637e276"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/optimized_arithmetic.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 382,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/optimized_arithmetic.py",
+      "sha256": "ab9bc728fbb7901f94323a384caf367eee2b2064e919dac27a01cabae743b765"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/probability_extrema.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 435,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/probability_extrema.py",
+      "sha256": "f808c4e82ba40ce094e45139c6e09872c43ca7249ab7ae1d25aca24bbc5ee9ac"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/rho_signed_moment_tightener.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 2884,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/rho_signed_moment_tightener.py",
+      "sha256": "1fe8fefd93269e478be47077b3bf1c8d0cff9259de94824d55a66824b8052cdc"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/rho_variance_floor.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 1400,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/rho_variance_floor.py",
+      "sha256": "615acbcb948d2ba5767082f0dd2a2ab6f1d3999ae0a8afac3fd4c1d73b3aab6b"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/signed_beta_variance_floor.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 1028,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/signed_beta_variance_floor.py",
+      "sha256": "c4208b88510735d0e808b947ec624ce785de42ef4c9fe3217505ebbef2c823c6"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/signed_moment_floor_tightener.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 2464,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/signed_moment_floor_tightener.py",
+      "sha256": "6e7165bb4f16df296f58d511983696e10e56725fad28f1179002f31e232f5dbc"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/signed_moment_prefilter.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 1931,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/signed_moment_prefilter.py",
+      "sha256": "fd82440f07f4be759d74c2d7d44d1075d293e054580e9fa28cc021311b5f2173"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/signed_moment_tightener.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 2254,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/signed_moment_tightener.py",
+      "sha256": "f6ea60e4592a5055c1ace9340765076a95784f5c5d02232f2f02544321e75b9d"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/variance_geometry.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 1749,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/b0/full_v1/capsule42/variance_geometry.py",
+      "sha256": "55ba277cf30a0dc571cd98f38fd99deb4deff15c3be8df249c370ae8b10b3734"
+    },
+    "work/short35_20261007/root/foundation.tex": {
+      "archive": "cutoff5_20261020.zip",
+      "bytes": 100993,
+      "kind": "unchanged_static_conditional_input",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/short35_20261007/root/foundation.tex",
+      "sha256": "997b364445ddd31ee1babd24fe809058081eaaef94e8efe6066c82ac60d4baf1"
+    }
+  },
+  "source_graph_unchanged": true,
+  "source_programs_unchanged": true,
+  "support_acquisition_verified": false
+}
