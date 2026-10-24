@@ -18,10 +18,11 @@ external inputs to be checked; writing the paper is not the only later step.
 | Unit | Last supplied execution observation | Next action |
 | --- | --- | --- |
 |35|Wrapper failed after support/HIGH/owncaps and full INITIAL.B0; actual INITIAL recovered/revalidated without mathematical replay.|Use corrected pinned35 with the same Drive; preserve and revalidate all four completed jobs.|
-|46,55|No final completion supplied for these jobs.|Let valid running jobs finish; reuse complete stages on a corrected rerun if needed.|
+|46|Saved run failed after all five owncaps actions because the wrapper expected an integer where the original CAPS stores the exact list of17 controls.|Corrected reader and pure saved-execution recovery in validation; preserve nine INITIAL stages and the completed owncaps calculation.|
+|55|No final completion supplied.|Let the valid running job finish; preserve completed stages.|
 |30|30/30forests,60270leaves; final selected_retained_count_arithmetic_accepted and ZIP saved.|Preserve export; no repeated count run queued.|
 |56A|Final `complete_conditional_auxiliary9_14_sublane_basic`, ZIP saved.|Preserve export; no repeated Fourier calculation queued.|
-|56B|Delivered supported Fourier calculation; no final completion supplied.|Wait for its actual final result.|
+|56B|Final complete_conditional_supported9_14_sublane_basic and saved ZIP supplied.|Preserve export; no repeated supported Fourier calculation queued.|
 |56C|4/4 actions complete, 80 strips/400 rows, readback24 controls, ZIP saved.|Preserve export; no repeated Fourier calculation queued.|
 |56D|Final complete_conditional_corner10_14_sublane_basic; saved ZIP and its actual session ledger observed.|Preserve export; no repeated corner Fourier calculation queued.|
 |56E|Final complete_conditional_supported_high10_14_sublane_basic and saved ZIP supplied.|Preserve export; no repeated supported-HIGH calculation queued.|

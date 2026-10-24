@@ -1202,3 +1202,11 @@ The supplied final cell records `complete_conditional_auxiliary14_19_sublane_bas
 and saves `finite1519-auxiliary/20261024T001640Z-ccad23fa/20261024T001640Z-ccad23fa-results.zip`.
 This is scoped output completion. Actual full export validation and complete
 57/COUNT/global joins remain separate. No repeated successful57Aarithmetic is queued.
+
+## Notebook56B: supplied complete supported9--14 ending
+
+The supplied final cell records `complete_conditional_supported9_14_sublane_basic`
+and saves `finite1014-supported/20261023T232402Z-d516197a/20261023T232402Z-d516197a-results.zip`.
+This confirms the reported scoped execution ending. It does not replace actual
+full export validation, support acquisition or the final56/COUNT/global joins.
+No repeated successful56B arithmetic is queued.
