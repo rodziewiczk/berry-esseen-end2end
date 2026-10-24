@@ -1,0 +1,117 @@
+Independent selected actual15 chain: conditional join contract
+============================================================
+This check-only join distinguishes mathematical implications, full semantic
+replay, and independent receipt/geometry checks. It imports no score evaluator
+or inherited driver and performs no new Fourier integration or count-leaf
+arithmetic. Missing final inputs are listed as pending; incomplete execution
+is never promoted to a completed theorem. It writes a new named snapshot
+only and never modifies its selected inputs.
+
+Retained analytic hypothesis A
+------------------------------
+A comprises the unrestricted iid extremal/attainment reduction (with both
+strict/closed CDF branches and reflection), the same-law contact inequality
+and its Gaussian support reduction, the signed moment/LOW/physical-gap
+resource inequalities used by the INITIAL and resource engine, and the
+physical D sharp count reduction. In particular these must apply to an
+unrestricted attained positive closed maximizing witness selected by a
+contrary sharp15 assumption; restriction to a moment band is a property of
+that witness and cannot replace unrestricted extremality. A is retained
+from the project's analytic framework and is not independently established
+in full by this readback. Published Prawitz smoothing and Shevtsova tail
+theorems, the compatible cosine profile certificate, and the supported eta
+lemma are separate analytic inputs to the Fourier receipts. This program
+does not turn their source hashes or fresh arithmetic into analytic proofs.
+
+Exact acyclic implications
+-------------------------
+1. The independently integrated auxiliary theorem gives C14<21/50 for ALL
+   standardized iid marginals and all thresholds, without a support or
+   contact assumption. If a sharp15 contrary witness P exists with
+   rho<=33/25, then C15(P)>=CE>4097/10000 and its same-law contact allowance
+   satisfies 15(C14(P)-C15(P))_+ <=15*(21/50-4097/10000).
+2. The coarse full-ray support certificate at actual15 and rho<=33/25
+   therefore gives |X|<=3 for this very witness. Both support rays and all
+   real raw thresholds are included; no own-score cap is used here.
+3. The supported actual14/15 Fourier theorem now applies to the SAME P at
+   both indices. On B0=[1,11/10] its all-threshold cap is417/1000; on
+   BN=[11/10,23/20] it is827/2000. The actual14 estimate gives contact
+   allowances q=219/2000 and57/1000 respectively. The actual15 estimate is
+   a valid own-score upper bound for this same maximizing witness. There
+   is no appeal to monotonicity in n and no comparison of different
+   sample-size maximizing laws.
+4. The selected refined support proof, using those allowances and the
+   same signed beta interval, acquires radius23/10 or12/5. Its proof covers
+   both complete rays uniformly in the threshold. These radii already
+   imply radius3 BEFORE use of compensated HIGH, so no circular support
+   argument is introduced by that improved Fourier remainder bound.
+5. The selected initial15_compensated_v1 starts raw=D=None. It performs
+   eight feedback stages and a ninth export cover; each is the complete
+   12*12*6*3 signed cover of the same law, with all100 closed p panels.
+   Its independent semantic replay recomputes support, every cover and
+   every outward update. No rejected moment-defect seed is imported.
+   Final physical D<sqrt(10)-1 supplies the central gap used in resources.
+6. The refreshed resource family reconstructs every original p panel from
+   that export and preserves the same p, moment, sign and sample-size
+   coordinates. Selected support refinements only shrink support. The
+   compensated HIGH minimum is an entire normalized integral, with both
+   characteristic and comparator tails; support<=3 and the rho band hold
+   before every call. Each of100 rows is freshly semantically replayed.
+   A failed criterion means unresolved. An empty INITIAL row, a negative
+   budget, or another proved necessary-condition contradiction is an
+   exclusion only at the exact source/replay scope recorded for that row.
+7. For each remaining acquired row, the outward count contract is checked
+   independently. Original Lambda is retained in the affine triangle and
+   root, while acquired_lambda_upper is the redundant same cap. Positive
+   physical endpoint floors, signed beta and physical mean refer to this
+   same law. Both signed quadratic envelopes dominate on their complete
+   H intervals. Mathematical n15 applicability and the d<1/2 triangle proof
+   are separately in audit/count15_range_v1/REVIEW.txt.
+8. All16 nearest-count roots are reconstructed. Every binary split includes
+   both closed children, every leaf box is reconstructed from the original
+   root, and every score leaf is strictly below the unchanged rational
+   CE lower bound. This readback independently checks forest geometry and
+   aggregate arithmetic; the native fresh acceptor separately recomputes
+   all leaf inequalities. All100 original p panels must be accounted for,
+   including shared faces and explicit failed/pending rows.
+9. For the remaining rho band [23/20,33/25], supported actual15 Fourier
+   gives score<4097/10000<CE using the already acquired coarse radius3.
+   For rho>=33/25 the unrestricted high-rho actual15 theorem gives the same
+   strict bound without support. These closed bands cover every rho>=1
+   together with B0/BN. Both CDF error signs are supplied by the global
+   Fourier theorem or by reflecting the WHOLE maximizing marginal in A.
+
+What a completed readback means
+------------------------------
+If all selected receipts exist, all exact checks pass, and all low-rho
+panels are closed, the result is a CONDITIONAL actual15 sharp exclusion
+under A and the explicitly listed Fourier analytic inputs. It is not by
+itself a cutoff15 theorem: literal16..19 and the retained20+ continuation
+remain separate edges. Even a completed conditional actual15 join leaves
+global_bound_proved and cutoff15_proved false in its output. A missing
+count forest, failed leaf, absent Fourier replay/readback, or unaccounted
+panel keeps conditional_actual15_closed false and is listed by exact path.
+
+Independent checks versus retained execution
+-------------------------------------------
+The check uses only standard Python integer/Fraction arithmetic, its own
+strict JSON parser and source-graph merge. It recomputes the Machin/square
+root CE enclosure independently, all signed quadratic interface minima,
+original p coverage, Fourier row normalization and closed strip seams,
+and count-tree geometry/strict stored score comparisons. It verifies full
+construction/replay identity (excluding timing only), all source hashes
+and native capture identities. This is stronger than hash agreement but
+does not duplicate the integration or leaf arithmetic implementations.
+Negative controls corrupt scope, original Lambda, panel/strip coverage,
+counts, closed splits, leaf boxes and scores in disposable in-memory copies.
+Source-binding rejects inherited missing inputs or changed selected files.
+
+The current selected source epochs are:
+ analytic/support15_19_replay_v1,
+ analytic/initial15_compensated_v1 and initial15_compensated_replay_v1,
+ analytic/resource15_refreshed_v1,
+ analytic/count15_v1,
+ fourier/auxiliary14_19_v1 and auxiliary14_19_readback_v1,
+ fourier/supported14_19_v1 and supported14_19_readback_v1,
+ fourier/highrho14_19_v1 and highrho14_19_readback_v1,
+ root/cancellation_high_v1 and fourier/cancellation_high_readback_v1.

@@ -181,6 +181,13 @@ inventory is closed; a reserved grouping is not a completed census.
 
 ## Statement-level proof graph and fixed delivery specification
 
+57F/G are delivered. Eleven files remain to implement in the fixed13-file
+package;57H is still an undelivered whole unit. Its
+[source/interface preparation](proof/finite1519_join_execution.md) now has
+actual161-file source verification, unchanged original literal15--19
+interface ASTs and16 passing synthetic boundary/interface fixtures. These
+components are not a partial notebook or a completed mathematical join.
+
 The [current proof graph](proof/proof_graph.md) describes mathematical conclusions
 and their dependencies rather than a browser/notebook checklist. The accompanying
 [conditional sufficiency argument](proof/remaining_notebooks_sufficiency.md)

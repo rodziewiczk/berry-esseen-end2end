@@ -1,0 +1,123 @@
+Independent check-only sequential actual16..19 join
+==================================================
+V2 REPAIR: the supplied actual15 snapshot is provenance, not proof of its
+own closure flags. base_replay.py freshly calls the unchanged actual15
+check-only routines, reconstructing every selected native receipt, original
+100-panel disposition, outward interface,16-root forest and Fourier cover.
+Only that freshly derived boolean licenses the actual16 predecessor. A
+supplied snapshot that CLAIMS closure must exactly match the newly derived
+summary and full source graph. The known incomplete SNAPSHOT01 is mutated
+to claim closure, empty pending and both100-panel flags; this must reject.
+The executed v1 remains preserved. V1 partial conclusions remain false and
+valid; this repair prevents future promotion from tampered public flags.
+The fresh base readback is saved as a separate immutable ACTUAL15_BASE_...
+file under this v2 epoch. It repeats no native arithmetic or integration.
+
+This is a separate scoped readback; the actual15 checker is preserved.
+No mathematical evaluator is imported, no count leaf is recomputed, and no
+Fourier integral is repeated. Native fresh semantic replays remain the
+arithmetic evidence. This checker independently reconstructs their precise
+scopes, predecessor dependencies, original100-panel covers, outward
+resource/count interfaces, and every original n+1-root closed forest.
+
+Retained analytic A and base requirement
+--------------------------------------
+The retained A is exactly the unrestricted attained-witness/contact,
+signed moment/LOW/physical-gap resource and count reduction listed in
+audit/actual15_join_v1/PROOF.txt. Published Fourier inputs remain separate.
+A selected actual15 join snapshot is an explicit provenance input. Unless
+fresh unchanged actual15 check-only semantics derive complete closure, no
+n16 predecessor edge is licensed. A stale partial input can be superseded
+only by that separately saved fresh base replay, never by flipping its flags.
+It is invalid to replace this GLOBAL sharp predecessor by a pointwise cap
+only for a few inherited laws or by a successful finite-n resource label.
+
+Literal conditional implication at n in16,...,19
+------------------------------------------------
+Assume the GLOBAL all-threshold C_(n-1)<=C_E for every standardized iid
+law. If an unrestricted positive sharp-contrary maximizing witness exists
+at actual n, its score is at least C_E. Therefore
+
+  n(C_(n-1)(P)-C_n(P))_+ =0.
+
+This licenses q=0 in the contact support proof for that SAME marginal P.
+The complete direct-Gaussian support rays are computed at the literal n,
+before any gap/INITIAL assumption. The selected two-ray supports have
+radius2.3 for B0 and2.4 for BN, except BN n19 already has radius2.3.
+They imply support<=3. The full supported Fourier theorem at actual n
+therefore licenses the own cap .417 for rho[1,1.1] or .4135 for[1.1,1.15].
+No comparison of maximizing laws at different n, monotonicity of C_n, or
+constrained extremality is used. The Fourier owncap cannot be applied
+before support; the q0 support proof itself does not require that owncap.
+
+Each literal supported compensated HIGH table row independently gives
+H_n<=.382 or.409; its radius3 and rho premises hold before INITIAL. The
+selected INITIAL starts raw=D=None, has eight complete signed feedback
+covers and a ninth complete export. It acquires physical D<sqrt(10)-1.
+Its full semantic replay is required. No refuted moment-only D seed enters.
+
+For each band at each n, resources reconstruct the100 original closed p
+panels. Every successful exclusion or acquisition is freshly replayed.
+All acquisitions use the actual q0, cap, radius and literal n. Source ports
+preserve every gate and the count n>=2 mathematics (see count15_range_v1).
+Count conversion preserves original physical shared-budget Lambda and uses
+only an equal redundant independent cap. Positive physical endpoint floors,
+signed beta, physical mean and signed whole-H envelopes belong to P.
+
+The original root contains p,lambda in[0,Lambda],alpha in[0,1],phase in
+[-1/2,1/2],a0 in[0,d0]. Nearest-count gates cover all k=0,...,n. Every
+closed split has both children; every leaf is reconstructed and native
+acceptance has recomputed its full arithmetic. Strict score comparisons
+use the same rational CE lower bound. Missing/failing panels are pending,
+never exclusions. Thus a complete low-rho family excludes the contrary
+witness in that band, conditional on the GLOBAL predecessor.
+
+Higher-rho coverage and sequencing
+---------------------------------
+For rho in[1.15,1.32], the existing coarse radius3 support bridge at each
+literal n applies using the independent auxiliary C_(n-1)<.42 theorem
+(actual15..18 rows), or the stronger sequential sharp predecessor. The
+supported Fourier actual n BH row gives score<.4097<CE. For rho>=1.32,
+the unrestricted actual n high-rho Fourier theorem supplies the same
+strict bound, with its full published infinite rho tail. Both signs and
+atoms are inherited from the all-threshold Fourier inequality or from
+whole-law reflection in A. All these sources are already constituents of
+the selected full actual15 join, whose Fourier covers include14,...,19;
+the present checker separately requires those exact n scopes in that graph.
+
+After every original panel and Fourier edge at n is complete, the result
+is the conditional implication (A and global sharp n-1) => global sharp n.
+The checker carries a boolean predecessor-established flag in increasing
+order15->16->17->18->19. An unclosed n leaves every subsequent sequential
+conclusion unestablished even if its conditional arithmetic is complete.
+This is proof composition, not a numerical monotonicity claim.
+
+The imported eventual20+ theorem is kept as a separately named RETAINED
+conditional edge. The supplied final composition/readback and this
+session's import audit are bound as evidence; the present checker does not
+freshly reconstruct its entire historical analytic/arithmetic dependency
+DAG. Missing recorded historical inputs and inherited framework obligations
+remain recorded in audit/REVIEW.txt and IMPORT_CHECKED.json. A final cutoff15
+conclusion may be described only conditional on A, the Fourier analytic
+inputs, and that retained eventual20+ edge. It is not an unqualified proof
+of the conjecture or a fresh independent reproof of the20+ continuation.
+
+Execution and negative controls
+-------------------------------
+common.py contains copied readback utilities from the already reviewed
+actual15 checker and parameterized interface/geometry functions. It imports
+no native mathematical module. Parameter n is validated explicitly as an
+integer16..19; root cardinality and full-binary identity use n+1. The
+shared original source and complete port are bound in SOURCE_COPY.json.
+Every written snapshot is immutable and names its actual15 input explicitly.
+Native source manifests, result hashes, captures and complete inventories
+are checked. The checker also exercises malformed global predecessor
+flags, skipped n, malformed roots, and altered original Lambda using
+disposable copies. The independent actual15 geometry controls remain a
+separate bound receipt; they are not counted as new n16..19 leaf replays.
+
+If resources or counts are still running, the output records exact pending
+paths and separate mathematical conditional/execution status. It never
+infers a completed sequential result from an absent file or native false
+premise flag. Even complete conditional composition retains explicit A and
+retained20+ dependencies; unqualified_cutoff15_proved remains false.

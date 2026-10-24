@@ -1,0 +1,35 @@
+{
+  "schema": "ORIGINAL_FINITE1519_JOIN_REFERENCE_V1",
+  "scope": "Unchanged original reference text, never imported by the new finite join.",
+  "archive_sha256": "268f71662171764d7ebe116910b5df82dfd58cadb2de2a7ef82db7da98b66dae",
+  "license_sha256": "a34b9cee3859b8bc6a6ced1bedb56771244d8b6cfc38f2749dc2e776ca19ee95",
+  "files": {
+    "actual15.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/actual15_join_v1/check.py",
+      "bytes": 29887,
+      "sha256": "4dbfc5a885686af60ee118866051d84d32ab2673fbd298ebc23f231985ddb9ac"
+    },
+    "sequential.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/sequential16_19_join_v2/common.py",
+      "bytes": 9873,
+      "sha256": "a6f2aa278ff7cbe80916c76442f86412dd5a00b44cca9637df0ba2e490c710f6"
+    },
+    "ACTUAL15_PROOF.txt": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/actual15_join_v1/PROOF.txt",
+      "bytes": 7497,
+      "sha256": "4fbb988145d455a0c1d79aaba7416a57ab8c63f649d3075d9f8580b29f757669"
+    },
+    "SEQUENTIAL_PROOF.txt": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/sequential16_19_join_v2/PROOF.txt",
+      "bytes": 7615,
+      "sha256": "9d891dc8f66031558f426e3be6a558fa1bec43cc07ad9d4f82837e67d2e012c8"
+    }
+  },
+  "original_mathematics_imported": false,
+  "arithmetic_computed": false,
+  "all_index_conclusion_verified": false
+}

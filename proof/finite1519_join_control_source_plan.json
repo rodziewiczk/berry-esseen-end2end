@@ -1,0 +1,1710 @@
+{
+  "schema": "FINITE1519_JOIN_BOUNDED_CONTROL_SOURCE_PLAN_V1",
+  "scope": "All six retained57H bounded control calls, not a standalone notebook or the full57H finite join.",
+  "assets": [
+    {
+      "bytes": 224483065,
+      "name": "cutoff5_10_15.zip",
+      "sha256": "268f71662171764d7ebe116910b5df82dfd58cadb2de2a7ef82db7da98b66dae",
+      "url": "https://github.com/rodziewiczk/berry-esseen-045-certificate/releases/download/cutoff5-sources-2026-10-20/cutoff5_10_15.zip"
+    },
+    {
+      "bytes": 141304365,
+      "name": "cutoff5_20261020.zip",
+      "sha256": "8428002462d4e650613ea6e2ff673cb1e69c2079572cc40546d125349d582419",
+      "url": "https://github.com/rodziewiczk/berry-esseen-045-certificate/releases/download/cutoff5-sources-2026-10-20/cutoff5_20261020.zip"
+    },
+    {
+      "bytes": 31681776,
+      "name": "cutoff20_20261016.zip",
+      "sha256": "b1dd7e730187f62142faa1e82eff5a9fd13a879e933a2fafbd22af8a4709ef83",
+      "url": "https://github.com/rodziewiczk/berry-esseen-045-certificate/releases/download/cutoff20-sources-2026-10-17/cutoff20_20261016.zip"
+    }
+  ],
+  "source_files": {
+    "work/cutoff15_20261017/audit/finite_high_review_v1/check.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/finite_high_review_v1/check.py",
+      "bytes": 8068,
+      "sha256": "6a88c178cf2aeb1bdeda82bf4af4994d8c13bcd68eacb997d3f50c7ec55f3a12"
+    },
+    "work/cutoff15_20261017/audit/finite_high_review_v1/REVIEW.txt": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/finite_high_review_v1/REVIEW.txt",
+      "bytes": 5559,
+      "sha256": "a52f4fe60aafff4fe865aec2a64bb74aff254f999edd25897ada41da6808ef24"
+    },
+    "work/cutoff15_20261017/analytic/finite_high_v1/high.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/analytic/finite_high_v1/high.py",
+      "bytes": 1970,
+      "sha256": "44b6675201d4330b9836e93e5bde8547cadb0660511fd59860c550db24610b31"
+    },
+    "work/cutoff15_20261017/analytic/finite_high_v1/PROOF.txt": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/analytic/finite_high_v1/PROOF.txt",
+      "bytes": 2931,
+      "sha256": "483a85d3b3f2ce62cf6d4676f7f9441bc23e221bf44af846ab70bee2753722ce"
+    },
+    "work/cutoff15_20261017/analytic/finite_high_v1/check.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/analytic/finite_high_v1/check.py",
+      "bytes": 3744,
+      "sha256": "14a2e4474132046dbc51221f09ca2bf6b618f41a050cfe8a14f49268e0074f2a"
+    },
+    "work/cutoff15_20261017/root/finite_modulus_high_v1/high.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/root/finite_modulus_high_v1/high.py",
+      "bytes": 1695,
+      "sha256": "a9ad9bc826d43d4a98075282c01c666a8d203ac6b3c69b902a22e4b594c35fbf"
+    },
+    "work/cutoff15_20261017/root/finite_modulus_high_v1/PROOF.txt": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/root/finite_modulus_high_v1/PROOF.txt",
+      "bytes": 3202,
+      "sha256": "bb850515665850cf417412f9cc6fc9b2c3329b7bb6657c1de994445637933105"
+    },
+    "work/cutoff15_20261017/root/finite_modulus_high_v1/check.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/root/finite_modulus_high_v1/check.py",
+      "bytes": 3020,
+      "sha256": "afc26c8ecb50037e85522106f6be9399a7d1e410734c052f0ba6389944ea608a"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/PROOF.txt": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/PROOF.txt",
+      "bytes": 5668,
+      "sha256": "6645891bc75553f1a35faba00dd2a09e6b47c5fd374e637d83d62ec82069c162"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CERTIFICATE.json": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CERTIFICATE.json",
+      "bytes": 81278,
+      "sha256": "02dc46c334ec9c9cbf0e7bb4c982869c6e3e0649a915169d3542b8820b51aac7"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/PROOF.txt": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/PROOF.txt",
+      "bytes": 4882,
+      "sha256": "df92603993c8b3ef4bab8767d3db7c21e694fc7d78661845b306dfd0e68dc0fc"
+    },
+    "work/short35_20261007/root/foundation.tex": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/short35_20261007/root/foundation.tex",
+      "bytes": 100993,
+      "sha256": "997b364445ddd31ee1babd24fe809058081eaaef94e8efe6066c82ac60d4baf1"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/kernel.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/kernel.py",
+      "bytes": 19042,
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12"
+    },
+    "runs/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_01/metadata.json": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/runs/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_01/metadata.json",
+      "bytes": 938,
+      "sha256": "9bc09745362c8caa1e24de97e3a442c1fcca8406c118852b7295976adcc7c93e"
+    },
+    "runs/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_01/stderr.txt": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/runs/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_01/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_01/stdout.txt": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/runs/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_01/stdout.txt",
+      "bytes": 1179,
+      "sha256": "163bf7eff250f62806ee308eab31d71fc1f35da49fdf625675071387b08b0031"
+    },
+    "work/cutoff20_20261016/fourier/PORT.diff": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/PORT.diff",
+      "bytes": 2010,
+      "sha256": "bcb067893a80fa5d294db02600b6bb7a139201e897abb9adff56304ce33772da"
+    },
+    "work/cutoff20_20261016/fourier/PROOF.txt": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/PROOF.txt",
+      "bytes": 8527,
+      "sha256": "e31638ee8444ef66e6b752a392823e34781a602894799393c1f4047ecf0c71e9"
+    },
+    "work/cutoff20_20261016/fourier/batch.py": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/batch.py",
+      "bytes": 5301,
+      "sha256": "6afbd94977681730b63a406087c948622155c50720a18a36f3868d4f87f2f164"
+    },
+    "work/cutoff20_20261016/fourier/controls.py": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/controls.py",
+      "bytes": 2690,
+      "sha256": "9f298e23550e9366048c64570a996000912d47004a1ff5cb1575e5fe20d35a63"
+    },
+    "work/cutoff20_20261016/fourier/discovery.py": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/discovery.py",
+      "bytes": 3639,
+      "sha256": "0f484fc8d7ef8eeca811cb0678af32be937180a3241e35cbd938e8e517862bc7"
+    },
+    "work/cutoff20_20261016/fourier/integrate.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/fourier/auxiliary14_19_v1/integrate.py",
+      "bytes": 7135,
+      "sha256": "e4bda2d00d905bf0963ca6f48d62c7d52a831e14cc695a2bae18183239bb64fc"
+    },
+    "work/cutoff20_20261016/fourier/jet.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/fourier/auxiliary14_19_v1/jet.py",
+      "bytes": 1989,
+      "sha256": "8decccac51b92cf58b3275e291b83e775da85cd9032f81501e9592d11d591329"
+    },
+    "work/cutoff20_20261016/fourier/kernel.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/fourier/auxiliary14_19_v1/kernel.py",
+      "bytes": 6017,
+      "sha256": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e"
+    },
+    "work/cutoff20_20261016/fourier/pilot.py": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/pilot.py",
+      "bytes": 2875,
+      "sha256": "107c6d85a6ba8b530ededa8868276433418b68298098ad39c4b5a52f10f7e301"
+    },
+    "work/cutoff20_20261016/fourier/run.py": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/run.py",
+      "bytes": 2161,
+      "sha256": "df6d99c397ddf1b5eed0e589dc849755f76ed5e25891e568ac5acc1e2e7ab3fb"
+    },
+    "work/cutoff25_continue_20261015/analytic/universal_zeta_v1/CHECKED.json": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_continue_20261015/analytic/universal_zeta_v1/CHECKED.json",
+      "bytes": 6540,
+      "sha256": "04a8c2110951e551a7e46711e57ef8384a1b9b47e31cba75a01702db260a6400"
+    },
+    "work/cutoff25_continue_20261015/analytic/universal_zeta_v1/PROOF.txt": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_continue_20261015/analytic/universal_zeta_v1/PROOF.txt",
+      "bytes": 3774,
+      "sha256": "6f68c67bab4f198b20388e108a0d5564593bcb1f36f047fa6aff1454ebc4c66c"
+    },
+    "work/cutoff25_continue_20261015/analytic/universal_zeta_v1/check.py": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_continue_20261015/analytic/universal_zeta_v1/check.py",
+      "bytes": 3766,
+      "sha256": "60816afdefba8b65c673a22f7edf39f8a594d5dae53ff9a8577ebed0635fecc3"
+    },
+    "work/cutoff25_continue_20261015/root/taylor_circle_v1/PROOF.txt": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_continue_20261015/root/taylor_circle_v1/PROOF.txt",
+      "bytes": 8355,
+      "sha256": "cc0545ed99ff8c247bcf64f05753e42c883432cfc4276c0a34e6c6d8b52f973c"
+    },
+    "work/cutoff25_continue_20261015/root/taylor_circle_v1/integrate.py": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_continue_20261015/root/taylor_circle_v1/integrate.py",
+      "bytes": 7195,
+      "sha256": "cfac1967b1ff7a0dfb5e77f9bd1ee96edac7f9ba8a185df7aae64d09bc0f86d0"
+    },
+    "work/cutoff25_continue_20261015/root/taylor_circle_v1/jet.py": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_continue_20261015/root/taylor_circle_v1/jet.py",
+      "bytes": 2053,
+      "sha256": "8d4ecba05181cb71c9d122bc355e5a124d356662f5b30c0be82dc30c4fda5dc1"
+    },
+    "work/cutoff25_rethink_20261015/repo_iid/source/paper/upper-0423.tex": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/repo_iid/source/paper/upper-0423.tex",
+      "bytes": 102424,
+      "sha256": "a80bc131732539fd4d9a1a125501b7a6e122ce65381e6b26f2fde764c36f9220"
+    },
+    "work/cutoff25_rethink_20261015/repo_iid_low_v1/ZETA_CIRCLE_PROOF.txt": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/repo_iid_low_v1/ZETA_CIRCLE_PROOF.txt",
+      "bytes": 3487,
+      "sha256": "79ccb6400d557744e015ffa90a00ee9262b92a558b361e2dfcc6fcd03b2de3dd"
+    },
+    "work/cutoff25_rethink_20261015/repo_independent/FOURIER_AUDIT.txt": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/repo_independent/FOURIER_AUDIT.txt",
+      "bytes": 10492,
+      "sha256": "40acdf27ea60aa7a792927009e39e7f33c6609c90461e65134818247f619227b"
+    },
+    "work/cutoff25_rethink_20261015/root/FOURIER_REDUCTION_V2.txt": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/root/FOURIER_REDUCTION_V2.txt",
+      "bytes": 6050,
+      "sha256": "7389d85b02adbef18d598d57d97bdf93b9fe76502b826ed405fd54b95d5d40c6"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/batch.py": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/batch.py",
+      "bytes": 5331,
+      "sha256": "04045148b9e86dc4d92357d09642c04218ed2ea6f8ed27b5e7796a159f85b39e"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/PROOF.txt": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/PROOF.txt",
+      "bytes": 4502,
+      "sha256": "e88f28253b08150ea49443c25888cfabe0e432492534b4f354a27b4d84fdbb9b"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/kernel.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/fourier/auxiliary14_19_v1/kernel.py",
+      "bytes": 6017,
+      "sha256": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CHECKED.json": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/runs/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_01/stdout.txt",
+      "bytes": 1179,
+      "sha256": "163bf7eff250f62806ee308eab31d71fc1f35da49fdf625675071387b08b0031"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/controls.py": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/controls.py",
+      "bytes": 2951,
+      "sha256": "331ee713e7950c9013d969b70de5809d4eb7e37ac34cd22a6184e0f8872fe4b5"
+    },
+    "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/kernel.py": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/kernel.py",
+      "bytes": 4152,
+      "sha256": "16170505dece7571725e4e601f1546989d546ed64685616f9d13283c59702b0a"
+    },
+    "work/cutoff20_20261016/fourier/MANIFEST.json": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/MANIFEST.json",
+      "bytes": 4484,
+      "sha256": "1e4f2d719b84fb065b8184b8b924b57e2ce40608ce436da60c002dd09daf49da"
+    },
+    "work/cutoff20_20261016/fourier/coupled_v1/floating.py": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/coupled_v1/floating.py",
+      "bytes": 3680,
+      "sha256": "81b9ab30b41be9068631a4d2e08a93a17bdb3d11f0278345f267802d2d8e8197"
+    },
+    "work/cutoff20_20261016/fourier/coupled_v1/discovery.py": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/coupled_v1/discovery.py",
+      "bytes": 1625,
+      "sha256": "ade826727fcf4c28b324ef35f8da316cd5b81c4830246164eb41dfd7590c02db"
+    },
+    "work/cutoff20_20261016/fourier/coupled_v1/PROOF.txt": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/coupled_v1/PROOF.txt",
+      "bytes": 2532,
+      "sha256": "946a84b93fd337cb2a7d7a4e40f58919f5baf3658fe6a726f5f974e1430c193f"
+    },
+    "work/cutoff20_20261016/fourier/coupled_v1/FLOATING.diff": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/coupled_v1/FLOATING.diff",
+      "bytes": 712,
+      "sha256": "d66c81004069e15f18233eaa63601d64e906e93a1b7f8adfb13fe930ad83bdc2"
+    },
+    "work/cutoff20_20261016/fourier/coupled_v1/run.py": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/coupled_v1/run.py",
+      "bytes": 2172,
+      "sha256": "7e4e12c8dcb0d4e1ad9bb2ca6cd48dc7bca77c8041cfe6b36fdc2eedd7089dce"
+    },
+    "work/cutoff25_rethink_20261015/repo_independent/FINAL_RHO130_REVIEW.txt": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff25_rethink_20261015/repo_independent/FINAL_RHO130_REVIEW.txt",
+      "bytes": 10689,
+      "sha256": "1082d42b360d65ba2b27ad4f7cf4913bc8e6d40e60517e36c578870d14f9695b"
+    },
+    "work/cutoff20_20261016/fourier/auxiliary19_24_v1/planner.py": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/auxiliary19_24_v1/planner.py",
+      "bytes": 1586,
+      "sha256": "d924912c85f41b32e1eb8aeccfc8da082039ee43e59a20f68ad56f0c701fff9d"
+    },
+    "work/cutoff20_20261016/fourier/auxiliary19_24_v1/run.py": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/auxiliary19_24_v1/run.py",
+      "bytes": 2091,
+      "sha256": "4b4b4c277882d838a9c2ae127f05c28c377d78fd60689e9c5766cca43b6b8028"
+    },
+    "work/cutoff20_20261016/fourier/auxiliary19_24_v1/kernel.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/fourier/auxiliary14_19_v1/kernel.py",
+      "bytes": 6017,
+      "sha256": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e"
+    },
+    "work/cutoff20_20261016/fourier/auxiliary19_24_v1/protocol.py": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/auxiliary19_24_v1/protocol.py",
+      "bytes": 6391,
+      "sha256": "744723d19f14061c6f69b52890f15109277e978d9fc1e6dbb3500bf72612120e"
+    },
+    "work/cutoff20_20261016/fourier/auxiliary19_24_v1/batch.py": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/auxiliary19_24_v1/batch.py",
+      "bytes": 5304,
+      "sha256": "461cd479f042e85e2b181002910e8414205bce1590908d04abcea2f5769b30bb"
+    },
+    "work/cutoff20_20261016/fourier/auxiliary19_24_v1/PORT.diff": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/auxiliary19_24_v1/PORT.diff",
+      "bytes": 544,
+      "sha256": "a502a7d9df6dddbf921f2e1715dca53c6bb38d5f7c4606b5e9ee58b7751e05e6"
+    },
+    "work/cutoff20_20261016/fourier/auxiliary19_24_v1/integrate.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/fourier/auxiliary14_19_v1/integrate.py",
+      "bytes": 7135,
+      "sha256": "e4bda2d00d905bf0963ca6f48d62c7d52a831e14cc695a2bae18183239bb64fc"
+    },
+    "work/cutoff20_20261016/fourier/auxiliary19_24_v1/jet.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/fourier/auxiliary14_19_v1/jet.py",
+      "bytes": 1989,
+      "sha256": "8decccac51b92cf58b3275e291b83e775da85cd9032f81501e9592d11d591329"
+    },
+    "work/cutoff20_20261016/fourier/auxiliary19_24_v1/PROOF.txt": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/auxiliary19_24_v1/PROOF.txt",
+      "bytes": 4513,
+      "sha256": "0f44deb2f5484c52b2f6b8dac790d57dc53c27f7500892a365a7bc0615baef97"
+    },
+    "work/cutoff20_20261016/fourier/auxiliary19_24_v1/MANIFEST.json": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff20_20261016/fourier/auxiliary19_24_v1/MANIFEST.json",
+      "bytes": 6591,
+      "sha256": "a4eb496264a920652fedec4c63474a2cceb23adb4a212b844c5a036369697e0c"
+    },
+    "work/cutoff15_20261017/fourier/auxiliary14_19_v1/PORT.diff": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/fourier/auxiliary14_19_v1/PORT.diff",
+      "bytes": 7569,
+      "sha256": "714d68bd26d0807174505157e8df91305c046b223d523281c28c5d8f0ac603ed"
+    },
+    "work/cutoff15_20261017/fourier/auxiliary14_19_v1/PROOF.txt": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/fourier/auxiliary14_19_v1/PROOF.txt",
+      "bytes": 1899,
+      "sha256": "d51db0ee391d2162517bc2dfd33408f8db47b5eed6e6735226afee2762bf3981"
+    },
+    "work/cutoff15_20261017/fourier/auxiliary14_19_v1/batch.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/fourier/auxiliary14_19_v1/batch.py",
+      "bytes": 5304,
+      "sha256": "e034b411f8df172e10d94da8e9c0bb8e96d8f9abf20eb9b2f949006698efb670"
+    },
+    "work/cutoff15_20261017/fourier/auxiliary14_19_v1/integrate.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/fourier/auxiliary14_19_v1/integrate.py",
+      "bytes": 7135,
+      "sha256": "e4bda2d00d905bf0963ca6f48d62c7d52a831e14cc695a2bae18183239bb64fc"
+    },
+    "work/cutoff15_20261017/fourier/auxiliary14_19_v1/jet.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/fourier/auxiliary14_19_v1/jet.py",
+      "bytes": 1989,
+      "sha256": "8decccac51b92cf58b3275e291b83e775da85cd9032f81501e9592d11d591329"
+    },
+    "work/cutoff15_20261017/fourier/auxiliary14_19_v1/kernel.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/fourier/auxiliary14_19_v1/kernel.py",
+      "bytes": 6017,
+      "sha256": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e"
+    },
+    "work/cutoff15_20261017/fourier/auxiliary14_19_v1/planner.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/fourier/auxiliary14_19_v1/planner.py",
+      "bytes": 1590,
+      "sha256": "63a6d7d4d3e1baeb0108079d8bcc5e3435c8dee796da9d0b1044789fb8a32f20"
+    },
+    "work/cutoff15_20261017/fourier/auxiliary14_19_v1/protocol.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/fourier/auxiliary14_19_v1/protocol.py",
+      "bytes": 6391,
+      "sha256": "5eefff7a5dce1e7781f0e05a82e5e94b7c9ffbd841d5b0352dd9a81f5f8519ee"
+    },
+    "work/cutoff15_20261017/fourier/auxiliary14_19_v1/run.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/fourier/auxiliary14_19_v1/run.py",
+      "bytes": 2091,
+      "sha256": "f7cf74c6d69dae9c49ceacf7bbd2c96d6b889d04795e55c4f54a99c5bf9db789"
+    },
+    "work/cutoff15_20261017/fourier/discovery_v1/floating.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/fourier/discovery_v1/floating.py",
+      "bytes": 4178,
+      "sha256": "bdb2ee4af2804d57317e42c5c887fbe5b2536460780ff9109c118e5a3f42cbb9"
+    },
+    "work/cutoff15_20261017/fourier/discovery_v1/discover.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/fourier/discovery_v1/discover.py",
+      "bytes": 1090,
+      "sha256": "ffcbd9b9291a56415b50a30759455fd8d0c573f4f6221bb3f7508c18c8e15a46"
+    },
+    "work/cutoff15_20261017/fourier/auxiliary14_19_v1/MANIFEST.json": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/fourier/auxiliary14_19_v1/MANIFEST.json",
+      "bytes": 8193,
+      "sha256": "6e9ae39864b88c8f4f77a53a13dc65b5873d0ff3cab5fb075224fb1f01eec927"
+    },
+    "work/cutoff15_20261017/fourier/contact_high_v1/kernel.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/fourier/contact_high_v1/kernel.py",
+      "bytes": 6017,
+      "sha256": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e"
+    },
+    "work/cutoff15_20261017/fourier/contact_high_v1/PROOF.txt": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/fourier/contact_high_v1/PROOF.txt",
+      "bytes": 4092,
+      "sha256": "70b8a2de04ea73da522fbcd2d261e59f0cce4598a81765b0844885c66f434dcc"
+    },
+    "work/cutoff15_20261017/fourier/contact_high_v1/bound.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/fourier/contact_high_v1/bound.py",
+      "bytes": 4625,
+      "sha256": "38b5bd3a598bbe16af46693f1c48535a0e34533a3c73cb3b508a03c36665714b"
+    },
+    "work/cutoff15_20261017/audit/contact_high_review_v1/check.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/contact_high_review_v1/check.py",
+      "bytes": 7691,
+      "sha256": "582120d7e4bfd709ce8c88422a3f3a6a467ace45c0a6b64fe497cfe28c4e7a17"
+    },
+    "work/cutoff15_20261017/audit/contact_high_review_v1/REVIEW.txt": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/contact_high_review_v1/REVIEW.txt",
+      "bytes": 7767,
+      "sha256": "cb62100b4c565071197ee598fb053b7a90f58615e79ae74bd7dcb2ff26ce1214"
+    },
+    "work/cutoff15_20261017/fourier/contact_high_v1/MANIFEST.json": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/fourier/contact_high_v1/MANIFEST.json",
+      "bytes": 8708,
+      "sha256": "2d26c1d61b7fc6351f5d53f5354e7b0cbbf34c738f93059e627145c1f0422870"
+    },
+    "work/cutoff15_20261017/audit/finite_high_review_v1/CHECKED.json": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/finite_high_review_v1/CHECKED.json",
+      "bytes": 256042,
+      "sha256": "fe6bb00a8631216bcacd4b5d05acff94482411bfcb0611880b38c93b4bcfd49e"
+    },
+    "work/cutoff15_20261017/audit/contact_high_review_v1/engine/bound.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/contact_high_review_v1/engine/bound.py",
+      "bytes": 4625,
+      "sha256": "38b5bd3a598bbe16af46693f1c48535a0e34533a3c73cb3b508a03c36665714b"
+    },
+    "work/cutoff15_20261017/audit/contact_high_review_v1/engine/kernel.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/contact_high_review_v1/engine/kernel.py",
+      "bytes": 6017,
+      "sha256": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e"
+    },
+    "work/cutoff15_20261017/audit/contact_high_review_v1/CHECKED.json": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/contact_high_review_v1/CHECKED.json",
+      "bytes": 28309,
+      "sha256": "10db192d048429af7a165ca72d2e4aa17040e46ffe7c0a6a97f1b4a22cd45d0f"
+    },
+    "work/cutoff15_20261017/audit/contact_high_review_v1/WORDING_CORRECTION.txt": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/contact_high_review_v1/WORDING_CORRECTION.txt",
+      "bytes": 709,
+      "sha256": "a761bbe7d247289b12fd11f9a5cf79baba5cb94e74f862586369df7b27148cd1"
+    },
+    "work/cutoff15_20261017/root/cancellation_high_v1/kernel.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/root/cancellation_high_v1/kernel.py",
+      "bytes": 6017,
+      "sha256": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e"
+    },
+    "work/cutoff15_20261017/root/cancellation_high_v1/PROOF.txt": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/root/cancellation_high_v1/PROOF.txt",
+      "bytes": 4000,
+      "sha256": "d4c8aba7f591ecba6fadb9ef5787565c29f30fd5197a794e3322df72edd0652f"
+    },
+    "work/cutoff15_20261017/root/cancellation_high_v1/universal.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/root/cancellation_high_v1/universal.py",
+      "bytes": 4625,
+      "sha256": "38b5bd3a598bbe16af46693f1c48535a0e34533a3c73cb3b508a03c36665714b"
+    },
+    "work/cutoff15_20261017/root/cancellation_high_v1/bound.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/root/cancellation_high_v1/bound.py",
+      "bytes": 5257,
+      "sha256": "6325bfcb96b44fcd1084cf68060f04b03de35149eb0bc19fb6cfb0717496a534"
+    },
+    "work/cutoff15_20261017/audit/cancellation_high_review_v1/check.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/cancellation_high_review_v1/check.py",
+      "bytes": 6492,
+      "sha256": "40b02856d611aaf3b6be9ecf908adae190b6dd4cbe13df6943828ca4b4bf87eb"
+    },
+    "work/cutoff15_20261017/audit/cancellation_high_review_v1/REVIEW.txt": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/cancellation_high_review_v1/REVIEW.txt",
+      "bytes": 5581,
+      "sha256": "9b6530602ebefabcce4a7cdd8e028c85191a921b6a8d606253bb842c1544058c"
+    },
+    "work/cutoff15_20261017/root/cancellation_high_v1/MANIFEST.json": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/root/cancellation_high_v1/MANIFEST.json",
+      "bytes": 9694,
+      "sha256": "e664b21a4bd9b612f322cafe771244c0504c0d53accac57c911ff3252c31c808"
+    },
+    "work/cutoff15_20261017/audit/cancellation_high_review_v1/engine/kernel.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/cancellation_high_review_v1/engine/kernel.py",
+      "bytes": 6017,
+      "sha256": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e"
+    },
+    "work/cutoff15_20261017/audit/cancellation_high_review_v1/engine/universal.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/cancellation_high_review_v1/engine/universal.py",
+      "bytes": 4625,
+      "sha256": "38b5bd3a598bbe16af46693f1c48535a0e34533a3c73cb3b508a03c36665714b"
+    },
+    "work/cutoff15_20261017/audit/cancellation_high_review_v1/engine/compensated.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/cancellation_high_review_v1/engine/compensated.py",
+      "bytes": 5257,
+      "sha256": "6325bfcb96b44fcd1084cf68060f04b03de35149eb0bc19fb6cfb0717496a534"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/high_window_common.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/high_window_common.py",
+      "bytes": 2810,
+      "sha256": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/signed_variance_resource.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/signed_variance_resource.py",
+      "bytes": 1785,
+      "sha256": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/paired_extended.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/paired_extended.py",
+      "bytes": 2854,
+      "sha256": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/kernel.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/kernel.py",
+      "bytes": 19042,
+      "sha256": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/integer_exphi.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/integer_exphi.py",
+      "bytes": 803,
+      "sha256": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/geometric_moment_both.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/geometric_moment_both.py",
+      "bytes": 2100,
+      "sha256": "ea17218cdad6c409dacf8d4a37b437453fbf7aab3683867d16783cb696206616"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/heat_support50.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/heat_support50.py",
+      "bytes": 4726,
+      "sha256": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/general_paired_exact.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/general_paired_exact.py",
+      "bytes": 4013,
+      "sha256": "e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/high_window_core.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/high_window_core.py",
+      "bytes": 1966,
+      "sha256": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/direct_gaussian_support.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/direct_gaussian_support.py",
+      "bytes": 5306,
+      "sha256": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/small_index_support.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/small_index_support.py",
+      "bytes": 2698,
+      "sha256": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/resource25_core.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/resource25_core.py",
+      "bytes": 10279,
+      "sha256": "49588958962741cad11031047a7b60142478191c62b214abd84620d18ee109e1"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/candidate_charged_score_v2.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/candidate_charged_score_v2.py",
+      "bytes": 6662,
+      "sha256": "20f3c102f7b77b5ef49b0e6282cfacb3e24975f207296a5b74b27c0af6cdc6b4"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/contracted_kernel.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/contracted_kernel.py",
+      "bytes": 20457,
+      "sha256": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/corrected_phase_callback_extended.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/corrected_phase_callback_extended.py",
+      "bytes": 1164,
+      "sha256": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63"
+    },
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/finite_binomial_core.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/finite_binomial_core.py",
+      "bytes": 3510,
+      "sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f"
+    },
+    "work/cutoff15_20261017/audit/resource15_range_v1/PROOF.txt": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/resource15_range_v1/PROOF.txt",
+      "bytes": 11648,
+      "sha256": "e7c91e5148555c5181245a98d759187309b07deadfbb233f2b6bcd5cc888471e"
+    },
+    "work/cutoff15_20261017/audit/resource15_range_v1/check.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/resource15_range_v1/check.py",
+      "bytes": 3262,
+      "sha256": "0a39fd06e9e6bfe2603fd5b8128c56028d363e71d22e6e832ccdc0c8e4af65a2"
+    },
+    "work/short35_20261007/entry/resource_unified.tex": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/short35_20261007/entry/resource_unified.tex",
+      "bytes": 35139,
+      "sha256": "7fd89e3f529ec0defa38a85204dd97ab677d7331697378efeb3a82b8d931fe64"
+    },
+    "work/short50_20260930/certificates/work/below50_20260929/entry/high_window50_proof.tex": {
+      "vendor_file": "vendor/finite1519_core_documents/high_window50_proof.tex",
+      "bytes": 6882,
+      "sha256": "1e34cc0ef0c11288d642b1655153dc743c465f7173e0dfdf03f6ef6849ae8828"
+    },
+    "work/cutoff25_20261011/new_middle/b5_exact2_v1/resource_exact/GENERAL_PAIRED_PROOF.txt": {
+      "vendor_file": "vendor/finite1014_core_documents/GENERAL_PAIRED_PROOF.txt",
+      "bytes": 4577,
+      "sha256": "ec58bb8c1c8df0ff3eb019ffd61988ee37c696149e934e7ca403a31c856f3bda"
+    },
+    "work/cutoff25_20261011/new_middle/b5_exact2_v1/resource_exact/POSITIVE_GAP_RESOURCE_EXTENSION.txt": {
+      "vendor_file": "vendor/finite1519_core_documents/POSITIVE_GAP_RESOURCE_EXTENSION.txt",
+      "bytes": 5007,
+      "sha256": "0bf6ae992f6b8c4b8c344b178f715c9717d1083c2fce317b7cdb0dc151e210f2"
+    },
+    "work/cutoff25_20261011/new_middle/b5_exact2_v1/resource_exact/PRODUCT_GAP_DISTANCE_COROLLARY.txt": {
+      "vendor_file": "vendor/finite1519_core_documents/PRODUCT_GAP_DISTANCE_COROLLARY.txt",
+      "bytes": 2138,
+      "sha256": "a0be5cb015735310e0993e9d6f3636b600b4d82e76a3f5239bef6d126d29b1cb"
+    },
+    "work/cutoff25_20261011/new_middle/b5_exact2_v1/resource_exact/HIGH_CONSTANTS_PROOF.txt": {
+      "vendor_file": "vendor/finite1519_core_documents/HIGH_CONSTANTS_PROOF.txt",
+      "bytes": 566,
+      "sha256": "f8d03be41c5c573b255ba03f8966ab8e038f833a83bd803d12b26e6ff887a16f"
+    },
+    "work/cutoff15_20261017/audit/count15_range_v1/check.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/count15_range_v1/check.py",
+      "bytes": 11413,
+      "sha256": "08553c2ba15440a48f579f773cd7bea3e9bccd1f2eb79ba4f264c6a97e1564b9"
+    },
+    "work/cutoff15_20261017/audit/count15_range_v1/REVIEW.txt": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/count15_range_v1/REVIEW.txt",
+      "bytes": 16926,
+      "sha256": "50ca1b44c046cba5412004889e6920546d5a4488367547fd6237672a2b6170a2"
+    },
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/KERNEL_COPY_MANIFEST.json": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/count15_range_v1/engine/KERNEL_COPY_MANIFEST.json",
+      "bytes": 7581,
+      "sha256": "76648b66e6630ead12aab824209407821600eac0edc3425f856b28641bc2e560"
+    },
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/RIGHT_HALF_COUNT_PROOF.txt": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/count15_range_v1/engine/RIGHT_HALF_COUNT_PROOF.txt",
+      "bytes": 7176,
+      "sha256": "a73a4f6abf8796e6e20ab161922f33a075c972953e1f6ee545709c51566a355b"
+    },
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/SOURCE_TRANSFORM.json": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/count15_range_v1/engine/SOURCE_TRANSFORM.json",
+      "bytes": 11401,
+      "sha256": "5da6ce26255dafad387d566a8620a3549659e834f8aea23f63c0c80d2d8df11c"
+    },
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/bernstein_fast.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/count15_range_v1/engine/bernstein_fast.py",
+      "bytes": 1401,
+      "sha256": "4983c9af05673775c3fd5b521e898a9c7f7fe5c9523a5009646872bf75adc607"
+    },
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/construct_alpha4.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/count15_range_v1/engine/construct_alpha4.py",
+      "bytes": 2061,
+      "sha256": "f0489e0f027aaa79764f54c4f7a2dabb03f43b0dccd98c10c44c80abd9b23121"
+    },
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/contract.json": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/count15_range_v1/engine/contract.json",
+      "bytes": 3016,
+      "sha256": "0a9b6e64fafa8128e4d6cedf4b08963dc44e5eeafe93542611f92fb90a878141"
+    },
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/count_protocol.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/count15_range_v1/engine/count_protocol.py",
+      "bytes": 10336,
+      "sha256": "0d320850336829b29748a5ac390b4a7ad67f61e90a2df4c5a384c1177595a09f"
+    },
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/exact35_core.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/count15_range_v1/engine/exact35_core.py",
+      "bytes": 16640,
+      "sha256": "512c70ead43294a7f1d4e14922c9c3a55d3928c9555f4af1415cacf5ad6657bb"
+    },
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/exact_count_core_v5.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/count15_range_v1/engine/exact_count_core_v5.py",
+      "bytes": 7506,
+      "sha256": "0ffba7a5e1a91fc3c3c770f9d3bcb073a529fade3d622bc5615567153a4255a0"
+    },
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/finite_gaussian.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/count15_range_v1/engine/finite_gaussian.py",
+      "bytes": 3594,
+      "sha256": "4f5b1a829df4c3c8c0e5467adb79f112984ee8eab8ba5f25b20fd7173b78a4a0"
+    },
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/generalized_scope.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/count15_range_v1/engine/generalized_scope.py",
+      "bytes": 1778,
+      "sha256": "0ca76c72ccf7f9243e1d9b7d68f814b84e160f7da11945a7842dff5b2abebc00"
+    },
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/interval_scalar_fast.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/count15_range_v1/engine/interval_scalar_fast.py",
+      "bytes": 559,
+      "sha256": "3eaa0d78eec8b8d5c2044eb020a406ec352ac5a99b30f9d2773694a4f9601512"
+    },
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/inward_filter.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/count15_range_v1/engine/inward_filter.py",
+      "bytes": 1144,
+      "sha256": "11922c9ab0f8faa6334756535755e1ee5df6eab8c9e6a80511fff02687b8ec7a"
+    },
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/joint.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/count15_range_v1/engine/joint.py",
+      "bytes": 1698,
+      "sha256": "5d6e3fecf6627d9cc1e00869e41077ddd6cd714952a60bd8fab00069269e20be"
+    },
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/joint_cubic.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/count15_range_v1/engine/joint_cubic.py",
+      "bytes": 2845,
+      "sha256": "d4adf6e9cfa430bbd7be7ffd90b994672d648d9886c42aa38e0a94b66eb55238"
+    },
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/joint_cubic_defect.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/count15_range_v1/engine/joint_cubic_defect.py",
+      "bytes": 2021,
+      "sha256": "86874d28284f931b8907b573c118a9fb8191653a6569d903aed54c9f1974e970"
+    },
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/joint_cubic_normalized.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/count15_range_v1/engine/joint_cubic_normalized.py",
+      "bytes": 1835,
+      "sha256": "1403856612e213b9a14118a5a4098b7f470ce890499811dd1ad53c808904e2f6"
+    },
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/joint_cubic_normalized_fast.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/count15_range_v1/engine/joint_cubic_normalized_fast.py",
+      "bytes": 2144,
+      "sha256": "7d72ff8ec7cfc2ad59e45d26fcccd6998ef01abe24cb54653ba18b05f2bbf347"
+    },
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/joint_filter.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/count15_range_v1/engine/joint_filter.py",
+      "bytes": 1446,
+      "sha256": "ffd2bcca7eada563c5c3fa83828a534a1229ef1f1b231b9af148d4f1f637e276"
+    },
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/new_contract_helpers.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/count15_range_v1/engine/new_contract_helpers.py",
+      "bytes": 4102,
+      "sha256": "2a706c02f53d539d5805cdab1c5015ccdcdd0667c8d97083297dacc62771fb32"
+    },
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/optimized_arithmetic.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/count15_range_v1/engine/optimized_arithmetic.py",
+      "bytes": 382,
+      "sha256": "ab9bc728fbb7901f94323a384caf367eee2b2064e919dac27a01cabae743b765"
+    },
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/probability_extrema.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/count15_range_v1/engine/probability_extrema.py",
+      "bytes": 435,
+      "sha256": "f808c4e82ba40ce094e45139c6e09872c43ca7249ab7ae1d25aca24bbc5ee9ac"
+    },
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/rho_signed_moment_tightener.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/count15_range_v1/engine/rho_signed_moment_tightener.py",
+      "bytes": 2884,
+      "sha256": "1fe8fefd93269e478be47077b3bf1c8d0cff9259de94824d55a66824b8052cdc"
+    },
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/rho_variance_floor.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/count15_range_v1/engine/rho_variance_floor.py",
+      "bytes": 1400,
+      "sha256": "615acbcb948d2ba5767082f0dd2a2ab6f1d3999ae0a8afac3fd4c1d73b3aab6b"
+    },
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/signed_beta_variance_floor.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/count15_range_v1/engine/signed_beta_variance_floor.py",
+      "bytes": 1028,
+      "sha256": "c4208b88510735d0e808b947ec624ce785de42ef4c9fe3217505ebbef2c823c6"
+    },
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/signed_moment_floor_tightener.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/count15_range_v1/engine/signed_moment_floor_tightener.py",
+      "bytes": 2464,
+      "sha256": "6e7165bb4f16df296f58d511983696e10e56725fad28f1179002f31e232f5dbc"
+    },
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/signed_moment_prefilter.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/count15_range_v1/engine/signed_moment_prefilter.py",
+      "bytes": 1931,
+      "sha256": "fd82440f07f4be759d74c2d7d44d1075d293e054580e9fa28cc021311b5f2173"
+    },
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/signed_moment_tightener.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/count15_range_v1/engine/signed_moment_tightener.py",
+      "bytes": 2254,
+      "sha256": "f6ea60e4592a5055c1ace9340765076a95784f5c5d02232f2f02544321e75b9d"
+    },
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/variance_geometry.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/count15_range_v1/engine/variance_geometry.py",
+      "bytes": 1749,
+      "sha256": "55ba277cf30a0dc571cd98f38fd99deb4deff15c3be8df249c370ae8b10b3734"
+    },
+    "work/cutoff15_20261017/analytic/count15_v1/PROOF.txt": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/analytic/count15_v1/PROOF.txt",
+      "bytes": 2374,
+      "sha256": "6f667bbcef9f8b1bf0a27e38025ca643025f9b8f31add2e448a67611394f0226"
+    },
+    "work/cutoff15_20261017/analytic/count15_v1/contract_helpers.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/analytic/count15_v1/contract_helpers.py",
+      "bytes": 4102,
+      "sha256": "2a706c02f53d539d5805cdab1c5015ccdcdd0667c8d97083297dacc62771fb32"
+    },
+    "work/cutoff15_20261017/analytic/count15_v1/prepare.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/analytic/count15_v1/prepare.py",
+      "bytes": 9154,
+      "sha256": "8ea1497d8015d6ba76004933babd61bbf164f3d1f762b9be7e373e3f8fe23949"
+    },
+    "work/cutoff15_20261017/analytic/count15_v1/run.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/analytic/count15_v1/run.py",
+      "bytes": 5874,
+      "sha256": "7a94468cf17e52983449d49e16d85c266baaa3925b74d0636fd42e79742afe64"
+    },
+    "work/cutoff15_20261017/audit/actual15_join_v1/controls.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/actual15_join_v1/controls.py",
+      "bytes": 3908,
+      "sha256": "ce7d470ec88f3b1a1fce249bf43adcb3bf7d37ce8feef1c2cc0284a9ad3905c7"
+    },
+    "work/cutoff15_20261017/audit/actual15_join_v1/check.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/actual15_join_v1/check.py",
+      "bytes": 29887,
+      "sha256": "4dbfc5a885686af60ee118866051d84d32ab2673fbd298ebc23f231985ddb9ac"
+    },
+    "work/cutoff15_20261017/audit/actual15_join_v1/PROOF.txt": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/audit/actual15_join_v1/PROOF.txt",
+      "bytes": 7497,
+      "sha256": "4fbb988145d455a0c1d79aaba7416a57ab8c63f649d3075d9f8580b29f757669"
+    },
+    "work/cutoff15_20261017/analytic/count15_v1/B0/capsule56/contract.json": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/analytic/count15_v1/B0/capsule56/contract.json",
+      "bytes": 1810,
+      "sha256": "3f72d779873ca89f330b8b5c34d033619138470beebc551c31ca4d6c759c75a0"
+    },
+    "work/cutoff15_20261017/analytic/count15_v1/B0/capsule56/COUNT56_FOREST.json": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/analytic/count15_v1/B0/capsule56/COUNT56_FOREST.json",
+      "bytes": 31124,
+      "sha256": "86849f5b86f78e7cde17ad3691c80410caa86eb56627f32fde35d6d740e0ffed"
+    },
+    "work/cutoff15_20261017/analytic/count15_v1/B0/capsule56/COUNT56_ACCEPTED.json": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/analytic/count15_v1/B0/capsule56/COUNT56_ACCEPTED.json",
+      "bytes": 3816,
+      "sha256": "07df60af0fd184b7c0cbcaf045c1e2435f599ddddd0fb78e60b55ee84fd3fd40"
+    },
+    "work/cutoff15_20261017/analytic/count15_v1/B0/capsule56/count_protocol.py": {
+      "archive": "cutoff5_10_15.zip",
+      "member": "cutoff15_20261017/analytic/count15_v1/B0/capsule56/count_protocol.py",
+      "bytes": 10309,
+      "sha256": "0303645bc946fd042ab569813f8d894ac41547556ec497c4419fdd4d7bfbcef1"
+    },
+    "work/short35_20261007/local/count_unified.tex": {
+      "archive": "cutoff5_20261020.zip",
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/short35_20261007/local/count_unified.tex",
+      "bytes": 38478,
+      "sha256": "139a059226b3333c490e739d3f9999f04565a7d18c7d43849324b74b08369e64"
+    },
+    "work/cutoff20_20261016/root/joint_noise_clip_v1/PROOF.txt": {
+      "archive": "cutoff20_20261016.zip",
+      "member": "cutoff20_20261016/root/joint_noise_clip_v1/PROOF.txt",
+      "bytes": 1180,
+      "sha256": "10885c0538b447fc0e9fee62dec158bdbf6e62a0615932f734395e59e4b27dc3"
+    },
+    "work/cutoff20_20261016/root/joint_inward_cell_v1/PROOF.txt": {
+      "archive": "cutoff20_20261016.zip",
+      "member": "cutoff20_20261016/root/joint_inward_cell_v1/PROOF.txt",
+      "bytes": 3534,
+      "sha256": "f6e85e2f7ef071b0aa6d54816256f195bfccf73198c9a4f1971b7b2d89392f59"
+    }
+  },
+  "original_files_sha256": {
+    "work/cutoff15_20261017/audit/finite_high_review_v1/check.py": "6a88c178cf2aeb1bdeda82bf4af4994d8c13bcd68eacb997d3f50c7ec55f3a12",
+    "work/cutoff15_20261017/audit/finite_high_review_v1/REVIEW.txt": "a52f4fe60aafff4fe865aec2a64bb74aff254f999edd25897ada41da6808ef24",
+    "work/cutoff15_20261017/analytic/finite_high_v1/high.py": "44b6675201d4330b9836e93e5bde8547cadb0660511fd59860c550db24610b31",
+    "work/cutoff15_20261017/analytic/finite_high_v1/PROOF.txt": "483a85d3b3f2ce62cf6d4676f7f9441bc23e221bf44af846ab70bee2753722ce",
+    "work/cutoff15_20261017/analytic/finite_high_v1/check.py": "14a2e4474132046dbc51221f09ca2bf6b618f41a050cfe8a14f49268e0074f2a",
+    "work/cutoff15_20261017/root/finite_modulus_high_v1/high.py": "a9ad9bc826d43d4a98075282c01c666a8d203ac6b3c69b902a22e4b594c35fbf",
+    "work/cutoff15_20261017/root/finite_modulus_high_v1/PROOF.txt": "bb850515665850cf417412f9cc6fc9b2c3329b7bb6657c1de994445637933105",
+    "work/cutoff15_20261017/root/finite_modulus_high_v1/check.py": "afc26c8ecb50037e85522106f6be9399a7d1e410734c052f0ba6389944ea608a",
+    "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/PROOF.txt": "6645891bc75553f1a35faba00dd2a09e6b47c5fd374e637d83d62ec82069c162",
+    "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CERTIFICATE.json": "02dc46c334ec9c9cbf0e7bb4c982869c6e3e0649a915169d3542b8820b51aac7",
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/PROOF.txt": "df92603993c8b3ef4bab8767d3db7c21e694fc7d78661845b306dfd0e68dc0fc",
+    "work/short35_20261007/root/foundation.tex": "997b364445ddd31ee1babd24fe809058081eaaef94e8efe6066c82ac60d4baf1",
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/kernel.py": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+    "runs/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_01/metadata.json": "9bc09745362c8caa1e24de97e3a442c1fcca8406c118852b7295976adcc7c93e",
+    "runs/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_01/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "runs/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_01/stdout.txt": "163bf7eff250f62806ee308eab31d71fc1f35da49fdf625675071387b08b0031",
+    "work/cutoff20_20261016/fourier/PORT.diff": "bcb067893a80fa5d294db02600b6bb7a139201e897abb9adff56304ce33772da",
+    "work/cutoff20_20261016/fourier/PROOF.txt": "e31638ee8444ef66e6b752a392823e34781a602894799393c1f4047ecf0c71e9",
+    "work/cutoff20_20261016/fourier/batch.py": "6afbd94977681730b63a406087c948622155c50720a18a36f3868d4f87f2f164",
+    "work/cutoff20_20261016/fourier/controls.py": "9f298e23550e9366048c64570a996000912d47004a1ff5cb1575e5fe20d35a63",
+    "work/cutoff20_20261016/fourier/discovery.py": "0f484fc8d7ef8eeca811cb0678af32be937180a3241e35cbd938e8e517862bc7",
+    "work/cutoff20_20261016/fourier/integrate.py": "e4bda2d00d905bf0963ca6f48d62c7d52a831e14cc695a2bae18183239bb64fc",
+    "work/cutoff20_20261016/fourier/jet.py": "8decccac51b92cf58b3275e291b83e775da85cd9032f81501e9592d11d591329",
+    "work/cutoff20_20261016/fourier/kernel.py": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+    "work/cutoff20_20261016/fourier/pilot.py": "107c6d85a6ba8b530ededa8868276433418b68298098ad39c4b5a52f10f7e301",
+    "work/cutoff20_20261016/fourier/run.py": "df6d99c397ddf1b5eed0e589dc849755f76ed5e25891e568ac5acc1e2e7ab3fb",
+    "work/cutoff25_continue_20261015/analytic/universal_zeta_v1/CHECKED.json": "04a8c2110951e551a7e46711e57ef8384a1b9b47e31cba75a01702db260a6400",
+    "work/cutoff25_continue_20261015/analytic/universal_zeta_v1/PROOF.txt": "6f68c67bab4f198b20388e108a0d5564593bcb1f36f047fa6aff1454ebc4c66c",
+    "work/cutoff25_continue_20261015/analytic/universal_zeta_v1/check.py": "60816afdefba8b65c673a22f7edf39f8a594d5dae53ff9a8577ebed0635fecc3",
+    "work/cutoff25_continue_20261015/root/taylor_circle_v1/PROOF.txt": "cc0545ed99ff8c247bcf64f05753e42c883432cfc4276c0a34e6c6d8b52f973c",
+    "work/cutoff25_continue_20261015/root/taylor_circle_v1/integrate.py": "cfac1967b1ff7a0dfb5e77f9bd1ee96edac7f9ba8a185df7aae64d09bc0f86d0",
+    "work/cutoff25_continue_20261015/root/taylor_circle_v1/jet.py": "8d4ecba05181cb71c9d122bc355e5a124d356662f5b30c0be82dc30c4fda5dc1",
+    "work/cutoff25_rethink_20261015/repo_iid/source/paper/upper-0423.tex": "a80bc131732539fd4d9a1a125501b7a6e122ce65381e6b26f2fde764c36f9220",
+    "work/cutoff25_rethink_20261015/repo_iid_low_v1/ZETA_CIRCLE_PROOF.txt": "79ccb6400d557744e015ffa90a00ee9262b92a558b361e2dfcc6fcd03b2de3dd",
+    "work/cutoff25_rethink_20261015/repo_independent/FOURIER_AUDIT.txt": "40acdf27ea60aa7a792927009e39e7f33c6609c90461e65134818247f619227b",
+    "work/cutoff25_rethink_20261015/root/FOURIER_REDUCTION_V2.txt": "7389d85b02adbef18d598d57d97bdf93b9fe76502b826ed405fd54b95d5d40c6",
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/batch.py": "04045148b9e86dc4d92357d09642c04218ed2ea6f8ed27b5e7796a159f85b39e",
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/PROOF.txt": "e88f28253b08150ea49443c25888cfabe0e432492534b4f354a27b4d84fdbb9b",
+    "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/kernel.py": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+    "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CHECKED.json": "163bf7eff250f62806ee308eab31d71fc1f35da49fdf625675071387b08b0031",
+    "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/controls.py": "331ee713e7950c9013d969b70de5809d4eb7e37ac34cd22a6184e0f8872fe4b5",
+    "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/kernel.py": "16170505dece7571725e4e601f1546989d546ed64685616f9d13283c59702b0a",
+    "work/cutoff20_20261016/fourier/MANIFEST.json": "1e4f2d719b84fb065b8184b8b924b57e2ce40608ce436da60c002dd09daf49da",
+    "work/cutoff20_20261016/fourier/coupled_v1/floating.py": "81b9ab30b41be9068631a4d2e08a93a17bdb3d11f0278345f267802d2d8e8197",
+    "work/cutoff20_20261016/fourier/coupled_v1/discovery.py": "ade826727fcf4c28b324ef35f8da316cd5b81c4830246164eb41dfd7590c02db",
+    "work/cutoff20_20261016/fourier/coupled_v1/PROOF.txt": "946a84b93fd337cb2a7d7a4e40f58919f5baf3658fe6a726f5f974e1430c193f",
+    "work/cutoff20_20261016/fourier/coupled_v1/FLOATING.diff": "d66c81004069e15f18233eaa63601d64e906e93a1b7f8adfb13fe930ad83bdc2",
+    "work/cutoff20_20261016/fourier/coupled_v1/run.py": "7e4e12c8dcb0d4e1ad9bb2ca6cd48dc7bca77c8041cfe6b36fdc2eedd7089dce",
+    "work/cutoff25_rethink_20261015/repo_independent/FINAL_RHO130_REVIEW.txt": "1082d42b360d65ba2b27ad4f7cf4913bc8e6d40e60517e36c578870d14f9695b",
+    "work/cutoff20_20261016/fourier/auxiliary19_24_v1/planner.py": "d924912c85f41b32e1eb8aeccfc8da082039ee43e59a20f68ad56f0c701fff9d",
+    "work/cutoff20_20261016/fourier/auxiliary19_24_v1/run.py": "4b4b4c277882d838a9c2ae127f05c28c377d78fd60689e9c5766cca43b6b8028",
+    "work/cutoff20_20261016/fourier/auxiliary19_24_v1/kernel.py": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+    "work/cutoff20_20261016/fourier/auxiliary19_24_v1/protocol.py": "744723d19f14061c6f69b52890f15109277e978d9fc1e6dbb3500bf72612120e",
+    "work/cutoff20_20261016/fourier/auxiliary19_24_v1/batch.py": "461cd479f042e85e2b181002910e8414205bce1590908d04abcea2f5769b30bb",
+    "work/cutoff20_20261016/fourier/auxiliary19_24_v1/PORT.diff": "a502a7d9df6dddbf921f2e1715dca53c6bb38d5f7c4606b5e9ee58b7751e05e6",
+    "work/cutoff20_20261016/fourier/auxiliary19_24_v1/integrate.py": "e4bda2d00d905bf0963ca6f48d62c7d52a831e14cc695a2bae18183239bb64fc",
+    "work/cutoff20_20261016/fourier/auxiliary19_24_v1/jet.py": "8decccac51b92cf58b3275e291b83e775da85cd9032f81501e9592d11d591329",
+    "work/cutoff20_20261016/fourier/auxiliary19_24_v1/PROOF.txt": "0f44deb2f5484c52b2f6b8dac790d57dc53c27f7500892a365a7bc0615baef97",
+    "work/cutoff20_20261016/fourier/auxiliary19_24_v1/MANIFEST.json": "a4eb496264a920652fedec4c63474a2cceb23adb4a212b844c5a036369697e0c",
+    "work/cutoff15_20261017/fourier/auxiliary14_19_v1/PORT.diff": "714d68bd26d0807174505157e8df91305c046b223d523281c28c5d8f0ac603ed",
+    "work/cutoff15_20261017/fourier/auxiliary14_19_v1/PROOF.txt": "d51db0ee391d2162517bc2dfd33408f8db47b5eed6e6735226afee2762bf3981",
+    "work/cutoff15_20261017/fourier/auxiliary14_19_v1/batch.py": "e034b411f8df172e10d94da8e9c0bb8e96d8f9abf20eb9b2f949006698efb670",
+    "work/cutoff15_20261017/fourier/auxiliary14_19_v1/integrate.py": "e4bda2d00d905bf0963ca6f48d62c7d52a831e14cc695a2bae18183239bb64fc",
+    "work/cutoff15_20261017/fourier/auxiliary14_19_v1/jet.py": "8decccac51b92cf58b3275e291b83e775da85cd9032f81501e9592d11d591329",
+    "work/cutoff15_20261017/fourier/auxiliary14_19_v1/kernel.py": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+    "work/cutoff15_20261017/fourier/auxiliary14_19_v1/planner.py": "63a6d7d4d3e1baeb0108079d8bcc5e3435c8dee796da9d0b1044789fb8a32f20",
+    "work/cutoff15_20261017/fourier/auxiliary14_19_v1/protocol.py": "5eefff7a5dce1e7781f0e05a82e5e94b7c9ffbd841d5b0352dd9a81f5f8519ee",
+    "work/cutoff15_20261017/fourier/auxiliary14_19_v1/run.py": "f7cf74c6d69dae9c49ceacf7bbd2c96d6b889d04795e55c4f54a99c5bf9db789",
+    "work/cutoff15_20261017/fourier/discovery_v1/floating.py": "bdb2ee4af2804d57317e42c5c887fbe5b2536460780ff9109c118e5a3f42cbb9",
+    "work/cutoff15_20261017/fourier/discovery_v1/discover.py": "ffcbd9b9291a56415b50a30759455fd8d0c573f4f6221bb3f7508c18c8e15a46",
+    "work/cutoff15_20261017/fourier/auxiliary14_19_v1/MANIFEST.json": "6e9ae39864b88c8f4f77a53a13dc65b5873d0ff3cab5fb075224fb1f01eec927",
+    "work/cutoff15_20261017/fourier/contact_high_v1/kernel.py": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+    "work/cutoff15_20261017/fourier/contact_high_v1/PROOF.txt": "70b8a2de04ea73da522fbcd2d261e59f0cce4598a81765b0844885c66f434dcc",
+    "work/cutoff15_20261017/fourier/contact_high_v1/bound.py": "38b5bd3a598bbe16af46693f1c48535a0e34533a3c73cb3b508a03c36665714b",
+    "work/cutoff15_20261017/audit/contact_high_review_v1/check.py": "582120d7e4bfd709ce8c88422a3f3a6a467ace45c0a6b64fe497cfe28c4e7a17",
+    "work/cutoff15_20261017/audit/contact_high_review_v1/REVIEW.txt": "cb62100b4c565071197ee598fb053b7a90f58615e79ae74bd7dcb2ff26ce1214",
+    "work/cutoff15_20261017/fourier/contact_high_v1/MANIFEST.json": "2d26c1d61b7fc6351f5d53f5354e7b0cbbf34c738f93059e627145c1f0422870",
+    "work/cutoff15_20261017/audit/finite_high_review_v1/CHECKED.json": "fe6bb00a8631216bcacd4b5d05acff94482411bfcb0611880b38c93b4bcfd49e",
+    "work/cutoff15_20261017/audit/contact_high_review_v1/engine/bound.py": "38b5bd3a598bbe16af46693f1c48535a0e34533a3c73cb3b508a03c36665714b",
+    "work/cutoff15_20261017/audit/contact_high_review_v1/engine/kernel.py": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+    "work/cutoff15_20261017/audit/contact_high_review_v1/CHECKED.json": "10db192d048429af7a165ca72d2e4aa17040e46ffe7c0a6a97f1b4a22cd45d0f",
+    "work/cutoff15_20261017/audit/contact_high_review_v1/WORDING_CORRECTION.txt": "a761bbe7d247289b12fd11f9a5cf79baba5cb94e74f862586369df7b27148cd1",
+    "work/cutoff15_20261017/root/cancellation_high_v1/kernel.py": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+    "work/cutoff15_20261017/root/cancellation_high_v1/PROOF.txt": "d4c8aba7f591ecba6fadb9ef5787565c29f30fd5197a794e3322df72edd0652f",
+    "work/cutoff15_20261017/root/cancellation_high_v1/universal.py": "38b5bd3a598bbe16af46693f1c48535a0e34533a3c73cb3b508a03c36665714b",
+    "work/cutoff15_20261017/root/cancellation_high_v1/bound.py": "6325bfcb96b44fcd1084cf68060f04b03de35149eb0bc19fb6cfb0717496a534",
+    "work/cutoff15_20261017/audit/cancellation_high_review_v1/check.py": "40b02856d611aaf3b6be9ecf908adae190b6dd4cbe13df6943828ca4b4bf87eb",
+    "work/cutoff15_20261017/audit/cancellation_high_review_v1/REVIEW.txt": "9b6530602ebefabcce4a7cdd8e028c85191a921b6a8d606253bb842c1544058c",
+    "work/cutoff15_20261017/root/cancellation_high_v1/MANIFEST.json": "e664b21a4bd9b612f322cafe771244c0504c0d53accac57c911ff3252c31c808",
+    "work/cutoff15_20261017/audit/cancellation_high_review_v1/engine/kernel.py": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+    "work/cutoff15_20261017/audit/cancellation_high_review_v1/engine/universal.py": "38b5bd3a598bbe16af46693f1c48535a0e34533a3c73cb3b508a03c36665714b",
+    "work/cutoff15_20261017/audit/cancellation_high_review_v1/engine/compensated.py": "6325bfcb96b44fcd1084cf68060f04b03de35149eb0bc19fb6cfb0717496a534",
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/high_window_common.py": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/signed_variance_resource.py": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8",
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/paired_extended.py": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998",
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/kernel.py": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/integer_exphi.py": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/geometric_moment_both.py": "ea17218cdad6c409dacf8d4a37b437453fbf7aab3683867d16783cb696206616",
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/heat_support50.py": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/general_paired_exact.py": "e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96",
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/high_window_core.py": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/direct_gaussian_support.py": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57",
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/small_index_support.py": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/resource25_core.py": "49588958962741cad11031047a7b60142478191c62b214abd84620d18ee109e1",
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/candidate_charged_score_v2.py": "20f3c102f7b77b5ef49b0e6282cfacb3e24975f207296a5b74b27c0af6cdc6b4",
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/contracted_kernel.py": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0",
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/corrected_phase_callback_extended.py": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63",
+    "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/finite_binomial_core.py": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+    "work/cutoff15_20261017/audit/resource15_range_v1/PROOF.txt": "e7c91e5148555c5181245a98d759187309b07deadfbb233f2b6bcd5cc888471e",
+    "work/cutoff15_20261017/audit/resource15_range_v1/check.py": "0a39fd06e9e6bfe2603fd5b8128c56028d363e71d22e6e832ccdc0c8e4af65a2",
+    "work/short35_20261007/entry/resource_unified.tex": "7fd89e3f529ec0defa38a85204dd97ab677d7331697378efeb3a82b8d931fe64",
+    "work/short50_20260930/certificates/work/below50_20260929/entry/high_window50_proof.tex": "1e34cc0ef0c11288d642b1655153dc743c465f7173e0dfdf03f6ef6849ae8828",
+    "work/cutoff25_20261011/new_middle/b5_exact2_v1/resource_exact/GENERAL_PAIRED_PROOF.txt": "ec58bb8c1c8df0ff3eb019ffd61988ee37c696149e934e7ca403a31c856f3bda",
+    "work/cutoff25_20261011/new_middle/b5_exact2_v1/resource_exact/POSITIVE_GAP_RESOURCE_EXTENSION.txt": "0bf6ae992f6b8c4b8c344b178f715c9717d1083c2fce317b7cdb0dc151e210f2",
+    "work/cutoff25_20261011/new_middle/b5_exact2_v1/resource_exact/PRODUCT_GAP_DISTANCE_COROLLARY.txt": "a0be5cb015735310e0993e9d6f3636b600b4d82e76a3f5239bef6d126d29b1cb",
+    "work/cutoff25_20261011/new_middle/b5_exact2_v1/resource_exact/HIGH_CONSTANTS_PROOF.txt": "f8d03be41c5c573b255ba03f8966ab8e038f833a83bd803d12b26e6ff887a16f",
+    "work/cutoff15_20261017/audit/count15_range_v1/check.py": "08553c2ba15440a48f579f773cd7bea3e9bccd1f2eb79ba4f264c6a97e1564b9",
+    "work/cutoff15_20261017/audit/count15_range_v1/REVIEW.txt": "50ca1b44c046cba5412004889e6920546d5a4488367547fd6237672a2b6170a2",
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/KERNEL_COPY_MANIFEST.json": "76648b66e6630ead12aab824209407821600eac0edc3425f856b28641bc2e560",
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/RIGHT_HALF_COUNT_PROOF.txt": "a73a4f6abf8796e6e20ab161922f33a075c972953e1f6ee545709c51566a355b",
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/SOURCE_TRANSFORM.json": "5da6ce26255dafad387d566a8620a3549659e834f8aea23f63c0c80d2d8df11c",
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/bernstein_fast.py": "4983c9af05673775c3fd5b521e898a9c7f7fe5c9523a5009646872bf75adc607",
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/construct_alpha4.py": "f0489e0f027aaa79764f54c4f7a2dabb03f43b0dccd98c10c44c80abd9b23121",
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/contract.json": "0a9b6e64fafa8128e4d6cedf4b08963dc44e5eeafe93542611f92fb90a878141",
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/count_protocol.py": "0d320850336829b29748a5ac390b4a7ad67f61e90a2df4c5a384c1177595a09f",
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/exact35_core.py": "512c70ead43294a7f1d4e14922c9c3a55d3928c9555f4af1415cacf5ad6657bb",
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/exact_count_core_v5.py": "0ffba7a5e1a91fc3c3c770f9d3bcb073a529fade3d622bc5615567153a4255a0",
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/finite_gaussian.py": "4f5b1a829df4c3c8c0e5467adb79f112984ee8eab8ba5f25b20fd7173b78a4a0",
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/generalized_scope.py": "0ca76c72ccf7f9243e1d9b7d68f814b84e160f7da11945a7842dff5b2abebc00",
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/interval_scalar_fast.py": "3eaa0d78eec8b8d5c2044eb020a406ec352ac5a99b30f9d2773694a4f9601512",
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/inward_filter.py": "11922c9ab0f8faa6334756535755e1ee5df6eab8c9e6a80511fff02687b8ec7a",
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/joint.py": "5d6e3fecf6627d9cc1e00869e41077ddd6cd714952a60bd8fab00069269e20be",
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/joint_cubic.py": "d4adf6e9cfa430bbd7be7ffd90b994672d648d9886c42aa38e0a94b66eb55238",
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/joint_cubic_defect.py": "86874d28284f931b8907b573c118a9fb8191653a6569d903aed54c9f1974e970",
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/joint_cubic_normalized.py": "1403856612e213b9a14118a5a4098b7f470ce890499811dd1ad53c808904e2f6",
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/joint_cubic_normalized_fast.py": "7d72ff8ec7cfc2ad59e45d26fcccd6998ef01abe24cb54653ba18b05f2bbf347",
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/joint_filter.py": "ffd2bcca7eada563c5c3fa83828a534a1229ef1f1b231b9af148d4f1f637e276",
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/new_contract_helpers.py": "2a706c02f53d539d5805cdab1c5015ccdcdd0667c8d97083297dacc62771fb32",
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/optimized_arithmetic.py": "ab9bc728fbb7901f94323a384caf367eee2b2064e919dac27a01cabae743b765",
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/probability_extrema.py": "f808c4e82ba40ce094e45139c6e09872c43ca7249ab7ae1d25aca24bbc5ee9ac",
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/rho_signed_moment_tightener.py": "1fe8fefd93269e478be47077b3bf1c8d0cff9259de94824d55a66824b8052cdc",
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/rho_variance_floor.py": "615acbcb948d2ba5767082f0dd2a2ab6f1d3999ae0a8afac3fd4c1d73b3aab6b",
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/signed_beta_variance_floor.py": "c4208b88510735d0e808b947ec624ce785de42ef4c9fe3217505ebbef2c823c6",
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/signed_moment_floor_tightener.py": "6e7165bb4f16df296f58d511983696e10e56725fad28f1179002f31e232f5dbc",
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/signed_moment_prefilter.py": "fd82440f07f4be759d74c2d7d44d1075d293e054580e9fa28cc021311b5f2173",
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/signed_moment_tightener.py": "f6ea60e4592a5055c1ace9340765076a95784f5c5d02232f2f02544321e75b9d",
+    "work/cutoff15_20261017/audit/count15_range_v1/engine/variance_geometry.py": "55ba277cf30a0dc571cd98f38fd99deb4deff15c3be8df249c370ae8b10b3734",
+    "work/cutoff15_20261017/analytic/count15_v1/PROOF.txt": "6f667bbcef9f8b1bf0a27e38025ca643025f9b8f31add2e448a67611394f0226",
+    "work/cutoff15_20261017/analytic/count15_v1/contract_helpers.py": "2a706c02f53d539d5805cdab1c5015ccdcdd0667c8d97083297dacc62771fb32",
+    "work/cutoff15_20261017/analytic/count15_v1/prepare.py": "8ea1497d8015d6ba76004933babd61bbf164f3d1f762b9be7e373e3f8fe23949",
+    "work/cutoff15_20261017/analytic/count15_v1/run.py": "7a94468cf17e52983449d49e16d85c266baaa3925b74d0636fd42e79742afe64",
+    "work/short35_20261007/local/count_unified.tex": "139a059226b3333c490e739d3f9999f04565a7d18c7d43849324b74b08369e64",
+    "work/cutoff20_20261016/root/joint_inward_cell_v1/PROOF.txt": "f6e85e2f7ef071b0aa6d54816256f195bfccf73198c9a4f1971b7b2d89392f59",
+    "work/cutoff20_20261016/root/joint_noise_clip_v1/PROOF.txt": "10885c0538b447fc0e9fee62dec158bdbf6e62a0615932f734395e59e4b27dc3",
+    "work/cutoff15_20261017/audit/actual15_join_v1/controls.py": "ce7d470ec88f3b1a1fce249bf43adcb3bf7d37ce8feef1c2cc0284a9ad3905c7",
+    "work/cutoff15_20261017/audit/actual15_join_v1/check.py": "4dbfc5a885686af60ee118866051d84d32ab2673fbd298ebc23f231985ddb9ac",
+    "work/cutoff15_20261017/audit/actual15_join_v1/PROOF.txt": "4fbb988145d455a0c1d79aaba7416a57ab8c63f649d3075d9f8580b29f757669",
+    "work/cutoff15_20261017/analytic/count15_v1/B0/capsule56/contract.json": "3f72d779873ca89f330b8b5c34d033619138470beebc551c31ca4d6c759c75a0",
+    "work/cutoff15_20261017/analytic/count15_v1/B0/capsule56/COUNT56_FOREST.json": "86849f5b86f78e7cde17ad3691c80410caa86eb56627f32fde35d6d740e0ffed",
+    "work/cutoff15_20261017/analytic/count15_v1/B0/capsule56/COUNT56_ACCEPTED.json": "07df60af0fd184b7c0cbcaf045c1e2435f599ddddd0fb78e60b55ee84fd3fd40",
+    "work/cutoff15_20261017/analytic/count15_v1/B0/capsule56/count_protocol.py": "0303645bc946fd042ab569813f8d894ac41547556ec497c4419fdd4d7bfbcef1"
+  },
+  "metadata_documents": [
+    "work/cutoff20_20261016/fourier/MANIFEST.json",
+    "work/cutoff20_20261016/fourier/auxiliary19_24_v1/MANIFEST.json",
+    "work/cutoff15_20261017/fourier/auxiliary14_19_v1/MANIFEST.json",
+    "work/cutoff15_20261017/fourier/contact_high_v1/MANIFEST.json",
+    "work/cutoff15_20261017/root/cancellation_high_v1/MANIFEST.json"
+  ],
+  "cases": [
+    {
+      "id": "finite-high",
+      "script": "work/cutoff15_20261017/audit/finite_high_review_v1/check.py",
+      "command_tail": [
+        "-B",
+        "check.py"
+      ],
+      "cwd": "work/cutoff15_20261017/audit/finite_high_review_v1",
+      "output": "work/cutoff15_20261017/audit/finite_high_review_v1/CHECKED.json",
+      "reference": {
+        "archive": "cutoff5_10_15.zip",
+        "member": "cutoff15_20261017/audit/finite_high_review_v1/CHECKED.json",
+        "bytes": 256042,
+        "sha256": "fe6bb00a8631216bcacd4b5d05acff94482411bfcb0611880b38c93b4bcfd49e"
+      },
+      "dependencies": [],
+      "input_reference_graph": {
+        "work/cutoff15_20261017/audit/finite_high_review_v1/check.py": "6a88c178cf2aeb1bdeda82bf4af4994d8c13bcd68eacb997d3f50c7ec55f3a12",
+        "work/cutoff15_20261017/audit/finite_high_review_v1/REVIEW.txt": "a52f4fe60aafff4fe865aec2a64bb74aff254f999edd25897ada41da6808ef24",
+        "work/cutoff15_20261017/analytic/finite_high_v1/high.py": "44b6675201d4330b9836e93e5bde8547cadb0660511fd59860c550db24610b31",
+        "work/cutoff15_20261017/analytic/finite_high_v1/PROOF.txt": "483a85d3b3f2ce62cf6d4676f7f9441bc23e221bf44af846ab70bee2753722ce",
+        "work/cutoff15_20261017/analytic/finite_high_v1/check.py": "14a2e4474132046dbc51221f09ca2bf6b618f41a050cfe8a14f49268e0074f2a",
+        "work/cutoff15_20261017/root/finite_modulus_high_v1/high.py": "a9ad9bc826d43d4a98075282c01c666a8d203ac6b3c69b902a22e4b594c35fbf",
+        "work/cutoff15_20261017/root/finite_modulus_high_v1/PROOF.txt": "bb850515665850cf417412f9cc6fc9b2c3329b7bb6657c1de994445637933105",
+        "work/cutoff15_20261017/root/finite_modulus_high_v1/check.py": "afc26c8ecb50037e85522106f6be9399a7d1e410734c052f0ba6389944ea608a",
+        "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/PROOF.txt": "6645891bc75553f1a35faba00dd2a09e6b47c5fd374e637d83d62ec82069c162",
+        "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CERTIFICATE.json": "02dc46c334ec9c9cbf0e7bb4c982869c6e3e0649a915169d3542b8820b51aac7",
+        "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/PROOF.txt": "df92603993c8b3ef4bab8767d3db7c21e694fc7d78661845b306dfd0e68dc0fc",
+        "work/short35_20261007/root/foundation.tex": "997b364445ddd31ee1babd24fe809058081eaaef94e8efe6066c82ac60d4baf1",
+        "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_initial_v1/engine/kernel.py": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12"
+      },
+      "generated_engine_copies": {},
+      "expected_reference_fields": {
+        "status": "PASS_INDEPENDENT_FINITE_HIGH_REVIEW_NOT_CUTOFF",
+        "scalar_cells": 81,
+        "negative_controls": 10,
+        "actual_laws": 28,
+        "quartic_antiderivative_comparisons": 105,
+        "modulus_independent_comparisons": 40
+      },
+      "original_python_sha256": "6a88c178cf2aeb1bdeda82bf4af4994d8c13bcd68eacb997d3f50c7ec55f3a12",
+      "arithmetic_computed": false
+    },
+    {
+      "id": "contact-high",
+      "script": "work/cutoff15_20261017/audit/contact_high_review_v1/check.py",
+      "command_tail": [
+        "-B",
+        "check.py"
+      ],
+      "cwd": "work/cutoff15_20261017/audit/contact_high_review_v1",
+      "output": "work/cutoff15_20261017/audit/contact_high_review_v1/CHECKED.json",
+      "reference": {
+        "archive": "cutoff5_10_15.zip",
+        "member": "cutoff15_20261017/audit/contact_high_review_v1/CHECKED.json",
+        "bytes": 28309,
+        "sha256": "10db192d048429af7a165ca72d2e4aa17040e46ffe7c0a6a97f1b4a22cd45d0f"
+      },
+      "dependencies": [
+        "finite-high"
+      ],
+      "input_reference_graph": {
+        "runs/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_01/metadata.json": "9bc09745362c8caa1e24de97e3a442c1fcca8406c118852b7295976adcc7c93e",
+        "runs/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_01/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "runs/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_01/stdout.txt": "163bf7eff250f62806ee308eab31d71fc1f35da49fdf625675071387b08b0031",
+        "work/cutoff20_20261016/fourier/PORT.diff": "bcb067893a80fa5d294db02600b6bb7a139201e897abb9adff56304ce33772da",
+        "work/cutoff20_20261016/fourier/PROOF.txt": "e31638ee8444ef66e6b752a392823e34781a602894799393c1f4047ecf0c71e9",
+        "work/cutoff20_20261016/fourier/batch.py": "6afbd94977681730b63a406087c948622155c50720a18a36f3868d4f87f2f164",
+        "work/cutoff20_20261016/fourier/controls.py": "9f298e23550e9366048c64570a996000912d47004a1ff5cb1575e5fe20d35a63",
+        "work/cutoff20_20261016/fourier/discovery.py": "0f484fc8d7ef8eeca811cb0678af32be937180a3241e35cbd938e8e517862bc7",
+        "work/cutoff20_20261016/fourier/integrate.py": "e4bda2d00d905bf0963ca6f48d62c7d52a831e14cc695a2bae18183239bb64fc",
+        "work/cutoff20_20261016/fourier/jet.py": "8decccac51b92cf58b3275e291b83e775da85cd9032f81501e9592d11d591329",
+        "work/cutoff20_20261016/fourier/kernel.py": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+        "work/cutoff20_20261016/fourier/pilot.py": "107c6d85a6ba8b530ededa8868276433418b68298098ad39c4b5a52f10f7e301",
+        "work/cutoff20_20261016/fourier/run.py": "df6d99c397ddf1b5eed0e589dc849755f76ed5e25891e568ac5acc1e2e7ab3fb",
+        "work/cutoff25_continue_20261015/analytic/universal_zeta_v1/CHECKED.json": "04a8c2110951e551a7e46711e57ef8384a1b9b47e31cba75a01702db260a6400",
+        "work/cutoff25_continue_20261015/analytic/universal_zeta_v1/PROOF.txt": "6f68c67bab4f198b20388e108a0d5564593bcb1f36f047fa6aff1454ebc4c66c",
+        "work/cutoff25_continue_20261015/analytic/universal_zeta_v1/check.py": "60816afdefba8b65c673a22f7edf39f8a594d5dae53ff9a8577ebed0635fecc3",
+        "work/cutoff25_continue_20261015/root/taylor_circle_v1/PROOF.txt": "cc0545ed99ff8c247bcf64f05753e42c883432cfc4276c0a34e6c6d8b52f973c",
+        "work/cutoff25_continue_20261015/root/taylor_circle_v1/integrate.py": "cfac1967b1ff7a0dfb5e77f9bd1ee96edac7f9ba8a185df7aae64d09bc0f86d0",
+        "work/cutoff25_continue_20261015/root/taylor_circle_v1/jet.py": "8d4ecba05181cb71c9d122bc355e5a124d356662f5b30c0be82dc30c4fda5dc1",
+        "work/cutoff25_rethink_20261015/repo_iid/source/paper/upper-0423.tex": "a80bc131732539fd4d9a1a125501b7a6e122ce65381e6b26f2fde764c36f9220",
+        "work/cutoff25_rethink_20261015/repo_iid_low_v1/ZETA_CIRCLE_PROOF.txt": "79ccb6400d557744e015ffa90a00ee9262b92a558b361e2dfcc6fcd03b2de3dd",
+        "work/cutoff25_rethink_20261015/repo_independent/FOURIER_AUDIT.txt": "40acdf27ea60aa7a792927009e39e7f33c6609c90461e65134818247f619227b",
+        "work/cutoff25_rethink_20261015/root/FOURIER_REDUCTION_V2.txt": "7389d85b02adbef18d598d57d97bdf93b9fe76502b826ed405fd54b95d5d40c6",
+        "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/PROOF.txt": "df92603993c8b3ef4bab8767d3db7c21e694fc7d78661845b306dfd0e68dc0fc",
+        "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/batch.py": "04045148b9e86dc4d92357d09642c04218ed2ea6f8ed27b5e7796a159f85b39e",
+        "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/PROOF.txt": "e88f28253b08150ea49443c25888cfabe0e432492534b4f354a27b4d84fdbb9b",
+        "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/kernel.py": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+        "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CERTIFICATE.json": "02dc46c334ec9c9cbf0e7bb4c982869c6e3e0649a915169d3542b8820b51aac7",
+        "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CHECKED.json": "163bf7eff250f62806ee308eab31d71fc1f35da49fdf625675071387b08b0031",
+        "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/PROOF.txt": "6645891bc75553f1a35faba00dd2a09e6b47c5fd374e637d83d62ec82069c162",
+        "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/controls.py": "331ee713e7950c9013d969b70de5809d4eb7e37ac34cd22a6184e0f8872fe4b5",
+        "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/kernel.py": "16170505dece7571725e4e601f1546989d546ed64685616f9d13283c59702b0a",
+        "work/cutoff20_20261016/fourier/MANIFEST.json": "1e4f2d719b84fb065b8184b8b924b57e2ce40608ce436da60c002dd09daf49da",
+        "work/cutoff20_20261016/fourier/coupled_v1/floating.py": "81b9ab30b41be9068631a4d2e08a93a17bdb3d11f0278345f267802d2d8e8197",
+        "work/cutoff20_20261016/fourier/coupled_v1/discovery.py": "ade826727fcf4c28b324ef35f8da316cd5b81c4830246164eb41dfd7590c02db",
+        "work/cutoff20_20261016/fourier/coupled_v1/PROOF.txt": "946a84b93fd337cb2a7d7a4e40f58919f5baf3658fe6a726f5f974e1430c193f",
+        "work/cutoff20_20261016/fourier/coupled_v1/FLOATING.diff": "d66c81004069e15f18233eaa63601d64e906e93a1b7f8adfb13fe930ad83bdc2",
+        "work/cutoff20_20261016/fourier/coupled_v1/run.py": "7e4e12c8dcb0d4e1ad9bb2ca6cd48dc7bca77c8041cfe6b36fdc2eedd7089dce",
+        "work/cutoff25_rethink_20261015/repo_independent/FINAL_RHO130_REVIEW.txt": "1082d42b360d65ba2b27ad4f7cf4913bc8e6d40e60517e36c578870d14f9695b",
+        "work/cutoff20_20261016/fourier/auxiliary19_24_v1/planner.py": "d924912c85f41b32e1eb8aeccfc8da082039ee43e59a20f68ad56f0c701fff9d",
+        "work/cutoff20_20261016/fourier/auxiliary19_24_v1/run.py": "4b4b4c277882d838a9c2ae127f05c28c377d78fd60689e9c5766cca43b6b8028",
+        "work/cutoff20_20261016/fourier/auxiliary19_24_v1/kernel.py": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+        "work/cutoff20_20261016/fourier/auxiliary19_24_v1/protocol.py": "744723d19f14061c6f69b52890f15109277e978d9fc1e6dbb3500bf72612120e",
+        "work/cutoff20_20261016/fourier/auxiliary19_24_v1/batch.py": "461cd479f042e85e2b181002910e8414205bce1590908d04abcea2f5769b30bb",
+        "work/cutoff20_20261016/fourier/auxiliary19_24_v1/PORT.diff": "a502a7d9df6dddbf921f2e1715dca53c6bb38d5f7c4606b5e9ee58b7751e05e6",
+        "work/cutoff20_20261016/fourier/auxiliary19_24_v1/integrate.py": "e4bda2d00d905bf0963ca6f48d62c7d52a831e14cc695a2bae18183239bb64fc",
+        "work/cutoff20_20261016/fourier/auxiliary19_24_v1/jet.py": "8decccac51b92cf58b3275e291b83e775da85cd9032f81501e9592d11d591329",
+        "work/cutoff20_20261016/fourier/auxiliary19_24_v1/PROOF.txt": "0f44deb2f5484c52b2f6b8dac790d57dc53c27f7500892a365a7bc0615baef97",
+        "work/cutoff20_20261016/fourier/auxiliary19_24_v1/MANIFEST.json": "a4eb496264a920652fedec4c63474a2cceb23adb4a212b844c5a036369697e0c",
+        "work/cutoff15_20261017/fourier/auxiliary14_19_v1/PORT.diff": "714d68bd26d0807174505157e8df91305c046b223d523281c28c5d8f0ac603ed",
+        "work/cutoff15_20261017/fourier/auxiliary14_19_v1/PROOF.txt": "d51db0ee391d2162517bc2dfd33408f8db47b5eed6e6735226afee2762bf3981",
+        "work/cutoff15_20261017/fourier/auxiliary14_19_v1/batch.py": "e034b411f8df172e10d94da8e9c0bb8e96d8f9abf20eb9b2f949006698efb670",
+        "work/cutoff15_20261017/fourier/auxiliary14_19_v1/integrate.py": "e4bda2d00d905bf0963ca6f48d62c7d52a831e14cc695a2bae18183239bb64fc",
+        "work/cutoff15_20261017/fourier/auxiliary14_19_v1/jet.py": "8decccac51b92cf58b3275e291b83e775da85cd9032f81501e9592d11d591329",
+        "work/cutoff15_20261017/fourier/auxiliary14_19_v1/kernel.py": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+        "work/cutoff15_20261017/fourier/auxiliary14_19_v1/planner.py": "63a6d7d4d3e1baeb0108079d8bcc5e3435c8dee796da9d0b1044789fb8a32f20",
+        "work/cutoff15_20261017/fourier/auxiliary14_19_v1/protocol.py": "5eefff7a5dce1e7781f0e05a82e5e94b7c9ffbd841d5b0352dd9a81f5f8519ee",
+        "work/cutoff15_20261017/fourier/auxiliary14_19_v1/run.py": "f7cf74c6d69dae9c49ceacf7bbd2c96d6b889d04795e55c4f54a99c5bf9db789",
+        "work/cutoff15_20261017/fourier/discovery_v1/floating.py": "bdb2ee4af2804d57317e42c5c887fbe5b2536460780ff9109c118e5a3f42cbb9",
+        "work/cutoff15_20261017/fourier/discovery_v1/discover.py": "ffcbd9b9291a56415b50a30759455fd8d0c573f4f6221bb3f7508c18c8e15a46",
+        "work/cutoff15_20261017/fourier/auxiliary14_19_v1/MANIFEST.json": "6e9ae39864b88c8f4f77a53a13dc65b5873d0ff3cab5fb075224fb1f01eec927",
+        "work/cutoff15_20261017/fourier/contact_high_v1/kernel.py": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+        "work/cutoff15_20261017/fourier/contact_high_v1/PROOF.txt": "70b8a2de04ea73da522fbcd2d261e59f0cce4598a81765b0844885c66f434dcc",
+        "work/cutoff15_20261017/fourier/contact_high_v1/bound.py": "38b5bd3a598bbe16af46693f1c48535a0e34533a3c73cb3b508a03c36665714b",
+        "work/cutoff15_20261017/audit/contact_high_review_v1/check.py": "582120d7e4bfd709ce8c88422a3f3a6a467ace45c0a6b64fe497cfe28c4e7a17",
+        "work/cutoff15_20261017/audit/contact_high_review_v1/REVIEW.txt": "cb62100b4c565071197ee598fb053b7a90f58615e79ae74bd7dcb2ff26ce1214",
+        "work/cutoff15_20261017/fourier/contact_high_v1/MANIFEST.json": "2d26c1d61b7fc6351f5d53f5354e7b0cbbf34c738f93059e627145c1f0422870",
+        "work/cutoff15_20261017/audit/finite_high_review_v1/CHECKED.json": "fe6bb00a8631216bcacd4b5d05acff94482411bfcb0611880b38c93b4bcfd49e",
+        "work/cutoff15_20261017/audit/finite_high_review_v1/REVIEW.txt": "a52f4fe60aafff4fe865aec2a64bb74aff254f999edd25897ada41da6808ef24",
+        "work/cutoff15_20261017/audit/contact_high_review_v1/engine/bound.py": "38b5bd3a598bbe16af46693f1c48535a0e34533a3c73cb3b508a03c36665714b",
+        "work/cutoff15_20261017/audit/contact_high_review_v1/engine/kernel.py": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e"
+      },
+      "generated_engine_copies": {
+        "work/cutoff15_20261017/audit/contact_high_review_v1/engine/bound.py": {
+          "bytes": 4625,
+          "sha256": "38b5bd3a598bbe16af46693f1c48535a0e34533a3c73cb3b508a03c36665714b"
+        },
+        "work/cutoff15_20261017/audit/contact_high_review_v1/engine/kernel.py": {
+          "bytes": 6017,
+          "sha256": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e"
+        }
+      },
+      "expected_reference_fields": {
+        "status": "PASS_INDEPENDENT_CONTACT_HIGH_SOURCE_AND_BOUNDED_CONTROLS_NOT_FULL_TABLE",
+        "normalization": "sqrt(n) integral_[1/2,infinity] abs(f(t)^n-e_n(t))/t^3 dt",
+        "domain_controls": {
+          "malformed_domains": 8,
+          "direct_powers": 15
+        },
+        "arithmetic_controls": 104,
+        "trig_exp_controls": 13,
+        "independent_closed_cells": 71,
+        "independent_integrand_comparisons": 710,
+        "moment_laws": 20,
+        "profile_join_lower": "967616288/638512875"
+      },
+      "original_python_sha256": "582120d7e4bfd709ce8c88422a3f3a6a467ace45c0a6b64fe497cfe28c4e7a17",
+      "arithmetic_computed": false
+    },
+    {
+      "id": "compensated-high",
+      "script": "work/cutoff15_20261017/audit/cancellation_high_review_v1/check.py",
+      "command_tail": [
+        "-B",
+        "check.py"
+      ],
+      "cwd": "work/cutoff15_20261017/audit/cancellation_high_review_v1",
+      "output": "work/cutoff15_20261017/audit/cancellation_high_review_v1/CHECKED.json",
+      "reference": {
+        "archive": "cutoff5_10_15.zip",
+        "member": "cutoff15_20261017/audit/cancellation_high_review_v1/CHECKED.json",
+        "bytes": 26162,
+        "sha256": "6bff2b4d9aa896d3c5e1ddfbb21f43e770a2e67945bfb2c3a616a46269f04a2c"
+      },
+      "dependencies": [
+        "contact-high"
+      ],
+      "input_reference_graph": {
+        "runs/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_01/metadata.json": "9bc09745362c8caa1e24de97e3a442c1fcca8406c118852b7295976adcc7c93e",
+        "runs/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_01/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "runs/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_01/stdout.txt": "163bf7eff250f62806ee308eab31d71fc1f35da49fdf625675071387b08b0031",
+        "work/cutoff20_20261016/fourier/PORT.diff": "bcb067893a80fa5d294db02600b6bb7a139201e897abb9adff56304ce33772da",
+        "work/cutoff20_20261016/fourier/PROOF.txt": "e31638ee8444ef66e6b752a392823e34781a602894799393c1f4047ecf0c71e9",
+        "work/cutoff20_20261016/fourier/batch.py": "6afbd94977681730b63a406087c948622155c50720a18a36f3868d4f87f2f164",
+        "work/cutoff20_20261016/fourier/controls.py": "9f298e23550e9366048c64570a996000912d47004a1ff5cb1575e5fe20d35a63",
+        "work/cutoff20_20261016/fourier/discovery.py": "0f484fc8d7ef8eeca811cb0678af32be937180a3241e35cbd938e8e517862bc7",
+        "work/cutoff20_20261016/fourier/integrate.py": "e4bda2d00d905bf0963ca6f48d62c7d52a831e14cc695a2bae18183239bb64fc",
+        "work/cutoff20_20261016/fourier/jet.py": "8decccac51b92cf58b3275e291b83e775da85cd9032f81501e9592d11d591329",
+        "work/cutoff20_20261016/fourier/kernel.py": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+        "work/cutoff20_20261016/fourier/pilot.py": "107c6d85a6ba8b530ededa8868276433418b68298098ad39c4b5a52f10f7e301",
+        "work/cutoff20_20261016/fourier/run.py": "df6d99c397ddf1b5eed0e589dc849755f76ed5e25891e568ac5acc1e2e7ab3fb",
+        "work/cutoff25_continue_20261015/analytic/universal_zeta_v1/CHECKED.json": "04a8c2110951e551a7e46711e57ef8384a1b9b47e31cba75a01702db260a6400",
+        "work/cutoff25_continue_20261015/analytic/universal_zeta_v1/PROOF.txt": "6f68c67bab4f198b20388e108a0d5564593bcb1f36f047fa6aff1454ebc4c66c",
+        "work/cutoff25_continue_20261015/analytic/universal_zeta_v1/check.py": "60816afdefba8b65c673a22f7edf39f8a594d5dae53ff9a8577ebed0635fecc3",
+        "work/cutoff25_continue_20261015/root/taylor_circle_v1/PROOF.txt": "cc0545ed99ff8c247bcf64f05753e42c883432cfc4276c0a34e6c6d8b52f973c",
+        "work/cutoff25_continue_20261015/root/taylor_circle_v1/integrate.py": "cfac1967b1ff7a0dfb5e77f9bd1ee96edac7f9ba8a185df7aae64d09bc0f86d0",
+        "work/cutoff25_continue_20261015/root/taylor_circle_v1/jet.py": "8d4ecba05181cb71c9d122bc355e5a124d356662f5b30c0be82dc30c4fda5dc1",
+        "work/cutoff25_rethink_20261015/repo_iid/source/paper/upper-0423.tex": "a80bc131732539fd4d9a1a125501b7a6e122ce65381e6b26f2fde764c36f9220",
+        "work/cutoff25_rethink_20261015/repo_iid_low_v1/ZETA_CIRCLE_PROOF.txt": "79ccb6400d557744e015ffa90a00ee9262b92a558b361e2dfcc6fcd03b2de3dd",
+        "work/cutoff25_rethink_20261015/repo_independent/FOURIER_AUDIT.txt": "40acdf27ea60aa7a792927009e39e7f33c6609c90461e65134818247f619227b",
+        "work/cutoff25_rethink_20261015/root/FOURIER_REDUCTION_V2.txt": "7389d85b02adbef18d598d57d97bdf93b9fe76502b826ed405fd54b95d5d40c6",
+        "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/PROOF.txt": "df92603993c8b3ef4bab8767d3db7c21e694fc7d78661845b306dfd0e68dc0fc",
+        "work/cutoff25_rethink_20261015/scale_analytic/fourier_absmean_v1/batch.py": "04045148b9e86dc4d92357d09642c04218ed2ea6f8ed27b5e7796a159f85b39e",
+        "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/PROOF.txt": "e88f28253b08150ea49443c25888cfabe0e432492534b4f354a27b4d84fdbb9b",
+        "work/cutoff25_rethink_20261015/scale_analytic/fourier_interval/kernel.py": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+        "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CERTIFICATE.json": "02dc46c334ec9c9cbf0e7bb4c982869c6e3e0649a915169d3542b8820b51aac7",
+        "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/CHECKED.json": "163bf7eff250f62806ee308eab31d71fc1f35da49fdf625675071387b08b0031",
+        "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/PROOF.txt": "6645891bc75553f1a35faba00dd2a09e6b47c5fd374e637d83d62ec82069c162",
+        "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/controls.py": "331ee713e7950c9013d969b70de5809d4eb7e37ac34cd22a6184e0f8872fe4b5",
+        "work/cutoff25_rethink_20261015/scale_analytic/kappa_62_625_v1/kernel.py": "16170505dece7571725e4e601f1546989d546ed64685616f9d13283c59702b0a",
+        "work/cutoff20_20261016/fourier/MANIFEST.json": "1e4f2d719b84fb065b8184b8b924b57e2ce40608ce436da60c002dd09daf49da",
+        "work/cutoff20_20261016/fourier/coupled_v1/floating.py": "81b9ab30b41be9068631a4d2e08a93a17bdb3d11f0278345f267802d2d8e8197",
+        "work/cutoff20_20261016/fourier/coupled_v1/discovery.py": "ade826727fcf4c28b324ef35f8da316cd5b81c4830246164eb41dfd7590c02db",
+        "work/cutoff20_20261016/fourier/coupled_v1/PROOF.txt": "946a84b93fd337cb2a7d7a4e40f58919f5baf3658fe6a726f5f974e1430c193f",
+        "work/cutoff20_20261016/fourier/coupled_v1/FLOATING.diff": "d66c81004069e15f18233eaa63601d64e906e93a1b7f8adfb13fe930ad83bdc2",
+        "work/cutoff20_20261016/fourier/coupled_v1/run.py": "7e4e12c8dcb0d4e1ad9bb2ca6cd48dc7bca77c8041cfe6b36fdc2eedd7089dce",
+        "work/cutoff25_rethink_20261015/repo_independent/FINAL_RHO130_REVIEW.txt": "1082d42b360d65ba2b27ad4f7cf4913bc8e6d40e60517e36c578870d14f9695b",
+        "work/cutoff20_20261016/fourier/auxiliary19_24_v1/planner.py": "d924912c85f41b32e1eb8aeccfc8da082039ee43e59a20f68ad56f0c701fff9d",
+        "work/cutoff20_20261016/fourier/auxiliary19_24_v1/run.py": "4b4b4c277882d838a9c2ae127f05c28c377d78fd60689e9c5766cca43b6b8028",
+        "work/cutoff20_20261016/fourier/auxiliary19_24_v1/kernel.py": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+        "work/cutoff20_20261016/fourier/auxiliary19_24_v1/protocol.py": "744723d19f14061c6f69b52890f15109277e978d9fc1e6dbb3500bf72612120e",
+        "work/cutoff20_20261016/fourier/auxiliary19_24_v1/batch.py": "461cd479f042e85e2b181002910e8414205bce1590908d04abcea2f5769b30bb",
+        "work/cutoff20_20261016/fourier/auxiliary19_24_v1/PORT.diff": "a502a7d9df6dddbf921f2e1715dca53c6bb38d5f7c4606b5e9ee58b7751e05e6",
+        "work/cutoff20_20261016/fourier/auxiliary19_24_v1/integrate.py": "e4bda2d00d905bf0963ca6f48d62c7d52a831e14cc695a2bae18183239bb64fc",
+        "work/cutoff20_20261016/fourier/auxiliary19_24_v1/jet.py": "8decccac51b92cf58b3275e291b83e775da85cd9032f81501e9592d11d591329",
+        "work/cutoff20_20261016/fourier/auxiliary19_24_v1/PROOF.txt": "0f44deb2f5484c52b2f6b8dac790d57dc53c27f7500892a365a7bc0615baef97",
+        "work/cutoff20_20261016/fourier/auxiliary19_24_v1/MANIFEST.json": "a4eb496264a920652fedec4c63474a2cceb23adb4a212b844c5a036369697e0c",
+        "work/cutoff15_20261017/fourier/auxiliary14_19_v1/PORT.diff": "714d68bd26d0807174505157e8df91305c046b223d523281c28c5d8f0ac603ed",
+        "work/cutoff15_20261017/fourier/auxiliary14_19_v1/PROOF.txt": "d51db0ee391d2162517bc2dfd33408f8db47b5eed6e6735226afee2762bf3981",
+        "work/cutoff15_20261017/fourier/auxiliary14_19_v1/batch.py": "e034b411f8df172e10d94da8e9c0bb8e96d8f9abf20eb9b2f949006698efb670",
+        "work/cutoff15_20261017/fourier/auxiliary14_19_v1/integrate.py": "e4bda2d00d905bf0963ca6f48d62c7d52a831e14cc695a2bae18183239bb64fc",
+        "work/cutoff15_20261017/fourier/auxiliary14_19_v1/jet.py": "8decccac51b92cf58b3275e291b83e775da85cd9032f81501e9592d11d591329",
+        "work/cutoff15_20261017/fourier/auxiliary14_19_v1/kernel.py": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+        "work/cutoff15_20261017/fourier/auxiliary14_19_v1/planner.py": "63a6d7d4d3e1baeb0108079d8bcc5e3435c8dee796da9d0b1044789fb8a32f20",
+        "work/cutoff15_20261017/fourier/auxiliary14_19_v1/protocol.py": "5eefff7a5dce1e7781f0e05a82e5e94b7c9ffbd841d5b0352dd9a81f5f8519ee",
+        "work/cutoff15_20261017/fourier/auxiliary14_19_v1/run.py": "f7cf74c6d69dae9c49ceacf7bbd2c96d6b889d04795e55c4f54a99c5bf9db789",
+        "work/cutoff15_20261017/fourier/discovery_v1/floating.py": "bdb2ee4af2804d57317e42c5c887fbe5b2536460780ff9109c118e5a3f42cbb9",
+        "work/cutoff15_20261017/fourier/discovery_v1/discover.py": "ffcbd9b9291a56415b50a30759455fd8d0c573f4f6221bb3f7508c18c8e15a46",
+        "work/cutoff15_20261017/fourier/auxiliary14_19_v1/MANIFEST.json": "6e9ae39864b88c8f4f77a53a13dc65b5873d0ff3cab5fb075224fb1f01eec927",
+        "work/cutoff15_20261017/fourier/contact_high_v1/kernel.py": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+        "work/cutoff15_20261017/fourier/contact_high_v1/PROOF.txt": "70b8a2de04ea73da522fbcd2d261e59f0cce4598a81765b0844885c66f434dcc",
+        "work/cutoff15_20261017/fourier/contact_high_v1/bound.py": "38b5bd3a598bbe16af46693f1c48535a0e34533a3c73cb3b508a03c36665714b",
+        "work/cutoff15_20261017/fourier/contact_high_v1/MANIFEST.json": "2d26c1d61b7fc6351f5d53f5354e7b0cbbf34c738f93059e627145c1f0422870",
+        "work/cutoff15_20261017/audit/contact_high_review_v1/CHECKED.json": "10db192d048429af7a165ca72d2e4aa17040e46ffe7c0a6a97f1b4a22cd45d0f",
+        "work/cutoff15_20261017/audit/contact_high_review_v1/WORDING_CORRECTION.txt": "a761bbe7d247289b12fd11f9a5cf79baba5cb94e74f862586369df7b27148cd1",
+        "work/cutoff15_20261017/root/cancellation_high_v1/kernel.py": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+        "work/cutoff15_20261017/root/cancellation_high_v1/PROOF.txt": "d4c8aba7f591ecba6fadb9ef5787565c29f30fd5197a794e3322df72edd0652f",
+        "work/cutoff15_20261017/root/cancellation_high_v1/universal.py": "38b5bd3a598bbe16af46693f1c48535a0e34533a3c73cb3b508a03c36665714b",
+        "work/cutoff15_20261017/root/cancellation_high_v1/bound.py": "6325bfcb96b44fcd1084cf68060f04b03de35149eb0bc19fb6cfb0717496a534",
+        "work/cutoff15_20261017/audit/cancellation_high_review_v1/check.py": "40b02856d611aaf3b6be9ecf908adae190b6dd4cbe13df6943828ca4b4bf87eb",
+        "work/cutoff15_20261017/audit/cancellation_high_review_v1/REVIEW.txt": "9b6530602ebefabcce4a7cdd8e028c85191a921b6a8d606253bb842c1544058c",
+        "work/cutoff15_20261017/root/cancellation_high_v1/MANIFEST.json": "e664b21a4bd9b612f322cafe771244c0504c0d53accac57c911ff3252c31c808",
+        "work/cutoff15_20261017/audit/contact_high_review_v1/check.py": "582120d7e4bfd709ce8c88422a3f3a6a467ace45c0a6b64fe497cfe28c4e7a17",
+        "work/cutoff15_20261017/audit/contact_high_review_v1/REVIEW.txt": "cb62100b4c565071197ee598fb053b7a90f58615e79ae74bd7dcb2ff26ce1214",
+        "work/cutoff15_20261017/audit/cancellation_high_review_v1/engine/kernel.py": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e",
+        "work/cutoff15_20261017/audit/cancellation_high_review_v1/engine/universal.py": "38b5bd3a598bbe16af46693f1c48535a0e34533a3c73cb3b508a03c36665714b",
+        "work/cutoff15_20261017/audit/cancellation_high_review_v1/engine/compensated.py": "6325bfcb96b44fcd1084cf68060f04b03de35149eb0bc19fb6cfb0717496a534"
+      },
+      "generated_engine_copies": {
+        "work/cutoff15_20261017/audit/cancellation_high_review_v1/engine/kernel.py": {
+          "bytes": 6017,
+          "sha256": "a0c2c5f0aaa1c216ae2c9c796a1e17c88217049e4b30f844e9bb7979c0cb944e"
+        },
+        "work/cutoff15_20261017/audit/cancellation_high_review_v1/engine/universal.py": {
+          "bytes": 4625,
+          "sha256": "38b5bd3a598bbe16af46693f1c48535a0e34533a3c73cb3b508a03c36665714b"
+        },
+        "work/cutoff15_20261017/audit/cancellation_high_review_v1/engine/compensated.py": {
+          "bytes": 5257,
+          "sha256": "6325bfcb96b44fcd1084cf68060f04b03de35149eb0bc19fb6cfb0717496a534"
+        }
+      },
+      "expected_reference_fields": {
+        "status": "PASS_INDEPENDENT_COMPENSATED_HIGH_SOURCE_AND_BOUNDED_CONTROLS_NOT_FULL_TABLE",
+        "essential_hypothesis": "EX=0, EX2=1, actual support radius<=3, rho<=declared cap",
+        "algebra_controls": 165,
+        "wrong_formula_rejections": 3,
+        "domain_controls": {
+          "malformed_domains": 8
+        },
+        "independent_closed_cells": 71,
+        "independent_actual_index_comparisons": 355,
+        "complete_weight_meshes": [
+          128,
+          256,
+          512,
+          1024
+        ]
+      },
+      "original_python_sha256": "40b02856d611aaf3b6be9ecf908adae190b6dd4cbe13df6943828ca4b4bf87eb",
+      "arithmetic_computed": false
+    },
+    {
+      "id": "resource-range",
+      "script": "work/cutoff15_20261017/audit/resource15_range_v1/check.py",
+      "command_tail": [
+        "-B",
+        "check.py"
+      ],
+      "cwd": "work/cutoff15_20261017/audit/resource15_range_v1",
+      "output": "work/cutoff15_20261017/audit/resource15_range_v1/CHECKED.json",
+      "reference": {
+        "archive": "cutoff5_10_15.zip",
+        "member": "cutoff15_20261017/audit/resource15_range_v1/CHECKED.json",
+        "bytes": 6105,
+        "sha256": "46a97af45bcd8bc08ff58dbbdcf2768a87e167752844ec8d49c9bb86d5694f4d"
+      },
+      "dependencies": [],
+      "input_reference_graph": {
+        "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/high_window_common.py": "2be56942b240633e9665c6da74c504da835d8d49a8aaefdd893e9dd14304671f",
+        "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/signed_variance_resource.py": "f3008c459a0cd5906c303819c54ade3161af40ef6424f18c4cb16fab068b89f8",
+        "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/paired_extended.py": "9fbfdee44f42fe29caa3ee049d8b60d84670c8b4f5d53c147b6fbe280ccb5998",
+        "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/kernel.py": "d71f58b7527c3cf6d2146d816e5d124f6f331d1b153e5aaedee5182707647f12",
+        "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/integer_exphi.py": "5bf8e305e46d577314ee78220bd4185a162d6a9ba3cdcf0c4e4b0791cf41bd03",
+        "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/geometric_moment_both.py": "ea17218cdad6c409dacf8d4a37b437453fbf7aab3683867d16783cb696206616",
+        "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/heat_support50.py": "650d7f3617775102fe92977605dfda5fb68a11e0ad738eb799aab77bc4a79e18",
+        "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/general_paired_exact.py": "e383a78467c380ae55ef9ef32f296cb5813f837c8bcaf3003a113a04fb29fb96",
+        "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/high_window_core.py": "53e181be63852e21abc3f44191cce7237c46d9e9d7868d3b6b94fccb606c7232",
+        "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/direct_gaussian_support.py": "043a8148800d396a5513a7046c9c9add6e7facd4ee4820dc92cfaea67b72da57",
+        "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/small_index_support.py": "6d479445a6c22b84f9799f3d445c8352209c6468aaadd2a02eb87303cf252582",
+        "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/resource25_core.py": "49588958962741cad11031047a7b60142478191c62b214abd84620d18ee109e1",
+        "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/candidate_charged_score_v2.py": "20f3c102f7b77b5ef49b0e6282cfacb3e24975f207296a5b74b27c0af6cdc6b4",
+        "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/contracted_kernel.py": "bae2588aecc0dd07ca37fe38214ddff72aaabb1b02ca4afca03120a77570d0b0",
+        "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/corrected_phase_callback_extended.py": "036d32989f9c522e9d6151cf8898338e13ed2c9790a5d2c003bff095df270a63",
+        "work/cutoff15_20261017/supplied/continuation_cutoff20_20261016/root/bridge21_24_resources_v1/n21_B0/engine/finite_binomial_core.py": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+        "work/cutoff15_20261017/audit/resource15_range_v1/PROOF.txt": "e7c91e5148555c5181245a98d759187309b07deadfbb233f2b6bcd5cc888471e",
+        "work/cutoff15_20261017/audit/resource15_range_v1/check.py": "0a39fd06e9e6bfe2603fd5b8128c56028d363e71d22e6e832ccdc0c8e4af65a2",
+        "work/short35_20261007/root/foundation.tex": "997b364445ddd31ee1babd24fe809058081eaaef94e8efe6066c82ac60d4baf1",
+        "work/short35_20261007/entry/resource_unified.tex": "7fd89e3f529ec0defa38a85204dd97ab677d7331697378efeb3a82b8d931fe64",
+        "work/short50_20260930/certificates/work/below50_20260929/entry/high_window50_proof.tex": "1e34cc0ef0c11288d642b1655153dc743c465f7173e0dfdf03f6ef6849ae8828",
+        "work/cutoff25_20261011/new_middle/b5_exact2_v1/resource_exact/GENERAL_PAIRED_PROOF.txt": "ec58bb8c1c8df0ff3eb019ffd61988ee37c696149e934e7ca403a31c856f3bda",
+        "work/cutoff25_20261011/new_middle/b5_exact2_v1/resource_exact/POSITIVE_GAP_RESOURCE_EXTENSION.txt": "0bf6ae992f6b8c4b8c344b178f715c9717d1083c2fce317b7cdb0dc151e210f2",
+        "work/cutoff25_20261011/new_middle/b5_exact2_v1/resource_exact/PRODUCT_GAP_DISTANCE_COROLLARY.txt": "a0be5cb015735310e0993e9d6f3636b600b4d82e76a3f5239bef6d126d29b1cb",
+        "work/cutoff25_20261011/new_middle/b5_exact2_v1/resource_exact/HIGH_CONSTANTS_PROOF.txt": "f8d03be41c5c573b255ba03f8966ab8e038f833a83bd803d12b26e6ff887a16f"
+      },
+      "generated_engine_copies": {},
+      "expected_reference_fields": {
+        "status": "PASS_CONDITIONAL_RESOURCE15_19_RANGE_SOURCE_AUDIT",
+        "actual_indices": [
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "kernel_or_support_oracle_calls": 0,
+        "range_extension_valid_under_retained_framework": true,
+        "initial_physical_D_acquired": false,
+        "sharp_bound_proved": false,
+        "scope": "Selected transfer mathematics admits actual15..19 under genuine acquired premises and every unchanged per-call gate. No old guard changed and no new arithmetic acquisition performed."
+      },
+      "original_python_sha256": "0a39fd06e9e6bfe2603fd5b8128c56028d363e71d22e6e832ccdc0c8e4af65a2",
+      "arithmetic_computed": false
+    },
+    {
+      "id": "count-range",
+      "script": "work/cutoff15_20261017/audit/count15_range_v1/check.py",
+      "command_tail": [
+        "-B",
+        "check.py"
+      ],
+      "cwd": "work/cutoff15_20261017/audit/count15_range_v1",
+      "output": "work/cutoff15_20261017/audit/count15_range_v1/CHECKED.json",
+      "reference": {
+        "archive": "cutoff5_10_15.zip",
+        "member": "cutoff15_20261017/audit/count15_range_v1/CHECKED.json",
+        "bytes": 6265,
+        "sha256": "8202fb8646cfcd494f9571ebb79924417046c6921c21f0a943eb4d6a0f15633c"
+      },
+      "dependencies": [],
+      "input_reference_graph": {
+        "work/cutoff15_20261017/audit/count15_range_v1/check.py": "08553c2ba15440a48f579f773cd7bea3e9bccd1f2eb79ba4f264c6a97e1564b9",
+        "work/cutoff15_20261017/audit/count15_range_v1/REVIEW.txt": "50ca1b44c046cba5412004889e6920546d5a4488367547fd6237672a2b6170a2",
+        "work/cutoff15_20261017/audit/count15_range_v1/engine/KERNEL_COPY_MANIFEST.json": "76648b66e6630ead12aab824209407821600eac0edc3425f856b28641bc2e560",
+        "work/cutoff15_20261017/audit/count15_range_v1/engine/RIGHT_HALF_COUNT_PROOF.txt": "a73a4f6abf8796e6e20ab161922f33a075c972953e1f6ee545709c51566a355b",
+        "work/cutoff15_20261017/audit/count15_range_v1/engine/SOURCE_TRANSFORM.json": "5da6ce26255dafad387d566a8620a3549659e834f8aea23f63c0c80d2d8df11c",
+        "work/cutoff15_20261017/audit/count15_range_v1/engine/bernstein_fast.py": "4983c9af05673775c3fd5b521e898a9c7f7fe5c9523a5009646872bf75adc607",
+        "work/cutoff15_20261017/audit/count15_range_v1/engine/construct_alpha4.py": "f0489e0f027aaa79764f54c4f7a2dabb03f43b0dccd98c10c44c80abd9b23121",
+        "work/cutoff15_20261017/audit/count15_range_v1/engine/contract.json": "0a9b6e64fafa8128e4d6cedf4b08963dc44e5eeafe93542611f92fb90a878141",
+        "work/cutoff15_20261017/audit/count15_range_v1/engine/count_protocol.py": "0d320850336829b29748a5ac390b4a7ad67f61e90a2df4c5a384c1177595a09f",
+        "work/cutoff15_20261017/audit/count15_range_v1/engine/exact35_core.py": "512c70ead43294a7f1d4e14922c9c3a55d3928c9555f4af1415cacf5ad6657bb",
+        "work/cutoff15_20261017/audit/count15_range_v1/engine/exact_count_core_v5.py": "0ffba7a5e1a91fc3c3c770f9d3bcb073a529fade3d622bc5615567153a4255a0",
+        "work/cutoff15_20261017/audit/count15_range_v1/engine/finite_gaussian.py": "4f5b1a829df4c3c8c0e5467adb79f112984ee8eab8ba5f25b20fd7173b78a4a0",
+        "work/cutoff15_20261017/audit/count15_range_v1/engine/generalized_scope.py": "0ca76c72ccf7f9243e1d9b7d68f814b84e160f7da11945a7842dff5b2abebc00",
+        "work/cutoff15_20261017/audit/count15_range_v1/engine/interval_scalar_fast.py": "3eaa0d78eec8b8d5c2044eb020a406ec352ac5a99b30f9d2773694a4f9601512",
+        "work/cutoff15_20261017/audit/count15_range_v1/engine/inward_filter.py": "11922c9ab0f8faa6334756535755e1ee5df6eab8c9e6a80511fff02687b8ec7a",
+        "work/cutoff15_20261017/audit/count15_range_v1/engine/joint.py": "5d6e3fecf6627d9cc1e00869e41077ddd6cd714952a60bd8fab00069269e20be",
+        "work/cutoff15_20261017/audit/count15_range_v1/engine/joint_cubic.py": "d4adf6e9cfa430bbd7be7ffd90b994672d648d9886c42aa38e0a94b66eb55238",
+        "work/cutoff15_20261017/audit/count15_range_v1/engine/joint_cubic_defect.py": "86874d28284f931b8907b573c118a9fb8191653a6569d903aed54c9f1974e970",
+        "work/cutoff15_20261017/audit/count15_range_v1/engine/joint_cubic_normalized.py": "1403856612e213b9a14118a5a4098b7f470ce890499811dd1ad53c808904e2f6",
+        "work/cutoff15_20261017/audit/count15_range_v1/engine/joint_cubic_normalized_fast.py": "7d72ff8ec7cfc2ad59e45d26fcccd6998ef01abe24cb54653ba18b05f2bbf347",
+        "work/cutoff15_20261017/audit/count15_range_v1/engine/joint_filter.py": "ffd2bcca7eada563c5c3fa83828a534a1229ef1f1b231b9af148d4f1f637e276",
+        "work/cutoff15_20261017/audit/count15_range_v1/engine/new_contract_helpers.py": "2a706c02f53d539d5805cdab1c5015ccdcdd0667c8d97083297dacc62771fb32",
+        "work/cutoff15_20261017/audit/count15_range_v1/engine/optimized_arithmetic.py": "ab9bc728fbb7901f94323a384caf367eee2b2064e919dac27a01cabae743b765",
+        "work/cutoff15_20261017/audit/count15_range_v1/engine/probability_extrema.py": "f808c4e82ba40ce094e45139c6e09872c43ca7249ab7ae1d25aca24bbc5ee9ac",
+        "work/cutoff15_20261017/audit/count15_range_v1/engine/rho_signed_moment_tightener.py": "1fe8fefd93269e478be47077b3bf1c8d0cff9259de94824d55a66824b8052cdc",
+        "work/cutoff15_20261017/audit/count15_range_v1/engine/rho_variance_floor.py": "615acbcb948d2ba5767082f0dd2a2ab6f1d3999ae0a8afac3fd4c1d73b3aab6b",
+        "work/cutoff15_20261017/audit/count15_range_v1/engine/signed_beta_variance_floor.py": "c4208b88510735d0e808b947ec624ce785de42ef4c9fe3217505ebbef2c823c6",
+        "work/cutoff15_20261017/audit/count15_range_v1/engine/signed_moment_floor_tightener.py": "6e7165bb4f16df296f58d511983696e10e56725fad28f1179002f31e232f5dbc",
+        "work/cutoff15_20261017/audit/count15_range_v1/engine/signed_moment_prefilter.py": "fd82440f07f4be759d74c2d7d44d1075d293e054580e9fa28cc021311b5f2173",
+        "work/cutoff15_20261017/audit/count15_range_v1/engine/signed_moment_tightener.py": "f6ea60e4592a5055c1ace9340765076a95784f5c5d02232f2f02544321e75b9d",
+        "work/cutoff15_20261017/audit/count15_range_v1/engine/variance_geometry.py": "55ba277cf30a0dc571cd98f38fd99deb4deff15c3be8df249c370ae8b10b3734",
+        "work/cutoff15_20261017/analytic/count15_v1/PROOF.txt": "6f667bbcef9f8b1bf0a27e38025ca643025f9b8f31add2e448a67611394f0226",
+        "work/cutoff15_20261017/analytic/count15_v1/contract_helpers.py": "2a706c02f53d539d5805cdab1c5015ccdcdd0667c8d97083297dacc62771fb32",
+        "work/cutoff15_20261017/analytic/count15_v1/prepare.py": "8ea1497d8015d6ba76004933babd61bbf164f3d1f762b9be7e373e3f8fe23949",
+        "work/cutoff15_20261017/analytic/count15_v1/run.py": "7a94468cf17e52983449d49e16d85c266baaa3925b74d0636fd42e79742afe64",
+        "work/short35_20261007/local/count_unified.tex": "139a059226b3333c490e739d3f9999f04565a7d18c7d43849324b74b08369e64",
+        "work/cutoff20_20261016/root/joint_inward_cell_v1/PROOF.txt": "f6e85e2f7ef071b0aa6d54816256f195bfccf73198c9a4f1971b7b2d89392f59",
+        "work/cutoff20_20261016/root/joint_noise_clip_v1/PROOF.txt": "10885c0538b447fc0e9fee62dec158bdbf6e62a0615932f734395e59e4b27dc3"
+      },
+      "generated_engine_copies": {},
+      "expected_reference_fields": {
+        "status": "PASS_BOUNDED_INDEPENDENT_GENERIC_COUNT_RANGE_CONTROLS",
+        "n": [
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "counts": {
+          "binomial_derivative_controls": 810,
+          "count_variance_identities": 1080,
+          "finite_marginal_moment_controls": 60,
+          "quartic_exact_expectation_controls": 540,
+          "own_cdf_controls": 180,
+          "exact_event_collisions": 42,
+          "mgf_controls": 2520,
+          "half_gap_triangle_controls": 198,
+          "negative_controls": 92,
+          "generic_scope_controls": 15,
+          "adapter_negative_controls": 7,
+          "adapter_controls": 1
+        },
+        "count_cell_calls": 0,
+        "forest_constructions": 0,
+        "forest_replays": 0,
+        "resource_acquisition_claimed": false,
+        "cutoff15_proved": false
+      },
+      "original_python_sha256": "08553c2ba15440a48f579f773cd7bea3e9bccd1f2eb79ba4f264c6a97e1564b9",
+      "arithmetic_computed": false
+    },
+    {
+      "id": "join-geometry",
+      "script": "work/cutoff15_20261017/audit/actual15_join_v1/controls.py",
+      "command_tail": [
+        "-B",
+        "controls.py"
+      ],
+      "cwd": "work/cutoff15_20261017/audit/actual15_join_v1",
+      "output": "work/cutoff15_20261017/audit/actual15_join_v1/CONTROL_CHECKED.json",
+      "reference": {
+        "archive": "cutoff5_10_15.zip",
+        "member": "cutoff15_20261017/audit/actual15_join_v1/CONTROL_CHECKED.json",
+        "bytes": 1832,
+        "sha256": "3bed55b91af57d83477edac29fe63e9cde560390e0e670708e03d4dbc728eeff"
+      },
+      "dependencies": [
+        "fresh-selected-n15-b0-p56-count-evidence"
+      ],
+      "input_reference_graph": {
+        "work/cutoff15_20261017/audit/actual15_join_v1/controls.py": "ce7d470ec88f3b1a1fce249bf43adcb3bf7d37ce8feef1c2cc0284a9ad3905c7",
+        "work/cutoff15_20261017/audit/actual15_join_v1/check.py": "4dbfc5a885686af60ee118866051d84d32ab2673fbd298ebc23f231985ddb9ac",
+        "work/cutoff15_20261017/audit/actual15_join_v1/PROOF.txt": "4fbb988145d455a0c1d79aaba7416a57ab8c63f649d3075d9f8580b29f757669",
+        "work/cutoff15_20261017/analytic/count15_v1/B0/capsule56/contract.json": "3f72d779873ca89f330b8b5c34d033619138470beebc551c31ca4d6c759c75a0",
+        "work/cutoff15_20261017/analytic/count15_v1/B0/capsule56/COUNT56_FOREST.json": "86849f5b86f78e7cde17ad3691c80410caa86eb56627f32fde35d6d740e0ffed",
+        "work/cutoff15_20261017/analytic/count15_v1/B0/capsule56/COUNT56_ACCEPTED.json": "07df60af0fd184b7c0cbcaf045c1e2435f599ddddd0fb78e60b55ee84fd3fd40",
+        "work/cutoff15_20261017/analytic/count15_v1/B0/capsule56/count_protocol.py": "0303645bc946fd042ab569813f8d894ac41547556ec497c4419fdd4d7bfbcef1"
+      },
+      "generated_engine_copies": {},
+      "expected_reference_fields": {
+        "status": "PASS_INDEPENDENT_ACTUAL15_JOIN_GEOMETRY_NEGATIVE_CONTROLS",
+        "fixture": "actual15 B0 p56 native-replayed full forest",
+        "geometry_mutations_rejected": [
+          "wrong actual n",
+          "boolean actual index",
+          "missing root",
+          "reordered roots",
+          "boolean nearest count",
+          "duplicate root",
+          "omitted child",
+          "extra split field",
+          "boolean axis",
+          "out-of-range axis",
+          "outside rational cut",
+          "numeric cut",
+          "noncanonical rational cut",
+          "unknown node",
+          "extra leaf field",
+          "changed leaf coordinate",
+          "unknown closure",
+          "missing result",
+          "inflated score",
+          "negative score",
+          "numeric score",
+          "unknown score status",
+          "wrong sharp target",
+          "noncanonical target"
+        ],
+        "quadratic_exact_fixtures": 4,
+        "native_score_calls": 0
+      },
+      "original_python_sha256": "ce7d470ec88f3b1a1fce249bf43adcb3bf7d37ce8feef1c2cc0284a9ad3905c7",
+      "arithmetic_computed": false
+    }
+  ],
+  "own_outputs_never_staged_from_history": [
+    "work/cutoff15_20261017/audit/actual15_join_v1/CONTROL_CHECKED.json",
+    "work/cutoff15_20261017/audit/cancellation_high_review_v1/CHECKED.json",
+    "work/cutoff15_20261017/audit/contact_high_review_v1/CHECKED.json",
+    "work/cutoff15_20261017/audit/count15_range_v1/CHECKED.json",
+    "work/cutoff15_20261017/audit/finite_high_review_v1/CHECKED.json",
+    "work/cutoff15_20261017/audit/resource15_range_v1/CHECKED.json"
+  ],
+  "generated_engine_copies_not_staged_before_native_calls": [
+    "work/cutoff15_20261017/audit/cancellation_high_review_v1/engine/compensated.py",
+    "work/cutoff15_20261017/audit/cancellation_high_review_v1/engine/kernel.py",
+    "work/cutoff15_20261017/audit/cancellation_high_review_v1/engine/universal.py",
+    "work/cutoff15_20261017/audit/contact_high_review_v1/engine/bound.py",
+    "work/cutoff15_20261017/audit/contact_high_review_v1/engine/kernel.py"
+  ],
+  "historical_prior_control_references": [
+    "work/cutoff15_20261017/audit/contact_high_review_v1/CHECKED.json",
+    "work/cutoff15_20261017/audit/finite_high_review_v1/CHECKED.json"
+  ],
+  "historic_fixture_scope": "Archived COUNT56 and other proof/capture inputs are untrusted bounded-control fixtures or source provenance, never fresh full proof evidence.",
+  "scalar_dependency": "Actual completed56K validated separately; identical scalar certificate bytes remain original mathematical inputs.",
+  "full_native_controls": 6,
+  "full_finite_join_implemented": false,
+  "original_python_unchanged": true,
+  "original_math_imported": false,
+  "arithmetic_computed": false,
+  "parent_acquisitions_verified": false,
+  "full_notebook57_completed": false,
+  "all_index_conclusion_verified": false,
+  "fresh_geometry_fixture": {
+    "job_id": "n15.B0.p56.3ccb81760515",
+    "catalog_sha256": "67a647a00111fda930391bda90345ece419bbf54c44a70c0390969ad0fab3d6d",
+    "directory": "cutoff15_20261017/analytic/count15_v1/B0/capsule56",
+    "contract_name": "contract.json",
+    "forest_name": "COUNT56_FOREST.json",
+    "acceptance_name": "COUNT56_ACCEPTED.json",
+    "contract_sha256": "3f72d779873ca89f330b8b5c34d033619138470beebc551c31ca4d6c759c75a0",
+    "forest_sha256": "86849f5b86f78e7cde17ad3691c80410caa86eb56627f32fde35d6d740e0ffed",
+    "historical_acceptance_sha256": "07df60af0fd184b7c0cbcaf045c1e2435f599ddddd0fb78e60b55ee84fd3fd40",
+    "current_complete_native_reader": "be_replay.finite1039_count_evidence.validate_completed",
+    "current_execution_required": true,
+    "unchanged_control_forest_is_not_fresh_execution_evidence": true
+  }
+}
