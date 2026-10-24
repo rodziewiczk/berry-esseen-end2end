@@ -213,3 +213,5 @@ skipped on this Windows host. The root run took37.743seconds. The same Linux
 fixture is mandatory in Colab before a mathematical job can start. The
 [V2 resource review](n5_remaining_v2_resource_review.md) records the exact
 counter correction and the observed-integration boundary.
+
+The corrected notebook-parent import/recovery update preserves the V2 numerical/resource epoch and reuses fully revalidated complete old stages. See [the actual35 failure and recovery](n5_remaining_notebook_recovery.md).

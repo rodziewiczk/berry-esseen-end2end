@@ -17,7 +17,8 @@ external inputs to be checked; writing the paper is not the only later step.
 
 | Unit | Last supplied execution observation | Next action |
 | --- | --- | --- |
-|35,46,55|No final completion supplied for these jobs.|Let valid running jobs finish; reuse complete stages on a corrected rerun if needed.|
+|35|Wrapper failed after support/HIGH/owncaps and full INITIAL.B0; actual INITIAL recovered/revalidated without mathematical replay.|Use corrected pinned35 with the same Drive; preserve and revalidate all four completed jobs.|
+|46,55|No final completion supplied for these jobs.|Let valid running jobs finish; reuse complete stages on a corrected rerun if needed.|
 |30|30/30forests,60270leaves; final selected_retained_count_arithmetic_accepted and ZIP saved.|Preserve export; no repeated count run queued.|
 |56A|Final `complete_conditional_auxiliary9_14_sublane_basic`, ZIP saved.|Preserve export; no repeated Fourier calculation queued.|
 |56B|Delivered supported Fourier calculation; no final completion supplied.|Wait for its actual final result.|

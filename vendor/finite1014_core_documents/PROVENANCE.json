@@ -1,0 +1,26 @@
+{
+  "archive": {
+    "bytes": 514958998,
+    "name": "cutoff25_20261011.zip",
+    "sha256": "17fa140f63c5134ac48f1fd1040f4c5ae4bebdb2b92b2d7ce69f4048293d1fcb",
+    "url": "https://github.com/rodziewiczk/berry-esseen-045-certificate/releases/download/cutoff20-sources-2026-10-17/cutoff25_20261011.zip"
+  },
+  "arithmetic_computed": false,
+  "license_sha256": "a34b9cee3859b8bc6a6ced1bedb56771244d8b6cfc38f2749dc2e776ca19ee95",
+  "members": [
+    {
+      "bytes": 4577,
+      "logical_path": "work/cutoff25_20261011/continuation_20261011/stronger24/b3_resource_exact_v1/GENERAL_PAIRED_PROOF.txt",
+      "member": "cutoff25_20261011/continuation_20261011/stronger24/b3_resource_exact_v1/GENERAL_PAIRED_PROOF.txt",
+      "sha256": "ec58bb8c1c8df0ff3eb019ffd61988ee37c696149e934e7ca403a31c856f3bda"
+    },
+    {
+      "bytes": 4577,
+      "logical_path": "work/cutoff25_20261011/new_middle/b5_exact2_v1/resource_exact/GENERAL_PAIRED_PROOF.txt",
+      "member": "cutoff25_20261011/new_middle/b5_exact2_v1/resource_exact/GENERAL_PAIRED_PROOF.txt",
+      "sha256": "ec58bb8c1c8df0ff3eb019ffd61988ee37c696149e934e7ca403a31c856f3bda"
+    }
+  ],
+  "original_bytes_unchanged": true,
+  "schema": "ORIGINAL_FINITE1014_CORE_DOCUMENTS_V1"
+}

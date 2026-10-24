@@ -35,6 +35,15 @@ and revalidated before reuse on the next Run all. A partial numerical job is
 run again; completed jobs are skipped only after full evidence validation.
 The final ZIP is saved on success or handled failure.
 
+This corrected copy prevents notebook-parent metadata imports from creating
+bytecode files in the immutable source snapshot. It retains the strict source
+inventory guard. Exact compatible completed jobs from the previous reader
+are revalidated and reused. It also checks the actual saved wrapper-failed
+20261023T194522Z-6560588f bundle and recovers its fully completed INITIAL.B0
+only after whole source/capture/result validation. No partial arithmetic or
+rewritten historical capture is accepted. The support, HIGH and four-hour
+owncaps stages stay reusable; a valid recovered INITIAL is not recalculated.
+
 This is an explicit new Linux BASIC process-group execution protocol. Each
 outer job has a43,200-second per-process CPU budget, a54,000-second external
 wall budget and2 GiB memory allowance. Group CPU/RSS observations are sampled
@@ -69,7 +78,10 @@ print("Selected n5 infrastructure fixtures: PASS.", flush=True)
 '''
     cells=[base.cell("markdown",intro,"instructions"),*base.common(pin,"n5-remaining")]
     cells.append(base.cell("code",tests,"n5-driver-fixtures"))
-    cells.append(base.cell("code",'''from be_replay.n5_remaining import run_colab
+    cells.append(base.cell("code",'''from be_replay.n5_remaining_recovery import recover_saved_initial
+RECOVERED_INITIAL = recover_saved_initial(durable_root=DURABLE)
+print("Saved INITIAL recovery:", RECOVERED_INITIAL["state"], flush=True)
+from be_replay.n5_remaining import run_colab
 RESULT = run_colab(durable_root=DURABLE, backup_interval=60)
 ''',"execute-task"))
     cells.append(base.finish());doc=base.notebook(cells,NAME+".ipynb")

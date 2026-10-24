@@ -1,0 +1,12 @@
+{
+  "complete_cache_sha256": "7c30662ffc402e33acde22c46770c3c3f7753313d7c8d138e43f1a91e337c842",
+  "job_id": "initial.B0",
+  "native_controls": 27,
+  "original_mathematical_modules_evaluated": false,
+  "panels": 100,
+  "recovery_status": "recovered_complete_initial_B0",
+  "second_run_status": "existing_complete_initial_revalidated",
+  "source_bundle_bytes": 5098913,
+  "source_bundle_sha256": "77fdf3b9cc40070ad3350250960e0896efc91df713debda79222e227938f40c4",
+  "stages": 9
+}

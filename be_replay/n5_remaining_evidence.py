@@ -27,11 +27,18 @@ def metadata_module(name):
     if any(key in sys.modules and Path(getattr(sys.modules[key],"__file__","")).resolve()!=
            (directory/(key+".py")).resolve()for key in closure):
         for key in closure:sys.modules.pop(key,None)
+    previous_bytecode=sys.dont_write_bytecode
     try:
+        # A notebook kernel normally has no -B flag. Set this before get_code:
+        # assigning it inside a loaded adapter is too late to prevent that
+        # adapter's own .pyc from contaminating the immutable snapshot.
+        sys.dont_write_bytecode=True
         sys.path.insert(0,str(directory));module=importlib.import_module(name)
         src.need(Path(module.__file__).resolve()==(directory/(name+".py")).resolve(),"Actual pinned metadata adapter import")
         return module
-    finally:sys.path[:]=before
+    finally:
+        sys.path[:]=before
+        sys.dont_write_bytecode=previous_bytecode
 
 
 def context_equal(task,original,recorded,expected):
@@ -54,6 +61,15 @@ def implementation():
            "n5_remaining_bridge.py","linux_supervisor.py","colab_batch.py")
     return {name:src.digest(src.ROOT/"be_replay"/name)for name in names}|{
         "catalog":src.CATALOG_SHA256,"supervisory_snapshot":src.SNAPSHOT_SHA256,"resource_policy":src.RESOURCE_POLICY}
+
+
+LEGACY_METADATA_READER_SHA256="c18d64bbd0691d90c7a89e359e659e2cbb6cc8d856149ce038cae37b5cf655b5"
+
+
+def compatible_implementation(value):
+    """One exact prior reader; numerical/source/guard/controller pins unchanged."""
+    current=implementation()
+    return value==current or value==dict(current,**{"n5_remaining_evidence.py":LEGACY_METADATA_READER_SHA256})
 
 
 def mapped(task, value, original):
@@ -459,7 +475,7 @@ def summarize(task,row,packet,original,python=None):
 def validate_run(task, row, report):
     task=Path(task);request=src.verify_job(task,row);original=request["original_task_root"]
     src.need(report["schema"]==OBSERVED and report["scope"]==SCOPE and report["job_id"]==row["job_id"]
-             and report["implementation"]==implementation()and report["original_task_root"]==original
+             and compatible_implementation(report["implementation"])and report["original_task_root"]==original
              and report["conditional_arithmetic_completed"]is False
              and report["native_arithmetic_accepted"]is False and report["full_n5_verified"]is False
              and report["fresh_parent_fact_joins_verified"]is False and report["all_index_conclusion_verified"]is False,
@@ -505,7 +521,8 @@ def validate_completed(task, *, original_task_root=None):
     observed=src.read(task/"STAGE_OBSERVED.json");complete=src.read(task/"STAGE_COMPLETED.json")
     summary=validate_run(task,row,observed)
     src.need(complete["schema"]==SCHEMA and complete["job_id"]==row["job_id"]and complete["scope"]==SCOPE
-             and complete["implementation"]==implementation()and complete["observed_sha256"]==src.digest(task/"STAGE_OBSERVED.json")
+             and compatible_implementation(complete["implementation"])and complete["implementation"]==observed["implementation"]
+             and complete["observed_sha256"]==src.digest(task/"STAGE_OBSERVED.json")
              and complete["conditional_arithmetic_completed"]is True and complete["summary"]==summary
              and complete["artifacts"]==inventory(task),"Complete unmodified stage, full source/receipt/capture inventory")
     for flag in("native_arithmetic_accepted","fresh_parent_fact_joins_verified","full_n5_verified","all_index_conclusion_verified"):

@@ -1,0 +1,46 @@
+Signed paired coefficient extension
+===================================
+Status: locally derived conditional analytic lemma extending coefficient acquisition in the retained signed Gaussian transfer. The accompanying numerical implementation is FLOAT discovery only. No new certificate or cutoff follows without exact enclosure and complete acceptance.
+
+Scope. EX=0, EX²=1, |X|<=R, mu4<=M<=11.1, |gamma|<=g<=1.85, E|X|5<=eta, and0<=gl<=|gamma| with M>=1+gl². R>=1 suffices; neither R>2g nor R>g is needed by the formulas below. The already proved signed Gaussian transfer still has its separate n>2 and positive damping hypotheses.
+
+Reflect only the auxiliary Fourier integral if necessary so t=gamma=|gamma|>=0. The original signed gamma used in the contact phase identity is unchanged. Put Q=X²-tX-1 and v=EQ²=mu4-1-t²>=0. Exact multiplication gives
+ mu5=t³+2t+E[Q²(X+2t)],
+ mu6=1+3t²+t⁴+E[Q²((X+t)²+2t²+2)].
+Thus for z=(10t-mu5)/120 and c=(3-mu4)t/144,
+ L(t)<=120z<=U(t),
+ L(t)=8t-t³-(R+2t)(M-1-t²),
+ U(t)=8t-t³+(R-2t)_+(M-1-t²),
+for every feasible actual t in[gl,g]. The second inequality uses v<=M-1-t² when R-2t>=0; when R-2t<0 it instead uses v>=0. This sign switch is the precise reason the old simultaneous substitution of M required R>=2g.
+
+For coefficient enclosure, L is the cubic
+ -R(M-1)+(10-2M)t+Rt²+t³.
+Its minimum over[gl,g] is at gl when M<=5. Generally include both endpoints and real derivative roots of3t²+2Rt+10-2M inside the interval. For U, split at R/2: use
+ P(t)=R(M-1)+(10-2M)t-Rt²+t³ on[gl,min(g,R/2)],
+ b(t)=8t-t³ on[max(gl,R/2),g].
+On each nonempty subinterval include both endpoints and its real derivative roots. Alternatively exact rational Bernstein bounds on a closed subdivision give certified bounds without algebraic-root arithmetic. Infeasible t with t²>M-1 may be retained: enclosures are taken over a superset, while the underlying pointwise inequality is applied only to actual feasible t.
+
+Let ell<=min L and u>=max U be outward bounds. Set
+ zl=max(-eta-10g,ell)/120,
+ zu=min(eta+10g,u)/120,
+ Z=max(|zl|,|zu|).
+The actual z lies in[zl,zu]. Ordering must be checked. For a=(3-mu4)/24,
+ a_star=max(|3-M|,|2-gl²|)/24.
+This follows by enclosing mu4 in[1+gl²,M], not by assuming a>=0.
+
+The correct c rectangle is
+ cl=(3-M)*(gl if M<=3 else g)/144,
+ cu=max_{t in[gl,g]}(2t-t³)/144.
+For cu the maximum is at g if3g²<=2, at gl if3gl²>=2, otherwise at sqrt(2/3), where the value is sqrt(2/3)/108. These alternatives have exact squared-endpoint tests and require only an outward square-root enclosure in the third case. The lower endpoint comes from mu4<=M; the upper from mu4>=1+t². Either or both endpoints may be negative.
+
+The exact Gaussian norm is J(z,c)=integral_0^infty exp(-x²/2)|zx²-cx⁴|dx. It is convex in the pair(z,c), so its maximum over the enclosing rectangle occurs at a corner. J(-z,-c)=J(z,c). For z*c<=0,
+ J=sqrt(pi/2)(|z|+3|c|).
+For z*c>0, simultaneously replace(z,c) by(|z|,|c|) and use the existing positive-quadrant Mills formula. This includes negative-negative corners; replacing only one sign would be invalid. The Gaussian coefficient multiplying z-3c needs the same sign-aware lower/upper enclosure already present in the retained implementation.
+
+The sixth-moment upper remains
+ M6=min(R*eta,1+3g²+g⁴+(R²+2Rg+3g²+2)*(M-1-gl²)).
+All factors in the replacement are nonnegative. No R-2g gate occurs here. Substitute this M6, the new a_star, Z and the four signed J corner bounds into the unchanged transfer formulas for L0,LH,L2. Keep b0=(45-M)(1-2/n)/96; the old43/96 damping is not licensed. The Fourier transfer itself already covers M<=11.1,g<=1.85, regardless of coefficient signs.
+
+Why changing only eligibility is invalid. Take the standardized two-point law X=3/2 with probability4/13 and X=-2/3 with probability9/13. Then gamma=5/6, mu4=61/36, and120z=1315/216. Valid loose bounds R=3/2,g=7/5,M=197/40 satisfy R>g and g²<2. The old quadratic maximum gives951/160, which is strictly smaller than1315/216. Thus it is not a valid bound on120|z| on the broadened domain. The signed piecewise construction above repairs this failed coefficient bound.
+
+Implementation seam. Keep the same rmin across paired lower moment acquisition, eligibility, phase callback, all four C/rho corners and exports. For the first prototype retain0<pl<pu<1/2; extending to the other probability half is a distinct task. No new signed gamma reflection may enter the actual contact phase formula. All source/profile/moment inputs still need their own same-law acquisition and exact acceptance.

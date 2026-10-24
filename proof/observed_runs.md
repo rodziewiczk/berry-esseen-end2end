@@ -1181,3 +1181,17 @@ The supplied final cell records `complete_conditional_highrho14_19_sublane_basic
 and saves `finite1519-highrho/20261024T002009Z-456583eb/20261024T002009Z-456583eb-results.zip`.
 This is scoped output completion, not full actual export validation or the
 complete57/COUNT/global theorem. No repeated successful57Carithmetic is queued.
+
+## Notebook35: actual complete INITIAL recovered after wrapper failure
+
+The final supplied output at00:46:10UTC reports incomplete_selected_arithmetic
+after three cached component jobs. The actual5098913-byte final ZIP has SHA256
+`77fdf3b9cc40070ad3350250960e0896efc91df713debda79222e227938f40c4`.
+Its traceback fails in the repeated immutable vendor inventory check after
+INITIAL.B0 has already written both completed stage ledgers. The notebook-parent
+metadata import bytecode issue is corrected without changing numerical sources
+or weakening inventory checks. Actual INITIAL source/capture/result readback
+and complete cache recovery/restore pass9covers/100panels/27controls, with no
+local original numerical execution. See [recovery](n5_remaining_notebook_recovery.md).
+The corrected notebook reuses compatible support/HIGH/owncaps caches and this
+recovered INITIAL; the remaining326-job selection is not declared complete.
