@@ -1,0 +1,3492 @@
+{
+  "all_assigned_original_reference_calls": 47,
+  "all_index_conclusion_verified": false,
+  "arithmetic_computed": false,
+  "blockers": [
+    "Implement pure full completed35/13/08/11 export admission and exact same-witness parent binding, preserving original evidence bytes",
+    "Seal complete transitive original source closure for all47 assigned original entry calls; this bounded source inventory is not full closure admission",
+    "Generate genuine current captures at the exact named support/complement slots; no replay of old successful metadata",
+    "Prepare fresh exclusive output slots for all original control/constructor programs; preserve original certificates and receipts separately as untrusted reference/provenance",
+    "Implement typed current source/capture graph epochs for12 resource and12 count regional readbacks and final composition; old timed/capture/dispatch/source hashes are not fresh evidence",
+    "Regional old count readbacks demand constructor provenance although full35 acceptance mathematically validates the retained complete candidate; retain or explicitly replace this provenance gate without fabricating constructor history",
+    "Run all complete native numerical/control actions only on Colab, then validate exact controls/census, sources, stopped outputs, false-before-completed transition and completed-stage cache"
+  ],
+  "dependency_order": [
+    "08 full quantitative G3 + valid structural/all-law localization =>11 B4 => global C4<=4097/10000<CE",
+    "Global C4<=CE fixes q5=0 for one oriented attained contrary5 marginal",
+    "Validated35 support/HIGH/owncaps + source-exact parent implications =>all12 INITIAL facts",
+    "Validated12 INITIALs +15 full resource arithmetic cases =>1200 panel dispositions and simultaneous resource tuples",
+    "Validated295 count accepts +same-law resource-contract interfaces =>all low-rho regions except the13 direct corner",
+    "Fresh scalar/source controls +fresh2support pairs +fresh2complement integrations +fullaccept/readback =>rho[6/5,7361/4000] and decreasing published tail",
+    "All12 low-rho regions +13 corner +full complement/tail =>C5<=CE from global C4 and stated analytic/literature inputs"
+  ],
+  "exact_numerical_and_control_process_calls": 22,
+  "explicit_mathematical_premises": [
+    "External exact one-summand theorem/normalization for n1; no selected numerical producer",
+    "Global quantitative G3, not merely a selected-law or scalar CE label",
+    "Fixed-index unrestricted attainment/contact and reflection preserving atoms; same physical marginal throughout",
+    "All-law ROOT4 localization from G3 and structural input before its bounded physical computation",
+    "Direct actual-index5 support before higher moments, with predecessor allowanceq=0",
+    "Reviewed pointwise closed-halfline Prawitz/Fourier/eta/zeta/kernel and original count/resource inequalities",
+    "Same signed cubic moments, gap/noise/phase budgets and all original closed roots/threshold tails",
+    "Strict Bernoulli theorem for zero-noise branch",
+    "Published iid Shevtsova .3031*(1+.646/rho) tail, inclusive seam7361/4000",
+    "Esseen lower bound remains separate from this upper-bound package"
+  ],
+  "fixed_new_notebook_partition_count": 1,
+  "full_n5_verified": false,
+  "native_arithmetic_accepted": false,
+  "new_count_forest_reconstruction_required": false,
+  "new_mathematical_search_required": false,
+  "notebook": {
+    "completed_atomic_stage_reuse_only": true,
+    "duration_not_estimated": true,
+    "id": "67",
+    "name": "67_n5_remaining_support_complement_and_semantic_join.ipynb",
+    "session_wall_ceiling_seconds": 82800,
+    "state": "PLANNED_NOT_RUNNABLE"
+  },
+  "numerical_reuse_policy": "35 core arithmetic and13 corner are reused only after full completed-export validation. The2 complement integrations are deliberately recomputed because the selected unchanged-current-source acceptance/readback binds current command/cwd/captures. Old captures are never rewritten or impersonated.",
+  "old_successful_captures_synthesized": false,
+  "original_asset": {
+    "bytes": 141304365,
+    "name": "cutoff5_20261020.zip",
+    "sha256": "8428002462d4e650613ea6e2ff673cb1e69c2079572cc40546d125349d582419",
+    "url": "https://github.com/rodziewiczk/berry-esseen-045-certificate/releases/download/cutoff5-sources-2026-10-20/cutoff5_20261020.zip"
+  },
+  "original_entrypoint_sources": {
+    "work/cutoff5_20261020/audit/complement5_readback_v1/check.py": {
+      "bytes": 15715,
+      "functions": {
+        "capture": {
+          "end": 40,
+          "start": 29
+        },
+        "fourier": {
+          "end": 125,
+          "start": 86
+        },
+        "load": {
+          "end": 21,
+          "start": 18
+        },
+        "main": {
+          "end": 210,
+          "start": 126
+        },
+        "root": {
+          "end": 24,
+          "start": 22
+        },
+        "rowcheck": {
+          "end": 85,
+          "start": 56
+        },
+        "support": {
+          "end": 55,
+          "start": 41
+        },
+        "untimed": {
+          "end": 28,
+          "start": 25
+        }
+      },
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/complement5_readback_v1/check.py",
+      "sha256": "14f7dba5e6423017e29047b895d5fdaf327fa97dc128a48173980dd24df0a54c"
+    },
+    "work/cutoff5_20261020/audit/conserved_identity_review_v1/check.py": {
+      "bytes": 5288,
+      "functions": {
+        "P": {
+          "end": 50,
+          "start": 8
+        },
+        "coerce": {
+          "end": 53,
+          "start": 52
+        },
+        "main": {
+          "end": 127,
+          "start": 60
+        },
+        "sha": {
+          "end": 58,
+          "start": 57
+        },
+        "zero": {
+          "end": 56,
+          "start": 54
+        }
+      },
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/conserved_identity_review_v1/check.py",
+      "sha256": "41c70adf77bb5adca130a20ab11e2721d6a45d762afd1915d32d3eaa83968232"
+    },
+    "work/cutoff5_20261020/audit/count5_port_review_v1/check.py": {
+      "bytes": 4889,
+      "functions": {
+        "main": {
+          "end": 102,
+          "start": 48
+        },
+        "need": {
+          "end": 15,
+          "start": 13
+        },
+        "reviewed_port": {
+          "end": 30,
+          "start": 20
+        },
+        "sha": {
+          "end": 18,
+          "start": 17
+        },
+        "validate": {
+          "end": 46,
+          "start": 32
+        }
+      },
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/count5_port_review_v1/check.py",
+      "sha256": "493333b9fb82a62ee0915b6e2e58e4c434d74731981b6fef02ed7fc5c1817dd0"
+    },
+    "work/cutoff5_20261020/audit/count5_readback_v1/check.py": {
+      "bytes": 15666,
+      "functions": {
+        "identity": {
+          "end": 73,
+          "start": 72
+        },
+        "protocol_source": {
+          "end": 71,
+          "start": 55
+        },
+        "replace_once": {
+          "end": 54,
+          "start": 53
+        },
+        "validate": {
+          "end": 142,
+          "start": 131
+        }
+      },
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/count5_readback_v1/check.py",
+      "sha256": "89f7155f833cc9772e2d18a494d579e26f039ad514db5057b7317bcfce82b503"
+    },
+    "work/cutoff5_20261020/audit/count5_sector_readback_v1/check.py": {
+      "bytes": 17067,
+      "functions": {
+        "identity": {
+          "end": 81,
+          "start": 80
+        },
+        "protocol_source": {
+          "end": 79,
+          "start": 63
+        },
+        "replace_once": {
+          "end": 62,
+          "start": 61
+        },
+        "validate": {
+          "end": 151,
+          "start": 140
+        }
+      },
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/count5_sector_readback_v1/check.py",
+      "sha256": "8694e51c04650cf8f8ea89634322ff824cbc7b815596807af8d5173c179f6127"
+    },
+    "work/cutoff5_20261020/audit/count_kernel_analytic_review_v1/check.py": {
+      "bytes": 7588,
+      "functions": {
+        "main": {
+          "end": 152,
+          "start": 31
+        },
+        "moment": {
+          "end": 29,
+          "start": 28
+        },
+        "need": {
+          "end": 16,
+          "start": 15
+        },
+        "roots": {
+          "end": 24,
+          "start": 19
+        },
+        "sha": {
+          "end": 18,
+          "start": 17
+        },
+        "two": {
+          "end": 27,
+          "start": 25
+        }
+      },
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/count_kernel_analytic_review_v1/check.py",
+      "sha256": "159897d796f14be85c85a350f5b86839d64db9ccd731f4605ea020963b17aea4"
+    },
+    "work/cutoff5_20261020/audit/endpoint_count_port_review_v1/check.py": {
+      "bytes": 4483,
+      "functions": {
+        "gate": {
+          "end": 45,
+          "start": 43
+        },
+        "need": {
+          "end": 7,
+          "start": 6
+        },
+        "sha": {
+          "end": 8,
+          "start": 8
+        }
+      },
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/endpoint_count_port_review_v1/check.py",
+      "sha256": "d019fb6b24775d7c5c47a10369a40310e2f6194b3f38a81ab9561aaf34693988"
+    },
+    "work/cutoff5_20261020/audit/fourier_inputs_review_v1/check.py": {
+      "bytes": 7565,
+      "functions": {
+        "linear_power": {
+          "end": 24,
+          "start": 23
+        },
+        "main": {
+          "end": 129,
+          "start": 43
+        },
+        "need": {
+          "end": 9,
+          "start": 8
+        },
+        "polynomial_product": {
+          "end": 22,
+          "start": 18
+        },
+        "profile_verify": {
+          "end": 41,
+          "start": 25
+        },
+        "rep": {
+          "end": 13,
+          "start": 11
+        },
+        "save": {
+          "end": 17,
+          "start": 14
+        },
+        "sha": {
+          "end": 10,
+          "start": 10
+        }
+      },
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/fourier_inputs_review_v1/check.py",
+      "sha256": "2607e07b614b3eb547d08b7d18127ed810083c5a9ec732cbf7000f6682fa2c96"
+    },
+    "work/cutoff5_20261020/audit/low_phase_port_review_v1/check.py": {
+      "bytes": 4031,
+      "functions": {
+        "main": {
+          "end": 80,
+          "start": 27
+        },
+        "need": {
+          "end": 12,
+          "start": 11
+        },
+        "sha": {
+          "end": 14,
+          "start": 13
+        },
+        "transformed": {
+          "end": 25,
+          "start": 16
+        }
+      },
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/low_phase_port_review_v1/check.py",
+      "sha256": "e2c319587257e564b6170e6915b7ad63fa54f8c1108b7a388d442c05a431ff9e"
+    },
+    "work/cutoff5_20261020/audit/resource5_readback_v4/check.py": {
+      "bytes": 16745,
+      "functions": {
+        "capture": {
+          "end": 22,
+          "start": 12
+        },
+        "initial": {
+          "end": 41,
+          "start": 27
+        },
+        "load": {
+          "end": 11,
+          "start": 8
+        },
+        "main": {
+          "end": 229,
+          "start": 105
+        },
+        "resources": {
+          "end": 104,
+          "start": 59
+        },
+        "score_join": {
+          "end": 49,
+          "start": 42
+        },
+        "tangent_exclusion": {
+          "end": 58,
+          "start": 50
+        },
+        "untimed": {
+          "end": 26,
+          "start": 23
+        }
+      },
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/resource5_readback_v4/check.py",
+      "sha256": "93a874c79c850422520e3afcc05c9b9a757e50972e173dee9a92ca43f83bbd90"
+    },
+    "work/cutoff5_20261020/audit/resource5_sector_readback_v1/check.py": {
+      "bytes": 18333,
+      "functions": {
+        "capture": {
+          "end": 22,
+          "start": 12
+        },
+        "endpoint_seed": {
+          "end": 52,
+          "start": 42
+        },
+        "initial": {
+          "end": 41,
+          "start": 27
+        },
+        "load": {
+          "end": 11,
+          "start": 8
+        },
+        "main": {
+          "end": 240,
+          "start": 116
+        },
+        "resources": {
+          "end": 115,
+          "start": 70
+        },
+        "score_join": {
+          "end": 60,
+          "start": 53
+        },
+        "tangent_exclusion": {
+          "end": 69,
+          "start": 61
+        },
+        "untimed": {
+          "end": 26,
+          "start": 23
+        }
+      },
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/resource5_sector_readback_v1/check.py",
+      "sha256": "d94e9a149381d2ed873c5be0c798150260921376c4328041b18de65cf80731e4"
+    },
+    "work/cutoff5_20261020/audit/resource_ports_review_v1/check.py": {
+      "bytes": 9686,
+      "functions": {
+        "emit": {
+          "end": 23,
+          "start": 17
+        },
+        "main": {
+          "end": 155,
+          "start": 30
+        },
+        "need": {
+          "end": 12,
+          "start": 11
+        },
+        "rep": {
+          "end": 16,
+          "start": 14
+        },
+        "sha": {
+          "end": 13,
+          "start": 13
+        },
+        "verify_graph": {
+          "end": 28,
+          "start": 24
+        }
+      },
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/resource_ports_review_v1/check.py",
+      "sha256": "303e93de65b0297136f5b07bf378e0ee43ad46ae52a77b7c69af58ff0c0fafda"
+    },
+    "work/cutoff5_20261020/audit/resource_semantics_review_v1/check.py": {
+      "bytes": 10137,
+      "functions": {
+        "add": {
+          "end": 14,
+          "start": 14
+        },
+        "bernstein": {
+          "end": 66,
+          "start": 47
+        },
+        "binary": {
+          "end": 27,
+          "start": 25
+        },
+        "det": {
+          "end": 32,
+          "start": 32
+        },
+        "gaps": {
+          "end": 46,
+          "start": 34
+        },
+        "integ_power": {
+          "end": 33,
+          "start": 33
+        },
+        "main": {
+          "end": 197,
+          "start": 68
+        },
+        "mix": {
+          "end": 29,
+          "start": 28
+        },
+        "moment": {
+          "end": 31,
+          "start": 30
+        },
+        "mul": {
+          "end": 16,
+          "start": 16
+        },
+        "need": {
+          "end": 11,
+          "start": 10
+        },
+        "nonneg": {
+          "end": 24,
+          "start": 18
+        },
+        "sc": {
+          "end": 17,
+          "start": 17
+        },
+        "sha": {
+          "end": 12,
+          "start": 12
+        },
+        "sub": {
+          "end": 15,
+          "start": 15
+        }
+      },
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/resource_semantics_review_v1/check.py",
+      "sha256": "b6ccffd44fcb6c4486acd885dd954fcfba175c5a77f3f23a4f37aaab25625f19"
+    },
+    "work/cutoff5_20261020/audit/sector_count_port_review_v1/check.py": {
+      "bytes": 2863,
+      "functions": {
+        "need": {
+          "end": 7,
+          "start": 6
+        },
+        "scope": {
+          "end": 25,
+          "start": 22
+        },
+        "sha": {
+          "end": 8,
+          "start": 8
+        }
+      },
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/sector_count_port_review_v1/check.py",
+      "sha256": "0e7854e33a5cfaa50f77166d9c2a3ded05a76db260963e3fd32115e0cd066659"
+    },
+    "work/cutoff5_20261020/high/B3_T3lower_resource_review_v1/check.py": {
+      "bytes": 5479,
+      "functions": {
+        "bind": {
+          "end": 41,
+          "start": 40
+        },
+        "need": {
+          "end": 12,
+          "start": 11
+        },
+        "read": {
+          "end": 10,
+          "start": 10
+        },
+        "sha": {
+          "end": 9,
+          "start": 9
+        },
+        "validate": {
+          "end": 34,
+          "start": 13
+        }
+      },
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/high/B3_T3lower_resource_review_v1/check.py",
+      "sha256": "a6d8ac45f943c6510341825eb21721df614a7b97db93dd643b82423fbd7bfaa0"
+    },
+    "work/cutoff5_20261020/high/B3_count_readback_v1/check.py": {
+      "bytes": 17403,
+      "functions": {
+        "identity": {
+          "end": 88,
+          "start": 87
+        },
+        "protocol_source": {
+          "end": 86,
+          "start": 70
+        },
+        "replace_once": {
+          "end": 69,
+          "start": 68
+        },
+        "validate": {
+          "end": 158,
+          "start": 147
+        }
+      },
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/high/B3_count_readback_v1/check.py",
+      "sha256": "67835d51b6dde63e459934e258f3bfd1e0c6ef20b471b6f7e0ed747ed564e45a"
+    },
+    "work/cutoff5_20261020/high/B3_resource_readback_v1/check.py": {
+      "bytes": 11190,
+      "functions": {
+        "capture": {
+          "end": 22,
+          "start": 13
+        },
+        "initial": {
+          "end": 34,
+          "start": 23
+        },
+        "load": {
+          "end": 12,
+          "start": 9
+        },
+        "main": {
+          "end": 139,
+          "start": 35
+        }
+      },
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/high/B3_resource_readback_v1/check.py",
+      "sha256": "6b02419ad0558915d90a25cf03af6b19d2d156abddd1089d97079b6d408fe6a4"
+    },
+    "work/cutoff5_20261020/high/B3_sector_resource_review_v1/check.py": {
+      "bytes": 7950,
+      "functions": {
+        "bind": {
+          "end": 36,
+          "start": 33
+        },
+        "expected": {
+          "end": 28,
+          "start": 15
+        },
+        "join": {
+          "end": 42,
+          "start": 37
+        },
+        "need": {
+          "end": 12,
+          "start": 11
+        },
+        "read": {
+          "end": 10,
+          "start": 10
+        },
+        "replace_once": {
+          "end": 14,
+          "start": 13
+        },
+        "sha": {
+          "end": 9,
+          "start": 9
+        },
+        "verify_port": {
+          "end": 30,
+          "start": 29
+        }
+      },
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/high/B3_sector_resource_review_v1/check.py",
+      "sha256": "7b6ad2ef903ee88568ec9295e31d996bedec92477caa1ee0c1542c880cc342d6"
+    },
+    "work/cutoff5_20261020/high/complement5_v1/accept.py": {
+      "bytes": 7954,
+      "functions": {
+        "bind": {
+          "end": 89,
+          "start": 83
+        },
+        "need": {
+          "end": 16,
+          "start": 15
+        },
+        "read": {
+          "end": 22,
+          "start": 22
+        },
+        "sha": {
+          "end": 17,
+          "start": 17
+        },
+        "sqrtup": {
+          "end": 24,
+          "start": 23
+        },
+        "unique": {
+          "end": 21,
+          "start": 18
+        },
+        "untimed": {
+          "end": 28,
+          "start": 25
+        },
+        "verify": {
+          "end": 56,
+          "start": 30
+        }
+      },
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/high/complement5_v1/accept.py",
+      "sha256": "501b32d4770864dc76ea5ec01705773b4cfd9ae3e2405bd77f5f6a429c48a420"
+    },
+    "work/cutoff5_20261020/high/complement5_v1/protocol.py": {
+      "bytes": 6396,
+      "functions": {
+        "controls": {
+          "end": 62,
+          "start": 42
+        },
+        "invalid": {
+          "end": 18,
+          "start": 18
+        },
+        "loads": {
+          "end": 19,
+          "start": 19
+        },
+        "main": {
+          "end": 92,
+          "start": 63
+        },
+        "need": {
+          "end": 12,
+          "start": 11
+        },
+        "rat": {
+          "end": 21,
+          "start": 20
+        },
+        "sha": {
+          "end": 13,
+          "start": 13
+        },
+        "unique": {
+          "end": 17,
+          "start": 14
+        },
+        "validate": {
+          "end": 41,
+          "start": 22
+        }
+      },
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/high/complement5_v1/protocol.py",
+      "sha256": "c84bf5d56ed2a9a001686c19ec42ac158248ca73c98b63266b266188a8172eb6"
+    },
+    "work/cutoff5_20261020/high/endpoint_product_review_v1/check.py": {
+      "bytes": 10147,
+      "functions": {
+        "binary": {
+          "end": 130,
+          "start": 127
+        },
+        "ceil_grid": {
+          "end": 138,
+          "start": 137
+        },
+        "check_port": {
+          "end": 82,
+          "start": 53
+        },
+        "dump": {
+          "end": 26,
+          "start": 25
+        },
+        "expression": {
+          "end": 30,
+          "start": 29
+        },
+        "mix": {
+          "end": 134,
+          "start": 133
+        },
+        "need": {
+          "end": 18,
+          "start": 16
+        },
+        "price_nodes": {
+          "end": 50,
+          "start": 46
+        },
+        "sha": {
+          "end": 22,
+          "start": 21
+        }
+      },
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/high/endpoint_product_review_v1/check.py",
+      "sha256": "314a020de5db217a3ac65dee984c20a30ba96d75f22841de990760d18305a427"
+    },
+    "work/cutoff5_20261020/high/support_A0_v1/protocol.py": {
+      "bytes": 2695,
+      "functions": {
+        "main": {
+          "end": 44,
+          "start": 13
+        },
+        "need": {
+          "end": 11,
+          "start": 10
+        },
+        "sha": {
+          "end": 12,
+          "start": 12
+        }
+      },
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/high/support_A0_v1/protocol.py",
+      "sha256": "e0e312e94a73b8bc8f14ac67166e57782f4cfed340b181490bdce29e48023c54"
+    },
+    "work/cutoff5_20261020/high/support_v2/protocol.py": {
+      "bytes": 2936,
+      "functions": {
+        "main": {
+          "end": 48,
+          "start": 17
+        },
+        "need": {
+          "end": 15,
+          "start": 14
+        },
+        "sha": {
+          "end": 16,
+          "start": 16
+        }
+      },
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/high/support_v2/protocol.py",
+      "sha256": "cced489eb07e7a8712e8d01d67a0be62bd28e07edc5859d4b76502f1e6e84c53"
+    },
+    "work/cutoff5_20261020/root/count_identity_controls_v1/check.py": {
+      "bytes": 5867,
+      "functions": {
+        "cdf": {
+          "end": 43,
+          "start": 42
+        },
+        "centered_pair": {
+          "end": 39,
+          "start": 37
+        },
+        "conv": {
+          "end": 23,
+          "start": 18
+        },
+        "main": {
+          "end": 132,
+          "start": 50
+        },
+        "mean": {
+          "end": 34,
+          "start": 33
+        },
+        "need": {
+          "end": 15,
+          "start": 13
+        },
+        "power": {
+          "end": 30,
+          "start": 26
+        },
+        "quartic": {
+          "end": 47,
+          "start": 46
+        }
+      },
+      "member": "cutoff5_20261020/root/count_identity_controls_v1/check.py",
+      "sha256": "fe981d944eb6e2f7e1a53c5715306a473aa0fdaef96bc45f08bdd7a02819e984"
+    },
+    "work/cutoff5_20261020/root/final_composition_v2/check.py": {
+      "bytes": 17064,
+      "functions": {
+        "atan": {
+          "end": 58,
+          "start": 55
+        },
+        "bind": {
+          "end": 28,
+          "start": 24
+        },
+        "complement": {
+          "end": 195,
+          "start": 180
+        },
+        "constants": {
+          "end": 69,
+          "start": 60
+        },
+        "corner": {
+          "end": 178,
+          "start": 167
+        },
+        "count_case": {
+          "end": 165,
+          "start": 84
+        },
+        "main": {
+          "end": 300,
+          "start": 211
+        },
+        "need": {
+          "end": 17,
+          "start": 16
+        },
+        "read": {
+          "end": 37,
+          "start": 36
+        },
+        "receipt": {
+          "end": 46,
+          "start": 39
+        },
+        "sector2": {
+          "end": 74,
+          "start": 71
+        },
+        "sector3": {
+          "end": 82,
+          "start": 76
+        },
+        "sha": {
+          "end": 22,
+          "start": 19
+        },
+        "sroot": {
+          "end": 53,
+          "start": 48
+        },
+        "union": {
+          "end": 209,
+          "start": 197
+        },
+        "unique": {
+          "end": 34,
+          "start": 30
+        }
+      },
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/root/final_composition_v2/check.py",
+      "sha256": "2b7bae80816928188057880d16d1261ccda25c935229af9aeeb6b291c62c6838"
+    },
+    "work/cutoff5_20261020/root/fourier_scalar_review_v1/check.py": {
+      "bytes": 5112,
+      "functions": {
+        "atan_bracket": {
+          "end": 105,
+          "start": 102
+        },
+        "construct": {
+          "end": 43,
+          "start": 36
+        },
+        "cos_poly": {
+          "end": 91,
+          "start": 90
+        },
+        "shifted": {
+          "end": 33,
+          "start": 23
+        },
+        "verify": {
+          "end": 61,
+          "start": 46
+        }
+      },
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/root/fourier_scalar_review_v1/check.py",
+      "sha256": "901e9e4fc1c6274c4f861ccac4bdbc63c4f38ad663d2cef45a4decbcdd202a10"
+    }
+  },
+  "original_final_semantic_reference": {
+    "argv": [
+      "python",
+      "-B",
+      "check.py"
+    ],
+    "current_evidence_epoch_required": true,
+    "cwd": "work/cutoff5_20261020/root/final_composition_v2",
+    "entry": "work/cutoff5_20261020/root/final_composition_v2/check.py",
+    "id": "67.semantic.full-c5",
+    "kind": "original_final_semantic_reference_requiring_current_evidence_epoch",
+    "native_action_performed_during_preparation": false,
+    "outputs": [
+      "work/cutoff5_20261020/root/final_composition_v2/C5_CHECKED.json"
+    ],
+    "scope": "Full12-region/1200-panel signed-rho-beta-p union,905resource exclusions+295forests/1770roots, direct corner, complement, constants and all original mutations",
+    "source": {
+      "bytes": 17064,
+      "functions": {
+        "atan": {
+          "end": 58,
+          "start": 55
+        },
+        "bind": {
+          "end": 28,
+          "start": 24
+        },
+        "complement": {
+          "end": 195,
+          "start": 180
+        },
+        "constants": {
+          "end": 69,
+          "start": 60
+        },
+        "corner": {
+          "end": 178,
+          "start": 167
+        },
+        "count_case": {
+          "end": 165,
+          "start": 84
+        },
+        "main": {
+          "end": 300,
+          "start": 211
+        },
+        "need": {
+          "end": 17,
+          "start": 16
+        },
+        "read": {
+          "end": 37,
+          "start": 36
+        },
+        "receipt": {
+          "end": 46,
+          "start": 39
+        },
+        "sector2": {
+          "end": 74,
+          "start": 71
+        },
+        "sector3": {
+          "end": 82,
+          "start": 76
+        },
+        "sha": {
+          "end": 22,
+          "start": 19
+        },
+        "sroot": {
+          "end": 53,
+          "start": 48
+        },
+        "union": {
+          "end": 209,
+          "start": 197
+        },
+        "unique": {
+          "end": 34,
+          "start": 30
+        }
+      },
+      "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/root/final_composition_v2/check.py",
+      "sha256": "2b7bae80816928188057880d16d1261ccda25c935229af9aeeb6b291c62c6838"
+    },
+    "unchanged_main_not_claimed_ready": true
+  },
+  "original_resource_and_count_semantic_reference_actions": [
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py",
+        "B0"
+      ],
+      "current_evidence_epoch_required": true,
+      "cwd": "work/cutoff5_20261020/audit/resource5_readback_v4",
+      "entry": "work/cutoff5_20261020/audit/resource5_readback_v4/check.py",
+      "id": "67.semantic.resource.B0",
+      "kind": "original_semantic_reference_requiring_current_evidence_epoch",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/audit/resource5_readback_v4/B0_READBACK.json"
+      ],
+      "scope": "Entire original100-panel acquisition/resource/contract or count-cover implication, all original geometry/interface and parser controls",
+      "source": {
+        "bytes": 16745,
+        "functions": {
+          "capture": {
+            "end": 22,
+            "start": 12
+          },
+          "initial": {
+            "end": 41,
+            "start": 27
+          },
+          "load": {
+            "end": 11,
+            "start": 8
+          },
+          "main": {
+            "end": 229,
+            "start": 105
+          },
+          "resources": {
+            "end": 104,
+            "start": 59
+          },
+          "score_join": {
+            "end": 49,
+            "start": 42
+          },
+          "tangent_exclusion": {
+            "end": 58,
+            "start": 50
+          },
+          "untimed": {
+            "end": 26,
+            "start": 23
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/resource5_readback_v4/check.py",
+        "sha256": "93a874c79c850422520e3afcc05c9b9a757e50972e173dee9a92ca43f83bbd90"
+      },
+      "unchanged_main_not_claimed_ready": true
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py",
+        "BN"
+      ],
+      "current_evidence_epoch_required": true,
+      "cwd": "work/cutoff5_20261020/audit/resource5_readback_v4",
+      "entry": "work/cutoff5_20261020/audit/resource5_readback_v4/check.py",
+      "id": "67.semantic.resource.BN",
+      "kind": "original_semantic_reference_requiring_current_evidence_epoch",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/audit/resource5_readback_v4/BN_READBACK.json"
+      ],
+      "scope": "Entire original100-panel acquisition/resource/contract or count-cover implication, all original geometry/interface and parser controls",
+      "source": {
+        "bytes": 16745,
+        "functions": {
+          "capture": {
+            "end": 22,
+            "start": 12
+          },
+          "initial": {
+            "end": 41,
+            "start": 27
+          },
+          "load": {
+            "end": 11,
+            "start": 8
+          },
+          "main": {
+            "end": 229,
+            "start": 105
+          },
+          "resources": {
+            "end": 104,
+            "start": 59
+          },
+          "score_join": {
+            "end": 49,
+            "start": 42
+          },
+          "tangent_exclusion": {
+            "end": 58,
+            "start": 50
+          },
+          "untimed": {
+            "end": 26,
+            "start": 23
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/resource5_readback_v4/check.py",
+        "sha256": "93a874c79c850422520e3afcc05c9b9a757e50972e173dee9a92ca43f83bbd90"
+      },
+      "unchanged_main_not_claimed_ready": true
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py",
+        "0"
+      ],
+      "current_evidence_epoch_required": true,
+      "cwd": "work/cutoff5_20261020/audit/resource5_sector_readback_v1",
+      "entry": "work/cutoff5_20261020/audit/resource5_sector_readback_v1/check.py",
+      "id": "67.semantic.resource.B2-S0",
+      "kind": "original_semantic_reference_requiring_current_evidence_epoch",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/audit/resource5_sector_readback_v1/B2_S0_READBACK.json"
+      ],
+      "scope": "Entire original100-panel acquisition/resource/contract or count-cover implication, all original geometry/interface and parser controls",
+      "source": {
+        "bytes": 18333,
+        "functions": {
+          "capture": {
+            "end": 22,
+            "start": 12
+          },
+          "endpoint_seed": {
+            "end": 52,
+            "start": 42
+          },
+          "initial": {
+            "end": 41,
+            "start": 27
+          },
+          "load": {
+            "end": 11,
+            "start": 8
+          },
+          "main": {
+            "end": 240,
+            "start": 116
+          },
+          "resources": {
+            "end": 115,
+            "start": 70
+          },
+          "score_join": {
+            "end": 60,
+            "start": 53
+          },
+          "tangent_exclusion": {
+            "end": 69,
+            "start": 61
+          },
+          "untimed": {
+            "end": 26,
+            "start": 23
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/resource5_sector_readback_v1/check.py",
+        "sha256": "d94e9a149381d2ed873c5be0c798150260921376c4328041b18de65cf80731e4"
+      },
+      "unchanged_main_not_claimed_ready": true
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py",
+        "1"
+      ],
+      "current_evidence_epoch_required": true,
+      "cwd": "work/cutoff5_20261020/audit/resource5_sector_readback_v1",
+      "entry": "work/cutoff5_20261020/audit/resource5_sector_readback_v1/check.py",
+      "id": "67.semantic.resource.B2-S1",
+      "kind": "original_semantic_reference_requiring_current_evidence_epoch",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/audit/resource5_sector_readback_v1/B2_S1_READBACK.json"
+      ],
+      "scope": "Entire original100-panel acquisition/resource/contract or count-cover implication, all original geometry/interface and parser controls",
+      "source": {
+        "bytes": 18333,
+        "functions": {
+          "capture": {
+            "end": 22,
+            "start": 12
+          },
+          "endpoint_seed": {
+            "end": 52,
+            "start": 42
+          },
+          "initial": {
+            "end": 41,
+            "start": 27
+          },
+          "load": {
+            "end": 11,
+            "start": 8
+          },
+          "main": {
+            "end": 240,
+            "start": 116
+          },
+          "resources": {
+            "end": 115,
+            "start": 70
+          },
+          "score_join": {
+            "end": 60,
+            "start": 53
+          },
+          "tangent_exclusion": {
+            "end": 69,
+            "start": 61
+          },
+          "untimed": {
+            "end": 26,
+            "start": 23
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/resource5_sector_readback_v1/check.py",
+        "sha256": "d94e9a149381d2ed873c5be0c798150260921376c4328041b18de65cf80731e4"
+      },
+      "unchanged_main_not_claimed_ready": true
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py",
+        "2"
+      ],
+      "current_evidence_epoch_required": true,
+      "cwd": "work/cutoff5_20261020/audit/resource5_sector_readback_v1",
+      "entry": "work/cutoff5_20261020/audit/resource5_sector_readback_v1/check.py",
+      "id": "67.semantic.resource.B2-S2",
+      "kind": "original_semantic_reference_requiring_current_evidence_epoch",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/audit/resource5_sector_readback_v1/B2_S2_READBACK.json"
+      ],
+      "scope": "Entire original100-panel acquisition/resource/contract or count-cover implication, all original geometry/interface and parser controls",
+      "source": {
+        "bytes": 18333,
+        "functions": {
+          "capture": {
+            "end": 22,
+            "start": 12
+          },
+          "endpoint_seed": {
+            "end": 52,
+            "start": 42
+          },
+          "initial": {
+            "end": 41,
+            "start": 27
+          },
+          "load": {
+            "end": 11,
+            "start": 8
+          },
+          "main": {
+            "end": 240,
+            "start": 116
+          },
+          "resources": {
+            "end": 115,
+            "start": 70
+          },
+          "score_join": {
+            "end": 60,
+            "start": 53
+          },
+          "tangent_exclusion": {
+            "end": 69,
+            "start": 61
+          },
+          "untimed": {
+            "end": 26,
+            "start": 23
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/resource5_sector_readback_v1/check.py",
+        "sha256": "d94e9a149381d2ed873c5be0c798150260921376c4328041b18de65cf80731e4"
+      },
+      "unchanged_main_not_claimed_ready": true
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py",
+        "3"
+      ],
+      "current_evidence_epoch_required": true,
+      "cwd": "work/cutoff5_20261020/audit/resource5_sector_readback_v1",
+      "entry": "work/cutoff5_20261020/audit/resource5_sector_readback_v1/check.py",
+      "id": "67.semantic.resource.B2-S3",
+      "kind": "original_semantic_reference_requiring_current_evidence_epoch",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/audit/resource5_sector_readback_v1/B2_S3_READBACK.json"
+      ],
+      "scope": "Entire original100-panel acquisition/resource/contract or count-cover implication, all original geometry/interface and parser controls",
+      "source": {
+        "bytes": 18333,
+        "functions": {
+          "capture": {
+            "end": 22,
+            "start": 12
+          },
+          "endpoint_seed": {
+            "end": 52,
+            "start": 42
+          },
+          "initial": {
+            "end": 41,
+            "start": 27
+          },
+          "load": {
+            "end": 11,
+            "start": 8
+          },
+          "main": {
+            "end": 240,
+            "start": 116
+          },
+          "resources": {
+            "end": 115,
+            "start": 70
+          },
+          "score_join": {
+            "end": 60,
+            "start": 53
+          },
+          "tangent_exclusion": {
+            "end": 69,
+            "start": 61
+          },
+          "untimed": {
+            "end": 26,
+            "start": 23
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/resource5_sector_readback_v1/check.py",
+        "sha256": "d94e9a149381d2ed873c5be0c798150260921376c4328041b18de65cf80731e4"
+      },
+      "unchanged_main_not_claimed_ready": true
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py",
+        "S0"
+      ],
+      "current_evidence_epoch_required": true,
+      "cwd": "work/cutoff5_20261020/high/B3_resource_readback_v1",
+      "entry": "work/cutoff5_20261020/high/B3_resource_readback_v1/check.py",
+      "id": "67.semantic.resource.B3-S0",
+      "kind": "original_semantic_reference_requiring_current_evidence_epoch",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/high/B3_resource_readback_v1/B3_S0_READBACK.json"
+      ],
+      "scope": "Entire original100-panel acquisition/resource/contract or count-cover implication, all original geometry/interface and parser controls",
+      "source": {
+        "bytes": 11190,
+        "functions": {
+          "capture": {
+            "end": 22,
+            "start": 13
+          },
+          "initial": {
+            "end": 34,
+            "start": 23
+          },
+          "load": {
+            "end": 12,
+            "start": 9
+          },
+          "main": {
+            "end": 139,
+            "start": 35
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/high/B3_resource_readback_v1/check.py",
+        "sha256": "6b02419ad0558915d90a25cf03af6b19d2d156abddd1089d97079b6d408fe6a4"
+      },
+      "unchanged_main_not_claimed_ready": true
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py",
+        "S2"
+      ],
+      "current_evidence_epoch_required": true,
+      "cwd": "work/cutoff5_20261020/high/B3_resource_readback_v1",
+      "entry": "work/cutoff5_20261020/high/B3_resource_readback_v1/check.py",
+      "id": "67.semantic.resource.B3-S2",
+      "kind": "original_semantic_reference_requiring_current_evidence_epoch",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/high/B3_resource_readback_v1/B3_S2_READBACK.json"
+      ],
+      "scope": "Entire original100-panel acquisition/resource/contract or count-cover implication, all original geometry/interface and parser controls",
+      "source": {
+        "bytes": 11190,
+        "functions": {
+          "capture": {
+            "end": 22,
+            "start": 13
+          },
+          "initial": {
+            "end": 34,
+            "start": 23
+          },
+          "load": {
+            "end": 12,
+            "start": 9
+          },
+          "main": {
+            "end": 139,
+            "start": 35
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/high/B3_resource_readback_v1/check.py",
+        "sha256": "6b02419ad0558915d90a25cf03af6b19d2d156abddd1089d97079b6d408fe6a4"
+      },
+      "unchanged_main_not_claimed_ready": true
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py",
+        "T0"
+      ],
+      "current_evidence_epoch_required": true,
+      "cwd": "work/cutoff5_20261020/high/B3_resource_readback_v1",
+      "entry": "work/cutoff5_20261020/high/B3_resource_readback_v1/check.py",
+      "id": "67.semantic.resource.B3-T0",
+      "kind": "original_semantic_reference_requiring_current_evidence_epoch",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/high/B3_resource_readback_v1/B3_T0_READBACK.json"
+      ],
+      "scope": "Entire original100-panel acquisition/resource/contract or count-cover implication, all original geometry/interface and parser controls",
+      "source": {
+        "bytes": 11190,
+        "functions": {
+          "capture": {
+            "end": 22,
+            "start": 13
+          },
+          "initial": {
+            "end": 34,
+            "start": 23
+          },
+          "load": {
+            "end": 12,
+            "start": 9
+          },
+          "main": {
+            "end": 139,
+            "start": 35
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/high/B3_resource_readback_v1/check.py",
+        "sha256": "6b02419ad0558915d90a25cf03af6b19d2d156abddd1089d97079b6d408fe6a4"
+      },
+      "unchanged_main_not_claimed_ready": true
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py",
+        "T1"
+      ],
+      "current_evidence_epoch_required": true,
+      "cwd": "work/cutoff5_20261020/high/B3_resource_readback_v1",
+      "entry": "work/cutoff5_20261020/high/B3_resource_readback_v1/check.py",
+      "id": "67.semantic.resource.B3-T1",
+      "kind": "original_semantic_reference_requiring_current_evidence_epoch",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/high/B3_resource_readback_v1/B3_T1_READBACK.json"
+      ],
+      "scope": "Entire original100-panel acquisition/resource/contract or count-cover implication, all original geometry/interface and parser controls",
+      "source": {
+        "bytes": 11190,
+        "functions": {
+          "capture": {
+            "end": 22,
+            "start": 13
+          },
+          "initial": {
+            "end": 34,
+            "start": 23
+          },
+          "load": {
+            "end": 12,
+            "start": 9
+          },
+          "main": {
+            "end": 139,
+            "start": 35
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/high/B3_resource_readback_v1/check.py",
+        "sha256": "6b02419ad0558915d90a25cf03af6b19d2d156abddd1089d97079b6d408fe6a4"
+      },
+      "unchanged_main_not_claimed_ready": true
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py",
+        "T2"
+      ],
+      "current_evidence_epoch_required": true,
+      "cwd": "work/cutoff5_20261020/high/B3_resource_readback_v1",
+      "entry": "work/cutoff5_20261020/high/B3_resource_readback_v1/check.py",
+      "id": "67.semantic.resource.B3-T2",
+      "kind": "original_semantic_reference_requiring_current_evidence_epoch",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/high/B3_resource_readback_v1/B3_T2_READBACK.json"
+      ],
+      "scope": "Entire original100-panel acquisition/resource/contract or count-cover implication, all original geometry/interface and parser controls",
+      "source": {
+        "bytes": 11190,
+        "functions": {
+          "capture": {
+            "end": 22,
+            "start": 13
+          },
+          "initial": {
+            "end": 34,
+            "start": 23
+          },
+          "load": {
+            "end": 12,
+            "start": 9
+          },
+          "main": {
+            "end": 139,
+            "start": 35
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/high/B3_resource_readback_v1/check.py",
+        "sha256": "6b02419ad0558915d90a25cf03af6b19d2d156abddd1089d97079b6d408fe6a4"
+      },
+      "unchanged_main_not_claimed_ready": true
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py",
+        "T3lower"
+      ],
+      "current_evidence_epoch_required": true,
+      "cwd": "work/cutoff5_20261020/high/B3_resource_readback_v1",
+      "entry": "work/cutoff5_20261020/high/B3_resource_readback_v1/check.py",
+      "id": "67.semantic.resource.B3-T3lower",
+      "kind": "original_semantic_reference_requiring_current_evidence_epoch",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/high/B3_resource_readback_v1/B3_T3lower_READBACK.json"
+      ],
+      "scope": "Entire original100-panel acquisition/resource/contract or count-cover implication, all original geometry/interface and parser controls",
+      "source": {
+        "bytes": 11190,
+        "functions": {
+          "capture": {
+            "end": 22,
+            "start": 13
+          },
+          "initial": {
+            "end": 34,
+            "start": 23
+          },
+          "load": {
+            "end": 12,
+            "start": 9
+          },
+          "main": {
+            "end": 139,
+            "start": 35
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/high/B3_resource_readback_v1/check.py",
+        "sha256": "6b02419ad0558915d90a25cf03af6b19d2d156abddd1089d97079b6d408fe6a4"
+      },
+      "unchanged_main_not_claimed_ready": true
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py",
+        "B0"
+      ],
+      "current_evidence_epoch_required": true,
+      "cwd": "work/cutoff5_20261020/audit/count5_readback_v1",
+      "entry": "work/cutoff5_20261020/audit/count5_readback_v1/check.py",
+      "id": "67.semantic.count.B0",
+      "kind": "original_semantic_reference_requiring_current_evidence_epoch",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/audit/count5_readback_v1/n5_B0_COMPLETE.json"
+      ],
+      "scope": "Entire original100-panel acquisition/resource/contract or count-cover implication, all original geometry/interface and parser controls",
+      "source": {
+        "bytes": 15666,
+        "functions": {
+          "identity": {
+            "end": 73,
+            "start": 72
+          },
+          "protocol_source": {
+            "end": 71,
+            "start": 55
+          },
+          "replace_once": {
+            "end": 54,
+            "start": 53
+          },
+          "validate": {
+            "end": 142,
+            "start": 131
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/count5_readback_v1/check.py",
+        "sha256": "89f7155f833cc9772e2d18a494d579e26f039ad514db5057b7317bcfce82b503"
+      },
+      "unchanged_main_not_claimed_ready": true
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py",
+        "BN"
+      ],
+      "current_evidence_epoch_required": true,
+      "cwd": "work/cutoff5_20261020/audit/count5_readback_v1",
+      "entry": "work/cutoff5_20261020/audit/count5_readback_v1/check.py",
+      "id": "67.semantic.count.BN",
+      "kind": "original_semantic_reference_requiring_current_evidence_epoch",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/audit/count5_readback_v1/n5_BN_COMPLETE.json"
+      ],
+      "scope": "Entire original100-panel acquisition/resource/contract or count-cover implication, all original geometry/interface and parser controls",
+      "source": {
+        "bytes": 15666,
+        "functions": {
+          "identity": {
+            "end": 73,
+            "start": 72
+          },
+          "protocol_source": {
+            "end": 71,
+            "start": 55
+          },
+          "replace_once": {
+            "end": 54,
+            "start": 53
+          },
+          "validate": {
+            "end": 142,
+            "start": 131
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/count5_readback_v1/check.py",
+        "sha256": "89f7155f833cc9772e2d18a494d579e26f039ad514db5057b7317bcfce82b503"
+      },
+      "unchanged_main_not_claimed_ready": true
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py",
+        "0"
+      ],
+      "current_evidence_epoch_required": true,
+      "cwd": "work/cutoff5_20261020/audit/count5_sector_readback_v1",
+      "entry": "work/cutoff5_20261020/audit/count5_sector_readback_v1/check.py",
+      "id": "67.semantic.count.B2-S0",
+      "kind": "original_semantic_reference_requiring_current_evidence_epoch",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/audit/count5_sector_readback_v1/B2_S0_COMPLETE.json"
+      ],
+      "scope": "Entire original100-panel acquisition/resource/contract or count-cover implication, all original geometry/interface and parser controls",
+      "source": {
+        "bytes": 17067,
+        "functions": {
+          "identity": {
+            "end": 81,
+            "start": 80
+          },
+          "protocol_source": {
+            "end": 79,
+            "start": 63
+          },
+          "replace_once": {
+            "end": 62,
+            "start": 61
+          },
+          "validate": {
+            "end": 151,
+            "start": 140
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/count5_sector_readback_v1/check.py",
+        "sha256": "8694e51c04650cf8f8ea89634322ff824cbc7b815596807af8d5173c179f6127"
+      },
+      "unchanged_main_not_claimed_ready": true
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py",
+        "1"
+      ],
+      "current_evidence_epoch_required": true,
+      "cwd": "work/cutoff5_20261020/audit/count5_sector_readback_v1",
+      "entry": "work/cutoff5_20261020/audit/count5_sector_readback_v1/check.py",
+      "id": "67.semantic.count.B2-S1",
+      "kind": "original_semantic_reference_requiring_current_evidence_epoch",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/audit/count5_sector_readback_v1/B2_S1_COMPLETE.json"
+      ],
+      "scope": "Entire original100-panel acquisition/resource/contract or count-cover implication, all original geometry/interface and parser controls",
+      "source": {
+        "bytes": 17067,
+        "functions": {
+          "identity": {
+            "end": 81,
+            "start": 80
+          },
+          "protocol_source": {
+            "end": 79,
+            "start": 63
+          },
+          "replace_once": {
+            "end": 62,
+            "start": 61
+          },
+          "validate": {
+            "end": 151,
+            "start": 140
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/count5_sector_readback_v1/check.py",
+        "sha256": "8694e51c04650cf8f8ea89634322ff824cbc7b815596807af8d5173c179f6127"
+      },
+      "unchanged_main_not_claimed_ready": true
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py",
+        "2"
+      ],
+      "current_evidence_epoch_required": true,
+      "cwd": "work/cutoff5_20261020/audit/count5_sector_readback_v1",
+      "entry": "work/cutoff5_20261020/audit/count5_sector_readback_v1/check.py",
+      "id": "67.semantic.count.B2-S2",
+      "kind": "original_semantic_reference_requiring_current_evidence_epoch",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/audit/count5_sector_readback_v1/B2_S2_COMPLETE.json"
+      ],
+      "scope": "Entire original100-panel acquisition/resource/contract or count-cover implication, all original geometry/interface and parser controls",
+      "source": {
+        "bytes": 17067,
+        "functions": {
+          "identity": {
+            "end": 81,
+            "start": 80
+          },
+          "protocol_source": {
+            "end": 79,
+            "start": 63
+          },
+          "replace_once": {
+            "end": 62,
+            "start": 61
+          },
+          "validate": {
+            "end": 151,
+            "start": 140
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/count5_sector_readback_v1/check.py",
+        "sha256": "8694e51c04650cf8f8ea89634322ff824cbc7b815596807af8d5173c179f6127"
+      },
+      "unchanged_main_not_claimed_ready": true
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py",
+        "3"
+      ],
+      "current_evidence_epoch_required": true,
+      "cwd": "work/cutoff5_20261020/audit/count5_sector_readback_v1",
+      "entry": "work/cutoff5_20261020/audit/count5_sector_readback_v1/check.py",
+      "id": "67.semantic.count.B2-S3",
+      "kind": "original_semantic_reference_requiring_current_evidence_epoch",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/audit/count5_sector_readback_v1/B2_S3_COMPLETE.json"
+      ],
+      "scope": "Entire original100-panel acquisition/resource/contract or count-cover implication, all original geometry/interface and parser controls",
+      "source": {
+        "bytes": 17067,
+        "functions": {
+          "identity": {
+            "end": 81,
+            "start": 80
+          },
+          "protocol_source": {
+            "end": 79,
+            "start": 63
+          },
+          "replace_once": {
+            "end": 62,
+            "start": 61
+          },
+          "validate": {
+            "end": 151,
+            "start": 140
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/count5_sector_readback_v1/check.py",
+        "sha256": "8694e51c04650cf8f8ea89634322ff824cbc7b815596807af8d5173c179f6127"
+      },
+      "unchanged_main_not_claimed_ready": true
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py",
+        "S0"
+      ],
+      "current_evidence_epoch_required": true,
+      "cwd": "work/cutoff5_20261020/high/B3_count_readback_v1",
+      "entry": "work/cutoff5_20261020/high/B3_count_readback_v1/check.py",
+      "id": "67.semantic.count.B3-S0",
+      "kind": "original_semantic_reference_requiring_current_evidence_epoch",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/high/B3_count_readback_v1/B3_S0_COMPLETE.json"
+      ],
+      "scope": "Entire original100-panel acquisition/resource/contract or count-cover implication, all original geometry/interface and parser controls",
+      "source": {
+        "bytes": 17403,
+        "functions": {
+          "identity": {
+            "end": 88,
+            "start": 87
+          },
+          "protocol_source": {
+            "end": 86,
+            "start": 70
+          },
+          "replace_once": {
+            "end": 69,
+            "start": 68
+          },
+          "validate": {
+            "end": 158,
+            "start": 147
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/high/B3_count_readback_v1/check.py",
+        "sha256": "67835d51b6dde63e459934e258f3bfd1e0c6ef20b471b6f7e0ed747ed564e45a"
+      },
+      "unchanged_main_not_claimed_ready": true
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py",
+        "S2"
+      ],
+      "current_evidence_epoch_required": true,
+      "cwd": "work/cutoff5_20261020/high/B3_count_readback_v1",
+      "entry": "work/cutoff5_20261020/high/B3_count_readback_v1/check.py",
+      "id": "67.semantic.count.B3-S2",
+      "kind": "original_semantic_reference_requiring_current_evidence_epoch",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/high/B3_count_readback_v1/B3_S2_COMPLETE.json"
+      ],
+      "scope": "Entire original100-panel acquisition/resource/contract or count-cover implication, all original geometry/interface and parser controls",
+      "source": {
+        "bytes": 17403,
+        "functions": {
+          "identity": {
+            "end": 88,
+            "start": 87
+          },
+          "protocol_source": {
+            "end": 86,
+            "start": 70
+          },
+          "replace_once": {
+            "end": 69,
+            "start": 68
+          },
+          "validate": {
+            "end": 158,
+            "start": 147
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/high/B3_count_readback_v1/check.py",
+        "sha256": "67835d51b6dde63e459934e258f3bfd1e0c6ef20b471b6f7e0ed747ed564e45a"
+      },
+      "unchanged_main_not_claimed_ready": true
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py",
+        "T0"
+      ],
+      "current_evidence_epoch_required": true,
+      "cwd": "work/cutoff5_20261020/high/B3_count_readback_v1",
+      "entry": "work/cutoff5_20261020/high/B3_count_readback_v1/check.py",
+      "id": "67.semantic.count.B3-T0",
+      "kind": "original_semantic_reference_requiring_current_evidence_epoch",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/high/B3_count_readback_v1/B3_T0_COMPLETE.json"
+      ],
+      "scope": "Entire original100-panel acquisition/resource/contract or count-cover implication, all original geometry/interface and parser controls",
+      "source": {
+        "bytes": 17403,
+        "functions": {
+          "identity": {
+            "end": 88,
+            "start": 87
+          },
+          "protocol_source": {
+            "end": 86,
+            "start": 70
+          },
+          "replace_once": {
+            "end": 69,
+            "start": 68
+          },
+          "validate": {
+            "end": 158,
+            "start": 147
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/high/B3_count_readback_v1/check.py",
+        "sha256": "67835d51b6dde63e459934e258f3bfd1e0c6ef20b471b6f7e0ed747ed564e45a"
+      },
+      "unchanged_main_not_claimed_ready": true
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py",
+        "T1"
+      ],
+      "current_evidence_epoch_required": true,
+      "cwd": "work/cutoff5_20261020/high/B3_count_readback_v1",
+      "entry": "work/cutoff5_20261020/high/B3_count_readback_v1/check.py",
+      "id": "67.semantic.count.B3-T1",
+      "kind": "original_semantic_reference_requiring_current_evidence_epoch",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/high/B3_count_readback_v1/B3_T1_COMPLETE.json"
+      ],
+      "scope": "Entire original100-panel acquisition/resource/contract or count-cover implication, all original geometry/interface and parser controls",
+      "source": {
+        "bytes": 17403,
+        "functions": {
+          "identity": {
+            "end": 88,
+            "start": 87
+          },
+          "protocol_source": {
+            "end": 86,
+            "start": 70
+          },
+          "replace_once": {
+            "end": 69,
+            "start": 68
+          },
+          "validate": {
+            "end": 158,
+            "start": 147
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/high/B3_count_readback_v1/check.py",
+        "sha256": "67835d51b6dde63e459934e258f3bfd1e0c6ef20b471b6f7e0ed747ed564e45a"
+      },
+      "unchanged_main_not_claimed_ready": true
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py",
+        "T2"
+      ],
+      "current_evidence_epoch_required": true,
+      "cwd": "work/cutoff5_20261020/high/B3_count_readback_v1",
+      "entry": "work/cutoff5_20261020/high/B3_count_readback_v1/check.py",
+      "id": "67.semantic.count.B3-T2",
+      "kind": "original_semantic_reference_requiring_current_evidence_epoch",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/high/B3_count_readback_v1/B3_T2_COMPLETE.json"
+      ],
+      "scope": "Entire original100-panel acquisition/resource/contract or count-cover implication, all original geometry/interface and parser controls",
+      "source": {
+        "bytes": 17403,
+        "functions": {
+          "identity": {
+            "end": 88,
+            "start": 87
+          },
+          "protocol_source": {
+            "end": 86,
+            "start": 70
+          },
+          "replace_once": {
+            "end": 69,
+            "start": 68
+          },
+          "validate": {
+            "end": 158,
+            "start": 147
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/high/B3_count_readback_v1/check.py",
+        "sha256": "67835d51b6dde63e459934e258f3bfd1e0c6ef20b471b6f7e0ed747ed564e45a"
+      },
+      "unchanged_main_not_claimed_ready": true
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py",
+        "T3lower"
+      ],
+      "current_evidence_epoch_required": true,
+      "cwd": "work/cutoff5_20261020/high/B3_count_readback_v1",
+      "entry": "work/cutoff5_20261020/high/B3_count_readback_v1/check.py",
+      "id": "67.semantic.count.B3-T3lower",
+      "kind": "original_semantic_reference_requiring_current_evidence_epoch",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/high/B3_count_readback_v1/B3_T3lower_COMPLETE.json"
+      ],
+      "scope": "Entire original100-panel acquisition/resource/contract or count-cover implication, all original geometry/interface and parser controls",
+      "source": {
+        "bytes": 17403,
+        "functions": {
+          "identity": {
+            "end": 88,
+            "start": 87
+          },
+          "protocol_source": {
+            "end": 86,
+            "start": 70
+          },
+          "replace_once": {
+            "end": 69,
+            "start": 68
+          },
+          "validate": {
+            "end": 158,
+            "start": 147
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/high/B3_count_readback_v1/check.py",
+        "sha256": "67835d51b6dde63e459934e258f3bfd1e0c6ef20b471b6f7e0ed747ed564e45a"
+      },
+      "unchanged_main_not_claimed_ready": true
+    }
+  ],
+  "parent_acquisitions_verified": false,
+  "required_fresh_complement_programs": [
+    {
+      "argv": [
+        "python",
+        "-B",
+        "protocol.py",
+        "construct",
+        "PLAN.json",
+        "CONSTRUCTED.json"
+      ],
+      "cwd": "work/cutoff5_20261020/high/complement5_v1",
+      "entry": "work/cutoff5_20261020/high/complement5_v1/protocol.py",
+      "id": "67.complement.construct",
+      "kind": "original_full_numerical_or_exact_control_program",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/high/complement5_v1/CONSTRUCTED.json"
+      ],
+      "required_actual_capture_slot": "runs/cutoff5_20261020/high/complement_construct01",
+      "scope": "All41 closed strips and42 attempted full integrations, both complete passes, all original native controls",
+      "source": {
+        "bytes": 6396,
+        "functions": {
+          "controls": {
+            "end": 62,
+            "start": 42
+          },
+          "invalid": {
+            "end": 18,
+            "start": 18
+          },
+          "loads": {
+            "end": 19,
+            "start": 19
+          },
+          "main": {
+            "end": 92,
+            "start": 63
+          },
+          "need": {
+            "end": 12,
+            "start": 11
+          },
+          "rat": {
+            "end": 21,
+            "start": 20
+          },
+          "sha": {
+            "end": 13,
+            "start": 13
+          },
+          "unique": {
+            "end": 17,
+            "start": 14
+          },
+          "validate": {
+            "end": 41,
+            "start": 22
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/high/complement5_v1/protocol.py",
+        "sha256": "c84bf5d56ed2a9a001686c19ec42ac158248ca73c98b63266b266188a8172eb6"
+      }
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "protocol.py",
+        "replay",
+        "PLAN.json",
+        "REPLAY.json"
+      ],
+      "cwd": "work/cutoff5_20261020/high/complement5_v1",
+      "entry": "work/cutoff5_20261020/high/complement5_v1/protocol.py",
+      "id": "67.complement.replay",
+      "kind": "original_full_numerical_or_exact_control_program",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/high/complement5_v1/REPLAY.json"
+      ],
+      "required_actual_capture_slot": "runs/cutoff5_20261020/high/complement_replay01",
+      "scope": "All41 closed strips and42 attempted full integrations, both complete passes, all original native controls",
+      "source": {
+        "bytes": 6396,
+        "functions": {
+          "controls": {
+            "end": 62,
+            "start": 42
+          },
+          "invalid": {
+            "end": 18,
+            "start": 18
+          },
+          "loads": {
+            "end": 19,
+            "start": 19
+          },
+          "main": {
+            "end": 92,
+            "start": 63
+          },
+          "need": {
+            "end": 12,
+            "start": 11
+          },
+          "rat": {
+            "end": 21,
+            "start": 20
+          },
+          "sha": {
+            "end": 13,
+            "start": 13
+          },
+          "unique": {
+            "end": 17,
+            "start": 14
+          },
+          "validate": {
+            "end": 41,
+            "start": 22
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/high/complement5_v1/protocol.py",
+        "sha256": "c84bf5d56ed2a9a001686c19ec42ac158248ca73c98b63266b266188a8172eb6"
+      }
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "accept.py"
+      ],
+      "cwd": "work/cutoff5_20261020/high/complement5_v1",
+      "entry": "work/cutoff5_20261020/high/complement5_v1/accept.py",
+      "id": "67.complement.accept",
+      "kind": "original_full_numerical_or_exact_control_program",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/high/complement5_v1/COMPLEMENT_CHECKED.json"
+      ],
+      "required_actual_capture_slot": "runs/cutoff5_20261020/high/complement_accept01",
+      "scope": "Full original10-control complement acceptance, actual source/capture, same-domain support and exact external tail join",
+      "source": {
+        "bytes": 7954,
+        "functions": {
+          "bind": {
+            "end": 89,
+            "start": 83
+          },
+          "need": {
+            "end": 16,
+            "start": 15
+          },
+          "read": {
+            "end": 22,
+            "start": 22
+          },
+          "sha": {
+            "end": 17,
+            "start": 17
+          },
+          "sqrtup": {
+            "end": 24,
+            "start": 23
+          },
+          "unique": {
+            "end": 21,
+            "start": 18
+          },
+          "untimed": {
+            "end": 28,
+            "start": 25
+          },
+          "verify": {
+            "end": 56,
+            "start": 30
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/high/complement5_v1/accept.py",
+        "sha256": "501b32d4770864dc76ea5ec01705773b4cfd9ae3e2405bd77f5f6a429c48a420"
+      }
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py"
+      ],
+      "cwd": "work/cutoff5_20261020/audit/complement5_readback_v1",
+      "entry": "work/cutoff5_20261020/audit/complement5_readback_v1/check.py",
+      "id": "67.complement.full-readback",
+      "kind": "original_full_numerical_or_exact_control_program",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/audit/complement5_readback_v1/READBACK.json"
+      ],
+      "scope": "Full original19 independent controls including wrong-q/missing-ray/false-polynomial controls, all support rows and41 strips/42attempts; original kernel oracle not rerun by this readback",
+      "source": {
+        "bytes": 15715,
+        "functions": {
+          "capture": {
+            "end": 40,
+            "start": 29
+          },
+          "fourier": {
+            "end": 125,
+            "start": 86
+          },
+          "load": {
+            "end": 21,
+            "start": 18
+          },
+          "main": {
+            "end": 210,
+            "start": 126
+          },
+          "root": {
+            "end": 24,
+            "start": 22
+          },
+          "rowcheck": {
+            "end": 85,
+            "start": 56
+          },
+          "support": {
+            "end": 55,
+            "start": 41
+          },
+          "untimed": {
+            "end": 28,
+            "start": 25
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/complement5_readback_v1/check.py",
+        "sha256": "14f7dba5e6423017e29047b895d5fdaf327fa97dc128a48173980dd24df0a54c"
+      }
+    }
+  ],
+  "required_fresh_support_programs": [
+    {
+      "argv": [
+        "python",
+        "-B",
+        "protocol.py",
+        "construct",
+        "CONSTRUCTED.json"
+      ],
+      "cwd": "work/cutoff5_20261020/high/support_v2",
+      "entry": "work/cutoff5_20261020/high/support_v2/protocol.py",
+      "id": "67.support_v2.construct",
+      "kind": "original_full_numerical_or_exact_control_program",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/high/support_v2/CONSTRUCTED.json"
+      ],
+      "required_actual_capture_slot": "runs/cutoff5_20261020/high/support_tighter_construct01",
+      "scope": "All9 original literal-n5 closed-rho support rows, both full rays; replay compares newly constructed whole rows",
+      "source": {
+        "bytes": 2936,
+        "functions": {
+          "main": {
+            "end": 48,
+            "start": 17
+          },
+          "need": {
+            "end": 15,
+            "start": 14
+          },
+          "sha": {
+            "end": 16,
+            "start": 16
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/high/support_v2/protocol.py",
+        "sha256": "cced489eb07e7a8712e8d01d67a0be62bd28e07edc5859d4b76502f1e6e84c53"
+      }
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "protocol.py",
+        "replay",
+        "REPLAY_CHECKED.json"
+      ],
+      "cwd": "work/cutoff5_20261020/high/support_v2",
+      "entry": "work/cutoff5_20261020/high/support_v2/protocol.py",
+      "id": "67.support_v2.replay",
+      "kind": "original_full_numerical_or_exact_control_program",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/high/support_v2/REPLAY_CHECKED.json"
+      ],
+      "required_actual_capture_slot": "runs/cutoff5_20261020/high/support_tighter_replay01",
+      "scope": "All9 original literal-n5 closed-rho support rows, both full rays; replay compares newly constructed whole rows",
+      "source": {
+        "bytes": 2936,
+        "functions": {
+          "main": {
+            "end": 48,
+            "start": 17
+          },
+          "need": {
+            "end": 15,
+            "start": 14
+          },
+          "sha": {
+            "end": 16,
+            "start": 16
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/high/support_v2/protocol.py",
+        "sha256": "cced489eb07e7a8712e8d01d67a0be62bd28e07edc5859d4b76502f1e6e84c53"
+      }
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "protocol.py",
+        "construct",
+        "CONSTRUCTED.json"
+      ],
+      "cwd": "work/cutoff5_20261020/high/support_A0_v1",
+      "entry": "work/cutoff5_20261020/high/support_A0_v1/protocol.py",
+      "id": "67.support_A0_v1.construct",
+      "kind": "original_full_numerical_or_exact_control_program",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/high/support_A0_v1/CONSTRUCTED.json"
+      ],
+      "required_actual_capture_slot": "runs/cutoff5_20261020/high/support_A0_construct01",
+      "scope": "All1 original literal-n5 closed-rho support rows, both full rays; replay compares newly constructed whole rows",
+      "source": {
+        "bytes": 2695,
+        "functions": {
+          "main": {
+            "end": 44,
+            "start": 13
+          },
+          "need": {
+            "end": 11,
+            "start": 10
+          },
+          "sha": {
+            "end": 12,
+            "start": 12
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/high/support_A0_v1/protocol.py",
+        "sha256": "e0e312e94a73b8bc8f14ac67166e57782f4cfed340b181490bdce29e48023c54"
+      }
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "protocol.py",
+        "replay",
+        "REPLAY_CHECKED.json"
+      ],
+      "cwd": "work/cutoff5_20261020/high/support_A0_v1",
+      "entry": "work/cutoff5_20261020/high/support_A0_v1/protocol.py",
+      "id": "67.support_A0_v1.replay",
+      "kind": "original_full_numerical_or_exact_control_program",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/high/support_A0_v1/REPLAY_CHECKED.json"
+      ],
+      "required_actual_capture_slot": "runs/cutoff5_20261020/high/support_A0_replay01",
+      "scope": "All1 original literal-n5 closed-rho support rows, both full rays; replay compares newly constructed whole rows",
+      "source": {
+        "bytes": 2695,
+        "functions": {
+          "main": {
+            "end": 44,
+            "start": 13
+          },
+          "need": {
+            "end": 11,
+            "start": 10
+          },
+          "sha": {
+            "end": 12,
+            "start": 12
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/high/support_A0_v1/protocol.py",
+        "sha256": "e0e312e94a73b8bc8f14ac67166e57782f4cfed340b181490bdce29e48023c54"
+      }
+    }
+  ],
+  "required_original_exact_control_programs": [
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py"
+      ],
+      "cwd": "work/cutoff5_20261020/root/count_identity_controls_v1",
+      "entry": "work/cutoff5_20261020/root/count_identity_controls_v1/check.py",
+      "id": "67.control.count-identities",
+      "kind": "original_full_numerical_or_exact_control_program",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/root/count_identity_controls_v1/CHECKED.json"
+      ],
+      "scope": "All original exact count/product/fourth/quartic/strict-outgoing and atom controls",
+      "source": {
+        "bytes": 5867,
+        "functions": {
+          "cdf": {
+            "end": 43,
+            "start": 42
+          },
+          "centered_pair": {
+            "end": 39,
+            "start": 37
+          },
+          "conv": {
+            "end": 23,
+            "start": 18
+          },
+          "main": {
+            "end": 132,
+            "start": 50
+          },
+          "mean": {
+            "end": 34,
+            "start": 33
+          },
+          "need": {
+            "end": 15,
+            "start": 13
+          },
+          "power": {
+            "end": 30,
+            "start": 26
+          },
+          "quartic": {
+            "end": 47,
+            "start": 46
+          }
+        },
+        "member": "cutoff5_20261020/root/count_identity_controls_v1/check.py",
+        "sha256": "fe981d944eb6e2f7e1a53c5715306a473aa0fdaef96bc45f08bdd7a02819e984"
+      }
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py"
+      ],
+      "cwd": "work/cutoff5_20261020/audit/conserved_identity_review_v1",
+      "entry": "work/cutoff5_20261020/audit/conserved_identity_review_v1/check.py",
+      "id": "67.control.conserved-identities",
+      "kind": "original_full_numerical_or_exact_control_program",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/audit/conserved_identity_review_v1/CHECKED.json"
+      ],
+      "scope": "All5 exact formal identities and all5 endpoint/sign/scale controls",
+      "source": {
+        "bytes": 5288,
+        "functions": {
+          "P": {
+            "end": 50,
+            "start": 8
+          },
+          "coerce": {
+            "end": 53,
+            "start": 52
+          },
+          "main": {
+            "end": 127,
+            "start": 60
+          },
+          "sha": {
+            "end": 58,
+            "start": 57
+          },
+          "zero": {
+            "end": 56,
+            "start": 54
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/conserved_identity_review_v1/check.py",
+        "sha256": "41c70adf77bb5adca130a20ab11e2721d6a45d762afd1915d32d3eaa83968232"
+      }
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py"
+      ],
+      "cwd": "work/cutoff5_20261020/audit/low_phase_port_review_v1",
+      "entry": "work/cutoff5_20261020/audit/low_phase_port_review_v1/check.py",
+      "id": "67.control.low-phase-port",
+      "kind": "original_full_numerical_or_exact_control_program",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/audit/low_phase_port_review_v1/CHECKED.json"
+      ],
+      "scope": "Complete original literal5 source ports,36 fractional-affine cases and5 mutation controls",
+      "source": {
+        "bytes": 4031,
+        "functions": {
+          "main": {
+            "end": 80,
+            "start": 27
+          },
+          "need": {
+            "end": 12,
+            "start": 11
+          },
+          "sha": {
+            "end": 14,
+            "start": 13
+          },
+          "transformed": {
+            "end": 25,
+            "start": 16
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/low_phase_port_review_v1/check.py",
+        "sha256": "e2c319587257e564b6170e6915b7ad63fa54f8c1108b7a388d442c05a431ff9e"
+      }
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py"
+      ],
+      "cwd": "work/cutoff5_20261020/audit/resource_ports_review_v1",
+      "entry": "work/cutoff5_20261020/audit/resource_ports_review_v1/check.py",
+      "id": "67.control.resource-ports",
+      "kind": "original_full_numerical_or_exact_control_program",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/audit/resource_ports_review_v1/SIGNED_GAMMA_CHECKED.json",
+        "work/cutoff5_20261020/audit/resource_ports_review_v1/SIGN_FLOOR_CHECKED.json",
+        "work/cutoff5_20261020/audit/resource_ports_review_v1/FEEDBACK_CHECKED.json"
+      ],
+      "scope": "All signed-gamma rectangle/perspective comparisons,100 sign-floor panels/finite-law controls, complete feedback source-port controls",
+      "source": {
+        "bytes": 9686,
+        "functions": {
+          "emit": {
+            "end": 23,
+            "start": 17
+          },
+          "main": {
+            "end": 155,
+            "start": 30
+          },
+          "need": {
+            "end": 12,
+            "start": 11
+          },
+          "rep": {
+            "end": 16,
+            "start": 14
+          },
+          "sha": {
+            "end": 13,
+            "start": 13
+          },
+          "verify_graph": {
+            "end": 28,
+            "start": 24
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/resource_ports_review_v1/check.py",
+        "sha256": "303e93de65b0297136f5b07bf378e0ee43ad46ae52a77b7c69af58ff0c0fafda"
+      }
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py"
+      ],
+      "cwd": "work/cutoff5_20261020/audit/resource_semantics_review_v1",
+      "entry": "work/cutoff5_20261020/audit/resource_semantics_review_v1/check.py",
+      "id": "67.control.resource-semantics",
+      "kind": "original_full_numerical_or_exact_control_program",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/audit/resource_semantics_review_v1/CHECKED.json"
+      ],
+      "scope": "All original exact finite-law, conditional Taylor, localizing-matrix and Bernstein reconstruction controls",
+      "source": {
+        "bytes": 10137,
+        "functions": {
+          "add": {
+            "end": 14,
+            "start": 14
+          },
+          "bernstein": {
+            "end": 66,
+            "start": 47
+          },
+          "binary": {
+            "end": 27,
+            "start": 25
+          },
+          "det": {
+            "end": 32,
+            "start": 32
+          },
+          "gaps": {
+            "end": 46,
+            "start": 34
+          },
+          "integ_power": {
+            "end": 33,
+            "start": 33
+          },
+          "main": {
+            "end": 197,
+            "start": 68
+          },
+          "mix": {
+            "end": 29,
+            "start": 28
+          },
+          "moment": {
+            "end": 31,
+            "start": 30
+          },
+          "mul": {
+            "end": 16,
+            "start": 16
+          },
+          "need": {
+            "end": 11,
+            "start": 10
+          },
+          "nonneg": {
+            "end": 24,
+            "start": 18
+          },
+          "sc": {
+            "end": 17,
+            "start": 17
+          },
+          "sha": {
+            "end": 12,
+            "start": 12
+          },
+          "sub": {
+            "end": 15,
+            "start": 15
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/resource_semantics_review_v1/check.py",
+        "sha256": "b6ccffd44fcb6c4486acd885dd954fcfba175c5a77f3f23a4f37aaab25625f19"
+      }
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py"
+      ],
+      "cwd": "work/cutoff5_20261020/audit/count_kernel_analytic_review_v1",
+      "entry": "work/cutoff5_20261020/audit/count_kernel_analytic_review_v1/check.py",
+      "id": "67.control.count-kernel-controls",
+      "kind": "original_full_numerical_or_exact_control_program",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/audit/count_kernel_analytic_review_v1/CHECKED.json"
+      ],
+      "scope": "All3 formal identities,20 actual finite-law checks through active original filters and all original negative controls; no forest replay",
+      "source": {
+        "bytes": 7588,
+        "functions": {
+          "main": {
+            "end": 152,
+            "start": 31
+          },
+          "moment": {
+            "end": 29,
+            "start": 28
+          },
+          "need": {
+            "end": 16,
+            "start": 15
+          },
+          "roots": {
+            "end": 24,
+            "start": 19
+          },
+          "sha": {
+            "end": 18,
+            "start": 17
+          },
+          "two": {
+            "end": 27,
+            "start": 25
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/count_kernel_analytic_review_v1/check.py",
+        "sha256": "159897d796f14be85c85a350f5b86839d64db9ccd731f4605ea020963b17aea4"
+      }
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py"
+      ],
+      "cwd": "work/cutoff5_20261020/audit/count5_port_review_v1",
+      "entry": "work/cutoff5_20261020/audit/count5_port_review_v1/check.py",
+      "id": "67.control.count-preparer-port",
+      "kind": "original_full_numerical_or_exact_control_program",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/audit/count5_port_review_v1/CHECKED.json"
+      ],
+      "scope": "Complete original literal5 preparer source equality and all source mutations",
+      "source": {
+        "bytes": 4889,
+        "functions": {
+          "main": {
+            "end": 102,
+            "start": 48
+          },
+          "need": {
+            "end": 15,
+            "start": 13
+          },
+          "reviewed_port": {
+            "end": 30,
+            "start": 20
+          },
+          "sha": {
+            "end": 18,
+            "start": 17
+          },
+          "validate": {
+            "end": 46,
+            "start": 32
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/count5_port_review_v1/check.py",
+        "sha256": "493333b9fb82a62ee0915b6e2e58e4c434d74731981b6fef02ed7fc5c1817dd0"
+      }
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py"
+      ],
+      "cwd": "work/cutoff5_20261020/audit/sector_count_port_review_v1",
+      "entry": "work/cutoff5_20261020/audit/sector_count_port_review_v1/check.py",
+      "id": "67.control.sector-preparer-port",
+      "kind": "original_full_numerical_or_exact_control_program",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/audit/sector_count_port_review_v1/CHECKED.json"
+      ],
+      "scope": "Complete original signed-sector preparer source/contract port",
+      "source": {
+        "bytes": 2863,
+        "functions": {
+          "need": {
+            "end": 7,
+            "start": 6
+          },
+          "scope": {
+            "end": 25,
+            "start": 22
+          },
+          "sha": {
+            "end": 8,
+            "start": 8
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/sector_count_port_review_v1/check.py",
+        "sha256": "0e7854e33a5cfaa50f77166d9c2a3ded05a76db260963e3fd32115e0cd066659"
+      }
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py"
+      ],
+      "cwd": "work/cutoff5_20261020/audit/endpoint_count_port_review_v1",
+      "entry": "work/cutoff5_20261020/audit/endpoint_count_port_review_v1/check.py",
+      "id": "67.control.endpoint-count-port",
+      "kind": "original_full_numerical_or_exact_control_program",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/audit/endpoint_count_port_review_v1/CHECKED.json"
+      ],
+      "scope": "Complete original endpoint-product count interface port",
+      "source": {
+        "bytes": 4483,
+        "functions": {
+          "gate": {
+            "end": 45,
+            "start": 43
+          },
+          "need": {
+            "end": 7,
+            "start": 6
+          },
+          "sha": {
+            "end": 8,
+            "start": 8
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/endpoint_count_port_review_v1/check.py",
+        "sha256": "d019fb6b24775d7c5c47a10369a40310e2f6194b3f38a81ab9561aaf34693988"
+      }
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py"
+      ],
+      "cwd": "work/cutoff5_20261020/high/endpoint_product_review_v1",
+      "entry": "work/cutoff5_20261020/high/endpoint_product_review_v1/check.py",
+      "id": "67.control.endpoint-product-port",
+      "kind": "original_full_numerical_or_exact_control_program",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/high/endpoint_product_review_v1/CHECKED.json"
+      ],
+      "scope": "Complete original endpoint-product resource source/interval functions and all controls",
+      "source": {
+        "bytes": 10147,
+        "functions": {
+          "binary": {
+            "end": 130,
+            "start": 127
+          },
+          "ceil_grid": {
+            "end": 138,
+            "start": 137
+          },
+          "check_port": {
+            "end": 82,
+            "start": 53
+          },
+          "dump": {
+            "end": 26,
+            "start": 25
+          },
+          "expression": {
+            "end": 30,
+            "start": 29
+          },
+          "mix": {
+            "end": 134,
+            "start": 133
+          },
+          "need": {
+            "end": 18,
+            "start": 16
+          },
+          "price_nodes": {
+            "end": 50,
+            "start": 46
+          },
+          "sha": {
+            "end": 22,
+            "start": 21
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/high/endpoint_product_review_v1/check.py",
+        "sha256": "314a020de5db217a3ac65dee984c20a30ba96d75f22841de990760d18305a427"
+      }
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py"
+      ],
+      "cwd": "work/cutoff5_20261020/high/B3_sector_resource_review_v1",
+      "entry": "work/cutoff5_20261020/high/B3_sector_resource_review_v1/check.py",
+      "id": "67.control.b3-sector-resource-port",
+      "kind": "original_full_numerical_or_exact_control_program",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/high/B3_sector_resource_review_v1/CHECKED.json"
+      ],
+      "scope": "Complete original B3 sector source ports and all native mutations",
+      "source": {
+        "bytes": 7950,
+        "functions": {
+          "bind": {
+            "end": 36,
+            "start": 33
+          },
+          "expected": {
+            "end": 28,
+            "start": 15
+          },
+          "join": {
+            "end": 42,
+            "start": 37
+          },
+          "need": {
+            "end": 12,
+            "start": 11
+          },
+          "read": {
+            "end": 10,
+            "start": 10
+          },
+          "replace_once": {
+            "end": 14,
+            "start": 13
+          },
+          "sha": {
+            "end": 9,
+            "start": 9
+          },
+          "verify_port": {
+            "end": 30,
+            "start": 29
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/high/B3_sector_resource_review_v1/check.py",
+        "sha256": "7b6ad2ef903ee88568ec9295e31d996bedec92477caa1ee0c1542c880cc342d6"
+      }
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py"
+      ],
+      "cwd": "work/cutoff5_20261020/high/B3_T3lower_resource_review_v1",
+      "entry": "work/cutoff5_20261020/high/B3_T3lower_resource_review_v1/check.py",
+      "id": "67.control.b3-t3lower-resource-port",
+      "kind": "original_full_numerical_or_exact_control_program",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/high/B3_T3lower_resource_review_v1/CHECKED.json"
+      ],
+      "scope": "Complete original T3lower source/profile/seed restriction and all native mutations",
+      "source": {
+        "bytes": 5479,
+        "functions": {
+          "bind": {
+            "end": 41,
+            "start": 40
+          },
+          "need": {
+            "end": 12,
+            "start": 11
+          },
+          "read": {
+            "end": 10,
+            "start": 10
+          },
+          "sha": {
+            "end": 9,
+            "start": 9
+          },
+          "validate": {
+            "end": 34,
+            "start": 13
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/high/B3_T3lower_resource_review_v1/check.py",
+        "sha256": "a6d8ac45f943c6510341825eb21721df614a7b97db93dd643b82423fbd7bfaa0"
+      }
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py"
+      ],
+      "cwd": "work/cutoff5_20261020/root/fourier_scalar_review_v1",
+      "entry": "work/cutoff5_20261020/root/fourier_scalar_review_v1/check.py",
+      "id": "67.control.scalar-certificate",
+      "kind": "original_full_numerical_or_exact_control_program",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/root/fourier_scalar_review_v1/CERTIFICATE.json",
+        "work/cutoff5_20261020/root/fourier_scalar_review_v1/CHECKED.json"
+      ],
+      "scope": "Original full81-cell degree13 kappa62/625 certificate construction and all11 controls; exact cosine/convex splice/pi checks",
+      "source": {
+        "bytes": 5112,
+        "functions": {
+          "atan_bracket": {
+            "end": 105,
+            "start": 102
+          },
+          "construct": {
+            "end": 43,
+            "start": 36
+          },
+          "cos_poly": {
+            "end": 91,
+            "start": 90
+          },
+          "shifted": {
+            "end": 33,
+            "start": 23
+          },
+          "verify": {
+            "end": 61,
+            "start": 46
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/root/fourier_scalar_review_v1/check.py",
+        "sha256": "901e9e4fc1c6274c4f861ccac4bdbc63c4f38ad663d2cef45a4decbcdd202a10"
+      }
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "check.py"
+      ],
+      "cwd": "work/cutoff5_20261020/audit/fourier_inputs_review_v1",
+      "entry": "work/cutoff5_20261020/audit/fourier_inputs_review_v1/check.py",
+      "id": "67.control.independent-scalar-high-port",
+      "kind": "original_full_numerical_or_exact_control_program",
+      "native_action_performed_during_preparation": false,
+      "outputs": [
+        "work/cutoff5_20261020/audit/fourier_inputs_review_v1/ETA_HIGH_CHECKED.json",
+        "work/cutoff5_20261020/audit/fourier_inputs_review_v1/SCALAR_READBACK.json"
+      ],
+      "scope": "Original36 rational ETA-HIGH source-port identities and3 mutations,81-cell independent global-power reconstruction and5 mutations, exact splice checks",
+      "source": {
+        "bytes": 7565,
+        "functions": {
+          "linear_power": {
+            "end": 24,
+            "start": 23
+          },
+          "main": {
+            "end": 129,
+            "start": 43
+          },
+          "need": {
+            "end": 9,
+            "start": 8
+          },
+          "polynomial_product": {
+            "end": 22,
+            "start": 18
+          },
+          "profile_verify": {
+            "end": 41,
+            "start": 25
+          },
+          "rep": {
+            "end": 13,
+            "start": 11
+          },
+          "save": {
+            "end": 17,
+            "start": 14
+          },
+          "sha": {
+            "end": 10,
+            "start": 10
+          }
+        },
+        "member": "cutoff5_20261020/root/delivery_extract_v1/work/cutoff5_20261020/audit/fourier_inputs_review_v1/check.py",
+        "sha256": "2607e07b614b3eb547d08b7d18127ed810083c5a9ec732cbf7000f6682fa2c96"
+      }
+    }
+  ],
+  "reused_arithmetic": {
+    "notebook08": {
+      "equivalent_per_law": "Delta3(P)<=59*rho(P)/250",
+      "required_global_n3": "C3<=59*sqrt(3)/250",
+      "weaker_C3_le_CE_is_insufficient_for_ROOT4_owner": true
+    },
+    "notebook11": {
+      "all260parents_and_both_complete_passes_required": true,
+      "all_law_placement_requires_G3_and_analytic_localization": true,
+      "physical_bound": "T=4097/10000"
+    },
+    "notebook13": {
+      "both_phase_rays_required": true,
+      "leaves": 1027,
+      "nodes": 1994,
+      "positive_closed_discrepancy_only": true,
+      "roots": 60
+    },
+    "notebook35": {
+      "catalog": "proof/n5_remaining_catalog.json",
+      "catalog_sha256": "29cd3d9f8c30d8391b19792d5197a5a9d6b26b67e294500f53b2827441553ca3",
+      "count_forests": 295,
+      "count_leaves": 75178,
+      "count_roots": 1770,
+      "full_completed_evidence_required": true,
+      "global_coarse_owncap_controls": 24,
+      "global_coarse_owncap_strips": 87,
+      "historical_receipts_are_not_fresh_evidence": true,
+      "initial_jobs": 12,
+      "jobs": 326,
+      "probability_panel_obligations": 1200,
+      "resources": 15
+    }
+  },
+  "schema": "REMAINING_N5_DELIVERY_PARTITION_V1",
+  "semantic_reference_calls": 25,
+  "small_index_source_references": {
+    "be_replay/small_indices.py": {
+      "bytes": 23869,
+      "sha256": "06667714b4822639ea7301400c28e09e199e23ae7c11fb344a6af15d3013f8f2"
+    },
+    "proof/code_root4_all_law_localization_audit.md": {
+      "bytes": 13124,
+      "sha256": "f4396249167c4788ac3c35f4e737beea0e7e5bd7ba1f68a60565fd81510f9344"
+    },
+    "vendor/n2_n3_75a9470/MANIFEST.json": {
+      "bytes": 49786,
+      "sha256": "8ca0f5c30991b50c61fc998c7c873873c2ac7d2bde6611123ce74651e1a3c26b"
+    },
+    "vendor/n2_n3_75a9470/n3/verify.py": {
+      "bytes": 8668,
+      "sha256": "73002b7630faf496df86cfacb74c9c9b35a2db801dd40cbc8df8de0dd3725cef"
+    }
+  },
+  "source_census_complete_for_listed_entrypoints": true,
+  "source_only_existing_typed_join_references": {
+    "vendor/n5_remaining_snapshot_v1/reproduction/all_indices/c5_acquisition_plan.py": {
+      "bytes": 18026,
+      "sha256": "c06c5db0d904a41edc8719270cec6a43f19de9459401b4c3d978d7f28fa8d5f4"
+    },
+    "vendor/n5_remaining_snapshot_v1/reproduction/all_indices/c5_initial_join.py": {
+      "bytes": 9372,
+      "sha256": "0eca496c8a8ec0c75663b0030820eaeb901c881923b7693b3494d53275f27b06"
+    },
+    "vendor/n5_remaining_snapshot_v1/reproduction/all_indices/c5_parent_facts.py": {
+      "bytes": 8685,
+      "sha256": "34df4b18e79f85ae53952dc6a336eb1ece13a73604cfb38730efd85bc0f9ddde"
+    },
+    "vendor/n5_remaining_snapshot_v1/reproduction/all_indices/c5_resources_arithmetic.py": {
+      "bytes": 12737,
+      "sha256": "e1b8ab868184e78797062d4092e1f6f6f41882b4bca9b541f8306e79fa7d64c2"
+    }
+  },
+  "source_only_no_original_math": true,
+  "transitive_runtime_source_epochs_sealed": false,
+  "typed_mathematical_inputs": [
+    {
+      "acquired_by_this_inventory": false,
+      "id": "G3",
+      "producer": "08",
+      "quantifier": "ALL standardized real iid marginals with finite third absolute moment",
+      "statement": "C3<=59*sqrt(3)/250",
+      "weaker_C3_le_CE_substitution_allowed": false
+    },
+    {
+      "acquired_by_this_inventory": false,
+      "id": "ROOT4_ALL_LAW",
+      "physical_receipt_alone_is_global": false,
+      "producer": "11 plus G3 and the explicit unrestricted localization/physical proof",
+      "scope": "Both discrepancy orientations, arbitrary standardized real marginals; all260physical parents and both full numerical passes",
+      "statement": "C4<=4097/10000<CE"
+    },
+    {
+      "acquired_by_this_inventory": false,
+      "contrary_branch": "C5>=CE",
+      "equality_included": true,
+      "id": "Q5",
+      "n": 5,
+      "relation": "q5=5*(R4(P)-C5)_+=0",
+      "requires": [
+        "ROOT4_ALL_LAW"
+      ],
+      "same_oriented_contrary_marginal": true
+    },
+    {
+      "acquired_by_this_inventory": false,
+      "id": "GLOBAL_COARSE5",
+      "may_replace_with_supported_only": false,
+      "producer": "35 owncaps/coarse full87-strip original readback",
+      "required_for": [
+        "INITIAL B0",
+        "INITIAL BN"
+      ],
+      "statement": "GLOBAL C5<429/1000"
+    },
+    {
+      "acquired_by_this_inventory": false,
+      "common_physical_witness": true,
+      "id": "SUPPORTED5",
+      "n": 5,
+      "producer": "Validated35 arithmetic and current same-witness joins",
+      "requires": [
+        "Q5"
+      ],
+      "scope": "Whole child rho/support domains; direct support before higher moments, HIGH/owncaps before INITIAL"
+    },
+    {
+      "acquired_by_this_inventory": false,
+      "all_final_active_cells_gap_licensed": true,
+      "id": "INITIAL5",
+      "jobs": 12,
+      "moment_cells_per_stage": 2592,
+      "n": 5,
+      "panels_per_job": 100,
+      "physical_seed_imported": false,
+      "producer": "35 twelve full INITIAL replays",
+      "requires": [
+        "SUPPORTED5",
+        "GLOBAL_COARSE5 where requested"
+      ],
+      "stages_allowed": [
+        4,
+        9
+      ]
+    },
+    {
+      "acquired_by_this_inventory": false,
+      "all_simultaneous_scalar_support_joint_signed_phase_fields_required": true,
+      "id": "RESOURCES5",
+      "jobs": 15,
+      "n": 5,
+      "panel_instances": 1200,
+      "producer": "35 fifteen full native resource cases and current parent joins",
+      "requires": [
+        "INITIAL5",
+        "SUPPORTED5"
+      ]
+    },
+    {
+      "acquired_by_this_inventory": false,
+      "all_closed_threshold_roots_and_tails_required": true,
+      "forests": 295,
+      "id": "COUNT5",
+      "n": 5,
+      "original_roots": 1770,
+      "producer": "35 full295nativeaccepts and current resource-contract interfaces",
+      "requires": [
+        "RESOURCES5",
+        "Reviewed unrestricted conditional count/threshold rules"
+      ],
+      "resource_exclusions": 905,
+      "strict_outgoing_closed_incoming": true
+    },
+    {
+      "acquired_by_this_inventory": false,
+      "beta": [
+        "17/50",
+        "35139006743001/100000000000000"
+      ],
+      "full_phase_line": true,
+      "id": "CORNER5",
+      "n": 5,
+      "positive_closed_discrepancy_only": true,
+      "producer": "13",
+      "requires_predecessor": false,
+      "rho": [
+        "477/400",
+        "6/5"
+      ]
+    },
+    {
+      "acquired_by_this_inventory": false,
+      "id": "COMPLEMENT5",
+      "n": 5,
+      "producer": "67 new full original source route",
+      "requires": [
+        "Q5",
+        "Pointwise closed-halfline Prawitz and reviewed same-law Fourier/eta/zeta inputs",
+        "Exact scalar/source controls",
+        "Both complete current integrations and support pairs"
+      ],
+      "rho_finite": [
+        "6/5",
+        "7361/4000"
+      ],
+      "strict_target": "4097/10000",
+      "support_bands": [
+        {
+          "name": "A0",
+          "radius": "13/5",
+          "rho": [
+            "6/5",
+            "5/4"
+          ]
+        },
+        {
+          "name": "A1",
+          "radius": "117/40",
+          "rho": [
+            "5/4",
+            "7/5"
+          ]
+        },
+        {
+          "name": "B",
+          "radius": "25/8",
+          "rho": [
+            "7/5",
+            "3/2"
+          ]
+        },
+        {
+          "name": "C",
+          "radius": "133/40",
+          "rho": [
+            "3/2",
+            "8/5"
+          ]
+        },
+        {
+          "name": "D",
+          "radius": "7/2",
+          "rho": [
+            "8/5",
+            "17/10"
+          ]
+        },
+        {
+          "name": "E",
+          "radius": "15/4",
+          "rho": [
+            "17/10",
+            "7361/4000"
+          ]
+        }
+      ],
+      "tail": {
+        "decreasing_expression": "(3031/10000)*(1+(323/500)/rho)",
+        "published_theorem_required": true,
+        "rho_lower": "7361/4000",
+        "upper_at_lower": "819/2000"
+      }
+    },
+    {
+      "acquired_by_this_inventory": false,
+      "all_rho_beta_p_closed_seams_required": true,
+      "id": "GLOBAL5",
+      "producer": "67 final typed composition",
+      "requires": [
+        "ROOT4_ALL_LAW",
+        "COUNT5",
+        "CORNER5",
+        "COMPLEMENT5",
+        "Unrestricted attainment/contact/reflection and the reviewed common analytic inputs"
+      ],
+      "statement": "C5<=CE"
+    }
+  ]
+}

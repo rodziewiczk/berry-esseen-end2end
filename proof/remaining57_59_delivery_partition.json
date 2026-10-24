@@ -1,0 +1,865 @@
+{
+  "schema": "REMAINING57_59_DELIVERY_PARTITION_V1",
+  "scope": "Selected current n15--19 and direct actual26--30 proof routes only; not a global theorem or a census of other parent packages.",
+  "source_only_no_original_math": true,
+  "source_census_complete_for_listed_entrypoints": true,
+  "transitive_runtime_source_epochs_sealed": false,
+  "fixed_new_notebook_partition_count": 4,
+  "partition_is_operational_not_minimal": true,
+  "implemented_new_notebooks": [
+    "57F",
+    "57G"
+  ],
+  "unimplemented_new_notebooks": [
+    "57H",
+    "59D"
+  ],
+  "units": [
+    {
+      "id": "57F",
+      "state": "IMPLEMENTED_CLEAN16_FIXTURES_PASS_PUBLICATION_PENDING",
+      "title": "n15--19 B0 INITIAL/resources",
+      "native_calls": 20,
+      "cases": [
+        "n15-b0",
+        "n16-b0",
+        "n17-b0",
+        "n18-b0",
+        "n19-b0"
+      ],
+      "requires": [
+        "validated57E"
+      ],
+      "outputs": [
+        "five full four-action case exports"
+      ]
+    },
+    {
+      "id": "57G",
+      "state": "IMPLEMENTED_CLEAN16_FIXTURES_PASS_PUBLICATION_PENDING",
+      "title": "n15--19 BN INITIAL/resources",
+      "native_calls": 20,
+      "cases": [
+        "n15-bn",
+        "n16-bn",
+        "n17-bn",
+        "n18-bn",
+        "n19-bn"
+      ],
+      "requires": [
+        "validated57E"
+      ],
+      "outputs": [
+        "five full four-action case exports"
+      ]
+    },
+    {
+      "id": "57H",
+      "state": "NOT_IMPLEMENTED_CURRENT_EVIDENCE_JOIN",
+      "title": "Complete selected n15--19 bounded controls and current-evidence semantic join",
+      "native_leaf_calls": 0,
+      "requires": [
+        "51:147 full COUNT exports",
+        "57A",
+        "57B",
+        "57C",
+        "57D",
+        "57E",
+        "57F",
+        "57G",
+        "56K:actual fixed-kappa certificate bytes plus full current evidence and exact fixed source/polynomial/domain identity",
+        "global14 conclusion from56; alternatively export a conditional15--19 implication for final63"
+      ],
+      "checks": [
+        "all1000 original p dispositions across ten index/band families",
+        "all147 resource-row-to-original-count-contract implications",
+        "all10 actual support and cancellation-HIGH premises",
+        "auxiliary/support/supported-HIGH/owncap/contact order for the same law",
+        "n15 base then n16,n17,n18,n19 sequential implications with no skipped failed step",
+        "closed finite rho seams and published tail",
+        "all six retained bounded review/control programs and their explicit source/candidate/current-capture/output bindings"
+      ],
+      "blockers": [
+        "Original joins bind historical constructor/resource/source/capture hashes and current absolute contexts; fresh semantic transport/readback must consume current exports without rewriting old hashes.",
+        "The old retained eventual20 record is not fresh input; later-index coverage must instead be supplied by final63.",
+        "Build full transitive source/candidate/proof closure for these six calls; listed source bytes are available in the pinned archive.",
+        "Preserve original mathematical source and review fixtures; derive only typed current metadata/capture/source graphs where necessary.",
+        "Fresh exclusive CHECKED.json and engine-copy paths; old acceptance/review files remain provenance only.",
+        "Scalar certificate must be bound to the actual validated fixed-kappa56K output; known SHA alone is not output bytes or current evidence.",
+        "Original source-only and bounded-control passes do not prove the continuous analytic lemmas or acquire support/resources."
+      ],
+      "kind": "conditional_bounded_mathematical_controls_and_semantic_join",
+      "pure_collector": false,
+      "additional_full_original_bounded_control_calls": 6,
+      "required_bounded_controls": [
+        {
+          "id": "finite-high",
+          "source": {
+            "member": "cutoff15_20261017/audit/finite_high_review_v1/check.py",
+            "bytes": 8068,
+            "sha256": "6a88c178cf2aeb1bdeda82bf4af4994d8c13bcd68eacb997d3f50c7ec55f3a12"
+          },
+          "historical_output": {
+            "member": "cutoff15_20261017/audit/finite_high_review_v1/CHECKED.json",
+            "bytes": 256042,
+            "sha256": "fe6bb00a8631216bcacd4b5d05acff94482411bfcb0611880b38c93b4bcfd49e"
+          },
+          "classification": "BOUNDED_MATHEMATICAL_CONTROLS",
+          "source_line_ranges": [
+            "87-140"
+          ],
+          "original_cli": "python -B audit/finite_high_review_v1/check.py",
+          "depends_on": [],
+          "historical_reference_fields": {
+            "status": "PASS_INDEPENDENT_FINITE_HIGH_REVIEW_NOT_CUTOFF",
+            "scalar_cells": 81,
+            "negative_controls": 10,
+            "actual_laws": 28,
+            "quartic_antiderivative_comparisons": 105,
+            "modulus_independent_comparisons": 40
+          },
+          "historical_output_is_fresh_evidence": false,
+          "required_current_action": "Execute full original bounded controls in an explicit current source/capture epoch; do not relabel the old output."
+        },
+        {
+          "id": "contact-high",
+          "source": {
+            "member": "cutoff15_20261017/audit/contact_high_review_v1/check.py",
+            "bytes": 7691,
+            "sha256": "582120d7e4bfd709ce8c88422a3f3a6a467ace45c0a6b64fe497cfe28c4e7a17"
+          },
+          "historical_output": {
+            "member": "cutoff15_20261017/audit/contact_high_review_v1/CHECKED.json",
+            "bytes": 28309,
+            "sha256": "10db192d048429af7a165ca72d2e4aa17040e46ffe7c0a6a97f1b4a22cd45d0f"
+          },
+          "classification": "BOUNDED_MATHEMATICAL_CONTROLS",
+          "source_line_ranges": [
+            "46-128"
+          ],
+          "original_cli": "python -B audit/contact_high_review_v1/check.py",
+          "depends_on": [
+            "finite-high"
+          ],
+          "historical_reference_fields": {
+            "status": "PASS_INDEPENDENT_CONTACT_HIGH_SOURCE_AND_BOUNDED_CONTROLS_NOT_FULL_TABLE",
+            "normalization": "sqrt(n) integral_[1/2,infinity] abs(f(t)^n-e_n(t))/t^3 dt",
+            "domain_controls": {
+              "malformed_domains": 8,
+              "direct_powers": 15
+            },
+            "arithmetic_controls": 104,
+            "trig_exp_controls": 13,
+            "independent_closed_cells": 71,
+            "independent_integrand_comparisons": 710,
+            "moment_laws": 20,
+            "profile_join_lower": "967616288/638512875"
+          },
+          "historical_output_is_fresh_evidence": false,
+          "required_current_action": "Execute full original bounded controls in an explicit current source/capture epoch; do not relabel the old output."
+        },
+        {
+          "id": "compensated-high",
+          "source": {
+            "member": "cutoff15_20261017/audit/cancellation_high_review_v1/check.py",
+            "bytes": 6492,
+            "sha256": "40b02856d611aaf3b6be9ecf908adae190b6dd4cbe13df6943828ca4b4bf87eb"
+          },
+          "historical_output": {
+            "member": "cutoff15_20261017/audit/cancellation_high_review_v1/CHECKED.json",
+            "bytes": 26162,
+            "sha256": "6bff2b4d9aa896d3c5e1ddfbb21f43e770a2e67945bfb2c3a616a46269f04a2c"
+          },
+          "classification": "BOUNDED_MATHEMATICAL_CONTROLS",
+          "source_line_ranges": [
+            "31-110"
+          ],
+          "original_cli": "python -B audit/cancellation_high_review_v1/check.py",
+          "depends_on": [
+            "contact-high"
+          ],
+          "historical_reference_fields": {
+            "status": "PASS_INDEPENDENT_COMPENSATED_HIGH_SOURCE_AND_BOUNDED_CONTROLS_NOT_FULL_TABLE",
+            "essential_hypothesis": "EX=0, EX2=1, actual support radius<=3, rho<=declared cap",
+            "algebra_controls": 165,
+            "wrong_formula_rejections": 3,
+            "domain_controls": {
+              "malformed_domains": 8
+            },
+            "independent_closed_cells": 71,
+            "independent_actual_index_comparisons": 355,
+            "complete_weight_meshes": [
+              128,
+              256,
+              512,
+              1024
+            ]
+          },
+          "historical_output_is_fresh_evidence": false,
+          "required_current_action": "Execute full original bounded controls in an explicit current source/capture epoch; do not relabel the old output."
+        },
+        {
+          "id": "resource-range",
+          "source": {
+            "member": "cutoff15_20261017/audit/resource15_range_v1/check.py",
+            "bytes": 3262,
+            "sha256": "0a39fd06e9e6bfe2603fd5b8128c56028d363e71d22e6e832ccdc0c8e4af65a2"
+          },
+          "historical_output": {
+            "member": "cutoff15_20261017/audit/resource15_range_v1/CHECKED.json",
+            "bytes": 6105,
+            "sha256": "46a97af45bcd8bc08ff58dbbdcf2768a87e167752844ec8d49c9bb86d5694f4d"
+          },
+          "classification": "EXACT_SCALAR_AND_SOURCE_CONTROLS",
+          "source_line_ranges": [
+            "12-37"
+          ],
+          "original_cli": "python -B audit/resource15_range_v1/check.py",
+          "depends_on": [],
+          "historical_reference_fields": {
+            "status": "PASS_CONDITIONAL_RESOURCE15_19_RANGE_SOURCE_AUDIT",
+            "actual_indices": [
+              15,
+              16,
+              17,
+              18,
+              19
+            ],
+            "kernel_or_support_oracle_calls": 0,
+            "range_extension_valid_under_retained_framework": true,
+            "initial_physical_D_acquired": false,
+            "sharp_bound_proved": false,
+            "scope": "Selected transfer mathematics admits actual15..19 under genuine acquired premises and every unchanged per-call gate. No old guard changed and no new arithmetic acquisition performed."
+          },
+          "historical_output_is_fresh_evidence": false,
+          "required_current_action": "Execute full original bounded controls in an explicit current source/capture epoch; do not relabel the old output."
+        },
+        {
+          "id": "count-range",
+          "source": {
+            "member": "cutoff15_20261017/audit/count15_range_v1/check.py",
+            "bytes": 11413,
+            "sha256": "08553c2ba15440a48f579f773cd7bea3e9bccd1f2eb79ba4f264c6a97e1564b9"
+          },
+          "historical_output": {
+            "member": "cutoff15_20261017/audit/count15_range_v1/CHECKED.json",
+            "bytes": 6265,
+            "sha256": "8202fb8646cfcd494f9571ebb79924417046c6921c21f0a943eb4d6a0f15633c"
+          },
+          "classification": "BOUNDED_MATHEMATICAL_CONTROLS",
+          "source_line_ranges": [
+            "47-200"
+          ],
+          "original_cli": "python -B audit/count15_range_v1/check.py",
+          "depends_on": [],
+          "historical_reference_fields": {
+            "status": "PASS_BOUNDED_INDEPENDENT_GENERIC_COUNT_RANGE_CONTROLS",
+            "n": [
+              15,
+              16,
+              17,
+              18,
+              19
+            ],
+            "counts": {
+              "binomial_derivative_controls": 810,
+              "count_variance_identities": 1080,
+              "finite_marginal_moment_controls": 60,
+              "quartic_exact_expectation_controls": 540,
+              "own_cdf_controls": 180,
+              "exact_event_collisions": 42,
+              "mgf_controls": 2520,
+              "half_gap_triangle_controls": 198,
+              "negative_controls": 92,
+              "generic_scope_controls": 15,
+              "adapter_negative_controls": 7,
+              "adapter_controls": 1
+            },
+            "count_cell_calls": 0,
+            "forest_constructions": 0,
+            "forest_replays": 0,
+            "resource_acquisition_claimed": false,
+            "cutoff15_proved": false
+          },
+          "historical_output_is_fresh_evidence": false,
+          "required_current_action": "Execute full original bounded controls in an explicit current source/capture epoch; do not relabel the old output."
+        },
+        {
+          "id": "join-geometry",
+          "source": {
+            "member": "cutoff15_20261017/audit/actual15_join_v1/controls.py",
+            "bytes": 3908,
+            "sha256": "ce7d470ec88f3b1a1fce249bf43adcb3bf7d37ce8feef1c2cc0284a9ad3905c7"
+          },
+          "historical_output": {
+            "member": "cutoff15_20261017/audit/actual15_join_v1/CONTROL_CHECKED.json",
+            "bytes": 1832,
+            "sha256": "3bed55b91af57d83477edac29fe63e9cde560390e0e670708e03d4dbc728eeff"
+          },
+          "classification": "EXACT_GEOMETRY_AND_QUADRATIC_CONTROLS",
+          "source_line_ranges": [
+            "15-60"
+          ],
+          "original_cli": "python -B audit/actual15_join_v1/controls.py",
+          "depends_on": [
+            "fresh-selected-n15-b0-p56-count-evidence"
+          ],
+          "historical_reference_fields": {
+            "status": "PASS_INDEPENDENT_ACTUAL15_JOIN_GEOMETRY_NEGATIVE_CONTROLS",
+            "fixture": "actual15 B0 p56 native-replayed full forest",
+            "geometry_mutations_rejected": [
+              "wrong actual n",
+              "boolean actual index",
+              "missing root",
+              "reordered roots",
+              "boolean nearest count",
+              "duplicate root",
+              "omitted child",
+              "extra split field",
+              "boolean axis",
+              "out-of-range axis",
+              "outside rational cut",
+              "numeric cut",
+              "noncanonical rational cut",
+              "unknown node",
+              "extra leaf field",
+              "changed leaf coordinate",
+              "unknown closure",
+              "missing result",
+              "inflated score",
+              "negative score",
+              "numeric score",
+              "unknown score status",
+              "wrong sharp target",
+              "noncanonical target"
+            ],
+            "quadratic_exact_fixtures": 4,
+            "native_score_calls": 0
+          },
+          "historical_output_is_fresh_evidence": false,
+          "required_current_action": "Execute full original bounded controls in an explicit current source/capture epoch; do not relabel the old output."
+        }
+      ],
+      "bounded_control_dependency_edges": [
+        [
+          "finite-high",
+          "contact-high"
+        ],
+        [
+          "contact-high",
+          "compensated-high"
+        ],
+        [
+          "compensated-high",
+          "actual15-high-scope"
+        ],
+        [
+          "resource-range",
+          "actual15-high-scope"
+        ],
+        [
+          "count-range",
+          "actual15-high-scope"
+        ],
+        [
+          "join-geometry",
+          "sequential16--19"
+        ]
+      ],
+      "already_supplied_control_or_readback": {
+        "source": "cutoff15_20261017/fourier/cancellation_high_readback_v1/check.py",
+        "sha256": "714b1d4db36c25c8ddac598ea7e99fbc54290a4b849d20b6badaa75943cb587b",
+        "new_current_port": "FRESH_CHECK.py differs only in explicit actual capture SHA map; reuse fully validated57E evidence."
+      },
+      "scope_note": "No additional large Fourier/support/HIGH/INITIAL/resource/full-leaf producer identified beyond existing51 and57A--G; six retained bounded mathematical/control calls are additional and required inside57H."
+    },
+    {
+      "id": "59D-1",
+      "state": "ORIGINAL_PROGRAM_AVAILABLE_WRAPPER_NOT_IMPLEMENTED",
+      "title": "Actual26--30 support for global B0 floor25 DAG",
+      "native_calls": 2,
+      "original_entrypoint": "new_audit/bridge_support26_30_v1/support_inventory.py",
+      "actions": [
+        "construct SELECTION OUT",
+        "accept SELECTION OUT REVIEW"
+      ],
+      "selection": "new_audit/BRIDGE_B0_GLOBAL_SUPPORT_SELECTION_V1.json",
+      "structural_occurrences": 49,
+      "unique_requests": 49,
+      "actual_indices": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "evaluations_per_pass": 245,
+      "acceptance_negative_controls": 18,
+      "requires": [
+        "36 global B0 INITIAL/resource proofs and receipts; current-proof mathematical identity map"
+      ],
+      "outputs": [
+        "ACTUAL26_30_SUPPORT_PROOF.json",
+        "ACTUAL26_30_SUPPORT_ACCEPTED.json"
+      ],
+      "blockers": [
+        "Fresh support selection/source-review metadata must bind current validated floor-parent proofs. No numerical body or original review guard may be silently bypassed."
+      ],
+      "delivery_notebook": "59D"
+    },
+    {
+      "id": "59D-2",
+      "state": "ORIGINAL_PROGRAM_AVAILABLE_WRAPPER_NOT_IMPLEMENTED",
+      "title": "Actual26--30 support for all five lower global floor25 DAGs",
+      "native_calls": 2,
+      "original_entrypoint": "new_audit/bridge_b1_b5_global_support_capsule_v1/run_selected.py",
+      "actions": [
+        "construct",
+        "accept"
+      ],
+      "selection": "new_audit/BRIDGE_B1_B5_GLOBAL_SUPPORT_SELECTION_V1.json",
+      "structural_occurrences": 403,
+      "unique_requests": 401,
+      "actual_indices": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "evaluations_per_pass": 2005,
+      "covered_occurrence_index_pairs_per_pass": 2015,
+      "acceptance_negative_controls": 18,
+      "requires": [
+        "37 global B1",
+        "38 global B2",
+        "09 global B3",
+        "10 global B4",
+        "39 global B5"
+      ],
+      "outputs": [
+        "ACTUAL26_30_SUPPORT_PROOF.json",
+        "ACTUAL26_30_SUPPORT_ACCEPTED.json"
+      ],
+      "blockers": [
+        "Stage the full ten selected global proof objects; local p35/p31 and middle/high resource lanes are not substitutes.",
+        "run_selected.py/support source-review and selection metadata require an explicit current-parent epoch retaining all numerical inputs."
+      ],
+      "delivery_notebook": "59D"
+    },
+    {
+      "id": "59D-3",
+      "state": "BLOCKED_UNIMPLEMENTED_CURRENT_PARENT_AND_SCALAR_BRIDGE",
+      "title": "Complete floor25-to-actual26--30 acquisition and scalar contract bridge",
+      "requires": [
+        "59D-1",
+        "59D-2",
+        "36 global B0",
+        "37 global B1",
+        "38 global B2",
+        "09 global B3",
+        "10 global B4",
+        "39 global B5",
+        "56K scalar-kappa export"
+      ],
+      "outputs": [
+        "complete100 B0 dispositions for each n26..30",
+        "85 B0 acquired resource rows before strict affine removals",
+        "complete100 lower-band dispositions for each n26..30 and each b1..5",
+        "55 B1 physical resource scopes",
+        "55 B2 physical resource scopes",
+        "fresh scalar/eta/sine adapter outputs and exact bridge to unchanged59A original input payload"
+      ],
+      "original_acquisition_programs": [
+        "new_audit/compose_actual26_b0_acquisition_v1.py",
+        "new_middle/actual27_30_b0_plan_v1/compose_actual27_b0_acquisition_v1.py",
+        "b0_family/acquire_b0_family.py construct",
+        "b0_family/acquire_b0_family.py accept",
+        "new_audit/compose_lower_actual_acquisition_v1.py",
+        "new_audit/check_lower_actual_acquisition_v1.py"
+      ],
+      "scalar_control_and_adapter_entrypoints": [
+        "analytic/firstmean_envelope_v2/check.py",
+        "analytic/fixed_h_outward_v1/check.py",
+        "analytic/fixed_h_eta_zeta_v1/check.py",
+        "analytic/bernoulli_eta_zeta_v1/check.py",
+        "analytic/universal_zeta_v1/check.py",
+        "root/finite_u_circle_v1/check.py",
+        "b0_family/check_sine_v2.py",
+        "b0_family/check_sine_v3.py",
+        "b0_family/check_taylor_v3.py",
+        "root/taylor_fourier_v3/controls.py",
+        "b1_discovery/exact_schedule_adapter.py",
+        "b1_discovery/exact_eta_zeta_adapter.py",
+        "phase_rectangle_v1/exact_sine_adapter.py"
+      ],
+      "scalar_control_and_adapter_calls": 13,
+      "blockers": [
+        "Original compositors require historical absolute Python argv/capture directories and accepted-output hashes. A typed current-evidence semantic join must validate fresh exported arithmetic and preserve the full floor25 profiles/history/math.",
+        "Original scalar/adapters pin old acquisition/output hashes and source paths, including runtime/Python fields. New strict source/capture metadata epochs or explicit same-mathematical-payload joins are necessary; no old hash impersonation.",
+        "59A already replays its numerical cover and18 controls, but does not freshly acquire these inherited scalar-control/application records.",
+        "No additional original n26--30 INITIAL/resource numerical producers are selected: the chosen theorem is uniform floor25 transfer plus genuinely recomputed actual-index support."
+      ],
+      "delivery_notebook": "59D"
+    },
+    {
+      "id": "59D-4",
+      "state": "BLOCKED_UNIMPLEMENTED_FINAL_CURRENT_EVIDENCE_JOIN",
+      "title": "Close actual26--30 using selected counts, Fourier and exact predecessors",
+      "native_leaf_calls": 0,
+      "requires": [
+        "validated53 full80 including64",
+        "59A115B1rows",
+        "59B115B2rows",
+        "59C215high-rho rows",
+        "59D-1",
+        "59D-2",
+        "59D-3",
+        "global25 conclusion"
+      ],
+      "outputs": [
+        "five sequential same-law actual-index implications",
+        "finite26--30 closed rho/p union"
+      ],
+      "checks": [
+        "80 count-contract interfaces including retained n27/p41; no rerun64/53",
+        "B0 p37..53 survivors at every actual index; strict binary_charge>D removes p53 at n27..29 and p52..53 at n30",
+        "55 B1 scopes correspond to current59A exact23strip input and115rows",
+        "55 B2 scopes license absolute mean122/125 and115rows",
+        "215 high-rho rows plus published rho>=19/10 tail",
+        "closed seams1,11/10,6/5,13/10,19/10 and all100closed p-panels",
+        "global25 then26 then27 then28 then29 then30; no same-law-only predecessor replacement"
+      ],
+      "original_entrypoint": "cutoff25_continue_20261015/direct_union_v1/compose.py REQUEST_30.json",
+      "blockers": [
+        "Original global25/tail31/source/count/Fourier receipt pins are historical. New collector must consume current validated evidence and exact semantic rows, never accept those PASS labels as fresh."
+      ],
+      "delivery_notebook": "59D",
+      "outgoing_dependency": "The finite26--30 result is consumed by final63. Fresh31+tail coverage joins there; it is not a prerequisite of finite26--30 and must not create a cycle."
+    }
+  ],
+  "existing_reusable_exports": {
+    "57": [
+      "51",
+      "57A",
+      "57B",
+      "57C",
+      "57D",
+      "57E"
+    ],
+    "59": [
+      "53",
+      "64",
+      "59A",
+      "59B",
+      "59C",
+      "36",
+      "37",
+      "38",
+      "09",
+      "10",
+      "39",
+      "56K"
+    ]
+  },
+  "not_duplicated": [
+    "55 is not a direct59 numerical ancestor; its n35--39 tail belongs in final63.",
+    "Do not rerun53/64 or n25 COUNT forests merely to acquire floor25 resources.",
+    "The six n25 global floor-parent lanes share with the n25 proof; fresh current-evidence compatibility must still be validated."
+  ],
+  "known_missing_source_bytes": [],
+  "known_missing_historical_or_current_evidence": [
+    "Old absolute captures are not reusable as current; current semantic join implementations are missing.",
+    "Fresh global14/global25 remain external incoming dependencies or explicit conditional hypotheses. Later-index tail coverage is an outgoing final63 composition dependency, not a prerequisite of these finite units."
+  ],
+  "dynamic_selection": {
+    "support59": "No discovery selector: two fixed complete selections49and401requests,5literalindices.",
+    "core57": "Ten fixed cases; no numerical discovery.",
+    "Fourier57_existing": "Original existing57A/B/C may construct new strip plans; output row count follows plan, but this does not create additional notebooks.",
+    "remaining_unit_route": "No unnamed additional unit in this bounded partition. Failure or missing evidence blocks the named unit; it does not silently add a notebook."
+  },
+  "sources": [
+    {
+      "archive": "combined15",
+      "member": "cutoff15_20261017/audit/actual15_join_v1/check.py",
+      "bytes": 29887,
+      "sha256": "4dbfc5a885686af60ee118866051d84d32ab2673fbd298ebc23f231985ddb9ac"
+    },
+    {
+      "archive": "combined15",
+      "member": "cutoff15_20261017/audit/actual15_join_v1/controls.py",
+      "bytes": 3908,
+      "sha256": "ce7d470ec88f3b1a1fce249bf43adcb3bf7d37ce8feef1c2cc0284a9ad3905c7"
+    },
+    {
+      "archive": "combined15",
+      "member": "cutoff15_20261017/audit/sequential16_19_join_v2/check.py",
+      "bytes": 19478,
+      "sha256": "686247ca6b71c7453e7e6398c248165a05087497255749590e0d604df98fc9dc"
+    },
+    {
+      "archive": "combined15",
+      "member": "cutoff15_20261017/audit/sequential16_19_join_v2/common.py",
+      "bytes": 9873,
+      "sha256": "a6f2aa278ff7cbe80916c76442f86412dd5a00b44cca9637df0ba2e490c710f6"
+    },
+    {
+      "archive": "combined15",
+      "member": "cutoff15_20261017/audit/sequential16_19_join_v2/base_replay.py",
+      "bytes": 2828,
+      "sha256": "519d41c3c7421550b3dbcb05473a123737dbb87b8c7894af03a3176196ee56cc"
+    },
+    {
+      "archive": "baseline25",
+      "member": "cutoff25_20261011/new_audit/BRIDGE_B0_GLOBAL_SUPPORT_SELECTION_V1.json",
+      "bytes": 535,
+      "sha256": "cb8aee986e0eed74aff6f6e589cdf9816cdf4ed6457b4bc5627cf52f16f64898"
+    },
+    {
+      "archive": "baseline25",
+      "member": "cutoff25_20261011/new_audit/BRIDGE_B1_B5_GLOBAL_SUPPORT_SELECTION_V1.json",
+      "bytes": 2075,
+      "sha256": "579a8229a942112e472faccc541e39fd4a390021c644d00c6fbb972882591f21"
+    },
+    {
+      "archive": "baseline25",
+      "member": "cutoff25_20261011/new_audit/bridge_support26_30_v1/support_inventory.py",
+      "bytes": 12265,
+      "sha256": "9deb99f1806a6625650731e804e9598962d638735d9e358300d7f02a6325b177"
+    },
+    {
+      "archive": "baseline25",
+      "member": "cutoff25_20261011/new_audit/bridge_b1_b5_global_support_capsule_v1/support_inventory.py",
+      "bytes": 12265,
+      "sha256": "9deb99f1806a6625650731e804e9598962d638735d9e358300d7f02a6325b177"
+    },
+    {
+      "archive": "baseline25",
+      "member": "cutoff25_20261011/new_audit/bridge_b1_b5_global_support_capsule_v1/run_selected.py",
+      "bytes": 5158,
+      "sha256": "3761143028a5c8c7d5528d2d4d8f2b32c84fe1989cfbe496b9318c808838c6fa"
+    },
+    {
+      "archive": "baseline25",
+      "member": "cutoff25_20261011/new_audit/compose_actual26_b0_acquisition_v1.py",
+      "bytes": 16890,
+      "sha256": "80724090f8be9b1429fbf4e2480171b6a26e6f4d44f66bc9c3c70e9852b0ae58"
+    },
+    {
+      "archive": "baseline25",
+      "member": "cutoff25_20261011/new_middle/actual27_30_b0_plan_v1/compose_actual27_b0_acquisition_v1.py",
+      "bytes": 16947,
+      "sha256": "0cdbd12562206f8102adb6bf0c7ac49a4315652fa439103ca8392dbe677afa74"
+    },
+    {
+      "archive": "baseline25",
+      "member": "cutoff25_20261011/new_audit/compose_lower_actual_acquisition_v1.py",
+      "bytes": 12955,
+      "sha256": "1284218b29ff3d71404120040b7f524b6ea982b7ff3d10eb03912df79c93f831"
+    },
+    {
+      "archive": "baseline25",
+      "member": "cutoff25_20261011/new_audit/lower_actual_acquisition_v1.py",
+      "bytes": 9172,
+      "sha256": "e2f2c9485b152ab34878d3dc2467b6bb95250f17a6c8ab659cff256a9a90d904"
+    },
+    {
+      "archive": "baseline25",
+      "member": "cutoff25_20261011/new_audit/check_lower_actual_acquisition_v1.py",
+      "bytes": 6516,
+      "sha256": "cbc8fe7dd0d6140af77a3e6f2ee69f89afa04bda5258b24c170e656b97e90814"
+    },
+    {
+      "archive": "baseline25",
+      "member": "cutoff25_20261011/new_audit/compose_actual26_b0_complete_v1.py",
+      "bytes": 9832,
+      "sha256": "793ef1e8a4cf3a31e486debb8ff207876f1ca33c863bdca6ba8b6f61b6938e83"
+    },
+    {
+      "archive": "continue25",
+      "member": "cutoff25_continue_20261015/b0_family/acquire_b0_family.py",
+      "bytes": 17353,
+      "sha256": "6c84c5a2ff39413708f87042126f168a90c8616b0a35d559920be56d8cbba674"
+    },
+    {
+      "archive": "continue25",
+      "member": "cutoff25_continue_20261015/root/count_join_v1/join_v2.py",
+      "bytes": 12256,
+      "sha256": "7f14fcdb42e13f09e7d4c7b890b4543ca2d0ce2e63562e157d5bb2f8774a6125"
+    },
+    {
+      "archive": "continue25",
+      "member": "cutoff25_continue_20261015/b0_family/check_sine_b1_v2.py",
+      "bytes": 15897,
+      "sha256": "75c0b5adc84eead817818f6b90091c29da72363f202417f9f2e717eb8927e0e5"
+    },
+    {
+      "archive": "continue25",
+      "member": "cutoff25_continue_20261015/direct_union_v1/compose.py",
+      "bytes": 23684,
+      "sha256": "9100a8ccbeb053c5715082a76935814ee67175bcc305176578b32e1f608e7deb"
+    },
+    {
+      "archive": "continue25",
+      "member": "cutoff25_continue_20261015/analytic/firstmean_envelope_v2/check.py",
+      "bytes": 8216,
+      "sha256": "f3e48a6dd66114e98ee9fa5945268e4f69e74998e73995874e590567439817c9"
+    },
+    {
+      "archive": "continue25",
+      "member": "cutoff25_continue_20261015/analytic/fixed_h_outward_v1/check.py",
+      "bytes": 8332,
+      "sha256": "38567de515cd491d194df96bec75d4bdff5462587e980371d0beb8089aaf04cc"
+    },
+    {
+      "archive": "continue25",
+      "member": "cutoff25_continue_20261015/analytic/fixed_h_eta_zeta_v1/check.py",
+      "bytes": 7479,
+      "sha256": "1bdd5c0eb5bb4f6b9c0b6970b30ea38bf25a9147d509d6d681d285292167bd6b"
+    },
+    {
+      "archive": "continue25",
+      "member": "cutoff25_continue_20261015/analytic/bernoulli_eta_zeta_v1/check.py",
+      "bytes": 6479,
+      "sha256": "7b318b2c5a1e090d337fc541171a0dc2d1ce73fe67ff2831ae4805ddbe82b52d"
+    },
+    {
+      "archive": "continue25",
+      "member": "cutoff25_continue_20261015/analytic/universal_zeta_v1/check.py",
+      "bytes": 3766,
+      "sha256": "60816afdefba8b65c673a22f7edf39f8a594d5dae53ff9a8577ebed0635fecc3"
+    },
+    {
+      "archive": "continue25",
+      "member": "cutoff25_continue_20261015/root/finite_u_circle_v1/check.py",
+      "bytes": 5665,
+      "sha256": "6de4826d5e5360084f5c19d020ffbf973225433ad701de166b286ebf69c6c786"
+    },
+    {
+      "archive": "continue25",
+      "member": "cutoff25_continue_20261015/b0_family/check_sine_v2.py",
+      "bytes": 5597,
+      "sha256": "9ce1d797c3aaa1844cd1358e2e5966ea3f6148fdab8c62eb2a17be3d1358fa2b"
+    },
+    {
+      "archive": "continue25",
+      "member": "cutoff25_continue_20261015/b0_family/check_sine_v3.py",
+      "bytes": 4423,
+      "sha256": "01fcd8d171ccc556ea616827da9f273ae025a806dd5fa506b386aae56d5d23bc"
+    },
+    {
+      "archive": "continue25",
+      "member": "cutoff25_continue_20261015/b0_family/check_taylor_v3.py",
+      "bytes": 3925,
+      "sha256": "f3a270c78e841c7994de98829a83527eec5c77e240c6bca014c57d51b40683cf"
+    },
+    {
+      "archive": "continue25",
+      "member": "cutoff25_continue_20261015/root/taylor_fourier_v3/controls.py",
+      "bytes": 2575,
+      "sha256": "4f1694ed7c0704dc41cac19d2a424f3a281d3a1b4ecf9869f1cc96545e687a05"
+    },
+    {
+      "archive": "continue25",
+      "member": "cutoff25_continue_20261015/b1_discovery/exact_schedule_adapter.py",
+      "bytes": 9720,
+      "sha256": "37623f68df41e62c6522db347d509a92de4feccb614151da035fa00e5f89b6e6"
+    },
+    {
+      "archive": "continue25",
+      "member": "cutoff25_continue_20261015/b1_discovery/exact_eta_zeta_adapter.py",
+      "bytes": 8779,
+      "sha256": "42e45063f372a20e1a25a0bc3e762823b06f9ff858e04c0ebccb1d76b35fd9c3"
+    },
+    {
+      "archive": "continue25",
+      "member": "cutoff25_continue_20261015/phase_rectangle_v1/exact_sine_adapter.py",
+      "bytes": 7922,
+      "sha256": "844ebab29ec571b01a38c1e67543626ca229889004549d397a051c2452377def"
+    },
+    {
+      "archive": "combined15",
+      "member": "cutoff15_20261017/audit/finite_high_review_v1/check.py",
+      "bytes": 8068,
+      "sha256": "6a88c178cf2aeb1bdeda82bf4af4994d8c13bcd68eacb997d3f50c7ec55f3a12"
+    },
+    {
+      "archive": "combined15",
+      "member": "cutoff15_20261017/audit/finite_high_review_v1/CHECKED.json",
+      "bytes": 256042,
+      "sha256": "fe6bb00a8631216bcacd4b5d05acff94482411bfcb0611880b38c93b4bcfd49e"
+    },
+    {
+      "archive": "combined15",
+      "member": "cutoff15_20261017/audit/contact_high_review_v1/check.py",
+      "bytes": 7691,
+      "sha256": "582120d7e4bfd709ce8c88422a3f3a6a467ace45c0a6b64fe497cfe28c4e7a17"
+    },
+    {
+      "archive": "combined15",
+      "member": "cutoff15_20261017/audit/contact_high_review_v1/CHECKED.json",
+      "bytes": 28309,
+      "sha256": "10db192d048429af7a165ca72d2e4aa17040e46ffe7c0a6a97f1b4a22cd45d0f"
+    },
+    {
+      "archive": "combined15",
+      "member": "cutoff15_20261017/audit/cancellation_high_review_v1/check.py",
+      "bytes": 6492,
+      "sha256": "40b02856d611aaf3b6be9ecf908adae190b6dd4cbe13df6943828ca4b4bf87eb"
+    },
+    {
+      "archive": "combined15",
+      "member": "cutoff15_20261017/audit/cancellation_high_review_v1/CHECKED.json",
+      "bytes": 26162,
+      "sha256": "6bff2b4d9aa896d3c5e1ddfbb21f43e770a2e67945bfb2c3a616a46269f04a2c"
+    },
+    {
+      "archive": "combined15",
+      "member": "cutoff15_20261017/audit/resource15_range_v1/check.py",
+      "bytes": 3262,
+      "sha256": "0a39fd06e9e6bfe2603fd5b8128c56028d363e71d22e6e832ccdc0c8e4af65a2"
+    },
+    {
+      "archive": "combined15",
+      "member": "cutoff15_20261017/audit/resource15_range_v1/CHECKED.json",
+      "bytes": 6105,
+      "sha256": "46a97af45bcd8bc08ff58dbbdcf2768a87e167752844ec8d49c9bb86d5694f4d"
+    },
+    {
+      "archive": "combined15",
+      "member": "cutoff15_20261017/audit/count15_range_v1/check.py",
+      "bytes": 11413,
+      "sha256": "08553c2ba15440a48f579f773cd7bea3e9bccd1f2eb79ba4f264c6a97e1564b9"
+    },
+    {
+      "archive": "combined15",
+      "member": "cutoff15_20261017/audit/count15_range_v1/CHECKED.json",
+      "bytes": 6265,
+      "sha256": "8202fb8646cfcd494f9571ebb79924417046c6921c21f0a943eb4d6a0f15633c"
+    },
+    {
+      "archive": "combined15",
+      "member": "cutoff15_20261017/audit/actual15_join_v1/CONTROL_CHECKED.json",
+      "bytes": 1832,
+      "sha256": "3bed55b91af57d83477edac29fe63e9cde560390e0e670708e03d4dbc728eeff"
+    }
+  ],
+  "fixed_new_notebook_partition": [
+    "57F",
+    "57G",
+    "57H",
+    "59D"
+  ],
+  "59D_delivery_sections": [
+    "actual-B0-support",
+    "actual-B1-B5-support",
+    "floor25-acquisition-scalar-bridge",
+    "final26-30-semantic-join"
+  ],
+  "59D_budget_contract": "One planned notebook, complete-stage cache across sessions, per-session23h ceiling; no measured claim that the whole batch finishes in23h.",
+  "59D_fixed_support_and_scalar_control_program_calls": 17,
+  "59D_additional_transfer_and_composition_entrypoints": "All listed original acquisition/transfer functions and final current-evidence semantic checks remain required, besides the17 support/scalar/control program calls; not17 total proof obligations.",
+  "bounded_control_inventory": "proof/remaining57H_control_scope.json",
+  "57H_additional_full_bounded_control_program_calls": 6,
+  "source_pin_rows": 44
+}

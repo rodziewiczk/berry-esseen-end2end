@@ -116,7 +116,7 @@ Log completion is not independent bundle validation.
 |46|The actual saved run completed all five owncaps actions but the reader incorrectly expected integer17instead of the original list of17control names. Corrected pure full readback and cache save/relocated restore pass344Fourier rows; all235original files remain unchanged. Nine INITIAL stages are preserved. Corrected pinned46must continue the nine resource jobs; full19-stage completion remains unobserved.|
 |47/48|Both supplied middle-n25 B4/B5 logs complete14/12full selected acquisition actions and save final ZIPs with conditional_middle_acquisition_arithmetic_complete. Actual final export readback, interfaces32/33and regional/global joins remain separate.|
 |49|Supplied completed log confirms14/14full high-beta3 acquisition actions and final saved bundle, conditional_high_beta3_acquisition_arithmetic_complete. Actual final export readback, count interfaces and regional theorem remain separate.|
-|50--55|Five COUNT lanes50/51/52/54/55are published and delivered:929forests total. Corrected50/51/52/54logs complete217/147/163/282stages respectively, reusing saved full numerical stages and saving final ZIPs. Corrected54finishes at23:34:28UTC after revalidating all282stages. The supplied53ending completes all80forests/2316roots/150296nodes/76306leaves and the64identity edge.55has no final observation here. Actual final export readbacks and parent/theorem joins remain separate.|
+|50--55|Five COUNT lanes50/51/52/54/55are published and delivered:929forests total. Corrected50/51/52/54logs complete217/147/163/282stages respectively, reusing saved full numerical stages and saving final ZIPs. Corrected54finishes at23:34:28UTC after revalidating all282stages. The supplied53ending completes all80forests/2316roots/150296nodes/76306leaves and the64identity edge.The supplied corrected55ending now completes120/120jobs and saves final ZIP20261024T014047Z-516cc64f with complete_selected_conditional_count_arithmetic_basic; no COUNT replay is queued. Actual final export readbacks and parent/theorem joins remain separate.|
 |56A|Supplied final cell now reports complete_conditional_auxiliary9_14_sublane_basic and a saved final ZIP for20261023T231655Z-bf156069. This supersedes the earlier pre-arithmetic fixture error. Actual export readback, support/HIGH, remaining56parents and217interfaces remain separate.|
 |56B|Supplied final cell reports complete_conditional_supported9_14_sublane_basic and saved ZIP20261023T232402Z-d516197a. Preserve successful supported Fourier arithmetic; actual export readback, support acquisition and full56/count/global joins remain separate.|
 |56C|Supplied final log at23:50:08UTC on23October completes all4original actions and saves its final ZIP with complete_conditional_highrho10_14_sublane_basic. Full replay covers80strips/400exact rows; independent readback requires24negative controls and target4097/10000. Actual final export readback and the remaining56parents/interfaces remain separate.|
@@ -126,7 +126,7 @@ Log completion is not independent bundle validation.
 |56K|Supplied final output at00:03:19UTC on24October completes the full scalar certificate,21negative controls and324identity checks, with complete_scalar_kappa_62_625_basic and final ZIP saved. Downstream joins and full56remain separate.|
 |58A|Supplied final cell now completes both original support actions with complete_conditional_actual21_24_highrho_support_basic and a saved final ZIP for20261024T001924Z-8164bb3e. Retained Fourier/sharp-predecessor acquisitions, actual20 and full58remain separate.|
 |57A/C|Supplied final cells complete the auxiliary and high-rho14--19Fourier sublanes and save their final ZIPs.57Auses20261024T001640Z-ccad23fa;57Cuses20261024T002009Z-456583eb. Preserve their successful arithmetic; actual full export readbacks and full57/count/global joins remain separate.|
-|57B|Delivered original supported14--19Fourier sublane; no final completion supplied. Preserve a valid running job.|
+|57B|Supplied final cell reports complete_conditional_supported14_19_sublane_basic and saves final ZIP20261024T002020Z-51367635. Preserve successful supported Fourier arithmetic; actual full export readback and support/INITIAL/resource/COUNT/global joins remain separate.|
 |57D|Actual downloaded ZIP session ledger reports complete_conditional_support15_19_sublane_basic and conditional_support_arithmetic_completed:true, final ZIP20261024T002654Z-bded53b2. Preserve completed pair; actual full export readback and support/predecessor/framework/full57 joins remain separate.|
 |64|Actual final ZIP/Drive sidecar and all68files/13852603unpacked bytes revalidated, including both unchanged construction/full-acceptance actions and their source/launch/capture bindings. All28roots/6310nodes/3169leaves close; the candidate hash exactly reproduces the historical missing tree. The fresh acceptance remains distinct.53selection composition and mathematical parent/global joins remain separate; no mathematical kernel was rerun locally.|
 
@@ -161,3 +161,24 @@ This is conditional Fourier execution only; support, actual20 feedback/INITIAL/
 resource acquisitions and complete58 remain separate. The remaining notebook
 count is unresolved until the complete selected native-action/dependency
 inventory is closed; a reserved grouping is not a completed census.
+
+
+## Statement-level proof graph and fixed delivery specification
+
+The [current proof graph](proof/proof_graph.md) describes mathematical conclusions
+and their dependencies rather than a browser/notebook checklist. The accompanying
+[conditional sufficiency argument](proof/remaining_notebooks_sufficiency.md)
+spells out the finite1--48 and universal49+ implication and all open premises.
+The [selected delivery specification](proof/remaining_notebooks_closed_plan.md)
+assigns13 new files (12 numerical/control packages, one final collector); this
+is a fixed operational grouping, not a sealed minimal native-action census.
+Eleven missing lower-B5 ordinary capsules, two mixed parent capsules, current
+source/capture epochs and unacquired analytic/code-to-lemma inputs remain open.
+Earlier statements that only a few final files or paper writing remained were
+premature. All-index completion is not claimed.
+
+The actual58F final ZIP has now passed the complete pure source/execution/output
+readback:29strips,145rows,14native negatives/four identities and26independent
+controls, under explicit support|X|<=3. No original numerical code was rerun.
+Its scoped completed transaction is preserved; full actual20/global joins remain
+separate. See [actual readback](proof/finite2024_supported_completed_readback.json).

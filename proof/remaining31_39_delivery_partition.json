@@ -1,0 +1,2130 @@
+{
+  "schema": "REMAINING31_39_DELIVERY_PARTITION_V1",
+  "delivery_notebook": "60",
+  "new_notebook_count": 1,
+  "state": "PLANNED_CURRENT_EVIDENCE_PORT_NOT_IMPLEMENTED",
+  "policy": "One23-hour-session notebook with complete-stage cache across sessions; no measured total-runtime claim.",
+  "conditional_finite_indices": [
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39
+  ],
+  "incoming_scalar": [
+    "Fresh global30 supplies the weaker literal C30<CE+1/100; check every other profile premise separately.",
+    "Global preceding-index hypotheses are discharged31->32->33->34 in order.",
+    "Acquired sharp32/33/34<=CE discharges only a literal weaker CE+delta scalar premise with delta>0; no INITIAL/support/resource calculation is thereby acquired."
+  ],
+  "outgoing_tail": "Finite31--39 feeds final63; global35/cutoff40/retained35 all-tail conclusions are not incoming proof.",
+  "reusable_COUNT": [
+    "54 selected n31--34/auxiliary forests after exact source-contract-candidate evidence match",
+    "55 selected120 n35--39 forests after full evidence match"
+  ],
+  "floor31_families": [
+    {
+      "actual_indices": [
+        32,
+        33,
+        34
+      ],
+      "actual_support_proofs": 93,
+      "branch": 0,
+      "floor_n": 31,
+      "probability_panels": 100,
+      "resource_composition_is_not_fresh_floor31_arithmetic": true,
+      "rho_interval": [
+        "1",
+        "11/10"
+      ],
+      "source": {
+        "bytes": 213090,
+        "member": "continuation_20261010/shared/bridge_b0_resources/UNIFORM_B0_RESOURCES_CHECKED.json",
+        "sha256": "29b22ef936b9bfaf60bb82287c57a25d861f92cc4c5be496d16adebb57f0cf58"
+      },
+      "surviving_panels": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "actual_indices": [
+        32,
+        33,
+        34
+      ],
+      "actual_support_proofs": 102,
+      "branch": 1,
+      "floor_n": 31,
+      "probability_panels": 100,
+      "resource_composition_is_not_fresh_floor31_arithmetic": true,
+      "rho_interval": [
+        "11/10",
+        "6/5"
+      ],
+      "source": {
+        "bytes": 221863,
+        "member": "continuation_20261010/shared/bridge_b12_resources/UNIFORM_B1_RESOURCES_CHECKED.json",
+        "sha256": "c4a23b32b61b99faaceff8e53f95847ad52bc01c0898a4a5a6b671edc7f7536f"
+      },
+      "surviving_panels": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "actual_indices": [
+        32,
+        33,
+        34
+      ],
+      "actual_support_proofs": 162,
+      "branch": 2,
+      "floor_n": 31,
+      "probability_panels": 100,
+      "resource_composition_is_not_fresh_floor31_arithmetic": true,
+      "rho_interval": [
+        "6/5",
+        "13/10"
+      ],
+      "source": {
+        "bytes": 208420,
+        "member": "continuation_20261010/shared/bridge_b12_resources/UNIFORM_B2_RESOURCES_CHECKED.json",
+        "sha256": "6a66751903ef648da190e1301e3edabdfa8ceb305c50328aaee8534a51f94986"
+      },
+      "surviving_panels": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "actual_indices": [
+        32,
+        33,
+        34
+      ],
+      "actual_support_proofs": 126,
+      "branch": 3,
+      "floor_n": 31,
+      "probability_panels": 100,
+      "resource_composition_is_not_fresh_floor31_arithmetic": true,
+      "rho_interval": [
+        "13/10",
+        "7/5"
+      ],
+      "source": {
+        "bytes": 52600,
+        "member": "continuation_20261010/shared/bridge_b3_resources/UNIFORM_B3_RESOURCES_CHECKED.json",
+        "sha256": "da31153877a8299ce02a45a55fb6cfeff00d0cf3f5394c07b5c624296616b93d"
+      },
+      "surviving_panels": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "actual_indices": [
+        32,
+        33,
+        34
+      ],
+      "actual_support_proofs": 201,
+      "branch": 4,
+      "floor_n": 31,
+      "probability_panels": 100,
+      "resource_composition_is_not_fresh_floor31_arithmetic": true,
+      "rho_interval": [
+        "7/5",
+        "3/2"
+      ],
+      "source": {
+        "bytes": 48673,
+        "member": "continuation_20261010/shared/bridge_b4_resources/UNIFORM_B4_RESOURCES_CHECKED.json",
+        "sha256": "c3537cf1139f8ee0d41aec8eb9769f6a036d05cb8eab4a77909e389a878ec579"
+      },
+      "surviving_panels": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "actual_indices": [
+        32,
+        33,
+        34
+      ],
+      "actual_support_proofs": 408,
+      "branch": 5,
+      "floor_n": 31,
+      "probability_panels": 100,
+      "resource_composition_is_not_fresh_floor31_arithmetic": true,
+      "rho_interval": [
+        "3/2",
+        "33/20"
+      ],
+      "source": {
+        "bytes": 99265,
+        "member": "continuation_20261010/repair31/highrho_uniform_bridge/UNIFORM_B5_RESOURCES_CHECKED.json",
+        "sha256": "1a0fae53e06a05d85729bd91475f34ac7cc937c9cb46d715d6f6fd0fcc32b279"
+      },
+      "surviving_panels": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "actual_indices": [
+        32,
+        33,
+        34
+      ],
+      "actual_support_proofs": 315,
+      "branch": 6,
+      "floor_n": 31,
+      "probability_panels": 100,
+      "resource_composition_is_not_fresh_floor31_arithmetic": true,
+      "rho_interval": [
+        "33/20",
+        "7/4"
+      ],
+      "source": {
+        "bytes": 68934,
+        "member": "continuation_20261010/repair31/highrho_uniform_bridge/UNIFORM_B6_RESOURCES_CHECKED.json",
+        "sha256": "2e785993fd346bacf7ca69e9540616d3aca94dd6839d2b3de760d74537e99a23"
+      },
+      "surviving_panels": [
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "actual_indices": [
+        32,
+        33,
+        34
+      ],
+      "actual_support_proofs": 306,
+      "branch": 7,
+      "floor_n": 31,
+      "probability_panels": 100,
+      "resource_composition_is_not_fresh_floor31_arithmetic": true,
+      "rho_interval": [
+        "7/4",
+        "7361/4000"
+      ],
+      "source": {
+        "bytes": 109511,
+        "member": "continuation_20261010/repair31/highrho_uniform_bridge/UNIFORM_B7_RESOURCES_CHECKED.json",
+        "sha256": "ef92cfcbff1ecd48dfe97263ca7a4522a105d2f762e3b0721df7a0d3bbef52d0"
+      },
+      "surviving_panels": [
+        18,
+        19
+      ]
+    }
+  ],
+  "counts": {
+    "floor31_support_components": 11,
+    "floor31_support_accept_and_independent_calls": 22,
+    "floor31_INITIAL_accept_calls": 8,
+    "floor31_resource_accept_calls": 10,
+    "actual32_34_support_program_calls": 7,
+    "actual32_34_support_evaluations_by_branch": [
+      93,
+      102,
+      162,
+      126,
+      201,
+      408,
+      315,
+      306
+    ],
+    "actual32_34_support_evaluations_total": 1713,
+    "uniform_resource_transfer_calls": 8,
+    "selected35_39_nonCOUNT_capture_records": 46,
+    "selected35_39_finite_parent_interface_capture_records": 45,
+    "deferred_tail40_binder_records": 1
+  },
+  "fixed_acceptance_and_interface_actions": [
+    {
+      "section": "floor31-support",
+      "script": "threshold31_20261008/local/sharp31_ladder_b0_initial/support/accept.py",
+      "argv": [
+        "python",
+        "-B",
+        "accept.py"
+      ],
+      "cwd": "threshold31_20261008/local/sharp31_ladder_b0_initial/support",
+      "source_sha256": "eb9285fc2390a41acb4cdf1a51695b9261a1fa62b33e68f42595adef940af8b2"
+    },
+    {
+      "section": "floor31-support",
+      "script": "threshold31_20261008/local/sharp31_ladder_b0_initial/support/independent.py",
+      "argv": [
+        "python",
+        "-B",
+        "independent.py"
+      ],
+      "cwd": "threshold31_20261008/local/sharp31_ladder_b0_initial/support",
+      "source_sha256": "6ab031dae94bd26c706079278893ec09e3a1268a32df6a3b1a3b4404a3648a44"
+    },
+    {
+      "section": "floor31-support",
+      "script": "threshold31_20261008/local/sharp31_ladder_more_initial/b1/support/accept.py",
+      "argv": [
+        "python",
+        "-B",
+        "accept.py"
+      ],
+      "cwd": "threshold31_20261008/local/sharp31_ladder_more_initial/b1/support",
+      "source_sha256": "598c1fecdc398c56676b089b377b7072075d9a6601b4d21c3a93a8dc2ca71ef5"
+    },
+    {
+      "section": "floor31-support",
+      "script": "threshold31_20261008/local/sharp31_ladder_more_initial/b1/support/independent.py",
+      "argv": [
+        "python",
+        "-B",
+        "independent.py"
+      ],
+      "cwd": "threshold31_20261008/local/sharp31_ladder_more_initial/b1/support",
+      "source_sha256": "d767aa427831bbd540915e3fa0034383ae3d2d46b9b1ac02eb7242c794f17996"
+    },
+    {
+      "section": "floor31-support",
+      "script": "threshold31_20261008/local/sharp31_ladder_more_initial/b2/support/accept.py",
+      "argv": [
+        "python",
+        "-B",
+        "accept.py"
+      ],
+      "cwd": "threshold31_20261008/local/sharp31_ladder_more_initial/b2/support",
+      "source_sha256": "41d270579a7df9415ffd5261f2c3745c322d3c45c8a9689055f3e4e6cc04ebf2"
+    },
+    {
+      "section": "floor31-support",
+      "script": "threshold31_20261008/local/sharp31_ladder_more_initial/b2/support/independent.py",
+      "argv": [
+        "python",
+        "-B",
+        "independent.py"
+      ],
+      "cwd": "threshold31_20261008/local/sharp31_ladder_more_initial/b2/support",
+      "source_sha256": "cce1f1301c6650654c818ea43110248b0b3b23a13dad372a6f56c78f1a26fa46"
+    },
+    {
+      "section": "floor31-support",
+      "script": "threshold31_20261008/local/sharp31_ladder_more_initial/b4/support/accept.py",
+      "argv": [
+        "python",
+        "-B",
+        "accept.py"
+      ],
+      "cwd": "threshold31_20261008/local/sharp31_ladder_more_initial/b4/support",
+      "source_sha256": "fd0aca8af9b27e97c0ac81866c4f4b41aef08a69acaad89c6e25c2320d6342b1"
+    },
+    {
+      "section": "floor31-support",
+      "script": "threshold31_20261008/local/sharp31_ladder_more_initial/b4/support/independent.py",
+      "argv": [
+        "python",
+        "-B",
+        "independent.py"
+      ],
+      "cwd": "threshold31_20261008/local/sharp31_ladder_more_initial/b4/support",
+      "source_sha256": "98e367bd60918b6c954aaad95f3c6e58f0dedadb747c509b010f4c698a319e78"
+    },
+    {
+      "section": "floor31-support",
+      "script": "continuation_20261010/shared/b3_support_replay/accept.py",
+      "argv": [
+        "python",
+        "-B",
+        "accept.py"
+      ],
+      "cwd": "continuation_20261010/shared/b3_support_replay",
+      "source_sha256": "df172bbe7660b60b6bc76be99a0078b6bc115a72b5cea7322f9c637297844023"
+    },
+    {
+      "section": "floor31-support",
+      "script": "continuation_20261010/shared/b3_support_replay/independent.py",
+      "argv": [
+        "python",
+        "-B",
+        "independent.py"
+      ],
+      "cwd": "continuation_20261010/shared/b3_support_replay",
+      "source_sha256": "39f8fbbc8735e34609d73509cda0a6261e9e3e0ddef69ea9882ae63b8133deb0"
+    },
+    {
+      "section": "floor31-support",
+      "script": "continuation_20261010/repair31/b5_resources_initial_enhanced_replay_one/global_initial/support/accept.py",
+      "argv": [
+        "python",
+        "-B",
+        "accept.py"
+      ],
+      "cwd": "continuation_20261010/repair31/b5_resources_initial_enhanced_replay_one/global_initial/support",
+      "source_sha256": "d58842f31a83d583e8fecc1307c9066bbc24f0cf68d3e31169cfad8f90056fe6"
+    },
+    {
+      "section": "floor31-support",
+      "script": "continuation_20261010/repair31/b5_resources_initial_enhanced_replay_one/global_initial/support/independent.py",
+      "argv": [
+        "python",
+        "-B",
+        "independent.py"
+      ],
+      "cwd": "continuation_20261010/repair31/b5_resources_initial_enhanced_replay_one/global_initial/support",
+      "source_sha256": "a691f8eb8a70cb0c58155aa0d0bad5e7cc431842c41ea966afda4edf5bce0068"
+    },
+    {
+      "section": "floor31-support",
+      "script": "continuation_20261010/repair31/b5_resources_initial_enhanced_replay_one/support_input/accept.py",
+      "argv": [
+        "python",
+        "-B",
+        "accept.py"
+      ],
+      "cwd": "continuation_20261010/repair31/b5_resources_initial_enhanced_replay_one/support_input",
+      "source_sha256": "d58842f31a83d583e8fecc1307c9066bbc24f0cf68d3e31169cfad8f90056fe6"
+    },
+    {
+      "section": "floor31-support",
+      "script": "continuation_20261010/repair31/b5_resources_initial_enhanced_replay_one/support_input/independent.py",
+      "argv": [
+        "python",
+        "-B",
+        "independent.py"
+      ],
+      "cwd": "continuation_20261010/repair31/b5_resources_initial_enhanced_replay_one/support_input",
+      "source_sha256": "a691f8eb8a70cb0c58155aa0d0bad5e7cc431842c41ea966afda4edf5bce0068"
+    },
+    {
+      "section": "floor31-support",
+      "script": "continuation_20261010/repair31/b6_resources_optimized_replay_two/global_initial/support/accept.py",
+      "argv": [
+        "python",
+        "-B",
+        "accept.py"
+      ],
+      "cwd": "continuation_20261010/repair31/b6_resources_optimized_replay_two/global_initial/support",
+      "source_sha256": "26ed5814b61678c25a26d1d63439c9cf9192c22c3afa8f91eafa5bca97a61120"
+    },
+    {
+      "section": "floor31-support",
+      "script": "continuation_20261010/repair31/b6_resources_optimized_replay_two/global_initial/support/independent.py",
+      "argv": [
+        "python",
+        "-B",
+        "independent.py"
+      ],
+      "cwd": "continuation_20261010/repair31/b6_resources_optimized_replay_two/global_initial/support",
+      "source_sha256": "dc5b8c4a8f3e16d46503aba9db3e48eb1cea26bcec99a5c3aa24efc638b256b1"
+    },
+    {
+      "section": "floor31-support",
+      "script": "continuation_20261010/repair31/b6_resources_optimized_replay_two/support_input/accept.py",
+      "argv": [
+        "python",
+        "-B",
+        "accept.py"
+      ],
+      "cwd": "continuation_20261010/repair31/b6_resources_optimized_replay_two/support_input",
+      "source_sha256": "26ed5814b61678c25a26d1d63439c9cf9192c22c3afa8f91eafa5bca97a61120"
+    },
+    {
+      "section": "floor31-support",
+      "script": "continuation_20261010/repair31/b6_resources_optimized_replay_two/support_input/independent.py",
+      "argv": [
+        "python",
+        "-B",
+        "independent.py"
+      ],
+      "cwd": "continuation_20261010/repair31/b6_resources_optimized_replay_two/support_input",
+      "source_sha256": "dc5b8c4a8f3e16d46503aba9db3e48eb1cea26bcec99a5c3aa24efc638b256b1"
+    },
+    {
+      "section": "floor31-support",
+      "script": "continuation_20261010/repair31/b7_resources_initial_enhanced_replay_two/global_initial/support/accept.py",
+      "argv": [
+        "python",
+        "-B",
+        "accept.py"
+      ],
+      "cwd": "continuation_20261010/repair31/b7_resources_initial_enhanced_replay_two/global_initial/support",
+      "source_sha256": "c5fd2878d7dac06ae96bd644e2e86b39ab5890c90dcd736c0114c8a9f3c85b7f"
+    },
+    {
+      "section": "floor31-support",
+      "script": "continuation_20261010/repair31/b7_resources_initial_enhanced_replay_two/global_initial/support/independent.py",
+      "argv": [
+        "python",
+        "-B",
+        "independent.py"
+      ],
+      "cwd": "continuation_20261010/repair31/b7_resources_initial_enhanced_replay_two/global_initial/support",
+      "source_sha256": "7835f07fb7b2ebff0d6fa6f945ef699f741d7a4dc11478ed41e8b46d69297fdf"
+    },
+    {
+      "section": "floor31-support",
+      "script": "continuation_20261010/repair31/b7_resources_initial_enhanced_replay_two/support_input/accept.py",
+      "argv": [
+        "python",
+        "-B",
+        "accept.py"
+      ],
+      "cwd": "continuation_20261010/repair31/b7_resources_initial_enhanced_replay_two/support_input",
+      "source_sha256": "c5fd2878d7dac06ae96bd644e2e86b39ab5890c90dcd736c0114c8a9f3c85b7f"
+    },
+    {
+      "section": "floor31-support",
+      "script": "continuation_20261010/repair31/b7_resources_initial_enhanced_replay_two/support_input/independent.py",
+      "argv": [
+        "python",
+        "-B",
+        "independent.py"
+      ],
+      "cwd": "continuation_20261010/repair31/b7_resources_initial_enhanced_replay_two/support_input",
+      "source_sha256": "7835f07fb7b2ebff0d6fa6f945ef699f741d7a4dc11478ed41e8b46d69297fdf"
+    },
+    {
+      "section": "floor31-INITIAL",
+      "script": "threshold31_20261008/local/sharp31_ladder_b0_initial/initial31.py",
+      "argv": [
+        "python",
+        "-B",
+        "initial31.py",
+        "accept"
+      ],
+      "cwd": "threshold31_20261008/local/sharp31_ladder_b0_initial",
+      "source_sha256": "ffb93da0f26a368f4422a45d84d116c7b634133d232c7f8a4f8aa27f2c6259f2"
+    },
+    {
+      "section": "floor31-INITIAL",
+      "script": "threshold31_20261008/local/sharp31_ladder_more_initial/b1/initial31.py",
+      "argv": [
+        "python",
+        "-B",
+        "initial31.py",
+        "accept"
+      ],
+      "cwd": "threshold31_20261008/local/sharp31_ladder_more_initial/b1",
+      "source_sha256": "84d4f9e800be2103460f01dfc314b3cd2e0f42ed44355d29c6fa18df03a64f93"
+    },
+    {
+      "section": "floor31-INITIAL",
+      "script": "threshold31_20261008/local/sharp31_ladder_more_initial/b2/initial31.py",
+      "argv": [
+        "python",
+        "-B",
+        "initial31.py",
+        "accept"
+      ],
+      "cwd": "threshold31_20261008/local/sharp31_ladder_more_initial/b2",
+      "source_sha256": "11585117675359efb8eaec8187e3f07b6517cb92eea068aa5c3354ec417cfe38"
+    },
+    {
+      "section": "floor31-INITIAL",
+      "script": "continuation_20261010/shared/b3_initial_replay/accept_relocated.py",
+      "argv": [
+        "python",
+        "-B",
+        "accept_relocated.py"
+      ],
+      "cwd": "continuation_20261010/shared/b3_initial_replay",
+      "source_sha256": "9e7b5e008907462f146dbf52c15529eeba91310d3412dedb7484f50bc32844a9"
+    },
+    {
+      "section": "floor31-INITIAL",
+      "script": "threshold31_20261008/local/sharp31_ladder_more_initial/b4/initial31.py",
+      "argv": [
+        "python",
+        "-B",
+        "initial31.py",
+        "accept"
+      ],
+      "cwd": "threshold31_20261008/local/sharp31_ladder_more_initial/b4",
+      "source_sha256": "9f2564e3ded46bb36d531f43a4b971331a46a67b66b9ab90f7e362bdd89a928d"
+    },
+    {
+      "section": "floor31-INITIAL",
+      "script": "continuation_20261010/repair31/b5_resources_initial_enhanced_replay_one/global_initial/accept_relocated_integer.py",
+      "argv": [
+        "python",
+        "-B",
+        "accept_relocated_integer.py"
+      ],
+      "cwd": "continuation_20261010/repair31/b5_resources_initial_enhanced_replay_one/global_initial",
+      "source_sha256": "f3edb8d6b50706c0cb7b64456d6b78f083a8ff2b3a55fb687b2a96dd6090ec98"
+    },
+    {
+      "section": "floor31-INITIAL",
+      "script": "continuation_20261010/repair31/b6_resources_optimized_replay_two/global_initial/accept_relocated_optimized.py",
+      "argv": [
+        "python",
+        "-B",
+        "accept_relocated_optimized.py"
+      ],
+      "cwd": "continuation_20261010/repair31/b6_resources_optimized_replay_two/global_initial",
+      "source_sha256": "060b5093cde7198f9a9b9aa9bab3dfaffa7dcebd8f278bf3537448eb2f93b48e"
+    },
+    {
+      "section": "floor31-INITIAL",
+      "script": "continuation_20261010/repair31/b7_resources_initial_enhanced_replay_two/global_initial/optimized_initial.py",
+      "argv": [
+        "python",
+        "-B",
+        "optimized_initial.py",
+        "accept"
+      ],
+      "cwd": "continuation_20261010/repair31/b7_resources_initial_enhanced_replay_two/global_initial",
+      "source_sha256": "41404d46f468f62cc1939d7a55867643d7683a35ab1bed135c77f76b8da84302"
+    },
+    {
+      "section": "floor31-resources",
+      "script": "threshold31_20261008/entry/sharp31_b0_exact/accept_resources31_v3.py",
+      "argv": [
+        "python",
+        "-B",
+        "accept_resources31_v3.py"
+      ],
+      "cwd": "threshold31_20261008/entry/sharp31_b0_exact",
+      "source_sha256": "a6747ee1be6e40d3488463adacdd75f272638602842afeca8541f35357dc9268"
+    },
+    {
+      "section": "floor31-resources",
+      "script": "threshold31_20261008/entry/sharp31_b1_exact/accept_resources31.py",
+      "argv": [
+        "python",
+        "-B",
+        "accept_resources31.py"
+      ],
+      "cwd": "threshold31_20261008/entry/sharp31_b1_exact",
+      "source_sha256": "b378224c4e56f952d53dda2e2e9dc723fe7ac1265713175e1f4a682d4f0ab61a"
+    },
+    {
+      "section": "floor31-resources",
+      "script": "threshold31_20261008/entry/sharp31_b2_exact/accept_resources31.py",
+      "argv": [
+        "python",
+        "-B",
+        "accept_resources31.py"
+      ],
+      "cwd": "threshold31_20261008/entry/sharp31_b2_exact",
+      "source_sha256": "b378224c4e56f952d53dda2e2e9dc723fe7ac1265713175e1f4a682d4f0ab61a"
+    },
+    {
+      "section": "floor31-resources",
+      "script": "threshold31_20261008/entry/sharp31_b1_local_patch/accept_resources31.py",
+      "argv": [
+        "python",
+        "-B",
+        "accept_resources31.py"
+      ],
+      "cwd": "threshold31_20261008/entry/sharp31_b1_local_patch",
+      "source_sha256": "ab749a83e542b22fd976c57527c67218103b1f44a1d4db9731c9f3cb194bdb97"
+    },
+    {
+      "section": "floor31-resources",
+      "script": "threshold31_20261008/entry/sharp31_b2_local_patch/accept_resources31.py",
+      "argv": [
+        "python",
+        "-B",
+        "accept_resources31.py"
+      ],
+      "cwd": "threshold31_20261008/entry/sharp31_b2_local_patch",
+      "source_sha256": "c4820f280b3e824e7e8a16e189f227275527c7e03f2dcbef2df6ebb3fd31cddd"
+    },
+    {
+      "section": "floor31-resources",
+      "script": "continuation_20261010/shared/b3_resource_replay/accept_resources31_parallel.py",
+      "argv": [
+        "python",
+        "-B",
+        "accept_resources31_parallel.py"
+      ],
+      "cwd": "continuation_20261010/shared/b3_resource_replay",
+      "source_sha256": "b598434cff1d899af3b40d67eaef166c3e042dd6fd34eae24362ed613c7637a9"
+    },
+    {
+      "section": "floor31-resources",
+      "script": "continuation_20261010/shared/b4_resource_replay/accept_resources31_parallel.py",
+      "argv": [
+        "python",
+        "-B",
+        "accept_resources31_parallel.py"
+      ],
+      "cwd": "continuation_20261010/shared/b4_resource_replay",
+      "source_sha256": "b598434cff1d899af3b40d67eaef166c3e042dd6fd34eae24362ed613c7637a9"
+    },
+    {
+      "section": "floor31-resources",
+      "script": "continuation_20261010/repair31/b5_resources_initial_enhanced_replay_one/accept_optimized_resources.py",
+      "argv": [
+        "python",
+        "-B",
+        "accept_optimized_resources.py"
+      ],
+      "cwd": "continuation_20261010/repair31/b5_resources_initial_enhanced_replay_one",
+      "source_sha256": "edd2d0978528f2e2596ee8754c2ef6da2c5241c0daaadff2ece9adb6ea1d7e7c"
+    },
+    {
+      "section": "floor31-resources",
+      "script": "continuation_20261010/repair31/b6_resources_optimized_replay_two/accept_optimized_resources.py",
+      "argv": [
+        "python",
+        "-B",
+        "accept_optimized_resources.py"
+      ],
+      "cwd": "continuation_20261010/repair31/b6_resources_optimized_replay_two",
+      "source_sha256": "09b22ec0c8133b6f92a202d1f458405e74c81df7c0744c8071c5a294a7c22f96"
+    },
+    {
+      "section": "floor31-resources",
+      "script": "continuation_20261010/repair31/b7_resources_initial_enhanced_replay_two/accept_optimized_resources.py",
+      "argv": [
+        "python",
+        "-B",
+        "accept_optimized_resources.py"
+      ],
+      "cwd": "continuation_20261010/repair31/b7_resources_initial_enhanced_replay_two",
+      "source_sha256": "6954bb0c751dd777618e456faf25e3a2091e4fdca13d1b583459452998d106ed"
+    },
+    {
+      "section": "actual32-34-support",
+      "script": "continuation_20261010/shared/bridge_b0_support/check.py",
+      "argv": [
+        "python",
+        "-B",
+        "check.py"
+      ],
+      "cwd": "continuation_20261010/shared/bridge_b0_support",
+      "source_sha256": "09aa7ee0c679871d15b8589dd2aa3808920af3a46bd59cc398735a84ada81d48"
+    },
+    {
+      "section": "actual32-34-support",
+      "script": "continuation_20261010/shared/bridge_b12_support/check_support.py",
+      "argv": [
+        "python",
+        "-B",
+        "check_support.py"
+      ],
+      "cwd": "continuation_20261010/shared/bridge_b12_support",
+      "source_sha256": "f86ce83383df949dfaee71fbffce19b7b04f1189e2ef2a3f88a011bf1acbb426"
+    },
+    {
+      "section": "actual32-34-support",
+      "script": "continuation_20261010/shared/bridge_b3_support/check.py",
+      "argv": [
+        "python",
+        "-B",
+        "check.py"
+      ],
+      "cwd": "continuation_20261010/shared/bridge_b3_support",
+      "source_sha256": "dad31b36a734bcba74abd6551e46964b94b3559590d70eb66a1bdea8f0939e3d"
+    },
+    {
+      "section": "actual32-34-support",
+      "script": "continuation_20261010/shared/bridge_b4_support/check.py",
+      "argv": [
+        "python",
+        "-B",
+        "check.py"
+      ],
+      "cwd": "continuation_20261010/shared/bridge_b4_support",
+      "source_sha256": "e70567d712dc464117e8031e295fcf03d9505416300d1d5e91cbd265b3fd0471"
+    },
+    {
+      "section": "actual32-34-support",
+      "script": "continuation_20261010/repair31/highrho_uniform_bridge/check_actual_support.py",
+      "argv": [
+        "python",
+        "-B",
+        "check_actual_support.py",
+        "5"
+      ],
+      "cwd": "continuation_20261010/repair31/highrho_uniform_bridge",
+      "source_sha256": "69fa92be3b824dd2c8276ebc956cb171a66135d8fec09da257377165567d2566"
+    },
+    {
+      "section": "actual32-34-support",
+      "script": "continuation_20261010/repair31/highrho_uniform_bridge/check_actual_support.py",
+      "argv": [
+        "python",
+        "-B",
+        "check_actual_support.py",
+        "6"
+      ],
+      "cwd": "continuation_20261010/repair31/highrho_uniform_bridge",
+      "source_sha256": "69fa92be3b824dd2c8276ebc956cb171a66135d8fec09da257377165567d2566"
+    },
+    {
+      "section": "actual32-34-support",
+      "script": "continuation_20261010/repair31/highrho_uniform_bridge/check_actual_support.py",
+      "argv": [
+        "python",
+        "-B",
+        "check_actual_support.py",
+        "7"
+      ],
+      "cwd": "continuation_20261010/repair31/highrho_uniform_bridge",
+      "source_sha256": "69fa92be3b824dd2c8276ebc956cb171a66135d8fec09da257377165567d2566"
+    },
+    {
+      "section": "uniform-transfers",
+      "script": "continuation_20261010/shared/bridge_b0_resources/compose.py",
+      "argv": [
+        "python",
+        "-B",
+        "compose.py"
+      ],
+      "cwd": "continuation_20261010/shared/bridge_b0_resources",
+      "source_sha256": "b71c9b53036caccff3bdd89b5c8f0a2e16832703aba6d91e7729c86137a047b2"
+    },
+    {
+      "section": "uniform-transfers",
+      "script": "continuation_20261010/shared/bridge_b12_resources/compose.py",
+      "argv": [
+        "python",
+        "-B",
+        "compose.py",
+        "1"
+      ],
+      "cwd": "continuation_20261010/shared/bridge_b12_resources",
+      "source_sha256": "c5f10712602ed6e9f605fd4ce6efba9d7280ba271ece344b46ec58db32813dac"
+    },
+    {
+      "section": "uniform-transfers",
+      "script": "continuation_20261010/shared/bridge_b12_resources/compose_b2_new_selection.py",
+      "argv": [
+        "python",
+        "-B",
+        "compose_b2_new_selection.py",
+        "2"
+      ],
+      "cwd": "continuation_20261010/shared/bridge_b12_resources",
+      "source_sha256": "3c363b47077f131db748fbd278df2ecbfbacec3828ed7aa280e840e8402cea8b"
+    },
+    {
+      "section": "uniform-transfers",
+      "script": "continuation_20261010/shared/bridge_b3_resources/compose.py",
+      "argv": [
+        "python",
+        "-B",
+        "compose.py"
+      ],
+      "cwd": "continuation_20261010/shared/bridge_b3_resources",
+      "source_sha256": "c788566f53ec20a810eb5da44e54cdaddb0f9a1c0d5a34087f63c34b02b6dccf"
+    },
+    {
+      "section": "uniform-transfers",
+      "script": "continuation_20261010/shared/bridge_b4_resources/compose.py",
+      "argv": [
+        "python",
+        "-B",
+        "compose.py"
+      ],
+      "cwd": "continuation_20261010/shared/bridge_b4_resources",
+      "source_sha256": "7dac4eb68798a8a11ce6df28555aef3550f1fa28e55f9d1b24903410f9497465"
+    },
+    {
+      "section": "uniform-transfers",
+      "script": "continuation_20261010/repair31/highrho_uniform_bridge/compose_uniform_resources.py",
+      "argv": [
+        "python",
+        "-B",
+        "compose_uniform_resources.py",
+        "5"
+      ],
+      "cwd": "continuation_20261010/repair31/highrho_uniform_bridge",
+      "source_sha256": "0acbde14f26379e706419ef08d5c3fea43c3e68f4bda3b6dd1e3e5a90107cbcd"
+    },
+    {
+      "section": "uniform-transfers",
+      "script": "continuation_20261010/repair31/highrho_uniform_bridge/compose_uniform_resources.py",
+      "argv": [
+        "python",
+        "-B",
+        "compose_uniform_resources.py",
+        "6"
+      ],
+      "cwd": "continuation_20261010/repair31/highrho_uniform_bridge",
+      "source_sha256": "0acbde14f26379e706419ef08d5c3fea43c3e68f4bda3b6dd1e3e5a90107cbcd"
+    },
+    {
+      "section": "uniform-transfers",
+      "script": "continuation_20261010/repair31/highrho_uniform_bridge/compose_uniform_resources.py",
+      "argv": [
+        "python",
+        "-B",
+        "compose_uniform_resources.py",
+        "7"
+      ],
+      "cwd": "continuation_20261010/repair31/highrho_uniform_bridge",
+      "source_sha256": "0acbde14f26379e706419ef08d5c3fea43c3e68f4bda3b6dd1e3e5a90107cbcd"
+    },
+    {
+      "section": "finite31-34-joins",
+      "script": "continuation_20261010/repair31/compose_actual32_34_v2.py",
+      "argv": [
+        "python",
+        "-B",
+        "compose_actual32_34_v2.py",
+        "32"
+      ],
+      "cwd": "continuation_20261010/repair31",
+      "source_sha256": "1e0e3c008a583961462e2bee52a2e49afa957ce8d7fb1facb5fe4c650dca5de5"
+    },
+    {
+      "section": "finite31-34-joins",
+      "script": "continuation_20261010/repair31/compose_actual32_34_v2.py",
+      "argv": [
+        "python",
+        "-B",
+        "compose_actual32_34_v2.py",
+        "33"
+      ],
+      "cwd": "continuation_20261010/repair31",
+      "source_sha256": "1e0e3c008a583961462e2bee52a2e49afa957ce8d7fb1facb5fe4c650dca5de5"
+    },
+    {
+      "section": "finite31-34-joins",
+      "script": "continuation_20261010/repair31/compose_actual32_34_v2.py",
+      "argv": [
+        "python",
+        "-B",
+        "compose_actual32_34_v2.py",
+        "34"
+      ],
+      "cwd": "continuation_20261010/repair31",
+      "source_sha256": "1e0e3c008a583961462e2bee52a2e49afa957ce8d7fb1facb5fe4c650dca5de5"
+    }
+  ],
+  "recorded35_39_parent_interface_actions": [
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/support/direct_support_accept02_frozen/metadata.json",
+      "metadata_sha256": "7117324e6c92de8be45eff31e3f5978dd31ecf502ada043fc2e64f2d59750c8f",
+      "cwd": "work/below40_20261007/support/direct_support_release",
+      "argv": [
+        "python",
+        "-B",
+        "accept_direct_support.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/support/direct_support_release/accept_direct_support.py",
+      "source_sha256": "2fdfa162306ab4df27443e792b5926a561b415c547c2e072e65be43a41da75a8",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/support/barrier31_accept02/metadata.json",
+      "metadata_sha256": "96ef6240c92b05e01e2d742d688c84da6de12c23d1b54f076dc84c1a90e122bc",
+      "cwd": "work/below40_20261007/support/barrier31_release",
+      "argv": [
+        "python",
+        "-B",
+        "accept_barrier31.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/support/barrier31_release/accept_barrier31.py",
+      "source_sha256": "d3cbf767f01507caf28783e73b89de0f3cea68c5a4c3c8e957011253a6d68c00",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/support/direct_q265_accept01/metadata.json",
+      "metadata_sha256": "997e745e2ae43b4d0f488c5acec1012d9c6459e4525df8d3a7271076ec30208e",
+      "cwd": "work/below40_20261007/support/direct_q265_release",
+      "argv": [
+        "python",
+        "-B",
+        "accept_direct_q265.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/support/direct_q265_release/accept_direct_q265.py",
+      "source_sha256": "f1f113cc246e8062affd093d8db5255be8848057348c7de70df299d1a28a35b2",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/support/barrier32_accept01/metadata.json",
+      "metadata_sha256": "b0d683d028227971e47966aebbda9822c1919bcbcdbb118aa673d3335a7fbc8a",
+      "cwd": "work/below40_20261007/support/barrier32_release",
+      "argv": [
+        "python",
+        "-B",
+        "accept_barrier32.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/support/barrier32_release/accept_barrier32.py",
+      "source_sha256": "e45de226f79159e4f3ed981efe4d9412103eeedc13f329b254dd7f67ed52ba7c",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/support/barrier33_35_accept01/metadata.json",
+      "metadata_sha256": "59a27b466266617695de48168278d4dcf768c48d88eba441b270869030a82d80",
+      "cwd": "work/below40_20261007/support/barrier33_35_release",
+      "argv": [
+        "python",
+        "-B",
+        "accept_barrier33_35.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/support/barrier33_35_release/accept_barrier33_35.py",
+      "source_sha256": "05823fc4e0399d1e584e011e189a8f0560e9974c0ed79c7ba6970cc1990646ee",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/support/barrier33_35_b065_accept01/metadata.json",
+      "metadata_sha256": "469705afae2e08ba28e7ea0843819af0726a776bf5847c60b3120d3d36fbcd40",
+      "cwd": "work/below40_20261007/support/barrier33_35_b065_release",
+      "argv": [
+        "python",
+        "-B",
+        "accept_barrier33_35_b065.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/support/barrier33_35_b065_release/accept_barrier33_35_b065.py",
+      "source_sha256": "f5fed37134ca27ccc4446bf93a6de7ca3a05bd563c2350b9ffdc0a03e65567ea",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/root/acquisition32K54_accept01/metadata.json",
+      "metadata_sha256": "4fd6b062855fc7112cf0dcc0db8ba93398ad815203f8f6a1bd9a74e84ce4bd57",
+      "cwd": "work/below40_20261007/root/barrier32",
+      "argv": [
+        "python",
+        "-B",
+        "accept_acquisition32.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/root/barrier32/accept_acquisition32.py",
+      "source_sha256": "6a0b2f7bf8c471f8f42c8af3c5256c5e03f9c1f4f9cd702fcace404a97770f93",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/support/positive33_initial_accept01/metadata.json",
+      "metadata_sha256": "b818d5adb2b6f1de4954b9c88f86e5204eeead743418ce58bb3a4d1a5849fb8c",
+      "cwd": "work/below40_20261007/support/positive33_acq",
+      "argv": [
+        "python",
+        "-B",
+        "accept_initial33.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/accept_initial33.py",
+      "source_sha256": "ef74dfd8e2b1c6c83511469ce733fff347dd373f24a215d7fd2dc5422c6bf638",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/support/positive33_acquisition_accept01/metadata.json",
+      "metadata_sha256": "dc7c6044e0b63724e70c0ca6646ecec0d4c04c2ababe36804663a4548aa8fb16",
+      "cwd": "work/below40_20261007/support/positive33_acq",
+      "argv": [
+        "python",
+        "-B",
+        "accept_acquisition33.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/accept_acquisition33.py",
+      "source_sha256": "c130cb8d9ce740152bfd325be1c0fe84d5bf6e080a27c9f7f55ca7f5e698f6e2",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/support/positive34_initial_accept01/metadata.json",
+      "metadata_sha256": "60241fc58a104a5914b0359d637776e6e63d4602e26cd159ed69908b02506630",
+      "cwd": "work/below40_20261007/support/positive34_acq",
+      "argv": [
+        "python",
+        "-B",
+        "accept_initial34.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/accept_initial34.py",
+      "source_sha256": "1a11441a7357cdf26aca83975510ec79a7472bb716bf83c1754a581b63478a09",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/support/positive34_acquisition_product_accept01/metadata.json",
+      "metadata_sha256": "042bd3bffecb6fd6b4c408dd593c1de8a90ae14c84ec00a4c5c31f125a274001",
+      "cwd": "work/below40_20261007/support/positive34_acq",
+      "argv": [
+        "python",
+        "-B",
+        "accept_acquisition34_product_v2.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/accept_acquisition34_product_v2.py",
+      "source_sha256": "d070d3259c3bd4284668d82f3970e1504a070c1e6199ff4846b4c31788e7cfe1",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/root/positive34_join01/metadata.json",
+      "metadata_sha256": "0571f77df41b108f168764ee046b046ef2d0204b7e731530cab95848c61373e7",
+      "cwd": "work/below40_20261007/root/positive34_join",
+      "argv": [
+        "python",
+        "-B",
+        "check_positive34.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/root/positive34_join/check_positive34.py",
+      "source_sha256": "c311dd3c8b90754d846223b77455c32b93fd7d95fd434509506775f1666d65f7",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/support/positive35_initial_accept01/metadata.json",
+      "metadata_sha256": "4521a7c9fec1a164a1e57a83229303eb44df566565d2e10cf69e7d33949b4753",
+      "cwd": "work/below40_20261007/support/positive35_acq",
+      "argv": [
+        "python",
+        "-B",
+        "accept_initial35_parallel.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/accept_initial35_parallel.py",
+      "source_sha256": "6a2ac73a0131bb7af230633906d86cb24adc8e92be97f21eabd0c3731d033b41",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/support/positive35_seeds_accept01/metadata.json",
+      "metadata_sha256": "e28c21ebae522ac029178a434ddad2f25f1aac21608fa3ce620278005f682eaa",
+      "cwd": "work/below40_20261007/support/positive35_acq",
+      "argv": [
+        "python",
+        "-B",
+        "accept_seeds35_parallel.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/accept_seeds35_parallel.py",
+      "source_sha256": "2a55b2eceda8409a32e64cf1bd9a87cdb66d5dce932b5c96a488e68f297c35da",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/support/positive35_central_accept01/metadata.json",
+      "metadata_sha256": "4baaf19f2c7195610553b05a23a40c2522db7e27b8998fdabeca9d1221da8dc1",
+      "cwd": "work/below40_20261007/support/positive35_acq",
+      "argv": [
+        "python",
+        "-B",
+        "accept_central35_v2.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/accept_central35_v2.py",
+      "source_sha256": "4cf6c9325f292948227671dbb75d8c451d518621439410dabe86c3da88efffdd",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/support/positive35_resource_join01/metadata.json",
+      "metadata_sha256": "2030815ed9d732d7649b2612a9c6fa89efc99171f57e5675a5a8085869d5d956",
+      "cwd": "work/below40_20261007/support/positive35_acq",
+      "argv": [
+        "python",
+        "-B",
+        "check_resources35_v2.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/check_resources35_v2.py",
+      "source_sha256": "f3d74914cdce25bac34241d5ba9d69c490f3b24e942b2c0520bc37c9d150daaf",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/support/low35_rounded_accept01/metadata.json",
+      "metadata_sha256": "bc0344e24c794b36dccacaeff080aa136b09b6de0ef78a83c24957b73d05ef9f",
+      "cwd": "work/below40_20261007/support/positive35_low_rounded",
+      "argv": [
+        "python",
+        "-B",
+        "accept_low35.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_low_rounded/accept_low35.py",
+      "source_sha256": "83a04629c22c083e8b8b54db59118979ae89febef1a36da01b92af6b94b5a912",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/support/low35_rounded_resource_join01/metadata.json",
+      "metadata_sha256": "819bfaecb975da2b063cd986293150ed67ae88ffe2ca322b963b552c52f59172",
+      "cwd": "work/below40_20261007/support/positive35_low_rounded",
+      "argv": [
+        "python",
+        "-B",
+        "check_low35.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_low_rounded/check_low35.py",
+      "source_sha256": "308d69b6f06433a08c3c0891eb11c485e380a4c4559f581ebc17697963f069f9",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/root/upper35_accept01/metadata.json",
+      "metadata_sha256": "18804b0ecea5ed4a81bac2bfa1181b1933239da21a1cb60dd66c508f3654b995",
+      "cwd": "work/below40_20261007/root/upper35_exact",
+      "argv": [
+        "python",
+        "-B",
+        "accept_upper.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/root/upper35_exact/accept_upper.py",
+      "source_sha256": "5ffa4091bc9686e0014e45e23cb7f84b47b162f70be3613e15ef728a304c7e97",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/root/upper35_binding01/metadata.json",
+      "metadata_sha256": "049706119bf5597be681572c921d8bb3938fc2d57c4ea83e2ac9ca794628436b",
+      "cwd": "work/below40_20261007/root/upper35_exact",
+      "argv": [
+        "python",
+        "-B",
+        "bind_upper35.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/root/upper35_exact/bind_upper35.py",
+      "source_sha256": "0669e45aac9d87b2b73f14fe0744f2161f4c47509a7437f5ba61960bfbd215df",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/root/low35_comparison_join01/metadata.json",
+      "metadata_sha256": "868d41398485bb50c1a456c2260fa06cfee8c8ea066beb3054e8c59efba87632",
+      "cwd": "work/below40_20261007/root/low35_compare",
+      "argv": [
+        "python",
+        "-B",
+        "join.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/root/low35_compare/join.py",
+      "source_sha256": "0323cc0310ce249b0487b619772d698e3eb2ade45bbe55206f2119d84aa02da0",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/local/quartic_atomic01/metadata.json",
+      "metadata_sha256": "79cb95fde613fd54e87576b3b0e9b8ac02276e3c70e75f6ce2280a9b5d39086d",
+      "cwd": "work/below40_20261007/local/quartic_atomic_regression",
+      "argv": [
+        "python",
+        "-B",
+        "check.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/local/quartic_atomic_regression/check.py",
+      "source_sha256": "185c049e6bcc100c3008d9bd8059ed994554e11c9245a3413a3f8ee002fff99f",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/local/central35_selected_quartic_join01/metadata.json",
+      "metadata_sha256": "afecca71deafeb0dca63e641edc843fc798c1e84046b2d865ee4b233ab4c7ae2",
+      "cwd": "work/below40_20261007/local/central35_hybrid_quartic_v6",
+      "argv": [
+        "python",
+        "-B",
+        "join_selected_final.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/local/central35_hybrid_quartic_v6/join_selected_final.py",
+      "source_sha256": "c4ae5b771dfc3821636787ede87af29d50a8738c458c9c378af8e8ce2d6dfe96",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/root/sharp35_join01/metadata.json",
+      "metadata_sha256": "d33afe8108370ad94f27ac1df3141209cbfeb75bcfc4f2294d73adf4bd8a7121",
+      "cwd": "work/below40_20261007/root/sharp35_join",
+      "argv": [
+        "python",
+        "-B",
+        "check_sharp35.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/root/sharp35_join/check_sharp35.py",
+      "source_sha256": "1404c28a59f728ad4fcee8716a8e2c7122180d6d81394ebe99e5381734a4d282",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/root/frozen40_binding01/metadata.json",
+      "metadata_sha256": "14e1b7e05e48e946526dca5a88f3f623b8bf816fb79658972110a4f98cdf7727",
+      "cwd": "work/below40_20261007/root/frozen40_binding",
+      "argv": [
+        "python",
+        "-B",
+        "bind_frozen40.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/root/frozen40_binding/bind_frozen40.py",
+      "source_sha256": "9face5536aa8190a77f65a538a45ebbc0991fb394362f4fa06b35474d550745b",
+      "scope": "OUTGOING_TAIL40_FINAL63"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/relative/bridge36_accept_precomputed01/metadata.json",
+      "metadata_sha256": "593ae71e0e72939e1e7bbcc61073d247ac30504611d1dfa9a4eeed120cec6dc9",
+      "cwd": null,
+      "argv": [
+        "python",
+        "-B",
+        "work/below40_20261007/relative/precompute_fixed_accept36.py",
+        "36"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/relative/precompute_fixed_accept36.py",
+      "source_sha256": "86b56b78d4d8e55751d748e6ab0c2ffdb8d2dd40f3eff9d0f9c66f8067f3a8d0",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/relative/bridge36_support01/metadata.json",
+      "metadata_sha256": "d9b614da47f51f14446fe2b363aa594dc2bb1f84c3b716204b2579f3862d8522",
+      "cwd": "work/below40_20261007/relative/bridge36_exact",
+      "argv": [
+        "python",
+        "-B",
+        "check_support36.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/relative/bridge36_exact/check_support36.py",
+      "source_sha256": "ac26bf17776b8bfd0b2a250d8f3f0591f82ce1f9abd6548c0e7ca4ede434ebda",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/relative/bridge36_seeds_accept01/metadata.json",
+      "metadata_sha256": "63502b9f7592d03ee35f0281cb0eb1b5ee315d865cba5f5d6f6aa0a802acba5e",
+      "cwd": "work/below40_20261007/relative/bridge36_exact/seeds",
+      "argv": [
+        "python",
+        "-B",
+        "accept_seeds36.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/relative/bridge36_exact/seeds/accept_seeds36.py",
+      "source_sha256": "9ea6c9d8f8ad3afb4f8213ba13a3e7a30bb3f790e47d0ebb04950603050769a1",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/relative/bridge36_resource_accept01/metadata.json",
+      "metadata_sha256": "f382b8a707bad43ea6d8a930229c561bec9e35d870a4e866a80920e9dce50f87",
+      "cwd": "work/below40_20261007/relative/bridge36_exact/acquisition",
+      "argv": [
+        "python",
+        "-B",
+        "accept_resource.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/relative/bridge36_exact/acquisition/accept_resource.py",
+      "source_sha256": "7e4a90b915019b487e56e59b6844ec1dfad8d536c548bf835875873ed922b059",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/relative/bridge36_resource_binding01/metadata.json",
+      "metadata_sha256": "53aa28bbacc701c3c1222069e8c58b566d6d0c7357b42e4a9c963cec309bfdc6",
+      "cwd": "{HISTORICAL_ABSOLUTE}/BE_Codex_Handoff",
+      "argv": [
+        "python",
+        "-B",
+        "work/below40_20261007/relative/check_bridge_resources.py",
+        "36"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/relative/check_bridge_resources.py",
+      "source_sha256": "39bdf4dc8733b847ac36fb2c9d118a01df4afa2fc999379b7f68c675fa0080a3",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/root/bridge36_selected_quartic_join01/metadata.json",
+      "metadata_sha256": "4121b49279ad5197816a9eb8d4cfb4615228344ed81a4ed5216e9a5f743979ee",
+      "cwd": "work/below40_20261007/root/bridge_quartic_dispatch",
+      "argv": [
+        "python",
+        "-B",
+        "join_selected.py",
+        "36"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/root/bridge_quartic_dispatch/join_selected.py",
+      "source_sha256": "b2e71a104d90387e9c6a7cde490489a6e1e49acda593bc382126142544e6b863",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/relative/bridge37_accept_precomputed01/metadata.json",
+      "metadata_sha256": "749a3e5458b82699b91a14707910849ef1ac4dc21918354d7c28cbb3461236b6",
+      "cwd": null,
+      "argv": [
+        "python",
+        "-B",
+        "work/below40_20261007/relative/precompute_fixed_accept.py",
+        "37"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/relative/precompute_fixed_accept.py",
+      "source_sha256": "2fde86c7f922c48dbfba981a247405f6882248099aa9c2f0ad63caf3f4e83c78",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/relative/bridge37_support01/metadata.json",
+      "metadata_sha256": "9291f953c6765bdb6bc7aafa207d7367eb77fcbace6537e6e685de353978ea3a",
+      "cwd": "work/below40_20261007/relative/bridge37_exact",
+      "argv": [
+        "python",
+        "-B",
+        "check_support37.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/relative/bridge37_exact/check_support37.py",
+      "source_sha256": "79d2781847a2648122a95cd4503ddafbd17cec0e8b0a4e393fd08b1a42954ae0",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/relative/bridge37_resource_accept01/metadata.json",
+      "metadata_sha256": "af147d51026795edc893b76f76962788109c2ba6afd71c76f560868ee11036f3",
+      "cwd": "work/below40_20261007/relative/bridge37_exact/acquisition",
+      "argv": [
+        "python",
+        "-B",
+        "accept_resource.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/relative/bridge37_exact/acquisition/accept_resource.py",
+      "source_sha256": "ead3220153bf25dbc9a3246b21f7fd8e9c3b3aadb3f01b97877de27d126ae4df",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/relative/bridge37_resource_binding01/metadata.json",
+      "metadata_sha256": "cc87cc18d535266cc8aedfa77157a193f66a2f556da8309b3d3acda3e923be00",
+      "cwd": "{HISTORICAL_ABSOLUTE}/BE_Codex_Handoff",
+      "argv": [
+        "python",
+        "-B",
+        "work/below40_20261007/relative/check_bridge_resources.py",
+        "37"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/relative/check_bridge_resources.py",
+      "source_sha256": "39bdf4dc8733b847ac36fb2c9d118a01df4afa2fc999379b7f68c675fa0080a3",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/root/bridge37_selected_quartic_join01/metadata.json",
+      "metadata_sha256": "203b5e58690e4a38f0a63810a9b23935410eecc2660c02008f2a0df9a873fa66",
+      "cwd": "work/below40_20261007/root/bridge_quartic_dispatch",
+      "argv": [
+        "python",
+        "-B",
+        "join_selected.py",
+        "37"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/root/bridge_quartic_dispatch/join_selected.py",
+      "source_sha256": "b2e71a104d90387e9c6a7cde490489a6e1e49acda593bc382126142544e6b863",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/relative/bridge38_accept_precomputed01/metadata.json",
+      "metadata_sha256": "7429fa5de20bcb7f65f7c9281eb31e3b998e939f2b25e8688b8468c947ed1149",
+      "cwd": null,
+      "argv": [
+        "python",
+        "-B",
+        "work/below40_20261007/relative/precompute_fixed_accept.py",
+        "38"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/relative/precompute_fixed_accept.py",
+      "source_sha256": "2fde86c7f922c48dbfba981a247405f6882248099aa9c2f0ad63caf3f4e83c78",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/relative/bridge38_support01/metadata.json",
+      "metadata_sha256": "524eae57b5aacead21b9d6fb0b0aff66b59e91e6598199951f4bb9b5a79004cd",
+      "cwd": "work/below40_20261007/relative/bridge38_exact",
+      "argv": [
+        "python",
+        "-B",
+        "check_support38.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/relative/bridge38_exact/check_support38.py",
+      "source_sha256": "18cf05d08915fe7093227e8b3900b5a9780acb7d3bc10ed54a0cf45d931d1d6d",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/relative/bridge38_resource_accept01/metadata.json",
+      "metadata_sha256": "890dc8d80f672ec0ef60251341768c6e47dee94f196e2fb21c744b0c5d19e335",
+      "cwd": "work/below40_20261007/relative/bridge38_exact/acquisition",
+      "argv": [
+        "python",
+        "-B",
+        "accept_resource.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/relative/bridge38_exact/acquisition/accept_resource.py",
+      "source_sha256": "ead3220153bf25dbc9a3246b21f7fd8e9c3b3aadb3f01b97877de27d126ae4df",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/relative/bridge38_resource_binding01/metadata.json",
+      "metadata_sha256": "9955dbf244903ebe8d4724e80f4a9957e64b0a7a69a9ff894f073f0932b45a4b",
+      "cwd": "{HISTORICAL_ABSOLUTE}/BE_Codex_Handoff",
+      "argv": [
+        "python",
+        "-B",
+        "work/below40_20261007/relative/check_bridge_resources.py",
+        "38"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/relative/check_bridge_resources.py",
+      "source_sha256": "39bdf4dc8733b847ac36fb2c9d118a01df4afa2fc999379b7f68c675fa0080a3",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/root/bridge38_selected_quartic_join01/metadata.json",
+      "metadata_sha256": "6d4a9c46081eb0994845e5698186a5da82619bed71ad7b49220c1b2130a86e8a",
+      "cwd": "work/below40_20261007/root/bridge_quartic_dispatch",
+      "argv": [
+        "python",
+        "-B",
+        "join_selected.py",
+        "38"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/root/bridge_quartic_dispatch/join_selected.py",
+      "source_sha256": "b2e71a104d90387e9c6a7cde490489a6e1e49acda593bc382126142544e6b863",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/relative/bridge39_accept_precomputed01/metadata.json",
+      "metadata_sha256": "3cbba8790c6f3ce2123390065a76b7df087b042649bd32f5333910ff46403d7b",
+      "cwd": null,
+      "argv": [
+        "python",
+        "-B",
+        "work/below40_20261007/relative/precompute_fixed_accept.py",
+        "39"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/relative/precompute_fixed_accept.py",
+      "source_sha256": "2fde86c7f922c48dbfba981a247405f6882248099aa9c2f0ad63caf3f4e83c78",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/relative/bridge39_support01/metadata.json",
+      "metadata_sha256": "e81272d70a93a75fc9401ad211e4e4e0a920f76762e1838f94e48a2a0c6f359e",
+      "cwd": "work/below40_20261007/relative/bridge39_exact",
+      "argv": [
+        "python",
+        "-B",
+        "check_support39.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/relative/bridge39_exact/check_support39.py",
+      "source_sha256": "b871f34682dca53797143bfe3185121ed82ca237b8b7422a70c68f4b6b0168c7",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/relative/bridge39_resource_accept01/metadata.json",
+      "metadata_sha256": "cbf7625daff0e2b780390e1d04dd4690ad374af2b05b909665e39684dab78b3b",
+      "cwd": "work/below40_20261007/relative/bridge39_exact/acquisition",
+      "argv": [
+        "python",
+        "-B",
+        "accept_resource.py"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/relative/bridge39_exact/acquisition/accept_resource.py",
+      "source_sha256": "ead3220153bf25dbc9a3246b21f7fd8e9c3b3aadb3f01b97877de27d126ae4df",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/relative/bridge39_resource_binding01/metadata.json",
+      "metadata_sha256": "2a4c9d71254dd4f7fa5595905caa73512d5df89741b2680dfbafb6f9d22de268",
+      "cwd": "{HISTORICAL_ABSOLUTE}/BE_Codex_Handoff",
+      "argv": [
+        "python",
+        "-B",
+        "work/below40_20261007/relative/check_bridge_resources.py",
+        "39"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/relative/check_bridge_resources.py",
+      "source_sha256": "39bdf4dc8733b847ac36fb2c9d118a01df4afa2fc999379b7f68c675fa0080a3",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    },
+    {
+      "metadata_member": "BE_cutoff35_release_20261007/runs/below40_20261007/root/bridge39_selected_quartic_join01/metadata.json",
+      "metadata_sha256": "b8f4723abf10b20b814833671bd459b28d7e6bde6df8c38027bbfad028a12691",
+      "cwd": "work/below40_20261007/root/bridge_quartic_dispatch",
+      "argv": [
+        "python",
+        "-B",
+        "join_selected.py",
+        "39"
+      ],
+      "source_member": "BE_cutoff35_release_20261007/work/below40_20261007/root/bridge_quartic_dispatch/join_selected.py",
+      "source_sha256": "b2e71a104d90387e9c6a7cde490489a6e1e49acda593bc382126142544e6b863",
+      "scope": "SELECTED_FINITE35_39_PARENT_OR_INTERFACE"
+    }
+  ],
+  "special_selection": {
+    "B2": "All4local patchrows32..35 via compose_b2_new_selection.py2, not the old2row selection.",
+    "B5": "b5_resources_initial_enhanced_replay_one",
+    "B6": "b6_resources_optimized_replay_two",
+    "B7": "b7_resources_initial_enhanced_replay_two"
+  },
+  "nested_binders": [
+    "support/check_support_checkpoint_v4.py:6original support/barrier suites plus scalar/control checks",
+    "relative/run_bridge_binding.py n36..39 requires INITIAL/resource/support execution records then launches check_bridge_resources.py n",
+    "root/sharp35_join/check_sharp35.py binds positive/low/upper35 resource and count joins",
+    "root/global35/check_cutoff35.py invokes4isolated replay_resource_interface.py n36..39 calls; finite-only replacement must explicitly preserve interfaces and remove the incoming-tail theorem as a reviewed logical projection, never suppress an original guard"
+  ],
+  "blocked_sections": [
+    "Current portable full transitive source/capture epochs for floor31 and35--39 programs are not implemented.",
+    "Fixed native source/program/candidate families are listed, but no construct-versus-retained-candidate admission bridge is yet sealed. Any original constructor-capture prerequisite must be fulfilled inside this same named section; do not fabricate history or silently add a new notebook.",
+    "B6 original metadata hash-path alias and optimized-runtime/helper gates need truthful current source epochs. No oldhashimpersonation or math-body changes.",
+    "Four recorded precompute_fixed_accept metadata files lack cwd. The wrapper source and current execution must establish actual cwd, source and full output, rather than invent a historical cwd.",
+    "Historical positive27 streamlined manuscript SHA974a0781... remains unavailable. Its named available-source analytic substitution is explicit; no claim of reading/reconstructing missing bytes. Non-scalar positive-profile hypotheses remain until a precise replacement is proved."
+  ],
+  "source_rows": [
+    {
+      "member": "threshold31_20261008/local/sharp31_ladder_b0_initial/support/accept.py",
+      "bytes": 4090,
+      "sha256": "eb9285fc2390a41acb4cdf1a51695b9261a1fa62b33e68f42595adef940af8b2"
+    },
+    {
+      "member": "threshold31_20261008/local/sharp31_ladder_b0_initial/support/independent.py",
+      "bytes": 3858,
+      "sha256": "6ab031dae94bd26c706079278893ec09e3a1268a32df6a3b1a3b4404a3648a44"
+    },
+    {
+      "member": "threshold31_20261008/local/sharp31_ladder_more_initial/b1/support/accept.py",
+      "bytes": 3817,
+      "sha256": "598c1fecdc398c56676b089b377b7072075d9a6601b4d21c3a93a8dc2ca71ef5"
+    },
+    {
+      "member": "threshold31_20261008/local/sharp31_ladder_more_initial/b1/support/independent.py",
+      "bytes": 3858,
+      "sha256": "d767aa427831bbd540915e3fa0034383ae3d2d46b9b1ac02eb7242c794f17996"
+    },
+    {
+      "member": "threshold31_20261008/local/sharp31_ladder_more_initial/b2/support/accept.py",
+      "bytes": 3817,
+      "sha256": "41d270579a7df9415ffd5261f2c3745c322d3c45c8a9689055f3e4e6cc04ebf2"
+    },
+    {
+      "member": "threshold31_20261008/local/sharp31_ladder_more_initial/b2/support/independent.py",
+      "bytes": 3858,
+      "sha256": "cce1f1301c6650654c818ea43110248b0b3b23a13dad372a6f56c78f1a26fa46"
+    },
+    {
+      "member": "threshold31_20261008/local/sharp31_ladder_more_initial/b4/support/accept.py",
+      "bytes": 3817,
+      "sha256": "fd0aca8af9b27e97c0ac81866c4f4b41aef08a69acaad89c6e25c2320d6342b1"
+    },
+    {
+      "member": "threshold31_20261008/local/sharp31_ladder_more_initial/b4/support/independent.py",
+      "bytes": 3858,
+      "sha256": "98e367bd60918b6c954aaad95f3c6e58f0dedadb747c509b010f4c698a319e78"
+    },
+    {
+      "member": "continuation_20261010/shared/b3_support_replay/accept.py",
+      "bytes": 3817,
+      "sha256": "df172bbe7660b60b6bc76be99a0078b6bc115a72b5cea7322f9c637297844023"
+    },
+    {
+      "member": "continuation_20261010/shared/b3_support_replay/independent.py",
+      "bytes": 3858,
+      "sha256": "39f8fbbc8735e34609d73509cda0a6261e9e3e0ddef69ea9882ae63b8133deb0"
+    },
+    {
+      "member": "continuation_20261010/repair31/b5_resources_initial_enhanced_replay_one/global_initial/support/accept.py",
+      "bytes": 3817,
+      "sha256": "d58842f31a83d583e8fecc1307c9066bbc24f0cf68d3e31169cfad8f90056fe6"
+    },
+    {
+      "member": "continuation_20261010/repair31/b5_resources_initial_enhanced_replay_one/global_initial/support/independent.py",
+      "bytes": 3858,
+      "sha256": "a691f8eb8a70cb0c58155aa0d0bad5e7cc431842c41ea966afda4edf5bce0068"
+    },
+    {
+      "member": "continuation_20261010/repair31/b5_resources_initial_enhanced_replay_one/support_input/accept.py",
+      "bytes": 3817,
+      "sha256": "d58842f31a83d583e8fecc1307c9066bbc24f0cf68d3e31169cfad8f90056fe6"
+    },
+    {
+      "member": "continuation_20261010/repair31/b5_resources_initial_enhanced_replay_one/support_input/independent.py",
+      "bytes": 3858,
+      "sha256": "a691f8eb8a70cb0c58155aa0d0bad5e7cc431842c41ea966afda4edf5bce0068"
+    },
+    {
+      "member": "continuation_20261010/repair31/b6_resources_optimized_replay_two/global_initial/support/accept.py",
+      "bytes": 3817,
+      "sha256": "26ed5814b61678c25a26d1d63439c9cf9192c22c3afa8f91eafa5bca97a61120"
+    },
+    {
+      "member": "continuation_20261010/repair31/b6_resources_optimized_replay_two/global_initial/support/independent.py",
+      "bytes": 3858,
+      "sha256": "dc5b8c4a8f3e16d46503aba9db3e48eb1cea26bcec99a5c3aa24efc638b256b1"
+    },
+    {
+      "member": "continuation_20261010/repair31/b6_resources_optimized_replay_two/support_input/accept.py",
+      "bytes": 3817,
+      "sha256": "26ed5814b61678c25a26d1d63439c9cf9192c22c3afa8f91eafa5bca97a61120"
+    },
+    {
+      "member": "continuation_20261010/repair31/b6_resources_optimized_replay_two/support_input/independent.py",
+      "bytes": 3858,
+      "sha256": "dc5b8c4a8f3e16d46503aba9db3e48eb1cea26bcec99a5c3aa24efc638b256b1"
+    },
+    {
+      "member": "continuation_20261010/repair31/b7_resources_initial_enhanced_replay_two/global_initial/support/accept.py",
+      "bytes": 3817,
+      "sha256": "c5fd2878d7dac06ae96bd644e2e86b39ab5890c90dcd736c0114c8a9f3c85b7f"
+    },
+    {
+      "member": "continuation_20261010/repair31/b7_resources_initial_enhanced_replay_two/global_initial/support/independent.py",
+      "bytes": 3858,
+      "sha256": "7835f07fb7b2ebff0d6fa6f945ef699f741d7a4dc11478ed41e8b46d69297fdf"
+    },
+    {
+      "member": "continuation_20261010/repair31/b7_resources_initial_enhanced_replay_two/support_input/accept.py",
+      "bytes": 3817,
+      "sha256": "c5fd2878d7dac06ae96bd644e2e86b39ab5890c90dcd736c0114c8a9f3c85b7f"
+    },
+    {
+      "member": "continuation_20261010/repair31/b7_resources_initial_enhanced_replay_two/support_input/independent.py",
+      "bytes": 3858,
+      "sha256": "7835f07fb7b2ebff0d6fa6f945ef699f741d7a4dc11478ed41e8b46d69297fdf"
+    },
+    {
+      "member": "threshold31_20261008/local/sharp31_ladder_b0_initial/initial31.py",
+      "bytes": 9902,
+      "sha256": "ffb93da0f26a368f4422a45d84d116c7b634133d232c7f8a4f8aa27f2c6259f2"
+    },
+    {
+      "member": "threshold31_20261008/local/sharp31_ladder_more_initial/b1/initial31.py",
+      "bytes": 10503,
+      "sha256": "84d4f9e800be2103460f01dfc314b3cd2e0f42ed44355d29c6fa18df03a64f93"
+    },
+    {
+      "member": "threshold31_20261008/local/sharp31_ladder_more_initial/b2/initial31.py",
+      "bytes": 10508,
+      "sha256": "11585117675359efb8eaec8187e3f07b6517cb92eea068aa5c3354ec417cfe38"
+    },
+    {
+      "member": "continuation_20261010/shared/b3_initial_replay/accept_relocated.py",
+      "bytes": 2663,
+      "sha256": "9e7b5e008907462f146dbf52c15529eeba91310d3412dedb7484f50bc32844a9"
+    },
+    {
+      "member": "threshold31_20261008/local/sharp31_ladder_more_initial/b4/initial31.py",
+      "bytes": 10493,
+      "sha256": "9f2564e3ded46bb36d531f43a4b971331a46a67b66b9ab90f7e362bdd89a928d"
+    },
+    {
+      "member": "continuation_20261010/repair31/b5_resources_initial_enhanced_replay_one/global_initial/accept_relocated_integer.py",
+      "bytes": 3027,
+      "sha256": "f3edb8d6b50706c0cb7b64456d6b78f083a8ff2b3a55fb687b2a96dd6090ec98"
+    },
+    {
+      "member": "continuation_20261010/repair31/b6_resources_optimized_replay_two/global_initial/accept_relocated_optimized.py",
+      "bytes": 3702,
+      "sha256": "060b5093cde7198f9a9b9aa9bab3dfaffa7dcebd8f278bf3537448eb2f93b48e"
+    },
+    {
+      "member": "continuation_20261010/repair31/b7_resources_initial_enhanced_replay_two/global_initial/optimized_initial.py",
+      "bytes": 2981,
+      "sha256": "41404d46f468f62cc1939d7a55867643d7683a35ab1bed135c77f76b8da84302"
+    },
+    {
+      "member": "threshold31_20261008/entry/sharp31_b0_exact/accept_resources31_v3.py",
+      "bytes": 3855,
+      "sha256": "a6747ee1be6e40d3488463adacdd75f272638602842afeca8541f35357dc9268"
+    },
+    {
+      "member": "threshold31_20261008/entry/sharp31_b1_exact/accept_resources31.py",
+      "bytes": 3965,
+      "sha256": "b378224c4e56f952d53dda2e2e9dc723fe7ac1265713175e1f4a682d4f0ab61a"
+    },
+    {
+      "member": "threshold31_20261008/entry/sharp31_b2_exact/accept_resources31.py",
+      "bytes": 3965,
+      "sha256": "b378224c4e56f952d53dda2e2e9dc723fe7ac1265713175e1f4a682d4f0ab61a"
+    },
+    {
+      "member": "threshold31_20261008/entry/sharp31_b1_local_patch/accept_resources31.py",
+      "bytes": 4309,
+      "sha256": "ab749a83e542b22fd976c57527c67218103b1f44a1d4db9731c9f3cb194bdb97"
+    },
+    {
+      "member": "threshold31_20261008/entry/sharp31_b2_local_patch/accept_resources31.py",
+      "bytes": 4317,
+      "sha256": "c4820f280b3e824e7e8a16e189f227275527c7e03f2dcbef2df6ebb3fd31cddd"
+    },
+    {
+      "member": "continuation_20261010/shared/b3_resource_replay/accept_resources31_parallel.py",
+      "bytes": 262,
+      "sha256": "b598434cff1d899af3b40d67eaef166c3e042dd6fd34eae24362ed613c7637a9"
+    },
+    {
+      "member": "continuation_20261010/shared/b4_resource_replay/accept_resources31_parallel.py",
+      "bytes": 262,
+      "sha256": "b598434cff1d899af3b40d67eaef166c3e042dd6fd34eae24362ed613c7637a9"
+    },
+    {
+      "member": "continuation_20261010/repair31/b5_resources_initial_enhanced_replay_one/accept_optimized_resources.py",
+      "bytes": 4268,
+      "sha256": "edd2d0978528f2e2596ee8754c2ef6da2c5241c0daaadff2ece9adb6ea1d7e7c"
+    },
+    {
+      "member": "continuation_20261010/repair31/b6_resources_optimized_replay_two/accept_optimized_resources.py",
+      "bytes": 3512,
+      "sha256": "09b22ec0c8133b6f92a202d1f458405e74c81df7c0744c8071c5a294a7c22f96"
+    },
+    {
+      "member": "continuation_20261010/repair31/b7_resources_initial_enhanced_replay_two/accept_optimized_resources.py",
+      "bytes": 4268,
+      "sha256": "6954bb0c751dd777618e456faf25e3a2091e4fdca13d1b583459452998d106ed"
+    },
+    {
+      "member": "continuation_20261010/shared/bridge_b0_support/check.py",
+      "bytes": 3690,
+      "sha256": "09aa7ee0c679871d15b8589dd2aa3808920af3a46bd59cc398735a84ada81d48"
+    },
+    {
+      "member": "continuation_20261010/shared/bridge_b12_support/check_support.py",
+      "bytes": 3114,
+      "sha256": "f86ce83383df949dfaee71fbffce19b7b04f1189e2ef2a3f88a011bf1acbb426"
+    },
+    {
+      "member": "continuation_20261010/shared/bridge_b3_support/check.py",
+      "bytes": 3646,
+      "sha256": "dad31b36a734bcba74abd6551e46964b94b3559590d70eb66a1bdea8f0939e3d"
+    },
+    {
+      "member": "continuation_20261010/shared/bridge_b4_support/check.py",
+      "bytes": 3647,
+      "sha256": "e70567d712dc464117e8031e295fcf03d9505416300d1d5e91cbd265b3fd0471"
+    },
+    {
+      "member": "continuation_20261010/repair31/highrho_uniform_bridge/check_actual_support.py",
+      "bytes": 4250,
+      "sha256": "69fa92be3b824dd2c8276ebc956cb171a66135d8fec09da257377165567d2566"
+    },
+    {
+      "member": "continuation_20261010/shared/bridge_b0_resources/compose.py",
+      "bytes": 5702,
+      "sha256": "b71c9b53036caccff3bdd89b5c8f0a2e16832703aba6d91e7729c86137a047b2"
+    },
+    {
+      "member": "continuation_20261010/shared/bridge_b12_resources/compose.py",
+      "bytes": 7113,
+      "sha256": "c5f10712602ed6e9f605fd4ce6efba9d7280ba271ece344b46ec58db32813dac"
+    },
+    {
+      "member": "continuation_20261010/shared/bridge_b12_resources/compose_b2_new_selection.py",
+      "bytes": 7820,
+      "sha256": "3c363b47077f131db748fbd278df2ecbfbacec3828ed7aa280e840e8402cea8b"
+    },
+    {
+      "member": "continuation_20261010/shared/bridge_b3_resources/compose.py",
+      "bytes": 5351,
+      "sha256": "c788566f53ec20a810eb5da44e54cdaddb0f9a1c0d5a34087f63c34b02b6dccf"
+    },
+    {
+      "member": "continuation_20261010/shared/bridge_b4_resources/compose.py",
+      "bytes": 5444,
+      "sha256": "7dac4eb68798a8a11ce6df28555aef3550f1fa28e55f9d1b24903410f9497465"
+    },
+    {
+      "member": "continuation_20261010/repair31/highrho_uniform_bridge/compose_uniform_resources.py",
+      "bytes": 5325,
+      "sha256": "0acbde14f26379e706419ef08d5c3fea43c3e68f4bda3b6dd1e3e5a90107cbcd"
+    },
+    {
+      "member": "continuation_20261010/repair31/compose_actual32_34_v2.py",
+      "bytes": 9991,
+      "sha256": "1e0e3c008a583961462e2bee52a2e49afa957ce8d7fb1facb5fe4c650dca5de5"
+    },
+    {
+      "member": "continuation_20261010/repair31/compose_sharp31_v2.py",
+      "bytes": 11647,
+      "sha256": "7a464e356589e0895514d08c8da555c884a3f4be567ec29994bcc6b48012d52d"
+    },
+    {
+      "member": "continuation_20261010/repair31/compose_sharp31_34.py",
+      "bytes": 4181,
+      "sha256": "a957c6572351ebb575dfd7562d73bff99a5c243843a2a88c5220d80ed0cee4ca"
+    },
+    {
+      "member": "continuation_20261010/repair31/check_tail31.py",
+      "bytes": 2062,
+      "sha256": "8d974f068de62b3aa88050ee6f06e2c6ab2b18ec09920c74b05b9d97aac87868"
+    },
+    {
+      "member": "continuation_20261010/repair31/check_owncap31_elementary.py",
+      "bytes": 1522,
+      "sha256": "da1c5b68900cadadb3e476e185e19513299580c1a94da62fa5ffe54ebe5c6e16"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/root/global35/CUTOFF35_COMPLETE.json",
+      "bytes": 1203306,
+      "sha256": "76bccc57a6886154c26822abe9ea0e7d705c12c171fc7ca6595deca6a68c5a19"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/direct_support_release/accept_direct_support.py",
+      "bytes": 4514,
+      "sha256": "2fdfa162306ab4df27443e792b5926a561b415c547c2e072e65be43a41da75a8"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/barrier31_release/accept_barrier31.py",
+      "bytes": 6026,
+      "sha256": "d3cbf767f01507caf28783e73b89de0f3cea68c5a4c3c8e957011253a6d68c00"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/direct_q265_release/accept_direct_q265.py",
+      "bytes": 4531,
+      "sha256": "f1f113cc246e8062affd093d8db5255be8848057348c7de70df299d1a28a35b2"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/barrier32_release/accept_barrier32.py",
+      "bytes": 6081,
+      "sha256": "e45de226f79159e4f3ed981efe4d9412103eeedc13f329b254dd7f67ed52ba7c"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/barrier33_35_release/accept_barrier33_35.py",
+      "bytes": 6245,
+      "sha256": "05823fc4e0399d1e584e011e189a8f0560e9974c0ed79c7ba6970cc1990646ee"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/barrier33_35_b065_release/accept_barrier33_35_b065.py",
+      "bytes": 6323,
+      "sha256": "f5fed37134ca27ccc4446bf93a6de7ca3a05bd563c2350b9ffdc0a03e65567ea"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/root/barrier32/accept_acquisition32.py",
+      "bytes": 9018,
+      "sha256": "6a0b2f7bf8c471f8f42c8af3c5256c5e03f9c1f4f9cd702fcace404a97770f93"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/accept_initial33.py",
+      "bytes": 5580,
+      "sha256": "ef74dfd8e2b1c6c83511469ce733fff347dd373f24a215d7fd2dc5422c6bf638"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive33_acq/accept_acquisition33.py",
+      "bytes": 7970,
+      "sha256": "c130cb8d9ce740152bfd325be1c0fe84d5bf6e080a27c9f7f55ca7f5e698f6e2"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/accept_initial34.py",
+      "bytes": 5523,
+      "sha256": "1a11441a7357cdf26aca83975510ec79a7472bb716bf83c1754a581b63478a09"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive34_acq/accept_acquisition34_product_v2.py",
+      "bytes": 8007,
+      "sha256": "d070d3259c3bd4284668d82f3970e1504a070c1e6199ff4846b4c31788e7cfe1"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/root/positive34_join/check_positive34.py",
+      "bytes": 6922,
+      "sha256": "c311dd3c8b90754d846223b77455c32b93fd7d95fd434509506775f1666d65f7"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/accept_initial35_parallel.py",
+      "bytes": 6237,
+      "sha256": "6a2ac73a0131bb7af230633906d86cb24adc8e92be97f21eabd0c3731d033b41"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/accept_seeds35_parallel.py",
+      "bytes": 5114,
+      "sha256": "2a55b2eceda8409a32e64cf1bd9a87cdb66d5dce932b5c96a488e68f297c35da"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/accept_central35_v2.py",
+      "bytes": 7484,
+      "sha256": "4cf6c9325f292948227671dbb75d8c451d518621439410dabe86c3da88efffdd"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_acq/check_resources35_v2.py",
+      "bytes": 12272,
+      "sha256": "f3d74914cdce25bac34241d5ba9d69c490f3b24e942b2c0520bc37c9d150daaf"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_low_rounded/accept_low35.py",
+      "bytes": 7225,
+      "sha256": "83a04629c22c083e8b8b54db59118979ae89febef1a36da01b92af6b94b5a912"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/positive35_low_rounded/check_low35.py",
+      "bytes": 7222,
+      "sha256": "308d69b6f06433a08c3c0891eb11c485e380a4c4559f581ebc17697963f069f9"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/root/upper35_exact/accept_upper.py",
+      "bytes": 5575,
+      "sha256": "5ffa4091bc9686e0014e45e23cb7f84b47b162f70be3613e15ef728a304c7e97"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/root/upper35_exact/bind_upper35.py",
+      "bytes": 7011,
+      "sha256": "0669e45aac9d87b2b73f14fe0744f2161f4c47509a7437f5ba61960bfbd215df"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/root/low35_compare/join.py",
+      "bytes": 6583,
+      "sha256": "0323cc0310ce249b0487b619772d698e3eb2ade45bbe55206f2119d84aa02da0"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/local/quartic_atomic_regression/check.py",
+      "bytes": 5887,
+      "sha256": "185c049e6bcc100c3008d9bd8059ed994554e11c9245a3413a3f8ee002fff99f"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/local/central35_hybrid_quartic_v6/join_selected_final.py",
+      "bytes": 8939,
+      "sha256": "c4ae5b771dfc3821636787ede87af29d50a8738c458c9c378af8e8ce2d6dfe96"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/root/sharp35_join/check_sharp35.py",
+      "bytes": 10713,
+      "sha256": "1404c28a59f728ad4fcee8716a8e2c7122180d6d81394ebe99e5381734a4d282"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/root/frozen40_binding/bind_frozen40.py",
+      "bytes": 5284,
+      "sha256": "9face5536aa8190a77f65a538a45ebbc0991fb394362f4fa06b35474d550745b"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/relative/precompute_fixed_accept36.py",
+      "bytes": 1995,
+      "sha256": "86b56b78d4d8e55751d748e6ab0c2ffdb8d2dd40f3eff9d0f9c66f8067f3a8d0"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/relative/bridge36_exact/check_support36.py",
+      "bytes": 2470,
+      "sha256": "ac26bf17776b8bfd0b2a250d8f3f0591f82ce1f9abd6548c0e7ca4ede434ebda"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/relative/bridge36_exact/seeds/accept_seeds36.py",
+      "bytes": 4478,
+      "sha256": "9ea6c9d8f8ad3afb4f8213ba13a3e7a30bb3f790e47d0ebb04950603050769a1"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/relative/bridge36_exact/acquisition/accept_resource.py",
+      "bytes": 8914,
+      "sha256": "7e4a90b915019b487e56e59b6844ec1dfad8d536c548bf835875873ed922b059"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/relative/check_bridge_resources.py",
+      "bytes": 12051,
+      "sha256": "39bdf4dc8733b847ac36fb2c9d118a01df4afa2fc999379b7f68c675fa0080a3"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/root/bridge_quartic_dispatch/join_selected.py",
+      "bytes": 5785,
+      "sha256": "b2e71a104d90387e9c6a7cde490489a6e1e49acda593bc382126142544e6b863"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/relative/precompute_fixed_accept.py",
+      "bytes": 2004,
+      "sha256": "2fde86c7f922c48dbfba981a247405f6882248099aa9c2f0ad63caf3f4e83c78"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/relative/bridge37_exact/check_support37.py",
+      "bytes": 2470,
+      "sha256": "79d2781847a2648122a95cd4503ddafbd17cec0e8b0a4e393fd08b1a42954ae0"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/relative/bridge37_exact/acquisition/accept_resource.py",
+      "bytes": 8420,
+      "sha256": "ead3220153bf25dbc9a3246b21f7fd8e9c3b3aadb3f01b97877de27d126ae4df"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/relative/bridge38_exact/check_support38.py",
+      "bytes": 2470,
+      "sha256": "18cf05d08915fe7093227e8b3900b5a9780acb7d3bc10ed54a0cf45d931d1d6d"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/relative/bridge38_exact/acquisition/accept_resource.py",
+      "bytes": 8420,
+      "sha256": "ead3220153bf25dbc9a3246b21f7fd8e9c3b3aadb3f01b97877de27d126ae4df"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/relative/bridge39_exact/check_support39.py",
+      "bytes": 2470,
+      "sha256": "b871f34682dca53797143bfe3185121ed82ca237b8b7422a70c68f4b6b0168c7"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/relative/bridge39_exact/acquisition/accept_resource.py",
+      "bytes": 8420,
+      "sha256": "ead3220153bf25dbc9a3246b21f7fd8e9c3b3aadb3f01b97877de27d126ae4df"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/root/global35/check_cutoff35.py",
+      "bytes": 15933,
+      "sha256": "22c72e27efe5d7efa47af9eed12fa1c30e41c32ac1544fb5ed15bf5b3b13f5bf"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/root/global35/replay_resource_interface.py",
+      "bytes": 427,
+      "sha256": "272acd9126431f50c94388b6aa3b948b9cb8359792fce1def898fe915c0fa964"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/support/check_support_checkpoint_v4.py",
+      "bytes": 9786,
+      "sha256": "e68acb65091fee12c2a64c05a3ce57ab31cba853124be21a2070be2c2f450daf"
+    },
+    {
+      "member": "BE_cutoff35_release_20261007/work/below40_20261007/relative/run_bridge_binding.py",
+      "bytes": 1597,
+      "sha256": "ebc89b7582e23a66febadcf1f4640944cf64ee619d46cb342db17875927594bd"
+    },
+    {
+      "member": "continuation_20261010/shared/bridge_b0_resources/UNIFORM_B0_RESOURCES_CHECKED.json",
+      "bytes": 213090,
+      "sha256": "29b22ef936b9bfaf60bb82287c57a25d861f92cc4c5be496d16adebb57f0cf58"
+    },
+    {
+      "member": "continuation_20261010/shared/bridge_b12_resources/UNIFORM_B1_RESOURCES_CHECKED.json",
+      "bytes": 221863,
+      "sha256": "c4a23b32b61b99faaceff8e53f95847ad52bc01c0898a4a5a6b671edc7f7536f"
+    },
+    {
+      "member": "continuation_20261010/shared/bridge_b12_resources/UNIFORM_B2_RESOURCES_CHECKED.json",
+      "bytes": 208420,
+      "sha256": "6a66751903ef648da190e1301e3edabdfa8ceb305c50328aaee8534a51f94986"
+    },
+    {
+      "member": "continuation_20261010/shared/bridge_b3_resources/UNIFORM_B3_RESOURCES_CHECKED.json",
+      "bytes": 52600,
+      "sha256": "da31153877a8299ce02a45a55fb6cfeff00d0cf3f5394c07b5c624296616b93d"
+    },
+    {
+      "member": "continuation_20261010/shared/bridge_b4_resources/UNIFORM_B4_RESOURCES_CHECKED.json",
+      "bytes": 48673,
+      "sha256": "c3537cf1139f8ee0d41aec8eb9769f6a036d05cb8eab4a77909e389a878ec579"
+    },
+    {
+      "member": "continuation_20261010/repair31/highrho_uniform_bridge/UNIFORM_B5_RESOURCES_CHECKED.json",
+      "bytes": 99265,
+      "sha256": "1a0fae53e06a05d85729bd91475f34ac7cc937c9cb46d715d6f6fd0fcc32b279"
+    },
+    {
+      "member": "continuation_20261010/repair31/highrho_uniform_bridge/UNIFORM_B6_RESOURCES_CHECKED.json",
+      "bytes": 68934,
+      "sha256": "2e785993fd346bacf7ca69e9540616d3aca94dd6839d2b3de760d74537e99a23"
+    },
+    {
+      "member": "continuation_20261010/repair31/highrho_uniform_bridge/UNIFORM_B7_RESOURCES_CHECKED.json",
+      "bytes": 109511,
+      "sha256": "ef92cfcbff1ecd48dfe97263ca7a4522a105d2f762e3b0721df7a0d3bbef52d0"
+    }
+  ],
+  "missing_listed_entrypoint_bytes": [],
+  "source_census_scope": "All listed entrypoints/eight selected uniform records and finite35--39 recorded nonCOUNT program identities; not full9518member runtime admission or a ready runnable protocol.",
+  "original_math_imported_or_run": false,
+  "arithmetic_computed": false,
+  "parent_acquisitions_verified": false,
+  "all_index_conclusion_verified": false,
+  "archive": {
+    "name": "closure31.zip",
+    "bytes": 135288952,
+    "declared_sha256": "68eb555e08ee7509f9d136df6fae5e354aff816ec4f77cc8426698c479b205a0",
+    "whole_archive_fresh_hash_in_this_step": false
+  }
+}

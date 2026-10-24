@@ -1230,3 +1230,36 @@ All45clean source/synthetic recovery fixtures pass. See
 [sanitized actual readback](finite69_caps_recovery_validation.json).
 The corrected46reuses the nine INITIAL jobs and the recovered owncaps stage,
 then continues the nine resources. Its full19-stage batch remains unobserved.
+
+## Notebook57B: supplied complete supported14--19 ending
+
+The supplied final cell reports `complete_conditional_supported14_19_sublane_basic`
+and saves `finite1519-supported/20261024T002020Z-51367635/20261024T002020Z-51367635-results.zip`.
+The successful supported Fourier execution is preserved. Actual full export
+validation, acquired support and the final57/COUNT/global joins remain separate.
+No repeated successful57B arithmetic is queued.
+
+## Notebook55: corrected complete n35--39 COUNT ending
+
+The supplied final cell reports `complete_selected_conditional_count_arithmetic_basic`
+and saves `finite1039-counts-n35_39/20261024T014047Z-516cc64f/20261024T014047Z-516cc64f-results.zip`.
+All120 selected jobs had already completed before the earlier finalization
+KeyError. The corrected run preserves those completed stages and saves the
+final bundle. No repeated COUNT arithmetic is queued. Full export validation
+and actual parent/all-law joins remain separate.
+
+## Notebook58F: actual completed supported20--24 ZIP revalidated
+
+The actual446981-byte ZIP20261024T012707Z-b4208f3a has SHA256
+`54969b32af186ef2404ace4c9d90363f4a96f878349af7df90ccd14e29ca84c1`.
+Its original pure completed-stage reader passes after contained extraction and
+relocation, validating the exact source/runtime, all four full actions, stopped
+launch/captures, complete outputs,29 strips/145 actual-index rows,14 native
+negative controls/four identities and26 independent controls. No original
+mathematical module was imported or rerun locally. The result is
+`complete_conditional_actual20_fourier_supported_basic`, for actual20--24,
+rho[9/8,6/5], under the explicit |X|<=3 premise. It runs from01:27:07 to01:55:39UTC.
+Preserve the complete transaction; no numerical replay is queued. Support
+acquisition and the full actual20/package58/global statements remain open.
+
+See [the sanitized actual readback](finite2024_supported_completed_readback.json).

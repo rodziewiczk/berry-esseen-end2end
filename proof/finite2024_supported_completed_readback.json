@@ -1,0 +1,58 @@
+{
+  "zip_sha256": "54969b32af186ef2404ace4c9d90363f4a96f878349af7df90ccd14e29ca84c1",
+  "zip_bytes": 446981,
+  "local_original_numerical_code_executed": false,
+  "validated": {
+    "schema": "REVALIDATED_CONDITIONAL_ACTUAL20_24_FOURIER_UNIT_V1",
+    "family": "supported",
+    "summary": {
+      "schema": "CONDITIONAL_ACTUAL20_24_FOURIER_ARITHMETIC_UNIT_V1",
+      "family": "supported",
+      "n": [
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "rho": [
+        "9/8",
+        "6/5"
+      ],
+      "target": "4097/10000",
+      "support_absolute_upper": "3",
+      "rho_strips": 29,
+      "cells": 29,
+      "exact_rows": 145,
+      "attempts": 29,
+      "native_controls": {
+        "finite_sum_identities": 4,
+        "negative_controls": 14
+      },
+      "independent_controls": 26,
+      "interfaces": {},
+      "readback_sha256": "ebc8ef50253066286c4ff91292a515e3505007013588cda5ef633b0c2a0f2ba0",
+      "original_manifest_sha256": "865247f8f3c4928668168b780a9e6261139fcafb420326eb178780737a920480",
+      "source_plan_sha256": "4dc95b4cc208f96df9d579e2f43e06774162251c452198f01d4b626972ba034c",
+      "native_arithmetic_accepted": false,
+      "full_notebook58_completed": false,
+      "actual20_sharp_verified": false,
+      "predecessor_verified": false,
+      "support_acquisition_verified": false,
+      "parent_acquisitions_verified": false,
+      "resource_count_join_verified": false,
+      "all_index_conclusion_verified": false
+    },
+    "stage_result_sha256": "4e34c69b83c86e2e1c17f1868a37040c506be4a495ff5135b99d7a7c87db92df",
+    "original_task_root": "/content/berry-esseen-runs/finite2024-fourier-supported/20261024T012707Z-b4208f3a/arithmetic",
+    "conditional_fourier_arithmetic_completed": true,
+    "native_arithmetic_accepted": false,
+    "full_notebook58_completed": false,
+    "actual20_sharp_verified": false,
+    "predecessor_verified": false,
+    "support_acquisition_verified": false,
+    "parent_acquisitions_verified": false,
+    "resource_count_join_verified": false,
+    "all_index_conclusion_verified": false
+  }
+}

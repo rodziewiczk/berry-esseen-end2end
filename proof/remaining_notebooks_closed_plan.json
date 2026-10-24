@@ -1,0 +1,882 @@
+{
+  "schema": "REMAINING_SELECTED_DELIVERY_PLAN_V1",
+  "date": "2026-10-24",
+  "meaning": "Fixed operational partition for the selected route, not a proved minimal count or a promise all blocked sources can be recovered.",
+  "new_delivery_file_count": 13,
+  "new_numerical_files": 12,
+  "new_collector_files": 1,
+  "units": [
+    {
+      "id": "56I",
+      "file": "56I_n10_14_finite_join.ipynb",
+      "kind": "numerical",
+      "finite_indices": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "depends_on": [],
+      "reuse": [
+        "50",
+        "56A--H",
+        "56K"
+      ],
+      "scope": "Seven retained original review/control outputs (including bounded mathematical controls), all1000 p dispositions,202 acquired resource/contract implications and20 restricted subpanel edges for217 forests; support/HIGH/Fourier applicability and actual10--14 induction.",
+      "implementation_gate": "Exact bounded control execution, current receipt/contract bridges and finite-only replacement of old eventual15/tail join. Global n9 sharp bound is not the selected n10 base;56A/B actual same-law ceilings are required.",
+      "session_wall_ceiling_seconds": 82800,
+      "completed_atomic_stage_cache_only": true,
+      "implemented": false,
+      "mathematically_acquired": false
+    },
+    {
+      "id": "57F",
+      "file": "57F_n15_19_initial_resources_B0.ipynb",
+      "kind": "numerical",
+      "finite_indices": [],
+      "depends_on": [],
+      "reuse": [
+        "57E"
+      ],
+      "scope": "Five B0 cases,20 unchanged original INITIAL construct/replay/resource construct/accept calls, full100 p rows each.",
+      "implementation_gate": "Implemented; reviewed fixtures passed; upstream mathematical assumptions remain conditional.",
+      "session_wall_ceiling_seconds": 82800,
+      "completed_atomic_stage_cache_only": true,
+      "implemented": true,
+      "mathematically_acquired": false
+    },
+    {
+      "id": "57G",
+      "file": "57G_n15_19_initial_resources_BN.ipynb",
+      "kind": "numerical",
+      "finite_indices": [],
+      "depends_on": [],
+      "reuse": [
+        "57E"
+      ],
+      "scope": "Five BN cases,20 unchanged original INITIAL construct/replay/resource construct/accept calls, full100 p rows each.",
+      "implementation_gate": "Implemented; reviewed fixtures passed; upstream mathematical assumptions remain conditional.",
+      "session_wall_ceiling_seconds": 82800,
+      "completed_atomic_stage_cache_only": true,
+      "implemented": true,
+      "mathematically_acquired": false
+    },
+    {
+      "id": "57H",
+      "file": "57H_n15_19_finite_join.ipynb",
+      "kind": "numerical",
+      "finite_indices": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "depends_on": [
+        "56I",
+        "57F",
+        "57G"
+      ],
+      "reuse": [
+        "51",
+        "57A--E"
+      ],
+      "scope": "Retained finite/contact/cancellation HIGH, resource/count range and actual15 mutation/control programs; all1000 p outcomes,147 resource/count edges, actual15 base then16--19 induction; no incoming eventual20.",
+      "implementation_gate": "Bounded mathematical controls, current evidence bridges, predecessor acquisition and full finite-only join unimplemented.",
+      "session_wall_ceiling_seconds": 82800,
+      "completed_atomic_stage_cache_only": true,
+      "implemented": false,
+      "mathematically_acquired": false
+    },
+    {
+      "id": "58H",
+      "file": "58H_n20_24_remaining_acquisition_and_join.ipynb",
+      "kind": "numerical",
+      "finite_indices": [
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "depends_on": [
+        "57H"
+      ],
+      "reuse": [
+        "52",
+        "58A--G"
+      ],
+      "scope": "All six grouped components: coarse/narrow/feedback INITIAL, all resources, actual20 interfaces and eight21--24 band joins; three closed actual20 rho regions.",
+      "implementation_gate": "Truthful current source/capture epochs; same-law support/owncap/contact order; final semantic joins.",
+      "session_wall_ceiling_seconds": 82800,
+      "completed_atomic_stage_cache_only": true,
+      "implemented": false,
+      "mathematically_acquired": false
+    },
+    {
+      "id": "59D",
+      "file": "59D_n26_30_support_transfers_and_join.ipynb",
+      "kind": "numerical",
+      "finite_indices": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "depends_on": [
+        "66"
+      ],
+      "reuse": [
+        "53",
+        "64",
+        "59A--C",
+        "36--39",
+        "09",
+        "10",
+        "56K"
+      ],
+      "scope": "Two complete actual26--30 support families,13 fixed scalar/control/adapter calls, all floor25 resource transfers and final80-count/445-Fourier/closed-cover join.",
+      "implementation_gate": "Portable full source epochs and typed fresh parent bridges; no incoming tail31.",
+      "session_wall_ceiling_seconds": 82800,
+      "completed_atomic_stage_cache_only": true,
+      "implemented": false,
+      "mathematically_acquired": false
+    },
+    {
+      "id": "60",
+      "file": "60_n31_39_parents_and_join.ipynb",
+      "kind": "numerical",
+      "finite_indices": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "depends_on": [
+        "59D"
+      ],
+      "reuse": [
+        "54",
+        "55"
+      ],
+      "scope": "Eight complete floor31 families, actual32--34 support/transfer and joins,45 selected finite35--39 nonCOUNT parent/interface records. Full selected counts reused.",
+      "implementation_gate": "Current capture/constructor admission; four old metadata omit cwd. Frozen40 binder outgoing63 only.",
+      "session_wall_ceiling_seconds": 82800,
+      "completed_atomic_stage_cache_only": true,
+      "implemented": false,
+      "mathematically_acquired": false
+    },
+    {
+      "id": "61",
+      "file": "61_n43_48_acquisition_and_join.ipynb",
+      "kind": "numerical",
+      "finite_indices": [
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "depends_on": [],
+      "reuse": [
+        "12"
+      ],
+      "scope": "Cutoff44:25 calls; cutoff43:6 scopes;2 current final joins. Full LOW78+74 signed rows and all retained inputs; finite43--48 only.",
+      "implementation_gate": "Current source/capture epochs and relocated pure12 reader; no incoming all-index conclusion.",
+      "session_wall_ceiling_seconds": 82800,
+      "completed_atomic_stage_cache_only": true,
+      "implemented": false,
+      "mathematically_acquired": false
+    },
+    {
+      "id": "62",
+      "file": "62_n40_42_acquisition_and_join.ipynb",
+      "kind": "numerical",
+      "finite_indices": [
+        40,
+        41,
+        42
+      ],
+      "depends_on": [],
+      "reuse": [
+        "12"
+      ],
+      "scope": "Six grouped sections,48 top-level/59 physical calls including9 global40 child binders and2 SINGLE39 children; full retained/LOW/LEFT/MID/CENTRAL routes.",
+      "implementation_gate": "Current constructor/capture epochs, complete nested source/output closure and finite40--42 projection. Original global40 all-tail call waits for61; defer that full join to63.",
+      "session_wall_ceiling_seconds": 82800,
+      "completed_atomic_stage_cache_only": true,
+      "implemented": false,
+      "mathematically_acquired": false
+    },
+    {
+      "id": "63",
+      "file": "63_all_index_evidence_and_proof_join.ipynb",
+      "kind": "collector",
+      "finite_indices": [],
+      "depends_on": [
+        "67",
+        "65",
+        "56I",
+        "57H",
+        "58H",
+        "66",
+        "59D",
+        "60",
+        "62",
+        "61"
+      ],
+      "reuse": [
+        "08",
+        "11",
+        "12",
+        "13",
+        "14--24"
+      ],
+      "scope": "Explicit finite1--48 plus uniform49+ implication and external Esseen lower bound; full tail evidence/least-failure/scalar/interfaces and all analytic/literature obligations.",
+      "implementation_gate": "No theorem acceptance until every arithmetic, analytic, literature and code-to-lemma premise is acquired.",
+      "session_wall_ceiling_seconds": null,
+      "completed_atomic_stage_cache_only": true,
+      "implemented": false,
+      "mathematically_acquired": false
+    },
+    {
+      "id": "65",
+      "file": "65_n6_9_remaining_acquisition_and_join.ipynb",
+      "kind": "numerical",
+      "finite_indices": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "depends_on": [
+        "67"
+      ],
+      "reuse": [
+        "40--46",
+        "35"
+      ],
+      "scope": "Both bridge/radius Fourier transactions, full12-row HIGH,36 support targets/72 signed rays, all284 COUNT edges and finite6--9 induction. Explicit4-call auxiliary5 fallback if exact35 export unavailable.",
+      "implementation_gate": "Current source/capture and parent bridges; conditional support/Fourier order must not become a mathematical cycle.",
+      "session_wall_ceiling_seconds": 82800,
+      "completed_atomic_stage_cache_only": true,
+      "implemented": false,
+      "mathematically_acquired": false
+    },
+    {
+      "id": "66",
+      "file": "66_n25_remaining_acquisition_and_join.ipynb",
+      "kind": "numerical",
+      "finite_indices": [
+        25
+      ],
+      "depends_on": [
+        "58H"
+      ],
+      "reuse": [
+        "01--07",
+        "09",
+        "10",
+        "14--24",
+        "26--34",
+        "36--39",
+        "47--49"
+      ],
+      "scope": "All nine n25 sections in separately pinned manifest:21 ordinary remaining forests (11 missing),2 mixed routes, supplementary/resources/upper families and all20 physical regions.",
+      "implementation_gate": "Eleven unavailable ordinary capsules,2 missing mixed parent capsules; reconstruction/alternative design and all full source/action closures remain open.",
+      "session_wall_ceiling_seconds": 82800,
+      "completed_atomic_stage_cache_only": true,
+      "implemented": false,
+      "mathematically_acquired": false
+    },
+    {
+      "id": "67",
+      "file": "67_n5_full_evidence_and_proof_join.ipynb",
+      "kind": "numerical",
+      "finite_indices": [
+        5
+      ],
+      "depends_on": [],
+      "reuse": [
+        "08",
+        "11",
+        "13",
+        "35"
+      ],
+      "scope": "First acquire all-law n2/n3 andC4 from08/11 plus precise analytic premises, keeping strongG3. Reuse35/13 core arithmetic except exact current complement context:14 finite algebra/source-control programs,2 full support constructor/replay pairs,2 full complement integrations/accept/fullreadback;12resource+12count regional joins and finalC5 composition.",
+      "implementation_gate": "Full current captures and scalar/readback gates were not supplied by35 arithmetic-prefix acceptance. Preserve strong n3 G3<=59*sqrt(3)/250 through all-law C4, not merely sharpCE.",
+      "session_wall_ceiling_seconds": 82800,
+      "completed_atomic_stage_cache_only": true,
+      "implemented": false,
+      "mathematically_acquired": false
+    }
+  ],
+  "anchors": [
+    {
+      "path": "proof/obligations.json",
+      "bytes": 110209,
+      "sha256": "a483a6f95cfb32fb0cac2fd502b16a9a70828df63aece4f5f855a8913c2e8554"
+    },
+    {
+      "path": "proof/remaining_n25_execution_partition.json",
+      "bytes": 85738,
+      "sha256": "63d095399ec533ec455370453a205d2397f4c1bccbc56b0e9feafaa080cc57d1"
+    },
+    {
+      "path": "proof/remaining57_59_delivery_partition.json",
+      "bytes": 35169,
+      "sha256": "86d0a885f0445cbeb3b115ec1c52b2d0a8fa77fdc169d99576f107304b780a2f"
+    },
+    {
+      "path": "proof/remaining_58_69_execution_partition.json",
+      "bytes": 65547,
+      "sha256": "eb4ce9e379b534d0f274c8d9f1aa7dd47a792b14c44c38526a8d4eee6a215c20"
+    },
+    {
+      "path": "proof/remaining31_39_delivery_partition.json",
+      "bytes": 87652,
+      "sha256": "c4b8ca97492abc60b0cceb7da817cb13011e0b8b152f4a11a1c1ab654f86c941"
+    },
+    {
+      "path": "proof/finite4348_source_action_plan.json",
+      "bytes": 932585,
+      "sha256": "56ec7c3a140deae8723e3f6d248360e96d4b8a88305be6c1a22436ac064c3fad"
+    },
+    {
+      "path": "proof/finite1014_core_source_plan.json",
+      "bytes": 1148751,
+      "sha256": "ab37696011048ae407a8e7f43e576efe12563d8bc1dde47b469e91ab0dbb7ff6"
+    },
+    {
+      "path": "proof/n5_remaining_catalog.json",
+      "bytes": 7167604,
+      "sha256": "29cd3d9f8c30d8391b19792d5197a5a9d6b26b67e294500f53b2827441553ca3"
+    },
+    {
+      "path": "proof/tail49_completed_export_readback.json",
+      "bytes": 2104,
+      "sha256": "eb55919ca9caeabb39020c7b26cd995ca77cba7fd8d64f99827bc9c9b16d41c4"
+    },
+    {
+      "path": "proof/remaining56I_control_scope.json",
+      "bytes": 13813,
+      "sha256": "cd22b2b0d3e0966982049f4b6f893a4622588558d7a5bc3062bfdb6d0e5e5dd3"
+    },
+    {
+      "path": "proof/remaining56I_sufficiency_review.json",
+      "bytes": 10170,
+      "sha256": "f8084e090c1b4d6f337622b82053892d9c352c33e05852acea311e10b0cd3d0a"
+    },
+    {
+      "path": "proof/remaining57H_control_scope.json",
+      "bytes": 13387,
+      "sha256": "6cbeaef9473a0c32b04c644711ca3494389d8040f6d294e803fb3b83b6752159"
+    },
+    {
+      "path": "proof/remaining_n5_delivery_partition.json",
+      "bytes": 105346,
+      "sha256": "4291cda918b552ea9b002ea53574a6c0253cc24ad38af80665e1c7a261f92c73"
+    }
+  ],
+  "original_obligation_assignment": {
+    "literature.n1": "NONCOMPUTE:literature.n1",
+    "literature.esseen_lower": "NONCOMPUTE:literature.esseen_lower",
+    "literature.prawitz": "NONCOMPUTE:literature.prawitz",
+    "literature.shevtsova": "NONCOMPUTE:literature.shevtsova",
+    "literature.binomial": "NONCOMPUTE:literature.binomial",
+    "literature.gaussian": "NONCOMPUTE:literature.gaussian",
+    "analytic.common": "NONCOMPUTE:analytic.common",
+    "literature.shevtsova_structural": "NONCOMPUTE:literature.shevtsova_structural",
+    "analytic.elementary_moment_domain": "NONCOMPUTE:analytic.elementary_moment_domain",
+    "n2.analytic_reduction": "NONCOMPUTE:n2.analytic_reduction",
+    "n3.analytic_reduction": "NONCOMPUTE:n3.analytic_reduction",
+    "n2.native": "EXISTING:08",
+    "n2.all_law": "67",
+    "n3.native": "EXISTING:08",
+    "n3.all_law": "67",
+    "c4.owner_localization": "NONCOMPUTE:c4.owner_localization",
+    "c4.physical_bridge": "NONCOMPUTE:c4.physical_bridge",
+    "c4.native_root4": "EXISTING:11",
+    "c4.complete_root": "67",
+    "c4.all_law": "67",
+    "c5.support_native": "EXISTING:35",
+    "c5.high_native": "EXISTING:35",
+    "c5.owncaps_native": "EXISTING:35",
+    "c5.initial_native": "EXISTING:35",
+    "c5.resource_native": "EXISTING:35",
+    "c5.counts_native": "EXISTING:35",
+    "c5.gapfree_native": "EXISTING:13",
+    "c5.complement_native": "67",
+    "c5.support_acquired": "67",
+    "c5.high_acquired": "67",
+    "c5.owncaps_acquired": "67",
+    "c5.initial_acquired": "67",
+    "c5.resources_acquired": "67",
+    "c5.count_cover": "67",
+    "c5.gapfree_analytic_reduction": "NONCOMPUTE:c5.gapfree_analytic_reduction",
+    "c5.gapfree_cover": "67",
+    "c5.complement_acquired": "67",
+    "n5.all_law": "67",
+    "continuation.literal_interface": "NONCOMPUTE:continuation.literal_interface",
+    "n25.pending.b4-q0": "EXISTING:02",
+    "n25.pending.b4-q1": "EXISTING:03",
+    "n25.pending.b4-q2": "EXISTING:04",
+    "n25.pending.b4-q3": "EXISTING:05",
+    "n25.pending.b3-p33": "EXISTING:01",
+    "n25.pending.b3-p31-v14-new": "EXISTING:06",
+    "n25.pending.b3-p32-v14-new": "EXISTING:07",
+    "n6.all_law": "65",
+    "n7.all_law": "65",
+    "n8.all_law": "65",
+    "n9.all_law": "65",
+    "n10.all_law": "56I",
+    "n11.all_law": "56I",
+    "n12.all_law": "56I",
+    "n13.all_law": "56I",
+    "n14.all_law": "56I",
+    "n15.all_law": "57H",
+    "n16.all_law": "57H",
+    "n17.all_law": "57H",
+    "n18.all_law": "57H",
+    "n19.all_law": "57H",
+    "n20.all_law": "58H",
+    "n21.all_law": "58H",
+    "n22.all_law": "58H",
+    "n23.all_law": "58H",
+    "n24.all_law": "58H",
+    "n25.all_law": "66",
+    "n26.all_law": "59D",
+    "n27.all_law": "59D",
+    "n28.all_law": "59D",
+    "n29.all_law": "59D",
+    "n30.all_law": "59D",
+    "tail31.base31_34": "60",
+    "tail31.bridge35_48": "63",
+    "tail49.uniform_analytic_interface": "NONCOMPUTE:tail49.uniform_analytic_interface",
+    "tail49.full_native_suite": "EXISTING:12",
+    "tail49.all_law": "63",
+    "proof.global": "63",
+    "literature.universal_0469": "NONCOMPUTE:literature.universal_0469",
+    "aux24.analytic_interface": "NONCOMPUTE:aux24.analytic_interface",
+    "aux21.arithmetic": "EXISTING:14",
+    "aux21.acquired": "66",
+    "aux22.arithmetic": "EXISTING:15",
+    "aux22.acquired": "66",
+    "aux23.arithmetic": "EXISTING:16",
+    "aux23.acquired": "66",
+    "stronger24.b0.arithmetic": "EXISTING:17",
+    "stronger24.b1.arithmetic": "EXISTING:18",
+    "stronger24.b2.arithmetic": "EXISTING:19",
+    "stronger24.b3.arithmetic": "EXISTING:20",
+    "stronger24.b4.arithmetic": "EXISTING:21",
+    "stronger24.b5.arithmetic": "EXISTING:22",
+    "stronger24.numeric_join": "EXISTING:23",
+    "stronger24.acquired": "66",
+    "n25.parents.b3": "EXISTING:09",
+    "n25.parents.b4": "EXISTING:10",
+    "n25.selected_interfaces": "EXISTING:24",
+    "n25.remaining_native_and_acquisitions": "66"
+  },
+  "finite_index_assignment": {
+    "1": "NONCOMPUTE:literature.n1",
+    "2": "EXISTING:08",
+    "3": "EXISTING:08",
+    "4": "EXISTING:11",
+    "5": "67",
+    "6": "65",
+    "7": "65",
+    "8": "65",
+    "9": "65",
+    "10": "56I",
+    "11": "56I",
+    "12": "56I",
+    "13": "56I",
+    "14": "56I",
+    "15": "57H",
+    "16": "57H",
+    "17": "57H",
+    "18": "57H",
+    "19": "57H",
+    "20": "58H",
+    "21": "58H",
+    "22": "58H",
+    "23": "58H",
+    "24": "58H",
+    "25": "66",
+    "26": "59D",
+    "27": "59D",
+    "28": "59D",
+    "29": "59D",
+    "30": "59D",
+    "31": "60",
+    "32": "60",
+    "33": "60",
+    "34": "60",
+    "35": "60",
+    "36": "60",
+    "37": "60",
+    "38": "60",
+    "39": "60",
+    "40": "62",
+    "41": "62",
+    "42": "62",
+    "43": "61",
+    "44": "61",
+    "45": "61",
+    "46": "61",
+    "47": "61",
+    "48": "61"
+  },
+  "uniform_tail": {
+    "indices": "all integers n>=49",
+    "arithmetic": "EXISTING:12",
+    "semantic_join": "63",
+    "analytic_input": "NONCOMPUTE:tail49.uniform_analytic_interface"
+  },
+  "noncompute_obligations": [
+    {
+      "id": "literature.n1",
+      "kind": "literature",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "C_1 <= 0.3704 in the manuscript normalization.",
+      "source": "Bentkus--Kirsa (1989)",
+      "verification": "Check the original theorem, normalization and unrestricted-law scope."
+    },
+    {
+      "id": "literature.esseen_lower",
+      "kind": "literature",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "C* >= C_E.",
+      "source": "Esseen (1956)",
+      "verification": "Check the lower-bound construction and normalization."
+    },
+    {
+      "id": "literature.prawitz",
+      "kind": "literature",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "The displayed Prawitz kernel gives the one-sided CLOSED-CDF majorant, including atoms.",
+      "source": "Prawitz (1972), as normalized in the manuscript",
+      "verification": "The selected pointwise majorant and compensated expectation identity now have a self-contained analytic proof; verify its exact use at every later interface separately. The original article as a whole has not been audited.",
+      "alternative_self_contained_proof": "prawitz_majorant_review.md",
+      "independent_analytic_crosscheck": "prawitz_majorant_crosscheck.md",
+      "review_status": "isolated_statement_direct_proof_reviewed_no_blocking_gap_found",
+      "all_later_kernel_uses_audited": false,
+      "formalization_claimed": false
+    },
+    {
+      "id": "literature.shevtsova",
+      "kind": "literature",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "Every selected Shevtsova envelope, smoothing input and sharp third-moment inequality applies in its stated domain.",
+      "sources": [
+        "Shevtsova (2012)",
+        "Shevtsova (2013)",
+        "Shevtsova (2014)"
+      ],
+      "verification": "Record theorem numbers, exact constants, iid assumptions and normalization for each selected use."
+    },
+    {
+      "id": "literature.binomial",
+      "kind": "literature",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "The selected binomial comparison holds for every required n and 0 < p < 1.",
+      "source": "Schulz (2016)",
+      "verification": "Check both discrepancy orientations and deterministic limits used by the certificates."
+    },
+    {
+      "id": "literature.gaussian",
+      "kind": "literature",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "Only the specifically cited finite Gaussian estimate is available as an external input.",
+      "source": "He--Cheng (2026)",
+      "verification": "Verify the original estimate and domains; no eventual-exactness or all-index theorem may be inferred from this input."
+    },
+    {
+      "id": "analytic.common",
+      "kind": "analytic_review",
+      "status": "open",
+      "depends_on": [
+        "literature.prawitz",
+        "literature.shevtsova"
+      ],
+      "conclusion": "Fixed-index attainment, full closed-support contact, compensated inversion and the same-law resource/count interfaces are valid.",
+      "requirements": [
+        "Review attainment including the critical value, atoms and possible third-moment loss.",
+        "Review the contamination derivative and contact on accumulation points.",
+        "Verify every LOW/HIGH normalization and the full infinite-frequency remainder.",
+        "Preserve one physical defect budget, signed moments, threshold phase and conditional laws.",
+        "Prove support before invoking higher moments.",
+        "Keep weighted nD and unweighted D bounds distinct."
+      ]
+    },
+    {
+      "id": "literature.shevtsova_structural",
+      "kind": "literature",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "For iid centered unit-variance summands, sqrt(n) Delta_n/rho <= (1661/5000)(1+(429/1000)/rho).",
+      "source": "https://arxiv.org/pdf/1912.06482v3#page=54",
+      "theorem": "Shevtsova author monograph, Theorem 2.7, equation (2.13), printed page 55",
+      "statement_and_normalization_checked": true,
+      "proof_independently_reverified": false,
+      "evidence": "literature_inputs.md"
+    },
+    {
+      "id": "analytic.elementary_moment_domain",
+      "kind": "analytic_review",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "The elementary third-moment domain rho^2(gamma^2+4) >= (gamma^2+2)^2 applies to standardized real laws.",
+      "manuscript_lines": "168-192",
+      "review_status": "scoped_read_completed_no_blocking_gap_found",
+      "evidence": "small_indices_analytic_review.md"
+    },
+    {
+      "id": "n2.analytic_reduction",
+      "kind": "analytic_review",
+      "status": "open",
+      "depends_on": [
+        "literature.shevtsova_structural",
+        "analytic.elementary_moment_domain"
+      ],
+      "conclusion": "The complete finite n2 certificate implies its stated bound for unrestricted standardized real laws.",
+      "requirements": [
+        "Review attainment and reflection using the correct CDF left limits at atoms.",
+        "Review the fixed-raw-threshold contamination derivative and contact on the full closed support.",
+        "Acquire bounded support before using any higher moments.",
+        "Join complete finite certificate domains, all thresholds and tails to the contradiction."
+      ],
+      "review_status": "scoped_read_completed_no_blocking_gap_found",
+      "evidence": "small_indices_analytic_review.md",
+      "formalization_claimed": false
+    },
+    {
+      "id": "n3.analytic_reduction",
+      "kind": "analytic_review",
+      "status": "open",
+      "depends_on": [
+        "literature.shevtsova_structural",
+        "analytic.elementary_moment_domain"
+      ],
+      "conclusion": "The complete finite n3 certificate implies its stated bound for unrestricted standardized real laws.",
+      "requirements": [
+        "Review attainment and reflection using the correct CDF left limits at atoms.",
+        "Review the fixed-raw-threshold contamination derivative and contact on the full closed support.",
+        "Acquire bounded support before using any higher moments.",
+        "Join complete finite certificate domains, all thresholds and tails to the contradiction."
+      ],
+      "review_status": "scoped_read_completed_no_blocking_gap_found",
+      "evidence": "small_indices_analytic_review.md",
+      "formalization_claimed": false
+    },
+    {
+      "id": "c4.owner_localization",
+      "kind": "analytic_review",
+      "status": "open",
+      "depends_on": [
+        "n3.all_law",
+        "literature.shevtsova",
+        "analytic.common"
+      ],
+      "conclusion": "If C_4 > 256/625, an unrestricted positive closed maximizer lies in the declared ROOT4 class.",
+      "domain": {
+        "support": "|X| < 101/25 < 17/4",
+        "rho": "rho < 46/25",
+        "w": "625/2116 < w <= 1",
+        "signed_second_moment": "|E[X|X|]| < 321/500 < 13/20"
+      },
+      "requirements": [
+        "Review the elementary H4 remainder and the negative whole-ray contact polynomial.",
+        "Do not assume a finite number of support points.",
+        "Treat Q3 as a canonical reference, not a restriction of admissible P."
+      ]
+    },
+    {
+      "id": "c4.physical_bridge",
+      "kind": "analytic_review",
+      "status": "open",
+      "depends_on": [
+        "literature.prawitz"
+      ],
+      "conclusion": "The original physical law is controlled by the finite ROOT4 polynomial plus one midpoint and one threshold-interpolation reserve.",
+      "requirements": [
+        "Verify the common physical defect measure and eta=0 case.",
+        "Verify |F_x''| <= 42 E|D| + 108 ED^2 + 24 E|D|^3.",
+        "Verify raw midpoint reserve M/(12 N^2), including its whole-cell moment bounds.",
+        "Verify raw H reserve h^2(B+1/4)/16 using continuous frequency cells.",
+        "Cover both actual reflected laws, zero atoms, contact points, threshold seams and both tails.",
+        "Independently audit the implementation-to-lemma correspondence for the selected whole-bound portfolios."
+      ]
+    },
+    {
+      "id": "c5.gapfree_analytic_reduction",
+      "kind": "analytic_review",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "The specified full compact forest and both phase rays bound the positive closed-CDF discrepancy at every threshold for every standardized iid law in the exact rho/beta corner.",
+      "domain": {
+        "n": 5,
+        "rho": [
+          "477/400",
+          "6/5"
+        ],
+        "beta": [
+          "17/50",
+          "35139006743001/100000000000000"
+        ]
+      },
+      "requirements": [
+        "Derive conditional centering and variances with zero atoms assigned to the nonpositive class.",
+        "Retain Cantelli T(0,0)=1 and every closed event boundary.",
+        "Verify the moment-to-probability outer domain and both signed Gaussian lower-bound cases.",
+        "Use the positive part before replacing a normalization by an upper bound.",
+        "Cover all compact phases and both infinite rays; no predecessor, contact, bounded-support or physical-gap premise is used.",
+        "Retain the positive-discrepancy scope; reflection changes signed beta and belongs to the full n5 composition."
+      ],
+      "manuscript_lines": "6312-6505",
+      "evidence": "n5_analytic_review.md",
+      "review_status": "scoped_direct_reduction_read_completed_no_blocking_gap_found",
+      "formalization_claimed": false
+    },
+    {
+      "id": "continuation.literal_interface",
+      "kind": "analytic_review",
+      "status": "open",
+      "depends_on": [
+        "analytic.common",
+        "literature.binomial",
+        "literature.gaussian"
+      ],
+      "conclusion": "Each literal-index support/Fourier/INITIAL/resource/count contract yields an unrestricted bound when all its own premises are acquired.",
+      "requirements": [
+        "Zero q_n removes predecessor-only acquisitions; it does not remove current own-score caps, support, HIGH, INITIAL, resource or count obligations.",
+        "Check literal n and every monotonicity gate; no unproved monotonicity of C_n.",
+        "Select one complete coherent LOW triple and complete HIGH alternative.",
+        "Retain actual law orientation and physical defect definitions."
+      ]
+    },
+    {
+      "id": "tail49.uniform_analytic_interface",
+      "kind": "analytic_review",
+      "status": "open",
+      "depends_on": [
+        "analytic.common",
+        "literature.binomial",
+        "literature.gaussian"
+      ],
+      "conclusion": "The selected uniform local exclusion and least-failure argument imply the infinite tail from their exact finite prerequisites.",
+      "domain": "the actual all-index local domain, including n >= 47 and reciprocal-index endpoint zero",
+      "requirements": [
+        "Prove every formula's uniform-index gate and all physical contact/noise/confinement premises.",
+        "Cover all noise/phase seams, deterministic conditional laws and infinite threshold/index boundaries.",
+        "Verify the actual base and predecessor edges used by the least-failure argument."
+      ]
+    },
+    {
+      "id": "literature.universal_0469",
+      "kind": "literature",
+      "status": "open",
+      "depends_on": [],
+      "conclusion": "The selected universal iid estimate gives C20 <= 469/1000 in the manuscript normalization.",
+      "requirements": [
+        "Check the original Shevtsova theorem, normalization and all-law scope. This is a coarse auxiliary input, independent of sharp n20."
+      ]
+    },
+    {
+      "id": "aux24.analytic_interface",
+      "kind": "analytic_review",
+      "status": "open",
+      "depends_on": [
+        "analytic.common",
+        "continuation.literal_interface"
+      ],
+      "conclusion": "The retained same-law attainment/contact/support, INITIAL, resource and count rules imply the auxiliary n21--24 conclusions from their complete conditional inequalities.",
+      "requirements": [
+        "Review the exact target K/n at each index, both discrepancy orientations, closed seams, all count roots, signed resource inequalities and external envelopes.",
+        "A statement-matching join may discharge an archived predecessor premise without reproducing a runtime-dependent historical receipt hash.",
+        "Source and conditional arithmetic completion alone do not close this analytic node."
+      ]
+    }
+  ],
+  "foundation_acquisition": {
+    "owner": "67",
+    "before": "n5.all_law",
+    "all_law_nodes": [
+      "n2.all_law",
+      "n3.all_law",
+      "c4.complete_root",
+      "c4.all_law"
+    ],
+    "strong_n3_side_fact": {
+      "statement": "C3 <= 59*sqrt(3)/250",
+      "arithmetic_source": "EXISTING:08",
+      "analytic_sources": [
+        "n3.analytic_reduction",
+        "c4.owner_localization"
+      ],
+      "cannot_replace_with": "C3 <= C_E"
+    },
+    "requires_final_all_index_collector": false
+  },
+  "auxiliary24_license": {
+    "logic": "OR",
+    "selected_route": "sharp24_from_58H",
+    "alternatives": [
+      "Acquired global C24<=C_E implies C24<C_E+1/80",
+      "Full14--23 auxiliary chain plus exact analytic/semantic acquisition"
+    ],
+    "conclusion": "For the same contrary25 witness, q25<=5/16",
+    "positive_gap": "1/80",
+    "does_not_replace": [
+      "attainment/contact",
+      "support/owncaps",
+      "current sources and parent-to-contract interfaces"
+    ]
+  },
+  "additional_noncompute_requirements": [
+    "Every enabled numerical kernel and port implements its stated lemma, including interval enclosure/directed rounding, complete grids and negative controls.",
+    "Unrestricted common attained positive closed contrary witness, both discrepancy signs/reflection, support before higher moments and exact index/scaling/phase.",
+    "Typed current parent-to-contract dominance, source/capture epochs, same marginal/threshold and closed-domain coverage at every semantic join.",
+    "Uniform tail is a universal conditional implication, not finitely many experiments or C_n monotonicity."
+  ],
+  "observed_complete_reuse": {
+    "55": {
+      "scope": "120 selected n35--39 COUNT jobs only",
+      "result_state": "complete_selected_conditional_count_arithmetic_basic",
+      "drive_bundle": "finite1039-counts-n35_39/20261024T014047Z-516cc64f/20261024T014047Z-516cc64f-results.zip",
+      "evidence_kind": "user supplied final output; full ZIP still revalidated by consumer"
+    }
+  },
+  "existing_repairs_not_new_files": [
+    "35 complete-stage recovery",
+    "46 compatible owncaps/INITIAL recovery",
+    "55 finalization fixed; user reports complete",
+    "59C Python3.13 AST metadata compatibility fix"
+  ],
+  "acceptance_policy": {
+    "old_PASS_is_provenance_only": true,
+    "complete_source_runtime_closure_required": true,
+    "no_partial_or_unbounded_fallback_acceptance": true,
+    "no_wall_time_completion_guarantee": true
+  },
+  "runtime_source_closure_complete": false,
+  "all_notebooks_ready": false,
+  "arithmetic_computed_for_this_plan": false,
+  "mathematical_sufficiency_proved": false,
+  "formal_verification": false,
+  "all_index_conclusion_verified": false
+}

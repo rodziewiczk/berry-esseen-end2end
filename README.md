@@ -2,6 +2,12 @@
 
 Authors: Kacper Rodziewicz and Bartosz Kołodziejek.
 
+The [proof graph](proof/proof_graph.md) shows the mathematical statements and
+their dependencies, including open analytic premises and missing n25 inputs.
+The accompanying [conditional sufficiency argument](proof/remaining_notebooks_sufficiency.md)
+explains the finite1--48 / uniform49+ reduction. Computational delivery is
+tracked separately in the [selected implementation plan](proof/remaining_notebooks_closed_plan.md).
+
 Start with [the current status](STATUS.md) and [the mathematical audit and
 high-level proof graphs](proof/LOGICAL_AUDIT.md). The present priority is to
 verify the logical and source-specific implications before adding compute jobs.

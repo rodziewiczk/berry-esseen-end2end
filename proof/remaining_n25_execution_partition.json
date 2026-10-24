@@ -1,0 +1,2071 @@
+{
+  "schema": "N25_REMAINING_DELIVERY_SPEC_V1",
+  "delivery_id": "66",
+  "delivery_file": "66_n25_remaining_acquisition_and_join.ipynb",
+  "sections": [
+    {
+      "id": "b34",
+      "title": "Lower B3/B4 supplemental and final interfaces",
+      "full_scope": "B3 p30 S1 resource; current p31/p32 V14 contact and rounding; resolve p34 selector; all100 p outcomes for each branch and all remaining exact count interfaces.",
+      "blocker": "Reuse09/10,01--07,24,29/30. Two declared regional records/companion selectors are absent under their declared names; reconstruct an honest current semantic union from actual components."
+    },
+    {
+      "id": "b5_missing",
+      "title": "Eleven unavailable lower B5 ordinary capsules",
+      "full_scope": "Seven V14 p26--32 and four V12 p33 closed quarters; recover exact sources/candidates or construct and fully accept a separately justified matching design.",
+      "blocker": "Eleven selected capsule payloads unavailable in inspected source archives. No successful computation or replacement design is asserted."
+    },
+    {
+      "id": "b5_mixed",
+      "title": "Both lower B5 mixed p24/p25 routes",
+      "full_scope": "Full original mixed acceptors, ordinary/scalar/derived/theorem leaves, all theorem IDs and same-law acquisition registries, plus complete37-panel B5 union.",
+      "blocker": "Both mixed forests/acceptors located; original V14 p24/p25 parent capsules absent. Ordinary count_protocol is not a substitute."
+    },
+    {
+      "id": "upper_counts",
+      "title": "Ten supplied additional ordinary forests",
+      "full_scope": "High beta2 p17--23 and middle positive B3 p21--23; each full original count protocol and controls under exact selected contract.",
+      "blocker": "Supplied inputs, wrapper/source admission and fresh executions still required."
+    },
+    {
+      "id": "high_beta2",
+      "title": "High beta2 complete acquisitions",
+      "full_scope": "One canonical INITIAL/global resource pair, all100 p dispositions and seven selected locals17--23: exact17/18/19, exact20_cached_v2, exact21_cached_v1, exact22_cached_v1, exact23_16 (16 cycles).",
+      "blocker": "Current constructor/receipt epochs and each distinct local manifest must be sealed."
+    },
+    {
+      "id": "middle_b3",
+      "title": "Middle positive B3 complete acquisitions",
+      "full_scope": "One canonical INITIAL/global resource pair and eight selected locals20--27, including all exclusion outcomes.",
+      "blocker": "Current epochs and count interfaces still required; count21--23 assigned above."
+    },
+    {
+      "id": "middle_b012",
+      "title": "All three middle positive B0/B1/B2 families",
+      "full_scope": "B0 full at-most8-cover INITIAL; B1 INITIAL plus all100 resources/12 feedback cycles; B2 INITIAL/resource/all100 local dispositions with permitted23--25 local covers.",
+      "blocker": "Source/child-process closure and truthful current capture admission unimplemented."
+    },
+    {
+      "id": "older_upper",
+      "title": "Five inherited upper/middle acquisition families",
+      "full_scope": "high-negative, middle-negative, high-quarter2, high-beta0 and high-beta1 mixed. Preserve every full cover, selected resource/local loop and original control.",
+      "blocker": "Exact source entries located; full transitive portable closures/action admission not yet sealed. Shared kernels do not merge distinct profiles."
+    },
+    {
+      "id": "semantic_union",
+      "title": "All current n25 interfaces and physical union",
+      "full_scope": "All reused counts/acquisitions, same-law auxiliary24/contact license, outward rounding, both signs, mixed theorem/scalar premises, all20 physical regions, all closed seams and universal rho tail.",
+      "blocker": "Requires actual complete stage evidence and code-to-lemma/analytic premises. Old final record has zero new native calls and cannot close this section."
+    }
+  ],
+  "anchors": [
+    {
+      "path": "proof/n25_regional_selection.json",
+      "bytes": 12439,
+      "sha256": "e80739d2e928d1e3500000668fe9702d80d575c1f5a0b94ce97488fbdfb64dd5"
+    },
+    {
+      "path": "proof/n25_acquisition_queue.md",
+      "bytes": 17734,
+      "sha256": "14abf1b86e3b4cc1464e45eb0e00a956c35b9a4ca85e5458b93c059bafd17265"
+    },
+    {
+      "path": "proof/n25_completion_scope.md",
+      "bytes": 10606,
+      "sha256": "7153c191b180e5099ac530996ce61d91e2e225c28bb2cc511ddbd78b00b228e3"
+    },
+    {
+      "path": "proof/n25_retained_b012_catalog.json",
+      "bytes": 1634878,
+      "sha256": "f055b5017d4e1fd14f2b48a6a95fef4a4c61a025dea6174c424cd5968de801f7"
+    },
+    {
+      "path": "proof/n25_retained_b34_catalog.json",
+      "bytes": 1239341,
+      "sha256": "38fdf0a66ea6dbdea196c146d2cf4955e75996db0a4f1e43a269756ad4201b7a"
+    },
+    {
+      "path": "proof/n25_retained_b5_upper_catalog.json",
+      "bytes": 2627790,
+      "sha256": "d1c44334914f780ce80427915a19bb7ed1f6cf5b89579deba7aa497ae4f4d792"
+    },
+    {
+      "path": "proof/code_n25_global_union_source_map.json",
+      "bytes": 17888,
+      "sha256": "b7da1c09d1372c66ff73e90a30b48eea1b6cb1fee0a3e13011e13c0368ec0166"
+    },
+    {
+      "path": "proof/code_n25_high_beta2_interface_source_map.json",
+      "bytes": 222091,
+      "sha256": "90ca0aa81cc292e97b83c8aadd0df96813c91f247c8a13abc741fd96ab7889a5"
+    },
+    {
+      "path": "proof/code_n25_high_middle_profile_source_map.json",
+      "bytes": 493585,
+      "sha256": "2fe2ea0fcae86522123d087bfd31e3a058253c7c02e0345731a4111618319382"
+    },
+    {
+      "path": "proof/code_n25_upper_initial_acquisition_source_map.json",
+      "bytes": 60747,
+      "sha256": "622fa393c17d111f6c63558d403fd825bff16400129d21016548f0d520baf9e3"
+    },
+    {
+      "path": "proof/code_n25_middle_positive_acquisition_source_map.json",
+      "bytes": 114481,
+      "sha256": "6a744e35008a7f4a6fb8b23172f3e4c6000b7f6f624a55c99dd9c27c685c0736"
+    },
+    {
+      "path": "proof/code_n25_high_local_feedback_source_map.json",
+      "bytes": 93452,
+      "sha256": "a662df50685db6fe029d86b1f487f04a956ec52a44a84989f4eb3053e6458566"
+    }
+  ],
+  "physical_cover": {
+    "lower_rho_endpoints": [
+      "1",
+      "11/10",
+      "6/5",
+      "13/10",
+      "7/5",
+      "3/2",
+      "33/20"
+    ],
+    "lower_each_all_p": [
+      "0",
+      "1"
+    ],
+    "middle_rho": [
+      "33/20",
+      "7/4"
+    ],
+    "middle_beta_endpoints": [
+      "-13/20",
+      "0",
+      "4/25",
+      "321/1000",
+      "2/5",
+      "12/25",
+      "14/25",
+      "307827/500000"
+    ],
+    "high_rho": [
+      "7/4",
+      "459061/250000"
+    ],
+    "high_beta_endpoints": [
+      "-640471/1000000",
+      "0",
+      "321/1000",
+      "2/5",
+      "12/25",
+      "14/25",
+      "640471/1000000"
+    ],
+    "universal_tail_rho_lower_included": "459061/250000",
+    "finite_intervals_closed": true,
+    "beta_outer_endpoints_licensed_by_signed_moment_inequality": true
+  },
+  "physical_piece_count": 20,
+  "additional_ordinary_count_jobs": [
+    {
+      "branch": "lower-b5",
+      "target_id": "lower-b5-global_local_contact_b5_p26_v14",
+      "archive_key": "old",
+      "capsule_member_prefix": "cutoff25_20261011/new_root/global_local_contact_b5_p26_v14/",
+      "index": 26,
+      "selection_status": "EXACT_FINAL_OUTCOME_SELECTED",
+      "capsule_member_supplied": false,
+      "contract_sha256": null,
+      "forest_sha256": null,
+      "checker_sha256": null
+    },
+    {
+      "branch": "lower-b5",
+      "target_id": "lower-b5-global_local_contact_b5_p27_v14",
+      "archive_key": "old",
+      "capsule_member_prefix": "cutoff25_20261011/new_root/global_local_contact_b5_p27_v14/",
+      "index": 27,
+      "selection_status": "EXACT_FINAL_OUTCOME_SELECTED",
+      "capsule_member_supplied": false,
+      "contract_sha256": null,
+      "forest_sha256": null,
+      "checker_sha256": null
+    },
+    {
+      "branch": "lower-b5",
+      "target_id": "lower-b5-global_local_contact_b5_p28_v14",
+      "archive_key": "old",
+      "capsule_member_prefix": "cutoff25_20261011/new_root/global_local_contact_b5_p28_v14/",
+      "index": 28,
+      "selection_status": "EXACT_FINAL_OUTCOME_SELECTED",
+      "capsule_member_supplied": false,
+      "contract_sha256": null,
+      "forest_sha256": null,
+      "checker_sha256": null
+    },
+    {
+      "branch": "lower-b5",
+      "target_id": "lower-b5-global_local_contact_b5_p29_v14",
+      "archive_key": "old",
+      "capsule_member_prefix": "cutoff25_20261011/new_root/global_local_contact_b5_p29_v14/",
+      "index": 29,
+      "selection_status": "EXACT_FINAL_OUTCOME_SELECTED",
+      "capsule_member_supplied": false,
+      "contract_sha256": null,
+      "forest_sha256": null,
+      "checker_sha256": null
+    },
+    {
+      "branch": "lower-b5",
+      "target_id": "lower-b5-global_local_contact_b5_p30_v14",
+      "archive_key": "old",
+      "capsule_member_prefix": "cutoff25_20261011/new_root/global_local_contact_b5_p30_v14/",
+      "index": 30,
+      "selection_status": "EXACT_FINAL_OUTCOME_SELECTED",
+      "capsule_member_supplied": false,
+      "contract_sha256": null,
+      "forest_sha256": null,
+      "checker_sha256": null
+    },
+    {
+      "branch": "lower-b5",
+      "target_id": "lower-b5-global_local_contact_b5_p31_v14",
+      "archive_key": "old",
+      "capsule_member_prefix": "cutoff25_20261011/new_root/global_local_contact_b5_p31_v14/",
+      "index": 31,
+      "selection_status": "EXACT_FINAL_OUTCOME_SELECTED",
+      "capsule_member_supplied": false,
+      "contract_sha256": null,
+      "forest_sha256": null,
+      "checker_sha256": null
+    },
+    {
+      "branch": "lower-b5",
+      "target_id": "lower-b5-global_local_contact_b5_p32_v14",
+      "archive_key": "old",
+      "capsule_member_prefix": "cutoff25_20261011/new_root/global_local_contact_b5_p32_v14/",
+      "index": 32,
+      "selection_status": "EXACT_FINAL_OUTCOME_SELECTED",
+      "capsule_member_supplied": false,
+      "contract_sha256": null,
+      "forest_sha256": null,
+      "checker_sha256": null
+    },
+    {
+      "branch": "lower-b5",
+      "target_id": "lower-b5-global_alpha_stoploss2_b5_p33_q0_v12",
+      "archive_key": "old",
+      "capsule_member_prefix": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p33_q0_v12/",
+      "index": 33,
+      "selection_status": "EXACT_FINAL_OUTCOME_SELECTED",
+      "capsule_member_supplied": false,
+      "contract_sha256": null,
+      "forest_sha256": null,
+      "checker_sha256": null
+    },
+    {
+      "branch": "lower-b5",
+      "target_id": "lower-b5-global_alpha_stoploss2_b5_p33_q1_v12",
+      "archive_key": "old",
+      "capsule_member_prefix": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p33_q1_v12/",
+      "index": 33,
+      "selection_status": "EXACT_FINAL_OUTCOME_SELECTED",
+      "capsule_member_supplied": false,
+      "contract_sha256": null,
+      "forest_sha256": null,
+      "checker_sha256": null
+    },
+    {
+      "branch": "lower-b5",
+      "target_id": "lower-b5-global_alpha_stoploss2_b5_p33_q2_v12",
+      "archive_key": "old",
+      "capsule_member_prefix": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p33_q2_v12/",
+      "index": 33,
+      "selection_status": "EXACT_FINAL_OUTCOME_SELECTED",
+      "capsule_member_supplied": false,
+      "contract_sha256": null,
+      "forest_sha256": null,
+      "checker_sha256": null
+    },
+    {
+      "branch": "lower-b5",
+      "target_id": "lower-b5-global_alpha_stoploss2_b5_p33_q3_v12",
+      "archive_key": "old",
+      "capsule_member_prefix": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p33_q3_v12/",
+      "index": 33,
+      "selection_status": "EXACT_FINAL_OUTCOME_SELECTED",
+      "capsule_member_supplied": false,
+      "contract_sha256": null,
+      "forest_sha256": null,
+      "checker_sha256": null
+    },
+    {
+      "branch": "upper-retained-graph",
+      "target_id": "upper-retained-graph-count18_tighter_alpha4",
+      "archive_key": "old",
+      "capsule_member_prefix": "cutoff25_20261011/continuation_20261011/high25_beta2/count18_tighter_alpha4/",
+      "index": 18,
+      "selection_status": "BOUND_TRANSITIVE_REFERENCE_FINAL_COMPONENT_SELECTOR_NOT_FULLY_TRACED",
+      "capsule_member_supplied": true,
+      "contract_sha256": "e03ed688ad642b7f4106eb6d3ac0d217069c064e8cd3a1910f9c19897f9d1ca6",
+      "forest_sha256": "903e5dfa1d89899852556be337d014466fd2cdfa72fdcefd5fe1007321b30218",
+      "checker_sha256": "6512b97a01bf61cc66dc81ae2d122d374c88bc00b3899733b6505fc202212bf5"
+    },
+    {
+      "branch": "upper-retained-graph",
+      "target_id": "upper-retained-graph-count17",
+      "archive_key": "old",
+      "capsule_member_prefix": "cutoff25_20261011/continuation_20261011/high25_beta2/count17/",
+      "index": 17,
+      "selection_status": "BOUND_TRANSITIVE_REFERENCE_FINAL_COMPONENT_SELECTOR_NOT_FULLY_TRACED",
+      "capsule_member_supplied": true,
+      "contract_sha256": "8f506b175c51c4c64d87c7bdc8f5c047208978a4c03ecaa9f137661661070f0c",
+      "forest_sha256": "176ce17c5fcf4b60b418a354bd6ae2bed341a275120639a6395b77a879f15b7f",
+      "checker_sha256": "85f2828cc2d6e26da635a725a86f1bc6e70ba69d8c2c2df5a372276942279b89"
+    },
+    {
+      "branch": "upper-retained-graph",
+      "target_id": "upper-retained-graph-count19_alpha4",
+      "archive_key": "old",
+      "capsule_member_prefix": "cutoff25_20261011/continuation_20261011/high25_beta2/count19_alpha4/",
+      "index": 19,
+      "selection_status": "BOUND_TRANSITIVE_REFERENCE_FINAL_COMPONENT_SELECTOR_NOT_FULLY_TRACED",
+      "capsule_member_supplied": true,
+      "contract_sha256": "f017c29ca7e4e0d5318f5c65171cef4295aeb86f9132338a9d8dba73614804e2",
+      "forest_sha256": "e00acbc603493ee6804d61adc47ca128616e9ea046e2df1441fdef4eaacaf495",
+      "checker_sha256": "0893d4c666af09585bc78ce4da1f7a3496a8f4aeadf270e50efadc6462e939e1"
+    },
+    {
+      "branch": "upper-retained-graph",
+      "target_id": "upper-retained-graph-count20_tighter_alpha4_600",
+      "archive_key": "old",
+      "capsule_member_prefix": "cutoff25_20261011/continuation_20261011/high25_beta2/count20_tighter_alpha4_600/",
+      "index": 20,
+      "selection_status": "BOUND_TRANSITIVE_REFERENCE_FINAL_COMPONENT_SELECTOR_NOT_FULLY_TRACED",
+      "capsule_member_supplied": true,
+      "contract_sha256": "3a39273a5ea3a5eb30c6138817834b09f433e1cfae1d1aa5ba8e472bfe5945d8",
+      "forest_sha256": "db2a5ddbfe1f2c78e5130ff511ee2cc0fe80fc608bbe625fe8ae9715f735e0be",
+      "checker_sha256": "936e7ea14610ce2096b8d90ce34a382736d4007c06f4f1e74f9997515d4c4d5b"
+    },
+    {
+      "branch": "upper-retained-graph",
+      "target_id": "upper-retained-graph-count21",
+      "archive_key": "old",
+      "capsule_member_prefix": "cutoff25_20261011/continuation_20261011/middle_positive_b3_counts/count21/",
+      "index": 21,
+      "selection_status": "BOUND_TRANSITIVE_REFERENCE_FINAL_COMPONENT_SELECTOR_NOT_FULLY_TRACED",
+      "capsule_member_supplied": true,
+      "contract_sha256": "e3894447abb7c8874ab7a47a914501e77c942b3c43ebdaa21222f2b953b92cfe",
+      "forest_sha256": "522a8b7f1fa4065ed24a081ce91f9a34a8a2639bc71d4330eab23fa0d3a639f6",
+      "checker_sha256": "fcab96c1efed90ffd4b4d0d9a673daae5b4db3e06e1af842d93269031288e923"
+    },
+    {
+      "branch": "upper-retained-graph",
+      "target_id": "upper-retained-graph-count22",
+      "archive_key": "old",
+      "capsule_member_prefix": "cutoff25_20261011/continuation_20261011/middle_positive_b3_counts/count22/",
+      "index": 22,
+      "selection_status": "BOUND_TRANSITIVE_REFERENCE_FINAL_COMPONENT_SELECTOR_NOT_FULLY_TRACED",
+      "capsule_member_supplied": true,
+      "contract_sha256": "4f22a6b5e1159e015e0f2b01dcc61954f0cf1ddf44b4e89f19809894a9a63cb1",
+      "forest_sha256": "b9567d2349d728e487d0b94805387f0cecfe2812608f62843fa67edc3354b0e2",
+      "checker_sha256": "9d9a90d1417601d06d5d69b3d12628623f54fa3559797deadc5f1f44b85640ad"
+    },
+    {
+      "branch": "upper-retained-graph",
+      "target_id": "upper-retained-graph-count23",
+      "archive_key": "old",
+      "capsule_member_prefix": "cutoff25_20261011/continuation_20261011/middle_positive_b3_counts/count23/",
+      "index": 23,
+      "selection_status": "BOUND_TRANSITIVE_REFERENCE_FINAL_COMPONENT_SELECTOR_NOT_FULLY_TRACED",
+      "capsule_member_supplied": true,
+      "contract_sha256": "1cbc5f17f66cf0c9fe4edbf309bbdadd22ac1a3cdd36c8206dbc453dea0879f7",
+      "forest_sha256": "30dd9803f31b5a3d8de5cb867037305b5746db8424203cba1e2d5129e607d865",
+      "checker_sha256": "ab045f80cc70cad13551ac8798f2966c4973ed4e72adcd8c67e88341e289aa6d"
+    },
+    {
+      "branch": "upper-retained-graph",
+      "target_id": "upper-retained-graph-count21_alpha4_600",
+      "archive_key": "old",
+      "capsule_member_prefix": "cutoff25_20261011/continuation_20261011/high25_beta2/count21_alpha4_600/",
+      "index": 21,
+      "selection_status": "BOUND_TRANSITIVE_REFERENCE_FINAL_COMPONENT_SELECTOR_NOT_FULLY_TRACED",
+      "capsule_member_supplied": true,
+      "contract_sha256": "cc7858cf326561e8673b5ba7d6674751ac479aabed6d6fc89a7fbe0f27ef160f",
+      "forest_sha256": "d691a32ff8f7ac6bd52253c781e15fc2b90ac9bcfb41fafbe850ebd7cd619a42",
+      "checker_sha256": "655fa49f515e026f1fa2f54526bb15cd0dff1746b11a6caa853cd425fab334a6"
+    },
+    {
+      "branch": "upper-retained-graph",
+      "target_id": "upper-retained-graph-count22_alpha4_600",
+      "archive_key": "old",
+      "capsule_member_prefix": "cutoff25_20261011/continuation_20261011/high25_beta2/count22_alpha4_600/",
+      "index": 22,
+      "selection_status": "BOUND_TRANSITIVE_REFERENCE_FINAL_COMPONENT_SELECTOR_NOT_FULLY_TRACED",
+      "capsule_member_supplied": true,
+      "contract_sha256": "de6e497bc3c75a90616f092c4f039d470fd5ad48a4ce394ef03039ddc0f0a807",
+      "forest_sha256": "00bd3250dd1849b8a48c0a6ba9825c630fb9ff464f63cfe24cc081bac6a78eb9",
+      "checker_sha256": "01bdc522035d399fb535c9fc92290d282177bc7bcb6b7b203d5a411e14996c41"
+    },
+    {
+      "branch": "upper-retained-graph",
+      "target_id": "upper-retained-graph-count23_alpha4",
+      "archive_key": "old",
+      "capsule_member_prefix": "cutoff25_20261011/continuation_20261011/high25_beta2/count23_alpha4/",
+      "index": 23,
+      "selection_status": "BOUND_TRANSITIVE_REFERENCE_FINAL_COMPONENT_SELECTOR_NOT_FULLY_TRACED",
+      "capsule_member_supplied": true,
+      "contract_sha256": "87306947a9645dd2b39d9c3c4376e36d594a3f7e60d7b951de8470e5f64a8126",
+      "forest_sha256": "aaa6ce5515bcb50b18ef3a9e144535aee20e609ecd6183c1d05289f62f2b09e2",
+      "checker_sha256": "5857c5338e57c660b9c55d6a875970fe428fa3027ca3551df53193909f9046db"
+    }
+  ],
+  "missing_ordinary_capsules": 11,
+  "supplied_additional_ordinary_forests": 10,
+  "mixed_selected_components": [
+    {
+      "branch": "lower-b5",
+      "target_id": "lower-b5-p24-mixed",
+      "index": 24,
+      "n": 25,
+      "method": "accepted_original_v14_mixed_e24_and_acquired_pointwise_counts_v1",
+      "archive_key": "base13",
+      "capsule_member_prefix": "cutoff25_20261013/root/mixed_e24_b5p24_v1/",
+      "forest_filename": "MIXED_E24_UNACCEPTED_FOREST.json",
+      "acceptance_member": "cutoff25_20261013/root/mixed_e24_b5p24_accepted_v1/UNTRUSTED_P24_E_ACCEPTED_V1.json",
+      "acceptance_filename": "UNTRUSTED_P24_E_ACCEPTED_V1.json",
+      "forest_sha256": "dfac401638aea9b2d01261d4c998d0cb0184ed2eb2af942343680de7b9b1cbab",
+      "selected_forest_sha256": "dfac401638aea9b2d01261d4c998d0cb0184ed2eb2af942343680de7b9b1cbab",
+      "acceptance_sha256": "7f90cc5f5057b75c235a1a46d2593a9dfed280df1fddb446e685a291757d408e",
+      "p_interval": [
+        "6/25",
+        "1/4"
+      ],
+      "rho_interval": [
+        "3/2",
+        "33/20"
+      ],
+      "historical_statistics": {
+        "status": "PASS_MIXED_POINTWISE_E_B5P24_CONDITIONAL_COUNT_COVER",
+        "nodes": 8846,
+        "leaves": 4436,
+        "fresh_ordinary_native_evaluations": 4310,
+        "acquired_theorem_references": 126,
+        "native_statuses": {
+          "EMPTY_PHASE": 41,
+          "PASS_TARGET": 1495,
+          "EMPTY_SHARP_BOX": 1060,
+          "EMPTY_JOINT_CUBICS": 1683,
+          "EMPTY_RHO_UPPER": 5,
+          "EMPTY_SUPPORT_GAP_VARIANCE": 6,
+          "EMPTY_ACQUIRED_THETA_VARIANCE": 3,
+          "EMPTY_VARIANCE_IDENTITY": 17
+        },
+        "theorem_claims": {
+          "B5_P24_DIRECT_POINTWISE_RECORD_22_V1": 12,
+          "B5_P24_DIRECT_POINTWISE_RECORD_28_V1": 18,
+          "B5_P24_DIRECT_POINTWISE_RECORD_31_V1": 17,
+          "B5_P24_DIRECT_POINTWISE_RECORD_32_V1": 17,
+          "B5_P24_DIRECT_POINTWISE_RECORD_34_V1": 18,
+          "B5_P24_DIRECT_POINTWISE_RECORD_35_V1": 18,
+          "B5_P24_DIRECT_POINTWISE_RECORD_27_V1": 26
+        },
+        "maximum_ordinary_score": "409730978299/1000000000000",
+        "maximum_depth": 29,
+        "all_native_count_receipt": false,
+        "scope": "Same original attained positive-closed witness; mixed count cover only, explicit original p24 resource composition still required."
+      },
+      "acquired_theorem_ids": [
+        "B5_P24_DIRECT_POINTWISE_RECORD_13_V1",
+        "B5_P24_DIRECT_POINTWISE_RECORD_22_V1",
+        "B5_P24_DIRECT_POINTWISE_RECORD_27_V1",
+        "B5_P24_DIRECT_POINTWISE_RECORD_28_V1",
+        "B5_P24_DIRECT_POINTWISE_RECORD_31_V1",
+        "B5_P24_DIRECT_POINTWISE_RECORD_32_V1",
+        "B5_P24_DIRECT_POINTWISE_RECORD_34_V1",
+        "B5_P24_DIRECT_POINTWISE_RECORD_35_V1"
+      ],
+      "ordinary_count_protocol_compatible": false,
+      "required_original_v14_capsule": "cutoff25_20261011/new_root/global_local_contact_b5_p24_v14",
+      "original_v14_capsule_present": false,
+      "source_entrypoint": "cutoff25_20261013/low/p24_mixed_acceptance_v1/accept.py",
+      "fresh_arithmetic_replayed": false,
+      "source_entrypoint_sha256": "2bb29687d4f8ca61bcd55edccf478379b840100dcc440a8c825fcd656ba92db7",
+      "entrypoint_cli_source_cues": [
+        {
+          "line": 40,
+          "text": "if __name__=='__main__':main(sys.argv[1:])"
+        }
+      ]
+    },
+    {
+      "branch": "lower-b5",
+      "target_id": "lower-b5-p25-mixed",
+      "index": 25,
+      "n": 25,
+      "method": "COUPLED_CHORD_ABCDF_FINITE_NODE_CAPS",
+      "archive_key": "base13",
+      "capsule_member_prefix": "cutoff25_20261013/root/coarsened_complete_p25_v1/",
+      "forest_filename": "UNACCEPTED_FOREST.json",
+      "acceptance_member": "cutoff25_20261013/root/coupled_chord_p25_accepted_v1/COUPLED_CHORD_ABCDF_ACCEPTED_V1.json",
+      "acceptance_filename": "COUPLED_CHORD_ABCDF_ACCEPTED_V1.json",
+      "forest_sha256": "efa4adc7c25877ba07325ebcb4b991bb237d287088860c761694b6695c499c85",
+      "selected_forest_sha256": "efa4adc7c25877ba07325ebcb4b991bb237d287088860c761694b6695c499c85",
+      "acceptance_sha256": "0b9a1a47f635aa701cca0bc83e17f24f7e69fef7ac6c84897699c88110f2e31c",
+      "p_interval": [
+        "1/4",
+        "13/50"
+      ],
+      "rho_interval": [
+        "3/2",
+        "33/20"
+      ],
+      "historical_statistics": {
+        "nodes": 2166,
+        "leaves": 1096,
+        "ordinary_leaves": 759,
+        "scalar_leaves": 112,
+        "derived_native_leaves": 149,
+        "theorem_references": 76,
+        "families": {
+          "AB": 2,
+          "D": 18,
+          "F": 56
+        },
+        "claims": {
+          "B5_P25_SPARSE_16X_EXCLUSION_V1": 1,
+          "B5_P25_SPARSE_NEXT_EXCLUSION_V1": 1,
+          "B5_P25_SAVED_SCALAR_p25_k5_LLRRRLRR_D1": 1,
+          "B5_P25_CURRENT_DIRECT_QUERY_121_V1": 22,
+          "B5_P25_CURRENT_DIRECT_QUERY_125_V1": 17,
+          "B5_P25_CURRENT_DIRECT_QUERY_2_V1": 11,
+          "B5_P25_CURRENT_DIRECT_QUERY_129_V1": 1,
+          "B5_P25_CURRENT_DIRECT_QUERY_130_V1": 1,
+          "B5_P25_CURRENT_DIRECT_QUERY_133_V1": 2,
+          "B5_P25_CURRENT_DIRECT_QUERY_134_V1": 2,
+          "B5_P25_SAVED_SCALAR_p25_k9_ROOT_D1": 1,
+          "B5_P25_SAVED_SCALAR_p25_k10_ROOT_D1": 1,
+          "B5_P25_SAVED_SCALAR_p25_k11_ROOT_D1": 1,
+          "B5_P25_SAVED_SCALAR_p25_k12_ROOT_D1": 1,
+          "B5_P25_SAVED_SCALAR_p25_k13_ROOT_D1": 1,
+          "B5_P25_SAVED_SCALAR_p25_k14_ROOT_D1": 1,
+          "B5_P25_SAVED_SCALAR_p25_k15_ROOT_D1": 1,
+          "B5_P25_SAVED_SCALAR_p25_k16_ROOT_D1": 1,
+          "B5_P25_SAVED_SCALAR_p25_k17_ROOT_D1": 1,
+          "B5_P25_SAVED_SCALAR_p25_k18_ROOT_D1": 1,
+          "B5_P25_SAVED_SCALAR_p25_k19_ROOT_D1": 1,
+          "B5_P25_SAVED_SCALAR_p25_k20_ROOT_D1": 1,
+          "B5_P25_SAVED_SCALAR_p25_k21_ROOT_D1": 1,
+          "B5_P25_SAVED_SCALAR_p25_k22_ROOT_D1": 1,
+          "B5_P25_SAVED_SCALAR_p25_k23_ROOT_D1": 1,
+          "B5_P25_SAVED_SCALAR_p25_k24_ROOT_D1": 1,
+          "B5_P25_SAVED_SCALAR_p25_k25_ROOT_D1": 1
+        },
+        "maximum_depth": 26,
+        "first": {
+          "ordinary": {
+            "k": 0,
+            "path": ""
+          },
+          "scalar": {
+            "k": 5,
+            "path": "LLRRRLLRL"
+          },
+          "theorem": {
+            "k": 5,
+            "path": "LLRRRLRLRLLRRLLRRR"
+          },
+          "theorem_AB": {
+            "k": 5,
+            "path": "LLRRRLRLRLLRRLLRRR"
+          },
+          "theorem_D": {
+            "k": 5,
+            "path": "LLRRRLRR"
+          },
+          "theorem_F": {
+            "k": 5,
+            "path": "LRLRLLLL"
+          },
+          "derived_native": {
+            "k": 6,
+            "path": "LLRRRLRLRLRLL"
+          }
+        },
+        "positive_fresh_native_evaluations": 908,
+        "positive_fresh_scalar_evaluations": 637,
+        "positive_fresh_contact_attempts": 6700,
+        "native_statuses": {
+          "EMPTY_PHASE": 28,
+          "PASS_TARGET": 737,
+          "EMPTY_SHARP_BOX": 72,
+          "EMPTY_JOINT_CUBICS": 54,
+          "EMPTY_ACQUIRED_RHO_VARIANCE": 6,
+          "EMPTY_RHO_UPPER": 2,
+          "EMPTY_VARIANCE_IDENTITY": 4,
+          "EMPTY_SUPPORT_GAP_VARIANCE": 4,
+          "EMPTY_RHO_BRANCH": 1
+        },
+        "maximum_native_score": "1638914217/4000000000",
+        "all_native_count_receipt": false
+      },
+      "acquired_theorem_ids": {
+        "AB": [
+          "B5_P25_SPARSE_16X_EXCLUSION_V1",
+          "B5_P25_SPARSE_NEXT_EXCLUSION_V1"
+        ],
+        "C": [
+          "B5_P25_POINTWISE_PHASE_FREE_1_V1",
+          "B5_P25_POINTWISE_PHASE_FREE_2_V1"
+        ],
+        "D": [
+          "B5_P25_SAVED_SCALAR_p25_k5_LLRRRLRRLRLLLRLLRLLRRRLRLL_D1",
+          "B5_P25_SAVED_SCALAR_p25_k5_LLRRRLRRLRLLLRLLRLLRRRLRL_D1",
+          "B5_P25_SAVED_SCALAR_p25_k5_LLRRRLRRLRLLLRLLRLLRRRLR_D1",
+          "B5_P25_SAVED_SCALAR_p25_k5_LLRRRLRRLRLLLRLLRLLRRRLRLR_D1",
+          "B5_P25_SAVED_SCALAR_p25_k5_LLRRRLRRLRLLLRLLRLLRRRLRR_D1",
+          "B5_P25_SAVED_SCALAR_p25_k5_LLRRRLRRLRLLLRLLRLLRRRL_D1",
+          "B5_P25_SAVED_SCALAR_p25_k5_LLRRRLRRLRLLLRLLRLLRRRR_D1",
+          "B5_P25_SAVED_SCALAR_p25_k5_LLRRRLRRLRLLLRLLRLLRRR_D1",
+          "B5_P25_SAVED_SCALAR_p25_k5_LLRRRLRRLRLLLRLLRLLRR_D1",
+          "B5_P25_SAVED_SCALAR_p25_k5_LLRRRLRRLRLLLRLLRLR_D1",
+          "B5_P25_SAVED_SCALAR_p25_k5_LLRRRLRRLRLLLRLLRL_D1",
+          "B5_P25_SAVED_SCALAR_p25_k5_LLRRRLRRLRLLLRLLR_D1",
+          "B5_P25_SAVED_SCALAR_p25_k5_LLRRRLRRLRLLLRLLRR_D1",
+          "B5_P25_SAVED_SCALAR_p25_k5_LLRRRLRRLRLLLRLL_D1",
+          "B5_P25_SAVED_SCALAR_p25_k5_LLRRRLRRLRLLLRLR_D1",
+          "B5_P25_SAVED_SCALAR_p25_k5_LLRRRLRRLRLLLRL_D1",
+          "B5_P25_SAVED_SCALAR_p25_k5_LLRRRLRRLRLLLR_D1",
+          "B5_P25_SAVED_SCALAR_p25_k5_LLRRRLRRLRLLLRR_D1",
+          "B5_P25_SAVED_SCALAR_p25_k5_LLRRRLRRLRLLL_D1",
+          "B5_P25_SAVED_SCALAR_p25_k5_LLRRRLRRLRLLR_D1",
+          "B5_P25_SAVED_SCALAR_p25_k5_LLRRRLRRLRLL_D1",
+          "B5_P25_SAVED_SCALAR_p25_k5_LLRRRLRRLRL_D1",
+          "B5_P25_SAVED_SCALAR_p25_k5_LLRRRLRRLRLR_D1",
+          "B5_P25_SAVED_SCALAR_p25_k5_LLRRRLRRLR_D1",
+          "B5_P25_SAVED_SCALAR_p25_k5_LLRRRLRRLRR_D1",
+          "B5_P25_SAVED_SCALAR_p25_k5_LLRRRLRRL_D1",
+          "B5_P25_SAVED_SCALAR_p25_k5_LLRRRLRRR_D1",
+          "B5_P25_SAVED_SCALAR_p25_k5_LLRRRLRR_D1",
+          "B5_P25_SAVED_SCALAR_p25_k9_ROOT_D1",
+          "B5_P25_SAVED_SCALAR_p25_k10_ROOT_D1",
+          "B5_P25_SAVED_SCALAR_p25_k11_ROOT_D1",
+          "B5_P25_SAVED_SCALAR_p25_k12_ROOT_D1",
+          "B5_P25_SAVED_SCALAR_p25_k13_ROOT_D1",
+          "B5_P25_SAVED_SCALAR_p25_k14_ROOT_D1",
+          "B5_P25_SAVED_SCALAR_p25_k15_ROOT_D1",
+          "B5_P25_SAVED_SCALAR_p25_k16_ROOT_D1",
+          "B5_P25_SAVED_SCALAR_p25_k17_ROOT_D1",
+          "B5_P25_SAVED_SCALAR_p25_k18_ROOT_D1",
+          "B5_P25_SAVED_SCALAR_p25_k19_ROOT_D1",
+          "B5_P25_SAVED_SCALAR_p25_k20_ROOT_D1",
+          "B5_P25_SAVED_SCALAR_p25_k21_ROOT_D1",
+          "B5_P25_SAVED_SCALAR_p25_k22_ROOT_D1",
+          "B5_P25_SAVED_SCALAR_p25_k23_ROOT_D1",
+          "B5_P25_SAVED_SCALAR_p25_k24_ROOT_D1",
+          "B5_P25_SAVED_SCALAR_p25_k25_ROOT_D1"
+        ],
+        "F": [
+          "B5_P25_CURRENT_DIRECT_QUERY_2_V1",
+          "B5_P25_CURRENT_DIRECT_QUERY_7_V1",
+          "B5_P25_CURRENT_DIRECT_QUERY_8_V1",
+          "B5_P25_CURRENT_DIRECT_QUERY_10_V1",
+          "B5_P25_CURRENT_DIRECT_QUERY_11_V1",
+          "B5_P25_CURRENT_DIRECT_QUERY_14_V1",
+          "B5_P25_CURRENT_DIRECT_QUERY_15_V1",
+          "B5_P25_CURRENT_DIRECT_QUERY_16_V1",
+          "B5_P25_CURRENT_DIRECT_QUERY_18_V1",
+          "B5_P25_CURRENT_DIRECT_QUERY_19_V1",
+          "B5_P25_CURRENT_DIRECT_QUERY_22_V1",
+          "B5_P25_CURRENT_DIRECT_QUERY_23_V1",
+          "B5_P25_CURRENT_DIRECT_QUERY_24_V1",
+          "B5_P25_CURRENT_DIRECT_QUERY_54_V1",
+          "B5_P25_CURRENT_DIRECT_QUERY_55_V1",
+          "B5_P25_CURRENT_DIRECT_QUERY_121_V1",
+          "B5_P25_CURRENT_DIRECT_QUERY_125_V1",
+          "B5_P25_CURRENT_DIRECT_QUERY_129_V1",
+          "B5_P25_CURRENT_DIRECT_QUERY_130_V1",
+          "B5_P25_CURRENT_DIRECT_QUERY_131_V1",
+          "B5_P25_CURRENT_DIRECT_QUERY_133_V1",
+          "B5_P25_CURRENT_DIRECT_QUERY_134_V1",
+          "B5_P25_CURRENT_DIRECT_QUERY_135_V1",
+          "B5_P25_CURRENT_DIRECT_QUERY_136_V1",
+          "B5_P25_CURRENT_DIRECT_QUERY_137_V1",
+          "B5_P25_CURRENT_DIRECT_QUERY_138_V1",
+          "B5_P25_CURRENT_DIRECT_QUERY_139_V1",
+          "B5_P25_CURRENT_DIRECT_QUERY_140_V1",
+          "B5_P25_CURRENT_DIRECT_QUERY_141_V1",
+          "B5_P25_CURRENT_DIRECT_QUERY_142_V1",
+          "B5_P25_CURRENT_DIRECT_QUERY_143_V1",
+          "B5_P25_CURRENT_DIRECT_QUERY_144_V1"
+        ]
+      },
+      "ordinary_count_protocol_compatible": false,
+      "required_original_v14_capsule": "cutoff25_20261011/new_root/global_local_contact_b5_p25_v14",
+      "original_v14_capsule_present": false,
+      "source_entrypoint": "cutoff25_20261013/low/coupled_chord_acceptance_v1/accept.py",
+      "fresh_arithmetic_replayed": false,
+      "source_entrypoint_sha256": "d3d8105677f01fa144e4a5dd8260c33be81ba2fa7364521f23f446ddb60ec48f",
+      "entrypoint_cli_source_cues": [
+        {
+          "line": 18,
+          "text": "if __name__=='__main__':main(sys.argv[1:])"
+        }
+      ]
+    }
+  ],
+  "noncount_source_entrypoint_assignments": [
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261010/toward25/beta1_high25_exact/mixed_beta1.py",
+      "bytes": 10415,
+      "sha256": "3e5f5a468eae45b1694cdd638d09c9e62eec70f1f398df0e2067f84a5c302265",
+      "cli_source_cues": [
+        {
+          "line": 35,
+          "text": "subprocess.run([sys.executable,str(HERE/'resource_exact/resource_worker.py'),str(ip),str(op)],cwd=HERE/'resource_exact',check=True)"
+        },
+        {
+          "line": 125,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==2 and sys.argv[1]in('construct','accept'),'fixed exact action')"
+        },
+        {
+          "line": 126,
+          "text": "action=sys.argv[1];dest=HERE/'MIXED_BETA1_PROOF.json'"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": true,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "SOURCE_REVIEW_REQUIRED_WINDOWS_OR_CAPTURE_WRAPPER",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "older_upper",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta2/exact/acquire_panel.py",
+      "bytes": 7018,
+      "sha256": "ff1fa2687fc69cbed7cae696b1aa81b568cf23f746135f0414ba738d1afcfe6e",
+      "cli_source_cues": [
+        {
+          "line": 61,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==3 and sys.argv[1]in('construct','accept'),'explicit exact action and index')"
+        },
+        {
+          "line": 62,
+          "text": "action,index=sys.argv[1],int(sys.argv[2]);dest=HERE/f'PANEL{index}_PROOF.json'"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "high_beta2",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta2/exact/global_resources.py",
+      "bytes": 4692,
+      "sha256": "f0845dfa13d46160cf00316dcf6e27248b8adca6fa0c7a718840bbcdeb9f9770",
+      "cli_source_cues": [
+        {
+          "line": 27,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==2 and sys.argv[1]in('construct','accept'),'explicit exact action')"
+        },
+        {
+          "line": 28,
+          "text": "action=sys.argv[1];dest=HERE/'GLOBAL_RESOURCES_PROOF.json'"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "high_beta2",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta2/exact/initial_beta2.py",
+      "bytes": 6605,
+      "sha256": "0f39355491c662c89a4b0ab8f36bd095ea1517cde8adc69616be01797149814e",
+      "cli_source_cues": [
+        {
+          "line": 68,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==2 and sys.argv[1]in('construct','accept'),'explicit exact action')"
+        },
+        {
+          "line": 69,
+          "text": "path=HERE/'INITIAL_BETA2_PROOF.json';action=sys.argv[1]"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "high_beta2",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta2/exact20/acquire_panel.py",
+      "bytes": 7018,
+      "sha256": "ff1fa2687fc69cbed7cae696b1aa81b568cf23f746135f0414ba738d1afcfe6e",
+      "cli_source_cues": [
+        {
+          "line": 61,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==3 and sys.argv[1]in('construct','accept'),'explicit exact action and index')"
+        },
+        {
+          "line": 62,
+          "text": "action,index=sys.argv[1],int(sys.argv[2]);dest=HERE/f'PANEL{index}_PROOF.json'"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "high_beta2",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta2/exact20/initial_beta2.py",
+      "bytes": 6605,
+      "sha256": "0f39355491c662c89a4b0ab8f36bd095ea1517cde8adc69616be01797149814e",
+      "cli_source_cues": [
+        {
+          "line": 68,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==2 and sys.argv[1]in('construct','accept'),'explicit exact action')"
+        },
+        {
+          "line": 69,
+          "text": "path=HERE/'INITIAL_BETA2_PROOF.json';action=sys.argv[1]"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "high_beta2",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta2/exact20_cached_v1/run_action.py",
+      "bytes": 1816,
+      "sha256": "c4969c81036290a7ab539208474f169b5949b4510d7670f064e301e4f94ebb54",
+      "cli_source_cues": [
+        {
+          "line": 6,
+          "text": "p.need(len(sys.argv) == 4 and sys.argv[1] in ('construct', 'accept'), 'action index independent-review-path')"
+        },
+        {
+          "line": 7,
+          "text": "action, index, review_path = sys.argv[1], int(sys.argv[2]), Path(sys.argv[3]).resolve()"
+        },
+        {
+          "line": 15,
+          "text": "rc = subprocess.run(command, cwd=p.HERE, stdout=out, stderr=err).returncode"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": true,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "SOURCE_REVIEW_REQUIRED_WINDOWS_OR_CAPTURE_WRAPPER",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "high_beta2",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta2/exact20_cached_v2/acquire_panel.py",
+      "bytes": 7018,
+      "sha256": "ff1fa2687fc69cbed7cae696b1aa81b568cf23f746135f0414ba738d1afcfe6e",
+      "cli_source_cues": [
+        {
+          "line": 61,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==3 and sys.argv[1]in('construct','accept'),'explicit exact action and index')"
+        },
+        {
+          "line": 62,
+          "text": "action,index=sys.argv[1],int(sys.argv[2]);dest=HERE/f'PANEL{index}_PROOF.json'"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "high_beta2",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta2/exact20_cached_v2/initial_beta2.py",
+      "bytes": 6605,
+      "sha256": "0f39355491c662c89a4b0ab8f36bd095ea1517cde8adc69616be01797149814e",
+      "cli_source_cues": [
+        {
+          "line": 68,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==2 and sys.argv[1]in('construct','accept'),'explicit exact action')"
+        },
+        {
+          "line": 69,
+          "text": "path=HERE/'INITIAL_BETA2_PROOF.json';action=sys.argv[1]"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "high_beta2",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta2/exact20_cached_v2/run_action.py",
+      "bytes": 1816,
+      "sha256": "c4969c81036290a7ab539208474f169b5949b4510d7670f064e301e4f94ebb54",
+      "cli_source_cues": [
+        {
+          "line": 6,
+          "text": "p.need(len(sys.argv) == 4 and sys.argv[1] in ('construct', 'accept'), 'action index independent-review-path')"
+        },
+        {
+          "line": 7,
+          "text": "action, index, review_path = sys.argv[1], int(sys.argv[2]), Path(sys.argv[3]).resolve()"
+        },
+        {
+          "line": 15,
+          "text": "rc = subprocess.run(command, cwd=p.HERE, stdout=out, stderr=err).returncode"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": true,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "SOURCE_REVIEW_REQUIRED_WINDOWS_OR_CAPTURE_WRAPPER",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "high_beta2",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta2/exact21/acquire_panel.py",
+      "bytes": 7018,
+      "sha256": "ff1fa2687fc69cbed7cae696b1aa81b568cf23f746135f0414ba738d1afcfe6e",
+      "cli_source_cues": [
+        {
+          "line": 61,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==3 and sys.argv[1]in('construct','accept'),'explicit exact action and index')"
+        },
+        {
+          "line": 62,
+          "text": "action,index=sys.argv[1],int(sys.argv[2]);dest=HERE/f'PANEL{index}_PROOF.json'"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "high_beta2",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta2/exact21/initial_beta2.py",
+      "bytes": 6605,
+      "sha256": "0f39355491c662c89a4b0ab8f36bd095ea1517cde8adc69616be01797149814e",
+      "cli_source_cues": [
+        {
+          "line": 68,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==2 and sys.argv[1]in('construct','accept'),'explicit exact action')"
+        },
+        {
+          "line": 69,
+          "text": "path=HERE/'INITIAL_BETA2_PROOF.json';action=sys.argv[1]"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "high_beta2",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta2/exact21_cached_v1/acquire_panel.py",
+      "bytes": 7018,
+      "sha256": "ff1fa2687fc69cbed7cae696b1aa81b568cf23f746135f0414ba738d1afcfe6e",
+      "cli_source_cues": [
+        {
+          "line": 61,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==3 and sys.argv[1]in('construct','accept'),'explicit exact action and index')"
+        },
+        {
+          "line": 62,
+          "text": "action,index=sys.argv[1],int(sys.argv[2]);dest=HERE/f'PANEL{index}_PROOF.json'"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "high_beta2",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta2/exact21_cached_v1/initial_beta2.py",
+      "bytes": 6605,
+      "sha256": "0f39355491c662c89a4b0ab8f36bd095ea1517cde8adc69616be01797149814e",
+      "cli_source_cues": [
+        {
+          "line": 68,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==2 and sys.argv[1]in('construct','accept'),'explicit exact action')"
+        },
+        {
+          "line": 69,
+          "text": "path=HERE/'INITIAL_BETA2_PROOF.json';action=sys.argv[1]"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "high_beta2",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta2/exact21_cached_v1/run_action.py",
+      "bytes": 1816,
+      "sha256": "c82a986c16cdc65ff94bf2816f637674c644eb826f76f18b2b2248089512a70b",
+      "cli_source_cues": [
+        {
+          "line": 6,
+          "text": "p.need(len(sys.argv) == 4 and sys.argv[1] in ('construct', 'accept'), 'action index independent-review-path')"
+        },
+        {
+          "line": 7,
+          "text": "action, index, review_path = sys.argv[1], int(sys.argv[2]), Path(sys.argv[3]).resolve()"
+        },
+        {
+          "line": 15,
+          "text": "rc = subprocess.run(command, cwd=p.HERE, stdout=out, stderr=err).returncode"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": true,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "SOURCE_REVIEW_REQUIRED_WINDOWS_OR_CAPTURE_WRAPPER",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "high_beta2",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta2/exact22/acquire_panel.py",
+      "bytes": 7018,
+      "sha256": "ff1fa2687fc69cbed7cae696b1aa81b568cf23f746135f0414ba738d1afcfe6e",
+      "cli_source_cues": [
+        {
+          "line": 61,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==3 and sys.argv[1]in('construct','accept'),'explicit exact action and index')"
+        },
+        {
+          "line": 62,
+          "text": "action,index=sys.argv[1],int(sys.argv[2]);dest=HERE/f'PANEL{index}_PROOF.json'"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "high_beta2",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta2/exact22/initial_beta2.py",
+      "bytes": 6605,
+      "sha256": "0f39355491c662c89a4b0ab8f36bd095ea1517cde8adc69616be01797149814e",
+      "cli_source_cues": [
+        {
+          "line": 68,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==2 and sys.argv[1]in('construct','accept'),'explicit exact action')"
+        },
+        {
+          "line": 69,
+          "text": "path=HERE/'INITIAL_BETA2_PROOF.json';action=sys.argv[1]"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "high_beta2",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta2/exact22_cached_v1/acquire_panel.py",
+      "bytes": 7018,
+      "sha256": "ff1fa2687fc69cbed7cae696b1aa81b568cf23f746135f0414ba738d1afcfe6e",
+      "cli_source_cues": [
+        {
+          "line": 61,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==3 and sys.argv[1]in('construct','accept'),'explicit exact action and index')"
+        },
+        {
+          "line": 62,
+          "text": "action,index=sys.argv[1],int(sys.argv[2]);dest=HERE/f'PANEL{index}_PROOF.json'"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "high_beta2",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta2/exact22_cached_v1/initial_beta2.py",
+      "bytes": 6605,
+      "sha256": "0f39355491c662c89a4b0ab8f36bd095ea1517cde8adc69616be01797149814e",
+      "cli_source_cues": [
+        {
+          "line": 68,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==2 and sys.argv[1]in('construct','accept'),'explicit exact action')"
+        },
+        {
+          "line": 69,
+          "text": "path=HERE/'INITIAL_BETA2_PROOF.json';action=sys.argv[1]"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "high_beta2",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta2/exact22_cached_v1/run_action.py",
+      "bytes": 1816,
+      "sha256": "ca0cc3782fccc723c801bf5f0d09b172a05080ba58a308d6e684744887c4ac36",
+      "cli_source_cues": [
+        {
+          "line": 6,
+          "text": "p.need(len(sys.argv) == 4 and sys.argv[1] in ('construct', 'accept'), 'action index independent-review-path')"
+        },
+        {
+          "line": 7,
+          "text": "action, index, review_path = sys.argv[1], int(sys.argv[2]), Path(sys.argv[3]).resolve()"
+        },
+        {
+          "line": 15,
+          "text": "rc = subprocess.run(command, cwd=p.HERE, stdout=out, stderr=err).returncode"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": true,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "SOURCE_REVIEW_REQUIRED_WINDOWS_OR_CAPTURE_WRAPPER",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "high_beta2",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta2/exact23_16/acquire_panel.py",
+      "bytes": 7023,
+      "sha256": "75677b59ba0da2819747525581e7759e876ef67d2bef0ffb771686554d376872",
+      "cli_source_cues": [
+        {
+          "line": 61,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==3 and sys.argv[1]in('construct','accept'),'explicit exact action and index')"
+        },
+        {
+          "line": 62,
+          "text": "action,index=sys.argv[1],int(sys.argv[2]);dest=HERE/f'PANEL{index}_PROOF.json'"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "high_beta2",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta2/exact23_16/initial_beta2.py",
+      "bytes": 6605,
+      "sha256": "0f39355491c662c89a4b0ab8f36bd095ea1517cde8adc69616be01797149814e",
+      "cli_source_cues": [
+        {
+          "line": 68,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==2 and sys.argv[1]in('construct','accept'),'explicit exact action')"
+        },
+        {
+          "line": 69,
+          "text": "path=HERE/'INITIAL_BETA2_PROOF.json';action=sys.argv[1]"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "high_beta2",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_cached_exact_v1/run_action.py",
+      "bytes": 1889,
+      "sha256": "b6c1c7731a1d9aa6c67167b1f5386624ff1eb5e01280da52e248259e45028e65",
+      "cli_source_cues": [
+        {
+          "line": 6,
+          "text": "p.need(len(sys.argv) == 4 and sys.argv[1] in ('construct', 'accept'), 'action index independent-review-path')"
+        },
+        {
+          "line": 7,
+          "text": "action, index, review_path = sys.argv[1], int(sys.argv[2]), Path(sys.argv[3]).resolve()"
+        },
+        {
+          "line": 15,
+          "text": "rc = subprocess.run(command, cwd=p.HERE, stdout=out, stderr=err).returncode"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": true,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "SOURCE_REVIEW_REQUIRED_WINDOWS_OR_CAPTURE_WRAPPER",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "reuse49",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/acquire_panel.py",
+      "bytes": 7018,
+      "sha256": "c06b1c273cc113fef8dfa16945df6b6a2303cba69c994100c45b8f6ead44a118",
+      "cli_source_cues": [
+        {
+          "line": 61,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==3 and sys.argv[1]in('construct','accept'),'explicit exact action and index')"
+        },
+        {
+          "line": 62,
+          "text": "action,index=sys.argv[1],int(sys.argv[2]);dest=HERE/f'PANEL{index}_PROOF.json'"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "reuse49",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/global_resources.py",
+      "bytes": 4692,
+      "sha256": "dba2db25d9205bb3f768a8c67b3226998f4510d2cc67501d4c9a8c424e459c83",
+      "cli_source_cues": [
+        {
+          "line": 27,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==2 and sys.argv[1]in('construct','accept'),'explicit exact action')"
+        },
+        {
+          "line": 28,
+          "text": "action=sys.argv[1];dest=HERE/'GLOBAL_RESOURCES_PROOF.json'"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "reuse49",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/initial_beta3.py",
+      "bytes": 6637,
+      "sha256": "29095c370f04d4a3218147c76d27c3313f42b429a42b96761b99433b36cf14f1",
+      "cli_source_cues": [
+        {
+          "line": 68,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==2 and sys.argv[1]in('construct','accept'),'explicit exact action')"
+        },
+        {
+          "line": 69,
+          "text": "path=HERE/'INITIAL_BETA3_PROOF.json';action=sys.argv[1]"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "reuse49",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/high25_beta3_exact/run_action.py",
+      "bytes": 2430,
+      "sha256": "490c353145ef9a96439ebc304695bf253371b3645ff7221b5715dfb878d6ec23",
+      "cli_source_cues": [
+        {
+          "line": 11,
+          "text": "need(len(sys.argv)in(3,4)and sys.argv[1]in('initial','resource','local')and sys.argv[2]in('construct','accept'),'fixed explicit action')"
+        },
+        {
+          "line": 12,
+          "text": "phase,action=sys.argv[1:3];need((phase=='local')==(len(sys.argv)==4),'only local panel takes index');index=int(sys.argv[3])if phase=='local'else None"
+        },
+        {
+          "line": 22,
+          "text": "with(H/(tag+'.stdout.txt')).open('x')as out,(H/(tag+'.stderr.txt')).open('x')as err:rc=subprocess.run(command,cwd=H,stdout=out,stderr=err).returncode"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": true,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "SOURCE_REVIEW_REQUIRED_WINDOWS_OR_CAPTURE_WRAPPER",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "reuse49",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b1_exact/initial_middle.py",
+      "bytes": 6608,
+      "sha256": "5237a1045623c849db3bdd75de9e7e5e512422477fab19fba5b11fac8f7dbce7",
+      "cli_source_cues": [
+        {
+          "line": 68,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==2 and sys.argv[1]in('construct','accept'),'explicit exact action')"
+        },
+        {
+          "line": 69,
+          "text": "path=HERE/'INITIAL_MIDDLE_B1_PROOF.json';action=sys.argv[1]"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "middle_b012",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/initial_middle.py",
+      "bytes": 6604,
+      "sha256": "5fa72fe41c08916288a4126702f18be5f217f06ff1c69b0e24c005e4b6d3b427",
+      "cli_source_cues": [
+        {
+          "line": 68,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==2 and sys.argv[1]in('construct','accept'),'explicit exact action')"
+        },
+        {
+          "line": 69,
+          "text": "path=HERE/'INITIAL_MIDDLE_B2_PROOF.json';action=sys.argv[1]"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "middle_b012",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b2_exact/run_action.py",
+      "bytes": 1623,
+      "sha256": "a5de99c093f625b242ad9db338c742909c17f090404acfa5c6ace6db151a5a18",
+      "cli_source_cues": [
+        {
+          "line": 10,
+          "text": "need(len(sys.argv)==3 and sys.argv[1]in('initial','resource','local') and sys.argv[2]in('construct','accept'),'explicit fixed phase/action')"
+        },
+        {
+          "line": 11,
+          "text": "phase,action=sys.argv[1:];folder=H/'resource_exact'if phase=='resource'else H;script={'initial':'initial_middle.py','resource':'resources_middle.py','local':'local_middle.py'}[phase]"
+        },
+        {
+          "line": 15,
+          "text": "with(H/(tag+'.stdout.txt')).open('x')as out,(H/(tag+'.stderr.txt')).open('x')as err:proc=subprocess.run(command,cwd=folder,stdout=out,stderr=err)"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": true,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "SOURCE_REVIEW_REQUIRED_WINDOWS_OR_CAPTURE_WRAPPER",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "middle_b012",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b3_cached_exact_v1/run_action.py",
+      "bytes": 1827,
+      "sha256": "370d0c7a9e29dad3fff75c76d3f3a9c09acd61a878547543be3126920ffcda60",
+      "cli_source_cues": [
+        {
+          "line": 6,
+          "text": "p.need(len(sys.argv) == 4 and sys.argv[1] in ('construct', 'accept'), 'action index independent-review-path')"
+        },
+        {
+          "line": 7,
+          "text": "action, index, review_path = sys.argv[1], int(sys.argv[2]), Path(sys.argv[3]).resolve()"
+        },
+        {
+          "line": 15,
+          "text": "rc = subprocess.run(command, cwd=p.HERE, stdout=out, stderr=err).returncode"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": true,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "SOURCE_REVIEW_REQUIRED_WINDOWS_OR_CAPTURE_WRAPPER",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "middle_b3",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b3_counts/run_action.py",
+      "bytes": 3153,
+      "sha256": "e77ee8e87c8938c53dfe2aa2a693bb80bdbcb186130fa3b667362fe9e7baadff",
+      "cli_source_cues": [
+        {
+          "line": 10,
+          "text": "need(__debug__ and sys.flags.dont_write_bytecode,'no-bytecode exact runtime');need(len(sys.argv)in(3,4)and sys.argv[1]in('21','22','23')and sys.argv[2]in('construct','accept'),'literal named action')"
+        },
+        {
+          "line": 11,
+          "text": "i=int(sys.argv[1]);action=sys.argv[2];folder=H/f'count{i}';m=json.loads((folder/'FROZEN_DESIGN.json').read_text())"
+        },
+        {
+          "line": 16,
+          "text": "need(len(sys.argv)==4,'independent source review path required');rp=Path(sys.argv[3]).resolve();r=json.loads(rp.read_text());need(r['status'].startswith('PASS'),'passing source review');files=r.get('files_sha256',r.get('source_sha256'));nee"
+        },
+        {
+          "line": 23,
+          "text": "try:rc=subprocess.run(command,cwd=folder,stdout=out,stderr=err,timeout=600 if action=='construct'else 1200).returncode"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": true,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "SOURCE_REVIEW_REQUIRED_WINDOWS_OR_CAPTURE_WRAPPER",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "upper_counts",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b3_exact/acquire_panel.py",
+      "bytes": 7055,
+      "sha256": "c51a3ca4fd3aea9ac824546b3a36478a35801e287252eec1827d1fe4a28237ef",
+      "cli_source_cues": [
+        {
+          "line": 61,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==3 and sys.argv[1]in('construct','accept'),'explicit exact action and index')"
+        },
+        {
+          "line": 62,
+          "text": "action,index=sys.argv[1],int(sys.argv[2]);dest=HERE/f'PANEL{index}_PROOF.json'"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "middle_b3",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b3_exact/global_resources.py",
+      "bytes": 4769,
+      "sha256": "308247b4df6eec7992febfd85555bfa7ac8b828e3a6de6ca06689899af68ad8d",
+      "cli_source_cues": [
+        {
+          "line": 27,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==2 and sys.argv[1]in('construct','accept'),'explicit exact action')"
+        },
+        {
+          "line": 28,
+          "text": "action=sys.argv[1];dest=HERE/'GLOBAL_RESOURCES_PROOF.json'"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "middle_b3",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b3_exact/initial_middle.py",
+      "bytes": 6599,
+      "sha256": "74fd65a48cf4ea026eba12b1284089d0b20053f194d0ef95cc85eca550478300",
+      "cli_source_cues": [
+        {
+          "line": 68,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==2 and sys.argv[1]in('construct','accept'),'explicit exact action')"
+        },
+        {
+          "line": 69,
+          "text": "path=HERE/'INITIAL_MIDDLE_B3_PROOF.json';action=sys.argv[1]"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "middle_b3",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b3_exact/run_action.py",
+      "bytes": 2457,
+      "sha256": "eae1112e3890c67d3c501683027201c7beb534c0739f44752603564e7671026d",
+      "cli_source_cues": [
+        {
+          "line": 11,
+          "text": "need(len(sys.argv)in(3,4)and sys.argv[1]in('initial','resource','local')and sys.argv[2]in('construct','accept'),'fixed explicit action')"
+        },
+        {
+          "line": 12,
+          "text": "phase,action=sys.argv[1:3];need((phase=='local')==(len(sys.argv)==4),'only local panel takes index');index=int(sys.argv[3])if phase=='local'else None"
+        },
+        {
+          "line": 22,
+          "text": "with(H/(tag+'.stdout.txt')).open('x')as out,(H/(tag+'.stderr.txt')).open('x')as err:rc=subprocess.run(command,cwd=H,stdout=out,stderr=err).returncode"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": true,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "SOURCE_REVIEW_REQUIRED_WINDOWS_OR_CAPTURE_WRAPPER",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "middle_b3",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/new_middle/b4_exact2_v1/acquire_panel.py",
+      "bytes": 7066,
+      "sha256": "8230bd8e3b0af14212c6689cc57c5e99f2f9128c32410c8226dd748831780cce",
+      "cli_source_cues": [
+        {
+          "line": 61,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==3 and sys.argv[1]in('construct','accept'),'explicit exact action and index')"
+        },
+        {
+          "line": 62,
+          "text": "action,index=sys.argv[1],int(sys.argv[2]);dest=HERE/f'PANEL{index}_PROOF.json'"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "reuse47_48",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/new_middle/b4_exact2_v1/global_resources.py",
+      "bytes": 4769,
+      "sha256": "f4bcf08c4cab2d3ca64e0dc1176459171a0359058dfaac91fb0232bebb797d44",
+      "cli_source_cues": [
+        {
+          "line": 27,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==2 and sys.argv[1]in('construct','accept'),'explicit exact action')"
+        },
+        {
+          "line": 28,
+          "text": "action=sys.argv[1];dest=HERE/'GLOBAL_RESOURCES_PROOF.json'"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "reuse47_48",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/new_middle/b4_exact2_v1/initial_middle.py",
+      "bytes": 6611,
+      "sha256": "8e805713fc6fb661dfa8b4f564c7aa90bc54321b7544e4abc3799699c50daf2c",
+      "cli_source_cues": [
+        {
+          "line": 68,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==2 and sys.argv[1]in('construct','accept'),'explicit exact action')"
+        },
+        {
+          "line": 69,
+          "text": "path=HERE/'INITIAL_MIDDLE_B4_PROOF.json';action=sys.argv[1]"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "reuse47_48",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/new_middle/b4_exact_v1/acquire_panel.py",
+      "bytes": 7055,
+      "sha256": "f5d2018ba99a52c346988aada666e7d2c0558d0cf9033421c90505c52ad4c285",
+      "cli_source_cues": [
+        {
+          "line": 61,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==3 and sys.argv[1]in('construct','accept'),'explicit exact action and index')"
+        },
+        {
+          "line": 62,
+          "text": "action,index=sys.argv[1],int(sys.argv[2]);dest=HERE/f'PANEL{index}_PROOF.json'"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "reuse47_48",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/new_middle/b4_exact_v1/global_resources.py",
+      "bytes": 4769,
+      "sha256": "f4bcf08c4cab2d3ca64e0dc1176459171a0359058dfaac91fb0232bebb797d44",
+      "cli_source_cues": [
+        {
+          "line": 27,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==2 and sys.argv[1]in('construct','accept'),'explicit exact action')"
+        },
+        {
+          "line": 28,
+          "text": "action=sys.argv[1];dest=HERE/'GLOBAL_RESOURCES_PROOF.json'"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "reuse47_48",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/new_middle/b4_exact_v1/initial_middle.py",
+      "bytes": 6611,
+      "sha256": "8e805713fc6fb661dfa8b4f564c7aa90bc54321b7544e4abc3799699c50daf2c",
+      "cli_source_cues": [
+        {
+          "line": 68,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==2 and sys.argv[1]in('construct','accept'),'explicit exact action')"
+        },
+        {
+          "line": 69,
+          "text": "path=HERE/'INITIAL_MIDDLE_B4_PROOF.json';action=sys.argv[1]"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "reuse47_48",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/new_middle/b5_exact_v1/acquire_panel.py",
+      "bytes": 7055,
+      "sha256": "43ad178a66f63e4b6353934b9b7e7571cc3ebe719e06d9d469b628e2a44a1973",
+      "cli_source_cues": [
+        {
+          "line": 61,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==3 and sys.argv[1]in('construct','accept'),'explicit exact action and index')"
+        },
+        {
+          "line": 62,
+          "text": "action,index=sys.argv[1],int(sys.argv[2]);dest=HERE/f'PANEL{index}_PROOF.json'"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "reuse47_48",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/new_middle/b5_exact_v1/global_resources.py",
+      "bytes": 4769,
+      "sha256": "a956696b0be10182ede97fe35fffe249273f57574b8264c505c451b37aeb9c94",
+      "cli_source_cues": [
+        {
+          "line": 27,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==2 and sys.argv[1]in('construct','accept'),'explicit exact action')"
+        },
+        {
+          "line": 28,
+          "text": "action=sys.argv[1];dest=HERE/'GLOBAL_RESOURCES_PROOF.json'"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "reuse47_48",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/new_middle/b5_exact_v1/initial_middle.py",
+      "bytes": 6635,
+      "sha256": "0c77a7a07f9ab43ac0bfba5155c832d520e721487a1319aeb9e0c39c2edc63c2",
+      "cli_source_cues": [
+        {
+          "line": 68,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==2 and sys.argv[1]in('construct','accept'),'explicit exact action')"
+        },
+        {
+          "line": 69,
+          "text": "path=HERE/'INITIAL_MIDDLE_B5_PROOF.json';action=sys.argv[1]"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "reuse47_48",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/new_root/initial25_b5_exact_v1/initial25_b5.py",
+      "bytes": 7724,
+      "sha256": "51ff13d2dc2b430b26070b37e49318712853c5109b7df6a308218f87422a65af",
+      "cli_source_cues": [
+        {
+          "line": 89,
+          "text": "need(len(sys.argv)==2 and sys.argv[1]in('preflight','construct','accept'),'fixed action');action=sys.argv[1]"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "reuse39",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/new_root/resource25_b5_v1/resources_b5.py",
+      "bytes": 7587,
+      "sha256": "fd424b8ec316a910ef51bb15cf5b75283cd03a73cc46336bcba6ef68cf8dc150",
+      "cli_source_cues": [
+        {
+          "line": 74,
+          "text": "need(len(sys.argv)==2 and sys.argv[1]in('construct','accept'),'fixed exact action');action=sys.argv[1]"
+        }
+      ],
+      "platform_guard_source_cues": [],
+      "subprocess_launcher": false,
+      "full_replay_entrypoint_identified": true,
+      "source_portability": "PURE_SOURCE_ENTRY_CANDIDATE_CLOSURE_NOT_YET_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "reuse39",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261010/toward25/beta1_high25_exact/initial_beta1.py",
+      "bytes": 6602,
+      "sha256": "63e4040bbb8aef4bf3f03c150eada93dd2fb6c9f1cc12ed11eb56cb8b4685bde",
+      "native_cli": [
+        "python",
+        "-B",
+        "-S",
+        "initial_beta1.py",
+        "accept"
+      ],
+      "cli_source_cues": [
+        {
+          "line": 68,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==2 and sys.argv[1]in('construct','accept'),'explicit exact action')"
+        },
+        {
+          "line": 69,
+          "text": "path=HERE/'INITIAL_BETA1_PROOF.json';action=sys.argv[1]"
+        }
+      ],
+      "source_portability": "FULL_NATIVE_ACCEPT_ENTRY_IDENTIFIED_RECURSIVE_CLOSURE_NOT_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "older_upper",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261010/toward25/negative25_exact/initial_negative.py",
+      "bytes": 6819,
+      "sha256": "6eda3d8ac25b1c3daa3fdf480f089bb761c4300736c8391b9fcde779e5c5fcef",
+      "native_cli": [
+        "python",
+        "-B",
+        "-S",
+        "initial_negative.py",
+        "accept"
+      ],
+      "cli_source_cues": [
+        {
+          "line": 70,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==2 and sys.argv[1]in('construct','accept'),'explicit exact action')"
+        },
+        {
+          "line": 71,
+          "text": "path=HERE/'HIGH25_NEGATIVE_PROOF.json';action=sys.argv[1]"
+        }
+      ],
+      "source_portability": "FULL_NATIVE_ACCEPT_ENTRY_IDENTIFIED_RECURSIVE_CLOSURE_NOT_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "older_upper",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261010/toward25/quarter2_25_coarsened_exact/initial_q2.py",
+      "bytes": 6457,
+      "sha256": "0cb7d68e3aa52210cd81093fa9e53620e164879188a1cb182d1b02d2384b5121",
+      "native_cli": [
+        "python",
+        "-B",
+        "-S",
+        "initial_q2.py",
+        "accept"
+      ],
+      "cli_source_cues": [
+        {
+          "line": 66,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==2 and sys.argv[1]in('construct','accept'),'explicit exact action')"
+        },
+        {
+          "line": 67,
+          "text": "path=HERE/'INITIAL_Q2_PROOF.json';action=sys.argv[1]"
+        }
+      ],
+      "source_portability": "FULL_NATIVE_ACCEPT_ENTRY_IDENTIFIED_RECURSIVE_CLOSURE_NOT_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "older_upper",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261010/toward25/beta0_high25_fresh/initial_beta0.py",
+      "bytes": 6609,
+      "sha256": "8bf4c83370c3d304aa401e7bce2a05a68ca05f145e8369b65af7bb9460f18520",
+      "native_cli": [
+        "python",
+        "-B",
+        "-S",
+        "initial_beta0.py",
+        "accept"
+      ],
+      "cli_source_cues": [
+        {
+          "line": 68,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==2 and sys.argv[1]in('construct','accept'),'explicit exact action')"
+        },
+        {
+          "line": 69,
+          "text": "path=HERE/'INITIAL_BETA0_PROOF.json';action=sys.argv[1]"
+        }
+      ],
+      "source_portability": "FULL_NATIVE_ACCEPT_ENTRY_IDENTIFIED_RECURSIVE_CLOSURE_NOT_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "older_upper",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261010/toward25/middle6_negative25_exact/initial_negative.py",
+      "bytes": 6962,
+      "sha256": "43ca60af19f99f8eeee0fedfcc46e1d192e52914bf382d37569b7403112bbed9",
+      "native_cli": [
+        "python",
+        "-B",
+        "-S",
+        "initial_negative.py",
+        "accept"
+      ],
+      "cli_source_cues": [
+        {
+          "line": 72,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==2 and sys.argv[1]in('construct','accept'),'explicit exact action')"
+        },
+        {
+          "line": 73,
+          "text": "path=HERE/'MIDDLE6_NEGATIVE25_PROOF.json';action=sys.argv[1]"
+        }
+      ],
+      "source_portability": "FULL_NATIVE_ACCEPT_ENTRY_IDENTIFIED_RECURSIVE_CLOSURE_NOT_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "older_upper",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    },
+    {
+      "archive_key": "old",
+      "member": "cutoff25_20261011/continuation_20261011/middle_positive_b0_exact/initial_b0.py",
+      "bytes": 6996,
+      "sha256": "a9490484be5f4ec1c82be2cd1831f2cde51ddfbebfba873180fe448624a4ac12",
+      "native_cli": [
+        "python",
+        "-B",
+        "-S",
+        "initial_b0.py",
+        "accept"
+      ],
+      "cli_source_cues": [
+        {
+          "line": 72,
+          "text": "need(__debug__ and not sys.flags.optimize and len(sys.argv)==2 and sys.argv[1]in('construct','accept'),'explicit exact action')"
+        },
+        {
+          "line": 73,
+          "text": "path=HERE/'MIDDLE_POSITIVE_B0_PROOF.json';action=sys.argv[1]"
+        }
+      ],
+      "source_portability": "FULL_NATIVE_ACCEPT_ENTRY_IDENTIFIED_RECURSIVE_CLOSURE_NOT_SEALED",
+      "source_only": true,
+      "fresh_arithmetic_replayed": false,
+      "assigned_section": "middle_b012",
+      "role": "source_variant_inventory_not_distinct_call_census"
+    }
+  ],
+  "reused_notebooks": [
+    "01--07",
+    "09",
+    "10",
+    "14--24",
+    "26--34",
+    "36--39",
+    "47--49"
+  ],
+  "reuse_requires_exact_complete_evidence": true,
+  "runtime_source_closure_complete": false,
+  "numerical_action_census_sealed": false,
+  "runnable": false,
+  "all_index_conclusion_verified": false,
+  "arithmetic_executed_for_this_plan": false,
+  "warning": "One fixed delivery container does not solve missing sources or prove that a substitute route succeeds. Its blocked cases remain mandatory."
+}

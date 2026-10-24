@@ -1,0 +1,364 @@
+{
+  "schema": "REMAINING56I_CONTROL_SCOPE_V1",
+  "date": "2026-10-24",
+  "scope": "Static source/JSON inventory for seven original review/control slots inside planned56I; no original code imported or evaluated.",
+  "archives": {
+    "combined": {
+      "name": "cutoff5_10_15.zip",
+      "bytes": 224483065,
+      "sha256": "268f71662171764d7ebe116910b5df82dfd58cadb2de2a7ef82db7da98b66dae"
+    }
+  },
+  "original_join": {
+    "member": "cutoff10_20261018/audit/chain10_14_join_v4/check.py",
+    "sha256": "00608447b268f57a6d8a3dc01bb11583123bbdc1a6584191fd31036ec8282ede",
+    "required_review_records_lines": [
+      45,
+      68
+    ],
+    "finite_projection_lines": [
+      150,
+      178
+    ],
+    "retained_eventual15_import_lines": [
+      187,
+      190
+    ]
+  },
+  "review_slots": [
+    {
+      "id": "range",
+      "kind": "bounded_mathematical_controls",
+      "entry": {
+        "archive_key": "combined",
+        "member": "cutoff10_20261018/audit/range10_v1/check.py",
+        "bytes": 9105,
+        "sha256": "7800aff87279c8cd6930a623a59cedf64fc74e63cd9a208025e60c43552e57b1"
+      },
+      "companion_sources": [
+        {
+          "archive_key": "combined",
+          "member": "cutoff10_20261018/audit/range10_v1/range_controls.py",
+          "bytes": 7705,
+          "sha256": "1f4b2ccc94d355128918fbe839460555045d389fa39d0e8726a7d4becb3459ae"
+        }
+      ],
+      "commands": [
+        {
+          "cwd": "work/cutoff10_20261018/audit/range10_v1",
+          "argv": [
+            "<current-python>",
+            "-B",
+            "check.py"
+          ]
+        }
+      ],
+      "retained_record": {
+        "path": "work/cutoff10_20261018/audit/range10_v1/CHECKED.json",
+        "sha256": "0b1d3b8d8124e7ef96825479f0859cc4067072d70548b14cb5ceabefde4cfe8b",
+        "bytes": 12839,
+        "status": "PASS_BOUNDED_CONDITIONAL_ACTUAL10_14_RANGE_AUDIT_WITH_OLD_HIGH_OBSTRUCTION"
+      },
+      "scope": "Finite laws, exact count/LOW/HIGH formulas, event collisions and signed curvature; no full count forest or full Fourier integration.",
+      "reference_counts": {
+        "binomial_derivative_controls": 585,
+        "count_variance_identities": 780,
+        "finite_marginal_moment_controls": 60,
+        "exact_event_collisions": 32,
+        "quartic_exact_expectation_controls": 540,
+        "own_cdf_controls": 180,
+        "mgf_controls": 2520,
+        "half_gap_triangle_controls": 198,
+        "negative_controls": 92,
+        "generic_scope_controls": 15,
+        "bounded_LOW_calls": 15,
+        "range_negative_controls": 5,
+        "signed_curvature_controls": 2,
+        "obsolete_HIGH_rejections": 4,
+        "conditional_event_HIGH_rate_controls": 150,
+        "compensated_power_controls": 60,
+        "HIGH_finite_law_cell_controls": 270,
+        "HIGH_scope_negative_controls": 6,
+        "HIGH_complete_weight_controls": 2
+      },
+      "old_record_graph_rows": 68,
+      "fresh_execution_completed": false
+    },
+    {
+      "id": "signed_low",
+      "kind": "bounded_mathematical_controls",
+      "entry": {
+        "archive_key": "combined",
+        "member": "cutoff10_20261018/audit/signed_low_review_v1/check.py",
+        "bytes": 8616,
+        "sha256": "fabe1853e8c1b8adc034109a649eb843651bcf60742eef80f58d605b60c504c2"
+      },
+      "companion_sources": [],
+      "commands": [
+        {
+          "cwd": "work/cutoff10_20261018/audit/signed_low_review_v1",
+          "argv": [
+            "<current-python>",
+            "-B",
+            "check.py"
+          ]
+        }
+      ],
+      "retained_record": {
+        "path": "work/cutoff10_20261018/audit/signed_low_review_v1/CHECKED.json",
+        "sha256": "ba351f5703e7cb22d23c722dbb386f6caabce1a62be8b1006eea0f52f102d9f9",
+        "bytes": 4218,
+        "status": "PASS_CONDITIONAL_SIGNED_CELL_LOW10_14_SOURCE_AND_BOUNDED_EXACT_CONTROLS"
+      },
+      "scope": "Signed cubic/Bernstein, Pearson and sixth-moment controls; coherent complete-triple selection.",
+      "reference_counts": {
+        "unchanged_coefficient_functions": 2,
+        "cubic_sample_controls": 396,
+        "cubic_affine_identities": 1152,
+        "pearson_identities": 30,
+        "actual_coefficient_rectangles": 40,
+        "sixth_moment_controls": 40,
+        "literal_complete_triple_controls": 200,
+        "wrong_formula_controls": 3,
+        "domain_negative_controls": 11
+      },
+      "old_record_graph_rows": 23,
+      "fresh_execution_completed": false
+    },
+    {
+      "id": "resource_count_port",
+      "kind": "bounded_mathematical_and_synthetic_interface_controls",
+      "entry": {
+        "archive_key": "combined",
+        "member": "cutoff10_20261018/audit/resource_count_port_review_v2/check.py",
+        "bytes": 11566,
+        "sha256": "17a396beca00085053c89bfee6715194ad43c0162afa37935e1bcbbffb46c530"
+      },
+      "companion_sources": [],
+      "commands": [
+        {
+          "cwd": "work/cutoff10_20261018/audit/resource_count_port_review_v2",
+          "argv": [
+            "<current-python>",
+            "-B",
+            "check.py"
+          ]
+        }
+      ],
+      "retained_record": {
+        "path": "work/cutoff10_20261018/audit/resource_count_port_review_v2/CHECKED.json",
+        "sha256": "50d00ac1156fc1143d43bb67f09b37ffebadc0842efc0eb6ef194c7e36883bd0",
+        "bytes": 16225,
+        "status": "PASS_CONDITIONAL_RESOURCE_COUNT_PORT10_14_SOURCE_AND_BOUNDED_INTERFACES"
+      },
+      "scope": "Direct HIGH calls, synthetic resources, complete outward-contract/INITIAL/support-interface controls; no count oracle or full resource cover.",
+      "reference_counts": {
+        "direct_HIGH_calls": 60,
+        "HIGH_negative_controls": 60,
+        "synthetic_resource_interfaces": 10,
+        "original_budget_controls": 10,
+        "contract_negative_controls": 100,
+        "geometry_negative_controls": 30,
+        "INITIAL_schema_controls": 10,
+        "INITIAL_negative_controls": 90,
+        "support_adapter_negative_controls": 40,
+        "failure_disposition_controls": 10,
+        "complete_support_source_equivalence": 1
+      },
+      "old_record_graph_rows": 102,
+      "fresh_execution_completed": false
+    },
+    {
+      "id": "subpanel_baseline",
+      "kind": "source_ast_identity_and_closed_partition",
+      "entry": {
+        "archive_key": "combined",
+        "member": "cutoff10_20261018/analytic/subpanel_native_review_v1/check_sources.py",
+        "bytes": 8299,
+        "sha256": "c60d7fe9444917a27618fb38fa1df6df81c5976bca3e11ebfe5ae887af62cd29"
+      },
+      "companion_sources": [],
+      "commands": [
+        {
+          "cwd": "work/cutoff10_20261018/analytic/subpanel_native_review_v1",
+          "argv": [
+            "<current-python>",
+            "-B",
+            "check_sources.py",
+            "39"
+          ]
+        },
+        {
+          "cwd": "work/cutoff10_20261018/analytic/subpanel_native_review_v1",
+          "argv": [
+            "<current-python>",
+            "-B",
+            "check_sources.py",
+            "40"
+          ]
+        },
+        {
+          "cwd": "work/cutoff10_20261018/analytic/subpanel_native_review_v1",
+          "argv": [
+            "<current-python>",
+            "-B",
+            "check_sources.py",
+            "41"
+          ]
+        },
+        {
+          "cwd": "work/cutoff10_20261018/analytic/subpanel_native_review_v1",
+          "argv": [
+            "<current-python>",
+            "-B",
+            "check_sources.py",
+            "42"
+          ]
+        }
+      ],
+      "retained_record": {
+        "path": "work/cutoff10_20261018/analytic/subpanel_native_review_v1/CHECKED.json",
+        "sha256": "39be0e3f1450c4ebd22d1a40af6990aa85ca0429b72afaa1c91ac1e8871087cf",
+        "bytes": 190658,
+        "status": "PASS_INDEPENDENT_STATIC_SUBPANEL_PROTOCOL_REVIEW_NO_NATIVE_ORACLE"
+      },
+      "scope": "All four selected n11 BN composite families; the original top-level join explicitly demands the p42 record; retaining all four checks is conservative.",
+      "reference_counts": null,
+      "old_record_graph_rows": 1262,
+      "fresh_execution_completed": false
+    },
+    {
+      "id": "subpanel_fine",
+      "kind": "source_ast_identity_and_closed_partition",
+      "entry": {
+        "archive_key": "combined",
+        "member": "cutoff10_20261018/analytic/subpanel_native_review_v2/check_sources.py",
+        "bytes": 9331,
+        "sha256": "9dfbf17da5f78b81e4475bdc8a30312b3f63e4a789e39d6777bdd6dcf3b41174"
+      },
+      "companion_sources": [],
+      "commands": [
+        {
+          "cwd": "work/cutoff10_20261018/analytic/subpanel_native_review_v2",
+          "argv": [
+            "<current-python>",
+            "-B",
+            "check_sources.py",
+            "n10_BN_fine_p42"
+          ]
+        }
+      ],
+      "retained_record": {
+        "path": "work/cutoff10_20261018/analytic/subpanel_native_review_v2/n10_BN_fine_p42_CHECKED.json",
+        "sha256": "99c80aa41b935c6761c72766075be71ede05bb848b0b5c87dd389c845f7fa40d",
+        "bytes": 202401,
+        "status": "PASS_INDEPENDENT_STATIC_SUBPANEL_PROTOCOL_REVIEW_NO_NATIVE_ORACLE"
+      },
+      "scope": "Mandatory selected fine n10 BN p42 lineage, every component and all unchanged root axes.",
+      "reference_counts": null,
+      "old_record_graph_rows": 1288,
+      "fresh_execution_completed": false
+    },
+    {
+      "id": "fine_initial",
+      "kind": "source_ast_identity_and_bounded_cover_controls",
+      "entry": {
+        "archive_key": "combined",
+        "member": "cutoff10_20261018/audit/fine_initial_review_v1/check.py",
+        "bytes": 6219,
+        "sha256": "596334c541a2d2f73b6832bb8dc7fcf745649ec827afd5070c62f7dcad49f0eb"
+      },
+      "companion_sources": [],
+      "commands": [
+        {
+          "cwd": "work/cutoff10_20261018/audit/fine_initial_review_v1",
+          "argv": [
+            "<current-python>",
+            "-B",
+            "check.py",
+            "FRESH_FINE_INITIAL_REVIEW.json"
+          ]
+        }
+      ],
+      "retained_record": {
+        "path": "work/cutoff10_20261018/audit/fine_initial_review_v1/CHECKED.json",
+        "sha256": "f57673aae7785e6c2f77cea071a70a17e3888358dfcfe370d1cdb5e9587f86b4",
+        "bytes": 36093,
+        "status": "PASS_BOUNDED_FINE_INITIAL10_BN_SOURCE_GRID_REVIEW"
+      },
+      "scope": "Full fine constructor diff, nine unchanged kernels, 10368 signed cells, closed interval and p-seam controls; no numerical INITIAL call.",
+      "reference_counts": 11,
+      "old_record_graph_rows": 244,
+      "fresh_execution_completed": false
+    },
+    {
+      "id": "fine_bn_record",
+      "kind": "pinned_source_review_record_identity",
+      "entry": {
+        "archive_key": "combined",
+        "member": "cutoff10_20261018/analytic/fine_bn_port_review_v1/check_record.py",
+        "bytes": 722,
+        "sha256": "4793e3fc73f6efd754123de643a4df89eda30289b44940e08ae8de0367147a6e"
+      },
+      "companion_sources": [],
+      "commands": [
+        {
+          "cwd": "work/cutoff10_20261018/analytic/fine_bn_port_review_v1",
+          "argv": [
+            "<current-python>",
+            "-B",
+            "check_record.py"
+          ]
+        }
+      ],
+      "retained_record": {
+        "path": "work/cutoff10_20261018/analytic/fine_bn_port_review_v1/CHECKED.json",
+        "sha256": "fecbb3f765787be962b7b11f21d8ef63f8a26c10d1acb3a9ec74ca0d9b00c426",
+        "bytes": 2662,
+        "status": "SOURCE_REVIEW_ONLY_FINE_BN_RESOURCE_COUNT_PORT_NO_DEFECT_FOUND"
+      },
+      "scope": "Checks the exact existing source-review record and all18 bound source files; does not create a new review or acquire INITIAL/resources/counts.",
+      "reference_counts": null,
+      "old_record_graph_rows": 18,
+      "fresh_execution_completed": false
+    }
+  ],
+  "retained_review_record_count": 7,
+  "conservative_original_invocations": 10,
+  "large_selected_arithmetic": {
+    "resource_original_probability_rows": 1000,
+    "resource_excluded_rows": 798,
+    "resource_count_panel_interfaces": 202,
+    "ordinary_count_panels": 197,
+    "composite_original_panels": 5,
+    "composite_acceptances": 20,
+    "total_count_acceptances": 217,
+    "provided_by": [
+      "50",
+      "56A",
+      "56B",
+      "56C",
+      "56D",
+      "56E",
+      "56F",
+      "56G",
+      "56H",
+      "56K"
+    ]
+  },
+  "current_join_gates": [
+    "Revalidate actual completed exports without rewriting receipts or launches. BASIC numerical scope remains BASIC.",
+    "Require56A regional n9..13 upper209/500 on[7/5,71/50], separately from global423/1000.",
+    "Acquire same-law support3 then narrower23/10 or12/5 and license the exact HIGH row; radius3 alone cannot license56E.",
+    "Reconcile current INITIAL/resource sourcegraph and timing metadata epochs with every original literal count contract; verify mathematical interface domination, no historical SHA alias.",
+    "Verify all1000 closed p dispositions and all217 whole native count acceptances, including allfour closed subpanels of each of the five overrides.",
+    "Create a finite-only n10 base and sequential global-predecessor11..14 ledger. Do not import retained eventual15/20 as an input.",
+    "The original subpanel FROZEN and fine INITIAL PREPARED graphs include historical captures. Current graph/capture metadata epochs require explicit sealed validation; no missing old capture may be fabricated.",
+    "For original bounded control programs, stage their exact unchanged source and required original conditional input graphs; graph/capture differences must be explicit metadata-only epochs with reverse checks. Retained PASS fields never substitute for executing a required control."
+  ],
+  "execution_ready": false,
+  "arithmetic_computed": false,
+  "parent_acquisitions_verified": false,
+  "full_notebook56_completed": false,
+  "all_index_conclusion_verified": false
+}
