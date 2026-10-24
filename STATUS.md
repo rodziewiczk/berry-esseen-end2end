@@ -135,3 +135,5 @@ selections still require work. Preparation/tests are not numerical acceptance.
 Existing computations remain usable under their exact original conditions.
 
 Notebook57E is now published with immutable runtime7bf5f84c4b0c79549097a7fbed46e04eba5a9f75. It runs two complete unchanged original compensated-HIGH15--19 calculations and the original independent readback with only its explicit current CAPTURE_SHA configuration changed. All74actual source files/71manifest rows and the byte/AST-only derivation were checked;19clean synthetic/source/generator fixtures pass. Actual mathematics remains to run in Colab. Support, parent acquisitions,147COUNT interfaces and full57/global conclusions remain separate. See [execution scope](proof/finite1519_high_execution.md).
+
+The subsequent supplied57E final cell reports complete_conditional_compensated_high15_19_sublane_basic and saves finite1519-high/20261024T003827Z-7b64d6a9/20261024T003827Z-7b64d6a9-results.zip. This supersedes its prepared/runnable state. Preserve the successful calculation; actual export readback and the remaining support/INITIAL/resource/COUNT/global joins are separate.

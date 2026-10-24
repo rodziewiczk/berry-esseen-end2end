@@ -1164,3 +1164,13 @@ it does not replace full source/capture/result validation of those exports.
 No repeat of these four successful computations is queued. The exact
 support/predecessor hypotheses, remaining parent calculations and semantic
 COUNT/global joins remain separate.
+
+## Notebook57E: supplied complete compensated-HIGH ending
+
+The supplied final cell reports
+`complete_conditional_compensated_high15_19_sublane_basic` and saved bundle
+`finite1519-high/20261024T003827Z-7b64d6a9/20261024T003827Z-7b64d6a9-results.zip`.
+This records scoped completion of the original two native passes and derived
+current-capture independent readback. Actual full export validation and the
+support/INITIAL/resource/147COUNT/global joins remain separate. No repeated
+successful57Emathematics is queued.
