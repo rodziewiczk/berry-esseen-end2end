@@ -73,6 +73,8 @@ def public_finite(pin):
         result[('57H_n15_19_finite_join'if unit=='57H'else'67_n5_full_evidence_and_proof_join')+'.ipynb']=doc
     generator=load('ready_56I',ROOT/'tools/make_finite1014_join_notebook.py')
     result['56I_n10_14_finite_join.ipynb']=generator.build(pin)
+    generator=load('ready_65',ROOT/'tools/make_finite69_join_notebook.py')
+    result['65_n6_9_remaining_acquisition_and_join.ipynb']=generator.build(pin)
     return result
 
 def write(pin,output):

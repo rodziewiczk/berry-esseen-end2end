@@ -2,6 +2,7 @@
 
 ## New direct Run-all jobs —25October2026
 
+- [65 — complete finite n6–9 acquisition and join](https://colab.research.google.com/github/rodziewiczk/berry-esseen-end2end/blob/main/colab/65_n6_9_remaining_acquisition_and_join.ipynb)
 - [66_A —40 INITIAL/resource/local actions](https://colab.research.google.com/github/rodziewiczk/berry-esseen-end2end/blob/main/colab/66_A_40_acquisition_actions.ipynb)
 - [66_B —10 additional forests,18978leaves](https://colab.research.google.com/github/rodziewiczk/berry-esseen-end2end/blob/main/colab/66_B_10_upper_counts.ipynb)
 - [66_C —11 original recovered B5 forests,32093leaves](https://colab.research.google.com/github/rodziewiczk/berry-esseen-end2end/blob/main/colab/66_C_11_recovered_B5_counts.ipynb)
@@ -11,8 +12,14 @@ Select Run all and authorize the existing Google Drive. No local runtime ZIP
 upload or parameter changes are required. Each original action has23hCPU/wall;
 completed verified stages are reused. They do not rerun01–07 or claim full66.
 
-Full56I,57H and67 also have pinned public wrappers in this directory; they
+Full56I,57H,65 and67 have pinned public wrappers in this directory; they
 wait truthfully for their required complete upstream exports.
+
+The English65 wrapper was checked against a clean checkout of its actual
+published source pin, including execution of its generated infrastructure-test
+cell: five tests passed. Original numerical kernels were not run in that check.
+Reported66_B capability and66_C test-import failures remain recorded for later
+repair; neither failed run is counted as a completed component.
 
 ## Current execution checkpoint
 
