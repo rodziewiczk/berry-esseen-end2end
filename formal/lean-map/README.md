@@ -1,104 +1,114 @@
-# Berry–Esseen · the Lean proof map
+# Berry–Esseen · mathematical interfaces and the Lean proof map
 
-**Mathematical contracts → checked Lean composition → remaining proof obligations.**
+**Concrete mathematical contracts → checked conditional assembly → implementation.**
 
-![Berry–Esseen proof map: green checked implications, amber open contracts, blue concrete probability model](assets/proof-map.svg)
+![Berry–Esseen proof map: checked conditional composition and explicit analytic inputs](assets/proof-map.svg)
 
-[Open the full graph](assets/proof-map.svg) · [PNG version](assets/proof-map.png) ·
-[Source-linked map](docs/proof-map.md) · [Current plan](docs/plan.md) ·
-[Mathematical contracts](docs/mathematical-contracts.md)
+[Full proof graph](assets/proof-map.svg) · [PNG](assets/proof-map.png) ·
+[Detailed interface graph](assets/interface-map.svg) · [Source-linked guide](docs/proof-map.md)
 
-This repository contains the first two stages of the project: mathematical
-contracts and a thin Lean skeleton. Green boxes are **proved conditional
-implications**. Amber inputs remain open in this formal development. The
-concrete probability semantics use real measures, convolution sums, the
-Gaussian CDF and actual suprema.
+Version **0.2** develops the mathematical interface in detail. It is a solid
+Lean skeleton under **explicit, precisely stated analytic assumptions**.
+The intended handoff is that an implementer chooses algorithms and scheduling,
+while the mathematical meaning, units, domains, coverage and acceptance
+conditions are already specified.
 
-The complete local check passed for **8 Lean files**, without `sorry`, custom
-`axiom` declarations or `native_decide`. The source-bound report records
-**41 seconds for the logical core** and **2 minutes 51 seconds for the full
-check**, using an existing compiled mathlib cache. These are local compiler
-results, rather than a GitHub Actions run. Analytic and certificate assumptions
-are still explicit theorem parameters.
+Start with the [five-part specification](docs/contracts/README.md), the
+[source-alignment audit](docs/contracts/AUDIT.md), and the
+[current plan](docs/plan.md). The exact target is in the
+[mathematical overview](docs/mathematical-contracts.md).
 
-## The current plan
+## The five interfaces
 
-| Stage | Status | What it provides |
-|---|---|---|
-| Mathematical inventory | Version 0.1 available | Exact target, normalizations, cases and open proof contracts |
-| Conditional Lean map | Checked | Finite 1–48, all 20 n25 regions, independent 49+ tail and final composition |
-| Discharge assumptions | Next | Reuse matching existing lemmas; prove covers, analytic interfaces and numerical soundness |
-| Detailed execution architecture | Later | Design only after the mathematical interfaces stabilize |
-| One CLI | Later | Implement resumable proof execution against those contracts |
-
-The next concrete steps are to formalize the remaining n5 and floor31 covers,
-replace abstract resource predicates with exact mathematical records, and
-connect matching lemmas from the earlier Lean work. The separate lower-bound
-approximation remains visible. See the [detailed plan](docs/plan.md).
-
-## What the checked map contains
-
-| Branch | Checked composition |
+| Part | What is specified and connected |
 |---|---|
-| Finite 1–48 | Strong induction, preserving the quantitative n3→n4 and n4→n5 inputs |
-| n25 | 20 closed rational regions; signed-beta envelope inputs; same-witness exclusions |
-| Predecessor alternatives | Sharp24 OR auxiliary24 implies the same-law q25≤5/16 allowance |
-| Independent 49+ | Three backward losses give base 49; first-failure induction covers later indices |
-| Final upper bound | Finite and tail branches cover every positive integer |
-| Sharpness | The upper bound plus a separate lower approximation gives the exact global supremum |
+| [1. Mathematical states](docs/contracts/01-state.md) | Actual law, contact floor, raw and normalized thresholds, signed moments, asymmetric support, distinct defects, conditional noise and joint budgets |
+| [2. Transitions](docs/contracts/02-transitions.md) | Required inputs, exact analytic conclusions, guards, outward rounding, actual-index scaling and finite resource refinement |
+| [3. Coverage and methods](docs/contracts/03-covers-and-methods.md) | n5 and n25 regions, floor31 bands, every original count root, seams, zero cases, complete finite trees and exterior tails |
+| [4. Certificate semantics](docs/contracts/04-certificates-and-trust.md) | Frozen rational tasks, law-quantified meaning, payloads, checker soundness and rejection/unresolved outcomes |
+| [5. Final assembly](docs/contracts/05-assembly.md) | Typed providers construct the finite contracts, which combine with the independent tail and lower approximation |
 
-There is **no finite 1–48 → tail49+ dependency**. The graph preserves this
-independence. It also distinguishes the n25 alternative licenses rather than
-requiring both.
+The source-specific contracts cover [n2/n3](docs/contracts/SMALL-INDICES.md),
+[ROOT4](docs/contracts/ROOT4.md), [LOW and Prawitz](docs/contracts/FOURIER-FAMILIES.md),
+[complete HIGH families](docs/contracts/HIGH.md),
+[mixed n25 mathematics](docs/contracts/MIXED.md),
+[mixed reference admission and lookup](docs/contracts/MIXED-REGISTRY.md), and
+[ordinary COUNT rule meanings](docs/contracts/COUNT-RULES.md).
+The independent tail has its own [uniform local-comparison contract](docs/contracts/UNIFORM-TAIL.md)
+and [auxiliary resource-barrier/assembly contract](docs/contracts/TAIL-ASSEMBLY.md).
+The [reuse ledger](docs/contracts/reuse-ledger.md) inventories the earlier Lean
+work and records semantic compatibility rather than relying on matching names.
 
-## Source layout
+## What “green” means
 
-| File | Role |
+Lean checks coverage, algebra, type distinctions and conditional composition.
+For example, the n5 and floor31 covers are proved; the ROOT4 adapter preserves
+its weak target; the mixed transfer uses the same law without inventing an
+index24 contact; and the final theorem consumes the typed providers.
+
+Analytic theorems are accepted as named parameters with exact scope. Their
+full Lean proofs are outside this stage. Numerical producers, byte decoders
+and the full production checker still have to provide objects with the
+specified semantics. A historical PASS or a matching file hash supplies no
+mathematical proof field by itself.
+
+The [verification report](check-All.json) binds the checked Lean sources by
+SHA-256; the [compiler log](check-All.log) includes theorem signatures and
+logical axiom lists. Type-level negative controls are in
+[`InterfaceChecks.lean`](BEMap/InterfaceChecks.lean). The check uses neither
+`sorry`, custom `axiom` declarations nor `native_decide` in this project.
+It reuses compiled mathlib dependencies and does not run the heavy numerical
+kernels. This is a local compiler result; there is no claim of a CI run.
+
+## The composition
+
+| Branch | Checked structure |
 |---|---|
-| [`BEMap/Finite.lean`](BEMap/Finite.lean) | Finite induction and predecessor alternatives |
-| [`BEMap/Cover25.lean`](BEMap/Cover25.lean) | Exact rational region coverage |
-| [`BEMap/Tail.lean`](BEMap/Tail.lean) | Independent scalar tail composition |
-| [`BEMap/Foundations/`](BEMap/Foundations/) | Reused probability model and elementary bounds |
-| [`BEMap/Interfaces.lean`](BEMap/Interfaces.lean) | Contacts, same-law pipelines and the n25 bridge |
-| [`BEMap.lean`](BEMap.lean) | Concrete final upper and sharpness statements |
-| [`Audit.lean`](Audit.lean) | Theorem signatures and logical axiom lists |
+| n2/n3 | Distinct polynomial bases, payload meanings and quantitative targets |
+| ROOT4 | Chosen owner, canonical three-point reference, common defect measure and weak target below C_E |
+| n5 | Thirteen low regions, six supported Fourier bands and an inclusive rho tail |
+| n25 | Twenty closed regions, signed-beta envelopes, ordinary and mixed evidence, Sharp24 OR auxiliary24 allowance |
+| Literal n6–48 | Actual-index providers with same-law state and complete count forests |
+| Independent n49+ | Typed 83-panel uniform comparison, five auxiliary resource-barrier families, then checked base49 and first-failure induction |
+| Final theorem | `all_indices_from_typed_providers`; separate lower approximation gives `sharp_from_typed_providers` |
 
-## Check using the existing local installation
+There is no finite 1–48 premise in the independent tail theorem. The
+[declaration guide](docs/proof-map.md) and [dependency map](docs/dependencies.md)
+make that distinction explicit.
 
-Run from this folder in PowerShell:
+## Check using an existing mathlib cache
 
 ```powershell
 .\check.ps1 -Scope Core
 .\check.ps1
+.\check.ps1 -ReuseVerified
 ```
 
-The helper detects Lean on PATH, or the installed Lean 4.32.0 toolchain under
-the current user profile. It defaults to the earlier mathlib cache at
-`$env:USERPROFILE\Desktop\eventual_exactness_proof`. Override these with parameters
-or the `BEMAP_MATHLIB_WORKSPACE` and `BEMAP_LEAN_EXE` environment variables:
+The helper detects Lean 4.32.0 and defaults to the previous dependency cache
+under `$env:USERPROFILE\Desktop\eventual_exactness_proof`. To select a cache:
 
 ```powershell
 .\check.ps1 -MathlibWorkspace 'C:\path\to\existing-project' `
   -LeanExe 'C:\path\to\lean.exe'
 ```
 
-The script verifies the toolchain and mathlib revision, then rechecks this
-project's modules directly with Lean. It does not recompile the dependency
-library or run numerical kernels. It writes measured times, source hashes and
-compiler output to `check-All.json` and `check-All.log` (or `check-Core.*`).
-This is a **direct compiler check**, not a claim that a fresh `lake build` was
-executed. The supplied report describes the actual successful check.
+It checks the pinned toolchain and dependency revision, derives a topological
+order for every project Lean source, recompiles them, and rejects sources
+changed during the check. Reports record per-module times, exit codes and
+hashes. `Core` checks only the three scalar finite/cover25/tail modules; `All`
+also checks the detailed mathematical interfaces and final assembly.
 
-Measured on the existing installation: the three core modules took about
-41 seconds altogether; the full eight-module check, including the concrete
-probability model and axiom audit, took 171.486 seconds (2 minutes 51 seconds).
-These timings reuse compiled mathlib dependencies. The complete Lean source
-is 856 lines, including 377 lines of reused probability foundations.
+`-ReuseVerified` is optional and requires a preceding successful full compiler
+record. It verifies unchanged project source/artifact/dependency hashes and
+recompiles changed modules plus their consumers. Reports label every reused
+artifact. The [verification history](verification/README.md) preserves the
+fresh 27-source checkpoint (15 minutes 4 seconds) separately from later
+incremental checks. Omitting the flag always recompiles the selected sources.
 
-## Recreate a portable Lake project
+## Portable Lake build
 
-The project pins Lean 4.32.0 and mathlib commit
-`81a5d257c8e410db227a6665ed08f64fea08e997`. With Lean/Elan and Git available:
+Lean is pinned to 4.32.0 and mathlib to
+`81a5d257c8e410db227a6665ed08f64fea08e997`:
 
 ```text
 lake update
@@ -107,35 +117,32 @@ lake build
 lake env lean Audit.lean
 ```
 
-On a new machine the first preparation includes fetching dependencies and
-their compiled cache; its duration is distinct from checking the small map.
-Do not change the pinned Lean version independently of mathlib. The optional
-PowerShell helper needs an existing dependency cache; the standard Lake route
-does not require the original author's filesystem paths.
+Fetching dependencies on a new machine is separate from checking these
+interfaces. The supplied report documents the direct compiler check actually
+performed; it does not claim a fresh Lake build.
 
-## Regenerate the visible graph
+## Regenerate the diagrams
 
 ```text
 python tools/render_proof_map.py
+python tools/render_interface_map.py
 ```
 
-The script uses the Python standard library. It validates the recorded Lean
-source hashes, declaration anchors and acyclicity of the grouped diagram, then
-writes the SVG, Mermaid source and JSON. The checked-in PNG is a rendered copy
-of the SVG. The map is a curated view of the theorem interfaces, not an
-export of internal kernel proof terms.
+The standard-library renderers validate declaration anchors, recorded source
+hashes and the displayed grouped edges before writing SVG, Mermaid and JSON.
+PNG files are rendered copies. These are curated views of theorem interfaces,
+not automatic exports of internal kernel proof terms.
 
-## Companion repositories and provenance
+## Provenance
 
-* [Original end-to-end research repository](https://github.com/rodziewiczk/berry-esseen-end2end)
-* [The proof-map branch there](https://github.com/rodziewiczk/berry-esseen-end2end/tree/lean/proof-map)
-* [Standalone Lean map](https://github.com/rodziewiczk/berry-esseen-lean-map)
+* [Research repository](https://github.com/rodziewiczk/berry-esseen-end2end)
+* [Proof-map branch](https://github.com/rodziewiczk/berry-esseen-end2end/tree/lean/proof-map)
+* [Standalone interface repository](https://github.com/rodziewiczk/berry-esseen-lean-map)
 
-The research baseline is commit `6ca9730273c81447be4863824c0b7d012db0e8b8`.
-The original research work in progress was preserved. The two foundational
-Lean modules are reused with namespace/import renaming; their hashes and
-source identity are recorded in [`provenance.json`](provenance.json).
-The original MIT notice is retained in [`LICENSE`](LICENSE).
+The research baseline is `6ca9730273c81447be4863824c0b7d012db0e8b8`.
+The original research work in progress was preserved. Reused foundational
+sources and their namespace/import changes are recorded in
+[`provenance.json`](provenance.json); the original [MIT notice](LICENSE) is retained.
 
-The current scope is mathematical contracts and their Lean composition.
-No numerical runner, cloud system or production CLI is implemented here.
+The present milestone is the mathematical specification and conditional Lean
+assembly. Production numerical execution and a cloud CLI follow this interface.

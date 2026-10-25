@@ -1,0 +1,258 @@
+{
+  "interpretation": "Five curated contract views, not a kernel proof-term graph or a serial pipeline",
+  "verification": "check-All.json",
+  "cards": [
+    {
+      "group": 1,
+      "title": "Law + contact",
+      "source": "BEMap/Domain.lean",
+      "declaration": "ContactAt",
+      "line": 39,
+      "status": "model",
+      "explanation": [
+        "Actual P; actual n; method floor",
+        "Raw H and normalized y differ"
+      ]
+    },
+    {
+      "group": 1,
+      "title": "Physical state",
+      "source": "BEMap/TypedPipeline.lean",
+      "declaration": "PhysicalState",
+      "line": 46,
+      "status": "model",
+      "explanation": [
+        "Contact majorant; actual gaps",
+        "D, matching defect and eta differ"
+      ]
+    },
+    {
+      "group": 1,
+      "title": "Resource state",
+      "source": "BEMap/TypedPipeline.lean",
+      "declaration": "ResourceState",
+      "line": 132,
+      "status": "model",
+      "explanation": [
+        "Asymmetric support; signed moments",
+        "Marginal cap and joint Lambda differ"
+      ]
+    },
+    {
+      "group": 1,
+      "title": "Count-ready state",
+      "source": "BEMap/TypedPipeline.lean",
+      "declaration": "CountReadyState",
+      "line": 185,
+      "status": "model",
+      "explanation": [
+        "Conditional residual laws",
+        "a0 differs from total inward dY"
+      ]
+    },
+    {
+      "group": 2,
+      "title": "One finite schedule",
+      "source": "BEMap/TypedPipeline.lean",
+      "declaration": "ResourceSchedule",
+      "line": 375,
+      "status": "checked",
+      "explanation": [
+        "Same contact at every refinement",
+        "No unproved fixed-point step"
+      ]
+    },
+    {
+      "group": 2,
+      "title": "Coherent LOW / HIGH",
+      "source": "BEMap/HighFamilies.lean",
+      "declaration": "Window50Theorem",
+      "line": 107,
+      "status": "analytic",
+      "explanation": [
+        "Exact Fourier split and integrals",
+        "Complete HIGH; all window terms"
+      ]
+    },
+    {
+      "group": 2,
+      "title": "Separate Prawitz",
+      "source": "BEMap/Prawitz.lean",
+      "declaration": "PrawitzScoreEvidence",
+      "line": 42,
+      "status": "analytic",
+      "explanation": [
+        "Four terms; law-level score bound",
+        "Not the physical hinge-error budget"
+      ]
+    },
+    {
+      "group": 2,
+      "title": "Same law: 25 to 24",
+      "source": "BEMap/TypedPipeline.lean",
+      "declaration": "ABGeneralCountPort.window_bound",
+      "line": 936,
+      "status": "checked",
+      "explanation": [
+        "Full new roots / phases + tails",
+        "No contact at 24 is manufactured"
+      ]
+    },
+    {
+      "group": 3,
+      "title": "n5 complete regions",
+      "source": "BEMap/Covers.lean",
+      "declaration": "n5_cover",
+      "line": 116,
+      "status": "checked",
+      "explanation": [
+        "13 low + 6 Fourier + rho tail",
+        "Distinct methods and radius inputs"
+      ]
+    },
+    {
+      "group": 3,
+      "title": "n25 closed cover",
+      "source": "BEMap/Cover25.lean",
+      "declaration": "n25_cover",
+      "line": 73,
+      "status": "checked",
+      "explanation": [
+        "6 rho + 7 beta + 6 beta + tail",
+        "Signed envelopes; closed seams"
+      ]
+    },
+    {
+      "group": 3,
+      "title": "Actual-index floor31",
+      "source": "BEMap/Covers.lean",
+      "declaration": "floor31_cover",
+      "line": 212,
+      "status": "checked",
+      "explanation": [
+        "Eight bands; weighted nD transfer",
+        "Actual n controls phase and mass"
+      ]
+    },
+    {
+      "group": 3,
+      "title": "Every original root",
+      "source": "BEMap/Certificates.lean",
+      "declaration": "CountTree.cover",
+      "line": 79,
+      "status": "checked",
+      "explanation": [
+        "Both children of every tree split",
+        "No root or closed seam disappears"
+      ]
+    },
+    {
+      "group": 4,
+      "title": "Frozen rational task",
+      "source": "BEMap/Certificates.lean",
+      "declaration": "CountTaskContext",
+      "line": 216,
+      "status": "model",
+      "explanation": [
+        "No unknown law in runtime data",
+        "Law appears in semantic quantifiers"
+      ]
+    },
+    {
+      "group": 4,
+      "title": "Quantitative meaning",
+      "source": "BEMap/GeneralCount.lean",
+      "declaration": "GeneralCountRealization",
+      "line": 57,
+      "status": "model",
+      "explanation": [
+        "Arbitrary same-law count problem",
+        "Returned cap may exceed early target"
+      ]
+    },
+    {
+      "group": 4,
+      "title": "Exact local inference",
+      "source": "BEMap/CountRules.lean",
+      "declaration": "FarkasCandidate.check_sound",
+      "line": 45,
+      "status": "checked",
+      "explanation": [
+        "Rational Farkas multiplier checker",
+        "Necessary-row binding is mandatory"
+      ]
+    },
+    {
+      "group": 4,
+      "title": "Reference registry",
+      "source": "BEMap/MixedRegistry.lean",
+      "declaration": "FrozenReference",
+      "line": 72,
+      "status": "model",
+      "explanation": [
+        "One enclosing scope; earlier licenses",
+        "Admitted data versus selected uses"
+      ]
+    },
+    {
+      "group": 5,
+      "title": "Small-index providers",
+      "source": "BEMap/Assembly.lean",
+      "declaration": "SmallPolynomialProvider",
+      "line": 34,
+      "status": "analytic",
+      "explanation": [
+        "n2 tensor versus n3 null basis",
+        "Exact row meaning + large-rho case"
+      ]
+    },
+    {
+      "group": 5,
+      "title": "Weak ROOT4 output",
+      "source": "BEMap/Root4.lean",
+      "declaration": "Root4Provider.upper",
+      "line": 134,
+      "status": "checked",
+      "explanation": [
+        "Strong n3 input; chosen owner",
+        "score <= 0.4097 is sufficient"
+      ]
+    },
+    {
+      "group": 5,
+      "title": "Build finite contracts",
+      "source": "BEMap/Assembly.lean",
+      "declaration": "EndToEndProviders.finite",
+      "line": 166,
+      "status": "checked",
+      "explanation": [
+        "All literal indices 1 through 48",
+        "Typed methods supply every field"
+      ]
+    },
+    {
+      "group": 5,
+      "title": "Independent tail49+",
+      "source": "BEMap/TailAssembly.lean",
+      "declaration": "TailMethodProviders.contracts",
+      "line": 454,
+      "status": "checked",
+      "explanation": [
+        "Three backward losses at base49",
+        "No all-1..48 theorem as an input"
+      ]
+    }
+  ],
+  "final_statements": [
+    {
+      "source": "BEMap/Assembly.lean",
+      "declaration": "all_indices_from_typed_providers",
+      "line": 176
+    },
+    {
+      "source": "BEMap/Assembly.lean",
+      "declaration": "sharp_from_typed_providers",
+      "line": 180
+    }
+  ]
+}

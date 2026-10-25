@@ -1,0 +1,102 @@
+--- BEMap/Finite ---
+--- BEMap/Cover25 ---
+--- BEMap/Tail ---
+--- BEMap/Foundations/ProbabilityLaw ---
+--- BEMap/Foundations/OptimalConstant ---
+--- BEMap/Domain ---
+--- BEMap/Interfaces ---
+--- BEMap/Covers ---
+--- BEMap/Physical ---
+--- BEMap/Binary ---
+--- BEMap/Fourier ---
+--- BEMap/Root4 ---
+--- BEMap/SmallIndices ---
+--- BEMap/CountRules ---
+--- BEMap/Prawitz ---
+--- BEMap/Certificates ---
+--- BEMap/GeneralCount ---
+--- BEMap/Mixed ---
+--- BEMap/TypedPipeline ---
+--- BEMap/FourierFamilies ---
+--- BEMap/InterfaceChecks ---
+--- BEMap/Global ---
+--- BEMap/Assembly ---
+--- BEMap/HighFamilies ---
+--- BEMap/MixedRegistry ---
+BEMap/MixedRegistry.lean:535:5: warning: Variable name `owner` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+BEMap/MixedRegistry.lean:618:21: warning: Variable name `hj` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+--- BEMap ---
+--- Audit ---
+BEMap.all_indices_upper (constants : BEMap.ConstantComparisons)
+  (finite : BEMap.FiniteContracts BEMap.optimalConstant BEMap.esseenConstant BEMap.bound2 BEMap.bound3 BEMap.bound4)
+  (tail : BEMap.TailContracts BEMap.optimalConstant BEMap.esseenConstant) (n : ℕ) :
+  1 ≤ n → BEMap.optimalConstant n ≤ BEMap.esseenConstant
+BEMap.sharp_global_constant (constants : BEMap.ConstantComparisons)
+  (finite : BEMap.FiniteContracts BEMap.optimalConstant BEMap.esseenConstant BEMap.bound2 BEMap.bound3 BEMap.bound4)
+  (tail : BEMap.TailContracts BEMap.optimalConstant BEMap.esseenConstant) (lower : BEMap.LowerApproximation) :
+  BEMap.globalConstant = BEMap.esseenConstant
+BEMap.ContactPipeline.score_bound {n : ℕ} {floor : ℝ} (p : BEMap.ContactPipeline n floor)
+  (w : BEMap.ContactAt n floor) : w.X.normalizedScore n ≤ floor
+BEMap.ContactAt (n : ℕ) (floor : ℝ) : Type
+BEMap.Root4Provider : Prop
+BEMap.EndToEndProviders : Type
+BEMap.sharp_from_typed_providers (p : BEMap.EndToEndProviders) (lower : BEMap.LowerApproximation) :
+  BEMap.globalConstant = BEMap.esseenConstant
+BEMap.checked_quantitative_count_point_bound {n : ℕ} {ctx : BEMap.CountTaskContext n}
+  {checker : BEMap.QuantitativeCountChecker ctx} (certificate : BEMap.CheckedCertificate checker)
+  {X : BEMap.StandardizedLaw} {H : BEMap.RawThreshold} {point : BEMap.CountPoint n}
+  (scope : BEMap.GeneralCountRealization ctx X H point) :
+  BEMap.positiveClosedPointScore X n H ≤ ↑certificate.payload.upper
+BEMap.FarkasCandidate.check_sound {dimension rows : ℕ} {c : BEMap.FarkasCandidate dimension rows}
+  (hcheck : c.check = true) (x : Fin dimension → ℝ)
+  (necessary : ∀ (i : Fin rows), ∑ j, ↑(c.matrix i j) * x j ≤ ↑(c.rhs i)) : False
+BEMap.HighFamilies.window50_uniform_scaled {n : ℕ} {floor : ℝ} {w : BEMap.ContactAt n floor}
+  (analytic : BEMap.HighFamilies.Window50Theorem) (uniform : BEMap.HighFamilies.Window50UniformTheorem)
+  (p : BEMap.HighFamilies.Window50Parameters) (i : BEMap.HighFamilies.Window50UniformInputs p) (hn : i.lowerIndex ≤ n)
+  (law : BEMap.HighFamilies.Window50LawEvidence w.X p) :
+  BEMap.HighFamilies.CompleteScaledHigh w (BEMap.HighFamilies.window50ScaledUpper i.lowerIndex p)
+BEMap.HighFamilies.supported_power_high {n : ℕ} {floor : ℝ} {w : BEMap.ContactAt n floor}
+  (analytic : BEMap.HighFamilies.SupportedPowerTheorem) (p : BEMap.HighFamilies.SupportedPowerParameters)
+  (partition : BEMap.HighFamilies.SupportedPowerPartition p)
+  (cells : BEMap.HighFamilies.SupportedPowerCells n p partition) (hn : 2 ≤ n)
+  (law : BEMap.HighFamilies.SupportedPowerLawEvidence w.X n p partition cells)
+  (rounding :
+    BEMap.HighFamilies.ScaledHighRounding n (BEMap.HighFamilies.supportedPowerScaledUpper n p partition cells)) :
+  BEMap.HighBound w BEMap.halfFrequencySplit
+BEMap.MixedRegistry.ReferenceUse.excludes {caller : BEMap.CountTaskContext 25} {candidate : BEMap.CountBox 25}
+  {spec : BEMap.MixedRegistry.FrozenReference} (use : BEMap.MixedRegistry.ReferenceUse caller candidate spec)
+  (acquired : BEMap.MixedRegistry.ReferenceAcquisition spec) {w : BEMap.ContraryContact 25}
+  {point : BEMap.CountPoint 25} (owner : caller.SatisfiedBy w point) (inside : candidate.Contains point) : False
+BEMap.MixedRegistry.OriginalP25Admission (r : BEMap.MixedRegistry.SemanticRegistry)
+  (manifest : BEMap.MixedRegistry.SourceManifest) : Type
+BEMap.n25_upper_of_regions (extract : BEMap.ContactExtraction)
+  (hmid : ∀ (w : BEMap.ContraryContact 25), BEMap.MiddleEnvelope25 w.X.rho w.X.beta)
+  (hhigh : ∀ (w : BEMap.ContraryContact 25), BEMap.HighEnvelope25 w.X.rho w.X.beta)
+  (reject : ∀ (region : BEMap.Region25) (w : BEMap.ContraryContact 25), region.contains w.X.rho w.X.beta → False) :
+  BEMap.optimalConstant 25 ≤ BEMap.esseenConstant
+BEMap.TailContracts (C : ℕ → ℝ) (c : ℝ) : Prop
+'BEMap.all_indices_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.sharp_global_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.n25_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.tail_base49' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.tail_composition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.same_law_n25_allowance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.Root4Provider.upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.CountTree.cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.n5_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.floor31_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.FarkasCandidate.check_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.checked_quantitative_count_point_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.HighFamilies.window50_uniform_scaled' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.HighFamilies.supported_power_high' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.MixedRegistry.ReferenceUse.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.MixedRegistry.SemanticRegistry.acquired' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.sharp_from_typed_providers' depends on axioms: [propext, Classical.choice, Quot.sound]

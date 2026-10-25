@@ -1,6 +1,6 @@
 {
   "created": "2026-10-25",
-  "scope": "Mathematical contracts and conditional Lean skeleton, without numerical-kernel execution",
+  "scope": "Version 0.2: detailed source-aligned mathematical interfaces and conditional Lean assembly, without production numerical execution",
   "repository": "https://github.com/rodziewiczk/berry-esseen-end2end",
   "repository_commit": "6ca9730273c81447be4863824c0b7d012db0e8b8",
   "repository_edited": false,
@@ -28,5 +28,20 @@
     }
   ],
   "source_notices": "LICENSE (MIT, Copyright 2026 Contributors)",
-  "publication_note": "Machine-specific source paths omitted; source identities and exact hashes retained."
+  "publication_note": "Machine-specific source paths omitted; source identities and exact hashes retained.",
+  "interface_version": "0.2.0",
+  "trust_boundary": [
+    "Precisely stated analytic theorems are explicit accepted parameters at this milestone.",
+    "Lean checks structural coverage, algebra and conditional final assembly.",
+    "Production decoding, arithmetic checking and actual numerical evidence remain separate implementation inputs."
+  ],
+  "original_worktree_edited": false,
+  "independent_review": {
+    "sha256": "b53629f126e140e5014eaab03954131ee9c749b6ebb47e4c719519786c1ab596",
+    "pages": 10,
+    "disposition": "docs/contracts/AUDIT.md",
+    "reviewer_experiments_reproduced": false,
+    "full_document_republished": false
+  },
+  "original_worktree_note": "This task did not edit the original research checkout. Its HEAD remains the stated baseline; unrelated working-tree changes can continue in other tasks."
 }

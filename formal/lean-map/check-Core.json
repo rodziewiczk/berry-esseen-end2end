@@ -1,30 +1,48 @@
 {
   "passed": true,
   "scope": "Core",
-  "checked_at": "2026-10-25T16:48:01.2559449+01:00",
+  "checked_at": "2026-10-25T18:51:08.0263140+01:00",
   "lean": "Lean (version 4.32.0, x86_64-w64-windows-gnu, commit 8c9756b28d64dab099da31a4c09229a9e6a2ef35, Release)",
   "mathlib_revision": "81a5d257c8e410db227a6665ed08f64fea08e997",
-  "method": "Direct Lean compiler; existing compiled mathlib dependencies; project modules rechecked",
-  "total_seconds": 51.371,
+  "method": "Incremental direct Lean check; unchanged project source/artifact/dependencies verified against prior compiler record",
+  "compiler_options": "autoImplicit=false;relaxedAutoImplicit=false",
+  "reused_modules": 3,
+  "recompiled_modules": 0,
+  "total_seconds": 0.106,
   "modules": [
     {
       "module": "BEMap/Finite",
-      "seconds": 16.136,
+      "seconds": 0,
       "exit_code": 0,
-      "source_sha256": "d79877e7bba0bb1447c106c6d83dcfffc64785b59dd819f89e61be8b540d1815"
+      "source_sha256": "d79877e7bba0bb1447c106c6d83dcfffc64785b59dd819f89e61be8b540d1815",
+      "artifact_sha256": "a7416e46122b03e8836ad4b2bd092b62267ae1c1656df4ef638741cb04458cdc",
+      "reused_artifact": true,
+      "verified_at": "2026-10-25T18:44:32.9442825+01:00",
+      "last_compile_seconds": 17.774,
+      "compiler_output": []
     },
     {
       "module": "BEMap/Cover25",
-      "seconds": 13.596,
+      "seconds": 0,
       "exit_code": 0,
-      "source_sha256": "3396d973c613feb246a6707431736e672b65fd43ecc61b05b3b1d0620947766a"
+      "source_sha256": "3396d973c613feb246a6707431736e672b65fd43ecc61b05b3b1d0620947766a",
+      "artifact_sha256": "a373c582bee5e1ddcddde80de42666728a2a3aa0a7b5ddcd771399a150b41adc",
+      "reused_artifact": true,
+      "verified_at": "2026-10-25T18:44:32.9442825+01:00",
+      "last_compile_seconds": 17.029,
+      "compiler_output": []
     },
     {
       "module": "BEMap/Tail",
-      "seconds": 21.579,
+      "seconds": 0,
       "exit_code": 0,
-      "source_sha256": "a386d17631124729704db8b71ccde0fbd0ae9ebcd9c01d8ba1edccca8c8503de"
+      "source_sha256": "a386d17631124729704db8b71ccde0fbd0ae9ebcd9c01d8ba1edccca8c8503de",
+      "artifact_sha256": "473b8525a005e9f4908936b64f30115e9ea4950965751b737d6b4c7115fa8bb2",
+      "reused_artifact": true,
+      "verified_at": "2026-10-25T18:44:32.9442825+01:00",
+      "last_compile_seconds": 23.45,
+      "compiler_output": []
     }
   ],
-  "remaining_assumptions": "See theorem signatures and docs/mathematical-contracts.md; no numerical kernels run"
+  "remaining_assumptions": "Exact analytic and checker-soundness parameters: see theorem signatures and docs/contracts/README.md. No heavy numerical kernels run."
 }

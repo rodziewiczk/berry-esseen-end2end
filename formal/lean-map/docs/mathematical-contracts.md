@@ -1,7 +1,10 @@
 # Mathematical contracts for the iid Berry--Esseen proof
 
-Version 0.1, 25 October 2026. **This is a conditional specification and a checked
-logical skeleton, not a completed formal proof of the numerical theorem.**
+Version 0.2, 25 October 2026. **This is a conditional specification and a checked
+logical skeleton under precisely stated analytic assumptions.** The normative
+detail is the [five-part interface specification](contracts/README.md) and its
+source-specific supplements; this document gives the target and case inventory.
+Full formalization of the accepted analytic proofs is outside this milestone.
 The scope is mathematical contracts followed by Lean composition. Execution
 architecture, cloud scheduling, certificate serialization and a production CLI
 are outside this stage.
@@ -39,8 +42,9 @@ The index zero occurs only in total auxiliary definitions. Every final theorem
 requires n >= 1. A threshold y for a normalized sum corresponds to
 H = sqrt(n)y for the unnormalized sum. All discrepancy events here use `<=`.
 
-Lean: `BEMap/Foundations/*`, `BEMap.lean` (`all_indices_upper`,
-`universal_iid_inequality`, `sharp_global_constant`).
+Lean: `BEMap/Foundations/*`, `BEMap/Global.lean` (`all_indices_upper`,
+`universal_iid_inequality`, `sharp_global_constant`) and `BEMap/Assembly.lean`
+(`all_indices_from_typed_providers`, `sharp_from_typed_providers`).
 
 ## 2. Variables and invariants that must not be identified
 
@@ -64,22 +68,23 @@ alone is not a permitted operation.
 
 ## 3. Extraction of an unrestricted attained contact
 
-For fixed n >= 2, the contact route must justify the following analytic
-implication, not merely optimize within a convenient family of measures:
+For fixed n >= 2 and a method-specific floor t, the contrary-contact route
+uses the following explicit analytic extraction statement:
 
 ```
-C_n >= C_E
+C_n > t
     -> an unrestricted maximizing law P and a threshold H
     -> a positive, attained CLOSED-CDF discrepancy at H
     -> the first-variation contact majorant for that same law and threshold.
 ```
 
-In particular P is not assumed to have two or three atoms. Equality at C_E is
-included in the contact domains. The Lean `ContactExtraction` parameter states
-the attainment and orientation part explicitly; it is not proved in this
-package. `ContraryContact n` stores the actual law, threshold, score equality
-and positive closed discrepancy. It does not silently provide the contact
-polynomial or compact support.
+P is not assumed to have two or three atoms. `ContactAt n t` stores the law,
+normalized threshold, t<=score, score=C_n and positive closed discrepancy.
+`FixedIndexExtraction n t` is only required at strict global failure; an
+optional stronger closed extraction is a separate type. Ordinary t=C_E and
+ROOT4 t=4097/10000 are distinct. Extraction supplies neither the first-variation
+polynomial nor compact support. A weak score<=t certificate suffices to
+contradict strict failure, including when an equality contact is possible.
 
 More precisely, put s = sqrt(n), z = H/s, F = P(S_n <= H),
 phi = the standard Gaussian density at z, and C = s(F-Phi(z))/rho > 0.
@@ -97,9 +102,10 @@ Since C > 0 and 0 <= h <= 1, this implies qualitative compact support.
 **Only afterwards** may fourth and fifth moments be introduced. A subsequent
 quantitative radius is another implication with its own assumptions.
 
-Lean: `BEMap/Interfaces.lean`. `ContactPipeline` is an abstract interface for
-these implications. Its predicates still need their detailed analytic
-instantiations; it is not a certificate checker.
+Lean: `BEMap/Domain.lean`, `BEMap/Physical.lean`, `BEMap/TypedPipeline.lean`.
+The first-variation statement, moment evidence and pipeline states have actual
+mathematical definitions. Their analytic proofs are accepted parameters;
+certificate-checker soundness is a separate interface.
 
 ## 4. One conserved budget and the resource pipeline
 
@@ -139,10 +145,12 @@ A sharp predecessor gives q_n(P,C_E)=0, because R_(n-1)(P) <= C_(n-1).
 It supplies neither a support radius nor an own-index cap nor a resource
 transcript for the current n.
 
-Lean checks that every stage in `ContactPipeline.reject` concerns the same
-`ContraryContact n`, and that all declared transitions are consumed. The
-conserved identity, inequalities and their numerical verification remain
-explicitly unimplemented analytic obligations at this stage.
+Lean checks that every stage in `ContactPipeline.score_bound` concerns the
+same `ContactAt n floor`. `PhysicalState`, `InitialState`, `ResourceState` and
+`CountReadyState` bind actual quantities, finite refinements and conditional
+noise laws. The conserved identity and inequality theorems have exact
+statements but remain explicit analytic assumptions. Numerical implementations
+must satisfy their separate frozen-context semantic contracts.
 
 ## 5. Exact coverage of the finite indices
 
@@ -216,8 +224,9 @@ using an independent acquired license. This interface is **not** a claim that
 the selected notebook execution graph is a single linear chain.
 `finite_composition` proves by strong induction that these contracts suffice
 for every literal index 1 through 48. The finite numerical contracts themselves
-remain premises. The detailed n=5 and floor31 domain covers are inventoried
-here but are not formalized in this first skeleton.
+remain premises. `Covers.lean` now proves the detailed n5 and floor31 closed
+domain covers from their explicit moment-envelope inputs. Method-specific
+evidence and all-root COUNT forests remain separate from those regional covers.
 
 ## 6. The n=25 cover: exact cuts, signed beta and predecessor alternatives
 
@@ -289,10 +298,12 @@ an actual contradiction under all its stated hypotheses. Required invariants:
    assumptions, index, law orientation and normalization. Resource exports
    are valid only after the entire required preceding finite transcript.
 
-No numerical certificate parser, interval arithmetic soundness theorem or
-checker implementation is included. The `reject` and pipeline proof fields
-must eventually be filled by those results; no Boolean `accepted=true` is
-trusted in the current Lean development.
+`Certificates.lean`, `GeneralCount.lean` and `CountRules.lean` specify frozen
+tasks, complete forests, quantitative meanings and elementary exact inference
+kernels. `MixedRegistry.lean` specifies admitted references, single enclosing
+scope lookup and finite earlier-license dependencies. The production decoder,
+interval evaluator and full checker are still implementation work; a Boolean
+`accepted=true` supplies no proof without its exact soundness implication.
 
 ## 8. Independent n>=49 tail: the exact conditional scalar proof
 
@@ -315,15 +326,20 @@ C_n <= sqrt(n/(n-1)) C_(n-1)
        + sqrt(n)/(15 (n-1)^(3/2)) + 0.08 sqrt(n)/(n-1)^2.
 ```
 
-This derivation is an open analytic obligation in the skeleton. The final
-local-exclusion input includes the supported confinement, all p panels and
-positive-noise local comparison, and the separate zero-noise Bernoulli case.
-It is not supplied by scalar arithmetic alone.
+`smoothing_first_failure` in `TailAssembly.lean` derives the0.29 consequence
+from this exact accepted source inequality, explicit pure-index square-root
+brackets and a proved rational comparison. The final local input is built
+from [83-panel uniform numerical semantics](contracts/UNIFORM-TAIL.md), actual
+support/confinement licenses, TINY/MID/LOW witnesses and the separate
+zero-noise Bernoulli case. It is not supplied by scalar arithmetic alone.
 
-The auxiliary acquisition schedule is also open: A40/P41 give the 1.5/n
-ceilings, A45/P46 give the 0.7/n ceilings, and A46 gives the stronger 46 ceiling.
-`TailContracts` starts at the exported ceilings rather than pretending that
-these numerical acquisitions have already been checked.
+The [auxiliary acquisition contract](contracts/TAIL-ASSEMBLY.md) specifies
+A40/P41 for1.5/n, A45/P46 for0.7/n and A46 for the stronger46 ceiling.
+Its finite resource-pass meanings preserve one owner, coherent raw/weighted
+outputs and complete closed moment covers before the terminal negative-D
+contradiction. Actual numerical evidence remains to supply. The canonical
+`TailMethodProviders.contracts` constructs all scalar fields; `TailContracts`
+is retained as the lower-level interface of the already checked descent.
 
 What Lean proves from these inputs:
 

@@ -8,3 +8,4 @@ Thumbs.db
 # Keep the small, source-bound verification records in the companion branch too.
 !check-All.log
 !check-Core.log
+!verification/check-baseline27.log

@@ -6,9 +6,15 @@
 [Machine-readable map](proof-map.json) · [Current plan](plan.md)
 
 Green means **a proved implication with explicit inputs**. Amber means a
-mathematical input which is not discharged in this Lean project. Blue is the
-concrete probability model and its elementary proved API. The local compiler
-checked all 8 files; it did not run the numerical notebooks.
+precisely stated analytic premise or numerical evidence still to supply. Blue
+is the concrete probability model and its elementary proved API. The local
+compiler report lists every checked source; it did not run the numerical
+notebooks. Analytic correctness is accepted explicitly at this milestone.
+
+![Five detailed mathematical interfaces](../assets/interface-map.svg)
+
+[Full interface view](../assets/interface-map.svg) ·
+[Source anchors](interface-map.json) · [Five-part specification](contracts/README.md)
 
 This is a curated, grouped map of the Lean theorem interfaces, not an automatic
 export of the kernel's proof-term graph. Where several assumptions are grouped
@@ -22,18 +28,20 @@ than an extra argument of `n25_cover`.
 | Box | Lean declaration | Meaning at this checkpoint |
 |---|---|---|
 | Concrete model | [`normalizedScore_le_optimalConstant`](../BEMap/Foundations/OptimalConstant.lean) | Genuine law/CDF/supremum semantics, not an arbitrary score variable |
-| Small indices and ordinary finite inputs | [`FiniteContracts`](../BEMap/Finite.lean), [`ConstantComparisons`](../BEMap.lean) | All required incoming bounds remain explicit |
+| Small/ROOT4/n5 providers | [`EndToEndProviders`](../BEMap/Assembly.lean), [`ConstantComparisons`](../BEMap/Global.lean) | Method-specific inputs and quantitative targets remain explicit |
+| Ordinary finite methods | [`FixedIndexMethodProvider`](../BEMap/Assembly.lean), [`MethodEvidence`](../BEMap/TypedPipeline.lean) | Actual-index evidence has typed state and certificate semantics |
 | Finite range | [`finite_composition`](../BEMap/Finite.lean) | Checked strong-induction composition for every 1<=n<=48 |
-| n25 inputs | [`ContactExtraction`, `n25_upper_of_regions`](../BEMap/Interfaces.lean), [`MiddleEnvelope25`, `HighEnvelope25`](../BEMap/Cover25.lean) | Unrestricted contact, signed-beta envelopes and all regional rejection proofs |
+| n25 inputs | [`TwentyFiveProvider`](../BEMap/Assembly.lean), [`MiddleEnvelope25`, `HighEnvelope25`](../BEMap/Cover25.lean) | Extraction, signed-beta envelopes and all scoped regional methods |
 | n25 closed cover | [`n25_cover`](../BEMap/Cover25.lean) | All 20 listed cells cover the feasible domain, assuming the envelopes |
-| n25 conclusion | [`n25_upper_of_regions`](../BEMap/Interfaces.lean) | Complete same-witness regional rejections imply C25<=C_E |
+| n25 conclusion | [`TwentyFiveProvider.upper`](../BEMap/Assembly.lean) | Complete same-witness regional methods imply C25<=C_E |
 | Additional predecessor bridge | [`n25_allowance`](../BEMap/Finite.lean), [`same_law_n25_allowance`](../BEMap/Interfaces.lean) | Sharp24 OR auxiliary24 gives q25<=5/16 for the same law |
-| Tail inputs | [`TailContracts`](../BEMap/Tail.lean) | Auxiliary ceilings, local exclusion, smoothing consequence and numerical bracket |
+| Tail inputs | [`TailMethodProviders`](../BEMap/TailAssembly.lean) | Typed 83-panel comparison, auxiliary resource barriers and source smoothing construct `.contracts` |
+| Smoothing | [`smoothing_first_failure`](../BEMap/TailAssembly.lean) | Exact source smoothing and explicit scalar brackets give the0.29 first-failure consequence |
 | Base49 | [`tail_base49`](../BEMap/Tail.lean) | Three exact backward losses contradict the strong 46 cap |
 | Infinite tail | [`tail_composition`](../BEMap/Tail.lean) | First-failure induction covers all n>=49 |
-| Every index | [`all_indices_upper`](../BEMap.lean) | Finite 1--48 and independent 49+ imply the upper bound for every positive integer |
-| Lower approximation | [`LowerApproximation`](../BEMap.lean) | Separate open Bernoulli/lattice lower-bound obligation |
-| Sharp constant | [`sharp_global_constant`](../BEMap.lean) | Conditional equality of the concrete global supremum with C_E |
+| Every index | [`all_indices_from_typed_providers`](../BEMap/Assembly.lean) | Constructed finite1--48 and independent49+ imply the upper bound |
+| Lower approximation | [`LowerApproximation`](../BEMap/Global.lean) | Separate Bernoulli/lattice analytic premise |
+| Sharp constant | [`sharp_from_typed_providers`](../BEMap/Assembly.lean) | Conditional equality of the concrete global supremum with C_E |
 
 The source-linked JSON includes the exact line of every declaration anchor.
 The finite and tail theorem records provide the detailed inputs behind grouped
@@ -64,6 +72,15 @@ local exclusion at 49,48,47 and auxiliary bounds near46. For the later index50
 step, the second deleted-index cap uses the auxiliary bound at 48. The
 smoothing premise supplies the scaled0.29 estimate at any later first failure.
 
+The canonical public route now constructs those scalar inputs through
+`TailMethodProviders.contracts`. Its local comparison covers every actual
+n>=47, all83 panels and positive/zero noise separately. The auxiliary
+certificates are finite resource barriers ending in negative D, with A46's
+paired signed corrections kept distinct. The support-free smoothing result
+and pure-index brackets produce the scalar0.29 step. See
+[uniform local comparison](contracts/UNIFORM-TAIL.md) and
+[tail assembly](contracts/TAIL-ASSEMBLY.md).
+
 This distinction is visible in the SVG: there is no arrow from the finite
 composition to the tail composition. Both branches meet at the all-indices
 theorem.
@@ -74,8 +91,9 @@ theorem.
 python tools/render_proof_map.py
 ```
 
-This standard-library script verifies all 8 recorded Lean source hashes,
-declaration anchors, and acyclicity of the displayed grouped edges. It writes
+This standard-library script verifies the complete recorded Lean source set,
+source hashes, declaration anchors, and acyclicity of the displayed grouped
+edges. It writes
 the SVG, Mermaid source and JSON map. These structural checks supplement the
 actual Lean check; they do not prove a new analytic statement.
 

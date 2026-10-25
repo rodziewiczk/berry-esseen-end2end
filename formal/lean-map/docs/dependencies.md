@@ -1,8 +1,10 @@
 # Conditional dependency map
 
 Solid dependencies below describe the mathematical contracts in this package.
-All leaf analytic and numerical results remain open unless explicitly listed
-as checked logical glue. No numerical notebook was executed for this skeleton.
+Exact analytic leaf statements are accepted parameters at this milestone;
+numerical semantic evidence remains to be supplied by its producers/checkers.
+No numerical notebook was executed for this skeleton. The detailed interfaces
+are in [the five-part specification](contracts/README.md).
 
 ```mermaid
 flowchart TD
@@ -67,11 +69,21 @@ Checked glue:
 | `same_law_n25_allowance` | The allowance applies to the same law at 24 |
 | `ClosedChain.cover`, `n25_cover` | Closed rational cuts leave no n25 gap, assuming the stated envelopes |
 | `n25_exclude_by_cover`, `n25_upper_of_regions` | Complete same-witness regional exclusions imply the n25 upper bound |
-| `ContactPipeline.reject` | All pipeline transitions at the same n and contact compose |
+| `ContactPipeline.score_bound` | All typed pipeline transitions at the same n and contact give the weak score cap |
+| `CountTree.cover` | Both children, closed seams and every original count root remain covered |
+| `n5_cover`, `floor31_cover` | The listed closed rational domains cover their full stated ranges |
+| `Root4Provider.upper` | A chosen localized owner with the weak ROOT4 cap excludes strict global failure |
 | `tail_base49` | Auxiliary and local contracts imply the base 49 bound |
 | `tail_composition` | Base49 and first-failure contracts cover the infinite tail |
+| `UniformTail.UniformLocalProvider.reject` | Complete 83-panel numerical meaning and analytic probability kernels exclude positive noise; the zero-noise Bernoulli argument is separate |
+| `barrier_resource_reject` | Finite auxiliary resource passes preserve the same owner and end in a strict negative bound for nonnegative D |
+| `TailMethodProviders.contracts` | Typed local comparison, auxiliary barriers and smoothing construct the independent scalar tail inputs |
 | `all_indices_upper` | Finite and independent tail bounds cover all n >= 1 |
 | `sharp_global_constant` | Upper bound and separate lower approximation give the exact supremum |
+| `EndToEndProviders.finite` | Typed small-index, ROOT4, n5, ordinary and n25 methods construct the finite contracts |
+| `all_indices_from_typed_providers`, `sharp_from_typed_providers` | Those constructed finite contracts and independent tail give the final statements |
 
-The files are a typed logical map. They are not an implementation of LOW,
-HIGH, ROOT4, COUNT, interval kernels, resource iteration or certificate parsing.
+The [detailed interface graph](../assets/interface-map.svg) expands the state,
+transition, cover, certificate and assembly layers. Their definitions fix the
+mathematics consumed by a future implementation; production LOW/HIGH/ROOT4/COUNT
+evaluators, resource search and byte decoding are subsequent work.

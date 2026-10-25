@@ -1,0 +1,174 @@
+{
+  "passed": true,
+  "scope": "All",
+  "checked_at": "2026-10-25T18:44:32.9442825+01:00",
+  "lean": "Lean (version 4.32.0, x86_64-w64-windows-gnu, commit 8c9756b28d64dab099da31a4c09229a9e6a2ef35, Release)",
+  "mathlib_revision": "81a5d257c8e410db227a6665ed08f64fea08e997",
+  "method": "Direct Lean compiler; existing compiled mathlib dependencies; project modules rechecked",
+  "total_seconds": 904.28,
+  "modules": [
+    {
+      "module": "BEMap/Finite",
+      "seconds": 17.774,
+      "exit_code": 0,
+      "source_sha256": "d79877e7bba0bb1447c106c6d83dcfffc64785b59dd819f89e61be8b540d1815"
+    },
+    {
+      "module": "BEMap/Cover25",
+      "seconds": 17.029,
+      "exit_code": 0,
+      "source_sha256": "3396d973c613feb246a6707431736e672b65fd43ecc61b05b3b1d0620947766a"
+    },
+    {
+      "module": "BEMap/Tail",
+      "seconds": 23.45,
+      "exit_code": 0,
+      "source_sha256": "a386d17631124729704db8b71ccde0fbd0ae9ebcd9c01d8ba1edccca8c8503de"
+    },
+    {
+      "module": "BEMap/Foundations/ProbabilityLaw",
+      "seconds": 29.195,
+      "exit_code": 0,
+      "source_sha256": "bed9f1b8bd65fc90c1d8fc3c28ea3fa209a2ae7c9ec8cd2ae8505307521ca715"
+    },
+    {
+      "module": "BEMap/Foundations/OptimalConstant",
+      "seconds": 29.206,
+      "exit_code": 0,
+      "source_sha256": "d47200a873b210c5db3f75888de6beba469c8b25f2f7b57adfd895e73182b719"
+    },
+    {
+      "module": "BEMap/Domain",
+      "seconds": 26.936,
+      "exit_code": 0,
+      "source_sha256": "4233deadba6eb22b55b6f3529c903f3ddd006399f11f107b81593f91a2c6f9af"
+    },
+    {
+      "module": "BEMap/Interfaces",
+      "seconds": 26.865,
+      "exit_code": 0,
+      "source_sha256": "32d30544083f155b347f55125168c69e8b3541313a2b4d99221f76ce07738a41"
+    },
+    {
+      "module": "BEMap/Covers",
+      "seconds": 35.852,
+      "exit_code": 0,
+      "source_sha256": "adda7e96f5228e539e3fad037f1fa8b5c610ba448f3731d5e65d633316f70d6f"
+    },
+    {
+      "module": "BEMap/Physical",
+      "seconds": 27.413,
+      "exit_code": 0,
+      "source_sha256": "73930fb4e53b2039f07ebe1e303c9f28ec83db97261e750008bb31a6385bfb46"
+    },
+    {
+      "module": "BEMap/Binary",
+      "seconds": 27.408,
+      "exit_code": 0,
+      "source_sha256": "9b7532b18744d4c95c8229d435bf15c95a0095d74b0c81a518329af87342a575"
+    },
+    {
+      "module": "BEMap/Fourier",
+      "seconds": 26.458,
+      "exit_code": 0,
+      "source_sha256": "815eac957cafea66666cce5a53c7a92618ae811c7a9e4e6d0371ef3f0fcb9a98"
+    },
+    {
+      "module": "BEMap/Root4",
+      "seconds": 26.659,
+      "exit_code": 0,
+      "source_sha256": "601b2f7be29f85f8ba57bcce415bee4127f49bd8333626f805e8104adf0acfcc"
+    },
+    {
+      "module": "BEMap/SmallIndices",
+      "seconds": 25.958,
+      "exit_code": 0,
+      "source_sha256": "5c17bb33bd45e4f38f739b842cb4c4895f25776b4b78d3a05e166765aefdcdb5"
+    },
+    {
+      "module": "BEMap/CountRules",
+      "seconds": 26.304,
+      "exit_code": 0,
+      "source_sha256": "3209dd2886aa571f4a7345d3d26a8ea5a078ae620c5745332342aad7117b5aae"
+    },
+    {
+      "module": "BEMap/Prawitz",
+      "seconds": 26.511,
+      "exit_code": 0,
+      "source_sha256": "30625df80d0ee77eb99691469aed550bfc69c01bf578cb30b1cf7c7f592e6e80"
+    },
+    {
+      "module": "BEMap/Certificates",
+      "seconds": 47.52,
+      "exit_code": 0,
+      "source_sha256": "87d01bcf090b39452bad408c68ecac263470c53a01eb4f8d35ab9184a52c3d0d"
+    },
+    {
+      "module": "BEMap/GeneralCount",
+      "seconds": 75.109,
+      "exit_code": 0,
+      "source_sha256": "ec65cb4bfbddd15ff916046a9e5bc96c24009caecbe88a2dcea01a3d017bd278"
+    },
+    {
+      "module": "BEMap/Mixed",
+      "seconds": 94.279,
+      "exit_code": 0,
+      "source_sha256": "ddf4362fbe5e82b59615182a61c541497bd90a8fe2bb2e51ac4d59352f4ed620"
+    },
+    {
+      "module": "BEMap/TypedPipeline",
+      "seconds": 84.852,
+      "exit_code": 0,
+      "source_sha256": "a7b6d13a4a131aede5bc5183672865d9a34ea421320ca058919a5bfbeddcf7fb"
+    },
+    {
+      "module": "BEMap/FourierFamilies",
+      "seconds": 26.171,
+      "exit_code": 0,
+      "source_sha256": "81cc3ac500c6730672f81706ae8032b7585109bf80352e6e04d0bc8932f49ad3"
+    },
+    {
+      "module": "BEMap/InterfaceChecks",
+      "seconds": 25.497,
+      "exit_code": 0,
+      "source_sha256": "74228df1a6f30f21c70b12f0166f0d51dcc303662fb276a762aacd5f8a1e0bc5"
+    },
+    {
+      "module": "BEMap/Global",
+      "seconds": 24.906,
+      "exit_code": 0,
+      "source_sha256": "2e3b41557014cf1a338787bea5cc84bc60431bb1d88f2231d3935532594385ba"
+    },
+    {
+      "module": "BEMap/Assembly",
+      "seconds": 24.704,
+      "exit_code": 0,
+      "source_sha256": "4486302852c853239ab0c353c8643f64f2814b283376bdba1e1edab1f7d2db9a"
+    },
+    {
+      "module": "BEMap/HighFamilies",
+      "seconds": 26.311,
+      "exit_code": 0,
+      "source_sha256": "0035b64629b1221ddc2e6affa38f1067a175d90328bfb80fe1c2e6cc2d0c1130"
+    },
+    {
+      "module": "BEMap/MixedRegistry",
+      "seconds": 29.272,
+      "exit_code": 0,
+      "source_sha256": "5b63299d93ec63a11fc72875e3bb183e89ac9eb78193e83054a4d56adb13bdaa"
+    },
+    {
+      "module": "BEMap",
+      "seconds": 23.722,
+      "exit_code": 0,
+      "source_sha256": "a77fef73998a346b143377bd7d3e7754a57a4560eff4becaa18e89d19dbbe36d"
+    },
+    {
+      "module": "Audit",
+      "seconds": 28.503,
+      "exit_code": 0,
+      "source_sha256": "c0b8edcaf893007334efcd1262e4b01d7f10531fad42b301468eac45cfca3923"
+    }
+  ],
+  "remaining_assumptions": "Exact analytic and checker-soundness parameters: see theorem signatures and docs/contracts/README.md. No heavy numerical kernels run."
+}

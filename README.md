@@ -2,31 +2,36 @@
 
 Authors: Kacper Rodziewicz and Bartosz Kołodziejek.
 
-## Lean proof map · checked conditional skeleton
+## Mathematical interfaces v0.2 · checked conditional Lean assembly
 
-![Berry–Esseen Lean map: checked implications in green, open contracts in amber](formal/lean-map/assets/proof-map.svg)
+![Berry–Esseen: typed finite methods and the independent tail](formal/lean-map/assets/proof-map.svg)
 
-[Full-size graph](formal/lean-map/assets/proof-map.svg) ·
-[PNG](formal/lean-map/assets/proof-map.png) ·
-[Lean declarations behind the graph](formal/lean-map/docs/proof-map.md) ·
-[Current plan](formal/lean-map/docs/plan.md) ·
+[Full proof graph](formal/lean-map/assets/proof-map.svg) ·
+[Detailed interface graph](formal/lean-map/assets/interface-map.svg) ·
+[Source-linked guide](formal/lean-map/docs/proof-map.md) ·
 [Standalone Lean repository](https://github.com/rodziewiczk/berry-esseen-lean-map)
 
-This branch adds the [mathematical contracts and thin Lean project](formal/lean-map/README.md).
-All 8 Lean files passed the recorded local compiler check. Green means a
-**checked conditional implication**; the amber analytic and certificate
-premises remain explicit. The finite 1–48 composition and the independent 49+
-tail meet at the all-indices upper bound. A separate lower approximation is
-required for the exact sharp constant.
+This branch contains a detailed [mathematical specification and Lean project](formal/lean-map/README.md):
+actual-law states, exact transition contracts, complete covers, certificate
+semantics and final conditional assembly. Start with the
+[five-part specification](formal/lean-map/docs/contracts/README.md),
+[source-alignment audit](formal/lean-map/docs/contracts/AUDIT.md) and
+[current plan](formal/lean-map/docs/plan.md).
 
-The next stage is to reuse matching existing Lean lemmas, formalize the
-remaining n5/floor31 domain covers, replace abstract resource predicates with
-exact mathematical records, and connect numerical soundness. Detailed system
-architecture and a single CLI follow after these interfaces stabilize.
+Green means a **checked implication** from explicit inputs. Precisely stated
+analytic results are accepted parameters at this milestone. Production
+numerical checkers, actual data and certificates remain to supply. The finite
+1–48 branch and independent49+ tail meet at the upper bound; sharpness takes
+a separate lower approximation. The detailed source contracts include
+ROOT4's weak target, coherent LOW/HIGH, ordinary COUNT and the exact mixed
+25/24 scopes and reference rules.
 
-[Verification report](formal/lean-map/check-All.json) ·
-[Compiler and axiom audit](formal/lean-map/check-All.log) ·
-[Detailed mathematical specification](formal/lean-map/docs/mathematical-contracts.md)
+[Full source-bound compiler report](formal/lean-map/check-All.json) ·
+[Signatures and axiom audit](formal/lean-map/check-All.log) ·
+[Exact final statement](formal/lean-map/docs/mathematical-contracts.md)
+
+The present stage is the mathematical interface and conditional Lean skeleton.
+Execution design and the production CLI follow these fixed contracts.
 
 ---
 

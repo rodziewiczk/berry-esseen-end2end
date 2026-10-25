@@ -1,19 +1,19 @@
 flowchart TD
   MODEL["Concrete probability model"]:::model
-  SMALL["Small indices + constants"]:::open
+  SMALL["Small + ROOT4 + n5"]:::open
   ORDINARY["Literal finite exclusions"]:::open
   FINITE["finite_composition"]:::checked
   INPUT25["Exact n25 premises"]:::open
   COVER25["n25_cover"]:::checked
-  UPPER25["n25_upper_of_regions"]:::checked
+  UPPER25["TwentyFiveProvider.upper"]:::checked
   LICENSE25["Additional checked bridge"]:::checked
   TAILINPUT["Independent tail premises"]:::open
   BASE49["tail_base49"]:::checked
-  SMOOTH["Smoothing consequence"]:::open
+  SMOOTH["smoothing_first_failure"]:::checked
   TAIL["tail_composition"]:::checked
-  UPPER["all_indices_upper"]:::checked
+  UPPER["Typed all-index bound"]:::checked
   LOWER["Separate lower bound"]:::open
-  SHARP["sharp_global_constant"]:::checked
+  SHARP["Typed sharpness theorem"]:::checked
   SMALL --> FINITE
   ORDINARY --> FINITE
   INPUT25 --> COVER25

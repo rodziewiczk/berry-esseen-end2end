@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="1320" viewBox="0 0 1480 1320" role="img" aria-labelledby="title desc">
+<title id="title">Berry–Esseen: five detailed mathematical interfaces</title>
+<desc id="desc">Five complementary views: concrete states, exact transitions, complete coverage, certificate semantics and checked conditional assembly. Analytic correctness is an explicit premise; full analysis proofs and production numerical evidence are separate.</desc>
+<style>text{font-family:"Segoe UI",Arial,sans-serif;fill:#172b44}.label{font-size:10px;font-weight:700;letter-spacing:.75px}.mono{font-family:Consolas,monospace}</style>
+<rect width="1480" height="1320" rx="24" fill="#f5f7fb"/>
+<rect x="28" y="28" width="1424" height="175" rx="20" fill="#10243a"/>
+<text x="56" y="68" style="fill:#9bc7dd;font-size:12px;letter-spacing:2px">BERRY–ESSEEN / MATHEMATICAL INTERFACE v0.2</text>
+<text x="56" y="111" style="fill:white;font-size:34px;font-weight:650">Precise mathematics before implementation</text>
+<text x="56" y="145" style="fill:#cfdae5;font-size:17px">The law, units, gates, coverage and meaning of acceptance are already part of the contract.</text>
+<text x="56" y="178" style="fill:#b9d7dc;font-size:14px">29 checked Lean sources · exact analytic assumptions remain visible · production evidence remains to supply</text>
+<rect x="28" y="235" width="268" height="773" rx="16" fill="#eaf0f7"/>
+<text x="42" y="265" style="fill:#355571;font-size:14px;font-weight:700">01  STATE</text>
+<text x="42" y="287" style="fill:#62798d;font-size:12px">What every quantity means</text>
+<g><rect x="38" y="311" width="248" height="150" rx="12" fill="#edf4ff" stroke="#b8d0f5"/>
+<rect x="38" y="329" width="3" height="114" rx="1" fill="#285cb0"/>
+<text x="51" y="335" class="label" style="fill:#285cb0;font-size:8.4px">CONCRETE SEMANTICS</text>
+<text x="51" y="363" style="font-size:18px;font-weight:650">Law + contact</text>
+<text x="51" y="389" style="font-size:11.7px;fill:#405870">Actual P; actual n; method floor</text>
+<text x="51" y="409" style="font-size:11.7px;fill:#405870">Raw H and normalized y differ</text>
+<text x="51" y="441" class="mono" style="font-size:10.3px;fill:#65798f">Domain.lean:39</text></g>
+<g><rect x="38" y="480" width="248" height="150" rx="12" fill="#edf4ff" stroke="#b8d0f5"/>
+<rect x="38" y="498" width="3" height="114" rx="1" fill="#285cb0"/>
+<text x="51" y="504" class="label" style="fill:#285cb0;font-size:8.4px">CONCRETE SEMANTICS</text>
+<text x="51" y="532" style="font-size:18px;font-weight:650">Physical state</text>
+<text x="51" y="558" style="font-size:11.7px;fill:#405870">Contact majorant; actual gaps</text>
+<text x="51" y="578" style="font-size:11.7px;fill:#405870">D, matching defect and eta differ</text>
+<text x="51" y="610" class="mono" style="font-size:10.3px;fill:#65798f">TypedPipeline.lean:46</text></g>
+<g><rect x="38" y="649" width="248" height="150" rx="12" fill="#edf4ff" stroke="#b8d0f5"/>
+<rect x="38" y="667" width="3" height="114" rx="1" fill="#285cb0"/>
+<text x="51" y="673" class="label" style="fill:#285cb0;font-size:8.4px">CONCRETE SEMANTICS</text>
+<text x="51" y="701" style="font-size:18px;font-weight:650">Resource state</text>
+<text x="51" y="727" style="font-size:11.7px;fill:#405870">Asymmetric support; signed moments</text>
+<text x="51" y="747" style="font-size:11.7px;fill:#405870">Marginal cap and joint Lambda differ</text>
+<text x="51" y="779" class="mono" style="font-size:10.3px;fill:#65798f">TypedPipeline.lean:132</text></g>
+<g><rect x="38" y="818" width="248" height="150" rx="12" fill="#edf4ff" stroke="#b8d0f5"/>
+<rect x="38" y="836" width="3" height="114" rx="1" fill="#285cb0"/>
+<text x="51" y="842" class="label" style="fill:#285cb0;font-size:8.4px">CONCRETE SEMANTICS</text>
+<text x="51" y="870" style="font-size:18px;font-weight:650">Count-ready state</text>
+<text x="51" y="896" style="font-size:11.7px;fill:#405870">Conditional residual laws</text>
+<text x="51" y="916" style="font-size:11.7px;fill:#405870">a0 differs from total inward dY</text>
+<text x="51" y="948" class="mono" style="font-size:10.3px;fill:#65798f">TypedPipeline.lean:185</text></g>
+<rect x="314" y="235" width="268" height="773" rx="16" fill="#eaf0f7"/>
+<text x="328" y="265" style="fill:#355571;font-size:14px;font-weight:700">02  TRANSITIONS</text>
+<text x="328" y="287" style="fill:#62798d;font-size:12px">Exact inputs, gates and outputs</text>
+<g><rect x="324" y="311" width="248" height="150" rx="12" fill="#effbf5" stroke="#a7d9c3"/>
+<rect x="324" y="329" width="3" height="114" rx="1" fill="#087451"/>
+<text x="337" y="335" class="label" style="fill:#087451;font-size:8.4px">CHECKED STRUCTURE / ADAPTER</text>
+<text x="337" y="363" style="font-size:18px;font-weight:650">One finite schedule</text>
+<text x="337" y="389" style="font-size:11.7px;fill:#405870">Same contact at every refinement</text>
+<text x="337" y="409" style="font-size:11.7px;fill:#405870">No unproved fixed-point step</text>
+<text x="337" y="441" class="mono" style="font-size:10.3px;fill:#65798f">TypedPipeline.lean:375</text></g>
+<g><rect x="324" y="480" width="248" height="150" rx="12" fill="#fffbf0" stroke="#e6cd96"/>
+<rect x="324" y="498" width="3" height="114" rx="1" fill="#9d5d17"/>
+<text x="337" y="504" class="label" style="fill:#9d5d17;font-size:8.4px">EXPLICIT ANALYTIC INPUT</text>
+<text x="337" y="532" style="font-size:18px;font-weight:650">Coherent LOW / HIGH</text>
+<text x="337" y="558" style="font-size:11.7px;fill:#405870">Exact Fourier split and integrals</text>
+<text x="337" y="578" style="font-size:11.7px;fill:#405870">Complete HIGH; all window terms</text>
+<text x="337" y="610" class="mono" style="font-size:10.3px;fill:#65798f">HighFamilies.lean:107</text></g>
+<g><rect x="324" y="649" width="248" height="150" rx="12" fill="#fffbf0" stroke="#e6cd96"/>
+<rect x="324" y="667" width="3" height="114" rx="1" fill="#9d5d17"/>
+<text x="337" y="673" class="label" style="fill:#9d5d17;font-size:8.4px">EXPLICIT ANALYTIC INPUT</text>
+<text x="337" y="701" style="font-size:18px;font-weight:650">Separate Prawitz</text>
+<text x="337" y="727" style="font-size:11.7px;fill:#405870">Four terms; law-level score bound</text>
+<text x="337" y="747" style="font-size:11.7px;fill:#405870">Not the physical hinge-error budget</text>
+<text x="337" y="779" class="mono" style="font-size:10.3px;fill:#65798f">Prawitz.lean:42</text></g>
+<g><rect x="324" y="818" width="248" height="150" rx="12" fill="#effbf5" stroke="#a7d9c3"/>
+<rect x="324" y="836" width="3" height="114" rx="1" fill="#087451"/>
+<text x="337" y="842" class="label" style="fill:#087451;font-size:8.4px">CHECKED STRUCTURE / ADAPTER</text>
+<text x="337" y="870" style="font-size:18px;font-weight:650">Same law: 25 to 24</text>
+<text x="337" y="896" style="font-size:11.7px;fill:#405870">Full new roots / phases + tails</text>
+<text x="337" y="916" style="font-size:11.7px;fill:#405870">No contact at 24 is manufactured</text>
+<text x="337" y="948" class="mono" style="font-size:10.3px;fill:#65798f">TypedPipeline.lean:936</text></g>
+<rect x="600" y="235" width="268" height="773" rx="16" fill="#eaf0f7"/>
+<text x="614" y="265" style="fill:#355571;font-size:14px;font-weight:700">03  COVERAGE</text>
+<text x="614" y="287" style="fill:#62798d;font-size:12px">Every case and endpoint</text>
+<g><rect x="610" y="311" width="248" height="150" rx="12" fill="#effbf5" stroke="#a7d9c3"/>
+<rect x="610" y="329" width="3" height="114" rx="1" fill="#087451"/>
+<text x="623" y="335" class="label" style="fill:#087451;font-size:8.4px">CHECKED STRUCTURE / ADAPTER</text>
+<text x="623" y="363" style="font-size:18px;font-weight:650">n5 complete regions</text>
+<text x="623" y="389" style="font-size:11.7px;fill:#405870">13 low + 6 Fourier + rho tail</text>
+<text x="623" y="409" style="font-size:11.7px;fill:#405870">Distinct methods and radius inputs</text>
+<text x="623" y="441" class="mono" style="font-size:10.3px;fill:#65798f">Covers.lean:116</text></g>
+<g><rect x="610" y="480" width="248" height="150" rx="12" fill="#effbf5" stroke="#a7d9c3"/>
+<rect x="610" y="498" width="3" height="114" rx="1" fill="#087451"/>
+<text x="623" y="504" class="label" style="fill:#087451;font-size:8.4px">CHECKED STRUCTURE / ADAPTER</text>
+<text x="623" y="532" style="font-size:18px;font-weight:650">n25 closed cover</text>
+<text x="623" y="558" style="font-size:11.7px;fill:#405870">6 rho + 7 beta + 6 beta + tail</text>
+<text x="623" y="578" style="font-size:11.7px;fill:#405870">Signed envelopes; closed seams</text>
+<text x="623" y="610" class="mono" style="font-size:10.3px;fill:#65798f">Cover25.lean:73</text></g>
+<g><rect x="610" y="649" width="248" height="150" rx="12" fill="#effbf5" stroke="#a7d9c3"/>
+<rect x="610" y="667" width="3" height="114" rx="1" fill="#087451"/>
+<text x="623" y="673" class="label" style="fill:#087451;font-size:8.4px">CHECKED STRUCTURE / ADAPTER</text>
+<text x="623" y="701" style="font-size:18px;font-weight:650">Actual-index floor31</text>
+<text x="623" y="727" style="font-size:11.7px;fill:#405870">Eight bands; weighted nD transfer</text>
+<text x="623" y="747" style="font-size:11.7px;fill:#405870">Actual n controls phase and mass</text>
+<text x="623" y="779" class="mono" style="font-size:10.3px;fill:#65798f">Covers.lean:212</text></g>
+<g><rect x="610" y="818" width="248" height="150" rx="12" fill="#effbf5" stroke="#a7d9c3"/>
+<rect x="610" y="836" width="3" height="114" rx="1" fill="#087451"/>
+<text x="623" y="842" class="label" style="fill:#087451;font-size:8.4px">CHECKED STRUCTURE / ADAPTER</text>
+<text x="623" y="870" style="font-size:18px;font-weight:650">Every original root</text>
+<text x="623" y="896" style="font-size:11.7px;fill:#405870">Both children of every tree split</text>
+<text x="623" y="916" style="font-size:11.7px;fill:#405870">No root or closed seam disappears</text>
+<text x="623" y="948" class="mono" style="font-size:10.3px;fill:#65798f">Certificates.lean:79</text></g>
+<rect x="886" y="235" width="268" height="773" rx="16" fill="#eaf0f7"/>
+<text x="900" y="265" style="fill:#355571;font-size:14px;font-weight:700">04  CERTIFICATES</text>
+<text x="900" y="287" style="fill:#62798d;font-size:12px">What acceptance proves</text>
+<g><rect x="896" y="311" width="248" height="150" rx="12" fill="#edf4ff" stroke="#b8d0f5"/>
+<rect x="896" y="329" width="3" height="114" rx="1" fill="#285cb0"/>
+<text x="909" y="335" class="label" style="fill:#285cb0;font-size:8.4px">CONCRETE SEMANTICS</text>
+<text x="909" y="363" style="font-size:18px;font-weight:650">Frozen rational task</text>
+<text x="909" y="389" style="font-size:11.7px;fill:#405870">No unknown law in runtime data</text>
+<text x="909" y="409" style="font-size:11.7px;fill:#405870">Law appears in semantic quantifiers</text>
+<text x="909" y="441" class="mono" style="font-size:10.3px;fill:#65798f">Certificates.lean:216</text></g>
+<g><rect x="896" y="480" width="248" height="150" rx="12" fill="#edf4ff" stroke="#b8d0f5"/>
+<rect x="896" y="498" width="3" height="114" rx="1" fill="#285cb0"/>
+<text x="909" y="504" class="label" style="fill:#285cb0;font-size:8.4px">CONCRETE SEMANTICS</text>
+<text x="909" y="532" style="font-size:18px;font-weight:650">Quantitative meaning</text>
+<text x="909" y="558" style="font-size:11.7px;fill:#405870">Arbitrary same-law count problem</text>
+<text x="909" y="578" style="font-size:11.7px;fill:#405870">Returned cap may exceed early target</text>
+<text x="909" y="610" class="mono" style="font-size:10.3px;fill:#65798f">GeneralCount.lean:57</text></g>
+<g><rect x="896" y="649" width="248" height="150" rx="12" fill="#effbf5" stroke="#a7d9c3"/>
+<rect x="896" y="667" width="3" height="114" rx="1" fill="#087451"/>
+<text x="909" y="673" class="label" style="fill:#087451;font-size:8.4px">CHECKED STRUCTURE / ADAPTER</text>
+<text x="909" y="701" style="font-size:18px;font-weight:650">Exact local inference</text>
+<text x="909" y="727" style="font-size:11.7px;fill:#405870">Rational Farkas multiplier checker</text>
+<text x="909" y="747" style="font-size:11.7px;fill:#405870">Necessary-row binding is mandatory</text>
+<text x="909" y="779" class="mono" style="font-size:10.3px;fill:#65798f">CountRules.lean:45</text></g>
+<g><rect x="896" y="818" width="248" height="150" rx="12" fill="#edf4ff" stroke="#b8d0f5"/>
+<rect x="896" y="836" width="3" height="114" rx="1" fill="#285cb0"/>
+<text x="909" y="842" class="label" style="fill:#285cb0;font-size:8.4px">CONCRETE SEMANTICS</text>
+<text x="909" y="870" style="font-size:18px;font-weight:650">Reference registry</text>
+<text x="909" y="896" style="font-size:11.7px;fill:#405870">One enclosing scope; earlier licenses</text>
+<text x="909" y="916" style="font-size:11.7px;fill:#405870">Admitted data versus selected uses</text>
+<text x="909" y="948" class="mono" style="font-size:10.3px;fill:#65798f">MixedRegistry.lean:72</text></g>
+<rect x="1172" y="235" width="268" height="773" rx="16" fill="#eaf0f7"/>
+<text x="1186" y="265" style="fill:#355571;font-size:14px;font-weight:700">05  ASSEMBLY</text>
+<text x="1186" y="287" style="fill:#62798d;font-size:12px">Actual conditional composition</text>
+<g><rect x="1182" y="311" width="248" height="150" rx="12" fill="#fffbf0" stroke="#e6cd96"/>
+<rect x="1182" y="329" width="3" height="114" rx="1" fill="#9d5d17"/>
+<text x="1195" y="335" class="label" style="fill:#9d5d17;font-size:8.4px">EXPLICIT ANALYTIC INPUT</text>
+<text x="1195" y="363" style="font-size:18px;font-weight:650">Small-index providers</text>
+<text x="1195" y="389" style="font-size:11.7px;fill:#405870">n2 tensor versus n3 null basis</text>
+<text x="1195" y="409" style="font-size:11.7px;fill:#405870">Exact row meaning + large-rho case</text>
+<text x="1195" y="441" class="mono" style="font-size:10.3px;fill:#65798f">Assembly.lean:34</text></g>
+<g><rect x="1182" y="480" width="248" height="150" rx="12" fill="#effbf5" stroke="#a7d9c3"/>
+<rect x="1182" y="498" width="3" height="114" rx="1" fill="#087451"/>
+<text x="1195" y="504" class="label" style="fill:#087451;font-size:8.4px">CHECKED STRUCTURE / ADAPTER</text>
+<text x="1195" y="532" style="font-size:18px;font-weight:650">Weak ROOT4 output</text>
+<text x="1195" y="558" style="font-size:11.7px;fill:#405870">Strong n3 input; chosen owner</text>
+<text x="1195" y="578" style="font-size:11.7px;fill:#405870">score &lt;= 0.4097 is sufficient</text>
+<text x="1195" y="610" class="mono" style="font-size:10.3px;fill:#65798f">Root4.lean:134</text></g>
+<g><rect x="1182" y="649" width="248" height="150" rx="12" fill="#effbf5" stroke="#a7d9c3"/>
+<rect x="1182" y="667" width="3" height="114" rx="1" fill="#087451"/>
+<text x="1195" y="673" class="label" style="fill:#087451;font-size:8.4px">CHECKED STRUCTURE / ADAPTER</text>
+<text x="1195" y="701" style="font-size:18px;font-weight:650">Build finite contracts</text>
+<text x="1195" y="727" style="font-size:11.7px;fill:#405870">All literal indices 1 through 48</text>
+<text x="1195" y="747" style="font-size:11.7px;fill:#405870">Typed methods supply every field</text>
+<text x="1195" y="779" class="mono" style="font-size:10.3px;fill:#65798f">Assembly.lean:166</text></g>
+<g><rect x="1182" y="818" width="248" height="150" rx="12" fill="#effbf5" stroke="#a7d9c3"/>
+<rect x="1182" y="836" width="3" height="114" rx="1" fill="#087451"/>
+<text x="1195" y="842" class="label" style="fill:#087451;font-size:8.4px">CHECKED STRUCTURE / ADAPTER</text>
+<text x="1195" y="870" style="font-size:18px;font-weight:650">Independent tail49+</text>
+<text x="1195" y="896" style="font-size:11.7px;fill:#405870">Three backward losses at base49</text>
+<text x="1195" y="916" style="font-size:11.7px;fill:#405870">No all-1..48 theorem as an input</text>
+<text x="1195" y="948" class="mono" style="font-size:10.3px;fill:#65798f">TailAssembly.lean:454</text></g>
+<rect x="28" y="1044" width="1424" height="140" rx="16" fill="#effbf5" stroke="#a7d9c3"/>
+<text x="56" y="1075" class="label" style="fill:#087451">FINAL CHECKED CONDITIONAL STATEMENTS</text>
+<text x="56" y="1110" class="mono" style="font-size:20px;font-weight:600">all_indices_from_typed_providers  →  every n ≥ 1: C_n ≤ C_E</text>
+<text x="56" y="1146" class="mono" style="font-size:20px;font-weight:600">sharp_from_typed_providers        →  globalConstant = C_E</text>
+<text x="56" y="1170" style="font-size:12px;fill:#4b7665">The second statement additionally consumes the separate lower approximation.</text>
+<text x="42" y="1221" style="font-size:13px;fill:#536b82">Five complementary contract views, not five sequential hypotheses of one theorem. Exact signatures are authoritative.</text>
+<text x="42" y="1250" style="font-size:13px;fill:#536b82">Blue = concrete meaning · Green = checked structure / implication · Amber = precisely stated analytic premise</text>
+<text x="42" y="1279" style="font-size:13px;fill:#536b82">Specification: docs/contracts/README.md · Source audit: docs/contracts/AUDIT.md · Verification: check-All.json</text>
+</svg>

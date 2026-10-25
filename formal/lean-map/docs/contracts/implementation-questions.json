@@ -1,0 +1,2243 @@
+{
+  "audit_basis": "Implementation ambiguity and exact source alignment; full formal reproving of accepted analytic theorems is not required at this stage.",
+  "source": {
+    "file": "berry_esseen_manuscript.tex",
+    "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+    "baseline_repository_commit": "6ca9730273c81447be4863824c0b7d012db0e8b8"
+  },
+  "phase": "final global source re-review complete; A24 resolved; compilation reported separately",
+  "source_alignment": [
+    {
+      "id": "CONTACT-THRESHOLD",
+      "lean": {
+        "file": "BEMap/Domain.lean",
+        "declaration": "ContactAt"
+      },
+      "source": {
+        "manuscript_label": "cut49:global:attainment",
+        "line": 368
+      },
+      "status": "scoped_design",
+      "exact_semantics": "One fixed n and floor; unrestricted standardized P; normalized closed-CDF threshold; global optimal score. No assertion of extraction at every arbitrary floor.",
+      "required_side_conditions_or_warning": "FixedIndexExtraction only for strict floor<C_n; ClosedIndexExtraction separately for equality. Every instance must bind its actual source threshold.",
+      "comparison_class": "matched",
+      "reviewed_lean_snapshot_sha256": "4233deadba6eb22b55b6f3529c903f3ddd006399f11f107b81593f91a2c6f9af"
+    },
+    {
+      "id": "CONTACT-POLYNOMIAL",
+      "lean": {
+        "file": "BEMap/Physical.lean",
+        "declaration": "ContactMajorant"
+      },
+      "source": {
+        "manuscript_label": "afcore:eq:contact-polynomial",
+        "line": 1382
+      },
+      "status": "exact_equations",
+      "exact_semantics": "n>=2; actual score C>0; h(y)<=Q_H(y) for all real y; equality on the actual closed support.",
+      "required_side_conditions_or_warning": "rawCDF and normalized CDF require ContactNormalizationEvidence; no programmer-selected rescaling.",
+      "comparison_class": "matched",
+      "reviewed_lean_snapshot_sha256": "73930fb4e53b2039f07ebe1e303c9f28ec83db97261e750008bb31a6385bfb46"
+    },
+    {
+      "id": "GAP-DEFINITIONS",
+      "lean": {
+        "file": "BEMap/Physical.lean",
+        "declaration": "SupportGap"
+      },
+      "source": {
+        "manuscript_label": "afcore:eq:gap-definitions",
+        "line": 1414
+      },
+      "status": "exact_equations",
+      "exact_semantics": "All bounded complementary intervals of actual closed support, not arbitrary subgaps; tau at an interior midpoint; L uses [a,b).",
+      "required_side_conditions_or_warning": "Summability, nonnegative D and L are mandatory analytic evidence. Lebesgue endpoints in J1/J2 do not affect the integral.",
+      "comparison_class": "matched",
+      "reviewed_lean_snapshot_sha256": "73930fb4e53b2039f07ebe1e303c9f28ec83db97261e750008bb31a6385bfb46"
+    },
+    {
+      "id": "DEFECT-DISTINCTION",
+      "lean": {
+        "file": "BEMap/Physical.lean",
+        "declaration": "matchingMomentDefect"
+      },
+      "source": {
+        "manuscript_label": "afcore:eq:gap-definitions",
+        "line": 1414
+      },
+      "status": "distinct_by_design",
+      "exact_semantics": "Physical D=(3+sqrt(10))rho-gamma-3J differs from rho-(gamma²+2)/sqrt(gamma²+4).",
+      "required_side_conditions_or_warning": "ROOT4 additionally has eta=rho(P)-rho(Q3), also a distinct quantity.",
+      "comparison_class": "matched",
+      "reviewed_lean_snapshot_sha256": "73930fb4e53b2039f07ebe1e303c9f28ec83db97261e750008bb31a6385bfb46"
+    },
+    {
+      "id": "CONSERVED",
+      "lean": {
+        "file": "BEMap/Physical.lean",
+        "declaration": "ConservedIdentity"
+      },
+      "source": {
+        "manuscript_label": "afcore:prop:conserved",
+        "line": 1581
+      },
+      "status": "exact_equations",
+      "exact_semantics": "One law and raw threshold; E_n=-n sqrt(n) epsilon/2; Kq, K1 and U use the exact fourth/fifth/gap moments.",
+      "required_side_conditions_or_warning": "Nonnegativity of the whole left budget additionally needs C>=C_E; a generic floor below C_E does not imply this.",
+      "comparison_class": "matched",
+      "reviewed_lean_snapshot_sha256": "73930fb4e53b2039f07ebe1e303c9f28ec83db97261e750008bb31a6385bfb46"
+    },
+    {
+      "id": "COMPENSATION",
+      "lean": {
+        "file": "BEMap/Fourier.lean",
+        "declaration": "compensatedRemainder"
+      },
+      "source": {
+        "manuscript_label": "afcore:eq:epsilon",
+        "line": 1572
+      },
+      "status": "exact_equations",
+      "exact_semantics": "V_n(t)=f(t)^n-exp(-nt²/2)(1-i n gamma t³/6); phase exp(-itH); raw H.",
+      "required_side_conditions_or_warning": "The positive-half-line split must retain the complete infinite tail and integrability.",
+      "comparison_class": "matched",
+      "reviewed_lean_snapshot_sha256": "815eac957cafea66666cce5a53c7a92618ae811c7a9e4e6d0371ef3f0fcb9a98"
+    },
+    {
+      "id": "FINITE-LOW",
+      "lean": {
+        "file": "BEMap/FourierFamilies.lean",
+        "declaration": "FiniteWindowLowInputs"
+      },
+      "source": {
+        "manuscript_label": "rescore:lem:finite-low",
+        "line": 1965
+      },
+      "status": "matched_source_statement",
+      "exact_semantics": "n>2; b=1/2; R∈[1,6]; fourth/fifth/absolute gamma gates; complete coherent L0,LH,L2.",
+      "required_side_conditions_or_warning": "No coordinatewise minima. The generic LowBound alone is not the source family constructor.",
+      "comparison_class": "matched",
+      "reviewed_lean_snapshot_sha256": "81cc3ac500c6730672f81706ae8032b7585109bf80352e6e04d0bc8932f49ad3"
+    },
+    {
+      "id": "FINITE-GAUSSIAN",
+      "lean": {
+        "file": "BEMap/FourierFamilies.lean",
+        "declaration": "finiteGaussianIntegral"
+      },
+      "source": {
+        "manuscript_label": "rescore:eq:finite-gaussian-integral",
+        "line": 2040
+      },
+      "status": "matched_definition_evaluator_separate",
+      "exact_semantics": "Taylor bounds use the exact finite series and signed remainder. A restricted evaluator must enforce A∈[0,8], j<=16.",
+      "required_side_conditions_or_warning": "An out-of-domain evaluator returns not-applicable, never an exclusion.",
+      "comparison_class": "matched",
+      "reviewed_lean_snapshot_sha256": "81cc3ac500c6730672f81706ae8032b7585109bf80352e6e04d0bc8932f49ad3"
+    },
+    {
+      "id": "WEIGHTED-EXPORT",
+      "lean": {
+        "file": "BEMap/TypedPipeline.lean",
+        "declaration": "GeometryInput"
+      },
+      "source": {
+        "manuscript_label": "rescore:re-exports",
+        "line": 2581
+      },
+      "status": "matched_equations_scoped_analytic_premise",
+      "exact_semantics": "Actual n and floor N; nD<=N d. Exports n theta, n dY and lambda have N-based formulas and positive denominators.",
+      "required_side_conditions_or_warning": "Multiplying an unweighted cap by N is not the same theorem. Exact update rules and outward direction must be specified.",
+      "comparison_class": "matched",
+      "reviewed_lean_snapshot_sha256": "a7b6d13a4a131aede5bc5183672865d9a34ea421320ca058919a5bfbeddcf7fb"
+    },
+    {
+      "id": "BINARY-LAW",
+      "lean": {
+        "file": "BEMap/Binary.lean",
+        "declaration": "BinaryModel"
+      },
+      "source": {
+        "manuscript_label": "countcore:representation",
+        "line": 4063
+      },
+      "status": "exact_equations",
+      "exact_semantics": "p=P(X>0); zero atom in nonpositive class; h=pq/m; U=hX-I+p; conditional laws are exact normalized restrictions.",
+      "required_side_conditions_or_warning": "Zero-noise is not discarded; conditional moments need integrability before use.",
+      "comparison_class": "matched",
+      "reviewed_lean_snapshot_sha256": "9b7532b18744d4c95c8229d435bf15c95a0095d74b0c81a518329af87342a575"
+    },
+    {
+      "id": "COUNT-MIXTURE",
+      "lean": {
+        "file": "BEMap/Binary.lean",
+        "declaration": "CountIdentity"
+      },
+      "source": {
+        "manuscript_label": "countcore:countidentity",
+        "line": 4095
+      },
+      "status": "exact_equations",
+      "exact_semantics": "All k=0,...,n via Fin(n+1); count laws are convolutions of the two exact conditional laws.",
+      "required_side_conditions_or_warning": "Strict outgoing is 1-CDFclosed; incoming is CDFclosed. No atom-at-threshold switch.",
+      "comparison_class": "matched",
+      "reviewed_lean_snapshot_sha256": "9b7532b18744d4c95c8229d435bf15c95a0095d74b0c81a518329af87342a575"
+    },
+    {
+      "id": "COUNT-NORMALIZATION",
+      "lean": {
+        "file": "BEMap/TypedPipeline.lean",
+        "declaration": "score_le_normalized_count_upper"
+      },
+      "source": {
+        "manuscript_label": "countcore:scoretheorem",
+        "line": 4653
+      },
+      "status": "matched_derived_bound",
+      "exact_semantics": "Positive lower rho; upper sqrt(n); normal lower bound at the same normalized threshold; positive part after probability comparison.",
+      "required_side_conditions_or_warning": "Own binomial mass lower bound and incoming upper bounds must be nonnegative before substitutions.",
+      "comparison_class": "matched",
+      "reviewed_lean_snapshot_sha256": "a7b6d13a4a131aede5bc5183672865d9a34ea421320ca058919a5bfbeddcf7fb"
+    },
+    {
+      "id": "COUNT-FOREST",
+      "lean": {
+        "file": "BEMap/Certificates.lean",
+        "declaration": "CompleteCountForest"
+      },
+      "source": {
+        "manuscript_label": "countcore:forest",
+        "line": 4729
+      },
+      "status": "structural_match",
+      "exact_semantics": "Every original product, all n+1 roots, both closed children and strict interior cut.",
+      "required_side_conditions_or_warning": "Coverage must precede necessary-condition contraction; equality is not emptiness.",
+      "comparison_class": "matched",
+      "reviewed_lean_snapshot_sha256": "87d01bcf090b39452bad408c68ecac263470c53a01eb4f8d35ab9184a52c3d0d"
+    },
+    {
+      "id": "COUNT-PHASE",
+      "lean": {
+        "file": "BEMap/Certificates.lean",
+        "declaration": "PhaseConfinement"
+      },
+      "source": {
+        "manuscript_label": "countcore:forest",
+        "line": 4729
+      },
+      "status": "structural_match",
+      "exact_semantics": "A nearest root with phase[-1/2,1/2] is valid only when np+hH∈[-1/2,n+1/2].",
+      "required_side_conditions_or_warning": "The two exterior threshold rays need separate methods whenever confinement is not acquired.",
+      "comparison_class": "matched",
+      "reviewed_lean_snapshot_sha256": "87d01bcf090b39452bad408c68ecac263470c53a01eb4f8d35ab9184a52c3d0d"
+    },
+    {
+      "id": "ROOT4-TARGET",
+      "lean": {
+        "file": "BEMap/Root4.lean",
+        "declaration": "Root4Provider"
+      },
+      "source": {
+        "manuscript_label": "n4all:thm:main",
+        "line": 5490
+      },
+      "status": "matched_weak_bound_after_revision",
+      "exact_semantics": "Source: C4>T => unrestricted owner; complete bounded-class certificate gives weak score<=T. Equality C4=T is not excluded.",
+      "required_side_conditions_or_warning": "The actual checker root4.py accepts upper<=TARGET. Requiring a positive margin below T is a false near-match.",
+      "comparison_class": "matched",
+      "reviewed_lean_snapshot_sha256": "601b2f7be29f85f8ba57bcce415bee4127f49bd8333626f805e8104adf0acfcc"
+    },
+    {
+      "id": "ROOT4-REFERENCE",
+      "lean": {
+        "file": "BEMap/Root4.lean",
+        "declaration": "Root4CanonicalEvidence"
+      },
+      "source": {
+        "manuscript_label": "n4all:eq:reference",
+        "line": 5518
+      },
+      "status": "matched_canonical_equations",
+      "exact_semantics": "Q3 uses u, a=(1-beta)/(2u), b=(1+beta)/(2u), w=4u²/(1-beta²). eta=rho(P)-rho(Q3).",
+      "required_side_conditions_or_warning": "Reference permits zero atom. One actual weighted defect measure supplies all frequency responses.",
+      "comparison_class": "matched",
+      "reviewed_lean_snapshot_sha256": "601b2f7be29f85f8ba57bcce415bee4127f49bd8333626f805e8104adf0acfcc"
+    },
+    {
+      "id": "ROOT4-OWNER",
+      "lean": {
+        "file": "BEMap/Root4.lean",
+        "declaration": "Root4PhysicalClass"
+      },
+      "source": {
+        "manuscript_label": "n4all:lem:owner",
+        "line": 5571
+      },
+      "status": "matched_by_explicit_weakening",
+      "exact_semantics": "Strong quantitative n3 bound; C4>c0=256/625; support<101/25, rho<46/25, w>625/2116, |beta|<321/500.",
+      "required_side_conditions_or_warning": "It is not an all-law restriction to three atoms and not derivable merely from C3<=C_E.",
+      "comparison_class": "weaker_localization_into_exact_certificate_class",
+      "reviewed_lean_snapshot_sha256": "601b2f7be29f85f8ba57bcce415bee4127f49bd8333626f805e8104adf0acfcc"
+    },
+    {
+      "id": "ROOT4-COVER",
+      "lean": {
+        "file": "BEMap/Root4.lean",
+        "declaration": "Root4Parent"
+      },
+      "source": {
+        "manuscript_label": "n4all:prop:certificate",
+        "line": 6089
+      },
+      "status": "matched_recipe_not_full_lean_numeric_constructor",
+      "exact_semantics": "260 closed parents; complete parent or all4 children; low/high eta pieces;58 thresholds+57 joins+2tails; both reflected laws.",
+      "required_side_conditions_or_warning": "Checker acceptance is weak <=T. A frequency-by-frequency choice of unknown defect law is invalid.",
+      "comparison_class": "matched_documented_recipe_typed_coverage_not_complete",
+      "reviewed_lean_snapshot_sha256": "601b2f7be29f85f8ba57bcce415bee4127f49bd8333626f805e8104adf0acfcc"
+    },
+    {
+      "id": "N5-COVER",
+      "lean": {
+        "file": "BEMap/Covers.lean",
+        "declaration": "n5_cover"
+      },
+      "source": {
+        "manuscript_label": "five:eq:benclosures",
+        "line": 6240
+      },
+      "status": "structural_match",
+      "exact_semantics": "13 low pieces (12 resource/count and one support-free corner),6 Fourier bands with required radii, inclusive rho tail.",
+      "required_side_conditions_or_warning": "Beta endpoint enclosures are explicit analytic/scalar premises. A method tag alone is not that method evidence.",
+      "comparison_class": "matched",
+      "reviewed_lean_snapshot_sha256": "adda7e96f5228e539e3fad037f1fa8b5c610ba448f3731d5e65d633316f70d6f"
+    },
+    {
+      "id": "COUNT-A0",
+      "lean": {
+        "file": "BEMap/TypedPipeline.lean",
+        "declaration": "CountReadyState"
+      },
+      "source": {
+        "file": "proof/code_count_kernel_audit.md",
+        "line": 356
+      },
+      "status": "matched_after_revision",
+      "exact_semantics": "Original fifth coordinate is a0=p-hA. Total inward dY=a0+a1 is different.",
+      "required_side_conditions_or_warning": "The joint resource cap bounds the sum; it does not identify the sum with a0.",
+      "comparison_class": "matched",
+      "reviewed_lean_snapshot_sha256": "a7b6d13a4a131aede5bc5183672865d9a34ea421320ca058919a5bfbeddcf7fb"
+    },
+    {
+      "id": "COUNT-COUPLED-GAUSSIAN",
+      "lean": {
+        "file": "BEMap/TypedPipeline.lean",
+        "declaration": "CoherentCountNormalEnvelope"
+      },
+      "source": {
+        "file": "proof/code_count_engine_audit.md",
+        "line_ranges": [
+          [
+            29,
+            34
+          ]
+        ]
+      },
+      "status": "matched_after_revision",
+      "exact_semantics": "The Gaussian-slope-cancelled incoming scalar is valid as a combined difference with the normal envelope.",
+      "required_side_conditions_or_warning": "A direct-probability envelope is a separate valid strategy, not an interpretation of that coupled output.",
+      "comparison_class": "matched",
+      "reviewed_lean_snapshot_sha256": "a7b6d13a4a131aede5bc5183672865d9a34ea421320ca058919a5bfbeddcf7fb"
+    },
+    {
+      "id": "MIXED-PANEL-VS-INDEX",
+      "lean": {
+        "file": "BEMap/Mixed.lean",
+        "declaration": "EPointwiseTheorem"
+      },
+      "source": {
+        "file": "proof/code_n25_p24_pointwise_audit.md",
+        "sections": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "status": "matched_selected_E_chord_AB_C_D_F_semantics",
+      "exact_semantics": "p24 E is a probability panel with summand index25; AB alone transfers same law to summand24.",
+      "required_side_conditions_or_warning": "E/C/F are phase-free law contradictions; D retains root/fullbox and source-specific prefix gates; completed AB uses same-law24 followed by actual new-q stages and an original-count5 ordinary subtree.",
+      "comparison_class": "matched",
+      "reviewed_lean_snapshot_sha256": "ddf4362fbe5e82b59615182a61c541497bd90a8fe2bb2e51ac4d59352f4ed620"
+    },
+    {
+      "id": "HIGH-WINDOW50",
+      "lean": {
+        "file": "BEMap/HighFamilies.lean",
+        "declaration": "Window50Theorem"
+      },
+      "source": {
+        "file": "berry_esseen_manuscript.tex",
+        "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+        "line_ranges": [
+          [
+            2104,
+            2260
+          ],
+          [
+            3229,
+            3251
+          ]
+        ]
+      },
+      "status": "matched_exact_selected_family",
+      "comparison_class": "matched",
+      "exact_semantics": "n>=5, actual same-law measurable product event P(E)>=a>0, distance>=d0>0, conditional squared distance<=ME, fourth integrability and moment bound, gamma envelope; complete six-term scaled compensated HIGH at split1/2.",
+      "required_side_conditions_or_warning": "All6 contributions mandatory; pointwise optional refinedfirst needs slope>0. Auxiliaryb=.9 differs from finalsplit=.5. Event acquisition recipes and outward direction in HIGH.md.",
+      "reviewed_lean_snapshot_sha256": "0035b64629b1221ddc2e6affa38f1067a175d90328bfb80fe1c2e6cc2d0c1130"
+    },
+    {
+      "id": "HIGH-WINDOW50-UNIFORM",
+      "lean": {
+        "file": "BEMap/HighFamilies.lean",
+        "declaration": "window50_uniform_scaled"
+      },
+      "source": {
+        "file": "berry_esseen_manuscript.tex",
+        "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+        "line_ranges": [
+          [
+            2155,
+            2164
+          ],
+          [
+            2252,
+            2260
+          ]
+        ]
+      },
+      "status": "matched_exact_scaled_strength_after_revision",
+      "comparison_class": "matched",
+      "exact_semantics": "For actualn>=N>=5, exact six-term U(n)<=U(N), with four rates 2*N*cprime>1, extra2*N*c0>1 onlyrefinedfirst, extraN*kappa*b^2>=1/4 onlyrefinedzero.",
+      "required_side_conditions_or_warning": "CompleteScaledHigh retains sqrt(actualn)*I(actualn)<=U(N); unscaledadapter rounds withactualn, notfloorN. No monotonicity of clipped numerical helper assumed.",
+      "reviewed_lean_snapshot_sha256": "0035b64629b1221ddc2e6affa38f1067a175d90328bfb80fe1c2e6cc2d0c1130"
+    },
+    {
+      "id": "HIGH-SUPPORTED-POWER",
+      "lean": {
+        "file": "BEMap/HighFamilies.lean",
+        "declaration": "SupportedPowerTheorem"
+      },
+      "source": {
+        "file": "berry_esseen_manuscript.tex",
+        "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+        "label": "rescore:lem:compensated-high",
+        "line_ranges": [
+          [
+            2289,
+            2353
+          ]
+        ]
+      },
+      "status": "matched_exact_selected_family",
+      "comparison_class": "matched",
+      "exact_semantics": "n>=2, actual support/moment/gamma² bounds with integrability, .5<T<pi, complete finite strict closed partition, whole-cell modulus cap and min(Cn,Tn) upper; both complete infinite tails.",
+      "required_side_conditions_or_warning": "No physical gap/predecessor required. Real exponent(n-2)/2 and exact t^-3 cellweights retained. Whole-cell controls are not midpoint samples.",
+      "reviewed_lean_snapshot_sha256": "0035b64629b1221ddc2e6affa38f1067a175d90328bfb80fe1c2e6cc2d0c1130"
+    },
+    {
+      "id": "MIXED-REFERENCE-SCOPE",
+      "lean": {
+        "file": "BEMap/MixedRegistry.lean",
+        "declaration": "ReferenceUse"
+      },
+      "source": {
+        "archive": "cutoff25_20261013.zip",
+        "archive_sha256": "a97f3e6e50e428df0893304bcd2f746851c9fccef2079b1ec66be9ab909d7f2c",
+        "member": "cutoff25_20261013/root/sparse_local_acquisition_v1/matching.py",
+        "sha256": "5ffd5aa4f52cb7772b59d9d77376e80747e04bb8eca0bf53c35d2865e5c7d278",
+        "line_ranges": [
+          [
+            40,
+            58
+          ]
+        ]
+      },
+      "status": "matched_exact_selected_rule_and_explicit_trust_boundary",
+      "comparison_class": "matched",
+      "exact_semantics": "Every reuse matches the entire original context, source epoch/cfg identity and containment in ONE acquired phase-free law scope or full five-coordinate box.",
+      "required_side_conditions_or_warning": "Several overlapping references require an explicit partition; they cannot be stitched into a stronger acquired theorem.",
+      "reviewed_lean_snapshot_sha256": "a132c52b118ed946f5a478ac985873ef7c3cab9db899e8b9437ab019c0f63851"
+    },
+    {
+      "id": "MIXED-D-FINISHED",
+      "lean": {
+        "file": "BEMap/MixedRegistry.lean",
+        "declaration": "AcceptedFinishedPointwiseTheorem"
+      },
+      "source": {
+        "archive": "cutoff25_20261013.zip",
+        "archive_sha256": "a97f3e6e50e428df0893304bcd2f746851c9fccef2079b1ec66be9ab909d7f2c",
+        "member": "cutoff25_20261013/low/pointwise_inward_defect_v2/pointwise_inward_v2.py",
+        "sha256": "9c8b78578dcdef7863dc933bc142eb2c9b1b4f5e29fd49cca7497a2f4a4fbde3",
+        "line_ranges": [
+          [
+            7,
+            24
+          ],
+          [
+            40,
+            74
+          ]
+        ]
+      },
+      "status": "matched_exact_selected_rule_and_explicit_trust_boundary",
+      "comparison_class": "matched",
+      "exact_semantics": "Same E ratio with endpoint-aware gates t0=1-d-U0>=0,t1=1-d-U1>=0; V0upper<=pl*t0,V1upper<=(1-pu)*t1. Exact acquired rho interval and actual-law membership.",
+      "required_side_conditions_or_warning": "Strict upper compares to acquired prefix rho lower; no equality with original lower and no generic stronger1-2d gates are required. Export mapping member4db0d6809f4f474a74003a57c43711dd206c311a784c08c8383c6dc6ccd5b0ad lines31-46.",
+      "reviewed_lean_snapshot_sha256": "a132c52b118ed946f5a478ac985873ef7c3cab9db899e8b9437ab019c0f63851"
+    },
+    {
+      "id": "MIXED-D-NORMALIZED",
+      "lean": {
+        "file": "BEMap/MixedRegistry.lean",
+        "declaration": "AcceptedNormalizedDefectTheorem"
+      },
+      "source": {
+        "archive": "cutoff25_20261013.zip",
+        "archive_sha256": "a97f3e6e50e428df0893304bcd2f746851c9fccef2079b1ec66be9ab909d7f2c",
+        "member": "cutoff25_20261013/archive_audit/normalized_defect_rho_v1/normalized.py",
+        "sha256": "884be5be6a80072d15eaac1d5070493f2141f9b925e04fbcd557a8bc2e561577",
+        "line_ranges": [
+          [
+            1,
+            76
+          ]
+        ]
+      },
+      "status": "matched_exact_selected_rule_and_explicit_trust_boundary",
+      "comparison_class": "matched",
+      "exact_semantics": "Separate normalized canceled-D numerator with phi(L0,L1), endpoint upper terms and -2s²alpha²/(pO1), divided by(v+s)^(3/2). Whole-box upper derives strict acquired-rho contradiction.",
+      "required_side_conditions_or_warning": "Closed floor fit and positive denominators required. Optimized alpha maximization uses clipped concave vertex plus endpoints and s=0 case; negative numerator divides by upper denominator.",
+      "reviewed_lean_snapshot_sha256": "a132c52b118ed946f5a478ac985873ef7c3cab9db899e8b9437ab019c0f63851"
+    },
+    {
+      "id": "MIXED-AB-COMPLETE",
+      "lean": {
+        "file": "BEMap/MixedRegistry.lean",
+        "declaration": "CompletedABAcquisition"
+      },
+      "source": {
+        "archive": "cutoff25_20261013.zip",
+        "archive_sha256": "a97f3e6e50e428df0893304bcd2f746851c9fccef2079b1ec66be9ab909d7f2c",
+        "member": "cutoff25_20261013/archive_audit/b5_sparse_halfline_review_v1/check_scalar_v2.py",
+        "sha256": "b48c21f1e988b2df51909818dfbf4a8d2bc130d07d37cc6cdb6eb8b42852e7bf",
+        "line_ranges": [
+          [
+            1,
+            90
+          ]
+        ]
+      },
+      "status": "matched_exact_selected_rule_and_explicit_trust_boundary",
+      "comparison_class": "matched",
+      "exact_semantics": "Original count5 owner/box -> three old-q cap stages -> same-law24 complete closed half-lines -> three actual new-q cap stages -> exact final caps/post-context -> complete original ancestor ordinary25 subtree.",
+      "required_side_conditions_or_warning": "AB ray allowance alone is not the acquired exclusion; all tails and whole rays are mandatory. Requiring a full26-root ordinary proof would strengthen the source.",
+      "reviewed_lean_snapshot_sha256": "a132c52b118ed946f5a478ac985873ef7c3cab9db899e8b9437ab019c0f63851"
+    },
+    {
+      "id": "MIXED-MANIFEST-DAG",
+      "lean": {
+        "file": "BEMap/MixedRegistry.lean",
+        "declaration": "OriginalP25Admission"
+      },
+      "source": {
+        "archive": "cutoff25_20261013.zip",
+        "archive_sha256": "a97f3e6e50e428df0893304bcd2f746851c9fccef2079b1ec66be9ab909d7f2c",
+        "member": "cutoff25_20261013/root/global25_final_v2/GLOBAL_C25_COMPLETE_JOINED_V1.json",
+        "sha256": "abae7a25b9b82d8b0dd0fc691d33944038d2ffc6707c6f387561f8f17437563d",
+        "line_ranges": []
+      },
+      "status": "matched_exact_selected_rule_and_explicit_trust_boundary",
+      "comparison_class": "matched",
+      "exact_semantics": "Exact approved source manifest and entry bijection bind whole contexts/scopes/IDs/dependency lists/rules; acquire builders consume earlier proofs. 128 admitted versus76 selected occurrences are separate data.",
+      "required_side_conditions_or_warning": "Completeness/authenticity of source-to-manifest mapping is an explicit source-traceability input, not inferred from hashes or counts. Selected D shape17 counts9..25 phase +one count5 finished is typed separately.",
+      "reviewed_lean_snapshot_sha256": "a132c52b118ed946f5a478ac985873ef7c3cab9db899e8b9437ab019c0f63851"
+    },
+    {
+      "id": "TAIL-UNIFORM-LOCAL",
+      "lean": {
+        "file": "BEMap/UniformTail.lean",
+        "declaration": "UniformLocalProvider.reject"
+      },
+      "source": {
+        "file": "berry_esseen_manuscript.tex",
+        "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+        "label": "cut49:global:local;cut49:shortloc:theorem",
+        "line_ranges": [
+          [
+            7538,
+            7571
+          ],
+          [
+            8217,
+            8421
+          ],
+          [
+            8830,
+            8883
+          ]
+        ]
+      },
+      "status": "matched_uniform_comparison_meanings_and_derived_exclusion",
+      "comparison_class": "matched",
+      "exact_semantics": "The scalar proposition quantifies every n>=47 with explicit excess/drop/own/deleted caps. Its conditional source proof needs acquired83panel resources and rhoB(C-CB)<-.001lambda over a complete uniform local comparison cover, or zero-noise Bernoulli.",
+      "required_side_conditions_or_warning": "UniformAcquisitionLicense is combined analytic/numerical evidence for the concrete row caps, not proved analysis. Exact frame,83panels,NormalizerGates,TINY arbitrary positive lambda and separate0,wholeKernelLicense and closed coverage are explicit.",
+      "reviewed_lean_snapshot_sha256": "4a4aed84a2c03b94a1cdeb2ed3c08560853540d91053d384a31e90eed26bcf6b"
+    },
+    {
+      "id": "TAIL-AUXILIARY-ACQUISITION",
+      "lean": {
+        "file": "BEMap/TailAssembly.lean",
+        "declaration": "BarrierResourceMeaning;TailMethodProviders.contracts"
+      },
+      "source": {
+        "file": "berry_esseen_manuscript.tex",
+        "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+        "label": "cut49:global:finitecontracts;cut49:bar46:resource",
+        "line_ranges": [
+          [
+            7513,
+            7535
+          ],
+          [
+            7574,
+            7612
+          ],
+          [
+            8096,
+            8215
+          ]
+        ]
+      },
+      "status": "matched_barrier_job_meaning_and_constructed_auxiliary_exports",
+      "comparison_class": "matched",
+      "exact_semantics": "A40/P41/A45/P46/A46 supported finite barrier-resource schedules establish auxiliary0.7/n and strong46 ceilings by a terminal negative physicalD upper. Their states can reuse actual-law resource definitions.",
+      "required_side_conditions_or_warning": "Fixed resource jobs preserveK/indexbands/R/Ccap/passcounts,strict chronologicalraw/nD exports,warm/density licenses,pairedLOW rectangles and sourcephase correction. Analytic envelopes useweak<=; numerical outward comparisons usestrict<. AuxiliaryScalarReduction remains an explicit analytic implication consuming actual supported numerical exclusions.",
+      "reviewed_lean_snapshot_sha256": "474926091faa6d1239b686ccb880ed150d6dccdfedb88789abb24570ad0e549a"
+    },
+    {
+      "id": "TAIL-LOCAL-FRAME",
+      "lean": {
+        "file": "BEMap/UniformTail.lean",
+        "declaration": "LocalFrame;MasterIdentityTheorem"
+      },
+      "source": {
+        "file": "berry_esseen_manuscript.tex",
+        "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+        "line_ranges": [
+          [
+            8228,
+            8269
+          ]
+        ]
+      },
+      "status": "matched_exact_tail_contract_after_A24_review",
+      "comparison_class": "matched",
+      "exact_semantics": "Same actual binary conditional laws,interior nearest count,rawH/phase/delta,rhoB andCB;normalizedGaussianincrement,repair and exact master identity.",
+      "required_side_conditions_or_warning": "rhoB differs fromrho(X),CB differs from a predecessor constant. Actualn is never replaced by47 in distributions or threshold normalization.",
+      "reviewed_lean_snapshot_sha256": "4a4aed84a2c03b94a1cdeb2ed3c08560853540d91053d384a31e90eed26bcf6b"
+    },
+    {
+      "id": "TAIL-NORMALIZER",
+      "lean": {
+        "file": "BEMap/UniformTail.lean",
+        "declaration": "NormalizerGates;Normalization"
+      },
+      "source": {
+        "file": "berry_esseen_manuscript.tex",
+        "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+        "line_ranges": [
+          [
+            8317,
+            8421
+          ]
+        ]
+      },
+      "status": "matched_exact_tail_contract_after_A24_review",
+      "comparison_class": "matched",
+      "exact_semantics": "Exact N47 entropy/Stirling/mass/mode/logderivative/variance/ratio/cubic-repair gates with actual-law semantic Normalization.",
+      "required_side_conditions_or_warning": "Positive denominators,mode upper separate frommasslower,omegaMinus>0,actualdeltaPositive, andv+s potentially>.25 retained.",
+      "reviewed_lean_snapshot_sha256": "4a4aed84a2c03b94a1cdeb2ed3c08560853540d91053d384a31e90eed26bcf6b"
+    },
+    {
+      "id": "TAIL-LOCAL-CELLS",
+      "lean": {
+        "file": "BEMap/UniformTail.lean",
+        "declaration": "CellMeaning;WholeKernelLicense;LocalCertificate"
+      },
+      "source": {
+        "file": "berry_esseen_manuscript.tex",
+        "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+        "line_ranges": [
+          [
+            8271,
+            8313
+          ],
+          [
+            8504,
+            8590
+          ],
+          [
+            8592,
+            8807
+          ],
+          [
+            8830,
+            8868
+          ]
+        ]
+      },
+      "status": "matched_exact_tail_contract_after_A24_review",
+      "comparison_class": "matched",
+      "exact_semantics": "Frozen closed cell data for scaledTINY or absoluteMID and wholecount B/I; full marked crossing,Poisson/Bennett/Cantelli and harmonic/curvature scalar licenses. Uniform meaning quantifies everyactualn>=47 and same law.",
+      "required_side_conditions_or_warning": "Nearest requires nonnegative kappa beforeNrelaxation;whole requires B<0,I>=0. TINY covers arbitrarily positive noise;lambda0 is separate. Whole coefficients bound all closed mark subcells and both kink cases.",
+      "reviewed_lean_snapshot_sha256": "4a4aed84a2c03b94a1cdeb2ed3c08560853540d91053d384a31e90eed26bcf6b"
+    },
+    {
+      "id": "TAIL-LOCAL-ACQUISITION",
+      "lean": {
+        "file": "BEMap/UniformTail.lean",
+        "declaration": "UniformAcquisitionLicense"
+      },
+      "source": {
+        "file": "berry_esseen_manuscript.tex",
+        "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+        "line_ranges": [
+          [
+            790,
+            798
+          ],
+          [
+            7538,
+            7571
+          ],
+          [
+            8811,
+            8828
+          ]
+        ]
+      },
+      "status": "matched_exact_tail_contract_after_A24_review",
+      "comparison_class": "matched",
+      "exact_semantics": "Concrete atlas resource/confinement/support acquisition has a fixed combined analytic/numerical meaning returning actual83-panel state under global entry caps.",
+      "required_side_conditions_or_warning": "Digests identify lanes only. Six support index bands include[200,infinity);nmax98/K0 is not an actual upper index. No final localcomparison conclusion is used to acquire its own resources.",
+      "reviewed_lean_snapshot_sha256": "4a4aed84a2c03b94a1cdeb2ed3c08560853540d91053d384a31e90eed26bcf6b"
+    },
+    {
+      "id": "TAIL-BARRIER-PAIRED",
+      "lean": {
+        "file": "BEMap/TailAssembly.lean",
+        "declaration": "PairedEnvelopeMeaning;paired_envelope_export"
+      },
+      "source": {
+        "file": "berry_esseen_manuscript.tex",
+        "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+        "line_ranges": [
+          [
+            1709,
+            1751
+          ],
+          [
+            8096,
+            8215
+          ]
+        ]
+      },
+      "status": "matched_exact_tail_contract_after_A24_review",
+      "comparison_class": "matched",
+      "exact_semantics": "Actual score/rho/innergap/moment/coefficient rectangle licenses,complete coherent pairedLOW andHIGH,warmstartdensity,Kρresource subtraction,signedphase correction and all4corners before square completion.",
+      "required_side_conditions_or_warning": "Actual rho interval and actual central-gap floors are explicit. Weak source envelopes plus strict numerical maxima give strictraw/nD exports. Row K cannot be replaced by another barrier.",
+      "reviewed_lean_snapshot_sha256": "474926091faa6d1239b686ccb880ed150d6dccdfedb88789abb24570ad0e549a"
+    },
+    {
+      "id": "TAIL-SMOOTHING-ASSEMBLY",
+      "lean": {
+        "file": "BEMap/TailAssembly.lean",
+        "declaration": "smoothing_first_failure;TailMethodProviders.contracts"
+      },
+      "source": {
+        "file": "berry_esseen_manuscript.tex",
+        "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+        "line_ranges": [
+          [
+            368,
+            398
+          ],
+          [
+            7464,
+            7505
+          ],
+          [
+            7513,
+            7644
+          ]
+        ]
+      },
+      "status": "matched_exact_tail_contract_after_A24_review",
+      "comparison_class": "matched",
+      "exact_semantics": "ClosedCE extraction onlyn>=40,same-law deleted/drop bounds,exact support-free smoothing plus scalarindex brackets derive.29; actual typed providers construct all TailContracts fields.",
+      "required_side_conditions_or_warning": "No sharp finite1..48 premise. AuxiliaryScalarReduction is an accepted source implication over supported numerical exclusions,not a bareauxiliarygoal. Final scalar upper weakens source strict result sufficiently for global upper bound.",
+      "reviewed_lean_snapshot_sha256": "474926091faa6d1239b686ccb880ed150d6dccdfedb88789abb24570ad0e549a"
+    }
+  ],
+  "implementation_questions": [
+    {
+      "id": "A01",
+      "severity": "P1",
+      "status": "resolved_source_exact_specification",
+      "owner": "root",
+      "summary": "ROOT4 weak target must not become strict exclusion at equality",
+      "acceptance": "A weak ScoreCap at T assembles with strict C4>T; no positive margin is demanded below T."
+    },
+    {
+      "id": "A02",
+      "severity": "P1",
+      "status": "resolved_source_exact_specification",
+      "owner": "architect_states",
+      "summary": "Regional COUNT must not require a pipeline for all contacts at that n",
+      "acceptance": "MethodEvidence.supportedCount accepts evidence for its own w or an explicit eligible region; n5corner does not need a central gap."
+    },
+    {
+      "id": "A03",
+      "severity": "P1",
+      "status": "resolved_source_exact_specification",
+      "owner": "architect_states",
+      "summary": "Raw/normalized CDF bridge must be an exact required contract",
+      "acceptance": "ContactNormalizationEvidence explicitly states rawCDF-Phi(z)=Delta and n>0, consumed before count-score normalization."
+    },
+    {
+      "id": "A04",
+      "severity": "P1",
+      "status": "resolved_complete_window50_and_supported_power_source_contracts",
+      "owner": "root",
+      "summary": "Method-family gates must be specified beyond generic LOW/HIGH records",
+      "acceptance": "Finite LOW and scalar Laguerre remain separate; HighFamilies supplies complete WINDOW50 and supported compensated-power, exact actual-event/law gates, whole cells/infinite tails and source-strength scaled uniform reuse."
+    },
+    {
+      "id": "A05",
+      "severity": "P1",
+      "status": "resolved_source_exact_specification",
+      "owner": "root",
+      "summary": "ROOT4 canonical excess eta needs a separate semantic state",
+      "acceptance": "Q3, eta, actual common weighted measure and source domain are explicitly bound; neither physicalD nor matchingMomentDefect is silently reused."
+    },
+    {
+      "id": "A12",
+      "severity": "P2",
+      "status": "resolved_equations_and_rounding_contract",
+      "owner": "architect_states",
+      "summary": "Resource transitions must provide equations and rounding direction, not only an arbitrary after-state",
+      "acceptance": "Residual/geometry/weighted-export rules list every denominator gate and rI<0/rI=0/nonpositiveendpoint branch, and point to source equations."
+    },
+    {
+      "id": "A13",
+      "severity": "P2",
+      "status": "resolved_conditional_cover_assembly_providers_explicit",
+      "owner": "architect_states",
+      "summary": "Final composition must consume whole regional covers and method-specific evidence",
+      "acceptance": "n5/n25/floor31 cases cannot vanish behind one assumed all-law goal; every actual domain is quantified, and tail stays independent. Upper composition has no LowerApproximation argument; lower is separate only for sharp equality."
+    },
+    {
+      "id": "A14",
+      "severity": "P2",
+      "status": "named_selected_source_statements_reviewed_exact_premises_explicit",
+      "owner": "all",
+      "summary": "Trusted analytic inputs must be source-exact rather than source-similar",
+      "acceptance": "Every assumed analytic theorem has source/quantifiers/law class/index/target/threshold convention/strictness/preconditions/conclusion and no unrecorded strengthening."
+    },
+    {
+      "id": "A09",
+      "severity": "P1",
+      "status": "resolved_source_exact_specification",
+      "owner": "architect_states",
+      "summary": "Small finite-polynomial source domain must retain rho cap, not all supported laws",
+      "acceptance": "n2 rho<=2 and n3 rho<=15/8 are explicit localization/certificate premises; n3 ownerR6 distinct from polynomialcubeR7."
+    },
+    {
+      "id": "A08",
+      "severity": "P1",
+      "status": "resolved_source_exact_specification",
+      "owner": "architect_states",
+      "summary": "COUNT coordinate five is individual raw a0, not total dY=a0+a1",
+      "acceptance": "Frozen context, CountPoint and physical realization use p-hA for a0; the total inward sum is a separate resource statistic."
+    },
+    {
+      "id": "A10",
+      "severity": "P1",
+      "status": "resolved_source_exact_specification",
+      "owner": "architect_states",
+      "summary": "Gaussian-coupled native incoming scalar is not necessarily a standalone probability upper bound",
+      "acceptance": "A separate coherent combined count-normal envelope can interpret enabled slope-cancellation outputs without reclassifying them as CDF upper bounds."
+    },
+    {
+      "id": "A11",
+      "severity": "P1",
+      "status": "resolved_E_chord_AB_and_source_scoped_C_D_F_registry",
+      "owner": "architect_states",
+      "summary": "Probability panel p24 E is n25, distinct from actual AB transfer to sum index24",
+      "acceptance": "Phase-free C/F, full-box D including endpoint-aware finished scalar and normalized alternative, completed AB cap chain and scoped ordinary ancestor tree are distinct exact rules. Reference reuse requires one containing acquired scope and whole-context equality."
+    },
+    {
+      "id": "A07",
+      "severity": "P1",
+      "status": "resolved_fixed_general_count_meaning",
+      "owner": "architect_covers and architect_states",
+      "summary": "The public count-checker API needs fixed mathematical task meaning rather than a caller-invented free Meaning",
+      "acceptance": "Frozen rational CountTaskContext and concrete uniform CountCertificateMeaning quantify over unknown laws; laws are not executor inputs."
+    },
+    {
+      "id": "A06",
+      "severity": "P1",
+      "status": "resolved_source_exact_specification",
+      "owner": "root and architect_states",
+      "summary": "Prawitz score bound and compensated-hinge Fourier error are different certificate portfolios",
+      "acceptance": "Supported Fourier method consumes four-term Prawitz evidence, without requiring unrelated compensated-hinge evidence."
+    },
+    {
+      "id": "A15",
+      "severity": "P1",
+      "status": "resolved_source_exact_specification",
+      "owner": "root and architect_states",
+      "summary": "Asymmetric regional support must be retained where the real kernel uses both radii",
+      "acceptance": "Frozen numerical context and realization preserve Rminus and Rplus; symmetric max-radius is used only by explicitly symmetric rules."
+    },
+    {
+      "id": "A16",
+      "severity": "P1",
+      "status": "resolved_source_exact_specification",
+      "owner": "architect_states",
+      "summary": "Marginal lambdaCap is not the intercept of an acquired joint inward/noise plane",
+      "acceptance": "JointBudget has its own d0 and Lambda intercept with an exact full inequality, unaffected by later marginal lambda-cap contraction."
+    },
+    {
+      "id": "A17",
+      "severity": "P1",
+      "status": "resolved_general_semantics_and_checked_quantitative_AB_adapter",
+      "owner": "architect_states",
+      "summary": "Transferred same-law24 COUNT cannot require an extremal ContactAt24",
+      "acceptance": "GeneralCountRealization and quantitative certificate meaning contain no optimality or attainment at24; native24-to-AB adapter preserves original frozen assumptions and returned numerical upper.",
+      "evidence": "TypedPipeline.ABGeneralCountPort.window_bound/toWindowPacket; ABEmptyCentralPort handles empty clipped windows. Final source rereview completed."
+    },
+    {
+      "id": "A18",
+      "severity": "P1",
+      "status": "resolved_source_exact_specification",
+      "owner": "architect_states and architect_covers",
+      "summary": "Actual native affine defect prices and signed quadratic envelope must be frozen",
+      "acceptance": "Context includes b>=0,g>0,h>0 and D>=b+g*dY+h*lambda; signed D upper uses maximum over the entire corner family, then minimum only with independently valid whole upper bounds."
+    },
+    {
+      "id": "A19",
+      "severity": "P1",
+      "status": "exact_rules_documented_replay_boundary_explicit",
+      "owner": "auditor and root",
+      "summary": "Six observed EMPTY labels and PASS do not constitute a proof trace",
+      "acceptance": "COUNT-RULES.md states exact source input/gates/necessary inequality/strictness/output/witnesses for each. Unknown tags are unsupported. Generic payload is never described as a self-contained arithmetic trace."
+    },
+    {
+      "id": "A20",
+      "severity": "P1",
+      "status": "resolved_consumed_AB_new_allowance_chain_and_scoped_ancestor_tree",
+      "owner": "architect_states after adversarial source re-review",
+      "summary": "AB source chronology must be a real old-output/new-q chain, not an unused field or a full-domain strengthening",
+      "acceptance": "ABNewAllowanceLicense starts at old output, composes exactly3 licensed new stages, and binds final post caps. CompletedABAcquisition consumes the chain and a complete closed subtree of original count5."
+    },
+    {
+      "id": "A21",
+      "severity": "P1",
+      "status": "resolved_exact_source_manifest_bijection",
+      "owner": "architect_states after adversarial source re-review",
+      "summary": "Family counts alone cannot establish exact historical admission",
+      "acceptance": "SourceManifest freezes whole specs, IDs, scopes, contexts, source epochs, dependencies and rule kinds; OriginalP25Admission checks an entry bijection and exact equalities. Counts are separate sanity checks."
+    },
+    {
+      "id": "A22",
+      "severity": "P2",
+      "status": "resolved_explicit_declared_DAG_and_source_completeness_boundary",
+      "owner": "architect_states after adversarial source re-review",
+      "summary": "Declared graph acyclicity does not automatically detect omitted source dependencies",
+      "acceptance": "Registry acquire consumes earlier semantic acquisitions under well-founded rank; source-to-manifest dependency completeness is explicitly accepted/validated separately."
+    },
+    {
+      "id": "A23",
+      "severity": "P1",
+      "status": "resolved_finished_D_endpoint_gates_and_acquired_rho_lower",
+      "owner": "architect_states after adversarial source re-review",
+      "summary": "D finished scalar shares E numerator but not generic E whole-path gates or original rho lower endpoint",
+      "acceptance": "FinishedScalarData uses Vupper<=p/q lower*(1-d-Ui), coherent variance/endpoints/floors, acquired rho interval and strict comparison to its actual-law lower bound. It does not require stronger1-2d gates."
+    },
+    {
+      "id": "A24",
+      "severity": "P1",
+      "status": "resolved_source_exact_UniformTail_TailAssembly_and_public_typed_tail_route",
+      "owner": "architect_covers UniformTail; architect_states TailAssembly; auditor final source re-review",
+      "summary": "Global independent49+ still imports an opaque uniform numerical local-exclusion goal and exported auxiliary ceilings",
+      "acceptance": "Exact N47/actualn>=N semantics,83 acquired panels, same-law rhoB/CB/master/repair normalization, nearest/whole witnesses with all gates, TINY arbitrarily positive noise and separate lambda0 Bernoulli; source-exact uniform certificate meaning and bridge construct local_exclusion. A40/P41/A45/P46/A46 barrier-resource payloads and finite support/export licenses construct auxiliary and strong46. No final numerical scalar goal relabeled as already accepted analysis.",
+      "resolution": "UniformTail fixes frame/master/normalizers,83panel cover,nearestTINY/MID and full whole-countkernel/licenses,lambda0Bernoulli and mixed numerical acquisition. TailAssembly fixes barrier-resource job meaning,weak source envelopes/strict numeric rounding,aux scalar reduction,smoothing-derived.29,closedCE extraction n>=40,same-law deleted bounds and actual scalar-contract construction. Final EndToEndProviders.tail is TailMethodProviders."
+    }
+  ],
+  "mixed_archived_member_validation": {
+    "method": "Read-only ZipFile member SHA-256 comparison; no code imported or executed; source-map labels not treated as proof.",
+    "source_maps": [
+      {
+        "source_map": "proof/code_n25_p24_pointwise_source_map.json",
+        "source_map_sha256": "541084d959eab6221e42a10a614f8572de9bb050d1e6836abb6b94d49c08ddd2",
+        "members": [
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/low/p24_mixed_acceptance_v1/accept.py",
+            "sha256": "2bb29687d4f8ca61bcd55edccf478379b840100dcc440a8c825fcd656ba92db7",
+            "status": "exact_member_match",
+            "lines": 40
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/low/p24_mixed_acceptance_v1/protocol.py",
+            "sha256": "8106bd70ca3c588989153e56998946dff4043bf9c91c237949c10878af410555",
+            "status": "exact_member_match",
+            "lines": 132
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/low/p24_mixed_acceptance_v1/PROOF.txt",
+            "sha256": "ba988e2ce8a92c3ab4a20faad34e74bff524f7bbfeaf772a943ccb0ebc702aa9",
+            "status": "exact_member_match",
+            "lines": 79
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/low/p24_static_pointwise_v1/mixed.py",
+            "sha256": "365bb7f69610907c3778bc744b2d0f7f8e2be8601f5a89706a3b7e413b2556ed",
+            "status": "exact_member_match",
+            "lines": 139
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/low/p24_static_pointwise_v1/e_registry.py",
+            "sha256": "5e8fa6ae6bf5e1622ff6e1a911ba41dbbca7943a296e1520e885f43ee0f599fa",
+            "status": "exact_member_match",
+            "lines": 78
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/low/p24_static_pointwise_v1/E_DOMAINS.json",
+            "sha256": "d7d28775c29789746382cb2db4024a55c90ff0f14b01e4a4bc158c1321c98dd5",
+            "status": "exact_member_match",
+            "lines": 162
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/b5/p24_pointwise_acquisition_v1/acquire.py",
+            "sha256": "90b96b62edbc2a92c09af4144f1b9eb96b5ec5241725464bfee4045b85483ed7",
+            "status": "exact_member_match",
+            "lines": 111
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/b5/p24_pointwise_acquisition_v1/PROOF.txt",
+            "sha256": "6950253364fdd47a798c6ace8ba04e021cb4a1d2846985bf7e6b4bf104efc380",
+            "status": "exact_member_match",
+            "lines": 78
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/b5/coarse_pointwise_application_review_v1/application.py",
+            "sha256": "400de430897cb50c748c2972808141aef65f089f4043937cd97de08d027aed89",
+            "status": "exact_member_match",
+            "lines": 116
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/low/pointwise_inward_defect_v2/pointwise_inward_v2.py",
+            "sha256": "9c8b78578dcdef7863dc933bc142eb2c9b1b4f5e29fd49cca7497a2f4a4fbde3",
+            "status": "exact_member_match",
+            "lines": 74
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/low/pointwise_inward_defect_v2/pointwise_interval_v2.py",
+            "sha256": "aeb610b681466f6b2c729866462cb3a5767145614f5000509a992a5d0e5c41a5",
+            "status": "exact_member_match",
+            "lines": 74
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/low/pointwise_inward_defect_v2/pointwise_normalized_v2.py",
+            "sha256": "7be31c1149ca44f1a118adae32cc72713f21fa7020afacd1b6e86c7964481e35",
+            "status": "exact_member_match",
+            "lines": 76
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/low/pointwise_inward_defect_v2/PROOF.txt",
+            "sha256": "8a54f0d258a092e1ab8af2a48125852b5c0b2fa59d7aab41676bd47ec7749a81",
+            "status": "exact_member_match",
+            "lines": 58
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/low/pointwise_inward_defect_review_v1/PROOF.txt",
+            "sha256": "74cb0e45edcc505ada1c6d123aecd828a75130478a812bc7ca23e4867e0a4e62",
+            "status": "exact_member_match",
+            "lines": 120
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/root/local_contact_rho_regional_v1/compose.py",
+            "sha256": "faae2cdd734e67a4827a5c271d664992fa5a4177aeedd5a4a330434c4c950bc8",
+            "status": "exact_member_match",
+            "lines": 113
+          },
+          {
+            "archive": "old",
+            "member": "cutoff25_20261011/new_audit/compose_lower25_regional_v6.py",
+            "sha256": "028d507abcb35ae1b1fcd7a4cb8cbd2bab3416fee9a7d5624d1ac99b69fe2ca3",
+            "status": "exact_member_match",
+            "lines": 131
+          },
+          {
+            "archive": "old",
+            "member": "cutoff25_20261011/new_audit/compose_lower25_complete_v1.py",
+            "sha256": "483198e77dd3ce5fb0103e744dfe87448bab8788f11a13bdc0731d4f632f1347",
+            "status": "exact_member_match",
+            "lines": 263
+          }
+        ]
+      },
+      {
+        "source_map": "proof/code_n25_p25_chord_source_map.json",
+        "source_map_sha256": "de1c6bbc748c299b4aec664f8d00f40ae70e1e85b1d75eac468991ce84ebf6b2",
+        "members": [
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/root/coupled_chord_v1/kernel.py",
+            "sha256": "cf36b3fc56b072047811fa47850b985efcb6b46bc097f7a36ba23e7d8e3a8431",
+            "status": "exact_member_match",
+            "lines": 31
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/root/coupled_chord_v1/PROOF.txt",
+            "sha256": "6575d4cc6fc36baa3e649f4de66711da2e47397b27b7f852c4b9645083169a7a",
+            "status": "exact_member_match",
+            "lines": 40
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/root/coupled_third_moment_boxes_v1/box_kernel.py",
+            "sha256": "81e3137085b2644da4eb5f0fcc04993a2b5935d24c75012082642a4068fad712",
+            "status": "exact_member_match",
+            "lines": 47
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/root/coupled_third_moment_boxes_v1/PROOF.txt",
+            "sha256": "11820941faaead2cf75ba18b414d8f4b57b7502ef84059f8cad3116287ce7e62",
+            "status": "exact_member_match",
+            "lines": 47
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/root/coupled_third_moment_v1/PROOF.txt",
+            "sha256": "d826f254086a894f6d9a66354429f463f9e0d96338b4a5fd3ae94f181f9a1ffb",
+            "status": "exact_member_match",
+            "lines": 54
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/b5/actual26_pointwise_pilot_v1/application.py",
+            "sha256": "702e31171226e62b81c69fd61c0279afb8f908625ef46d2d8951e0c87e4bf79d",
+            "status": "exact_member_match",
+            "lines": 63
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/low/coupled_chord_discovery_v1/candidate.py",
+            "sha256": "0259e7f9d5cb71daddc6501ada241b653dc0c59b3860c6b639c907ca224df8c5",
+            "status": "exact_member_match",
+            "lines": 114
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/low/coupled_chord_discovery_v1/feedback.py",
+            "sha256": "1858e9bf8ca590ea2e4e921b68324a4bbdff2c4b3eff352978a2d3b4a8d0c3af",
+            "status": "exact_member_match",
+            "lines": 75
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/low/coupled_chord_discovery_v1/PROOF.txt",
+            "sha256": "fdfefa04f631d82865de9b449f1a34b7ca1d0d61ffdc0ff6b5a85c9986308601",
+            "status": "exact_member_match",
+            "lines": 91
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/low/coupled_chord_acceptance_v1/protocol.py",
+            "sha256": "edd43aa4f08455544faa343757b610d3c0a6e925be166d3ff5b09a0eb50a5861",
+            "status": "exact_member_match",
+            "lines": 180
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/low/coupled_chord_acceptance_v1/accept.py",
+            "sha256": "d3d8105677f01fa144e4a5dd8260c33be81ba2fa7364521f23f446ddb60ec48f",
+            "status": "exact_member_match",
+            "lines": 18
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/low/coupled_chord_acceptance_v1/PROOF.txt",
+            "sha256": "219be7a884cc7b918e9865b392c4f46f91d91b4d5afec3b7a75c64c2ead9fae4",
+            "status": "exact_member_match",
+            "lines": 86
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/b5/coupled_contact_feedback_review_v1/PROOF.txt",
+            "sha256": "ee85e36ec51158ec241a610c286a9ffbc1d2c29108c349417cc6e654bb8a3c78",
+            "status": "exact_member_match",
+            "lines": 79
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/low/mixed4_grid_pointwise_v1/mixed4.py",
+            "sha256": "198e2350bfa9c681109aa9ac7b0f659da870bae9d1f6e31b51d57f931c81b2fa",
+            "status": "exact_member_match",
+            "lines": 113
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/low/mixed4_grid_pointwise_v1/f_registry.py",
+            "sha256": "36c5613710bd0fb39ad345286571d684311a77690d20dc28c408efdcb72c35a3",
+            "status": "exact_member_match",
+            "lines": 103
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/archive_audit/mixed3_saved_scalar_v1/mixed3.py",
+            "sha256": "53e544f0b8074d0bb28acf89492f0ce49b66450f4941afaf7cb1ee1029d46a3f",
+            "status": "exact_member_match",
+            "lines": 112
+          }
+        ]
+      },
+      {
+        "source_map": "proof/code_n25_p25_references_source_map.json",
+        "source_map_sha256": "5ee01f0d0ee96fde14fd4b3d5d82f90fc82928b6be2bc048c4d50a993b6f1159",
+        "members": [
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/root/sparse_local_acquisition_v1/acquire.py",
+            "sha256": "4519891d06fb67a1933d4c722f0554b96624d9a4f8323ba2a05153157853df43",
+            "status": "exact_member_match",
+            "lines": 90
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/root/sparse_local_acquisition_v1/matching.py",
+            "sha256": "5ffd5aa4f52cb7772b59d9d77376e80747e04bb8eca0bf53c35d2865e5c7d278",
+            "status": "exact_member_match",
+            "lines": 58
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/archive_audit/b5_sparse_halfline_review_v1/PROOF.txt",
+            "sha256": "3249c9a73684c31ce347b924241481b17b40c064bd6ce6152315cf988436aef0",
+            "status": "exact_member_match",
+            "lines": 105
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/archive_audit/b5_sparse_halfline_review_v1/scalar_math.py",
+            "sha256": "3b00561e23f70bcb88e6e3bd4dde066788e546a5a82e9f3031675bc2399d6f4d",
+            "status": "exact_member_match",
+            "lines": 55
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/archive_audit/b5_sparse_halfline_review_v1/check_scalar_v2.py",
+            "sha256": "b48c21f1e988b2df51909818dfbf4a8d2bc130d07d37cc6cdb6eb8b42852e7bf",
+            "status": "exact_member_match",
+            "lines": 90
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/archive_audit/b5_sparse_halfline_review_v1/check24.py",
+            "sha256": "2f69f53080e1a203eef30e4cc1f4b27cd497c3d210c416895af0cd94c620a8a5",
+            "status": "exact_member_match",
+            "lines": 170
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/archive_audit/b5_sparse_halfline_review_v1/check25.py",
+            "sha256": "f338a465ce1ca7b066278fa273bb8129373361633a71b73f2b2b32fa911d38ad",
+            "status": "exact_member_match",
+            "lines": 188
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/archive_audit/b5_sparse_next_pending_review_v1/PROOF.txt",
+            "sha256": "102c37b7b2e96ba4f6455f9dc913a084dea053e726527f042d02d4773c78ce21",
+            "status": "exact_member_match",
+            "lines": 159
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/archive_audit/b5_sparse_next_pending_review_v1/scalar_math.py",
+            "sha256": "3b00561e23f70bcb88e6e3bd4dde066788e546a5a82e9f3031675bc2399d6f4d",
+            "status": "exact_member_match",
+            "lines": 55
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/archive_audit/b5_sparse_next_pending_review_v1/check_scalar.py",
+            "sha256": "0f04690cdbf12549435e41b2e513997a498cdfbe78fe10dfadc6efc165e0100a",
+            "status": "exact_member_match",
+            "lines": 104
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/archive_audit/b5_sparse_next_pending_review_v1/check24_v2.py",
+            "sha256": "00a11411033030077cdea88204969562e31fe32d49466dbcbcfdd83aeb26567f",
+            "status": "exact_member_match",
+            "lines": 183
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/archive_audit/b5_sparse_next_pending_review_v1/check25.py",
+            "sha256": "3b7714299db3e1d444bc69fc6f478e4a4bd5afd69397f58991d0e0ee7bdaf83f",
+            "status": "exact_member_match",
+            "lines": 117
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/archive_audit/b5_sparse_next_pending_review_v1/bindings.py",
+            "sha256": "814365b93d4203db20ef85905241fa7e176a1ebaa236767518ee3d1999bbfe47",
+            "status": "exact_member_match",
+            "lines": 57
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/root/pointwise_local_acquisition_v1/acquire.py",
+            "sha256": "98139a6127e4df0461a2001639457b496d39481080c20a38466d781a5dd6db44",
+            "status": "exact_member_match",
+            "lines": 106
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/archive_audit/p25_grid_pointwise_acquisition_v1/acquire.py",
+            "sha256": "23cf96eae171d2fe95bdfc9cbec6a70434f2a3429c0db7954315d4c0c9a3ffe4",
+            "status": "exact_member_match",
+            "lines": 146
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/archive_audit/p25_grid_pointwise_acquisition_v1/interface.py",
+            "sha256": "941398a6fd6f3ccea690545e1c7d2bb510dc39497cf90d4a629a63ad3df24ac7",
+            "status": "exact_member_match",
+            "lines": 107
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/low/mixed4_grid_pointwise_v1/f_registry.py",
+            "sha256": "36c5613710bd0fb39ad345286571d684311a77690d20dc28c408efdcb72c35a3",
+            "status": "exact_member_match",
+            "lines": 103
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/archive_audit/saved_scalar_rectangle_acquisition_v1/acquire.py",
+            "sha256": "fa2882038a52848bd5f8723d0fc55cf2c1eee7e2dc299619efa796a1ed8c4f7f",
+            "status": "exact_member_match",
+            "lines": 97
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/archive_audit/saved_scalar_rectangle_acquisition_v1/interface.py",
+            "sha256": "e52d18af91883f712b74d70b0b32a1abf831071c2f7f30892161190a1a0508bf",
+            "status": "exact_member_match",
+            "lines": 156
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/archive_audit/mixed3_saved_scalar_v1/d_registry.py",
+            "sha256": "d3960a30bb6f46ff538f9b7c091e48e137031b68f809cb1cffa28c6e087b172f",
+            "status": "exact_member_match",
+            "lines": 89
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/archive_audit/normalized_defect_frontier_v1/prefix_project.py",
+            "sha256": "81d9fd91592c2ffd524bbef49a58153b832d4c242d8e52d7cf177d9f70225153",
+            "status": "exact_member_match",
+            "lines": 91
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/archive_audit/normalized_defect_frontier_v1/prefix_worker.py",
+            "sha256": "c95f78a1cc999d7d6163547a842c4c8c1a22b4a1fca8a8e7fcc043cea6c89d0c",
+            "status": "exact_member_match",
+            "lines": 46
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/archive_audit/normalized_defect_frontier_v1/worker.py",
+            "sha256": "1b2943a9e840deeee3d894f32d84244eceb4f775220acecfc70a54e799a4a030",
+            "status": "exact_member_match",
+            "lines": 63
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/archive_audit/normalized_defect_frontier_v1/protocol.py",
+            "sha256": "bc2653ab092205c297c9497125890a11dab43611aabd98297b8ca044e24ce3a9",
+            "status": "exact_member_match",
+            "lines": 103
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/archive_audit/normalized_defect_frontier_v1/PROOF.txt",
+            "sha256": "1a725ee7551f358429529910a9fe10a9e8cb92708d317723516e18f207d56fa0",
+            "status": "exact_member_match",
+            "lines": 78
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/archive_audit/normalized_defect_rho_v1/normalized.py",
+            "sha256": "884be5be6a80072d15eaac1d5070493f2141f9b925e04fbcd557a8bc2e561577",
+            "status": "exact_member_match",
+            "lines": 76
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/archive_audit/joint_contact_preflight_v1/preflight.py",
+            "sha256": "e7518978c1a930d6ae1cb924b99b03a34f995e43f471cfcd8487be5530a2368b",
+            "status": "exact_member_match",
+            "lines": 116
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/archive_audit/support_coupled_frontier_v1/feedback.py",
+            "sha256": "e99a78dec00afd1778c5b554d8010b86ed4d5148aff30ed8dee71c72597dcef0",
+            "status": "exact_member_match",
+            "lines": 71
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/archive_audit/support_coupled_frontier_v1/coupled_core.py",
+            "sha256": "aeb610b681466f6b2c729866462cb3a5767145614f5000509a992a5d0e5c41a5",
+            "status": "exact_member_match",
+            "lines": 74
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/archive_audit/affine_contact_cell_v1/joint_rho_core_v17.py",
+            "sha256": "d6595cfad5ab1734b754745e489447ab191c8d285e895a4538506dd385587cf1",
+            "status": "exact_member_match",
+            "lines": 63
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/archive_audit/affine_contact_cell_v1/joint_rho_adapter_v17.py",
+            "sha256": "452e8be021590f5ba1117624ff244d8e31757ef72fb1f1706b89d7013953377c",
+            "status": "exact_member_match",
+            "lines": 31
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/low/tighter_ratio_rho_v1/ratio.py",
+            "sha256": "00fd19c1343db6e6b5a33bbdbbf05b5467c817e4e439f61781135e25a62a92a1",
+            "status": "exact_member_match",
+            "lines": 71
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/archive_audit/pointwise_finished_prefix_v1/interface.py",
+            "sha256": "4db0d6809f4f474a74003a57c43711dd206c311a784c08c8383c6dc6ccd5b0ad",
+            "status": "exact_member_match",
+            "lines": 74
+          },
+          {
+            "archive": "base13",
+            "member": "cutoff25_20261013/archive_audit/pointwise_finished_prefix_v1/diagnose.py",
+            "sha256": "a6c80de5190fae0ed307aa848babf925f0a6099c726bfe2ce8f4361a57a86b66",
+            "status": "exact_member_match",
+            "lines": 49
+          }
+        ]
+      }
+    ]
+  },
+  "reviewer_note": {
+    "sha256": "b53629f126e140e5014eaab03954131ee9c749b6ebb47e4c719519786c1ab596",
+    "pages": 10,
+    "reviewed_branch_commit": "0c2668849e4c7c7b06a0e425f6e51809fbcfb4db",
+    "source_limitation": "Reviewer explicitly lacked exact v4 manuscript bytes and used another historical manuscript hash.",
+    "disposition": "See per-observation table in AUDIT.md; original PDF/transcript not republished.",
+    "pilot_measurements": "Reported by reviewer, not independently reproduced or adopted as this repository measurement."
+  },
+  "audit_limits": {
+    "analytic_proofs": "Exact source-bound analytic statements may be accepted parameters; no full analytic proof port is required for this milestone.",
+    "numerical_acceptance": "No new full forest, cloud computation or reviewer pilot timing is claimed by this audit.",
+    "scope": "Finite/HIGH/mixed interfaces, uniform47+ local comparison, auxiliary barrier-resource jobs and typed independent-tail/global composition source-reviewed. This does not certify every historical alternative or any newly completed numerical replay.",
+    "ordinary_count_rules": "COUNT-RULES.md fixes six observed EMPTY rules and PASS_TARGET. This is a mathematical replay-boundary, not a claim of an implemented self-contained arithmetic trace.",
+    "source_traceability": "Exact source-to-manifest authenticity/dependency completeness is an explicit accepted input; byte identity and matching cardinalities do not prove it."
+  },
+  "source_vs_lean_matrix": [
+    {
+      "id": "RAW-NORMALIZED-BRIDGE",
+      "lean": {
+        "file": "BEMap/TypedPipeline.lean",
+        "declaration": "ContactNormalizationEvidence"
+      },
+      "source": {
+        "file": "berry_esseen_manuscript.tex",
+        "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+        "label_or_anchor": "afcore:eq:contact-input",
+        "approximate_section_start": 1373
+      },
+      "comparison": "matched_scoped_statement",
+      "quantifiers": "every fixed positive n, contact w",
+      "law_class": "same w.X; no sampled law",
+      "indices_and_targets": "n>0; floor arbitrary but not a budget-nonnegativity license",
+      "raw_or_normalized": "rawCDF(w)-Phi(z)=Delta_n(X), H=sqrt(n)*z",
+      "strictness": "exact equality; closed CDF",
+      "preconditions": "ContactAt gives positive orientation and attainment",
+      "exact_conclusion": "score at rawH equals normalizedScore_n",
+      "analytic_status": "explicit_accepted_premise_or_checked_derived_composition; numerical facts not newly discharged"
+    },
+    {
+      "id": "SMALL-TWO",
+      "lean": {
+        "file": "BEMap/SmallIndices.lean",
+        "declaration": "TensorCertificateMeaning2"
+      },
+      "source": {
+        "file": "berry_esseen_manuscript.tex",
+        "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+        "label_or_anchor": "n2:eq:tensor; n2:eq:expect; n2:eq:D",
+        "approximate_section_start": 4983
+      },
+      "comparison": "matched_scoped_statement",
+      "quantifiers": "all70 closed threshold rows and all points/moments",
+      "law_class": "standardized support[-6,6]; rho<=2",
+      "indices_and_targets": "n=2; target bound2",
+      "raw_or_normalized": "SUM basis; raw sum threshold/ sqrt(2)",
+      "strictness": "weak majorant and weak moment scalar",
+      "preconditions": "15 lex sorted pairs, all sign/indicator pieces; separate threshold tails and large-rho complement",
+      "exact_conclusion": "sqrt(2)*Delta_2/rho<=bound2 via explicit analytic implication",
+      "analytic_status": "explicit_accepted_premise_or_checked_derived_composition; numerical facts not newly discharged"
+    },
+    {
+      "id": "SMALL-THREE",
+      "lean": {
+        "file": "BEMap/SmallIndices.lean",
+        "declaration": "NullCertificateMeaning3"
+      },
+      "source": {
+        "file": "berry_esseen_manuscript.tex",
+        "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+        "label_or_anchor": "n3:eq:majorant; n3:lem:expect; n3:prop:certificate; n3:eq:scalar",
+        "approximate_section_start": 5303
+      },
+      "comparison": "matched_scoped_statement",
+      "quantifiers": "all111 closed rows and all points/moments",
+      "law_class": "certificatecube[-7,7]^3; owner support[-6,6];rho<=15/8",
+      "indices_and_targets": "n=3;target bound3",
+      "raw_or_normalized": "distinct-permutation AVERAGE; feature2=y^2-1;raw sum/sqrt(3)",
+      "strictness": "weak majorant and weak moment scalar",
+      "preconditions": "59 lex admissible triples; fourth/fifth features only in null products; separate tails/reflection",
+      "exact_conclusion": "sqrt(3)*Delta_3/rho<=bound3 via explicit analytic implication",
+      "analytic_status": "explicit_accepted_premise_or_checked_derived_composition; numerical facts not newly discharged"
+    },
+    {
+      "id": "PRAWITZ",
+      "lean": {
+        "file": "BEMap/Prawitz.lean",
+        "declaration": "PrawitzScoreEvidence"
+      },
+      "source": {
+        "file": "berry_esseen_manuscript.tex",
+        "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+        "label_or_anchor": "afcore:eq:prawitz",
+        "approximate_section_start": 1339
+      },
+      "comparison": "matched_scoped_statement",
+      "quantifiers": "each supported contact, four whole integrals",
+      "law_class": "actual same standardized law and characteristic function",
+      "indices_and_targets": "n>=1;c>0;0<tau<1",
+      "raw_or_normalized": "raw f(c*t)^n; gaussian exp(-n*(c*t)^2/2)",
+      "strictness": "weak Delta upper then weak normalized cap",
+      "preconditions": "all4 integrability statements;positive lower rho;upper sqrt(n);complete infinite tail",
+      "exact_conclusion": "normalizedScore<=declaredfloor without hinge evidence",
+      "analytic_status": "explicit_accepted_premise_or_checked_derived_composition; numerical facts not newly discharged"
+    },
+    {
+      "id": "LAGUERRE-GAUSSIAN",
+      "lean": {
+        "file": "BEMap/FourierFamilies.lean",
+        "declaration": "Laguerre2Theorem"
+      },
+      "source": {
+        "file": "berry_esseen_manuscript.tex",
+        "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+        "label_or_anchor": "HIGH_LAGUERRE2 lemma",
+        "approximate_section_start": 2060
+      },
+      "comparison": "matched_scoped_statement",
+      "quantifiers": "every n,b,kappa in declared positive domain",
+      "law_class": "scalar Gaussian, not actual-law HIGH",
+      "indices_and_targets": "n>0,b>0,kappa>0; uniformN*kappa*b^2>=1/4 separately",
+      "raw_or_normalized": "sqrt(n)*integral_b^infty exp(-n*kappa*t^2)/t^3",
+      "strictness": "weak upper on exact scalar expression",
+      "preconditions": "integrability;positive denominators;directed rational enclosure",
+      "exact_conclusion": "GaussianTailEvidence only; no conversion to complete HighBound",
+      "analytic_status": "explicit_accepted_premise_or_checked_derived_composition; numerical facts not newly discharged"
+    },
+    {
+      "id": "GENERAL-COUNT",
+      "lean": {
+        "file": "BEMap/GeneralCount.lean",
+        "declaration": "GeneralCountRealization"
+      },
+      "source": {
+        "file": "berry_esseen_manuscript.tex",
+        "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+        "label_or_anchor": "countcore:scoretheorem",
+        "approximate_section_start": 4653
+      },
+      "comparison": "matched_scoped_statement",
+      "quantifiers": "all unknown laws/thresholds/points satisfying frozen context; every original leaf",
+      "law_class": "arbitrary same standardized law; no global extremality or attainment",
+      "indices_and_targets": "actualn>=2; numeric target independent contactfloor",
+      "raw_or_normalized": "rawH; signed positive closed point CDF discrepancy",
+      "strictness": "source cap relation explicit closed orstrict; exact target transfer",
+      "preconditions": "same actual binary/gap/moments/joint/affine/signed data; all n+1 roots; full leaf cover",
+      "exact_conclusion": "quantitative point upper or requested target relation uniformly",
+      "analytic_status": "explicit_accepted_premise_or_checked_derived_composition; numerical facts not newly discharged"
+    },
+    {
+      "id": "NATIVE-AFFINE-SIGNED",
+      "lean": {
+        "file": "BEMap/GeneralCount.lean",
+        "declaration": "SignedDefectEnvelopeData.AmountsHold"
+      },
+      "source": {
+        "file": "berry_esseen_manuscript.tex",
+        "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+        "label_or_anchor": "rescore:re-quadratics",
+        "approximate_section_start": 2680
+      },
+      "comparison": "matched_scoped_statement",
+      "quantifiers": "all actual laws and rawH in frozen scope",
+      "law_class": "same physicalD and rawH",
+      "indices_and_targets": "actualn distinctfloorN; unweightednativeDcap explicit",
+      "raw_or_normalized": "signed Fplus/Fminus times abs(rawH)",
+      "strictness": "D<=15000/(997*n)*MAX_corner(A+Fsign*absH-Q*H^2)",
+      "preconditions": "all Q>0; whole corner family; affineD>=b+g*dY+h*lambda withb>=0,g>0,h>0",
+      "exact_conclusion": "whole-window Dcap is min only of complete independent valid uppers",
+      "analytic_status": "explicit_accepted_premise_or_checked_derived_composition; numerical facts not newly discharged"
+    },
+    {
+      "id": "AB-TRANSFER",
+      "lean": {
+        "file": "BEMap/Mixed.lean",
+        "declaration": "ABWindowCountPacket"
+      },
+      "source": {
+        "file": "pinned original archive members in MIXED.md",
+        "sha256": null,
+        "label_or_anchor": "p25_AB_original_archive",
+        "approximate_section_start": 1
+      },
+      "comparison": "matched_scoped_statement_with_checked_quantitative_adapter",
+      "quantifiers": "same unreflected X;allraw in requiredhalfline;all25 roots in window",
+      "law_class": "actual24-sum of same n25owner law; no ContactAt24",
+      "indices_and_targets": "lambda24=24/25lambda25;Lambda24=24/25Lambda25;noiseprice24=25/24price25",
+      "raw_or_normalized": "raw24 H;window[-47/4,47/4] plus both infinite tails",
+      "strictness": "weak quantitative returned upper U; early-exit target not substituted",
+      "preconditions": "new fullphase[-1/2,1/2];remove25contact/phase/quadratics;weakD budget; windowgates; tailgates",
+      "exact_conclusion": "qRay=25max(U-CElo,0) valid on exact required support ray",
+      "analytic_status": "explicit_accepted_premise_or_checked_derived_composition; numerical facts not newly discharged",
+      "adapter": "BEMap/TypedPipeline.lean: ABGeneralCountPort, ABEmptyCentralPort"
+    },
+    {
+      "id": "FINAL-ASSEMBLY",
+      "lean": {
+        "file": "BEMap/Assembly.lean",
+        "declaration": "sharp_from_typed_providers"
+      },
+      "source": {
+        "file": "berry_esseen_manuscript.tex",
+        "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+        "label_or_anchor": "cut49:global:finitecontracts; cut49:global:route",
+        "approximate_section_start": 7517
+      },
+      "comparison": "matched_scoped_statement",
+      "quantifiers": "every n>=1; lowerapproximations everyb<CE",
+      "law_class": "unrestricted standardized laws",
+      "indices_and_targets": "finite1..48 and independent49+;strong3/4 reused quantitatively",
+      "raw_or_normalized": "actualn throughout; each method raw/normalized convention bound by its records",
+      "strictness": "weak globalupper + approximationlower; strictcontrary used only internally",
+      "preconditions": "Complete finite region/method providers; p.tail:TailMethodProviders with constructed .contracts from exact local/auxiliary meanings. LowerApproximation is a separate argument only to sharp equality.",
+      "exact_conclusion": "all_indices_from_typed_providers p gives the upper bound without LowerApproximation; sharp_from_typed_providers p lower gives globalConstant=esseenConstant.",
+      "analytic_status": "explicit_accepted_premise_or_checked_derived_composition; numerical facts not newly discharged"
+    },
+    {
+      "id": "HIGH-WINDOW50",
+      "lean": {
+        "file": "BEMap/HighFamilies.lean",
+        "declaration": "Window50Theorem"
+      },
+      "source": {
+        "file": "berry_esseen_manuscript.tex",
+        "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+        "approximate_section_start": 2135
+      },
+      "comparison": "matched_exact_selected_family",
+      "quantifiers": "every actualn>=5,contact/law andlicensedactualevent",
+      "law_class": "actualsameP×P;fourthintegrable;gammaandconditionalmomentbounds",
+      "indices_and_targets": "actualn, fixedsplit1/2;uniformfloorNseparate",
+      "raw_or_normalized": "actualcompensatedcharacteristicremainder;thresholdindependent;scaledbyactualsqrt(n)",
+      "strictness": "weak integral upper;strictpositiveapplicabilitygates",
+      "preconditions": "c>0,h>0,a>0,d0>0,0<r<=1/4; refinedfirsts>0",
+      "exact_conclusion": "sqrt(n)*completecompensatedHIGH<=sixtermU(n)",
+      "analytic_status": "exact accepted theorem parameter; arithmeticwholecell/roundingevidence still toimplement/produce"
+    },
+    {
+      "id": "HIGH-WINDOW50-UNIFORM",
+      "lean": {
+        "file": "BEMap/HighFamilies.lean",
+        "declaration": "window50_uniform_scaled"
+      },
+      "source": {
+        "file": "berry_esseen_manuscript.tex",
+        "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+        "approximate_section_start": 2155
+      },
+      "comparison": "matched_exact_selected_family",
+      "quantifiers": "everyactualn>=N>=5;law/event mayvary",
+      "law_class": "samefrozennumericparameters/eventbounds",
+      "indices_and_targets": "actualn, fixedsplit1/2;uniformfloorNseparate",
+      "raw_or_normalized": "actualcompensatedcharacteristicremainder;thresholdindependent;scaledbyactualsqrt(n)",
+      "strictness": "weak integral upper;strictpositiveapplicabilitygates",
+      "preconditions": "four2Nrate>1gates;refinedfirst2Nc0>1;refinedzeroNκb²>=1/4",
+      "exact_conclusion": "sqrt(actualn)*completeHIGH<=U(N);actual-nroundingtounscaled",
+      "analytic_status": "exact accepted theorem parameter; arithmeticwholecell/roundingevidence still toimplement/produce"
+    },
+    {
+      "id": "HIGH-SUPPORTED-POWER",
+      "lean": {
+        "file": "BEMap/HighFamilies.lean",
+        "declaration": "SupportedPowerTheorem"
+      },
+      "source": {
+        "file": "berry_esseen_manuscript.tex",
+        "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+        "approximate_section_start": 2289
+      },
+      "comparison": "matched_exact_selected_family",
+      "quantifiers": "everyactualn>=2 andeveryclosedfrequencycell",
+      "law_class": "actualsupportR,rho/fourth/fifth/gamma²integrability;modulusactualchar",
+      "indices_and_targets": "actualn, fixedsplit1/2;uniformfloorNseparate",
+      "raw_or_normalized": "actualcompensatedcharacteristicremainder;thresholdindependent;scaledbyactualsqrt(n)",
+      "strictness": "weak integral upper;strictpositiveapplicabilitygates",
+      "preconditions": "R,r>0;M4,M5,G>=0;.5<T<pi;strictfinitepartition;wholecellbound",
+      "exact_conclusion": "sqrt(n)*completeHIGH<=weightedcompletefinitecells+bothinfinite-tailterms",
+      "analytic_status": "exact accepted theorem parameter; arithmeticwholecell/roundingevidence still toimplement/produce"
+    },
+    {
+      "id": "MIXED-REFERENCE-SCOPE",
+      "lean": {
+        "file": "BEMap/MixedRegistry.lean",
+        "declaration": "ReferenceUse"
+      },
+      "source": {
+        "archive": "cutoff25_20261013.zip",
+        "archive_sha256": "a97f3e6e50e428df0893304bcd2f746851c9fccef2079b1ec66be9ab909d7f2c",
+        "member": "cutoff25_20261013/root/sparse_local_acquisition_v1/matching.py",
+        "sha256": "5ffd5aa4f52cb7772b59d9d77376e80747e04bb8eca0bf53c35d2865e5c7d278",
+        "line_ranges": [
+          [
+            40,
+            58
+          ]
+        ]
+      },
+      "comparison": "matched_source_statement_after_revision",
+      "quantifiers": "All unknown actual laws/contacts in the frozen scope, not a sampled optimizer or runtime law input.",
+      "law_class": "Original contrary standardized25 contact; same-law24 has no optimality/attainment assumption.",
+      "indices_and_targets": "Actual summand25 versus transferred24 explicit; critical score versus acquired rho lower kept distinct.",
+      "raw_or_normalized": "Raw H and count phase fixed by same-law binary representation; C/F law projections are phase-free only as proved.",
+      "strictness": "All scopes are closed; interval emptiness/rho exclusion uses strict comparison; scalar upper semantics explicit.",
+      "preconditions": "Several overlapping references require an explicit partition; they cannot be stitched into a stronger acquired theorem.",
+      "exact_conclusion": "Every reuse matches the entire original context, source epoch/cfg identity and containment in ONE acquired phase-free law scope or full five-coordinate box.",
+      "analytic_status": "Exact analytic/source implications accepted parameters; actual manifest/capsule/checker/arithmetic evidence still required."
+    },
+    {
+      "id": "MIXED-D-FINISHED",
+      "lean": {
+        "file": "BEMap/MixedRegistry.lean",
+        "declaration": "AcceptedFinishedPointwiseTheorem"
+      },
+      "source": {
+        "archive": "cutoff25_20261013.zip",
+        "archive_sha256": "a97f3e6e50e428df0893304bcd2f746851c9fccef2079b1ec66be9ab909d7f2c",
+        "member": "cutoff25_20261013/low/pointwise_inward_defect_v2/pointwise_inward_v2.py",
+        "sha256": "9c8b78578dcdef7863dc933bc142eb2c9b1b4f5e29fd49cca7497a2f4a4fbde3",
+        "line_ranges": [
+          [
+            7,
+            24
+          ],
+          [
+            40,
+            74
+          ]
+        ]
+      },
+      "comparison": "matched_source_statement_after_revision",
+      "quantifiers": "All unknown actual laws/contacts in the frozen scope, not a sampled optimizer or runtime law input.",
+      "law_class": "Original contrary standardized25 contact; same-law24 has no optimality/attainment assumption.",
+      "indices_and_targets": "Actual summand25 versus transferred24 explicit; critical score versus acquired rho lower kept distinct.",
+      "raw_or_normalized": "Raw H and count phase fixed by same-law binary representation; C/F law projections are phase-free only as proved.",
+      "strictness": "All scopes are closed; interval emptiness/rho exclusion uses strict comparison; scalar upper semantics explicit.",
+      "preconditions": "Strict upper compares to acquired prefix rho lower; no equality with original lower and no generic stronger1-2d gates are required. Export mapping member4db0d6809f4f474a74003a57c43711dd206c311a784c08c8383c6dc6ccd5b0ad lines31-46.",
+      "exact_conclusion": "Same E ratio with endpoint-aware gates t0=1-d-U0>=0,t1=1-d-U1>=0; V0upper<=pl*t0,V1upper<=(1-pu)*t1. Exact acquired rho interval and actual-law membership.",
+      "analytic_status": "Exact analytic/source implications accepted parameters; actual manifest/capsule/checker/arithmetic evidence still required."
+    },
+    {
+      "id": "MIXED-D-NORMALIZED",
+      "lean": {
+        "file": "BEMap/MixedRegistry.lean",
+        "declaration": "AcceptedNormalizedDefectTheorem"
+      },
+      "source": {
+        "archive": "cutoff25_20261013.zip",
+        "archive_sha256": "a97f3e6e50e428df0893304bcd2f746851c9fccef2079b1ec66be9ab909d7f2c",
+        "member": "cutoff25_20261013/archive_audit/normalized_defect_rho_v1/normalized.py",
+        "sha256": "884be5be6a80072d15eaac1d5070493f2141f9b925e04fbcd557a8bc2e561577",
+        "line_ranges": [
+          [
+            1,
+            76
+          ]
+        ]
+      },
+      "comparison": "matched_source_statement_after_revision",
+      "quantifiers": "All unknown actual laws/contacts in the frozen scope, not a sampled optimizer or runtime law input.",
+      "law_class": "Original contrary standardized25 contact; same-law24 has no optimality/attainment assumption.",
+      "indices_and_targets": "Actual summand25 versus transferred24 explicit; critical score versus acquired rho lower kept distinct.",
+      "raw_or_normalized": "Raw H and count phase fixed by same-law binary representation; C/F law projections are phase-free only as proved.",
+      "strictness": "All scopes are closed; interval emptiness/rho exclusion uses strict comparison; scalar upper semantics explicit.",
+      "preconditions": "Closed floor fit and positive denominators required. Optimized alpha maximization uses clipped concave vertex plus endpoints and s=0 case; negative numerator divides by upper denominator.",
+      "exact_conclusion": "Separate normalized canceled-D numerator with phi(L0,L1), endpoint upper terms and -2s²alpha²/(pO1), divided by(v+s)^(3/2). Whole-box upper derives strict acquired-rho contradiction.",
+      "analytic_status": "Exact analytic/source implications accepted parameters; actual manifest/capsule/checker/arithmetic evidence still required."
+    },
+    {
+      "id": "MIXED-AB-COMPLETE",
+      "lean": {
+        "file": "BEMap/MixedRegistry.lean",
+        "declaration": "CompletedABAcquisition"
+      },
+      "source": {
+        "archive": "cutoff25_20261013.zip",
+        "archive_sha256": "a97f3e6e50e428df0893304bcd2f746851c9fccef2079b1ec66be9ab909d7f2c",
+        "member": "cutoff25_20261013/archive_audit/b5_sparse_halfline_review_v1/check_scalar_v2.py",
+        "sha256": "b48c21f1e988b2df51909818dfbf4a8d2bc130d07d37cc6cdb6eb8b42852e7bf",
+        "line_ranges": [
+          [
+            1,
+            90
+          ]
+        ]
+      },
+      "comparison": "matched_source_statement_after_revision",
+      "quantifiers": "All unknown actual laws/contacts in the frozen scope, not a sampled optimizer or runtime law input.",
+      "law_class": "Original contrary standardized25 contact; same-law24 has no optimality/attainment assumption.",
+      "indices_and_targets": "Actual summand25 versus transferred24 explicit; critical score versus acquired rho lower kept distinct.",
+      "raw_or_normalized": "Raw H and count phase fixed by same-law binary representation; C/F law projections are phase-free only as proved.",
+      "strictness": "All scopes are closed; interval emptiness/rho exclusion uses strict comparison; scalar upper semantics explicit.",
+      "preconditions": "AB ray allowance alone is not the acquired exclusion; all tails and whole rays are mandatory. Requiring a full26-root ordinary proof would strengthen the source.",
+      "exact_conclusion": "Original count5 owner/box -> three old-q cap stages -> same-law24 complete closed half-lines -> three actual new-q cap stages -> exact final caps/post-context -> complete original ancestor ordinary25 subtree.",
+      "analytic_status": "Exact analytic/source implications accepted parameters; actual manifest/capsule/checker/arithmetic evidence still required."
+    },
+    {
+      "id": "MIXED-MANIFEST-DAG",
+      "lean": {
+        "file": "BEMap/MixedRegistry.lean",
+        "declaration": "OriginalP25Admission"
+      },
+      "source": {
+        "archive": "cutoff25_20261013.zip",
+        "archive_sha256": "a97f3e6e50e428df0893304bcd2f746851c9fccef2079b1ec66be9ab909d7f2c",
+        "member": "cutoff25_20261013/root/global25_final_v2/GLOBAL_C25_COMPLETE_JOINED_V1.json",
+        "sha256": "abae7a25b9b82d8b0dd0fc691d33944038d2ffc6707c6f387561f8f17437563d",
+        "line_ranges": []
+      },
+      "comparison": "matched_source_statement_after_revision",
+      "quantifiers": "All unknown actual laws/contacts in the frozen scope, not a sampled optimizer or runtime law input.",
+      "law_class": "Original contrary standardized25 contact; same-law24 has no optimality/attainment assumption.",
+      "indices_and_targets": "Actual summand25 versus transferred24 explicit; critical score versus acquired rho lower kept distinct.",
+      "raw_or_normalized": "Raw H and count phase fixed by same-law binary representation; C/F law projections are phase-free only as proved.",
+      "strictness": "All scopes are closed; interval emptiness/rho exclusion uses strict comparison; scalar upper semantics explicit.",
+      "preconditions": "Completeness/authenticity of source-to-manifest mapping is an explicit source-traceability input, not inferred from hashes or counts. Selected D shape17 counts9..25 phase +one count5 finished is typed separately.",
+      "exact_conclusion": "Exact approved source manifest and entry bijection bind whole contexts/scopes/IDs/dependency lists/rules; acquire builders consume earlier proofs. 128 admitted versus76 selected occurrences are separate data.",
+      "analytic_status": "Exact analytic/source implications accepted parameters; actual manifest/capsule/checker/arithmetic evidence still required."
+    },
+    {
+      "id": "TAIL-UNIFORM-LOCAL",
+      "lean": {
+        "file": "BEMap/UniformTail.lean",
+        "declaration": "UniformLocalProvider.reject"
+      },
+      "source": {
+        "file": "berry_esseen_manuscript.tex",
+        "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+        "label": "cut49:global:local;cut49:shortloc:theorem",
+        "line_ranges": [
+          [
+            7538,
+            7571
+          ],
+          [
+            8217,
+            8421
+          ],
+          [
+            8830,
+            8883
+          ]
+        ]
+      },
+      "comparison": "matched_after_uniform_semantic_adapter",
+      "quantifiers": "Every actual n>=47 for the uniform local route; exact finite actual-index bands for auxiliary resource rows.",
+      "law_class": "Actual attained positively oriented standardized law; equality C_n=CE included; same law throughout each resource/comparison argument.",
+      "indices_and_targets": "Uniform N47 is a floor; apparent98/K0 is not actual upper index. Aux barriers K=1.5,.7,.54 and own score caps remain distinct.",
+      "raw_or_normalized": "RawH, countphase, delta=k-np, rhoB and signedBernoulliCB/master/repair need explicit typed binding.",
+      "strictness": "Weak contrary/globalceilings include equality; numerical local comparison and negativeD terminal are strict; lambda0 separate.",
+      "preconditions": "This is a mixed analytic/numerical obligation, not a proved analytic consequence of scalar assumptions. UniformHIGH and finite ordinaryCOUNT do not supply it. All actualn/floorN roles, nearest/whole normalization/gates, arbitrarily small positive lambda, closed seams and lambda0 must be explicit.",
+      "exact_conclusion": "The scalar proposition quantifies every n>=47 with explicit excess/drop/own/deleted caps. Its conditional source proof needs acquired83panel resources and rhoB(C-CB)<-.001lambda over a complete uniform local comparison cover, or zero-noise Bernoulli.",
+      "analytic_status": "Exact master/normalization/probability analytic parameters remain accepted; frozen cell/acquisition meanings are explicit combined numerical evidence, not analytically assumed finalFalse."
+    },
+    {
+      "id": "TAIL-AUXILIARY-ACQUISITION",
+      "lean": {
+        "file": "BEMap/TailAssembly.lean",
+        "declaration": "TailMethodProviders.contracts"
+      },
+      "source": {
+        "file": "berry_esseen_manuscript.tex",
+        "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+        "label": "cut49:global:finitecontracts;cut49:bar46:resource",
+        "line_ranges": [
+          [
+            7513,
+            7535
+          ],
+          [
+            7574,
+            7612
+          ],
+          [
+            8096,
+            8215
+          ]
+        ]
+      },
+      "comparison": "matched_after_source_specific_barrier_pass_meaning",
+      "quantifiers": "Every actual n>=47 for the uniform local route; exact finite actual-index bands for auxiliary resource rows.",
+      "law_class": "Actual attained positively oriented standardized law; equality C_n=CE included; same law throughout each resource/comparison argument.",
+      "indices_and_targets": "Uniform N47 is a floor; apparent98/K0 is not actual upper index. Aux barriers K=1.5,.7,.54 and own score caps remain distinct.",
+      "raw_or_normalized": "RawH, countphase, delta=k-np, rhoB and signedBernoulliCB/master/repair need explicit typed binding.",
+      "strictness": "Weak contrary/globalceilings include equality; numerical local comparison and negativeD terminal are strict; lambda0 separate.",
+      "preconditions": "OrdinaryCOUNT scoreUpper payload is not the resource-pass certificate. Preserve K,n/N/indexbands,R,Ccap,closedcovers,rawR warmstart,weight-removal license,K*rho subtraction only inD,paired-corner and signed-curvature gates; terminalnegativeD is not an ordinary nonnegative-cap resource state.",
+      "exact_conclusion": "A40/P41/A45/P46/A46 supported finite barrier-resource schedules establish auxiliary0.7/n and strong46 ceilings by a terminal negative physicalD upper. Their states can reuse actual-law resource definitions.",
+      "analytic_status": "Resource-job arithmetic meanings and support licenses remain numerical evidence; analytic scalar reduction consumes those proved exclusions. Target.29 is derived rather than assumed."
+    },
+    {
+      "id": "TAIL-LOCAL-FRAME",
+      "lean": {
+        "file": "BEMap/UniformTail.lean",
+        "declaration": "LocalFrame;MasterIdentityTheorem"
+      },
+      "source": {
+        "file": "berry_esseen_manuscript.tex",
+        "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+        "line_ranges": [
+          [
+            8228,
+            8269
+          ]
+        ]
+      },
+      "comparison": "matched_source_statement_after_A24_resolution",
+      "quantifiers": "Every actual n>=47 and hypothetical same-law realization for localcomparison;exact finiteactualindexbands forauxiliary jobs.",
+      "law_class": "Original unrestricted standardized attained positiveclosed contact at CE,including equality; actual binaryconditional lawssameX;lambda0andpositive separate.",
+      "indices_and_targets": "Actualn andfloor47 distinct;epsilon=.001 localcomparison;auxK exactrow;closedCE extraction onlyn>=40.",
+      "raw_or_normalized": "RawH,phaseu,delta=k-np,rhoB,CB,repair and actual√n normalization fixed.",
+      "strictness": "Closed geometric domains;lambda>0 TINY branch;weak source envelopes andstrictnumeric rounding;signs checkedbeforeuniformNrelaxation.",
+      "preconditions": "rhoB differs fromrho(X),CB differs from a predecessor constant. Actualn is never replaced by47 in distributions or threshold normalization.",
+      "exact_conclusion": "Same actual binary conditional laws,interior nearest count,rawH/phase/delta,rhoB andCB;normalizedGaussianincrement,repair and exact master identity.",
+      "analytic_status": "Exact source analytic implications accepted explicitly; resource/cell/acquisition numerical meanings remain separate evidence obligations."
+    },
+    {
+      "id": "TAIL-NORMALIZER",
+      "lean": {
+        "file": "BEMap/UniformTail.lean",
+        "declaration": "NormalizerGates;Normalization"
+      },
+      "source": {
+        "file": "berry_esseen_manuscript.tex",
+        "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+        "line_ranges": [
+          [
+            8317,
+            8421
+          ]
+        ]
+      },
+      "comparison": "matched_source_statement_after_A24_resolution",
+      "quantifiers": "Every actual n>=47 and hypothetical same-law realization for localcomparison;exact finiteactualindexbands forauxiliary jobs.",
+      "law_class": "Original unrestricted standardized attained positiveclosed contact at CE,including equality; actual binaryconditional lawssameX;lambda0andpositive separate.",
+      "indices_and_targets": "Actualn andfloor47 distinct;epsilon=.001 localcomparison;auxK exactrow;closedCE extraction onlyn>=40.",
+      "raw_or_normalized": "RawH,phaseu,delta=k-np,rhoB,CB,repair and actual√n normalization fixed.",
+      "strictness": "Closed geometric domains;lambda>0 TINY branch;weak source envelopes andstrictnumeric rounding;signs checkedbeforeuniformNrelaxation.",
+      "preconditions": "Positive denominators,mode upper separate frommasslower,omegaMinus>0,actualdeltaPositive, andv+s potentially>.25 retained.",
+      "exact_conclusion": "Exact N47 entropy/Stirling/mass/mode/logderivative/variance/ratio/cubic-repair gates with actual-law semantic Normalization.",
+      "analytic_status": "Exact source analytic implications accepted explicitly; resource/cell/acquisition numerical meanings remain separate evidence obligations."
+    },
+    {
+      "id": "TAIL-LOCAL-CELLS",
+      "lean": {
+        "file": "BEMap/UniformTail.lean",
+        "declaration": "CellMeaning;WholeKernelLicense;LocalCertificate"
+      },
+      "source": {
+        "file": "berry_esseen_manuscript.tex",
+        "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+        "line_ranges": [
+          [
+            8271,
+            8313
+          ],
+          [
+            8504,
+            8590
+          ],
+          [
+            8592,
+            8807
+          ],
+          [
+            8830,
+            8868
+          ]
+        ]
+      },
+      "comparison": "matched_source_statement_after_A24_resolution",
+      "quantifiers": "Every actual n>=47 and hypothetical same-law realization for localcomparison;exact finiteactualindexbands forauxiliary jobs.",
+      "law_class": "Original unrestricted standardized attained positiveclosed contact at CE,including equality; actual binaryconditional lawssameX;lambda0andpositive separate.",
+      "indices_and_targets": "Actualn andfloor47 distinct;epsilon=.001 localcomparison;auxK exactrow;closedCE extraction onlyn>=40.",
+      "raw_or_normalized": "RawH,phaseu,delta=k-np,rhoB,CB,repair and actual√n normalization fixed.",
+      "strictness": "Closed geometric domains;lambda>0 TINY branch;weak source envelopes andstrictnumeric rounding;signs checkedbeforeuniformNrelaxation.",
+      "preconditions": "Nearest requires nonnegative kappa beforeNrelaxation;whole requires B<0,I>=0. TINY covers arbitrarily positive noise;lambda0 is separate. Whole coefficients bound all closed mark subcells and both kink cases.",
+      "exact_conclusion": "Frozen closed cell data for scaledTINY or absoluteMID and wholecount B/I; full marked crossing,Poisson/Bennett/Cantelli and harmonic/curvature scalar licenses. Uniform meaning quantifies everyactualn>=47 and same law.",
+      "analytic_status": "Exact source analytic implications accepted explicitly; resource/cell/acquisition numerical meanings remain separate evidence obligations."
+    },
+    {
+      "id": "TAIL-LOCAL-ACQUISITION",
+      "lean": {
+        "file": "BEMap/UniformTail.lean",
+        "declaration": "UniformAcquisitionLicense"
+      },
+      "source": {
+        "file": "berry_esseen_manuscript.tex",
+        "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+        "line_ranges": [
+          [
+            790,
+            798
+          ],
+          [
+            7538,
+            7571
+          ],
+          [
+            8811,
+            8828
+          ]
+        ]
+      },
+      "comparison": "matched_source_statement_after_A24_resolution",
+      "quantifiers": "Every actual n>=47 and hypothetical same-law realization for localcomparison;exact finiteactualindexbands forauxiliary jobs.",
+      "law_class": "Original unrestricted standardized attained positiveclosed contact at CE,including equality; actual binaryconditional lawssameX;lambda0andpositive separate.",
+      "indices_and_targets": "Actualn andfloor47 distinct;epsilon=.001 localcomparison;auxK exactrow;closedCE extraction onlyn>=40.",
+      "raw_or_normalized": "RawH,phaseu,delta=k-np,rhoB,CB,repair and actual√n normalization fixed.",
+      "strictness": "Closed geometric domains;lambda>0 TINY branch;weak source envelopes andstrictnumeric rounding;signs checkedbeforeuniformNrelaxation.",
+      "preconditions": "Digests identify lanes only. Six support index bands include[200,infinity);nmax98/K0 is not an actual upper index. No final localcomparison conclusion is used to acquire its own resources.",
+      "exact_conclusion": "Concrete atlas resource/confinement/support acquisition has a fixed combined analytic/numerical meaning returning actual83-panel state under global entry caps.",
+      "analytic_status": "Exact source analytic implications accepted explicitly; resource/cell/acquisition numerical meanings remain separate evidence obligations."
+    },
+    {
+      "id": "TAIL-BARRIER-PAIRED",
+      "lean": {
+        "file": "BEMap/TailAssembly.lean",
+        "declaration": "PairedEnvelopeMeaning;paired_envelope_export"
+      },
+      "source": {
+        "file": "berry_esseen_manuscript.tex",
+        "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+        "line_ranges": [
+          [
+            1709,
+            1751
+          ],
+          [
+            8096,
+            8215
+          ]
+        ]
+      },
+      "comparison": "matched_source_statement_after_A24_resolution",
+      "quantifiers": "Every actual n>=47 and hypothetical same-law realization for localcomparison;exact finiteactualindexbands forauxiliary jobs.",
+      "law_class": "Original unrestricted standardized attained positiveclosed contact at CE,including equality; actual binaryconditional lawssameX;lambda0andpositive separate.",
+      "indices_and_targets": "Actualn andfloor47 distinct;epsilon=.001 localcomparison;auxK exactrow;closedCE extraction onlyn>=40.",
+      "raw_or_normalized": "RawH,phaseu,delta=k-np,rhoB,CB,repair and actual√n normalization fixed.",
+      "strictness": "Closed geometric domains;lambda>0 TINY branch;weak source envelopes andstrictnumeric rounding;signs checkedbeforeuniformNrelaxation.",
+      "preconditions": "Actual rho interval and actual central-gap floors are explicit. Weak source envelopes plus strict numerical maxima give strictraw/nD exports. Row K cannot be replaced by another barrier.",
+      "exact_conclusion": "Actual score/rho/innergap/moment/coefficient rectangle licenses,complete coherent pairedLOW andHIGH,warmstartdensity,Kρresource subtraction,signedphase correction and all4corners before square completion.",
+      "analytic_status": "Exact source analytic implications accepted explicitly; resource/cell/acquisition numerical meanings remain separate evidence obligations."
+    },
+    {
+      "id": "TAIL-SMOOTHING-ASSEMBLY",
+      "lean": {
+        "file": "BEMap/TailAssembly.lean",
+        "declaration": "smoothing_first_failure;TailMethodProviders.contracts"
+      },
+      "source": {
+        "file": "berry_esseen_manuscript.tex",
+        "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+        "line_ranges": [
+          [
+            368,
+            398
+          ],
+          [
+            7464,
+            7505
+          ],
+          [
+            7513,
+            7644
+          ]
+        ]
+      },
+      "comparison": "matched_source_statement_after_A24_resolution",
+      "quantifiers": "Every actual n>=47 and hypothetical same-law realization for localcomparison;exact finiteactualindexbands forauxiliary jobs.",
+      "law_class": "Original unrestricted standardized attained positiveclosed contact at CE,including equality; actual binaryconditional lawssameX;lambda0andpositive separate.",
+      "indices_and_targets": "Actualn andfloor47 distinct;epsilon=.001 localcomparison;auxK exactrow;closedCE extraction onlyn>=40.",
+      "raw_or_normalized": "RawH,phaseu,delta=k-np,rhoB,CB,repair and actual√n normalization fixed.",
+      "strictness": "Closed geometric domains;lambda>0 TINY branch;weak source envelopes andstrictnumeric rounding;signs checkedbeforeuniformNrelaxation.",
+      "preconditions": "No sharp finite1..48 premise. AuxiliaryScalarReduction is an accepted source implication over supported numerical exclusions,not a bareauxiliarygoal. Final scalar upper weakens source strict result sufficiently for global upper bound.",
+      "exact_conclusion": "ClosedCE extraction onlyn>=40,same-law deleted/drop bounds,exact support-free smoothing plus scalarindex brackets derive.29; actual typed providers construct all TailContracts fields.",
+      "analytic_status": "Exact source analytic implications accepted explicitly; resource/cell/acquisition numerical meanings remain separate evidence obligations."
+    }
+  ],
+  "ordinary_count_rule_catalogue": {
+    "document": "COUNT-RULES.md",
+    "selected_rules": [
+      "EMPTY_PHASE",
+      "EMPTY_ACQUIRED_THETA_VARIANCE",
+      "EMPTY_SHARP_BOX",
+      "EMPTY_JOINT_CUBICS",
+      "EMPTY_RHO_UPPER",
+      "EMPTY_ACQUIRED_RHO_VARIANCE",
+      "PASS_TARGET"
+    ],
+    "scope": "Six EMPTY types observed in reviewer-selected forest, not all native branches. Exact semantic input/conditions and proof-witness boundary in document.",
+    "archive_sha256": "17fa140f63c5134ac48f1fd1040f4c5ae4bebdb2b92b2d7ce69f4048293d1fcb"
+  },
+  "final_assessment": "PASS for documented global mathematical interfaces under explicit accepted analytic/source premises. A24 is resolved by UniformTail and TailAssembly, and EndToEndProviders.tail now consumes TailMethodProviders.contracts. No known remaining mathematical-scope blocker. Implemented checkers, approved source/capsule data and fresh numerical evidence remain required; no unconditional proof or numerical replay is claimed.",
+  "remaining_frontier": [
+    {
+      "kind": "implementation",
+      "item": "Implement parsers/checkers and whole-cell/outward arithmetic satisfying the fixed certificate meanings and all source gates."
+    },
+    {
+      "kind": "evidence_supply",
+      "item": "Supply exact approved manifests, complete source capsules and actual numerical certificates. The canonical selected p25 capsule is missing from the currently available historical material."
+    },
+    {
+      "kind": "trust_choice",
+      "item": "Use exact source-bound replay or a self-contained arithmetic trace under the same fixed semantics; analytic/source soundness remains an explicit accepted premise."
+    },
+    {
+      "kind": "not_claimed",
+      "item": "No unconditional global proof, full production replay, new supercomputer run, or reproduction of reviewer timings is claimed."
+    }
+  ],
+  "public_entrypoint_and_assembly": {
+    "public_entrypoint": "BEMap.lean imports Global, Assembly, HighFamilies, MixedRegistry, InterfaceChecks without an import cycle.",
+    "upper_signature": "all_indices_from_typed_providers (p : EndToEndProviders)",
+    "sharp_signature": "sharp_from_typed_providers (p : EndToEndProviders) (lower : LowerApproximation)",
+    "snapshot_sha256": {
+      "BEMap.lean": "a77fef73998a346b143377bd7d3e7754a57a4560eff4becaa18e89d19dbbe36d",
+      "BEMap/Global.lean": "2e3b41557014cf1a338787bea5cc84bc60431bb1d88f2231d3935532594385ba",
+      "BEMap/Assembly.lean": "81c8c8f112dbf3b483068f50ddbf1edeb2cb03f5a3c784810e936215547d7b8b",
+      "BEMap/HighFamilies.lean": "0035b64629b1221ddc2e6affa38f1067a175d90328bfb80fe1c2e6cc2d0c1130",
+      "BEMap/MixedRegistry.lean": "a132c52b118ed946f5a478ac985873ef7c3cab9db899e8b9437ab019c0f63851",
+      "BEMap/UniformTail.lean": "4a4aed84a2c03b94a1cdeb2ed3c08560853540d91053d384a31e90eed26bcf6b",
+      "BEMap/TailAssembly.lean": "474926091faa6d1239b686ccb880ed150d6dccdfedb88789abb24570ad0e549a",
+      "BEMap/CountRules.lean": "3209dd2886aa571f4a7345d3d26a8ea5a078ae620c5745332342aad7117b5aae",
+      "BEMap/InterfaceChecks.lean": "74228df1a6f30f21c70b12f0166f0d51dcc303662fb276a762aacd5f8a1e0bc5"
+    },
+    "tail_field": "EndToEndProviders.tail : TailMethodProviders; final upper/sharp consumers pass p.tail.contracts, not an opaque raw TailContracts input.",
+    "build_note": "Source snapshot only. Coordinator reports fresh/cached compilation and test results separately; this audit did not run finalAll."
+  },
+  "uniform_tail_source_validation": {
+    "archive": "BE_cutoff49_20260930.zip",
+    "archive_sha256": "ecdb9acca0db29efc9fe2bf496c0bcc61b4881aecdcbc91a4eb6ad49b920c72e",
+    "members": [
+      {
+        "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/left270_input47_table.json",
+        "sha256": "4b7bb259e469ee57ca6a61d89fd0b3385443508129138899fe597fd82dc9521a",
+        "rows": 38
+      },
+      {
+        "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/sperner_feedback47_table.json",
+        "sha256": "4a1ea8a439e85e9f481bb6c6eb7a197ec4d35e53ceecf0ec92c3d4c96b9f618a",
+        "rows": 45
+      }
+    ],
+    "all_83_exact_probability_intervals_verified": true,
+    "left_table_copies": [
+      {
+        "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/entry/left270_input47_table.json",
+        "sha256": "4b7bb259e469ee57ca6a61d89fd0b3385443508129138899fe597fd82dc9521a"
+      },
+      {
+        "member": "BE_cutoff49_20260930/baseline/certificates/work/below50_20260929/local/left270_input47_table.json",
+        "sha256": "4b7bb259e469ee57ca6a61d89fd0b3385443508129138899fe597fd82dc9521a"
+      },
+      {
+        "member": "BE_cutoff49_20260930/legacy_phase/left270_input47_table.json",
+        "sha256": "4b7bb259e469ee57ca6a61d89fd0b3385443508129138899fe597fd82dc9521a"
+      }
+    ],
+    "left_table_copies_agree": true,
+    "interpretation": "Read-only byte/domain validation only; no original math code was imported/executed and no inequalities or numerical margins were newly accepted."
+  }
+}

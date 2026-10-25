@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1240" height="1784" viewBox="0 0 1240 1784" role="img" aria-labelledby="title desc">
 <title id="title">Berry--Esseen: Lean proof map</title>
-<desc id="desc">Green boxes are checked conditional implications. Amber boxes are open mathematical assumptions. The finite range and the independent tail combine into the upper bound. A separate lower approximation gives sharpness.</desc>
+<desc id="desc">Green boxes are checked conditional implications. Amber boxes are explicit analytic and numerical inputs. Typed finite methods and the independent tail combine into the upper bound. A separate lower approximation gives sharpness.</desc>
 <defs><filter id="shadow" x="-15%" y="-15%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#10243a" flood-opacity=".055"/></filter>
 <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1 L7 4 L1 7" fill="none" stroke="#8091a8" stroke-width="1.4"/></marker></defs>
 <style>text{font-family:"Segoe UI",Arial,sans-serif;fill:#172b44} .mono{font-family:Consolas,"DejaVu Sans Mono",monospace} .label{font-size:11px;font-weight:700;letter-spacing:1.2px} .edge{fill:none;stroke:#8091a8;stroke-width:2;stroke-linejoin:round;marker-end:url(#arrow)}</style>
@@ -8,19 +8,19 @@
 <rect x="32" y="32" width="1176" height="218" rx="22" fill="#10243a"/>
 <text x="62" y="76" style="fill:#9bc7dd;font-size:12px;letter-spacing:2.2px;font-weight:600">MATHEMATICAL CONTRACTS / LEAN 4.32.0</text>
 <text x="62" y="124" style="fill:white;font-size:37px;font-weight:650">Berry–Esseen · the proof map</text>
-<text x="62" y="158" style="fill:#cfdae5;font-size:18px">Checked logical composition. Every open premise stays visible.</text>
-<rect x="62" y="184" width="220" height="34" rx="17" fill="#203b50"/>
-<text x="76" y="206" style="fill:#dbebe9;font-size:13px;font-weight:600">8 modules · local check PASS</text>
-<rect x="296" y="184" width="170" height="34" rx="17" fill="#203b50"/>
-<text x="310" y="206" style="fill:#dbebe9;font-size:13px;font-weight:600">41 s · logical core</text>
-<rect x="480" y="184" width="190" height="34" rx="17" fill="#203b50"/>
-<text x="494" y="206" style="fill:#dbebe9;font-size:13px;font-weight:600">2 min 51 s · full audit</text>
+<text x="62" y="158" style="fill:#cfdae5;font-size:18px">Detailed mathematical interfaces. Every analytic premise stays visible.</text>
+<rect x="62" y="184" width="235" height="34" rx="17" fill="#203b50"/>
+<text x="76" y="206" style="fill:#dbebe9;font-size:13px;font-weight:600">29 modules · local check PASS</text>
+<rect x="311" y="184" width="210" height="34" rx="17" fill="#203b50"/>
+<text x="325" y="206" style="fill:#dbebe9;font-size:13px;font-weight:600">58 s · core compile</text>
+<rect x="535" y="184" width="270" height="34" rx="17" fill="#203b50"/>
+<text x="549" y="206" style="fill:#dbebe9;font-size:13px;font-weight:600">4 min 53 s · incremental</text>
 <circle cx="62" cy="286" r="6" fill="#0b805d"/>
 <text x="77" y="291" style="font-size:16px;font-weight:600">Checked implication</text>
 <circle cx="382" cy="286" r="6" fill="#af6414"/>
-<text x="397" y="291" style="font-size:16px;font-weight:600">Open contract in Lean</text>
-<circle cx="730" cy="286" r="6" fill="#3063c4"/>
-<text x="745" y="291" style="font-size:16px;font-weight:600">Concrete probability model</text>
+<text x="397" y="291" style="font-size:16px;font-weight:600">Analytic / numerical input</text>
+<circle cx="780" cy="286" r="6" fill="#3063c4"/>
+<text x="795" y="291" style="font-size:16px;font-weight:600">Concrete law model</text>
 <rect x="40" y="474" width="370" height="722" rx="18" fill="#eaf0f7"/>
 <text x="60" y="506" class="label" style="fill:#47627c">01  FINITE RANGE</text>
 <text x="60" y="527" style="fill:#61758d;font-size:12px">All literal indices 1 through 48</text>
@@ -39,7 +39,7 @@
 <path class="edge" d="M1013 688 V738" stroke-dasharray="5 5"/>
 <path class="edge" d="M1178 616 H1190 V1088 H1178" stroke-dasharray="5 5"/>
 <path class="edge" d="M880 850 H838 V1010 H930 V1032"/>
-<path class="edge" d="M1013 990 V1032" stroke-dasharray="5 5"/>
+<path class="edge" d="M1013 990 V1032"/>
 <path class="edge" d="M225 1144 V1218 H350 V1270"/>
 <path class="edge" d="M1013 1144 V1218 H730 V1270"/>
 <path class="edge" d="M445 1386 V1426 H500 V1470"/>
@@ -54,18 +54,18 @@
 <g id="SMALL">
 <rect x="60" y="542" width="330" height="128" rx="13" fill="#fffbf0" stroke="#e6cd96" filter="url(#shadow)"/>
 <rect x="60" y="560" width="4" height="92" rx="2" fill="#9d5d17"/>
-<text x="78" y="567" class="label" style="fill:#9d5d17;font-size:10px">OPEN MATHEMATICAL INPUT</text>
-<text x="78" y="594" style="font-size:21px;font-weight:650">Small indices + constants</text>
-<text x="78" y="618" style="font-size:13.8px;fill:#405870">n = 1, 2, 3; strong n3 -&gt; n4 -&gt; n5</text>
-<text x="78" y="637" style="font-size:13.8px;fill:#405870">Quantitative bounds are preserved.</text>
+<text x="78" y="567" class="label" style="fill:#9d5d17;font-size:10px">ANALYTIC / NUMERICAL INPUT</text>
+<text x="78" y="594" style="font-size:21px;font-weight:650">Small + ROOT4 + n5</text>
+<text x="78" y="618" style="font-size:13.8px;fill:#405870">Exact polynomial and physical methods</text>
+<text x="78" y="637" style="font-size:13.8px;fill:#405870">Strong n3 -&gt; weak ROOT4 -&gt; n5 cover</text>
 </g>
 <g id="ORDINARY">
 <rect x="60" y="720" width="330" height="128" rx="13" fill="#fffbf0" stroke="#e6cd96" filter="url(#shadow)"/>
 <rect x="60" y="738" width="4" height="92" rx="2" fill="#9d5d17"/>
-<text x="78" y="745" class="label" style="fill:#9d5d17;font-size:10px">OPEN MATHEMATICAL INPUT</text>
+<text x="78" y="745" class="label" style="fill:#9d5d17;font-size:10px">ANALYTIC / NUMERICAL INPUT</text>
 <text x="78" y="772" style="font-size:21px;font-weight:650">Literal finite exclusions</text>
 <text x="78" y="796" style="font-size:13.8px;fill:#405870">Every actual n = 6,...,48 except 25</text>
-<text x="78" y="815" style="font-size:13.8px;fill:#405870">Earlier sharp bounds: sufficient route.</text>
+<text x="78" y="815" style="font-size:13.8px;fill:#405870">Typed state + complete count forests</text>
 </g>
 <g id="FINITE">
 <rect x="60" y="1032" width="330" height="112" rx="13" fill="#f0fbf6" stroke="#a7d9c3" filter="url(#shadow)"/>
@@ -77,10 +77,10 @@
 <g id="INPUT25">
 <rect x="454" y="542" width="330" height="146" rx="13" fill="#fffbf0" stroke="#e6cd96" filter="url(#shadow)"/>
 <rect x="454" y="560" width="4" height="110" rx="2" fill="#9d5d17"/>
-<text x="472" y="567" class="label" style="fill:#9d5d17;font-size:10px">OPEN MATHEMATICAL INPUT</text>
+<text x="472" y="567" class="label" style="fill:#9d5d17;font-size:10px">ANALYTIC / NUMERICAL INPUT</text>
 <text x="472" y="594" style="font-size:21px;font-weight:650">Exact n25 premises</text>
-<text x="472" y="618" style="font-size:13.8px;fill:#405870">Unrestricted contact extraction</text>
-<text x="472" y="637" style="font-size:13.8px;fill:#405870">Signed-beta moment envelopes</text>
+<text x="472" y="618" style="font-size:13.8px;fill:#405870">Scoped ordinary / mixed methods</text>
+<text x="472" y="637" style="font-size:13.8px;fill:#405870">Exact signed-beta envelopes</text>
 <text x="472" y="656" style="font-size:13.8px;fill:#405870">All 20 same-witness exclusions</text>
 </g>
 <g id="COVER25">
@@ -95,8 +95,8 @@
 <rect x="454" y="910" width="330" height="112" rx="13" fill="#f0fbf6" stroke="#a7d9c3" filter="url(#shadow)"/>
 <rect x="454" y="928" width="4" height="76" rx="2" fill="#087451"/>
 <text x="472" y="935" class="label" style="fill:#087451;font-size:10px">CHECKED IMPLICATION</text>
-<text x="472" y="962" style="font-size:21px;font-weight:650">n25_upper_of_regions</text>
-<text x="472" y="986" style="font-size:13.8px;fill:#405870">All regional exclusions -&gt; C25 &lt;= C_E</text>
+<text x="472" y="962" style="font-size:21px;font-weight:650">TwentyFiveProvider.upper</text>
+<text x="472" y="986" style="font-size:13.8px;fill:#405870">All scoped regional methods -&gt; C25 &lt;= C_E</text>
 </g>
 <g id="LICENSE25">
 <rect x="454" y="1066" width="330" height="110" rx="13" fill="#f0fbf6" stroke="#a7d9c3" filter="url(#shadow)"/>
@@ -109,11 +109,11 @@
 <g id="TAILINPUT">
 <rect x="848" y="542" width="330" height="146" rx="13" fill="#fffbf0" stroke="#e6cd96" filter="url(#shadow)"/>
 <rect x="848" y="560" width="4" height="110" rx="2" fill="#9d5d17"/>
-<text x="866" y="567" class="label" style="fill:#9d5d17;font-size:10px">OPEN MATHEMATICAL INPUT</text>
+<text x="866" y="567" class="label" style="fill:#9d5d17;font-size:10px">ANALYTIC / NUMERICAL INPUT</text>
 <text x="866" y="594" style="font-size:21px;font-weight:650">Independent tail premises</text>
-<text x="866" y="618" style="font-size:13.8px;fill:#405870">Auxiliary ceilings 45..50; strong 46</text>
-<text x="866" y="637" style="font-size:13.8px;fill:#405870">Uniform local exclusion for n &gt;= 47</text>
-<text x="866" y="656" style="font-size:13.8px;fill:#405870">Explicit numerical cap on C_E</text>
+<text x="866" y="618" style="font-size:13.8px;fill:#405870">83 panels: positive / zero noise</text>
+<text x="866" y="637" style="font-size:13.8px;fill:#405870">Five auxiliary resource-barrier families</text>
+<text x="866" y="656" style="font-size:13.8px;fill:#405870">Exact smoothing + index brackets</text>
 </g>
 <g id="BASE49">
 <rect x="848" y="738" width="330" height="112" rx="13" fill="#f0fbf6" stroke="#a7d9c3" filter="url(#shadow)"/>
@@ -124,11 +124,11 @@
 <text x="866" y="833" style="font-size:13.8px;fill:#405870">Contradiction with the strong 46 cap.</text>
 </g>
 <g id="SMOOTH">
-<rect x="848" y="890" width="330" height="100" rx="13" fill="#fffbf0" stroke="#e6cd96" filter="url(#shadow)"/>
-<rect x="848" y="908" width="4" height="64" rx="2" fill="#9d5d17"/>
-<text x="866" y="915" class="label" style="fill:#9d5d17;font-size:10px">OPEN MATHEMATICAL INPUT</text>
-<text x="866" y="942" style="font-size:21px;font-weight:650">Smoothing consequence</text>
-<text x="866" y="966" style="font-size:13.8px;fill:#405870">Sharp predecessor -&gt; n a_n &lt; 0.29</text>
+<rect x="848" y="890" width="330" height="100" rx="13" fill="#f0fbf6" stroke="#a7d9c3" filter="url(#shadow)"/>
+<rect x="848" y="908" width="4" height="64" rx="2" fill="#087451"/>
+<text x="866" y="915" class="label" style="fill:#087451;font-size:10px">CHECKED IMPLICATION</text>
+<text x="866" y="942" style="font-size:21px;font-weight:650">smoothing_first_failure</text>
+<text x="866" y="966" style="font-size:13.8px;fill:#405870">Source smoothing -&gt; n a_n &lt; 0.29</text>
 </g>
 <g id="TAIL">
 <rect x="848" y="1032" width="330" height="112" rx="13" fill="#f0fbf6" stroke="#a7d9c3" filter="url(#shadow)"/>
@@ -141,14 +141,14 @@
 <rect x="60" y="1270" width="770" height="116" rx="13" fill="#f0fbf6" stroke="#a7d9c3" filter="url(#shadow)"/>
 <rect x="60" y="1288" width="4" height="80" rx="2" fill="#087451"/>
 <text x="78" y="1295" class="label" style="fill:#087451;font-size:10px">CHECKED IMPLICATION</text>
-<text x="78" y="1322" style="font-size:21px;font-weight:650">all_indices_upper</text>
+<text x="78" y="1322" style="font-size:21px;font-weight:650">Typed all-index bound</text>
 <text x="78" y="1346" style="font-size:13.8px;fill:#405870">Every positive integer: C_n &lt;= C_E</text>
 <text x="78" y="1365" style="font-size:13.8px;fill:#405870">Concrete iid inequality follows for every standardized law.</text>
 </g>
 <g id="LOWER">
 <rect x="880" y="1270" width="320" height="116" rx="13" fill="#fffbf0" stroke="#e6cd96" filter="url(#shadow)"/>
 <rect x="880" y="1288" width="4" height="80" rx="2" fill="#9d5d17"/>
-<text x="898" y="1295" class="label" style="fill:#9d5d17;font-size:10px">OPEN MATHEMATICAL INPUT</text>
+<text x="898" y="1295" class="label" style="fill:#9d5d17;font-size:10px">ANALYTIC / NUMERICAL INPUT</text>
 <text x="898" y="1322" style="font-size:21px;font-weight:650">Separate lower bound</text>
 <text x="898" y="1346" style="font-size:13.8px;fill:#405870">Bernoulli lattice approximation</text>
 <text x="898" y="1365" style="font-size:13.8px;fill:#405870">No fixed-n attainment is assumed.</text>
@@ -157,13 +157,13 @@
 <rect x="280" y="1470" width="680" height="126" rx="13" fill="#f0fbf6" stroke="#a7d9c3" filter="url(#shadow)"/>
 <rect x="280" y="1488" width="4" height="90" rx="2" fill="#087451"/>
 <text x="298" y="1495" class="label" style="fill:#087451;font-size:10px">CHECKED IMPLICATION</text>
-<text x="298" y="1522" style="font-size:21px;font-weight:650">sharp_global_constant</text>
+<text x="298" y="1522" style="font-size:21px;font-weight:650">Typed sharpness theorem</text>
 <text x="298" y="1546" style="font-size:13.8px;fill:#405870">C* = C_E = (3 + sqrt(10)) / (6 sqrt(2 pi))</text>
 <text x="298" y="1565" style="font-size:13.8px;fill:#405870">Checked conclusion, conditional on all displayed contracts.</text>
 </g>
 <text x="620" y="1239" text-anchor="middle" class="label" style="fill:#59738f">FINITE + TAIL = EVERY POSITIVE INDEX</text>
 <rect x="48" y="1652" width="1144" height="94" rx="14" fill="white" stroke="#dce4ef"/>
 <text x="70" y="1682" class="label" style="fill:#446079">HOW TO READ THE GREEN BOXES</text>
-<text x="70" y="1707" style="font-size:15px">Lean has proved the implication from its stated inputs. The amber inputs still require proofs.</text>
+<text x="70" y="1707" style="font-size:15px">Lean checks the assembly. Exact analytic theorems are premises; numerical evidence remains to supply.</text>
 <text x="70" y="1730" style="font-size:13px;fill:#65798f">Source-linked declarations: docs/proof-map.md · Exact check and source hashes: check-All.json</text>
 </svg>

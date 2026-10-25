@@ -1,14 +1,74 @@
 --- BEMap/Finite ---
+Verified unchanged source, compiled artifact and project dependencies; compiler check at 10/25/2026 18:44:32.
 --- BEMap/Cover25 ---
+Verified unchanged source, compiled artifact and project dependencies; compiler check at 10/25/2026 18:44:32.
 --- BEMap/Tail ---
+Verified unchanged source, compiled artifact and project dependencies; compiler check at 10/25/2026 18:44:32.
 --- BEMap/Foundations/ProbabilityLaw ---
+Verified unchanged source, compiled artifact and project dependencies; compiler check at 10/25/2026 18:44:32.
 --- BEMap/Foundations/OptimalConstant ---
+Verified unchanged source, compiled artifact and project dependencies; compiler check at 10/25/2026 18:44:32.
+--- BEMap/Domain ---
+Verified unchanged source, compiled artifact and project dependencies; compiler check at 10/25/2026 18:44:32.
 --- BEMap/Interfaces ---
-BEMap/Interfaces.lean:35:29: warning: Variable name `w` is not explicitly referenced.
+Verified unchanged source, compiled artifact and project dependencies; compiler check at 10/25/2026 18:44:32.
+--- BEMap/Covers ---
+Verified unchanged source, compiled artifact and project dependencies; compiler check at 10/25/2026 18:44:32.
+--- BEMap/Physical ---
+Verified unchanged source, compiled artifact and project dependencies; compiler check at 10/25/2026 18:44:32.
+--- BEMap/Binary ---
+Verified unchanged source, compiled artifact and project dependencies; compiler check at 10/25/2026 18:44:32.
+--- BEMap/Fourier ---
+Verified unchanged source, compiled artifact and project dependencies; compiler check at 10/25/2026 18:44:32.
+--- BEMap/Root4 ---
+Verified unchanged source, compiled artifact and project dependencies; compiler check at 10/25/2026 18:44:32.
+--- BEMap/SmallIndices ---
+Verified unchanged source, compiled artifact and project dependencies; compiler check at 10/25/2026 18:44:32.
+--- BEMap/CountRules ---
+Verified unchanged source, compiled artifact and project dependencies; compiler check at 10/25/2026 18:44:32.
+--- BEMap/Prawitz ---
+Verified unchanged source, compiled artifact and project dependencies; compiler check at 10/25/2026 18:44:32.
+--- BEMap/Certificates ---
+Verified unchanged source, compiled artifact and project dependencies; compiler check at 10/25/2026 18:44:32.
+--- BEMap/GeneralCount ---
+Verified unchanged source, compiled artifact and project dependencies; compiler check at 10/25/2026 18:44:32.
+--- BEMap/Mixed ---
+Verified unchanged source, compiled artifact and project dependencies; compiler check at 10/25/2026 18:44:32.
+--- BEMap/TypedPipeline ---
+Verified unchanged source, compiled artifact and project dependencies; compiler check at 10/25/2026 18:44:32.
+--- BEMap/FourierFamilies ---
+Verified unchanged source, compiled artifact and project dependencies; compiler check at 10/25/2026 18:44:32.
+--- BEMap/InterfaceChecks ---
+Verified unchanged source, compiled artifact and project dependencies; compiler check at 10/25/2026 18:44:32.
+--- BEMap/Global ---
+Verified unchanged source, compiled artifact and project dependencies; compiler check at 10/25/2026 18:44:32.
+--- BEMap/UniformTail ---
+--- BEMap/TailAssembly ---
+BEMap/TailAssembly.lean:298:0: warning: Definition `BarrierCellOutput.exports` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+BEMap/TailAssembly.lean:414:14: warning: Variable name `extract` is not explicitly referenced.
 
 The binding can be removed (if unused) or named `_` (if used implicitly).
 
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
+BEMap/TailAssembly.lean:415:5: warning: Variable name `support` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+BEMap/TailAssembly.lean:416:5: warning: Variable name `smoothing` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+BEMap/TailAssembly.lean:454:0: warning: Definition `TailMethodProviders.contracts` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+--- BEMap/Assembly ---
+--- BEMap/HighFamilies ---
+Verified unchanged source, compiled artifact and project dependencies; compiler check at 10/25/2026 18:44:32.
+--- BEMap/MixedRegistry ---
 --- BEMap ---
 --- Audit ---
 BEMap.all_indices_upper (constants : BEMap.ConstantComparisons)
@@ -19,7 +79,51 @@ BEMap.sharp_global_constant (constants : BEMap.ConstantComparisons)
   (finite : BEMap.FiniteContracts BEMap.optimalConstant BEMap.esseenConstant BEMap.bound2 BEMap.bound3 BEMap.bound4)
   (tail : BEMap.TailContracts BEMap.optimalConstant BEMap.esseenConstant) (lower : BEMap.LowerApproximation) :
   BEMap.globalConstant = BEMap.esseenConstant
-BEMap.ContactPipeline.reject {n : ℕ} (p : BEMap.ContactPipeline n) (w : BEMap.ContraryContact n) : False
+BEMap.ContactPipeline.score_bound {n : ℕ} {floor : ℝ} (p : BEMap.ContactPipeline n floor)
+  (w : BEMap.ContactAt n floor) : w.X.normalizedScore n ≤ floor
+BEMap.ContactAt (n : ℕ) (floor : ℝ) : Type
+BEMap.Root4Provider : Prop
+BEMap.EndToEndProviders : Type
+BEMap.sharp_from_typed_providers (p : BEMap.EndToEndProviders) (lower : BEMap.LowerApproximation) :
+  BEMap.globalConstant = BEMap.esseenConstant
+BEMap.checked_quantitative_count_point_bound {n : ℕ} {ctx : BEMap.CountTaskContext n}
+  {checker : BEMap.QuantitativeCountChecker ctx} (certificate : BEMap.CheckedCertificate checker)
+  {X : BEMap.StandardizedLaw} {H : BEMap.RawThreshold} {point : BEMap.CountPoint n}
+  (scope : BEMap.GeneralCountRealization ctx X H point) :
+  BEMap.positiveClosedPointScore X n H ≤ ↑certificate.payload.upper
+BEMap.FarkasCandidate.check_sound {dimension rows : ℕ} {c : BEMap.FarkasCandidate dimension rows}
+  (hcheck : c.check = true) (x : Fin dimension → ℝ)
+  (necessary : ∀ (i : Fin rows), ∑ j, ↑(c.matrix i j) * x j ≤ ↑(c.rhs i)) : False
+BEMap.HighFamilies.window50_uniform_scaled {n : ℕ} {floor : ℝ} {w : BEMap.ContactAt n floor}
+  (analytic : BEMap.HighFamilies.Window50Theorem) (uniform : BEMap.HighFamilies.Window50UniformTheorem)
+  (p : BEMap.HighFamilies.Window50Parameters) (i : BEMap.HighFamilies.Window50UniformInputs p) (hn : i.lowerIndex ≤ n)
+  (law : BEMap.HighFamilies.Window50LawEvidence w.X p) :
+  BEMap.HighFamilies.CompleteScaledHigh w (BEMap.HighFamilies.window50ScaledUpper i.lowerIndex p)
+BEMap.HighFamilies.supported_power_high {n : ℕ} {floor : ℝ} {w : BEMap.ContactAt n floor}
+  (analytic : BEMap.HighFamilies.SupportedPowerTheorem) (p : BEMap.HighFamilies.SupportedPowerParameters)
+  (partition : BEMap.HighFamilies.SupportedPowerPartition p)
+  (cells : BEMap.HighFamilies.SupportedPowerCells n p partition) (hn : 2 ≤ n)
+  (law : BEMap.HighFamilies.SupportedPowerLawEvidence w.X n p partition cells)
+  (rounding :
+    BEMap.HighFamilies.ScaledHighRounding n (BEMap.HighFamilies.supportedPowerScaledUpper n p partition cells)) :
+  BEMap.HighBound w BEMap.halfFrequencySplit
+BEMap.MixedRegistry.ReferenceUse.excludes {caller : BEMap.CountTaskContext 25} {candidate : BEMap.CountBox 25}
+  {spec : BEMap.MixedRegistry.FrozenReference} (use : BEMap.MixedRegistry.ReferenceUse caller candidate spec)
+  (acquired : BEMap.MixedRegistry.ReferenceAcquisition spec) {w : BEMap.ContraryContact 25}
+  {point : BEMap.CountPoint 25} (owner : caller.SatisfiedBy w point) (inside : candidate.Contains point) : False
+BEMap.MixedRegistry.OriginalP25Admission (r : BEMap.MixedRegistry.SemanticRegistry)
+  (manifest : BEMap.MixedRegistry.SourceManifest) : Type
+BEMap.UniformTail.UniformLocalProvider.reject (provider : BEMap.UniformTail.UniformLocalProvider) {n : ℕ}
+  (w : BEMap.ContraryContact n) (inputs : BEMap.UniformTail.UniformLocalAssumptions w) : False
+BEMap.TailMethodProviders.contracts (p : BEMap.TailMethodProviders) :
+  BEMap.TailContracts BEMap.optimalConstant BEMap.esseenConstant
+BEMap.barrier_resource_reject {row : BEMap.TailAuxiliaryRow} {checker : BEMap.BarrierResourceChecker row}
+  (certificate : BEMap.CheckedCertificate checker) {n : ℕ} (w : BEMap.ContraryContact n)
+  (scope : BEMap.BarrierScope row w) : False
+BEMap.smoothing_first_failure (analytic : BEMap.SupportFreeSmoothing) (brackets : BEMap.SmoothingIndexBrackets)
+  (constant_nonneg : 0 ≤ BEMap.esseenConstant) (constant_upper : BEMap.esseenConstant ≤ 409733 / 1000000) (n : ℕ)
+  (hn : 50 ≤ n) (previous : BEMap.optimalConstant (n - 1) ≤ BEMap.esseenConstant) :
+  ↑n * (BEMap.optimalConstant n - BEMap.esseenConstant) < 29 / 100
 BEMap.n25_upper_of_regions (extract : BEMap.ContactExtraction)
   (hmid : ∀ (w : BEMap.ContraryContact 25), BEMap.MiddleEnvelope25 w.X.rho w.X.beta)
   (hhigh : ∀ (w : BEMap.ContraryContact 25), BEMap.HighEnvelope25 w.X.rho w.X.beta)
@@ -32,3 +136,18 @@ BEMap.TailContracts (C : ℕ → ℝ) (c : ℝ) : Prop
 'BEMap.tail_base49' depends on axioms: [propext, Classical.choice, Quot.sound]
 'BEMap.tail_composition' depends on axioms: [propext, Classical.choice, Quot.sound]
 'BEMap.same_law_n25_allowance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.Root4Provider.upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.CountTree.cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.n5_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.floor31_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.FarkasCandidate.check_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.checked_quantitative_count_point_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.HighFamilies.window50_uniform_scaled' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.HighFamilies.supported_power_high' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.MixedRegistry.ReferenceUse.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.MixedRegistry.SemanticRegistry.acquired' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.UniformTail.UniformLocalProvider.reject' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.TailMethodProviders.contracts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.barrier_resource_reject' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.smoothing_first_failure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.sharp_from_typed_providers' depends on axioms: [propext, Classical.choice, Quot.sound]

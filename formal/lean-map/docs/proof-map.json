@@ -1,9 +1,9 @@
 {
-  "title": "Berry--Esseen: checked Lean composition and open mathematical contracts",
+  "title": "Berry--Esseen: detailed mathematical contracts and checked conditional composition",
   "interpretation": "Curated grouped view of theorem interfaces, not a kernel-exported proof-term graph",
   "status_legend": {
     "checked": "Proved conditional implication; its premises may remain open",
-    "open": "Undischarged input in this Lean project",
+    "open": "Explicit accepted analytic premise or numerical evidence still to supply",
     "model": "Concrete definitions and elementary proved foundation"
   },
   "verification": "check-All.json",
@@ -34,14 +34,14 @@
         330,
         128
       ],
-      "title": "Small indices + constants",
+      "title": "Small + ROOT4 + n5",
       "explanation": [
-        "n = 1, 2, 3; strong n3 -> n4 -> n5",
-        "Quantitative bounds are preserved."
+        "Exact polynomial and physical methods",
+        "Strong n3 -> weak ROOT4 -> n5 cover"
       ],
-      "source": "BEMap/Finite.lean",
-      "declaration": "FiniteContracts",
-      "line": 15
+      "source": "BEMap/Assembly.lean",
+      "declaration": "EndToEndProviders",
+      "line": 154
     },
     {
       "id": "ORDINARY",
@@ -55,11 +55,11 @@
       "title": "Literal finite exclusions",
       "explanation": [
         "Every actual n = 6,...,48 except 25",
-        "Earlier sharp bounds: sufficient route."
+        "Typed state + complete count forests"
       ],
-      "source": "BEMap/Finite.lean",
-      "declaration": "FiniteContracts",
-      "line": 15
+      "source": "BEMap/Assembly.lean",
+      "declaration": "FixedIndexMethodProvider",
+      "line": 14
     },
     {
       "id": "FINITE",
@@ -89,13 +89,13 @@
       ],
       "title": "Exact n25 premises",
       "explanation": [
-        "Unrestricted contact extraction",
-        "Signed-beta moment envelopes",
+        "Scoped ordinary / mixed methods",
+        "Exact signed-beta envelopes",
         "All 20 same-witness exclusions"
       ],
-      "source": "BEMap/Interfaces.lean",
-      "declaration": "n25_upper_of_regions",
-      "line": 81
+      "source": "BEMap/Assembly.lean",
+      "declaration": "TwentyFiveProvider",
+      "line": 129
     },
     {
       "id": "COVER25",
@@ -124,13 +124,13 @@
         330,
         112
       ],
-      "title": "n25_upper_of_regions",
+      "title": "TwentyFiveProvider.upper",
       "explanation": [
-        "All regional exclusions -> C25 <= C_E"
+        "All scoped regional methods -> C25 <= C_E"
       ],
-      "source": "BEMap/Interfaces.lean",
-      "declaration": "n25_upper_of_regions",
-      "line": 81
+      "source": "BEMap/Assembly.lean",
+      "declaration": "TwentyFiveProvider.upper",
+      "line": 139
     },
     {
       "id": "LICENSE25",
@@ -160,13 +160,13 @@
       ],
       "title": "Independent tail premises",
       "explanation": [
-        "Auxiliary ceilings 45..50; strong 46",
-        "Uniform local exclusion for n >= 47",
-        "Explicit numerical cap on C_E"
+        "83 panels: positive / zero noise",
+        "Five auxiliary resource-barrier families",
+        "Exact smoothing + index brackets"
       ],
-      "source": "BEMap/Tail.lean",
-      "declaration": "TailContracts",
-      "line": 11
+      "source": "BEMap/TailAssembly.lean",
+      "declaration": "TailMethodProviders",
+      "line": 441
     },
     {
       "id": "BASE49",
@@ -188,20 +188,20 @@
     },
     {
       "id": "SMOOTH",
-      "status": "open",
+      "status": "checked",
       "rect": [
         848,
         890,
         330,
         100
       ],
-      "title": "Smoothing consequence",
+      "title": "smoothing_first_failure",
       "explanation": [
-        "Sharp predecessor -> n a_n < 0.29"
+        "Source smoothing -> n a_n < 0.29"
       ],
-      "source": "BEMap/Tail.lean",
-      "declaration": "TailContracts",
-      "line": 11
+      "source": "BEMap/TailAssembly.lean",
+      "declaration": "smoothing_first_failure",
+      "line": 394
     },
     {
       "id": "TAIL",
@@ -229,14 +229,14 @@
         770,
         116
       ],
-      "title": "all_indices_upper",
+      "title": "Typed all-index bound",
       "explanation": [
         "Every positive integer: C_n <= C_E",
         "Concrete iid inequality follows for every standardized law."
       ],
-      "source": "BEMap.lean",
-      "declaration": "all_indices_upper",
-      "line": 20
+      "source": "BEMap/Assembly.lean",
+      "declaration": "all_indices_from_typed_providers",
+      "line": 176
     },
     {
       "id": "LOWER",
@@ -252,9 +252,9 @@
         "Bernoulli lattice approximation",
         "No fixed-n attainment is assumed."
       ],
-      "source": "BEMap.lean",
+      "source": "BEMap/Global.lean",
       "declaration": "LowerApproximation",
-      "line": 45
+      "line": 48
     },
     {
       "id": "SHARP",
@@ -265,14 +265,14 @@
         680,
         126
       ],
-      "title": "sharp_global_constant",
+      "title": "Typed sharpness theorem",
       "explanation": [
         "C* = C_E = (3 + sqrt(10)) / (6 sqrt(2 pi))",
         "Checked conclusion, conditional on all displayed contracts."
       ],
-      "source": "BEMap.lean",
-      "declaration": "sharp_global_constant",
-      "line": 48
+      "source": "BEMap/Assembly.lean",
+      "declaration": "sharp_from_typed_providers",
+      "line": 180
     }
   ],
   "edges": [
