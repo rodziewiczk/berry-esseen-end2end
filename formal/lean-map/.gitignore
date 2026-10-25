@@ -4,3 +4,7 @@ __pycache__/
 *.pyc
 .DS_Store
 Thumbs.db
+
+# Keep the small, source-bound verification records in the companion branch too.
+!check-All.log
+!check-Core.log

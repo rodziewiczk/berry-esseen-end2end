@@ -1,0 +1,34 @@
+--- BEMap/Finite ---
+--- BEMap/Cover25 ---
+--- BEMap/Tail ---
+--- BEMap/Foundations/ProbabilityLaw ---
+--- BEMap/Foundations/OptimalConstant ---
+--- BEMap/Interfaces ---
+BEMap/Interfaces.lean:35:29: warning: Variable name `w` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+--- BEMap ---
+--- Audit ---
+BEMap.all_indices_upper (constants : BEMap.ConstantComparisons)
+  (finite : BEMap.FiniteContracts BEMap.optimalConstant BEMap.esseenConstant BEMap.bound2 BEMap.bound3 BEMap.bound4)
+  (tail : BEMap.TailContracts BEMap.optimalConstant BEMap.esseenConstant) (n : ℕ) :
+  1 ≤ n → BEMap.optimalConstant n ≤ BEMap.esseenConstant
+BEMap.sharp_global_constant (constants : BEMap.ConstantComparisons)
+  (finite : BEMap.FiniteContracts BEMap.optimalConstant BEMap.esseenConstant BEMap.bound2 BEMap.bound3 BEMap.bound4)
+  (tail : BEMap.TailContracts BEMap.optimalConstant BEMap.esseenConstant) (lower : BEMap.LowerApproximation) :
+  BEMap.globalConstant = BEMap.esseenConstant
+BEMap.ContactPipeline.reject {n : ℕ} (p : BEMap.ContactPipeline n) (w : BEMap.ContraryContact n) : False
+BEMap.n25_upper_of_regions (extract : BEMap.ContactExtraction)
+  (hmid : ∀ (w : BEMap.ContraryContact 25), BEMap.MiddleEnvelope25 w.X.rho w.X.beta)
+  (hhigh : ∀ (w : BEMap.ContraryContact 25), BEMap.HighEnvelope25 w.X.rho w.X.beta)
+  (reject : ∀ (region : BEMap.Region25) (w : BEMap.ContraryContact 25), region.contains w.X.rho w.X.beta → False) :
+  BEMap.optimalConstant 25 ≤ BEMap.esseenConstant
+BEMap.TailContracts (C : ℕ → ℝ) (c : ℝ) : Prop
+'BEMap.all_indices_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.sharp_global_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.n25_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.tail_base49' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.tail_composition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BEMap.same_law_n25_allowance' depends on axioms: [propext, Classical.choice, Quot.sound]
