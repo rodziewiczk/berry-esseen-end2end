@@ -1,0 +1,2582 @@
+{
+  "schema_version": "be.end-to-end-gap-ledger/1",
+  "scope": "Read-only research/source/export census against exact Lean EndToEndProviders, plus three bounded independent tests of the new scoped COUNT supervisor port. No whole research workload or GCP job executed in this audit.",
+  "research_head": "6ca9730273c81447be4863824c0b7d012db0e8b8",
+  "research_worktree": "dirty; newer untracked callable code exists and must not be confused with HEAD/public delivery",
+  "full_proof_pass": false,
+  "cash_spent": 0,
+  "fresh_policy": {
+    "required": [
+      "fresh producers/construction where prescribed",
+      "fresh resource acquisition",
+      "fresh full checkers and controls",
+      "new-campaign scoped receipt and complete current same-law joins"
+    ],
+    "historical_numeric_acceptance_can_close_goal": false,
+    "historical_data_role": [
+      "source/algorithm recipes",
+      "untrusted reference fixtures",
+      "negative controls and debugging"
+    ],
+    "allowed_reuse": [
+      "pinned source/code",
+      "explicit mathematical problem/static recipe inputs",
+      "approved faster existing algorithms",
+      "completed authenticated stages produced inside the same new campaign"
+    ],
+    "forbidden": [
+      "importing historical PASS as accepted current truth",
+      "old computed caps as acquired facts",
+      "promoting mere source/geometry/readback metadata to fresh arithmetic"
+    ],
+    "analytic_inputs": "Exact accepted analytic theorem parameters remain explicit; fresh policy does not request re-proving analysis or full Lean port.",
+    "route_selection": "Recompute every required selected stage, not every historical notebook, duplicate export, exploratory search or unused OR branch. Select the smallest already justified complete route before execution.",
+    "initial_demo": "The zero-variance Farkas demo is conformance evidence, not a substitute for a required global provider node. Do not add optional demo work to the proof portfolio merely to reuse its PASS."
+  },
+  "observed_reference_census": {
+    "locally_located_selected_exports": 77,
+    "whole_archive_hashes_verified": 77,
+    "hash_or_size_mismatches": 0,
+    "bytes_hashed": 1278281819,
+    "prior_census_completed_scopes": 74,
+    "prior_census_incomplete": [
+      "35",
+      "46",
+      "59C"
+    ],
+    "reference_not_fresh_evidence": true,
+    "recorded_prior_full_reader_pass": [
+      "57E",
+      "58D",
+      "58E",
+      "58F",
+      "59A"
+    ],
+    "59B": "25Oct checkpoint reports compatible full reader PASS, superseding the24Oct old-adapter failure"
+  },
+  "reference_exports": [
+    {
+      "notebook": "08",
+      "filename": "20261023T102541Z-29f65b56-results.zip",
+      "bytes": 235486,
+      "sha256": "77b7750b3e6cb124a0622f906034dca8dec500aed07c8a70596c747285736e2b",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "09",
+      "filename": "20261023T111838Z-c4d5fadf-results.zip",
+      "bytes": 7398677,
+      "sha256": "b012ad11c64e0e9d9e8aaf4095cbb7ab125c05f8f583729d3dce6a9c958d370a",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "10",
+      "filename": "20261023T111953Z-594c65da-results.zip",
+      "bytes": 7932895,
+      "sha256": "d5c4769a1eb96b12b4ea31d341525ca52b05df4228ef16ca2d7dd10729fee823",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "11",
+      "filename": "20261023T112903Z-63d200d0-results.zip",
+      "bytes": 12745098,
+      "sha256": "5139f88952c3f989c6a5298a50293af70898658a075be3088347173590dffcb3",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "13",
+      "filename": "20261023T123333Z-c3b7ecde-results.zip",
+      "bytes": 48128,
+      "sha256": "a95becb594528c6197aeb975027bd67470ba99954272f4e98bb81a09930b7be6",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "14",
+      "filename": "20261023T123947Z-243fb15a-results.zip",
+      "bytes": 53178,
+      "sha256": "53d63f262ce6ac3232bc4351fbfad7a7e3338a2d7419300df8db17a7f0206d27",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "15",
+      "filename": "20261023T125227Z-08695959-results.zip",
+      "bytes": 871087,
+      "sha256": "24879e6407066e2035525cd3f2641e0784b0f933f7df71c8c1541917208a79d0",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "16",
+      "filename": "20261023T134824Z-c9a1a91e-results.zip",
+      "bytes": 2152639,
+      "sha256": "5e927b01d4986f30fa7fa8ab6f614d582fd8e351ad19aa787e8dce485a1fb2e3",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "17",
+      "filename": "20261023T145430Z-1fe57fef-results.zip",
+      "bytes": 2534702,
+      "sha256": "1e048c45151ea0d94acf386d2e3dc0b1220642452e9e501c36929453ecaafa48",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "18",
+      "filename": "20261023T151748Z-7393522e-results.zip",
+      "bytes": 2835345,
+      "sha256": "adc7097968d787f210ace82fc472e7f1a67917f2b7c00e16750c99ada1d5fad1",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "19",
+      "filename": "20261023T153241Z-da044bd4-results.zip",
+      "bytes": 4346741,
+      "sha256": "f36009e4e5a4c6279c7c88227d89423f658830b1d3aabf807e9f9b08ab5a7ca1",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "20",
+      "filename": "20261023T155406Z-eeee0789-results.zip",
+      "bytes": 8630746,
+      "sha256": "52212caffe0083f8c92d6ad5b5ef76923afa9abb515bd6ecf45b1d78d4d83878",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "21",
+      "filename": "20261023T163842Z-8f5bb9d0-results.zip",
+      "bytes": 7391193,
+      "sha256": "a958da2da8cfaaed730458b2515cc49494c5c74806f4f6d0510cab7f96e9e2f8",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "01",
+      "filename": "20261023T173523Z-dd027bd6-results.zip",
+      "bytes": 5388237,
+      "sha256": "54ab94705d1d095602ffc9e8dd87d1e9a8dfa17d10b884fb82d731386c4bf5b2",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "02",
+      "filename": "20261023T173533Z-3c55a3cd-results.zip",
+      "bytes": 3224332,
+      "sha256": "717ca1bed75656d957927be15f8f9c74aa289ee680118d64e538cd87c361ded2",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "04",
+      "filename": "20261023T173624Z-bc1358b0-results.zip",
+      "bytes": 3172314,
+      "sha256": "2e8cf702054c7e2ab5a66897608f610ffb1c6fa5247504d183afe26199c0d8f2",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "03",
+      "filename": "20261023T173630Z-c08f3ca5-results.zip",
+      "bytes": 2370909,
+      "sha256": "27f7d5b00466d2c921bc434c48accd420fac3cdfcf3764e4cebfc58955acfa96",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "06",
+      "filename": "20261023T173705Z-95cdbaee-results.zip",
+      "bytes": 119204060,
+      "sha256": "14090d8f2e105b177371c7d0dd1cac456a5b6813b601a0d6fb17800f2516fc8b",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "07",
+      "filename": "20261023T173850Z-ca51d9e6-results.zip",
+      "bytes": 155669880,
+      "sha256": "f8a2718d0c784813ead13498605dc12728f646e7fad708ef95cb3938d405690b",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "05",
+      "filename": "20261023T173915Z-989ca66d-results.zip",
+      "bytes": 2798530,
+      "sha256": "06f114d4773bf1c4314e62f66e68dfcd3c196d9951cf117406acd671f25c645f",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "22",
+      "filename": "20261023T181807Z-d1c20667-results.zip",
+      "bytes": 6486379,
+      "sha256": "264d64f36106667f5ae0479ab501347570c9f397647d8d5a8961ab94ff2b29fd",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "36",
+      "filename": "20261023T191607Z-38dfc33f-results.zip",
+      "bytes": 3639389,
+      "sha256": "bbc929c336a1084c75d09433333d0eb93b640ddb9176913d53eaf2d84df15ce3",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "38",
+      "filename": "20261023T191804Z-4ec6934d-results.zip",
+      "bytes": 4227973,
+      "sha256": "7cc61bff1cf2a342f3ec104541fcddd241f9149edc9bca1e09f477296008c413",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "39",
+      "filename": "20261023T191911Z-1f5e4d3b-results.zip",
+      "bytes": 5498528,
+      "sha256": "40040efb622ad76305ae2ae940263ef943177291ef1524485b8a350929ed6f94",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "37",
+      "filename": "20261023T194405Z-8666b9c3-results.zip",
+      "bytes": 3366094,
+      "sha256": "7cb3fd59ec7858f237022f05beace33463227c4eaa95fb622f7acb51fc2364d7",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "47",
+      "filename": "20261023T195051Z-0afbf933-results.zip",
+      "bytes": 8038183,
+      "sha256": "b319504e8a57dceb13886a1a07af5953051f25f59ca48d9154e31868dd3f3b5f",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "29",
+      "filename": "20261023T195332Z-fb720309-results.zip",
+      "bytes": 7997621,
+      "sha256": "206c8ce8dffc539ecab18a5b4f1b0f38cc17032002401ab71aa0fe2a7720ebbf",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "30",
+      "filename": "20261023T195800Z-41e40d58-results.zip",
+      "bytes": 13828654,
+      "sha256": "70a717bf0c1ce1c3517654d5f37ccd76f4b0ca93cbb2de228c97b57675197229",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "31",
+      "filename": "20261023T195811Z-b65a398e-results.zip",
+      "bytes": 14974391,
+      "sha256": "ccf996b86844985bfde2a90035cf806cc9b2960d1222ac2cfeb3535f995c88bd",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "32",
+      "filename": "20261023T200121Z-b9243cbe-results.zip",
+      "bytes": 4471431,
+      "sha256": "0eb20aa2eef76b2b56814190dd4d811de9e12e17c996686b4210d2ec301e6526",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "33",
+      "filename": "20261023T200243Z-ea27e752-results.zip",
+      "bytes": 979351,
+      "sha256": "bd8679b288bcf538dfad2f98127043a44b8dbf69c88f155a37b1a790f44bc1db",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "34",
+      "filename": "20261023T200609Z-98f2ca63-results.zip",
+      "bytes": 1075967,
+      "sha256": "f3d61fb6245a09e4ac4b87a844821ea2ce79a2b24090ec5ec9a1a8840fc6ad1c",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "26",
+      "filename": "20261023T200813Z-281116a3-results.zip",
+      "bytes": 5357919,
+      "sha256": "dab4268a6c7aacca68cf8ad5b089ba0f38b9c17bc2ad4fa74b101f7e5313ecad",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "23",
+      "filename": "20261023T201315Z-c98176d8-results.zip",
+      "bytes": 35868206,
+      "sha256": "0bd4420ec9bc59472c74b087aa14d3ab947cc3d5c2421a5cdfe6eda490802377",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "24",
+      "filename": "20261023T201326Z-b9ba9687-results.zip",
+      "bytes": 307665867,
+      "sha256": "7f9086a12d38f053fb21baba1e54d84fdd4f4ab79e413cccee322ef5749296f4",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "27",
+      "filename": "20261023T201602Z-977d1abb-results.zip",
+      "bytes": 15023758,
+      "sha256": "f42be47ab8816c687e59dea22459784214a6997dabad5e234ae547fa691c050c",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "28",
+      "filename": "20261023T201950Z-96a65eba-results.zip",
+      "bytes": 10339481,
+      "sha256": "5725663ee7783fc53f23f3e89d2f8014b0448dd642eb41f96d40c203c4259088",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "40",
+      "filename": "20261023T202324Z-7d7d0e86-results.zip",
+      "bytes": 17204628,
+      "sha256": "91e83603d6096fd15cb78adae9dba03866889a73d18ad5796314948dfad49176",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "41",
+      "filename": "20261023T202610Z-a536a0cc-results.zip",
+      "bytes": 8106822,
+      "sha256": "e2ca9ff78398fdb12afb625b8596bde7f2b610e631b619b066bd72f996b84a4a",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "42",
+      "filename": "20261023T202749Z-aa092c0f-results.zip",
+      "bytes": 6797780,
+      "sha256": "9eef1d205969ff72a163dc0a631f69cb74344131fa44067284da0093626808f9",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "43",
+      "filename": "20261023T202945Z-e6e9d8aa-results.zip",
+      "bytes": 5369051,
+      "sha256": "f8fb179e0f12d3ab36a1a6dedf5455eff669e35c2915a66f08311fc8010fc635",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "49",
+      "filename": "20261023T204257Z-5cbd2c15-results.zip",
+      "bytes": 9853379,
+      "sha256": "09c158e4a0ae59e4e1010a47c4507673299829ba12439412ca7fe7c13e5c10bb",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "45",
+      "filename": "20261023T211013Z-8b9c0c02-results.zip",
+      "bytes": 7285728,
+      "sha256": "064ac8d2b089c5ba2f7e6e691b3da39a2ea8fae6738f2601ab2c984964cd78cf",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "12",
+      "filename": "20261023T212745Z-1825b68e-results.zip",
+      "bytes": 16921310,
+      "sha256": "51640e38549bf8ebe05e09953622e1f8526063f7a03b2f2c48756b782d17fd63",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "44",
+      "filename": "20261023T213058Z-2949e657-results.zip",
+      "bytes": 128600448,
+      "sha256": "081078129c7674e59e1bf85112a6e72d459e7edee08116186bebcf0a3083b0f8",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "48",
+      "filename": "20261023T213809Z-8d1cde13-results.zip",
+      "bytes": 6705671,
+      "sha256": "2e5b5a537a7f34d5e605c20e91dec8566cb323b3ee90b91c6fe26b5879433c2b",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "64",
+      "filename": "20261023T220120Z-244a55cc-results.zip",
+      "bytes": 876273,
+      "sha256": "3ca0eeba4f6404f9ab2eb89a055e8107739f4b8baab2d6a0c7cd577bf8a0b5c5",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "46",
+      "filename": "20261023T221209Z-33953096-results.zip",
+      "bytes": 7839135,
+      "sha256": "4f356469cf741ebeb054fbcbb8b93f4264b5064ffa872e33a2b196240265c2a7",
+      "matches_published_census": true,
+      "reference_status": "INCOMPLETE",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "51",
+      "filename": "20261023T222904Z-896527af-results.zip",
+      "bytes": 16107498,
+      "sha256": "4bac2d68ac0e9906c940461fb6837172926c08374524232a7b258d778360e536",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "53",
+      "filename": "20261023T224032Z-c2e02cfb-results.zip",
+      "bytes": 16448849,
+      "sha256": "b04cfb682c7efb78ba723e60cb0f85985ec1dee5737b57a32b9f5c4054174792",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "50",
+      "filename": "20261023T224423Z-a49c40aa-results.zip",
+      "bytes": 29226924,
+      "sha256": "7edb6dedc5791968aeaac0d7f32dcba08331538aedb07a1f538f8301b5a1ce19",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "52",
+      "filename": "20261023T224907Z-689e1d92-results.zip",
+      "bytes": 25885156,
+      "sha256": "daa412a2b16ba0d03a1be3c5e54bcf7bc8e4268dc6eb863c9e62ab7d24cd34d9",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "56A",
+      "filename": "20261023T231655Z-bf156069-results.zip",
+      "bytes": 1238591,
+      "sha256": "ebd675641c6f3ef9dbeb05033edbc78e68e76ef2d8f30128b43b7a2e64e8bc34",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "56B",
+      "filename": "20261023T232402Z-d516197a-results.zip",
+      "bytes": 2008596,
+      "sha256": "6e19a96d4f76e89522e7227eb5079cf5f56c5af349f0425be9a5163e1ca337ca",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "54",
+      "filename": "20261023T232703Z-8efe9415-results.zip",
+      "bytes": 22405088,
+      "sha256": "2cee62d6c96313b754dac280238f6a9d2cedf383d36ea0a8d29e05eb5fbf7f9a",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "56C",
+      "filename": "20261023T232747Z-2444d528-results.zip",
+      "bytes": 848285,
+      "sha256": "581ebc7af83d441dd363a0fa74cb970e77aaa2c08e79cc35bdccdb9f2b6b16c2",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "56D",
+      "filename": "20261023T234556Z-6920e6b6-results.zip",
+      "bytes": 910399,
+      "sha256": "7c7e74244d86bab1cef63dc139912a6255f8f74c2357209149405814bc10cc20",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "56K",
+      "filename": "20261024T000318Z-44ff164d-results.zip",
+      "bytes": 68392,
+      "sha256": "de7f487f19c2602113c3493ac6bce393328c748c811c1f4f318d44f1a344d6ab",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "57A",
+      "filename": "20261024T001640Z-ccad23fa-results.zip",
+      "bytes": 1448947,
+      "sha256": "d6f9fc3ced5e3d927d926b545a7ea80cf54d86bce3f67a42e6aea9769c462329",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "58A",
+      "filename": "20261024T001924Z-8164bb3e-results.zip",
+      "bytes": 70806037,
+      "sha256": "cf99fcf3a169b8418255b309720cc7368ebf87b43b613ad0606e11383e462bda",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "57C",
+      "filename": "20261024T002009Z-456583eb-results.zip",
+      "bytes": 678983,
+      "sha256": "ccc5ff800671f74a838ee2055455aadbb8759d04b6d320770fa70a29dcdb95f8",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "57B",
+      "filename": "20261024T002020Z-51367635-results.zip",
+      "bytes": 1769802,
+      "sha256": "2d84e0af3877ce46f8a7cff05a266f29423cc1ad27b06e85d2634ba9ef974b5c",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "56E",
+      "filename": "20261024T002515Z-6469403c-results.zip",
+      "bytes": 370141,
+      "sha256": "73782e9aa7e311de01eecb71a087bbbc9deec9a7bb4841fbb078d5712e3e6410",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "56F",
+      "filename": "20261024T002644Z-760fc753-results.zip",
+      "bytes": 262565,
+      "sha256": "61d686147cd1d63f109e3fadd7781f084a83d6456703959151df55ba97a12b12",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "57D",
+      "filename": "20261024T002654Z-bded53b2-results.zip",
+      "bytes": 111801,
+      "sha256": "c18487bb22c9fa848b72f82bc23e893d87dbe88d12173f481b3ce75a6b7f3678",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "57E",
+      "filename": "20261024T003827Z-7b64d6a9-results.zip",
+      "bytes": 301916,
+      "sha256": "8cd302f54fa0c45bb4e62adf157e284fda36d3576de40939e367d81a4d434872",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_ARITHMETIC_PURE_READER_PASS",
+      "recorded_family_reader": "PASS",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "35",
+      "filename": "20261024T010521Z-63dedc4c-results.zip",
+      "bytes": 23470617,
+      "sha256": "189acb58330b7292003235cf9db1080796d342688ab07bb32902b56cdb8b5fa8",
+      "matches_published_census": true,
+      "reference_status": "INCOMPLETE",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "58B",
+      "filename": "20261024T010828Z-ba372f5d-results.zip",
+      "bytes": 9246355,
+      "sha256": "9d872807404b722aca9b7ab19980f395d4d2e99316f1992ece35383cd7066665",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "58C",
+      "filename": "20261024T010927Z-de4fe729-results.zip",
+      "bytes": 7632205,
+      "sha256": "248b20836904d80cd7b8ed6b4a2050c41e115d8c4b9bd9353a3cd538c67c332a",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "56G",
+      "filename": "20261024T010956Z-9539c53a-results.zip",
+      "bytes": 17699863,
+      "sha256": "64c03aaa36cda43eed2cc1bef5cf56d69bb100df0757e261bb4ef7fce9d40cb1",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "58D",
+      "filename": "20261024T012443Z-004a4d9c-results.zip",
+      "bytes": 867035,
+      "sha256": "50f97867397450d480510c047f44a194077535181ba2cf165a7323b9bc0ab5d1",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_ARITHMETIC_PURE_READER_PASS",
+      "recorded_family_reader": "PASS",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "58E",
+      "filename": "20261024T012644Z-505d232a-results.zip",
+      "bytes": 892427,
+      "sha256": "786a0e18959bed137667b71e141173c9bcd5a5fedf6582eac19df3b445ee614d",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_ARITHMETIC_PURE_READER_PASS",
+      "recorded_family_reader": "PASS",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "58F",
+      "filename": "20261024T012707Z-b4208f3a-results.zip",
+      "bytes": 446981,
+      "sha256": "54969b32af186ef2404ace4c9d90363f4a96f878349af7df90ccd14e29ca84c1",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_ARITHMETIC_PURE_READER_PASS",
+      "recorded_family_reader": "PASS",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "59A",
+      "filename": "20261024T012758Z-91e52e1f-results.zip",
+      "bytes": 4098219,
+      "sha256": "f007f1ae01b8a95f2faaad18e4618d9ef0fb42bb9b3ca0d49bd05d611c662eee",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_ARITHMETIC_PURE_READER_PASS",
+      "recorded_family_reader": "PASS",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "59C",
+      "filename": "20261024T013614Z-7fc5851f-results.zip",
+      "bytes": 379214,
+      "sha256": "22a7d3d6a362cd1df961d42ee3d1a0abdb714e917571cbc0c014648c09a8bfcd",
+      "matches_published_census": true,
+      "reference_status": "INCOMPLETE",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "55",
+      "filename": "20261024T014047Z-516cc64f-results.zip",
+      "bytes": 8495638,
+      "sha256": "16f35ee268def66b0da98eae10b89d68db4252e0870b668e0b78747eb3cb4e0f",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+      "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    },
+    {
+      "notebook": "59B",
+      "filename": "20261024T023936Z-e903a551-results.zip",
+      "bytes": 751701,
+      "sha256": "b42cb262d1c8289e2fae214626c143e7bc83aee3550d71263e33991ac6173bb1",
+      "matches_published_census": true,
+      "reference_status": "COMPLETED_ARITHMETIC_READER_COMPATIBILITY_OPEN",
+      "recorded_family_reader": "REJECTED_OLD_ADAPTER_HASH",
+      "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+      "new_campaign_accepted": false
+    }
+  ],
+  "recovered_56H_remote": {
+    "filename": "20261024T011029Z-2e437adb-results.zip",
+    "bytes": 17302361,
+    "live_state": "complete_conditional_initial_resource10_14_bn_basic",
+    "completed_cases": 5,
+    "expected_cases": 5,
+    "expected_original_actions": 20,
+    "conditional_core_arithmetic_completed": true,
+    "full56": false,
+    "all_index": false,
+    "whole_archive_integrity_or_family_reader": "pending; only authenticated Drive metadata/live JSON read this audit",
+    "required_fresh_execution": true,
+    "role": "reference only; fresh policy forbids skipping the new20actions"
+  },
+  "recovered_p25": {
+    "asset": "assets/BE_cutoff25_missing_files_20261024.zip",
+    "bytes": 56656415,
+    "sha256": "3aac9416c286f14465037629f2aa692f1b3f5d2f216ad48821fbb581cc3c70f6",
+    "archive_hash_rechecked": true,
+    "canonical_p24_files": 98,
+    "canonical_p25_files": 98,
+    "ordinary_recovered_forests": 11,
+    "ordinary_recovered_leaves": 32093,
+    "p25_prefix": "cutoff25_20261011/new_root/global_local_contact_b5_p25_v14/",
+    "p25_contract_sha256": "07596e69651349238c487f39a2d86468b6e6b3fda2e5eabdd7ee83850c82f2f7",
+    "p25_checker_sha256": "2b2d274490d9364516ec66f4de484821c89f4889123d09bbdf951ad7533da583",
+    "old_missing_capsule_claim": "superseded for byte availability; source recovery does not establish mixed/current/fresh acceptance"
+  },
+  "next_adapter": {
+    "job": "n6.B0.p61",
+    "n": 6,
+    "probability": [
+      "61/100",
+      "31/50"
+    ],
+    "roots": 7,
+    "nodes": 11,
+    "leaves": 9,
+    "splits": 2,
+    "fresh_construct_and_accept": "fresh repository construct then complete accept independently repeated by this auditor through the supervisor callback; no historical forest is a runtime input",
+    "controls": 24,
+    "maximum_score": "407472491147/1000000000000",
+    "orientation": "literal positive-class, no reflection",
+    "source": "src/be/count_native.py",
+    "remaining": "bulk source-family dispatch, approved Linux runtime and exact source-scope/current-resource license; the single-job durable runner has passed fresh/cache controls, not all-law C6",
+    "adapter_sha256": "581d23ab462b8d198519591278ae785f71bb3270db5f89f62ef98524c0874205",
+    "auditor_tests": {
+      "count": 3,
+      "elapsed_seconds_observed": "39.149",
+      "outcome": "passed",
+      "scope": [
+        "fresh real construct and complete native accept through delegated supervisor",
+        "construct uses exact direct-child callback",
+        "fake operational success without generated candidate is rejected"
+      ]
+    },
+    "adapter_sha256_at_three_test_execution": "557d775ef4565d5d9846f5fcdb7bf0e1304a55cdaab520a468413ebf7ec4645c"
+  },
+  "providers": [
+    {
+      "id": "constants",
+      "lean_provider": "ConstantComparisons",
+      "required_scope": "bound2=2sqrt(2)/7, bound3=59sqrt(3)/250, bound4=4097/10000 are <=C_E",
+      "reference_notebooks": [],
+      "reference_artifacts": [],
+      "research_ports": [
+        "BEMap/Global.lean:ConstantComparisons"
+      ],
+      "code_status": "source_and_components_available",
+      "required_fresh_execution": "Fresh lightweight exact scalar check or explicit accepted exact theorem binding; no historical numeric PASS",
+      "blocking_dependencies": [],
+      "remaining": [
+        "Register exact scalar comparisons and their source/interval proof under the declared analytic profile."
+      ],
+      "new_global_provider_populated": false,
+      "dependency_list_kind": "critical source/portfolio sequence, not a replacement for the exact Lean signature"
+    },
+    {
+      "id": "n1",
+      "lean_provider": "one",
+      "required_scope": "All standardized laws: C1<=3704/10000",
+      "reference_notebooks": [],
+      "reference_artifacts": [],
+      "research_ports": [
+        "proof/literature_esseen_lower_bound_audit.md"
+      ],
+      "code_status": "source_and_components_available",
+      "required_fresh_execution": "Exact source/premise registration; full re-formalization is outside the accepted-analytic-premise policy",
+      "blocking_dependencies": [],
+      "remaining": [
+        "One-summand primary proof was not located/read by the earlier literature audit. Bind this exact all-law theorem as an explicitly accepted analytic input; a Bernoulli-only calculation is insufficient."
+      ],
+      "new_global_provider_populated": false,
+      "dependency_list_kind": "critical source/portfolio sequence, not a replacement for the exact Lean signature"
+    },
+    {
+      "id": "n2-n3",
+      "lean_provider": "two/three",
+      "required_scope": "n2 70 tensor cells/15 SUM controls and rho<=2; n3 111 cells/59 distinct-permutation AVERAGE controls and rho<=15/8; localization and large-rho complements",
+      "reference_notebooks": [
+        "08"
+      ],
+      "reference_artifacts": [
+        {
+          "notebook": "08",
+          "filename": "20261023T102541Z-29f65b56-results.zip",
+          "bytes": 235486,
+          "sha256": "77b7750b3e6cb124a0622f906034dca8dec500aed07c8a70596c747285736e2b",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        }
+      ],
+      "research_ports": [
+        "be_replay.small_indices.run",
+        "vendor/n2_n3_75a9470",
+        "proof/small_indices_analytic_review.md"
+      ],
+      "code_status": "ready_six_stage_driver_and_public_sources",
+      "required_fresh_execution": "all numerical producer/checker/resource work must execute in the new campaign",
+      "blocking_dependencies": [],
+      "remaining": [
+        "Fresh six-stage execution including independent n2 integer check and complete n3 C++ verification.",
+        "Map exact coefficient payloads to SmallCertificateImplications and the separate structural complements."
+      ],
+      "new_global_provider_populated": false,
+      "dependency_list_kind": "critical source/portfolio sequence, not a replacement for the exact Lean signature"
+    },
+    {
+      "id": "n4",
+      "lean_provider": "four",
+      "required_scope": "Canonical ROOT4 owner; bound4=4097/10000 weak cap, full root/frequency/eta scope",
+      "reference_notebooks": [
+        "11"
+      ],
+      "reference_artifacts": [
+        {
+          "notebook": "11",
+          "filename": "20261023T112903Z-63d200d0-results.zip",
+          "bytes": 12745098,
+          "sha256": "5139f88952c3f989c6a5298a50293af70898658a075be3088347173590dffcb3",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        }
+      ],
+      "research_ports": [
+        "be_replay.root4.prepare/run/verify_capsule",
+        "vendor/root4_75a9470"
+      ],
+      "code_status": "source_and_components_available",
+      "required_fresh_execution": "all numerical producer/checker/resource work must execute in the new campaign",
+      "blocking_dependencies": [
+        "n2-n3"
+      ],
+      "remaining": [
+        "Fresh complete ROOT4 numerical execution and full readback.",
+        "Bind chosen-owner canonicalQ3/excess-eta class to Root4Provider; no generic physicalD or strict-gap substitution."
+      ],
+      "new_global_provider_populated": false,
+      "dependency_list_kind": "critical source/portfolio sequence, not a replacement for the exact Lean signature",
+      "logical_prerequisites": [
+        "Strong FixedIndexBound3 bound3; localized canonical Root4 physical class and complete weak score cap."
+      ]
+    },
+    {
+      "id": "n5",
+      "lean_provider": "five",
+      "required_scope": "Every n5 closed rho/beta region: supported COUNT, independent gap-free corner, Prawitz bands and structural rho tail",
+      "reference_notebooks": [
+        "13",
+        "35"
+      ],
+      "reference_artifacts": [
+        {
+          "notebook": "13",
+          "filename": "20261023T123333Z-c3b7ecde-results.zip",
+          "bytes": 48128,
+          "sha256": "a95becb594528c6197aeb975027bd67470ba99954272f4e98bb81a09930b7be6",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "35",
+          "filename": "20261024T010521Z-63dedc4c-results.zip",
+          "bytes": 23470617,
+          "sha256": "189acb58330b7292003235cf9db1080796d342688ab07bb32902b56cdb8b5fa8",
+          "matches_published_census": true,
+          "reference_status": "INCOMPLETE",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        }
+      ],
+      "research_ports": [
+        "be_replay.n5_remaining",
+        "be_replay.n5_full_join.run_colab",
+        "proof/remaining_n5_delivery_partition.json"
+      ],
+      "code_status": "full67_callable_driver_present; ready status reported, no complete new execution",
+      "required_fresh_execution": "all numerical producer/checker/resource work must execute in the new campaign",
+      "blocking_dependencies": [
+        "n4"
+      ],
+      "remaining": [
+        "Fresh complete326-stage selected lane (includes295 full forests); prior35 stopped15/326 after source-inventory readback failure.",
+        "Fresh support/HIGH/owncap/INITIAL/resources and additional67 controls/joins; gap-free13 covers only its selected corner.",
+        "Exact resource-to-COUNT licenses and all seam/complement coverage."
+      ],
+      "new_global_provider_populated": false,
+      "dependency_list_kind": "critical source/portfolio sequence, not a replacement for the exact Lean signature",
+      "logical_prerequisites": [
+        "FixedIndexBound4 bound4, actual n5 moment envelopes and all Region5 constructors."
+      ]
+    },
+    {
+      "id": "n6-n9",
+      "lean_provider": "ordinary(6..9)",
+      "required_scope": "Literal indices6,7,8,9 and every selected band/panel,284 forests",
+      "reference_notebooks": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46"
+      ],
+      "reference_artifacts": [
+        {
+          "notebook": "40",
+          "filename": "20261023T202324Z-7d7d0e86-results.zip",
+          "bytes": 17204628,
+          "sha256": "91e83603d6096fd15cb78adae9dba03866889a73d18ad5796314948dfad49176",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "41",
+          "filename": "20261023T202610Z-a536a0cc-results.zip",
+          "bytes": 8106822,
+          "sha256": "e2ca9ff78398fdb12afb625b8596bde7f2b610e631b619b066bd72f996b84a4a",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "42",
+          "filename": "20261023T202749Z-aa092c0f-results.zip",
+          "bytes": 6797780,
+          "sha256": "9eef1d205969ff72a163dc0a631f69cb74344131fa44067284da0093626808f9",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "43",
+          "filename": "20261023T202945Z-e6e9d8aa-results.zip",
+          "bytes": 5369051,
+          "sha256": "f8fb179e0f12d3ab36a1a6dedf5455eff669e35c2915a66f08311fc8010fc635",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "44",
+          "filename": "20261023T213058Z-2949e657-results.zip",
+          "bytes": 128600448,
+          "sha256": "081078129c7674e59e1bf85112a6e72d459e7edee08116186bebcf0a3083b0f8",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "45",
+          "filename": "20261023T211013Z-8b9c0c02-results.zip",
+          "bytes": 7285728,
+          "sha256": "064ac8d2b089c5ba2f7e6e691b3da39a2ea8fae6738f2601ab2c984964cd78cf",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "46",
+          "filename": "20261023T221209Z-33953096-results.zip",
+          "bytes": 7839135,
+          "sha256": "4f356469cf741ebeb054fbcbb8b93f4264b5064ffa872e33a2b196240265c2a7",
+          "matches_published_census": true,
+          "reference_status": "INCOMPLETE",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        }
+      ],
+      "research_ports": [
+        "be_replay.finite69_counts",
+        "be_replay.finite69_remaining",
+        "be_replay.finite69_join.run_colab",
+        "proof/finite69_join_source_plan.json"
+      ],
+      "code_status": "full65_callable_driver_present; new one-forest adapter exists separately",
+      "required_fresh_execution": "all numerical producer/checker/resource work must execute in the new campaign",
+      "blocking_dependencies": [
+        "n5"
+      ],
+      "remaining": [
+        "Fresh284 complete forests plus Fourier/HIGH/support/current resource interfaces.",
+        "46 reference preserves9 INITIALs but incomplete owncaps/resource chain; corrected reader fixes17-controls representation, not missing9 resource jobs.",
+        "Populate source-to-current same-law scope licenses; one n6.B0.p61 forest is not C6."
+      ],
+      "new_global_provider_populated": false,
+      "dependency_list_kind": "critical source/portfolio sequence, not a replacement for the exact Lean signature",
+      "logical_prerequisites": [
+        "For each actual n in this range, the EndToEndProviders ordinary port receives Earlier optimalConstant C_E n, i.e. all positive indices below n. Numeric fixed-context jobs can be independent; the final proof prefix is assembled in order.",
+        "Actual same-law realization/resource-to-context license for every selected numerical scope."
+      ]
+    },
+    {
+      "id": "n10-n14",
+      "lean_provider": "ordinary(10..14)",
+      "required_scope": "217 forests,202 panel interfaces and20 restricted-subpanel edges; all support/HIGH/Fourier branches",
+      "reference_notebooks": [
+        "50",
+        "56A",
+        "56B",
+        "56C",
+        "56D",
+        "56E",
+        "56F",
+        "56G",
+        "56K"
+      ],
+      "reference_artifacts": [
+        {
+          "notebook": "50",
+          "filename": "20261023T224423Z-a49c40aa-results.zip",
+          "bytes": 29226924,
+          "sha256": "7edb6dedc5791968aeaac0d7f32dcba08331538aedb07a1f538f8301b5a1ce19",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "56A",
+          "filename": "20261023T231655Z-bf156069-results.zip",
+          "bytes": 1238591,
+          "sha256": "ebd675641c6f3ef9dbeb05033edbc78e68e76ef2d8f30128b43b7a2e64e8bc34",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "56B",
+          "filename": "20261023T232402Z-d516197a-results.zip",
+          "bytes": 2008596,
+          "sha256": "6e19a96d4f76e89522e7227eb5079cf5f56c5af349f0425be9a5163e1ca337ca",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "56C",
+          "filename": "20261023T232747Z-2444d528-results.zip",
+          "bytes": 848285,
+          "sha256": "581ebc7af83d441dd363a0fa74cb970e77aaa2c08e79cc35bdccdb9f2b6b16c2",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "56D",
+          "filename": "20261023T234556Z-6920e6b6-results.zip",
+          "bytes": 910399,
+          "sha256": "7c7e74244d86bab1cef63dc139912a6255f8f74c2357209149405814bc10cc20",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "56E",
+          "filename": "20261024T002515Z-6469403c-results.zip",
+          "bytes": 370141,
+          "sha256": "73782e9aa7e311de01eecb71a087bbbc9deec9a7bb4841fbb078d5712e3e6410",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "56F",
+          "filename": "20261024T002644Z-760fc753-results.zip",
+          "bytes": 262565,
+          "sha256": "61d686147cd1d63f109e3fadd7781f084a83d6456703959151df55ba97a12b12",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "56G",
+          "filename": "20261024T010956Z-9539c53a-results.zip",
+          "bytes": 17699863,
+          "sha256": "64c03aaa36cda43eed2cc1bef5cf56d69bb100df0757e261bb4ef7fce9d40cb1",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "56K",
+          "filename": "20261024T000318Z-44ff164d-results.zip",
+          "bytes": 68392,
+          "sha256": "de7f487f19c2602113c3493ac6bce393328c748c811c1f4f318d44f1a344d6ab",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        }
+      ],
+      "research_ports": [
+        "be_replay.finite1014_join.run_colab",
+        "be_replay.finite1014_core",
+        "proof/finite1014_join_source_plan.json"
+      ],
+      "code_status": "ready56I_callable_driver_present; no current whole-range execution",
+      "required_fresh_execution": "all numerical producer/checker/resource work must execute in the new campaign",
+      "blocking_dependencies": [],
+      "remaining": [
+        "Fresh all original numerical stages, including BN56H recovered remotely as reference only.",
+        "Preserve selected n10 auxiliary/supported9 base, not an invented sharp9 dependency.",
+        "Readback and bind all1000 p dispositions,202 interfaces,20 restrictions and217 forests."
+      ],
+      "new_global_provider_populated": false,
+      "dependency_list_kind": "critical source/portfolio sequence, not a replacement for the exact Lean signature",
+      "logical_prerequisites": [
+        "For each actual n in this range, the EndToEndProviders ordinary port receives Earlier optimalConstant C_E n, i.e. all positive indices below n. Numeric fixed-context jobs can be independent; the final proof prefix is assembled in order.",
+        "Actual same-law realization/resource-to-context license for every selected numerical scope."
+      ]
+    },
+    {
+      "id": "n15-n19",
+      "lean_provider": "ordinary(15..19)",
+      "required_scope": "147 forests and full original15..19 support/resource/LOW-HIGH/Fourier join",
+      "reference_notebooks": [
+        "51",
+        "57A",
+        "57B",
+        "57C",
+        "57D",
+        "57E"
+      ],
+      "reference_artifacts": [
+        {
+          "notebook": "51",
+          "filename": "20261023T222904Z-896527af-results.zip",
+          "bytes": 16107498,
+          "sha256": "4bac2d68ac0e9906c940461fb6837172926c08374524232a7b258d778360e536",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "57A",
+          "filename": "20261024T001640Z-ccad23fa-results.zip",
+          "bytes": 1448947,
+          "sha256": "d6f9fc3ced5e3d927d926b545a7ea80cf54d86bce3f67a42e6aea9769c462329",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "57B",
+          "filename": "20261024T002020Z-51367635-results.zip",
+          "bytes": 1769802,
+          "sha256": "2d84e0af3877ce46f8a7cff05a266f29423cc1ad27b06e85d2634ba9ef974b5c",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "57C",
+          "filename": "20261024T002009Z-456583eb-results.zip",
+          "bytes": 678983,
+          "sha256": "ccc5ff800671f74a838ee2055455aadbb8759d04b6d320770fa70a29dcdb95f8",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "57D",
+          "filename": "20261024T002654Z-bded53b2-results.zip",
+          "bytes": 111801,
+          "sha256": "c18487bb22c9fa848b72f82bc23e893d87dbe88d12173f481b3ce75a6b7f3678",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "57E",
+          "filename": "20261024T003827Z-7b64d6a9-results.zip",
+          "bytes": 301916,
+          "sha256": "8cd302f54fa0c45bb4e62adf157e284fda36d3576de40939e367d81a4d434872",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_ARITHMETIC_PURE_READER_PASS",
+          "recorded_family_reader": "PASS",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        }
+      ],
+      "research_ports": [
+        "be_replay.finite1519_join.run_colab",
+        "be_replay.finite1519_core",
+        "proof/finite1519_join_control_source_plan.json"
+      ],
+      "code_status": "ready57H_callable_driver_present; whole execution unobserved",
+      "required_fresh_execution": "all numerical producer/checker/resource work must execute in the new campaign",
+      "blocking_dependencies": [
+        "n10-n14"
+      ],
+      "remaining": [
+        "Fresh57F/G B0/BN INITIAL/resource work (no selected final exports located locally or in bounded Drive family search).",
+        "Fresh full147 COUNTs, retained controls, same-law predecessor14 and finite induction."
+      ],
+      "new_global_provider_populated": false,
+      "dependency_list_kind": "critical source/portfolio sequence, not a replacement for the exact Lean signature",
+      "logical_prerequisites": [
+        "For each actual n in this range, the EndToEndProviders ordinary port receives Earlier optimalConstant C_E n, i.e. all positive indices below n. Numeric fixed-context jobs can be independent; the final proof prefix is assembled in order.",
+        "Actual same-law realization/resource-to-context license for every selected numerical scope."
+      ]
+    },
+    {
+      "id": "n20-n24",
+      "lean_provider": "ordinary(20..24)",
+      "required_scope": "163 forests:49 actual20 and114 actual21..24; same-law coarse/narrow/feedback,8 B0/BN joins",
+      "reference_notebooks": [
+        "52",
+        "58A",
+        "58B",
+        "58C",
+        "58D",
+        "58E",
+        "58F"
+      ],
+      "reference_artifacts": [
+        {
+          "notebook": "52",
+          "filename": "20261023T224907Z-689e1d92-results.zip",
+          "bytes": 25885156,
+          "sha256": "daa412a2b16ba0d03a1be3c5e54bcf7bc8e4268dc6eb863c9e62ab7d24cd34d9",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "58A",
+          "filename": "20261024T001924Z-8164bb3e-results.zip",
+          "bytes": 70806037,
+          "sha256": "cf99fcf3a169b8418255b309720cc7368ebf87b43b613ad0606e11383e462bda",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "58B",
+          "filename": "20261024T010828Z-ba372f5d-results.zip",
+          "bytes": 9246355,
+          "sha256": "9d872807404b722aca9b7ab19980f395d4d2e99316f1992ece35383cd7066665",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "58C",
+          "filename": "20261024T010927Z-de4fe729-results.zip",
+          "bytes": 7632205,
+          "sha256": "248b20836904d80cd7b8ed6b4a2050c41e115d8c4b9bd9353a3cd538c67c332a",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "58D",
+          "filename": "20261024T012443Z-004a4d9c-results.zip",
+          "bytes": 867035,
+          "sha256": "50f97867397450d480510c047f44a194077535181ba2cf165a7323b9bc0ab5d1",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_ARITHMETIC_PURE_READER_PASS",
+          "recorded_family_reader": "PASS",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "58E",
+          "filename": "20261024T012644Z-505d232a-results.zip",
+          "bytes": 892427,
+          "sha256": "786a0e18959bed137667b71e141173c9bcd5a5fedf6582eac19df3b445ee614d",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_ARITHMETIC_PURE_READER_PASS",
+          "recorded_family_reader": "PASS",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "58F",
+          "filename": "20261024T012707Z-b4208f3a-results.zip",
+          "bytes": 446981,
+          "sha256": "54969b32af186ef2404ace4c9d90363f4a96f878349af7df90ccd14e29ca84c1",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_ARITHMETIC_PURE_READER_PASS",
+          "recorded_family_reader": "PASS",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        }
+      ],
+      "research_ports": [
+        "be_replay.finite2024_join.run_colab",
+        "be_replay.finite2024_actual20_full",
+        "be_replay.finite2124_full_join",
+        "be_replay.finite1920_feedback",
+        "proof/finite2024_remaining_source_plan.json"
+      ],
+      "code_status": "dirty_callable_full_join_and_actual20_components_present; completion qualification pending",
+      "required_fresh_execution": "all numerical producer/checker/resource work must execute in the new campaign",
+      "blocking_dependencies": [
+        "n15-n19"
+      ],
+      "remaining": [
+        "Fresh58G same-law19/20 feedback Fourier (not a generic HIGH packet).",
+        "Qualify dirty callable58H code and full source/action closure before admission; earlier source-only31/40 is incomplete.",
+        "Fresh actual20 acquisition/owncaps/300 resource rows and full literal21..24 interfaces."
+      ],
+      "new_global_provider_populated": false,
+      "dependency_list_kind": "critical source/portfolio sequence, not a replacement for the exact Lean signature",
+      "logical_prerequisites": [
+        "For each actual n in this range, the EndToEndProviders ordinary port receives Earlier optimalConstant C_E n, i.e. all positive indices below n. Numeric fixed-context jobs can be independent; the final proof prefix is assembled in order.",
+        "Actual same-law realization/resource-to-context license for every selected numerical scope."
+      ]
+    },
+    {
+      "id": "n25",
+      "lean_provider": "twentyFive",
+      "required_scope": "Whole20-piece union:6 low-rho+7 middle signed-beta+6 high-beta+rho tail; mixed p24/p25 and original ordinary contexts",
+      "reference_notebooks": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "09",
+        "10",
+        "23",
+        "24",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "36",
+        "37",
+        "38",
+        "39",
+        "47",
+        "48",
+        "49"
+      ],
+      "reference_artifacts": [
+        {
+          "notebook": "01",
+          "filename": "20261023T173523Z-dd027bd6-results.zip",
+          "bytes": 5388237,
+          "sha256": "54ab94705d1d095602ffc9e8dd87d1e9a8dfa17d10b884fb82d731386c4bf5b2",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "02",
+          "filename": "20261023T173533Z-3c55a3cd-results.zip",
+          "bytes": 3224332,
+          "sha256": "717ca1bed75656d957927be15f8f9c74aa289ee680118d64e538cd87c361ded2",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "03",
+          "filename": "20261023T173630Z-c08f3ca5-results.zip",
+          "bytes": 2370909,
+          "sha256": "27f7d5b00466d2c921bc434c48accd420fac3cdfcf3764e4cebfc58955acfa96",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "04",
+          "filename": "20261023T173624Z-bc1358b0-results.zip",
+          "bytes": 3172314,
+          "sha256": "2e8cf702054c7e2ab5a66897608f610ffb1c6fa5247504d183afe26199c0d8f2",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "05",
+          "filename": "20261023T173915Z-989ca66d-results.zip",
+          "bytes": 2798530,
+          "sha256": "06f114d4773bf1c4314e62f66e68dfcd3c196d9951cf117406acd671f25c645f",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "06",
+          "filename": "20261023T173705Z-95cdbaee-results.zip",
+          "bytes": 119204060,
+          "sha256": "14090d8f2e105b177371c7d0dd1cac456a5b6813b601a0d6fb17800f2516fc8b",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "07",
+          "filename": "20261023T173850Z-ca51d9e6-results.zip",
+          "bytes": 155669880,
+          "sha256": "f8a2718d0c784813ead13498605dc12728f646e7fad708ef95cb3938d405690b",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "09",
+          "filename": "20261023T111838Z-c4d5fadf-results.zip",
+          "bytes": 7398677,
+          "sha256": "b012ad11c64e0e9d9e8aaf4095cbb7ab125c05f8f583729d3dce6a9c958d370a",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "10",
+          "filename": "20261023T111953Z-594c65da-results.zip",
+          "bytes": 7932895,
+          "sha256": "d5c4769a1eb96b12b4ea31d341525ca52b05df4228ef16ca2d7dd10729fee823",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "23",
+          "filename": "20261023T201315Z-c98176d8-results.zip",
+          "bytes": 35868206,
+          "sha256": "0bd4420ec9bc59472c74b087aa14d3ab947cc3d5c2421a5cdfe6eda490802377",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "24",
+          "filename": "20261023T201326Z-b9ba9687-results.zip",
+          "bytes": 307665867,
+          "sha256": "7f9086a12d38f053fb21baba1e54d84fdd4f4ab79e413cccee322ef5749296f4",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "26",
+          "filename": "20261023T200813Z-281116a3-results.zip",
+          "bytes": 5357919,
+          "sha256": "dab4268a6c7aacca68cf8ad5b089ba0f38b9c17bc2ad4fa74b101f7e5313ecad",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "27",
+          "filename": "20261023T201602Z-977d1abb-results.zip",
+          "bytes": 15023758,
+          "sha256": "f42be47ab8816c687e59dea22459784214a6997dabad5e234ae547fa691c050c",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "28",
+          "filename": "20261023T201950Z-96a65eba-results.zip",
+          "bytes": 10339481,
+          "sha256": "5725663ee7783fc53f23f3e89d2f8014b0448dd642eb41f96d40c203c4259088",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "29",
+          "filename": "20261023T195332Z-fb720309-results.zip",
+          "bytes": 7997621,
+          "sha256": "206c8ce8dffc539ecab18a5b4f1b0f38cc17032002401ab71aa0fe2a7720ebbf",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "30",
+          "filename": "20261023T195800Z-41e40d58-results.zip",
+          "bytes": 13828654,
+          "sha256": "70a717bf0c1ce1c3517654d5f37ccd76f4b0ca93cbb2de228c97b57675197229",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "31",
+          "filename": "20261023T195811Z-b65a398e-results.zip",
+          "bytes": 14974391,
+          "sha256": "ccf996b86844985bfde2a90035cf806cc9b2960d1222ac2cfeb3535f995c88bd",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "32",
+          "filename": "20261023T200121Z-b9243cbe-results.zip",
+          "bytes": 4471431,
+          "sha256": "0eb20aa2eef76b2b56814190dd4d811de9e12e17c996686b4210d2ec301e6526",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "33",
+          "filename": "20261023T200243Z-ea27e752-results.zip",
+          "bytes": 979351,
+          "sha256": "bd8679b288bcf538dfad2f98127043a44b8dbf69c88f155a37b1a790f44bc1db",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "34",
+          "filename": "20261023T200609Z-98f2ca63-results.zip",
+          "bytes": 1075967,
+          "sha256": "f3d61fb6245a09e4ac4b87a844821ea2ce79a2b24090ec5ec9a1a8840fc6ad1c",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "36",
+          "filename": "20261023T191607Z-38dfc33f-results.zip",
+          "bytes": 3639389,
+          "sha256": "bbc929c336a1084c75d09433333d0eb93b640ddb9176913d53eaf2d84df15ce3",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "37",
+          "filename": "20261023T194405Z-8666b9c3-results.zip",
+          "bytes": 3366094,
+          "sha256": "7cb3fd59ec7858f237022f05beace33463227c4eaa95fb622f7acb51fc2364d7",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "38",
+          "filename": "20261023T191804Z-4ec6934d-results.zip",
+          "bytes": 4227973,
+          "sha256": "7cc61bff1cf2a342f3ec104541fcddd241f9149edc9bca1e09f477296008c413",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "39",
+          "filename": "20261023T191911Z-1f5e4d3b-results.zip",
+          "bytes": 5498528,
+          "sha256": "40040efb622ad76305ae2ae940263ef943177291ef1524485b8a350929ed6f94",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "47",
+          "filename": "20261023T195051Z-0afbf933-results.zip",
+          "bytes": 8038183,
+          "sha256": "b319504e8a57dceb13886a1a07af5953051f25f59ca48d9154e31868dd3f3b5f",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "48",
+          "filename": "20261023T213809Z-8d1cde13-results.zip",
+          "bytes": 6705671,
+          "sha256": "2e5b5a537a7f34d5e605c20e91dec8566cb323b3ee90b91c6fe26b5879433c2b",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "49",
+          "filename": "20261023T204257Z-5cbd2c15-results.zip",
+          "bytes": 9853379,
+          "sha256": "09c158e4a0ae59e4e1010a47c4507673299829ba12439412ca7fe7c13e5c10bb",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        }
+      ],
+      "research_ports": [
+        "be_replay.n25_full_join.run_colab/validate_completed",
+        "be_replay.n25_mixed_runner.run_component",
+        "be_replay.n25_recovered_counts.run_section",
+        "tools/run_n25_recovered_b5.py",
+        "proof/n25_full_join_source_plan.json"
+      ],
+      "code_status": "dirty_callable_full66_and30-action_mixed_runtime_present; full current run not observed",
+      "required_fresh_execution": "all numerical producer/checker/resource work must execute in the new campaign",
+      "blocking_dependencies": [
+        "n20-n24"
+      ],
+      "remaining": [
+        "Fresh ordinary/acquisition/mixed/scalar/registry jobs and all1900-panel/20-region interfaces; historical final joins make no new native calls.",
+        "Recovered p24/p25 canonical kernels and11 B5 candidates are available; do not retain the old missing-capsule blocker.",
+        "Qualify current dirty full66/mixed30-action implementation, which is newer than STATUS; callable code is not a completed execution.",
+        "Prefer required sharp24 predecessor once available; auxiliary24 is a genuine OR alternative, not an additional mandatory chain."
+      ],
+      "new_global_provider_populated": false,
+      "dependency_list_kind": "critical source/portfolio sequence, not a replacement for the exact Lean signature",
+      "logical_prerequisites": [
+        "Earlier optimalConstant C_E 25 is supplied by the finite composition.",
+        "Actual same-law predecessor license: Sharp24 OR Auxiliary24; exact signed-beta envelopes and all20 regions.",
+        "Source mixed-registry/frame/resource proof dependencies, not merely successful COUNT files."
+      ]
+    },
+    {
+      "id": "n26-n30",
+      "lean_provider": "ordinary(26..30)",
+      "required_scope": "80 forests plus actual-index support, floor25 parent transfers and445 unique Fourier rows",
+      "reference_notebooks": [
+        "53",
+        "59A",
+        "59B",
+        "59C",
+        "64"
+      ],
+      "reference_artifacts": [
+        {
+          "notebook": "53",
+          "filename": "20261023T224032Z-c2e02cfb-results.zip",
+          "bytes": 16448849,
+          "sha256": "b04cfb682c7efb78ba723e60cb0f85985ec1dee5737b57a32b9f5c4054174792",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "59A",
+          "filename": "20261024T012758Z-91e52e1f-results.zip",
+          "bytes": 4098219,
+          "sha256": "f007f1ae01b8a95f2faaad18e4618d9ef0fb42bb9b3ca0d49bd05d611c662eee",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_ARITHMETIC_PURE_READER_PASS",
+          "recorded_family_reader": "PASS",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "59B",
+          "filename": "20261024T023936Z-e903a551-results.zip",
+          "bytes": 751701,
+          "sha256": "b42cb262d1c8289e2fae214626c143e7bc83aee3550d71263e33991ac6173bb1",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_ARITHMETIC_READER_COMPATIBILITY_OPEN",
+          "recorded_family_reader": "REJECTED_OLD_ADAPTER_HASH",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "59C",
+          "filename": "20261024T013614Z-7fc5851f-results.zip",
+          "bytes": 379214,
+          "sha256": "22a7d3d6a362cd1df961d42ee3d1a0abdb714e917571cbc0c014648c09a8bfcd",
+          "matches_published_census": true,
+          "reference_status": "INCOMPLETE",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "64",
+          "filename": "20261023T220120Z-244a55cc-results.zip",
+          "bytes": 876273,
+          "sha256": "3ca0eeba4f6404f9ab2eb89a055e8107739f4b8baab2d6a0c7cd577bf8a0b5c5",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        }
+      ],
+      "research_ports": [
+        "be_replay.finite1039_counts.run_colab",
+        "be_replay.finite2630_b1",
+        "be_replay.finite2630_covers",
+        "proof/remaining57_59_delivery_partition.json"
+      ],
+      "code_status": "component drivers present; no complete59D package identified",
+      "required_fresh_execution": "all numerical producer/checker/resource work must execute in the new campaign",
+      "blocking_dependencies": [
+        "n25"
+      ],
+      "remaining": [
+        "Fresh all80 forests; source recovery64 n27/p41 resolves historical candidate gap.",
+        "Fresh59A/B/C Fourier including full16 higher actions; old59C stopped2/16 before AST/source comparison fix.",
+        "59B old export compatible-reader issue is reported fixed; no old result can satisfy fresh policy.",
+        "Full59D support/resource/current transfer adapter and finite join still need qualification/implementation."
+      ],
+      "new_global_provider_populated": false,
+      "dependency_list_kind": "critical source/portfolio sequence, not a replacement for the exact Lean signature",
+      "logical_prerequisites": [
+        "For each actual n in this range, the EndToEndProviders ordinary port receives Earlier optimalConstant C_E n, i.e. all positive indices below n. Numeric fixed-context jobs can be independent; the final proof prefix is assembled in order.",
+        "Actual same-law realization/resource-to-context license for every selected numerical scope."
+      ]
+    },
+    {
+      "id": "n31-n39",
+      "lean_provider": "ordinary(31..39)",
+      "required_scope": "n31..34:282 forests; n35..39:120 forests;8 floor31 families and actual-index resource/phase scaling",
+      "reference_notebooks": [
+        "54",
+        "55"
+      ],
+      "reference_artifacts": [
+        {
+          "notebook": "54",
+          "filename": "20261023T232703Z-8efe9415-results.zip",
+          "bytes": 22405088,
+          "sha256": "2cee62d6c96313b754dac280238f6a9d2cedf383d36ea0a8d29e05eb5fbf7f9a",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        },
+        {
+          "notebook": "55",
+          "filename": "20261024T014047Z-516cc64f-results.zip",
+          "bytes": 8495638,
+          "sha256": "16f35ee268def66b0da98eae10b89d68db4252e0870b668e0b78747eb3cb4e0f",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        }
+      ],
+      "research_ports": [
+        "be_replay.finite1039_counts.run_colab",
+        "proof/remaining31_39_delivery_partition.json"
+      ],
+      "code_status": "COUNT driver and source partition exist; no full60 runtime module identified",
+      "required_fresh_execution": "all numerical producer/checker/resource work must execute in the new campaign",
+      "blocking_dependencies": [
+        "n26-n30"
+      ],
+      "remaining": [
+        "Fresh complete floor31 support/INITIAL/resource suites,1713 actual32..34 support evaluations and all selected35..39 parents/interfaces.",
+        "Implement/qualify whole60 current-evidence adapter; preserve15000/(997*n) scaled phase and all4 B2 patches."
+      ],
+      "new_global_provider_populated": false,
+      "dependency_list_kind": "critical source/portfolio sequence, not a replacement for the exact Lean signature",
+      "logical_prerequisites": [
+        "For each actual n in this range, the EndToEndProviders ordinary port receives Earlier optimalConstant C_E n, i.e. all positive indices below n. Numeric fixed-context jobs can be independent; the final proof prefix is assembled in order.",
+        "Actual same-law realization/resource-to-context license for every selected numerical scope."
+      ]
+    },
+    {
+      "id": "n40-n42",
+      "lean_provider": "ordinary(40..42)",
+      "required_scope": "Finite-only independent40..42 projection,6 sections/48 top scopes/59 physical calls",
+      "reference_notebooks": [],
+      "reference_artifacts": [],
+      "research_ports": [
+        "proof/finite_remaining_batch_plan.json",
+        "proof/remaining_notebooks_closed_plan.json"
+      ],
+      "code_status": "source plans/components only; no full finite4042 runtime module identified",
+      "required_fresh_execution": "all numerical producer/checker/resource work must execute in the new campaign",
+      "blocking_dependencies": [],
+      "remaining": [
+        "Implement finite62 exact nested source/action capture and same-law licenses, then run every required fresh action.",
+        "Defer later global/tail binders to final assembly; do not introduce a dependency cycle through61."
+      ],
+      "new_global_provider_populated": false,
+      "dependency_list_kind": "critical source/portfolio sequence, not a replacement for the exact Lean signature",
+      "logical_prerequisites": [
+        "For each actual n in this range, the EndToEndProviders ordinary port receives Earlier optimalConstant C_E n, i.e. all positive indices below n. Numeric fixed-context jobs can be independent; the final proof prefix is assembled in order.",
+        "Actual same-law realization/resource-to-context license for every selected numerical scope."
+      ]
+    },
+    {
+      "id": "n43-n48",
+      "lean_provider": "ordinary(43..48)",
+      "required_scope": "Finite43..48,33 selected top-level scopes, full signed LOW78 and74 rows",
+      "reference_notebooks": [],
+      "reference_artifacts": [],
+      "research_ports": [
+        "proof/finite4348_source_action_plan.json",
+        "proof/finite_remaining_batch_plan.json"
+      ],
+      "code_status": "source action plan only; no full finite4348 runtime module identified",
+      "required_fresh_execution": "all numerical producer/checker/resource work must execute in the new campaign",
+      "blocking_dependencies": [
+        "n40-n42"
+      ],
+      "remaining": [
+        "Implement/qualify61 finite projection and fresh full signed LOW/HIGH/support/acquisition calls.",
+        "Retained tail12 data are references, not fresh results or a license to assume all finite indices."
+      ],
+      "new_global_provider_populated": false,
+      "dependency_list_kind": "critical source/portfolio sequence, not a replacement for the exact Lean signature",
+      "logical_prerequisites": [
+        "For each actual n in this range, the EndToEndProviders ordinary port receives Earlier optimalConstant C_E n, i.e. all positive indices below n. Numeric fixed-context jobs can be independent; the final proof prefix is assembled in order.",
+        "Actual same-law realization/resource-to-context license for every selected numerical scope."
+      ]
+    },
+    {
+      "id": "tail49",
+      "lean_provider": "tail:TailMethodProviders",
+      "required_scope": "Independent all n>=49; uniform local comparison actual n>=47,83 probability rows,TINY/MID/LOW,lambda0 branch, five auxiliary barriers and smoothing",
+      "reference_notebooks": [
+        "12"
+      ],
+      "reference_artifacts": [
+        {
+          "notebook": "12",
+          "filename": "20261023T212745Z-1825b68e-results.zip",
+          "bytes": 16921310,
+          "sha256": "51640e38549bf8ebe05e09953622e1f8526063f7a03b2f2c48756b782d17fd63",
+          "matches_published_census": true,
+          "reference_status": "COMPLETED_DECLARED_ARITHMETIC_INTERNAL_INTEGRITY_CHECKED",
+          "recorded_family_reader": "NOT_RUN_IN_THIS_REVIEW",
+          "required_fresh_execution": "if selected as a required input by the new frozen proof route",
+          "new_campaign_accepted": false
+        }
+      ],
+      "research_ports": [
+        "be_replay.tail49.prepare/run",
+        "BEMap/UniformTail.lean",
+        "BEMap/TailAssembly.lean",
+        "docs/contracts/UNIFORM-TAIL.md",
+        "docs/contracts/TAIL-ASSEMBLY.md"
+      ],
+      "code_status": "full original numerical driver exists; current typed runtime bridge missing",
+      "required_fresh_execution": "all numerical producer/checker/resource work must execute in the new campaign",
+      "blocking_dependencies": [],
+      "remaining": [
+        "Fresh full14 top-level/41 retained numerical suite under new campaign, plus exact current data extraction into uniform/acquisition/auxiliary meanings.",
+        "Build typed bridge for every actual n using source signs/gates; computational helper cutoff98 is not an n upper bound.",
+        "Keep base49/strong46 and five barriers independent of the finite1..48 portfolio; no C_n monotonicity assumption."
+      ],
+      "new_global_provider_populated": false,
+      "dependency_list_kind": "critical source/portfolio sequence, not a replacement for the exact Lean signature",
+      "logical_prerequisites": [
+        "Independent TailMethodProviders numerical/analytic inputs; no finite1..48 argument."
+      ]
+    },
+    {
+      "id": "lower",
+      "lean_provider": "LowerApproximation",
+      "required_scope": "For every b<C_E, some positive n has b<C_n",
+      "reference_notebooks": [],
+      "reference_artifacts": [],
+      "research_ports": [
+        "proof/literature_esseen_lower_bound_audit.md",
+        "BEMap/Global.lean:LowerApproximation"
+      ],
+      "code_status": "source_and_components_available",
+      "required_fresh_execution": "Fresh exact premise/source binding and algebraic implication check; not a new finite numerical search",
+      "blocking_dependencies": [],
+      "remaining": [
+        "Register the precise accepted primary lattice expansion/normalization and derived rational-Bernoulli limiting route.",
+        "The prior review supplies an explicit1945 route; it does not claim reading the1956 article or finite-index attainment."
+      ],
+      "new_global_provider_populated": false,
+      "dependency_list_kind": "critical source/portfolio sequence, not a replacement for the exact Lean signature"
+    },
+    {
+      "id": "assembly",
+      "lean_provider": "all_indices_from_typed_providers / sharp_from_typed_providers",
+      "required_scope": "All finite providers plus independenttail; sharpness additionally consumeslower",
+      "reference_notebooks": [],
+      "reference_artifacts": [],
+      "research_ports": [
+        "BEMap/Assembly.lean",
+        "docs/architecture/04-checkers-and-lean.md"
+      ],
+      "code_status": "Lean conditional composition compiled; runtime whole-theorem assembler not populated",
+      "required_fresh_execution": "all numerical producer/checker/resource work must execute in the new campaign",
+      "blocking_dependencies": [
+        "constants",
+        "n1",
+        "n2-n3",
+        "n4",
+        "n5",
+        "n6-n9",
+        "n10-n14",
+        "n15-n19",
+        "n20-n24",
+        "n25",
+        "n26-n30",
+        "n31-n39",
+        "n40-n42",
+        "n43-n48",
+        "tail49"
+      ],
+      "remaining": [
+        "Implement global obligation manifest and typed claim/provider adapters, exact all-scope covers and authorized final assembly.",
+        "Require every mandatory fresh numerical job in this new campaign; scoped pilot/COUNT PASS cannot fill an index provider.",
+        "No actual complete end-to-end runtime record or populated EndToEndProviders exists yet."
+      ],
+      "new_global_provider_populated": false,
+      "optional_dependencies": {
+        "sharp_global_constant": [
+          "lower"
+        ]
+      },
+      "dependency_list_kind": "critical source/portfolio sequence, not a replacement for the exact Lean signature",
+      "logical_prerequisites": [
+        "Exact EndToEndProviders fields; LowerApproximation additionally and only for sharpness."
+      ]
+    }
+  ],
+  "shortest_path": [
+    "Freeze one new fresh-only campaign and exact analytic/source/trust portfolio; old exports are segregated references.",
+    "Finish and audit the one complete native COUNT adapter, then parameterize source-family dispatch and bounded workers; do not build another orchestration stack.",
+    "Compute all already-frozen independent conditional COUNT forests and eligible resource/Fourier tasks concurrently; final same-law applicability waits for fresh licenses. Contexts depending on unknown U wait for approved typed materialization.",
+    "Close and freshly execute foundation67+n5,65,56I,57H,58H and full66 in their actual dependency order; qualify the newer dirty callable code instead of rebuilding it or trusting stale status prose.",
+    "Implement/qualify59D,60,finite62 andfinite61; run all required fresh stages and keep later global binders out of the finite dependency cycle.",
+    "Run and bridge independent uniformtail49 in parallel with the finite lane; bind lower/constant/external analytic inputs separately.",
+    "Only complete fresh claim/covers/provider closure may yield the final conditional theorem PASS; root compilation and scoped passes remain insufficient."
+  ],
+  "source_snapshots": {
+    "STATUS.md": "f1be4a64e14f9b2e759f1e84018240a299fd86488802bfe97a5fa5635aedf5d7",
+    "proof/ready_implementations_20261025.md": "564b30461fe027e29df6a5028d208ac0ae23eca62a648946faf1135e7b682cd6",
+    "proof/completion_and_remaining_20261024.json": "1f705350b36f4fa42a457951c590bfca79e674a541825a897c0ab29b1459da59",
+    "proof/remaining_notebooks_sufficiency.md": "d4f76619a5b700221dea26935215e7ccdfb3ba3c8dee3e6636b1613cb39e6197",
+    "proof/n25_recovery_source_plan.json": "3952fc7bc5e4ce2a7f8434a65c641741392d02f84877d58cfdc38cadf480028b",
+    "proof/n25_full_join_source_plan.json": "8ec99ede44824345c48dbc0ebb6db5aed65ecd290cce379a2c4b74449829477e",
+    "proof/remaining31_39_delivery_partition.json": "c4b8ca97492abc60b0cceb7da817cb13011e0b8b152f4a11a1c1ab654f86c941",
+    "proof/finite4348_source_action_plan.json": "56ec7c3a140deae8723e3f6d248360e96d4b8a88305be6c1a22436ac064c3fad",
+    "proof/literature_esseen_lower_bound_audit.md": "e715d06bcba14f03ea8474772d812ea5af95ee8443256b724fe9b18bf3c28c61",
+    "be_replay/n25_full_join.py": "fc36a8bd2f037b198c73643fb39a5063e183732bc5f959cad75e9b83112b1b31",
+    "be_replay/n25_mixed_runner.py": "b06edc653eedfae87ca7e7192334d6f22664c8e3c0ee461d39050f5b66b729d4",
+    "be_replay/finite2024_join.py": "0bac20b756fb9effc6e672796eca2522068928ee01fd17919479d11e4d2f1464",
+    "be_replay/n5_remaining_sources.py": "17f8d9b3bcdce510574901be83684a630d54cc8d2f6251856b7737bbd85aaaab",
+    "be_replay/n5_remaining_evidence.py": "4e3df914894fa39eab787c5a32062e3d3a165720cbb375c970f44906cbcb784c",
+    "be_replay/finite69_sources.py": "67e9e2bb1009d8a2c03c3b4d42480c7b06254998d70dd3f8c6bfbb63df2d3791",
+    "be_replay/finite69_count_evidence.py": "15c1a9a9ee4ac37672bd151c7bdcc1c5204afe2feb2425b9b0cb9d19ac3a4c33",
+    "be_replay/finite1039_sources.py": "6a34be3e362d2a9cfe34b52bf1c0f1872cd4fe45afa8cf2acf82a232b4da1c95",
+    "be_replay/finite1039_count_evidence.py": "7dae50a7d2756faa30d229ae02fb15d678db4cbaa837be43518c10af5af85cfa",
+    "be_replay/n25_recovered_counts.py": "cc23efb81cc142292b0f7fa50f6c149311fb47895c6d598f59c3dd192983a474",
+    "be_replay/n25_full_counts.py": "a8b80ee849abff003627ac7283e273056cd9929c6d2bf331987e5439be929a9f",
+    "proof/finite1039_count_catalog.json": "67a647a00111fda930391bda90345ece419bbf54c44a70c0390969ad0fab3d6d"
+  },
+  "concurrency_review": "CONCURRENCY-REVIEW.md: process pool for CPU, bounded IO threads, exact AND/OR/quantitative-U readiness, backpressure and required sequential fallback.",
+  "fresh_constructor_gaps": [
+    {
+      "family": "n5 COUNT",
+      "source_anchor": "be_replay/n5_remaining_sources.py:198; be_replay/n5_remaining_evidence.py:306",
+      "current": "copies the selected historical COUNT_FOREST and validates its fixed historical digest/census",
+      "required": "start without forest/receipt, run approved constructor, validate dynamic new candidate against unchanged original domain, full topology, target and controls"
+    },
+    {
+      "family": "finite6..9 COUNT",
+      "source_anchor": "be_replay/finite69_count_evidence.py:48; be_replay/finite69_sources.py:139",
+      "current": "unchanged native count_protocol accept over source-selected historical candidate",
+      "required": "generalize new source-only construct then accept adapter per approved contract; keep complete roots/seams and current-law license"
+    },
+    {
+      "family": "finite10..39 COUNT",
+      "source_anchor": "be_replay/finite1039_count_evidence.py:80; :180; be_replay/finite1039_sources.py:175",
+      "current": "native count_protocol accept or accept_strict over fixed historical candidate; expected original digest/census",
+      "required": "qualify separate constructors for nested count_protocol and flat strict representations; accept fresh variable candidate and complete dynamic census"
+    },
+    {
+      "family": "recovered ordinary n25 B5",
+      "source_anchor": "be_replay/n25_recovered_counts.py:40; be_replay/n25_full_counts.py:256",
+      "current": "RECOVERY_INPUTS explicitly dispatches recovered capsule straight to native accept; old complete forest remains input",
+      "required": "use recovered exact sources, omit historical forest, construct and then independently accept in the new campaign; do not fall back silently to a different reconstructed contract"
+    }
+  ],
+  "gap_classification": {
+    "new_unresolved_analytic_statement_found_in_this_census": false,
+    "scope_limit": "This is not an independent proof of every analytic premise or every dirty WIP numerical module. Previously reviewed exact analytic premises remain declared inputs.",
+    "semantic_evidence_gaps": [
+      "actual same-law acquisition/current-state license for every numerical context",
+      "complete source-to-typed-claim interpretation and all required covers/dependency joins",
+      "explicit lower and literature/analytic premise binding"
+    ],
+    "implementation_gaps": [
+      "fresh constructors for replay-only portfolio paths",
+      "qualification/freeze of newer dirty full58H/full66 modules",
+      "complete adapters for source partitions59D/60/finite62/finite61",
+      "one final typed provider/claim assembly"
+    ],
+    "execution_gaps": [
+      "all selected new-campaign producer/resource/checker jobs and controls",
+      "full fresh uniform-tail numerical lane and exact typed bridge",
+      "portfolio concurrency equivalence and measured resource/throughput envelope"
+    ],
+    "not_a_math_gap": "Using an existing algorithm or qualifying a source adapter does not require inventing a new analytic theorem. An unpopulated semantic premise still prevents final PASS."
+  },
+  "scale_qualification": {
+    "immediately_parallel_after_family_qualification": [
+      "complete independent fixed-context COUNT forests:284 at n6..9,1009 at n10..39,295 selected n5",
+      "independent source-declared small-index stages and eligible resource/Fourier stages",
+      "independent uniform-tail lane according to its own exact internal DAG"
+    ],
+    "not_immediately_96_ready": "The current integrated native adapter admits one exact n6.B0.p61 contract. Generalization and per-family constructor/checker qualification precede bulk dispatch.",
+    "legacy_limits_are_not_new_campaign_policy": {
+      "finite_count_CPU_seconds": 43200,
+      "finite_count_wall_seconds": 54000,
+      "recovered_n25_max_CPU_wall_seconds": 82800
+    },
+    "required": "Measure fresh family construction/replay/control costs and RAM, preserve checkpoint semantics where available, enforce remaining immutable campaign deadline and budget. No completion-time or96-worker guarantee."
+  },
+  "constructor_inventory": {
+    "catalog": "proof/finite1039_count_catalog.json",
+    "catalog_sha256": "67a647a00111fda930391bda90345ece419bbf54c44a70c0390969ad0fab3d6d",
+    "records": 1008,
+    "count_protocol": 606,
+    "strict": 402,
+    "additional_separate_recovered_n27_job": 1,
+    "strict_with_construct_in_selected_closure": 218,
+    "strict_without_construct_in_selected_closure": 184,
+    "additional_direct_construct_found_in_full_archive_jobs": 30,
+    "remaining_without_direct_construct_jobs": 154,
+    "archive": "cutoff25_20261011.zip",
+    "archive_sha256": "17fa140f63c5134ac48f1fd1040f4c5ae4bebdb2b92b2d7ce69f4048293d1fcb",
+    "recovered_additional_generators": [
+      {
+        "member": "cutoff25_20261011/threshold31_20261008/local/sharp31_ladder_b0/construct.py",
+        "jobs": 14,
+        "bytes": 3465,
+        "sha256": "9a99840c5501cfbee920db413f768f691a63aed9742d8c514b5d371e6e9affcf",
+        "imports": [
+          "exact35_core",
+          "float_core",
+          "hashlib",
+          "json",
+          "pathlib",
+          "sys",
+          "time"
+        ],
+        "status": "source bytes found; expanded producer closure and execution not yet qualified"
+      },
+      {
+        "member": "cutoff25_20261011/BE_cutoff35_release_20261007/work/below40_20261007/root/low35_compare/construct.py",
+        "jobs": 8,
+        "bytes": 2491,
+        "sha256": "28c9fe842f69d1c967c88477ee027ee121d3881007e3486cb676e977636bd72b",
+        "imports": [
+          "exact_low35_core",
+          "hashlib",
+          "json",
+          "pathlib",
+          "profile",
+          "sys",
+          "time"
+        ],
+        "status": "source bytes found; expanded producer closure and execution not yet qualified"
+      },
+      {
+        "member": "cutoff25_20261011/BE_cutoff35_release_20261007/work/below40_20261007/local/central35_hybrid_quartic_v6/construct.py",
+        "jobs": 8,
+        "bytes": 2470,
+        "sha256": "ce18102fbf51dbde50a968f59ceebe658844ba2cf42077de71a12abc0157a36e",
+        "imports": [
+          "exact35_core",
+          "hashlib",
+          "json",
+          "pathlib",
+          "sys",
+          "time"
+        ],
+        "status": "source bytes found; expanded producer closure and execution not yet qualified"
+      }
+    ],
+    "remaining_directories": [
+      {
+        "directory": "cutoff25_20261011/BE_cutoff35_release_20261007/work/below40_20261007/local/uniform32K54_v5",
+        "jobs": 10,
+        "status": "no direct construct.py member; bounded name search does not prove no inline or sibling generator exists"
+      },
+      {
+        "directory": "cutoff25_20261011/BE_cutoff35_release_20261007/work/below40_20261007/local/guarded33K36_v5",
+        "jobs": 18,
+        "status": "no direct construct.py member; bounded name search does not prove no inline or sibling generator exists"
+      },
+      {
+        "directory": "cutoff25_20261011/BE_cutoff35_release_20261007/work/below40_20261007/local/guarded34K18_sharp",
+        "jobs": 22,
+        "status": "no direct construct.py member; bounded name search does not prove no inline or sibling generator exists"
+      },
+      {
+        "directory": "cutoff25_20261011/BE_cutoff35_release_20261007/work/below40_20261007/local/central35_hybrid_v1",
+        "jobs": 3,
+        "status": "no direct construct.py member; bounded name search does not prove no inline or sibling generator exists"
+      },
+      {
+        "directory": "cutoff25_20261011/BE_cutoff35_release_20261007/work/below40_20261007/local/central35_hybrid_fast_v2",
+        "jobs": 7,
+        "status": "no direct construct.py member; bounded name search does not prove no inline or sibling generator exists"
+      },
+      {
+        "directory": "cutoff25_20261011/BE_cutoff35_release_20261007/work/below40_20261007/root/bridge36_compare",
+        "jobs": 15,
+        "status": "no direct construct.py member; bounded name search does not prove no inline or sibling generator exists"
+      },
+      {
+        "directory": "cutoff25_20261011/BE_cutoff35_release_20261007/work/below40_20261007/root/bridge36_quartic_compare",
+        "jobs": 10,
+        "status": "no direct construct.py member; bounded name search does not prove no inline or sibling generator exists"
+      },
+      {
+        "directory": "cutoff25_20261011/BE_cutoff35_release_20261007/work/below40_20261007/root/bridge37_quartic_compare",
+        "jobs": 9,
+        "status": "no direct construct.py member; bounded name search does not prove no inline or sibling generator exists"
+      },
+      {
+        "directory": "cutoff25_20261011/BE_cutoff35_release_20261007/work/below40_20261007/root/bridge37_compare",
+        "jobs": 15,
+        "status": "no direct construct.py member; bounded name search does not prove no inline or sibling generator exists"
+      },
+      {
+        "directory": "cutoff25_20261011/BE_cutoff35_release_20261007/work/below40_20261007/root/bridge38_compare",
+        "jobs": 14,
+        "status": "no direct construct.py member; bounded name search does not prove no inline or sibling generator exists"
+      },
+      {
+        "directory": "cutoff25_20261011/BE_cutoff35_release_20261007/work/below40_20261007/root/bridge38_quartic_compare",
+        "jobs": 8,
+        "status": "no direct construct.py member; bounded name search does not prove no inline or sibling generator exists"
+      },
+      {
+        "directory": "cutoff25_20261011/BE_cutoff35_release_20261007/work/below40_20261007/root/bridge38_fast_compare",
+        "jobs": 1,
+        "status": "no direct construct.py member; bounded name search does not prove no inline or sibling generator exists"
+      },
+      {
+        "directory": "cutoff25_20261011/BE_cutoff35_release_20261007/work/below40_20261007/root/bridge39_quartic_compare",
+        "jobs": 9,
+        "status": "no direct construct.py member; bounded name search does not prove no inline or sibling generator exists"
+      },
+      {
+        "directory": "cutoff25_20261011/BE_cutoff35_release_20261007/work/below40_20261007/root/bridge39_compare",
+        "jobs": 13,
+        "status": "no direct construct.py member; bounded name search does not prove no inline or sibling generator exists"
+      }
+    ],
+    "not_execution_evidence": true,
+    "implementation_route": "Preserve the exact independent acceptor. Qualify recovered original producers or a bounded untrusted constructor using the correct source-specific exact cell and complete canonical root/split representation; then independently accept every new candidate. Do not reuse old leaf conclusions."
+  },
+  "count_runner_review": {
+    "document": "COUNT-RUNNER-AUDIT.md",
+    "adversarial_tests": 12,
+    "elapsed_seconds_observed": "179.996",
+    "outcome": "passed",
+    "real_fresh_seed": true,
+    "real_runtime_clean_resume": true,
+    "operational_mutations_reuse_actual_read_profile": true,
+    "scope": "single conditional n6.B0.p61 forest, no all-law/global theorem",
+    "pins": {
+      "src/be/count_runner.py": "60cc5ecb0f9042bfd47a6a4e4931a2edfcb127b0e9d94a152490c6189d8e33eb",
+      "src/be/authority.py": "a4656bd2376efa073faa576c904d0af87ad202f5538b76a25a43128d6319a585",
+      "src/be/count_native.py": "581d23ab462b8d198519591278ae785f71bb3270db5f89f62ef98524c0874205",
+      "src/be/supervisor.py": "edbdce1354dc0265df11f6f65d8c4c45f7b176d317bb906b6ce8d038c4132b27",
+      "src/be/exec_guard.py": "5298e4459a5d0f954a3d570d550bf880791217b48dcf60f4a4cc2701419e7573",
+      "src/be/cli.py": "a2c2418d54c4dae14fdb4ed50ce340caeb08647a324dcb8a48cd1c61c0304cd1",
+      "tests/test_count_runner_adversarial.py": "4cb5e8204e4c751f40a0ccc66bed04b0cfd0581625bf0436f37654168b434014",
+      "vendor/count_native_n6_b0_p61/capsule-manifest.json": "194a1bd4a2a0f1dfbd6227c67c37f253048e8f4e643e59db55c4166431aa2c95"
+    },
+    "native_source_at_12test_execution": "557d775ef4565d5d9846f5fcdb7bf0e1304a55cdaab520a468413ebf7ec4645c",
+    "runtime_inventory_addendum": {
+      "schema": "be.native-python-runtime/2",
+      "current_source_sha256": "581d23ab462b8d198519591278ae785f71bb3270db5f89f62ef98524c0874205",
+      "source_review": "passed: finite literal file links plus resolved bytes; input/target parent aliases and stdlib root rejected; directory memo local to one scan",
+      "final_linux_link_tests": {
+        "count": 3,
+        "outcome": "passed",
+        "evidence_owner": "execution architect; not independently rerun by this auditor"
+      },
+      "hmac_suite_rerun_for_inventory_only_change": false,
+      "bulk_linux_measurement": "in progress; outputs provisional until actual final source/runtime/result-set seal",
+      "final_source_cli_cold_resume": {
+        "source_sha256": "581d23ab462b8d198519591278ae785f71bb3270db5f89f62ef98524c0874205",
+        "cold_exit": 0,
+        "resume_exit": 0,
+        "evidence_owner": "root integrator; not independently rerun by this auditor"
+      }
+    },
+    "cli_source_at_12test_execution": "21d4e62e1691b375fd8d6c88ff2ece22df7cc3a9c896b1a8311683270bc2bd60"
+  },
+  "late_controller_priority": [
+    {
+      "family": "61",
+      "reason": "33 exact top-level actions; finite43..48, static sources available, independent of heavy n25 numerical lane; consumes fresh shared uniform-tail epoch"
+    },
+    {
+      "family": "62",
+      "reason": "finite40..42 projection next; defer final global40 binder to63, avoid cycle through61"
+    },
+    {
+      "family": "59D",
+      "reason": "current25/floor25 dependency requires fresh66 evidence first; prepare source adapter earlier"
+    },
+    {
+      "family": "60",
+      "reason": "join current26..30/floor31 resources and qualified strict constructors; independent numeric frozen contexts may run sooner"
+    }
+  ],
+  "count69_batch_review": {
+    "source_sha256": "abb1b2e93aae8ccd65b3597c60dc4c5cfe7c04545684077202960e83d6dd821b",
+    "statically_qualified_contexts": 284,
+    "per_actual_n": {
+      "6": 90,
+      "7": 72,
+      "8": 64,
+      "9": 58
+    },
+    "auditor_spotcheck": {
+      "job_id": "n8.B0.p57",
+      "fresh_construct_and_accept": true,
+      "roots": 9,
+      "nodes": 13,
+      "leaves": 11,
+      "maximum_score": "406941256567/1000000000000",
+      "native_controls": 24,
+      "topology_mutations_rejected": [
+        "missing_root",
+        "missing_closed_child",
+        "boolean_axis",
+        "wrong_original_box"
+      ],
+      "new_global_runtime_seal_performed": false
+    },
+    "auditor_reran_final_suite": {
+      "tests": 5,
+      "elapsed_seconds_observed": "4.013",
+      "outcome": "passed"
+    },
+    "publication_gates": [
+      "actual Linux runtime pre/post including legitimate symlink identities and resolved target hashes",
+      "adapter/catalog/source/campaign and whole result-set binding",
+      "non-completed reason or unconfirmed cleanup must reject",
+      "adaptive conservative resource packing and sequential fallback"
+    ],
+    "full_proof_pass": false
+  }
+}

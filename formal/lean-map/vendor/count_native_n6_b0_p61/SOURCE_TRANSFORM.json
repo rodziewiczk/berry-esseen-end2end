@@ -1,0 +1,335 @@
+{
+  "source": "continuation_20261010/toward25/count25_rhop17_probe",
+  "scope": "New named source; no source input modified.",
+  "files": {
+    "bernstein_fast.py": {
+      "original_sha256": "4983c9af05673775c3fd5b521e898a9c7f7fe5c9523a5009646872bf75adc607",
+      "new_sha256": "4983c9af05673775c3fd5b521e898a9c7f7fe5c9523a5009646872bf75adc607",
+      "edits": []
+    },
+    "interval_scalar_fast.py": {
+      "original_sha256": "3eaa0d78eec8b8d5c2044eb020a406ec352ac5a99b30f9d2773694a4f9601512",
+      "new_sha256": "3eaa0d78eec8b8d5c2044eb020a406ec352ac5a99b30f9d2773694a4f9601512",
+      "edits": []
+    },
+    "exact35_core.py": {
+      "original_sha256": "20577fc5154e88da5f3c37d6b4d9c77beefae3b8b947de22cd93190c59b2abae",
+      "new_sha256": "512c70ead43294a7f1d4e14922c9c3a55d3928c9555f4af1415cacf5ad6657bb",
+      "edits": [
+        {
+          "old": "0<pl<=pu<F(1,2)",
+          "new": "0<pl<=pu<1",
+          "count": 1
+        },
+        {
+          "old": "0<pl<=pu<=F(1,2)",
+          "new": "0<pl<=pu<1",
+          "count": 1
+        },
+        {
+          "old": "vl=pl*(1-pl);vh=pu*(1-pu)",
+          "new": "vl,vh=variance_extrema(pl,pu)",
+          "count": 4
+        },
+        {
+          "old": "v=pl*(1-pl);vh=pu*(1-pu)",
+          "new": "v,vh=variance_extrema(pl,pu)",
+          "count": 1
+        },
+        {
+          "old": "v=pl*(1-pl)",
+          "new": "v=variance_extrema(pl,pu)[0]",
+          "count": 1
+        },
+        {
+          "import_added": "from probability_extrema import variance_extrema",
+          "after_line": 3
+        }
+      ]
+    },
+    "exact_count_core_v5.py": {
+      "original_sha256": "6f3b1ee218e3cc2efc9a037cabc7ed1e10e654e6738835ad694b122d65f59350",
+      "new_sha256": "0ffba7a5e1a91fc3c3c770f9d3bcb073a529fade3d622bc5615567153a4255a0",
+      "edits": [
+        {
+          "old": "0<pl<=pu<F(1,2)",
+          "new": "0<pl<=pu<1",
+          "count": 2
+        },
+        {
+          "old": "vl=pl*(1-pl);vh=pu*(1-pu)",
+          "new": "vl,vh=variance_extrema(pl,pu)",
+          "count": 1
+        },
+        {
+          "old": "den=I(n*pl*(1-pl)+lam,n*pu*(1-pu)+lam)",
+          "new": "vl,vh=variance_extrema(pl,pu);den=I(n*vl+lam,n*vh+lam)",
+          "count": 1
+        },
+        {
+          "old": "def cell(n,pl,pu,lo,hi,al,ah,k,ul,uh,A,d0,Lambda,Hminus,Hplus):",
+          "new": "def cell(n,pl,pu,lo,hi,al,ah,k,ul,uh,A,d0,Lambda,Hminus,Hplus):\n raise RuntimeError('Legacy cell is disabled; use the reviewed generalized cell35')",
+          "count": 1
+        },
+        {
+          "import_added": "from probability_extrema import variance_extrema",
+          "after_line": 1
+        }
+      ]
+    },
+    "finite_gaussian.py": {
+      "original_sha256": "939236711b080f9148ee3d3f7f6a0cd15b86cb24f3d2700f0e7127b2a345291f",
+      "new_sha256": "4f5b1a829df4c3c8c0e5467adb79f112984ee8eab8ba5f25b20fd7173b78a4a0",
+      "edits": [
+        {
+          "old": "def panel(n,idx,subdiv):",
+          "new": "def panel(n,idx,subdiv):\n raise RuntimeError('Legacy finite Gaussian panel API is disabled in this capsule')",
+          "count": 1
+        }
+      ]
+    },
+    "generalized_scope.py": {
+      "original_sha256": "0466a677e00a04eeca0d19027c6f454c190e8f95643f53865ab072f8d56a924b",
+      "new_sha256": "0ca76c72ccf7f9243e1d9b7d68f814b84e160f7da11945a7842dff5b2abebc00",
+      "edits": [
+        {
+          "old": "need(0<pl<=pu<F(1,2),'retained strict left-half probability domain')",
+          "new": "need(0<pl<=pu<1,'literal same-orientation probability domain')",
+          "count": 1
+        }
+      ]
+    },
+    "joint_cubic.py": {
+      "original_sha256": "240ad2f6f9ab4f2c5f35f31cb802fcb06e7d5e4cfc6aa1bfa4c1d88c670b2bb9",
+      "new_sha256": "d4adf6e9cfa430bbd7be7ffd90b994672d648d9886c42aa38e0a94b66eb55238",
+      "edits": [
+        {
+          "old": "0<pl<=pu<=F(1,2)",
+          "new": "0<pl<=pu<1",
+          "count": 1
+        },
+        {
+          "old": "vl=pl*(1-pl);vh=pu*(1-pu)",
+          "new": "vl,vh=variance_extrema(pl,pu)",
+          "count": 1
+        },
+        {
+          "import_added": "from probability_extrema import variance_extrema",
+          "after_line": 3
+        }
+      ]
+    },
+    "joint_cubic_defect.py": {
+      "original_sha256": "8c227c915920aa239d5d2b6bb999f65ebec8c8249e5c0474c9d39930627f50fb",
+      "new_sha256": "86874d28284f931b8907b573c118a9fb8191653a6569d903aed54c9f1974e970",
+      "edits": [
+        {
+          "old": "vl=pl*(1-pl);vh=pu*(1-pu)",
+          "new": "vl,vh=variance_extrema(pl,pu)",
+          "count": 1
+        },
+        {
+          "import_added": "from probability_extrema import variance_extrema",
+          "after_line": 3
+        }
+      ]
+    },
+    "joint_cubic_normalized.py": {
+      "original_sha256": "278f56e0850c46df78026a05b18ea4649137173857bc1cd1e7fba42ac8b0646b",
+      "new_sha256": "1403856612e213b9a14118a5a4098b7f470ce890499811dd1ad53c808904e2f6",
+      "edits": [
+        {
+          "old": "0<pl<=pu<=F(1,2)",
+          "new": "0<pl<=pu<1",
+          "count": 1
+        },
+        {
+          "old": "vl=pl*(1-pl);vh=pu*(1-pu)",
+          "new": "vl,vh=variance_extrema(pl,pu)",
+          "count": 1
+        },
+        {
+          "import_added": "from probability_extrema import variance_extrema",
+          "after_line": 3
+        }
+      ]
+    },
+    "joint_cubic_normalized_fast.py": {
+      "original_sha256": "7d72ff8ec7cfc2ad59e45d26fcccd6998ef01abe24cb54653ba18b05f2bbf347",
+      "new_sha256": "7d72ff8ec7cfc2ad59e45d26fcccd6998ef01abe24cb54653ba18b05f2bbf347",
+      "edits": []
+    },
+    "optimized_arithmetic.py": {
+      "original_sha256": "ab9bc728fbb7901f94323a384caf367eee2b2064e919dac27a01cabae743b765",
+      "new_sha256": "ab9bc728fbb7901f94323a384caf367eee2b2064e919dac27a01cabae743b765",
+      "edits": []
+    },
+    "variance_geometry.py": {
+      "original_sha256": "5ca1a6a7f82096df23daff61b888b4141e1070ca19a46c121128745cf4c21a0f",
+      "new_sha256": "55ba277cf30a0dc571cd98f38fd99deb4deff15c3be8df249c370ae8b10b3734",
+      "edits": [
+        {
+          "old": "def validate(n,p,A,d0,Lambda):",
+          "new": "def validate(n,p,A,d0,Lambda):\n raise RuntimeError('Legacy variance geometry is disabled in this capsule')",
+          "count": 1
+        }
+      ]
+    },
+    "signed_moment_prefilter.py": {
+      "original_sha256": "a7f812a8fa09573ae31cddaa1b0edd8d049e62afd04d43fc32f82838a860246f",
+      "new_sha256": "fd82440f07f4be759d74c2d7d44d1075d293e054580e9fa28cc021311b5f2173",
+      "edits": [
+        {
+          "old": "0<pl<=pu<F(1,2)",
+          "new": "0<pl<=pu<1",
+          "count": 1
+        },
+        {
+          "old": "vl,vh=pl*(1-pl),pu*(1-pu)",
+          "new": "vl,vh=variance_extrema(pl,pu)",
+          "count": 1
+        },
+        {
+          "old": "# This wrapper retains the reviewed strict left-half probability domain.",
+          "new": "# Literal same-orientation p in (0,1); pq extrema include the half seam.",
+          "count": 1
+        },
+        {
+          "import_added": "from probability_extrema import variance_extrema",
+          "after_line": 1
+        }
+      ]
+    },
+    "signed_moment_tightener.py": {
+      "original_sha256": "11c34307ba1fbc21efd34ce17a68aab1827a7272748858fde7d15becce875f72",
+      "new_sha256": "f6ea60e4592a5055c1ace9340765076a95784f5c5d02232f2f02544321e75b9d",
+      "edits": [
+        {
+          "old": "0<pl<=pu<F(1,2)",
+          "new": "0<pl<=pu<1",
+          "count": 1
+        },
+        {
+          "old": "vl,vh=pl*(1-pl),pu*(1-pu)",
+          "new": "vl,vh=variance_extrema(pl,pu)",
+          "count": 1
+        },
+        {
+          "old": "v=c.I(pl*(1-pl),pu*(1-pu))",
+          "new": "v=c.I(*variance_extrema(pl,pu))",
+          "count": 1
+        },
+        {
+          "old": "# This wrapper retains the reviewed strict left-half probability domain.",
+          "new": "# Literal same-orientation p in (0,1); pq extrema include the half seam.",
+          "count": 1
+        },
+        {
+          "import_added": "from probability_extrema import variance_extrema",
+          "after_line": 1
+        }
+      ]
+    },
+    "signed_moment_floor_tightener.py": {
+      "original_sha256": "6610b39256a1e4738090017403594e176aa7bc223b341a8644dcfcd8728bcfdf",
+      "new_sha256": "6e7165bb4f16df296f58d511983696e10e56725fad28f1179002f31e232f5dbc",
+      "edits": [
+        {
+          "old": "0<pl<=pu<F(1,2)",
+          "new": "0<pl<=pu<1",
+          "count": 1
+        },
+        {
+          "old": "vl,vh=pl*(1-pl),pu*(1-pu)",
+          "new": "vl,vh=variance_extrema(pl,pu)",
+          "count": 1
+        },
+        {
+          "old": "v=c.I(pl*(1-pl),pu*(1-pu))",
+          "new": "v=c.I(*variance_extrema(pl,pu))",
+          "count": 1
+        },
+        {
+          "old": "# This wrapper retains the reviewed strict left-half probability domain.",
+          "new": "# Literal same-orientation p in (0,1); pq extrema include the half seam.",
+          "count": 1
+        },
+        {
+          "import_added": "from probability_extrema import variance_extrema",
+          "after_line": 1
+        }
+      ]
+    },
+    "rho_signed_moment_tightener.py": {
+      "original_sha256": "b6cac4ea554414e3fdcbd0c785d3f2f01c8d7ec46c7e6af782c1650c59222898",
+      "new_sha256": "1fe8fefd93269e478be47077b3bf1c8d0cff9259de94824d55a66824b8052cdc",
+      "edits": [
+        {
+          "old": "0<pl<=pu<F(1,2)",
+          "new": "0<pl<=pu<1",
+          "count": 1
+        },
+        {
+          "old": "vl,vh=pl*(1-pl),pu*(1-pu)",
+          "new": "vl,vh=variance_extrema(pl,pu)",
+          "count": 1
+        },
+        {
+          "old": "v=c.I(pl*(1-pl),pu*(1-pu))",
+          "new": "v=c.I(*variance_extrema(pl,pu))",
+          "count": 1
+        },
+        {
+          "old": "# This wrapper retains the reviewed strict left-half probability domain.",
+          "new": "# Literal same-orientation p in (0,1); pq extrema include the half seam.",
+          "count": 1
+        },
+        {
+          "import_added": "from probability_extrema import variance_extrema",
+          "after_line": 1
+        }
+      ]
+    },
+    "signed_beta_variance_floor.py": {
+      "original_sha256": "f59c299905d39e1132b09a8930075e7b945d0106a817066982a71c6d64590d54",
+      "new_sha256": "c4208b88510735d0e808b947ec624ce785de42ef4c9fe3217505ebbef2c823c6",
+      "edits": [
+        {
+          "old": "0<pl<=pu<F(1,2)",
+          "new": "0<pl<=pu<1",
+          "count": 1
+        },
+        {
+          "old": "v=pl*(1-pl)",
+          "new": "v=variance_extrema(pl,pu)[0]",
+          "count": 1
+        },
+        {
+          "import_added": "from probability_extrema import variance_extrema",
+          "after_line": 1
+        }
+      ]
+    },
+    "rho_variance_floor.py": {
+      "original_sha256": "98cb3600a01de5d9f8026e5ca61e3e5879176becb508698cafbf2ee14860a3c0",
+      "new_sha256": "615acbcb948d2ba5767082f0dd2a2ab6f1d3999ae0a8afac3fd4c1d73b3aab6b",
+      "edits": [
+        {
+          "old": "0<pl<=pu<=F(1,2)",
+          "new": "0<pl<=pu<1",
+          "count": 1
+        },
+        {
+          "old": "v=pl*(1-pl)",
+          "new": "v=variance_extrema(pl,pu)[0]",
+          "count": 1
+        },
+        {
+          "import_added": "from probability_extrema import variance_extrema",
+          "after_line": 1
+        }
+      ]
+    }
+  },
+  "preparer_sha256": "8040cb6737bea757db219a3e44b649685fcdcd2074ef24f8c604fc424aac36ad"
+}

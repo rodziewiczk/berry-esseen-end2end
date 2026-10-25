@@ -1,0 +1,85 @@
+{
+  "observed_date": "2026-10-25",
+  "platform": "Linux x86_64 Ubuntu24.04",
+  "python": "CPython3.12.3",
+  "scope": "conditional n6.B0.p61 only",
+  "source_only_bundle_sha256": "d708a4d8abd97becd53bee43308628f2194de28d85f0382314e0c4ac17f2f439",
+  "supervisor_sha256": "edbdce1354dc0265df11f6f65d8c4c45f7b176d317bb906b6ce8d038c4132b27",
+  "runtime_inventory_adapter_sha256": "196c74b9166dcfd91e64bc3ee7c41afa216267579648220ad772d47c19774788",
+  "supervisor_tests_passed": 12,
+  "runtime_link_tests_passed": 2,
+  "windows_only_tests_skipped": 1,
+  "fresh_count_status": "SCOPED_COUNT_PASS",
+  "full_proof_pass": false,
+  "historical_candidate_supplied": false,
+  "runtime_pre_post_equal": true,
+  "source_pre_post_equal": true,
+  "runtime_profile_digest": "411e4eb98340188e44f9df2f772abbce1b02d3de7b746a96dcba173faf0cccb5",
+  "candidate_sha256": "70255b82689972d911bcc2e94061a7e19b7e58f0b22866b2f4a880619b829b5b",
+  "verification_key": "557066b7b5f93432efd882fdf5d1e38047f5345ae02ad28b05c1317b34044211",
+  "census": {
+    "roots": 7,
+    "nodes": 11,
+    "leaves": 9,
+    "maximum_depth": 1,
+    "closed_statuses": {
+      "EMPTY_PHASE": 6,
+      "PASS_TARGET": 3
+    }
+  },
+  "negative_control_count": 24,
+  "native_runs": [
+    {
+      "returncode": 0,
+      "reason": "completed",
+      "pid": 2233,
+      "duration_seconds": 0.262359,
+      "log_bytes": 40,
+      "enforcement": {
+        "name": "linux-exec-rlimit-v1",
+        "cpu": "per-process RLIMIT_CPU seconds; hard",
+        "memory": "per-process RLIMIT_AS bytes; hard; not aggregate/RSS",
+        "wall": "supervisor monotonic timer and campaign wall clock",
+        "log": "combined pipe retained bytes; hard",
+        "tree": "private process group and parent-death/pipe guardian; no setsid escape allowed"
+      },
+      "resource_usage": {
+        "cpu_seconds": 0.22325099999999998,
+        "peak_process_rss_bytes": 30834688
+      },
+      "tree_cleanup_complete": true
+    },
+    {
+      "returncode": 0,
+      "reason": "completed",
+      "pid": 2236,
+      "duration_seconds": 0.120885,
+      "log_bytes": 4002,
+      "enforcement": {
+        "name": "linux-exec-rlimit-v1",
+        "cpu": "per-process RLIMIT_CPU seconds; hard",
+        "memory": "per-process RLIMIT_AS bytes; hard; not aggregate/RSS",
+        "wall": "supervisor monotonic timer and campaign wall clock",
+        "log": "combined pipe retained bytes; hard",
+        "tree": "private process group and parent-death/pipe guardian; no setsid escape allowed"
+      },
+      "resource_usage": {
+        "cpu_seconds": 0.093026,
+        "peak_process_rss_bytes": 32079872
+      },
+      "tree_cleanup_complete": true
+    }
+  ],
+  "existing_vm_identity": "redacted",
+  "pilot_credit_reservation_pln": "20",
+  "cash_authorization_pln": "0",
+  "shutdown_deadline_utc": "2026-10-25T21:04:16Z",
+  "shutdown_confirmed": false,
+  "limitations": [
+    "Conditional ordinary COUNT result only; same-law resource acquisitions and all-law assembly remain separate.",
+    "Runtime inventory v2 applies to this isolated pilot; the measurement batch uses the final parent-directory guard581d23.",
+    "The guarded source executes trusted code; this is not a hostile-code container.",
+    "Linux CPU/address-space limits are per process, not an aggregate cgroup memory limit.",
+    "Disk retention continues after STOP; existing user data was preserved."
+  ]
+}

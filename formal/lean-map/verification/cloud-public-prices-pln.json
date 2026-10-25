@@ -1,0 +1,471 @@
+{
+  "observed_at": "2026-10-25T20:49:04.4014572+01:00",
+  "source": "https://cloudbilling.googleapis.com/v1/services/6F81-5844-456A/skus?currencyCode=PLN",
+  "account_identity": "not_included",
+  "pricing_kind": "public_list_not_account_contract_or_invoice",
+  "pages_read": 7,
+  "complete_catalog_pagination": true,
+  "rows": [
+    {
+      "sku_id": "89B2-FF91-3836",
+      "description": "C4 Instance Core running in Belgium",
+      "regions": [
+        "europe-west1"
+      ],
+      "resource_group": "CPU",
+      "usage_type": "OnDemand",
+      "effective_time": "2026-10-25T07:00:00Z",
+      "currency_conversion_rate": 3.842550000000464,
+      "usage_unit": "h",
+      "usage_unit_description": "hour",
+      "base_unit_conversion_factor": 3600,
+      "tiers": [
+        {
+          "start_usage_amount": 0,
+          "currency": "PLN",
+          "units": "0",
+          "nanos": 146605271,
+          "amount": 0.146605271
+        }
+      ]
+    },
+    {
+      "sku_id": "3428-6D6A-AE85",
+      "description": "C4 Instance Core running in Netherlands",
+      "regions": [
+        "europe-west4"
+      ],
+      "resource_group": "CPU",
+      "usage_type": "OnDemand",
+      "effective_time": "2026-10-25T07:00:00Z",
+      "currency_conversion_rate": 3.842550000000464,
+      "usage_unit": "h",
+      "usage_unit_description": "hour",
+      "base_unit_conversion_factor": 3600,
+      "tiers": [
+        {
+          "start_usage_amount": 0,
+          "currency": "PLN",
+          "units": "0",
+          "nanos": 139801575,
+          "amount": 0.139801575
+        }
+      ]
+    },
+    {
+      "sku_id": "30AA-05BC-7BC4",
+      "description": "C4 Instance Ram running in Belgium",
+      "regions": [
+        "europe-west1"
+      ],
+      "resource_group": "RAM",
+      "usage_type": "OnDemand",
+      "effective_time": "2026-10-25T07:00:00Z",
+      "currency_conversion_rate": 3.842550000000464,
+      "usage_unit": "GiBy.h",
+      "usage_unit_description": "gibibyte hour",
+      "base_unit_conversion_factor": 3865470566400,
+      "tiers": [
+        {
+          "start_usage_amount": 0,
+          "currency": "PLN",
+          "units": "0",
+          "nanos": 16661804,
+          "amount": 0.016661804
+        }
+      ]
+    },
+    {
+      "sku_id": "0A9E-DB15-955D",
+      "description": "C4 Instance Ram running in Netherlands",
+      "regions": [
+        "europe-west4"
+      ],
+      "resource_group": "RAM",
+      "usage_type": "OnDemand",
+      "effective_time": "2026-10-25T07:00:00Z",
+      "currency_conversion_rate": 3.842550000000464,
+      "usage_unit": "GiBy.h",
+      "usage_unit_description": "gibibyte hour",
+      "base_unit_conversion_factor": 3865470566400,
+      "tiers": [
+        {
+          "start_usage_amount": 0,
+          "currency": "PLN",
+          "units": "0",
+          "nanos": 15888559,
+          "amount": 0.015888559
+        }
+      ]
+    },
+    {
+      "sku_id": "137C-103E-F1D1",
+      "description": "C4D Instance Core running in Belgium",
+      "regions": [
+        "europe-west1"
+      ],
+      "resource_group": "CPU",
+      "usage_type": "OnDemand",
+      "effective_time": "2026-10-25T07:00:00Z",
+      "currency_conversion_rate": 3.842550000000464,
+      "usage_unit": "h",
+      "usage_unit_description": "hour",
+      "base_unit_conversion_factor": 3600,
+      "tiers": [
+        {
+          "start_usage_amount": 0,
+          "currency": "PLN",
+          "units": "0",
+          "nanos": 138369456,
+          "amount": 0.138369456
+        }
+      ]
+    },
+    {
+      "sku_id": "9C6F-4A1C-D159",
+      "description": "C4D Instance Core running in Netherlands",
+      "regions": [
+        "europe-west4"
+      ],
+      "resource_group": "CPU",
+      "usage_type": "OnDemand",
+      "effective_time": "2026-10-25T07:00:00Z",
+      "currency_conversion_rate": 3.842550000000464,
+      "usage_unit": "h",
+      "usage_unit_description": "hour",
+      "base_unit_conversion_factor": 3600,
+      "tiers": [
+        {
+          "start_usage_amount": 0,
+          "currency": "PLN",
+          "units": "0",
+          "nanos": 131948171,
+          "amount": 0.131948171
+        }
+      ]
+    },
+    {
+      "sku_id": "2EA3-55A8-64EE",
+      "description": "C4D Instance Ram running in Belgium",
+      "regions": [
+        "europe-west1"
+      ],
+      "resource_group": "RAM",
+      "usage_type": "OnDemand",
+      "effective_time": "2026-10-25T07:00:00Z",
+      "currency_conversion_rate": 3.842550000000464,
+      "usage_unit": "GBy.h",
+      "usage_unit_description": "gigabyte hour",
+      "base_unit_conversion_factor": 3600000000000,
+      "tiers": [
+        {
+          "start_usage_amount": 0,
+          "currency": "PLN",
+          "units": "0",
+          "nanos": 14789901,
+          "amount": 0.014789901
+        }
+      ]
+    },
+    {
+      "sku_id": "AC84-2275-9FB8",
+      "description": "C4D Instance Ram running in Netherlands",
+      "regions": [
+        "europe-west4"
+      ],
+      "resource_group": "RAM",
+      "usage_type": "OnDemand",
+      "effective_time": "2026-10-25T07:00:00Z",
+      "currency_conversion_rate": 3.842550000000464,
+      "usage_unit": "GBy.h",
+      "usage_unit_description": "gigabyte hour",
+      "base_unit_conversion_factor": 3600000000000,
+      "tiers": [
+        {
+          "start_usage_amount": 0,
+          "currency": "PLN",
+          "units": "0",
+          "nanos": 14103530,
+          "amount": 0.01410353
+        }
+      ]
+    },
+    {
+      "sku_id": "17EB-B2AD-C96D",
+      "description": "Hyperdisk Balanced Capacity Confidential Mode in Belgium",
+      "regions": [
+        "europe-west1"
+      ],
+      "resource_group": "SSD",
+      "usage_type": "OnDemand",
+      "effective_time": "2026-10-25T07:00:00Z",
+      "currency_conversion_rate": 3.842550000000464,
+      "usage_unit": "GiBy.mo",
+      "usage_unit_description": "gibibyte month",
+      "base_unit_conversion_factor": 2875910101401600.0,
+      "tiers": [
+        {
+          "start_usage_amount": 0,
+          "currency": "PLN",
+          "units": "0",
+          "nanos": 69165900,
+          "amount": 0.0691659
+        }
+      ]
+    },
+    {
+      "sku_id": "611D-CD23-823C",
+      "description": "Hyperdisk Balanced Capacity Confidential Mode in Netherlands",
+      "regions": [
+        "europe-west4"
+      ],
+      "resource_group": "SSD",
+      "usage_type": "OnDemand",
+      "effective_time": "2026-10-25T07:00:00Z",
+      "currency_conversion_rate": 3.842550000000464,
+      "usage_unit": "GiBy.mo",
+      "usage_unit_description": "gibibyte month",
+      "base_unit_conversion_factor": 2875910101401600.0,
+      "tiers": [
+        {
+          "start_usage_amount": 0,
+          "currency": "PLN",
+          "units": "0",
+          "nanos": 65323350,
+          "amount": 0.06532335
+        }
+      ]
+    },
+    {
+      "sku_id": "6A38-4AD7-FDB6",
+      "description": "Hyperdisk Balanced Capacity in Belgium",
+      "regions": [
+        "europe-west1"
+      ],
+      "resource_group": "SSD",
+      "usage_type": "OnDemand",
+      "effective_time": "2026-10-25T07:00:00Z",
+      "currency_conversion_rate": 3.842550000000464,
+      "usage_unit": "GiBy.mo",
+      "usage_unit_description": "gibibyte month",
+      "base_unit_conversion_factor": 2875910101401600.0,
+      "tiers": [
+        {
+          "start_usage_amount": 0,
+          "currency": "PLN",
+          "units": "0",
+          "nanos": 338144400,
+          "amount": 0.3381444
+        }
+      ]
+    },
+    {
+      "sku_id": "429B-C30E-15FB",
+      "description": "Hyperdisk Balanced Capacity in Netherlands",
+      "regions": [
+        "europe-west4"
+      ],
+      "resource_group": "SSD",
+      "usage_type": "OnDemand",
+      "effective_time": "2026-10-25T07:00:00Z",
+      "currency_conversion_rate": 3.842550000000464,
+      "usage_unit": "GiBy.mo",
+      "usage_unit_description": "gibibyte month",
+      "base_unit_conversion_factor": 2875910101401600.0,
+      "tiers": [
+        {
+          "start_usage_amount": 0,
+          "currency": "PLN",
+          "units": "0",
+          "nanos": 322774200,
+          "amount": 0.3227742
+        }
+      ]
+    },
+    {
+      "sku_id": "7529-E110-B311",
+      "description": "Hyperdisk Balanced IOPS Confidential Mode in Belgium",
+      "regions": [
+        "europe-west1"
+      ],
+      "resource_group": "SSD",
+      "usage_type": "OnDemand",
+      "effective_time": "2026-10-25T07:00:00Z",
+      "currency_conversion_rate": 3.842550000000464,
+      "usage_unit": "mo",
+      "usage_unit_description": "month",
+      "base_unit_conversion_factor": 2678400,
+      "tiers": [
+        {
+          "start_usage_amount": 0,
+          "currency": "PLN",
+          "units": "0",
+          "nanos": 3842550,
+          "amount": 0.00384255
+        }
+      ]
+    },
+    {
+      "sku_id": "72E9-A3ED-57AD",
+      "description": "Hyperdisk Balanced IOPS Confidential Mode in Netherlands",
+      "regions": [
+        "europe-west4"
+      ],
+      "resource_group": "SSD",
+      "usage_type": "OnDemand",
+      "effective_time": "2026-10-25T07:00:00Z",
+      "currency_conversion_rate": 3.842550000000464,
+      "usage_unit": "mo",
+      "usage_unit_description": "month",
+      "base_unit_conversion_factor": 2678400,
+      "tiers": [
+        {
+          "start_usage_amount": 0,
+          "currency": "PLN",
+          "units": "0",
+          "nanos": 3842550,
+          "amount": 0.00384255
+        }
+      ]
+    },
+    {
+      "sku_id": "3052-A9B4-AA44",
+      "description": "Hyperdisk Balanced IOPS in Belgium",
+      "regions": [
+        "europe-west1"
+      ],
+      "resource_group": "SSD",
+      "usage_type": "OnDemand",
+      "effective_time": "2026-10-25T07:00:00Z",
+      "currency_conversion_rate": 3.842550000000464,
+      "usage_unit": "mo",
+      "usage_unit_description": "month",
+      "base_unit_conversion_factor": 2678400,
+      "tiers": [
+        {
+          "start_usage_amount": 0,
+          "currency": "PLN",
+          "units": "0",
+          "nanos": 23055300,
+          "amount": 0.0230553
+        }
+      ]
+    },
+    {
+      "sku_id": "D461-1F2D-5DD1",
+      "description": "Hyperdisk Balanced IOPS in Netherlands",
+      "regions": [
+        "europe-west4"
+      ],
+      "resource_group": "SSD",
+      "usage_type": "OnDemand",
+      "effective_time": "2026-10-25T07:00:00Z",
+      "currency_conversion_rate": 3.842550000000464,
+      "usage_unit": "mo",
+      "usage_unit_description": "month",
+      "base_unit_conversion_factor": 2678400,
+      "tiers": [
+        {
+          "start_usage_amount": 0,
+          "currency": "PLN",
+          "units": "0",
+          "nanos": 19212750,
+          "amount": 0.01921275
+        }
+      ]
+    },
+    {
+      "sku_id": "D904-AC3C-C68C",
+      "description": "Hyperdisk Balanced Throughput Confidential Mode in Belgium",
+      "regions": [
+        "europe-west1"
+      ],
+      "resource_group": "SSD",
+      "usage_type": "OnDemand",
+      "effective_time": "2026-10-25T07:00:00Z",
+      "currency_conversion_rate": 3.842550000000464,
+      "usage_unit": "mo",
+      "usage_unit_description": "month",
+      "base_unit_conversion_factor": 2678400,
+      "tiers": [
+        {
+          "start_usage_amount": 0,
+          "currency": "PLN",
+          "units": "0",
+          "nanos": 34582950,
+          "amount": 0.03458295
+        }
+      ]
+    },
+    {
+      "sku_id": "CA4A-9F23-2D14",
+      "description": "Hyperdisk Balanced Throughput Confidential Mode in Netherlands",
+      "regions": [
+        "europe-west4"
+      ],
+      "resource_group": "SSD",
+      "usage_type": "OnDemand",
+      "effective_time": "2026-10-25T07:00:00Z",
+      "currency_conversion_rate": 3.842550000000464,
+      "usage_unit": "mo",
+      "usage_unit_description": "month",
+      "base_unit_conversion_factor": 2678400,
+      "tiers": [
+        {
+          "start_usage_amount": 0,
+          "currency": "PLN",
+          "units": "0",
+          "nanos": 30740400,
+          "amount": 0.0307404
+        }
+      ]
+    },
+    {
+      "sku_id": "59DD-B74D-53AA",
+      "description": "Hyperdisk Balanced Throughput in Belgium",
+      "regions": [
+        "europe-west1"
+      ],
+      "resource_group": "SSD",
+      "usage_type": "OnDemand",
+      "effective_time": "2026-10-25T07:00:00Z",
+      "currency_conversion_rate": 3.842550000000464,
+      "usage_unit": "mo",
+      "usage_unit_description": "month",
+      "base_unit_conversion_factor": 2678400,
+      "tiers": [
+        {
+          "start_usage_amount": 0,
+          "currency": "PLN",
+          "units": "0",
+          "nanos": 169072200,
+          "amount": 0.1690722
+        }
+      ]
+    },
+    {
+      "sku_id": "398A-C0EE-5BC2",
+      "description": "Hyperdisk Balanced Throughput in Netherlands",
+      "regions": [
+        "europe-west4"
+      ],
+      "resource_group": "SSD",
+      "usage_type": "OnDemand",
+      "effective_time": "2026-10-25T07:00:00Z",
+      "currency_conversion_rate": 3.842550000000464,
+      "usage_unit": "mo",
+      "usage_unit_description": "month",
+      "base_unit_conversion_factor": 2678400,
+      "tiers": [
+        {
+          "start_usage_amount": 0,
+          "currency": "PLN",
+          "units": "0",
+          "nanos": 161387100,
+          "amount": 0.1613871
+        }
+      ]
+    }
+  ],
+  "read_only": true
+}

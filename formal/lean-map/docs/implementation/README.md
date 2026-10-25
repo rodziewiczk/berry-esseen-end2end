@@ -1,4 +1,18 @@
-# First executable local pilot
+# Executable proof stages
+
+The `implementation/count-native-v1` branch adds genuine source-only
+construction and separate full native acceptance of the complete ordinary
+`n6.B0.p61` COUNT forest through the same CLI:
+
+```console
+be run examples/count-native/project.toml --resume
+```
+
+See the exact [COUNT runner contract](COUNT-RUNNER.md), [source and mathematical
+scope](COUNT-NATIVE-PLAN.md), [whole-proof gap ledger](END-TO-END-GAP-LEDGER.md)
+and [parallel execution review](CONCURRENCY-REVIEW.md). This prints only
+`SCOPED_COUNT_PASS`; the full theorem has not yet passed. The original small
+exact Farkas workflow below remains available.
 
 The `implementation/local-pilot-v1` branch implements one complete local
 workflow: freeze input/source/environment, produce a certificate in one

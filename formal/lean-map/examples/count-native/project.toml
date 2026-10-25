@@ -1,0 +1,13 @@
+schema_version = "be.count-native/1"
+kind = "ordinary-count-source-replay"
+state_dir = ".be-count-native"
+
+[limits]
+wall_seconds = 300
+campaign_wall_seconds = 1800
+cpu_seconds = 300
+memory_bytes = 536870912
+log_bytes = 1048576
+lease_seconds = 30
+heartbeat_seconds = 5
+maximum_attempts = 3

@@ -2,59 +2,57 @@
 
 Authors: Kacper Rodziewicz and Bartosz Kołodziejek.
 
-## Executable local pilot v0.1
+## Fresh complete COUNT and durable local CLI
 
-The first complete local path is implemented on `implementation/local-pilot-v1`:
-source-bound input -> producer subprocess -> independent exact checker ->
-immutable cache and fenced SQLite completion -> scoped report and resume.
+Branch `implementation/count-native-v1` implements source-only construction,
+separate full native acceptance and authenticated durable resume for the
+complete ordinary `n6.B0.p61` forest. The original exact Farkas pilot remains
+available. Both retain `full_proof_pass=false`; the full theorem is in progress.
 
 ```mermaid
 flowchart LR
-  CLI[One CLI] --> F[Frozen context and profile]
-  F --> P[Producer]
-  P --> C[Farkas candidate]
-  C --> V[Independent exact verifier]
+  CLI[One CLI] --> F[Frozen statement and source/runtime]
+  F --> P[Fresh source-only constructor]
+  P --> C[Complete untrusted COUNT forest]
+  C --> V[Separate full native replay and 24 controls]
   F --> V
-  V --> R[PILOT_PASS or PILOT_NO_PASS]
-  S[(CAS + SQLite)] -->|checked resume| V
-  P --> S
-  V --> S
+  V --> R[Conditional SCOPED_COUNT_PASS]
+  V --> S[(Immutable CAS and fenced ledger)]
+  S --> A[Authenticated exact resume]
+  A --> R
 ```
-
-[Install and run](formal/lean-map/docs/implementation/README.md) ·
-[Exact pilot mathematics](formal/lean-map/docs/implementation/LOCAL-PILOT-SPEC.md) ·
-[Adversarial implementation audit](formal/lean-map/docs/implementation/LOCAL-PILOT-AUDIT.md) ·
-[Recorded local checks](formal/lean-map/verification/local-pilot-check.json)
 
 After installing the local package from `formal/lean-map` with CPython 3.12:
 
-```text
-be run examples/local-pilot/project.toml --resume
+```console
+be run examples/count-native/project.toml --resume
 ```
 
-The supported rule is the exact zero-conditional-variance joint-cubic
-specialization. The inconsistent p=1/4, rho=1 context gives `PILOT_PASS`;
-the Bernoulli equality and wide-rho controls give `PILOT_NO_PASS`. Repeating
-the command reuses checked results without launching new producer/verifier
-attempts. The report always retains `full_proof_pass=false`.
+[Install and run](formal/lean-map/docs/implementation/README.md) ·
+[Exact COUNT scope and sources](formal/lean-map/docs/implementation/COUNT-NATIVE-PLAN.md) ·
+[Runner and trust boundary](formal/lean-map/docs/implementation/COUNT-RUNNER.md) ·
+[Independent audit](formal/lean-map/docs/implementation/COUNT-RUNNER-AUDIT.md) ·
+[Actual CLI evidence](formal/lean-map/verification/count-native-check.json)
 
-This is a real limited implementation. Full COUNT forests, all proof families,
-cloud execution and the whole Berry–Esseen theorem remain separate milestones.
-No paid cloud resources were launched for this local slice.
+The source capsule excludes historical forests and acceptance receipts.
+All seven count roots, closed split seams and original leaf boxes are checked.
+Same-law parent acquisitions and all-law C6 are separate obligations. The
+working Linux pilot is also recorded; no cloud or whole-proof PASS follows
+from the local report. The current whole-proof frontier is explicit in the
+[evidence gap ledger](formal/lean-map/docs/implementation/END-TO-END-GAP-LEDGER.md).
 
-## Execution architecture and mathematical interfaces
+## Mathematical interfaces and execution architecture
 
-[Architecture specification and graph](formal/lean-map/docs/architecture/README.md) ·
-[Full mathematical proof graph](formal/lean-map/assets/proof-map.svg) ·
-[Detailed mathematical interface graph](formal/lean-map/assets/interface-map.svg) ·
+[Mathematical proof graph](formal/lean-map/assets/proof-map.svg) ·
+[Detailed interface graph](formal/lean-map/assets/interface-map.svg) ·
+[Execution specification](formal/lean-map/docs/architecture/README.md) ·
+[Parallelism review](formal/lean-map/docs/implementation/CONCURRENCY-REVIEW.md) ·
 [Current plan](formal/lean-map/docs/plan.md)
 
-The architecture specifies one full-proof CLI, parallel CPU execution,
-source-bound cache, accepted analytic premises, complete coverage and the
-Google Cloud budget/shutdown policy. The executable pilot implements its
-first scoped vertical slice. The 29 Lean sources and their previously checked
-conditional assembly remain unchanged; no new numerical Lean decoder or
-unconditional theorem is claimed.
+The29 checked Lean sources retain their conditional analytic premises. Source
+replay is an explicit numerical trust profile; it is not a Lean proof of the
+interval kernel. Final theorem acceptance requires all fresh providers, exact
+coverage, same-law resources and finite/tail composition.
 
 
 ---

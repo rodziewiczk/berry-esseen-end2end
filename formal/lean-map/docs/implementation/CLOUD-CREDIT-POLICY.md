@@ -4,11 +4,13 @@ Read-only research checkpoint, 25 October 2026. No account identifiers,
 payment details, resource activation or billing/API changes are included.
 This note does not assert that the configured account is currently a trial.
 
-Read-only UI follow-up: opening Billing in the in-app browser redirected to
-Google's account chooser. No account was selected and no login/2FA was
-automated. Billing Overview and Credits were therefore not visible. The
-actual account mode, balance, expiry and eligible scope remain unverified;
-the browser tab was left for the user to authenticate manually.
+Funding update: on 25 October 2026 the user explicitly attested that about
+1000 PLN of promotional credit remains, valid until January 2027, and
+authorized autonomous CLI configuration and ordinary compute activation
+within those credits. This attestation is the funding source; it is not a
+claim that a CLI or browser read independently established the balance.
+Further login/screenshots are not a prerequisite. Account mode and exact
+grant/SKU terms have not been independently read from Billing Overview.
 
 ## Current authorization
 
@@ -17,14 +19,21 @@ The user's latest instruction replaces the earlier 75 + 550 PLN model:
 * Maximum authorized consumption of existing promotional credits: **1000 PLN**
   (100000 grosz), including setup, compute, retries, ancillary services,
   cleanup and funded retention.
-* Authorized cash/card expenditure: **0 PLN**. The reported roughly 1100 PLN
-  balance and roughly 100 PLN reserve are not independently verified balances
-  or an additional spending allowance.
-* No upgrade to paid billing, purchase, payment-method change or cloud resource
-  creation is authorized by this research task.
+* Authorized cash/card expenditure: **0 PLN**. The latest declared balance is
+  approximately 1000 PLN, not the earlier rough 1100 PLN estimate.
+* The overnight allocation is **300 PLN planned**, with a separate conservative
+  **350 PLN ceiling including setup, run, retries, cleanup and funded retention**.
+  Reserve outstanding charges and enforce this smaller allocation before
+  dispatch; the remaining declared credit is a substantial safety margin, not
+  an instruction to spend it automatically.
+* Ordinary qualified VM CPU/RAM, disks and networking already used by this
+  project may be configured/activated through the CLI after runtime and stop
+  readiness. No billing upgrade, new payment commitment or cash fallback is
+  authorized. The current supervisor development itself activates no cloud VM.
 
-The previous cloud example policy is historical planning, not an authorization
-to deploy. The implemented local pilot does not activate Google Cloud.
+The previous 75/550 PLN cloud example policy is historical planning and must
+not silently replace this credit-only allocation. The implemented local pilot
+does not activate Google Cloud.
 
 ## The decisive distinction
 
@@ -49,32 +58,40 @@ open/currency/identity information, not a trial-status or remaining-credit
 field. Do not invent such a field in a `gcloud` check.
 [BillingAccount API](https://docs.cloud.google.com/billing/docs/reference/rest/v1/billingAccounts).
 
-**Activation decision:** for a verified, non-upgraded, nonbillable Free Trial,
-Google's documented no-billing rule supplies the relevant provider-side
-protection, subject to that program's coverage and restrictions. For a Paid
-account with promotional credit, a trial-like zero-cash guarantee is not
-established. With the account type still unknown, cloud activation remains
-blocked. A software estimate/watchdog cannot replace this missing protection.
+**Activation decision:** a verified, non-upgraded, nonbillable Free Trial has
+Google's documented no-billing protection, subject to its coverage and
+restrictions. A Paid account can still use eligible promotional credits, but
+does not inherit that trial protection. The user's credit-only authorization
+therefore uses the user's explicit funding attestation, ordinary already used
+eligible service classes, a conservative allocation covering outstanding and
+maximum admitted liabilities, and an independent shutdown mechanism. It does
+not authorize cash fallback. Unknown credit scope for a new service blocks
+that service, not all previously authorized ordinary compute. An absolute
+invoice guarantee during a provider outage is not an implementable preflight
+test. Runtime/source qualification and tested shutdown remain concrete gates.
 
-## Read-only evidence required before any cloud activation
+## Funding provenance and practical activation checks
 
-1. In the correct linked billing account, inspect Overview and record its
-   mode, observation time and billing currency privately. Confirm no upgrade
-   is being proposed or performed. A credit banner alone is insufficient.
-2. Inspect Billing **Credits**. For each usable grant, record exact remaining
-   amount/currency, available status, start/end dates and service/SKU scope.
-   Do not confuse promotional credit with discounts or the month's total
-   savings. [Official credit inventory instructions](https://docs.cloud.google.com/billing/docs/how-to/resolve-issues).
+1. Record the 25 October user attestation and approximate January 2027 expiry.
+   Use real CLI usage/cost fields where available, without inventing a remaining
+   credit API field or repeatedly requiring UI authentication. No upgrade is
+   proposed or performed. Billing mode remains independently unknown.
+2. If accessible, read Billing **Credits** to refine remaining amount/currency,
+   status, expiry and service/SKU scope. This is useful additional evidence,
+   not a new login requirement overriding the user's attestation. Never confuse
+   promotional credit with discounts or the month's total savings.
+   [Official credit inventory instructions](https://docs.cloud.google.com/billing/docs/how-to/resolve-issues).
 3. Resolve every intended cost line against those grant scopes: VM CPU/RAM,
    disks, network, GCS data/operations, Batch's underlying resources,
    Firestore, Cloud Run, registry/build, Scheduler and observability. Mark
-   each line eligible, independently free, or unsupported. Unknown or uncovered
-   lines block activation while cash authorization is zero.
+   each line covered by the declared ordinary-service allocation, independently
+   free, or unsupported. A new unknown/uncovered service is not admitted.
+   The initial bounded pilot need not activate every service in this list.
 4. Bound already incurred but unreported costs, other projects sharing the
    billing account, and residual disks/storage from stopped resources. The
    earlier preflight did not audit those residual charges. Do not spend the
    same balance in two independent schedulers.
-5. Freeze a conservative eligible-credit allocation, current SKU/currency
+5. Freeze the conservative 350 PLN overnight allocation, current SKU/currency
    quote and absolute shutdown policy. Credit expiry must cover admitted
    lifetimes and retention; export evidence before trial closure could stop
    access or remove resources. All setup costs consume this same 1000 PLN cap.
@@ -102,13 +119,19 @@ An operational admission check must conservatively reserve all eligible cost
 liabilities before submission, retain unknown create/cancel liabilities, and
 stop admission well before the credit/time boundary. It may spend at most
 the lesser of 1000 PLN and the conservatively available eligible allocation
-after other liabilities and the required reserve. It must not automatically
+after other liabilities and the required reserve, and at most the separately
+admitted 350 PLN overnight ceiling. It must not automatically
 increase this limit, transfer a previous budget, upgrade billing or fall back
 to a paid service when credits are insufficient.
 
 These controls reduce credit consumption risk; on a Paid account they do not
 prove a zero invoice under delayed charges, exclusions or provider-control
 outages. Removing/limiting a card is not evidence that usage cannot create a
-payable liability. If provider-side nonbillable status or equivalent verified
-protection cannot be established, continue locally and keep cloud activation
-disabled under the user's 0 PLN cash instruction.
+payable liability. Do not replace the concrete credit and liability checks with
+an impossible demand for a provider-outage guarantee. Fail closed when the
+declared eligible allocation cannot cover conservative liabilities plus the
+reserved margin, when a line is uncovered, or when the declared funding expires
+before the admitted liability horizon. Do not treat missing independent UI
+balance verification as rejection of the user's funding attestation. Continue
+locally for unsupported work. The authorized cash amount remains
+0 PLN even if an operational estimate later proves inaccurate.

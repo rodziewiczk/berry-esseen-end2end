@@ -11,6 +11,7 @@ build/
 dist/
 .test_tmp/
 .be-local-pilot/
+.be-count-native/
 work/
 
 # Keep the small, source-bound verification records in the companion branch too.

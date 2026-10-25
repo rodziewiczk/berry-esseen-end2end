@@ -12,3 +12,8 @@
 schemas/architecture/*.schema.json -text whitespace=trailing-space,space-before-tab,cr-at-eol
 examples/architecture/**/*.json -text
 examples/architecture/*.json -text
+# Native source capsules and parser controls retain their original pinned bytes.
+vendor/count_native_n6_b0_p61/** -text -whitespace
+tests/fixtures/count_native/** -text -whitespace
+# These are original native output bytes referenced by complete byte digests.
+verification/count-native-evidence/** -text -whitespace

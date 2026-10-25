@@ -1,0 +1,173 @@
+{
+  "scope": "sanitized read-only Cloud Quotas, Compute catalog/inventory, public Catalog API",
+  "observed_date": "2026-10-25",
+  "resource_mutations": false,
+  "billing_or_api_mutations": false,
+  "project_identity": "redacted",
+  "global_vcpu_limit": "100",
+  "four_family_buckets": [
+    {
+      "region": "europe-west4",
+      "family": "C4D",
+      "limit_vcpus": "24",
+      "planned_vcpus": "24",
+      "planned_memory_gib": "93",
+      "cpu_sku": "9C6F-4A1C-D159",
+      "memory_sku": "AC84-2275-9FB8",
+      "memory_billing_unit": "GBy.h",
+      "memory_billing_quantity": "99.857989632",
+      "compute_pln_per_hour": "4.57510625651460096"
+    },
+    {
+      "region": "europe-west4",
+      "family": "C4",
+      "limit_vcpus": "24",
+      "planned_vcpus": "24",
+      "planned_memory_gib": "90",
+      "cpu_sku": "3428-6D6A-AE85",
+      "memory_sku": "0A9E-DB15-955D",
+      "memory_billing_unit": "GiBy.h",
+      "memory_billing_quantity": "90",
+      "compute_pln_per_hour": "4.785208110"
+    },
+    {
+      "region": "europe-west1",
+      "family": "C4D",
+      "limit_vcpus": "24",
+      "planned_vcpus": "24",
+      "planned_memory_gib": "93",
+      "cpu_sku": "137C-103E-F1D1",
+      "memory_sku": "2EA3-55A8-64EE",
+      "memory_billing_unit": "GBy.h",
+      "memory_billing_quantity": "99.857989632",
+      "compute_pln_per_hour": "4.797756724716306432"
+    },
+    {
+      "region": "europe-west1",
+      "family": "C4",
+      "limit_vcpus": "24",
+      "planned_vcpus": "24",
+      "planned_memory_gib": "90",
+      "cpu_sku": "89B2-FF91-3836",
+      "memory_sku": "30AA-05BC-7BC4",
+      "memory_billing_unit": "GiBy.h",
+      "memory_billing_quantity": "90",
+      "compute_pln_per_hour": "5.018088864"
+    }
+  ],
+  "standard_region_cpu_limits": {
+    "europe_west4": "200",
+    "europe_west1": "200"
+  },
+  "spot_region_cpu_limits": {
+    "europe_west4": "0",
+    "europe_west1": "0"
+  },
+  "machine_catalog": {
+    "west4_zones": [
+      "europe-west4-a",
+      "europe-west4-b",
+      "europe-west4-c"
+    ],
+    "west1_zones": [
+      "europe-west1-b",
+      "europe-west1-c",
+      "europe-west1-d"
+    ],
+    "types": [
+      "c4d-standard-8",
+      "c4d-standard-16",
+      "c4-standard-8",
+      "c4-standard-16",
+      "c4-standard-24"
+    ],
+    "capacity_reservation": false
+  },
+  "existing_vm": {
+    "identity": "redacted",
+    "zone": "europe-west4-a",
+    "machine": "c4d-standard-16",
+    "status": "TERMINATED",
+    "external_ipv4": false,
+    "external_ipv6": false,
+    "automatic_restart": false,
+    "termination_time": "2026-10-26T13:00:51Z",
+    "source_image": "ubuntu-2404-noble-amd64-v20261024",
+    "runtime_qualified": false
+  },
+  "existing_disk": {
+    "identity": "redacted",
+    "size_gib": "250",
+    "type": "hyperdisk-balanced",
+    "state": "READY",
+    "attached": true,
+    "provisioned_iops": "3000",
+    "provisioned_throughput_mib_s": "140",
+    "capacity_pln_per_744h": "80.6935500"
+  },
+  "existing_network": {
+    "router_region": "europe-west4",
+    "nat_count": "1",
+    "nat_allocation_mode": "AUTO_ONLY",
+    "nat_subnet_selection": "LIST_OF_SUBNETWORKS",
+    "iap_tcp_ssh_rule": true,
+    "public_nat_ip_count": "unverified",
+    "west1_nat_exists": false
+  },
+  "proposed_allocation": {
+    "per_region": [
+      "c4d-standard-16",
+      "c4d-standard-8",
+      "c4-standard-24"
+    ],
+    "nodes": "6",
+    "vcpus": "96",
+    "memory_gib": "366",
+    "reserved_vcpus_per_node": "1",
+    "cpu_bound_worker_slot_upper_bound": "90",
+    "memory_and_io_can_reduce_slots": true
+  },
+  "public_list_estimate": {
+    "currency": "PLN",
+    "catalog_effective_time": "2026-10-25T07:00:00Z",
+    "catalog_usd_conversion_rate": "3.84255",
+    "compute_pln_h": "19.176159955230907392",
+    "compute_12h_pln": "230.113919462770888704",
+    "hypothetical_disks": "one existing 250 GiB disk plus five new 64 GiB disks; no excess IOPS or throughput",
+    "disk_capacity_pln_h": "0.2512531887096774193548387096",
+    "hypothetical_nat": "six assigned VMs plus two NAT IPv4 addresses; USD page converted by catalog FX, not a verified PLN NAT SKU",
+    "nat_fixed_pln_h": "0.070702920",
+    "fixed_subtotal_pln_h": "19.498116063940584811354838710",
+    "complete_all_in_quote": false,
+    "not_in_fixed_subtotal": [
+      "NAT processed GiB",
+      "cross-region and internet egress",
+      "storage and operations",
+      "controller and watchdog",
+      "logging and monitoring",
+      "build and registry",
+      "overlap, retries and startup",
+      "tax and credit scope",
+      "funded retention"
+    ]
+  },
+  "credit_evidence": {
+    "account_mode": "not independently read",
+    "funding_basis": "explicit user attestation on25October2026",
+    "declared_remaining_credit_pln": "approximately1000",
+    "declared_expiry": "January2027",
+    "exact_balance_cli_verified": false,
+    "authorized_credit_consumption_pln": "1000",
+    "overnight_planned_pln": "300",
+    "overnight_ceiling_including_setup_pln": "350",
+    "single_vm_pilot_reservation_within_overnight_ceiling_pln": "20",
+    "authorized_cash_pln": "0"
+  },
+  "limitations": [
+    "Catalog availability is not allocatable capacity.",
+    "Current SKU rates are public list rates, not an account-specific contract or an invoice guarantee.",
+    "Existing VM must be explicitly adopted and runtime-qualified before reuse.",
+    "The existing terminationTime is later than the manuscript target and is not a suitable campaign deadline.",
+    "No provider create, VM start, quota change, API enablement, IAM change or billing change was performed."
+  ]
+}

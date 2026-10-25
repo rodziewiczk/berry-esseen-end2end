@@ -1,0 +1,278 @@
+{
+  "actual_cli_exit_codes": [
+    0,
+    0
+  ],
+  "actual_cli_reports": [
+    {
+      "all_index_conclusion_verified": false,
+      "all_law_C6_verified": false,
+      "artifact_kind": "run_report",
+      "attempts_total": "2",
+      "authorized_local_readback": true,
+      "campaign_id": "campaign:48743b16-d958-4640-98b5-beec84b14ad2",
+      "candidate_ref": {
+        "bytes_digest": "sha256:8c6166863130d1580ab468cfb53d290ae09538219d9a1c843095203ced8278b0",
+        "format_id": "be.count-native/whole-native-forest/1",
+        "media_type": "application/json",
+        "size_bytes": "9458"
+      },
+      "census": {
+        "closed_statuses": {
+          "EMPTY_PHASE": "6",
+          "PASS_TARGET": "3"
+        },
+        "leaves": "9",
+        "maximum_depth": "1",
+        "nodes": "11",
+        "roots": "7"
+      },
+      "frozen_digest": "sha256:4fb3399c6d496c4a46703bc23cb0d4a8815b370e23d33dea9b94cab449fb9c7c",
+      "full_proof_pass": false,
+      "native_runtime_digest": "b167ba028565d84d90a1ac2ae03480bd3d5a0be4183e45d8087bc3edfbae1f39",
+      "paid_activation": false,
+      "parent_acquisitions_verified": false,
+      "producer_cache_hit": false,
+      "producer_receipt_ref": {
+        "bytes_digest": "sha256:48bcce772662af8d3b1577569d1e559ae633ffaa0a45adc4daef099c9b9be554",
+        "format_id": "be.count-native/authenticated-stage-receipt/1",
+        "media_type": "application/json",
+        "size_bytes": "1938"
+      },
+      "receipt_ref": {
+        "bytes_digest": "sha256:427430fc4e247f1b7f890e8b9b36de003b9f4aae740614cf54dd82df02e9ff35",
+        "format_id": "be.count-native/authenticated-stage-receipt/1",
+        "media_type": "application/json",
+        "size_bytes": "2125"
+      },
+      "run_id": "run:95d26fe0-16d2-4243-9cde-c4c7c43d3a5f",
+      "schema_version": "be.count-native/1",
+      "source_epoch_digest": "c945837d6696b680226951cfcb49d4aea82becffcf8248b9e00e56bf70d0d8ce",
+      "statement": {
+        "all_index_conclusion": false,
+        "all_law_C6": false,
+        "axes": [
+          "p",
+          "lambda=n*noiseVariance",
+          "alpha",
+          "u",
+          "a0"
+        ],
+        "conclusion": "conditional-positive-closed-point-score-below-target",
+        "contract_sha256": "4f1627bad19c93fca6ee95700c578217fc4fa2df88441fe81faaa651681dfd4f",
+        "job_id": "n6.B0.p61",
+        "n": "6",
+        "orientation": "literal-positive-class-no-reflection",
+        "phase": [
+          "-1/2",
+          "1/2"
+        ],
+        "probability": [
+          "61/100",
+          "31/50"
+        ],
+        "relation": "strict",
+        "roots": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "same_law_resource_acquisition": "required-external-not-established",
+        "score": "sqrt(6)/rho*(CDF(sum6,H)-Phi(H/sqrt(6)))",
+        "source_epoch_digest": "c945837d6696b680226951cfcb49d4aea82becffcf8248b9e00e56bf70d0d8ce",
+        "target": "76824784444199314310731654405729617052063596250011448874609/187500000000000000000000000000000000000000000000000000000000"
+      },
+      "statement_digest": "d649c7febfc835b3b7e1489e4aa9efaf19eb4c7604bd3c2a9e2be87f80ef5e79",
+      "status": "SCOPED_COUNT_PASS",
+      "trust_profile": "native-python-source-replay-conditional-v1",
+      "verifier_cache_hit": false
+    },
+    {
+      "all_index_conclusion_verified": false,
+      "all_law_C6_verified": false,
+      "artifact_kind": "run_report",
+      "attempts_total": "2",
+      "authorized_local_readback": true,
+      "campaign_id": "campaign:48743b16-d958-4640-98b5-beec84b14ad2",
+      "candidate_ref": {
+        "bytes_digest": "sha256:8c6166863130d1580ab468cfb53d290ae09538219d9a1c843095203ced8278b0",
+        "format_id": "be.count-native/whole-native-forest/1",
+        "media_type": "application/json",
+        "size_bytes": "9458"
+      },
+      "census": {
+        "closed_statuses": {
+          "EMPTY_PHASE": "6",
+          "PASS_TARGET": "3"
+        },
+        "leaves": "9",
+        "maximum_depth": "1",
+        "nodes": "11",
+        "roots": "7"
+      },
+      "frozen_digest": "sha256:4fb3399c6d496c4a46703bc23cb0d4a8815b370e23d33dea9b94cab449fb9c7c",
+      "full_proof_pass": false,
+      "native_runtime_digest": "b167ba028565d84d90a1ac2ae03480bd3d5a0be4183e45d8087bc3edfbae1f39",
+      "paid_activation": false,
+      "parent_acquisitions_verified": false,
+      "producer_cache_hit": true,
+      "producer_receipt_ref": {
+        "bytes_digest": "sha256:48bcce772662af8d3b1577569d1e559ae633ffaa0a45adc4daef099c9b9be554",
+        "format_id": "be.count-native/authenticated-stage-receipt/1",
+        "media_type": "application/json",
+        "size_bytes": "1938"
+      },
+      "receipt_ref": {
+        "bytes_digest": "sha256:427430fc4e247f1b7f890e8b9b36de003b9f4aae740614cf54dd82df02e9ff35",
+        "format_id": "be.count-native/authenticated-stage-receipt/1",
+        "media_type": "application/json",
+        "size_bytes": "2125"
+      },
+      "run_id": "run:3838b660-ec5a-4fe7-b992-1c4427467528",
+      "schema_version": "be.count-native/1",
+      "source_epoch_digest": "c945837d6696b680226951cfcb49d4aea82becffcf8248b9e00e56bf70d0d8ce",
+      "statement": {
+        "all_index_conclusion": false,
+        "all_law_C6": false,
+        "axes": [
+          "p",
+          "lambda=n*noiseVariance",
+          "alpha",
+          "u",
+          "a0"
+        ],
+        "conclusion": "conditional-positive-closed-point-score-below-target",
+        "contract_sha256": "4f1627bad19c93fca6ee95700c578217fc4fa2df88441fe81faaa651681dfd4f",
+        "job_id": "n6.B0.p61",
+        "n": "6",
+        "orientation": "literal-positive-class-no-reflection",
+        "phase": [
+          "-1/2",
+          "1/2"
+        ],
+        "probability": [
+          "61/100",
+          "31/50"
+        ],
+        "relation": "strict",
+        "roots": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "same_law_resource_acquisition": "required-external-not-established",
+        "score": "sqrt(6)/rho*(CDF(sum6,H)-Phi(H/sqrt(6)))",
+        "source_epoch_digest": "c945837d6696b680226951cfcb49d4aea82becffcf8248b9e00e56bf70d0d8ce",
+        "target": "76824784444199314310731654405729617052063596250011448874609/187500000000000000000000000000000000000000000000000000000000"
+      },
+      "statement_digest": "d649c7febfc835b3b7e1489e4aa9efaf19eb4c7604bd3c2a9e2be87f80ef5e79",
+      "status": "SCOPED_COUNT_PASS",
+      "trust_profile": "native-python-source-replay-conditional-v1",
+      "verifier_cache_hit": true
+    }
+  ],
+  "all_law_C6_verified": false,
+  "checked_at": "2026-10-25T20:36:00.987880+00:00",
+  "checks": [
+    {
+      "passed": true,
+      "suite": "codec",
+      "tests": 4
+    },
+    {
+      "passed": true,
+      "suite": "semantic",
+      "tests": 16
+    },
+    {
+      "passed": true,
+      "suite": "runtime",
+      "tests": 11
+    },
+    {
+      "passed": true,
+      "suite": "legacy_adversarial",
+      "tests": 24
+    },
+    {
+      "passed": true,
+      "suite": "recovery",
+      "tests": 3
+    },
+    {
+      "passed": true,
+      "suite": "authority",
+      "tests": 3
+    },
+    {
+      "passed": true,
+      "reported_by": "mathematical_implementer",
+      "suite": "native_adapter",
+      "tests": 13
+    },
+    {
+      "passed": true,
+      "reported_by": "runtime_implementer",
+      "suite": "supervisor_windows",
+      "tests": 13
+    },
+    {
+      "passed": true,
+      "seconds": 148.381,
+      "suite": "count_runner_integration",
+      "tests": 2
+    },
+    {
+      "baseline_adapter_sha256": "557d775ef4565d5d9846f5fcdb7bf0e1304a55cdaab520a468413ebf7ec4645c",
+      "passed": true,
+      "seconds": 179.996,
+      "suite": "independent_cache_adversarial",
+      "tests": 12
+    }
+  ],
+  "evidence_note": "Exported forest and native receipt are untrusted inputs for independent source replay. Local HMAC keys are private operational state and are not exported.",
+  "full_proof_pass": false,
+  "parent_acquisitions_verified": false,
+  "runtime_2_update": "Separate source audit, final actual CLI cold/resume and Linux link/pilot evidence; prior HMAC matrix was not falsely rerun.",
+  "scope": "one complete conditional ordinary n6.B0.p61 forest",
+  "source_sha256": {
+    "examples/count-native/project.toml": "3de787617a19574277dcb111dc6c0caeca01f740c53ab6ed3925d2cf5245b956",
+    "src/be/__init__.py": "0d3559479093a58ea996eb2bc2ebde2bbd1ff023a7b5d59279f28d77a0f69abd",
+    "src/be/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "src/be/authority.py": "a4656bd2376efa073faa576c904d0af87ad202f5538b76a25a43128d6319a585",
+    "src/be/cli.py": "a2c2418d54c4dae14fdb4ed50ce340caeb08647a324dcb8a48cd1c61c0304cd1",
+    "src/be/codec.py": "999d3080554f9028fe7487c753a3bec881d472986022f4cd47febd264b31c50f",
+    "src/be/count_native.py": "581d23ab462b8d198519591278ae785f71bb3270db5f89f62ef98524c0874205",
+    "src/be/count_runner.py": "60cc5ecb0f9042bfd47a6a4e4931a2edfcb127b0e9d94a152490c6189d8e33eb",
+    "src/be/errors.py": "9e3e7c68654f0e9f1aedba57fd23fa48e8022e111463b78dfe539db0cdf0ce7a",
+    "src/be/exec_guard.py": "5298e4459a5d0f954a3d570d550bf880791217b48dcf60f4a4cc2701419e7573",
+    "src/be/ledger.py": "904e693641b2a3168fe76935a42d2fcf7005d176eec017e9e56af0b59c206b92",
+    "src/be/producer.py": "a3bf0c9ca215097fd83d4dcf2e20f7de854d947cdd42e75ff1a2e7b31dc4c5b6",
+    "src/be/runner.py": "3332ff2344537547b725aa1373daa3cfc9af49f1c712de10f7412d5e9f83a42f",
+    "src/be/schema.py": "afe82869a8eb758e5747ec00862abad0cd87fe4ffccde028a0b23d7af88148d0",
+    "src/be/semantic.py": "541fa9a42e53236bf14cdae4b338fdfe7198a2d786147615c408a1de3b3defc2",
+    "src/be/store.py": "1cfe7cbf25ffaf46399c92fe4867adc9ea90c4dc65de23ec8c2247d3ee9b4810",
+    "src/be/supervisor.py": "edbdce1354dc0265df11f6f65d8c4c45f7b176d317bb906b6ce8d038c4132b27",
+    "src/be/worker.py": "d1d9329e860d5b2de5f89ef540bc0ba40c4cab2329a641509fad83cdf7adae2d",
+    "tests/test_adversarial.py": "0dcebe384c29a444e2beefc38e033898161ef7fac7f639f628022bbfeb89cd85",
+    "tests/test_authority.py": "f86c328d48ab9809108619b961c9cb7ad104f2d2af68a275a1ed1ea73dd85138",
+    "tests/test_codec.py": "d7ad349926f8e705a8d95db11c7633ce37177172aa0d3885b8f85ca23525a02f",
+    "tests/test_count_native.py": "7b0486e575f649438a9d8e562cdffff0fa88235a69ce7fcfe8ce7a194228bcd5",
+    "tests/test_count_runner.py": "6930d9aa19b5aab4e1b47842578a77c8e798f341c62ef696871c050aa747a9a0",
+    "tests/test_count_runner_adversarial.py": "4cb5e8204e4c751f40a0ccc66bed04b0cfd0581625bf0436f37654168b434014",
+    "tests/test_recovery.py": "7b1c26673fb7204ae1bbf4b23e0f31e9236431372ff208998630086915cab8f7",
+    "tests/test_runtime.py": "68effcbf124e0bba556ce8e79c7d95353baeeb7d0bcfcdbf33ea6c1d6d534618",
+    "tests/test_runtime_links.py": "8b2d5363fa3e5bebe5e4da234099dc9fe803e899370be106f6ede6ecbc5f127d",
+    "tests/test_semantic.py": "12f9af1faa5eb21633ba97734134dcd694abbe763434af61fcfd5db3eaedcc71",
+    "tests/test_supervisor.py": "0f5476007a7f6f1233022d249495bd41bedb9565dd26cfe64ac6a8b81ecdeb84",
+    "vendor/count_native_n6_b0_p61/capsule-manifest.json": "194a1bd4a2a0f1dfbd6227c67c37f253048e8f4e643e59db55c4166431aa2c95"
+  }
+}

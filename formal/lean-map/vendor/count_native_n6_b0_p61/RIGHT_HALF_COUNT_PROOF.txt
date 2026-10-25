@@ -1,0 +1,116 @@
+Literal-probability conditional count kernel, version1
+====================================================
+This new package extends the examined generalized kernel to 0<pl<=pu<1,
+including the seam p=1/2. It supplies conditional cell bounds only. It is
+neither resource acquisition nor a full forest constructor/acceptor. Original
+sources are preserved in original/ and SOURCE_TRANSFORM.json lists every
+literal edit and their input/output hashes. The original source capsule and
+all accepted artifacts are unchanged. Existing half-gap, moment-polytope and
+sign-conditioned analytic premises remain explicit; this note only replaces
+the left-half probability restriction and disables unused legacy APIs.
+
+Probability and variance
+------------------------
+v(p)=p(1-p) is concave with sole stationary point1/2. Therefore its exact
+range on[pl,pu] is
+ vl=min(pl*(1-pl),pu*(1-pu)),
+ vh=1/4 if pl<=1/2<=pu, otherwise max(pl*(1-pl),pu*(1-pu)).
+The new pure exact helper checks rational ordered arguments in(0,1). Every
+active use of endpoint-ordered vl/vh, scalar lower v, and interval v in the
+examined source family now calls this helper. All untouched p,q endpoint
+coefficients keep their original meanings. In particular no p->1-p, k->n-k,
+beta->-beta or exchange of positive/negative resources occurs. The helper is
+identical to the old variance pair on every original left-half interval.
+It gives positive vl, so all retained positive interval divisions remain
+valid, including a point or closed cell at the seam. Independent phase and
+inward-sum half constants are unchanged.
+
+Moment enclosures and floors
+----------------------------
+Because 0<vl<=v<=vh<=1/4, f(v)=v(1-2v) is nondecreasing on this domain.
+The old lower/upper substitutions in the absolute-cubic numerator, rho strip,
+defect lower base and normalized polygon remain valid with the corrected
+range. Powers/root bounds for h=sqrt(v+s), the same-law coupled count
+variance, Gaussian denominator and all phase H bounds follow by their old
+positive interval operations. The normalized denominator is still positive
+and piecewise affine in the same two cubic moments, so its vertex-ratio proof
+is unchanged. The midpoint coefficient error for -q*m0+p*m1 is exactly
+(p-mid)*(m0+m1); the old absolute error bound applies on either half.
+
+For sigma=sqrt(10), the binary defect term is
+ p(1-p)[(2sigma+6)p^2-(2sigma+4)p+sigma-1].
+The bracket has positive leading coefficient and zero discriminant
+4(10-sigma^2), so it is nonnegative throughout(0,1). Its sigma coefficient
+p(1-p)(1-2p+2p^2)>0 licenses SIG_LO and the same Bernstein lower bound.
+The full actual defect nonnegativity used when clamping a lower bound also
+uses precisely the retained inward and coefficient gates. The sharp box and
+sharp derivative routes retain all these gates. On nonnegative inward a,b
+with a+b<1/2, a+b-a^2-b^2-ab increases in each coordinate; that proof is
+independent of p. Failure of an optional coefficient gate continues to omit
+only that bound, never to assert emptiness.
+
+For the same sign-conditioned law, with literal positive-class probability p,
+ beta=[v(1-2p)+s(2alpha-1)]/(v+s), mean=v/sqrt(v+s).
+These algebraic identities have no left-half premise. Mean increases in v
+and decreases in s, while beta and the s>0 alpha inversion are handled with
+ordinary interval arithmetic. The acquired signed beta and mean are left
+unchanged. Let tmin=1-2pu,tmax=1-2pl. If beta<=bh<tmin, the identity implies
+s*(bh+1-2al)>=vl*(tmin-bh)>0. If beta>=bl>tmax, it implies
+s*(2ah-1-bl)>=vl*(bl-tmax)>0. Thus the unchanged denominator/nonempty tests
+and lower lambda=n*s floors are valid with the new vl, also when tmin,tmax
+are negative. No sign choice is inferred from p itself.
+
+For the rho floor, the retained outward moment bound gives
+rho_lower*(v+s)^(3/2)<=v-2v^2+M*s, with M the maximum of the same bilinear
+function of p,alpha over the box (attained at a rectangle corner). Convexity
+of x^(3/2) gives A(v)<=[M-1.5*rho_lower*sqrt(v)]*s, where
+A(v)=rho_lower*v^(3/2)-v+2v^2. At the new lower v0=vl and t<=sqrt(v0), the
+computed A0=rho_lower*v0*t-v0+2v0^2 is a lower bound. If A0<=0 the optional
+floor is skipped. Otherwise rho_lower*t>1-2v0 implies
+A'(v0)>1/2+v0>0, and A''(v)>0, so A(v)>=A0 for all v>=v0. Its right-hand
+coefficient is at most B=M-1.5*rho_lower*t. Therefore B<=0 contradicts A0>0;
+otherwise s>=A0/B. This proves the existing rho-floor source after replacing
+its lower v; it does not require v to increase with p.
+
+Binomial probabilities, normals, phase and orientation
+-----------------------------------------------------
+For j=0..n the binomial mass has its maximum at j/n when that point lies
+in the panel, otherwise at an endpoint; its minimum is at an endpoint.
+The binomial closed CDF decreases on the whole (0,1), with derivative
+-(n-k)*mass_k(p)/(1-p), including k=n where it is zero. Thus masses() needs
+only the relaxed probability guard, not changed endpoints/counts. The
+centered-binomial/Gaussian derivative formula already treats 1-2p as a signed
+interval and remains valid with the corrected positive variance denominator.
+For fixed p its maximum over lambda is still at a lambda endpoint because
+the numerator k+u-np has constant sign as lambda varies.
+
+Incoming j>k Cantelli/MGF terms retain their original direction. MGF factors
+use positive q,p and the same common alpha maximization, independent of which
+probability exceeds1/2. The incoming derivative gate differentiates in u;
+its uniform Gaussian lower derivative now uses the true vl/vh. Its optional
+failure and exponential compact-range omissions remain conservative. Every
+quartic event minorant, common-moment expectation and Bernstein/vertex bound
+remains unchanged. All normal/exponential compact-domain checks remain.
+
+The actual central physical endpoints A=(p-a0)/h and B=(1-p-a1)/h must be
+positive for the same acquired law; the existing sign_premise and its safe
+upper caps are retained exactly. The sufficient complete nearest-count
+conditions 1/4+Lambda/n<1, n*pl>Hminus and n*pu+Hplus<n also remain. The
+eventual full forest must still cover every k=0..n and u in[-1/2,1/2]. It
+must use acquired literal right-panel resources, not reflected left resources.
+
+Disabled legacy and validation scope
+------------------------------------
+The unused exact_count_core_v5.cell immediately raises RuntimeError. Legacy
+variance_geometry.validate immediately raises, disabling every dependent
+geometry helper; only need() is used by the active kernel. The separate
+finite_gaussian.panel API immediately raises. Their old bodies are preserved
+for source comparison but are not part of this package's usable proof API.
+This prevents use of their left-only allocation coefficient/sign and panel
+indexing assumptions. Pure root/CDF helpers retain their old implementations.
+
+Bounded checks exercise the seam/right intervals, old-domain exact dictionary
+identity and selected full new cells. They do not supply resources, complete
+trees or a new cutoff theorem. A future count certificate must freeze this
+package and its independent review, bind actual same-law acquired contracts,
+and independently replay every leaf in a complete forest.

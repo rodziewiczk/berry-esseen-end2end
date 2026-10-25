@@ -1,0 +1,31 @@
+{
+  "files": {
+    "variance_geometry.py": "55ba277cf30a0dc571cd98f38fd99deb4deff15c3be8df249c370ae8b10b3734",
+    "rho_signed_moment_tightener.py": "1fe8fefd93269e478be47077b3bf1c8d0cff9259de94824d55a66824b8052cdc",
+    "finite_gaussian.py": "4f5b1a829df4c3c8c0e5467adb79f112984ee8eab8ba5f25b20fd7173b78a4a0",
+    "joint_cubic_defect.py": "452f798af68df222417e9f1710e8d72b4ae574791caa6d59005eaf4fbae5b137",
+    "signed_moment_prefilter.py": "fd82440f07f4be759d74c2d7d44d1075d293e054580e9fa28cc021311b5f2173",
+    "joint_cubic_normalized.py": "1403856612e213b9a14118a5a4098b7f470ce890499811dd1ad53c808904e2f6",
+    "interval_scalar_fast.py": "3eaa0d78eec8b8d5c2044eb020a406ec352ac5a99b30f9d2773694a4f9601512",
+    "rho_variance_floor.py": "615acbcb948d2ba5767082f0dd2a2ab6f1d3999ae0a8afac3fd4c1d73b3aab6b",
+    "exact35_core.py": "32e0e3d1178fb44dd92b3e0c67d92f08ea0d185875251950c0148ad55d0b3e64",
+    "signed_beta_variance_floor.py": "c4208b88510735d0e808b947ec624ce785de42ef4c9fe3217505ebbef2c823c6",
+    "generalized_scope.py": "2b35ccd6df389f403c515bd93b6846780fc200d58e99a1c89f5b4168868860f5",
+    "optimized_arithmetic.py": "ab9bc728fbb7901f94323a384caf367eee2b2064e919dac27a01cabae743b765",
+    "bernstein_fast.py": "4983c9af05673775c3fd5b521e898a9c7f7fe5c9523a5009646872bf75adc607",
+    "signed_moment_floor_tightener.py": "6e7165bb4f16df296f58d511983696e10e56725fad28f1179002f31e232f5dbc",
+    "signed_moment_tightener.py": "f6ea60e4592a5055c1ace9340765076a95784f5c5d02232f2f02544321e75b9d",
+    "exact_count_core_v5.py": "0ffba7a5e1a91fc3c3c770f9d3bcb073a529fade3d622bc5615567153a4255a0",
+    "joint_cubic.py": "d4adf6e9cfa430bbd7be7ffd90b994672d648d9886c42aa38e0a94b66eb55238",
+    "joint_cubic_normalized_fast.py": "7d72ff8ec7cfc2ad59e45d26fcccd6998ef01abe24cb54653ba18b05f2bbf347",
+    "probability_extrema.py": "f808c4e82ba40ce094e45139c6e09872c43ca7249ab7ae1d25aca24bbc5ee9ac",
+    "RIGHT_HALF_COUNT_PROOF.txt": "a73a4f6abf8796e6e20ab161922f33a075c972953e1f6ee545709c51566a355b",
+    "SOURCE_TRANSFORM.json": "5da6ce26255dafad387d566a8620a3549659e834f8aea23f63c0c80d2d8df11c",
+    "inward_filter.py": "11922c9ab0f8faa6334756535755e1ee5df6eab8c9e6a80511fff02687b8ec7a",
+    "joint.py": "5d6e3fecf6627d9cc1e00869e41077ddd6cd714952a60bd8fab00069269e20be",
+    "joint_filter.py": "ffd2bcca7eada563c5c3fa83828a534a1229ef1f1b231b9af148d4f1f637e276",
+    "inward_triangle.py": "31cf56d6118596f4217266c91e29576a996ee71c0169183a6e38b05c03671159",
+    "signed_gamma.py": "cc11434233d013e29d3fd94ecc8a77f499b17157d7107148031327d3648b2c06"
+  },
+  "scope": "unchanged actual-six gamma kernel; fixed conditional diagnostic panel"
+}
