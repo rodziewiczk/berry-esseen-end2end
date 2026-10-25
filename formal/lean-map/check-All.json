@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "scope": "All",
+  "checked_at": "2026-10-25T16:37:23.1007359+01:00",
+  "lean": "Lean (version 4.32.0, x86_64-w64-windows-gnu, commit 8c9756b28d64dab099da31a4c09229a9e6a2ef35, Release)",
+  "mathlib_revision": "81a5d257c8e410db227a6665ed08f64fea08e997",
+  "method": "Direct Lean compiler; existing compiled mathlib dependencies; project modules rechecked",
+  "total_seconds": 171.486,
+  "modules": [
+    {
+      "module": "BEMap/Finite",
+      "seconds": 13.018,
+      "exit_code": 0,
+      "source_sha256": "d79877e7bba0bb1447c106c6d83dcfffc64785b59dd819f89e61be8b540d1815"
+    },
+    {
+      "module": "BEMap/Cover25",
+      "seconds": 12.835,
+      "exit_code": 0,
+      "source_sha256": "3396d973c613feb246a6707431736e672b65fd43ecc61b05b3b1d0620947766a"
+    },
+    {
+      "module": "BEMap/Tail",
+      "seconds": 14.962,
+      "exit_code": 0,
+      "source_sha256": "a386d17631124729704db8b71ccde0fbd0ae9ebcd9c01d8ba1edccca8c8503de"
+    },
+    {
+      "module": "BEMap/Foundations/ProbabilityLaw",
+      "seconds": 40.551,
+      "exit_code": 0,
+      "source_sha256": "bed9f1b8bd65fc90c1d8fc3c28ea3fa209a2ae7c9ec8cd2ae8505307521ca715"
+    },
+    {
+      "module": "BEMap/Foundations/OptimalConstant",
+      "seconds": 26.057,
+      "exit_code": 0,
+      "source_sha256": "d47200a873b210c5db3f75888de6beba469c8b25f2f7b57adfd895e73182b719"
+    },
+    {
+      "module": "BEMap/Interfaces",
+      "seconds": 19.489,
+      "exit_code": 0,
+      "source_sha256": "5bca1df7e603fde593336ec695b77f02d1dde8bf1417b6f756d6f838a84493bd"
+    },
+    {
+      "module": "BEMap",
+      "seconds": 20.169,
+      "exit_code": 0,
+      "source_sha256": "e3191639206e6a7624803a70bc14365dd8ca648cd43075c0aa66cd6528eed447"
+    },
+    {
+      "module": "Audit",
+      "seconds": 24.317,
+      "exit_code": 0,
+      "source_sha256": "64415b96e8d8d2a5453de61dc21c7f4a4c78277d67212d96de225fa22de96030"
+    }
+  ],
+  "remaining_assumptions": "See theorem signatures and docs/mathematical-contracts.md; no numerical kernels run"
+}

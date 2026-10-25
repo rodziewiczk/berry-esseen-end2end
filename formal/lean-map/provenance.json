@@ -1,0 +1,32 @@
+{
+  "created": "2026-10-25",
+  "scope": "Mathematical contracts and conditional Lean skeleton, without numerical-kernel execution",
+  "repository": "https://github.com/rodziewiczk/berry-esseen-end2end",
+  "repository_commit": "6ca9730273c81447be4863824c0b7d012db0e8b8",
+  "repository_edited": false,
+  "manuscript": {
+    "filename": "berry_esseen_manuscript.tex",
+    "sha256": "2b5c9419a5fc2363de21e02e200529b735c52e492f0d398aca6f42650c65eea1",
+    "lines": 9252
+  },
+  "lean": "4.32.0",
+  "mathlib_revision": "81a5d257c8e410db227a6665ed08f64fea08e997",
+  "reused_foundations": [
+    {
+      "source": "eventual_exactness_proof/finite_cutoff_49/EventualExactness/Foundations/ProbabilityLaw.lean",
+      "source_sha256": "423ec969bb9475022ccfd1173fa688d01be9cbabe06f2ac1a58cbf5114641103",
+      "target": "BEMap/Foundations/ProbabilityLaw.lean",
+      "target_sha256": "bed9f1b8bd65fc90c1d8fc3c28ea3fa209a2ae7c9ec8cd2ae8505307521ca715",
+      "transformation": "Only namespace and import path rename: EventualExactness -> BEMap"
+    },
+    {
+      "source": "eventual_exactness_proof/finite_cutoff_49/EventualExactness/Foundations/OptimalConstant.lean",
+      "source_sha256": "6ae35509d5110260f1533fb8cd06e54214e85e449ab5857d7be6c6d7d7162cf7",
+      "target": "BEMap/Foundations/OptimalConstant.lean",
+      "target_sha256": "d47200a873b210c5db3f75888de6beba469c8b25f2f7b57adfd895e73182b719",
+      "transformation": "Only namespace and import path rename: EventualExactness -> BEMap"
+    }
+  ],
+  "source_notices": "LICENSE (MIT, Copyright 2026 Contributors)",
+  "publication_note": "Machine-specific source paths omitted; source identities and exact hashes retained."
+}

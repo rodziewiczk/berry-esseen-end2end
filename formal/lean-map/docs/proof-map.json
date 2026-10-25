@@ -1,0 +1,336 @@
+{
+  "title": "Berry--Esseen: checked Lean composition and open mathematical contracts",
+  "interpretation": "Curated grouped view of theorem interfaces, not a kernel-exported proof-term graph",
+  "status_legend": {
+    "checked": "Proved conditional implication; its premises may remain open",
+    "open": "Undischarged input in this Lean project",
+    "model": "Concrete definitions and elementary proved foundation"
+  },
+  "verification": "check-All.json",
+  "nodes": [
+    {
+      "id": "MODEL",
+      "status": "model",
+      "rect": [
+        48,
+        324,
+        1144,
+        106
+      ],
+      "title": "Concrete probability model",
+      "explanation": [
+        "Probability laws on R \u00b7 convolution sums \u00b7 closed CDF \u00b7 rho >= 1 \u00b7 well-defined suprema"
+      ],
+      "source": "BEMap/Foundations/OptimalConstant.lean",
+      "declaration": "normalizedScore_le_optimalConstant",
+      "line": 197
+    },
+    {
+      "id": "SMALL",
+      "status": "open",
+      "rect": [
+        60,
+        542,
+        330,
+        128
+      ],
+      "title": "Small indices + constants",
+      "explanation": [
+        "n = 1, 2, 3; strong n3 -> n4 -> n5",
+        "Quantitative bounds are preserved."
+      ],
+      "source": "BEMap/Finite.lean",
+      "declaration": "FiniteContracts",
+      "line": 15
+    },
+    {
+      "id": "ORDINARY",
+      "status": "open",
+      "rect": [
+        60,
+        720,
+        330,
+        128
+      ],
+      "title": "Literal finite exclusions",
+      "explanation": [
+        "Every actual n = 6,...,48 except 25",
+        "Earlier sharp bounds: sufficient route."
+      ],
+      "source": "BEMap/Finite.lean",
+      "declaration": "FiniteContracts",
+      "line": 15
+    },
+    {
+      "id": "FINITE",
+      "status": "checked",
+      "rect": [
+        60,
+        1032,
+        330,
+        112
+      ],
+      "title": "finite_composition",
+      "explanation": [
+        "Strong induction covers all n = 1,...,48."
+      ],
+      "source": "BEMap/Finite.lean",
+      "declaration": "finite_composition",
+      "line": 24
+    },
+    {
+      "id": "INPUT25",
+      "status": "open",
+      "rect": [
+        454,
+        542,
+        330,
+        146
+      ],
+      "title": "Exact n25 premises",
+      "explanation": [
+        "Unrestricted contact extraction",
+        "Signed-beta moment envelopes",
+        "All 20 same-witness exclusions"
+      ],
+      "source": "BEMap/Interfaces.lean",
+      "declaration": "n25_upper_of_regions",
+      "line": 81
+    },
+    {
+      "id": "COVER25",
+      "status": "checked",
+      "rect": [
+        454,
+        738,
+        330,
+        112
+      ],
+      "title": "n25_cover",
+      "explanation": [
+        "6 rho + 7 beta + 6 beta + 1 tail",
+        "Closed rational cuts; seams included."
+      ],
+      "source": "BEMap/Cover25.lean",
+      "declaration": "n25_cover",
+      "line": 73
+    },
+    {
+      "id": "UPPER25",
+      "status": "checked",
+      "rect": [
+        454,
+        910,
+        330,
+        112
+      ],
+      "title": "n25_upper_of_regions",
+      "explanation": [
+        "All regional exclusions -> C25 <= C_E"
+      ],
+      "source": "BEMap/Interfaces.lean",
+      "declaration": "n25_upper_of_regions",
+      "line": 81
+    },
+    {
+      "id": "LICENSE25",
+      "status": "checked",
+      "rect": [
+        454,
+        1066,
+        330,
+        110
+      ],
+      "title": "Additional checked bridge",
+      "explanation": [
+        "Sharp24 OR auxiliary24 -> q25 <= 5/16"
+      ],
+      "source": "BEMap/Finite.lean",
+      "declaration": "n25_allowance",
+      "line": 57
+    },
+    {
+      "id": "TAILINPUT",
+      "status": "open",
+      "rect": [
+        848,
+        542,
+        330,
+        146
+      ],
+      "title": "Independent tail premises",
+      "explanation": [
+        "Auxiliary ceilings 45..50; strong 46",
+        "Uniform local exclusion for n >= 47",
+        "Explicit numerical cap on C_E"
+      ],
+      "source": "BEMap/Tail.lean",
+      "declaration": "TailContracts",
+      "line": 11
+    },
+    {
+      "id": "BASE49",
+      "status": "checked",
+      "rect": [
+        848,
+        738,
+        330,
+        112
+      ],
+      "title": "tail_base49",
+      "explanation": [
+        "Three backward losses at 49, 48, 47",
+        "Contradiction with the strong 46 cap."
+      ],
+      "source": "BEMap/Tail.lean",
+      "declaration": "tail_base49",
+      "line": 75
+    },
+    {
+      "id": "SMOOTH",
+      "status": "open",
+      "rect": [
+        848,
+        890,
+        330,
+        100
+      ],
+      "title": "Smoothing consequence",
+      "explanation": [
+        "Sharp predecessor -> n a_n < 0.29"
+      ],
+      "source": "BEMap/Tail.lean",
+      "declaration": "TailContracts",
+      "line": 11
+    },
+    {
+      "id": "TAIL",
+      "status": "checked",
+      "rect": [
+        848,
+        1032,
+        330,
+        112
+      ],
+      "title": "tail_composition",
+      "explanation": [
+        "First-failure induction covers n >= 49."
+      ],
+      "source": "BEMap/Tail.lean",
+      "declaration": "tail_composition",
+      "line": 90
+    },
+    {
+      "id": "UPPER",
+      "status": "checked",
+      "rect": [
+        60,
+        1270,
+        770,
+        116
+      ],
+      "title": "all_indices_upper",
+      "explanation": [
+        "Every positive integer: C_n <= C_E",
+        "Concrete iid inequality follows for every standardized law."
+      ],
+      "source": "BEMap.lean",
+      "declaration": "all_indices_upper",
+      "line": 20
+    },
+    {
+      "id": "LOWER",
+      "status": "open",
+      "rect": [
+        880,
+        1270,
+        320,
+        116
+      ],
+      "title": "Separate lower bound",
+      "explanation": [
+        "Bernoulli lattice approximation",
+        "No fixed-n attainment is assumed."
+      ],
+      "source": "BEMap.lean",
+      "declaration": "LowerApproximation",
+      "line": 45
+    },
+    {
+      "id": "SHARP",
+      "status": "checked",
+      "rect": [
+        280,
+        1470,
+        680,
+        126
+      ],
+      "title": "sharp_global_constant",
+      "explanation": [
+        "C* = C_E = (3 + sqrt(10)) / (6 sqrt(2 pi))",
+        "Checked conclusion, conditional on all displayed contracts."
+      ],
+      "source": "BEMap.lean",
+      "declaration": "sharp_global_constant",
+      "line": 48
+    }
+  ],
+  "edges": [
+    {
+      "source": "SMALL",
+      "target": "FINITE"
+    },
+    {
+      "source": "ORDINARY",
+      "target": "FINITE"
+    },
+    {
+      "source": "INPUT25",
+      "target": "COVER25"
+    },
+    {
+      "source": "INPUT25",
+      "target": "UPPER25"
+    },
+    {
+      "source": "COVER25",
+      "target": "UPPER25"
+    },
+    {
+      "source": "UPPER25",
+      "target": "FINITE"
+    },
+    {
+      "source": "TAILINPUT",
+      "target": "BASE49"
+    },
+    {
+      "source": "TAILINPUT",
+      "target": "TAIL"
+    },
+    {
+      "source": "BASE49",
+      "target": "TAIL"
+    },
+    {
+      "source": "SMOOTH",
+      "target": "TAIL"
+    },
+    {
+      "source": "FINITE",
+      "target": "UPPER"
+    },
+    {
+      "source": "TAIL",
+      "target": "UPPER"
+    },
+    {
+      "source": "UPPER",
+      "target": "SHARP"
+    },
+    {
+      "source": "LOWER",
+      "target": "SHARP"
+    }
+  ]
+}

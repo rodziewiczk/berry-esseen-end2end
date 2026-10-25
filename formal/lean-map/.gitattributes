@@ -1,0 +1,10 @@
+* text=auto eol=lf
+# These source bytes are bound by the recorded Lean verification hashes.
+*.lean -text
+*.md text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.ps1 text eol=lf
+*.svg text eol=lf
+*.mmd text eol=lf
+*.png binary

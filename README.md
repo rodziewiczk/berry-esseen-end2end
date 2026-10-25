@@ -2,6 +2,34 @@
 
 Authors: Kacper Rodziewicz and Bartosz Kołodziejek.
 
+## Lean proof map · checked conditional skeleton
+
+![Berry–Esseen Lean map: checked implications in green, open contracts in amber](formal/lean-map/assets/proof-map.svg)
+
+[Full-size graph](formal/lean-map/assets/proof-map.svg) ·
+[PNG](formal/lean-map/assets/proof-map.png) ·
+[Lean declarations behind the graph](formal/lean-map/docs/proof-map.md) ·
+[Current plan](formal/lean-map/docs/plan.md) ·
+[Standalone Lean repository](https://github.com/rodziewiczk/berry-esseen-lean-map)
+
+This branch adds the [mathematical contracts and thin Lean project](formal/lean-map/README.md).
+All 8 Lean files passed the recorded local compiler check. Green means a
+**checked conditional implication**; the amber analytic and certificate
+premises remain explicit. The finite 1–48 composition and the independent 49+
+tail meet at the all-indices upper bound. A separate lower approximation is
+required for the exact sharp constant.
+
+The next stage is to reuse matching existing Lean lemmas, formalize the
+remaining n5/floor31 domain covers, replace abstract resource predicates with
+exact mathematical records, and connect numerical soundness. Detailed system
+architecture and a single CLI follow after these interfaces stabilize.
+
+[Verification report](formal/lean-map/check-All.json) ·
+[Compiler and axiom audit](formal/lean-map/check-All.log) ·
+[Detailed mathematical specification](formal/lean-map/docs/mathematical-contracts.md)
+
+---
+
 **25 October2026 implementation update:**56I,57H,65 and67 have ready code;
 the actual computations and universal analytic premises remain separate.
 See the [new implementation checkpoint](proof/ready_implementations_20261025.md).

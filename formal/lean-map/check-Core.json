@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "scope": "Core",
+  "checked_at": "2026-10-25T16:48:01.2559449+01:00",
+  "lean": "Lean (version 4.32.0, x86_64-w64-windows-gnu, commit 8c9756b28d64dab099da31a4c09229a9e6a2ef35, Release)",
+  "mathlib_revision": "81a5d257c8e410db227a6665ed08f64fea08e997",
+  "method": "Direct Lean compiler; existing compiled mathlib dependencies; project modules rechecked",
+  "total_seconds": 51.371,
+  "modules": [
+    {
+      "module": "BEMap/Finite",
+      "seconds": 16.136,
+      "exit_code": 0,
+      "source_sha256": "d79877e7bba0bb1447c106c6d83dcfffc64785b59dd819f89e61be8b540d1815"
+    },
+    {
+      "module": "BEMap/Cover25",
+      "seconds": 13.596,
+      "exit_code": 0,
+      "source_sha256": "3396d973c613feb246a6707431736e672b65fd43ecc61b05b3b1d0620947766a"
+    },
+    {
+      "module": "BEMap/Tail",
+      "seconds": 21.579,
+      "exit_code": 0,
+      "source_sha256": "a386d17631124729704db8b71ccde0fbd0ae9ebcd9c01d8ba1edccca8c8503de"
+    }
+  ],
+  "remaining_assumptions": "See theorem signatures and docs/mathematical-contracts.md; no numerical kernels run"
+}

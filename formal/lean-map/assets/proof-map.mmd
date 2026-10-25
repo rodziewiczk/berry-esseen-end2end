@@ -1,0 +1,33 @@
+flowchart TD
+  MODEL["Concrete probability model"]:::model
+  SMALL["Small indices + constants"]:::open
+  ORDINARY["Literal finite exclusions"]:::open
+  FINITE["finite_composition"]:::checked
+  INPUT25["Exact n25 premises"]:::open
+  COVER25["n25_cover"]:::checked
+  UPPER25["n25_upper_of_regions"]:::checked
+  LICENSE25["Additional checked bridge"]:::checked
+  TAILINPUT["Independent tail premises"]:::open
+  BASE49["tail_base49"]:::checked
+  SMOOTH["Smoothing consequence"]:::open
+  TAIL["tail_composition"]:::checked
+  UPPER["all_indices_upper"]:::checked
+  LOWER["Separate lower bound"]:::open
+  SHARP["sharp_global_constant"]:::checked
+  SMALL --> FINITE
+  ORDINARY --> FINITE
+  INPUT25 --> COVER25
+  INPUT25 --> UPPER25
+  COVER25 --> UPPER25
+  UPPER25 --> FINITE
+  TAILINPUT --> BASE49
+  TAILINPUT --> TAIL
+  BASE49 --> TAIL
+  SMOOTH --> TAIL
+  FINITE --> UPPER
+  TAIL --> UPPER
+  UPPER --> SHARP
+  LOWER --> SHARP
+  classDef checked fill:#effbf5,stroke:#0b805d,color:#173e30
+  classDef open fill:#fff8e7,stroke:#b77721,color:#694314
+  classDef model fill:#edf4ff,stroke:#3063c4,color:#25456f
