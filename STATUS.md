@@ -1,5 +1,12 @@
 # Current project status
 
+**25 October2026:** ready code56I/57H/65/67 and three independent n25 Run-all
+components are available. [Current implementation checkpoint](proof/ready_implementations_20261025.md).
+59B's actual completed export has passed the full compatible pure reader.
+Full remaining implementation units:58H,66,59D,60,62,61,63. Numerical
+execution and the eighteen analytic/literature premises remain separate.
+The following24October census is retained as execution history.
+
 Updated: 24 October 2026, after the actual local result-ZIP review.
 **The global proof is not verified.** The current priority is completing the
 remaining implementations and executions with their exact evidence and
@@ -107,3 +114,19 @@ Internal AI source reviews are fallible. External independent mathematical
 review and formal verification are not established. This checkpoint publishes
 documentation and export fingerprints only; private links, local result
 archives and local WIP code are not part of it.
+
+## Recovered-original n25 implementation
+
+The new [recovered-original execution route](proof/n25_recovery_integration.md)
+imports the eleven original B5 forests (32,093 leaves) directly into the full
+unchanged native acceptor. It needs no discovery/PREFIX2 and keeps LIMIT=10000,
+all original source/candidate identities and all 24 corruption controls.
+The exact original mixed parents and regional selectors are also available as
+source/provenance. This is an implemented subsection of 66, not completion of
+its mixed replay, resource acquisitions or whole 20-piece union. Preserve 01–07.
+See [the recovery instructions](README_RECOVERY_PL.md).
+
+Published notebook sources also include the final Drive synchronization and
+Colab runtime-release cell. It executes only when Run all reaches that cell;
+a synchronization error prevents release. Older already-open notebook copies
+do not automatically receive this change.

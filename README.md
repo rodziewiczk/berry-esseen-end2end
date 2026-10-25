@@ -2,6 +2,24 @@
 
 Authors: Kacper Rodziewicz and Bartosz Kołodziejek.
 
+**25 October2026 implementation update:**56I,57H,65 and67 have ready code;
+the actual computations and universal analytic premises remain separate.
+See the [new implementation checkpoint](proof/ready_implementations_20261025.md).
+
+Three independent new n25 jobs can run now on the same Google Drive:
+
+- [66_A —40 acquisition actions: open in Colab](https://colab.research.google.com/github/rodziewiczk/berry-esseen-end2end/blob/main/colab/66_A_40_acquisition_actions.ipynb)
+- [66_B —10 additional COUNT forests: open in Colab](https://colab.research.google.com/github/rodziewiczk/berry-esseen-end2end/blob/main/colab/66_B_10_upper_counts.ipynb)
+- [66_C —11 recovered original B5 forests: open in Colab](https://colab.research.google.com/github/rodziewiczk/berry-esseen-end2end/blob/main/colab/66_C_11_recovered_B5_counts.ipynb)
+
+Select **Run all**. Code is fetched automatically from its immutable
+published pin; no runtime ZIP upload is needed. These are three complete
+components, with the full66 semantic union still separate. Completed01–07
+are preserved.59B's old completed export now passes its full compatible reader.
+
+The following24October execution census is historical; the linked25October
+checkpoint supersedes its implementation queue and59B reader status.
+
 **24 October 2026 execution checkpoint:** 74 existing tasks have completed
 their declared arithmetic scope; 35, 46 and 59C are incomplete. Final local
 exports were not found for 56H, 57F, 57G and 58G. Completed 59B additionally
@@ -173,3 +191,19 @@ ChatGPT and Codex assist with proofs, certificates and writing, using the user-i
 The next work is specified in [the n5 interface review](proof/n5_analytic_review.md), [the finite-range source inventory](proof/finite_range_replay_inventory.md), and [the stronger24 premise audit](proof/stronger24_replay_scope.md). The [auxiliary execution package](proof/aux24_execution.md) implements the queued numerical work. The auxiliary-premise audit does not invalidate or require restarting the running conditional n25 jobs. Their final all-law composition still needs a freshly acquired matching premise and the complete resource/count joins.
 
 The [bounded n25 forest inventory](proof/n25_missing_forest_inventory.md) distinguishes the historical report claiming completion from the seven selected forest payloads that were not located in the inspected packages. The available partial checkpoints and newly prepared V14 alternatives are explicitly identified; a historical result hash does not supply its missing certificate bytes.
+
+## Recovered-original n25 implementation
+
+The new [recovered-original execution route](proof/n25_recovery_integration.md)
+imports the eleven original B5 forests (32,093 leaves) directly into the full
+unchanged native acceptor. It needs no discovery/PREFIX2 and keeps LIMIT=10000,
+all original source/candidate identities and all 24 corruption controls.
+The exact original mixed parents and regional selectors are also available as
+source/provenance. This is an implemented subsection of 66, not completion of
+its mixed replay, resource acquisitions or whole 20-piece union. Preserve 01–07.
+See [the recovery instructions](README_RECOVERY_PL.md).
+
+Published notebook sources also include the final Drive synchronization and
+Colab runtime-release cell. It executes only when Run all reaches that cell;
+a synchronization error prevents release. Older already-open notebook copies
+do not automatically receive this change.

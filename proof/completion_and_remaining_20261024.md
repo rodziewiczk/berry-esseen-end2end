@@ -1,5 +1,10 @@
 # Potwierdzone obliczenia i dokładna lista pozostałych zadań
 
+Aktualizacja25października: [nowszy stan implementacji](ready_implementations_20261025.md)
+zastępuje poniższą historyczną kolejkę kodowania.57H/65/67są zaimplementowane,
+a rzeczywisty59Bprzeszedł pełny zgodny czytnik. Licznik74zakończonych zakresów
+pozostaje spisem wykonania z24października, nie nowym wynikiem Colaba.
+
 Stan: **24 października 2026**, po odczycie rzeczywistych lokalnych ZIP-ów.
 To bieżący rejestr postępu; wcześniejsze notatki o kolejce są historyczne.
 [Wersja maszynowa](completion_and_remaining_20261024.json) podaje dla każdego eksportu nazwę, rozmiar, SHA256 i zakres weryfikacji.
@@ -187,3 +192,14 @@ W razie zmiany rodzica lub adaptera zachować stare receipt/capture bajt w bajt.
 Większe nowe działania mają limit CPU i wall 82 800 s (23 h) na działanie, pełny capture i cache wyłącznie ukończonych zweryfikowanych etapów. Jest to budżet działania, nie gwarancja czasu całej partii. Weryfikacja i wykonanie muszą rozróżniać gotowy kod, ukończoną arytmetykę, pozyskanych rodziców, skończoną implikację i pełny globalny dowód.
 
 Nie publikowano tu lokalnych ZIP-ów wynikowych, prywatnych odnośników, lokalnych ścieżek ani roboczego kodu i notebooków z przekazania. To aktualizacja dokumentacji postępu i obowiązków.
+
+## Aktualizacja źródeł i implementacji n25
+
+Odzyskano oryginalne 11 lasów B5 (32 093 liście), oba parent closures mixed
+p24/p25 i cztery brakujące regionalne pliki. Bajty odpowiadają historycznym
+pinom. Źródła nie wymagają już zastępczej rekonstrukcji wyłącznie z powodu
+ich braku. Nowa [ścieżka ordinary B5](n25_recovery_integration.md) jest
+zaimplementowana i zachowuje pełny oryginalny akceptor, limit 10 000 oraz
+24 kontrole. To usuwa discovery dla tych 11 przypadków. Pozostałe sekcje 66,
+mixed replay, zasoby, same-law interfejsy i pełna unia 20 obszarów nadal
+pozostają otwarte. Nie uruchomiono tutaj oryginalnych obliczeń liści.

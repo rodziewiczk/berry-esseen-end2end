@@ -1,5 +1,19 @@
 # CPU notebooks: upload and run all
 
+## New direct Run-all jobs —25October2026
+
+- [66_A —40 INITIAL/resource/local actions](https://colab.research.google.com/github/rodziewiczk/berry-esseen-end2end/blob/main/colab/66_A_40_acquisition_actions.ipynb)
+- [66_B —10 additional forests,18978leaves](https://colab.research.google.com/github/rodziewiczk/berry-esseen-end2end/blob/main/colab/66_B_10_upper_counts.ipynb)
+- [66_C —11 original recovered B5 forests,32093leaves](https://colab.research.google.com/github/rodziewiczk/berry-esseen-end2end/blob/main/colab/66_C_11_recovered_B5_counts.ipynb)
+
+These independent components download an immutable published code pin.
+Select Run all and authorize the existing Google Drive. No local runtime ZIP
+upload or parameter changes are required. Each original action has23hCPU/wall;
+completed verified stages are reused. They do not rerun01–07 or claim full66.
+
+Full56I,57H and67 also have pinned public wrappers in this directory; they
+wait truthfully for their required complete upstream exports.
+
 ## Current execution checkpoint
 
 Before starting another run, consult the [24 October completed-export and
