@@ -1,0 +1,151 @@
+{
+  "checked_at": "2026-10-25T19:34:07.125814+00:00",
+  "clean_checkout_from_git_index": true,
+  "independent_venv_without_system_packages": true,
+  "editable_install_from_clean_checkout": true,
+  "original_checkout_imported": false,
+  "cloud_credentials_required": false,
+  "paid_resources_created": false,
+  "frozen_source_bindings_checked": 28,
+  "identical_mathematical_candidate_and_receipt": true,
+  "cli_cases": [
+    {
+      "case": "cold",
+      "exit_code": 0,
+      "report": {
+        "artifact_kind": "run_report",
+        "attempts_total": "2",
+        "authorized_readback": true,
+        "campaign_id": "campaign:99ff99a6-6c68-4a2a-808e-a2c3feaa4e7d",
+        "candidate_ref": {
+          "bytes_digest": "sha256:b66c5de5e762550f860297304e58d137044a651201a80c3e67dc516f1f65166e",
+          "format_id": "be.local-pilot/produce/1",
+          "media_type": "application/json",
+          "size_bytes": "510"
+        },
+        "conditional": true,
+        "frozen_digest": "sha256:7f2e53090ddeaddf85ccf3efc3ad1b7aebe3902bd1dccca6ba0748f190306025",
+        "full_proof_pass": false,
+        "outcome": "infeasible",
+        "paid_activation": false,
+        "producer_cache_hit": false,
+        "proof_scope": "zero-conditional-variance-moment-feasibility-only",
+        "receipt_ref": {
+          "bytes_digest": "sha256:51531198f9d782c16a5bf01c977026980bec62c807fc22e93e503c2eefeff119",
+          "format_id": "be.local-pilot/verify/1",
+          "media_type": "application/json",
+          "size_bytes": "1155"
+        },
+        "request_id": "sha256:a517ffadc1e1e7b7d3e27ff00439535af40da060ff13181759397bc5032ca7b6",
+        "run_id": "run:8be2da11-b211-4d7d-aba7-802cc6e17cbc",
+        "schema_version": "be.local-pilot/1",
+        "status": "PILOT_PASS",
+        "verifier_cache_hit": false
+      }
+    },
+    {
+      "case": "resume",
+      "exit_code": 0,
+      "report": {
+        "artifact_kind": "run_report",
+        "attempts_total": "2",
+        "authorized_readback": true,
+        "campaign_id": "campaign:99ff99a6-6c68-4a2a-808e-a2c3feaa4e7d",
+        "candidate_ref": {
+          "bytes_digest": "sha256:b66c5de5e762550f860297304e58d137044a651201a80c3e67dc516f1f65166e",
+          "format_id": "be.local-pilot/produce/1",
+          "media_type": "application/json",
+          "size_bytes": "510"
+        },
+        "conditional": true,
+        "frozen_digest": "sha256:7f2e53090ddeaddf85ccf3efc3ad1b7aebe3902bd1dccca6ba0748f190306025",
+        "full_proof_pass": false,
+        "outcome": "infeasible",
+        "paid_activation": false,
+        "producer_cache_hit": true,
+        "proof_scope": "zero-conditional-variance-moment-feasibility-only",
+        "receipt_ref": {
+          "bytes_digest": "sha256:51531198f9d782c16a5bf01c977026980bec62c807fc22e93e503c2eefeff119",
+          "format_id": "be.local-pilot/verify/1",
+          "media_type": "application/json",
+          "size_bytes": "1155"
+        },
+        "request_id": "sha256:a517ffadc1e1e7b7d3e27ff00439535af40da060ff13181759397bc5032ca7b6",
+        "run_id": "run:92aea588-afd8-4c43-bdfa-3db3d2ab61c0",
+        "schema_version": "be.local-pilot/1",
+        "status": "PILOT_PASS",
+        "verifier_cache_hit": true
+      }
+    },
+    {
+      "case": "feasible",
+      "exit_code": 2,
+      "report": {
+        "artifact_kind": "run_report",
+        "attempts_total": "2",
+        "authorized_readback": true,
+        "campaign_id": "campaign:5cd9049e-d787-4448-ad2f-acffcee98ec2",
+        "candidate_ref": {
+          "bytes_digest": "sha256:8bee64231d9d6c9530f457225441a434d4aa2384ad95a84ddfc2b116eb9a7e3f",
+          "format_id": "be.local-pilot/produce/1",
+          "media_type": "application/json",
+          "size_bytes": "432"
+        },
+        "conditional": true,
+        "frozen_digest": "sha256:48f12fbc4c0f89176b7fffd427d4f03e281c111acb3aab380163dd605776aaad",
+        "full_proof_pass": false,
+        "outcome": "no_contradiction",
+        "paid_activation": false,
+        "producer_cache_hit": false,
+        "proof_scope": "zero-conditional-variance-moment-feasibility-only",
+        "receipt_ref": {
+          "bytes_digest": "sha256:b5fbd45e8d9cfad6a28016cb19aa6499ac8edd062c20825cf5ccd89d0299776a",
+          "format_id": "be.local-pilot/verify/1",
+          "media_type": "application/json",
+          "size_bytes": "1003"
+        },
+        "request_id": "sha256:3700f63fd07c74c239e623dcd3154849c99e99aa4086106398138b95ff5f523e",
+        "run_id": "run:178519e7-ae36-403f-b2c8-855e7b2ffdaa",
+        "schema_version": "be.local-pilot/1",
+        "status": "PILOT_NO_PASS",
+        "verifier_cache_hit": false
+      }
+    },
+    {
+      "case": "wide-rho",
+      "exit_code": 2,
+      "report": {
+        "artifact_kind": "run_report",
+        "attempts_total": "2",
+        "authorized_readback": true,
+        "campaign_id": "campaign:8a60c3e4-164c-43e9-8ccd-a81523cbf6b7",
+        "candidate_ref": {
+          "bytes_digest": "sha256:24590c04b375c937eb12aae8006feebb994b48fbcb36f504e047d96801935076",
+          "format_id": "be.local-pilot/produce/1",
+          "media_type": "application/json",
+          "size_bytes": "432"
+        },
+        "conditional": true,
+        "frozen_digest": "sha256:92347a02c818db517c0e4ab060a70e6ec5f06d8a2e0d0fa2befa7da20582b77d",
+        "full_proof_pass": false,
+        "outcome": "no_contradiction",
+        "paid_activation": false,
+        "producer_cache_hit": false,
+        "proof_scope": "zero-conditional-variance-moment-feasibility-only",
+        "receipt_ref": {
+          "bytes_digest": "sha256:bcb83a35ec30df19d4fbef9d82582fbc2ddf7468960b1e1ab0fe4c0d03547a35",
+          "format_id": "be.local-pilot/verify/1",
+          "media_type": "application/json",
+          "size_bytes": "1003"
+        },
+        "request_id": "sha256:2cd78d45d777977dd3475984e9938fd097e6fa2ae97b28aab1a7f2c1529914aa",
+        "run_id": "run:5547138a-f01a-4a58-b4b8-39cb2f861965",
+        "schema_version": "be.local-pilot/1",
+        "status": "PILOT_NO_PASS",
+        "verifier_cache_hit": false
+      }
+    }
+  ],
+  "full_proof_pass": false,
+  "scope": "local zero-variance moment-feasibility pilot only"
+}

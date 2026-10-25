@@ -1,0 +1,205 @@
+{
+  "schema_version": "be.local-pilot.audit/1",
+  "status": "review_complete",
+  "verdict": "Accepted for the declared conditional zero-variance moment-feasibility pilot; no known unresolved blocker in that scope.",
+  "full_proof_pass": false,
+  "paid_cloud_resources_created": false,
+  "lean_numeric_decoder_proved": false,
+  "tests": {
+    "independent_adversarial_tests": 24,
+    "result": "passed",
+    "elapsed_seconds": "31.186",
+    "timing_meaning": "Recorded individual test-run durations, not throughput or a full-proof benchmark.",
+    "command": "python -m unittest discover -s tests -p test_adversarial.py -v",
+    "environment": "clean locked CPython3.12 virtual environment on Windows",
+    "actual_cli_subprocess_controls": true,
+    "runs": [
+      {
+        "tests": "23",
+        "result": "passed",
+        "elapsed_seconds": "31.186",
+        "scope": "original independent adversarial suite before post-freeze campaign-head correction"
+      },
+      {
+        "tests": "1",
+        "result": "passed",
+        "elapsed_seconds": "0.103",
+        "scope": "new independent other-project/legacy-head regression after correction"
+      },
+      {
+        "tests": "1",
+        "result": "passed",
+        "elapsed_seconds": "6.513",
+        "scope": "actual CLI relocated-TOML regression from tests/test_recovery.py, independently executed"
+      }
+    ],
+    "coordinated_final_suite": {
+      "tests": "58",
+      "result": "passed",
+      "scope": "root-reported final full suite after stable-head and legacy guard; includes the24-test independent adversarial module",
+      "actual_cli_exit_matrix": [
+        "0",
+        "0",
+        "2",
+        "2"
+      ]
+    }
+  },
+  "source_pins": {
+    "archive_sha256": "17fa140f63c5134ac48f1fd1040f4c5ae4bebdb2b92b2d7ce69f4048293d1fcb",
+    "member": "cutoff25_20261011/new_audit/fixed_law24_b5_p24_eps01_v1/joint_cubic.py",
+    "member_sha256": "d4adf6e9cfa430bbd7be7ffd90b994672d648d9886c42aa38e0a94b66eb55238",
+    "archive_and_member_rechecked": true
+  },
+  "findings": [
+    {
+      "id": "LP01",
+      "status": "verified_for_declared_scope",
+      "title": "Exact source-derived mathematical statement",
+      "resolution": "Centered conditional residuals with E(U_i)=0 and zero conditional second moments imply x=y=0. Source gate1<=rhoLower<=rhoUpper is preserved; p is a point in(0,1/2]. The accepted same-law identity and all6 row signs/order match COUNT-RULES and the pinned source.",
+      "evidence": [
+        "semantic tests: both strip directions",
+        "Bernoulli equality and rational-square equality controls",
+        "coarse/fine enclosure and broad-rho controls"
+      ]
+    },
+    {
+      "id": "LP02",
+      "status": "verified_for_declared_scope",
+      "title": "Producer cannot choose the mathematical system",
+      "resolution": "Checker independently reconstructs the complete expected6-row system and root enclosure, checks request/context/problem digests, then exact nonnegative Farkas weights, zero normals and strictly negative rhs.",
+      "evidence": [
+        "wrong derived-problem digest rejected",
+        "negative/zero/unreduced/wrong-length weights rejected",
+        "unknown witness rejected",
+        "altered receipt outcome rejected by independent readback"
+      ]
+    },
+    {
+      "id": "LP03",
+      "status": "verified_for_declared_scope",
+      "title": "Canonical bytes and full source/environment/trust binding",
+      "resolution": "The separate closed pilot protocol rejects malformed/unsupported input. Source pins bind actual public bytes; actual interpreter/dependency/source/schema/limits are included in the frozen runtime identity.",
+      "evidence": [
+        "duplicate key/JSON numbers/noncanonical encoding rejected",
+        "invalid probabilities/rho/variance/precision rejected",
+        "changed source pin rejected",
+        "actual changed source copy makes cached CLI reuse fail closed",
+        "optimized interpreter and full-proof request rejected"
+      ]
+    },
+    {
+      "id": "LP04",
+      "status": "verified_for_declared_scope",
+      "title": "Durable cache and fenced execution",
+      "resolution": "Real SQLite/WAL transactions allow one active generation. Stale completion/checkpoint/renewal cannot replace the winner. Resume checks exact CAS bytes and diagnostic refs, and authorized_readback recomputes the small mathematical check even on a cache hit.",
+      "evidence": [
+        "simultaneous claims: one winner",
+        "stale lease after replacement rejected",
+        "duplicate completion exact-idempotent; changed bytes conflict",
+        "campaign deadline not reset on resume",
+        "fresh CLI then separate resume: same campaign/frozen digest/attempt count, both cache hits",
+        "corrupt cached receipt gives PILOT_NO_PASS"
+      ]
+    },
+    {
+      "id": "LP05",
+      "status": "verified_for_declared_scope",
+      "title": "Simple bounded exact algorithm and honest process profile",
+      "resolution": "Farkas checking uses O(m*d) exact rational operations for m6,d2. Producer tries only the two licensed strip directions; isqrt enclosures have exact square checks and perfect-rational-square handling. IO/digits/precision/wall limits are explicit. Windows does not claim POSIX CPU/address-space enforcement or full container isolation.",
+      "evidence": [
+        "isqrt and exact equality controls",
+        "resource-limit negative controls",
+        "separate producer/verifier subprocess CLI execution"
+      ]
+    },
+    {
+      "id": "LP06",
+      "status": "fixed_and_tested",
+      "title": "Windows CAS hard-link publication and leaked SQLite connections",
+      "resolution": "The original os.link publication failed with WinError5 in the writable test workspace. Windows now uses create-only os.rename; POSIX retains hard-link installation. Read/constructor SQLite connections use contextlib.closing.",
+      "evidence": [
+        "all5 durable-state tests now pass on this Windows host",
+        "immutable CAS corruption detection passes"
+      ]
+    },
+    {
+      "id": "LP07",
+      "status": "fixed_and_tested",
+      "title": "Atomic output temporary name exceeded Windows path limit",
+      "resolution": "The original outputbasename+UUID temporary path reached262 characters for an ordinary214-character work directory and failed before producing bytes. Short independent mkstemp names and explicit Windows path bounds replace it.",
+      "evidence": [
+        "direct failure reproduced at temp.open",
+        "all actual CLI adversarial cases now pass using the same nested workspace paths",
+        "implementer reports independent214-character directory regression"
+      ]
+    },
+    {
+      "id": "LP08",
+      "status": "fixed_and_tested",
+      "title": "Unsigned integer digit limit had a one-digit overrun",
+      "resolution": "The parser now counts digits after the optional minus; positive and negative2049-digit values are both rejected under the2048-digit limit.",
+      "evidence": [
+        "boundary positive/negative integer test"
+      ]
+    },
+    {
+      "id": "LP09",
+      "status": "fixed_and_reviewed",
+      "title": "Reject oversized IO before hashing or unbounded allocation",
+      "resolution": "CAS checks byte length before SHA. The source profile allows exactly3 named public files and reads at most1MiB+1 per file before rejecting; it no longer reads arbitrary source bytes without a cap.",
+      "evidence": [
+        "code review of fixed inventory and bounded read",
+        "implementer source-size regression passed",
+        "independent CLI source-drift regression passed"
+      ]
+    },
+    {
+      "id": "LP10",
+      "status": "fixed_and_tested",
+      "title": "TOML location must not grant a new campaign or deadline",
+      "origin": "Root post-freeze review; auditor checked the fix and added legacy-head coverage.",
+      "resolution": "Runner uses one constant local-pilot head per state directory rather than hashing the absolute TOML path. Identical relocated inputs reuse the same campaign/cache. Frozen content/profile drift still fails closed. An existing different/legacy head is incompatible_state without explicit fresh; the database is not mistaken for empty.",
+      "evidence": [
+        "new independent ledger regression: alternate locator without fresh rejected; explicit fresh allowed",
+        "real CLI relocation test: same campaign/frozen digest, both cache hits, attempts still2",
+        "source review: resume branch does not modify the original campaign deadline"
+      ]
+    }
+  ],
+  "reviewed_snapshot": {
+    "docs/implementation/LOCAL-PILOT-SPEC.md": "8cefb548461e8daf47e88d3d3f29b30e2cd069721d526da7b3ebb631b2c3bf5a",
+    "pyproject.toml": "9d703bc6ba9fcc2e8e21b1c8f9f226ad7da4aafb8028c35471a4f7b13eac8cec",
+    "schemas/local-pilot/candidate.schema.json": "d49f3697dab1428418b77cf32039da5460f80913845066d1d3e62b90bd29244d",
+    "schemas/local-pilot/derived-problem.schema.json": "29afbe01efe0b605d7a94c729e2eb316ab9b6df7f55b68882358bb9e5fd94f8f",
+    "schemas/local-pilot/problem.schema.json": "57bc07b3d28ecc597d8eec629f8cacc2c4fbf43aa5a8986002894673c8cf458f",
+    "schemas/local-pilot/protocol.schema.json": "97857cf1425e2ed42f99a37c4db9b57ba4c91e9cfeb8c5f6ed3bda28c73627ce",
+    "schemas/local-pilot/request.schema.json": "71d929501c24ee869db24b518721b872f61e1acd53a4da0e46fa1574fb62b386",
+    "schemas/local-pilot/source-manifest.schema.json": "6a975cd5dd8d5df03654947e8199453d144089626e2bbdabf2016f31cf9660d1",
+    "schemas/local-pilot/trust-profile.schema.json": "6d7105f21895d76278781a3745c124552affc9fd43f3118cfcb374aef2a50d66",
+    "schemas/local-pilot/verification-receipt.schema.json": "2c55618676b4abc119a6a4c84f59bc49890861b41b0def427d0e61d669ebc439",
+    "src/be/__init__.py": "0d3559479093a58ea996eb2bc2ebde2bbd1ff023a7b5d59279f28d77a0f69abd",
+    "src/be/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "src/be/cli.py": "d6b779706e813945d53f8e8025ae4b236b244751832b8e5e981be09e753ceea1",
+    "src/be/codec.py": "999d3080554f9028fe7487c753a3bec881d472986022f4cd47febd264b31c50f",
+    "src/be/errors.py": "9e3e7c68654f0e9f1aedba57fd23fa48e8022e111463b78dfe539db0cdf0ce7a",
+    "src/be/ledger.py": "904e693641b2a3168fe76935a42d2fcf7005d176eec017e9e56af0b59c206b92",
+    "src/be/producer.py": "a3bf0c9ca215097fd83d4dcf2e20f7de854d947cdd42e75ff1a2e7b31dc4c5b6",
+    "src/be/runner.py": "3332ff2344537547b725aa1373daa3cfc9af49f1c712de10f7412d5e9f83a42f",
+    "src/be/schema.py": "afe82869a8eb758e5747ec00862abad0cd87fe4ffccde028a0b23d7af88148d0",
+    "src/be/semantic.py": "541fa9a42e53236bf14cdae4b338fdfe7198a2d786147615c408a1de3b3defc2",
+    "src/be/store.py": "1cfe7cbf25ffaf46399c92fe4867adc9ea90c4dc65de23ec8c2247d3ee9b4810",
+    "src/be/worker.py": "d1d9329e860d5b2de5f89ef540bc0ba40c4cab2329a641509fad83cdf7adae2d",
+    "tests/test_adversarial.py": "0dcebe384c29a444e2beefc38e033898161ef7fac7f639f628022bbfeb89cd85",
+    "tools/requirements-local-pilot.txt": "73d4095d731a23e2b3a9460832de3efb255d0ad94d6d7d3a628741faf912098c",
+    "tests/test_recovery.py": "7b1c26673fb7204ae1bbf4b23e0f31e9236431372ff208998630086915cab8f7"
+  },
+  "limits": [
+    "Only one point probability with exact zero centered conditional second moments is covered.",
+    "PILOT_PASS is a conditional infeasibility statement; it is not a full COUNT forest or Berry--Esseen proof.",
+    "Python/Fraction checker correctness and named analytic interpretation remain in the explicit trusted base.",
+    "Windows profile lacks a hard OS RAM/cgroup guarantee; subprocess separation is not a container security sandbox.",
+    "Cloud, whole-proof orchestration and all production family adapters remain unimplemented here.",
+    "Clean Git-copy/public installation check is coordinated separately by root, not claimed as part of these independent tests."
+  ]
+}

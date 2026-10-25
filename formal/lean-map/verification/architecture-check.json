@@ -4,7 +4,7 @@
   "numerical_proof_pass": false,
   "production_runner_executed": false,
   "paid_cloud_resources_created": false,
-  "checked_at": "2026-10-25T18:55:26.789522+00:00",
+  "checked_at": "2026-10-25T19:22:05.936556+00:00",
   "validation_environment": {
     "jsonschema": "4.23.0",
     "referencing": "0.36.2",
@@ -14,7 +14,7 @@
   },
   "schema_count": 29,
   "offline_schema_refs_resolved": 466,
-  "local_document_links_checked": 92,
+  "local_document_links_checked": 95,
   "codec_fixture_vectors": 5,
   "scope_identities_checked": 1,
   "claim_identities_checked": 1,

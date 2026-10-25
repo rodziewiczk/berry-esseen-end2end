@@ -1,5 +1,18 @@
 # Plan: execution specification, then implementation
 
+## Executable local slice
+
+`implementation/local-pilot-v1` now implements the
+[first full local path](implementation/README.md): source-bound zero-noise
+joint-cubic context -> untrusted Farkas producer -> independent exact checker
+-> durable CAS/SQLite completion -> scoped report and resume. Its result is
+`PILOT_PASS`, with `full_proof_pass=false`. The
+[mathematical pilot contract](implementation/LOCAL-PILOT-SPEC.md) fixes its
+limited conditional meaning. Full proof families, cloud execution and the
+global theorem still require the subsequent architecture gates.
+
+## Preserved architecture checkpoint
+
 The mathematical-interface checkpoint below is preserved as the foundation.
 Current work on `architecture/execution-v1` is the
 [execution architecture](architecture/README.md): protocol/types, CLI and

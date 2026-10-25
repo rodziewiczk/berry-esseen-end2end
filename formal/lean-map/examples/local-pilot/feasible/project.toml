@@ -1,0 +1,19 @@
+# Symmetric Bernoulli control: the necessary system remains feasible.
+# Expected result: no_contradiction; no pilot infeasibility PASS.
+schema_version = "be.local-pilot/1"
+kind = "empty-joint-cubics-zero-noise"
+problem = "problem.json"
+source_manifest = "../source-manifest.json"
+trust_profile = "../trust-profile.json"
+state_dir = ".be-local-pilot"
+
+[limits]
+wall_seconds = "30"
+campaign_wall_seconds = "300"
+cpu_seconds = "30"
+memory_bytes = "536870912"
+output_bytes = "1048576"
+log_bytes = "262144"
+lease_seconds = "30"
+heartbeat_seconds = "5"
+maximum_attempts = "3"

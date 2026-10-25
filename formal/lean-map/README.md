@@ -2,11 +2,19 @@
 
 **Concrete mathematical contracts → checked conditional assembly → implementation.**
 
+**Executable local pilot on `implementation/local-pilot-v1`:**
+[install and run](docs/implementation/README.md) the complete scoped path
+`be run examples/local-pilot/project.toml --resume`.
+It produces and independently verifies an exact source-bound Farkas
+certificate, persists results and resumes from checked cache. Its
+`PILOT_PASS` is limited to the documented moment context;
+`full_proof_pass` remains false.
+
 **Current work on `architecture/execution-v1`:** the
 [execution specification](docs/architecture/README.md) defines one CLI,
 source-bound cache, independent verification, complete PASS conditions,
 parallel Google Cloud execution and the campaign budget/deadline.
-The production runner is the next implementation stage.
+The complete production proof runner remains a later implementation stage.
 
 ![Execution architecture: one CLI, parallel compute and complete proof acceptance](assets/execution-map.svg)
 

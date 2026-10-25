@@ -4,8 +4,17 @@ __pycache__/
 *.pyc
 .DS_Store
 Thumbs.db
+.be/
+.venv/
+*.egg-info/
+build/
+dist/
+.test_tmp/
+.be-local-pilot/
+work/
 
 # Keep the small, source-bound verification records in the companion branch too.
 !check-All.log
 !check-Core.log
 !verification/check-baseline27.log
+!verification/local-pilot-check.log

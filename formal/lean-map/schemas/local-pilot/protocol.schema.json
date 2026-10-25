@@ -1,0 +1,571 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://be-local-pilot.invalid/v1/protocol.schema.json",
+  "$defs": {
+    "Nat": {
+      "type": "string",
+      "pattern": "^(0|[1-9][0-9]*)$"
+    },
+    "Int": {
+      "type": "string",
+      "pattern": "^(0|-?[1-9][0-9]*)$"
+    },
+    "Positive": {
+      "type": "string",
+      "pattern": "^[1-9][0-9]*$"
+    },
+    "Digest": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "Q": {
+      "type": "object",
+      "properties": {
+        "num": {
+          "$ref": "#/$defs/Int"
+        },
+        "den": {
+          "$ref": "#/$defs/Positive"
+        }
+      },
+      "required": [
+        "num",
+        "den"
+      ],
+      "additionalProperties": false
+    },
+    "Interval": {
+      "type": "object",
+      "properties": {
+        "lower": {
+          "$ref": "#/$defs/Q"
+        },
+        "upper": {
+          "$ref": "#/$defs/Q"
+        }
+      },
+      "required": [
+        "lower",
+        "upper"
+      ],
+      "additionalProperties": false
+    },
+    "Context": {
+      "type": "object",
+      "properties": {
+        "p": {
+          "$ref": "#/$defs/Q"
+        },
+        "rho": {
+          "$ref": "#/$defs/Interval"
+        },
+        "conditional_variance0": {
+          "$ref": "#/$defs/Q"
+        },
+        "conditional_variance1": {
+          "$ref": "#/$defs/Q"
+        }
+      },
+      "required": [
+        "p",
+        "rho",
+        "conditional_variance0",
+        "conditional_variance1"
+      ],
+      "additionalProperties": false
+    },
+    "Problem": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.local-pilot/1"
+        },
+        "artifact_kind": {
+          "const": "problem"
+        },
+        "context": {
+          "$ref": "#/$defs/Context"
+        },
+        "numeric_policy": {
+          "type": "object",
+          "properties": {
+            "sqrt_bits": {
+              "$ref": "#/$defs/Positive"
+            }
+          },
+          "required": [
+            "sqrt_bits"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "context",
+        "numeric_policy"
+      ],
+      "additionalProperties": false
+    },
+    "SourceManifest": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.local-pilot/1"
+        },
+        "artifact_kind": {
+          "const": "source_manifest"
+        },
+        "rule_id": {
+          "const": "count-joint-cubics-zero-variance-v1"
+        },
+        "analytic_premises": {
+          "const": [
+            "standardized-binary-decomposition",
+            "zero-conditional-second-moment-forces-zero-cubic",
+            "same-law-absolute-third-moment-identity"
+          ]
+        },
+        "source_files": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "path": {
+                "enum": [
+                  "BEMap/Binary.lean",
+                  "BEMap/Physical.lean",
+                  "docs/contracts/COUNT-RULES.md"
+                ]
+              },
+              "bytes_digest": {
+                "$ref": "#/$defs/Digest"
+              },
+              "size_bytes": {
+                "$ref": "#/$defs/Nat"
+              }
+            },
+            "required": [
+              "path",
+              "bytes_digest",
+              "size_bytes"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1,
+          "maxItems": 3
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "rule_id",
+        "analytic_premises",
+        "source_files"
+      ],
+      "additionalProperties": false
+    },
+    "TrustProfile": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.local-pilot/1"
+        },
+        "artifact_kind": {
+          "const": "trust_profile"
+        },
+        "profile_id": {
+          "const": "local-pilot-source-accepted-fraction-v1"
+        },
+        "source_manifest_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "analytic_policy": {
+          "const": "explicit_source_accepted"
+        },
+        "numeric_backend": {
+          "const": "python-fraction-independent-checker-v1"
+        },
+        "proof_scope": {
+          "const": "zero-conditional-variance-moment-feasibility-only"
+        },
+        "conditional_only": {
+          "const": true
+        },
+        "full_proof_pass": {
+          "const": false
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "profile_id",
+        "source_manifest_digest",
+        "analytic_policy",
+        "numeric_backend",
+        "proof_scope",
+        "conditional_only",
+        "full_proof_pass"
+      ],
+      "additionalProperties": false
+    },
+    "RequestCore": {
+      "type": "object",
+      "properties": {
+        "problem": {
+          "$ref": "#/$defs/Problem"
+        },
+        "source_manifest": {
+          "$ref": "#/$defs/SourceManifest"
+        },
+        "trust_profile": {
+          "$ref": "#/$defs/TrustProfile"
+        }
+      },
+      "required": [
+        "problem",
+        "source_manifest",
+        "trust_profile"
+      ],
+      "additionalProperties": false
+    },
+    "Request": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.local-pilot/1"
+        },
+        "artifact_kind": {
+          "const": "request"
+        },
+        "request_id": {
+          "$ref": "#/$defs/Digest"
+        },
+        "core": {
+          "$ref": "#/$defs/RequestCore"
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "request_id",
+        "core"
+      ],
+      "additionalProperties": false
+    },
+    "Row": {
+      "type": "object",
+      "properties": {
+        "coefficients": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Q"
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "rhs": {
+          "$ref": "#/$defs/Q"
+        }
+      },
+      "required": [
+        "coefficients",
+        "rhs"
+      ],
+      "additionalProperties": false
+    },
+    "DerivedProblem": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.local-pilot/1"
+        },
+        "artifact_kind": {
+          "const": "derived_problem"
+        },
+        "request_id": {
+          "$ref": "#/$defs/Digest"
+        },
+        "context_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "rule_id": {
+          "const": "count-joint-cubics-zero-variance-v1"
+        },
+        "variables": {
+          "const": [
+            "conditional_third0",
+            "conditional_third1"
+          ]
+        },
+        "root_enclosure": {
+          "type": "object",
+          "properties": {
+            "sqrt_v_lower": {
+              "$ref": "#/$defs/Q"
+            },
+            "sqrt_v_upper": {
+              "$ref": "#/$defs/Q"
+            },
+            "h3_lower": {
+              "$ref": "#/$defs/Q"
+            },
+            "h3_upper": {
+              "$ref": "#/$defs/Q"
+            }
+          },
+          "required": [
+            "sqrt_v_lower",
+            "sqrt_v_upper",
+            "h3_lower",
+            "h3_upper"
+          ],
+          "additionalProperties": false
+        },
+        "rows": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Row"
+          },
+          "minItems": 6,
+          "maxItems": 6
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "request_id",
+        "context_digest",
+        "rule_id",
+        "variables",
+        "root_enclosure",
+        "rows"
+      ],
+      "additionalProperties": false
+    },
+    "Witness": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "const": "farkas"
+            },
+            "multipliers": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Q"
+              },
+              "minItems": 6,
+              "maxItems": 6
+            }
+          },
+          "required": [
+            "kind",
+            "multipliers"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "const": "relaxed_feasible_point"
+            },
+            "point": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Q"
+              },
+              "minItems": 2,
+              "maxItems": 2
+            }
+          },
+          "required": [
+            "kind",
+            "point"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "Candidate": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.local-pilot/1"
+        },
+        "artifact_kind": {
+          "const": "candidate"
+        },
+        "request_id": {
+          "$ref": "#/$defs/Digest"
+        },
+        "context_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "problem_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "witness": {
+          "$ref": "#/$defs/Witness"
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "request_id",
+        "context_digest",
+        "problem_digest",
+        "witness"
+      ],
+      "additionalProperties": false
+    },
+    "ReceiptCore": {
+      "type": "object",
+      "properties": {
+        "request_id": {
+          "$ref": "#/$defs/Digest"
+        },
+        "candidate_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "context_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "expected_problem_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "source_manifest_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "trust_profile_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "outcome": {
+          "enum": [
+            "infeasible",
+            "no_contradiction",
+            "rejected"
+          ]
+        },
+        "reason_code": {
+          "enum": [
+            "candidate_schema_invalid",
+            "request_binding_mismatch",
+            "context_binding_mismatch",
+            "problem_binding_mismatch",
+            "invalid_multiplier",
+            "farkas_not_contradictory",
+            "farkas_contradiction_verified",
+            "invalid_relaxed_point",
+            "necessary_system_not_excluded"
+          ]
+        },
+        "farkas_totals": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "normal": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/Q"
+                  },
+                  "minItems": 2,
+                  "maxItems": 2
+                },
+                "rhs": {
+                  "$ref": "#/$defs/Q"
+                }
+              },
+              "required": [
+                "normal",
+                "rhs"
+              ],
+              "additionalProperties": false
+            }
+          ]
+        },
+        "numeric_backend": {
+          "const": "python-fraction-independent-checker-v1"
+        },
+        "proof_scope": {
+          "const": "zero-conditional-variance-moment-feasibility-only"
+        },
+        "conditional": {
+          "const": true
+        },
+        "full_proof_pass": {
+          "const": false
+        }
+      },
+      "required": [
+        "request_id",
+        "candidate_digest",
+        "context_digest",
+        "expected_problem_digest",
+        "source_manifest_digest",
+        "trust_profile_digest",
+        "outcome",
+        "reason_code",
+        "farkas_totals",
+        "numeric_backend",
+        "proof_scope",
+        "conditional",
+        "full_proof_pass"
+      ],
+      "additionalProperties": false
+    },
+    "Receipt": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.local-pilot/1"
+        },
+        "artifact_kind": {
+          "const": "verification_receipt"
+        },
+        "receipt_id": {
+          "$ref": "#/$defs/Digest"
+        },
+        "core": {
+          "$ref": "#/$defs/ReceiptCore"
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "receipt_id",
+        "core"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "oneOf": [
+    {
+      "$ref": "#/$defs/Problem"
+    },
+    {
+      "$ref": "#/$defs/SourceManifest"
+    },
+    {
+      "$ref": "#/$defs/TrustProfile"
+    },
+    {
+      "$ref": "#/$defs/Request"
+    },
+    {
+      "$ref": "#/$defs/DerivedProblem"
+    },
+    {
+      "$ref": "#/$defs/Candidate"
+    },
+    {
+      "$ref": "#/$defs/Receipt"
+    }
+  ]
+}

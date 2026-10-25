@@ -1,0 +1,1 @@
+{"artifact_kind":"problem","context":{"conditional_variance0":{"den":"1","num":"0"},"conditional_variance1":{"den":"1","num":"0"},"p":{"den":"2","num":"1"},"rho":{"lower":{"den":"1","num":"1"},"upper":{"den":"1","num":"1"}}},"numeric_policy":{"sqrt_bits":"128"},"schema_version":"be.local-pilot/1"}

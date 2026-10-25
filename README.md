@@ -2,49 +2,59 @@
 
 Authors: Kacper Rodziewicz and Bartosz Kołodziejek.
 
-## Execution architecture v1 · specification before implementation
+## Executable local pilot v0.1
 
-![One CLI, parallel computation and complete proof acceptance](formal/lean-map/assets/execution-map.svg)
+The first complete local path is implemented on `implementation/local-pilot-v1`:
+source-bound input -> producer subprocess -> independent exact checker ->
+immutable cache and fenced SQLite completion -> scoped report and resume.
 
-[Architecture specification](formal/lean-map/docs/architecture/README.md) ·
-[Full architecture graph](formal/lean-map/assets/execution-map.svg) ·
-[Adversarial audit](formal/lean-map/docs/architecture/AUDIT.md) ·
-[Implementation acceptance plan](formal/lean-map/docs/architecture/06-validation-and-rollout.md)
+```mermaid
+flowchart LR
+  CLI[One CLI] --> F[Frozen context and profile]
+  F --> P[Producer]
+  P --> C[Farkas candidate]
+  C --> V[Independent exact verifier]
+  F --> V
+  V --> R[PILOT_PASS or PILOT_NO_PASS]
+  S[(CAS + SQLite)] -->|checked resume| V
+  P --> S
+  V --> S
+```
 
-This branch specifies one CLI, exact data/receipt formats, source-bound cache,
-complete proof acceptance, parallel execution and Google Cloud resource/cost
-controls. The user allocation is PLN75 startup plus PLN550 for one 12-hour
-main window. Local public reproduction has a separate no-paid policy and
-does not require the author's cloud account.
+[Install and run](formal/lean-map/docs/implementation/README.md) ·
+[Exact pilot mathematics](formal/lean-map/docs/implementation/LOCAL-PILOT-SPEC.md) ·
+[Adversarial implementation audit](formal/lean-map/docs/implementation/LOCAL-PILOT-AUDIT.md) ·
+[Recorded local checks](formal/lean-map/verification/local-pilot-check.json)
 
-The [reproducibility contract](formal/lean-map/docs/architecture/07-reproducibility.md)
-requires complete public/offline input closure and a clean independent run.
-Missing production capsules, exact environment builds, family adapters,
-current quotes and actual cloud safety trials are explicit release gates.
-No production runner or paid cloud proof is claimed by this checkpoint.
+After installing the local package from `formal/lean-map` with CPython 3.12:
 
-## Mathematical interfaces v0.2 · checked conditional Lean assembly
+```text
+be run examples/local-pilot/project.toml --resume
+```
 
-[Mathematical proof graph](formal/lean-map/assets/proof-map.svg) ·
-[Detailed interface graph](formal/lean-map/assets/interface-map.svg) ·
-[Source-linked declaration guide](formal/lean-map/docs/proof-map.md)
+The supported rule is the exact zero-conditional-variance joint-cubic
+specialization. The inconsistent p=1/4, rho=1 context gives `PILOT_PASS`;
+the Bernoulli equality and wide-rho controls give `PILOT_NO_PASS`. Repeating
+the command reuses checked results without launching new producer/verifier
+attempts. The report always retains `full_proof_pass=false`.
 
-The [five-part mathematical specification](formal/lean-map/docs/contracts/README.md)
-defines actual-law states, exact transitions, complete covers, certificate
-semantics and final conditional assembly. Precisely stated analytic results
-are accepted parameters. Numerical meanings require the authorized checker
-and declared trust profile; JSON PASS does not construct a Lean proof term.
-Finite 1–48 and the independent 49+ tail meet at the upper bound; sharpness also
-requires the separate lower approximation.
+This is a real limited implementation. Full COUNT forests, all proof families,
+cloud execution and the whole Berry–Esseen theorem remain separate milestones.
+No paid cloud resources were launched for this local slice.
 
-[Source-bound compiler report](formal/lean-map/check-All.json) ·
-[Compiler signatures and axiom audit](formal/lean-map/check-All.log) ·
-[Architecture format checks](formal/lean-map/verification/architecture-check.json) ·
+## Execution architecture and mathematical interfaces
+
+[Architecture specification and graph](formal/lean-map/docs/architecture/README.md) ·
+[Full mathematical proof graph](formal/lean-map/assets/proof-map.svg) ·
+[Detailed mathematical interface graph](formal/lean-map/assets/interface-map.svg) ·
 [Current plan](formal/lean-map/docs/plan.md)
 
-The 29 Lean sources remain identical to the previously checked mathematical
-checkpoint. The architecture checks validate formats/fixtures and source
-hashes; they are not a fresh numerical proof or a new Lean compilation.
+The architecture specifies one full-proof CLI, parallel CPU execution,
+source-bound cache, accepted analytic premises, complete coverage and the
+Google Cloud budget/shutdown policy. The executable pilot implements its
+first scoped vertical slice. The 29 Lean sources and their previously checked
+conditional assembly remain unchanged; no new numerical Lean decoder or
+unconditional theorem is claimed.
 
 
 ---
