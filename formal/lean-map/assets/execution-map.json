@@ -1,0 +1,224 @@
+{
+  "format": "be-execution-map-v1",
+  "status": "specified-not-implemented",
+  "nodes": [
+    {
+      "id": "project",
+      "label": "One CLI + frozen project",
+      "x": 52,
+      "y": 292,
+      "lines": [
+        "be run project.toml --resume",
+        "Exact theorem, sources, trust and policy"
+      ],
+      "doc": "docs/architecture/01-protocol-and-types.md",
+      "kind": "control"
+    },
+    {
+      "id": "plan",
+      "label": "Planner + dependency graph",
+      "x": 536,
+      "y": 292,
+      "lines": [
+        "Mathematical AND / OR coverage",
+        "Separate runtime jobs; no cycles"
+      ],
+      "doc": "docs/architecture/02-execution.md",
+      "kind": "control"
+    },
+    {
+      "id": "schedule",
+      "label": "Parallel scheduler",
+      "x": 1020,
+      "y": 292,
+      "lines": [
+        "Legal chunks; measured CPU scaling",
+        "Reserve time, memory and money"
+      ],
+      "doc": "docs/architecture/05-compute-and-deployment.md",
+      "kind": "control"
+    },
+    {
+      "id": "produce",
+      "label": "Numerical producers",
+      "x": 52,
+      "y": 520,
+      "lines": [
+        "Independent roots / panels / cells",
+        "Candidate bytes; no proof authority"
+      ],
+      "doc": "docs/architecture/02-execution.md",
+      "kind": "candidate"
+    },
+    {
+      "id": "verify",
+      "label": "Independent verification",
+      "x": 536,
+      "y": 520,
+      "lines": [
+        "Exact statement + complete replay",
+        "Source / arithmetic / trust bindings"
+      ],
+      "doc": "docs/architecture/04-checkers-and-lean.md",
+      "kind": "acceptance"
+    },
+    {
+      "id": "cover",
+      "label": "Complete coverage + assembly",
+      "x": 1020,
+      "y": 520,
+      "lines": [
+        "Every required root, seam and tail",
+        "Exact dependency receipt closure"
+      ],
+      "doc": "docs/architecture/04-checkers-and-lean.md",
+      "kind": "acceptance"
+    },
+    {
+      "id": "premises",
+      "label": "Explicit analytic premises",
+      "x": 52,
+      "y": 748,
+      "lines": [
+        "Exact source statements and gates",
+        "Accepted premises remain visible"
+      ],
+      "doc": "docs/contracts/README.md",
+      "kind": "premise"
+    },
+    {
+      "id": "lean",
+      "label": "Lean interface + trust bridge",
+      "x": 536,
+      "y": 748,
+      "lines": [
+        "Checked conditional composition",
+        "JSON decoding is not a proof term"
+      ],
+      "doc": "docs/architecture/04-checkers-and-lean.md",
+      "kind": "premise"
+    },
+    {
+      "id": "verdict",
+      "label": "Final report: PASS / NO PASS",
+      "x": 1020,
+      "y": 748,
+      "lines": [
+        "PASS only for the requested whole",
+        "Otherwise: reasons + remaining work"
+      ],
+      "doc": "docs/architecture/02-execution.md",
+      "kind": "acceptance"
+    },
+    {
+      "id": "cas",
+      "label": "Immutable bytes + exact cache",
+      "x": 52,
+      "y": 1040,
+      "lines": [
+        "Local CAS / Cloud Storage",
+        "Candidates, receipts and checkpoints differ"
+      ],
+      "doc": "docs/architecture/03-storage-and-recovery.md",
+      "kind": "infra"
+    },
+    {
+      "id": "ledger",
+      "label": "Transactional runtime ledger",
+      "x": 536,
+      "y": 1040,
+      "lines": [
+        "SQLite / Firestore; fenced attempts",
+        "Outbox, reservations and recovery"
+      ],
+      "doc": "docs/architecture/03-storage-and-recovery.md",
+      "kind": "infra"
+    },
+    {
+      "id": "stop",
+      "label": "Independent stop + liability",
+      "x": 1020,
+      "y": 1040,
+      "lines": [
+        "Absolute deadline; resource inventory",
+        "Confirm shutdown; retain cost reserve"
+      ],
+      "doc": "docs/architecture/05-compute-and-deployment.md",
+      "kind": "infra"
+    }
+  ],
+  "edges": [
+    {
+      "from": "project",
+      "to": "plan",
+      "meaning": "freeze and validate",
+      "class": "runtime"
+    },
+    {
+      "from": "plan",
+      "to": "schedule",
+      "meaning": "ready legal work",
+      "class": "runtime"
+    },
+    {
+      "from": "schedule",
+      "to": "produce",
+      "meaning": "dispatch admitted tasks",
+      "class": "runtime"
+    },
+    {
+      "from": "produce",
+      "to": "verify",
+      "meaning": "untrusted candidate",
+      "class": "candidate"
+    },
+    {
+      "from": "verify",
+      "to": "cover",
+      "meaning": "accepted scoped receipts",
+      "class": "acceptance"
+    },
+    {
+      "from": "premises",
+      "to": "lean",
+      "meaning": "explicit analytic assumptions",
+      "class": "premise"
+    },
+    {
+      "from": "cover",
+      "to": "verdict",
+      "meaning": "complete numerical evidence",
+      "class": "acceptance"
+    },
+    {
+      "from": "lean",
+      "to": "verdict",
+      "meaning": "conditional theorem linkage",
+      "class": "premise"
+    },
+    {
+      "from": "cas",
+      "to": "produce",
+      "meaning": "immutable inputs and candidate reuse",
+      "class": "support"
+    },
+    {
+      "from": "cas",
+      "to": "verify",
+      "meaning": "exact verification-key reuse",
+      "class": "support"
+    },
+    {
+      "from": "ledger",
+      "to": "schedule",
+      "meaning": "transactional dispatch authority",
+      "class": "support"
+    },
+    {
+      "from": "stop",
+      "to": "schedule",
+      "meaning": "close admission and cancel owned resources",
+      "class": "support"
+    }
+  ]
+}

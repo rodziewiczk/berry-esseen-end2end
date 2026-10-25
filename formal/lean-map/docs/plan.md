@@ -1,4 +1,20 @@
-# Plan at the mathematical-interface checkpoint
+# Plan: execution specification, then implementation
+
+The mathematical-interface checkpoint below is preserved as the foundation.
+Current work on `architecture/execution-v1` is the
+[execution architecture](architecture/README.md): protocol/types, CLI and
+scheduling, durable storage and cache, checker/Lean linkage, Google Cloud,
+budget/shutdown and implementation acceptance scenarios. Two architecture
+views are reviewed by an independent adversarial auditor.
+
+The user contract is one command, `be run project.toml --resume`, with a final
+PASS only for complete acceptance of the requested theorem under its declared
+premises. Maximize useful verified parallel work within PLN75 startup and
+PLN550 for one 12-hour main window. No paid resources are started during the
+specification phase. See the [rollout gates](architecture/06-validation-and-rollout.md)
+for the subsequent implementation sequence and evidence required before scale.
+
+## Preserved mathematical-interface checkpoint
 
 Checkpoint: 25 October 2026, version 0.2. The agreed order is:
 

@@ -2,36 +2,50 @@
 
 Authors: Kacper Rodziewicz and Bartosz Kołodziejek.
 
+## Execution architecture v1 · specification before implementation
+
+![One CLI, parallel computation and complete proof acceptance](formal/lean-map/assets/execution-map.svg)
+
+[Architecture specification](formal/lean-map/docs/architecture/README.md) ·
+[Full architecture graph](formal/lean-map/assets/execution-map.svg) ·
+[Adversarial audit](formal/lean-map/docs/architecture/AUDIT.md) ·
+[Implementation acceptance plan](formal/lean-map/docs/architecture/06-validation-and-rollout.md)
+
+This branch specifies one CLI, exact data/receipt formats, source-bound cache,
+complete proof acceptance, parallel execution and Google Cloud resource/cost
+controls. The user allocation is PLN75 startup plus PLN550 for one 12-hour
+main window. Local public reproduction has a separate no-paid policy and
+does not require the author's cloud account.
+
+The [reproducibility contract](formal/lean-map/docs/architecture/07-reproducibility.md)
+requires complete public/offline input closure and a clean independent run.
+Missing production capsules, exact environment builds, family adapters,
+current quotes and actual cloud safety trials are explicit release gates.
+No production runner or paid cloud proof is claimed by this checkpoint.
+
 ## Mathematical interfaces v0.2 · checked conditional Lean assembly
 
-![Berry–Esseen: typed finite methods and the independent tail](formal/lean-map/assets/proof-map.svg)
-
-[Full proof graph](formal/lean-map/assets/proof-map.svg) ·
+[Mathematical proof graph](formal/lean-map/assets/proof-map.svg) ·
 [Detailed interface graph](formal/lean-map/assets/interface-map.svg) ·
-[Source-linked guide](formal/lean-map/docs/proof-map.md) ·
-[Standalone Lean repository](https://github.com/rodziewiczk/berry-esseen-lean-map)
+[Source-linked declaration guide](formal/lean-map/docs/proof-map.md)
 
-This branch contains a detailed [mathematical specification and Lean project](formal/lean-map/README.md):
-actual-law states, exact transition contracts, complete covers, certificate
-semantics and final conditional assembly. Start with the
-[five-part specification](formal/lean-map/docs/contracts/README.md),
-[source-alignment audit](formal/lean-map/docs/contracts/AUDIT.md) and
-[current plan](formal/lean-map/docs/plan.md).
+The [five-part mathematical specification](formal/lean-map/docs/contracts/README.md)
+defines actual-law states, exact transitions, complete covers, certificate
+semantics and final conditional assembly. Precisely stated analytic results
+are accepted parameters. Numerical meanings require the authorized checker
+and declared trust profile; JSON PASS does not construct a Lean proof term.
+Finite 1–48 and the independent 49+ tail meet at the upper bound; sharpness also
+requires the separate lower approximation.
 
-Green means a **checked implication** from explicit inputs. Precisely stated
-analytic results are accepted parameters at this milestone. Production
-numerical checkers, actual data and certificates remain to supply. The finite
-1–48 branch and independent49+ tail meet at the upper bound; sharpness takes
-a separate lower approximation. The detailed source contracts include
-ROOT4's weak target, coherent LOW/HIGH, ordinary COUNT and the exact mixed
-25/24 scopes and reference rules.
+[Source-bound compiler report](formal/lean-map/check-All.json) ·
+[Compiler signatures and axiom audit](formal/lean-map/check-All.log) ·
+[Architecture format checks](formal/lean-map/verification/architecture-check.json) ·
+[Current plan](formal/lean-map/docs/plan.md)
 
-[Full source-bound compiler report](formal/lean-map/check-All.json) ·
-[Signatures and axiom audit](formal/lean-map/check-All.log) ·
-[Exact final statement](formal/lean-map/docs/mathematical-contracts.md)
+The 29 Lean sources remain identical to the previously checked mathematical
+checkpoint. The architecture checks validate formats/fixtures and source
+hashes; they are not a fresh numerical proof or a new Lean compilation.
 
-The present stage is the mathematical interface and conditional Lean skeleton.
-Execution design and the production CLI follow these fixed contracts.
 
 ---
 

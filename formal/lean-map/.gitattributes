@@ -8,3 +8,7 @@
 *.svg text eol=lf
 *.mmd text eol=lf
 *.png binary
+# Preserve the exact bytes named by protocol fixture ArtifactRefs on all hosts.
+schemas/architecture/*.schema.json -text whitespace=trailing-space,space-before-tab,cr-at-eol
+examples/architecture/**/*.json -text
+examples/architecture/*.json -text

@@ -1,0 +1,431 @@
+{
+  "scope": "architecture schemas, format fixtures and preserved Lean source hashes",
+  "architecture_checks_passed": true,
+  "numerical_proof_pass": false,
+  "production_runner_executed": false,
+  "paid_cloud_resources_created": false,
+  "checked_at": "2026-10-25T18:55:26.789522+00:00",
+  "validation_environment": {
+    "jsonschema": "4.23.0",
+    "referencing": "0.36.2",
+    "attrs": "25.1.0",
+    "jsonschema-specifications": "2024.10.1",
+    "rpds-py": "0.23.1"
+  },
+  "schema_count": 29,
+  "offline_schema_refs_resolved": 466,
+  "local_document_links_checked": 92,
+  "codec_fixture_vectors": 5,
+  "scope_identities_checked": 1,
+  "claim_identities_checked": 1,
+  "schema_bundle_identities_checked": 4,
+  "resolved_specification_findings": 20,
+  "audit_snapshot_files_checked": 42,
+  "fixtures": [
+    {
+      "path": "support/kernel.json",
+      "schema": null,
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_asset_no_acceptance"
+    },
+    {
+      "path": "support/environment.json",
+      "schema": null,
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_asset_no_acceptance"
+    },
+    {
+      "path": "support/execution-profile.json",
+      "schema": null,
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_asset_no_acceptance"
+    },
+    {
+      "path": "support/precision.json",
+      "schema": null,
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_asset_no_acceptance"
+    },
+    {
+      "path": "support/search.json",
+      "schema": null,
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_asset_no_acceptance"
+    },
+    {
+      "path": "support/issuer-policy.json",
+      "schema": null,
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_asset_no_acceptance"
+    },
+    {
+      "path": "support/dependency-policy.json",
+      "schema": null,
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_asset_no_acceptance"
+    },
+    {
+      "path": "support/scope-policy.json",
+      "schema": null,
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_asset_no_acceptance"
+    },
+    {
+      "path": "support/watchdog.json",
+      "schema": null,
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_asset_no_acceptance"
+    },
+    {
+      "path": "support/quote-policy.json",
+      "schema": null,
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_asset_no_acceptance"
+    },
+    {
+      "path": "support/retention.json",
+      "schema": null,
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_asset_no_acceptance"
+    },
+    {
+      "path": "support/analytic-rules.json",
+      "schema": null,
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_asset_no_acceptance"
+    },
+    {
+      "path": "support/lean-source-manifest.json",
+      "schema": null,
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_asset_no_acceptance"
+    },
+    {
+      "path": "support/schema-bundle-count-context.json",
+      "schema": null,
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_asset_no_acceptance"
+    },
+    {
+      "path": "support/schema-bundle-claim.json",
+      "schema": null,
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_asset_no_acceptance"
+    },
+    {
+      "path": "support/schema-bundle-count-certificate-payload.json",
+      "schema": null,
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_asset_no_acceptance"
+    },
+    {
+      "path": "count-context.json",
+      "schema": "count-context.schema.json",
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_context_no_acquisition_proof"
+    },
+    {
+      "path": "count-scope-ancestor.json",
+      "schema": "count-scope.schema.json",
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_original_count5_scope"
+    },
+    {
+      "path": "statement.json",
+      "schema": "statement.schema.json",
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_not_an_accepted_statement"
+    },
+    {
+      "path": "support/plane-derivation.json",
+      "schema": null,
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_asset_no_acceptance"
+    },
+    {
+      "path": "farkas-problem-expected.json",
+      "schema": "farkas-problem.schema.json",
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "toy_expected_feasible_system_not_a_law_derivation"
+    },
+    {
+      "path": "farkas-problem-unbound.json",
+      "schema": "farkas-problem.schema.json",
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "unrelated_inconsistent_system"
+    },
+    {
+      "path": "farkas-trace-unbound.json",
+      "schema": "farkas-trace.schema.json",
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "arithmetic_valid_but_unbound_to_expected_problem"
+    },
+    {
+      "path": "count-payload-ancestor-unbound.json",
+      "schema": "count-certificate-payload.schema.json",
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "reject_unbound_farkas_problem"
+    },
+    {
+      "path": "job-spec.json",
+      "schema": "job-spec.schema.json",
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_job_not_dispatched"
+    },
+    {
+      "path": "candidate-unbound-farkas.json",
+      "schema": "candidate.schema.json",
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "untrusted_candidate_only"
+    },
+    {
+      "path": "claim-unaccepted.json",
+      "schema": "claim.schema.json",
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "unaccepted_candidate_claim"
+    },
+    {
+      "path": "certificate-unbound-farkas.json",
+      "schema": "certificate.schema.json",
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "reject_unbound_farkas_problem"
+    },
+    {
+      "path": "trust-profile.json",
+      "schema": "trust-profile.schema.json",
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_not_an_authorized_profile"
+    },
+    {
+      "path": "verification-rejected-unbound-farkas.json",
+      "schema": "verification-receipt.schema.json",
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_rejection_no_authority_seal"
+    },
+    {
+      "path": "support/mathematical-manifest.json",
+      "schema": null,
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_asset_no_acceptance"
+    },
+    {
+      "path": "task-graph.json",
+      "schema": "task-graph.schema.json",
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_partial_graph_not_full_proof"
+    },
+    {
+      "path": "budget-policy.json",
+      "schema": "budget-policy.schema.json",
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_policy_not_paid_run_authorization"
+    },
+    {
+      "path": "budget-policy-local.json",
+      "schema": "budget-policy.schema.json",
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "local_only_no_cloud_activation"
+    },
+    {
+      "path": "run-control-planned.json",
+      "schema": "run-control.schema.json",
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "unarmed_no_t0_no_paid_resources"
+    },
+    {
+      "path": "run-control-local-planned.json",
+      "schema": "run-control.schema.json",
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "local_only_no_cloud_campaign_resume"
+    },
+    {
+      "path": "support/license.json",
+      "schema": null,
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_asset_no_acceptance"
+    },
+    {
+      "path": "support/build-recipe.json",
+      "schema": null,
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_asset_no_acceptance"
+    },
+    {
+      "path": "support/schema-bundle-protocol.json",
+      "schema": null,
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_asset_no_acceptance"
+    },
+    {
+      "path": "reproducibility-manifest.json",
+      "schema": "reproducibility-manifest.schema.json",
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "release_blocked_missing_required_source_assets"
+    },
+    {
+      "path": "support/resolution-policy.json",
+      "schema": null,
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_asset_no_acceptance"
+    },
+    {
+      "path": "support/top-template.json",
+      "schema": null,
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_asset_no_acceptance"
+    },
+    {
+      "path": "frozen-project-local-unarmed.json",
+      "schema": "frozen-project.schema.json",
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "structural_only_release_blocked_not_runnable_full_proof"
+    },
+    {
+      "path": "support/no-attempt-admission.json",
+      "schema": null,
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_asset_no_acceptance"
+    },
+    {
+      "path": "attempt.json",
+      "schema": "attempt.schema.json",
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "illustrative_superseded_no_live_lease"
+    },
+    {
+      "path": "negative/unreduced-rational.json",
+      "schema": "count-context.schema.json",
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": "non-reduced rational or nonpositive denominator",
+      "semantic_expectation": "reject_unreduced_rational"
+    },
+    {
+      "path": "negative/duplicate-key.json",
+      "schema": null,
+      "canonical": false,
+      "structural_valid": false,
+      "primitive_rejection": null,
+      "semantic_expectation": "reject_duplicate_keys"
+    },
+    {
+      "path": "negative/json-number.json",
+      "schema": null,
+      "canonical": false,
+      "structural_valid": false,
+      "primitive_rejection": null,
+      "semantic_expectation": "reject_json_number"
+    },
+    {
+      "path": "codec-vectors.json",
+      "schema": null,
+      "canonical": true,
+      "structural_valid": true,
+      "primitive_rejection": null,
+      "semantic_expectation": "codec_negative_controls"
+    }
+  ],
+  "local_artifact_refs_checked": 155,
+  "declared_external_artifacts_referenced": 1,
+  "controls": [
+    {
+      "kind": "unbound_farkas",
+      "binding_mismatch_detected": true,
+      "toy_rational_contradiction_checked": true,
+      "production_meaning_checker_executed": false
+    }
+  ],
+  "unchanged_lean_sources": 29,
+  "graph_nodes": 12,
+  "graph_edges": 12
+}

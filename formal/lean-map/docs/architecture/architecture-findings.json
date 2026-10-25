@@ -1,0 +1,466 @@
+{
+  "schema_version": "be.arch.audit/1",
+  "status": "specification_review_complete",
+  "scope": "architecture/execution-v1; specification audit only, no cloud or numerical execution",
+  "budget_pln_minor": {
+    "startup": "7500",
+    "main": "55000",
+    "total": "62500"
+  },
+  "main_window_seconds": "43200",
+  "findings": [
+    {
+      "id": "IT01",
+      "severity": "P1",
+      "status": "contract_resolved",
+      "title": "Admission precedes attempt creation",
+      "anchors": [
+        "schemas/architecture/protocol.schema.json#/$defs/Admission",
+        "02-execution.md#6-dispatch-lease-and-fencing-protocol"
+      ],
+      "observation": "Admission requires attempt_id and a positive lease_generation, but dispatch reservation precedes submit and the attempt is created only on actual worker claim. Queued and unknown-create liability has no implementable binding under both rules simultaneously.",
+      "required_fix": "Bind pre-submit liability to campaign and immutable dispatch/provider request. Bind the later attempt without retroactively changing reservation identity.",
+      "acceptance": [
+        "Reserve and submit a queued dispatch before any worker exists.",
+        "Reconcile an unknown create after controller restart without inventing an attempt or releasing its reservation."
+      ],
+      "resolution": "Saved protocol now separates pre-submit Admission/DispatchManifest from actual-claim AttemptAdmission; no worker attempt or generation is required for queue/unknown-create liability."
+    },
+    {
+      "id": "IT02",
+      "severity": "P1",
+      "status": "contract_resolved",
+      "title": "No partial or stale-cache final PASS",
+      "anchors": [
+        "README.md#the-user-contract",
+        "02-execution.md#2-cli-behavior-and-stable-campaign",
+        "04-checkers-and-lean.md"
+      ],
+      "observation": "README and execution require full requested coverage. The final acceptance predicate, exact mathematical obligation manifest and cache dependency closure still require cross-check against the checker document and fixtures.",
+      "required_fix": "Define PASS as exact final statement plus complete selected legal route, authenticated accepted receipts, exact scopes, dependencies and requested trust. Time/budget exhaustion and absent coverage yield NO PASS.",
+      "acceptance": [
+        "Drop one count root, closed seam, infinite ray or required finite index: NO PASS.",
+        "Reuse receipt with changed source, strictness, scope, dependency receipt or trust profile: reject reuse.",
+        "Exhaust budget with every produced candidate but one missing verifier: NO PASS."
+      ],
+      "resolution": "04 section9 now defines the exact complete requested top-statement predicate, computes unresolved obligations independently and keeps partial/cache/runtime/build results insufficient."
+    },
+    {
+      "id": "IT03",
+      "severity": "P1",
+      "status": "contract_resolved",
+      "title": "JSON acceptance is not a Lean proof",
+      "anchors": [
+        "00-decisions.md#d01--keep-the-mathematical-interface-authoritative",
+        "04-checkers-and-lean.md"
+      ],
+      "observation": "The architecture correctly states the conditional Lean boundary. The supported checker registry and exact trusted implication must make it impossible for decoded PASS, exit zero, a hash or a new profile name to construct a proof term.",
+      "required_fix": "Separate source replay, external self-trace checker and kernel-checked trace. Unsupported backend/family pairs fail closed; numerical soundness remains the declared trust premise unless a verified bridge exists.",
+      "acceptance": [
+        "Metadata-only historical receipt cannot cover a numerical obligation.",
+        "Relabeling source replay as kernel trace is rejected.",
+        "Green Lean skeleton with absent numerical receipts yields NO PASS."
+      ],
+      "resolution": "04 sections2/8 explicitly retain trusted external meanings or actual verified proof terms. Unsupported backend/family pairs fail closed; no JSON-to-Prop constructor is claimed."
+    },
+    {
+      "id": "IT04",
+      "severity": "P1",
+      "status": "contract_resolved",
+      "title": "Absolute campaign deadline and independent resource shutdown",
+      "anchors": [
+        "00-decisions.md#d06--budget-and-time-are-campaign-invariants",
+        "05-compute-and-deployment.md",
+        "schemas/architecture/protocol.schema.json#/$defs/RunControl"
+      ],
+      "observation": "The main window must be anchored once before paid main activation. Provider task timeout does not cover queue/provisioning. Native VM absolute termination and an independent watchdog need exact arming, lookup and reconciliation rules.",
+      "required_fix": "Persist one T0; publish and read back immutable stop manifest; verify watchdog and absolute-deadline template before dispatch. No reset on resume. Unknown cancel/create remains liability until terminal owned-resource observations.",
+      "acceptance": [
+        "Controller and Firestore both unavailable near cutoff: independent stop path still finds owned resources.",
+        "Queued Batch work appears after deadline: no fresh twelve-hour runtime.",
+        "Cancel accepted but VM remains active: shutdown remains pending and reservation held."
+      ],
+      "resolution": "05 section7 now fixes once-only arming, absolute template deadline, independent fallback inventory and terminal reconciliation. Actual cloud trials remain deployment gates."
+    },
+    {
+      "id": "IT05",
+      "severity": "P1",
+      "status": "contract_resolved",
+      "title": "Two atomic liability ledgers with honest billing limits",
+      "anchors": [
+        "00-decisions.md#d06--budget-and-time-are-campaign-invariants",
+        "05-compute-and-deployment.md",
+        "schemas/architecture/protocol.schema.json#/$defs/BudgetPolicy",
+        "schemas/architecture/protocol.schema.json#/$defs/CostQuote"
+      ],
+      "observation": "The exact fixed limits exist in the schema: 7500 startup, 55000 main and 62500 total PLN minor units. The runtime ledger must include all outstanding/unknown costs and avoid treating alerts or an estimate as a guaranteed invoice cap.",
+      "required_fix": "Specify reserve/consume/release equations, phase attribution, current quote/FX/tax/retention/cleanup bounds, outstanding create outcomes and independent funded watchdog. Do not transfer unused startup funds silently.",
+      "acceptance": [
+        "Two concurrent admissions that individually fit but jointly exceed a phase limit: at most one commits.",
+        "Unknown create outcome and late disk cleanup keep reservations.",
+        "Expired price quote or unfunded retention rejects paid admission."
+      ],
+      "resolution": "05 section6 fixes two independent atomic liability ledgers plus combined62500 grosz, full-horizon quote/FX/tax/cleanup/retention coverage, unknown-create holds and explicit no-invoice-cap guarantee. Quote acquisition remains a deployment gate."
+    },
+    {
+      "id": "IT06",
+      "severity": "P2",
+      "status": "contract_resolved",
+      "title": "Post-deadline evidence handling needs one rule",
+      "anchors": [
+        "02-execution.md#7-retries-limits-and-stopping",
+        "03-storage-and-recovery.md#4-completion-transaction-and-conflicts"
+      ],
+      "observation": "Completion requires active admission and a live lease. This correctly blocks a late worker, but the drafts do not yet say whether already published candidates, local verification or export may be processed after deadline, and which reserved cost pays for any cloud operation.",
+      "required_fix": "Define after-deadline operations separately from paid worker admission. Preserve expired lease fences; explicitly allow or reject local/import/read-only actions and charge any allowed cloud IO against its retained reservation.",
+      "acceptance": [
+        "A candidate published before cutoff but not committed cannot gain stale-worker authority after cutoff.",
+        "A subsequent local verification/export does not reset main T0 or authorize cloud compute."
+      ],
+      "resolution": "05 section7 permits only reserved closure/control/export and local assembly of committed receipts after deadline; new paid numerical retries/verifiers are forbidden and late leases stay fenced."
+    },
+    {
+      "id": "IT07",
+      "severity": "P1",
+      "status": "contract_resolved",
+      "title": "At-least-once execution with fenced completion",
+      "anchors": [
+        "02-execution.md#6-dispatch-lease-and-fencing-protocol",
+        "03-storage-and-recovery.md#3-blob-first-publication",
+        "03-storage-and-recovery.md#4-completion-transaction-and-conflicts"
+      ],
+      "observation": "Current drafts separate deterministic provider dispatch from actual claim, fence mutable operations with generation/token, write blobs before ledger completion, and explicitly reject exactly-once claims. Cloud side effects stay outside retried Firestore callbacks.",
+      "required_fix": "Implement and demonstrate the prescribed interleavings; no additional mathematical decision is required.",
+      "acceptance": [
+        "Lost completion response returns exact committed result for identical idempotency key.",
+        "Old worker cannot change current checkpoint/completion after a new generation.",
+        "Crash after upload but before ledger commit leaves only orphan immutable bytes."
+      ],
+      "resolution": "02 sections6/9/10 and03 sections3/4/6 specify outbox, authenticated fences, blob-first publication and exact idempotent transitions."
+    },
+    {
+      "id": "IT08",
+      "severity": "P1",
+      "status": "contract_resolved",
+      "title": "Parallelism preserves legal mathematical decomposition",
+      "anchors": [
+        "02-execution.md#5-legal-splitting-and-aggregation",
+        "00-decisions.md#d07--maximize-useful-verified-computation",
+        "05-compute-and-deployment.md"
+      ],
+      "observation": "Draft execution requires full original acceptor replay after COUNT subtree merging and preserves closed seams and Fourier rays. The throughput policy must reserve verifier capacity and prevent unbounded producer backlog without replacing required checks.",
+      "required_fix": "Specify bounded queue/backpressure, CPU/RAM/thread ownership and calibration-selected legal units. Preserve full final acceptors and exact reduction rules.",
+      "acceptance": [
+        "Merged search subtrees cannot cover their parent before complete replay.",
+        "Verifier bottleneck drains producers before deadline.",
+        "Nested numerical thread pools cannot oversubscribe the admitted profile."
+      ],
+      "resolution": "02 sections5/11 and05 sections4/5 preserve full acceptors, legal roots/seams/tails, bounded homogeneous groups and verifier backpressure. Performance remains unmeasured."
+    },
+    {
+      "id": "IT09",
+      "severity": "P1",
+      "status": "contract_resolved",
+      "title": "Port names need executable transition signatures",
+      "anchors": [
+        "02-execution.md#1-concrete-implementation-boundary",
+        "03-storage-and-recovery.md#2-durable-ledger-records"
+      ],
+      "observation": "Current prose lists operation names and several preconditions, but does not yet define the exact request/result and transaction read/write-set for dispatch, claim, renewal, checkpoint, completion, revocation and provider reconciliation.",
+      "required_fix": "Provide normative typed signatures or pseudocode, conflict codes and idempotency scope. Separate worker leases from controller leadership.",
+      "acceptance": [
+        "An implementer can write each port method from its declared request, preconditions, atomic mutation and typed response without choosing when money or lease generation changes."
+      ],
+      "resolution": "02 section9 and03 section8 now provide typed signatures/results, conflict variants, atomic read/write sets and external-side-effect boundaries."
+    },
+    {
+      "id": "IT10",
+      "severity": "P1",
+      "status": "contract_resolved",
+      "title": "Frozen templates and quantitative materialization conflict",
+      "anchors": [
+        "01-protocol-and-types.md#6-covers-and-two-dags",
+        "02-execution.md#4-dag-readiness-and-dependency-binding"
+      ],
+      "observation": "01 correctly permits a new frozen downstream Statement after an accepted quantitative upstream U. 02 currently limits dynamic expansion to untrusted discovery. The AB24 qR-to-postContext chain needs the former.",
+      "required_fix": "Separate immutable mathematical template manifest, approved typed semantic instantiation and untrusted discovery partitioning. Version materialized graph snapshots and bind exact upstream receipts.",
+      "acceptance": [
+        "An AB24 U is accepted, qR is derived by the licensed adapter, and the post-refinement ordinary ancestor job is materialized without changing an existing statement or guessing a future claim digest."
+      ],
+      "resolution": "02 section4 distinguishes approved typed semantic template instantiation from untrusted discovery splitting, with immutable graph snapshots and exact accepted dependencies."
+    },
+    {
+      "id": "IT11",
+      "severity": "P1",
+      "status": "contract_resolved",
+      "title": "Controller leadership and resume authority must be fenced",
+      "anchors": [
+        "02-execution.md#6-dispatch-lease-and-fencing-protocol",
+        "03-storage-and-recovery.md#6-recovery-matrix"
+      ],
+      "observation": "Worker fencing is explicit. Multiple CLI/controller instances also need one authorized leadership term, with expired controllers unable to adopt a new term by reading it. A new invocation run_id must not accidentally invalidate valid attempts from the old invocation.",
+      "required_fix": "Define coordinator lease/term issuance, authenticated authority, origin run_id versus campaign identity, and behavior of outbox senders after leadership loss.",
+      "acceptance": [
+        "Two resuming CLIs cannot both own current scheduling authority.",
+        "Old controller cannot submit new paid work after losing its term.",
+        "A still-authorized worker from a prior invocation can renew its unchanged campaign/dispatch lease without resetting time or money."
+      ],
+      "resolution": "02 section10 provides separate controller holder/term/nonce/expiry, origin run IDs and per-slot trusted bootstrap grants; takeover cannot reset campaign policy."
+    },
+    {
+      "id": "IT12",
+      "severity": "P1",
+      "status": "contract_resolved",
+      "title": "One CLI needs a frozen ProjectConfig contract",
+      "anchors": [
+        "00-decisions.md#d02--one-product-entry-point",
+        "01-protocol-and-types.md#4-statement-job-and-attempt-are-different-objects",
+        "02-execution.md#2-cli-behavior-and-stable-campaign"
+      ],
+      "observation": "The CLI name and workflow are fixed, but the project.toml input, canonical FrozenProject mapping and allowed resume edits are not yet specified.",
+      "required_fix": "Define exact fields and mapping for requested theorem, template/obligation manifest, trust/issuer policy, source/environment capsules, allowed profiles, backend/campaign and budgets; include an unarmed illustrative TOML.",
+      "acceptance": [
+        "Repeated parse/seal produces one identical FrozenProject identity.",
+        "Changing theorem, source, trust or budget in a resumed TOML cannot silently mutate the active campaign."
+      ],
+      "resolution": "01 sections10/11 and FrozenProjectCore now define exact TOML compilation, canonical identities, source/profile/issuer closure, allowed edits and local/cloud policy variants; the illustrative TOML is explicitly unarmed."
+    },
+    {
+      "id": "IT13",
+      "severity": "P1",
+      "status": "contract_resolved",
+      "title": "Early stop and future-resource ownership need an independent protocol",
+      "anchors": [
+        "05-compute-and-deployment.md#7-one-absolute-12-hour-deadline-and-independent-shutdown"
+      ],
+      "observation": "The draft supplies an immutable deadline manifest and independent watcher, but an early manual/budget cancellation lives in Firestore and future VM UIDs cannot already be members of the initial immutable manifest.",
+      "required_fix": "Specify a durable authorized early-stop signal independent of Firestore and a precise ownership lookup/reconciliation predicate for future/unknown-created Batch/MIG/VM/disk resources. Separate new-dispatch cutoff from running-worker stop times.",
+      "acceptance": [
+        "Manual stop persists while primary ledger is unavailable and watchdog performs scoped cancellation.",
+        "Unknown create produces a VM after controller loss; watcher discovers and binds its full ownership without trusting a truncated label.",
+        "Closing new admission at deadline-900 does not accidentally cancel all useful running work fifteen minutes early."
+      ],
+      "resolution": "05 section7 now separates dispatch cutoff from running-worker stop, adds independent authorized immutable early-stop records and defines full future-resource ownership lookup."
+    },
+    {
+      "id": "IT14",
+      "severity": "P2",
+      "status": "contract_resolved",
+      "title": "Mathematical verdict and process exit policy disagree",
+      "anchors": [
+        "02-execution.md#2-cli-behavior-and-stable-campaign",
+        "05-compute-and-deployment.md#1-one-cli-two-deployments",
+        "README.md#the-user-contract"
+      ],
+      "observation": "02 defines exit0 as requested coverage, while05 requires coverage plus successful operational closure. The README correctly keeps mathematical acceptance separate from cleanup.",
+      "required_fix": "State one rule: mathematical PASS receipt may remain valid while cleanup_failed produces a nonzero operational exit. Neither hide cleanup failure nor erase an established theorem receipt.",
+      "acceptance": [
+        "Complete proof plus cleanup failure preserves PASS evidence but returns the documented cleanup failure exit and unreconciled liability."
+      ],
+      "resolution": "02 exit table,04 section9,05 section1 and README now retain mathematical PASS while cleanup failure returns exit5 and unreconciled liability."
+    },
+    {
+      "id": "IT15",
+      "severity": "P2",
+      "status": "contract_resolved",
+      "title": "IAM conditions must not promise unsupported Batch prefix isolation",
+      "anchors": [
+        "05-compute-and-deployment.md#8-operational-iam-matrix"
+      ],
+      "observation": "The functional matrix describes resource-scoped roles/custom permissions, but custom permissions do not automatically grant resource-name conditions for every service. Official IAM resource-attribute support lists Compute/GCS resource kinds but not Batch.",
+      "required_fix": "Separate actual project-level IAM grants from application ownership predicates and dedicated-project isolation. Verify supported conditions explicitly during startup; do not invent Batch/MIG prefix IAM.",
+      "source_urls": [
+        "https://docs.cloud.google.com/iam/docs/conditions-resource-attributes"
+      ],
+      "acceptance": [
+        "An exact deployment permission manifest identifies the enforced scope of each grant, including project-wide cleanup permissions.",
+        "Cleanup code rejects unrelated full ownership even where its IAM role technically permits project-wide deletion."
+      ],
+      "resolution": "05 section8 explicitly identifies project-scoped Batch grants and distinguishes application ownership checks from actual IAM conditions."
+    },
+    {
+      "id": "IT16",
+      "severity": "P1",
+      "status": "contract_resolved",
+      "title": "Inconclusive retry must not poison deterministic verification cache",
+      "anchors": [
+        "01-protocol-and-types.md#7-receipt-identity-authority-and-trust",
+        "03-storage-and-recovery.md#4-completion-transaction-and-conflicts"
+      ],
+      "observation": "Verification keys exclude attempt/time. A first timeout can yield inconclusive and a later valid replay accepted under the same key. Treating every changed outcome as conflict permanently blocks valid resume.",
+      "required_fix": "Define semantic conflict only for incompatible definitive mathematical outcomes/claims. Keep incomplete operational observations separately. Preserve the first authorized identical definitive receipt as stable dependency anchor; record additional replay observations without changing that anchor.",
+      "acceptance": [
+        "Inconclusive attempt followed by valid accepted replay can establish one definitive anchor.",
+        "Repeated identical definitive replay with a new timestamp does not invalidate downstream dependencies.",
+        "Contradictory definitive acceptance/rejection or different accepted claim/scope quarantines the key."
+      ],
+      "resolution": "01 section7 and03 section4 distinguish incomplete observations from conflicting definitive semantics, and preserve a stable authorized definitive receipt anchor."
+    },
+    {
+      "id": "IT17",
+      "severity": "P1",
+      "status": "contract_resolved",
+      "title": "Reproducibility requires complete accessible input closure",
+      "anchors": [
+        "07-reproducibility.md",
+        "06-validation-and-rollout.md"
+      ],
+      "observation": "The user explicitly requires another person to replicate the workflow using the CLI. Private-only local paths/GCS and source hashes without obtainable bytes are insufficient.",
+      "required_fix": "Specify public or offline artifact retrieval, complete approved capsule closure, pinned source/build recipe/image/dependencies/licenses, fresh computation versus exported-bundle verification, and honest missing-capsule gates.",
+      "acceptance": [
+        "On a clean machine the resolver either obtains every exact required byte from declared public/offline sources or reports the missing artifact before paid dispatch.",
+        "Fresh mode does not reuse numerical acceptance as recomputation evidence.",
+        "Bundle verification can use accepted receipts only under their authenticated trust policy and never calls that a fresh numerical recomputation."
+      ],
+      "resolution": "07 specifies full public/offline input closure, build/image/environment/license requirements, fresh versus bundle verification and missing historical capsule gates."
+    },
+    {
+      "id": "IT18",
+      "severity": "P2",
+      "status": "contract_resolved",
+      "title": "Algorithmic baseline must avoid accidental global work",
+      "anchors": [
+        "02-execution.md#4-dag-readiness-and-dependency-binding",
+        "03-storage-and-recovery.md#2-durable-ledger-records",
+        "05-compute-and-deployment.md#5-calibration-and-adaptive-work-sizing"
+      ],
+      "observation": "Bounded ready indexes, legal chunking and verifier capacity already exist. The handoff should additionally fix incremental dependency updates, stable definitive receipt anchors, single-flight verification and streaming immutable cache use, without skipping required replay.",
+      "required_fix": "State simple data structures and their costs; gate any numerical-kernel optimization on exact contract and benchmark evidence. Do not repeatedly scan/redecode/re-hash complete archives at heartbeat cadence.",
+      "acceptance": [
+        "Completing one node visits only its actual dependents plus bounded queue operations, not all historical jobs/events.",
+        "A large artifact is streamed with bounded memory.",
+        "Identical definitive receipt re-observation causes no downstream re-materialization.",
+        "CPU packing and numerical bigint growth are measured, not assumed."
+      ],
+      "resolution": "02 section11 fixes indexed incremental DAG and bounded heap/LPT grouping, streaming and bounded exact-context caches;02 section8 adds verification single-flight while preserving mandatory fresh replay.05 keeps all throughput improvements as unmeasured calibration choices."
+    },
+    {
+      "id": "IT19",
+      "severity": "P1",
+      "status": "contract_resolved",
+      "title": "Paid startup also needs its own absolute stop window",
+      "anchors": [
+        "05-compute-and-deployment.md#5-calibration-and-adaptive-work-sizing",
+        "05-compute-and-deployment.md#7-one-absolute-12-hour-deadline-and-independent-shutdown",
+        "schemas/architecture/protocol.schema.json#/$defs/RunControl"
+      ],
+      "observation": "The main campaign has an absolute deadline and independent stop path, but startup can have null main_t0/deadline. A bounded test count does not prevent a queued startup VM from booting much later.",
+      "required_fix": "Before any paid startup work, freeze a separately funded bounded startup phase deadline and independent stop manifest/template, using the same safety protocol without starting/resetting the main twelve-hour anchor.",
+      "acceptance": [
+        "A queued startup dispatch cannot boot outside its startup window and acquire a new run duration.",
+        "Startup timeout/stop remains independently enforceable with controller/Firestore unavailable.",
+        "Transition to main preserves startup spending and creates exactly one separate main T0."
+      ],
+      "resolution": "05 section7 and RunControl/CloudUserBudgetPolicy now define one startup7200-second window, bounded initial bootstrap, independent stop/VM termination before pilots and observed startup-compute closure before main activation."
+    },
+    {
+      "id": "IT20",
+      "severity": "P1",
+      "status": "contract_resolved",
+      "title": "Published attempt records must not contain live fencing secrets",
+      "anchors": [
+        "02-execution.md#10-controller-invocation-and-worker-authority",
+        "schemas/architecture/protocol.schema.json#/$defs/Attempt",
+        "schemas/architecture/protocol.schema.json#/$defs/AttemptAdmission"
+      ],
+      "observation": "The draft forbids secrets in artifacts, but persisted Attempt/AttemptAdmission currently contain a raw fencing_token and are referenced by ArtifactRef. This is incompatible with a shareable proof/input bundle and create-only worker artifact access.",
+      "required_fix": "Persist only a token hash/fence identifier. Return the live WorkerFence token through a separate authenticated private claim response and exclude it from artifacts/logs/exports.",
+      "acceptance": [
+        "Inspect every exported canonical record and verify no live bootstrap/lease credential is present.",
+        "A worker can authenticate a valid lease using its private token while readers of immutable attempt records cannot reconstruct that token."
+      ],
+      "resolution": "Attempt/AttemptAdmission now carry only fencing_token_digest.02 section10 and03 section5 keep raw WorkerFence in private authenticated claim/idempotency storage, excluded from public artifacts/logs/exports."
+    }
+  ],
+  "verdict": "No known unresolved specification blocker in the documented implementation handoff. All findings are contract_resolved; implementation and deployment evidence is still required.",
+  "boundaries": {
+    "mathematical_analytic_premises": "Intentionally accepted exact source-bound statements, not newly formalized here.",
+    "numerical_proof_pass": false,
+    "production_runner_executed": false,
+    "cloud_safety_trials_passed": false,
+    "performance_benchmarked": false,
+    "paid_resources_created": false,
+    "contract_resolved_means": "Rule is specified and cross-checked, not that its implementation or numerical evidence has been certified."
+  },
+  "release_gates": [
+    {
+      "id": "G01",
+      "kind": "implementation",
+      "required": "Implement the closed ports, codecs, durable backends and authority transitions; pass exact interleaving and negative controls."
+    },
+    {
+      "id": "G02",
+      "kind": "input_closure",
+      "required": "Acquire every approved publicly retrievable/offline capsule, dependency/build/license record and missing canonical p25 epoch input, or explicitly acquire a compliant new epoch."
+    },
+    {
+      "id": "G03",
+      "kind": "family_enablement",
+      "required": "Register actual source-bound producer/checker/decoder environments for every selected family; unsupported portfolios cannot start main or cover obligations."
+    },
+    {
+      "id": "G04",
+      "kind": "numerical_evidence",
+      "required": "Run complete prescribed numerical replay/checkers and obtain authenticated exact-scope receipts and final coverage/assembly under the requested profile."
+    },
+    {
+      "id": "G05",
+      "kind": "paid_deployment",
+      "required": "Acquire current full-horizon account/region quote, quotas, bounded inventories and IAM; demonstrate independent startup/main shutdown and real provider reconciliation within funded startup scope."
+    },
+    {
+      "id": "G06",
+      "kind": "reproducibility",
+      "required": "Demonstrate clean-machine local recomputation and offline exported-bundle verification, separately labelled, with complete accessible input closure."
+    },
+    {
+      "id": "G07",
+      "kind": "optional_stronger_trust_backend",
+      "required": "A lean_kernel_trace request remains unsupported until its exact verified decoder/checker/proof construction exists. It is not required for a declared trusted_source_replay profile."
+    }
+  ],
+  "reviewed_snapshot": {
+    "docs/architecture/00-decisions.md": "415eac2601bb161c0b237e40f175336cacf89995ff83620efe8fb75a98fbd0c6",
+    "docs/architecture/01-protocol-and-types.md": "882876f207c06d0672209bdf9e055b84bf01d7c53d29d4fc3363ded25b1913e2",
+    "docs/architecture/02-execution.md": "f12c872074fb2bc01ae1a0ce086ee0828f426b3f0f9bac8228413ba49121d635",
+    "docs/architecture/03-storage-and-recovery.md": "8aa2c443f2667d5c4e3112f5cac6d03236038dc3618f521582063e19f3ab72b4",
+    "docs/architecture/04-checkers-and-lean.md": "ad10dbde7e9e844d1ce4aa37e5b05790d3d826567028069847a9ff16b704a7c1",
+    "docs/architecture/05-compute-and-deployment.md": "7faaf12cad46dcec1122bd5e376af79def3762f038363cf3e6814ecb6b2c4b3d",
+    "docs/architecture/06-validation-and-rollout.md": "248f3d31ef4cfe4c2ed68d6df45bb970c1dddbfbe25a8e53af9e5cc873a723fb",
+    "docs/architecture/07-reproducibility.md": "2279084d20488624e1ebc20d5acb8e4e63c4098e4dac67085357599764ebacc5",
+    "docs/architecture/README.md": "171f52ce893c5a134a1546979bff68e736840151f8cf03631c1f6862e13609c1",
+    "schemas/architecture/admission.schema.json": "fa471059bf59da969b8586a84983c7ed397f1278058fde4afd4002665eecf51f",
+    "schemas/architecture/assembly-result.schema.json": "14083ba89e5e637ce580b7da556565aedf5754311ff192f6238ea2b4257a787b",
+    "schemas/architecture/attempt-admission.schema.json": "d3171b8c03e82c9c7a25853cb49d2529ce8f68953aaf710cc9f8cf4cc48a48b7",
+    "schemas/architecture/attempt.schema.json": "bdbf8b0efb3cbd409383083d44bc530fe5e4da4365f45fb1ff98392508d70906",
+    "schemas/architecture/budget-policy.schema.json": "31342df2a2f07fff589662e386ff5a833f9264857c4b38e0103d6fdbc0999c31",
+    "schemas/architecture/candidate.schema.json": "e5ae34e2cbb2e4af580ab254f049e90a2d91634b0798708856b1aee95ba74cf6",
+    "schemas/architecture/certificate.schema.json": "bc9f94cccd8e335761dd25ed44de652a26c8767662bb3033f5796fd93cb8a9be",
+    "schemas/architecture/claim.schema.json": "071a8814491085a77c6e43211a5ebd07884eb6c57fc363f7886a9f3967a6cefb",
+    "schemas/architecture/cost-quote.schema.json": "e840ac04a104ef6ed98d087fd4685a879b4382d823102875af8900f3c6081802",
+    "schemas/architecture/count-certificate-payload.schema.json": "48a299b600bbea3a6aed89cdaeec2dd1d959b8d33a8304c9cf077bb263276d65",
+    "schemas/architecture/count-context.schema.json": "80fa422c98f9d39611d4846f27b6a25a61346b29589e0b739c9d6c632961f08b",
+    "schemas/architecture/count-scope.schema.json": "173ff1ef68ea78298cbe80f2f6e32f2bd3f46233c4c981a1a26162d53c25aed3",
+    "schemas/architecture/dispatch-manifest.schema.json": "7234d94977280d19c37e7d19fc4c13715f393d8ed6a079bb24a8372a29d4a130",
+    "schemas/architecture/domain-cover.schema.json": "31117f00f10390374e09cd5cd9ead1b28df7c38511467eb53f3bbacf08c4f8d2",
+    "schemas/architecture/farkas-problem.schema.json": "13fba8b2d212ad0d5bb190fa11ec12c1496eaa0ca5e8738bc3a6dffa4787dd1a",
+    "schemas/architecture/farkas-trace.schema.json": "d4ab9ad623a3c084d7f87960b37818cf2def55f0c1c47cc2c918c696f351f872",
+    "schemas/architecture/final-assembly-payload.schema.json": "3bddf6a47c4f846af8d0f4ce5049a9db998e73ca03c6f771d68469d3dd3f1256",
+    "schemas/architecture/frozen-project.schema.json": "2ccead591200ddd02f99ddf4e4a82a013aada03d7ed628877f92784e9e0667b8",
+    "schemas/architecture/job-spec.schema.json": "528bca8854df6954cd1a3e0c7c5690be07be3607fe874db692a099c7218d2b76",
+    "schemas/architecture/lean-bridge-report.schema.json": "18f9c4e9ac29ff9d06256d5e01daf743caf4866cd789632d7e5dbccbd19b1050",
+    "schemas/architecture/protocol.schema.json": "f12e7daf9635fccb719ca7b7e34dd7780fa2d686b68abd88c92a7aca9c27f32c",
+    "schemas/architecture/receipt-seal.schema.json": "20869d0aaf3cbd88d7df4d2ec2bf7f9367b824c25622f703a089f283876daa65",
+    "schemas/architecture/reproducibility-manifest.schema.json": "1e11cf8b27bd9b4e2494536c78b321b2b9916a372c00f52f4de9d920661a5398",
+    "schemas/architecture/run-control.schema.json": "2d8c57c6c2816538de4e5cf0450947b1d71684bf4a1b315dfd342b2a36d8b870",
+    "schemas/architecture/shutdown-receipt.schema.json": "e8fca6331834ab09b7903d437c7267bf58d8fbc5fb27978cbfba2cc2f9007cd5",
+    "schemas/architecture/statement.schema.json": "d5dc210fac47ee2c01df2212a884e5acb44a2a10c9d7999abee8d9dbdcd21b62",
+    "schemas/architecture/task-graph.schema.json": "d191f880db9df36b92448b28c4e955fa27cd6ee90a8457c7817972fd433799fb",
+    "schemas/architecture/trust-profile.schema.json": "af9dfc77db71ca3767802d3f312893be57e541f0ac62cb3fc8db8d14a0aeea76",
+    "schemas/architecture/verification-receipt.schema.json": "e0c6a5f0cba9dfa079a9310c1ee9592de91a1271da586685e1c67b9fc856065e",
+    "examples/architecture/fixture-index.json": "e70ea1d8aa89ea04e3c5644d30eae1b191d8ab686a61f372c08994ff20582153",
+    "examples/architecture/project.toml": "17859826dcf1843bed4d2fd7558c8152e5e9ab40418f6e3b76b9cbaced4afc7d",
+    "assets/execution-map.json": "df10b028cae6cc98da60bacb1d256ad455a5146fa8717484e4b83920ed920f63",
+    "assets/execution-map.mmd": "8cec81b83094a1e96458112aebe63373b4a22dc7baaec8a7c6faf9367f7c85a7"
+  }
+}

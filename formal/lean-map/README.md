@@ -2,6 +2,18 @@
 
 **Concrete mathematical contracts → checked conditional assembly → implementation.**
 
+**Current work on `architecture/execution-v1`:** the
+[execution specification](docs/architecture/README.md) defines one CLI,
+source-bound cache, independent verification, complete PASS conditions,
+parallel Google Cloud execution and the campaign budget/deadline.
+The production runner is the next implementation stage.
+
+![Execution architecture: one CLI, parallel compute and complete proof acceptance](assets/execution-map.svg)
+
+[Architecture graph](assets/execution-map.svg) ·
+[Architecture decisions](docs/architecture/00-decisions.md) ·
+[Implementation acceptance plan](docs/architecture/06-validation-and-rollout.md)
+
 ![Berry–Esseen proof map: checked conditional composition and explicit analytic inputs](assets/proof-map.svg)
 
 [Full proof graph](assets/proof-map.svg) · [PNG](assets/proof-map.png) ·
@@ -126,10 +138,13 @@ performed; it does not claim a fresh Lake build.
 ```text
 python tools/render_proof_map.py
 python tools/render_interface_map.py
+python tools/render_execution_map.py
 ```
 
-The standard-library renderers validate declaration anchors, recorded source
+The mathematical renderers validate declaration anchors, recorded source
 hashes and the displayed grouped edges before writing SVG, Mermaid and JSON.
+The execution renderer validates links to the architecture specification;
+its graph describes specified components, not already implemented services.
 PNG files are rendered copies. These are curated views of theorem interfaces,
 not automatic exports of internal kernel proof terms.
 
@@ -144,5 +159,7 @@ The original research work in progress was preserved. Reused foundational
 sources and their namespace/import changes are recorded in
 [`provenance.json`](provenance.json); the original [MIT notice](LICENSE) is retained.
 
-The present milestone is the mathematical specification and conditional Lean
-assembly. Production numerical execution and a cloud CLI follow this interface.
+The mathematical specification and conditional Lean assembly are the v0.2
+foundation. This branch adds the execution architecture and wire-format
+specification. Production numerical execution and a cloud CLI follow these
+interfaces; no paid cloud compute is launched by this documentation milestone.

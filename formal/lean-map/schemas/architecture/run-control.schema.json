@@ -1,0 +1,6 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://be-arch.invalid/v1/run-control.schema.json",
+  "title": "run-control v1; structural validation only",
+  "$ref": "protocol.schema.json#/$defs/RunControl"
+}

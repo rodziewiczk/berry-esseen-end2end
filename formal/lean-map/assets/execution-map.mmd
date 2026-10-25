@@ -1,0 +1,37 @@
+flowchart TB
+  project["One CLI + frozen project"]
+  plan["Planner + dependency graph"]
+  schedule["Parallel scheduler"]
+  produce["Numerical producers"]
+  verify["Independent verification"]
+  cover["Complete coverage + assembly"]
+  premises["Explicit analytic premises"]
+  lean["Lean interface + trust bridge"]
+  verdict["Final report: PASS / NO PASS"]
+  cas["Immutable bytes + exact cache"]
+  ledger["Transactional runtime ledger"]
+  stop["Independent stop + liability"]
+  project -->|"freeze and validate"| plan
+  plan -->|"ready legal work"| schedule
+  schedule -->|"dispatch admitted tasks"| produce
+  produce -->|"untrusted candidate"| verify
+  verify -->|"accepted scoped receipts"| cover
+  premises -->|"explicit analytic assumptions"| lean
+  cover -->|"complete numerical evidence"| verdict
+  lean -->|"conditional theorem linkage"| verdict
+  cas -->|"immutable inputs and candidate reuse"| produce
+  cas -->|"exact verification-key reuse"| verify
+  ledger -->|"transactional dispatch authority"| schedule
+  stop -->|"close admission and cancel owned resources"| schedule
+  click project "../docs/architecture/01-protocol-and-types.md"
+  click plan "../docs/architecture/02-execution.md"
+  click schedule "../docs/architecture/05-compute-and-deployment.md"
+  click produce "../docs/architecture/02-execution.md"
+  click verify "../docs/architecture/04-checkers-and-lean.md"
+  click cover "../docs/architecture/04-checkers-and-lean.md"
+  click premises "../docs/contracts/README.md"
+  click lean "../docs/architecture/04-checkers-and-lean.md"
+  click verdict "../docs/architecture/02-execution.md"
+  click cas "../docs/architecture/03-storage-and-recovery.md"
+  click ledger "../docs/architecture/03-storage-and-recovery.md"
+  click stop "../docs/architecture/05-compute-and-deployment.md"

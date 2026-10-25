@@ -1,0 +1,6 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://be-arch.invalid/v1/shutdown-receipt.schema.json",
+  "title": "shutdown-receipt v1; structural validation only",
+  "$ref": "protocol.schema.json#/$defs/ShutdownReceipt"
+}

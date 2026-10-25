@@ -1,0 +1,3819 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://be-arch.invalid/v1/protocol.schema.json",
+  "title": "BE architecture protocol v1; structural validation only",
+  "$defs": {
+    "Ascii": {
+      "type": "string",
+      "pattern": "^[ -~]*$"
+    },
+    "Identifier": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_.:/-]*$",
+      "minLength": 1
+    },
+    "Natural": {
+      "type": "string",
+      "pattern": "^(0|[1-9][0-9]*)$"
+    },
+    "PositiveNatural": {
+      "type": "string",
+      "pattern": "^[1-9][0-9]*$"
+    },
+    "Integer": {
+      "type": "string",
+      "pattern": "^(0|-?[1-9][0-9]*)$"
+    },
+    "Digest": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "Uuid": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+    },
+    "RunId": {
+      "type": "string",
+      "pattern": "^run:[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+    },
+    "CampaignId": {
+      "type": "string",
+      "pattern": "^campaign:[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+    },
+    "DispatchId": {
+      "type": "string",
+      "pattern": "^dispatch:[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+    },
+    "AttemptId": {
+      "type": "string",
+      "pattern": "^attempt:[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+    },
+    "Utc": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$"
+    },
+    "Rational": {
+      "type": "object",
+      "properties": {
+        "num": {
+          "$ref": "#/$defs/Integer"
+        },
+        "den": {
+          "$ref": "#/$defs/PositiveNatural"
+        }
+      },
+      "required": [
+        "num",
+        "den"
+      ],
+      "additionalProperties": false
+    },
+    "Interval": {
+      "type": "object",
+      "properties": {
+        "lower": {
+          "$ref": "#/$defs/Rational"
+        },
+        "upper": {
+          "$ref": "#/$defs/Rational"
+        }
+      },
+      "required": [
+        "lower",
+        "upper"
+      ],
+      "additionalProperties": false
+    },
+    "Relation": {
+      "type": "string",
+      "enum": [
+        "le",
+        "lt"
+      ]
+    },
+    "ArtifactRef": {
+      "type": "object",
+      "properties": {
+        "bytes_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "size_bytes": {
+          "$ref": "#/$defs/Natural"
+        },
+        "media_type": {
+          "$ref": "#/$defs/Ascii"
+        },
+        "format_id": {
+          "$ref": "#/$defs/Identifier"
+        }
+      },
+      "required": [
+        "bytes_digest",
+        "size_bytes",
+        "media_type",
+        "format_id"
+      ],
+      "additionalProperties": false
+    },
+    "NamedArtifact": {
+      "type": "object",
+      "properties": {
+        "role": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "artifact": {
+          "$ref": "#/$defs/ArtifactRef"
+        }
+      },
+      "required": [
+        "role",
+        "artifact"
+      ],
+      "additionalProperties": false
+    },
+    "Bound": {
+      "type": "object",
+      "properties": {
+        "relation": {
+          "$ref": "#/$defs/Relation"
+        },
+        "value": {
+          "$ref": "#/$defs/Rational"
+        }
+      },
+      "required": [
+        "relation",
+        "value"
+      ],
+      "additionalProperties": false
+    },
+    "SourcePin": {
+      "type": "object",
+      "properties": {
+        "source_epoch": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "manuscript": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "contract_bundle_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "analytic_interface_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "numerical_kernel_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "mathematical_repository_commit": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        }
+      },
+      "required": [
+        "source_epoch",
+        "manuscript",
+        "contract_bundle_digest",
+        "analytic_interface_digest",
+        "numerical_kernel_digest",
+        "mathematical_repository_commit"
+      ],
+      "additionalProperties": false
+    },
+    "DependencyRequirement": {
+      "type": "object",
+      "properties": {
+        "statement_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "claim_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "scope_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "minimum_trust_profile_digest": {
+          "$ref": "#/$defs/Digest"
+        }
+      },
+      "required": [
+        "statement_digest",
+        "claim_digest",
+        "scope_digest",
+        "minimum_trust_profile_digest"
+      ],
+      "additionalProperties": false
+    },
+    "VerificationDependency": {
+      "type": "object",
+      "properties": {
+        "statement_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "claim_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "scope_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "trust_profile_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "verification_id": {
+          "$ref": "#/$defs/Digest"
+        },
+        "receipt": {
+          "$ref": "#/$defs/ArtifactRef"
+        }
+      },
+      "required": [
+        "statement_digest",
+        "claim_digest",
+        "scope_digest",
+        "trust_profile_digest",
+        "verification_id",
+        "receipt"
+      ],
+      "additionalProperties": false
+    },
+    "CountBox": {
+      "type": "object",
+      "properties": {
+        "root": {
+          "$ref": "#/$defs/Natural"
+        },
+        "p": {
+          "$ref": "#/$defs/Interval"
+        },
+        "lambda": {
+          "$ref": "#/$defs/Interval"
+        },
+        "alpha": {
+          "$ref": "#/$defs/Interval"
+        },
+        "phase": {
+          "$ref": "#/$defs/Interval"
+        },
+        "raw_inward0": {
+          "$ref": "#/$defs/Interval"
+        }
+      },
+      "required": [
+        "root",
+        "p",
+        "lambda",
+        "alpha",
+        "phase",
+        "raw_inward0"
+      ],
+      "additionalProperties": false
+    },
+    "CountDomain": {
+      "type": "object",
+      "properties": {
+        "actual_n": {
+          "$ref": "#/$defs/PositiveNatural"
+        },
+        "probability": {
+          "$ref": "#/$defs/Interval"
+        },
+        "lambda_cap": {
+          "$ref": "#/$defs/Rational"
+        },
+        "total_inward_cap": {
+          "$ref": "#/$defs/Rational"
+        }
+      },
+      "required": [
+        "actual_n",
+        "probability",
+        "lambda_cap",
+        "total_inward_cap"
+      ],
+      "additionalProperties": false
+    },
+    "JointBudget": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "const": "zero"
+            }
+          },
+          "required": [
+            "kind"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "const": "positive"
+            },
+            "total_inward_intercept": {
+              "$ref": "#/$defs/Rational"
+            },
+            "noise_intercept": {
+              "$ref": "#/$defs/Rational"
+            }
+          },
+          "required": [
+            "kind",
+            "total_inward_intercept",
+            "noise_intercept"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "AffineBudget": {
+      "type": "object",
+      "properties": {
+        "binary_charge": {
+          "$ref": "#/$defs/Rational"
+        },
+        "gap_charge": {
+          "$ref": "#/$defs/Rational"
+        },
+        "noise_charge": {
+          "$ref": "#/$defs/Rational"
+        }
+      },
+      "required": [
+        "binary_charge",
+        "gap_charge",
+        "noise_charge"
+      ],
+      "additionalProperties": false
+    },
+    "SignedQuadratic": {
+      "type": "object",
+      "properties": {
+        "constant": {
+          "$ref": "#/$defs/Rational"
+        },
+        "positive_linear": {
+          "$ref": "#/$defs/Rational"
+        },
+        "negative_linear": {
+          "$ref": "#/$defs/Rational"
+        },
+        "curvature": {
+          "$ref": "#/$defs/Rational"
+        }
+      },
+      "required": [
+        "constant",
+        "positive_linear",
+        "negative_linear",
+        "curvature"
+      ],
+      "additionalProperties": false
+    },
+    "CountContext": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.arch/1"
+        },
+        "artifact_kind": {
+          "const": "count_context"
+        },
+        "actual_n": {
+          "$ref": "#/$defs/PositiveNatural"
+        },
+        "source_pin": {
+          "$ref": "#/$defs/SourcePin"
+        },
+        "domain": {
+          "$ref": "#/$defs/CountDomain"
+        },
+        "rho": {
+          "$ref": "#/$defs/Interval"
+        },
+        "beta": {
+          "$ref": "#/$defs/Interval"
+        },
+        "gamma": {
+          "$ref": "#/$defs/Interval"
+        },
+        "mean": {
+          "$ref": "#/$defs/Interval"
+        },
+        "fourth": {
+          "$ref": "#/$defs/Interval"
+        },
+        "fifth": {
+          "$ref": "#/$defs/Interval"
+        },
+        "raw_threshold": {
+          "$ref": "#/$defs/Interval"
+        },
+        "support_radius": {
+          "$ref": "#/$defs/Rational"
+        },
+        "negative_radius": {
+          "$ref": "#/$defs/Rational"
+        },
+        "positive_radius": {
+          "$ref": "#/$defs/Rational"
+        },
+        "conditional_outer0": {
+          "$ref": "#/$defs/Rational"
+        },
+        "conditional_outer1": {
+          "$ref": "#/$defs/Rational"
+        },
+        "joint_budget": {
+          "$ref": "#/$defs/JointBudget"
+        },
+        "affine_budget": {
+          "$ref": "#/$defs/AffineBudget"
+        },
+        "signed_envelope": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/SignedQuadratic"
+          },
+          "minItems": 1
+        },
+        "own_cap": {
+          "$ref": "#/$defs/Rational"
+        },
+        "predecessor_cap": {
+          "$ref": "#/$defs/Rational"
+        },
+        "floor_index": {
+          "$ref": "#/$defs/PositiveNatural"
+        },
+        "defect_cap": {
+          "$ref": "#/$defs/Rational"
+        },
+        "native_defect_cap": {
+          "$ref": "#/$defs/Rational"
+        },
+        "raw_r_cap": {
+          "$ref": "#/$defs/Rational"
+        },
+        "theta_cap": {
+          "$ref": "#/$defs/Rational"
+        },
+        "negative_gap_floor": {
+          "$ref": "#/$defs/Rational"
+        },
+        "positive_gap_floor": {
+          "$ref": "#/$defs/Rational"
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "actual_n",
+        "source_pin",
+        "domain",
+        "rho",
+        "beta",
+        "gamma",
+        "mean",
+        "fourth",
+        "fifth",
+        "raw_threshold",
+        "support_radius",
+        "negative_radius",
+        "positive_radius",
+        "conditional_outer0",
+        "conditional_outer1",
+        "joint_budget",
+        "affine_budget",
+        "signed_envelope",
+        "own_cap",
+        "predecessor_cap",
+        "floor_index",
+        "defect_cap",
+        "native_defect_cap",
+        "raw_r_cap",
+        "theta_cap",
+        "negative_gap_floor",
+        "positive_gap_floor"
+      ],
+      "additionalProperties": false
+    },
+    "Halfline": {
+      "type": "object",
+      "properties": {
+        "orientation": {
+          "type": "string",
+          "enum": [
+            "at_most",
+            "at_least"
+          ]
+        },
+        "cut": {
+          "$ref": "#/$defs/Rational"
+        }
+      },
+      "required": [
+        "orientation",
+        "cut"
+      ],
+      "additionalProperties": false
+    },
+    "CountScope": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "const": "all_count_roots"
+            },
+            "domain": {
+              "$ref": "#/$defs/CountDomain"
+            }
+          },
+          "required": [
+            "kind",
+            "domain"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "const": "count_ancestor"
+            },
+            "ancestor": {
+              "$ref": "#/$defs/CountBox"
+            }
+          },
+          "required": [
+            "kind",
+            "ancestor"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "const": "clipped_halfline_window"
+            },
+            "domain": {
+              "$ref": "#/$defs/CountDomain"
+            },
+            "halfline": {
+              "$ref": "#/$defs/Halfline"
+            },
+            "hstar": {
+              "$ref": "#/$defs/Rational"
+            },
+            "clip": {
+              "oneOf": [
+                {
+                  "$ref": "#/$defs/Interval"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "clip_empty_proof": {
+              "oneOf": [
+                {
+                  "$ref": "#/$defs/ArtifactRef"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "required": [
+            "kind",
+            "domain",
+            "halfline",
+            "hstar",
+            "clip",
+            "clip_empty_proof"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "MethodFamily": {
+      "type": "string",
+      "enum": [
+        "count_ordinary",
+        "count_general_quantitative",
+        "count_ancestor",
+        "ab24_halfline",
+        "small_n2_tensor",
+        "small_n3_null",
+        "root4_canonical",
+        "prawitz_four_term",
+        "resource_barrier",
+        "fourier_low",
+        "fourier_high_complete",
+        "mixed_e",
+        "mixed_chord",
+        "mixed_reference",
+        "uniform_tail_local",
+        "uniform_tail_acquisition",
+        "analytic_export",
+        "proof_assembly"
+      ]
+    },
+    "StatementKind": {
+      "type": "string",
+      "enum": [
+        "positive_closed_score_bound",
+        "quantitative_positive_closed_score",
+        "halfline_positive_closed_score",
+        "physical_rho_ceiling",
+        "weighted_resource_export",
+        "negative_defect_exclusion",
+        "local_bernoulli_comparison",
+        "analytic_implication",
+        "coverage_composition",
+        "final_conditional_theorem"
+      ]
+    },
+    "StatementCore": {
+      "type": "object",
+      "properties": {
+        "statement_kind": {
+          "$ref": "#/$defs/StatementKind"
+        },
+        "method_family": {
+          "$ref": "#/$defs/MethodFamily"
+        },
+        "source_pin": {
+          "$ref": "#/$defs/SourcePin"
+        },
+        "parameter_schema_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "frozen_context": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "scope": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "conclusion_schema_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "requested_output_bound": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/Bound"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "analytic_rule_digests": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Digest"
+          },
+          "minItems": 1
+        },
+        "dependencies": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/DependencyRequirement"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "statement_kind",
+        "method_family",
+        "source_pin",
+        "parameter_schema_digest",
+        "frozen_context",
+        "scope",
+        "conclusion_schema_digest",
+        "requested_output_bound",
+        "analytic_rule_digests",
+        "dependencies"
+      ],
+      "additionalProperties": false
+    },
+    "Statement": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.arch/1"
+        },
+        "artifact_kind": {
+          "const": "statement"
+        },
+        "statement_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "obligation_label": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "core": {
+          "$ref": "#/$defs/StatementCore"
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "statement_digest",
+        "obligation_label",
+        "core"
+      ],
+      "additionalProperties": false
+    },
+    "Producer": {
+      "type": "object",
+      "properties": {
+        "recipe_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "environment_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "execution_profile_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "precision_policy_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "search_policy_digest": {
+          "$ref": "#/$defs/Digest"
+        }
+      },
+      "required": [
+        "recipe_digest",
+        "environment_digest",
+        "execution_profile_digest",
+        "precision_policy_digest",
+        "search_policy_digest"
+      ],
+      "additionalProperties": false
+    },
+    "JobSpecCore": {
+      "type": "object",
+      "properties": {
+        "statement_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "task_kind": {
+          "type": "string",
+          "enum": [
+            "produce",
+            "verify",
+            "assemble"
+          ]
+        },
+        "producer": {
+          "$ref": "#/$defs/Producer"
+        },
+        "inputs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/NamedArtifact"
+          },
+          "minItems": 0
+        },
+        "dependency_requirements": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/DependencyRequirement"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "statement_digest",
+        "task_kind",
+        "producer",
+        "inputs",
+        "dependency_requirements"
+      ],
+      "additionalProperties": false
+    },
+    "JobSpec": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.arch/1"
+        },
+        "artifact_kind": {
+          "const": "job_spec"
+        },
+        "job_spec_id": {
+          "$ref": "#/$defs/Digest"
+        },
+        "core": {
+          "$ref": "#/$defs/JobSpecCore"
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "job_spec_id",
+        "core"
+      ],
+      "additionalProperties": false
+    },
+    "Attempt": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.arch/1"
+        },
+        "artifact_kind": {
+          "const": "attempt"
+        },
+        "attempt_id": {
+          "$ref": "#/$defs/AttemptId"
+        },
+        "run_id": {
+          "$ref": "#/$defs/RunId"
+        },
+        "job_spec_id": {
+          "$ref": "#/$defs/Digest"
+        },
+        "task_kind": {
+          "type": "string",
+          "enum": [
+            "produce",
+            "verify",
+            "assemble"
+          ]
+        },
+        "lease_generation": {
+          "$ref": "#/$defs/PositiveNatural"
+        },
+        "worker_id": {
+          "$ref": "#/$defs/Ascii"
+        },
+        "state": {
+          "type": "string",
+          "enum": [
+            "reserved",
+            "running",
+            "checkpointed",
+            "produced",
+            "failed",
+            "lost",
+            "cancelled",
+            "superseded"
+          ]
+        },
+        "created_at": {
+          "$ref": "#/$defs/Utc"
+        },
+        "updated_at": {
+          "$ref": "#/$defs/Utc"
+        },
+        "admission": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "outputs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ArtifactRef"
+          },
+          "minItems": 0
+        },
+        "fencing_token_digest": {
+          "$ref": "#/$defs/Digest"
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "attempt_id",
+        "run_id",
+        "job_spec_id",
+        "task_kind",
+        "lease_generation",
+        "worker_id",
+        "state",
+        "created_at",
+        "updated_at",
+        "admission",
+        "outputs",
+        "fencing_token_digest"
+      ],
+      "additionalProperties": false
+    },
+    "Candidate": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.arch/1"
+        },
+        "artifact_kind": {
+          "const": "candidate"
+        },
+        "statement_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "job_spec_id": {
+          "$ref": "#/$defs/Digest"
+        },
+        "attempt_id": {
+          "$ref": "#/$defs/AttemptId"
+        },
+        "method_family": {
+          "$ref": "#/$defs/MethodFamily"
+        },
+        "payload": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "suggested_scope_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "untrusted_native_status": {
+          "$ref": "#/$defs/Ascii"
+        },
+        "provenance": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/NamedArtifact"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "statement_digest",
+        "job_spec_id",
+        "attempt_id",
+        "method_family",
+        "payload",
+        "suggested_scope_digest",
+        "untrusted_native_status",
+        "provenance"
+      ],
+      "additionalProperties": false
+    },
+    "LeafRule": {
+      "type": "string",
+      "enum": [
+        "empty_phase",
+        "empty_acquired_theta_variance",
+        "empty_sharp_box",
+        "empty_joint_cubics",
+        "empty_rho_upper",
+        "empty_acquired_rho_variance",
+        "score_upper",
+        "d_finished_pointwise",
+        "d_normalized_defect",
+        "phase_free_e",
+        "compatible_chord",
+        "completed_ab",
+        "root4_score_upper",
+        "polynomial_majorant",
+        "fourier_low_bound",
+        "fourier_high_bound",
+        "prawitz_bound",
+        "resource_general_export",
+        "resource_paired_export",
+        "resource_negative_terminal",
+        "nearest_local_comparison",
+        "whole_local_comparison",
+        "zero_noise_bernoulli",
+        "analytic_export",
+        "coverage_composition"
+      ]
+    },
+    "LeafConclusion": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "const": "infeasible"
+            },
+            "rule": {
+              "$ref": "#/$defs/LeafRule"
+            },
+            "witness": {
+              "$ref": "#/$defs/ArtifactRef"
+            }
+          },
+          "required": [
+            "kind",
+            "rule",
+            "witness"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "const": "score_upper"
+            },
+            "rule": {
+              "const": "score_upper"
+            },
+            "bound": {
+              "$ref": "#/$defs/Bound"
+            },
+            "witness": {
+              "$ref": "#/$defs/ArtifactRef"
+            }
+          },
+          "required": [
+            "kind",
+            "rule",
+            "bound",
+            "witness"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "const": "typed_export"
+            },
+            "rule": {
+              "$ref": "#/$defs/LeafRule"
+            },
+            "claim": {
+              "$ref": "#/$defs/ArtifactRef"
+            },
+            "witness": {
+              "$ref": "#/$defs/ArtifactRef"
+            }
+          },
+          "required": [
+            "kind",
+            "rule",
+            "claim",
+            "witness"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "CountTree": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "const": "leaf"
+            },
+            "box": {
+              "$ref": "#/$defs/CountBox"
+            },
+            "conclusion": {
+              "$ref": "#/$defs/LeafConclusion"
+            }
+          },
+          "required": [
+            "kind",
+            "box",
+            "conclusion"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "const": "split"
+            },
+            "box": {
+              "$ref": "#/$defs/CountBox"
+            },
+            "coordinate": {
+              "type": "string",
+              "enum": [
+                "p",
+                "lambda",
+                "alpha",
+                "phase",
+                "raw_inward0"
+              ]
+            },
+            "cut": {
+              "$ref": "#/$defs/Rational"
+            },
+            "left": {
+              "$ref": "#/$defs/CountTree"
+            },
+            "right": {
+              "$ref": "#/$defs/CountTree"
+            }
+          },
+          "required": [
+            "kind",
+            "box",
+            "coordinate",
+            "cut",
+            "left",
+            "right"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "CountCertificatePayload": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.arch/1"
+        },
+        "artifact_kind": {
+          "const": "count_certificate_payload"
+        },
+        "statement_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "context": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "scope": {
+          "$ref": "#/$defs/CountScope"
+        },
+        "roots": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "root": {
+                "$ref": "#/$defs/Natural"
+              },
+              "tree": {
+                "$ref": "#/$defs/CountTree"
+              }
+            },
+            "required": [
+              "root",
+              "tree"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1
+        },
+        "declared_upper": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/Bound"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "outside_window_tails": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/ArtifactRef"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "statement_digest",
+        "context",
+        "scope",
+        "roots",
+        "declared_upper",
+        "outside_window_tails"
+      ],
+      "additionalProperties": false
+    },
+    "Certificate": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.arch/1"
+        },
+        "artifact_kind": {
+          "const": "certificate"
+        },
+        "statement_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "candidate": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "method_family": {
+          "$ref": "#/$defs/MethodFamily"
+        },
+        "family_kernel_id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "family_schema_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "payload": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "claim_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "scope_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "dependencies": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/VerificationDependency"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "statement_digest",
+        "candidate",
+        "method_family",
+        "family_kernel_id",
+        "family_schema_digest",
+        "payload",
+        "claim_digest",
+        "scope_digest",
+        "dependencies"
+      ],
+      "additionalProperties": false
+    },
+    "TrustProfile": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.arch/1"
+        },
+        "artifact_kind": {
+          "const": "trust_profile"
+        },
+        "profile_id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "analytic_policy": {
+          "const": "explicit_source_accepted"
+        },
+        "analytic_bundle_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "numerical_backend": {
+          "type": "string",
+          "enum": [
+            "trusted_source_replay",
+            "self_trace_external_checker",
+            "lean_kernel_trace"
+          ]
+        },
+        "checker_manifest_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "environment_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "dependency_policy_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "lean_contract_bundle_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "conditional_only": {
+          "const": true
+        },
+        "scope_policy_digest": {
+          "$ref": "#/$defs/Digest"
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "profile_id",
+        "analytic_policy",
+        "analytic_bundle_digest",
+        "numerical_backend",
+        "checker_manifest_digest",
+        "environment_digest",
+        "dependency_policy_digest",
+        "lean_contract_bundle_digest",
+        "conditional_only",
+        "scope_policy_digest"
+      ],
+      "additionalProperties": false
+    },
+    "VerificationKey": {
+      "type": "object",
+      "properties": {
+        "statement_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "certificate_bytes_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "checker_manifest_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "checker_environment_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "trust_profile_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "dependencies": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/VerificationDependency"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "statement_digest",
+        "certificate_bytes_digest",
+        "checker_manifest_digest",
+        "checker_environment_digest",
+        "trust_profile_digest",
+        "dependencies"
+      ],
+      "additionalProperties": false
+    },
+    "VerifiedClaim": {
+      "type": "object",
+      "properties": {
+        "claim_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "scope_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "conclusion": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "dependency_receipts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ArtifactRef"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "claim_digest",
+        "scope_digest",
+        "conclusion",
+        "dependency_receipts"
+      ],
+      "additionalProperties": false
+    },
+    "Reason": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string",
+          "enum": [
+            "not_checked",
+            "hash_mismatch",
+            "noncanonical_encoding",
+            "schema_invalid",
+            "semantic_context_invalid",
+            "unsupported_family",
+            "unsupported_rule",
+            "unsupported_trace_profile",
+            "missing_dependency",
+            "dependency_scope_mismatch",
+            "trust_policy_mismatch",
+            "source_pin_mismatch",
+            "unbound_farkas_problem",
+            "farkas_arithmetic_invalid",
+            "coverage_incomplete",
+            "strictness_not_proved",
+            "returned_upper_exceeds_required_cap",
+            "verification_conflict",
+            "deadline_expired",
+            "budget_admission_rejected",
+            "mathematical_check_failed",
+            "internal_error"
+          ]
+        },
+        "message": {
+          "$ref": "#/$defs/Ascii"
+        },
+        "path": {
+          "$ref": "#/$defs/Ascii"
+        }
+      },
+      "required": [
+        "code",
+        "message",
+        "path"
+      ],
+      "additionalProperties": false
+    },
+    "VerificationReceipt": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.arch/1"
+        },
+        "artifact_kind": {
+          "const": "verification_receipt"
+        },
+        "verification_id": {
+          "$ref": "#/$defs/Digest"
+        },
+        "key": {
+          "$ref": "#/$defs/VerificationKey"
+        },
+        "outcome": {
+          "type": "string",
+          "enum": [
+            "metadata_only",
+            "accepted_conditional",
+            "rejected",
+            "unsupported",
+            "inconclusive"
+          ]
+        },
+        "claims": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/VerifiedClaim"
+          },
+          "minItems": 0
+        },
+        "reasons": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Reason"
+          },
+          "minItems": 0
+        },
+        "checker_build": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "trust_profile": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "completed_at": {
+          "$ref": "#/$defs/Utc"
+        },
+        "run_id": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/RunId"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "illustrative": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "verification_id",
+        "key",
+        "outcome",
+        "claims",
+        "reasons",
+        "checker_build",
+        "trust_profile",
+        "completed_at",
+        "run_id",
+        "illustrative"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "outcome": {
+                "const": "accepted_conditional"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "claims": {
+                "minItems": 1
+              },
+              "illustrative": {
+                "const": false
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "claims": {
+                "maxItems": 0
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "illustrative": {
+                "const": true
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "outcome": {
+                "type": "string",
+                "enum": [
+                  "metadata_only",
+                  "rejected",
+                  "unsupported",
+                  "inconclusive"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "ReceiptSeal": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.arch/1"
+        },
+        "artifact_kind": {
+          "const": "receipt_seal"
+        },
+        "receipt": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "verification_id": {
+          "$ref": "#/$defs/Digest"
+        },
+        "issuer_id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "issuer_policy_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "authentication_kind": {
+          "type": "string",
+          "enum": [
+            "local_authority_event",
+            "detached_signature"
+          ]
+        },
+        "authentication_evidence": {
+          "$ref": "#/$defs/ArtifactRef"
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "receipt",
+        "verification_id",
+        "issuer_id",
+        "issuer_policy_digest",
+        "authentication_kind",
+        "authentication_evidence"
+      ],
+      "additionalProperties": false
+    },
+    "IndexScope": {
+      "type": "object",
+      "properties": {
+        "minimum_actual_n": {
+          "$ref": "#/$defs/PositiveNatural"
+        },
+        "maximum_actual_n": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/PositiveNatural"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "calculation_floor": {
+          "$ref": "#/$defs/PositiveNatural"
+        }
+      },
+      "required": [
+        "minimum_actual_n",
+        "maximum_actual_n",
+        "calculation_floor"
+      ],
+      "additionalProperties": false
+    },
+    "Claim": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.arch/1"
+        },
+        "artifact_kind": {
+          "const": "claim"
+        },
+        "statement_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "scope_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "conclusion": {
+          "oneOf": [
+            {
+              "type": "object",
+              "properties": {
+                "kind": {
+                  "const": "score_upper"
+                },
+                "bound": {
+                  "$ref": "#/$defs/Bound"
+                }
+              },
+              "required": [
+                "kind",
+                "bound"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "kind": {
+                  "const": "rho_upper"
+                },
+                "bound": {
+                  "$ref": "#/$defs/Bound"
+                }
+              },
+              "required": [
+                "kind",
+                "bound"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "kind": {
+                  "const": "weighted_resource_export"
+                },
+                "index_scope": {
+                  "$ref": "#/$defs/IndexScope"
+                },
+                "raw_remainder_upper": {
+                  "$ref": "#/$defs/Bound"
+                },
+                "weighted_defect_upper": {
+                  "$ref": "#/$defs/Bound"
+                }
+              },
+              "required": [
+                "kind",
+                "index_scope",
+                "raw_remainder_upper",
+                "weighted_defect_upper"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "kind": {
+                  "const": "negative_defect_exclusion"
+                },
+                "index_scope": {
+                  "$ref": "#/$defs/IndexScope"
+                },
+                "weighted_defect_upper": {
+                  "$ref": "#/$defs/Bound"
+                }
+              },
+              "required": [
+                "kind",
+                "index_scope",
+                "weighted_defect_upper"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "kind": {
+                  "const": "local_bernoulli_comparison"
+                },
+                "index_scope": {
+                  "$ref": "#/$defs/IndexScope"
+                },
+                "epsilon": {
+                  "$ref": "#/$defs/Rational"
+                },
+                "noise_branch": {
+                  "const": "strictly_positive"
+                },
+                "noise_weight": {
+                  "const": "actual_n_times_noise_variance"
+                },
+                "lhs": {
+                  "const": "rho_b_times_current_minus_own_bernoulli"
+                },
+                "rhs": {
+                  "const": "negative_epsilon_times_lambda"
+                },
+                "relation": {
+                  "const": "lt"
+                }
+              },
+              "required": [
+                "kind",
+                "index_scope",
+                "epsilon",
+                "noise_branch",
+                "noise_weight",
+                "lhs",
+                "rhs",
+                "relation"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "kind": {
+                  "const": "zero_noise_bernoulli"
+                },
+                "index_scope": {
+                  "$ref": "#/$defs/IndexScope"
+                },
+                "noise_branch": {
+                  "const": "zero"
+                },
+                "law_identity": {
+                  "const": "same_law_is_standardized_bernoulli"
+                },
+                "final_bound_symbol": {
+                  "const": "esseen_constant"
+                },
+                "relation": {
+                  "const": "lt"
+                }
+              },
+              "required": [
+                "kind",
+                "index_scope",
+                "noise_branch",
+                "law_identity",
+                "final_bound_symbol",
+                "relation"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "kind": {
+                  "const": "infeasible"
+                },
+                "rule": {
+                  "$ref": "#/$defs/LeafRule"
+                }
+              },
+              "required": [
+                "kind",
+                "rule"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "kind": {
+                  "const": "conditional_theorem"
+                },
+                "lean_declaration": {
+                  "$ref": "#/$defs/Ascii"
+                },
+                "statement_form": {
+                  "type": "string",
+                  "enum": [
+                    "sharp_global_constant",
+                    "iid_upper_all_positive_indices"
+                  ]
+                },
+                "analytic_bundle_digest": {
+                  "$ref": "#/$defs/Digest"
+                }
+              },
+              "required": [
+                "kind",
+                "lean_declaration",
+                "statement_form",
+                "analytic_bundle_digest"
+              ],
+              "additionalProperties": false
+            }
+          ]
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "statement_digest",
+        "scope_digest",
+        "conclusion"
+      ],
+      "additionalProperties": false
+    },
+    "FinalAssemblyPayload": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.arch/1"
+        },
+        "artifact_kind": {
+          "const": "final_assembly_payload"
+        },
+        "project_plan": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "top_statement_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "top_claim": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "trust_profile": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "obligation_manifest": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "coverage_receipts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ArtifactRef"
+          },
+          "minItems": 1
+        },
+        "dependency_receipts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/VerificationDependency"
+          },
+          "minItems": 1
+        },
+        "lean_source_manifest": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "lean_bridge_report": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "unresolved_obligations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "project_plan",
+        "top_statement_digest",
+        "top_claim",
+        "trust_profile",
+        "obligation_manifest",
+        "coverage_receipts",
+        "dependency_receipts",
+        "lean_source_manifest",
+        "lean_bridge_report",
+        "unresolved_obligations"
+      ],
+      "additionalProperties": false
+    },
+    "LeanBridgeReport": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.arch/1"
+        },
+        "artifact_kind": {
+          "const": "lean_bridge_report"
+        },
+        "contract_source_manifest": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "toolchain_manifest": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "target_declaration": {
+          "type": "string",
+          "enum": [
+            "BEMap.sharp_from_typed_providers",
+            "BEMap.all_indices_from_typed_providers",
+            "BEMap.universal_iid_inequality"
+          ]
+        },
+        "parameter_bindings": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "lean_parameter": {
+                "$ref": "#/$defs/Ascii"
+              },
+              "meaning_declaration": {
+                "$ref": "#/$defs/Ascii"
+              },
+              "statement_digest": {
+                "$ref": "#/$defs/Digest"
+              },
+              "claim_digest": {
+                "$ref": "#/$defs/Digest"
+              },
+              "receipt": {
+                "$ref": "#/$defs/ArtifactRef"
+              },
+              "realization_mapping": {
+                "$ref": "#/$defs/ArtifactRef"
+              },
+              "proof_status": {
+                "type": "string",
+                "enum": [
+                  "accepted_analytic_parameter",
+                  "trusted_external_meaning_parameter",
+                  "lean_kernel_proof_term"
+                ]
+              },
+              "scope_digest": {
+                "$ref": "#/$defs/Digest"
+              },
+              "source_pin": {
+                "$ref": "#/$defs/SourcePin"
+              }
+            },
+            "required": [
+              "lean_parameter",
+              "meaning_declaration",
+              "statement_digest",
+              "claim_digest",
+              "receipt",
+              "realization_mapping",
+              "proof_status",
+              "scope_digest",
+              "source_pin"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1
+        },
+        "build_status": {
+          "type": "string",
+          "enum": [
+            "not_run",
+            "interface_build_passed",
+            "proof_term_build_passed",
+            "build_failed"
+          ]
+        },
+        "residual_assumptions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ArtifactRef"
+          },
+          "minItems": 0
+        },
+        "claim_level": {
+          "type": "string",
+          "enum": [
+            "conditional_composition",
+            "conditional_with_external_numeric_meanings",
+            "kernel_checked_trace_with_analytic_parameters"
+          ]
+        },
+        "unresolved_mappings": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ArtifactRef"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "contract_source_manifest",
+        "toolchain_manifest",
+        "target_declaration",
+        "parameter_bindings",
+        "build_status",
+        "residual_assumptions",
+        "claim_level",
+        "unresolved_mappings"
+      ],
+      "additionalProperties": false
+    },
+    "FarkasProblem": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.arch/1"
+        },
+        "artifact_kind": {
+          "const": "farkas_problem"
+        },
+        "statement_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "scope_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "derivation": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "variables": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          },
+          "minItems": 1
+        },
+        "inequalities": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "coefficients": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/$defs/Rational"
+                },
+                "minItems": 1
+              },
+              "rhs": {
+                "$ref": "#/$defs/Rational"
+              }
+            },
+            "required": [
+              "coefficients",
+              "rhs"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "statement_digest",
+        "scope_digest",
+        "derivation",
+        "variables",
+        "inequalities"
+      ],
+      "additionalProperties": false
+    },
+    "FarkasTrace": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.arch/1"
+        },
+        "artifact_kind": {
+          "const": "farkas_trace"
+        },
+        "statement_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "scope_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "problem": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "multipliers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Rational"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "statement_digest",
+        "scope_digest",
+        "problem",
+        "multipliers"
+      ],
+      "additionalProperties": false
+    },
+    "DomainCover": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.arch/1"
+        },
+        "artifact_kind": {
+          "const": "domain_cover"
+        },
+        "parent_statement_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "parent_scope_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "cover_kind": {
+          "type": "string",
+          "enum": [
+            "all_count_roots",
+            "count_ancestor_tree",
+            "halfline_window_and_tails",
+            "finite_closed_regions",
+            "uniform_actual_index_panels",
+            "conditional_final_assembly"
+          ]
+        },
+        "contract_rule_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "children": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "statement_digest": {
+                "$ref": "#/$defs/Digest"
+              },
+              "claim_digest": {
+                "$ref": "#/$defs/Digest"
+              },
+              "scope_digest": {
+                "$ref": "#/$defs/Digest"
+              },
+              "coverage_role": {
+                "$ref": "#/$defs/Identifier"
+              }
+            },
+            "required": [
+              "statement_digest",
+              "claim_digest",
+              "scope_digest",
+              "coverage_role"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1
+        },
+        "cover_witness": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "dependency_requirements": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/DependencyRequirement"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "parent_statement_digest",
+        "parent_scope_digest",
+        "cover_kind",
+        "contract_rule_digest",
+        "children",
+        "cover_witness",
+        "dependency_requirements"
+      ],
+      "additionalProperties": false
+    },
+    "TaskGraph": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.arch/1"
+        },
+        "artifact_kind": {
+          "const": "task_graph"
+        },
+        "graph_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "mathematical_manifest": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "runtime_nodes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "job_spec_id": {
+                "$ref": "#/$defs/Digest"
+              },
+              "task_kind": {
+                "type": "string",
+                "enum": [
+                  "produce",
+                  "verify",
+                  "assemble"
+                ]
+              },
+              "statement_digest": {
+                "$ref": "#/$defs/Digest"
+              }
+            },
+            "required": [
+              "job_spec_id",
+              "task_kind",
+              "statement_digest"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1
+        },
+        "runtime_edges": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "prerequisite_job_spec_id": {
+                "$ref": "#/$defs/Digest"
+              },
+              "dependent_job_spec_id": {
+                "$ref": "#/$defs/Digest"
+              },
+              "required_artifact_role": {
+                "$ref": "#/$defs/Identifier"
+              }
+            },
+            "required": [
+              "prerequisite_job_spec_id",
+              "dependent_job_spec_id",
+              "required_artifact_role"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 0
+        },
+        "mathematical_obligations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "statement_digest": {
+                "$ref": "#/$defs/Digest"
+              },
+              "requirements": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/$defs/DependencyRequirement"
+                },
+                "minItems": 0
+              }
+            },
+            "required": [
+              "statement_digest",
+              "requirements"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "graph_digest",
+        "mathematical_manifest",
+        "runtime_nodes",
+        "runtime_edges",
+        "mathematical_obligations"
+      ],
+      "additionalProperties": false
+    },
+    "Money": {
+      "type": "object",
+      "properties": {
+        "currency": {
+          "const": "PLN"
+        },
+        "minor_units": {
+          "$ref": "#/$defs/Natural"
+        }
+      },
+      "required": [
+        "currency",
+        "minor_units"
+      ],
+      "additionalProperties": false
+    },
+    "CostLine": {
+      "type": "object",
+      "properties": {
+        "category": {
+          "type": "string",
+          "enum": [
+            "compute",
+            "boot",
+            "queued_resources",
+            "verification",
+            "retry",
+            "cancellation",
+            "watchdog",
+            "metadata_store",
+            "object_storage",
+            "object_operations",
+            "network",
+            "logging",
+            "retained_storage",
+            "cleanup"
+          ]
+        },
+        "unit": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "upper_unit_price_source_minor": {
+          "$ref": "#/$defs/Rational"
+        },
+        "worst_case_quantity": {
+          "$ref": "#/$defs/Rational"
+        },
+        "liability_horizon": {
+          "$ref": "#/$defs/Utc"
+        },
+        "line_id": {
+          "$ref": "#/$defs/Identifier"
+        }
+      },
+      "required": [
+        "category",
+        "unit",
+        "upper_unit_price_source_minor",
+        "worst_case_quantity",
+        "liability_horizon",
+        "line_id"
+      ],
+      "additionalProperties": false
+    },
+    "CostQuote": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.arch/1"
+        },
+        "artifact_kind": {
+          "const": "cost_quote"
+        },
+        "quote_id": {
+          "$ref": "#/$defs/Digest"
+        },
+        "pricing_version": {
+          "$ref": "#/$defs/Ascii"
+        },
+        "observed_at": {
+          "$ref": "#/$defs/Utc"
+        },
+        "valid_until": {
+          "$ref": "#/$defs/Utc"
+        },
+        "source_currency": {
+          "type": "string",
+          "enum": [
+            "PLN",
+            "USD",
+            "EUR"
+          ]
+        },
+        "price_sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ArtifactRef"
+          },
+          "minItems": 1
+        },
+        "fx_pln_minor_per_source_minor": {
+          "$ref": "#/$defs/Rational"
+        },
+        "fx_source": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "tax_multiplier": {
+          "$ref": "#/$defs/Rational"
+        },
+        "outward_reserve_multiplier": {
+          "$ref": "#/$defs/Rational"
+        },
+        "lines": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/CostLine"
+          },
+          "minItems": 1
+        },
+        "maximum_liability": {
+          "$ref": "#/$defs/Money"
+        },
+        "rounding_rule": {
+          "const": "ceil_pln_minor_after_each_liability_line"
+        },
+        "liability_model_digest": {
+          "$ref": "#/$defs/Digest"
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "quote_id",
+        "pricing_version",
+        "observed_at",
+        "valid_until",
+        "source_currency",
+        "price_sources",
+        "fx_pln_minor_per_source_minor",
+        "fx_source",
+        "tax_multiplier",
+        "outward_reserve_multiplier",
+        "lines",
+        "maximum_liability",
+        "rounding_rule",
+        "liability_model_digest"
+      ],
+      "additionalProperties": false
+    },
+    "BudgetPolicy": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/CloudUserBudgetPolicy"
+        },
+        {
+          "$ref": "#/$defs/CustomCloudBudgetPolicy"
+        },
+        {
+          "$ref": "#/$defs/LocalBudgetPolicy"
+        }
+      ]
+    },
+    "RunControl": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.arch/1"
+        },
+        "artifact_kind": {
+          "const": "run_control"
+        },
+        "campaign_id": {
+          "$ref": "#/$defs/CampaignId"
+        },
+        "run_id": {
+          "$ref": "#/$defs/RunId"
+        },
+        "control_generation": {
+          "$ref": "#/$defs/PositiveNatural"
+        },
+        "cancellation_epoch": {
+          "$ref": "#/$defs/Natural"
+        },
+        "budget_policy": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "task_graph": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "phase": {
+          "type": "string",
+          "enum": [
+            "startup",
+            "main",
+            "local"
+          ]
+        },
+        "state": {
+          "type": "string",
+          "enum": [
+            "planned",
+            "active",
+            "draining",
+            "expired",
+            "shutdown_pending",
+            "compute_stopped",
+            "cleanup_failed",
+            "closed"
+          ]
+        },
+        "main_t0": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/Utc"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "main_deadline": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/Utc"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "admission_cutoff": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/Utc"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "activation_epoch": {
+          "$ref": "#/$defs/Natural"
+        },
+        "resume_policy": {
+          "const": "never_reset_main_anchor"
+        },
+        "watchdog_manifest": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "startup_reserved": {
+          "$ref": "#/$defs/Money"
+        },
+        "startup_spent_upper": {
+          "$ref": "#/$defs/Money"
+        },
+        "main_reserved": {
+          "$ref": "#/$defs/Money"
+        },
+        "main_spent_upper": {
+          "$ref": "#/$defs/Money"
+        },
+        "unreconciled_liability": {
+          "$ref": "#/$defs/Money"
+        },
+        "local_t0": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/Utc"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "local_deadline": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/Utc"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "startup_t0": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/Utc"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "startup_deadline": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/Utc"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "startup_admission_cutoff": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/Utc"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "startup_stop_manifest": {
+          "$ref": "#/$defs/ArtifactRef"
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "campaign_id",
+        "run_id",
+        "control_generation",
+        "cancellation_epoch",
+        "budget_policy",
+        "task_graph",
+        "phase",
+        "state",
+        "main_t0",
+        "main_deadline",
+        "admission_cutoff",
+        "activation_epoch",
+        "resume_policy",
+        "watchdog_manifest",
+        "startup_reserved",
+        "startup_spent_upper",
+        "main_reserved",
+        "main_spent_upper",
+        "unreconciled_liability",
+        "local_t0",
+        "local_deadline",
+        "startup_t0",
+        "startup_deadline",
+        "startup_admission_cutoff",
+        "startup_stop_manifest"
+      ],
+      "additionalProperties": false
+    },
+    "Admission": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/CloudAdmission"
+        },
+        {
+          "$ref": "#/$defs/LocalAdmission"
+        }
+      ]
+    },
+    "AttemptAdmission": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.arch/1"
+        },
+        "artifact_kind": {
+          "const": "attempt_admission"
+        },
+        "admission": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "dispatch_id": {
+          "$ref": "#/$defs/DispatchId"
+        },
+        "task_index": {
+          "$ref": "#/$defs/Natural"
+        },
+        "campaign_id": {
+          "$ref": "#/$defs/CampaignId"
+        },
+        "run_id": {
+          "$ref": "#/$defs/RunId"
+        },
+        "attempt_id": {
+          "$ref": "#/$defs/AttemptId"
+        },
+        "job_spec_id": {
+          "$ref": "#/$defs/Digest"
+        },
+        "lease_generation": {
+          "$ref": "#/$defs/PositiveNatural"
+        },
+        "claimed_at": {
+          "$ref": "#/$defs/Utc"
+        },
+        "campaign_control_generation": {
+          "$ref": "#/$defs/PositiveNatural"
+        },
+        "execution_profile_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "bundle_index": {
+          "$ref": "#/$defs/Natural"
+        },
+        "fencing_token_digest": {
+          "$ref": "#/$defs/Digest"
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "admission",
+        "dispatch_id",
+        "task_index",
+        "campaign_id",
+        "run_id",
+        "attempt_id",
+        "job_spec_id",
+        "lease_generation",
+        "claimed_at",
+        "campaign_control_generation",
+        "execution_profile_digest",
+        "bundle_index",
+        "fencing_token_digest"
+      ],
+      "additionalProperties": false
+    },
+    "DispatchManifest": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.arch/1"
+        },
+        "artifact_kind": {
+          "const": "dispatch_manifest"
+        },
+        "dispatch_id": {
+          "$ref": "#/$defs/DispatchId"
+        },
+        "campaign_id": {
+          "$ref": "#/$defs/CampaignId"
+        },
+        "run_id": {
+          "$ref": "#/$defs/RunId"
+        },
+        "environment_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "backend_profile": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "maximum_provider_wall_seconds": {
+          "$ref": "#/$defs/PositiveNatural"
+        },
+        "slots": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "task_index": {
+                "$ref": "#/$defs/Natural"
+              },
+              "job_spec_id": {
+                "$ref": "#/$defs/Digest"
+              },
+              "task_kind": {
+                "type": "string",
+                "enum": [
+                  "produce",
+                  "verify",
+                  "assemble"
+                ]
+              },
+              "execution_profile_digest": {
+                "$ref": "#/$defs/Digest"
+              },
+              "bundle_index": {
+                "$ref": "#/$defs/Natural"
+              },
+              "bootstrap_grant_id": {
+                "$ref": "#/$defs/Uuid"
+              }
+            },
+            "required": [
+              "task_index",
+              "job_spec_id",
+              "task_kind",
+              "execution_profile_digest",
+              "bundle_index",
+              "bootstrap_grant_id"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "dispatch_id",
+        "campaign_id",
+        "run_id",
+        "environment_digest",
+        "backend_profile",
+        "maximum_provider_wall_seconds",
+        "slots"
+      ],
+      "additionalProperties": false
+    },
+    "FrozenProjectCore": {
+      "type": "object",
+      "properties": {
+        "requested_theorem": {
+          "type": "string",
+          "enum": [
+            "iid_upper_all_positive_indices",
+            "sharp_global_constant"
+          ]
+        },
+        "top_template": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "obligation_manifest": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "source_capsules": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/NamedArtifact"
+          },
+          "minItems": 1
+        },
+        "allowed_trust_profiles": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ArtifactRef"
+          },
+          "minItems": 1
+        },
+        "issuer_policy": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "environment_profiles": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/NamedArtifact"
+          },
+          "minItems": 1
+        },
+        "execution_profiles": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/NamedArtifact"
+          },
+          "minItems": 1
+        },
+        "adaptive_policy": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "backend": {
+          "type": "string",
+          "enum": [
+            "local",
+            "gcp"
+          ]
+        },
+        "campaign_id": {
+          "$ref": "#/$defs/CampaignId"
+        },
+        "budget_policy": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "campaign_control": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/ArtifactRef"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "operational_profiles": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/NamedArtifact"
+          },
+          "minItems": 0
+        },
+        "reproducibility_manifest": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "resolution_policy_digest": {
+          "$ref": "#/$defs/Digest"
+        }
+      },
+      "required": [
+        "requested_theorem",
+        "top_template",
+        "obligation_manifest",
+        "source_capsules",
+        "allowed_trust_profiles",
+        "issuer_policy",
+        "environment_profiles",
+        "execution_profiles",
+        "adaptive_policy",
+        "backend",
+        "campaign_id",
+        "budget_policy",
+        "campaign_control",
+        "operational_profiles",
+        "reproducibility_manifest",
+        "resolution_policy_digest"
+      ],
+      "additionalProperties": false
+    },
+    "FrozenProject": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.arch/1"
+        },
+        "artifact_kind": {
+          "const": "frozen_project"
+        },
+        "project_id": {
+          "$ref": "#/$defs/Digest"
+        },
+        "core": {
+          "$ref": "#/$defs/FrozenProjectCore"
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "project_id",
+        "core"
+      ],
+      "additionalProperties": false
+    },
+    "ShutdownReceipt": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.arch/1"
+        },
+        "artifact_kind": {
+          "const": "shutdown_receipt"
+        },
+        "run_id": {
+          "$ref": "#/$defs/RunId"
+        },
+        "budget_policy_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "watchdog_manifest": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "state": {
+          "type": "string",
+          "enum": [
+            "requested",
+            "dispatched",
+            "platform_confirmed",
+            "verified_no_active_compute",
+            "cleanup_failed"
+          ]
+        },
+        "trigger": {
+          "type": "string",
+          "enum": [
+            "deadline",
+            "budget_liability",
+            "user_cancel",
+            "watchdog",
+            "normal_completion"
+          ]
+        },
+        "requested_at": {
+          "$ref": "#/$defs/Utc"
+        },
+        "observed_at": {
+          "$ref": "#/$defs/Utc"
+        },
+        "provider_operations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Ascii"
+          },
+          "minItems": 0
+        },
+        "independent_inventory": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ArtifactRef"
+          },
+          "minItems": 0
+        },
+        "retained_chargeable_resources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ArtifactRef"
+          },
+          "minItems": 0
+        },
+        "unreconciled_liability": {
+          "$ref": "#/$defs/Money"
+        },
+        "failure_reasons": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Reason"
+          },
+          "minItems": 0
+        },
+        "campaign_id": {
+          "$ref": "#/$defs/CampaignId"
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "run_id",
+        "budget_policy_digest",
+        "watchdog_manifest",
+        "state",
+        "trigger",
+        "requested_at",
+        "observed_at",
+        "provider_operations",
+        "independent_inventory",
+        "retained_chargeable_resources",
+        "unreconciled_liability",
+        "failure_reasons",
+        "campaign_id"
+      ],
+      "additionalProperties": false
+    },
+    "CloudUserBudgetPolicy": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.arch/1"
+        },
+        "artifact_kind": {
+          "const": "budget_policy"
+        },
+        "policy_id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "startup_limit": {
+          "type": "object",
+          "properties": {
+            "currency": {
+              "const": "PLN"
+            },
+            "minor_units": {
+              "const": "7500"
+            }
+          },
+          "required": [
+            "currency",
+            "minor_units"
+          ],
+          "additionalProperties": false
+        },
+        "main_limit": {
+          "type": "object",
+          "properties": {
+            "currency": {
+              "const": "PLN"
+            },
+            "minor_units": {
+              "const": "55000"
+            }
+          },
+          "required": [
+            "currency",
+            "minor_units"
+          ],
+          "additionalProperties": false
+        },
+        "total_limit": {
+          "type": "object",
+          "properties": {
+            "currency": {
+              "const": "PLN"
+            },
+            "minor_units": {
+              "const": "62500"
+            }
+          },
+          "required": [
+            "currency",
+            "minor_units"
+          ],
+          "additionalProperties": false
+        },
+        "main_runtime_seconds": {
+          "const": "43200"
+        },
+        "shutdown_margin_seconds": {
+          "$ref": "#/$defs/PositiveNatural"
+        },
+        "activation_policy": {
+          "const": "persist_once_before_first_paid_main_create"
+        },
+        "admission_policy": {
+          "const": "reserve_worst_case_liability_before_create"
+        },
+        "unknown_create_policy": {
+          "const": "retain_reservation_until_reconciled"
+        },
+        "quote_policy_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "retained_storage_policy_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "watchdog_policy_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "invoice_cap_guaranteed": {
+          "const": false
+        },
+        "policy_kind": {
+          "const": "gcp_user_campaign"
+        },
+        "no_paid_activation": {
+          "const": false
+        },
+        "startup_runtime_seconds": {
+          "$ref": "#/$defs/PositiveNatural"
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "policy_id",
+        "startup_limit",
+        "main_limit",
+        "total_limit",
+        "main_runtime_seconds",
+        "shutdown_margin_seconds",
+        "activation_policy",
+        "admission_policy",
+        "unknown_create_policy",
+        "quote_policy_digest",
+        "retained_storage_policy_digest",
+        "watchdog_policy_digest",
+        "invoice_cap_guaranteed",
+        "policy_kind",
+        "no_paid_activation",
+        "startup_runtime_seconds"
+      ],
+      "additionalProperties": false
+    },
+    "LocalBudgetPolicy": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.arch/1"
+        },
+        "artifact_kind": {
+          "const": "budget_policy"
+        },
+        "policy_kind": {
+          "const": "local_reproduction"
+        },
+        "policy_id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "no_paid_activation": {
+          "const": true
+        },
+        "local_time_limit_seconds": {
+          "$ref": "#/$defs/PositiveNatural"
+        },
+        "local_cpu_limit": {
+          "$ref": "#/$defs/PositiveNatural"
+        },
+        "local_ram_limit_bytes": {
+          "$ref": "#/$defs/PositiveNatural"
+        },
+        "resume_policy": {
+          "const": "preserve_local_campaign_anchor"
+        },
+        "cloud_campaign_resume_allowed": {
+          "const": false
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "policy_kind",
+        "policy_id",
+        "no_paid_activation",
+        "local_time_limit_seconds",
+        "local_cpu_limit",
+        "local_ram_limit_bytes",
+        "resume_policy",
+        "cloud_campaign_resume_allowed"
+      ],
+      "additionalProperties": false
+    },
+    "CustomCloudBudgetPolicy": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.arch/1"
+        },
+        "artifact_kind": {
+          "const": "budget_policy"
+        },
+        "policy_id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "startup_limit": {
+          "$ref": "#/$defs/Money"
+        },
+        "main_limit": {
+          "$ref": "#/$defs/Money"
+        },
+        "total_limit": {
+          "$ref": "#/$defs/Money"
+        },
+        "main_runtime_seconds": {
+          "$ref": "#/$defs/PositiveNatural"
+        },
+        "shutdown_margin_seconds": {
+          "$ref": "#/$defs/PositiveNatural"
+        },
+        "activation_policy": {
+          "const": "persist_once_before_first_paid_main_create"
+        },
+        "admission_policy": {
+          "const": "reserve_worst_case_liability_before_create"
+        },
+        "unknown_create_policy": {
+          "const": "retain_reservation_until_reconciled"
+        },
+        "quote_policy_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "retained_storage_policy_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "watchdog_policy_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "invoice_cap_guaranteed": {
+          "const": false
+        },
+        "policy_kind": {
+          "const": "gcp_authorized_campaign"
+        },
+        "no_paid_activation": {
+          "const": false
+        },
+        "startup_runtime_seconds": {
+          "$ref": "#/$defs/PositiveNatural"
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "policy_id",
+        "startup_limit",
+        "main_limit",
+        "total_limit",
+        "main_runtime_seconds",
+        "shutdown_margin_seconds",
+        "activation_policy",
+        "admission_policy",
+        "unknown_create_policy",
+        "quote_policy_digest",
+        "retained_storage_policy_digest",
+        "watchdog_policy_digest",
+        "invoice_cap_guaranteed",
+        "policy_kind",
+        "no_paid_activation",
+        "startup_runtime_seconds"
+      ],
+      "additionalProperties": false
+    },
+    "CloudAdmission": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.arch/1"
+        },
+        "artifact_kind": {
+          "const": "admission"
+        },
+        "reservation_id": {
+          "$ref": "#/$defs/Uuid"
+        },
+        "run_id": {
+          "$ref": "#/$defs/RunId"
+        },
+        "budget_policy_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "quote": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "phase": {
+          "type": "string",
+          "enum": [
+            "startup",
+            "main"
+          ]
+        },
+        "decision": {
+          "type": "string",
+          "enum": [
+            "reserved",
+            "rejected",
+            "held_unknown_create",
+            "reconciled_consumed",
+            "reconciled_released"
+          ]
+        },
+        "maximum_liability": {
+          "$ref": "#/$defs/Money"
+        },
+        "main_t0": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/Utc"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "main_deadline": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/Utc"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "admission_cutoff": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/Utc"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "provider_create_request_id": {
+          "$ref": "#/$defs/Uuid"
+        },
+        "provider_operation_name": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/Ascii"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "ledger_generation": {
+          "$ref": "#/$defs/PositiveNatural"
+        },
+        "reconciliation": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/ArtifactRef"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "campaign_id": {
+          "$ref": "#/$defs/CampaignId"
+        },
+        "run_control": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "dispatch_id": {
+          "$ref": "#/$defs/DispatchId"
+        },
+        "dispatch_manifest": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "job_spec_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Digest"
+          },
+          "minItems": 1
+        },
+        "phase_deadline": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/Utc"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "phase_admission_cutoff": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/Utc"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "reservation_id",
+        "run_id",
+        "budget_policy_digest",
+        "quote",
+        "phase",
+        "decision",
+        "maximum_liability",
+        "main_t0",
+        "main_deadline",
+        "admission_cutoff",
+        "provider_create_request_id",
+        "provider_operation_name",
+        "ledger_generation",
+        "reconciliation",
+        "campaign_id",
+        "run_control",
+        "dispatch_id",
+        "dispatch_manifest",
+        "job_spec_ids",
+        "phase_deadline",
+        "phase_admission_cutoff"
+      ],
+      "additionalProperties": false
+    },
+    "LocalAdmission": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.arch/1"
+        },
+        "artifact_kind": {
+          "const": "admission"
+        },
+        "reservation_id": {
+          "$ref": "#/$defs/Uuid"
+        },
+        "campaign_id": {
+          "$ref": "#/$defs/CampaignId"
+        },
+        "run_id": {
+          "$ref": "#/$defs/RunId"
+        },
+        "dispatch_id": {
+          "$ref": "#/$defs/DispatchId"
+        },
+        "dispatch_manifest": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "job_spec_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Digest"
+          },
+          "minItems": 1
+        },
+        "run_control": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "budget_policy_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "phase": {
+          "const": "local"
+        },
+        "decision": {
+          "type": "string",
+          "enum": [
+            "locally_admitted",
+            "locally_rejected"
+          ]
+        },
+        "no_paid_activation": {
+          "const": true
+        },
+        "local_deadline": {
+          "$ref": "#/$defs/Utc"
+        },
+        "ledger_generation": {
+          "$ref": "#/$defs/PositiveNatural"
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "reservation_id",
+        "campaign_id",
+        "run_id",
+        "dispatch_id",
+        "dispatch_manifest",
+        "job_spec_ids",
+        "run_control",
+        "budget_policy_digest",
+        "phase",
+        "decision",
+        "no_paid_activation",
+        "local_deadline",
+        "ledger_generation"
+      ],
+      "additionalProperties": false
+    },
+    "ReproducibilityManifest": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.arch/1"
+        },
+        "artifact_kind": {
+          "const": "reproducibility_manifest"
+        },
+        "mathematical_checkpoint_commit": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "required_assets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "role": {
+                "$ref": "#/$defs/Identifier"
+              },
+              "artifact": {
+                "$ref": "#/$defs/ArtifactRef"
+              },
+              "license": {
+                "$ref": "#/$defs/ArtifactRef"
+              },
+              "rebuild_recipe": {
+                "oneOf": [
+                  {
+                    "$ref": "#/$defs/ArtifactRef"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "role",
+              "artifact",
+              "license",
+              "rebuild_recipe"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1
+        },
+        "environment_build_recipes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/NamedArtifact"
+          },
+          "minItems": 1
+        },
+        "schema_bundles": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ArtifactRef"
+          },
+          "minItems": 1
+        },
+        "complete": {
+          "type": "boolean"
+        },
+        "missing_required_assets": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          },
+          "minItems": 0
+        },
+        "private_only_inputs_allowed": {
+          "const": false
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "mathematical_checkpoint_commit",
+        "required_assets",
+        "environment_build_recipes",
+        "schema_bundles",
+        "complete",
+        "missing_required_assets",
+        "private_only_inputs_allowed"
+      ],
+      "additionalProperties": false
+    },
+    "AssemblyResult": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "be.arch/1"
+        },
+        "artifact_kind": {
+          "const": "assembly_result"
+        },
+        "project_id": {
+          "$ref": "#/$defs/Digest"
+        },
+        "requested_theorem": {
+          "type": "string",
+          "enum": [
+            "iid_upper_all_positive_indices",
+            "sharp_global_constant"
+          ]
+        },
+        "top_statement_digest": {
+          "$ref": "#/$defs/Digest"
+        },
+        "trust_profile": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "mathematical_verdict": {
+          "type": "string",
+          "enum": [
+            "pass_conditional",
+            "no_pass",
+            "inconclusive"
+          ]
+        },
+        "final_receipt": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/ArtifactRef"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "assembly_payload": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/ArtifactRef"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "unresolved_obligations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          },
+          "minItems": 0
+        },
+        "operational_status": {
+          "type": "string",
+          "enum": [
+            "pending",
+            "closed",
+            "cleanup_failed"
+          ]
+        },
+        "shutdown_receipt": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/ArtifactRef"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "exit_code": {
+          "type": "string",
+          "enum": [
+            "0",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        }
+      },
+      "required": [
+        "schema_version",
+        "artifact_kind",
+        "project_id",
+        "requested_theorem",
+        "top_statement_digest",
+        "trust_profile",
+        "mathematical_verdict",
+        "final_receipt",
+        "assembly_payload",
+        "unresolved_obligations",
+        "operational_status",
+        "shutdown_receipt",
+        "exit_code"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "oneOf": [
+    {
+      "$ref": "#/$defs/Statement"
+    },
+    {
+      "$ref": "#/$defs/JobSpec"
+    },
+    {
+      "$ref": "#/$defs/Attempt"
+    },
+    {
+      "$ref": "#/$defs/Candidate"
+    },
+    {
+      "$ref": "#/$defs/Certificate"
+    },
+    {
+      "$ref": "#/$defs/VerificationReceipt"
+    },
+    {
+      "$ref": "#/$defs/ReceiptSeal"
+    },
+    {
+      "$ref": "#/$defs/Claim"
+    },
+    {
+      "$ref": "#/$defs/FinalAssemblyPayload"
+    },
+    {
+      "$ref": "#/$defs/LeanBridgeReport"
+    },
+    {
+      "$ref": "#/$defs/AssemblyResult"
+    },
+    {
+      "$ref": "#/$defs/FrozenProject"
+    },
+    {
+      "$ref": "#/$defs/ReproducibilityManifest"
+    },
+    {
+      "$ref": "#/$defs/DispatchManifest"
+    },
+    {
+      "$ref": "#/$defs/AttemptAdmission"
+    },
+    {
+      "$ref": "#/$defs/CountContext"
+    },
+    {
+      "$ref": "#/$defs/CountCertificatePayload"
+    },
+    {
+      "$ref": "#/$defs/FarkasProblem"
+    },
+    {
+      "$ref": "#/$defs/FarkasTrace"
+    },
+    {
+      "$ref": "#/$defs/DomainCover"
+    },
+    {
+      "$ref": "#/$defs/TaskGraph"
+    },
+    {
+      "$ref": "#/$defs/TrustProfile"
+    },
+    {
+      "$ref": "#/$defs/CostQuote"
+    },
+    {
+      "$ref": "#/$defs/BudgetPolicy"
+    },
+    {
+      "$ref": "#/$defs/RunControl"
+    },
+    {
+      "$ref": "#/$defs/Admission"
+    },
+    {
+      "$ref": "#/$defs/ShutdownReceipt"
+    }
+  ]
+}

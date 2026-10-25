@@ -1,0 +1,94 @@
+# Architecture example, NOT a runnable proof deployment or spending authorization.
+# The CLI is to be implemented. REQUIRED paths deliberately block activation
+# until the complete public proof manifest, locks, quote and issuer policy exist.
+# Normal use after implementation: be run project.toml --resume
+# Public fresh replay: be run project.toml --fresh --empty-cache --offline
+
+schema_version = "be.arch/1"
+requested_theorem = "sharp_global_constant"
+top_template = "REQUIRED/public-top-template.json"
+obligation_manifest = "REQUIRED/public-obligation-manifest.json"
+issuer_policy = "REQUIRED/public-issuer-policy.json"
+allowed_trust_profiles = ["trust-profile.json"]
+adaptive_policy = "REQUIRED/adaptive-policy.json"
+backend = "local"
+campaign_id = "campaign:00000000-0000-4000-8000-000000000004"
+budget_policy = "budget-policy-local.json"
+campaign_control = "run-control-local-planned.json"
+
+[[source_capsules]]
+name = "research-source-closure"
+path = "REQUIRED/public-source-capsule-manifest.json"
+
+[[environment_profiles]]
+name = "linux-amd64-cpython312"
+path = "REQUIRED/environment-profile.json"
+
+[[execution_profiles]]
+name = "exact-rational-single-cpu"
+path = "REQUIRED/execution-profile.json"
+
+[artifacts]
+resolver = "public-or-offline"
+allow_private_inputs = false
+offline_bundle = "REQUIRED/portable-proof-bundle.manifest.json"
+local_store = "./.be/artifacts"
+
+[local]
+ledger = "./.be/ledger.sqlite3"
+linux_image_profile = "linux-amd64-cpython312"
+max_workers = "4"
+time_limit_seconds = "604800" # example local7days; not the GCP main deadline
+no_paid_activation = true
+allow_native_windows_numerics = false
+
+[performance]
+objective = "verified-throughput"
+target_chunk_seconds = "300"
+minimum_chunk_seconds = "60"
+maximum_chunk_seconds = "900"
+checkpoint_seconds = "60"
+heartbeat_seconds = "30"
+lease_ttl_seconds = "120"
+maximum_infrastructure_retries = "3"
+allow_cpu_oversubscription = false
+allow_memory_oversubscription = false
+
+[budget_constraints]
+scope = "gcp-only"
+currency = "PLN"
+startup_limit_minor = "7500"
+startup_runtime_seconds = "7200"
+main_limit_minor = "55000"
+combined_limit_minor = "62500"
+main_runtime_seconds = "43200"
+allow_phase_transfer = false
+require_quote = true
+allow_paid_activation = false
+
+[gcp]
+budget_policy = "budget-policy.json"
+project_id = "REQUIRED_BEFORE_GCP_ACTIVATION"
+region = "REQUIRED_AFTER_QUOTA_AND_PRICE_PREFLIGHT"
+allowed_zones = []
+ledger_backend = "firestore-native"
+artifact_backend = "gcs"
+compute_backend = "batch"
+native_retry_count = "0"
+maximum_array_tasks = "64"
+global_cpu_ceiling = "100"
+spot_enabled = false
+controller_image = "REQUIRED_PUBLIC_IMAGE_AT_SHA256_DIGEST"
+worker_image = "REQUIRED_PUBLIC_IMAGE_AT_SHA256_DIGEST"
+watchdog_image = "REQUIRED_PUBLIC_IMAGE_AT_SHA256_DIGEST"
+dispatch_cutoff_before_deadline_seconds = "900"
+checkpoint_before_deadline_seconds = "180"
+hard_stop_before_deadline_seconds = "120"
+vm_termination_before_deadline_seconds = "90"
+independent_watchdog_required = true
+watchdog_tick_seconds = "60"
+
+# Numbers are canonical decimal strings, matching the JSON protocol.
+# The compiler rejects a TOML budget override that disagrees with budget-policy.
+# T0/deadline do not live here: they are set once in campaign control before
+# first paid main creation, and --resume/new CLI invocation cannot reset them.

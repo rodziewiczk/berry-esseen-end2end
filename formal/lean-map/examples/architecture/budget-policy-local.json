@@ -1,0 +1,1 @@
+{"artifact_kind":"budget_policy","cloud_campaign_resume_allowed":false,"local_cpu_limit":"1","local_ram_limit_bytes":"1073741824","local_time_limit_seconds":"604800","no_paid_activation":true,"policy_id":"example.local-reproduction-unarmed/1","policy_kind":"local_reproduction","resume_policy":"preserve_local_campaign_anchor","schema_version":"be.arch/1"}

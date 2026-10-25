@@ -1,0 +1,1 @@
+{"artifact_kind":"claim","conclusion":{"bound":{"relation":"le","value":{"den":"10000","num":"4097"}},"kind":"score_upper"},"schema_version":"be.arch/1","scope_digest":"sha256:05736a03b6d61e26927d74b906b1af1807592c581494ccb323339b1d17e208dc","statement_digest":"sha256:fde8f5a48760a116f2c9826cecb240eefe1635c680853f2359de7e74d84408e5"}

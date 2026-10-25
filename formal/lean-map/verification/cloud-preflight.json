@@ -1,0 +1,76 @@
+{
+  "scope": "sanitized read-only observation of the user's configured Google Cloud project",
+  "observed_date": "2026-10-25",
+  "method": "gcloud describe/list commands; no project, API, IAM, billing or compute mutation",
+  "project_identity": "redacted; deployment must select and freeze an explicit project",
+  "gcloud_sdk": "590.0.1",
+  "gcloud_core_date": "2026.10.22",
+  "project_active": true,
+  "billing_enabled": true,
+  "enabled_relevant_services": [
+    "compute.googleapis.com",
+    "storage.googleapis.com",
+    "logging.googleapis.com",
+    "monitoring.googleapis.com",
+    "serviceusage.googleapis.com",
+    "cloudquotas.googleapis.com"
+  ],
+  "not_enabled_relevant_services": [
+    "batch.googleapis.com",
+    "run.googleapis.com",
+    "firestore.googleapis.com",
+    "cloudscheduler.googleapis.com",
+    "artifactregistry.googleapis.com"
+  ],
+  "global_quotas": {
+    "CPUS_ALL_REGIONS": {"limit": 100, "usage": 0},
+    "GPUS_ALL_REGIONS": {"limit": 0, "usage": 0}
+  },
+  "regional_quota_observations": [
+    {
+      "region": "europe-west4",
+      "status": "UP",
+      "CPUS": {"limit": 200, "usage": 0},
+      "N2_CPUS": {"limit": 200, "usage": 0},
+      "C2_CPUS": {"limit": 8, "usage": 0},
+      "C2D_CPUS": {"limit": 100, "usage": 0},
+      "C3_CPUS": {"limit": 8, "usage": 0},
+      "N2D_CPUS": {"limit": 16, "usage": 0},
+      "PREEMPTIBLE_CPUS": {"limit": 0, "usage": 0},
+      "INSTANCES": {"limit": 24, "usage": 1}
+    },
+    {
+      "region": "europe-central2",
+      "status": "UP",
+      "CPUS": {"limit": 100, "usage": 0},
+      "N2_CPUS": {"limit": 100, "usage": 0},
+      "C2_CPUS": {"limit": 8, "usage": 0},
+      "C2D_CPUS": {"limit": 100, "usage": 0},
+      "C3_CPUS": {"limit": 8, "usage": 0},
+      "N2D_CPUS": {"limit": 16, "usage": 0},
+      "PREEMPTIBLE_CPUS": {"limit": 0, "usage": 0},
+      "INSTANCES": {"limit": 24, "usage": 0}
+    }
+  ],
+  "machine_type_observations": [
+    {"zone": "europe-west4-a", "name": "n2-highcpu-16", "guest_cpus": 16, "memory_mb": 16384},
+    {"zone": "europe-central2-a", "name": "n2-standard-16", "guest_cpus": 16, "memory_mb": 65536}
+  ],
+  "existing_instance_inventory": {
+    "running_count": 0,
+    "terminated_count": 1,
+    "terminated_machine_types": ["c4d-standard-16"],
+    "instance_identifiers": "redacted; existing resources are outside campaign ownership",
+    "residual_disk_address_storage_costs_assessed": false
+  },
+  "limits_of_observation": [
+    "Quota is not a reservation or proof of actual regional capacity.",
+    "Global, regional and family quotas all constrain dispatch; region limits cannot be added across regions to bypass the global limit.",
+    "Zero Spot/preemptible CPU quota blocks a Spot-only strategy unless changed and rechecked.",
+    "No exact price/FX quote, benchmark, Batch allocation, Firestore transaction, controller deployment or watchdog trial was performed.",
+    "No existing stopped VM, disk or network resource was started, deleted or modified. Stopped compute does not establish zero residual storage charges.",
+    "All quotas, enabled services and price/profile inputs must be checked again before paid deployment."
+  ],
+  "paid_resources_created": false,
+  "paid_compute_started": false
+}

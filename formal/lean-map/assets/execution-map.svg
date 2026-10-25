@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1370" viewBox="0 0 1500 1370" role="img" aria-labelledby="title desc">
+<title id="title">Berry-Esseen execution architecture: one CLI, complete proof acceptance</title>
+<desc id="desc">Specified architecture, not a running proof. Planning and parallel candidate production feed independent verification and complete coverage. Analytic assumptions and the Lean trust bridge remain explicit. Immutable storage, a transactional ledger and an independent shutdown mechanism support execution.</desc>
+<style>text{font-family:"Segoe UI",Arial,sans-serif;fill:#172b44}.eyebrow{font-size:10px;font-weight:700;letter-spacing:1px}.title{font-size:21px;font-weight:650}.body{font-size:15px}.edge{fill:none;stroke:#7b91a7;stroke-width:2;marker-end:url(#arrow)}.support{fill:none;stroke:#adadc4;stroke-width:1.6;stroke-dasharray:5 5}</style>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5L0 9Z" fill="#7b91a7"/></marker></defs>
+<rect width="1500" height="1370" rx="24" fill="#f5f7fb"/>
+<rect x="28" y="28" width="1444" height="190" rx="20" fill="#10243a"/>
+<text x="56" y="65" style="fill:#9bc7dd;font-size:12px;letter-spacing:2px">BERRY-ESSEEN / EXECUTION ARCHITECTURE v1</text>
+<text x="56" y="110" style="fill:white;font-size:33px;font-weight:650">One command. Parallel compute. Complete acceptance.</text>
+<text x="56" y="148" style="fill:#cfdae5;font-size:17px">Specify the interfaces first, implement vertical slices, then scale on Google Cloud.</text>
+<text x="56" y="185" style="fill:#b9d7dc;font-size:15px">PLN75 startup + PLN550 main / 12 hours · cache and resume · architecture specified, production runner pending</text>
+<text x="52" y="263" class="eyebrow">01 / FREEZE AND SCHEDULE</text>
+<text x="52" y="491" class="eyebrow">02 / PRODUCE, CHECK AND COVER</text>
+<text x="52" y="719" class="eyebrow">03 / EXPLICIT PREMISES AND FINAL CONCLUSION</text>
+<rect x="28" y="968" width="1444" height="266" rx="20" fill="#eaeaf4"/>
+<text x="52" y="1008" class="eyebrow">CROSS-CUTTING SERVICES / SUPPORT EXECUTION, DO NOT PROVE MATHEMATICS</text>
+<path class="edge" d="M472 360H530"/>
+<path class="edge" d="M956 360H1014"/>
+<path class="edge" d="M1230 428V452H34V588H46"/>
+<path class="edge" d="M472 588H530"/>
+<path class="edge" d="M956 588H1014"/>
+<path class="edge" d="M472 816H530"/>
+<path class="edge" d="M1230 656V742"/>
+<path class="edge" d="M956 816H1014"/>
+<a href="../docs/architecture/01-protocol-and-types.md"><g id="project">
+<rect x="52" y="292" width="420" height="136" rx="14" fill="#edf4ff" stroke="#b5cbea"/>
+<text x="72" y="318" class="eyebrow" style="fill:#285a94">EXECUTION CONTRACT</text>
+<text x="72" y="350" class="title">One CLI + frozen project</text>
+<text x="72" y="378" class="body">be run project.toml --resume</text>
+<text x="72" y="402" class="body">Exact theorem, sources, trust and policy</text>
+</g></a>
+<a href="../docs/architecture/02-execution.md"><g id="plan">
+<rect x="536" y="292" width="420" height="136" rx="14" fill="#edf4ff" stroke="#b5cbea"/>
+<text x="556" y="318" class="eyebrow" style="fill:#285a94">EXECUTION CONTRACT</text>
+<text x="556" y="350" class="title">Planner + dependency graph</text>
+<text x="556" y="378" class="body">Mathematical AND / OR coverage</text>
+<text x="556" y="402" class="body">Separate runtime jobs; no cycles</text>
+</g></a>
+<a href="../docs/architecture/05-compute-and-deployment.md"><g id="schedule">
+<rect x="1020" y="292" width="420" height="136" rx="14" fill="#edf4ff" stroke="#b5cbea"/>
+<text x="1040" y="318" class="eyebrow" style="fill:#285a94">EXECUTION CONTRACT</text>
+<text x="1040" y="350" class="title">Parallel scheduler</text>
+<text x="1040" y="378" class="body">Legal chunks; measured CPU scaling</text>
+<text x="1040" y="402" class="body">Reserve time, memory and money</text>
+</g></a>
+<a href="../docs/architecture/02-execution.md"><g id="produce">
+<rect x="52" y="520" width="420" height="136" rx="14" fill="#fff5e9" stroke="#e4c295"/>
+<text x="72" y="546" class="eyebrow" style="fill:#9a5614">UNTRUSTED OUTPUT</text>
+<text x="72" y="578" class="title">Numerical producers</text>
+<text x="72" y="606" class="body">Independent roots / panels / cells</text>
+<text x="72" y="630" class="body">Candidate bytes; no proof authority</text>
+</g></a>
+<a href="../docs/architecture/04-checkers-and-lean.md"><g id="verify">
+<rect x="536" y="520" width="420" height="136" rx="14" fill="#eaf8f1" stroke="#a6d4be"/>
+<text x="556" y="546" class="eyebrow" style="fill:#087451">ACCEPTANCE CONTRACT</text>
+<text x="556" y="578" class="title">Independent verification</text>
+<text x="556" y="606" class="body">Exact statement + complete replay</text>
+<text x="556" y="630" class="body">Source / arithmetic / trust bindings</text>
+</g></a>
+<a href="../docs/architecture/04-checkers-and-lean.md"><g id="cover">
+<rect x="1020" y="520" width="420" height="136" rx="14" fill="#eaf8f1" stroke="#a6d4be"/>
+<text x="1040" y="546" class="eyebrow" style="fill:#087451">ACCEPTANCE CONTRACT</text>
+<text x="1040" y="578" class="title">Complete coverage + assembly</text>
+<text x="1040" y="606" class="body">Every required root, seam and tail</text>
+<text x="1040" y="630" class="body">Exact dependency receipt closure</text>
+</g></a>
+<a href="../docs/contracts/README.md"><g id="premises">
+<rect x="52" y="748" width="420" height="136" rx="14" fill="#fffae8" stroke="#dfcb86"/>
+<text x="72" y="774" class="eyebrow" style="fill:#8a651c">DECLARED LOGICAL BOUNDARY</text>
+<text x="72" y="806" class="title">Explicit analytic premises</text>
+<text x="72" y="834" class="body">Exact source statements and gates</text>
+<text x="72" y="858" class="body">Accepted premises remain visible</text>
+</g></a>
+<a href="../docs/architecture/04-checkers-and-lean.md"><g id="lean">
+<rect x="536" y="748" width="420" height="136" rx="14" fill="#fffae8" stroke="#dfcb86"/>
+<text x="556" y="774" class="eyebrow" style="fill:#8a651c">DECLARED LOGICAL BOUNDARY</text>
+<text x="556" y="806" class="title">Lean interface + trust bridge</text>
+<text x="556" y="834" class="body">Checked conditional composition</text>
+<text x="556" y="858" class="body">JSON decoding is not a proof term</text>
+</g></a>
+<a href="../docs/architecture/02-execution.md"><g id="verdict">
+<rect x="1020" y="748" width="420" height="136" rx="14" fill="#eaf8f1" stroke="#a6d4be"/>
+<text x="1040" y="774" class="eyebrow" style="fill:#087451">ACCEPTANCE CONTRACT</text>
+<text x="1040" y="806" class="title">Final report: PASS / NO PASS</text>
+<text x="1040" y="834" class="body">PASS only for the requested whole</text>
+<text x="1040" y="858" class="body">Otherwise: reasons + remaining work</text>
+</g></a>
+<a href="../docs/architecture/03-storage-and-recovery.md"><g id="cas">
+<rect x="52" y="1040" width="420" height="136" rx="14" fill="#f2f1fb" stroke="#c4bfdf"/>
+<text x="72" y="1066" class="eyebrow" style="fill:#65568e">SUPPORTING AUTHORITY</text>
+<text x="72" y="1098" class="title">Immutable bytes + exact cache</text>
+<text x="72" y="1126" class="body">Local CAS / Cloud Storage</text>
+<text x="72" y="1150" class="body">Candidates, receipts and checkpoints differ</text>
+</g></a>
+<a href="../docs/architecture/03-storage-and-recovery.md"><g id="ledger">
+<rect x="536" y="1040" width="420" height="136" rx="14" fill="#f2f1fb" stroke="#c4bfdf"/>
+<text x="556" y="1066" class="eyebrow" style="fill:#65568e">SUPPORTING AUTHORITY</text>
+<text x="556" y="1098" class="title">Transactional runtime ledger</text>
+<text x="556" y="1126" class="body">SQLite / Firestore; fenced attempts</text>
+<text x="556" y="1150" class="body">Outbox, reservations and recovery</text>
+</g></a>
+<a href="../docs/architecture/05-compute-and-deployment.md"><g id="stop">
+<rect x="1020" y="1040" width="420" height="136" rx="14" fill="#f2f1fb" stroke="#c4bfdf"/>
+<text x="1040" y="1066" class="eyebrow" style="fill:#65568e">SUPPORTING AUTHORITY</text>
+<text x="1040" y="1098" class="title">Independent stop + liability</text>
+<text x="1040" y="1126" class="body">Absolute deadline; resource inventory</text>
+<text x="1040" y="1150" class="body">Confirm shutdown; retain cost reserve</text>
+</g></a>
+<text x="52" y="1210" style="font-size:14px;fill:#615b7d">These services bind every dispatch, checkpoint, publication and resume. Resource shutdown is reported independently.</text>
+<text x="52" y="1284" style="font-size:17px;font-weight:650">PASS requires the whole requested conclusion under the declared trust profile.</text>
+<text x="52" y="1317" style="font-size:15px">A candidate, historical PASS, cache hit, successful VM or green conditional Lean build cannot replace missing evidence.</text>
+</svg>
