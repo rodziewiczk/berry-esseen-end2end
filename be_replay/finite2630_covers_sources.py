@@ -10,6 +10,12 @@ PLAN=ROOT/'proof/finite2630_covers_source_plan.json'
 PLAN_SHA256='86692f3f8f170e6fe53e578f9c129409028303ef8831684a8b4cfb8eaceef8b9'
 SCHEMA='SEALED_ORIGINAL_FINITE2630_COVERS_V1'
 PASSES=('construct','replay')
+# Exact published source-adapter epochs. Pure completed-export admission may
+# request one after validating the complete corresponding implementation map.
+# New preparation/execution always requires this file's actual current hash.
+PRIOR_SOURCE_ADAPTERS=frozenset({
+ '0a03ca05ae2788118ea7c7c55e16d6b37443a222c0e21b9ee14f30fd267d167a',
+ '35213d6c838122bdd3df92b9f89c9097ef4c2d4f2f4eb8ef4211372c0b3f380b'})
 def dump(d):return(json.dumps(d,sort_keys=True,indent=2)+'\n').encode()
 def plan():
  need(digest(PLAN)==PLAN_SHA256,'Externally pinned full original cover selection');d=read(PLAN)
@@ -134,9 +140,11 @@ def prepare_stage(task,pass_name,name):
  b,report=derive_source((task/'provenance'/row['directory']/row['script']).read_bytes(),row,dependencies)
  (c/row['directory']/row['script']).write_bytes(b);log['entries'].append(dict(stage=name,report=report));p.write_bytes(dump(log));verify(task);return report
 
-def verify(task):
+def verify(task, *,completed_adapter_sha256=None):
  task=ordinary(task);d=plan();request=read(task/'SOURCES.json');profile=lane(request['lane'])
- need(request['schema']==SCHEMA and request['source_plan_sha256']==PLAN_SHA256 and request['source_adapter_sha256']==digest(__file__)
+ adapter=digest(__file__)if completed_adapter_sha256 is None else completed_adapter_sha256
+ need(type(adapter)is str and(adapter==digest(__file__)or adapter in PRIOR_SOURCE_ADAPTERS),'Known exact completed source-adapter epoch')
+ need(request['schema']==SCHEMA and request['source_plan_sha256']==PLAN_SHA256 and request['source_adapter_sha256']==adapter
   and request['sources']=={n:r['sha256']for n,r in d['source_files'].items()}and request['active_original_sources']=={n:r['sha256']for n,r in d['active_source_files'].items()}
   and request['historical_outputs_are_provenance_only']is True and all(request[k]is False for k in('arithmetic_computed','parent_acquisitions_verified','full_notebook59_completed','all_index_conclusion_verified')),'Exact truthful original cover source epoch')
  found=set()

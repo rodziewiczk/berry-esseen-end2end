@@ -1,0 +1,63 @@
+{
+  "all_index_conclusion_verified": false,
+  "arithmetic_computed": false,
+  "files": {
+    "OVERRIDES.json": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 448,
+      "member": "cutoff10_20261018/audit/chain10_14_join_v4/OVERRIDES.json",
+      "sha256": "dbbab2b2e8ff2ea6d1e3c1ef493deeaac00b64cf57104c573652ed9ae8f66d1c"
+    },
+    "PROOF.txt": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 10299,
+      "member": "cutoff10_20261018/audit/chain10_14_join_v4/PROOF.txt",
+      "sha256": "b24a6a3248cbffd1d453df4db45e66e200cd0d250f4006cae30f187594ffd931"
+    },
+    "check.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 20227,
+      "member": "cutoff10_20261018/audit/chain10_14_join_v4/check.py",
+      "sha256": "00608447b268f57a6d8a3dc01bb11583123bbdc1a6584191fd31036ec8282ede"
+    },
+    "common.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 9870,
+      "member": "cutoff10_20261018/audit/chain10_14_join_v4/common.py",
+      "sha256": "d36ae540058d64a8d9b83fe19a92d8adcb7812c6576e0d1778fc31af2b7e8b2a"
+    },
+    "composite_core.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 3524,
+      "member": "cutoff10_20261018/audit/chain10_14_join_v4/composite_core.py",
+      "sha256": "c37bbfad0f5650e0bf7fa51ccde5147e051c8cc12dc2868b65773ffafe7bc7e4"
+    },
+    "composites.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 16948,
+      "member": "cutoff10_20261018/audit/chain10_14_join_v4/composites.py",
+      "sha256": "3be3f7af864da3fdc628b8cfce2f243a65559111afa2d9f9e8f405846e2712ed"
+    },
+    "evidence.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 6431,
+      "member": "cutoff10_20261018/audit/chain10_14_join_v4/evidence.py",
+      "sha256": "11de8a26fbdce92b762c0df413b8a8bf4f440c15592a39da340fb0f98d40df17"
+    },
+    "families.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 9502,
+      "member": "cutoff10_20261018/audit/chain10_14_join_v4/families.py",
+      "sha256": "6493b1cad377902a32596540b59aa89f58ff5b0086cab27122b03091ea417800"
+    },
+    "selection.py": {
+      "archive": "cutoff5_10_15.zip",
+      "bytes": 1293,
+      "member": "cutoff10_20261018/audit/chain10_14_join_v4/selection.py",
+      "sha256": "a51eef27ec8c73add22a2c57b04ae92742e01198f95255a30db5029c7363bd29"
+    }
+  },
+  "license_sha256": "a34b9cee3859b8bc6a6ced1bedb56771244d8b6cfc38f2749dc2e776ca19ee95",
+  "schema": "ORIGINAL_FINITE1014_JOIN_REFERENCE_SOURCES_V1",
+  "scope": "Unchanged reference source bytes only, never imported as a mathematical module by the current join."
+}

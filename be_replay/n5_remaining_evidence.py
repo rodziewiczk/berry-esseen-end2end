@@ -20,10 +20,10 @@ MEMORY_BYTES=2048*src.MIB
 def metadata_module(name):
     """Load a pinned stdlib-only source/JSON adapter, never a math module."""
     import importlib
-    src.need(name in("c5_initial_one","c5_acquisition_plan","c5_resources_arithmetic"),"Fixed metadata-only adapter")
+    src.need(name in("c5_initial_one","c5_acquisition_plan","c5_resources_arithmetic","c5_resource_accept_port"),"Fixed metadata-only adapter")
     directory=src.VENDOR/"reproduction/all_indices";before=sys.path[:]
     closure=("c5_counts","c5_inputs","c5_high_one","c5_acquisition_plan","c5_initial_one",
-             "c5_resources_arithmetic","stable_guard","supervised")
+             "c5_resources_arithmetic","c5_resource_accept_port","stable_guard","supervised")
     if any(key in sys.modules and Path(getattr(sys.modules[key],"__file__","")).resolve()!=
            (directory/(key+".py")).resolve()for key in closure):
         for key in closure:sys.modules.pop(key,None)
@@ -64,12 +64,14 @@ def implementation():
 
 
 LEGACY_METADATA_READER_SHA256="c18d64bbd0691d90c7a89e359e659e2cbb6cc8d856149ce038cae37b5cf655b5"
+PRIOR_METADATA_IMPORT_READER_SHA256="85d110e15645fd7fdc3b0793177397c9e18f47348f2d76ab66afdaee87b76b72"
 
 
 def compatible_implementation(value):
-    """One exact prior reader; numerical/source/guard/controller pins unchanged."""
+    """Exact prior metadata readers; numerical/source/guard/controller pins unchanged."""
     current=implementation()
-    return value==current or value==dict(current,**{"n5_remaining_evidence.py":LEGACY_METADATA_READER_SHA256})
+    return value==current or any(value==dict(current,**{"n5_remaining_evidence.py":pin})
+        for pin in(LEGACY_METADATA_READER_SHA256,PRIOR_METADATA_IMPORT_READER_SHA256))
 
 
 def mapped(task, value, original):
@@ -209,8 +211,7 @@ def _resource_ports(task,original,base,row,d,python):
     # This frozen module is a stdlib-only AST/metadata adapter. transform()
     # parses original source and returns a whitelist report; no native AST is
     # compiled or executed by evidence validation.
-    spec=importlib.util.spec_from_file_location("n5_original_metadata_only_port",src.VENDOR/"reproduction/all_indices/c5_resource_accept_port.py")
-    port=importlib.util.module_from_spec(spec);spec.loader.exec_module(port)
+    port=metadata_module("c5_resource_accept_port")
     for stage in("replay","accept"):
         script=directory/(stage+".py")
         _,edits=port.transform(script.read_bytes(),selection["family"],stage)

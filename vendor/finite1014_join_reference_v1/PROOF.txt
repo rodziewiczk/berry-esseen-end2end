@@ -1,0 +1,163 @@
+Conditional actual10..14 chain: final check-only join design
+==========================================================
+This is a new theorem epoch. Mathematical conclusion, only after every edge
+closes: under the retained analytic framework A, the stated published
+Fourier/smoothing inputs F, and retained eventual-cutoff15 theorem T15,
+the sharp conjectural iid Berry--Esseen constant is valid for every n>=10.
+Unqualified cutoff10 is not asserted in this receipt because A and T15 are
+retained dependencies rather than newly proved global reductions.
+
+1. Same-law base at actual10
+The global auxiliary bound C9<.423 holds for every standardized marginal.
+For a hypothetical attained unrestricted positive closed sharp-contrary
+maximizer at10, the direct contact inequality yields support<=3 on the low
+moment range. The localized predecessor bound<.418 on rho[1.4,1.42]
+supplies the upper part of that coarse support cover. Every predecessor
+bound is all-threshold for the SAME marginal, not a selected CDF value.
+For rho[1,1.1] and[1.1,1.15], the supported C9 bounds .4196 and .416 give
+q=10*(cap-.4097)=.099 and .063. Direct contact then gives support2.3/2.4.
+Only after this support acquisition do the own C10 caps .4188/.4152 and
+the complete HIGH caps .345/.372 apply. The signed LOW callback requires
+no physical gap, permitting a genuinely unseeded INITIAL raw=D=None.
+Its first raw<2n/5 sign license precedes all physical D feedback.
+
+Each of the nine full INITIAL covers accounts for10368 signed-moment cells
+in the selected actual10 BN fine epoch and2592 in every other selected
+index/band. Every cover retains all100 closed probability panels. Eight
+ordered outward updates precede the final
+export. The final D<sqrt10-1 and acquired positive physical endpoints license
+the resource/count route; neither follows from the refuted moment-only D
+seed. All100 original p panels in each of the two bands are accounted for
+by a freshly replayed resource exclusion, a freshly accepted whole-panel
+count forest, or a complete named finite union of closed p-subpanel forests.
+Every forest retains all11 roots at10 and the original four non-p coordinate
+intervals; the original p interval is covered wholly or by the union in §6. Criterion failures, domain failures, partial forests and
+missing receipts leave the base open.
+
+The separate supported corner Fourier theorem covers rho[1.15,1.42] for
+support<=3; the universal high-rho theorem covers[1.42,infinity), including
+the published infinite-rho tail. The boundaries1.1,1.15,1.4,1.42 belong to
+both adjacent closed pieces. All reflected negative Kolmogorov branches
+are covered by applying the unrestricted oriented witness reduction to
+the whole reflected law, not by reflecting only sign probability p.
+
+2. Sequential actual11..14
+Assume the GLOBAL sharp theorem at n-1. Then every sharp-contrary attained
+witness at n has q=0 in the contact inequality. The fixed refined support
+is acquired before supported owncap/LOW/HIGH use. INITIAL/resources/counts
+are evaluated at the literal n and all n+1 nearest-count roots. Each local
+implication requires all200 original low-band panels and the same complete
+Fourier complement. The join propagates only consecutively from the freshly
+derived actual10 base. No monotonicity in n is used and no index is skipped.
+
+3. Check-only acceptance contract
+Every invocation reconstructs base10 directly from native selected receipts,
+panel dispositions, exact outward resource interfaces, closed forest geometry,
+and graph/capture bindings. It never reads a prior closure flag as evidence.
+The same invocation reconstructs local11..14 implications before sequential
+composition. Synthetic closure mutations prove that a missing base or failed
+step cannot be bypassed. Thus the earlier historical flag-only base weakness
+does not arise here.
+
+The native full semantic resource, INITIAL, Fourier and leaf replays supply
+the arithmetic. This join independently checks exact scopes, original panels,
+source graphs, capture identity, all n+1-root geometry, strict stored scores,
+outward interfaces and ordering. It makes no new count-oracle or quadrature
+calls. Its shared interface/geometry helper is a source-bound range port of
+the already independently derived prior checker, with explicit10..14 guards.
+
+The retained T15 receipt is bound and its graph checked for stability; it is
+not silently relabeled as freshly proved here. Its previously explicit
+eventual20 historical dependency and unresolved recorded source paths remain
+part of that retained qualification. A successful new numerical chain cannot
+discharge unrelated compactness, contact, inversion or tail obligations A.
+
+4. Exact execution and source identity
+The v2 join requires the exact Python executable, command, working directory,
+and final stdout status/scope/output digest for every INITIAL, coarse-support,
+and resource construction and replay. All recorded metadata input digests are
+bound to current immutable inputs; stable mandatory inputs include the replay
+candidate and the resource preparation/source files. INITIAL construction
+starts in an empty per-index output folder, so its logger can legitimately
+record no local input files; its external engine is instead bound through the
+complete PREPARED and candidate source graphs.
+
+For every accepted count row, the n/band/panel, current FROZEN digest and
+contract digest must agree. Both child captures must have their exact native
+commands, capsule working directory and action identity. Their entire JSON
+stdout must equal the selected construction/acceptance object. All24 math
+modules must match the pinned template; the constructor and count checker
+are reconstructed using an independently specified finite list of literal
+substitutions. SOURCE_TRANSFORMS is checked against that list and cannot
+authorize extra edits. This establishes source identity in addition to the
+independent geometry/interface checks; native leaf arithmetic remains the
+responsibility of the complete semantic replay.
+
+In-memory controls corrupt commands, working directories, output digests,
+stable input digests, count row identities, source-freeze hashes and source
+transformations. Each corruption must reject. Receipt flag changes alone
+cannot turn an incomplete base into a completed one.
+
+5. Exact selected whole-family replacement in v3
+This epoch selects the entire actual10 BN fine family:
+ analytic/initial10_BN_fine_v1/n10,
+ root/resource10_BN_fine_v1/BN,
+ root/count10_BN_fine_v1/BN.
+Every other actual index/band retains the original selected paths. The
+selection is hard-coded, source-bound and recorded in the output inventory;
+missing fine inputs never fall back to old BN evidence. Fine INITIAL has
+grid[12,24,12,3],10368 cells/cover,26 scope mutations plus2 parser controls,
+and its distinct native statuses/capture prefix. Independent fine-grid and
+fine resource/count source reviews are additional mandatory premises.
+
+The full fine BN resource inventory must point to those exact INITIAL result
+and replay digests. Each original panel's source must equal that fine export
+row, and every count contract/FROZEN/capture must point to the fine resource
+row. No mixture of old and new row lineages is allowed. Shared conditional
+resource/count status labels do not establish epoch identity: exact paths,
+content digests and independently reconstructed native sources do.
+
+All24 mathematical count modules, original d0<1/2 domain, sharp target,
+10000-node/depth128 limits and all n+1 roots remain unchanged. The proposed
+two-thirds inward extension and subpanel fallback are NOT inputs to v3.
+Old baseline BN domain failures and bounded construction failures remain
+preserved failed attempts. They supply no coverage to the selected fine BN
+chain. The numerical obligations of the new whole family must finish afresh.
+
+6. Current source status
+This design is prepared for coordinating review. Do not execute it until its
+sources and selected input paths are reviewed. A partial run writes only an
+available-evidence snapshot with explicit pending edges. A final closure
+requires the completed four Fourier readbacks, all selected INITIAL/support
+replays, all resource replays and every necessary native count acceptance.
+The preceding v1 is preserved and was never executed. Executed v2 is also
+preserved; its partial snapshot correctly left the old BN failures open.
+V3 is a distinct whole-family selection and awaits review before execution.
+
+6. Named finite closed p-subpanel overrides in v4
+The source-pinned override list selects a specific original n/band/panel.
+Its acquired contract Q and resource/INITIAL provenance are unchanged. For
+that original panel I=[L,U], choose rational L=t0<...<tm=U, with closed
+components[tj,t(j+1)]. Each component retains all n+1 count roots and the
+other four ORIGINAL coordinate intervals. Every witness in I belongs to
+at least one component. The same Q applies there by universal restriction;
+a complete forest for that component therefore excludes the witness or
+bounds its score. Finite union proves the original panel, with both sides
+of each seam included. No averaging or change of iid marginal is involved.
+
+The v4 join first checks the unchanged original resource-to-count interface.
+It reconstructs the original protocol from the pinned retained template,
+then checks only explicitly derived subdomain/header changes to obtain each
+new component protocol. No declared free-form source transform is executed.
+Each component's original contract bytes,24 math modules, exact subdomain,
+constructor/full-replay capture and stored geometry must agree. Root geometry
+uses the component p interval and the original four remaining intervals.
+All mathematical guards remain intact, including d0<1/2 and original Lambda.
+
+Each forest independently retains nodes<=10000 and depth<=128. With m
+components and L total leaves, the aggregate node identity is2L-m(n+1).
+Aggregate statistics distinguish original panels from component forests.
+One missing or failed component leaves the original panel pending; no partial
+union, existing failed whole-panel attempt, or editable closure flag can
+supply the missing coverage. All100 original panels per band remain the
+coverage target. No discovery or numerical leaf oracle runs in this join.

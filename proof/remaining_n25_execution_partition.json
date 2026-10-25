@@ -7,19 +7,19 @@
       "id": "b34",
       "title": "Lower B3/B4 supplemental and final interfaces",
       "full_scope": "B3 p30 S1 resource; current p31/p32 V14 contact and rounding; resolve p34 selector; all100 p outcomes for each branch and all remaining exact count interfaces.",
-      "blocker": "Reuse09/10,01--07,24,29/30. Two declared regional records/companion selectors are absent under their declared names; reconstruct an honest current semantic union from actual components."
+      "blocker": "The original B3/B4 regional selectors/results are recovered; B3p34 selects the exact V12 route. Reuse validated existing01--07/09/10/24/29/30. Current supplemental acquisitions and all semantic interfaces still remain."
     },
     {
       "id": "b5_missing",
-      "title": "Eleven unavailable lower B5 ordinary capsules",
-      "full_scope": "Seven V14 p26--32 and four V12 p33 closed quarters; recover exact sources/candidates or construct and fully accept a separately justified matching design.",
-      "blocker": "Original selected directories are unavailable, but complete eight-panel V12 bases and V14 additions are supplied. All four p33 contracts/checkers and seven honest new V14 source epochs are assembled and source-revalidated; fresh complete forests/acceptance remain required."
+      "title": "Eleven recovered original lower B5 forests",
+      "full_scope": "Replay all eleven unchanged original B5 forests with original 10000-node checkers and all24 controls. No discovery or header rewriting. Preserve same-law parent acquisitions and current interfaces.",
+      "blocker": "Recovery source preparation, full native replay orchestration and pure relocated readback are implemented. Fresh numerical runs and current same-law joins remain required."
     },
     {
       "id": "b5_mixed",
       "title": "Both lower B5 mixed p24/p25 routes",
       "full_scope": "Full original mixed acceptors, ordinary/scalar/derived/theorem leaves, all theorem IDs and same-law acquisition registries, plus complete37-panel B5 union.",
-      "blocker": "Both mixed forests/acceptors located; all93 native files, both original checkers and full mathematical rows are recovered into honest new parent source capsules. Current parent/header/registry adapters and complete mixed replay remain required; ordinary COUNT is not a substitute."
+      "blocker": "Original p24/p25 V14 source identities and producer gate are recovered. No replacement contract epoch is needed for missing bytes. Both complete mixed replays, theorem/scalar registries and current same-law parent acquisition remain unimplemented."
     },
     {
       "id": "upper_counts",
@@ -148,6 +148,11 @@
       "path": "proof/n25_b5_reconstruction_source_preparation.json",
       "bytes": 12656,
       "sha256": "0725466392c728c7a6bb68014ac209acdcad17fe82cc50e850b3cccf5e1ec769"
+    },
+    {
+      "path": "proof/n25_recovery_source_plan.json",
+      "bytes": 322623,
+      "sha256": "3952fc7bc5e4ce2a7f8434a65c641741392d02f84877d58cfdc38cadf480028b"
     }
   ],
   "physical_cover": {
@@ -200,134 +205,178 @@
     {
       "branch": "lower-b5",
       "target_id": "lower-b5-global_local_contact_b5_p26_v14",
-      "archive_key": "old",
+      "archive_key": "recovery",
       "capsule_member_prefix": "cutoff25_20261011/new_root/global_local_contact_b5_p26_v14/",
       "index": 26,
       "selection_status": "EXACT_FINAL_OUTCOME_SELECTED",
-      "capsule_member_supplied": false,
-      "contract_sha256": null,
-      "forest_sha256": null,
-      "checker_sha256": null
+      "capsule_member_supplied": true,
+      "contract_sha256": "20d80345cd31846190615acc7e821a02df387f26610cc989d0f14c9dfc4c0a24",
+      "forest_sha256": "1b5e22e08697afa47a6bfce99ef6eddc1b457ba4109c2dc7f24f048429b99a67",
+      "checker_sha256": "2b573bb5c34c93fb8b5843df8ed7614904c5fa8dcdfaee11a5495f30e95b9829",
+      "historical_archive_key": "old",
+      "historical_capsule_member_supplied": false,
+      "recovered_target": "b5-p26-v14-original",
+      "native_acceptance_run": false
     },
     {
       "branch": "lower-b5",
       "target_id": "lower-b5-global_local_contact_b5_p27_v14",
-      "archive_key": "old",
+      "archive_key": "recovery",
       "capsule_member_prefix": "cutoff25_20261011/new_root/global_local_contact_b5_p27_v14/",
       "index": 27,
       "selection_status": "EXACT_FINAL_OUTCOME_SELECTED",
-      "capsule_member_supplied": false,
-      "contract_sha256": null,
-      "forest_sha256": null,
-      "checker_sha256": null
+      "capsule_member_supplied": true,
+      "contract_sha256": "ca6cce4c7b4e04ad12c3bb5e8dc0181989fabcff67a890c4d951c636963a46a1",
+      "forest_sha256": "6c72021fcb53cc5aa710900ecd6ec68ec64bb934f0963a3f7187c7dfb8198a01",
+      "checker_sha256": "093b2345c138c0187a185daa6dc4da48c4c0c75775ac6ef3e70596c2a6fb688d",
+      "historical_archive_key": "old",
+      "historical_capsule_member_supplied": false,
+      "recovered_target": "b5-p27-v14-original",
+      "native_acceptance_run": false
     },
     {
       "branch": "lower-b5",
       "target_id": "lower-b5-global_local_contact_b5_p28_v14",
-      "archive_key": "old",
+      "archive_key": "recovery",
       "capsule_member_prefix": "cutoff25_20261011/new_root/global_local_contact_b5_p28_v14/",
       "index": 28,
       "selection_status": "EXACT_FINAL_OUTCOME_SELECTED",
-      "capsule_member_supplied": false,
-      "contract_sha256": null,
-      "forest_sha256": null,
-      "checker_sha256": null
+      "capsule_member_supplied": true,
+      "contract_sha256": "150fa04fa7ad70fd4721bb2a0521e628c72fc13995297ecf8ce9d0f0502f081d",
+      "forest_sha256": "89b578538d743ec5d8363c7b07d8c7285ad6afff88c54b6193ce072e96185b4d",
+      "checker_sha256": "e1bf1ab573c3033059bafc8d79fb156fde4ae0803f1bd3a041b53f0b2ccb55f5",
+      "historical_archive_key": "old",
+      "historical_capsule_member_supplied": false,
+      "recovered_target": "b5-p28-v14-original",
+      "native_acceptance_run": false
     },
     {
       "branch": "lower-b5",
       "target_id": "lower-b5-global_local_contact_b5_p29_v14",
-      "archive_key": "old",
+      "archive_key": "recovery",
       "capsule_member_prefix": "cutoff25_20261011/new_root/global_local_contact_b5_p29_v14/",
       "index": 29,
       "selection_status": "EXACT_FINAL_OUTCOME_SELECTED",
-      "capsule_member_supplied": false,
-      "contract_sha256": null,
-      "forest_sha256": null,
-      "checker_sha256": null
+      "capsule_member_supplied": true,
+      "contract_sha256": "c63451130e99fa9f3f2a1279af58d4aa220f5b46e7e4e673562911da0698145b",
+      "forest_sha256": "d6cc9f5115ac632a88833851daa4cfd5c44f400e88abb1cd7f93c3f1cfe5f67b",
+      "checker_sha256": "f1d20535e134fbb85b57c9f75df1d34b410209b2da72ecce12d5e616330edd2f",
+      "historical_archive_key": "old",
+      "historical_capsule_member_supplied": false,
+      "recovered_target": "b5-p29-v14-original",
+      "native_acceptance_run": false
     },
     {
       "branch": "lower-b5",
       "target_id": "lower-b5-global_local_contact_b5_p30_v14",
-      "archive_key": "old",
+      "archive_key": "recovery",
       "capsule_member_prefix": "cutoff25_20261011/new_root/global_local_contact_b5_p30_v14/",
       "index": 30,
       "selection_status": "EXACT_FINAL_OUTCOME_SELECTED",
-      "capsule_member_supplied": false,
-      "contract_sha256": null,
-      "forest_sha256": null,
-      "checker_sha256": null
+      "capsule_member_supplied": true,
+      "contract_sha256": "5babcf9b58d37681ac58bdf79c2ea9e3a9021c9805ef1cf5312454059a2b8cde",
+      "forest_sha256": "ad68ed554d519480331cb4ec8b4f6de6efad103c2a925b699ff0f36a4e9472d5",
+      "checker_sha256": "e3ac7cb89e819552f3dfa21b4548e70557626d86069d8e8c20c5ef4763912e7e",
+      "historical_archive_key": "old",
+      "historical_capsule_member_supplied": false,
+      "recovered_target": "b5-p30-v14-original",
+      "native_acceptance_run": false
     },
     {
       "branch": "lower-b5",
       "target_id": "lower-b5-global_local_contact_b5_p31_v14",
-      "archive_key": "old",
+      "archive_key": "recovery",
       "capsule_member_prefix": "cutoff25_20261011/new_root/global_local_contact_b5_p31_v14/",
       "index": 31,
       "selection_status": "EXACT_FINAL_OUTCOME_SELECTED",
-      "capsule_member_supplied": false,
-      "contract_sha256": null,
-      "forest_sha256": null,
-      "checker_sha256": null
+      "capsule_member_supplied": true,
+      "contract_sha256": "1f01f03ea6d0e6e0c7cffe1082a7ed4ab03bd3495838472afe313bf559736b21",
+      "forest_sha256": "1443af783e891648893f66b7e811a95d1ea1ad3f44ca12411fc6adec385cbf87",
+      "checker_sha256": "609b5aba07f30aaf122eba0612899b214811b27a66259167493e534e3774cac2",
+      "historical_archive_key": "old",
+      "historical_capsule_member_supplied": false,
+      "recovered_target": "b5-p31-v14-original",
+      "native_acceptance_run": false
     },
     {
       "branch": "lower-b5",
       "target_id": "lower-b5-global_local_contact_b5_p32_v14",
-      "archive_key": "old",
+      "archive_key": "recovery",
       "capsule_member_prefix": "cutoff25_20261011/new_root/global_local_contact_b5_p32_v14/",
       "index": 32,
       "selection_status": "EXACT_FINAL_OUTCOME_SELECTED",
-      "capsule_member_supplied": false,
-      "contract_sha256": null,
-      "forest_sha256": null,
-      "checker_sha256": null
+      "capsule_member_supplied": true,
+      "contract_sha256": "3f94a1222adab4fc8df255e337576526ba27e48a7d68207cac49218747c84c7c",
+      "forest_sha256": "b246c9578d17cac0de0583fc973839a3664260154bc75cfbec2a4490ac937c92",
+      "checker_sha256": "d30aae390f90b1144876b19b9e23d720fb79ee535405384eb71b9b22cf28418a",
+      "historical_archive_key": "old",
+      "historical_capsule_member_supplied": false,
+      "recovered_target": "b5-p32-v14-original",
+      "native_acceptance_run": false
     },
     {
       "branch": "lower-b5",
       "target_id": "lower-b5-global_alpha_stoploss2_b5_p33_q0_v12",
-      "archive_key": "old",
+      "archive_key": "recovery",
       "capsule_member_prefix": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p33_q0_v12/",
       "index": 33,
       "selection_status": "EXACT_FINAL_OUTCOME_SELECTED",
-      "capsule_member_supplied": false,
-      "contract_sha256": null,
-      "forest_sha256": null,
-      "checker_sha256": null
+      "capsule_member_supplied": true,
+      "contract_sha256": "6f5028b3446c219036213ae2dc71ae4abc2736f6cec2cd97f628af0bf7a53899",
+      "forest_sha256": "a0597c4fe23124c7c2171cf848350ad081d994ec18a27a44e5f34000d5d278a7",
+      "checker_sha256": "6dae8c9c458f5f0c50d18068127f16817a5031dc57cc9f255a349b90de426813",
+      "historical_archive_key": "old",
+      "historical_capsule_member_supplied": false,
+      "recovered_target": "b5-p33-q0-v12-original",
+      "native_acceptance_run": false
     },
     {
       "branch": "lower-b5",
       "target_id": "lower-b5-global_alpha_stoploss2_b5_p33_q1_v12",
-      "archive_key": "old",
+      "archive_key": "recovery",
       "capsule_member_prefix": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p33_q1_v12/",
       "index": 33,
       "selection_status": "EXACT_FINAL_OUTCOME_SELECTED",
-      "capsule_member_supplied": false,
-      "contract_sha256": null,
-      "forest_sha256": null,
-      "checker_sha256": null
+      "capsule_member_supplied": true,
+      "contract_sha256": "21c223abc6d499e4f3b098746ea32d2f1b3a204e1bc220aed68d1d4d9e175307",
+      "forest_sha256": "5d8cea400fde4a60bd12f1562225c252271358f5c49e5b8bd175107516029fdb",
+      "checker_sha256": "98d854d103bbd36d8661f31cd098647eac0200d83204cc09f2316f24b9eeb6c7",
+      "historical_archive_key": "old",
+      "historical_capsule_member_supplied": false,
+      "recovered_target": "b5-p33-q1-v12-original",
+      "native_acceptance_run": false
     },
     {
       "branch": "lower-b5",
       "target_id": "lower-b5-global_alpha_stoploss2_b5_p33_q2_v12",
-      "archive_key": "old",
+      "archive_key": "recovery",
       "capsule_member_prefix": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p33_q2_v12/",
       "index": 33,
       "selection_status": "EXACT_FINAL_OUTCOME_SELECTED",
-      "capsule_member_supplied": false,
-      "contract_sha256": null,
-      "forest_sha256": null,
-      "checker_sha256": null
+      "capsule_member_supplied": true,
+      "contract_sha256": "e812f6eb46a503a65c17d3b5f71f8193e0b05e260c29705bfec62720bfc89008",
+      "forest_sha256": "a58db43fefafbb357a3bc9baffd047426442905616df3f4a20dbbfbd7c19805b",
+      "checker_sha256": "8d04720be1d8bb97d266811761b5eff5c8fe2a40aacc555c306a6823ecd0a2a6",
+      "historical_archive_key": "old",
+      "historical_capsule_member_supplied": false,
+      "recovered_target": "b5-p33-q2-v12-original",
+      "native_acceptance_run": false
     },
     {
       "branch": "lower-b5",
       "target_id": "lower-b5-global_alpha_stoploss2_b5_p33_q3_v12",
-      "archive_key": "old",
+      "archive_key": "recovery",
       "capsule_member_prefix": "cutoff25_20261011/new_root/global_alpha_stoploss2_b5_p33_q3_v12/",
       "index": 33,
       "selection_status": "EXACT_FINAL_OUTCOME_SELECTED",
-      "capsule_member_supplied": false,
-      "contract_sha256": null,
-      "forest_sha256": null,
-      "checker_sha256": null
+      "capsule_member_supplied": true,
+      "contract_sha256": "1d446aac04cb3eae979b0f74254e66cb7bea0a4f663e68b7ae4d7dcc6d5799f7",
+      "forest_sha256": "d27d5b1933c0b7cf5ef14e1c8ce4f44946298a0f5e8417186bb2c2a7cca15b62",
+      "checker_sha256": "6025c3cd3620e355bfc7c1a998f4e05196674f72ce3dfaa544f0db933a7fa626",
+      "historical_archive_key": "old",
+      "historical_capsule_member_supplied": false,
+      "recovered_target": "b5-p33-q3-v12-original",
+      "native_acceptance_run": false
     },
     {
       "branch": "upper-retained-graph",
@@ -450,8 +499,8 @@
       "checker_sha256": "5857c5338e57c660b9c55d6a875970fe428fa3027ca3551df53193909f9046db"
     }
   ],
-  "missing_ordinary_capsules": 11,
-  "supplied_additional_ordinary_forests": 10,
+  "missing_ordinary_capsules": 0,
+  "supplied_additional_ordinary_forests": 21,
   "mixed_selected_components": [
     {
       "branch": "lower-b5",
@@ -2097,5 +2146,22 @@
   "runnable": false,
   "all_index_conclusion_verified": false,
   "arithmetic_executed_for_this_plan": false,
-  "warning": "One fixed delivery container does not solve missing sources or prove that a substitute route succeeds. Its blocked cases remain mandatory."
+  "warning": "Recovery resolves eleven original ordinary source/candidate gaps, not their arithmetic or the nine-section66. Frozen historical catalogues describe the earlier archive availability.",
+  "historical_missing_ordinary_capsules": 11,
+  "recovered_ordinary_capsules": 11,
+  "original_recovery": {
+    "source_plan": "proof/n25_recovery_source_plan.json",
+    "source_plan_sha256": "3952fc7bc5e4ce2a7f8434a65c641741392d02f84877d58cfdc38cadf480028b",
+    "asset_sha256": "3aac9416c286f14465037629f2aa692f1b3f5d2f216ad48821fbb581cc3c70f6",
+    "selected_ordinary_leaves": 32093,
+    "mode": "recovered-original",
+    "discovery_required": false,
+    "original_node_limit": 10000,
+    "source_bytes_modified": false,
+    "mixed_parent_sources_recovered": true,
+    "mixed_replay_implemented": false,
+    "regional_references_recovered": true,
+    "native_acceptance_run": false,
+    "full66_complete": false
+  }
 }

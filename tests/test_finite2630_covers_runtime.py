@@ -183,6 +183,20 @@ class Covers(unittest.TestCase):
   task,result=self.complete();p=s.capsule(task,'construct').parent/'PORTS.json';d=s.read(p);d['entries'][2]['report']['all_other_bytes_unchanged']=False;put(p,d)
   with self.assertRaises(ValueError):e.validate_completed(task)
 
+ def test_new_execution_cannot_use_historical_source_adapter(self):
+  task=self.root/'fresh-source';s.prepare('b2',self.cache,task)
+  request=s.read(task/'SOURCES.json');request['source_adapter_sha256']=next(iter(s.PRIOR_SOURCE_ADAPTERS));put(task/'SOURCES.json',request)
+  with self.assertRaises(ValueError):s.verify(task)
+  with self.assertRaises(ValueError):s.prepare_stage(task,'construct',s.lane('b2')['stages'][0])
+
+ def test_completed_and_observed_epochs_cannot_be_mixed(self):
+  task,result=self.complete(label='mixed-epochs')
+  record=s.read(task/'STAGE_OBSERVED.json')
+  record['implementation']=e.PRIOR_IMPLEMENTATION_BASE|{'finite2630_covers_sources.py':next(iter(s.PRIOR_SOURCE_ADAPTERS))}
+  pin=put(task/'STAGE_OBSERVED.json',record)
+  complete=s.read(task/'STAGE_COMPLETED.json');complete['observed_sha256']=pin;put(task/'STAGE_COMPLETED.json',complete)
+  with self.assertRaises(ValueError):e.validate_completed(task)
+
  def test_second_session_reuses_complete_lane_without_any_native_or_download(self):
   task,result=self.complete();cache=self.root/'drive/finite2630-covers-b2/completed'/s.PLAN_SHA256[:16];r.save_completed(task,cache)
   # Short synthetic run identifiers keep the real original relative paths
@@ -207,6 +221,16 @@ class Covers(unittest.TestCase):
   self.assertFalse(out['status']['conditional_cover_arithmetic_completed']);self.assertIn('ACTUAL SYNTHETIC COVER FAILURE',out['status']['error']);self.assertTrue(Path(out['bundle']).is_file())
 
 class ActualSourcePlan(unittest.TestCase):
+ def test_completed_compatibility_requires_whole_known_implementation_epoch(self):
+  for adapter in s.PRIOR_SOURCE_ADAPTERS:
+   record=e.PRIOR_IMPLEMENTATION_BASE|{'finite2630_covers_sources.py':adapter}
+   self.assertEqual(e.completed_implementation_adapter(record),adapter)
+   for name in record:
+    wrong=dict(record);wrong[name]='0'*64
+    with self.subTest(adapter=adapter,name=name),self.assertRaises(ValueError):e.completed_implementation_adapter(wrong)
+   extra=dict(record,unbound_helper='a'*64)
+   with self.assertRaises(ValueError):e.completed_implementation_adapter(extra)
+
  def test_actual_source_only_selection_domains_and_complete_original_control_censuses(self):
   d=s.plan();self.assertEqual(len(d['source_files']),48);self.assertEqual(len(d['active_source_files']),34)
   self.assertEqual((s.lane('b2')['rows'],s.lane('higher')['rows']),(115,215));self.assertEqual((s.lane('b2')['closed_strips'],s.lane('higher')['closed_strips']),(23,43))

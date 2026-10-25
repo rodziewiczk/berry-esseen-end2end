@@ -15,6 +15,27 @@ def implementation():
  names=('finite2630_covers.py','finite2630_covers_sources.py','finite2630_covers_evidence.py','finite1039_sources.py',
   'finite1039_count_evidence.py','n5_remaining_sources.py','linux_supervisor.py','colab_batch.py')
  return{n:src.digest(src.ROOT/'be_replay'/n)for n in names}|dict(source_plan_sha256=src.PLAN_SHA256)
+
+# Both published readers have identical numerical/evidence predicates. The
+# later source adapter only restores the Python3.12 AST spelling on3.13.
+# Compatibility is for the exact WHOLE recorded map, never one arbitrary hash.
+PRIOR_IMPLEMENTATION_BASE={
+ 'finite2630_covers.py':'abc92fcb461c16a77696e7991d760cc2dbd7bf33db753e3bba0ba52b58f01714',
+ 'finite2630_covers_evidence.py':'d2dc8cbe3513e55f2e06c246f5351231671f1f2482f05a497ae2621d9052f3c1',
+ 'finite1039_sources.py':'6a34be3e362d2a9cfe34b52bf1c0f1872cd4fe45afa8cf2acf82a232b4da1c95',
+ 'finite1039_count_evidence.py':'7dae50a7d2756faa30d229ae02fb15d678db4cbaa837be43518c10af5af85cfa',
+ 'n5_remaining_sources.py':'17f8d9b3bcdce510574901be83684a630d54cc8d2f6251856b7737bbd85aaaab',
+ 'linux_supervisor.py':'61e71dd4a9653de2bbbee8c54928a1f5c5bffd0bf083dd324851716c3a1eaea2',
+ 'colab_batch.py':'136bc2bb9b25cb8cd36118041bf593821f3cbdea5debee82b27ccb7626c0d1e6',
+ 'source_plan_sha256':'86692f3f8f170e6fe53e578f9c129409028303ef8831684a8b4cfb8eaceef8b9'}
+
+def completed_implementation_adapter(record):
+ src.need(type(record)is dict,'Exact whole recorded implementation map')
+ if same(record,implementation()):return record['finite2630_covers_sources.py']
+ for adapter in src.PRIOR_SOURCE_ADAPTERS:
+  expected=PRIOR_IMPLEMENTATION_BASE|{'finite2630_covers_sources.py':adapter}
+  if same(record,expected):return adapter
+ raise ValueError('Unknown completed original cover implementation epoch')
 def original_path(request,pass_name,relative=''):
  root=request['original_task_root'];cls=PureWindowsPath if re.match(r'^[A-Za-z]:',root)else PurePosixPath
  src.need(cls(root).is_absolute(),'One original absolute task context');return str(cls(root)/'passes'/pass_name/'capsule'/relative)
@@ -131,9 +152,10 @@ def validate_stage(task,request,pass_name,name,observed,report):
  stdout_matches(stdout,name,objects[src.output_paths(name)[-1]],c/src.output_paths(name)[-1]);return objects,bodies
 
 def validate_run(task,report):
- task=src.ordinary(task);request=src.verify(task);profile=src.lane(request['lane'])
+ task=src.ordinary(task);adapter=completed_implementation_adapter(report['implementation'])
+ request=src.verify(task,completed_adapter_sha256=adapter);profile=src.lane(request['lane'])
  src.need(report['schema']==OBSERVED and report['scope']==SCOPE and report['original_task_root']==request['original_task_root']
-  and report['lane']==request['lane']and same(report['implementation'],implementation())and type(report['python_version'])is str and bool(report['python_version'])
+  and report['lane']==request['lane']and type(report['python_version'])is str and bool(report['python_version'])
   and report['conditional_cover_arithmetic_completed']is False and all(report[k]is False for k in FLAGS),'Exact current two-pass source epoch and unaccepted observed ledger')
  expected=[(p,n)for p in src.PASSES for n in profile['stages']];actions=report['actions']
  src.need(type(actions)is list and[(a['pass_name'],a['stage'])for a in actions]==expected,'Both complete unskipped original native pipelines')
@@ -166,10 +188,10 @@ def validate_run(task,report):
   fresh_five_row_pilot_in_each_pass=True,all_closed_seams_verified=True,source_plan_sha256=src.PLAN_SHA256)
 
 def validate_completed(task, *,original_task_root=None):
- task=src.ordinary(task);request=src.verify(task)
+ task=src.ordinary(task);d=src.read(task/'STAGE_COMPLETED.json');o=src.read(task/'STAGE_OBSERVED.json')
+ adapter=completed_implementation_adapter(d['implementation']);request=src.verify(task,completed_adapter_sha256=adapter)
  if original_task_root is not None:src.need(str(original_task_root)==request['original_task_root'],'Single preserved originating source/capture context')
- d=src.read(task/'STAGE_COMPLETED.json');o=src.read(task/'STAGE_OBSERVED.json')
- src.need(d['schema']==COMPLETED and d['scope']==SCOPE and d['lane']==request['lane']and same(d['implementation'],implementation())
+ src.need(d['schema']==COMPLETED and d['scope']==SCOPE and d['lane']==request['lane']and same(d['implementation'],o['implementation'])
   and d['observed_sha256']==src.digest(task/'STAGE_OBSERVED.json')and d['conditional_cover_arithmetic_completed']is True
   and all(d[k]is False for k in FLAGS),'Complete typed two-pass ledger, without support/parent/global promotion')
  summary=validate_run(task,o);src.need(same(d['summary'],summary)and same(d['artifacts'],inventory(task)),'Full original/provenance/port/stopped-output inventory')

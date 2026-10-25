@@ -25,6 +25,7 @@ def cell(kind, text, label):
 def common(pin, task):
     code = f'''from pathlib import Path
 import subprocess, sys, json, os, time
+sys.dont_write_bytecode = True
 CODE_COMMIT = "{pin}"
 TASK = "{task}"
 REPOSITORY = "https://github.com/rodziewiczk/berry-esseen-end2end.git"
@@ -37,6 +38,7 @@ observed = subprocess.check_output(["git", "-C", str(CODE), "rev-parse", "HEAD"]
 if observed != CODE_COMMIT:
     raise RuntimeError("Source commit mismatch")
 subprocess.run(["git", "-C", str(CODE), "diff", "--exit-code", "HEAD", "--"], check=True)
+(CODE / "work").mkdir(exist_ok=True)
 # A rerun in an existing Colab kernel must not reuse modules from an older pin.
 for module_name in tuple(sys.modules):
     if module_name == "be_replay" or module_name.startswith("be_replay."):
@@ -50,6 +52,7 @@ print("Source code and environment recorded. Mathematical acceptance has not yet
 '''
     drive = '''from google.colab import drive
 drive.mount("/content/drive")
+BERRY_ESSEEN_DRIVE_MOUNTED = True
 DURABLE = Path("/content/drive/MyDrive/Berry-Esseen-end2end")
 DURABLE.mkdir(parents=True, exist_ok=True)
 print("Logs and checkpoints:", DURABLE, flush=True)
@@ -80,20 +83,54 @@ def finish():
 from google.colab import files
 print("Execution status:", RESULT["status"]["state"], flush=True)
 print("The global proof remains unverified.", flush=True)
-print("Results ZIP on Google Drive:", RESULT["bundle"], flush=True)
-display(FileLink(RESULT["bundle"]))
+packet = RESULT["bundle"]
+bundle_path = packet["path"] if isinstance(packet, dict) else packet
+print("Results ZIP on Google Drive:", bundle_path, flush=True)
+display(FileLink(bundle_path))
 try:
-    files.download(RESULT["bundle"])
+    files.download(bundle_path)
 except Exception as error:
     print("Download the ZIP from the Google Drive path shown above:", error, flush=True)
 ''', "download-result")
+
+def shutdown():
+    """Return a self-contained final cell; no change to the pinned runtime code."""
+    return cell("code", '''# FINAL CELL: flush saved Drive results and release the Colab runtime.
+# Runs after the final results ZIP is saved, including WAITING/INCOMPLETE.
+# Do not run this cell manually while calculations or result writes are active.
+# A synchronization error stops this cell BEFORE the runtime is released.
+import os as _shutdown_os
+import sys as _shutdown_sys
+
+_managed_colab = (globals().get("BERRY_ESSEEN_DRIVE_MOUNTED") is True
+                  or bool(_shutdown_os.environ.get("TBE_RUNTIME_ADDR")))
+if not _managed_colab:
+    print("Outside a managed Colab runtime; skipping shutdown.", flush=True)
+else:
+    from google.colab import drive as _shutdown_drive
+    from google.colab import runtime as _shutdown_runtime
+
+    print("Flushing saved results to Google Drive...", flush=True)
+    _shutdown_sys.stdout.flush()
+    _shutdown_sys.stderr.flush()
+    _shutdown_os.sync()
+    _shutdown_drive.flush_and_unmount(timeout_ms=300_000)
+    print("Drive synchronization finished. Releasing the Colab runtime.", flush=True)
+    _shutdown_runtime.unassign()
+''', "shutdown-runtime")
+
+
+def with_shutdown(cells):
+    """Keep one canonical shutdown cell at the end, without mutating input cells."""
+    return [c for c in cells if c.get("id") != "shutdown-runtime"] + [shutdown()]
+
 
 def notebook(cells, title):
     return {"nbformat":4, "nbformat_minor":5,
             "metadata":{"colab":{"name":title,"provenance":[]},
                         "kernelspec":{"name":"python3","display_name":"Python 3"},
                         "language_info":{"name":"python"}},
-            "cells":cells}
+            "cells":with_shutdown(cells)}
 
 def make_count(pin, stem, target):
     intro = f'''# Berry–Esseen: {target} — CPU computation, logs and checkpoints

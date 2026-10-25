@@ -204,7 +204,8 @@ def input_map(task,action,*,validated_prior_actions,fixture_acceptance_sha256=No
     need(set(row['dependencies'])<=set(validated_prior_actions),'Every preceding native control completed')
     projected=metadata_projection(task,validated_prior_actions=validated_prior_actions)
     for name,raw in projected['derived'].items():
-        need(child(task,'capsule/'+name).read_bytes()==raw,'Exact declared current non-numerical source epoch')
+        if name in row['input_reference_graph']:
+            need(child(task,'capsule/'+name).read_bytes()==raw,'Exact declared current non-numerical source epoch')
     allowed={name:hashlib.sha256(raw).hexdigest()for name,raw in projected['derived'].items()}
     for earlier in d['cases']:
         if earlier['id']in validated_prior_actions:

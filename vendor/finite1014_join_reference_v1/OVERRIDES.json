@@ -1,0 +1,31 @@
+{
+  "schema": "FOUR_CLOSED_P_COMPONENTS_PER_SELECTED_ORIGINAL_PANEL_V1",
+  "selection_frozen": true,
+  "rows": [
+    {
+      "n": 10,
+      "band": "BN",
+      "index": 42
+    },
+    {
+      "n": 11,
+      "band": "BN",
+      "index": 39
+    },
+    {
+      "n": 11,
+      "band": "BN",
+      "index": 40
+    },
+    {
+      "n": 11,
+      "band": "BN",
+      "index": 41
+    },
+    {
+      "n": 11,
+      "band": "BN",
+      "index": 42
+    }
+  ]
+}
